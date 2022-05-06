@@ -1,0 +1,14 @@
+(window["canvasWebpackJsonp"] = window["canvasWebpackJsonp"] || []).push([[3859],{
+
+/***/ "TyUz":
+/*!***************************************************!*\
+  !*** ./node_modules/fullcalendar/dist/lang/da.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!function(a){ true?!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(/*! jquery */ \"ouhR\"),__webpack_require__(/*! moment */ \"wd/R\")], __WEBPACK_AMD_DEFINE_FACTORY__ = (a),\n\t\t\t\t__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?\n\t\t\t\t(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),\n\t\t\t\t__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)):undefined}(function(a,b){(b.defineLocale||b.lang).call(b,\"da\",{months:\"januar_februar_marts_april_maj_juni_juli_august_september_oktober_november_december\".split(\"_\"),monthsShort:\"jan_feb_mar_apr_maj_jun_jul_aug_sep_okt_nov_dec\".split(\"_\"),weekdays:\"søndag_mandag_tirsdag_onsdag_torsdag_fredag_lørdag\".split(\"_\"),weekdaysShort:\"søn_man_tir_ons_tor_fre_lør\".split(\"_\"),weekdaysMin:\"sø_ma_ti_on_to_fr_lø\".split(\"_\"),longDateFormat:{LT:\"HH:mm\",LTS:\"LT:ss\",L:\"DD/MM/YYYY\",LL:\"D. MMMM YYYY\",LLL:\"D. MMMM YYYY LT\",LLLL:\"dddd [d.] D. MMMM YYYY LT\"},calendar:{sameDay:\"[I dag kl.] LT\",nextDay:\"[I morgen kl.] LT\",nextWeek:\"dddd [kl.] LT\",lastDay:\"[I går kl.] LT\",lastWeek:\"[sidste] dddd [kl] LT\",sameElse:\"L\"},relativeTime:{future:\"om %s\",past:\"%s siden\",s:\"få sekunder\",m:\"et minut\",mm:\"%d minutter\",h:\"en time\",hh:\"%d timer\",d:\"en dag\",dd:\"%d dage\",M:\"en måned\",MM:\"%d måneder\",y:\"et år\",yy:\"%d år\"},ordinalParse:/\\d{1,2}\\./,ordinal:\"%d.\",week:{dow:1,doy:4}}),a.fullCalendar.datepickerLang(\"da\",\"da\",{closeText:\"Luk\",prevText:\"&#x3C;Forrige\",nextText:\"Næste&#x3E;\",currentText:\"Idag\",monthNames:[\"Januar\",\"Februar\",\"Marts\",\"April\",\"Maj\",\"Juni\",\"Juli\",\"August\",\"September\",\"Oktober\",\"November\",\"December\"],monthNamesShort:[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"Maj\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Okt\",\"Nov\",\"Dec\"],dayNames:[\"Søndag\",\"Mandag\",\"Tirsdag\",\"Onsdag\",\"Torsdag\",\"Fredag\",\"Lørdag\"],dayNamesShort:[\"Søn\",\"Man\",\"Tir\",\"Ons\",\"Tor\",\"Fre\",\"Lør\"],dayNamesMin:[\"Sø\",\"Ma\",\"Ti\",\"On\",\"To\",\"Fr\",\"Lø\"],weekHeader:\"Uge\",dateFormat:\"dd-mm-yy\",firstDay:1,isRTL:!1,showMonthAfterYear:!1,yearSuffix:\"\"}),a.fullCalendar.lang(\"da\",{buttonText:{month:\"Måned\",week:\"Uge\",day:\"Dag\",list:\"Agenda\"},allDayText:\"Hele dagen\",eventLimitText:\"flere\"})});\n\n//# sourceURL=webpack:///./node_modules/fullcalendar/dist/lang/da.js?");
+
+/***/ })
+
+}]);

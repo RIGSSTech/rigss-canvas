@@ -1,0 +1,15 @@
+(window["canvasWebpackJsonp"] = window["canvasWebpackJsonp"] || []).push([[3641],{
+
+/***/ "K+Q/":
+/*!*******************************************************************!*\
+  !*** ./ui/features/permissions/react/templates/manage_rubrics.js ***!
+  \*******************************************************************/
+/*! exports provided: template */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"template\", function() { return template; });\n/* harmony import */ var _canvas_i18n__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @canvas/i18n */ \"HGxv\");\n/* harmony import */ var _generateActionTemplates__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../generateActionTemplates */ \"nkr0\");\n/*\n * Copyright (C) 2021 - present Instructure, Inc.\n *\n * This file is part of Canvas.\n *\n * Canvas is free software: you can redistribute it and/or modify it under\n * the terms of the GNU Affero General Public License as published by the Free\n * Software Foundation, version 3 of the License.\n *\n * Canvas is distributed in the hope that it will be useful, but WITHOUT ANY\n * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR\n * A PARTICULAR PURPOSE. See the GNU Affero General Public License for more\n * details.\n *\n * You should have received a copy of the GNU Affero General Public License along\n * with this program. If not, see <http://www.gnu.org/licenses/>.\n */\n\n\nconst I18n = Object(_canvas_i18n__WEBPACK_IMPORTED_MODULE_0__[\"useScope\"])('permissions_templates_41');\nconst template = Object(_generateActionTemplates__WEBPACK_IMPORTED_MODULE_1__[\"generateActionTemplates\"])([{\n  title: I18n.t('Rubrics'),\n  description: I18n.t('Determines visibility and management of the Rubrics link in Account Navigation.')\n}, {\n  description: I18n.t('Allows user to create, edit, and delete rubrics.')\n}], [{\n  title: I18n.t('Assignments'),\n  description: I18n.t('Users can access and create (but not edit) individual assignment rubrics through Assignments when Course Content - view and Assignments and Quizzes - add are enabled.')\n}], [{\n  title: I18n.t('Rubrics'),\n  description: I18n.t('Determines visibility and management of Rubrics link in Account Navigation.')\n}, {\n  description: I18n.t('Allows user to view the Rubrics link in Course Navigation.')\n}, {\n  description: I18n.t('Allows user to create, edit, and delete course rubrics.')\n}], [{\n  title: I18n.t('Assignments'),\n  description: I18n.t('Users can access and create (but not edit) individual assignment rubrics through Assignments when Assignments and Quizzes - add is enabled.')\n}]);\n\n//# sourceURL=webpack:///./ui/features/permissions/react/templates/manage_rubrics.js?");
+
+/***/ })
+
+}]);

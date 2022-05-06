@@ -1,0 +1,5518 @@
+import { setRootTranslations, setLazyTranslations } from '@canvas/i18n/mergeI18nTranslations.js'; (function(setRootTranslations, setLazyTranslations) {
+
+setRootTranslations("fa", function() { return {"1_item_scores_5512cd03":"نمره های 1 موردی","2_final_score_7b0fd15e":"2 تا نمره نهایی","_b4455c8b":"%","a_file_named_name_already_exists_in_this_folder_do_e39de0b2":"یک فایل با عنوان \"%{name}\" از قبل موجود است. می خواهید با فایل موجود جایگزین شود؟","a_locked_file_named_name_already_exists_in_this_fo_33ca9a0c":"یک مورد قفل شده به نام \"%{name}\" در حال حاضر در این مکان وجود دارد. لطفا یک نام جدید وارد کنید.","accept_2fdd362e":"قبول","access_token_count_access_token_count_dfb5463c":"تعداد نشانه دسترسی: \n%{access_token_count}","account_97b34646":"حساب","account_navigation_80bbefd4":"پیمایش حساب","account_settings_fe083453":"تنظیمات حساب","act_as_name_16d15bfa":"عمل به عنوان %{name}","act_as_user_d7ef0e48":"عمل به عنوان کاربر","actions_efcde10d":"اقدام ها","active_d7e32718":"فعال","add_8523c19b":"افزودن","add_cc_subtitle_a9ef4a66":"اضافه کردن کریتیو کامنز/زیرنویس","add_group_c84f9e9d":"افزودن گروه","add_group_set_f9809e11":"افزودن مجموعه گروه","add_mastery_level_76469d98":"سطح تسلط را اضافه کنید","add_new_caption_or_subtitle_59d2d044":"اضافه کردن عنوان یا زیرنویس جدید","add_subtitle_9f660cc":"زیرنویس را اضافه کن","add_to_student_to_do_58e66b4b":"افزودن به فهرست اقدام دانشجو","added_caption_1895db92":"عنوان اضافه شده","admin_4d3ba42f":"مدیر","admin_tools_logging_tab_680698f3":"ابزارهای مدیر (زبانه در حال ورود)","admins_3e1dce15":"مدیرها","after_4c71e718":"بعد از ","all_4321c3a1":"همه","all_accounts_3bafc860":"همه حساب‌ها","all_changes_were_saved_f6f3ddcc":"همه تغییرات ذخیره شد","all_courses_a7dbb853":"همه درس‌ها","all_dates_fields_must_be_present_and_formatted_cor_3a0fe925":"همه قسمت های تاریخ باید موجود باشد و به درستی قالب بندی شده باشد","all_grading_periods_77974940":"همه دوره های نمره گذازی","all_grading_periods_must_have_a_title_a1a38d87":"همه دوره های نمره گذاری باید عنوان داشته باشند","all_groups_cea25817":"همه گروه‌ها","all_roles_f3bba14d":"همه نقش‌ها","all_sections_daf11554":"همه بخش‌ها","all_start_dates_must_be_before_the_end_date_d949eca9":"همه تاریخ های شروع باید قبل از تاریخ پایان باشند","all_subjects_5a42cfdb":"همه ی موضوعات","all_terms_cd27b0fb":"همه نیمسال‌ها","allows_user_to_add_discussions_in_the_discussions__1b3d9a53":"اجازه دادن به کاربر جهت شرکت در بحث ها در صفحه بحث و گفتگوها","allows_user_to_add_new_assignments_to_a_module_51ae198c":"به کاربر اجازه می‌دهد تکالیف جدید را به ماژول اضافه کند.","allows_user_to_edit_configurations_for_manually_ad_7e0f496c":"به کاربر اجازه می دهد تا تنظیمات برنامه های خارجی اضافه شده دستی را ویرایش کند.","allows_user_to_generate_login_logout_activity_repo_bba62f2":"به کاربر امکان می‌دهد گزارش فعالیت ورود به سیستم /خروج از سیستم را در ابزارهای مدیریت ایجاد کند.","allows_user_to_share_a_quiz_to_commons_6746e0da":"به کاربر اجازه می دهد یک آزمون را در نظر به اشتراک بگذارد.","allows_user_to_view_student_specific_data_in_analy_4abbf6be":"به کاربر اجازه می دهد اطلاعات خاص-دانشجو را در تحلیل‌ها مشاهده کند.","an_error_occurred_when_saving_the_group_536c8f66":"هنگام ذخیره گروه خطایی روی داد.","analytics_c94ba601":"تحلیل ها","announcement_fb4cb645":"اطلاعیه","announcements_a4b8ed4a":"اطلاعیه‌ها","anonymous_e1b8ad27":"ناشناس","anonymous_grading_ccb5045c":"نمره‌گذاری ناشناس","app_b157c2b3":"برنامه","applied_cc7be774":"اعمال شد","apply_781a2546":"اعمال","appointments_dcb41d23":"قرارهای ملاقات","archive_3f794d7e":"بایگانی","archived_de543437":"بایگانی شده","are_you_sure_you_want_to_cancel_changes_you_made_m_c5210496":"آیا مطمئن هستید که می خواهید لغو شود؟ تغییرات انجام شده ممکن است ذخیره نشوند.","are_you_sure_you_want_to_delete_this_assignment_88be6f5e":"آیا مطمئن هستید که می خواهید این تکلیف را حذف کنید؟","are_you_sure_you_want_to_delete_this_comment_4ee386d":"مطمئنید که می خواهید این نظر حذف شود؟","are_you_sure_you_want_to_delete_this_grading_perio_422359cd":"مطمئنید که می خواهید این دوره نمره گذاری حذف شود؟","arrange_by_a121617c":"مرتب سازی بر اساس","assign_eedf72bb":"اختصاص دادن","assignment_976578a8":"تکلیف","assignment_group_1a781505":"گروه تکلیف","assignment_name_b2d87383":"نام تکلیف","assignments_1e02582c":"تکلیف ها","assignments_2_student_error_page_3ca3e0df":"تکالیف 2 صفحه خطای دانشجویی","assignments_2_student_initial_query_error_52aa5ebd":"تکالیف2 خطای اولیه  جستجوی دانشجو","attempt_attempt_d3911720":"تلاش %{attempt}","attempt_f2691284":"تلاش","availability_dates_438d71e0":"تاریخ‌های دسترس پذیری","available_8606e40c":"در دسترس","available_from_587ce92f":"قابل دسترسی از طریق","available_to_b7350e02":"در دسترس برای","available_until_f3b9c4ed":"قابل دسترسی تا","back_2900f52a":"بازگشت","base_type_e2840170":"نوع پایه","before_44c686b4":"قبل از","begin_typing_to_search_7daa7b1":"برای جستجو شروع به تایپ کنید","blueprint_5cca2ef":"طرح","blueprint_courses_9dd321b8":"دوره‌های طرح","build_78955b82":"ساخت","calculation_method_fe281f9":"روش محاسبه","calendar_d14cfc8f":"تقویم","calendar_event_89aadc1c":"رویداد تقویم","calendars_a756c286":"تقویم ها","cancel_caeb1e68":"لغو","cancel_importing_name_a0b6f3e1":"لغو ورود %{name}","cc_subtitles_a0d16ff6":"کریتیو کامنز/زیرنویس","change_dcaa253a":"تغییر دادن","changes_you_made_may_not_be_saved_4e8db973":"تغییرات انجام شده ممکن است ذخیره نشوند.","choose_file_8d89ccab":"انتخاب فایل","chosencolor_is_not_a_valid_color_5d542cc":"'%{chosenColor}' یک رنگ معتبر نیست.","clear_2084585f":"پاک کردن","clear_selected_file_82388e50":"پاک کردن فایل انتخاب شده","clone_group_set_c2a40e15":"کپی کردن مجموعه گروه","close_d634289d":"بستن","close_date_a2f617b3":"تاریخ اختتام","collaborations_5c56c15f":"همکاری ها","collapse_subdiscussion_89af1f5c":"بستن بحث فرعی","collapsed_510aa02a":"جمع شده","color_a363e1b0":"رنگ","comments_e07bcbe3":"نظرها","commons_ed0252fb":"رایج","complete_4f4efbc":"کامل","complete_fd828dea":"کامل","completed_19711ce7":"کامل شد","compose_message_8abd180a":"پیام جدید بنویسید","computer_1d7dfa6f":"کامپیوتر","concluded_courses_94782e21":"درس های خاتمه یافته","conferences_a0a8984b":"کنفرانس‌ها","configure_ecb97e30":"پیکربندی","confirm_6556b3a6":"تأیید","confirm_delete_6febeafb":"تائید حذف","confirm_deletion_b2efe7d4":"حذف را تأیید کنید","confirm_removal_a9bb889":"تأیید حذف","continue_ac067716":"ادامه","conversations_69a8dc26":"گفتگوها","copy_9748f9f":"کپی کردن","copy_to_64f8456b":"کپی به ...","copy_to_a5396a6f":"کپی به...","count_replies_a685c742":"%{count} پاسخ","count_unread_replies_86976ab":"%{count} پاسخ خوانده نشده","course_8a63b4a3":"درس","course_name_63b973d1":"نام درس","course_navigation_dd035109":"پیمایش درس","course_pacing_40c14b61":"پیمودن درس","course_settings_f6d0bbf8":"تنظیمات درس","courses_43204aae":"درس ها","courses_account_72e4fca7":"درسها(حساب کاربری)","create_132b3be1":"ایجاد","create_new_group_bf9561d4":"ایجاد گروه جدید","create_new_group_fca5cc73":"ایجاد گروه جدید","created_6ee36dff":"ایجاد شد:","criterion_long_description_e9a97247":"شرح طولانی معیار","current_367624e9":"فعلی","current_mastery_score_score_out_of_mastery_points_fedd343f":"نمره تسلط فعلی: %{score} از %{mastery_points}","current_volume_level_c55ab825":"سطح حجم فعلی","curving_assignments_e9479ee3":"در حال روی منحنی بردن تکلیف ها","custom_6979cd81":"سفارشی","custom_fields_fc3e55af":"جاهای خالی سفارشی","dashboard_7f1dbf71":"داشبورد","dashboard_options_b240ed5a":"گزینه‌های داشبورد","dashboard_view_d7d85969":"نمای داشبورد","date_at_time_25a04cd2":"%{date} در %{time}","date_created_87e265bc":"تاریخ ایجاد شد","date_created_createdat_265a0dfa":"تاریخ ایجاد: %{createdAt}","date_ee500367":"تاریخ","date_error_7b38f8ff":"خطای تاریخ","date_is_required_9c6f5e83":"تاریخ مورد نیاز است!","date_modified_e1c8ac8f":"تاریخ تغییر یافت","date_modified_modifiedat_b839cc8b":"تاریخ اصلاح شده: %{modifiedAt}","date_of_most_recent_bounce_b23d0119":"تاریخ جدیدترین بازگشت","dates_6e416047":"تاریخ","day_s_7cc1231f":"روز(ها)","default_9db103d":"پیش فرض","delete_a6efa79d":"حذف","delete_assignment_group_7c3b01c4":"حذف تکلیف گروه","delete_this_key_70f74aa1":"حذف این کلید","delete_title_6c18eba5":"حذف %{title}","deleted_1be5ed1":"حذف شده","deleted_caption_b5c66807":"عنوان حذف شده","description_436c48d7":"شرح","designer_c458392":"طراح","details_98a31b68":"اطلاعات","developer_keys_d70ba44a":"کلیدهای توسعه دهنده","disable_a5c05db3":"غیر فعال سازی","disabled_3b1b332a":"غیر فعال شد","discussion_6719c51d":"بحث","discussion_topic_dc85ad4c":"موضوع بحث","discussions_a5f96392":"بحث ها","display_as_e2a5c383":"نمایش به عنوان","display_totals_for_all_grading_periods_option_4a72586":"نمایش مجموع ها برای گزینه همه دوره های نمره گذاری","domain_3b54c511":"دامنه","done_54e3d4b6":"انجام شد","download_c7ffdfb9":"بارگیری","drag_a_file_here_39357b48":"کشیدن فایل اینجا","drag_and_drop_or_click_to_browse_your_computer_60772d6d":"بکشید و رها کنید، یا برای مرور رایانه کلیک کنید","due_a73610f6":"مهلت","due_date_2c6e4cfb":"مهلت %{date}","due_date_822625d8":"تاریخ مهلت","due_date_falls_in_a_closed_grading_period_e447ff2f":" تاریخ سررسید در یک دوره‌ نمره‌گذاری بسته شده قرار دارد","due_dates_520a6c08":"تاریخ مهلت","due_on_date_5ffb2182":"مهلت در تاریخ","duplicate_31cec192":"تکرار کردن","edit_assignment_dates_6f8c72b":"ویرایش تاریخ های تکلیف","edit_assignment_group_c04c4af0":"ویرایش گروه تکلیف","edit_c5fbea07":"ویرایش","edit_group_c8679dba":"ویرایش گروه","edit_mastery_paths_for_title_3c0a15e1":"ویرایش مسیرهای تسلط برای %{title}","edit_outcome_867a0381":"ویرایش نتیجه","edit_title_20a9577":"ویرایش %{title}","email_22a7d52d":"پست الکترونیکی","email_address_a1b97a39":"نشانی پست الکترونیکی","email_is_required_736ac26b":"پست الکترونیکی لازم است","embed_828fac4a":"قراردادن","embed_video_code_703e10f2":"قراردادن کد فیلم","enable_6f5d1328":"فعال سازی","enabled_ba7cab66":"فعال شد","end_date_cannot_be_before_start_date_eb62ed6d":"تاریخ پایان نمی تواند قبل از تاریخ شروع باشد","end_date_e0093ed7":"تاریخ پایان","enter_at_least_count_characters_1c7a0b36":"حداقل %{count} کاراکتر وارد کنید","enter_new_group_name_b97d5819":"نام گروه جدید را وارد کنید","error_59293a2c":"خطا","error_98e81528":"خطا","error_retrieving_content_c07ee76b":"خطا در بازیابی محتوا","error_retrieving_content_from_tool_e65ef3b7":"خطا در بازیابی محتوا از ابزار","error_updating_status_of_module_item_80336274":"خطا در به روز رسانی وضعیت ماژول","error_uploading_video_audio_recording_16d9730a":"خطا در بارگذاری ضبط ویدیو/ صدا.","event_end_time_ef830e66":"زمان پایان رویداد","event_fe9ba3fe":"رویداد","event_start_time_441b491f":"زمان شروع رویداد","event_title_7f1051a6":"عنوان رویداد","everyone_854554dd":"همه","everyone_else_6c6dc7b6":"هر کس دیگر","example_84698b7d":"مثال","example_final_score_355aff0f":"نمره نهایی نمونه","example_item_scores_6726c689":"نمره های موردی نمونه","exceeds_mastery_1f995dce":"فراتر از تسلط","excused_3aab77":"معاف شد","excused_cf8792eb":"معاف شد","expanded_f4493860":"باز شده","external_apps_f5490181":"برنامه های بیرونی","external_tool_c5a6410a":"ابزار بیرونی","failed_276786d":"انجام نشد","feature_f5526584":"ویژگی ها","feature_option_dbfa062f":"گزینه‌ ی ویژگی","feature_options_account_settings_294a39f8":"گزینه های ویژگی (تنظیمات حساب)","file_c851020d":"فایل","file_name_2fe68ec1":"نام فایل","file_name_8fd421ff":"نام فایل","file_selected_for_upload_filename_18ca9b8a":"فایل انتخاب شده برای بارگذاری: %{filename}","filename_preview_71b2cde2":"پیش نمایش %{filename}","files_c300e900":"فایل ها","filter_by_2f4368a8":"فیلتر براساس","filter_e3398407":"فیلتر","final_grade_4d7f6545":"نمره نهایی","final_grade_override_be8a21cd":"بازنویسی نمره نهایی","find_8d605019":"یافتن","finish_bc343002":"پایان","folder_705fd2d7":"پوشه","folder_browsing_tree_1f00a3ae":"درخت مرور پوشه","for_974cbb84":"برای","from_fdd4956d":"از","future_5416ea92":"آتی","global_navigation_8bee3501":"پیمایش سراسری","go_to_name_s_profile_eaa1826b":"به نمایه %{name} برو","gpa_scale_6710e2ee":"مقایس معدل","grade_9c6f076d":"نمره","grade_change_notifications_98461261":"اطلاعیه های تغییر نمره","grade_saved_ab539b53":"نمره ذخیره شد.","gradebook_1620a0aa":"دفتر نمره","gradebook_5fd8ef0":"دفتر نمره...","gradebook_history_a3e8e0b4":"تاریخچه دفتر نمره","gradebook_history_b03f8524":"تاریخچه دفتر نمره...","graded_25cd3fcd":"نمره گذاری شده","grader_d1198a9c":"نمره‌گذار","grades_a61eba0a":"نمره ها","grading_aa6de9":"در حال نمره گذاری","grading_period_8b0a4a10":"دوره نمره گذاری","grading_period_weight_99b66906":"وزن دوره نمره‌گذاری","grading_periods_81941e66":"دوره های نمره گذاری","grading_periods_must_not_overlap_f45336fb":"دوره نمره گذاری نباید هم پوشی داشته باشند","grading_schemes_1c3c3252":"طرح های نمره گذاری","group_a8f5ed9c":"گروه","group_name_b69c144":"نام گروه","group_set_name_2aed2347":"نام مجموعه گروه","groups_6c90e26a":"گروه ها","haven_t_been_graded_d7dee5bb":"نمره گذاری نشده است","haven_t_submitted_yet_e63834db":"هنوز ارسال نشده است","help_4c4968b1":"راهنما","hidden_14a032a7":"مخفی","hide_grades_585e63b4":"پنهان کردن نمرات","home_351838cd":"صفحه اصلی","homeroom_view_a676e270":"نمای کلاس درس","image_8ad06":"تصویر","import_1b31507":"وارد کردن","import_outcomes_7dda186b":"نتایج را وارد کنید","importing_name_8f2b131d":"وارد کردن %{name}","in_progress_9d1ce8b9":"در حال پیشرفت","inactive_cd40317f":"غیر فعال","inbox_bb245a60":"صندوق ورودی","include_this_assignment_s_grades_when_syncing_to_y_55bfa487":"نمره های این تکلیف در هنگام همگام‌سازی با سامانه اطلاعات دانشجوی دانشگاه شما درج شود","incomplete_95612d72":"ناقص","incomplete_da3c2ea2":"ناقص","institution_14179014":"دانشگاه","integration_id_8a20b328":"شناسه یکپارچگی","invalid_file_type_881cc9b2":"نوع فایل معتبر نیست","invalid_points_8e929c3f":"امتیازها نامعتبر است","joining_81f8b6c9":"درحال پیوستن","keyboard_shortcuts_ed1844bd":"میانبرهای صفحه کلید","language_6b3e2c7c":"زبان","last_used_f9457313":"آخرین استفاده:","late_2be42b88":"با تأخیر","late_8bd684b6":"با تأخیر","late_penalty_9c312b22":"جریمه تأخیر","learning_mastery_5fc34276":"تسلط یادگیری","learning_mastery_6ed4fd63":"تسلط یادگیری ...","letter_grade_f00fedc4":"نمره با حروف الفبا","limited_322546c5":"محدود شده","link_url_a213671c":"نشانی اینترنتی پیوند","list_collapsed_5f19f5bb":"فهرست جمع شد","list_collapsed_9ac35920":"فهرست جمع شد.","list_expanded_efec2d0":"فهرست باز شد.","load_more_a36f9cf9":"بارگذاری بیشتر","loading_25990131":"در حال بارگذاری...","loading_announcements_b927a86c":"در حال بارگذاری اطلاعیه‌ها","loading_bde52856":"در حال بارگذاری","loading_data_ecd89ba":"در حال بارگذاری داده ها ...","loading_media_32847745":"در حال بارگذاری رسانه","loading_options_c823e98b":"بارگذاری انتخاب ها ...","location_e17bd402":"موقعیت","lock_c341af13":"قفل کردن","locked_762f138b":"قفل شده","locked_click_to_unlock_50747e11":"قفل شده. برای قفل گشایی کلیک کنید.","login_id_12109693":"شناسه ورود","manage_b88f7150":"مدیریت","manage_options_for_name_83278ad0":"مدیریت گزینه‌ها برای %{name}","manage_usage_rights_c5a8c216":"مدیریت حقوق استفاده","manual_entry_e4a4f99a":"ورودی دستی","mark_as_read_e7de2ce3":"علامت گذاری به عنوان خوانده شده","mark_as_unread_4a413c41":"علامت گذاری به عنوان خوانده نشده","mastery_7ec348b5":"تسلط","mastery_paths_breakdown_6e0b5fce":"از کار افتادن مسیرهای تسلط","mastery_paths_cc4096c2":"مسیرهای تسلط","media_af190855":"رسانه","meets_mastery_754e1c06":"با تسلط مطابقت دارد","menu_39cb0e8e":"منو","message_5c38209d":"پیام","message_sent_5e328899":"پیام ارسال شد!","message_sent_9ff3a79d":"پیام ارسال شد!","message_students_cecc3f83":"ارسال پیام برای دانشجویان","mic_a7f3d311":"میکروفون","missing_1a256b3b":"جا افتاده","missing_d59852a7":"از دست رفته","missing_required_description_99a99ff":"توضیحات لازم وجود ندارد","moderated_grading_e6127f72":"نمره گذاری نظارت شده","module_90d9fd32":"ماژول","modules_c4325335":"ماژول ها","more_cf9cc661":"بیشتر","more_courses_5ebbe998":"درس های دیگر","move_abf00365":"انتقال","move_contents_into_f3e4fd9d":"انتقال محتوا به ","move_to_25d7ef11":"انتقال به ","must_be_a_number_e1dfe68a":"حتما باید عدد باشد","must_select_a_student_group_first_15c6a3cb":"ابتدا باید یک گروه دانشجویی را انتخاب کنید","n_a_d6f6c42f":"موجود نیست","n_points_possible_precision_2_st_points_bc3748df":"%{n_points_possible_precision_2_st} امتیاز","name_1aed4a1b":"نام","name_is_locked_click_to_unlock_7aad9928":"%{name} قفل شده است. برای باز کردن قفل کلیک کنید.","name_is_too_long_must_be_under_length_characters_b8dad44c":"نام طولانی است. باید کمتر از %{length} نویسه باشد","name_is_unlocked_click_to_lock_b8b9a2c8":"قفل %{name} باز شده است. برای قفل کردن کلیک کنید.","near_mastery_f25174a4":"نزدیک به تسلط","negative_points_fda45730":"امتیاز منفی","never_df100b49":"هرگز","new_13daf639":"جدید","new_bd30f253":"جدید","new_export_3ab758":"صدور جدید","new_quiz_34aacba6":"آزمون جدید","new_user_s_name_909b6267":"نام کاربر جدید","next_40e12421":"بعدی","next_month_b55a387c":"ماه بعدی","next_page_d2a39853":"صفحه بعد","next_student_b62869f4":"دانشجوی بعدی","no_due_date_44271c53":"تاریخ مهلت موجود نیست","no_e16d9132":"خیر","no_file_selected_92d2ac30":"هیچ فایلی انتخاب نشده است","no_results_3cda4e72":"نتیجه موجود نیست","no_results_f36777ee":"نتیجه موجود نیست","no_results_found_e4b686bd":"نتیجه ای یافت نشد.","no_subject_970aad80":"عنوان موجود نیست","no_video_1ed00b26":"بدون تصویر","none_3b5e34d2":"هیچ کدام","not_available_at_the_subaccount_level_3fc74ab":"در سطح زیر حساب موجود نیست.","not_starred_subject_click_to_star_4ea6eb64":"ستاره‌دار نیست \"%{subject}\"، برای ستاره‌دار کردن کلیک کنید.","notes_c42e0fd5":"نکته ها","number_between_1_and_16_inclusive_31f5468d":"عدد بین 1 و 16 شامل می شود","number_each_event_d934cd65":"هر رویداد را شماره گذاری کنید","number_is_too_large_4da4af0a":"تعداد خیلی زیاد است","number_is_too_small_618a6ca7":"تعداد خیلی کم است","number_more_a46966":"%{number} دیگر...","number_of_allowed_attempts_3d10b740":"تعداد تلاش های مجاز","number_of_attempts_b0994c2f":"تعداد تلاش","number_of_graders_cde8dd54":"تعداد نمره‌گذارها","number_of_respondents_e1e7e8b":"تعداد پاسخ دهنده ها","number_of_scores_to_ignore_for_each_student_fb94e818":"تعداد نمرات برای نادیده گرفتن برای هر دانشجو","observers_672971d":"بیننده ها","ok_c47544a2":"تأیید","ok_ff1b646a":"تأیید","okay_1772bbeb":"صحیح است","one_per_line_format_name_value_79647700":"یکی در هر خط.. قالب: نام=مقدار","only_available_to_students_with_link_107e2468":"فقط برای دانشجویان  با لینک فعال است","oops_something_went_wrong_importing_name_d382cac1":"اووه! در ورود%{name}  اشکالی رخ داد.","option_selected_list_collapsed_70a356b4":"%{option} انتخاب شد. فهرست جمع شد.","options_3ab0ea65":"گزینه ها","or_choose_files_b795006d":"یا فایل ها را انتخاب کنید","or_ef4e808":"یا","other_1c6d9c79":"سایر","other_ddacb37d":"سایر","outcome_da397d20":"نتیجه","outcome_group_39fae76f":"گروه نتیجه","outcome_groups_3bc3b150":"گروه‌های نتیجه","outcome_title_has_a_status_of_statustooltip_82d1e6d9":"نتیجه: %{title} دارای وضعیت %{statusTooltip} است","outcomes_d1b18d33":"نتایج","page_50c4823d":"صفحه","page_pagenum_20dbfeb8":"صفحه %{pageNum}","pages_e5414c2c":"صفحه ها","pause_12af3bb4":"مکث","pdf_d8236d9a":"PDF","people_account_30bbffec":"افراد (حساب)","people_b4ebb13c":"افراد","people_course_ddd9a66":"افراد (درس)","percent_448ea947":"درصد","permissions_365c49e":"مجوزها","placements_5b5e056b":"جای گذاری ها","play_1a47eaa7":"نمایش","please_allow_canvas_to_access_your_microphone_and__dc2c3079":"لطفاً به Canvas اجازه دهید تا به میکروفون و وب کم شما دسترسی پیدا کند.","points_bb475533":"امتیازها","points_bceb5005":"امتیازها","points_pts_e5596bf7":"%{points} امتیاز","post_grades_39c52870":"ارسال نمره ها","preview_53003fd2":"پیش‌نمایش","preview_a3f8f854":"پیش نمایش","previous_bd2ac015":"قبلی","previous_month_7adf1380":"ماه قبلی","previous_page_928fc112":"صفحه قبل","previous_student_46275eae":"دانشجوی قبل","proceed_f3d33864":"ادامه دادن","processing_2fcc9739":"در حال پردازش","proficiency_rating_6346119f":"رتبه‌بندی مهارت","public_a749f507":"عمومی","publish_5211dca3":"انتشار","published_4bb5209e":"منتشر شده","queued_d0e45c4b":"صف شده","quiz_e0dcce8f":"آزمون","quizzes_7e598f57":"آزمون‌ها","record_7c9448b":"ضبط کردن","record_media_6637ff19":"ضبط رسانه","recording_98da6bda":"در حال ضبط","released_by_mastery_path_cyoe_releasedlabel_14c67a92":"منتشر شده توسط مسیر تسلط: %{cyoe.releasedLabel}","remove_attachment_ceae0973":"حذف پیوست","remove_f47dc62a":"حذف","remove_file_cbf3f40f":"حذف فایل","remove_filename_dab5c02e":"حذف %{filename}","reply_389d6fb9":"پاسخ","reply_to_comment_72d96728":"پاسخ به نظر","reports_1b9ab7a7":"گزارش ها","require_group_members_to_be_in_the_same_section_7f6c36af":"باید اعضای گروه در بخش یکسانی باشند","required_email_address_379b2392":"نشانی پست الکترونیکی لازم است","reserved_f247b60b":"رزرو شده","resources_ccefab27":"منابع","retry_ebd5f8ba":"تلاش دوباره","role_name_18a5943b":"نام نقش","rubric_fc39da76":"دستورالعمل ارزیابی","rubrics_b5ef369b":"دستورالعمل های ارزیابی","running_c5a4998d":"درحال اجرا","save_11a80ec3":"ذخیره سازی","saving_2521e616":"درحال ذخیره سازی","saving_d55dd90e":"در حال ذخیره سازی...","saving_group_230707e6":"ذخیره گروه","schedule_e5dd4c32":"زمان بندی","score_change_notifications_6b94f27f":"اطلاعیه های تغییر نمره","score_f7ac9e08":"نمره","score_pts_adcb1af3":"%{score} امتیاز","scored_less_than_2427896c":"نمره گذاری شده کمتر از","scored_more_than_d1646bd5":"نمره گذاری شده بیشتر از","search_280d00bd":"جستجو","search_assignments_8c3c21bb":"جستجوی تکالیف","search_courses_7b5c4ab3":"جستجوی درس ها","search_term_must_be_at_least_num_characters_669098ed":"عبارت جستجو حداقل باید %{num} نویسه باشد","secondary_info_835a07dd":"اطلاعات ثانویه","section_c7f66a0d":"بخش","section_filter_cde54d0a":"فیلتر بخش","sections_94731e51":"بخش‌ها","select_1e849959":"[ انتخاب ]","select_a_grading_period_aab25483":"انتخاب دوره نمره گذاری","select_audio_file_7d905cce":"انتخاب فایل صوتی","select_course_5cf89177":"انتخاب درس","select_d70f31da":"انتخاب","select_grader_782af48":"انتخاب نمره گذار","select_grading_period_4ce4cd3a":"دوره درجه بندی را انتخاب کنید","select_group_to_grade_6df28d80":"انتخاب گروه برای نمره","select_language_7c93a900":"انتخاب زبان","select_video_file_35b61d4e":"انتخاب فایل تصویری","selected_274ce24f":"انتخاب شده","selected_filename_7552a8c0":"%{filename} انتخاب شد","send_e3bd0ed0":"ارسال","send_message_6ccc90e8":"ارسال پیام","send_to_7881bf0e":"ارسال به","send_to_b940900a":"ارسال به ...","sending_bf324366":"در حال ارسال...","sending_message_8ac5bc90":"در حال ارسال پیام...","sending_message_failed_please_try_again_b53cc904":"ارسال پیام انجام نشد، لطفا دوباره سعی کنید","sent_fe0a1eb4":"ارسال شد","set_name_d14182d7":"نام مجموعه...","set_name_f83b658":"نام مجموعه","set_usage_rights_a4e47ed9":"تنظیم حقوق استفاده","settings_5aa0fd0c":"تنظیمات","settings_for_title_d3ca495":"تنظیمات برای %{title}","short_name_42f454a1":"نام کوتاه","show_76c0ed1c":"نمایش","show_course_sections_for_course_name_5f715702":"نمایش بخش های درس برای درس %{name}","sis_2164965":"سامانه اطلاعات دانشجو","sis_id_4495a887":"شناسه سامانه اطلاعات دانشجو","sis_import_14517892":"ورود اطلاعات سامانه اطلاعات دانشجو","size_b30e1077":"اندازه","skip_weekends_13cbd889":"رد کردن تعطیلات آخر هفته","something_went_wrong_accessing_your_mic_or_webcam_6e3cad12":"در دسترسی به میکروفون یا وب کم مشکلی پیش آمد.","something_went_wrong_please_try_refreshing_the_pag_3f651814":"اشتباهی رخ داده است. لطفا صفحه را از تازه سازی کنید. اگر مشکل همچنان وجود داشت، می‌توانید با استفاده از *تنظیمات درس بزرگ *  یک گروه دانشجویی را در نمره‌گذاری سریع بارگیری کنید.","sort_by_72dbba9c":"مرتب کردن بر اساس","sort_by_e75f9e3e":"مرتب کردن بر اساس","speedgrader_de0affa6":"برنامه نمره گذاری سریع","star_conversation_2e2ba614":"ستاره دار کردن گفتگو","starred_5a9efa8a":"ستاره‌ دار شد","starred_subject_click_to_unstar_6aafcddc":"\"%{subject}\" را ستاره‌دار کرد، برای برداشتن ستاره کلیک کنید.","start_date_e937be8a":"تاریخ شروع","start_over_f7552aa9":"شروع دوباره","start_recording_9a65141a":"شروع ضبط","state_66a67ba2":"وضعیت","status_e7fdbe06":"وضعیت","student_5da6bfd1":"دانشجو","student_context_card_ad59967e":"کارت زمینه دانشجو","student_context_cards_must_be_enabled_for_an_accou_f84169cb":"کارت‌های زمینه دانشجویی دانشجو باید برای یک حساب توسط یک مدیر فعال شود.","student_details_49901ceb":"جزئیات دانشجو","students_1b8cd07b":"دانشجویان","subaccounts_efd02bd4":"زیرحساب ها","subject_114b2e98":"موضوع","submission_comments_4fa03a17":"نظرهای مربوط به مورد ارسالی","submission_comments_b6d65841":"نظرهای مربوط به مورد ارسالی","submission_failed_to_submit_8de4efcd":"ارسال موارد ارسالی انجام نشد","submit_a3cc6859":"ارسال","subtitle_ee60ca78":"زیرنویس","syllabus_f191f65b":"سرفصل","sync_68e5c167":"همگام سازی","sync_completed_successfully_8f68b542":"همگام سازی انجام شد","sync_grades_a16622ca":"همگام سازی نمرات","sync_grades_to_sis_4e7fbc08":"همگاری سازی نمرات با سامانه اطلاعات دانشجو","sync_to_posttosisname_9837a8bf":"همگام سازی با %{postToSISName}:","sync_to_posttosisname_dffd5c9":"همگام سازی با %{postToSISName}","ta_8d966626":"دستیار آموزشی","teacher_5a73b637":"استاد","teacher_count_teachers_a92f7199":"%{teacher_count} استاد","teacher_s_fdefb2c":"استاد(ها)","teachers_52e2423f":"اساتید","term_e1c1d390":"نیمسال","text_7f4593da":"متن","the_following_content_is_partner_provided_ed1da756":"محتوای زیر توسط شریک فراهم شده است","the_grading_period_was_deleted_7814a349":"دوره نمره گذاری حذف شد","the_preceding_content_is_partner_provided_d753928c":"محتوای پیشین توسط شریک ارائه شده است","their_grade_for_the_assignment_c36a60ef":"نمره آنها برای این تکلیف","theme_editor_b7b00f6b":"ویرایشگر زمینه","there_was_a_problem_loading_students_5bdb6cf2":"مشکلی در بارگزاری دانشجویان وجود داشت.","there_was_a_problem_saving_the_grade_8ea5d2ac":"در هنگام ذخیره نمره مشکلی وجود داشت.","there_was_a_problem_saving_the_grading_period_243bed6c":"در هنگام ذخیره سازی دوره نمره گذاری اشکالی رخ داد","there_was_an_error_setting_usage_rights_53739e1d":"در هنگام تعیین حقوق استفاده، خطایی رخ داد.","there_was_an_error_uploading_your_file_please_try__ce458566":"هنگام بارگذاری فایل شما خطایی روی داد. لطفا دوباره تلاش کنید.","this_field_is_required_fa58c4a":"پر کردن این جای خالی لازم است","this_file_9443cda1":"این فایل","this_folder_is_currently_locked_and_unavailable_to_f85c451":"این پوشه در حال حاضر قفل است و برای مشاهده قابل دسترسی نیست.","this_submission_is_in_a_closed_grading_period_cc9ecb8a":"این مورد ارسالی در یک دوره نمره گذاری خاتمه یافته است","this_submission_is_in_another_grading_period_36bc720b":"این مورد ارسالی در یک دوره نمره گذاری دیگر است","this_submission_is_not_in_any_grading_period_cbbd2f8":"این مورد ارسالی در هیچ دوره نمره گذاری نیست","this_user_is_currently_not_able_to_access_the_cour_39cabed1":"این کاربر در حال حاضر قادر به دسترسی به درس نیست","time_2b5aac58":"زمان","time_block_5a7cda5c":"بازه زمانی","time_left_in_your_instant_trial_5dd0392b":"%{time} در نمونه آزمایشی شما باقیمانده","time_left_in_your_instant_trial_extend_now_afb9bd2f":"%{time} در نمونه آزمایشی فوری شما باقیمانده *(همین حالا تمدید کنید)*","time_limit_a6f1a51e":"محدودیت زمانی","time_zone_f56f5183":"منطقه زمانی","timeline_of_messages_between_the_student_and_instr_6dbd9ad3":"خط زمان پیام ها بین دانشجو اساتید","timeline_showing_when_assignments_were_turned_in_bb44c8a1":"خط زمانی که نشان می دهد تکلیف ها چه زمانی تحویل داده شده اند","timeout_when_searching_5c24ff9d":"وقفه زمانی در هنگام جستجو ","times_participated_5296451b":"تعداد دفعات شرکت شده","times_viewed_40013c9b":"تعداد دفعات مشاهده شده","timestamp_65f3a0a":"(%{timestamp})","timestamp_865fa6b7":"تاریخ و زمان","title_ee03d132":"عنوان","title_is_locked_click_to_unlock_21548cfb":"%{title} قفل شده است. برای قفل گشایی کلیک کنید","title_is_unlocked_click_to_lock_6a20cfcb":"%{title} قفل گشایی شده است. برای قفل کردن کلیک کنید.","to_51406be9":"گیرنده","to_access_the_account_courses_page_courses_view_li_e1da6165":"برای دسترسی به صفحه درس‌های حساب،  مشاهده-لیست درس‌ها  باید فعال باشد.","to_c4c44f4b":"تا","to_do_1d554f36":"برای اقدام","to_do_date_ddfb582c":"تاریخ برای انجام:","to_do_time_a7e17623":"زمان برای  انجام","to_import_assignments_and_quizzes_using_the_course_86c5bdbb":"برای وارد کردن تکالیف و آزمونها با استفاده از ابزار ورود درس، محتوای درس - افزودن / ویرایش / حذف باید فعال باشد.","to_moderate_grades_grades_select_final_grade_for_m_8c605763":"برای تعدیل نمرات ، نمرات - انتخاب نمره نهایی برای تعدیل نیز باید فعال باشد.","to_search_grade_change_logs_grades_view_change_log_d4d40cf2":"برای جستجوی در گزارش‌های تغییر نمره، نمره‌ها - مشاهده گزارش‌های تغییر نمره نیز باید فعال شوند.","toggle_tooltip_d3b7cb86":"تغییر ابزار راهنما","tool_content_2924d18f":"محتوای ابزار","total_points_44d76792":"امتیازهای کل","try_again_6ca44338":"دوباره سعی کنید","type_c8106334":"نوع","unable_to_curve_grades_because_this_assignment_is__17f78c27":"نمی توان نمرات را روی منحنی برد زیرا این تکلیف حداقل برای یک دانشجو در دوره زمانی پایان یافته نمره گذاری قرار دارد","unable_to_set_default_grade_because_this_assignmen_d19842a9":"نمی توان نمره پیش فرض را تعیین کرد، زیرا این تکلیف حداقل برای یک دانشجو در دوره نمره گذاری پایان یافته قرار دارد","unavailable_46d2c344":"غیرقابل دسترس","undo_a7be8fef":"لغو","unknown_47a3b725":"ناشناس","unlimited_ff19e96d":"نامحدود","unlock_f6196bf5":"قفل گشایی","unlocked_beee43de":"قفل گشایی شده","unlocked_click_to_lock_53262ce7":"قفل گشایی شده. برای قفل کردن کلیک کنید.","unpublish_9f2d730b":"لغو انتشار","unpublished_8b6107d6":"منتشر نشده","unread_c14cb06f":"خوانده نشده","unread_e9c1b19c":"خوانده نشده","unstar_conversation_45fc43d6":"برداشتن ستاره گفتگو","unstarted_932f2990":"شروع نشده","until_4a1f8cda":"تا","untitled_16aa4f2b":"بدون عنوان","upload_8b403d05":"بارگذاری","upload_file_fd2361b8":"بارگذاری فایل","upload_media_ce31135a":"بارگذاری رسانه","uploading_submission_4c8d944b":"در حال بارگذاری مورد ارسالی","uri_redirect_uri_d4aad2b9":"نشانی اینترنتی: %{redirect_uri}","usage_rights_f0960ad6":"حقوق استفاده","use_arrow_keys_to_navigate_options_2021cc50":"برای حرکت به گزینه ها از کلیدهای جهت دار استفاده کنید.","use_arrows_a60b3330":"از جهت ها استفاده کنید","use_default_890939b7":"استفاده از پیش فرض","user_c95de254":"کاربر","user_selection_f6139840":"انتخاب کاربر","users_d1b60cb0":"کاربران","video_player_b371005":"پخش کننده فیلم","view_ba339f93":"مشاهده","view_gradebook_d6713dd1":"مشاهده دفتر نمرات","waiting_for_request_to_complete_13cf037a":"در انتظار تکمیل درخواست","warning_aacb8c24":"هشدار","webcam_fe91b20f":"دوربین","weighted_grading_periods_ae4edd70":"دوره‌های نمر‌ه‌گذاری وزن‌دار","well_below_mastery_37664bdc":"پایین تر از سطح تسلط","yes_dde87d5":"بله","you_have_reported_this_reply_4b21b6ce":"شما این پاسخ را گزارش کرده اید.","you_must_enter_a_date_f8eabfb1":"باید یک تاریخ وارد کنید","you_must_specify_a_usage_right_5eb57f87":"باید حقوق استفاده را تعیین کنید.","your_webcam_may_already_be_in_use_6cd64c25":"وب کم شما ممکن است در حال استفاده باشد.","zoom_f3e54d69":"بزرگنمایی"} })
+
+
+setLazyTranslations(
+  "fa",
+  "ajax_errors",
+  null,
+  function() { return {"error_heading":"خطای Ajax: %{status_code}","errors":{"connection_lost":"اتصال به %{host} از دست رفت. لطفا مطمئن شوید به اینترنت متصل هستید  و دوباره سعی کنید.","logged_out":"احتمالا به دلیل عدم فعالیت به مدت طولانی، در حال حاضر در حالت ورود به سامانه قرار ندارید.","unhandled":"اوه! آخرین درخواست مؤثر نبود."},"links":{"details":"اطلاعات بیشتر...","login":"ورود"},"no_text":"متن موجود نیست"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "instructure",
+  null,
+  function() { return {"errors":{"field_is_required":"تکمیل این جای خالی لازم است","invalid_datetime":"مقدار تاریخ/زمان معتبر نیست","invalid_entry_for_field":"ورودی معتبر نیست: %{field}","invalid_number":"باید یک عدد باشد.","required":"تکمیل جای خالی لازم است"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "time",
+  null,
+  function() { return {"am":"قبل از ظهر","count_hours_ago":{"one":"%{count} ساعت قبل","other":"%{count} ساعت قبل"},"count_minutes_ago":{"one":"%{count} دقیقه قبل","other":"%{count} دقیقه قبل"},"due_date":"%{date} بر اساس %{time}","event":"%{date} در %{time}","formats":{"default":"%a, %d %b %Y %H:%M:%S %z","long":"%B %d, %Y %H:%M","short":"%d %b %H:%M","tiny":"%l:%M%P","tiny_on_the_hour":"%l%P"},"less_than_a_minute_ago":"کمتر از یک دقیقه پیش","pm":"بعد از ظهر","ranges":{"different_days":"%{start_date_and_time} تا %{end_date_and_time}","same_day":"%{date} از %{start_time} تا %{end_time}","times":"%{start_time} تا %{end_time}"},"with_ago":"%{time} قبل"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "support",
+  null,
+  function() { return {"array":{"last_word_connector":"، و","or":{"last_word_connector":"، یا","two_words_connector":"یا"},"two_words_connector":"و","words_connector":"، "},"help_menu":{"cisco_netacad_facebook":"انجمن پشتیبانی","cisco_netacad_facebook_description":"لطفا از صفحه Networking Academy Facebook ما برای پشتیبانی انجمن بازدید کنید یا با استاد خود تماس بگیرید.","community_support_description":"با همکلاسی های خود تعامل داشته باشید و از آنها کمک بگیرید.","community_support_forums":"نشست های پشتیبانی انجمن","contact_support":"تماس با پشتیبانی","contact_support_sub_text":"درباره مسائل حساس به زمان کمک بگیرید.","curriculum_assessment_errata":"اشتباه های تایپی برنامه درسی/ارزیابی","curriculum_assessment_errata_description":"خطاهای گزارش شده ارزیابی و برنامه درسی را مشاهده کنید. «اشتباه های تایپی» را جستجو کنید.","global_support_desk":"پشتیبانی NetAcad","global_support_desk_description":"ASCهای ما اولین خط پشتیبان شما هستند و درباره مشکلاتی که به کمک بیشتر نیاز دارند، می توانند شما را به میز پشتیبان سراسری  متصل سازند.","networking_academy_description":"پاسخ های سیسکو به پرسش های متداول را مشاهده کنید.","networking_academy_faqs":"پرسش های متداول آکادمی شبکه سازی","student_support":"پشتیبانی NetAcad - دانشجویی","student_support_description":"Your Instructor should be your first point of contact. They can answer your Networking Academy questions or contact the support desk for you. You can contact your instructor by using the Inbox feature.","support_desk_livechat":"گفتگوی زنده میز پشتیبانی"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "helpDialog",
+  null,
+  function() { return {"Back":"بازگشت","Help":"راهنما"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "instructure_inline_media_comment",
+  null,
+  function() { return {"alerts":{"kaltura_disabled":"Kaltura برای این تارنمای کانواس غیر فعال شده است"},"links":{"minimize_embedded_kaltura_content":"به حداقل رساندن محتوای درج شده"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "broken_images",
+  function() { return {"locked_image_24f37a16":"تصویر قفل شده"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "common_bundle",
+  function() { return {"content_on_this_page_violates_the_security_policy__25685d8a":"محتوای این صفحه سیاست امنیتی را نقض می کند، برای راهنمایی با مدیر خود تماس بگیرید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "incompleteregistration",
+  null,
+  function() { return {"get_started":"شروع به کار","welcome_to_canvas":"به کانواس خوش آمدید!"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_logging",
+  function() { return {"blueprint_sync_90d0dfd5":"همگام‌سازی طرح"} },
+  function() { return {"blank_placeholder":"-","event_source":{"api":"Api","manual":"راهنما","sis":"سامانه اطلاعات دانشجو"},"event_type":{"concluded":"خاتمه یافته","copied_from":"کپی شده از","copied_to":"کپی شده در","corrupted":"اطلاعات بیشتر موجود نیست","created":"ایجاد شده","deleted":"حذف شده","published":"منتشر شده","reset_from":"باز نشانی شده از","reset_to":"بازنشانی شده در","restored":"بازیابی شده","unconcluded":"لغو خاتمه یافته","updated":"بهنگام سازی شده"},"field_label":{"abstract_course_id":"شناسه درس چکیده","account_id":"شناسه حساب","allow_student_discussion_editing":"اجازه دادن به ویرایش بحث دانشجویی","allow_student_discussion_topics":"اجازه دادن به موضوع های بحث دانشجویی","allow_student_forum_attachments":"اجازه دادن به پیوست های نشست دانشجویی","allow_student_organized_groups":"اجازه دادن به گروه های سازماندهی شده دانشجویی","allow_student_wiki_edits":"اجازه دادن به ویرایش ویکی دانشجویی","allow_wiki_comments":"اجازه دادن به نظرهای ویکی","conclude_at":"خاتمه یافته در","course_code":"کد درس","created_at":"ایجاد شده در","default_view":"نمای پیش فرض","default_wiki_editing_roles":"نقش های پیش فرض ویرایش ویکی","enrollment_term_id":"شناسه نیمسال ثبت نام","grading_standard_id":"شناسه استاندارد نمره گذاری","group_weighting_scheme":"طرح وزن دار کردن گروه","hide_distribution_graphs":"مخفی کردن نمودارهای توزیع","hide_final_grade":"مخفی کردن نمره نهایی","indexed":"شاخص دار شده","integration_id":"شناسه یکپارچگی","is_public":"عمومی است","large_roster":"فهرست بزرگ","license":"مجوز","locale":"محل","lock_all_announcements":"قفل کردن تمام اطلاعیه ها","name":"نام","open_enrollment":"باز کردن ثبت نام","public_description":"شرح عمومی","public_syllabus":"سرفصل عمومی","replacement_course_id":"شناسه درس جایگزین","restrict_enrollments_to_course_dates":"محدود کردن ثبت نام ها به تاریخ های درس","root_account_id":"شناسه حساب ریشه","self_enrollment":"ثبت نام شخصی","self_enrollment_code":"رمز ثبت نام شخصی","self_enrollment_limit":"محدودیت ثبت نام شخصی","show_public_context_messages":"نشان دادن پیام زمینه عمومی","sis_batch_id":"شناسه دسته در سامانه اطلاعات دانشجو","sis_source_id":"شناسه منبع در سامانه اطلاعات دانشجو","start_at":"شروع از","storage_quota":"سهمیه ذخیره","syllabus_body":"متن اصلی_سرفصل","tab_configuration":"پیکربندی زبانه","template_course_id":"شناسه درس الگو","turnitin_comments":"نظر های مربوط به Turnitin","updated_at":"بهنگام سازی شده در","uuid":"UUID","wiki_id":"شناسه ویکی","workflow_state":"وضعیت گردش کار"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_restore",
+  null,
+  function() { return {"restore_error":"در هنگام تلاش برای بازیابی درس، خطایی رخ داد. درس بازیابی نشد.."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "auth_logging",
+  null,
+  function() { return {"corrupted":"اطلاعات بیشتر موجود نیست","login":"ورود","logout":"خروج"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "comm_messages",
+  null,
+  function() { return {"from_beginning":"آغاز","to_now":"اکنون"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_search",
+  null,
+  function() { return {"cant_be_blank":"نمی تواند خالی باشد"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_search_results",
+  function() { return {"course_found_f5a40cd3":"درس پیدا شد","course_found_not_deleted_a20f72f0":"درس پیدا شد (حذف نشده است)","course_not_found_c248a721":"درس  یافت نشد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "user_date_range_search",
+  function() { return {"generate_activity_for_user_2b0af749":"ایجاد فعالیت برای %{user}","length_notifications_found_25276610":"%{length} اعلان یافت شد","length_results_found_3afd01e5":"%{length} نتیجه یافت شد","not_a_valid_date_d3ac20ba":"تاریخ معتبر نیست.","to_date_cannot_come_before_from_date_3eeb2633":"تاریخ تا نمی تواند قبل از تاریخ از باشد."} },
+  function() { return {"cant_come_before_from":"«تا تاریخ» نمی تواند قبل از «از تاریخ» بیاید"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "bounced_emails",
+  function() { return {"last_bounced_after_76f9ce30":"آخرین بازگشت پس از","last_bounced_before_601c221a":"آخرین بازگشت قبل از"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "date",
+  null,
+  function() { return {"abbr_day_names":["یکشنبه","دوشنبه","سه شنبه","چهارشنبه","پنجشنبه","جمعه","شنبه"],"abbr_month_names":[null,"ژانویه","فوریه","مارس","آوریل","مه","ژوئن","ژوییه","آگوست","سپتامبر","اکتبر","نوامبر","دسامبر"],"datepicker":{"column_headings":["ی","د","س","چ","پ","ج","ش"]},"day_names":["یکشنبه","دوشنبه","سه شنبه","چهارشنبه","پنجشنبه","جمعه","شنبه"],"days":{"today":"امروز","today_lower":"امروز","tomorrow":"فردا","yesterday":"دیروز"},"formats":{"date_at_time":"%b %-d در %l:%M%P","default":"%Y-%m-%d","full":"%b %-d, %Y %-l:%M%P","full_with_weekday":"%a %b %-d, %Y %-l:%M%P","long":"%B %d, %Y","long_with_weekday":"%A, %B %-d","medium":"%b %-d, %Y","medium_month":"%b %Y","medium_with_weekday":"%a %b %-d, %Y","short":"%b %-d","short_month":"%b","short_weekday":"%a","short_with_weekday":"%a, %b %-d","weekday":"%A"},"month_names":[null,"ژانویه","فوریه","مارس","آوریل","مه","ژوئن","ژوییه","آگوست","سپتامبر","اکتبر","نوامبر","دسامبر"],"order":["year","month","day"]} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "mutationActivity",
+  function() { return {"asset_string_ddeaf719":"دارایی رشته","graphql_mutation_activity_5a47678b":"جهش فعالیت GraphQL ","hide_params_eadf0961":"پنهان کردن پارامترها","mutation_f0ac253f":"جهش","mutations_on_search_e5a62790":"جهش‌ها به %{search}","no_more_results_17c4f108":"نتیجه موجود نیست","parameters_a13374ec":"پارامترها","performed_by_70b3ce96":"انجام شده توسط","show_params_3401895b":"نمایش پارامترها","something_went_wrong_89195131":"اشکالی رخ داده است.","user1_masquerading_as_user2_4fa5bb55":"%{user1} ورود به عنوان %{user2}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "account_course_user_search",
+  function() { return {"active_terms_83df727e":"نیسمال های فعال","add_a_new_course_4a041207":"افزودن درس جدید","add_a_new_user_c440d053":"افزودن کاربر جدید","add_course_406cb773":"افزودن درس","add_people_7948b7da":"افزودن افراد","add_user_e73e8e50":"افزودن کاربر","add_users_to_name_b8109bbb":"افزودن کاربران به %{name}","click_to_sort_by_email_ascending_cb789ec4":"برای مرتب‌سازی صعودی  بر اساس ایمیل، کلیک کنید","click_to_sort_by_email_descending_72801b54":"برای مرتب‌سازی نزولی بر اساس ایمیل، کلیک کنید","click_to_sort_by_last_login_ascending_eafcbee4":"برای مرتب‌سازی صعودی بر اساس آخرین ورود، کلیک کنید","click_to_sort_by_last_login_descending_61fdadc":"برای مرتب‌سازی نزولی بر اساس آخرین ورود، کلیک کنید","click_to_sort_by_name_ascending_739c011e":"برای مرتب‌سازی صعودی بر اساس نام، کلیک کنید","click_to_sort_by_name_descending_b6262093":"برای مرتب‌سازی صعودی بر اساس نام، کلیک کنید","click_to_sort_by_sis_id_ascending_832c870":"برای مرتب‌سازی صعودی بر اساس شناسه سامانه اطلاعات دانشجو، کلیک کنید","click_to_sort_by_sis_id_descending_2d611236":"برای مرتب‌سازی نزولی بر اساس شناسه سامانه اطلاعات دانشجو، کلیک کنید","click_to_sort_by_sub_account_ascending_989b1ab":"برای مرتب‌سازی صعودی بر اساس زیرحساب، کلیک کنید","click_to_sort_by_sub_account_descending_88c611db":"برای مرتب‌سازی نزولی بر اساس زیرحساب، کلیک کنید","click_to_sort_by_teacher_ascending_cda7a18c":"برای مرتب‌سازی صعودی بر اساس استاد، کلیک کنید","click_to_sort_by_teacher_descending_45ef0d1e":"برای مرتب‌سازی نزولی بر اساس استاد، کلیک کنید","click_to_sort_by_term_ascending_c3ef1eb7":"برای مرتب‌سازی صعودی بر اساس نیمسال، کلیک کنید","click_to_sort_by_term_descending_199c48c0":"برای مرتب‌سازی نزولی بر اساس نیمسال، کلیک کنید","course_name_is_required_90919349":"نام درس لازم است","course_name_successfully_added_48116a50":"%{course_name} با موفقیت افزوده شد!","course_option_links_a79d263d":"پیوندهای گزنیه درس","course_results_updated_df9d1c95":"نتایج درس به روز شد.","create_new_course_e3ef9cd0":"ایجاد درس جدید","default_email_9efb7fbd":"پست الکترونیکی پیش فرض","display_name_b80c243e":"نام قابل مشاهده","edit_name_cbdef0c2":"ویرایش %{name}","edit_user_details_4d7b63ff":"ویرایش اطلاعات کاربر","email_the_user_about_this_account_creation_e63f8759":"ارسال پست الکترونیکی برای آگاهی دادن به کاربر از ایجاد این حساب","enrollment_term_7bfe840":"نیمسال ثبت نام","filter_by_term_cfe778b2":"فیلتر براساس ترم","filter_by_user_type_dbbd3e3d":"فیلتر بر اساس نوع کاربر","full_name_23fdfb6d":"نام کامل","full_name_is_required_8efbdc84":"نام کامل لازم است","future_terms_7fba2ae6":"نیمسال‌های آتی","hide_courses_without_students_fc6fc7a0":"مخفی کردن دروس بدون دانشجو","last_login_54565109":"آخرین ورود","login_handle_is_required_90ab7fe0":"%{login_handle} الزامی است","manage_profile_pictures_40c958ce":"مدیریت عکس های رخ نما","more_people_options_730e9686":"انتخاب افراد بیشتر","no_74e9b590":"خیر","no_courses_found_12d68a74":"هسچ درسی موجود نیست","no_users_found_64a043ff":"کاربر موجود نیست","past_terms_4b6ec40e":"نیمسال‌های گذشته","people_will_see_this_name_in_discussions_messages__fca9ebb2":"افراد این نام را در بحث ها، پیام ها و نظرها خواهند دید.","reference_code_3e8355dd":"رمز مرجع","reference_code_is_required_c32c757f":"رمز مرجع لازم است","search_by_99d1ba5f":"جستجو بر اساس","search_courses_591bc900":"جستجوی درس ها...","search_courses_by_teacher_e9760a48":"جستجوی درس ها بر اساس استاد ...","search_people_44f36cd2":"جستجوی افراد...","send_message_to_name_c8ac05fc":"ارسال پیام برای %{name}","settings_for_name_7731a33d":"تنظیمات برای %{name}","show_courses_from_8a087f63":"نمایش درسها از","show_more_af9cbc16":"نمایش بیشتر","show_only_blueprint_courses_9fb37b41":"فقط دوره‌های طرح نمایش داده شود","something_went_wrong_creating_the_course_please_tr_431adff5":"در ایجاد درس اشکالی رخ داده است. لطفا دوباره تلاش کنید.","sortable_name_73f707cf":"نام قابل مرتب سازی","statistics_for_name_f4b7b0fc":"آمار مربوط به %{name}","sub_account_daeadd0":"زیرحساب","subaccount_91f4c279":"زیرحساب","there_was_an_error_with_your_query_please_try_a_di_761dff12":"خطایی در جستجوی شما رخ داد: لطفا جستجوی دیگری را امتحان کنید","this_is_a_blueprint_course_5e7b47fe":"این یک دوره طرح است.","this_name_appears_in_sorted_lists_dccbd84b":"این نام در فهرست های مرتب سازی شده نمایش داده می شود.","this_name_will_be_used_by_teachers_for_grading_9b6aa8a0":"اساتید از این نام برای نمره گذاری استفاده خواهند کرد.","user_option_links_66090987":"پیوندهای گزینه کاربر","user_results_updated_9ce38dce":"نتایج کاربر به روز شد.","view_user_groups_d2bfa855":"مشاهده گروه های کاربر","yes_3593c135":"بله"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_people_successfully_enrolled_into_course_nam_db8eed18",
+  null,
+  function() { return {"one":"%{count} فرد در *%{course_name}* با موفقیت ثبت نام شدند.","other":"%{count} فرد در *%{course_name}* با موفقیت ثبت نام شدند."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "edit_timezone",
+  function() { return {"all_timezones_5e8afa7b":"همه منطقه های زمانی","common_timezones_2b00baba":"منطقه های زمانی رایج"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "AccountGradingPeriod",
+  function() { return {"an_error_occured_while_deleting_the_grading_period_c8343484":"در هنگام حذف دوره نمره گذاری خطایی رخ داد","closes_5c6b4367":"بستن:","ends_4fcb632":"پایان می‌یابد:","starts_ce584f1c":"شروع می‌شود:","weight_ff579a8e":"وزن:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "GradingPeriodSetForm",
+  function() { return {"all_grading_period_sets_must_have_a_title_799538f":"همه مجموعه های دوره نمره گذاری باید عنوان داشته باشند","grading_period_set_title_880a6ec4":"عنوان مجموعه دوره نمره گذاری","save_grading_period_set_e029fa88":"ذخیره سازی مجموعه دوره نمره گذاری"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "EnrollmentTermInput",
+  function() { return {"attach_terms_2b8770a5":"پیوست کردن نیمسال ها","no_unassigned_terms_deb7b76b":"هیچ نیمسال تخصیص داده نشده","past_14da759a":"گذشته","undated_15c2e5fe":"بهنگام سازی شد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradingPeriodForm",
+  function() { return {"grading_period_title_23b7f8ac":"عنوان دوره نمره گذاری","save_grading_period_daaaddea":"ذخیره سازی دوره نمره گذاری"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "helpers",
+  null,
+  function() { return {"accessible_date_format":"YYYY-MM-DD hh:mm","accessible_date_only_format":"YYYY-MM-DD","accessible_date_prompt":"قالب مانند","accessible_time_only_format":"hh:mm","account_time":"حساب","course":"درس","course_time":"درس","local":"محلی","local_time":"محلی"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "GradingPeriodSet",
+  function() { return {"add_grading_period_6f774dc3":"افزودن دوره نمره گذاری","all_close_dates_must_be_on_or_after_the_end_date_b898d85d":"همه تاریخ های خاتمه باید در تاریخ پایان یا بعد از آن باشند","all_weights_must_be_greater_than_or_equal_to_0_cc2dcdf1":"همه وزن‌ها باید بزرگتر یا مساوی صفر باشد.","an_error_occured_while_deleting_the_grading_period_81bb16e5":"در هنگام حذف مجموعه دوره نمره گذاری خطایی رخ داد","are_you_sure_you_want_to_delete_this_grading_perio_380b040d":"مطمئنید که می خواهید این مجموعه دوره نمره گذاری حذف شود؟","no_associated_terms_13bacefc":"نیمسال مرتبط موجود نیست","terms_35d91184":"نیمسال ها","the_grading_period_set_was_deleted_cce5d8f6":"مجموعه دوره نمره گذاری حذف شد","toggle_title_grading_period_visibility_462b2136":"تغییر وضعیت قابلیت مشاهده دوره نمره‌گذاری %{title}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "GradingPeriodSetCollection",
+  function() { return {"add_set_of_grading_periods_5b4d6e51":"افزودن مجموعه دوره های نمره گذاری","an_error_occured_while_fetching_enrollment_terms_1b7b4ac":"در هنگام فراخوانی نیمسال های ثبت نام خطایی رخ داد.","an_error_occured_while_fetching_grading_period_set_b4f12aa5":"در هنگام فراخوانی مجموعه های دوره نمره گذاری خطایی رخ داد.","an_error_occured_while_updating_the_grading_period_9e024cd1":"در هنگام بهنگام سازی مجموعه دوره نمره گذاری خطایی رخ داد","set_of_grading_periods_545b37e9":"مجموعه دوره های نمره گذاری","showing_all_sets_of_grading_periods_6c160874":"در حال نمایش همه مجموعه دوره های نمره گذاری.","term_created_27d27c2b":"نیمسال ایجاد شد","term_starting_5bd5e070":"نیمسال در حال شروع","the_grading_period_set_was_updated_successfully_d8dd5d0f":"مجموعه دوره نمره گذاری با موفقیت بهنگام سازی شد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_sets_of_grading_periods_found_c8857ae9",
+  null,
+  function() { return {"one":"1 مجموعه برای دوره های نمره گذاری موجود است.","other":"%{count} مجموعه دوره های نمره گذاری موجود است.","zero":"هیچ مجموعه نظیر دوره های نمره گذاری موجود نیست."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "NewGradingPeriodSetForm",
+  function() { return {"a_name_for_this_set_is_required_222bad23":"یک نام برای این مجموعه لازم است","successfully_created_a_set_38374719":"یک مجموعه با موفقیت ایجاد شد","there_was_a_problem_submitting_your_set_27ca2ed0":"در هنگام ارسال مجموعه اشکالی رخ داد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "SearchGradingPeriodsField",
+  function() { return {"search_grading_periods_e947a3e9":"جستجوی دوره های نمره گذاری"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "courses",
+  function() { return {"account_notification_settings_error_page_66c0bc61":"صفحه خطای تنظیمات اعلان حساب","account_notification_settings_initial_query_error_f55e1cbf":"خطای درخواست اولیه تنظیمات اعلان حساب","account_notification_settings_updated_dbabec35":"تنظیمات اعلان حساب به روزرسانی شد","deactivate_user_86c09036":"غیر فعالسازی کاربر","due_by_c263dc10":"مهلت","edit_role_1e96ad20":"ویرایش نقش","faculty_journal_5634938e":"ژورنال هیات علمی","re_activate_user_f7d77c9a":"فعال سازی دوباره کاربر","remove_user_from_section_5556f465":"حذف کاربر از بخش","role_7c0b7eaa":"نقش:","this_user_has_multiple_roles_in_the_course_changin_8cbd82d4":"این کاربر دارای چند نقش در این درس است. با تغییر دادن نقش او در اینجا، همه ثبت نام های فعلی رونویسی خواهند شد.","to_do_6ac7b2dc":"برای انجام:","to_link_the_course_observer_name_to_a_student_star_f993c826":"برای پیوند دادن بییننده درس *%{name}* به یک دانشجو، نام دانشجو را در قسمت زیر تایپ کنید تا آنها را بیابید و سپس روی بهنگام سازی کلیک کنید.","you_cannot_remove_this_enrollment_c87be1cb":"نمی توانید این ثبت نام را حذف کنید."} },
+  function() { return {"confirm_reject_invitation":"مطمئنید که می خواهید دعوت نامه شرکت در این درس را رد کنید؟","roster":{"edit_sections_view":{"edit_sections_desc":"بخش ها روش دیگری برای سازماندهی کاربران هستند. این روش شما امکان می دهد چند کلاس را از یک درس تدریس کنید، تا کل محتوای درس را یکجا داشته باشید. در قسمت زیر می توانید یک کاربر را به یک بخش دیگر منتقل کنید، یا ثبت نام های بخش را حذف یا اضافه کنید. کاربران همیشه باید حداقل در یک بخش باشند."},"index":{"cannot_add_users":"کاربران جدید نمی توانند افزوده شوند، زیرا این درس خاتمه یافته است","filter_field_description":"افراد را جستجو کنید. وقتی در این جای خالی تایپ می کنید، فهرست افراد به طور خودکار فقط برای شامل سازی افرادی که نام آنها با ورودی شما مطابقت دارند، فیلتر خواهد شد.","group_set":"مجموعه گروه","people":"افراد","role_to_search":"محدود کردن جستجو به نقش","search_people":"جستجوی افراد","title_add_people":"افزودن افراد"},"invitations_view":{"accepted_invitation":"%{name} دعوت نامه پیوستن به درس را قبلا دریافت کرده اید و پذیرفته اید،ولی شما هنوز می توانید در صورت نیاز دعوتنامه را دوباره ارسال کنید.","admin_invitation_unaccepted":"%{name} هنوز دعوت برای پیوستن به درس را قبول نکرده است. دعوت نامه در %{time} فرستاده شد","invitations_pending_publish":"دعوت نامه ها تا زمانی که درس *منتشر* نشود، فرستاده نمی شوند","student_invitation_unaccepted_available":"%{name} هنوز دعوت برای پیوستن به درس را قبول نکرده است. دعوت نامه در %{time} فرستاده شد","student_invitation_unaccepted_unavailable":"%{name} به درس افزوده شد: %{time}"},"link_to_students_view":{"link_student_desc":"زمانی که یک بیننده به یک دانشجو پیوند داده می شود، به نمره ها و تعامل های درسی این دانشجو دسترسی دارد."},"resend_invitations":{"pending_invitation":"1 دعوت نامه پذیرفته نشده است","pending_invitations":"دعوت نامه های %{pendingInvitationsCount} پذیرفته نشده اند.","re_send_invitations":"ارسال دوباره","re_sending_invitations":"در حال ارسال دوباره..."},"role_select":{"all_roles":"همه نقش ها"},"roster_tabs":{"everyone_tab":"همه","groups":"گروه ها"},"roster_user":{"links":{"edit_sections":"ویرایش بخش ها","link_to_students":"پیوند دادن به دانشجویان","remove_from_course":"حذف از درس","resend_invitation":"ارسال دوباره دعوت نامه","user_details":"اطلاعات کاربر"},"manage_user":"مدیریت %{name}","pending_acceptance_explanation":"این کاربر هنوز دعوت نامه درس را نپذیرفته است","pending_acceptance_of_invitation":"در انتظار"},"roster_users":{"canvas_user_id":"شناسه کاربری کانواس","last_activity":"آخرین فعالیت","login_name":"شناسه ورود","name":"نام","no_people_found":"فردی یافت نشد","role":"نقش","section":"بخش","total_activity":"کل فعالیت","you_can_search_by":"می توانید جستجو کنید بر اساس:"},"section":{"remove_user_from_course_section":"حذف کاربر از %{name}"}},"show":{"empty_body":"محتوا موجود نیست","re_sending":"در حال ارسال دوباره...","send_done":" انجام شد. ارسال پیام ممکن است چند دقیقه طول بکشد.","send_failed":"درخواست انجام نشد. دوباره سعی کنید.","titles":{"drop_course":"رها کردن این درس"}}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "accounts",
+  function() { return {"assignment_id_b040cee0":"شناسه تکلیف","avatar_8a8aa935":"آواتار","course_activity_bfe11267":"فعالیت درس","course_id_8bd2a21c":"شناسه درس","course_id_b0bc82d4":"شناسه درس","data_point_over_time_8d0a54cc":"در طول زمان %{data_point}","ex_ba24edf6":"مثال","grade_change_activity_75fb525":"فعالیت تغییر نمره","limit_search_to_activity_after_c1ac2449":"محدود کردن جستجو به فعالیت بعد از","limit_search_to_activity_before_e05aad05":"محدود کردن جستجو به فعالیت قبل از","loading_6ac402e1":"درحال بارگذاری...","notifications_search_results_80a0b06f":"نتایج جستجوی اطلاعیه‌ها","over_time_bee1a733":"در طول زمان","restore_courses_182e162e":"بازیابی درس ها","search_for_a_deleted_course_by_id_f553398d":"جستجوی درس حذف شده بر اساس شناسه","select_a_log_type_to_search_247fc6b4":"نوع گزارش ثبت وقایع را برای جستجو انتخاب کنید.","to_view_all_notifications_sent_to_a_canvas_user_se_6172daa":"برای مشاهده همه اعلان‌هایی که برای یک کاربر کانواس ارسال می‌شود، کاربر و بازه زمانی را برای جستجوی خود انتخاب کنید.","user_login_logout_activity_90fbbd9a":"فعالیت ورود /خروج کاربر","value_d842f16d":"مقدار","view_notifications_6aea09a2":"مشاهده اطلاعیه ها"} },
+  function() { return {"admin_tools":{"admin_tools":{"tab_labels":{"admin_tools_logging":"در حال ورود","restore_course":"بازیابی درس ها"},"view_messages":"مشاهده اطلاعیه ها"},"auth_logging_search_results":{"activity":"فعالیت","date":"تاریخ","no_item_found":"موردی یافت نشد","time":"زمان"},"comm_message_item":{"created_at":"ایجاد شده در","from_name":"فرستنده","reply_to":"ارسال پاسخ به","sent_at":"ارسال شده در","to":"گیرنده"},"comm_messages_search_overview":{"messages_viewed":"اطلاعیه های ارسال شده برای *%{user}* از *%{start_date}* تا *%{end_date}*."},"comm_messages_search_results":{"no_messages_found":"پیامی یافت نشد"},"course_logging_details":{"Field":"جای خالی","From":"فرستنده","To":"گیرنده","Value":"ارزش","blank_placeholder":"-","copied_from_label":"کپی شده از","copied_to_label":"کپی شده در","date":"تاریخ","event_id":"شناسه رویداد","event_sis_batch":"فایل دسته ای سامانه اطلاعات دانشجو","event_source_label":"منبع","event_type_label":"نوع","reset_from_label":"بازنشانی شده از","reset_to_label":"بازنشانی شده در","time":"زمان","user":"کاربر"},"course_logging_item":{"blank_placeholder":"-","view_event_details":"مشاهده اطلاعات بیشتر"},"course_logging_results":{"date":"تاریخ","event_details":"اطلاعات رویداد","event_source":"منبع","event_type":"نوع","no_item_found":"موردی یافت نشد","time":"زمان","user":"کاربر"},"course_search_results":{"error_message":"درس حذف شده با این شناسه برای این حساب یافت نشد.","info_text":"ثبت نام های این درس باید به طور دستی بازیابی شوند.","labels":{"account_id":"شناسه حساب:","account_id2":"شناسه حساب:","coures_id1":"شناسه درس:","coures_id2":"شناسه درس:","course_code1":"رمز درس:","course_code2":"رمز درس:","restore_btn":"بازیابی"},"notdeleted_restore":{"add_enrollments":"افزودن ثبت نام ها","header_subtext":"(حذف نشده)","view_course":"مشاهده درس"},"successful_restore":{"view_course":"مشاهده درس"},"successfull_restore":{"add_enrollments":"افزودن ثبت نام ها","subtext":"به عنوان اقدام بعدی، مایلید چه کار کنید؟"}},"date_range_search":{"message_date_from":"از تاریخ","message_date_to":"تا تاریخ"},"grade_change_logging_item":{"blank_placeholder":"-","event_type":{"corrupted":"اطلاعات بیشتر موجود نیست"},"no-abbreviation":"n","yes-abbreviation":"y"},"grade_change_logging_results":{"Anonymous":"ناشناس","Assignment":"تکلیف","Course":"درس","Grader":"نمره گذار","Student":"دانشجو","To":"گیرنده","date":"تاریخ","from":"فرستنده","no_item_found":"موردی یافت نشد","time":"زمان"},"logging_content_pane":{"authentication":"فعالیت ورود / خروج","course":"فعالیت درس","grade_change":"فعالیت تغییر نمره ","mutations":"جهش فعالیت GraphQL ","select_default":"انتخاب نوع فایل ثبت"},"user_date_range_search_form":{"message_date_from":"از تاریخ","message_date_to":"تا تاریخ","search":"جستجوی افراد بر اساس شناسه یا نام","search_people":"جستجوی افراد"}},"course_type":"درس","default_account_quotas_not_updated":"سهمیه های پیش فرض حساب بهنگام سازی نشده اند","default_account_quotas_updated":"سهمیه های پیش فرض حساب بهنگام سازی شدند","find_not_authorized":"مجاز به دسترسی به این %{type} نیستید","find_not_found":"%{type} با این شناسه یافت نشد","group_type":"گروه","integer_required":"یک مقدار صحیح لازم است","quota_not_updated":"سهمیه بهنگام سازی نشد","quota_updated":"سهمیه بهنگام سازی شد","retry_login":"تلاش دوباره برای ورود","settings":{"manual_quotas":{"find_button":"یافتن","label_for_course_or_group_id":"شناسه:","manual_quotas_title":"سهمیه های قابل تنظیم به طور دستی","megabytes":"مگابایت","megabytes_tooltip":"مگابایت","select_type_courses":"شناسه درس","select_type_groups":"شناسه گروه","select_type_label":"یافتن درس یا گروه","update_button":"بهنگام سازی سهمیه"},"quotas":{"default_account_quota_title":"سهمیه های پیش فرض حساب","default_course_storage_quota":"سهمیه درس","default_group_storage_quota":"سهمیه گروه","default_user_storage_quota":"سهمیه کاربر","megabytes":"مگابایت","megabytes_tooltip":"مگابایت","update_button":"بهنگام سازی"}},"test_ldap_dialog_title":"آزمون تنظیمات LDAP","test_ldap_result_canceled":"لغو شد","test_ldap_result_failed":"انجام نشد","test_ldap_result_ok":"تأیید","test_login":"آزمایش ورود","testing":"درحال آزمایش...","users_list":{"login_name_or_sis_id":"شناسه ورود / سامانه اطلاعات دانشجو","name":"نام","no_people_found":"شخصی یافت نشد","you_can_search_by":"می توانید جستجو کنید بر اساس:"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "account_settings_jsx_bundle",
+  function() { return {"a_suffix_cannot_be_longer_than_255_characters_plea_2f2fefd5":"پسوند نمیتواند بیشتر از 255 کاراکتر باشد. لطفا با یک پسوند کوتاه تر مجددا امتحان نمایید.","a_suffix_cannot_have_any_tabs_or_spaces_please_rem_47db763e":"یک پسوند نمیتواند شامل فضای خالی یا فاصله باشد، لطفا فاصله ها را پاک کرده و مجددا امتحان کنید.","active_directory_lookup_attribute_d317cb60":"ویژگی جستجوی اکتیو دایرکتوری","active_directory_lookup_attribute_selector_d56a326f":"انتخابگر ویژگی جستجوی اکتیو دایرکتوری","example_edu_cc1a0744":"@example.edu","login_attribute_731a8181":"ویژگی ورود","sis_user_id_f631a010":"شناسه کاربر در سامانه اطلاعات دانشجو","update_settings_9b422d0f":"بهنگام سازی تنظیمات"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "account_settings",
+  function() { return {"about_this_service_b10bc808":"درباره این خدمت","security_tab_failed_to_load_2d2242a":"بارگذاری زبانه امنیتی انجام نشد.","there_are_no_reports_for_you_to_view_b716717a":"گزارشی جهت مشاهده برای شما وجود ندارد.","title_is_too_long_b192a46a":"عنوان طولانی است"} },
+  function() { return {"account_name_too_long":"نام حساب طولانی است","confirms":{"delete_announcement":"مطمئنید که می خواهید این اطلاعیه حذف شود؟","global_announcement":"باید اطلاعیه سراسری را تأیید کنید","remove_account_admin":"مطمئنید که می خواهید مدیر این حساب حذف شود؟"},"custom_text_blank":"[متن سفارشی]","help_menu_name_too_long":"نام منوی راهنما طولانی است","links":{"turnitin":{"confirm_settings":"تأیید تنظیمات Turnitin"}},"notices":{"turnitin":{"checking_settings":"در حال بررسی تنظیمات Turnitin","invalid_settings":"تنظیمات Turnitin معتبر نیست، لطفا شناسه حساب و رمز مشترک Turnitin را بررسی کنید","setings_confirmed":"تنظیمات Turnitin تأیید شد!"}},"titles":{"configure_report":"پیکربندی گزارش","open_registration_delegated_warning_dialog":"یک ارائه دهنده بیرونی هویت فعال شده است","what_are_quiz_ip_filters":"فیلترهای آی پی آزمون چه هستند؟"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "security_panel",
+  function() { return {"add_domain_f15bc6c1":"افزودن دامنه","allowed_domains_ee7868c8":"دامنه های مجاز","canvas_content_security_policy_c3d7bf2b":"سیاست امنیتی محتوا کانواس","domain_name_6c783b0":"نام دامنه","domains_66feaf7f":"دامنه","enable_content_security_policy_8bd0b492":"سیاست امنیت محتوای فعال کنید.","inherit_content_security_policy_94aff861":"ارث بری سیاست امنیت محتوا","invalid_domain_e810c1d":"دامنه معتبر نیست","note_associated_tools_are_only_listed_once_even_if_ebae2aba":"توجه: ابزارهای مرتبط فقط یک بار فهرست می شوند ، حتی اگر داشته باشند\nدر چندین زیرحساب نصب شده است.","view_violation_log_e80ea322":"مشاهده گزارش تخلف","violation_log_tray_d4eff9f4":"سینی گزارش تخلف"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "csp_violation_table",
+  function() { return {"add_as_allowed_e95540be":"افزودن به حالت مجاز","add_hostname_as_an_allowed_domain_1f58c38d":"%{hostname} را به عنوان دامنه مجاز اضافه کنید","last_attempt_7258ebd7":"آخرین تلاش","requested_bbdb5b26":"درخواست شده است"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "csp_violation_tray",
+  function() { return {"violation_log_491edd84":"گزارش تخلف"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_creation_settings",
+  function() { return {"account_administrators_can_always_create_courses_926dc0cb":"مدیرهای حساب همیشه می توانند درس ها را ایجاد کنند","allow_creation_anywhere_the_user_has_active_enroll_13c84fc2":"اجازه ایجاد در هر جایی که کاربر دارای ثبت نام فعال است","allow_creation_only_in_the_manually_created_course_69f37f2e":"ایجاد فقط در زیر حساب ها درس هایی که دستی ایجاد شده اند مجاز است","select_users_who_can_create_new_courses_75f92743":"کاربرانی را انتخاب کنید که می توانند دوره های جدید ایجاد کنند","users_with_no_enrollments_5dddce33":"کاربرانی که ثبت نام نکرده اند","where_can_students_create_courses_fd0c8a00":"دانش آموزان کجا می توانند درس ایجاد کنند؟","where_can_teachers_create_courses_d87eaff2":"معلمان کجا می توانند درس ایجاد کنند؟"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "i18n!custom_emoji_deny_list",
+  function() { return {"remove_emoji_emojiname_cb388de9":"ایموجی \"%{emojiName}\" را حذف کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "custom_help_link",
+  function() { return {"add_custom_link_22059c0":"افزودن پیوند سفارشی","add_help_menu_links_de9fc34f":"افزودن پیوندهای منوی راهنما","add_link_5c01c1e8":"افزودن پیوند","add_link_fc336ed6":"افزودن پیوند","cancel_custom_link_creation_39ec70bd":"لغو  ایجاد پیوند سفارشی ","cog_icon_69bdffd5":"نماد چرخ دنده","custom_link_details_35fd38fc":"جزئیات پیوند سفارشی","e_g_http_university_edu_helpdesk_acab04d6":"به عنوان مثال، http://university.edu/helpdesk","edit_text_27d8aa3d":"ویرایش %{text}","featured_83f6041d":"ویژگی","features_2581da":"ویژگی‌ها","folder_icon_29017021":"نماد پوشه","help_menu_links_51184b65":"پیوندهای منوی راهنما","help_menu_options_7ecf7031":"گزینه های منوی راهنما","icon_215a1dc6":"نماد","information_icon_8a514faa":"نماد اطلاعات","life_preserver_icon_8660b6ce":"نماد حفظ کننده حیات","link_7262adec":"پیوند","link_description_4355ca82":"شرح پیوند","link_name_b76fdb38":"نام پیوند","move_text_down_7176acd4":"انتقال %{text} به پایین","move_text_up_91fb4241":"انتقال %{text}  به بالا","please_enter_a_name_for_this_link_318f01a4":"لطفا یک نام برای این پیوند وارد کنید.","please_enter_a_valid_url_protocol_is_required_e_g__4bc49ab1":"لطفا یک نشانی اینترنتی معتبر وارد کنید. پروتکل لازم است (به عنوان مثال http: //، https: //، ftp: //، tel :، mailto :).","please_select_a_user_role_for_this_link_9fb4e655":"لطفا یک نقش کاربر برای این پیوند انتخاب کنید.","question_mark_icon_d2bbd204":"نماد علامت سؤال","remove_text_8e485c41":"حذف %{text}","unenrolled_bc89d5e3":"ثبت نام نشده","update_link_b7cab181":"به روزرسانی پیوند","you_left_the_required_name_field_empty_8f9bce5c":"شما فیلد نام مورد نیاز را خالی گذاشتید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "act_as",
+  function() { return {"act_as_is_essentially_logging_in_as_this_user_with_6244031c":"\"اقدام به عنوان\" ورود به عنوان این کاربر بدون رمز عبور است. می توانید هر اقدامی را انجام دهید، طوری که انگار به جای این کاربر هستید، و از نظر کاربران دیگر، طوری است که انگار این کاربر این اقدام ها را انجام داده است. اما فایل های ثبت حسابرسی این حقیقت را ثبت می کنند که شما این اقدامات را از طرف این کاربر انجام داده اید.","category_b9a94408":"رده","default_email_5cb9fa04":"پست الکترونیکی پیش فرض:","display_name_6c2cfc58":"نام قابل مشاهده:","full_name_14c958f7":"نام کامل:","integration_id_a6977535":"شناسه یکپارچگی:","login_id_bc943b97":"شناسه ورود:","login_info_d1d9f11e":"اطلاعات ورود","sis_id_70eda157":"شناسه سامانه اطلاعات دانشجو:","sortable_name_e25fe66c":"نام قابل مرتب کردن:","user_details_e9aef9e5":"جزئیات کاربر","user_information_6353d7e1":"اطلاعات کاربر"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "admin_split",
+  function() { return {"split_74c03348":"شکاف"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "alerts",
+  null,
+  function() { return {"errors":{"criteria_required":"حداقل یک محرک لازم است","recipients_required":"حداقل یک گیرنده لازم است","threshold_should_be_numeric":"باید یک عدد مثبت باشد"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "catalog",
+  function() { return {"course_catalog_4cc7c8ce":"کاتالوگ درس"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "announcements_on_home_page",
+  function() { return {"recent_announcements_8becc59c":"اطلاعیه‌های اخیر"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "announcements_v2",
+  function() { return {"add_announcement_165c3b05":"افزودن اطلاعیه","add_external_feed_6d437a28":"افزودن خوراک خبری بیرونی","add_feed_49ed1cb2":"افزودن خوراک خبری","adding_rss_feed_f1202567":"افزودن خوراک خبری RSS","an_error_occurred_while_deleting_announcements_ab1ff3f6":"در هنگام حذف اطلاعیه‌ها خطایی رخ داد.","an_error_occurred_while_locking_announcements_8115ccd7":"در هنگام قفل کردن اطلاعیه ها خطایی رخ داد.","an_error_occurred_while_updating_announcements_loc_5a1c5dcf":"هنگام به روزرسانی وضعیت اطلاعیه‌های قفل شده ، خطایی رخ داد.","an_error_ocurred_while_loading_announcements_32af2ce4":"در هنگام بارگذاری اطلاعیه ها خطایی رخ داد","announcement_filter_d35318a7":"فیلتر اطلاعیه","announcements_deleted_successfully_7d77e9e1":"اطلاعیه‌ها با موفقیت حذف شدند.","announcements_list_c75fc413":"فهرست اطلاعیه ها","announcements_locked_successfully_43d58107":"اطلاعیه‌ها با موفقیت قفل شدند.","announcements_unlocked_successfully_1432da9d":"اطلاعیه‌ها با موفقیت قفل گشایی شدند.","check_back_later_c4234dbc":"بعدا بررسی کنید.","count_announcements_found_b7b055b3":"%{count} اطلاعیه یافت شد.","create_announcements_above_1c36202b":"اطلاعیه‌ها را در بالا ایجاد کنید.","delete_feedname_1ac9a4a4":"حذف %{feedName}","delete_selected_announcements_69e23710":"حذف کردن  اطلاعیه‌های انتخاب شده","dropdown_changed_state_to_expanded_517689c2":" منوی بازشونده وضعیت را به %{expanded} تغییر داد.","enter_specific_phrase_9b686755":"عبارت خاصی را وارد کنید.","external_feed_deleted_successfully_33209dbc":"خوراک خبری بیرونی با موفقیت حذف شد.","external_feed_successfully_added_e0ce0784":"خوراک خبری بیرونی با موفقیت افزوده شد.","external_feeds_b6345379":"خوراک‌های خبری بیرونی","failed_to_add_new_feed_ee1c5ea":"افزایش خوراک‌های خبری جدید انجام نشد.","failed_to_delete_external_feed_36f19d70":"حذف خوراک های خبری بیرونی انجام نشد.","failed_to_load_external_feeds_7ac8411d":"بارگذاری خوراک‌های خبری بیرونی انجام نشد.","feed_url_8a433438":"نشانی اینترنتی خوراک خبری","feeds_9f1c5c76":"خوراک خبری","full_article_9296bb6f":"مقاله کامل","link_only_995966e":"فقط پیوند","lock_selected_announcements_33740f80":"قفل کردن اطلاعیه‌های انتخاب شده","next_announcements_page_3956eb11":"صفحه بعدی اطلاعیه ها","no_announcements_280df147":"بدون اطلاعیه","only_add_posts_with_a_specific_phrase_in_the_title_b8b7b04e":"فقط ارسال های دارای یک عبارت خاص در عنوان را اضافه شوند","previous_announcements_page_79c0ada1":"صفحه اطلاعیه های قبلی","rss_feed_cf6286b3":"خوراک خبری RSS","search_announcements_by_title_407a998e":"جستجوی اطلاعیه‌ها با عنوان","select_embedded_content_type_966f048a":"انتخاب نوع محتوی درج شده","truncated_56b1a661":"کوتاه شده","unlock_selected_announcements_37485f05":"قفل گشایی اطلاعیه‌های انتخاب شده"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "you_are_about_to_delete_count_announcements_are_yo_96a2b383",
+  null,
+  function() { return {"one":"شما در حال حذف 1 اطلاعیه هستید. آیا اطمینان دارید؟","other":"شما در حال حذف %{count} اطلاعیه هستید. آیا اطمینان دارید؟"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_posts_added_fa55ce4",
+  null,
+  function() { return {"one":"%{count} مورد ارسالی افزوده شد.","other":"%{count} مورد ارسالی افزوده شد.","zero":"%{count} مورد ارسالی افزوده شد."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignment_editview",
+  function() { return {"anonymous_grading_cannot_be_enabled_for_group_assi_faa33494":"نمره‌گذاری ناشناس را نمی‌توان برای تکالیف گروهی فعال کرد.","assignment_d8387b78":"تکلیف","assignment_details_updated_493f410b":"جزئیات تکلیف به روز شد","cannot_be_edited_for_assignments_in_closed_grading_792ef6c1":"برای تکالیف قرار گرفته در دوره نمره‌گذاری بسته شده، قابل ویرایش نیست","external_tool_url_cannot_be_left_blank_a34b6bb2":"نشانی اینترنتی بیرونی را نمی توان خالی گذاشت","grader_count_cannot_be_0_9228afe4":"تعداد نمره گذار نمیتواند 0 باشد.","grader_count_is_required_45b6c85b":"تعداد نمره گذار لازم است.","grader_is_required_62c88f67":"نمره‌گذار لازم است.","group_assignments_cannot_be_enabled_for_anonymousl_ed896b1c":"تکلیف‌های گروه را نمی توان برای تکلیف‌های نمره‌گذاری شده‌ی ناشناس فعال کرد.","group_assignments_cannot_be_enabled_for_moderated__6b2faeef":"تکلیف های گروه را نمی توان برای تکلیف های نظارت شده فعال کرد","peer_reviews_cannot_be_enabled_for_moderated_assig_149d33c4":"بازبینی های گروهی را نمی توان برای تکلیف های نظارت شده فعال کرد","points_possible_must_be_0_or_more_for_selected_gra_f96a04e3":"امتیازهای ممکن باید برای نوع نمره گذاری انتخابی 0 یا بیشتر باشد","removed_filename_a8634af3":"حذف %{filename}","you_must_attach_a_file_b6041092":"شما باید یک فایل پیوست کنید","you_must_set_document_usage_rights_b4afa1e9":"شما باید حقوق استفاده از سند را تنظیم کنید"} },
+  function() { return {"at_least_one_file_type":"لطفا حداقل یک نوع مجاز فایل را تعیین کنید","at_least_one_submission_type":"لطقا حداقل یک نوع ارسال را انتخاب کنید","buttons":{"select_url":"انتخاب"},"name_is_required":"نام مورد نیاز است!","points_possible_number":"امتیازهای ممکن باید یک عدد باشد","select_external_tool_dialog_title":"پیکربندی ابزار بیرونی","vericite_submission_types_validation":"VeriCite تنها ارسال فایل و ورود متن را پشتیبانی می کند"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_students_c9920376",
+  null,
+  function() { return {"one":"1 دانشجو","other":"%{count} دانشجو","zero":"0 دانشجو"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "allowed_attempts",
+  function() { return {"allowed_attempts_4e229caa":"تلاش های مجاز"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "moderated_grading",
+  function() { return {"error_retrieving_assignment_external_tools_9102d343":"خطا در بازیابی ابزارهای بیرونی تکلیف","error_retrieving_similarity_detection_tools_d6d4f9e9":"خطا در بازیابی ابزارهای تشخیص شباهت","external_tool_tool_id_6028b3b1":"ابزار بیرونی %{tool_id}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "DefaultToolForm",
+  function() { return {"add_content_58b4305a":"افزودن محتوا","click_the_button_above_to_add_content_4c7024a":"برای افزودن محتوا روی دکمه بالا کلیک کنید","content_successfully_added_395c906f":"%{content} مورد با موفقیت افزوده شد","successfully_added_fb3e6008":"با موفقیت افزوده شد.","the_tool_is_not_installed_in_the_course_or_account_1be7230b":"ابزار در درس یا حساب نصب نشده است.","tool_not_found_f6366382":"ابزار یافت نشد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignment",
+  function() { return {"select_one_8e0af564":"انتخاب یک مورد","speedgrader_tm_44688790":"برنامه نمره گذاری سریع™"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "FinalGraderSelectMenu",
+  function() { return {"grader_that_determines_final_grade_cc55f20":"نمره‌گذار که نمره نهایی را تعیین می کند"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "GraderCommentVisibilityCheckbox",
+  function() { return {"graders_can_view_each_other_s_comments_d836b848":"نمره‌گذارها می توانند نظرات یکدیگر را مشاهده کنند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "GraderCountNumberInput",
+  function() { return {"must_have_at_least_1_grader_d4a54e85":"باید حداقل 1 نمره‌گذار داشته باشد","there_are_currently_availablegraderscount_availabl_58f85403":"در حال حاضر %{availableGradersCount} نمره‌گذار موجود است.","there_is_currently_1_available_grader_758e4a21":"در حال حاضر 1 نمره‌گذار موجود است."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "GraderNamesVisibleToFinalGraderCheckbox",
+  function() { return {"final_grader_can_view_other_grader_names_67736530":"نمره‌گذار نهایی می تواند نام سایر نمره‌گذارها را مشاهده کند"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "ModeratedGradingCheckbox",
+  function() { return {"allow_moderator_to_review_multiple_independent_gra_c59d64f6":"به یک ناظر اجازه داده شود چند نمره مستقل برای موردهای ارسالی را بازبینی کند","moderated_grading_cannot_be_enabled_for_group_assi_7e947ab7":"نمره گذاری نظارت شده نمی تواند برای تکلیف های گروهی فعال شود","moderated_grading_cannot_be_enabled_for_peer_revie_6b7eedc1":"نمره گذاری نظارت شده نمی تواند برای تکلیف های بازبینی شده به طور گروهی فعال شود","moderated_grading_setting_cannot_be_changed_if_gra_ba939ce2":"در صورتی که موردهای ارسالی نمره گاذری شده وجود داشته باشد، تنظیم نمره گذاری نظارت شده را نمی توان تغییر داد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "OriginalityReportVisibilityPicker",
+  function() { return {"after_the_assignment_is_graded_53754607":"بعد از اینکه تکلیف نمره گذاری شد","after_the_due_date_eee89c9c":"بعد از تاریخ مهلت","immediately_c128ede6":"بلافاصله","show_report_to_students_a07888a6":"نمایش گزارش به دانشجویان"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignment_grade_summary",
+  function() { return {"accept_grades_4d56a3dd":"پذیرفتن نمره‌ها","accept_grades_by_gradername_7a98b969":"پذیرفتن نمره‌ها توسط %{graderName} ","accepted_c9f8ab87":"پذیرفته شد","accepting_40ba3b70":" پذیرفتن","all_submissions_must_have_a_selected_grade_3a84e5a9":"همه موردهای ارسالی باید یک نمره انتخاب شده داشته باشند.","are_you_sure_you_want_to_do_this_it_cannot_be_undo_3379a544":"مطمئنید که می خواهید این کار را انجام دهید؟ این عمل لغو نمی شود و جایگزین نمره های موجود در دفتر نمره خواهد شد.","are_you_sure_you_want_to_post_grades_for_this_assi_bafe5753":"آیا مطمئن هستید که می خواهید نمرات این تکلیف را برای دانشجویان ارسال کنید؟","assignment_grades_have_already_been_released_4c8a91b":"نمره های تکلیف منتشر شده اند.","attention_aaca1f1d":"توجه!","grade_for_studentname_d124b199":"نمره برای %{studentName}","grade_selection_table_dcf9d1ea":"جدول انتخاب نمره","grade_summary_255289f6":"خلاصه نمره","grader_details_6406bea0":"جزئیات نمره گذاری","grader_gradernumber_fef5d5cf":"نمره %{graderNumber}","grades_cannot_be_modified_from_this_page_as_they_h_d0ebeb6":"نمرات نمی توانند از این صفحه تغییر کنند، زیرا قبلاً منتشر شده اند.","grades_for_this_assignment_are_now_visible_to_stud_623efda0":"نمرات این تکلیف اکنون برای دانشجویان قابل مشاهده است.","grades_posted_to_students_56b8cb2d":"نمرات به دانشجویان ارسال شد","grades_released_488c2808":"نمرات منتشر شد","grades_saved_5954b0bb":"نمره‌ها ذخیره شد.","grades_were_successfully_released_to_the_gradebook_4c3b07d6":"نمرات با موفقیت در دفتر نمره  منتشر شدند.","post_to_students_b02df196":"ارسال به دانشجویان","posting_to_students_eaa57964":"در حال ارسال به دانشجویان","release_grades_c68fbcc":"انتشار نمرات","releasing_grades_31a57dde":"در حال انتشار نمرات","selected_grade_942f40ba":"نمره‌ی انتخاب شده","student_studentnumber_f398d9c2":"دانشجو %{studentNumber}","students_are_loading_206c5246":"دانشجویان در حال بارگذاری هستند","there_was_a_problem_releasing_grades_fa0ae6":"مشکلی در انتشار نمرات وجود داشت.","there_was_a_problem_saving_the_grades_5e61f9e2":"در هنگام ذخیره نمره‌ها مشکلی وجود داشت.","there_was_a_problem_updating_the_assignment_61b9b98b":"هنگام به‌روز رسانی تکلیف مشکلی وجود داشت.","there_was_a_problem_updating_the_grade_1b6c8b4c":"هنگام به‌روز رسانی نمره مشکلی وجود داشت."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "AssignmentKeyBindingsMixin",
+  null,
+  function() { return {"keyboard_add_item":"افزودن تکلیف به گروه انتخاب شده","keyboard_close_menu":"بستن کادر گفتگوی فعال","keyboard_del_item":"حذف تکلیف یا گروه فعلی","keyboard_edit_item":"ویرایش تکلیف یا گروه فعلی","keyboard_next_item":"تمرکز بر تکلیف یا گروه بعدی","keyboard_prev_item":"تمرکز بر تکلیف یا گروه قبلی","keyboard_show_assign":"نشان دادن پیش نمایش کامل تکلیف انتخاب شده","keycodes":{"add_item":"a","close_menu":"خروج","del_item":"d","edit_item":"e","next":"j","previous":"k","show_assign":"f"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "AssignmentGroupListItemView",
+  function() { return {"move_group_3dd7f76e":"انتقال گروه"} },
+  function() { return {"drop_highest_rule":{"one":"حذف بالاترین نمره","other":"حذف %{count} نمره‌ بالاتر"},"drop_lowest_rule":{"one":"حذف پایین‌ترین نمره","other":"حذف %{count} نمره‌ پایین‌تر"},"never_drop_rule":"%{assignment_name} هرگز حذف نشود","rules_text":{"one":"1 قاعده","other":"%{count}  قاعده"},"toggle_message":"تغییر قابلیت مشاهده تکلیف"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "AssignmentListItemView",
+  function() { return {"assignment_was_deleted_8320d26d":"تکلیف حذف شد","move_assignment_6f890f64":"انتقال تکلیف"} },
+  function() { return {"complete":"کامل","grade_percent":"%{grade}%","grade_percent_screenreader":"نمره: %{grade}%","incomplete":"ناقص"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "AssignmentSettingsView",
+  function() { return {"must_be_a_valid_number_59f0069":"باید یک عدد معتبر باشد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "AssignmentSyncSettingsView",
+  function() { return {"disabling_sync_to_name_failed_e7521ebb":"غیرفعال کردن همگام‌سازی برای %{name} انجام نشد","sync_to_name_successfully_disabled_8045ad95":"همگام سازی با %{name} غیرفعال شد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "CreateAssignmentView",
+  function() { return {"due_date_cannot_be_after_lock_date_675b30aa":"تاریخ مهلت نمی تواند بعد از تاریخ قفل کردن باشد","due_date_cannot_be_before_unlock_date_f263aab0":"تاریخ مهلت نمی تواند قبل از تاریخ قفل گشایی باشد","edit_assignment_ebf22a72":"ویرایش تکلیف"} },
+  function() { return {"name_is_required":"نام مورد نیاز است!","points_possible_number":"امتیازهای ممکن باید یک عدد باشد"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "CreateGroupView",
+  function() { return {"a_name_is_required_b5df38a9":"یک نام لازم است","assignment_group_was_saved_successfully_5caa27d3":"گروه تکلیف با موفقیت ذخیره شد","name_is_too_long_48daa8db":"نام طولانی است","you_cannot_use_a_number_greater_than_the_number_of_af33e220":"نمی توانید از عددی بزرگتر از تعداد تکلیف‌ها استفاده کنید","you_must_use_a_number_912ce4bd":"باید از یک عدد استفاده کنید","you_must_use_a_positive_number_203b86fe":"باید از یک عدد مثبت استفاده کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "DeleteGroupView",
+  function() { return {"you_must_select_an_assignment_group_c16a2168":"شما باید یک گروه تکلیف انتخاب کنید."} },
+  function() { return {"cannot_delete_group":"باید حداقل یک گروه تکلیف داشته باشید","confirm_delete_group":"مطمئنید که می خواهید این تکلیف حذف شود؟"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_assignments_found_17520826",
+  null,
+  function() { return {"one":"1 تکلیف موجود است.","other":"%{count} تکلیف موجود است.","zero":"هیچ تکلیف نظیر موجود نیست."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignmentsNeverDrop",
+  null,
+  function() { return {"remove_never_drop_rule":"حذف قاعده هرگز حذف نشود","remove_unsaved_never_drop_rule":"حذف قانون ذخیره نشده هرگز حذف نشود"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignmentsToggleShowByView",
+  function() { return {"show_by_709f525b":"نمایش بر اساس","show_by_date_e3967761":"نمایش بر اساس تاریخ","show_by_type_c5d61732":"نمایش بر اساس نوع"} },
+  function() { return {"overdue_assignments":"تکلیف های مهلت گذشته","past_assignments":"تکلیف های گذشته","undated_assignments":"تکلیف های بدون تاریخ","upcoming_assignments":"تکلیف های آتی"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignments_bulk_edit",
+  function() { return {"apply_date_range_selection_cc4351ed":"انتخاب کننده محدوده تاریخ را اعمال کنید","assignment_dates_dccc98de":"تاریخ های تکلیف","assignment_dates_saved_successfully_78e0f355":"تاریخ تکلیف با موفقیت ذخیره شد.","due_at_5d7d2fa":"مهلت","error_saving_assignment_dates_2af5e800":"خطا در ذخیره تاریخ تکلیف:","error_starting_save_operation_81bcb99":"خطا در شروع عملیات ذخیره:","only_the_moderator_can_edit_this_assignment_a162b20d":"فقط ناظر می تواند این تکلیف را ویرایش کند","parent_assignment_is_not_selected_9efb4ac1":"تکلیف والدین انتخاب نشده است","remove_dates_9b9ba2f6":"حذف تاریخ ها","select_all_assignments_bd07b919":"همه تکالیف را انتخاب کنید","select_an_edit_operation_ec1467d":"ویرایش یک عملیات را انتخاب کنید","select_assignment_title_4571ffcb":"انتخاب تکلیف: %{title}","select_by_date_range_c3af0101":"بر اساس محدوده تاریخ انتخاب کنید","select_dates_to_remove_be55b14c":"تاریخ هایی را برای حذف انتخاب کنید","selection_end_date_10fcc8c6":"تاریخ پایان انتخاب","selection_start_date_2e4a4dca":"تاریخ شروع انتخاب","shift_dates_b5a7b7a1":"تاریخ های شیفت"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignment_index_menu",
+  function() { return {"assignment_groups_weight_2f1a5a7c":"وزن گروه‌های تکلیف","assignment_options_1e5b7074":"گزینه های تکلیف","assignments_settings_30613d0c":"تنظیمات تکلیف ها","disable_sync_to_name_10c371dc":"غیرفعال کردن همگام‌سازی برای %{name}","edit_dates_ed31061":"ویرایش تاریخ ها"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignments",
+  function() { return {"add_an_assignment_fb73942e":"افزودن تکلیف","add_another_assignment_fc5c908f":"افزودن تکلیف دیگر","add_assignment_to_name_caf173b0":"افزودن تکلیف به %{name}","allow_intra_group_peer_reviews_53f1e455":"اجازه دادن به بازبینی های گروهی درون گروهی","anonymize_all_annotations_made_by_instructors_on_s_5540bc09":"ناشناس گذاشتن تمام یادآوری های ساخته شده توسط مربیان درباره موردهای ارسالی برای این تکلیف در مستندساز","anonymous_instructor_annotations_2b6c822":"یادآوری های ناشناس استاد","are_you_sure_you_want_to_disable_sync_to_sisname_f_f24245c1":"آیا مطمئن هستید که می خواهید همگام سازی به %{sisName} را برای همه تکالیف غیرفعال کنید؟","assign_reviews_on_date_7e48ec50":"تخصیص بازبینی ها بر اساس تاریخ","assignment_group_weights_and_drop_rules_can_t_be_e_7b5f305d":"وزن گروه تکلیف و قوانین رهاکردن را نمی‌توان ویرایش کرد، زیرا در یکی از گروه ها، تکلیف هایی وجود دارد که تاریخ مهلت آن به پایان رسیده است.","assignment_group_weights_can_t_be_edited_because_t_b6b591ae":"وزنهای گروه تکالیف  را نمی‌توان ویرایش کرد، زیرا در یکی از گروه ها، تکالیفی وجود دارد که تاریخ مهلت آن به پایان رسیده است.","cancel_duplicating_originalassignmentname_fd7ee1d8":"کپی کردن را لغو کنید \"%{originalAssignmentName}\"","copy_assignment_name_to_another_course_b62d0a54":"کپی تکلیف %{name} به درس دیگر","delete_assignment_name_deec56e3":"حذف گروه %{name}","disabling_f594bda":"در حال غیر فعال سازی...","do_not_count_this_assignment_towards_the_final_gra_4dd92e00":"این تکلیف متمایل به نمره نهایی محاسبه نشود","due_at_5e18eeac":"مهلت:","duplicate_assignment_name_3ca7d753":"تکرار تکلیف %{name}","edit_assignment_name_a8f7fae1":"ویرایش %{name} تکلیف","edit_assignment_name_mastery_paths_40b50541":"ویرایش مسیرهای تسلط تکلیف‌ %{name}","edit_mastery_paths_for_name_c9fc59f9":"ویرایش مسیرهای تسلط برای %{name}","enter_or_find_an_external_tool_url_6aebbd0d":"نشانی اینترنتی یک ابزار بیرونی را وارد کنید یا بیابید ","graders_cannot_view_each_other_s_names_b1fa7899":"دانش آموختگان نمی توانند نام یکدیگر را مشاهده کنند","graders_cannot_view_student_names_2e8d3ff9":"دانش آموختگان نمی توانند اسامی دانشجویان را مشاهده کنند","group_weight_for_d46c5db4":"وزن‌دار کردن گروه برای:","if_you_change_an_assignment_s_points_possible_you__dba531cb":"اگر امتیازهای ممکن تکلیف را تغییر دهید، باید هر گونه مورد ارسالی را دوباره نمره گذاری کنید.","imported_from_posttosisname_f7cc9258":"وارد شده از %{postToSISName}","making_a_copy_of_originalassignmentname_b7268992":"ساخت یک کپی از %{originalAssignmentName}","manage_assignment_31a132fb":"مدیریت تکلیف","manage_name_7f55f792":"مدیریت %{name}","move_assignment_contents_245c61bb":"انتقال محتوای تکلیف","move_assignment_group_46e09fc3":"انتقال گروه تکلیف","move_assignment_name_aa253f26":"انتقال تکلیف %{name}","move_contents_29713356":"انتقال محتوا ...","move_group_77ae285d":"انتقال گروه ...","move_to_9b91c6e0":"انتقال به ...","multiple_modules_930713d4":"چند ماژول","n_groupweight_percentage_of_total_2ae4d996":"%{n_groupWeight_percentage} از کل","n_pointspossible_points_possible_1d098245":"%{n_pointsPossible} امتیاز ممکن","n_pointspossible_pts_73274d36":"%{n_pointsPossible} امتیاز","new_assignment_2a984756":"تکلیف جدید","new_group_category_66be9cbd":"رده جدید گروه","no_points_possible_368669d":"امتیازهای ممکن موجود نیست","not_published_73f7079":"منتشر نشده","not_yet_graded_40475341":"هنوز نمره گذاری نشده","online_submission_type_file_uploads_24910d74":"نوع مورد ارسالی آنلاین - بارگذاری های فایل","online_submission_type_file_uploads_restrict_uploa_5ec7b263":"نوع مورد ارسالی آنلاین - بارگذاری های فایل - محدود کردن بارگذاری انواع فایل","online_submission_type_media_recordings_9424bf34":"نوع مورد ارسالی آنلاین - ضبط های رسانه","online_submission_type_text_entry_ac56d100":"نوع مورد ارسالی آنلاین - ورودی متن","online_submission_type_website_url_2c9df33d":"نوع مورد ارسالی آنلاین - نشانی ایترنتی تارنما","oops_something_went_wrong_with_making_a_copy_of_or_7e9d6695":"اووه! در ساخت یک کپی از %{originalAssignmentName}اشکالی رخ داد.","retry_duplicating_originalassignmentname_884aee1":"دوباره امتحان کنید \"%{originalAssignmentName}\"","select_a_group_category_295f7a34":"یک دسته بندی گروهی را انتخاب کنید","send_assignment_name_to_another_user_e2ca494d":"ارسال  تکلیف %{name} به کاربر دیگر","settings_for_assignment_name_c19565e1":"تنطیمات تکلیف %{name}","some_settings_have_been_administratively_locked_9e3ee880":"برخی تنظیمات از لحاظ مدیریتی قفل شده اند.","some_settings_have_been_disabled_because_the_assig_6b6cc3b4":"برخی تنظیمات به علت قرار گرفتن تکلیف در دوره نمره‌گذاری بسته شده، غیرفعال شده‌اند.","this_assignment_has_been_excused_87f1dc13":"این تکلیف اجرا شده است.","warning_for_improved_accessibility_of_reordering_a_5d0206c7":"هشدار: برای دسترس پذیری بهتر در مرتب سازی دوباره تکلیف ها و گروه ها، لطفا از گزینه «انتقال به کادر گفتگو» موجود در منو استفاده کنید.","weight_final_grade_based_on_assignment_groups_3124161":"وزن دار کردن نمره نهایی بر اساس گروه های تکلیف","you_do_not_have_permissions_to_edit_this_moderated_3195294f":"شما اجازه ویرایش این تکلیف تعدیل شده را ندارید."} },
+  function() { return {"assignment_group_create_dialog":{"assignment_group":{"labels":{"name":"نام"}},"buttons":{"add_group":"افزودن گروه","cancel":"لغو"},"links":{"add_assignment_group":"افزودن گروه تکلیف"}},"assignment_group_list":{"no_assignment_groups":"هیچ گروه تکلیف یافت نشد"},"assignment_group_selector":{"assignment_group":"گروه تکلیف","assignment_group_options":{"create_group":"ایجاد گروه","new_group":"گروه جدید"}},"assignment_list_item":{"delete":"حذف"},"assignment_list_item_score":{"assignment_grading_type_is_not_graded":"به این تکلیف نمره ای تعلق نخواهد گرفت.","assignment_not_yet_graded_screenreader":"تکلیف هنوز نمره گذاری نشده است. %{pointsPossible} امتیاز ممکن.","empty_points_possible":"-/%{pointsPossible} امتیاز","no_submission":"مورد ارسالی موجود نیست","no_submission_for_assignment_screenreader":"هیچ مورد ارسالی برای این تکلیف موجود نیست. %{pointsPossible} امتیاز ممکن.","score_with_points_possible":"*%{score}*/%{pointsPossible} امتیاز","score_with_points_possible_screenreader":"نمره: %{score} از %{pointsPossible} امتیاز."},"available_date_description":{"available_until":"قابل دسترسی تا","closed":"بسته شده","not_available_until":"غیر قابل دسترسی تا"},"create_assignment":{"assignment":"تکلیف","assignment_due_at":"مهلت:","assignment_name":"نام:","assignment_points":"امتیازها:","assignment_type":"نوع:","buttons":{"save_and_publish":"ذخیره سازی و انتشار"},"cancel":"لغو","differentiated_due_dates":"تاریخ مهلت متمایز","discussion_type":"بحث","external_tool_type":"ابزار بیرونی","more":"گزینه های دیگر","multiple_due_dates":"چند تاریخ مهلت","not_graded_type":"نمره گذاری نشده","quiz_type":"آزمون","save":"ذخیره سازی","saving":"در حال ذخیره سازی..."},"create_group":{"cancel":"لغو","drop_highest":"بالاترین نمره ها:","drop_lowest":"پایین ترین نمره ها:","example_group_name":"برای مثال: گروه مقاله 1","group_name":"نام گروه:","never_drop":"هرگز حذف نشود:","percent_of_total":"% از نمره کل","save":"ذخیره سازی","saving":"در حال ذخیره سازی..."},"date_available_column_view":{"available":"قابل دسترسی","multiple_dates":"چند تاریخ"},"date_due_column_view":{"due":"مهلت","due_date":"مهلت","multiple_dates":"چند تاریخ","todo_date":"برای انجام"},"delete_group":{"cancel":"لغو","delete":"حذف گروه","deleting":"در حال حذف...","labels":{"delete_assignments_in_group":"حذف تکلیف های آن","move_assignments_to":"انتقال تکلیف های آن به"},"options":{"select_group":"انتخاب یک گروه"},"tooltips":{"target_group":"انتخاب یک گروه برای انتقال این تکلیف به"},"warnings":{"delete_assignment_group":"شما در حال حذف *%{name}* هستید, که شامل **%{assignment_count}** تکلیف است"},"would_you_like":"تمایل دارید که:"},"edit_view":{"assignment_name":"نام تکلیف","buttons":{"build":"ساخت","save":"ذخیره سازی","save_and_publish":"ذخیره سازی و انتشار"},"description":"شرح","freeze_properties":"قفل کردن مشخصات تکلیف پس از کپی شدن","notify_content_change":"به کاربران اطلاع داده شود که این محتوا تغییر یافته است","points_possible":"امتیازها","submission_attempts":"اقدام های مورد ارسالی"},"external_content_homework_file_submission_view":{"additional_comments":"نظرهای دیگر","buttons":{"submit_assignment":"ارسال تکلیف"},"group_assignment_header":"نظرها..."},"external_content_homework_url_submission_view":{"additional_comments":"نظرهای دیگر","buttons":{"submit_assignment":"ارسال تکلیف"},"group_assignment_header":"نظرها..."},"grading_type_selector":{"display_grade_as":"نمایش نمره به عنوان","gpa_scale_explainer":"نمره گذاری مقیاس معدل برای دانشگاه هایی که از مقیاس 4.0 ( یا 5.0/6.0 ) برای همه تکلیف ها استفاده می کنند، طراحی شده است. این طرح نمره گذاری مشابه نمایش نمره حرفی است ولی دارای چند تفاوت مهم است:","gpa_scale_input_explainer":"نمره ها در مقیاس 4.0 وارد می شوند. برای مثال، اگر یک تکلیف 100 نمره داشته باشد، وارد کردن نمره 4.0 به 100 درصد و نمره 3.0 به 87 درصد منتج خواهد شد.","gpa_scale_letters_explainer":"علاوه بر نمره های عددی، می توان از نمره های حرفی نیز استفاده کرد.","gpa_scale_percentage_explainer":"نمی توانید امتیازها را مستقیما وارد کنید، ولی می توانید درصد ها را وارد کنید. به عنوان مثال، اگر یک تکلیف از 50 امتیاز باشد، وارد کردن 40 جواب نمی دهد، اما وارد کردن 80% جواب خواهد داد.","gpa_scale_recommendation":"اگر دانشگاه شما از مقیاس 4.0 یا (5.0/6.0) برای نمره گذاری استفاده نمی کند، کانواس نمایش نمره ها به صورت نمره حرفی را توصیه می کند.","gpa_scale_scores_explainer":"تنها نمره های مجاز در طرح نمره گذاری از پیش تعریف شده اند.","gpa_scale_title":"«نمره گذاری مقیاس معدل چیست؟»","view_grading_scheme":"مشاهده طرح نمره گذاری"},"group_category_selector":{"grade_group_students_individually":"تخصیص نمره به هر دانشجو به طور جداگانه","group_assignment_header":"تکلیف گروهی","group_category_locked_explanation":"دانشجویان قبلا برای این تکلیف، کار خود را ارسال کرده اند، بنابراین تنظیمات گروه را نمی توان تغییر داد.","group_set":"مجموعه گروه","is_group_assignment":"یک گروه تکلیف است"},"index_view":{"add_assignment":"تکلیف","add_group":"گروه","add_quiz_lti":"آزمون/امتحان","assignments":"تکلیف ها","search_for_assignment":"جستجوی تکلیف","title_add_assignment":"افزودن تکلیف","title_add_group":"افزودن گروه تکلیف","title_add_quiz_lti":"افزودن آزمون/امتحان"},"no_assignments_list_item":{"no_assignments_in_this_group":"تکلیفی در این گروه موجود نیست"},"no_assignments_search":{"aria_assignments":"تکلیف ها","assignments":"تکلیف ها","no_assignments_found":"تکلیفی یافت نشد"},"peer_reviews":{"messages":{"cancel_peer_review":"این بازبینی گروهی لغو شود؟"},"titles":{"remind":"یادآوری به %{assessor} درباره ارزیابی، آخرین اطلاع در %{time}","reminder":"یادآوری به %{assessor} درباره ارزیابی، آخرین اطلاع در %{time}"}},"peer_reviews_selector":{"anonymous_peer_reviews":"گمنامی","how_to_peer_review":"شیوه تخصیص بازبینی های گروهی","labels":{"anonymous_peer_reviews":"بازبینی های گروهی به طور ناشناس ظاهر می شوند","automatically_assign_peer_reviews":"تخصیص بازبینی های گروهی به طور خودکار","manually_assign_peer_reviews":"تخصیص بازبینی های گروهی به طور دستی","require_peer_reviews":"نیازمند بازبینی های گروهی"},"locked_until":"تخصیص بازبینی ها","peer_reviews_assign_at_explanation":"باید بعد از تاریخ مهلت بیاید. ادر صورت خالی بودن، از تاریخ مهلت استفاده می کند.","peer_reviews_header":"بازبینی های گروهی","reviews_per_user":"بازبینی ها در ازای هر کاربر"},"submission_types_form":{"advanced_turnitin_settings":"تنظیمات پیشرفته Turnitin","advanced_vericite_settings":"تنظیمات پیشرفته VeriCite","descriptions":{"allowed_extensions":"فهرستی از پسوندهای قبول شده را وارد کنید برای مثال: doc، ,xls، txt"},"external_tool_group_warning":"تکلیف های گروه نمی توانند از ابزارهای بیرونی استفاده کنند.. علامت تنظیم گروه در هنگام ذخیره سازی برداشته خواهد شد","external_tool_options":"گزینه های ابزار بیرونی","label":{"external_tool_new_tab":"بارگذاری این ابزار در یک زبانه جدید","turnitin_enabled":"فعال سازی موردهای ارسالی Turnitin","vericite_enabled":"فعال سازی موردهای ارسالی VeriCite"},"labels":{"allow_file_uploads":"بارگذاری های فایل","allow_media_recordings":"ضبط های رسانه","allow_text_entry":"ورودی متن","allow_url":"نشانی اینترنتی تارنما","allowed_extensions":"پسوندهای مجاز فایل","allows_annotated_document":"یادآوری دانشجو","restrict_file_extensions":"محدود کردن بارگذاری انواع فایل"},"online_entry_options":"گزینه های ورودی آنلاین","submission_type":"نوع ارسال","submission_types":{"external_tool":"ابزار بیرونی","no_submission":"مورد ارسالی موجود نیست","on_paper":"روی کاغذ","online":"آنلاین"}},"turnitin_settings_dialog":{"assignments":{"turnitin_settings":{"labels":{"exclude_small_matches":"تطبیق های جزئی"}}},"buttons":{"update_settings":"بهنگام سازی تنظیمات"},"turnitin_settings":{"labels":{"compare_against":"مقایسه با","do_not_consider":"در نظر گرفته نشود","exclude_biblio":"مطلب کتابشناختی","exclude_quoted":"مطلب نقل شده","internet_check":"پایگاه داده اینترنتی","journal_check":"ژورنال ها، نشریات دوره ای و انتشارات","student_paper_check":"مقاله های دیگر دانشجو","submit_papers_to":"شامل سازی در مخزن","turnitin_repository":"مخزن Turnitin"},"originality_report_never":"هرگز","originality_report_visibility":"دانشجویان می توانند گزارش اصلیت را ببینند","originality_report_visible_after_due_date":"بعد از تاریخ مهلت","originality_report_visible_after_grading":"بعد از اینکه تکلیف نمره گذاری شد","originality_report_visible_immediately":"بلافاصله","settings_exclude_fewer_than_count":"کمتر از %{wordsInput} کلمه","settings_exclude_less_than_percent":"کمتر از %{percentInput} از سند"}},"veri_cite_settings_dialog":{"buttons":{"update_settings":"بهنگام سازی تنظیمات"},"vericite_settings":{"originality_report_never":"هرگز","originality_report_visibility":"دانشجویان می توانند گزارش اصلیت را ببینند","originality_report_visible_after_due_date":"بعد از تاریخ مهلت","originality_report_visible_after_grading":"بعد از اینکه تکلیف نمره گذاری شد","originality_report_visible_immediately":"بلافاصله"}}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignments_2_student_header_date_title",
+  function() { return {"due_5d7267be":"مهلت:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignments_2",
+  function() { return {"add_submission_type_8690db4b":"افزودن نوع مورد ارسالی","all_comments_are_sent_to_the_whole_group_778126f3":"کلیه نظرات به کل گروه ارسال می‌شود.","all_image_types_allowed_9c65004d":"همه انواع تصاویر مجاز ","all_media_types_allowed_3c0cdce7":"همه انواع رسانه‌ها مجاز ","all_submission_comments_have_been_marked_as_read_74c0683b":"تمام نظرات ارسال شده به عنوان خوانده شده علامت گذاری شده اند","all_types_allowed_287eb6b0":"همه انواع مجاز ","an_error_occured_saving_the_assignment_d71cb3d2":"در هنگام دخیره کردن این تکلیف خطایی رخ داد.","and_7fcc2911":"و ","arc_a935e585":"ARC","assign_to_6b806cd9":"اختصاص دادن به:","assign_to_95404a83":"اختصاص دادن به","assignment_locked_a6233228":"تکلیف ها قفل شد.","assignment_locked_with_prerequisite_5b8cb148":"تکالیف با پیش نیاز قفل شد.","assignment_name_12eadcbd":"نام تکلیف","assignment_name_is_required_9d17311b":"نام تکلیف لازم است.","assignment_type_60255aac":"نوع تکلیف","assignments_2_teacher_view_error_page_8e45dedc":"تکالیف 2 صفحه خطای مشاهده  معلم","at_791460b3":"در","attach_a_file_86a4fc00":"پیوست کردن یک فایل","attached_d7423f41":"پیوست شده","attempt_count_267a4fc5":"تلاش %{count}","attempt_number_83dcd86a":"تلاش %{number}","attempts_allowed_8441aadf":"تلاش‌های مجاز","available_after_3416802b":"در دسترس بعد از","available_d3bb0b5c":"قابل دسترسی","available_date_must_be_before_the_due_date_cbab390b":" تاریخ‌ دسترسی باید پیش از تاریخ مهلت باشد","available_date_must_be_before_the_until_date_9ccc52b":" تاریخ‌ دسترسی باید پیش از تاریخ تا باشد","available_until_3278ebe9":"قابل دسترسی تا","avi_2d8cc99f":"AVI","bmp_e297149c":"BMP","body_f48fe5cd":"متن اصلی:","click_to_hide_details_f7d353d9":"برای مخفی کردن اطلاعات بیشتر کلیک کنید","click_to_show_details_310154eb":"برای نمایش اطلاعات بیشتر کلیک کنید","close_17f50799":"بستن","close_student_details_2f6900":"بستن جزئیات دانشجو","coming_soon_79d46687":"به زودی","comment_input_box_b8c7e58b":"کادر ورودی نظر","confirm_delete_a5239715":"تائید حذف","creating_a_group_is_not_yet_handled_by_the_new_ass_3360471d":"ایجاد گروه هنوز توسط روند تکالیف جدید کنترل نشده است. به صفحه تکالیف قدیمی می‌روید؟","csv_de77e441":"CSV","delete_assignment_5d3f3f15":"حذف تکلیف","delete_this_submission_type_37a0809c":"حذف این نوع مورد ارسالی","deleting_assignment_22d5851d":"حذف کردن تکلیف","disable_extra_filter_options_1d1cdc02":"گزینه‌های فیلتر اضافی را غیرفعال کنید","doc_50924b72":"DOC","doc_c63509f8":"سند","due_639f281d":"مهلت:","due_available_and_until_dates_f90713da":"تاریخ مهلت،  تاریخ در دسترس و  تاریخ تا ","due_date_must_be_after_the_available_date_94f03d92":"تاریخ مهلت باید پس از تاریخ‌ دسترسی باشد","due_date_must_be_before_the_until_date_740484c5":" تاریخ‌ مهلت باید پیش از تاریخ تا باشد","edit_assignment_name_8a7af80c":"ویرایش نام تکلیف","edit_points_3a339cd8":"ویرایش امتیازها","edit_when_36c1c2c8":"ویرایش %{when}","enable_extra_filter_options_b52c23e6":"گزینه‌های فیلتر اضافی را فعال کنید","eps_81bd3fbf":"EPS","error_sending_messages_13c874eb":"خطا در ارسال پیام","error_sending_submission_comment_dc15d24f":"خطا در ارسال کردن نظرهای مربوط به مورد ارسالی","everyone_else_cc5f6888":"هر شخص دیگر","extend_due_date_20651e76":"تمدید تاریخ مهلت","file_6863ad33":"فایل","file_select_filename_folder_contents_9146bab7":"انتخاب فایل، %{filename} محتوی پوشه ","filter_students_2327fe79":"فیلتر کردن دانشجویان","flash_ab3ad95e":"فلش","flv_15e62834":"FLV","gif_74e4a622":"GIF","group_assignment_7060989f":"تکلیف گروهی","html_fc8563c6":"html","image_c1c98202":"تصویر","in_class_23eeca38":"در کلاس ","invalid_date_and_time_1a42d206":" تاریخ زمان غیرمعتبر  است","invalid_date_or_time_333acd43":"تاریخ یا زمان نامعتبر است","invalid_date_time_3ae423f5":"مقدار تاریخ-زمان معتبر نیست","item_count_3c7bae0d":"مورد%{count}","jpg_903bacff":"JPG","label_3c9a991":"%{label}:","message_student_f12b37a6":"ارسال پیام برای دانشجویان","message_students_who_369b8488":"ارسال پیام برای دانشجویانی که...","message_students_who_778ce759":"ارسال پیام برای دانشجویانی که","messages_sent_b851d0dd":"پیام ها ارسال شدند","modified_by_c1584b3c":"تغییر یافته بر اساس","modified_by_user_e6c8ade3":"تغییریافته توسط: %{user}","modules_b8f6aa9":"ماژول ها","more_modules_d9a9f003":"ماژول‌های بیشتر","mov_329e9416":"MOV","mp3_c21c0f5f":"MP3","mp4_5c789afc":"MP4","name_name_913c785b":"اسم: %{name}","next_e0d38b1f":"بعدی","no_assignment_group_assigned_8f1cdb9b":"هیچ گروه تکلیفی اختصاص نیافته است","no_grade_for_assignmenttitle_83baad53":"نمره‌ای برای %{assignmentTitle} وجود ندارد","no_label_date_ff3a372f":"تاریخ موجود نیست %{label} ","no_module_assigned_ca183bd7":"هیچ ماژولی تخصیص داده نشده","no_submission_fb131a40":"مورد ارسالی موجود نیست","no_submission_for_assignmenttitle_243bd1f4":"مورد ارسالی برای %{assignmentTitle} وجود ندارد","non_canvas_11f36d4a":"بدون کانواس","now_viewing_attempt_current_attempt_918e616":"اکنون در حال مشاهده تلاش %{current_attempt}","on_paper_46d0ba36":"روی کاغذ","open_student_context_tray_24c1b1d6":"باز کردن سینی زمینه دانشجو","or_9b70ccaa":"یا","overview_of_student_status_a004bcf3":"مرور کلی بر وضعیت دانشجویی","pdf_4e842f10":"pdf","peer_review_assignment_7d314c59":"بازبینی گروهی تکلیف","peer_reviewed_assignments_are_not_yet_handled_in_t_5eef60fb":"بازبینی گروهی تکالیف در روند تکالیف جدید هنوز انجام نشده است. به صفحه ایجاد تکلیف قدیمی می‌روید؟ ","png_55cbb586":"PNG","points_is_required_9a9d05b2":"نمرات لازم هستند","points_must_0_3bff353":"نمرات باید \u003e= 0","points_must_be_a_number_0_daa4f7dc":"نمرات باید عددی \u003e=0 باشند","ppt_534cb87":"PPT","preview_filename_f1b58572":"%{filename} پیش نمایش","preview_unavailable_aacd459a":"پیش نمایش در دسترس نیست","previous_445ca243":"قبلی","psd_33ae8820":"PSD","quizzes_are_not_yet_handled_in_the_new_assignments_3898536a":"در روند تکالیف جدید هنوز آزمونی برگزار نمی شود. به صفحه آزمون قدیمی می روید؟","record_audio_video_d9993f6c":"ضبط کردن صدا/فیلم","remove_studentname_16ba8c3a":"حذف %{studentName}","return_to_parent_folder_4ece2184":"به پوشه والد برگردید","rtf_9165aba5":"RTF","saving_assignment_fb958949":"ذخیره تکلیف","score_student_points_possible_points_78360e86":"نمره {{student_points}}/{{possible_points}}","scored_less_than_score_on_assignmenttitle_5a011033":"نمره گذاری شده کمتر از %{score} در %{assignmentTitle}","scored_more_than_score_on_assignmenttitle_2afa1d32":"نمره گذاری شده بیشتر از %{score} در %{assignmentTitle}","search_by_student_name_26536097":"جستجو بر اساس نام دانشجو","send_a_message_4600821d":"ارسال یک  پیام","send_comment_4e05f2fb":"ارسال نظر","sending_messages_effc7237":"در حال ارسال پیام","sending_messages_f8f41998":"در حال ارسال پیام...","size_size_a77bd760":"اندازه: %{size}","sorry_something_broke_91c15918":"متاسفانه، چیزی خراب شد","speedgrader_d9a6fa90":"برنامه نمره گذاری سریع","state_published_e42697da":"وضعیت: منتشر شده ","state_unpublished_e19c06e6":"وضعیت: منتشر نشده","student_points_possible_points_196c7108":"{{student_points}}/{{possible_points}}","subject_1bc03dea":"موضوع:","submission_comment_sent_3f2af3d0":"نظرهای مربوط به مورد ارسالی فرستاده شد","submission_date_8f659c0c":"تاریخ مورد ارسالی","submission_items_b2db1b8d":"موردهای ارسالی","submission_type_a925fc5f":"نوع مورد ارسالی","submit_a_comment_7edbf648":"ارسال یک نظر","submit_for_student_d90838e8":"ارسال برای دانشجو","svg_d5969386":"SVG","text_entry_e1808b2f":"ورودی متن","the_date_is_not_valid_b6285fb5":"تاریخ معتبر نیست","there_was_a_problem_marking_submission_comments_as_27c2f5c7":"مشکلی در علامت گذاری نظرات در رابطه با مورد ارسالی به عنوان خوانده شده وجود دارد","this_assignment_is_part_of_an_unpublished_module_a_4e25b3c5":"این تکلیف بخشی از یک ماژول منتشر نشده است و هنوز در دسترس نیست.","tiff_c70066a3":"TIFF","to_1126ab55":"تا","to_f0e90538":"گیرنده:","txt_cae4e953":"TXT","type_file_14f017c9":"نوع: فایل","type_folder_115f3b07":"نوع: پوشه","unable_to_delete_assignment_abcf8d62":"قادر به حذف تکلیف نیست","unlimited_attempts_81a37d4":"تلاش های نامحدود","until_6437a827":"تا","until_date_must_be_after_the_available_date_8670dfcd":" تاریخ تا باید پس از تاریخ‌ دسترسی باشد","until_date_must_be_after_the_due_date_d961566c":"  تاریخ تا باید پس از تاریخ‌ مهلت باشد","url_22a5f3b8":"نشانی اینترنتی","video_78335c71":"ویدئو","view_rubric_d71cce10":"مشاهده دستورالعمل ارزیابی","wmv_1119d032":"WMV","working_b1f63edf":"در حال کارکردن...","xls_733452c1":"XLS","xls_e593104b":"xls","you_cannot_publish_this_assignment_while_there_are_e3dee69a":"تا زمانی که خطایی وجود دارد، نمی توانید این اطلاعیه را منتشر کنید.","you_cannot_save_while_there_are_errors_b86585e9":"تا زمانی که خطایی وجود دارد، نمی توانید ذخیره کنید.","you_have_count_submissions_to_grade_6c5b511a":"شما %{count}مورد ارسالی برای نمره گذاری دارید.","you_may_not_see_all_comments_for_this_assignment_u_61817628":"ممکن است تا زمانی که نمرات ارسال نشده اند، همه نظرات مربوط به این تکلیف را مشاهده نکنید.","you_must_provide_a_date_with_a_time_ec369ff4":"شما باید یک تاریخ را با یک زمان اراِئه کنید.","zip_26961da":"زیپ"} },
+  function() { return {"attempts":{"filter":"تلاش ها"},"submission_attempts":"تلاش ها"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "attempts_22baad",
+  null,
+  function() { return {"one":"تلاش","other":"تلاش ها"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_attempts_d23c69a0",
+  null,
+  function() { return {"one":"1 تلاش","other":"%{count} تلاش"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignments_2_attempt_tab",
+  function() { return {"more_submission_options_c8d50818":"گزینه های ارسال بیشتر"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignments_2_file_upload",
+  function() { return {"delete_work_e377128b":"حذف کار","delete_your_work_fe136221":"کار خود را حذف می کنید؟","draft_saved_eba9cfeb":" پیش نویس ذخیره شده","error_adding_canvas_file_to_submission_draft_de258021":"خطا در افزودن فایل کانواس برای ارسال پیش نویس","error_adding_files_to_submission_draft_6acac337":"خطا در افزودن فایل برای ارسال پیش نویس","error_canceling_draft_ec3dbdc9":"خطا در لغو پیش نویس","error_saving_draft_295be180":"خطا در ذخیره پیش نویس","error_sending_submission_d32dc075":"خطا در ارسال کردن مورد ارسالی","error_updating_submission_draft_1d40ade7":"خطا در به هنگام سازی ارسال پیش نویس","file_permitted_filetypes_714e4e8d":"فایل مجاز: %{fileTypes}","mark_as_done_6fa48d2f":"علامتگذاری به عنوان انجام شده","next_module_66f58e91":"ماژول بعدی","previous_module_8801a74b":"ماژول قبلی","remove_displayname_a2f31aa3":"حذف %{displayName}","saving_draft_c97afab3":"ذخیره پیش نویس","submission_draft_updated_e953166a":"پیش نویس مورد ارسالی به روز شد","submission_sent_3f0d2ee1":"مورد ارسالی ارسال شد.","submit_assignment_5799b4e3":"ارسال تکلیف"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignments_2_MoreOptions_CanvasFiles",
+  function() { return {"root_523acd46":"ریشه"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignments_2_MoreOptions",
+  function() { return {"user_groups_query_error_bba6a6b7":"خطای جستجو گروه های کاربر","webcam_photo_ee55462c":"عکس وب کم"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "webcam_modal",
+  function() { return {"enter_a_filename_for_the_photo_4f0fc10e":"یک نام فایل برای عکس وارد کنید","use_this_photo_3a594830":"از این عکس استفاده کنید","you_can_provide_this_access_in_your_browser_settin_2b81a586":"شما می توانید این دسترسی را در تنظیمات مرورگر خود فراهم کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignments_2_url_entry",
+  function() { return {"enter_web_url_483c2cbb":"وارد کردن نشانی اینترنتی","http_67e238b4":"http://","preview_website_url_eb5b8a5f":"پیش نمایش آدرس وب سایت","website_url_input_1a3eab25":"ورودی آدرس وب سایت"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignments_2_student_points_display",
+  function() { return {"ungraded_147a0dce":"نمره دهی نشده"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignments_2_student_header",
+  function() { return {"add_comment_3205529f":"افزودن نظر","offline_score_8d7b4779":"امتیاز آفلاین:","view_feedback_f2feabca":"مشاهده بازخورد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "a2_AccessibleTipContent",
+  function() { return {"attempt_attempt_grade_c01f45df":"تلاش %{attempt}: %{grade}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "late_penalty_minus_count_points_810572fe",
+  null,
+  function() { return {"one":"سیاست‌های تأخیر: منهای 1 امتیاز","other":"سیاست‌های تأخیر: منهای %{count} امتیاز"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "a2LatePolicyStatusDisplay",
+  function() { return {"late_policy_d3f95a91":"سیاست‌های تأخیر:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "late_policy_minus_count_points_1a945541",
+  null,
+  function() { return {"one":"سیاست‌های تأخیر: منهای 1 امتیاز","other":"سیاست‌های تأخیر: منهای %{count} امتیاز"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "_count_points_23dc93e0",
+  null,
+  function() { return {"one":"-1 امتیاز","other":"-%{count} امتیاز"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignments_2_login_action_prompt",
+  function() { return {"accept_course_invitation_b4c04fbb":"پذیرفتن دعوت نامه درس","accept_course_invitation_to_participate_in_this_as_b8342676":"دعوت نامه دوره را برای شرکت در این تکلیف بپذیرید","log_in_c9e240ef":"ورود","log_in_to_submit_962106cf":"برای ارسال وارد شوید","submission_locked_a6074f8b":"مورد ارسالی قفل شده","submission_locked_image_93aced38":"عکس قفل شده ارسالی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignments_2_submission_histories_query",
+  function() { return {"failed_to_load_more_submissions_148ff11f":"موارد ارسالی بیشتر بارگیری نشد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignments_2_elide_string",
+  function() { return {"_5a374287":"..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignments_2_submission_helpers",
+  function() { return {"annotation_89e402e0":"یادآوری","web_url_d84feaf5":"آدرس وب سایت"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignments_2_shared_Steps",
+  function() { return {"in_progress_13b9e26f":"در حال انجام","not_graded_yet_82f63c67":"هنوز نمره گذاری نشده است.","submitted_318fad53":"ارسال شد","uploaded_285a2bfb":"بارگذاری شده"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "asignments_2",
+  function() { return {"add_override_da70f198":"اضافه کردن بازبینی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "authentication_providers",
+  function() { return {"add_an_identity_provider_to_this_account_c2644478":"افزودن ارائه دهنده هویت به این حساب:","another_configuration_is_currently_selected_select_95b394e":"در حال حاضر، پیکربندی دیگری انتخاب شده است. انتخاب این پیکربندی انتخاب پیکربندی دیگر را لغو می کند.","choose_an_authentication_service_47dc8875":"انتخاب سرویس اعتبارسنجی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_coursesChildChangeLog",
+  function() { return {"change_applied_89d1aa5a":"تغییرات اعمال شد","learning_object_1f9e5dd8":"شیء یادگیری","loading_change_log_94ac6073":"در حال بارگذاری گزارش ثبت تغییر","object_type_e4f3bbeb":"نوع شیء"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_coursesChildContent",
+  function() { return {"blueprint_course_information_term_course_10d5cf30":"اطلاعات دوره طرح: %{term} -  %{course}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_MasterChildStack",
+  function() { return {"your_course_db806851":"درس شما"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_settingsAssociationsTable",
+  function() { return {"blueprint_course_associations_72c9609":"انجمن‌های دوره طرح","loading_associations_9da66c4e":"در حال بارگذاری انجمن‌ها","loading_associations_complete_b93a9c6e":"بارگذاری انجمن‌ها کامل شد","loading_associations_started_1f65d8d":"بارگذاری انجمن‌ها شروع شد","remove_association_1412eabf":"حذف انجمن","remove_course_association_name_b760c502":"حذف انجمن درس %{name}","removed_course_association_course_a233342c":"انجمن درس %{course} حذف شد","restored_course_association_course_c9e16045":"انجمن درس %{course} بازسازی شد","there_are_currently_no_associated_courses_fba1754f":"در حال حاضر هیچ دوره مرتبطی وجود ندارد.","to_be_added_2959cc72":"باید اضافه شود","to_be_removed_d4b48586":"باید حذف شود","undo_remove_course_association_name_68eb4037":"لغو حذف انجمن درس %{name}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "BlueprintAssociations",
+  function() { return {"associated_74756cc4":"مرتبط","saving_associations_989bd4da":"در حال ذخیره‌سازی انجمن‌ها","saving_associations_complete_e4b9634d":"ذخیره‌سازی انجمن‌ها کامل شد","saving_associations_started_8ac85360":"ذخیره‌سازی انجمن‌ها شروع شد","warning_d9ac42ef":"هشدار:","you_have_unsynced_changes_that_will_sync_to_all_as_9028e711":"شما تغییرات ناهمگامی دارید که در زمان ذخیره‌سازی یک انجمن جدید برای همه دروس مرتبط همگام خواهد شد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "BlueprintCourseSidebar",
+  function() { return {"blueprint_settings_233e909a":"تنظیمات طرح","close_sidebar_10b0fbb4":"بستن نوار کناری","open_sidebar_2852e8c8":"باز کردن نوار کناری"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_settingsCourseFilter",
+  function() { return {"any_sub_account_ec7069f2":"هر گونه زیر حساب","any_term_d49af19f":"هر گونه نیمسال","search_by_title_short_name_or_sis_id_fe84aa12":"جستجو بر اساس عنوان، نام کوچک یا شناسه سامانه اطلاعات دانشجو","select_sub_account_6704196a":"انتخاب زیرحساب","select_term_f8083fb0":"انتخاب نیمسال"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_settingsCoursePicker",
+  function() { return {"loading_courses_409a3641":"در حال بارگذاری درس ها","loading_courses_started_6e6d742c":"بارگذاری درس ها آغاز شد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "loading_courses_complete_count_courses_found_6768d9e1",
+  null,
+  function() { return {"one":"بارگذاری دروس کامل شد: %{count} درس یافت شد.","other":"بارگذاری درس ها کامل شد: %{count} درس یافت شد"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_settingsCoursePickerTable",
+  function() { return {"course_selection_245808bf":"انتخاب درس","selected_all_courses_9cfef57f":"همه درس‌ها انتخاب شده","selected_course_course_a581f834":"درس %{course} انتخاب شده","toggle_select_course_name_310fdee4":"تغییر وضعیت درس انتخابی %{name}","unselected_all_courses_99a9d35c":"انتخاب همه درس ها لغو شد","unselected_course_course_89995a83":"انتخاب ‍درس %{course} لغو شد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "select_all_count_courses_4fc63811",
+  null,
+  function() { return {"one":"انتخاب همه درس های (%{count})","other":"انتخاب همه درس های (%{count})"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_course_sidebar",
+  function() { return {"associations_3fd4abe8":"انجمن ها","loading_sync_history_3eb11baf":"در حال بارگذاری تاریخچه همگام‌سازی...","loading_unsynced_changes_1b52f725":"در حال بارگذاری تغییرات همگام نشده","loading_unsynced_changes_b5d7b202":"در حال بارگذاری تغییرات همگام سازی نشده","not_available_during_sync_ae645e8c":"در طول همگام‌سازی، موجود نیست","sync_history_3d46eb19":"همگام سازی تاریخ","unsynced_changes_4ddaec76":"تغییرات همگام نشده"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "there_are_count_unsynced_changes_25ed3bed",
+  null,
+  function() { return {"one":"%{count} تغییر ناهمگام وجود دارد.","other":"%{count} تغییر ناهمگام وجود دارد"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "there_are_count_associations_906edb03",
+  null,
+  function() { return {"one":"%{count} انجمن وجود دارد.","other":"%{count} انجمن وجود دارد"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_settingsMigrationOptions",
+  function() { return {"add_a_message_4fee743f":"افزودن پیام","chars_written_max_character_length_len_fec9bd18":"%{chars} نوشته شده، حداکثر طول نویسه %{len} است","count_of_max_maximum_characters_fcb6ddf8":"%{count} از %{max} حداکثر نویسه","history_settings_c63dbaaf":"تنظیمات تاریخچه","include_course_settings_c4c08764":"شامل کردن تنظیمات درس","len_maxlen_97f1c88d":"%{maxLen}/%{len}","message_text_5f692459":"متن پیام","send_notification_81773687":"ارسال اعلان","you_have_reached_the_limit_of_len_characters_in_th_babea8fe":"شما به حداکثر %{len} نویسه در پیام اطلاعیه رسیده‌اید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_settingsMigrationSync",
+  function() { return {"sync_in_progress_12ff1d3c":"همگام سازی در حال انجام است","syncing_3061cc8d":"درحال همگام سازی...","this_may_take_a_bit_48fe4235":"ممکن است قدری طول بکشد...","you_can_leave_the_page_and_you_will_get_a_notifica_fefe11e8":"می‌توانید صفحه را ترک کرده و بعد از کامل شدن فرایند همگام‌سازی، یک اطلاعیه دریافت کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_settingsSyncHistory",
+  function() { return {"loading_sync_history_9f342cbf":"در حال بارگذاری تاریخچه همگام‌سازی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_settingsUnsyncedChanges",
+  function() { return {"changed_item_1d16a85f":"مورد تغییر یافته","count_unsynced_changes_1fc147e5":"%{count} تغییر همگام نشده","there_are_no_unsynced_changes_4e8f0838":"هیچ تغییر ناهمگامی وجود ندارد","type_of_change_1cb24a0e":"نوع تغییر","type_of_item_8a37f69d":"نوع مورد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "theme_collection_view",
+  function() { return {"create_theme_based_on_40651ed3":"ایجاد زمینه بر اساس","default_template_f2a759ed":"الگوی پیش فرض","default_templates_are_used_as_starting_points_for__f06f9e33":"از الگوهای پیش فرض به عنوان نقاط شروع برای زمینه های جدید استفاده می شود و نمی توان آنها را حذف کرد.","my_themes_b72217b8":"زمینه های من","templates_4ca13d07":"الگوها","theme_52404e51":"زمینه","themes_89bfe9c4":"زمینه ها"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "theme_editor",
+  function() { return {"an_error_occurred_trying_to_apply_this_theme_pleas_253d0996":"در هنگام اقدام برای به کار بردن این زمینه، خطایی رخ داد، لطفا دوباره سعی کنید.","an_error_occurred_trying_to_generate_this_theme_pl_b493e2e9":"در هنگام اقدام برای ایجاد این زمینه، خطایی رخ داد، لطفا دوباره سعی کنید.","apply_theme_7af08387":"به کار بردن زمینه","applying_new_styles_to_subaccounts_e8aeeef2":"به کار بردن سبک های جدید در زیر حساب ها","applying_please_be_patient_f7b5f244":"در حال به کار بردن، لطفا صبور باشید","before_implementing_custom_css_or_javascript_pleas_65423572":"قبل از اجرایی کردن CSS یا جاوااسکریپت سفارشی، لطفا به *اسناد ما* مراجعه کنید.","changes_will_still_apply_if_you_leave_this_page_935cedc6":"در صورتی که از این صفحه خارج شوید، تغییرات باز هم اعمال خواهند شد.","css_file_709e6a83":"فایل CSS","current_theme_62e5e8cf":"زمینه فعلی","custom_css_and_javascript_may_cause_accessibility__93d2a823":"CSS و جاوااسکریپت سفارشی ممکن است مشکلات دسترس پذیری یا تضاد با بهنگام سازی های آتی کانواس به وجود آورد!","delete_theme_918a7f24":"حذف زمینه؟","delete_theme_bdb70d25":"حذف زمینه","delete_themename_8c4223a3":"حذف %{themeName}","edit_this_theme_in_theme_editor_f8f07ac9":"ویرایش این زمینه در ویرایشگر زمینه","exit_d0c7b013":"خروج","file_s_will_be_included_on_all_pages_in_the_canvas_80569935":"فایل(ها) در همه صفحه های موجود در برنامه رومیزی کانواس شامل خواهد شد.","file_s_will_be_included_when_user_content_is_displ_5e1fa73d":"فایل (ها) وقتی محتوای کاربر در برنامه های iOS یا آندروید کانواس و در برنامه های شخص ثالث مبتنی بر API نمایش داده می شود، گنجانده خواهد شد.","generating_preview_45b53be0":"در حال ایجاد پیش نمایش...","javascript_file_fc27c32b":"فایل جاوااسکریپت","mobile_app_css_file_abbf06bd":"فایل CSS برنامه همراه","mobile_app_javascript_file_faea55d5":"فایل جاوااسکریپت برنامه همراه","multiple_are_marked_current_theme_because_the_same_3bdebbe1":"چند مورد به عنوان \"زمینه فعلی\" علامت‌گذاری شده است، زیرا مقادیر یکسان تحت چند نام ذخیره شده‌اند، یعنی هر یک با آنچه در حال حاضر اعمال شده یکسان هستند","open_in_theme_editor_156028e2":"باز کردن در ویرایشگر زمینه","percent_complete_3a7edc20":"%{percent} تکمیل شده","pick_a_name_to_save_this_theme_as_9773cb1a":"یک نام انتخاب کنید برای ذخیره سازی این زمینه به عنوان","preview_your_changes_373557d8":"پیش نمایش تغییرات شما","progress_for_account_name_ef203250":"پیشرفت برای %{account_name}","reset_95a81614":"بازنشانی","save_theme_36c73e6a":"ذخیره سازی زمینه","save_theme_f706116e":"ذخیره سازی زمینه","select_image_e1696a4d":"انتخاب تصویر","theme_name_68f46e09":"نام زمینه","there_are_no_unsaved_changes_9276e87c":"تغییرات ذخیره سازی نشده وجود ندارد","this_is_your_current_theme_4331709b":"زمینه فعلی شما این است","this_will_apply_this_theme_to_your_entire_account__4cfabbe5":"این امر این زمینه را در کل حساب شما اعمال خواهد کرد. مایلید ادامه دهید؟","to_preview_theme_editor_branding_you_will_need_to__462dda1a":"برای پیش نمایش علامت تجاری ویرایشگر زمینه، باید *واسط کاربر دارای تضاد زیاد را غیر فعال کنید*.","view_file_8a1c62e5":"مشاهده فایل","you_are_about_to_lose_any_unsaved_changes_would_yo_e255f393":"به زودی هر گونه تغییر ذخیره نشده را از دست می دهید.\n\nهنوز مایلید ادامه دهید؟","you_need_to_preview_changes_before_saving_85e60232":"باید قبل از ذخیره سازی، «تغییرات را پیش نمایش دهید»","you_need_to_preview_changes_before_you_can_apply_t_212d1cca":"قبل از اینکه بتوانید در حساب خود اعمال کنید، باید «تغییرات را پیش نمایش دهید»","you_need_to_save_before_applying_to_this_account_7436a5ae":"قبل از اعمال در حساب خود، باید «ذخیره کنید»","you_will_not_be_able_to_preview_your_changes_f7b868fb":"قادر نخواهید بود تغییرات را پیش نمایش دهید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "community",
+  null,
+  function() { return {"admin_add_course":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-add-a-course-in-an-account-as-an-admin/ta-p/158","admin_add_users":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-add-users-to-an-account/ta-p/90","admin_app_center_allowlist":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-manage-a-whitelist-in-the-Edu-App-Center/ta-p/203","admin_custom_js_css":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-upload-custom-JavaScript-and-CSS-files-to-an-account/ta-p/253","admin_hangouts_meet_lti":"https://community.canvaslms.com/t5/Admin-Group/Google-Hangouts-Meet-LTI/ba-p/257649","admin_import_sis":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-import-SIS-data-to-a-Canvas-account/ta-p/98","admin_teams_meetings":"https://community.canvaslms.com/t5/Admin-Group/Microsoft-Teams-Meetings-in-Canvas/ba-p/256340","admin_training_services_portal":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-use-the-Training-Services-Portal-as-an-admin/ta-p/198","admin_zoom_meetings_faq":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826","admin_zoom_meetings_faq_add":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--1295024148","admin_zoom_meetings_faq_camera":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--1619578790","admin_zoom_meetings_faq_invite":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--361560439","admin_zoom_meetings_faq_mute":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--810232164","admin_zoom_meetings_faq_participants":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--237443356","admin_zoom_meetings_faq_record":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--1980253691","admin_zoom_meetings_faq_schedule":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId-447786187","admin_zoom_meetings_faq_screenshare":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId-123231545","admin_zoom_meetings_faq_share_record":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId-1866041880","admin_zoom_meetings_faq_start":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--1170907065","admin_zoom_meetings_faq_storage":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--1387179659","basics_announcements":"https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-Announcements/ta-p/39","basics_collaborations":"https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-Collaborations/ta-p/61","basics_speedgrader":"https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13","contingency_30_minute_quickstart":"https://community.canvaslms.com/t5/Contingency-Planning/Set-Up-Your-Canvas-Course-in-30-minutes-or-Less/ba-p/258437","contingency_web_conferencing":"https://community.canvaslms.com/t5/Contingency-Planning/Web-Conferencing-Resources/ba-p/262674","guides_home":"https://community.canvaslms.com/t5/Canvas/ct-p/canvas","instructor_add_announcement":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-announcement-in-a-course/ta-p/1194","instructor_add_dashboard_image":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-image-to-a-course-card-in-the-Dashboard/ta-p/624","instructor_add_module":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-a-module/ta-p/1151","instructor_add_module_items":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-course-content-as-module-items/ta-p/1157","instructor_add_rubric_assignment":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-a-rubric-to-an-assignment/ta-p/1058","instructor_add_rubric_course":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-a-rubric-in-a-course/ta-p/842","instructor_add_users":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-users-to-a-course/ta-p/1119","instructor_adjust_dates_on_import":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-adjust-events-and-due-dates-in-a-course-import/ta-p/1090","instructor_align_outcome_rubric":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-align-an-outcome-with-a-rubric-in-a-course/ta-p/1130","instructor_assignment_details":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-or-edit-details-in-an-assignment/ta-p/971","instructor_assignment_types":"https://community.canvaslms.com/t5/Instructor-Guide/What-assignment-types-can-I-create-in-a-course/ta-p/627","instructor_bulk_upload":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-bulk-upload-files-to-a-course/ta-p/623","instructor_change_course_home":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-change-the-Course-Home-Page/ta-p/1035","instructor_change_name_code":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-change-a-course-name-and-course-code/ta-p/1234","instructor_conclude_conference":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-conclude-a-conference/ta-p/606","instructor_copy_course":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-copy-a-Canvas-course-into-a-new-course-shell/ta-p/712","instructor_create_assignment":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-an-assignment/ta-p/740","instructor_create_conference":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-conference-in-a-course/ta-p/1156","instructor_create_discussion":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-discussion-as-an-instructor/ta-p/1029","instructor_create_gdrive_collaboration":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-Google-Drive-collaboration-as-an-instructor/ta-p/632","instructor_create_new_quiz":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-an-assessment-using-New-Quizzes/ta-p/1173","instructor_create_o365_collaboration":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-Microsoft-Office-365-collaboration-as-an/ta-p/629","instructor_create_outcome":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-an-outcome-for-a-course/ta-p/862","instructor_create_outcome_group":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-outcome-groups-for-a-course/ta-p/1128","instructor_create_page":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-new-page-in-a-course/ta-p/1031","instructor_create_quiz_questions":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-quiz-with-individual-questions/ta-p/1248","instructor_edit_announcement":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-edit-an-announcement-in-a-course/ta-p/1190","instructor_edit_gradebook":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-enter-and-edit-grades-in-the-Gradebook/ta-p/724","instructor_edit_syllabus":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-edit-the-Syllabus-in-a-course/ta-p/1178","instructor_gradebook_individual_view":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-assignments-or-students-individually-in-the/ta-p/1247","instructor_guide":"https://community.canvaslms.com/t5/Instructor-Guide/tkb-p/Instructor","instructor_homepage_layout_options":"https://community.canvaslms.com/t5/Instructor-Guide/What-layout-options-are-available-in-the-Course-Home-Page-as-an/ta-p/1291","instructor_import_outcomes":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-import-outcomes-for-a-course/ta-p/702","instructor_import_package":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-import-a-Canvas-course-export-package/ta-p/795","instructor_individual_new_analytics":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-analytics-for-an-individual-student-in-New/ta-p/801","instructor_manage_new_quizzes_settings":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manage-settings-for-an-assessment-in-New-Quizzes/ta-p/581","instructor_manage_rubrics":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manage-rubrics-in-a-course/ta-p/1017","instructor_message_all_criteria_new_analytics":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-send-a-message-to-all-students-based-on-specific-course/ta-p/1162","instructor_message_individual_new_analytics":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-send-a-message-to-an-individual-student-in-New/ta-p/1187","instructor_notification_preferences":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-set-my-Canvas-notification-preferences-as-an-instructor/ta-p/1222","instructor_organize_files":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-move-and-organize-my-files-as-an-instructor/ta-p/622","instructor_post_grades":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-post-grades-for-an-assignment-in-the-Gradebook/ta-p/576","instructor_publish_assignment":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-an-assignment-as-an-instructor/ta-p/585","instructor_publish_discussion":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-a-discussion-as-an-instructor/ta-p/590","instructor_publish_module":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-a-module-as-an-instructor/ta-p/571","instructor_publish_page":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-a-page-as-an-instructor/ta-p/592","instructor_quiz_options":"https://community.canvaslms.com/t5/Instructor-Guide/What-options-can-I-set-in-a-quiz/ta-p/683","instructor_quiz_statistics":"https://community.canvaslms.com/t5/Instructor-Guide/Once-I-publish-a-quiz-what-kinds-of-quiz-statistics-are/ta-p/659","instructor_record_conference":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-record-a-conference/ta-p/840","instructor_reorder_module":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-move-or-reorder-a-module/ta-p/1150","instructor_reply_discussion":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-reply-to-a-discussion-as-an-instructor/ta-p/1110","instructor_select_import_content":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-select-specific-content-as-part-of-a-course-import/ta-p/1091","instructor_set_course_details":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-set-details-for-a-course/ta-p/1037","instructor_set_front_page":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-set-a-Front-Page-in-a-course/ta-p/797","instructor_speedgrader_submission_details":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-the-details-of-a-submission-for-a-student-in/ta-p/762","instructor_start_conference":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-start-a-conference/ta-p/1074","instructor_upload_course_file":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-upload-a-file-to-a-course/ta-p/618","instructor_use_announcements_index":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Announcements-Index-Page/ta-p/1113","instructor_use_collaborations_index":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Collaborations-Index-Page/ta-p/922","instructor_use_course_homepage":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Course-Home-Page-as-an-instructor/ta-p/1250","instructor_use_course_settings":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-course-settings/ta-p/1267","instructor_use_files":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-Files-as-an-instructor/ta-p/929","instructor_use_gradebook":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Gradebook/ta-p/701","instructor_use_mastery_gradebook":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Learning-Mastery-Gradebook-to-view-outcome/ta-p/775","instructor_use_outcomes":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-outcomes-page-in-a-course/ta-p/645","instructor_use_pages_index":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Pages-Index-Page/ta-p/1005","instructor_use_people_page":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-People-page-in-a-course-as-an-instructor/ta-p/667","instructor_use_quizzes_index":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Quizzes-Index-Page/ta-p/1104","instructor_use_syllabus":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Syllabus-as-an-instructor/ta-p/638","instructor_view_discussion_replies":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-and-sort-discussion-replies-as-an-instructor/ta-p/908","instructor_view_enrollment_details":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-user-details-for-an-enrollment-in-a-course/ta-p/1216","instructor_view_student_context_card":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-a-context-card-for-a-student-in-a-course/ta-p/608","new_quizzes_feature_comparison":"https://community.canvaslms.com/t5/New-Quizzes-Users/New-Quizzes-Feature-Comparison/ta-p/243761","resource_course_content_distribution_comparison":"https://community.canvaslms.com/t5/Resource-Documents/Blueprint-Courses-and-Canvas-Commons-Comparison-PDF/ta-p/387051","resource_pairing_codes_faq":"https://community.canvaslms.com/t5/Resource-Documents/Pairing-Codes-FAQ-PDF/ta-p/388738"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "appointment_groups",
+  function() { return {"allow_students_to_see_who_was_signed_up_for_time_s_37f5cb01":"به دانشجویان اجازه داده شود ببینند چه کسی ثبت نام کرده است برای ","an_error_ocurred_while_deleting_the_appointment_gr_4948bbc5":"هنگام حذف گروه قرار ملاقات خطایی رخ داد","an_error_ocurred_while_saving_the_appointment_grou_e19452cd":"هنگام ذخیره سازی گروه قرار ملاقات خطایی رخ داد","create_slots_71dbb2f8":"ایجاد بازه ها","delete_group_86c381ec":"حذف گروه","divide_into_equal_slots_value_is_in_minutes_13fe14d2":"تقسیم به بازه های زمانی مساوی (مقادیر به دقیقه)","divide_into_equal_time_slots_in_minutes_234312fa":"تقسیم به بازه های زمانی مساوی (به دقیقه","edit_pagetitle_cd8abab9":"ویرایش %{pageTitle}","end_time_250391e8":"تاریخ پایان","limit_each_time_slot_to_input_value_user_s_47461538":"هر بازه زمانی را به %{input_value} کاربر(ها) محدود کنید.","limit_students_to_attend_input_value_slot_s_9a5bf576":"دانشجویان را به حضور در بازه(های) زمانی %{input_value} محدود کنید.","must_be_a_number_0_e6ec3e78":"عدد باید بزرگتر از صفر باشد","select_calendars_d5fa50b6":"انتخاب تقویم","start_date_start_time_to_end_time_dc676ce1":"%{start_date}، %{start_time} به %{end_time}","start_time_2c3d11b5":"زمان شروع","you_are_here_54075d8c":"شما اینجا هستید:","you_must_allow_at_least_one_appointment_per_partic_c142139c":"به ازای هر شرکت‌کننده باید حداقل یک قرار ملاقات در نظر بگیرید.","you_must_allow_at_least_one_appointment_per_time_s_76e22300":"حداقل باید امکان یک قرار ملاقات در هر بازه زمانی را فراهم سازید.","you_must_provide_a_value_or_unselect_the_option_3b28b754":"باید یک مقدار آماده کنید و یا انتخاب گزینه را لغو کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "contextname_and_count_others_9dda769b",
+  null,
+  function() { return {"one":"%{contextName} و %{count} نفر دیگر","other":"%{contextName} و %{count} نفر دیگر"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "calendar",
+  function() { return {"additional_occurrence_s_7b5b0173":"رویداد (های) دیگر","all_day_fb42c4fc":"تمام روز","allow_students_to_see_who_has_signed_up_for_time_s_7eb1d0ef":"به دانشجویان اجازه داده شود ببینند چه کسی ثبت نام کرده است برای  ","and_more_1c35b232":"و بیشتر...","appends_a_number_to_the_end_of_each_event_title_e__bca98abd":"یک شماره را به انتهای هر عنوان رویداد ضمیمه می کند (برای مثال، رویداد 1، رویداد 2 و غیره)","are_you_sure_you_want_to_cancel_your_appointment_w_dbbd27eb":"آیا مطمئن هستید که می خواهید قرار ملاقات خود را با %{name} لغو کنید؟","are_you_sure_you_want_to_delete_this_discussion_334554e0":"مطمئنید که می خواهید این بحث حذف شود؟","are_you_sure_you_want_to_delete_this_event_824b1e33":"مطمئنید که می خواهید این رویداد حذف شود؟","are_you_sure_you_want_to_delete_this_page_2185844":"آیا اطمینان دارید که می‌خواهید این صفحه حذف شود؟","are_you_sure_you_want_to_delete_this_to_do_item_497016ea":"مطمئنید که می خواهید این مورد فهرست اقدام حذف شود؟","are_you_sure_you_want_to_delete_your_reservation_t_5ae87209":"مطمئنید که می خواهید رزرو شما برای این رویداد حذف شود؟","assignment_has_a_locked_date_due_date_cannot_be_se_2e2e3389":"تکلیف دارای تاریخ قفل شده است. تاریخ مهلت نمی تواند خارج از محدوده تاریخ قفل شده تنظیم شود.","assignment_title_82b4422e":"عنوان تکلیف:","availableslots_available_87b8b69d":"%{availableSlots} قابل دسترس","availableslots_more_available_be5193a8":"%{availableSlots} بیشتر در دسترس  است","calendar_a8563bb2":"تقویم:","calendar_contextinfo_name_a7d98525":"تقویم  %{contextInfo.name}","completed_9b809e44":"کامل شد","confirm_reservation_removal_e6350e7c":"تأیید حذف رزرو","course_section_name_ea880ed1":"بخش درس %{name}","details_a6f427c3":"جزئیات:","divide_into_equal_slots_of_num_minutes_minutes_go_52caee81":"تقسیم به بازه های زمانی مساوی %{num_minutes} دقیقه. *حرکت*","do_nothing_9672b478":"اقدامی انجام نشود","due_date_is_required_cdb75f25":"تاریخ مهلت مورد نیاز است!","due_dueat_ef67f6f4":"مهلت: %{dueAt}","ends_at_9a62b528":"پایان می یابد در","event_creation_failed_71b75bea":"ایجاد رویداد ناموفق بود","event_date_c9459fe3":"تاریخ رویداد","event_date_f05219e7":"تاریخ رویداد","event_title_57a50568":"عنوان رویداد:","event_update_failed_b6116651":"به‌روزرسانی رویداد ناموفق بود","every_665d821e":"هر","failed_loading_course_sections_refresh_page_to_try_f97160bf":"بخش های درس بارگیری نشد، صفحه را از نو باز و  دوباره امتحان کنید.","filled_5d8c39e":"پر شده","go_back_ed239e69":"بازگشت","group_details_e51122f1":"جزئیات گروه","input_event_title_1d4c8b10":"عنوان رویداد ورودی","limit_participants_to_attend_num_appointments_appo_dd3fd62f":"محدود کردن شرکت کننده ها برای حضور در %{num_appointments} قرار ملاقات().","limit_this_slot_to_input_type_number_name_max_part_1580add0":"این بازه زمانی را به %{input_type_number_name_max_parti} گروه محدود کنید.","limit_this_slot_to_input_type_number_name_max_part_8344547a":"این بازه زمانی را به %{input_type_number_name_max_parti} محدود کنید.","month_s_5c17590e":"ماه (ها)","n_contextscount_more_2f708db4":"+%{n_contextsCount} بیشتر","no_date_bfeb2df7":"تاریخ موجود نیست","not_all_sections_will_be_assigned_this_item_4e2b8eaa":"این مورد به برخی بخش ها تخصیص داده نخواهد شد.","not_completed_55fb4c00":"کامل نیست","open_event_menu_for_783510e3":"باز کردن منوی رویداد برای","open_name_color_picker_a2646a33":"باز کردن انتخاب کننده رنگ %{name}","publish_aa888e3c":"انتشار:","remove_attendee_name_55165070":"حذف شرکت کننده %{name}","reschedule_9f780bb8":"زمان بندی دوباره","reserved_by_d563e7d2":"رزرو شده توسط:","reserved_by_you_cd03b62d":"رزرو شده توسط شما","save_publish_36440725":"ذخیره سازی و انتشار","starts_at_29843f98":"شروع می شود در","there_are_no_available_signups_for_this_course_26b05c56":"در حال حاضر هیچ ثبت نام در دسترسی برای این درس وجود ندارد.","title_is_required_8bb13295":"عنوان لازم است!","to_do_5526f10a":"برای اقدام:","to_do_item_d76ecb78":"مورد برای اقدام","unreserved_e86b7425":"رزرو نشده","week_s_cb1492ee":"هفته(ها)","would_you_like_to_go_back_to_include_1d279044":"مایلید برای شامل سازی برگردید؟"} },
+  function() { return {"agenda_view":{"due":"مهلت","loading":"در حال بارگذاری","no_events":"*هیچ رویدادی بعد از این تاریخ موجود نیست.*"},"buttons":{"cancel":"لغو","send_message":"ارسال","sending_message":"درحال ارسال..."},"calendar_header":{"create_event":"ایجاد رویداد جدید","done_go_back_to_list":"انجام شد. بازگشت به فهرست","links":{"calendar_agenda":"Agenda","calendar_month":"ماه","calendar_week":"هفته","improved_accessibility_recommend_agenda":"هشدار: برای دسترس پذیری بهتر، لطفا از تقویم «نمای Agenda» استفاده کنید."},"loading":"در حال بارگذاری","my_appointment_groups":"گروه های قرار ملاقات من"},"calendar_navigator":{"enter_navigation_date":"تاریخی که می خواهید به آن پیمایش کنید را وارد کنید.","next":"بعدی","previous":"قبلی","today":"امروز"},"calendar_title":"تقویم:","context_selector":{"done":"انجام شد"},"delete_item":{"deletion_reason":"دلیل حذف:"},"edit":{"confirm_delete_calendar_event":"مطمئنید که می خواهید این رویداد تقویم حذف شود؟","event_deleted":"%{event_title} با موفقیت حذف شد","event_saved":"رویداد با موفقیت ذخیره شد","missingDueDate":{"one":"%{sections} تاریخ مهلت اختصاص داده شده ندارند.","other":"%{sections} تاریخ مهلت اختصاص داده شده ندارند."},"titles":{"warning":"هشدار"}},"edit_appointment_group":{"affect_reservations":"چگونه بر رزروها اثر می گذارد؟","appt_group_options_help1":"برخی از رزروهای موجود بیش از حدی هستند که افزوده اید. آنها تحت تأثیر قرار نخواهند گرفت، این تاثیر فقط از ایجاد رزروهای جدید جلوگیری می کند.","appt_group_options_help2":"با این وجود، می توانید به طور دستی رزروهای موجود را حذف کنید.","calendar":"تقویم","date":"تاریخ","details":"اطلاعات بیشتر:","group_category":"رده گروه","group_signup":"دانشجویان در گروه ها ثبت نام کنند.","location":"مکان","name":"نام","time_range":"بازه زمانی"},"edit_appt_calendar_event":{"description":"شرح:"},"edit_assignment":{"calendar":"تقویم:","due":"مهلت:","group":"گروه:","links":{"more_options":"گزینه های دیگر"},"title":"عنوان:"},"edit_assignment_override":{"calendar":"تقویم:","due":"مهلت:","links":{"more_options":"گزینه های دیگر"}},"edit_calendar_event":{"calendar":"تقویم:","date":"تاریخ:","from":"از:","links":{"more_options":"گزینه های دیگر"},"location":"مکان:","timespan_separator":"تا","title":"عنوان:"},"edit_calendar_event_full":{"buttons":{"create":"ایجاد رویداد","update":"بهنگام سازی رویداد"},"date":"تاریخ","delete":"حذف","different_date_for_each_section":"استفاده از تاریخ های متفاوت برای هر بخش","edit_calendar_event_header":"ویرایش رویداد تقویم","end_time":"زمان پایان","event_description":"شرح رویداد","location_address":"نشانی:","location_name":"مکان:","new_calendar_event_header":"رویداد جدید تقویم","repeat":"تکرار کردن","start_time":"زمان شروع"},"edit_event":{"tabs":{"appointment_group":"گروه تکلیف","assignment":"تکلیف","event":"رویداد","todo":"برای اقدام من"}},"edit_planner_note":{"calendar":"تقویم:","date":"تاریخ:","time":"زمان:","title":"عنوان:"},"edit_to_do_item":{"date":"تاریخ:","links":{"more_options":"گزینه های دیگر"},"time":"زمان:","title":"عنوان:"},"end_before_start_error":"زمان شروع باید قبل از زمان پایان باشد","ends_in_past_error":"نمی توانید یک بازه زمانی برای قرار ملاقات ایجاد کنید که در گذشته پایان یافته است","errors":{"send_message_failed":"خطایی در ارسال پیام شما رخ داد، لطفا دوباره سعی کنید"},"event_details":{"attendees":"حاضرین","calendar":"تقویم","close":"بستن","details":"اطلاعات بیشتر","links":{"delete":"حذف","edit":"ویرایش","reserve":"رزرو","unreserve":"لغو رزرو"},"location":"مکان","location_address":"نشانی","message_students":"ارسال پیام برای دانشجویان","slots_available":"بازه های زمانی موجود"},"event_on_this_day":"رویدادی در این روز وجود دارد","loading_more_items":"در حال بارگذاری موردهای بیشتر.","loading_undated_events":"در حال بارگذاری رویدادهای بدون تاریخ","message_participants":{"all_groups":"همه گروه ها","all_users":"همه کاربران","message_groups":"ارسال پیام برای گروه ها","message_label":"پیام:","message_students":"ارسال پیام برای دانشجویان","registered_groups":"گروه هایی که تاکنون ثبت نام کرده اند","registered_users":"کاربرانی که تاکنون ثبت نام کرده اند","send_message_to":"ارسال پیام برای...","unregistered_groups":"گروه هایی که هنوز ثبت نام نکرده اند","unregistered_users":"کاربرانی که هنوز ثبت نام نکرده اند"},"messages_sent":"پیام ها ارسال شدند","name_is_required":"نام مورد نیاز است!","no_dates_error":"حداقل باید یک تاریخ و زمان تعیین کنید","no_groups":"گروهی یافت نشد","no_users":"کاربری یافت نشد","open_appointment_on_this_day":"یک قرار ملاقات در این روز موجود است","prompts":{"delete_assignment":"مطمئنید که می خواهید این تکلیف حذف شود؟","delete_override":"مطمئنید که می خواهید این جایگزینی تکلیف حذف شود؟"},"reservation_over_limit_dialog":{"appointment_limit_reached":"محدودیت قرار ملاقات","cancel_existing_reservation":"رزرو فعلی لغو شود و برای این یکی ثبت نام شود؟","cancel_some_appointments_and_try_again":"لطفا یکی از رزروهای دیگر خود را لغو کنید و دوباره سعی کنید.","would_you_like_to_cancel_that_and_sign_up_for_this":"مایلید که آن را لغو کنید و برای این یکی ثبت نام کنید؟","you_are_already_signed_up_for":"شما قبلا ثبت نام کرده اید برای:"},"time_block_errors":"خطاهایی در انتخاب بازه های زمانی شما وجود دارد.","time_block_row":{"date_label":"تاریخ","delete_link":"حذف بازه زمانی","end_time_label":"زمان پایان","start_time_label":"زمان شروع"},"titles":{"edit_event":"ویرایش رویداد"},"today":"امروز","undated_events":{"loading_undated_events":"درحال بارگذاری موردهای بدون تاریخ...","no_undated_events":"موردهای بدون تاریخ موجود نیست.","show_undated_events":"نمایش موردهای بدون تاریخ"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "context_sector",
+  function() { return {"hide_course_sections_for_course_name_bd1911af":"مخفی کردن بخش‌های درس برای درس %{name}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "EditAppointmentGroupDetails",
+  function() { return {"max_users_groups_per_appointment_867c505b":"حداکثر تعداد کاربر/گروه در هر قرار ملاقات","maximum_number_of_appointments_a_participant_can_a_70dfd6cd":"حداکثر تعداد قرارهای ملاقات که یک شرکت کننده می تواند حضور یابد","minutes_per_slot_5b7169e5":"دقیقه در هر بازه زمانی"} },
+  function() { return {"affect_reservations":"چگونه روی رزروها اثر خواهد گذاشت؟","and_n_contexts":"و %{n} دیگر","and_n_sectionCodes":"و %{n} دیگر","bad_max_appts":"به ازای هر شرکت کننده باید حداقل یک قرار ملاقات در نظر بگیرید","bad_per_slot":"حداقل باید امکان یک قرار ملاقات در هر بازه زمانی را فراهم سازید","context_required":"باید یک تقویم انتخاب کنید","select_calendars":"انتخاب تقویم‌ها"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "appt_calendar_event_dialog",
+  function() { return {"you_must_allow_at_least_one_group_to_attend_68531eab":"باید حداقل به یک گروه اجازه حضور بدهید"} },
+  function() { return {"invalid_participants":"باید حداقل به یک کاربر اجازه حضور بدهید","title":"ویرایش %{name}","update":"بهنگام سازی"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "react_scheduler",
+  function() { return {"find_appointment_85d6922e":"یافتن قرار ملاقات"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "choose_mastery_path",
+  function() { return {"assignment_path_selected_e80191d1":"مسیر تکلیف انتخاب شد","choose_assignment_path_8ea55f3a":"مسیر تکلیف را انتخاب کنید","option_index_6308524d":"گزینه %{index}","select_one_of_the_options_c8b0c6e4":"یکی از گزینه‌ها را انتخاب کنید:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "collaborations",
+  function() { return {"collaboration_creation_failed_95ff831f":"ایجاد همکاری انجام نشد","collaboration_update_failed_eb6622f3":"بهنگام سازی همکاری انجام نشد","collaboration_was_deleted_9cf9934b":"همکاری حذف شد"} },
+  function() { return {"collaboration":{"delete":"مطمئنید که می خواهید این همکاری حذف شود؟"},"collaborator_picker":{"labels":{"available_groups":"گروه های موجود","available_users":"کاربران موجود","collaborate_with":"همکاری با:","collaboration_members":"اعضای همکاری","groups":"گروه ها","loading":"در حال بارگذاری","people":"افراد","remove_all":"حذف همه"},"member_instructions":"برای افزودن همکاری ها، روی یک گروه یا کاربر در ستون سمت چپ کلیک کنید یا ضربه بزنید."},"edit":{"buttons":{"cancel":"لغو","update":"بهنگام سازی همکاری"},"labels":{"description":"شرح:","title":"عنوان همکاری"}},"errors":{"no_name":"لطفا یک نام برای این همکاری وارد کنید","title_too_long":"لطفا برای نام از %{maxLength} نویسه یا کمتر استفاده کنید. از شرح برای محتوای بیشتر استفاده کنید."},"titles":{"delete":"همکاری حذف شود؟"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "conferences",
+  function() { return {"add_conference_7bcc625b":"اضافه کردن کنفرانس","add_conferencing_9f4ccded":"اضافه کردن کنفرانس","add_name_db699e72":"اضافه کردن %{name}","add_toolname_4e17dc90":"افزودن %{toolName}","are_you_sure_you_want_to_delete_this_recording_a4aab14b":"آیا مطمئن هستید که می‌خواهید این مورد ضبط شده را حذف کنید؟","conference_36b50fda":"کنفرانس","conference_was_deleted_30869390":"کنفرانس حذف شد","count_recording_5ba8a655":"%{count} مورد ضبط شده","count_recordings_9f8e4148":"%{count} مورد ضبط شده","creating_conference_95b59116":"ایجاد کنفرانس","edit_conference_title_6e234815":"ویرایش \"%{conference_title}\"","new_conference_8b483024":"کنفرانس جدید","no_conferencing_options_enabled_fc00e371":"هیچ گزینه کنفرانسی فعال نیست","pick_the_date_and_time_for_the_following_conferenc_e9f91edd":"تاریخ و زمان را برای تنظیمات کنفرانس زیر انتخاب کنید:","recording_was_deleted_b989eaff":"مورد ضبط شده حذف شد.","remove_all_course_observer_members_4622c70d":"همه اعضای ناظر دوره را حذف کنید","select_conference_provider_58c7f7fe":"ارائه دهنده کنفرانس را انتخاب کنید","sorry_the_action_performed_on_this_recording_faile_2a1badda":"متاسفانه ، اقدام انجام شده در این ضبط انجام نشد. بعدا دوباره تلاش کنید"} },
+  function() { return {"concluded_conference":{"delete":"حذف","recording":"1 مورد ضبط شده","recordings":"%{recordingCount} مورد ضبط شده","settings":"تنظیمات","type":"%{type}"},"confirm":{"close":"مطمئنید که می خواهید این کنفرانس خاتمه یابد؟\n\nنمی توانید آن را دوباره باز کنید.","delete":"مطمئنید که می خواهید این کنفرانس حذف شود؟"},"edit_conference_form":{"advanced_settings":"مدیریت تنظیمات پیشرفته...","conference_type":"نوع","description":"شرح","duration":"مدت زمان","duration_in_minutes":"دقیقه","invite_all":{"course":"دعوت کردن از همه اعضای درس","group":"دعوت کردن از همه اعضای گروه"},"long_running":"بدون محدودیت زمانی (برای کنفرانس های طولانی مدت)","members":"اعضا","name":"نام","options":"گزینه ها"},"loading_urls_message":"در حال بارگذاری، لطفا صبر کنید...","multiple_urls_message":"چندین صفحه %{type} برای این کنفرانس موجود است. لطفا یکی را انتخاب کنید:","new_conference":{"delete":"حذف","edit":"ویرایش","end_it_now":"پایان دادن","in_progress":"درحال انجام","join":"پیوستن","recording":"1 مورد ضبط شده","recordings":"%{recordingCount} مورد ضبط شده","settings":"تنظیمات","start":"شروع","type":"%{type}"},"no_concluded_conferences":"کنفرانس خاتمه یافته‌ای وجود ندارد","no_new_conferences":"کنفرانس جدیدی وجود ندارد","no_urls_error":"متأسفانه به نظر می رسد هنوز هیچ صفحه %{type} برای این کنفرانس وجود ندارد.","notifications":{"inaccessible":"هشدار: این صفحه حاوی محتوای شخص ثالث است که برای صفحه خوان ها در دسترس نیست."}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "conferences_alternatives",
+  function() { return {"google_meet_f896b61c":"Google Meet","visit_google_meet_ebdaf94f":"رفتن به Google Meet","visit_zoom_14636084":"رفتن به Zoom"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "content_exports",
+  function() { return {"your_content_has_been_exported_bbb57764":"محتوای شما صادر شده است."} },
+  function() { return {"buttons":{"process":"پردازش داده ها"},"errors":{"error":"در صادر کردن محتوای شما خطایی رخ داد. لطفا به مدیر سیستم خود اطلاع دهید و شناسه صدور زیر را به او بدهید: \"%{code}\""},"messages":{"processing":"درحال پردازش","this_may_take_a_bit":"ممکن است قدری طول بکشد..."}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "content_migrations",
+  function() { return {"beginning_date_2d2a29ac":"تاریخ شروع","change_beginning_date_to_39dbd06e":"تغییر تاریخ شروع به","change_ending_date_to_d2cebd54":"تغییر تاریخ پایان به","content_import_files_cannot_be_downloaded_after_en_7e3a2099":"فایل‌های ورود محتوا بعد از %{ENV.CONTENT_MIGRATIONS_EXPIRE_DA} روز نمی‌تواند بارگیری شود.","content_migration_queued_46c27790":"انتقال محتوا در صف قرار دارد","ending_date_e1ea13a4":"تاریخ پایان","file_not_available_1869c733":"فایل در دسترس نیست","importing_course_content_into_the_same_course_will_b09c69e":"وارد کردن محتوا در یک درس در بار اول محتوا را تکرار خواهد کرد و در صورت تکرار، روی موارد تکراری کپی خواهد شد.","pre_processing_92865c1d":"پیش پردازش","select_content":"انتخاب محتوا","this_option_is_not_compatible_with_new_quizzes_ed489d7c":"این گزینه با آزمون جدید سازگار نیست.","waiting_for_selection_ce0398c7":"در انتظار برای انتخاب","you_must_select_a_course_to_copy_content_from_e7bd9e09":"باید یک درس را برای کپی کردن محتوا از آن، انتخاب کنید","you_must_select_a_folder_to_upload_your_migration__ac7bc7c0":"باید یک پوشه انتخاب کنید برای بارگذاری انتقال خود در"} },
+  function() { return {"canvas_export":{"content":"محتوا","options":"گزینه ها"},"common_cartridge":{"content":"محتوا","options":"گزینه ها"},"content_migration":"انتقال محتوا","content_migration_issue":{"error_report":"گزاش خطا"},"copy_course":{"content":"محتوا","options":"گزینه ها"},"external_tool_content":{"content":"محتوا"},"file_required":"یک فایل را برای وارد کردن محتوا از آن انتخاب کنید","file_too_large":"انتقال شما نمی تواند فراتر از %{file_size} رود","hide_issues":"مخفی کردن موضوع ها","issues":"موضوع ها:","loading":"در حال بارگذاری...","migration_converter":{"cancel_migration":"لغو","default_option":"انتخاب یک مورد","header":"وارد کردن محتوا","import_from_label":"نوع محتوا","import_migration":"وارد کردن"},"moodle_zip":{"content":"محتوا","options":"گزینه ها"},"no_content_selected":"هیچ محتوایی را برای وارد کردن انتخاب نکرده اید.","no_day_substitutions":"هیچ جایگزین روز افزوده نشده است","no_migrations_running":"هیچ انتقالی در حال حاضر در حال اجرا نیست","progressing_content_migration":{"issues_text":"موضوعات:","select_content":"انتخاب محتوا","show_issues":"نمایش موضوع ها"},"progressing_content_migration_collection":{"no_items":"کار در صف موجود نیست","progress_label":"کارهای فعلی"},"progressing_issues":{"loading":"در حال بارگذاری..."},"qti_zip":{"options":"گزینه ها"},"select_content":{"cancel_btn":"لغو","select_content_btn":"انتخاب محتوا","select_content_label":"محتوا را انتخاب کنید، از کلیدهای جهت دار بالا و پایین برای پیمایش از طریق درخت استفاده کنید. کلید راست را برای باز کردن و کلید چپ را برای جمع کردن فشار دهید."},"show_issues":"نمایش موضوع ها","subviews":{"choose_migration_file":{"migration_text":"منبع"},"course_find_select":{"course_name":"نام درس","include_completed_courses":"شامل سازی درس های کامل شده","or":"یا","search_label":"جستجوی یک درس","select_default":"انتخاب یک درس"},"date_shift":{"add_day_sub_title":"افزودن جایگزین روز","beginning_change_to":"تغییر به","beginning_date":"تاریخ شروع","checkbox_label":"تنظیم رویداد ها و تاریخ های مهلت","date_adjustment":"تنظیم تاریخ","ending_change_to":"تغییر به","ending_date":"تاریخ پایان","remove_dates":"حذف تاریخ ها","shift_dates":"تغییر دادن تاریخ ها","substitution":"جایگزینی"},"day_substitution":{"move_from":"انتقال از","move_from_select_label":"انتقال از روز هفته","move_from_select_title":"انتقال از روز هفته","move_to_select_label":"انتقال به روز هفته","move_to_select_title":"انتقال به روز هفته","remove_day_substitution_link":"حذف جایگزین روز","remove_day_substitution_link_label":"حذف جایگزین روز","to_happen_on":"به"},"external_tool_launch":{"course":"درس","find_a_course":"یافتن یک درس"},"folder_picker":{"default_select_folder":"انتخاب پوشه","upload_to":"بارگذاری در"},"import_quizzes_next_view":{"import_new_quizzes":"وارد کردن محتوای ارزیابی بعنوان آزمون‌های جدید","import_new_quizzes_help_text":"آزمون جدید یک موتور ارزیابی جدید برای کانواس %{p_p} است. برای اطلاعات بیشتر با مدیر سیستم خود تماس گرفته یا ملاقات کنید.","import_quizzesNext_help_label":"وارد کردن ارزیابی بعنوان نماد راهنمای آزمونهای جدید","import_quizzesNext_help_title":"آزمون‌های جدید","import_quizzesNext_help_title_icon":"وارد کردن ارزیابی بعنوان نماد راهنمای آزمونهای جدید"},"overwrite_assessment_content":{"assessment_help_label":"نماد راهنمای رونویسی ارزیابی","assessment_help_text":"برخی از سیستم ها شناسه های خود را برای هر یک صدور جدید بازیابی می کنند. در نتیجه، اگر دو مخزن  پرسش جداگانه را صادر کنید، شناسه های یکسان خواهند داشت. برای جلوگیری از از دست رفتن داده های ارزیابی، علیرغم وجود این شناسه ها، این اشیاء را متفاوت در نظر می گیریم. انتخاب این گزینه این ویژگی ایمنی را غیر فعال می کند و امکان رونویسی داده های ارزیابی روی داده های موجود با شناسه های یکسان را فراهم می سازد.","assessment_help_title":"«راهنمای رونویسی ارزیابی»","assessment_help_title_icon":"نماد راهنمای رونویسی ارزیابی","overwrite_assessment_content":"رونویسی محتوای ارزیابی با شناسه های منطبق"},"question_bank":{"aria_new_label":"ایجاد مخزن پرسش جدید","create_new_question":"-- ایجاد مخزن پرسش جدید --","default_question_bank_label":"مخزن پیش فرض پرسش","question_bank_placeholder":"نام مخزن پرسش","question_bank_placeholder_aria":"نام مخزن پرسش جدید را وارد کنید","question_bank_title":"نام مخزن جدید پرسش","question_banks_disabled":"این گزینه غیرفعال شده است","select_question_bank":"انتخاب مخزن پرسش"},"select_content_checkbox":{"select_all_content":"کل محتوا","select_specific_content":"انتخاب محتوای خاص"}},"upload_warning":"پیمایش به بیرون از این صفحه، فرایند بارگذاری را لغو خواهد کرد.","uploading":"در حال بارگذاری..."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_sub_modules_3373a1c4",
+  null,
+  function() { return {"one":"%{count} منوی فرعی","other":"%{count} منوی فرعی"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "progressbar_view",
+  function() { return {"content_migration_running_percent_complete_4b00c024":"انتقال محتوا در حال اجراست, %{percent}% انجام شده است"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "content_share",
+  function() { return {"content_shared_by_others_to_you_5a40bb2c":"اشتراک محتوا توسط دیگران برای شما ","content_shares_received_view_error_page_c7021a4a":"اشتراک محتوا، مشاهده صفحه خطا را دریافت کرد.","import_e929507b":"وارد كردن...","name_mark_as_read_cc9e5fd6":"%{name} به عنوان خوانده شده علامت بزن","name_mark_as_unread_abd650da":"%{name} به عنوان خوانده نشده علامت گذاری کن","pending_3e506a5b":"در انتظار","received_7689640e":"دریافت شده","received_content_53049822":"محتوای دریافت شده","shared_content_803ac37b":"محتوای مشترک","the_list_below_is_content_that_has_been_shared_wit_2b2648bc":"لیست زیر محتوایی است که با شما به اشتراک گذاشته شده است. می توانید محتوا را پیش نمایش کنید ، آن را در درس خود وارد کنید یا آن را از لیست حذف کنید. "} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "direct_share_course_import_panel",
+  function() { return {"import_started_successfully_a3467411":"وارد کردن محتوا با موفقیت آغاز شد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "content_share_preview_overlay",
+  function() { return {"content_share_preview_166f6562":"پیش نمایش اشتراک محتوا"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "context_modules",
+  null,
+  function() { return {"module_complete":"تکمیل است","module_locked":"قفل شده","module_started":"در حال پیشرفت","module_unlocked":"قفل گشایی شده"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "modules_home_page",
+  function() { return {"an_error_ocurred_while_publishing_course_3760cf04":"در هنگام انتشار درس خطایی رخ داد","complete_registration_by_clicking_the_finish_the_r_fcd13ac8":"با کلیک روی لینک \" پایان روند ثبت نام\" که به ایمیل شما ارسال شده است، ثبت نام را کامل کنید.","create_a_new_module_6f31b0fe":"یک ماژول جدید ایجاد کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "context",
+  null,
+  function() { return {"roster_user":{"confirm":{"conclude":"آیا مطمئنید که می‌خواهید این ثبت نام  خاتمه یابد؟","delete_enrollment":"مطمئنید که می خواهید این ثبت نام حذف شود؟"},"enrollment_change_failed":"تغییر مجوز ثبت نام انجام نشد، لطفا دوباره سعی کنید"},"roster_user_usage":{"loading_more_results":"بارگذاری نتایج بیشتر"},"undelete_index":{"are_you_sure":"مطمئنید که می خواهید %{item_name} بازیابی شود؟","restore_failed":"بازیابی انجام نشد","restoring":"درحال بازیابی..."}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "last_attended",
+  function() { return {"failed_to_change_last_attended_date_1e340ba6":"تاریخ آخرین بازدید رانتوانست تغییر دهد","last_day_attended_b72d623c":"روز گذشته بازدید کرد","loading_last_attended_date_5a42463":"تاریخ بارگیری آخرین بازدید","set_last_attended_date_8fb30092":"تنظیم تاریخ آخرین حضور","value_is_not_a_valid_date_23c2d0a2":"%{value} یک تاریخ معتبر نیست."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "conversations",
+  function() { return {"archive_selected_d64506ca":"بایگانی انتخاب شد","message_actions_for_conversation_d29b26cc":"عملکردهای پیام برای گفتگو","message_actions_for_conversation_subject_fdb54c88":"عملکردهای پیام برای گفتگو %{subject}","message_actions_for_text_27eead86":"عملکردهای پیام برای %{text}","no_subject_58b7941c":"عنوان موجود نیست","not_starred_no_subject_click_to_star_adfefe93":"ستاره‌دار نیست \"(بدون موضوع)\"، برای ستاره‌دار کردن کلیک کنید.","not_starred_no_subject_click_to_star_dc91380":"ستاره‌دار نیست \"(بدون موضوع)\"، برای ستاره‌دار کردن کلیک کنید.","open_message_d7b12975":"بازکردن پیام‌ها","remove_recipient_name_a6b83cef":"حذف گیرنده %{name}","reply_to_conversation_f1aa0d4":"ارسال پاسخ به گفتگو","reply_to_conversation_subject_4b2e6fe7":"ارسال پاسخ به گفتگو %{subject}","reply_to_conversation_text_cd45c48f":"ارسال پاسخ به گفتگو%{text}","select_conversation_subject_3f36074a":"انتخاب مکالمه %{subject}","select_course_a_selection_is_required_before_recip_f622d9df":"انتخاب درس: قبل از اینکه قسمت گیرنده ها در دسترس قرار گیرد، یک انتخاب لازم است","starred_no_subject_click_to_unstar_3191d64":"\"(بدون موضوع)\" را ستاره دار کرد، برای برداشتن ستاره کلیک کنید.","starred_no_subject_click_to_unstar_bff04bce":" \"(بدون موضوع)\" را ستاره‌دار کرد، برای برداشتن ستاره کلیک کنید.","this_attachment_has_been_unpublished_by_the_author_37bff9c3":"این پیوست توسط نویسنده لغو انتشار شده است.","total_messages_af025be6":"کل پیام‌ها","unarchive_selected_e0c4bd3d":"لغو بایگانی انتخاب شده"} },
+  function() { return {"add_attachment":{"titles":{"attachment":"فایل برای پیوست کردن","remove_attachment":"حذف پیوست"}},"all_courses":"همه درس ها","all_in_context":"همه در %{context} ","archive":"بایگانی","autocomplete_result":{"group_people":"افراد: %{people}","no_results":"نتیجه موجود نیست"},"back":"بازگشت","cannot_add_to_private":"نمی توانید به یک گفت و گوی خصوصی شرکت کننده اضافه کنید.","compose_button_bar":{"titles":{"add_attachment":"افزودن پیوست","record_media_comment":"ضبط یک نظر صوتی یا تصویری"}},"compose_title_bar":{"buttons":{"close":"بستن"}},"confirm":{"delete_message":"مطمئنید که می خواهید نسخه این پیام حذف شود؟ این اقدام را نمی توان لغو کرد."},"context_message":{"labels":{"less":"کمتر...","more":"بیشتر..."}},"course_options":{"course_options":{"concluded":"خاتمه یافته","groups":"گروه ها","more_courses":"درس های دیگر"}},"hide":"مخفی کردن","message_detail":{"delete":"حذف","forward":"ارسال به دیگری","more_options":"گزینه‌های دیگر","no_subject":"موضوع موجود نیست","reply":"پاسخ","reply_all":"پاسخ به همه"},"message_form_dialog":{"body":"متن اصلی","comboboxInstructions":"'گیرنده: (برای انتخاب گیرنده ها، تایپ کردن را شروع کنید. برای پیمایش نتایج، پیکان پایینی را فشار دهید. اگر گزینه قابل قبولی نیافتید، می توانید یک جایگزین وارد نمایید.)","headings":{"new_message":"پیام جدید"},"inbox_actions":{"add_people":"افزودن افراد"},"labels":{"add_to_faculty_journal":"افزودن به عنوان ورودی ژورنال هیأت علمی","attachments":"پیوست ها","course":"درس","select_course":"انتخاب یک درس","subject":"موضوع","to":"به"},"links":{"media_comment":"ضبط کردن"},"media_comment":"نظر رسانه ای","no_course":"درس موجود نیست","no_subject":"موضوع موجود نیست","search_names_groups_courses":"جستجوی نام ها، گروه ها و درس ها","send_individual_messages":"ارسال پیام جداگانه برای هر گیرنده","titles":{"media_comment":"نظر رسانه ای ضبط شده","record_media_comment":"ضبط یک نظر صوتی یا تصویری","remove_media_comment":"حذف نظر رسانه ای"}},"message_item":{"delete":"حذف","forward":"ارسال به دیگری","more_options":"گزینه‌های دیگر","reply_all":"پاسخ به همه"},"message_list":{"messages":"پیام ها"},"more_participants":"+%{total} دیگر","no_message":{"batch_selected":"چند گفتگو انتخاب شد","no_conversations_selected":"گفتگو انتخاب نشده است"},"no_results_found":"نتیجه ای یافت نشد","result_status":"انجام خودکار %{results} ورودی فهرست شده دارد، از کلیدهای جهت دار بالا و پایین برای پیمایش به یک فهرست استفاده کنید، سپس برای افزودن شخص به فیلد «به»، کلید enter را فشار دهید.","star":"ستاره دار کردن","submission_comment_form_dialog":{"body":"متن اصلی"},"unarchive":"لغو بایگانی","unstar":"برداشتن ستاره"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "are_you_sure_you_want_to_archive_your_copies_of_th_7d219afe",
+  null,
+  function() { return {"one":"آیا مطمئن هستید که میخواهید نسخه های این مکالمات خود را بایگانی کنید؟","other":"آیا مطمئن هستید که میخواهید نسخه های این مکالمات خود را بایگانی کنید؟"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "are_you_sure_you_want_to_unarchive_these_conversat_ec7d7e8d",
+  null,
+  function() { return {"one":"آیا مطمئن هستید که می خواهید این گفتگوها را از بایگانی خارج کنید؟","other":"آیا مطمئن هستید که می خواهید این گفتگوها را از بایگانی خارج کنید؟"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "are_you_sure_you_want_to_delete_your_copy_of_these_f04442ed",
+  null,
+  function() { return {"one":"آیا مطمئن هستید که می خواهید کپی خود از این گفتگوها را حذف کنید؟ این عمل قابل لغو نیست.","other":"آیا مطمئن هستید که می خواهید کپی خود از این گفتگوها را حذف کنید؟ این عمل قابل لغو نیست."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "messages_deleted_8f781481",
+  null,
+  function() { return {"one":"پیام ها حذف شد!","other":"پیام ها حذف شد!"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "conversation_dialog",
+  function() { return {"invalid_recipient_name_56b22b86":"نام گیرنده معتبر نیست."} },
+  function() { return {"message_sent":"پیام ارسال شد!","no_course":"درس موجود نیست","select_course":"انتخاب درس"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "buttons",
+  null,
+  function() { return {"cancel":"لغو","choose_a_file":"انتخاب یک فایل","delete":"حذف","delete_file":"حذف فایل %{name}","done":"انجام شد","import":"وارد کردن","login":"ورود","save":"ذخیره سازی","send":"ارسال","submit":"ارسال","update":"بهنگام سازی"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "SearchableSubmenuView",
+  function() { return {"below_this_search_field_is_a_list_of_content_type__58aaa03f":"در زیر این قسمت جستجو، فهرستی از %{content_type} آمده است. وقتی تایپ می کنید، این فهرست برای مطابقت با جستجوی شما فهرست خواهد شد. پیام های گفتگو بر اساس هر گزینه ای که انتخاب می کنید فیلتر خواهد شد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "there_are_count_results_in_the_list_e74f6e36",
+  null,
+  function() { return {"one":"%{count} نتیجه در فهرست موجود است","other":"%{count} نتیجه در فهرست موجود است"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "ConversationStatusFilter",
+  function() { return {"filter_conversations_by_type_1ce8c064":"فیلتر پیام ها بر اساس نوع"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradinggradingPeriodCollection",
+  function() { return {"there_was_a_problem_deleting_the_grading_period_50ce07c5":"در هنگام حذف دوره نمره گذاری، اشکالی رخ داد","there_was_a_problem_fetching_periods_bdc09a8f":"در هنگام فراخوانی دوره ها اشکالی رخ داد","updating_6edbab78":"در حال بهنگام سازی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradingPeriodTemplate",
+  function() { return {"delete_grading_period_dba36e59":"حذف دوره نمره گذاری","grading_period_name_31ceb3e3":"نام دوره نمره گذاری","weight_9b308e5b":"وزن"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "link_validator",
+  function() { return {"an_error_occured_please_try_again_e59b65b":"یک خطا رخ داد. لطفا دوباره سعی کنید.","assessment_question_b523622f":"پرسش ارزیابی","deleted_content_referenced_in_this_resource_e42d1998":"محتوای حذف شده در این منبع ارجاع شده است:","external_images_in_this_resource_were_unreachable_5d9cbad2":"تصاویر خارجی در این منبع غیرقابل دسترسی بود:","external_links_in_this_resource_were_unreachable_ad00a7e3":"پیوندهای خارجی در این منبع غیرقابل دسترسی بود:","link_validation_is_running_caf08ced":"پیوند تأیید اعتبار درحال اجرا است","links_to_other_courses_in_this_resource_may_not_be_d9f2779":"پیوندها به درس‌های دیگر در این منبع ممکن است توسط دانشجویان این درس قابل دسترسی نباشد:","no_broken_links_found_38d951e3":"هیچ پیوندمعیوبی یافت نشد","non_existent_content_referenced_in_this_resource_d86c6bcb":"در این منبع به محتوای غیر موجود ارجاع شده است:","quiz_question_1da5198e":"پرسش آزمون","restart_link_validation_b61286fc":"شروع دوباره تأیید اعتبار پیوند","show_links_to_unpublished_content_30c0450d":"نمایش پیوندهای مربوط به محتوای منتشر نشده","start_link_validation_dc0ac99c":"شروع تأیید اعتبار پیوند","unpublished_content_referenced_in_this_resource_865f8ef6":"به محتوای منتشر نشده در این منبع ارجاع شده است:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "found_count_broken_links_9224b8dd",
+  null,
+  function() { return {"one":"1 پیوند خراب وجود دارد.","other":"%{count} پیوند خراب وجود دارد."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_list",
+  null,
+  function() { return {"favorited_tooltip":"برای حذف از منوی درس ها، کلیک کنید.","nonfavorited_tooltip":"برای افزودن به منوی درس ها، کلیک کنید."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_paces_actions",
+  function() { return {"failed_publishing_pace_40f87d0e":"سرعت انتشار ناموفق"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_paces_module",
+  function() { return {"days_af2ac87b":"روز ها","warning_6576b5b8":"هشدار"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_paces_errors",
+  function() { return {"an_error_has_occurred_8f1f6649":"خطایی رخ داده است."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_paces_footer",
+  function() { return {"you_cannot_cancel_while_loading_the_pace_c6ccf2cc":"هنگام بارگیری نمی توانید لغو کنید","you_cannot_cancel_while_publishing_5a920ae1":"هنگام انتشار نمی توانید لغو کنید","you_cannot_publish_while_loading_the_pace_c5682dbc":"هنگام بارگیری نمی توانید منتشر کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_paces_projected_dates",
+  function() { return {"hypothetical_end_date_117d81cf":"تاریخ پایان فرضی","hypothetical_student_enrollment_date_30a00685":"تاریخ فرضی ثبت نام دانشجو"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_paces_settings",
+  function() { return {"modify_settings_ed8b9ccf":"تغییر تنظیمات"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_paces_show_projections_button",
+  function() { return {"hide_projections_9d4ed1e1":"مخفی کردن پیش بینی ها","show_projections_32a3756":"نمایش پیش بینی ها"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "unpublished_warning_modal",
+  function() { return {"discard_changes_e04b15f9":"لغو تغییرات","keep_editing_11ff42e5":"ادامه ویرایش","you_have_unpublished_changes_to_your_course_pace_c_90d5a4b1":"شما تغییرات منتشر نشده ای در پیمودن درس خود دارید. ادامه دادن این تغییرات را نادیده می گیرد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "unpublished_changes_button_props",
+  function() { return {"all_changes_published_27a53ffd":"همه تغییرات انتشار شد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_paces_change_tracking",
+  function() { return {"descriptivename_was_turned_off_38771a19":"%{descriptiveName} غیر فعال شده است.","descriptivename_was_turned_on_132583bb":"%{descriptiveName} فعال شده است."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_navigation",
+  function() { return {"move_navigation_item_f034cd8a":"انتقال مورد پیمایش"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_settings",
+  function() { return {"a_sync_is_currently_running_please_wait_for_curren_55ccf501":"یک همگام سازی درحال اجرا است. لطفا قبل از شروع همگام سازی جدید تا پایان همگام سازی فعلی صبر کنید.","are_you_sure_you_want_to_resync_these_grades_to_th_e509cb9e":"آیا مطمئن هستید که می خواهید این نمرات را برای سامانه اطلاعات دانشجو دوباره همگام سازی کنید؟","are_you_sure_you_want_to_sync_these_grades_to_the__ca3c28a4":"آیا مطمئن هستید که می خواهید این نمرات را برای سیستم اطلاعات دانش آموزان همگام سازی کنید؟ شما فقط باید درصورتی این کار را انجام دهید که همه نمرات شما نهایی شده باشند.","disable_content_security_policy_8660a787":"سیاست امنیت محتوا را غیر فعال کنید. ","edit_course_role_3b992fc2":"ویرایش نقش درس","failed_to_load_csp_information_try_refreshing_the__4a056997":"بارگیری اطلاعات CSP انجام نشد،  لطفا صفحه را تجدید کنید.","hide_name_details_23814c37":"پنهان کردن جزئیات %{name}","integration_error_44a52be4":"خطای ادغام","integrations_cadb03f3":"یکپارچگی ها","invalid_sis_sync_status_b68db497":"وضعیت همگام‌سازی سامانه اطلاعات دانشجو معتبر نیست","last_sync_5aac1ff1":"آخرین همگام سازی:","last_synced_right_now_f6c2ab00":"آخرین همگام شده: اکنون","loading_name_data_c66ea65f":"در حال بارگیری %{name} داده ها","microsoft_sync_8bddc8a2":" همگام سازی مایکروسافت","never_1ed1244d":"هرگز","no_errors_1ac47724":"بدون خطا","no_integrations_available_6729d0ca":"هیچ ادغام در دسترس نیست","only_account_administrators_can_change_this_settin_149f8fe3":"تنها مدیران حساب می‌توانند این تنظیمات را تغییر دهند.","remove_linked_student_name_52dc7fce":"حذف دانجشجوی مرتبط %{name}","resync_grades_to_sis_d4dcfe12":"همگام‌سازی دوباره نمرات به سامانه اطلاعات دانشجو","role_successfully_updated_4317e6a4":"نقش با موفقیت بهنگام سازی شد.","saving_the_csp_status_failed_please_try_again_8275aaa4":"ذخیره وضعیت CSP انجام نشد، لطفا مجددا تلاش کنید.","setting_failed_to_load_try_refreshing_c24bf008":"تنظیمات بارگیری نشد ، دوباره تلاش کنید.","show_name_details_186d86e6":"نمایش %{name} جزئیات","something_went_wrong_updating_the_user_s_role_plea_5de95400":"در هنگام بهنگام سازی نقش کاربر اشکالی رخ داد، لطفا بعدا دوباره سعی کنید.","something_went_wrong_when_trying_to_sync_grades_to_592c4c35":"هنگام تلاش برای همگام‌سازی نمره ها در سامانه اطلاعات دانشجو اشکالی رخ داد. لطفا بعدا دوباره سعی کنید.","syncing_grades_to_sis_d63112e0":"در حال همگام سازی نمره ها با سامانه اطلاعات دانشجو..."} },
+  function() { return {"buttons":{"add_section":"افزودن بخش","adding_section":"در حال افزودن بخش...  ","re_sending_all":"درحال ارسال دوباره دعوت نامه های تائید نشده...","re_sent_all":"همه دعوت نامه های تأیید نشده دوباره ارسال شد!"},"cancel":"لغو","confirm":{"delete_section":"مطمئنید که می خواهید این بخش حذف شود؟"},"edit_sections_placeholder":"نام بخش را وارد کنید","edit_sections_title":"نام بخش","errors":{"invitation":"ارسال دعوت نامه انجام نشد، لطفا دوباره سعی کنید.","re_send_all":"ارسال انجام نشد، لطفا دوباره سعی کنید","section":"افزودن بخش انجام نشد، لطفا دوباره سعی کنید"},"flash":{"invitation":"دعوات نامه ارسال شد.","linkError":"در هنگام بهنگام سازی پیوندهای دانشجویی کاربر اشکالی رخ داد، لطفا بعدا دوباره سعی کنید.","links":"پیوندهای دانشجو با موفقیت بهنگام سازی شد","sectionError":"در هنگام بهنگام سازی بخش های کاربر اشکالی رخ داد. لطفا بعدا دوباره سعی کنید.","sections":"ثبت نام بخش ها با موفقیت بهنگام سازی شد"},"invitation_sent":"دعوت نامه ارسال شد!","invitation_sent_now":"همین الان","link_students_placeholder":"نام یک دانشجو را وارد کنید","links":{"fewer_options":"گزینه‌های کمتر","more_options":"گزینه های دیگر","re_send_all":"ارسال دوباره دعوت نامه های تأیید نشده","re_sending_invitation":"درحال ارسال دوباره دعوت نامه..."},"re_send_invitation":"ارسال دوباره دعوت نامه","remove_user_from_course_section":"حذف کاربر از %{course_section}","titles":{"link_to_students":"پیوند دادن به دانشجویان","move_course":"انتقال درس","reset_course_content_dialog_help":"بازنشانی محتوای درس","section_enrollments":"ثبت نام بخش ها"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "actions",
+  function() { return {"there_was_an_error_removing_the_image_c83acffe":"در هنگام حذف تصویر، خطایی رخ داد","there_was_an_error_retrieving_the_course_image_d7ea094d":"در هنگام بازیابی تصویر درس خطایی رخ داد","there_was_an_error_uploading_the_image_932fc4ce":"در هنگام بارگذاری تصویر خطایی رخ داد","type_is_not_a_valid_image_type_try_jpg_png_or_gif_1c109633":"'%{type}' یک نوع معتبر تصویر نیست (jpg، png یا gif را امتحان کنید)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "BlueprintLockOptions",
+  function() { return {"define_general_settings_for_locked_objects_in_this_20da2981":"تنظیمات عمومی برای موارد قفل شده در این درس را تعریف کنید.","define_settings_by_type_for_locked_objects_in_this_676197bf":"تنظیمات بر اساس نوع را برای موارد قفل شده در این درس، تعریف کنید.","enable_course_as_a_blueprint_course_8515ffd5":"فعالسازی درس به عنوان دوره طرح","general_locked_objects_6a9adafb":"موارد قفل‌شده عمومی","locked_objects_by_type_ff376c6c":"اشیاء قفل شده بر اساس نوع","locked_objects_cannot_be_edited_in_associated_cour_1af858c8":"اشیاء قفل شده را نمی توان در دوره های مرتبط ویرایش کرد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "CourseAvailabilityOptions",
+  function() { return {"course_end_date_4c797823":"تاریخ پایان درس","course_start_date_daae16ae":"تاریخ شروع درس","end_78c581cd":"پایان دادن","start_5a4cfcd6":"شروع"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_color_selector",
+  function() { return {"set_course_color_to_a_custom_hexadecimal_code_c8a50918":"رنگ دوره را به یک کد هگزادسیمال سفارشی تنظیم کنید","set_course_color_to_a_preset_hexadecimal_color_cod_97608d8":"رنگ دوره را به یک کد رنگ هگزادسیمال از پیش تعیین شده تنظیم کنید. از کلیدهای جهت‌نمای چپ و راست برای پیمایش از پیش‌تنظیمات استفاده کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_images",
+  function() { return {"choose_image_242f727e":"انتخاب تصویر","choose_image_e5ee5d7a":"انتخاب تصویر","course_image_settings_eba3ec55":"تنظیمات تصویر درس","file_must_be_an_image_293567a8":"فایل باید یک تصویر باشد","flickr_9bed633e":"فلیکر","remove_image_341340b3":"حذف تصویر","unsplash_ee049fbf":"اناسپلش","upload_image_6120b609":"بارگذاری عکس"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "flickr_search",
+  function() { return {"flickr_displays_safesearch_images_within_the_creat_48835f79":"فلیکر تصاویر جستجو ایمن را در دامنه عمومی کریتیو کامنز نمایش می دهد.\nبا این حال، نتایج جستجوی ایمن تضمین نمی شوند، زیرا ممکن است برخی از تصاویر شامل\nیک سطح ایمنی مشخص شده توسط صاحبان آن‌ها نباشد.","search_flickr_6f28b02e":"جستجو در flickr"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "image_search",
+  function() { return {"artist_info_for_username_for_description_12d5d862":"اطلاعات هنرمند %{userName} برای %{description}","count_images_found_for_term_a93635ed":"%{count} تصویر برای %{term} پیدا شد.","no_results_found_for_searchterm_7ee9b03e":"نتیجه ای یافت نشد برای %{searchTerm}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "courses_show",
+  function() { return {"choose_home_page_80cef4ee":"انتخاب صفحه اصلی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_statistics",
+  null,
+  function() { return {"unknown":"ناشناس"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_wizard",
+  function() { return {"add_course_assignments_628ed6d0":"افزودن تکلیف های درس","add_course_calendar_events_146154a5":"افزودن رویداد های تقویم درس","add_files_to_the_course_da6ffd32":"افزودن فایل ها به درس","add_students_to_the_course_874be8fb":"افزودن دانشجویان به درس","add_tas_to_the_course_2aac6e02":"افزودن دستیارهای آموزشی به درس","add_your_assignments_you_can_just_make_a_long_list_8a7862dd":"تکلیف های خود را بیفزایید. می توانید یک فهرست طولانی ایجاد کنید، یا آنها را به گروه هایی تقسیم کنید و حتی برای هر گروه تکلیف، وزن تعیین کنید.","all_finished_time_to_publish_your_course_click_the_b6f07217":"همه کارها انجام شده؟ زمان انتشار درس است! برای رسمی کردن آن، روی دکمه زیر کلیک کنید! انتشار به کاربران امکان می دهد در درس شرکت کنند.","by_default_all_links_are_enabled_for_a_course_stud_8e617dbc":"به طور پیش فرض، همه پیوندها برای یک درس فعال هستند. دانشجویان پیوند بخش هایی که محتوا ندارند را نخواهند دید. برای مثال، اگر هیچ آزمونی ایجاد نکرده اید، آنها پیوند آزمون ها را نخواهند دید. اگر نمی خواهید دانشجویان به قسمت هایی از درس دسترسی داشته باشند، می توانید این پیوندها را مرتب کنید و به طور آشکار غیر فعال سازید.","choose_a_course_home_page_8059c7b":"انتخاب صفحه خانگی یک درس","close_and_return_to_canvas_80544344":"بستن و بازگشتن به کانواس","course_setup_wizard_is_showing_a7c087c1":"راهنمای گام به گام راه اندازی درس در حال نمایش است.","course_wizard_31c87552":"راهنمای گام به گام درس","great_so_you_ve_got_a_course_now_what_well_before__38cfba67":"عالیه، یک درس در اختیار دارید. حالا باید چه کار کرد؟ قبل از اینکه اقدام به انتشار آن کنید، ممکن است بخواهید بررسی کنید و مطمئن شوید که مقدمات کار را فراهم کرده اید یا خیر. روی فهرست سمت چپ کار کنید تا مطمئن شوید که درس شما برای استفاده آماده است.","here_s_a_great_chance_to_get_to_know_the_calendar__187ce49":"اینجا فرصت بسیار خوبی برای آشنایی با تقویم و افزودن هر گونه رویداد غیر از تکلیف است که ممکن است در طول درس داشته باشید. نگران نباشید. شما را راهنمایی خواهیم کرد.","if_you_ve_been_using_another_course_management_sys_67edfab1":"اگر از یک سیستم مدیریت درس دیگر استفاده می کنید، احتمالا چیزهایی دارید که می خواهید به کانواس منتقل کنید. می توانیم شما را در فرایند انتقال آسان محتوای خود به کانواس همراهی کنیم.","import_content_b2fd6620":"وارد کردن محتوا","item_complete_d334fd43":"(مورد کامل است)","item_incomplete_d6a16040":"(مورد ناقص است)","loaded_more_collaborations_13f1d630":"همکاری های بیشتر بارگذاری شد.","my_dashboard_b724020":"داشبورد من","next_steps_ce0f0d0c":"مراحل بعدی","now_that_your_course_is_set_up_and_available_you_p_c0c8635c":"حالا که درس شما راه اندازی شده و در دسترس است، احتمالا به این فهرست بازبینی دیگر نیاز ندارید. اما آن را در دسترس نگه می داریم تا اگر بعدا خواستید چیز جدیدی را انتخاب کنید، یا در هنگام اعمال تغییر در محتوای درس خود به قدری راهنمایی بیشتر نیاز داشتید، بتوانید به آن مراجعه کنید.","publish_the_course_f2f6ef80":"انتشار درس","select_navigation_links_68e1e924":"انتخاب پیوندهای پیمایش","setup_checklist_eb8b00b8":"فهرست علامت گذاری راه اندازی","the_files_tab_is_the_place_to_share_lecture_slides_95a93bce":"زبانه فایل ها، محلی برای به اشتراک گذاشتن اسلایدهای سخنرانی، اسناد نمونه، راهنماهای مطالعه -- و هر چیزی است که دانشجویان شما می خواهند بارگیری کنند. بارگذاری و سازمان دهی فایل های شما با استفاده از کانواس آسان است. شیوه کار را به شما نشان خواهیم داد.","this_course_is_claimed_and_ready_but_you_ll_need_t_25b95a0a":"این درس تقاضا شده و آماده است، اما باید قبل از اینکه بتوانید درس را منتشر کنید، به فرایند ثبت نام پایان دهید. باید یک نامه الکترونیکی از کانواس دریافت کرده باشید که حاوی یک پیوند برای پایان دادن به فرایند است. حتما صندوق هرزنامه خود را بازبینی کنید.","this_course_is_visible_only_to_teachers_until_it_i_ce972f0":"این درس تا زمان انتشار، فقط برای اساتید قابل مشاهده است.","when_people_visit_the_course_this_is_the_page_they_de94acc2":"وقتی افراد از درس بازدید می کنند، این صفحه را خواهند دید. می توانید آن را برای نمایش جریان فعالیت، فهرست ماژول های درس، سرفصل یا یک صفحه سفارشی که خودتان می نویسید، تنظیم کنید. حالت پیش فرض، نمایش جریان فعالیت است.","you_do_not_have_permission_to_publish_this_course_ff361c82":"مجوز انتشار این درس را ندارید.","you_ll_definitely_want_some_of_these_what_s_the_fu_f4f3578b":"قطعا به برخی از اینها نیاز خواهید داشت. اگر هیچ کس حتی به درس گوش ندهد، لذت تدریس یک درس چیست؟","you_may_want_to_assign_some_tas_to_help_you_with_t_702244aa":"ممکن است بخواهید برخی از دستیارهای آموزشی تعیین کنید تا به شما در این درس کمک کنند. دستیارهای آموزشی می توانند موردهای ارسالی دانشجو را نمره گذاری کنند، به مدیریت بحث ها کمک کنند و حتی تاریخ های مهلت و اطلاعات تکلیف را برای شما بهنگام سازی کنند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "dashboard",
+  function() { return {"card_view_eaf73185":"نمای کارتی","color_overlay_fb5ecce7":"پوشش رنگی","failed_initializing_dashboard_3d967143":"بارگذاری اولیه داشبورد ناموفق بود","failed_to_load_recent_activity_d3e5adeb":"فعالیت اخیر بارگیری نشد","failed_to_save_dashboard_selection_32e71c72":"انتخاب داشبورد ذخیره نشد","list_view_430aecce":"نمای فهرست","recent_activity_51239235":"فعالیت اخیر","toggle_course_card_color_overlays_b5b8137a":"تغییر پوشش رنگ کارت درس"} },
+  function() { return {"announcements_collapse":{"one":"جمع کردن %{count} اطلاعیه","other":"جمع کردن %{count} اطلاعیه"},"announcements_expand":{"one":"باز کردن %{count} اطلاعیه","other":"باز کردن %{count} اطلاعیه"},"assignments_collapse":{"one":"جمع کردن %{count} اطلاعیه تکلیف","other":"جمع کردن %{count} اطلاعیه تکلیف"},"assignments_expand":{"one":"باز کردن %{count} اطلاعیه تکلیف","other":"باز کردن %{count} اطلاعیه تکلیف"},"confirm":{"close":"مطمئنید که می خواهید این کنفرانس خاتمه یابد؟\n\nنمی توانید آن را دوباره باز کنید."},"conversations_collapse":{"one":"جمع کردن %{count} پیام گفتگو","other":"جمع کردن %{count} پیام گفتگو"},"conversations_expand":{"one":"باز کردن %{count} پیام گفتگو","other":"باز کردن %{count} پیام گفتگو"},"discussions_collapse":{"one":"بستن %{count} بحث","other":"بستن %{count} بحث"},"discussions_expand":{"one":"باز کردن %{count} بحث","other":"باز کردن %{count} بحث"},"show_more_link":{"show_less":"نمایش کمتر","show_more":"نمایش بیشتر"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "external_content",
+  function() { return {"all_items_marked_processed_have_been_saved_by_canv_7045295a":"همه موارد با علامت \"پردازش شده\" توسط کانواس ذخیره شده اند.","discarded_20a4e7e8":"لغو شده","field_9ec0ec01":"جای خالی","i_understand_continue_a8261425":"متوجه شدم، ادامه بده","retrieving_content_ed0b9b33":"بازیابی محتوا"} },
+  function() { return {"cancel":{"popup_failure":"پنجره منشأ یافت نشد، باید این منوی بازشونده را به طور دستی ببندید.","popup_success":"لغو شد. این منوی بازشونده باید به خودی خود بسته شود..."},"success":{"content_failure":"بازیابی محتوا انجام نشد، لطفا دوباره سعی کنید یا مدیر سیستم خود را از این خطا آگاه نمایید.","oembed_failure":"بازیابی محتوا انجام نشد، لطفا دوباره سعی کنید یا مدیر سیستم خود را از این خطا آگاه نمایید.","popup_success":"موفقیت آمیز بود! این منوی بازشونده باید به خودی خود بسته شود..."}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "react_developer_keys",
+  function() { return {"a_json_url_is_required_please_supply_one_ed03101c":"یک نشانه اینترنتی json مورد نیاز است، لطفا یکی ارائه کنید.","a_redirect_uri_is_required_please_supply_one_471908db":"یک redirect_uri لازم است، لطفا یکی ارائه کنید.","additional_settings_20362654":"تنظیمات اضافی","all_scopename_scopes_6c220783":"همه %{scopeName} محدوده","allow_bb7ce9b1":"اجازه دادن","allow_include_parameters_bf3d3230":"اجازه درج پارامترها","api_key_eeeb2167":"کلید API","are_you_sure_you_want_to_delete_this_developer_key_9937481a":"مطمئنید که می خواهید این کلید توسعه دهنده حذف شود؟","are_you_sure_you_want_to_delete_this_developer_key_ce246033":"آیا مطمئن هستید که می خواهید این کلید توسعه دهنده را حذف کنید؟ همچنین با این اقدام کلیه ابزارهای مرتبط با کلید توسعه دهنده در این زمینه حذف خواهد شد.","at_least_one_scope_must_be_selected_97d6fce9":"حداقل باید یک محدوده انتخاب شود.","canvas_3962b702":"کانواس","check_services_to_enable_8877c451":"برای فعال کردن ، سرویس ها را بررسی کنید","clicking_the_checkbox_will_cause_scopes_table_to_a_fba5886a":"با کلیک بر روی کادر بررسی، جدول محدوده‌ها در زیر آشکار می شود.","clicking_the_checkbox_will_cause_scopes_table_to_d_dbdbffd3":"با کلیک بر روی کادر بررسی، جدول محدوده‌ها در زیر ناپدید می شود.","create_a_64f6f82":"ایجاد یک","create_an_ba36d171":"ایجاد یک","create_developer_key_78de8510":"ایجاد کلیدهای توسعه دهنده","created_created_at_37c0ec3b":"ایجاد شد: %{created_at}","creating_key_8a026e61":"در حال ایجاد کردن کلید","delete_key_developername_be80e695":"حذف کلید%{developerName}","description_61f4296":"* شرح","developer_key_921ddbae":"کلید توسعه‌دهنده","developer_key_developerkeyid_deleted_focus_moved_t_80fffb4d":"کلید توسعه دهنده%{developerKeyId} حذف شد.  تمرکز به افزودن دکمه کلید توسعه دهنده منتقل شد. ","developer_key_developerkeyid_deleted_focus_moved_t_9f5b5198":"کلید توسعه دهنده%{developerKeyId} حذف شد. تمرکز به دکمه حذف کلید توسعه دهنده قبلی در لیست منتقل شد.","developer_key_is_an_external_tool_27c6166b":"کلید توسعه دهنده یک ابزار خارجی است.","developer_key_settings_889721f1":"تنظیمات کلید توسعه دهنده ","developers_keys_table_69ae6b7e":"جدول کلیدهای توسعه دهنده","disable_all_read_only_scopes_f9ffdd28":"تمام محدوده فقط خواندنی را غیر فعال کنید.","disable_scope_6ba4e4d4":"غیر فعال سازی محدوده","display_values_f517c73c":"نمایش مقادیر","edit_developer_key_d8fa33c4":"ویرایش کلیدهای توسعه دهنده","edit_key_developername_2980f240":"ویرایش کلید %{developerName}","edit_this_key_1ee53473":"ویرایش این کلید","enable_all_read_only_scopes_3ddc2bb5":" تمام محدوده فقط خواندنی را فعال کنید.","enable_scope_ac28b832":"فعال سازی محدوده","enforce_scopes_be28989c":"اجبار کردن محدوده‌ها","enter_url_e8bb8a33":"وارد کردن نشانی اینترنی","failed_to_save_changes_errors_6920f334":"دخیره تغییرات انجام نشد: %{errors}%","field_cannot_be_blank_afb5b332":"فیلد نمی تواند خالی باشد","hide_key_e8fe1e8c":"مخفی کردن کلید","icon_url_e3d56e89":"نشانی اینترنتی نماد","icon_url_ecce6557":"نشانی اینترنتی نماد:","identification_values_86d9ffda":"مقادیر شناسایی","inherited_d4d0bc33":"به ارث برده","inherited_developer_keys_table_e4a65b67":" جدول کلیدهای توسعه دهنده به ارث برده ","json_is_not_valid_please_submit_properly_formatted_e3b2f88f":"Json معتبر نیست.  لطفاً json را با فرمت مناسب ارسال کنید.","json_url_adbee260":"نشانه اینترنتی JSON","jwk_method_6d5d0c84":"روش * JWK","key_f2a919d5":"کلید","key_name_7311d22":"نام کلید:","key_settings_44df6a41":"تنظیمات کلید","key_state_for_the_current_account_d16b1cd5":"وضعیت کلید برای کاربر جاری","label_values_76f4b5fa":"برچسب گذاری مقادیر","loaded_more_developer_keys_focus_moved_to_the_dele_f5b867f8":"کلیدهای توسعه دهنده بیشتری بارگیری شد. تمرکز به دکمه حذف آخرین کلید توسعه دهنده بارگذاری شده در لیست منتقل شد.","loaded_more_developer_keys_focus_moved_to_the_name_6e3c3b34":"کلیدهای توسعه دهنده بیشتری بارگیری شدند. تمرکز به نام آخرین کلید توسعه دهنده بارگیری شده در لیست منتقل شد.","loading_available_scopes_bc29bf98":"در حال بارگیری محدوده‌های موجود","lti_1_3_configuration_c3534f3b":"پیکربندی LTI 1.3 ","lti_advantage_services_c1746cb4":"سرویس‌ها مزیت LTI","lti_key_14ad02b1":"کلید LTI","make_key_developername_invisible_212ecf72":"کلید %{developerName} را نامرئی کن","make_key_developername_visible_97c404bf":"کلید %{developerName}را  قابل مشاهده کن","make_key_invisible_e66af89":"کلید را نامرئی کن","make_key_visible_5c03fa34":"کلید را قابل مشاهده کن","manual_configuration_b586fe54":"پیکربندی دستی","method_c2a4e17a":"روش","missing_required_fields_please_fill_in_all_require_1e10b2e9":"فیلدهای لازم موجود نیست لطفا همه ی فیلدهای لازم  را وارد کنید.","must_have_at_least_one_redirect_uri_defined_bb236d38":"حداقل باید یک reduri_uri تعریف شده باشد.","no_email_8585ad7e":"نامه الکترونیکی موجود نیست","notes_6cfc3988":"یادداشت‌ها:","off_5385ef3f":"غیر فعال","on_8f7190e5":"فعال","openid_connect_initiation_url_d9037d30":"* OpenID Connect اتصال آغازین Url","owner_email_236d1b2":"نشانی پست الکترونیکی مالک","owner_email_4d02f795":"نشانی پست الکترونیکی مالک:","paste_json_26ad8050":"چسباندن JSON","peer_service_6b4828b9":"خدمات همتا","placement_values_c0a2cf56":"مقادیر جایگذاری","privacy_level_f0ec09a3":"سطح حریم خصوصی","private_3883d133":"خصوصی","public_jwk_ee2d719d":"JWK  عمومی","public_jwk_json_is_not_valid_please_submit_properl_31ea2004":"JWK json عمومی معتبر نیست. لطفا json را با فرمت  مناسب ارسال کنید.","public_jwk_url_b5564c1d":"نشانی اینترنتی JWK  عمومی","read_only_3d26d8fe":"فقط خواندنی","redirect_uri_legacy_b32323d3":"هدایت نشانی اینترنتی (جایگزین)","redirect_uris_79534b60":"*هدایت نشانی های اینترنتی:","redirect_uris_a54bd82f":"هدایت نشانی های اینترنتی:","request_values_89976f2c":"درخواست مقادیر","required_values_1eb5841f":"مقادیر لازم","save_successful_b2f64da4":"با موفقیت ذخیره شد.","search_endpoints_d5abf37f":"جستجوی نقطه پایانی ","select_message_type_806b2dea":"انتخاب نوع پیام","selection_height_9d57ec24":"انتخاب ارتفاع","selection_width_183acd79":"انتخاب عرض","services_must_be_supported_by_the_tool_in_order_to_1f194a36":"سرویس ها برای کار کردن باید توسط این ابزار پشتیبانی شوند. برای اطمینان از قابلیت‌های خدمات ، با فروشنده ابزار خود تماس بگیرید.","show_all_keys_fa88c55c":"نمایش همه کلیدها","show_key_1fbf0c64":"نمایش کلید","stats_9272cef3":"آمار","target_link_uri_bbed67d1":"* لینک URI مقصد ","target_link_uri_d166858":"لینک URI مقصد ","test_cluster_only_70e61c19":"تنها آزمون خوشه‌ای","this_placement_requires_deep_link_support_by_the_v_702d554f":"این جای گذاری نیاز به پشتیبانی Deep Link توسط فروشنده دارد. برای اطمینان از اینکه این کارکرد  را پشتیبانی می کنند، با فروشنده ابزار خود مشورت کنید.","title_f8e03596":"* عنوان","toggle_tooltip_1ed3b35e":"راهنمایی ابزار را تغییر دهید","toggle_tooltip_2447b4fa":"تغییر ابزار راهنما ","tool_id_afd739e1":"شناسه ابزار","toolname_logo_6b639926":"لوگوی %{toolName}","unnamed_tool_961cb95b":"ابزار بدون نام","vendor_code_lti_2_ef36207b":"رمز فروشنده (LTI 2)","when_scope_enforcement_is_disabled_tokens_have_acc_6939182f":"هنگامی که اجرای دامنه غیرفعال است ، نشانه‌ها به همه نقاط نهایی موجود برای کاربر مجاز دسترسی دارند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "developer_keys",
+  null,
+  function() { return {"button":{"saving":"درحال ذخیره سازی کلید...","saving_failed":"ذخیره سازی کلید انجام نشد"},"messages":{"confirm_delete":"مطمئنید که می خواهید این کلید توسعه دهنده حذف شود؟"},"no_user":"کاربر موجود نیست","unnamed_tool":"ابزار بدون نام"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "discussion_topics",
+  function() { return {"a_message_is_required_129e1814":"یک پیام لازم است","add_attachment_93868828":"افزودن پیوست","allow_users_to_comment_45b8f753":" به کاربران اجازه ارسال نظر داده شود","could_not_duplicate_discussion_953ed67f":"نمی‌توانید بحث را تکرار کنید","delay_posting_this_topic_until_aa483eec":"به تعویق انداختن ارسال این موضوع تا","discussion_topic_a7bf935":"موضوع بحث","discussion_topic_will_be_available_starting_at_46aa7477":"موضوع بحث قابل دسترسی خواهد بود و شروع می شود در","discussion_topic_will_be_available_until_f5e3abc8":"موضوع بحث قابل دسترسی خواهد بود تا","discussion_topic_will_show_on_student_to_do_list_f_1c9e6286":"موضوع بحث روی فهرست اقدام دانشجویان، برای تاریخ نمایش داده می‌شود","if_you_change_an_assignment_s_points_possible_you__25a0edad":"اگر امتیازهای ممکن تکلیف را تغییر دهید، باید تکلیف را دوباره نمره گذاری کنید.","new_announcement_23af4598":"اطلاعیه جدید","new_discussion_dae4fae3":"بحث جدید","title_is_too_long_must_be_under_length_characters_ab694ae4":"طولانی است، باید کمتر از %{length} نویسه باشد","you_are_not_allowed_to_create_an_anonymous_graded__3eeb1382":"شما مجاز به ایجاد یک گفتگو درجه بندی شده ناشناس نیستید","you_must_input_a_section_b8d370fe":"شما باید یک بخش را وارد کنید","you_must_set_usage_rights_87fc1382":"باید حقوق استفاده را تنظیم کنید"} },
+  function() { return {"cannot_unpublish_with_replies":"در صورتی که پاسخ های دانشجویی وجود داشته باشد، نمی توان انتشار را لغو کرد","default_discussion_title":"عنوان موجود نیست","edit_view":{" saving":"در حال ذخیره سازی..."," topic_title":"عنوان موضوع","allow_liking":"اجازه دادن برای لایک کردن","allow_threaded_replies":"اجازه دادن به پاسخ های نخ کشی شده","attachment":"پیوست","available_from":"قابل دسترسی از طریق","buttons":{"save_and_publish":"ذخیره سازی و انتشار"},"delay_posting":"ارسال با تأخیر","enable_podcast_feed":"فعال سازی خوراک خبری پادکست","include_replies_in_podcast_feed":"شامل سازی پاسخ های دانشجو در خوراک خبری پادکست","only_graders_can_like":"فقط نمره دهنده ها می توانند لایک کنند","options":"گزینه ها","points_possible":"امتیازهای ممکن","post_at":"ارسال در","save":"ذخیره سازی","sort_by_likes":"مرتب سازی بر اساس لایک ها","topic_title":"عنوان موضوع","until":"تا","use_for_grading":"نمره گذاری شده","users_must_post_before_seeing_replies":"کاربران باید قبل از دیدن پاسخ ها ارسال کنند"},"group_discussion_locked":"دانشجویان از قبل به این بحث ارسال کرده اند، بنابراین تنظیمات گروهی را نمی توان تغییر داد.","group_discussion_title":"بحث گروهی","page_nav":{"Page":"صفحه","current_page":"فعلی","first_page":"اولین","last_page":"آخرین"},"points_possible_number":"امتیازهای ممکن باید یک عدد باشد","published_button":{"buttons":{"not_published":"منتشر نشده","published":"منتشر شده"}},"reply_count_tooltip":{"one":"1 پاسخ.","other":"%{count} پاسخ.","zero":"پاسخ موجود نیست."},"this_is_a_group_discussion":"این یک بحث گروهی است","unread_count_tooltip":{"one":"1 پاسخ خوانده نشده.","other":"%{count} پاسخ خوانده نشده.","zero":"پاسخ خوانده نشده موجود نیست."}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "discussions",
+  function() { return {"an_error_occurred_please_post_your_reply_again_lat_b0220ac6":"*یک خطا رخ داد*، لطفا پاسخ خود را بعداً دوباره ارسال نمایید","delete_disabled_3196ce47":"حذف (غیر فعال شد)","edit_disabled_e6a5ea0a":"ویرایش (غیر فعال شد)","expand_subdiscussion_cd226ed4":"باز کردن بحث فرعی","reply_to_title_f227303f":"ارسال پاسخ به%{title}","you_must_log_in_to_view_replies_9ccd4da0":"برای مشاهده پاسخ ها باید وارد شوید"} },
+  function() { return {"are_your_sure_delete":"مطمئنید که می خواهید این ورودی حذف شود؟","author_link":{"authors_name":"نام نویسنده","unknown_author":"\u003eنویسنده ناشناس"},"deleted_entry":{"deleted":"توسط *%{editor_name}* در %{edited_at} حذف شد"},"discussion_participant":"شرکت کننده در بحث","entry_collection_view":{"add_reply_to_topic":"افزودن پاسخ به موضوع"},"entry_content":{"edited_comment":"توسط *%{editor.display_name}* در %{edited_at} ویرایش شد","go_to_parent":"رفتن به منشأ","go_to_topic":"رفتن به موضوع","like_entry":"لایک کردن مدخل","manage_discussion_entry":"مدیریت ورودی بحث","open_in_speedgrader":"باز کردن در برنامه نمره گذاری سریع","write_a_reply":"پاسخ"},"entry_stats":{"show_more":"نمایش بیشتر"},"hide_due_dates":"مخفی کردن تاریخ های مهلت","like_count":{"one":"(%{count} لایک)","other":"(%{count} لایک)"},"mark_as_read":"علامتگذاری به عنوان خوانده شده","mark_as_unread":"علامتگذاری به عنوان خوانده نشده","no_content":"محتوا موجود نیست","no_results":{"make_sure_all_search_terms_are_spelled_correctly":"مطمئن شوید همه عبارت های جستجو درست نوشته شده اند.","suggestions":"پیشنهادها:","try_different_more_general_or_fewer_keywords":"کلید واژه های متفاوت، کلی تر یا کمتر را امتحان کنید.","try_disabling_the_unread_filter":"فیلتر \"خوانده نشده\" را غیرفعال کنید.","your_search_did_not_match_any_entries":"جستجوی شما با هیچ ورودی مطابقت نداشت."},"participant":{"anonymous_user":"ناشناس"},"reply":{"saving_reply":"در حال ذخیره سازی پاسخ..."},"reply_attachment":{"attachment_label":"پیوست","remove_attachment":"حذف"},"reply_form":{"attach_file":"پیوست کردن","cancel":"لغو","post_reply":"ارسال پاسخ","write_a_reply":"پاسخ"},"results_entry":{"edited_comment":"ویرایش شده توسط *%{editor.display_name}* در %{edited_at}","view_in_discussion":"نظر دادن در بحث"},"show_all_n_replies":{"one":"نمایش کل %{count} پاسخ","other":"نمایش کل %{count} پاسخ"},"show_due_dates":"نمایش تاریخ های مهلت","this_student":"این دانشجو","uknown_author":"نویسنده ناشناس","unknown":"ناشناس","unknown_author":"نویسنده ناشناس"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "discussions_posts",
+  function() { return {"hide_from_everyone_9fc3e6d0":"مخفی کردن از همه","hide_name_and_profile_picture_d18eed70":"نام و تصویر نمایه را مخفی کنید","my_drafts_4e4ac1a6":"پیش نویس های من","newest_first_87672763":"جدیدترین اول","oldest_first_ab166f62":"قدیمی ترها در اولویت","replying_as_f8371a46":"پاسخ دادن به عنوان","search_entries_or_author_63fb0a86":"جستجوی ورودی ها یا نویسنده","show_name_and_profile_picture_9329d8f8":"نمایش نام و تصویر رخ نما","show_to_everyone_94d66d01":"به همه نشان دهید","sort_15eac63f":"مرتب سازی","sorted_by_ascending_af61f8ca":"مرتب شده بر اساس صعودی","sorted_by_descending_824c4300":"مرتب شده بر اساس نزولی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "sections_autocomplete",
+  function() { return {"a_section_is_required_64103992":"یک بخش لازم است","post_to_961f8937":"ارسال به","section_added_83879254":"%{section} اضافه شد.","section_removed_2ac72a79":"%{section} حذف شد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "EntryEditor",
+  function() { return {"failed_to_save_please_try_again_later_bb7070fb":"ذخیره سازی انجام نشد، لطفا بعدا دوباره سعی کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignmentRubricDialog",
+  null,
+  function() { return {"loading":"در حال بارگذاری...","titles":{"assignment_rubric_details":"اطلاعات دستورالعمل ارزیابی تکلیف"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "discussionTopicKeyboradShortcutModal",
+  function() { return {"delete_current_message_5da0221a":"حذف پیام فعلی","edit_current_message_da650d4c":"ویرایش پیام فعلی","next_message_780bcf24":"پیام بعدی","previous_message_8804f87e":"پیام قبلی","reply_to_current_message_55391f5b":"پاسخ به پیام فعلی","reply_to_topic_12412b0f":"پاسخ به موضوع"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "keyboardShortcutModal",
+  function() { return {"press_the_esc_key_to_close_this_modal_14d10601":"برای بستن این ماژول، کلید esc را فشار دهید","users_of_screen_readers_may_need_to_turn_off_the_v_98811cd":"کاربران صفحه خوان ها ممکن است لازم باشد مکان نمای مجازی را به منظور استفاده از این میانبرهای صفحه کلید غیر فعال کنند"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "discussions_v2",
+  function() { return {"add_discussion_653dab4c":"افزودن گفتگو","click_here_to_add_a_discussion_f17c4260":"برای افزودن گفتگو  اینجا را کلیک کنید","closed_for_comments_e395b42f":"امکان ارسال نظر وجود ندارد","count_discussions_found_fc326362":"%{count} گفتگو موجو است.","discussion_filter_5d68de61":"فیلتر گفتگو","discussions_menu_f18eb4a2":"منو گفتگو ها","duplication_failed_3351ffb1":"تکرار انجام نشد","duplication_of_title_succeeded_2e0bd645":"تکرار %{title} با موفقیت انجام شد.","error_saving_discussion_settings_3360661d":"ذخیره سازی تنظیمات بحث ها با خطا مواجه شد","failed_to_delete_discussion_title_986df717":"حذف گفتگو %{title} انجام نشد.","failed_to_update_discussion_23cc229a":"به هنگام سازی گفتگو انجام نشد","loading_discussions_8ed5fcd7":"در حال بارگیری گفتگوها","move_discussion_9ff5b2d1":"انتقال بحث","ordered_by_recent_activity_112d33d5":"مرتب سازی شده بر اساس آخرین فعالیت ها","pinned_discussions_a55c0cea":"بحث های الصاق شده","saved_discussion_settings_successfully_ebd46a57":"تنظیمات گفتگو با موفقیت ذخیره شد.","search_by_title_or_author_273a8f49":"جستجو توسط عنوان یا نویسنده ...","search_discussion_by_title_30466604":"جستجوی گفتگو با عنوان","subscribe_failed_2eb62de0":"اشتراک انجام نشد","successfully_deleted_discussion_title_a685f345":"گفتگو %{title} با موفقیت حذف شد","there_are_no_discussions_to_show_in_this_section_e8f04ebd":"در این بخش هیچ گفتگویی برای نمایش وجود ندارد","to_close_comments_on_a_discussion_drag_a_discussio_85b27448":"برای بستن امکان نظرات روی یک گفتگو، گفتگو را اینجا بکشید، یا بستن نظرات را از منوی تنظیمات گفتگو انتخاب کنید.","to_pin_a_discussion_to_the_top_of_the_page_drag_a__bfe476c3":"برای الصاق یک بحث به بالای صفحه، یک بحث را اینجا بکشید، یا الصاق را از منوی تنظیمات بحث انتخاب کنید.","unsubscribed_failed_2a176d2":"لغو اشتراک انجام نشد","updating_discussion_failed_aadb2d35":"به هنگام سازی گفتگو انجام نشد","you_currently_have_no_discussions_with_closed_comm_366a9dab":"در حال حاضر شما هیچ گفتگویی با نظرات بسته شده ندارید.","you_currently_have_no_pinned_discussions_6f0078b8":"در حال حاضر هیچ بحث الصاق شده ای ندارید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "you_are_about_to_delete_count_discussions_are_you__7ff455aa",
+  null,
+  function() { return {"one":"شما در حال حذف 1 گفتگو هستید. آیا اطمینان دارید؟","other":"شما در حال حذف %{count} گفتگو هستید. آیا اطمینان دارید؟"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "shared_components",
+  function() { return {"allow_comments_a1f45d8":"اجازه دادن به نظرات","allow_comments_for_title_7ac9e00":"اجازه دادن به نظرات برای %{title}","delayed_until_58b7af4b":"تأخیر تا:","delete_announcement_title_756a9d1f":"حذف اطلاعیه %{title}","disallow_comments_6d04b47a":"اجازه ندادن به نظرات","disallow_comments_for_title_21f9c653":"اجازه ندادن به نظرات برای %{title}","posted_on_e1010e1e":"ارسال شده در:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "discussion_row",
+  function() { return {"anonymous_discussion_1e9b981":"گفتوگوی ناشناس","available_until_date_d2fe6cb1":"قابل دسترس تا %{date}","close_discussion_title_for_comments_adde43bc":"بستن امکان ارسال نظر برای گفتگوی %{title}.","close_for_comments_ce0e5d00":"بستن امکان ارسال نظر","copy_title_to_course_2a41a2f4":"کپی کردن %{title} در درس","delete_discussion_title_a28df8b6":"حذف گفتگوی %{title}","due_date_bf4eaf46":"مهلت: %{date}","duplicate_discussion_title_6537ef4d":"تکرار گفتگوی %{title}","enable_cbcd2eef":"فعال","last_post_at_date_bf77652f":"آخرین ارسال در %{date}","lock_discussion_title_failed_9d49f2d":"قفل کردن گفتگو %{title} انجام نشد","lock_discussion_title_succeeded_fb24ebfc":"قفل کردن گفتگو %{title} با موفقیت انجام شد","move_discussion_title_93ea7be1":"انتقال گفتگوی %{title}","not_available_until_date_3c1c73c2":"غیر قابل دسترس تا %{date}","open_discussion_title_for_comments_6baa3fa":"باز گذاشتن امکان ارسال نظر برای گفتگوی %{title}.","open_for_comments_1810648":"باز گذاشتن امکان ارسال نظر","pin_cdbc9f8f":"الصاق","pin_discussion_title_67c84658":" سنجاق کردن  گفتگوی %{title}","pin_of_discussion_title_failed_6c2c32a5":"سنجاق کردن  برای گفتگوی%{title} انجام نشد.","pin_of_discussion_title_succeeded_c7d59580":"سنجاق کردن برای گفتگوی %{title}  با موفقیت انجام شد.","publish_title_102f2d90":"انتشار %{title}","send_title_to_user_d952e233":"ارسال %{title} به کاربر","subscribe_to_title_c7d6bbd2":"اشتراک در %{title}","to_do_date_d6b79bfd":" برای انجام  %{date}","unlock_discussion_title_failed_42a4252f":"قفل گشایی گفتگو %{title} انجام نشد","unlock_discussion_title_succeeded_cd97847c":"قفل گشایی گفتگو %{title} با موفقیت انجام شد","unpin_a318452a":"بازکردن","unpin_discussion_title_8c2a0942":"لغو سنجاق گفتگوی %{title}","unpin_of_discussion_title_failed_852116d4":"لغو سنجاق برای گفتگوی%{title} انجام نشد.","unpin_of_discussion_title_succeeded_ce315adb":"لغو سنجاق برای گفتگوی %{title}  با موفقیت انجام شد.","unpublish_title_26ae9667":"لغو انتشار %{title}","unsubscribe_from_title_c98461b3":"لغو اشتراک از %{title}","was_locked_at_date_acf1c576":"قفل شده در %{date}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "discussion_settings",
+  function() { return {"attach_files_to_discussions_bd16c245":"پیوست کردن فایل ها به بحث ها","create_discussion_topics_8330d52b":"ایجاد موضوع های بحث","discussion_settings_2fbf0b95":"تنظیمات گفتگوها","edit_and_delete_their_own_replies_e5b9d793":"ویرایش و حذف پاسخ های خود","my_settings_2ff35329":"تنظیمات من","save_settings_cafe79a5":"ذخیره سازی تنظیمات","student_settings_354d9a7e":"تنظیمات دانشجو"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "discussion_posts",
+  function() { return {"add_rubric_3636d9a6":"افزودن دستورالعمل ارزیابی","anonymous_discussion_54517e84":"گفتوگوی ناشناس","author_215203d2":"نویسنده","close_for_comments_37783f56":"بستن امکان ارسال نظر","collapse_replies_ef4fc36b":"جمع کردن پاسخ ها","count_more_beba6428":"%{count} بیشتر","created_timingdisplay_82e15b1e":"ایجاد شده %{timingDisplay}","deleted_deletedtimingdisplay_f4c73003":"حذف شد %{deletedTimingDisplay}","discussion_topic_title_95b1d6b6":"موضوع بحث: %{title}","edited_by_editorname_editedtimingdisplay_ae2f4692":"ویرایش شده توسط %{editorName}%{editedTimingDisplay}","edited_editedtimingdisplay_85d8f1db":"ویرایش شده در %{editedTimingDisplay}","enter_the_grade_41d5c97d":"نمره را وارد کنید","go_to_parent_7fb312b4":"رفتن به منشأ","go_to_reply_36fe5f51":"به پاسخ بروید","go_to_topic_af6025fc":"رفتن به موضوع","group_discussions_914b1577":"بحث های گروهی","last_reply_lastreplyatdisplay_7a4af30":"آخرین پاسخ %{lastReplyAtDisplay}","last_reply_lastreplyatdisplaytext_f3d8ee3a":"آخرین پاسخ %{lastReplyAtDisplayText}","manage_discussion_c1dd8f4e":"مدیریت بحث","mark_all_as_read_8f3bdf57":"علامتگذاری همه به عنوان خوانده شده","mark_all_as_unread_a435be3d":"علامتگذاری همه به عنوان خوانده نشده","mark_as_read_47ec83dd":"علامتگذاری به عنوان خوانده شده","mark_as_unread_4ded3977":"علامتگذاری به عنوان خوانده نشده","mark_thread_as_read_41c1bcb3":"علامت گذاری موضوع به عنوان خوانده شده","mark_thread_as_unread_bc3d7a4":"علامت گذاری موضوع به عنوان خوانده نشده","no_end_date_2608075c":"بدون تاریخ پایان","no_start_date_6e81c22b":"بدون تاریخ شروع","note_for_differentiated_group_topics_some_threads__90adbb21":"توجه: برای موضوع های متمایز گروه، ممکن است هیچ دانشجویی به برخی رشته ها تخصیص داده نشده باشد.","open_for_comments_f8f7641e":"باز کردن برای نظرات","open_in_speedgrader_57c64fe3":"باز کردن در برنامه نمره گذاری سریع","peer_review_due_dueattext_20987412":"به دلیل بررسی همتایان %{dueAtText}","peer_review_due_eb63af38":"به دلیل بررسی همتایان","peer_reviews_e3a55964":"بازبینی های گروهی","report_58d2ac9e":"گزارش","reported_3de7086a":"گزارش شده","review_now_318a6a3e":"هم اکنون بازبینی کنید","saved_3cd67a7c":"ذخیره","show_due_dates_duedatecount_5e0b056c":"نمایش سررسیدها (%{dueDateCount})","show_rubric_dca783f2":"نمایش دستورالعمل ارزیابی","subscribe_4b301fb7":"اشتراک","subscribed_fe74d22a":"مشترک شدید","unsubscribe_8be438ff":"لغو اشتراک","unsubscribed_c93564a2":"اشتراک شما لغو شد","view_availability_963f62ff":"مشاهده در دسترس بودن","you_have_successfully_marked_all_as_read_f246ef1a":"شما با موفقیت همه را به عنوان خوانده شده علامت گذاری کردید.","you_have_successfully_marked_all_as_unread_cb019eb9":"شما با موفقیت همه را به عنوان خوانده نشده علامت گذاری کردید.","you_have_successfully_subscribed_to_the_discussion_a577c521":"شما با موفقیت در موضوع بحث مشترک شدید.","you_have_successfully_unsubscribed_from_the_discus_883e8326":"شما با موفقیت اشتراک موضوع بحث را لغو کردید.","you_have_successfully_updated_the_discussion_topic_b2910500":"موضوع بحث را با موفقیت به روز کردید.","you_must_post_before_seeing_replies_24f8bcd4":"قبل از دیدن پاسخ ها باید ارسال کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_points_4735a2e8",
+  null,
+  function() { return {"one":"%{count} امتیاز","other":"%{count} امتیاز"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "discussion_topics_post",
+  function() { return {"anonymous_id_2ef1c6d2":"ناشناس %{id}","anonymous_id_you_cf43ab76":"ناشناس %{id} (شما)","anonymous_you_e708af99":"ناشناس (شما)","are_you_sure_you_want_to_delete_this_entry_9aecd6d3":"مطمئنید که می خواهید این ورودی حذف شود؟","deleted_by_editor_d3fdc2ee":"حذف شده توسط %{editor}","inappropriate_1930c574":"نامناسب","offensive_abusive_c41dcb08":"توهین آمیز، توهین آمیز","report_reply_5af43ed0":"پاسخ گزارش","show_newer_replies_9f73d06d":"نمایش پاسخ های جدیدتر","show_older_replies_e85891b3":"نمایش پاسخ های قدیمی تر","view_replies_8565a729":"مشاهده پاسخ ها"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "eportfolio",
+  function() { return {"_at_the_bottom__4360f2b4":"در پایین","click_to_edit_drag_to_reorder_ab725681":"برای ویرایش کلیک کنید، برای مرتب‌سازی دوباره، بکشید","move_page_e25b123d":"انتقال صفحه","move_section_d3866941":"انتقال بخش","place_section_before_5b45714e":"\"%{section}\" را قرار دهید قبل از:","submission_added_title_50ebdc85":"ارسال‌ها اضافه شد: %{title}"} },
+  function() { return {"buttons":{"done_editing":"ویرایش انجام شد","manage_sections":"مدیریت بخش ها"},"confirm_delete_message":"مطمئنید که می خواهید این پیام حذف شود؟","confirm_delete_page":"این صفحه و تمام محتوای آن حذف شود؟","confirm_delete_section":"این بخش و همه صفحه های آن حذف شود؟","default_description":"این ارسال مربوط به %{assignment} من برای %{course} است.","eportfolio_settings":"تنظیمات مجموعه اسناد الکترونیکی","errors":{"compiling":"در هنگام گردآوری مجموعه اسناد الکترونیکی شما خطایی رخ داد. لطفا مدت کوتاهی بعد دوباره سعی کنید.","missing_file":"لطفا یک فایل انتخاب کنید","name_required":"نام الزامی است","name_too_long":"نام طولانی است","section_name_invalid":"نام بخش معتبر نیست","section_name_too_long":"نام بخش، طولانی است ","upload_failed":"بارگذاری انجام نشد."},"titles":{"add_submission":"افزودن صفحه برای مورد ارسالی","download_eportfolio":"بارگیری مجموعه اسناد الکترونیکی","section_list":"برای مرتب کردن بکشید، برای ویرایش، کلیک کنید"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "eportfolios",
+  null,
+  function() { return {"_page_section":{"section_types":{"attachment":"بارگذاری تصویر/فایل","html":"محتوای HTML/درج شده","rich_text":"محتوای متن غنی","submission":"مورد ارسالی درس"}},"show":{"headers":{"export_progress":"در حال گردآوری منابع مجموعه اسناد الکترونیکی. اگر تعداد زیادی فایل در مجموعه خود داشته باشید، ممکن است مدتی طول بکشد."}}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "epub_exports",
+  function() { return {"download_associated_files_f35dcb5e":"بارگیری فایل های مرتبط","download_epub_757cf0af":"بارگیری ePub","failed_307449e1":"انجام نشد","generate_epub_80e89ea4":"ایجاد ePub","generated_f26ee56b":"ایجاد شد:","generating_5b5e20f8":"در حال ایجاد:","generating_c2aabc02":"در حال ایجاد...","regenerate_epub_395c8e56":"ایجاد دوباره ePub"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "shared",
+  null,
+  function() { return {"components":{"ic_submission_download_dialog":{"click_to_download":"برای بارگیری اینجا را کلیک کنید","download_message":"موردهای ارسالی  برای بارگیری در یک فایل zip فشرده‌سازی خواهند شد. این کار ممکن است بسته به اندازه و تعداد فایل‌های ارسالی مدتی طول بکشد.","download_message_intro":"موردهای ارسالی دانشجوی شما در حال گردآوری است.","download_submissions":"بارگیری همه موردهای ارسالی"}},"error_form":{"message_failed":"گزارش ارسال نشد. لطفا دوباره سعی کنید.","message_sent":"با تشکر از راهنمایی شما! سریعا به این مورد رسیدگی می کنیم."}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "external_tools",
+  function() { return {"access_token_3be22221":"نشانه دسترسی","add_app_baf540f":"افزودن برنامه","add_to_rce_toolbar_e5b3e3b4":"به نوار ابزار RCE اضافه کنید","allow_this_tool_to_access_the_ims_names_and_role_p_33e16d7f":"امکان دادن به این ابزار برای دسترسی به نام های IMS و سرویس Role Provisioning","an_error_occured_while_trying_to_find_the_lti_conf_90f50a4c":"هنگام تلاش برای یافتن پیکربندی LTI خطایی روی داد","an_update_is_available_for_toolname_bba3fa2":"یک بهنگام سازی برای %{toolName} موجود است","app_placements_6d877225":"جای گذاری برنامه ها","app_reregistration_87cc8817":"ثبت نام مجدد برنامه","app_was_installed_by_admin_and_is_locked_3bee4d39":"%{app} توسط مدیر نصب شد و قفل شده است","app_was_installed_by_the_master_course_and_is_lock_dbeb24a6":"%{app} توسط درس اصلی نصب شد و قفل شده است","app_was_installed_by_the_master_course_e55ba1d7":"%{app} توسط درس اصلی نصب شد","apps_are_an_easy_way_to_add_new_features_to_canvas_2cbc2531":"برنامه های کاربردی راه آسانی برای افزودن ویژگی های جدید به کانواس هستند. آنها می توانند به هر درس یا به همه درس های یک حساب اضافه شوند. پس از پیکربندی، می توانید از طریق ماژول های درس به آنها پیوند دهید و برای ابزارهای ارزیابی، تکلیف ایجاد کنید.","are_you_sure_you_want_to_remove_this_tool_7363f90b":"مطمئنید که می خواهید این ابزار حذف شود؟","assignment_and_link_selection_557faf38":"تکلیف و انتخاب لینک","assignment_edit_6dced39f":"ویرایش تکلیف","assignment_menu_91fe3716":"منوی تکلیف","assignment_selection_6bff05c4":"انتخاب تکلیف","assignment_view_1206a60b":"مشاهده تکلیف","back_to_app_center_95420d83":"بازگشت به مرکز برنامه","by_client_id_4f2fe02c":"توسط  شناسه سرویس گیرنده","by_lti_2_registration_url_e421e523":"به وسیله نشانی اینترنتی ثبت نام LTI 2","by_url_a163275e":"بر اساس نشانی اینترنتی","client_id_cb2502af":"شناسه سرویس گیرنده","client_id_is_required_1afd54d1":"شناسه سرویس گیرنده لازم است","collaboration_71c024f4":"همکاری","config_url_e96ceaf3":"نشانی اینترنتی پیکربندی","configuration_type_25a084a4":"نوع پیکربندی","configure_tool_app_3b1bb50b":"برنامه %{tool} پیکربندی شود؟","configure_toolname_app_651371be":"پیکربندی برنامه %{toolName}","consumer_key_6f94ba11":"کلید مصرف کننده","could_not_find_an_lti_configuration_for_client_id__b7d07b3c":"پیکربندی LTI برای شناسه مشتری یافت نشد %{clientId}","count_apps_found_f4d86860":"%{count} برنامه یافت شد","course_assignments_menu_fa6aeb23":"منوی تکالیف درس","course_home_sub_navigation_b1ee6b03":"پیمایش فرعی صفحه اصلی درس","course_settings_sub_navigation_b95deae":"پیمایش فرعی تنظیمات درس","delete_tool_app_9c9f6d35":"برنامه %{tool} حذف شود؟","delete_toolname_app_85f9d4ee":"حذف برنامه %{toolName}","deployment_id_fc270280":"شناسه توسعه","deployment_id_for_tool_app_cb59335":"شناسه توسعه برای برنامه %{tool}","deployment_id_for_toolname_app_e54a7364":"شناسه توسعه برای برنامه %{toolName}","disabled_18c33a73":"(غیر فعال شد)","discussion_topic_menu_3d4684c6":"منوی موضوع بحث","dismiss_dacdb625":"صرفنظر کردن","e_mail_only_2cc5e513":"فقط پست الکترونیکی","edit_app_b0cc1c17":"ویرایش برنامه","edit_toolname_app_23cfbb8":"ویرایش برنامه %{toolName}","editor_button_6647db9c":"دکمه ویرایشگر","either_the_url_or_domain_should_be_set_c29cf8c1":"نشانی اینترنتی یا دامنه باید تعیین شود.","example_https_example_com_config_xml_be5f36ac":"مثال: https://example.com/config.xml","example_https_lti_tool_provider_example_herokuapp__e9802142":"مثال: https://lti-tool-provider-example.herokuapp.com/register","favorite_d720d310":"مورد دلخواه","file_menu_cc0ca54":"منوی فایل","filter_by_name_34cbe139":"فیلتر بر اساس نام","homework_submission_172e8354":"مورد ارسالی تکلیف خانگی","inactive_34365329":"غیر فعال","install_c54fad9b":"نصب","installed_7b284a91":"نصب شده","launch_registration_tool_38d4781":"راه اندازی ابزار ثبت نام","launch_url_e150bd41":"راه اندازی نشانی اینترنتی","link_selection_1486c5d0":"انتخاب پیوند","link_to_lti_tools_608df3b0":"پیوند به ابزارهای lti.","manage_app_list_994cc26c":"مدیریت فهرست برنامه","manage_update_23de23a1":"مدیریت بهنگام سازی","manage_update_for_toolname_f8e3b2fb":"مدیریت بهنگام سازی برای %{toolName}","migration_selection_5f1c5f55":"انتخاب انتقال","module_menu_3201af4e":"منوی ماژول","modules_group_menu_4aae0d5f":"منوی گروه ماژول ها","name_app_has_been_deleted_fb2d9426":"برنامه %{name} حذف شده است","name_has_been_successfully_installed_but_has_not_y_c3148b96":"*name* با موفقیت نصب شده است اما هنوز فعال نشده است.","name_is_currently_status_9065c996":"*name* در حال حاضر **وضعیت** است.","name_only_5f56718e":"فقط نام","no_cancel_installation_db8d12d7":"خیر، نصب لغو شود","no_placements_enabled_f705f28":"هیچ جای گذاری فعال نشده است","not_installed_37a21a76":"نصب نشده","page_menu_2f8bee0":"منوی صفحه","pages_index_menu_f391bf04":"منوی فهرست صفحات","paste_xml_cda3a64e":"چسباندن XML","privacy_290109ea":"حریم خصوصی","quiz_menu_4fcd5e61":"منوی آزمون","register_tool_84de3186":"ثبت ابزار","registration_url_60e0eaaa":"نشانی اینترنتی ثبت نام","reregister_9ab95a57":"ثبت نام دوباره","reregister_toolname_3dde0bfc":"ثبت نام دوباره %{toolName}","retrieving_tool_51709735":"ابزار بازیابی","shared_secret_892c88f2":"رمز مشترک","similarity_detection_dcada48":"تشخیص تشابه","the_app_was_activated_a84e055f":"برنامه فعال شد","the_app_was_added_58e2836a":"برنامه افزوده شد","the_app_was_added_successfully_3f785a23":"برنامه با موفقیت افزوده شد","the_app_was_deactivated_573520ab":"برنامه غیر فعال شد","the_app_was_updated_successfully_3d71cd1b":"برنامه با موفقیت بهنگام سازی شد","the_client_id_clientid_is_disabled_b4a02cb1":"شناسه مشتری %{clientId} غیرفعال است.","the_following_fields_are_invalid_fields_b3565800":"قسمت های زیر معتبر نیستند: %{fields}","there_was_an_error_in_processing_your_request_6513a49a":"در هنگام پردازش درخواست شما خطایی رخ داد","there_was_an_unknown_error_registering_the_tool_b9a29954":"یک خطای ناشناخته در ثبت ابزار وجود داشت","there_were_errors_with_the_form_errors_ab5b559a":"خطایی در فرم وجود داشت: %{errors}","this_field_name_is_required_988caebc":"\"%{name}\" این جای خالی لازم است.","this_field_name_is_required_b9196401":"«نام» این جای خالی لازم است.","this_tool_has_already_been_installed_in_this_conte_b73ea29c":"این ابزار در این زمینه نصب شده است. مایلید با این وجود نصب شود؟","to_obtain_a_client_id_an_account_admin_will_need_t_33f4063e":"برای دریافت شناسه سرویس گیرنده، یک مدیر حساب باید یک کلید توسعه دهنده LTI ایجاد کند.","tool_configuration_63cd43b0":"پیکربندی ابزار","tool_content_e699e813":"محتوای ابزار","tool_placements_3f996c24":"جای گذاری ابزارها","tool_toolname_found_for_client_id_clientid_would_y_13f35b91":"ابزار \"%{toolName}\"  شناسه سرویس گیرنده %{clientId} موجود است. آیا می‌خواهید آن را نصب کنید؟","unable_to_accept_update_fd53a7e2":"قادر به قبول بهنگام سازی نیست","unable_to_dismiss_update_df1e32eb":"قادر به رد بهنگام سازی نیست","unable_to_remove_app_4293cb53":"قادر به حذف برنامه نیست","unchanged_aca18e02":"[تغییر نیافته]","update_tool_7d48ef2a":"بهنگام سازی %{tool}","user_navigation_a097be0f":"پیمایش کاربر","view_app_center_6c89a3fe":"مشاهده مرکز برنامه","view_app_configurations_52b52441":"مشاهده پیکربندی های برنامه","view_name_app_62a2ad8e":"مشاهده برنامه %{name}","view_toolname_placements_4a5724d1":"مشاهده جای گذاری های %{toolName}","we_were_unable_to_activate_the_app_578defe7":"قادر به فعال سازی برنامه نبودیم.","we_were_unable_to_add_the_access_token_1f471fe6":"قادر به افزودن نشانی دسترسی نبودیم.","we_were_unable_to_add_the_app_418877ef":"فادر به افزودن برنامه نبودیم.","we_were_unable_to_deactivate_the_app_5e2632f3":"قادر به غیر فعال سازی برنامه نبودیم.","we_were_unable_to_update_the_app_659f5bc6":"قادر به بهنگام سازی برنامه نبودیم","would_you_like_to_accept_or_dismiss_this_update_9009d696":"مایلید این بهنگام سازی قبول یا رد شود؟","would_you_like_to_enable_this_app_ccdf735d":"مایلید این برنامه فعال شود؟","xml_configuration_5ea1b942":"پیکربندی XML","yes_install_tool_f51b3278":"بله، ابزار نصب شود"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "file_not_found",
+  function() { return {"be_a_hero_and_ask_your_instructor_to_fix_this_link_4981930c":"یک قهرمان باش و از استاد خود درخواست کن که این پیوند را اصلاح کند.","broken_file_link_found_in_your_course_7cc24395":"پیوند خراب فایل در درس شما موجود است","please_let_them_know_which_page_you_were_viewing_a_c9816406":"لطفا به آنها اطلاع دهید کدام صفحه را مشاهده می کردید و روی کدام پیوند کلیک کردید.","this_most_likely_happened_because_you_imported_cou_a78ea880":"این امر به احتمال زیاد به این دلیل اتفاق افتاده است که محتوای درس را بدون فایل های مرتبط آن وارد کرده اید.","this_student_wrote_f1a3f22d":"این دانشجو نوشته است که:","your_message_has_been_sent_thank_you_e0284316":"پیام شما ارسال شده است. از شما سپاسگزاریم!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "MasterCourseLock",
+  function() { return {"an_error_occurred_changing_the_lock_state_for_file_77443f15":" در حال تغییر حالت قفل برای %{fileName} خطایی رخ داد","filename_is_locked_click_to_modify_bf711763":"%{fileName} قفل شده است- برای تغییر دادن کلیک کنید","filename_is_unlocked_click_to_modify_99e847be":"%{fileName} قفل نشده است- برای تغییر دادن کلیک کنید","this_file_16b24f02":"این فایل"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "react_files",
+  function() { return {"a_file_named_itemname_already_exists_in_this_folde_b0dc7185":"یک فایل با عنوان %{itemName} در این پوشه موجود است.","add_folder_ba50d107":"افزودن پوشه","all_my_files_a0213441":"همه فایل‌های من","an_error_occurred_trying_to_prepare_download_pleas_df6fa596":"در هنگام اقدام برای آماده سازی بارگیری، خطایی رخ داد، لطفا دوباره سعی کنید.","an_unknown_server_error_occurred_please_try_again_f517eaf3":"یک خطای نامشخص سرور رخ داد. لطفا دوباره سعی کنید.","available_folders_694d0436":"پوشه های موجود","before_publishing_this_file_you_must_specify_usage_2229d20b":"قبل از انتشار این فایل، باید حقوق استفاده را تعیین کنید.","copy_to_folder_32ecc3c3":"کپی کردن در پوشه","copying_628a9607":"در حال کپی کردن..","course_files_a31f97fc":"فایل های درس","creative_commons_714a065f":"کریتیو کامنز","download_as_zip_5dae7f19":"بارگیری به عنوان فایل زیپ","error_deleting_name_reason_11f9d399":"خطا در حذف %{name}: %{reason}","fair_use_bee47d77":"استفاده منصفانه","file_list_350d08df":"فهرست فایل","file_upload_failed_af22dd91":"آپلود پرونده انجام نشد","file_uploading_56c9c0c8":"بارگذاری پرونده","files_quota_percentused_of_bytesavailable_used_7f62792c":"سهمیه فایل ها: %{percentUsed}% از %{bytesAvailable} استفاده شده","files_toolbar_2f2f0976":"نوار ابزار فایل ها","folder_tree_fbab0726":"درخت پوشه","group_files_82e5dcdb":"فایل های گروه","if_you_leave_the_zip_file_download_currently_being_c47c1dfb":"اگر اینجا را ترک کنید، بارگیری فایل زیپ که اکنون در حال آماده سازی است، لغو خواهد شد.","loading_folders_d8b5869e":"بارگیری پوشه ها","loading_more_results_def6df65":"در حال بارگذاری نتایج بیشتر...","manage_access_bd923d8d":"مدیریت دسترسی","move_to_1c208ae5":"انتقال به...","moving_a4d552df":"در حال انتقال...","my_files_2f621040":"فایل های من","own_copyright_cc59db55":"حق نشر من","percentused_of_bytesavailable_used_a859a40d":"%{percentUsed} از %{bytesAvailable} استفاده شد","please_enter_a_search_term_with_three_or_more_char_53fd5ed8":"لطفا یک عبارت جستجو با سه نویسه یا بیشتر وارد نمایید","public_domain_112ed397":"دامنه عمومی","rename_45608f54":"تغییر نام","search_for_files_7541fb28":"جستجوی فایل ها","select_itemname_f70db487":"انتخاب %{itemName}","show_and_hide_courses_menu_9e09d1d0":"نمایش دادن و مخفی کردن منوی درس ها","something_went_wrong_d238c551":"مشکلی پیش آمد","sorted_direction_by_columnname_d049ac44":"مرتب شده %{direction} براساس %{columnName}","success_file_uploaded_8174e93f":"موفقیت: پرونده بارگذاری شد","upload_not_available_for_this_folder_8f8623c6":"بارگیری برای این پوشه در دسترس نیست","used_by_permission_314a78dd":"استفاده شده از طریق مجوز","viewing_folders_is_not_available_798a15e1":"مشاهده پوشه ها موجود نیست","warning_for_improved_accessibility_in_moving_files_71e1028b":"هشدار: برای دسترس پذیری بهتر در انتقال فایل ها، لطفا از گزینه «انتقال به کادر گفتگو» موجود در منو استفاده کنید."} },
+  function() { return {"accept":"پذیرفتن","cancel":"لغو","confirm_delete_with_contents":{"one":"مطمئنید که می خواهید این %{count} مورد و همه محتویات داخل آن حذف شود؟","other":"مطمئنید که می خواهید این %{count} مورد و همه محتویات داخل آن حذف شود؟"},"created_at":"تاریخ ایجاد شد","created_at_short":"ایجاد شده","errors":{"no_match":{"keywords":"واژه های کلیدی دیگری را امتحان کنید.","spelled":"مطمئن شوید که املای همه واژه ها درست است.","suggestions":"پیشنهادها:","three_chars":"حداقل 3 حرف را در کادر جستجو وارد کنید.","your_search":"جستجوی شما - \"%{search_term}\" - با هیچ فایلی مطابقت نداشت."}},"files":"فایل ها","folder_browsing_tree":"درخت مرور پوشه","folder_name":"نام پوشه","modified_by":"تغییر یافته بر اساس","move_question":{"one":"می خواهید این %{count} مورد به کجا انتقال یابد؟","other":"می خواهید این %{count} مورد به کجا انتقال یابد؟"},"move_success":{"one":"%{count} مورد به %{destinationFolder} انتقال یافت","other":"%{count} مورد به %{destinationFolder} انتقال یافت"},"name":"نام","progress_message":"در حال آماده سازی بارگیری: %{percent}% انجام شده است","results_count":"در حال نمایش %{num_results} نتیجه جستجو","search_results_for":"جستجوی نتایج برای \"%{search_term}\"","select_all":"انتخاب همه","size":"اندازه","sorted_ascending":"به صورت صعودی مرتب سازی شد","sorted_desending":"به صورت نزولی مرتب سازی شد","this_folder_is_empty":"این پوشه خالی است","updated_at":"تاریخ تغییر یافت","updated_at_short":"تغییر یافت"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "your_search_encountered_the_following_errors_fc3e5e7f",
+  null,
+  function() { return {"one":"جستجوی شما با خطاهای زیر مواجه شد:","other":"جستجوی شما با خطاهای زیر مواجه شد:"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "edit_permissions_for_count_items_d65e3855",
+  null,
+  function() { return {"one":"ویرایش مجوزها برای %{count} مورد","other":"ویرایش مجوزها برای %{count} مورد"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_items_selected_91814713",
+  null,
+  function() { return {"one":"%{count} مورد انتخاب شد","other":"%{count} مورد انتخاب شد"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "are_you_sure_you_want_to_delete_these_count_items_148e98ba",
+  null,
+  function() { return {"one":"مطمئنید که می خواهید این %{count} مورد حذف شود؟","other":"مطمئنید که می خواهید این %{count} مورد حذف شود؟"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_items_deleted_successfully_a287aa53",
+  null,
+  function() { return {"one":"%{count} مورد با موفقیت حذف شد.","other":"%{count} مورد با موفقیت حذف شد."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "upload_drop_zone",
+  null,
+  function() { return {"drop_to_upload":"حذف موردها برای بارگذاری"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "folder_tree",
+  function() { return {"file_list_updated_38e2a5ad":"فهرست فایل بهنگام سازی شد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "rootFoldersFinder",
+  null,
+  function() { return {"course_files":"فایل های درس","group_files":"فایل های گروه","my_files":"فایل های من"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradingGradeSummary",
+  function() { return {"assignment_details_collapsed_55b67150":"اطلاعات تکلیف باز شد","assignment_details_expanded_20c6f0c7":"جزئیات تکلیف گسترش یافته است","based_on_what_if_scores_the_new_total_is_now_grade_d223be10":"بر اساس نمره های احتمالی، مجموع جدید اکنون %{grade} است","click_to_test_a_different_score_2e0bb6f0":"برای آزمایش نمره دیگر، کلیک کنید","enter_a_what_if_score_668c91a3":"یک نمره احتمالی وارد کنید.","grades_are_now_reverted_to_original_scores_e6deade1":"نمره ها اکنون به نمره های اصلی تبدیل شده اند","grades_are_now_showing_what_if_scores_711a8be2":"نمره ها اکنون نمره های احتمالی را نشان می دهند","hide_all_details_61d7ebb":"مخفی کردن همه جزئیات","show_all_details_9879980c":"نمایش همه اطلاعات","this_assignment_is_dropped_and_will_not_be_conside_35c3e198":"این تکلیف حذف شده است و در محاسبه کل در نظر گرفته نخواهد شد","this_is_a_what_if_score_cbdc04f9":"این یک نمره احتمالی است"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "grade_summary",
+  function() { return {"an_error_occurred_please_try_again_95361e05":"یک خطا رخ داد. لطفا دوباره سعی کنید.","apply_filters_note_clicking_this_button_will_cause_753f04":"اعمال فیلترها. توجه: با کلیک کردن روی این دکمه، صفحه دوباره بارگذاری می شود.","click_for_more_details_on_this_outcome_8c018d2f":"برای اطلاعات بیشتر درباره این نتیجه، کلیک کنید","expand_collapse_title_outcome_group_student_meets__46ffef48":"باز کردن/ جمع کردن  گروه نتیجه %{title}، دانشجو تسلط %{mastery_count} از  %{count} نتیجه را دارد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebook_history",
+  function() { return {"anonymously_graded_59149570":"به طور ناشناس نمره گذاری شد","artifact_f7003de5":"غیرواقعی","error_loading_gradebook_history_try_again_19032437":"خطا در بارگذاری تاریخچه دفتر نمره. دوبار تلاش می‌کنید؟","from_date_must_be_before_to_date_79f00046":"«ازتاریخ» باید قبل از «تا تاریخ» بیاید","grade_changes_cb5a57a8":"تغییرات نمره","loading_more_gradebook_history_results_810f6d2e":"در حال بارگذاری نتایج بیشتر تاریخچه دفتر نمره.","loading_results_769c8819":"در حال بارگذاری نتایج","more_results_were_added_at_the_bottom_of_the_page_dc323877":"نتایج بیشتر در پایین صفحه اضافه شد.","no_graders_with_that_name_found_d8204d90":"هیچ نمره‌گذاری با آن نام یافت نشد","no_more_results_to_load_6774fb1c":"نتایج بیشتر برای بارگذاری وجود ندارد.","no_students_with_that_name_found_f6004da2":"دانشجوی جدیدی با این نام یافت نشد","not_anonymously_graded_87574f91":"به طور ناشناس نمره‌گذاری نشده است","not_available_487d3648":"در دسترس نیست","not_available_assignment_is_anonymous_94e77edf":"در دسترس نیست؛ تکلیف ناشناس است","search_form_fcaa38f7":"جستجو از","show_final_grade_overrides_only_c3017aaa":"فقط نمایش نمره نهایی لغو شده","type_a_few_letters_to_start_searching_3334657b":"چند حرف را برای شروع جستجو وارد نمایید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebook_uploads",
+  function() { return {"override_score_5f3c1189":"جایگزین کردن نمره","override_score_gradingperiod_286ac51b":"جایگزین کردن نمره (%{gradingPeriod})"} },
+  function() { return {"errors":{"select_an_option":"لطفا یک گزینه را انتخاب کنید"},"student":"دانشجو"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebook_upload",
+  function() { return {"done_8af51c9b":"انجام شد","you_will_be_redirected_to_gradebook_while_your_fil_23fab7de":"وقتی فایل‌های شما بارگذاری می‌شود، به دفتر نمره هدایت می‌شوید. اگر یک فایل CSV بزرگ داشته باشید ممکن است بهروزرسانی تغییرات شما چند دقیقه طول بکشد. برای جلوگیری از دوباره‌نویسی هرگونه داده، لطفا قبل از ایجاد هر گونه تغییر، کامل شدن بارگذاری و صحت دفتر نمره را تأیید کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebookGradebookKeyboardNav",
+  function() { return {"open_the_grade_detail_tray_cea682a5":"باز کردن سینی جزئیات نمره"} },
+  function() { return {"keyboard_assignment_desc":"رفتن به صفحه جزئیات تکلیف فعلی","keyboard_close_menu":"بستن منوی فعال فعلی","keyboard_menu_desc":"باز کردن منوی ستون فعال","keyboard_sort_desc":"مرتب سازی جدول ستون فعال فعلی","keycodes":{"close_menu":"خروج","goto_assignment":"g","menu":"m","sort":"s"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebookGradeDisplayWarningDialog",
+  null,
+  function() { return {"grade_display_warning":{"cancel":"لغو","continue":"ادامه","percent_text":"دانشجویان نمره نهایی خود را به صورت درصد خواهند دید. مطمئنید که می خواهید ادامه دهید؟","points_text":"دانشجویان نمره نهایی خود را بصورت امتیاز مشاهده خواهند کرد. مطمئنید که می خواهید ادامه دهید؟"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "LongTextEditor",
+  null,
+  function() { return {"cancel":"لغو","save":"ذخیره سازی"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "post_grades_tray",
+  function() { return {"an_error_occurred_while_saving_the_assignment_post_94f1184e":"هنگام ذخیره سیاست ارسال تکلیف خطایی روی داد","at_least_one_section_must_be_selected_to_post_grad_2c140f52":"حداقل باید یک بخش برای ارسال نمرات براساس بخش انتخاب شود.","grade_posting_policy_name_a6d6f178":"سیاست ارسال نمره: %{name}","grade_posting_policy_tray_c929cfd":"سیاست ارسال سینی نمره","post_grades_tray_83f2fb2e":"ارسال سینی نمره ها","success_grades_have_been_posted_for_the_selected_s_54c73ef0":"موفقیت! نمرات برای بخش های منتخب ارسال شده است %{assignmentName}.","success_the_post_policy_for_name_has_been_updated_ea92283f":"موفق شدید! سیاست ارسال برای %{name} به‌هنگام سازی شده است.","there_was_a_problem_posting_assignment_grades_958669e8":"هنگام ارسال نمرات تکالیف مشکلی وجود دارد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignment_posting_policy_tray",
+  function() { return {"assignment_grades_will_be_visible_to_students_as_s_bfbea571":"\nنمرات تکلیف به محض ورود دانش آموزان قابل مشاهده خواهد بود.\nنمره هایی که قبلاً پنهان شده اند پنهان خواهند ماند","automatically_dff02416":"بطور خودکار","grades_will_be_hidden_by_default_any_grades_that_h_53a7fb03":"\nنمرات به طور پیش فرض پنهان می شوند. هر نمره ای که قبلاً پست کرده باشد قابل مشاهده خواهد بود.\nزمان ارسال نمرات برای این تکلیف را در دفتر نمرات انتخاب کنید.","manually_9de23e1f":"بطور دستی","once_a_grade_is_posted_manually_it_will_automatica_26aff290":"\nهنگامی که نمره ای به صورت دستی ارسال می‌شود، به طور خودکار اطلاعیه‌های جدید ارسال می‌کند و برای دانشجویان قابل مشاهده است.\nتغییرات نمرات آتی برای نمرات ارسال شده نیازی به ارسال دستی ندارند.","while_the_grades_for_this_assignment_are_set_to_ma_cb716ede":"تا زمانی که نمرات این تکلیف به صورت دستی تنظیم شده است، دانشجویان اطلاعیه‌های جدیدی در مورد آن‌ها دریافت نخواهند کرد یا قادر به دیدن آنها نیستند:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebookActionMenu",
+  function() { return {"export_de71cd8e":"صدور","export_in_progress_70db262a":"صدور در حال پردازش","gradebook_export_failed_reason_2b0f6c53":"صدور دفتر نمره انجام نشد: %{reason}","gradebook_export_started_723461b9":"صدور دفتر نمره شروع شد","previous_export_c6a997f7":"صدور قبلی","sync_to_name_6f04716d":"همگام سازی با %{name}","sync_to_sisname_f343e59":"همگام سازی با %{sisName}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebook",
+  function() { return {"a_z_243c3301":"A–Z","add_condition_2ac12ddd":"افزودن شرط","advanced_36b35b8":"پیشرفته","all_grades_hidden_3092d5b5":"همه نمره‌ها پنهان شدند","all_grades_posted_616a85ab":"همه نمره‌ها ارسال شد","all_ungraded_artifacts_ec3ba09":"همه مصنوعات درجه بندی نشده","allow_final_grade_override_8cf4336b":"به نمره نهایی اجازه بازنویسی داده شود","an_error_occurred_while_loading_late_policies_c415f676":"هنگام بارگذاری سیاست‌های دارای تأخیر خطایی رخ داد","an_error_occurred_while_saving_the_course_post_pol_b48976dc":"هنگام ذخیره کردن سیاست ارسال درس خطایی روی داد.","an_error_occurred_while_saving_your_settings_b503a31c":"هنگام ذخیره تنظیمات شما خطایی روی داد","an_error_occurred_while_updating_late_policies_a95b707f":"هنگام به روزرسانی سیاست‌های دارای تأخیر خطایی رخ داد","anonymous_assignments_are_hidden_by_default_and_wi_c8884e1e":"تکالیف ناشناس به طور پیش فرض پنهان هستند و حتی اگر تنظیمات درس روی خودکار تنظیم شود، باید به صورت دستی ارسال شوند.","anonymous_mode_on_2dd9b94a":"حالت ناشناس روشن است","anonymous_mode_on_feb53729":"حالت ناشناس روشن است:","applied_filters_63a90ccd":"فیلتر های اعمال شده:","apply_conditions_9e941010":"افزودن شروط","apply_missing_status_cd98e1d3":"وضعیت گمشده را اعمال کنید","apply_settings_10409ad9":"اعمال تنظیمات","apply_to_92f70c8c":"اعمال برای:","assignment_grades_will_be_visible_to_students_as_s_62975ef6":"\nنمرات تکلیف به محض ورود دانش آموزان قابل مشاهده خواهد بود.\nنمره هایی که قبلاً پنهان شده اند پنهان خواهند ماند","assignment_name_a_z_aeefaa36":"نام تکلیف- A-Z","assignment_name_z_a_34f92f4b":"نام تکلیف- Z-A","assignment_names_858b1880":"نام های تکلیف","automatically_apply_deduction_to_late_submissions_2b68166e":"به طور خودکار به ارسال‌هایی که دیر انجام شده، کسر اعمال شود","automatically_apply_grade_for_missing_submissions_2b5c1a72":"به طور خودکار به ارسال‌های از دست رفته، نمره اعمال شود","automatically_post_grades_29a7eff5":"ارسال نمرات بطور خودکار","avatar_for_author_2eabbf55":"آواتار برای %{author}","can_t_compute_score_until_an_assignment_has_points_f34dd600":"تا زمانی که یک تکلیف نمره های ممکن داشته باشد، نمره قابل محاسبه نیست","cancel_submitting_comment_2666e98b":"لغو ارسال نظر","cancel_updating_comment_6816d855":"لغو به‌روز رسانی نظر","changing_the_late_policy_will_affect_previously_gr_49071db7":"با تغییر دادن سیاست تأخیر، موردهای ارسالی که از قبل ارسال شده اند تحت تأثیر قرار خواهند گرفت.","close_submission_tray_c4988fa8":"بستن سینی موارد ارسالی","columns_464bd055":"ستون‌ها","concluded_63150003":"خاتمه یافته","concluded_enrollments_9da8da6":"ثبت نام‌های پایان یافته","create_new_filter_c244aa92":"ایجاد فیلتر جدید","curve_grades_b7a75443":"روی منحنی بردن نمره ها","day_9d999bec":"روز","default_order_8c409051":"ترتیب پیش فرض","delete_comment_comment_d32ffc85":"حذف نظر: %{comment}","delete_condition_622401ca":"حذف شرط","delete_filter_83ca1a6a":"حذف فیلتر","display_as_percentage_3e755dc":"نمایش به صورت درصدی","display_as_points_63084235":"نمایش به عنوان امتیازها","download_submissions_7454665f":"بارگیری موردهای ارسالی","dropped_38031953":"حذف شده","due_date_newest_to_oldest_35cffef9":"تاریخ مهلت - جدیدترین به قدیمی‌ترین","due_date_oldest_to_newest_73e62815":"تاریخ مهلت - قدیمی‌ترین به جدیدترین","due_to_the_size_of_your_course_you_must_select_a_s_f834ba66":"\nبا توجه به اندازه درس شما قبل از راه اندازی باید یک گروه دانشجویی را انتخاب کنید\nنمره گذاری سریع","edit_comment_comment_e74afa04":"ویرایش نظر: %{comment}","edited_date_b0455372":"(ویرایش شده) %{date}","enter_grades_as_e113e606":"وارد کردن نمره به عنوان","error_submitting_to_plagiarism_service_9b0748cb":"خطا در ارسال به سرویس سرقت ادبی","error_submitting_to_plagiarism_service_you_may_res_3c89e82d":"خطا در مورد ارسالی به سرویس سرقت ادبی. شما می توانید دوباره از نمره‌گذاری سریع ارسال کنید.","export_report_7c5899e":"گزارش صدور","filters_92f2776f":"فیلترها","final_grade_6e94d99e":"نمره نهایی:","first_last_name_9820d256":"نام کوچک، بزرگ","give_this_filter_a_name_36b4b03a":"به این فیلتر یک نام بدهید","grade_for_missing_submissions_56f91c83":"نمره برای موارد ارسالی موجود نیست","grade_high_to_low_1cea0381":"نمره- زیاد به کم","grade_low_to_high_1678b713":"نمره - کم به زیاد","grade_out_of_percentage_1972bf52":"نمره از %{percentage}","grade_out_of_points_d401b79d":"نمره از %{points}","grade_posting_policy_42c8a94b":"سیاست ارسال نمره","gradebook_settings_b45c6df9":"تنظیمات دفتر نمره","gradebook_settings_updated_fef63d60":"تنظیمات دفتر نمره به روز شد","grades_will_be_hidden_by_default_any_grades_that_h_b6fac5e5":"\nنمرات به طور پیش فرض پنهان می شوند. هر نمره ای که قبلاً پست کرده باشد قابل مشاهده خواهد بود.\nزمان ارسال نمرات برای هر تکلیف را در هر ستون در دفتر نمرات انتخاب کنید.","grading_scheme_f151d195":"ظرح نمره‌گذاری","has_submissions_6c12ef4c":"ارسالی دارد","hide_grades_5ff26682":"پنهان کردن نمرات","hide_outcomes_with_no_results_7e4ce06f":"مخفی کردن خروجی های بدون نتیجه","hour_34d02553":"ساعت","inactive_enrollments_3b84be3d":"ثبت نام‌های غیرفعال","individual_assignment_grade_posting_d8322b99":"ارسال نمره تکلیف انفرادی","individual_gradebook_c7de9821":"دفترچه نمرات انفرادی…","last_first_name_95a078f5":"نام خانوادگی، نام","late_penalty_78099d18":"جریمه تأخیر:","late_policies_42bac80":"سیاست‌های تأخیر","late_policies_fd5dced6":"سیاست‌های تأخیر","late_submission_deduction_5d7fa3cb":"کسر ارسال با تأخیر ","late_submission_deduction_must_be_numeric_5b3f468e":"کسر ارسال با تأخیر باید عددی باشد","leave_a_comment_7991725b":"اظهار نظر","letter_grade_29ff1938":"نمره با حروف الفبا","loading_comments_32366acf":"در حال بارگذاری نظرها","loading_gradebook_b0b75cd3":"بارگذاری دفتر نمره","lowest_possible_grade_ae5510be":"کمترین نمره ممکن","lowest_possible_grade_must_be_numeric_3d97659d":"کمترین نمره ممکن باید عددی باشد","manual_8c2665de":"راهنما","manually_post_grades_18248306":"ارسال نمرات بصورت دستی","message_students_who_57f07a41":"ارسال پیام برای دانشجویانی که","missing_policies_4f195e0b":"سیاست‌های از دست رفته","missing_submission_grade_must_be_numeric_1a142ef2":"نمره ارسال از دست رفته باید عددی باشد","module_first_to_last_6921f3ec":"ماژول- اول به آخر","module_last_to_first_8cdb7a8e":"ماژول- آخربه اول","move_to_end_c6bfbcf5":"انتقال به انتها","move_to_front_bf6f0194":"انتقال به جلو","name_options_bc5c95ce":"گزینه‌‌های %{name}","needs_grading_9143d47c":"نیاز به نمره گذاری دارد","next_assignment_8ec51175":"تکلیف بعدی","no_first_name_4b772708":"\u003cNo first name\u003e","no_grades_to_hide_6f51fc5b":"هیچ نمره‌ای برای پنهان شدن وجود ندارد.","no_grades_to_post_91425bfd":"هیچ نمره‌ای برای ارسال وجو ندارد.","no_last_name_62c3e5e2":"\u003cNo last name\u003e","not_calculated_in_final_grade_2b7d5bd1":"در نمره نهایی محاسبه نشده است","once_a_grade_is_posted_manually_it_will_automatica_bb90f67c":"هنگامی که نمره ای به صورت دستی ارسال می شود ، به طور خودکار اطلاعیه‌های جدید ارسال می کند و برای دانشجویان قابل مشاهده است.","only_ungraded_artifacts_that_are_past_due_eab9a83a":"فقط آثار نمره دهی نشدهای که سررسیدشان گذشته است","open_complete_incomplete_menu_cfe2033b":"منوی کامل / ناقص را باز کنید","open_grading_scheme_menu_5f889203":"باز کردن منو طرح نمره گذاری ","open_speedgrader_11604608":"بازکردن نمره گذاری سریع","open_submission_tray_4eb14e96":"باز کردن سینی ارسال","order_301c3ac1":"ترتیب","out_of_pointspossible_3fb5ee20":"از %{pointsPossible}","override_3de65b2c":"جایگزین کردن","percentage_34ab7c2c":"درصد","points_highest_to_lowest_87f1b143":"امتیازها- از بیشترین به کمترین","points_lowest_to_highest_45089e82":"امتیازها- از کمترین به بیشترین","post_grades_3e692d46":"ارسال نمره ها","previous_assignment_83d1f423":"تکلیف قبلی","re_upload_submissions_125e415d":"بارگذاری دوباره موردهای ارسالی","remove_condition_9cf94f7f":"شرایط را حذف کنید","rename_filter_c6cc8efc":"تغییر نام فیلتر","resubmitted_2080646f":"دوباره ارسال شده است.","save_label_6ed4a68e":"ذخیره برچسب","score_similarity_score_2c25b94b":"%{score}% امتیاز شباهت","select_condition_6e02d859":"شرط را انتخاب کنید","select_condition_type_aac7cf21":"نوع شرط را انتخاب کنید","select_student_group_c0be9f3e":"گروه دانشجو را انتخاب کنید","select_the_score_that_you_would_like_to_apply_to_u_a445c726":"امتیازی را که می خواهید برای درجه بندی نشده ی غیرواقعی اعمال کنید، انتخاب کنید. پس از اعمال، این عمل قابل بازگشت نیست.","set_default_grade_a202ebc1":"تعیین نمره پیش فرض","status_color_picker_9ea0156b":" انتخاب کننده رنگ %{status}","statuses_497dfa15":"وضعیت‌ها...","statuses_f41543d8":"وضعیت‌ها","student_name_c45b2a7":"نام دانشجو","student_name_options_cb029725":"گزینه‌های نام دانشجو","submission_is_being_processed_by_plagiarism_servic_df4aa603":"مورد ارسالی توسط سرویس سرقت ادبی در حال پردازش است.","submission_tray_429ac3df":"سینی موارد ارسالی","submissions_11e96106":"موردهای ارسالی","submit_comment_e5cc2718":"ارسال نظر","successfully_deleted_the_comment_a8bbe561":"این نظر حذف شد","successfully_updated_the_comment_946360d5":"نظر به روز رسانی شد","there_was_a_problem_creating_the_teacher_notes_col_dd73456f":"در هنگام ساخت ستون یادداشت‌های استاد مشکلی رخ داد.","there_was_a_problem_deleting_the_comment_93053aa9":"در هنگام حذف نظر اشکالی رخ داد","there_was_a_problem_hiding_the_teacher_notes_colum_3f03014":"در هنگام پنهان کردن ستون یادداشت‌های استاد، مشکلی رخ داد.","there_was_a_problem_loading_submissions_39855ff0":"هنگام بارگیری موارد ارسالی مشکلی رخ داد.","there_was_a_problem_showing_the_teacher_notes_colu_a6e4a2bc":"در هنگام نمایش ستون یادداشت‌های استاد، مشکلی رخ داد.","there_was_a_problem_updating_the_comment_5f3595b9":"در هنگام به‌روزرسانی نظر، مشکلی رخ داد","there_was_a_problem_updating_the_submission_6e5280a1":"در هنگام به روزرسانی مورد ارسالی، مشکلی رخ داد.","there_was_an_error_fetching_submission_comments_ce153077":"در هنگام ردیابی نظرات مورد ارسالی خطایی رخ داد","this_assignment_is_not_graded_576f1244":"این تکلیف نمره گذاری نشده است.","this_grade_differs_from_the_student_s_view_of_the__f78d0023":"این نمره از نمای دانشجو نسبت به نمره متفاوت است زیرا برخی از نمرات تکالیف هنوز ارسال نشده اند.","this_grade_has_negative_points_496400d4":"این نمره امتیازات منفی دارد","this_grade_is_invalid_8ab192c7":"این نمره نامعتبر است","this_grade_is_unusually_high_60533c20":"این نمره به طور غیر عادی زیاد است","this_is_not_a_valid_grade_9cc2cb8":"این یک نمره معتبر نیست","this_student_s_enrollment_has_been_concluded_f135b8e4":"ثبت نام این دانشجو پایان یافته است.","this_submission_has_plagiarism_data_for_multiple_a_335c881d":"این ارسال برای چندین پیوست دارای داده های سرقت ادبی است. برای دیدن همه گزارش ها ،  نمره گذاری سریع را باز کنید.","total_71a4807":"کل","total_options_351e2682":"کل گزینه‌ها","unable_to_access_specific_student_go_to_assignment_585e05e9":"دسترسی به دانشجو خاص امکان پذیر نیست. به تکلیف در برنامه نمره گذاری سریع بروید؟","ungraded_ed0c6f98":"نمره دهی نشده","unposted_8d9932ec":"ارسال نشده","unpublished_assignments_9cdbcc87":"تکلیف های منتشر نشده","update_comment_8cedb4f0":"به روزرسانی نظر","upload_successful_ca47465f":"بارگذاری موفقیت آمیز","view_options_f5503a84":"مشاهده گزینه ها","view_ungraded_as_0_1a9631a1":"بدون نمره ها را 0 نشان بده","view_ungraded_as_0_a9e87a54":"بدون نمره ها را 0 نشان بده","view_ungraded_as_zero_e19da657":"بدون نمره ها را صفر نشان بده","weight_of_grade_dff535d9":"%{weight} از نمره","while_the_grades_for_an_assignment_are_set_to_manu_457c38ff":"تازمانی که که نمرات یک تکلیف به صورت دستی تنظیم شده است ، دانشجویان اطلاعیه‌های جدیدی در مورد آن‌ها دریافت نخواهند کرد یا قادر به دیدن آن‌ها نیستند:","you_have_entered_an_invalid_grade_for_this_student_7c41e9bc":"شما برای این دانشجو یک نمره نامعتبر وارد کرده اید. مقدار و نوع نمره‌گذاری  را بررسی کنید و دوباره امتحان کنید.","z_a_be2ab67c":"Z–A"} },
+  function() { return {"gradebook_header_menu":{"assignment_details":"جزئیات تکلیف","curve_grades":"روی منحنی بردن نمره ها","download_submissions":"بارگیری موردهای ارسالی","message_students_who":"ارسال پیام برای دانشجویانی که...","re_upload_submissions":"بارگذاری دوباره موردهای ارسالی","set_default_grade":"تعیین نمره پیش فرض","speedgrader":"برنامه نمره گذاری سریع"},"header_filter":{"course_average":"میانگین درس","course_median":"میانه درس"},"outcome_gradebook":{"toggle_sidebar":"تغییر نوار کناری"},"section_to_show_menu":{"choose_a_section_to_show":"انتخاب یک بخش برای نمایش","showing_course":"در حال نمایش درس","showing_sections":"در حال نمایش *%{currentSection}*"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "score_does_not_include_groups_because_they_have_no_80d12f42",
+  null,
+  function() { return {"one":"نمره شامل %{groups} نیست زیرا آنها هیچ امتیاز ممکنی ندارند","other":"نمره شامل %{groups} نیست زیرا آنها هیچ امتیاز ممکنی ندارند"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebook_default_gradebook_components_content_filters_assignment_group_filter",
+  function() { return {"all_assignment_groups_a65e9e46":"همه گروه‌های تکلیف","assignment_group_filter_c03f8a1d":"فیلتر گروه تکلیف"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebook_default_gradebook_components_content_filters_grading_period_filter",
+  function() { return {"grading_period_filter_e1bf635a":"فیلتر دوره نمره‌گذاری"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebook_default_gradebook_components_content_filters_module_filter",
+  function() { return {"all_modules_20c9a1c8":"همه ماژول‌ها","module_filter_63b17d11":"فیلتر ماژول"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebook_default_gradebook_components_content_filters_student_group_filter",
+  function() { return {"all_student_groups_f74cd6c3":"همه گروههای دانشجویی","student_group_filter_185fb085":"فیلتر گروه دانشجویی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebook_constants",
+  function() { return {"assignment_groups_bc9cc3c9":"گروه های تکلیف","student_groups_863201c1":"گروه‌های دانشجویی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebookSharedGradebookexportManager",
+  function() { return {"an_export_is_already_in_progress_54270f01":"یک صدور در حال انجام است.","error_exporting_gradebook_msg_6ea31e2f":"خطا در صدور دفتر نمره: %{msg} ","no_way_to_export_gradebooks_provided_b4c2939d":"راهی برای صدور دفترهای نمره وجود ندارد!","no_way_to_monitor_gradebook_exports_provided_b451236a":"راهی برای نظارت بر صدور دفتر نمره وجود ندارد!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebookSharedScoreToUngradedManager",
+  function() { return {"a_process_is_already_in_progress_f4495f5e":"یک فرایند از قبل در حال انجام است.","msg_680333e2":"%{msg}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "modules",
+  function() { return {"a_file_named_name_already_exists_do_you_want_to_re_6536980":"یک فایل با عنوان \"%{name}\" از قبل موجود است. می خواهید با فایل موجود جایگزین شود؟","a_locked_file_named_name_already_exists_please_ent_3b2e65a":"یک مورد قفل شده به نام \"%{name}\" در حال حاضر در این مکان وجود دارد. لطفا یک نام جدید وارد کنید.","duplicating_module_9727f5e4":"ماژول تکراری...","duplicating_module_ae6670b0":"ماژول تکراری","ignore_assignment_738b3c99":"صرفنظر کردن از تکلیف","ignore_name_55edc6fe":"صرفنظر کردن از %{name}","ignore_these_3940f6f5":"صرفنظر کردن از اینها","name_error_fee4236":"خطای نام","no_assignment_name_adbb215b":"نام تکلیف موجود نیست","note_students_have_submitted_work_for_these_assign_7bc34e28":"نکته: دانشجویان کار خود برای این تکلیف ها که نمره گذاری نشده اند را ارسال نموده اند. اگر اکنون این نمره ها را ارسال کنید، باید نمره های آنها را بعد از نمره گذاری جدیدترین موردهای ارسالی آنها دوباره ارسال کنید.","sync_grades_to_sis_fd01f7fd":"همگام سازی نمره ها با سامانه اطلاعات دانشجو","ungraded_submissions_44efb0ec":"موردهای ارسالی نمره گذاری نشده","would_you_like_to_let_students_continue_in_the_cou_a4c36171":"مایلید به دانشجویان اجازه دهید به درس ادامه دهند یا می خواهید این ماژول ها را تا زمان تکمیل شدن الزامات جدید دوباره قفل کنید؟","you_have_changed_the_progression_requirements_for__6772bc89":"الزامات پیشرفت یک درس فعال را تغییر داده اید. ممکن است دانشجویانی باشند که به این ماژول یا سایر ماژول هایی که به آن وابسته اند پیشرفت کرده باشند."} },
+  function() { return {"assignments_to_grade":{"one":"%{count} تکلیف دارای موردهای ارسالی نمره گذاری نشده هستند","other":"%{count} تکلیف دارای موردهای ارسالی نمره گذاری نشده هستند"},"continue":"ادامه","progression_module_collection":{"module_progress_for":"پیشرفت ماژول برای *%{student.name}*","module_progress_for_student":"پیشرفت ماژول برای %{student.name}","no_modules_found":"هیچ ماژولی یافت نشد"},"progression_module_view":{"items":"موردها جهت تکمیل","items_below":"موردها جهت تکمیل در قسمت زیر"},"progression_student_view":{"show_progressions_for_student":"نمایش پیشرفت های مربوط به %{name}"},"progressions_index":{"back_to_modules":"بازگشت به صفحه ماژول ها","no_students_found":"هیچ دانشجویی یافت نشد","progression_header":"پیشرفت ماژول","student_progress":"پیشرفت دانشجو"},"relock_modules":"قفل کردن دوباره ماژول ها","requirements_changed":"الزامات تغییر یافت"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_assignments_with_errors_e8f3c18c",
+  null,
+  function() { return {"one":"1 تکلیف دارای خطا","other":"%{count} تکلیف دارای خطا","zero":"هیچ تکلیف دارای خطا موجود نیست، روی ادامه کلیک کنید"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "you_are_ready_to_sync_count_assignments_525eb8b1",
+  null,
+  function() { return {"one":"شما برای همگام کردن %{count} تکلیف حاضر هستید.","other":"برای همگام کردن %{count} تکلیف حاضر هستید."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "GroupSubmissionAlert",
+  function() { return {"keep_in_mind_this_submission_will_count_for_everyo_bb526d67":"به یاد داشته باشید، این مورد ارسالی برای همه افرادی که در گروه %{groupType} شما هستند، محاسبه خواهد شد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "conversations_2",
+  function() { return {"add_an_attachment_b2e9092f":"افزودن پیوست","add_as_a_faculty_journal_entry_55a38a30":"افزودن به عنوان ورودی ژورنال هیأت علمی","address_book_dbecc4a3":"فهرست نشانی","address_book_input_a0d8e76f":"ورودی فهرست نشانی","address_book_menu_c986b615":"منوی فهرست نشانی","are_you_sure_you_want_to_delete_your_copy_of_this__8490c9d4":"مطمئنید که می خواهید نسخه این پیام حذف شود؟ این اقدام را نمی توان لغو کرد.","compose_a_new_message_db3a68ed":"نوشتن پیام جدید","error_adding_files_97ba198e":"خطا در هنگام اضافه کردن فایل ها","error_adding_files_to_conversation_message_58e83876":"خطا در افزودن فایل به قسمت پیام مکالمات","error_loading_course_data_f056172b":"خطا در بارگیری داده های درس","error_loading_past_messages_4f142523":"خطا در بارگیری پیام های گذشته","error_occurred_while_adding_message_to_conversatio_3dafd0e5":"هنگام افزودن پیام به مکالمه خطایی روی داد","error_occurred_while_creating_conversation_message_43751479":"هنگام ایجاد پیام مکالمه خطایی رخ داد","error_uploading_files_db354fa9":"خطا در بارگذاری فایل ها.","error_uploading_files_f709361f":"خطا در بارگذاری فایل ها","file_upload_9cae6da5":"بارگذاری فایل","filter_messages_by_course_21a53fc4":"فیلتر کردن پیام ها بر اساس درس","forward_d143f64":"ارسال به دیگری","loading_message_list_226a131e":"در حال بارگیری لیست پیام ها","mark_all_as_read_a995ffbe":"همه را به عنوان خوانده شده علامت بزن","mark_all_as_unread_10e7f0fe":"علامت گذاری همه به عنوان خوانده نشده","message_body_1f782712":"متن پیام","more_options_e89670cf":"گزینه‌های دیگر","no_conversations_selected_ebcd9226":"گفتگو انتخاب نشده است","no_results_found_2ace1494":"نتیجه ای یافت نشد","not_selected_57866888":"انتخاب نشده","not_starred_98931190":"ستاره دار نیست","open_address_book_41ce8576":"دفترچه آدرس را باز کنید","open_conversation_a6590865":"گفتگو را باز کنید","participantcount_less_8d258f6":"%{participantCount} کمتر","participantcount_more_50363e55":"%{participantCount} بیشتر","record_an_audio_or_video_comment_88425add":"ضبط یک نظر صوتی یا تصویری","record_upload_media_comment_4d01b943":"ضبط/بارگذاری نظر رسانه ای","reply_all_80298bee":"پاسخ به همه","reply_all_b864cd0e":"پاسخ به همه","select_course_5b549441":"انتخاب درس","selected_de3a8019":"انتخاب شده","send_an_individual_message_to_each_recipient_e9ddaeb8":"ارسال پیام جداگانه برای هر گیرنده","sending_message_ba2f0f0e":"ارسال پیام","star_8d156e09":"ستاره دار کردن","unarchive_f245e2d6":"لغو بایگانی","unstar_b84daaef":"برداشتن ستاره"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "jobs_v2",
+  function() { return {"count_40eced3b":"تعداد","failed_at_61f5fb71":"انجام نشد در","failed_at_f471dfd3":"انجام نشد در","failed_jobs_b632bbf0":"کار های شکست خورده","future_jobs_cf2964a1":"مشاغل آینده","handler_7912052f":"گرداننده","id_290feb5":"شناسه","job_category_f8e4dfe7":"طبقه بندی مشاغل","job_details_b33137dc":"جزئیات شغل","job_grouping_f652413e":"گروه بندی مشاغل","jobs_ec5d59d8":"کارها","last_error_a3832668":"آخرین خطا","last_failed_at_b714ff2e":"آخرین تلاش ناموفق در","locked_at_cda02889":"قفل شده در","locked_by_983c07f7":"قفل شده توسط","max_attempts_ae7b90bc":"حداکثر تلاش ها","max_concurrent_a6f135c":"حداکثر همزمان","max_run_time_6022a5f1":"حداکثر زمان اجرا","max_wait_time_dc158bf1":"حداکثر زمان انتظار","next_run_at_635de64a":"در اجرای بعدی","no_job_selected_d6c5e6f4":"هیچ کاری انتخاب نشده است","num_days_1c5c91b6":"%{num} روزها","original_job_id_d81afbb3":"شناسه کار اصلی","priority_dd4381ee":"اولویت","run_at_759b47d":"اجرا در","run_at_92dd90df":"اجرا در","run_time_370dedb6":"زمان اجرا","running_jobs_9861080e":"کارهای در حال اجرا","shard_5d340495":"خرده","show_e0cb4667":"(نمایش)","singleton_46df7e3b":"مجرد","singletons_99a47787":"مجردها","strand_955969b1":"رشته","tag_7bb005ff":"برچسب","tags_2b72a03b":"برچسب ها","wait_time_4c8f74a2":"زمان انتظار"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "jobs",
+  null,
+  function() { return {"columns":{"attempt":"تلاش","count":"تعداد","id":"شناسه","priority":"اولویت","run_at":"اجرا در","runtime":"زمان اجرا","strand":"رشته","tag":"برچسب","worker":"کارگر"},"confirm":{"destroy_all":"مطمئنید که می خواهید *همه* این نوع کارها و مطابق با این جستجو از بین بروند؟","hold_all":"مطمئنید که می خواهید *همه* این نوع کارها و مطابق با این جستجو حفظ شوند؟","unhold_all":"مطمئنید که می خواهید حفظ *همه* این نوع کارها و مطابق با این جستجو لغو شود؟"},"titles":{"job_handler":"گرداننده کار","last_error":"آخرین خطا"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "empty_course",
+  function() { return {"all_subject_navigation_has_been_disabled_f06b0154":"تمام پیمایش موضوع غیرفعال شده است."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "empty_home",
+  function() { return {"manage_home_4fc3480b":"مدیریت خانه","manage_home_for_coursename_5e5c7661":"مدیریت خانه برای %{courseName}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "empty_modules",
+  function() { return {"your_modules_will_appear_here_after_they_re_assemb_bfd5abe8":"ماژول های شما پس از اجماع در اینجا ظاهر می شوند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "grade_details",
+  function() { return {"grades_for_coursename_f5c92045":"نمره ها برای %{courseName}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "grade_row",
+  function() { return {"_e59b5cb1":"—","gpa_3931582b":"- معدل","gpa_gpa_4ade5b09":"%{gpa} معدل","late_date_178cba25":"با تأخیر %{date}","not_graded_e78bcd50":"نمره گذاری نشده","view_feedback_b88c99c":"مشاهده بازخورد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "grades_empty_page",
+  function() { return {"you_don_t_have_any_grades_yet_373f731f":"شما هنوز هیچ نمره ای ندارید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "k5_course",
+  function() { return {"confirm_unenrollment_64333263":" تأیید لغو ثبت نام","drop_this_subject_ced1b10a":"رها کردن این موضوع","join_this_subject_ef4b8845":"به این موضوع بپیوندید","manage_subject_coursecontext_2328e1ff":"مدیریت موضوع: %{courseContext}","manage_subject_f9835769":"مدیریت موضوع","student_view_ac9b672f":"نمای دانشجو"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "overview_page",
+  function() { return {"edit_home_page_ee907de9":"ویرایش صفحه اصلی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "filter_calendars_modal",
+  function() { return {"selected_calendars_cc7f325b":"تقویم های منتخب"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "dashboard_grades_page",
+  function() { return {"loading_grades_446fc226":"بارگذاری نمرات..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "grades_summary",
+  function() { return {"grade_for_course_ccc8513c":"نمره برای %{course}","not_graded_e027c866":"نمره گذاری نشده"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "homeroom_page",
+  function() { return {"loading_card_4b812198":"در حال بارگذاری کارت","my_subjects_61936afb":"موضوعات من"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "important_dates",
+  function() { return {"hide_important_dates_c23d2102":"تاریخ های مهم را پنهان کنید","important_dates_304e306a":"تاریخ های مهم","loading_important_date_2d3a29ce":"در حال بارگیری تاریخ مهم","select_calendars_to_retrieve_important_dates_from_26dc92b7":"برای بازیابی تاریخ های مهم، تقویم ها را انتخاب کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "important_dates_empty",
+  function() { return {"waiting_for_important_things_to_happen_5d2e2f18":"منتظر اتفاقات مهم باشید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "k5_dashboard",
+  function() { return {"homeroom_12546f9c":"کلاس درس","important_dates_tray_fa41a025":"سینی تاریخ های مهم","welcome_name_a16afa7f":"%{name}، خوش آمدید!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "k5_dashboard_card",
+  function() { return {"missing_missing_c1010432":"%{missing} گم شده","new_announcement_title_30ba7c1b":"اطلاعیه جدید : %{title}","nothing_due_today_26217223":"امروز هیچ سررسیدی نیست","nothing_else_due_7f8436af":"هیچ چیز دیگری وجود ندارد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "todo",
+  function() { return {"grade_assignment_7c1abc11":"نمره گذاری %{assignment}","ignore_assignment_until_new_submission_424f8f01":"تا ارسال جدید %{assignment} را نادیده بگیر","multiple_due_dates_47416f7a":"(سررسید چندگانه)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_submissions_need_grading_d34bae25",
+  null,
+  function() { return {"one":"%{count} مورد ارسالی به نمره گذاری نیاز دارد","other":"%{count} مورد ارسالی به نمره گذاری نیاز دارد"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "OutcomeManagement",
+  function() { return {"account_standards_a657d5e2":"استانداردهای حساب","add_all_outcomes_6a12d08e":"افزودن تمام نتایج","add_outcome_title_ce9dff87":"افزودن نتیجه %{title}","add_outcomes_36272787":"افزودن نتایج","added_e8a39b2":"اضافه شد","added_outcome_title_3c258a9":" نتیجه %{title} اضافه شد. ","all_grouptitle_outcomes_dcc565d1":"همه ی %{groupTitle} نتایج ","an_error_occurred_while_loading_selected_group_8b80d3d5":"هنگام بارگیری گروه انتخابی خطایی روی داد.","cannot_be_blank_c4e30496":"نباید خالی باشد","create_outcome_4dac05a0":"ایجاد نتیجه","enter_name_or_code_b4c103f6":"نام یا شناسه را وارد کنید","enter_your_friendly_description_here_b3c230d3":"توضیحات دوستانه خود را در اینجا وارد کنید","expand_description_for_outcome_title_abc8f30":"توضیحات را برای نتیجه گسترش دهید %{title}","friendly_name_601153fb":"نام دوستانه","from_grouptitle_860dff95":"از %{groupTitle}","loading_grouptitle_dba362d2":"بارگذاری %{groupTitle}","mastery_at_cf0c477b":"تسلط در","must_be_255_characters_or_less_e8e7f25e":"باید 255 نویسه یا کمتر باشد","outcomes_selected_e9f87772":"نتایج انتخاب شده است","remove_d83a966c":"حذف:","remove_group_5d2f2f2d":"حذف گروه","remove_group_981d6a02":"حذف گروه؟","search_field_234156fc":"فیلد جستجو","select_a_location_4eb17e4b":"یک مکان را انتخاب کنید","select_another_group_24773e5f":"گروه دیگری را انتخاب کنید","select_outcome_title_b99b3ca0":"انتخاب نتیجه %{title}","state_standards_c9b1affd":"استانداردهای استانی","view_description_b6d8e52b":"مشاهده توضیحات"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "LearningMasteryGradebook",
+  function() { return {"not_assessed_2b87bfd0":"ارزیابی نشده است","showing_1ac6ed70":"در حال نمایش:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "learning_mastery_gradebook",
+  function() { return {"ascending_b3c87427":"صعودی","descending_b7828162":"نزولی","inactive_enrollments_bd1831ea":"ثبت نام های غیر فعال","show_contributing_scores_7674c46f":"نمایش امتیازات مشارکتی","sort_outcome_column_c53702ed":"مرتب سازی ستون نتیجه","sort_students_1a561e98":"مرتب سازی دانشجویان"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebookOutcomeGradebookView",
+  function() { return {"there_was_an_error_fetching_outcome_results_45c57590":"در جستجوی موارد نتیجه خطایی وجود داشت"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebookSectionMenuView",
+  null,
+  function() { return {"all_sections":"همه بخش‌ها"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "license_help",
+  null,
+  function() { return {"content_license_help":"راهنمای مجوز دادن به محتوا"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "pseudonyms",
+  function() { return {"your_password_recovery_instructions_will_be_sent_t_1b7991f5":"دستورالعمل های بازیابی رمز عبور شما به *%{email_address}* ارسال می شود. این ممکن است تا 30 دقیقه طول بکشد. حتما جعبه اسپم خود را بررسی کنید."} },
+  function() { return {"login":{"invalid_login":"ورود معتبر نیست","invalid_password":"رمز عبور معتبر نیست","parent_signup":"ثبت نام والدین"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "react_collaborations",
+  function() { return {"add_collaboration_da9665ac":"افزودن همکاری","collaboration_ce3e2bac":"+ همکاری","collaborations_are_web_based_tools_to_work_collabo_6e9f7b3f":"همکاری ها ابزارهای تحت وب برای همکاری در انجام اموری مانند یادداشت برداری یا نگارش مقاله های گروهی هستند. با کلیک کردن روی دکمه «+ همکاری» شروع به کار کنید.","collaborations_are_web_based_tools_to_work_collabo_8ae6dd38":"همکاری ها ابزارهای تحت وب برای همکاری در انجام اموری مانند یادداشت برداری یا نگارش مقاله های گروهی هستند. با افزودن یک برنامه همکاری شروع به کار کنید.","delete_collaboration_23035eaf":"حذف همکاری","edit_collaboration_b014c18b":"ویرایش همکاری","getting_started_with_collaborations_794240ba":"شروع به کار با همکاری ها","learn_more_about_collaborations_2978f66d":"با همکاری ها بیشتر آشنا شوید","load_more_results_460f49a9":"Load more results","loading_collaborations_e6c5f262":"در حال بارگذاری همکاری ها","no_collaboration_apps_3bbd30ce":"برنامه همکاری موجود نیست","remove_collaborationtitle_c3e81adb":"حذف \"%{collaborationTitle}\"?","yes_remove_86a61759":"بله, حذف","you_have_no_collaboration_apps_configured_talk_to__6733123a":"هیچ یک از برنامه های همکاری شما پیکربندی نشده است. برای دریافت برخی تنظیمات با استاد خود صحبت کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "manage_avatars",
+  null,
+  function() { return {"errors":{"update_failed":"بهنگام سازی انجام نشد، لطفا دوباره سعی کنید"},"messages":{"updating":"درحال بهنگام سازی..."},"prompts":{"delete_avatar":"مطمئنید که می خواهید عکس رخ نمای این کاربر حذف شود؟","lock_avatar":"قفل کردن این تصویر، آن را بهتر خواهد کرد و از بهنگام سازی آن توسط کاربر جلوگیری خواهد کرد. ادامه می دهید؟"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "groups",
+  function() { return {"an_error_occurred_when_cloning_the_group_set_8e80da6b":"هنگام کپی کردن مجموعه گروه خطایی روی داد.","cannot_restrict_by_section_unless_groups_are_empty_662d3144":"نمی‌تواند با توجه به بخش، محدود شود مگر اینکه گروه خالی نباشد و یا اندازه آن محدود نباشد","change_existing_group_2c91a32b":"تغییر دادن گروه‌ موجود","create_new_group_set_13b1f62a":"ایجاد مجموعه گروه جدید","drag_and_drop_or_click_to_browse_your_computer_2b46a2b6":"بکشید و رها کنید، یا برای مرور رایانه کلیک کنید","group_saved_successfully_fcd5ca66":"گروه با موفقیت ذخیره شد!","import_groups_3a2ae14b":"وارد کردن گروه ها","invitation_only_9a253f1d":"فقط از طریق دعوت نامه","members_are_free_to_join_defa5929":"اعضا برای پیوستن به گروه آزاد هستند","must_have_at_least_1_group_per_section_9809e708":"باید حداقل یک گروه به ازای هر بخش داشته باشد","percent_complete_a7f6d403":"درصد تکمیل شد","warning_you_are_about_to_adjust_this_group_s_membe_a04281b6":"هشدار! شما در شرف تنظیم عضویت این گروه هستید. * این تغییر بر موارد ارسالی گروه موجود، یادآوری‌های و نظرات تأثیر می گذارد و منجر به از دست رفتن داده‌ها برای هر دو گروه و گروه قبلی دانشجو  می شود. *** برای جلوگیری از عواقب ناخواسته با موارد ارسالی گروه‌های موجود، یک مجموعه گروه جدید برای تکالیف بعدی ایجاد کنید. **","your_groups_are_being_created_50156e34":"گروه های شما در حال ایجاد هستند."} },
+  function() { return {"create_group_set":"ایجاد مجموعه گروه","delete_confirm":"مطمئنید که می خواهید این مجموعه گروه حذف شود؟","edit_group_set":"ویرایش مجموعه گروه","everyone":"همه افراد (%{count})","flash":{"removeError":"قادر به حذف مجموعه گروه نیست، لطفا بعدا دوباره سعی کنید.","removed":"مجموعه گروه با موفقیت حذف شد."},"group_limit_number":"حداکثر ظرفیت گروه باید یک عدد باشد","groups_count":"گروه ها (%{count})","manage":{"add_unassigned_menu":{"add_unassigned_student":"افزودن دانشجوی تخصیص داده نشده","add_unassigned_user":"افزودن کاربر تخصیص داده نشده","search_people":"جستجوی افراد"},"add_unassigned_user":{"add_to_group":"افزودن کاربر به گروه","add_user_to_group":"افزودن کاربر %{name} به این گروه"},"add_unassigned_users":{"no_users_found":"کاربری یافت نشد","too_short":"لطفا یک عبارت جستجو با 3 یا چند نویسه وارد کنید"},"assign_to_group_menu":{"add_to_group":"افزودن به گروه","all_groups_full":"ظرفیت همه گروه ها تکمیل است. %{br}","all_groups_full_suggestion":"حداکثر ظرفیت گروه را تغییر دهید یا گروه های بیشتر اضافه کنید.","assign_user_to_group":"تخصیص دادن کاربر به این گروه","assign_user_to_group_name":"تخصیص دادن کاربر به گروه %{name}","no_groups_created":"قبل از این که بتوان کاربران را اضافه کرد، گروه ها باید ایجاد شوند."},"auto_leadership_controls":{"auto_first_group_leader":"قرار دادن اولین دانشجو برای پیوستن به عنوان سرگروه","auto_group_leader":"تخصیص دادن خودکار یک سرگروه دانشجویی","auto_random_group_leader":"تعیین یک دانشجوی تصادفی به عنوان سرگروه","leadership":"ریاست"},"group_categories":{"account_group_explanation":"گروه های دانشجویی در سطح حساب، روش خوبی برای گروه بندی دانشجویان بدون داشتن وابستگی به یک درس خاص هستند. هر گروه دانشجویی تقویم، صفحه بحث و ابزارهای همکاری مخصوص به خود را دریافت می کند تا بتواند خود را سازماندهی کند و به طور مؤثرتر با گروه های دیگر همکاری نماید.","course_group_explanation":"گروه های دانشجویی روش مفیدی برای سازماندهی دانشجویان برای چیزهایی مانند پروژه ها یا مقاله های گروهی هستند. هر گروه دانشجویی تقویم، صفحه بحث و ابزارهای همکاری مخصوص به خود را دریافت می کند تا بتواند خود را سازماندهی کند و با گروه های دیگر به طور مؤثرتر همکاری نماید. ","group_assignment_instructions":"می توانید دانشجویان را به طور تصادفی به گروهایی با یک اندازه خاص تخصیص دهید، یا گروه ها را به طور دستی ایجاد و سازماندهی کنید. وقتی گروه های شما ایجاد شدند، می توانید تکلیف ها را به عنوان تکلیف های «ارسالی گروه» تعیین کنید، بدین معنا که هر گروه یک مورد ارسالی برای همه کاربران این گروه خواهد داشت.","group_set":"مجموعه گروه","headings":{"account_groups":"گروه های دانشجویی در سطح حساب","course_groups":"گروه‌های دانشجویی","groups":"گروه ها"},"tabs":{"everyone":"همه"}},"group_category":{"search_groups":"جستجوی گروه ها","search_users":"جستجوی کاربران"},"group_category_clone":{"cancel":"لغو"},"group_category_create":{"allow_self_signup":"اجازه دادن برای ثبت نام شخصی","cancel":"لغو","create_groups":"اکنون گروه های %{num_groups} ایجاد شوند","create_groups_later":"بعداً گروه می‌سازم","group_set_name":"نام مجموعه گروه","group_structure":"ساختار گروه","leave_group_limit_blank":"برای عدم محدودیت، خالی بگذارید","limit_group_size":"محدود کردن گروه ها به اعضای %{group_limit}","require_same_section":"نیازمند این است که اعضای گروه در بخش یکسانی باشند","save":"ذخیره سازی","saving":"در حال ذخیره سازی...","self_signup":"ثبت نام شخصی","split_into_groups":"تقسیم دانشجویان به %{num_groups} گروه"},"group_category_detail":{"category_settings":"تنظیمات","delete_category_option":"حذف","edit_category_option":"ویرایش","group":"گروه","group_limit_blurb":"گروه ها به *%{group_limit}* عضو محدود شده اند.","import":"وارد کردن","message_all_unassigned_option":"ارسال پیام برای همه دانشجویان تخصیص داده نشده","randomly_assign_students_option":"تخصیص دادن تصادفی دانشجویان","restricted_self_signup_blurb":"همه دانشجویان یک گروه باید در بخش یکسانی باشند.","self_organized_warning":"این گروه ها توسط خود دانشجویان سازماندهی شده اند. بر خلاف انواع دیگر گروه ها، دانشجویان می توانند همزمان در بیش از یک گروه عضو باشند تا از این گروه ها برای تکلیف های نمره گذاری شده استفاده نشود.","self_signup_blurb":"ثبت نام شخصی برای این گروه ها فعال شده است.","settings":"تنظیمات","uncategorized_groups":"این گروه ها به هیچ گروه خاصی مرتبط نیستند. زیرا از طریق سامانه اطلاعات دانشجو وارد شده اند، فقط می توان آنها را از طریق سامانه اطلاعات دانشجو بهنگام سازی یا حذف کرد."},"group_category_edit":{"allow_self_signup":"اجازه دادن برای ثبت نام شخصی","cancel":"لغو","group_limit_override":"با تغییر دادن این مورد، هر گونه محدودیت گروهی تعیین شده توسط فرد جایگزین خواهد شد","group_set_name":"نام مجموعه گروه","leave_group_limit_blank":"برای عدم محدودیت، خالی بگذارید","limit_group_size":"محدود کردن گروه ها به %{group_limit} عضو","require_same_section":"نیازمند این است که اعضای گروه در بخش یکسانی باشند","save":"ذخیره سازی","saving":"در حال ذخیره سازی..."},"group_detail":{"add_user_to_group":"تخصیص دادن کاربر به گروه","group_delete":"حذف","group_edit":"ویرایش","group_full":"کامل","group_leader":"سرگروه","group_settings":"تنظیمات","show_group_details":"نمایش اطلاعات گروه %{name}","visit_group_homepage":"بازدید از صفحه اصلی گروه"},"group_user":{"assign_user_to_group":"تخصیص دادن %{name} به یک گروه","edit_group_membership":"ویرایش عضویت %{name}'s","group_leader":"سرگروه","move":"انتقال به...","move_to_new_group":"انتقال %{name} به یک گروه جدید","remove":"حذف","remove_as_leader":"حذف به عنوان سرگروه","remove_from_group":"حذف %{name} از گروه","remove_user_as_leader":"حذف %{name} به عنوان سرگروه","set_as_leader":"تعیین به عنوان سرگروه","set_user_as_leader":"تعیین %{name} به عنوان سرگروه"},"group_users":{"add_student":"برای شروع به کار، یک دانشجو اضافه کنید.","add_user":"برای شروع به کار، یک کاربر اضافه کنید.","greater_than_three":"لطفا یک عبارت جستجو با سه یا چند نویسه وارد کنید","no_matching_students":"هیج دانشجویی مطابقت ندارد.","no_matching_users":"هیج کاربری مطابقت ندارد.","no_students":"در حال حاضر، هیچ دانشجویی در این گروه وجود ندارد.","no_users":"در حال حاضر هیچ کاربری در این گروه وجود ندارد."},"groups":{"no_groups":"در حال حاضر، هیچ گروهی در این مجموعه گروه وجود ندارد. برای شروع به کار، یک گروه بیفزایید.","no_matching_groups":"هیچ گروهی که با عبارت جستجوی فعلی شما مطابقت داشته باشد، وجود ندارد."},"randomly_assign_members":{"cancel":"لغو","randomly_assign_students_dialog":"این امر به طور خودکار همه دانشجویانی تخصیص داده نشده را تا حد امکان به طور مساوی در بین گروه های دانشجویی موجود تخصیص خواهد داد."},"self_signup_help":{"about_self_signup_groups":"درباره گروه های ثبت نام شخصی","self_signup_description":"می توانید مجموعه هایی از گروه ها را ایجاد کنید که خود دانشجویان بتوانند در آنها ثبت نام کنند. دانشجویان هنوز محدود به عضویت در تنها یک گروه در مجموعه هستند، ولی به این طریق می توانند به جای نیاز به اینکه استاد آنها را در گروه ها سازماندهی کنند، خودشان این کار را انجام دهند. توجه داشته باشید تا هنگامی که این گزینه فعال باشد، دانشجویان می توانند خود را از یک گروه به گروه دیگر انتقال دهند.\n "}},"positive_group_count":"تعداد گروه ها باید عددی مثبت باشد","randomly_assigning_members":"تخصیص تصادفی دانشجویان"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "GroupDetailView",
+  function() { return {"count_max_students_2db76773":"%{count} / %{max} دانشجو","count_max_users_bdebb537":"%{count} / %{max} کاربر"} },
+  function() { return {"delete_confirm":"مطمئنید که می خواهید این گروه حذف شود؟","flash":{"removeError":"قادر به حذف این گروه نیست. لطفا دوباره سعی کنید.","removed":"گروه با موفقیت حذف شد."},"student_count":{"one":"%{count} دانشجو","other":"%{count} دانشجو"},"user_count":{"one":"%{count} کاربر","other":"%{count} کاربر"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "GroupUsersView",
+  function() { return {"move_student_49d6bc9d":"انتقال دانشجو","removed_user_as_group_leader_bb69330f":"%{user} به عنوان سرگروه حذف شد","user_is_now_group_leader_60ec9b98":"%{user} اکنون سرگروه است"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "CanvasMediaPlayer",
+  function() { return {"your_media_has_been_uploaded_and_will_appear_here__8546af57":"رسانه شما آپلود شده است و پس از پردازش در اینجا ظاهر می شود."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "messages",
+  null,
+  function() { return {"dialog":{"title":"ارسال پیام پاسخ"},"messages":{"failure":"در هنگام ارسال نامه الکترونیکی شما، خطایی رخ داد. لطفا صفحه را دوباره بارگذاری کنید و دوباره سعی کنید.","success":"نامه الکترونیکی شما در حال ارسال است."},"send_form":{"labels":{"message_body":"پیام","send_button":"ارسال"}}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "pseudonyms_mobile_login",
+  null,
+  function() { return {"parent_signup":"ثبت نام والدین"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "quizzes",
+  function() { return {"add_quiz_cebfa28b":"افزودن آزمون","an_error_occurred_while_migrating_405ac0b5":"در هنگام انتقال، خطایی رخ داد.","answer_answerid_97fc4afc":"پاسخ دادن به %{answerId}","copy_quiz_to_course_74f9c8c1":"کپی امتحان به دوره","delete_quiz_142b8099":"حذف آزمون","edit_mastery_paths_for_title_label_41d81451":"ویرایش مسیرهای تسلط برای %{title_label}","edit_quiz_ededddd8":"ویرایش آزمون","migrate_67c9f753":"انتقال","migrate_quiz_5d0f777":"انتقال آزمون","migration_in_progress_6f0ed4f9":"انتقال در حال پیشرفت","options_for_title_label_17f821ff":"گزینه های %{title_label}","quiz_settings_4e17f005":"تنظیمات آزمون","send_quiz_to_user_e8c47177":"ارسال امتحان به کاربر","student_extensions_d35a907":"تمدیدهای دانشجو","view_question_banks_188a9e0f":"مشاهده مخزن های پرسش","you_have_been_given_extra_time_on_this_attempt_9d8bff6c":"برای این اقدام، وقت اضافی به شما داده شده است","your_time_for_this_quiz_has_been_reduced_394652e9":"زمان شما برای این آزمون کاهش یافته است."} },
+  function() { return {"file_uploaded_or_removed":{"quizzes":{"file_successfully_uploaded":"فایل شما با موفقیت بارگذاری شده است.","files_removed":"%{display_name} حذف شده است."}},"index":{"confirms":{"delete_quiz":"مطمئنید که می خواهید این آزمون حذف شود؟"},"flash":{"fail":"حذف آزمون انجام نشد.","removed":"آزمون با موفقیت حذف شد."},"multiple_due_dates":"چند تاریخ"},"index_view":{"links":{"manage_question_banks":"مدیریت مخزن های پرسش","publish_multiple_quizzes":"انتشار چند آزمون"},"quizzes_title":"آزمون ها","search_for_quiz":"جستجوی آزمون"},"ldb_login_popup":{"email":"پست الکترونیکی","log_in":"ورود","logged_out_of_canvas":"*از کانواس خارج شده اید.* برای ادامه، لطفا وارد شوید.","password":"رمز عبور","titles":{"log_in":"لطفا وارد شوید"}},"moderate":{"buttons":{"extend_time":"تمدید مهلت","extending_time":"در حال تمدید مهلت...","save":"ذخیره سازی","save_failed":"ذخیره سازی انجام نشد، لطفا دوباره سعی کنید","save_failed_n_updates_lost":"ذخیره سازی انجام نشد، %{n} دانشجو بهنگام سازی نشد","saving":"در حال ذخیره سازی...","time_extension_failed":"تمدید مهلت انجام نشد، لطفا دوباره سعی کنید"},"confirms":{"taking_time_away":"این زمان کمتر از زمانی است که دانشجو اکنون در اختیار دارد. با این وجود ادامه می دهید؟"},"errors":{"quiz_submission_extra_attempts_not_a_number":"تلاش های بیشتر باید یک عدد باشد.","quiz_submission_extra_attempts_too_long":"تلاش های بیشتر باید کمتر از 1000 باشد.","quiz_submission_extra_attempts_too_short":"تلاش های بیشتر باید بیشتر از 0 باشد.","quiz_submission_extra_time_not_a_number":"زمان بیشتر باید یک عدد باشد.","quiz_submission_extra_time_too_long":"زمان بیشتر باید کمتر از 10080 باشد.","quiz_submission_extra_time_too_short":"زمان بیشتر باید بزرگتر از 0 باشد.","server_communication_failed":"در هنگام برقراری ارتباط با سرور اشکالی رخ داد. سیستم بعد از پنج دقیقه دوباره تلاش خواهد کرد یا اینکه می توانید صفحه را دوباره بارگذاری کنید."},"extensions_for_student":"تمدیدها برای %{student}","extensions_for_students":{"one":"تمدیدها برای %{count} دانشجو","other":"تمدیدها برای %{count} دانشجو"},"finished_in_duration":"ظرف %{duration} پایان یافت","time_up":"وقت تمام شد!","titles":{"autosubmit_dialog":"موردهای ارسالی معوق آزمون","extend_quiz_time":"تمدید مهلت آزمون","student_extensions":"تمدیدهای دانشجو"}},"no_quizzes_view":{"headers":{"course_quizzes":"آزمو‌ن‌های درس"},"no_quizzes":"هیچ آزمونی در دسترس نیست"},"quiz_item_group_view":{"no_quizzes":"هیچ آزمونی یافت نشد","no_surveys":"نظرسنجی یافت نشد"},"quiz_submission":{"titles":{"this_is_an_external_element":"یک عنصر بیرونی است، نه متن، و از زمان ارسال دانشجو، ممکن است تغییر یافته باشد","this_is_an_external_frame":"یک چهارچوب بیرونی است، نه متن، و از زمان ارسال دانشجو ممکن است تغییر یافته باشد","this_is_an_image":"یک تصویر است، نه متن، و از زمان ارسال دانشجو، ممکن است تغییر یافته باشد"}},"rubric":{"loading":"در حال بارگذاری...","titles":{"details":"اطلاعات دستورالعمل ارزیابی تکلیف"}},"show":{"answers":{"correct":"درست است!","correct_answers":"پاسخ های درست","incorrect":"نادرست","partial":"جزئی","right":"پاسخ درست","unanswered":"پاسخ داده نشده","you_answered":"پاسخ دادید"},"buttons":{"already_published":"منتشر شد!","publishing":"درحال انتشار..."},"confirms":{"delete_quiz":"مطمئنید که می خواهید این آزمون حذف شود؟","delete_quiz_submissions_warning":{"one":"هشدار: %{count} دانشجو قبلا این آزمون را داده اند. اگر آن را حذف کنید، هر گونه مورد ارسالی تکمیل شده حذف می شود و دیگر در دفتر نمره ظاهر نمی شود.","other":"هشدار: %{count} دانشجو قبلا این آزمون را داده اند. اگر آن را حذف کنید، هر گونه مورد ارسالی تکمیل شده حذف می شود و دیگر در دفتر نمره ظاهر نمی شود."}},"links":{"hide_student_quiz_results":"مخفی کردن نتایج آزمون دانشجو","hide_student_survey_results":"مخفی کردن نتایج نظرسنجی دانشجو","show_student_quiz_results":"نمایش نتایج آزمون دانشجو","show_student_survey_results":"نمایش نتایج نظرسنجی دانشجو"},"students_who_have_not_taken_the_quiz":"دانشجویانی که امتحان نداده اند","students_who_have_taken_the_quiz":"دانشجویانی که امتحان داده اند"},"take_quiz":{"confirms":{"cant_go_back_blank":"بعد از اینکه روی بعدی بزنید، نمی توانید به این پرسش برگردید. مطمئنید که می خواهید آن را خالی بگذارید؟","navigate_away":"در حال خروج از این صفحه هستید. با این وجود، ادامه می دهید؟","unanswered_questions":{"one":"%{count}} پرسش بی پاسخ دارید (برای کسب اطلاعات بیشتر، به نوار کناری سمت راست مراجعه کنید) . به هر حال ارسال می کنید؟","other":"%{count}} پرسش بی پاسخ دارید (برای کسب اطلاعات بیشتر، به نوار کناری سمت راست مراجعه کنید) . به هر حال ارسال می کنید؟"},"unfinished_quiz":"در حال خروج از آزمون ناتمام هستید. با این وجود، ادامه می دهید؟","unseen_questions":{"one":"هنوز %{count} پرسش هست که ندیده اید. با این وجود ارسال شود؟","other":"هنوز %{count} پرسش هست که ندیده اید. با این وجود ارسال شود؟"}},"days_count":{"one":"%{count} روز","other":"%{count} روز"},"errors":{"connection_lost":"اتصال به %{host} انجام نشد. لطفا مطمئن شوید که قبل از ادامه به اینترنت وصل شده اید.","only_numerical_values":"فقط مقادیر عددی قابل قبول است"},"hide_time_link":"مخفی کردن","hours_count":{"one":"%{count} ساعت","other":"%{count} ساعت"},"labels":{"time_elapsed":"زمان سپری شده"},"login_failed":"ورود انجام نشد.","login_successful":"ورود موفقیت آمیز.","minutes_count":{"one":"%{count} دقیقه","other":"%{count} دقیقه"},"months_count":{"one":"%{count} ماه","other":"%{count} ماه"},"notices":{"due_date_five_minutes_left":"پنج دقیقه تا اینکه آزمون با برچسب تأخیر مشخص شود، باقیمانده است","due_date_one_minute_left":"یک دقیقه تا اینکه آزمون با برچسب دارای تأخیر مشخص شود، باقیمانده است","due_date_thirty_minutes_left":"سی دقیقه تا اینکه آزمون با برچسب دارای تأخیر مشخص شود، باقیمانده است","submission_five_minutes_left":"این آزمون ظرف پنج دقیقه ارسال خواهد شد","submission_one_minute_left":"این آزمون ظرف یک دقیقه ارسال خواهد شد","submission_thirty_minutes_left":"این آزمون ظرف سی دقیقه ارسال خواهد شد"},"question_answered":"پاسخ داده شده","question_unanswered":"هنوز پاسخ نداده شده است","saved_at":"آزمون در %{t} ذخیره شد","saving":"در حال ذخیره سازی...","saving_not_needed":"داده جدید برای ذخیره سازی موجود نیست. آخرین بار در %{t} بازبینی شد","seconds_count":{"one":"%{count} ثانیه","other":"%{count} ثانیه"},"show_time_link":"نمایش","titles":{"come_back_later":"شما این پرسش را علامت زده اید تا دوباره به آن بازگردید","times_up":"وقت تمام شد!"},"years_count":{"one":"%{count} سال","other":"%{count} سال"}},"timing":{"labels":{"time_elapsed":"زمان سپری شده","time_remaining":"زمان باقیمانده"}}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "TourPoints",
+  function() { return {"access_canvas_training_videos_and_courses_ea43173a":"دسترسی به درس‌ها و ویدئوهای آموزشی کانوس","access_your_courses_and_groups_using_any_ios_or_an_cdb6ad63":"با استفاده از هر دستگاه تلفن همراه iOS یا Android به درس‌ها و گروه‌های خود دسترسی پیدا کنید و اطلاعات بیشتری را در منوی راهنما بیابید.","add_people_and_courses_to_canvas_5c4bfff9":"افراد و درس‌ها را به کانواس اضافه کنید","admin_tour_36d89fbb":"تور مدیریت","get_your_content_online_9546ecff":"محتوای خود را آنلاین دریافت کنید","hello_name_cabdd4ce":"سلام %{name}! ","how_do_i_contact_my_instructor_184e35ed":"چگونه با مربی خود تماس بگیرم؟","how_do_i_download_the_student_app_4a4b8a63":"چگونه اپلیکیشن دانشجویی را دانلود کنم؟","how_do_i_find_my_courses_b826e4ce":"چگونه درس های خود را پیدا کنم؟","not_now_afa29fa7":"الان نه","set_up_video_conferencing_and_other_tools_1a94a350":"ویدئو کنفرانس و ابزارهای دیگر را تنظیم کنید","set_up_video_conferencing_c0049abe":"ویدئو کنفرانس را تنظیم کنید","set_up_your_canvas_course_in_30_minutes_or_less_94817b6d":"درس کانواس خود را در 30 دقیقه یا کمتر تنظیم کنید.","set_up_your_notifications_568ecf91":"اعلان‌های خود را تنظیم کنید","set_up_your_notifications_9c005279":"اعلان‌های خود را تنظیم کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "common",
+  function() { return {"expand_global_navigation_2c28d5d4":"بسط دادن پیمایش سراسری","minimize_global_navigation_2d839351":"به حداقل رساندن پیمایش سراسری"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "createTicketForm",
+  function() { return {"extreme_critical_emergency_80b3dbda":"وضعیت بحرانی حاد!","file_a_ticket_for_a_personal_response_from_our_sup_1e1ffaff":"برای دریافت یک پاسخ شخصی از طرف تیم پشتیبانی ما یک بلیت رزرو کنید.","for_an_instant_answer_see_if_your_issue_is_address_48280e89":"برای پاسخ سریع، ببینید آیا مشکل شما در راهنمای *راهنماهای کانواس* مطرح شده است.","how_is_this_affecting_you_b3b6a639":"چطور شما را تحت تاثیر قرار می دهد؟","i_cannot_get_things_done_until_i_hear_back_from_yo_83ba46b7":"من نمی توانم کاری انجام بدهم تا زمانی که پیغامی از شما دریافت کنم","i_need_some_help_but_it_is_not_urgent_d967ea0a":"من به کمک نیاز دارم، اما اضطراری نیست","include_a_link_to_a_screencast_screenshot_using_so_4b2fabcb":"با استفاده از چیزی شبیه به *Jing*، یک پیوند به یک ضبط ویدیویی از صفحه/نماگرفت درج کنید.","just_a_casual_question_comment_idea_or_suggestion_1579d069":"فقط یک پرسش، نظر، ایده یا پیشنهاد تصادفی","please_select_one_f931e883":"لطفا یک مورد را انتخاب نمایید","something_is_broken_but_i_can_work_around_it_for_n_7fcedb9d":"اشکالی به وجود آمده است، اما اکنون می توانم آن را برطرف کنم.","submit_ticket_5515ffd":"ارسال بلیت","ticket_successfully_submitted_f6254460":"بلیت ارسال شد.","your_email_address_f881e583":"نشانی پست الکترونیکی شما"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "HelpLinks",
+  function() { return {"customize_this_menu_efa72a9":"این منو را سفارشی کنید","show_welcome_tour_a105aa2e":"خوش آمدگویی تور نمایشی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "TeacherFeedbackForm",
+  function() { return {"ask_your_instructor_a_question_a61ca5e9":"پرسیدن یک سؤال از استاد","loading_courses_bd1bffe":"در حال بارگذاری درس ها...","message_sent_f4cba0c":"پیام ارسال شد.","message_will_be_sent_to_all_the_teachers_and_teach_1b8d17c1":"پیام برای همه اساتید و دستیارهای آموزشی درس ارسال خواهد شد.","which_course_is_this_question_about_f819a158":"این پرسش مربوط به کدام درس است؟"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "LogoutButton",
+  function() { return {"logout_a9312e35":"خروج"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "MobileNavigation",
+  function() { return {"disabled_not_visible_to_students_2c9d693f":"غیرفعال. برای دانشجویان قابل مشاهده نیست.","loading_f99d93d4":"...در حال بارگذاری","no_content_not_visible_to_students_905f8996":"محتوایی یافت نشد، برای دانشجویان قابل مشاهده نیست."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "MobileGlobalMenu",
+  function() { return {"history_cd3f60a9":"تاریخچه","login_6f3d6249":"ورود","my_dashboard_8983c283":"داشبورد من"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "Navigation",
+  function() { return {"admin_tray_3b680e7b":"سینی مدیر","courses_tray_cec46d6e":"سینی درسها","global_navigation_tray_35612e2e":"سینی پیمایش سراسری","groups_tray_ef3e2649":"سینی گروهها","profile_tray_bcec5044":"سینی رخ‌نما","show_badges_for_new_release_notes_b2035bbb":"نشان‌ها را برای یادداشت‌های انتشار جدید نشان دهید","title_tray_ec9f7488":"سینی %{title}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "CoursesTray",
+  function() { return {"unpublished_courses_4299148e":"درس های منتشر نشده","welcome_to_your_courses_to_customize_the_list_of_c_f95e4b2":"به درس‌های خود خوش آمدید! برای شخصی سازی لیست درس‌ها، روی پیوند \"همه درس‌ها\" کلیک کنید و دوره ها را برای نمایش ستاره گذاری کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "ProfileTray",
+  function() { return {"hi_contrast_373b614f":"کنتراست بالا","user_profile_picture_46bffbc7":"تصویر رخ نمای کاربر"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "new_user_tutorial",
+  function() { return {"assess_student_understanding_1e0b8d7f":"درک دانش آموزان را ارزیابی کنید","collapse_tutorial_tray_66ee7dc1":"جمع کردن سینی خودآموز","don_t_show_again_8c7b7297":"مجددا نشان نده","enable_face_to_face_connection_9df19b76":"اتصال چهره به چهره را فعال کنید","encourage_student_discourse_7836b9f7":"گفتمان دانشجویی را تشویق کنید","end_course_set_up_tutorial_f358b85d":"پایان دادن به خودآموز راه اندازی درس","enter_and_distribute_grades_c1216df":"نمرات را وارد و توزیع کنید","expand_tutorial_tray_22630c49":"گسترش سینی خودآموز","host_virtual_lectures_in_real_time_150cef95":"میزبانی سخنرانی های مجازی در زمان واقعی","how_do_i_add_a_module_65f5bf13":"چگونه یک ماژول اضافه کنم؟","how_do_i_add_a_rubric_in_a_course_a4c7a40":"چگونه می توانم یک روبریک در یک درس اضافه کنم؟","how_do_i_add_a_rubric_to_an_assignment_46fd097e":"چگونه یک روبریک به یک تکلیف اضافه کنم؟","how_do_i_add_an_announcement_in_a_course_63396bb7":"چگونه می توانم یک اطلاعیه در دوره اضافه کنم؟","how_do_i_add_an_image_to_a_course_card_in_the_dash_c869a3d7":"چگونه می توانم یک تصویر به کارت درس در داشبورد اضافه کنم؟","how_do_i_add_assignment_types_pages_and_files_as_m_c1a520a6":"چگونه می توانم انواع تکلیف، صفحات و فایل ها را به عنوان آیتم های ماژول اضافه کنم؟","how_do_i_add_or_edit_details_in_an_assignment_fa779906":"چگونه جزئیات را در یک تکلیف اضافه یا ویرایش کنم؟","how_do_i_add_users_to_a_course_4a88efaf":"چگونه کاربران را به درس اضافه کنم؟","how_do_i_adjust_events_and_due_dates_in_a_course_i_4647c50b":"چگونه رویدادها و سررسیدها را در واردات دوره تنظیم کنم؟","how_do_i_align_an_outcome_with_a_rubric_in_a_cours_d9c8f009":"چگونه می توانم یک نتیجه را با یک روبریک در یک درس هماهنگ کنم؟","how_do_i_bulk_upload_files_to_a_course_b145d8cc":"چگونه فایل ها را به صورت انبوه در یک درس ارسال کنم؟","how_do_i_change_a_course_name_and_course_code_23b41292":"چگونه نام دوره و کد رشته را تغییر دهم؟","how_do_i_change_the_course_home_page_326cee50":"چگونه صفحه اصلی درس را تغییر دهم؟","how_do_i_conclude_a_conference_689d60dc":"چگونه یک کنفرانس را جمع بندی کنم؟","how_do_i_create_a_discussion_as_an_instructor_fa6c26d6":"چگونه می توانم به عنوان یک مدرس گفتگو ایجاد کنم؟","how_do_i_create_a_new_page_in_a_course_37a87285":"چگونه می توانم یک صفحه جدید در درس ایجاد کنم؟","how_do_i_create_a_quiz_with_individual_questions_4a68ce0d":"چگونه می توانم یک امتحان با سوالات فردی ایجاد کنم؟","how_do_i_create_an_assignment_35532b59":"چگونه یک تکلیف ایجاد کنم؟","how_do_i_create_an_outcome_for_a_course_cf0ea2b3":"چگونه می توانم یک نتیجه برای یک درس ایجاد کنم؟","how_do_i_invite_others_to_join_a_meeting_d09bfd6c":"چگونه دیگران را برای پیوستن به یک جلسه دعوت کنم؟","how_do_i_move_or_reorder_a_module_e64a4baa":"چگونه می توانم یک ماژول را جابجا یا دوباره سفارش دهم؟","how_do_i_record_a_conference_e4845e7":"چگونه یک کنفرانس را ضبط کنم؟","how_do_i_record_a_meeting_ae3a0d4e":"چگونه یک جلسه را ضبط کنم؟","how_do_i_reply_to_a_discussion_as_an_instructor_399fdaff":"چگونه به عنوان یک مدرس به بحث پاسخ دهم؟","how_do_i_select_specific_content_as_part_of_a_cour_11fe2c8d":"چگونه محتوای خاصی را به عنوان بخشی از واردات دوره انتخاب کنم؟","how_do_i_share_my_screen_c280e585":"چگونه صفحه نمایش خود را به اشتراک بگذارم؟","how_do_i_start_a_conference_52792795":"چگونه صفحه نمایش خود را به اشتراک بگذارم؟","know_your_users_5c1323be":"کاربران خود را بشناسید","new_analytics_f6147886":"تحلیل جدید","see_more_in_canvas_guides_fc90a457":"موارد بیشتر را در راهنمای کانواس ببینید","turning_off_this_tutorial_will_remove_the_tutorial_dfd81b3a":"غیر فعال کردن این آموزش، سینی آموزش را از نمای همه درس‌های شما حذف خواهد کرد. این مورد می‌تواند در زیر قسمت گزینه‌های ویژگی در تنظیمات کاربری شما، دوباره فعال شود. ","what_are_announcements_52175539":"اطلاعیه ها چیست؟","what_are_collaborations_27c20a98":"همکاری ها چیست؟","work_and_create_together_c65f358b":"کار و ایجاد با هم"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "new_user_tutorials",
+  function() { return {"announcements_tutorial_tray_994287d6":"سینی خودآموز اطلاعیه ها","assignments_tutorial_tray_4cc844b":"سینی خودآموز تکلیف ها","collaborations_tutorial_tray_9219d9d":"سینی خودآموز همکاری","conferences_tutorial_tray_6f071ce2":"سینی خودآموز کنفرانس‌ها","discussions_tutorial_tray_4ef79bcc":"سینی خودآموز بحث‌ها","files_tutorial_tray_3ad1eea6":"سینی خودآموز فایل‌ها","gradebook_tutorial_tray_d835c750":"سینی خودآموز دفتر نمره","home_tutorial_tray_66826983":"سینی خودآموز صفحه اصلی","import_tutorial_tray_8b92e956":"ورود سینی خودآموز","modules_tutorial_tray_d58ac3cb":"سینی خودآموز ماژول ها","outcomes_tutorial_tray_ebfce995":"سینی آموزش نتایج","pages_tutorial_tray_169464a9":"سینی خودآموز صفحه ها","people_tutorial_tray_a87a6c48":"سینی خودآموز افراد","quizzes_tutorial_tray_6f87cdd3":"سینی خودآموز آزمون‌ها","settings_tutorial_tray_6f37761b":"سینی خودآموز تنظیمات","syllabus_tutorial_tray_97e8ef82":"سینی خودآموز سرفصل","zoom_tutorial_tray_5dcb7fc":"سینی خودآموز بزرگنمایی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "not_found_index",
+  function() { return {"we_couldn_t_find_that_page_34068c1d":"ما نتوانستیم آن صفحه را پیدا کنیم!","whoops_looks_like_nothing_is_here_f5c7dd44":"اوه ... به نظر می رسد چیزی اینجا نیست!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "not_found_page_space_invaders",
+  function() { return {"game_over_104baa":"بازی تمام شد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "OutcomeAlignmentDeleteLink",
+  function() { return {"can_t_delete_alignments_based_on_rubric_associatio_1a10fcce":"\nنمی توان  تطبیق ها را بر اساس ارتباط‌های دستورالعمل ارزیابی حذف کرد.\nبرای حذف این ارتباطات باید ردیف را از دستورالعمل ارزیابی دارایی حذف کنید\" ","delete_alignment_f33c97d5":"حذف تطبیق"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "FindOutcomesModal",
+  function() { return {"add_outcomes_to_account_4647776f":"افزودن نتایج به حساب کاربری ","add_outcomes_to_course_88ba09be":"افزودن نتایج به درس","add_outcomes_to_groupname_8c33d118":"افزودن نتایج به \"%{groupName}\"","all_outcomes_from_grouptitle_have_been_successfull_38e3c33c":"تمام نتایج از %{groupTitle} با موفقیت به این دوره اضافه شده است.","all_outcomes_from_grouptitle_have_been_successfull_6267efe4":"همه نتایج از %{groupTitle} با موفقیت به%{targetGroupTitle} اضافه شد.","all_outcomes_from_grouptitle_have_been_successfull_cb6ad008":"همه نتایج از%{groupTitle} با موفقیت به این حساب اضافه شده است.","an_error_occurred_while_editing_this_group_please__8f4eeefe":"هنگام ویرایش گروه خطایی روی داد. لطفا دوباره تلاش کنید.","group_description_f142b1e5":"توضیحات گروه","grouptitle_was_successfully_updated_658f725e":"\"%{groupTitle}\" با موفقیت به روز شد.","save_yourself_a_lot_of_time_by_only_adding_the_out_33293248":"اضافه کردن نتایجی که مختص محتوای درس شما است، در زمان خود صرفه جویی کنید.","select_a_group_to_reveal_outcomes_here_91883028":"گروهی را برای نشان دادن نتایج در اینجا انتخاب کنید.","select_an_outcome_group_6edb08a7":"نتیجه یک گروه را انتخاب کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "ImportConfirmBox",
+  function() { return {"import_anyway_8c996ef6":"در هر حالت وارد کن"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "MoveOutcomesModal",
+  function() { return {"an_error_occurred_while_moving_this_group_please_t_4f3baa9f":"هنگام انتقال این گروه خطایی روی داد. لطفا دوباره تلاش کنید.","move_grouptitle_20927676":"انتقال \"%{groupTitle}\"","where_would_you_like_to_move_this_group_e4ddd778":"دوست دارید این گروه را به کجا منتقل کنید؟"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "MasteryScale",
+  function() { return {"final_score_53278fd0":"نمره نهایی:","http_response_code_832d6baa":"HTTP Response: %{code}","item_scores_9fbfe956":"امتیازات مورد:","mastery_calculation_5fd5f5fe":"تسلط در محاسبات","parameter_91ed199":"پارامتر"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "ProficiencyRating",
+  function() { return {"change_description_34c49853":"شرح را تغییر دهید","change_mastery_f4d43c07":"تسلط را تغییر دهید","change_points_9e5104ac":"امتیازها را تغییر دهید","delete_proficiency_rating_5436ee08":"رتبه مهارت را حذف کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "ProficiencyTable",
+  function() { return {"account_proficiency_ratings_saved_292d9239":"رتبه بندی مهارت حساب ذخیره شد","add_proficiency_rating_d819f6b8":"رتبه مهارت را اضافه کنید","added_mastery_level_dd4792d1":"سطح تسلط را اضافه شد","added_new_proficiency_rating_e30cab8a":"رتبه مهارت جدید اضافه شده است","an_error_occurred_while_loading_account_proficienc_c7d6568b":"هنگام بارگیری رتبه بندی های مهارت حساب خطایی روی داد: %{m}","an_error_occurred_while_loading_account_proficienc_d38554c8":"هنگام بارگیری رتبه بندی های مهارت حساب خطایی روی داد","an_error_occurred_while_saving_account_proficiency_43e7fb6a":"هنگام ذخیره سازی رتبه بندی های مهارت حساب خطایی روی داد","customize_learning_mastery_ratings_4ace142a":"رتبه بندی‌های تسلط یادگیری  را سفارشی کنید.","get_started_b9507525":"شروع به کار","mastery_levels_7d4ee512":"سطوح تسلط","points_must_be_less_than_previous_rating_bc627bec":"امتیازها باید کمتر از رتبه قبلی باشند","proficiency_rating_deleted_77827473":"رتبه مهارت حذف شده است","proficiency_ratings_2bbabdcd":"رتبه‌های مهارت","save_learning_mastery_82889d8b":"تسلط یادگیری را دخیره کنید","set_up_how_your_proficiency_ratings_appear_inside__8139bb81":"\nچگونگی نمایش رتبه‌های مهارت داخل دفتر نمره تسلط یادگیری خود را  تنظیم کنید.\nتعداد رتبه بندی‌ها، سطح تسلط، امتیاز و رنگ‌ها را تنظیم کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "modelsPageView",
+  null,
+  function() { return {"browsers":{"unrecognized":"مرورگر ناشناس"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "PageViews",
+  function() { return {"filter_by_date_c076a845":"فیلتر براساس تاریخ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "page_views",
+  null,
+  function() { return {"table":{"headers":{"date":"Date","participated":"شرکت شده","time":"زمان","url":"نشانی اینترنتی","user_agent":"نماینده کاربر"}}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "past_global_announcements",
+  function() { return {"active_announcements_6b67f33b":"اطلاعیه های فعال"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions",
+  function() { return {"delete_role_label_succeeded_1690aa28":"حذف نقش %{label} با موفقیت انجام شد.","expand_permission_b45bf097":"گسترش %{permission}","failed_to_create_new_role_e336e461":"نقش جدید ایجاد نشد","failed_to_delete_role_label_27959de3":"نقش حذف نشد %{label}","failed_to_update_permission_33c493f":"مجوز به روز نشد","failed_to_update_role_name_8c7b0119":"نام نقش به روز نشد","shrink_permission_74b01aed":"کوچک شدن %{permission}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_permissions_found_1a926f7d",
+  null,
+  function() { return {"one":"یک مجوز موجود است","other":"%{count} مجوز موجود است"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_v2_add_tray",
+  function() { return {"a_role_name_is_required_47efd33":"نام نقش لازم است","cannot_add_role_name_name_already_in_use_a523639c":"نمی توان نام نقش را اضافه کرد  به %{name}:  درحال استفاده است.","new_account_role_6e5c4964":"نقش حساب جدید","new_course_role_6a7bb75f":"نقش درس جدید","saving_new_role_458f4ba8":"ذخیره نقش جدید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permission_button",
+  function() { return {"disabled_and_locked_d14dc6c2":"غیرفعال و قفل شده","enabled_and_locked_49ff3de4":"فعال و قفل شده","partially_enabled_and_locked_9a39d38a":"تا حدی فعال و قفل شده است","partially_enabled_cd506819":"تا حدی فعال است"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_v2",
+  function() { return {"account_roles_10fea071":"نقش های حساب","add_role_3dc4d273":"افزودن نقش","course_roles_d2d5d666":"نقش های درس","search_permissions_915bbd09":"مجوزهای جستجو","value_added_1846cc30":"%{value} اضافه شده","value_removed_bba9430c":"%{value} حذف شده"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_role_tray",
+  function() { return {"assigned_permissions_6f6fecb6":"مجوزهای تخصیص داده شده","assigned_roles_ace6c950":"نقش های اختصاص داده شده","based_on_basedon_d6e4f4d7":"بر اساس: %{basedOn}","cannot_change_role_name_to_label_already_in_use_c8126e4e":"نمی توان نام نقش را تغییر داد به %{label}: درحال استفاده است.","click_ok_to_continue_deleting_this_role_baa9d9e2":"برای ادامه حذف این نقش ، روی \"ok\" کلیک کنید.","edit_label_769ed6c5":"ویرایش%{label}","last_changed_b544504d":"آخرین تغییر:","no_explainer_text_available_9d9a2f3c":"متن توضیحی موجود نیست","unassigned_permissions_6a38ca95":"مجوزهای تخصیص داده نشده","unassigned_roles_cb9e95ec":"نقش های اختصاص نیافته","warning_all_permissions_will_change_to_match_the_s_e3c9819f":"هشدار: همه مجوزها متناسب با نقش پایه انتخاب شده تغییر می کنند.","warning_if_there_are_any_users_with_this_role_they_1a7c1fef":"اخطار:اگر کاربرانی با این نقش وجود داشته باشند، مجوزهای فعلی را نگه خواهند داشت، اما قادر نخواهید بود کاربران جدیدی با این نقش ایجاد کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_role_tray_table_row",
+  function() { return {"expand_permission_c61d5958":"بازکردن دسترسی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_detail_sections",
+  function() { return {"additional_considerations_f3801683":"ملاحظات اضافی","what_it_does_74ec1339":"چه کار میکند"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_1",
+  function() { return {"observers_course_83850091":"ناظران (دوره)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_2",
+  function() { return {"allows_user_to_act_as_other_users_in_the_account_195628ae":"به کاربر اجازه می دهد مانند سایر کاربران در حساب عمل کند.","allows_user_to_view_login_ids_in_a_course_people_p_b2cfd83e":"به کاربر اجازه می دهد تا شناسه های ورود به سیستم را در \"صفحه افراد\"  یک درس  مشاهده کند.","api_7bd66e19":"API","the_roles_api_refers_to_this_permission_as_become__bededd25":"نقش‌ها API به این مجوز به عنوان تبدیل شدن به_کاربر رجوع می کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_3",
+  function() { return {"allows_user_to_create_collaborations_b4f214bf":"به کاربر اجازه می دهد تا همکاری ایجاد کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_5",
+  function() { return {"to_create_announcements_discussions_moderate_must__8a8278f2":"برای ایجاد اطلاعیه‌ها ، گفتگوها - تعدیل سازی نیز باید فعال شود."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_6",
+  function() { return {"allows_user_to_generate_a_pairing_code_on_behalf_o_9ea9bb0a":"به کاربر اجازه می دهد تا از طرف دانشجو یک رمز جفتی برای اشتراک با یک بیننده ایجاد کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_8",
+  function() { return {"add_delete_edit_7dbc9c5b":"افزودن / حذف / ویرایش","add_delete_manage_d65e235":"افزودن / حذف / مدیریت","add_manage_conclude_delete_publish_reset_8a5aa902":"اضافه کردن / مدیریت / خاتمه دادن / حذف / انتشار / تنظیم مجدد","add_remove_in_courses_d65aaee3":"افزودن / حذف در دوره ها"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_10",
+  function() { return {"allows_user_to_import_sis_data_583b20a5":"به کاربر اجازه می دهد تا اطلاعات سامانه اطلاعات دانشجو را وارد کند.","not_available_at_the_subaccount_level_6ee9b41f":"در سطح زیر حساب موجود نیست"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_11",
+  function() { return {"allows_user_to_manually_add_and_delete_an_app_in_a_402d3d91":"به کاربر اجازه می دهد تا یک برنامه را در تنظیمات حساب به صورت دستی اضافه و حذف کند.","allows_user_to_manually_add_and_delete_an_app_in_c_18250cad":"به کاربر اجازه می دهد تا یک برنامه را در تنظیمات درس به صورت دستی اضافه و حذف کند.","external_apps_account_course_settings_78de2b2f":"برنامه های خارجی (حساب، تنظیمات درس)","external_apps_course_settings_1f045644":"برنامه های خارجی (تنظیمات دوره)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_13",
+  function() { return {"allows_user_to_add_and_remove_other_account_admins_7834ea9a":"به کاربر اجازه می دهد تا مدیر حساب دیگر را اضافه و حذف کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_14",
+  function() { return {"allows_user_to_access_the_theme_editor_26691f9a":"به کاربر اجازه می دهد تا به ویرایشگر تم دسترسی داشته باشد.","allows_user_to_view_and_manage_authentication_opti_e1bb0ad3":"به کاربر امکان می دهد گزینه های تأیید اعتبار را برای کل حساب مشاهده و مدیریت کند.","allows_user_to_view_and_manage_subaccounts_for_the_37d5120b":"به کاربر امکان می دهد زیر حساب های حساب را مشاهده و مدیریت کند.","allows_user_to_view_and_manage_terms_for_the_accou_4547d971":"به کاربر اجازه می دهد شرایط  حساب را مشاهده و مدیریت کند.","allows_user_to_view_and_manage_the_settings_and_no_e223e6b8":"به کاربر اجازه می دهد تا برگه تنظیمات و اعلان ها را در تنظیمات حساب مشاهده و مدیریت کند.","authentication_1b518c38":"اعتبارسنجی","not_all_settings_options_are_available_at_the_suba_20efaa98":"همه گزینه های تنظیمات در سطح زیر حساب ، از جمله برگه اعلان ها در دسترس نیست.","reports_account_settings_78f5336a":"گزارش (تنظیمات حساب)","subaccount_navigation_account_settings_add9eff9":"پیمایش زیر حساب (تنظیمات حساب)","terms_4d979628":"نیمسال ها","to_view_the_reports_tab_courses_view_usage_reports_d371ec85":"برای مشاهده برگه گزارشات, درسها - گزارش های استفاده نیز باید فعال شوند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_15",
+  function() { return {"allows_user_to_add_edit_and_delete_global_announce_8463e383":"به کاربر اجازه می دهد اطلاعیه های عمومی را اضافه ، ویرایش و حذف کند.","announcements_account_4e9df626":"اطلاعیه ها (حساب کاربری)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_17",
+  function() { return {"allows_user_to_add_new_question_banks_to_a_course__9731f87d":"به کاربر اجازه می دهد تا بانک سوالات جدید را به یک درس یا حساب اضافه کند.","allows_user_to_add_new_question_banks_to_a_course_a18a410a":"به کاربر اجازه می دهد تا بانک سوالات جدید را به یک درس اضافه کند.","allows_user_to_add_quizzes_in_a_course_80916c02":"به کاربر اجازه می دهد تا آزمون ها را در یک درس اضافه کند.","allows_user_to_delete_assignments_in_a_course_b0f220c4":"به کاربر اجازه می دهد تکالیف یک دوره را حذف کند.","allows_user_to_delete_quizzes_in_a_course_acdbdfba":"به کاربر اجازه می دهد تا آزمون ها را در یک دوره حذف کند.","allows_user_to_weight_assignment_groups_95cb11b2":"به کاربر اجازه می دهد تا گروه های وزنی را تعیین کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_16",
+  function() { return {"question_banks_account_navigation_9a7ab7c2":"بانک های سوال (پیمایش حساب)","to_differentiate_assignments_to_individual_student_6cc40fde":"برای تمایز تکالیف به تک تک دانشجویان، لیست نمایش کاربران - نیز باید فعال باشد","to_moderate_a_quiz_grades_edit_must_also_be_enable_72ca6ca1":"برای تعدیل یک آزمون، نمرات - ویرایش نیز باید فعال باشد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_18",
+  function() { return {"allows_user_to_add_edit_and_delete_events_in_the_c_14413268":"به کاربر اجازه می‌دهد تا رویدادها را در تقویم درس اضافه، ویرایش و حذف کند.","allows_user_to_create_and_manage_appointments_on_t_393e9e84":"به کاربر اجازه می‌دهد با استفاده از زمانبند قرارهای ملاقات را در تقویم ایجاد و مدیریت کند.","regardless_of_whether_this_permission_is_enabled_o_a16e31b5":"صرف نظر از فعال یا غیرفعال بودن این مجوز، کاربران همچنان قادر به مدیریت رویدادها در تقویم شخصی خود خواهند بود.","scheduler_65b5ac91":"زمان بند","scheduler_must_be_enabled_by_your_canvas_admin_7508c8c2":"زمان بند باید توسط مدیر کانواس شما فعال شود.","scheduler_must_be_enabled_for_your_account_e6e53972":"زمان بند باید برای حساب شما فعال باشد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_19",
+  function() { return {"allows_user_to_copy_individual_course_items_to_ano_46ba40d6":"به کاربر این امکان را می‌دهد که آیتم‌های درسی را در درس دیگری کپی کند.","allows_user_to_edit_the_course_syllabus_a28ff262":"به کاربر جهت ویرایش سرفصل درس اجازه داده شود.","allows_user_to_import_content_using_the_course_imp_4a4ec4c7":"به کاربر اجازه می دهد با استفاده از ابزار ورود درس محتوا را وارد کند.","allows_user_to_view_previously_created_collaborati_d3a37402":"به کاربر اجازه می دهد تا همکاری های ایجاد شده قبلی را مشاهده کند.","attendance_ca433183":"حضور","chat_2153c6b7":"گفتگو","course_home_page_5c61dba7":"صفحه اصلی درس","the_attendance_tool_must_be_enabled_by_your_canvas_108e6dca":"ابزار حضور و غیاب باید توسط مدیر کانواس شما فعال شود.","the_chat_tool_must_be_enabled_by_your_canvas_admin_e3b26123":"ابزار گفتگو باید توسط مدیر کانواس شما فعال شود.","the_course_status_buttons_unpublished_and_publishe_e2dca595":"دکمه‌های وضعیت درس (منتشر نشده و منتشر شده) فقط تا زمان دریافت مورد ارسالی دانشجویی نمایش داده می‌شوند. با ارسال‌های دانشجو نمی توان درس‌ها را لغو انتشار کرد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_20",
+  function() { return {"allows_user_to_remove_designers_from_a_course_fa9e887e":"به کاربر اجازه می دهد طراحان را از دوره حذف کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_21",
+  function() { return {"allows_user_to_add_observers_to_a_course_ca1a678b":"به کاربر امکان می دهد ناظران را به یک درس اضافه کند.","allows_user_to_remove_observers_from_a_course_e090d53e":"به کاربر اجازه می دهد ناظران را از یک دوره حذف کند.","observers_add_93d8b063":"ناظران - اضافه کنید","observers_remove_ad508fbe":"ناظران - حذف کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_22",
+  function() { return {"allows_user_to_add_students_to_a_course_aa642fa6":"به کاربر اجازه می دهد تا دانش آموزان را به یک درس اضافه کند.","allows_user_to_add_students_to_a_course_from_the_a_3b752dd2":"به کاربر اجازه می‎دهد از صفحه درس‌های حساب، دانشجویان را به یک درس اضافه کند.","allows_user_to_remove_students_from_a_course_70952ba6":"به کاربر اجازه می دهد دانش آموزان را از یک دوره حذف کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_24",
+  function() { return {"allows_user_to_add_teachers_to_a_course_37b9594c":"به کاربر اجازه می دهد معلمان را به یک درس اضافه کند.","allows_user_to_add_teachers_to_a_course_from_the_a_afbe4c3d":"به کاربر اجازه می دهد معلمان را از صفحه حساب کاربری درس ها به درس اضافه کند.","allows_user_to_remove_teachers_from_a_course_6d627914":"به کاربر اجازه می دهد معلمان را از یک دوره حذف کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_25",
+  function() { return {"allows_user_to_change_the_template_being_used_by_a_eab509a3":"به کاربر اجازه می دهد تا الگوی استفاده شده توسط یک حساب را تغییر دهد.","course_templates_delete_5ec47e1f":"فایل های دوره - حذف"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_27",
+  function() { return {"allows_user_to_add_new_courses_to_an_account_bcb32ad2":"به کاربر اجازه می دهد دوره های آموزشی جدیدی را به یک حساب اضافه کند.","allows_user_to_view_and_manage_courses_in_the_acco_12333da2":"به کاربر اجازه می دهد دوره های موجود در حساب را مشاهده و مدیریت کند.","allows_user_to_view_student_context_cards_in_annou_dadef934":"به کاربر اجازه می دهد کارت های زمینه دانشجویی را در  اطلاعیه و پاسخ‌های گفتگو مشاهده کند. ","allows_user_to_view_the_reset_course_content_butto_75c8c410":"به کاربر اجازه می دهد تا دکمه \"بازنشانی محتوای درس\" را مشاهده کند.","course_content_a92eca20":"محتوای درس","courses_add_20891f99":"دوره ها - اضافه","courses_conclude_7bf4ce68":"درس‌ها - نتیجه گیری","courses_delete_20c9beb2":"درس‌ها - حذف","courses_manage_3ea9687f":"درس ها - پیام","courses_publish_39df53f8":"درس ها - انتشار","courses_reset_211acdd":"درس ها - تنظیم مجدد","if_this_permission_is_enabled_and_courses_view_lis_cdf22691":"اگر این مجوز فعال باشد و  درس‌ها-مشاهده لیست غیر فعال باشد ، کاربران می توانند دوره جدیدی را با دکمه اضافه کردم درس جدید در تنظیمات حساب اضافه کنند.","student_context_cards_376d2072":"کارت های زمینه دانشجویی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_30",
+  function() { return {"allows_user_to_create_developer_keys_for_accounts_76bedd2b":"به کاربر اجازه می دهد تا کلیدهای توسعه دهنده برای حساب ها ایجاد کند.","required_fields_include_key_name_owner_email_tool__b8e42174":"قسمت‌های لازم شامل نام کلید، ایمیل مالک، شناسه ابزار ، هدایت نشانی اینترنتی و نشانی اینترنتی نماد است."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_31",
+  function() { return {"allows_user_to_manage_feature_options_in_account_s_c3c8ee03":"به کاربر اجازه می‌دهد گزینه های ویژگی را در تنظیمات حساب مدیریت کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_32",
+  function() { return {"allows_user_to_delete_course_files_and_folders_34a7793c":"به کاربر اجازه می دهد تا فایل ها و پوشه های دوره را حذف کند.","course_files_62deb8f8":"فایل های درس","course_files_add_2eede390":"فایل های دوره - اضافه","course_files_delete_fae0effe":"فایل های دوره - حذف","course_files_edit_d05d4e8b":"فایل های دوره - ویرایش","to_edit_lock_settings_for_course_files_course_file_92273739":"برای ویرایش تنظیمات قفل برای فایل‌های درس، فایل‌های درس - ویرایش، برنامه درس‌های آموزشی - افزودن / ویرایش / مشارکت / حذف و درس‌ها - مدیریت نیز باید فعال باشند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_33",
+  function() { return {"allows_user_to_access_gradebook_history_9d599681":"به کاربر امکان دسترسی به تاریخچه دفتر نمره را می دهد.","allows_user_to_create_and_modify_grading_schemes_e4433a19":"به کاربر اجازه می دهد تا طرح های نمره‌گذاری را ایجاد و اصلاح کند.","allows_user_to_edit_grades_and_add_comments_in_spe_dc18e3c0":"به کاربر اجازه می دهد نمرات را ویرایش کرده و نظرات خود را در نمره‌گذاری سریع اضافه کند.","allows_user_to_edit_grading_schemes_98c35117":"به کاربر اجازه می‌دهد تا طرح های نمره‌گذاری را ویرایش کند.","allows_user_to_like_discussion_posts_when_the_only_7390d91c":"هنگامی که کادر بررسی \"فقط نمره گذارها می توانند لایک کنند\" انتخاب شده یاشد، به کاربران اجازه دهید که ارسال‌های مربوط به گفتگو را لایک کنند .","allows_user_to_view_the_course_grading_scheme_32a6042":"به کاربر اجازه می دهد تا طرح نمره‌گذاری درس را مشاهده کند.","course_grading_schemes_can_be_enabled_disabled_in__26b298b3":"طرح های  نمره گذاری درس را می‌توان در تنظیمات درس فعال / غیرفعال کرد.","gradebook_speedgrader_66cb7a6a":"دفتر نمره, نمره گذاری سریع","to_view_student_analytics_users_view_list_and_anal_41d32ecb":"برای مشاهده تحلیل‌ها دانشجویان، کاربران-مشاهده لیست و تحلیل‌ها-مشاهده نیز باید فعال شوند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_34",
+  function() { return {"allows_user_to_add_students_to_course_groups_969f968":"به کاربر اجازه می دهد تا دانش آموزان را به گروه های درسی اضافه کند.","allows_user_to_add_users_to_a_course_group_aa0df439":"به کاربر اجازه می دهد تا کاربران را به گروه درس اضافه کند.","allows_user_to_add_users_to_an_account_or_course_g_f2a3a2b8":"به کاربر اجازه می دهد تا کاربران را به یک حساب کاربری یا گروه درسی اضافه کند.","allows_user_to_assign_a_student_group_leader_in_a__6851d646":"به کاربر اجازه می دهد تا یک رهبر گروه دانشجویی را در به یک درس اختصاص دهد.","allows_user_to_assign_a_student_group_leader_in_an_73e12cb6":"به کاربر اجازه می دهد تا یک رهبر گروه دانشجویی را در یک حساب کاربری یا درس اختصاص دهد.","allows_user_to_create_account_or_course_groups_1d5c4aaf":"به کاربر اجازه می دهد تا حساب کاربری یا گروه های درس را ایجاد کند.","allows_user_to_delete_course_groups_5ce7382e":"به کاربر اجازه می دهد تا گروه های دوره را حذف کند.","allows_user_to_edit_course_groups_d459145d":"به کاربر اجازه می دهد تا گروه های دوره را ویرایش کند.","groups_add_4038ae8a":"گروه ها - اضافه","groups_delete_bb79a2b4":"گروه ها - حذف","groups_manage_a5197479":"گروه ها - مدیریت"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_35",
+  function() { return {"allows_user_to_configure_alerts_in_course_settings_c6b938ab":"به کاربر اجازه می دهد تا هشدارها را در تنظیمات درس پیکربندی کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_28",
+  function() { return {"lti_add_e3bc0049":"LTI - اضافه","lti_delete_ee5f1bef":"LTI - حذف","lti_edit_83a27850":"LTI - ویرایش"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_40",
+  function() { return {"allows_user_to_view_and_manage_permissions_bdc80a1d":"به کاربر اجازه می دهد مجوزها را مشاهده و مدیریت کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_41",
+  function() { return {"allows_user_to_create_edit_and_delete_rubrics_1c0acc08":"به کاربر اجازه می دهد تا دستورالعمل های ارزیابی را ایجاد، ویرایش و حذف کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_42",
+  function() { return {"allows_user_to_change_start_and_end_dates_for_cour_f437cee1":"به کاربر اجازه می دهد تا تاریخ شروع و پایان بخش های درس را تغییر دهد.","allows_user_to_delete_course_sections_19193a35":"به کاربر اجازه می دهد بخش های دوره را حذف کند.","allows_user_to_rename_course_sections_928982f0":"به کاربر اجازه می دهد نام بخش های دوره را تغییر دهد.","course_sections_add_c6b5dc1":"فایل های دوره - اضافه","course_sections_delete_e75e3eeb":"فایل های دوره - حذف","course_sections_edit_bd783e1":"فایل های دوره - ویرایش"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_43",
+  function() { return {"allows_user_to_edit_the_course_sis_id_e1eccee3":"به کاربر اجازه می دهد سامانه اطلاعات دانشجویی درس را ویرایش کند.","allows_user_to_view_and_insert_data_in_the_sis_id__921967c":"به کاربر اجازه می دهد داده‌ها را در جای خالی شناسه سامانه اطلاعات دانشجو مشاهده و درج کند.","subaccount_settings_8549eff7":"تنظیمات زیر حساب"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_44",
+  function() { return {"quotas_account_settings_22c12b8d":"سهمیه ها (تنظیمات حساب)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_45",
+  function() { return {"allows_user_to_access_a_user_s_settings_menu_and_u_235d8fd8":"به کاربر اجازه می دهد تا به منوی تنظیمات کاربر و جزئیات کاربر دسترسی داشته باشد.","allows_user_to_view_prior_enrollments_df5286d":"به کاربر اجازه می دهد تا ثبت نام های قبلی را مشاهده کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_46",
+  function() { return {"allows_user_to_create_accounts_for_new_users_e4ec27c3":"به کاربر اجازه می دهد تا برای کاربران جدید حساب ایجاد کند.","allows_user_to_remove_and_merge_users_in_an_accoun_b7e1aec7":"به کاربر امکان حذف و ادغام کاربران در یک حساب را می دهد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_47",
+  function() { return {"allows_user_to_view_faculty_journal_entries_in_the_3f58f09c":"به کاربر اجازه می‌دهد ورودی ژورنال دانشکده را در گزارش تعاملات دانشجویی مشاهده کند.","allows_user_to_view_the_faculty_journal_link_in_gl_e3fd6889":"به کاربر اجازه می دهد لینک ژورنال دانشکده را در پیمایش جهانی مشاهده کند.","student_interaction_report_3f3d2ff1":"گزارش تعامل دانشجویی","user_details_2613c079":"اطلاعات کاربر"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_48",
+  function() { return {"allows_user_to_manage_observers_associated_with_st_4b45f2be":"به کاربر اجازه می دهد بیننده‌ها مرتبط با دانشجویان را در حساب مدیریت کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_49",
+  function() { return {"allows_user_to_add_page_to_student_to_do_list_7085a054":"به کاربر اجازه می دهد صفحه ای را به لیست کارهای دانشجو اضافه کند.","allows_user_to_delete_course_pages_dfaf4fb7":"به کاربر اجازه می دهد صفحات دوره را حذف کند.","allows_user_to_view_page_history_and_set_front_pag_c2321326":"به کاربر اجازه می دهد تا تاریخچه صفحه را مشاهده کنند و صفحه ی اول را تنظیم کنند.","pages_create_7c48801a":"صفحات - ایجاد کنید","pages_delete_c98c1c66":"صفحات - حذف کنید","pages_update_6bbb5599":"صفحات - به روز رسانی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_50",
+  function() { return {"to_view_announcements_announcements_view_must_also_75f652df":"برای مشاهده اطلاعیه‌ها ، نمایش-اطلاعیه ها  نیز باید فعال باشد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_51",
+  function() { return {"eportfolios_f6dc4579":"مجموعه های اسناد الکترونیکی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_52",
+  function() { return {"allows_user_to_reply_to_a_discussion_post_83f43e19":" اجازه دادن به کاربر جهت پاسخ دادن به یک پست "} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_53",
+  function() { return {"global_announcements_a78912c8":"اطلاعیه های سراسری","this_permission_only_affects_course_announcements__6bc2b0a5":"این مجوز فقط روی اطلاعیه‌های درس تأثیر می گذارد. برای مدیریت اطلاعیه‌های جهانی، اطلاعیه‌های جهانی - افزودن / ویرایش / حذف باید فعال شود."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_54",
+  function() { return {"admin_tools_undelete_courses_d9bd8631":"ابزارهای مدیر (لغو حذف درس ها)","allows_user_to_view_published_and_unpublished_cour_25a5dcc0":"به کاربر اجازه می دهد محتوای دوره منتشر شده و منتشر نشده را مشاهده کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_55",
+  function() { return {"allows_user_to_see_the_list_of_courses_in_the_acco_5fa0142f":"به کاربر اجازه می دهد لیست درس های موجود در حساب را مشاهده کند.","statistics_4573b730":"آمار"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_56",
+  function() { return {"allows_user_to_search_for_other_users_via_primary__c95888c8":"به کاربر اجازه می‌دهد تا از طریق آدرس‌های پست الکترونیکی اصلی در صفحه افراد ، سایر کاربران را جستجو کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_57",
+  function() { return {"allows_user_to_view_course_discussions_23346fa1":"به کاربر اجازه می دهد تا گفتگو های دوره را مشاهده کند.","to_share_a_discussion_to_commons_course_content_ad_962c5e53":"برای به اشتراک گذاشتن بحث در نظرات، محتوای درس - افزودن / ویرایش / حذف نیز باید فعال باشد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_58",
+  function() { return {"allows_user_to_view_and_link_questions_in_a_quiz_t_f6795580":"به کاربر اجازه می‌دهد سوالات خود را در یک آزمون برای بانک‌های سوال در یک سطح حساب، مشاهده و پیوند دهد. ","question_banks_45bdf347":"مخزن های پرسش","quizzes_and_question_banks_9b7569e3":"بانک آزمون‌ها و سوالات"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_59",
+  function() { return {"allows_user_to_view_access_reports_f7be7a84":"به کاربر اجازه می دهد تا گزارش های دسترسی را مشاهده کند.","allows_user_to_view_last_activity_and_total_activi_786a7286":"اجازه دادن به کاربر جهت مشاهده آخرین فعالیت و اطلاعات کلیه فعالیتها در صفحه فرد","allows_user_to_view_the_course_statistics_button_i_f44b2c7a":"اجازه دادن به کاربران جهت مشاهد دکمه آمار مربوط به درس در تنظیمات دروس","reports_course_f09b7d9e":"گزارشات (درس)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_60",
+  function() { return {"account_groups_2f301732":"گروه های حساب","allows_user_to_differentiate_assignments_to_indivi_37f701a5":"به کاربر اجازه می دهد تکالیف را به تک تک دانش آموزان متمایز کند.","allows_user_to_send_a_message_in_conversations_wit_d48abf1a":"به کاربر اجازه می دهد بدون انتخاب یک دوره ، در مکالمات پیام ارسال کند.","allows_user_to_view_and_add_users_in_a_collaborati_9ec3c68b":"به کاربر امکان می دهد کاربران را در یک همکاری مشاهده و اضافه کند.","allows_user_to_view_enrollments_on_the_sections_ta_6279a03e":"به کاربر اجازه می دهد تا ثبت نام‌ها را در زبانه بخش‌ها مشاهده کند.","allows_user_to_view_groups_in_a_course_8a95805b":"به کاربر اجازه می دهد گروه ها را در یک درس مشاهده کند.","allows_user_to_view_list_of_users_in_the_account_1802ad42":"به کاربر اجازه می دهد لیست کاربران موجود در حساب را مشاهده کند.","allows_user_to_view_the_people_link_in_course_navi_58b38f5d":"به کاربر اجازه می دهد پیوند افراد را در پیمایش دوره مشاهده کند.","groups_course_c73e4c2c":"گروه ها (درس)","navigation_allows_user_to_view_the_people_link_in__dd533d29":"پیمایش به کاربر اجازه می‎دهد لینک افراد را در پیمایش درس مشاهده کند.","to_edit_groups_groups_manage_must_also_be_enabled_64b30525":"برای ویرایش گروه ها، مدیریت گروه ها نیز باید فعال باشد.","to_send_a_message_to_an_individual_user_conversati_8d86a0da":"برای ارسال پیام به یک کاربر انفرادی، مکالمات - ارسال پیام برای اعضای درس انفرادی نیز باید فعال باشد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_61",
+  function() { return {"account_and_subaccount_40c6430":"حساب و زیر حساب","allows_user_to_view_a_course_s_sis_id_5c4a4c50":"به کاربر اجازه می دهد شناسه های سامانه اطلاعات دانشجویی یک درس را مشاهده کند.","allows_user_to_view_course_sis_id_3a1818a5":"به کاربر اجازه می دهد شناسه های سامانه اطلاعات دانشجویی درس را مشاهده کند.","allows_user_to_view_the_sis_id_in_a_user_s_login_d_71e0922b":"به کاربر اجازه می‌دهد شناسه سامانه اطلاعات دانشجو را در اطلاعات ورود کاربر مشاهده کند.","allows_user_to_view_the_user_sis_id_column_in_the__265cb234":"به کاربر اجازه می دهد تا ستون شناسه سامانه اطلاعات دانشجویی کاربر را در فایل CSV تحلیل پرسش آزمون مشاهده کند.","allows_user_to_view_user_sis_ids_68a9d218":"به کاربر اجازه می دهد شناسه های سامانه اطلاعات دانشجویی کاربر را مشاهده کند.","allows_user_to_view_user_sis_ids_in_a_course_peopl_fc145ade":"به کاربر اجازه می دهد تا شناسه های سامانه اطلاعات دانشجویی کاربر را در یک صفحه افراد یک درس مشاهده کند.","governs_account_related_sis_ids_i_e_subaccount_sis_b7dd0954":"شناسه های سامانه اطلاعات دانشجو مربوط به حساب ( به عبارت دیگر شناسه سامانه اطلاعات دانشجو زیر حساب) را کنترل می کند.","to_view_a_user_s_login_details_users_view_list_and_6d42118b":"برای مشاهده اطلاعات ورود کاربر، کاربران - مشاهده لیست و تغییر اطلاعات ورود برای کاربران نیز باید فعال باشند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_62",
+  function() { return {"allows_user_to_select_final_grade_for_moderated_as_c5e28a9c":"به کاربر اجازه داده شود که  نمره نهایی برای تکالیف تعدیل شده انتخاب کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_64",
+  function() { return {"allows_user_to_send_a_message_to_all_in_course_nam_992e425":"به کاربر اجازه می‌دهد به ”همه در  [course name],“ یا ”همه در [course group]. “ پیام ارسال کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_63",
+  function() { return {"allows_user_to_send_messages_to_individual_course__9347e1e2":"به کاربر اجازه می دهد تا برای اعضای درس انفردی پیام ارسال کند.","when_disabled_students_can_still_send_individual_m_567a911c":"در صورت غیرفعال شدن، دانشجویان همچنان می‌توانند پیام های فردی را برای اساتید درس، دستیاران آموزشی درس و دانشجویان که در همان گروه‌های سطح حساب هستند، ارسال کنند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_65",
+  function() { return {"admin_tools_restore_courses_tab_b07bbfa7":"ابزارهای مدیر(برگه بازیابی دروس)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_66",
+  function() { return {"adds_analytics_link_on_the_user_settings_menu_3a048816":"پیوند تحلیل‌ها را در منوی تنظیمات کاربر اضافه می کند.","adds_analytics_to_a_student_s_context_card_d4c1e3a3":"تحلیل را به یک کارت زمینه دانشجو اضافه می‌کند.","admin_tools_grade_change_logs_d804833f":"ابزارهای مدیر (گزارش‌های تغییر نمره)","allows_user_to_access_speedgrader_from_an_assignme_3b908f7":"به کاربر اجازه می‌دهد تا از طریق یک تکلیف به نمره گذاری سریع  دسترسی پیدا کند.","allows_user_to_access_the_student_progress_page_aca95197":"به کاربر اجازه می‌دهد تا به صفحه پیشرفت دانشجو دسترسی پیدا کند.","allows_user_to_search_by_assignment_id_in_grade_ch_ae195b94":"به کاربر اجازه می‌دهد تا با استفاده از شناسه تکالیف در گزارش‌های تغییر نمره جستجو کند.","allows_user_to_view_a_link_to_speedgrader_from_ass_8ed9b342":"به کاربر اجازه می دهد پیوندی نمره گذاری سریع  را از تکالیف مشاهده کند.","allows_user_to_view_gradebook_9720b3e2":"به کاربر اجازه می دهد تا دفتر نمرات را مشاهده کند.","allows_user_to_view_grader_comments_on_a_rubric_in_2ac9f890":"به کاربر اجازه می‌دهد تا نظرات نمره گذار را در مورد دستورالعمل ارزیابی در نمره گذاری سریع  مشاهده کند.","allows_user_to_view_student_grades_pages_e0091b20":"به کاربر اجازه می دهد صفحات نمرات دانشجو را مشاهده کند.","assignments_speedgrader_2fbd6df4":"تکالیف, نمره گذاری سریع","if_both_grades_edit_and_grades_view_all_grades_are_ed522d43":"اگر هر دو مورد  نمره - ویرایش و نمرات - مشاهده همه نمرات غیرفعال هستند ، دفتر نمرات از پیمایش درس مخفی می‌شود.","rubrics_speedgrader_a6ebec57":"دستورالعمل‌های ارزیابی، برنامه نمره گذاری سریع"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_67",
+  function() { return {"allows_user_to_view_account_analytics_98fbc6ad":"به کاربر اجازه می دهد تجزیه و تحلیل حساب را مشاهده کند.","allows_user_to_view_course_and_student_analytics_f_5e3dca12":"به کاربر اجازه می دهد تجزیه و تحلیل درس و دانشجو را از صفحه اصلی درس یا صفحه افراد مشاهده کند.","allows_user_to_view_student_analytics_89bfd9e8":"به کاربر اجازه می دهد تا تحلیل‌های  دانشجویان را مشاهده کند.","analytics_account_c2bf8cf6":"تحلیل ها (حساب کاربری)","analytics_course_5d53aef7":"تحلیل ها (درس )","to_view_student_analytics_in_course_analytics_grad_91d58a8a":"برای مشاهده تجزیه و تحلیل دانشجو در تجزیه و تحلیل درس ، نمرات - مشاهده همه نمرات نیز باید فعال باشد","to_view_student_analytics_users_view_list_and_grad_59d0da3e":"برای مشاهده تحلیل‌ها دانشجویان، کاربران - مشاهده لیست و نمرات - مشاهده تمام نمرات نیز باید فعال باشند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_68",
+  function() { return {"allows_user_to_review_an_audit_trail_in_assignment_9ca5d03d":"به کاربر اجازه می دهد یک دنباله حسابرسی را در تکالیف، هر دو تعدیل شده و ناشناس مرور کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_71",
+  function() { return {"determines_visibility_of_the_grade_change_activity_6c23036b":"قابل مشاهده بودن گزینه فعالیت تغییر نمره را در زبانه ابزارهای مدیریت ورود تعیین می کند. "} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_73",
+  function() { return {"admin_tools_notifications_tab_120d6cdf":"ابزارهای مدیر (زبانه اطلاعیه ها)","allows_user_to_access_the_view_notifications_tab_i_71995596":"به کاربر امکان می دهد تا به زبانه مشاهده اطلاعیه ها در ابزارهای مدیریت دسترسی پیدا کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_74",
+  function() { return {"allows_user_to_view_student_quiz_logs_e1c4491":"به کاربر اجازه می دهد گزارش های آزمون دانشجویی را مشاهده کند.","grades_edit_must_also_be_enabled_c025f45d":"نمرات -ویرایش نیز باید فعال باشد.","the_quiz_log_auditing_feature_option_must_be_enabl_77bf321e":"گزینه حسابرسی گزارش ثبت وقایع آزمون باید در تنظیمات دوره فعال باشد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_75",
+  function() { return {"account_statistics_2b52a1c9":"آمار حساب","allows_admin_user_to_view_account_statistics_341f00d9":"به کاربر مدیر اجازه می دهد تا آمار حساب را مشاهده کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "permissions_templates_76",
+  function() { return {"allows_user_to_search_for_other_users_by_login_id__2b0bd8c9":"به کاربر اجازه می دهد تا با شناسه ورود ، در صفحه افراد درس، سایر کاربران را جستجو کند.","allows_user_to_search_for_other_users_by_login_id__3edb3702":"به کاربر اجازه می دهد تا با شناسه ورود  در حساب افراد دیگر ، سایر کاربران را جستجو کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "plugins",
+  null,
+  function() { return {"buttons":{"saving":"در حال ذخیره سازی..."}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "user_profile",
+  function() { return {"are_you_sure_you_want_to_remove_this_user_s_profil_6d703c4":"مطمئنید که می خواهید عکس رخ نمای این کاربر حذف شود؟"} },
+  function() { return {"invalid_url":"نشانی اینترنتی معتبر نیست","profile_bio_too_long":"بیوگرافی خیلی طولانی است","profile_title_too_long":"عنوان طولانی است"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "profile",
+  function() { return {"bounce_count_reset_c4c2218f":"تعداد بازگشت بازنشانی شد!","cell_number_is_invalid_bd6faee0":"شماره سلول معتبر نیست!","cell_number_is_required_2edcee60":"شماره سلول لازم است","confirm_communication_channel_81c48d08":"تایید کانال ارتباطی","confirmation_failed_please_try_again_ae566d37":"تأیید انجام نشد. لطفا دوباره تلاش کنید.","country_or_region_is_required_86917b39":"کشور یا ناحیه اجباری می باشد.","email_is_invalid_e0d982eb":"پست اکترونیکی معتبر نیست!","profile_photo_save_failed_too_many_times_e1ebda5":"دخیره سازی  عکس پروفایل بارها شکست خورده است. ","this_is_the_default_email_address_f3c421fb":"نشانی پست الکترونیکی پیش فرض این است","your_profile_photo_could_not_be_uploaded_you_may_h_1c90540c":"عکس رخ نمای شما قابل بارگذاری نیست. ممکن است از حد بارگذاری تجاوز کرده باشید."} },
+  function() { return {"buttons":{"generate_token":"ایجاد نشانه","generating_token":"در حال ایجاد نشانه","regenerate_token":"ایجاد دوباره نشانه","regenerating_token":"در حال ایجاد دوباره نشانه...","save":"ذخیره سازی","select_profile_picture":"انتخاب عکس رخ نما","selecting_image":"در حال انتخاب تصویر..."},"confirming_contact":"در حال تأیید...","confirms":{"delete_access_key":"مطمئنید که می خواهید این کلید دسترسی حذف شود؟","delete_login":"مطمئنید که می خواهید این ورود حذف شود؟","regenerate_token":"مطمئنید که می خواهید این نشانه دوباره ایجاد شود؟ هرچیزی که از این نشانه استفاده می کند باید بهنگام سازی شود.","unregister_service":"مطمئنید که می خواهید ثبت نام این سرویس لغو شود؟"},"done_resending":"انجام شد! ارسال پیام ممکن است چند دقیقه طول بکشد.","errors":{"generating_token_failed":"ایجاد نشانه انجام نشد","regenerating_token_failed":"ایجاد دوباره ی نشانه انجام نشد","registration_failed":"ثبت نام انجام نشد. نام کاربری و رمز عبور را بررسی کنید و دوباره تلاش کنید."},"failed_resending":"درخواست انجام نشد. لطفا دوباره سعی کنید.","links":{"resend_confirmation":"ارسال دوباره تأییدیه","resend_confirmation_failed":"درخواست انجام نشد. دوباره تلاش کنید.","resending_confirmation":"در حال ارسال دوباره...","resent_confirmation":" انجام شد. ارسال پیام ممکن است چند دقیقه طول بکشد."},"notices":{"contact_confirmed":"تماس با موفقیت تأیید شد!","mfa_disabled":"اعتبارسنجی چند عاملی غیر فعال شد"},"please_select_an_option":"لطفا یک گزینه را انتخاب کنید","purpose_required":"هدف لازم است","resending":"درحال ارسال دوباره...","titles":{"confirm_email_address":"تأیید نشانی پست الکترونیکی","contact_not_confirmed":"این مخاطب تأیید نشده است. برای اطلاعات بیشتر، روی نشانی کلیک کنید","email_not_confirmed":"این پست الکترونیکی تأیید نشده است. برای اطلاعات بیشتر، روی نشانی کلیک کنید","register_communication":"ثبت ارتباط","unconfirmed_click_to_confirm":"تأیید نشده است. برای تأیید کلیک کنید"},"token_never_expires":"هرگز"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "fromNowFuzzy",
+  function() { return {"a_few_seconds_ago_e43118d":"-","in_a_few_seconds_538ddff3":"در کمتر از چند ثانیه","in_less_than_a_minute_c8595a28":"در کمتر از یک دقیقه","less_than_a_minute_ago_9f45e2a5":"کمتر از یک دقیقه پیش"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "QRMobileLogin",
+  function() { return {"an_error_occurred_while_retrieving_your_qr_code_5392e2da":"هنگام بازیابی کد QR شما خطایی روی داد","waiting_for_your_qr_code_to_load_809299e5":"در حال انتظار برای بارگیری کد QR شما"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "bundles_quesiton_bank",
+  null,
+  function() { return {"titles":{"find_outcomes":"یافتن نتایج"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "add_bank",
+  null,
+  function() { return {"default_name":"نام موجود نیست"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "question_bank",
+  null,
+  function() { return {"align_outcomes":"تطبیق دادن نتایج","already_bookmarked":"در حال حاضر نشانه گذاری شده است","bookmark_failed":"نشانه گذاری انجام نشد","bookmarking":"در حال نشانه گذاری...","buttons":{"submit_copying":{"one":"در حال کپی کردن پرسش ها...","other":"در حال کپی کردن پرسش ها..."},"submit_copying_failed":{"one":"کپی کردن پرسش ها انجام نشد، لطفا دوباره تلاش کنید","other":"کپی کردن پرسش ها انجام نشد، لطفا دوباره تلاش کنید"},"submit_moving":{"one":"در حال انتقال پرسش ها...","other":"در حال انتقال پرسش ها..."},"submit_moving_failed":{"one":"انتقال پرسش ها انجام نشد، لطفا دوباره تلاش کنید","other":"انتقال پرسش ها انجام نشد، لطفا دوباره تلاش کنید"},"submit_retry_copying":"کپی کردن پرسش ها انجام نشد، لطفا دوباره تلاش کنید...","submit_retry_moving":"انتقال پرسش ها انجام نشد، لطفا دوباره تلاش کنید..."},"delete_are_you_sure":"مطمئنید که می خواهید این مخزن پرسش حذف شود؟","links":{"more_questions":"پرسش های بیشتر"},"load_questions":"در حال بارگذاری پرسش ها...","loading_more_fail":"بارگذاری پرسش های بیشتر انجام نمی شود، لطفا دوباره تلاش کنید","move_questions":"انتقال پرسش ها","multiple_questions":"چند پرسش","question_bank":"مخزن پرسش","remove_outcome_from_bank":"مطمئنید که می خواهید این نتیجه از مخزن حذف شود؟","title":{"move_copy_questions":"انتقال/کپی پرسش ها"},"update_outcomes_fail":"بهنگام سازی نتایج انجام نشد","updating_outcomes":"در حال بهنگام سازی نتایج ..."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "load_bank",
+  null,
+  function() { return {"error_loading_banks":"خطا در بارگزاری مخزن ها","loading_banks":"در حال بارگذاری مخزن ها..."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "question_banks",
+  null,
+  function() { return {"delete_question_bank_prompt":"مطمئنید که می خواهید این مخزن پرسش حذف شود؟"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "quiz_log_auditing",
+  function() { return {"answer_sequence_cfeda025":"ترتیب پاسخ","question_9121487":"پرسش"} },
+  function() { return {"buttons":{"reload_events":"بارگذاری دوباره","table_view":"مشاهده جدول"},"event_stream":{"headers":{"action_log":"گزارش ثبت وقایع اقدام"},"notices":{"no_events_available":"هیچ رویدادی در طول جلسه آزمون ثبت نشد."},"page_blurred":"نمایش صفحه آزمون کانواس متوقف شد...","page_focused":"از سر گرفته شد.","question_answered":{"one":"به پرسش های زیر پاسخ داد:","other":"به پرسش های زیر پاسخ داد:"},"question_flagged":"پرسش پرچم دار:","question_unflagged":"پرسش بدون پرچم:","question_viewed":{"one":"پرسش های زیر را مشاهده (و احتمالا خواند):","other":"پرسش های زیر را مشاهده (و احتمالا خواند):"},"session_started":"جلسه شروع شد"},"links":{"log_accessibility_warning":"هشدار: برای بهبود دسترس‌پذیری در هنگام استفاده از ثبت وقایع آزمون، در نمای جریان فعلی باقی بمانید."},"navigation":{"links":{"back_to_session_information":"بازگشت به گزارش ثبت وقایع","question":"پرسش %{position}"},"questions":"پرسش ها"},"no_answer":"پاسخ موجود نیست","page_header":"اطلاعات جلسه","question_answers":{"essay":{"view_html_answer":"نمایش HTML","view_plain_answer":"نمایش ساده"}},"question_header":"پرسش #%{position}","question_response_count":{"one":"به این پرسش یک بار پاسخ داده شد.","other":"به این پرسش %{count} بار پاسخ داده شد.","zero":"به این پرسش هرگز پاسخ داده نشد."},"question_type":"%{type}","session_table_headers":{"attempt":"تلاش","started_at":"شروع شد در"},"table_view":{"buttons":{"go_to_stream":"مشاهده جریان"},"headers":{"question":"پرسش %{position}","timestamp":"تاریخ و زمان"},"legend":{"dotted_circle":"دایره نقطه دار","dotted_circle_desc":"یک پاسخ، صرفنظر از درست بودن.","empty_circle":"دایره خالی","empty_circle_desc":"یک پاسخ خالی.","filled_circle":"دایره پر شده","filled_circle_desc":"پاسخ نهایی برای پرسش، پاسخی که محاسبه می شود."},"options":{"expand_all":"باز کردن همه پاسخ ها","invert":"معکوس کردن","truncate":"کوتاه کردن پاسخ های متنی"}}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "quiz_reports",
+  function() { return {"download_item_analysis_report_statuslabel_8c9387ec":"بارگیری گزارش تحلیل مورد %{statusLabel}","download_student_analysis_report_statuslabel_1471c8c2":"بارگیری گزارش تحلیل دانشجو %{statusLabel}","generate_item_analysis_report_statuslabel_16e02c8":"ایجاد گزارش تحلیل مورد %{statusLabel}","generate_student_analysis_report_statuslabel_aecdc4dc":"ایجاد گزارش تحلیل دانشجو %{statusLabel}"} },
+  function() { return {"cancel_generation":"لغو","generatable":"گزارش هرگز ایجاد نشده است.","generated_at":"ایجاد شد: %{date}","generating":"گزارش در حال ایجاد است...","generation_almost_done":"تقریبا انجام شد.","generation_halfway":"کمتر از نصف راه باقیمانده است.","generation_started":"گزارش در حال ایجاد شدن است.","item_analysis":"تحلیل پرسش","non_generatable_report_notice":"گزارش را نمی توان برای آزمون های نظرسنجی ایجاد کرد.","student_analysis":"تحلیل دانشجو"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "quiz_statistics",
+  function() { return {"a_table_of_answers_and_brief_statistics_regarding__f516e98f":"یک جدول حاوی پاسخ ها و آمار مختصر در ارتباط با گزینه های پاسخ دانشجو.","answer_correct_answer_c2c4a20c":"%{answer}، (پاسخ درست)","answer_description_6b353cfd":"شرح پاسخ","answer_distribution_2a956e3f":"توزیع پاسخ","answer_incorrect_answer_80efe585":"%{answer}، (پاسخ نادرست)","answer_text_909894d6":"متن پاسخ","answers_which_scored_in_the_bottom_27_74409483":"پاسخ هایی که در 27 درصد پایینی نمره گذاری شده اند","answers_which_scored_in_the_middle_46_46466ffd":"پاسخ هایی که در 46 درصد میانی نمره گذاری شده اند","answers_which_scored_in_the_top_27_a605232d":"پاسخ هایی که در 27 درصد بالایی نمره گذاری شده اند","correct_answer_5a6a57d1":"پاسخ درست","correct_check_icon_617da6c3":"اصلاح نماد بازبینی","graph_bar_b5daa23d":"میله نمودار","incorrect_answer_7c17e63b":"پاسخ نادرست","percent_of_respondents_selecting_this_answer_4c2ce4ee":"درصد پاسخ دهنده هایی که این پاسخ را انتخاب می کنند","ratio_answered_correctly_b0c1e7d":"%{ratio}% درست پاسخ داد","ratio_responded_correctly_6d890107":"%{ratio}% درست پاسخ داد","ungraded_answers_31ef2df7":"پاسخ های نمره گذاری نشده","unknown_answers_9688a2bc":"پاسخ های ناشناس"} },
+  function() { return {"attempts":"تلاش ها: %{count} از %{total}","discrimination_index":{"audible_discrimination_index":"شاخص تمایز: %{number}.","discrimination_index":"شاخص تمایز","discrimination_index_dialog_title":"نمودار شاخص تمایز","discrimination_index_dialog_trigger":"با شاخص تمایز بیشتر آشنا شوید."},"download_submissions":"بارگیری همه فایل ها","duration_in_hours":{"one":"%{count} ساعت","other":"%{count} ساعت"},"duration_in_hours_and_minutes":"%{hours} و %{minutes}","duration_in_minutes":{"one":"%{count} دقیقه","other":"%{count} دقیقه"},"duration_in_minutes_and_seconds":"%{minutes} و %{seconds}","duration_in_seconds":{"one":"%{count} ثانیه","other":"%{count} ثانیه"},"empty_question_breakdown":"آمار مربوط به پرسش موجود نیست.","loading_questions":"آمار پرسش در حال بارگذاری است. لطفا چند لحظه منتظر بمانید.","no_answer":"پاسخ موجود نیست","question_breakdown":"خرابی پرسش","question_header":"پرسش %{position}","quiz-stats-noshow-warning":"حتی ابهت هم محدودیت هایی دارد. نمی توانیم آمار این آزمون را ارائه دهیم، اما می توانیم گزارش ها را بارگیری نماییم.","sad-panda-alttext":"چیزهای غم انگیز در سرزمین پاندا.","speedgrader":"مشاهده در برنامه نمره گذاری سریع","summary":{"audible_chart_description":"%{above_average} دانشجو بیشتر یا مساوی میانگین و %{below_average} دانشجو کمتر از میانگین نمره گرفته‌اند.","avg_time":"میانگین زمان","chart_title":"نمودار درصدهای نمره","high_score":"نمره بالا","low_score":"نمره پایین","mean":"میانگین نمره","not_available_abbrev":"موجود نیست","quiz_summary":"خلاصه آزمون","stdev":"انحراف معیار","table_description":"آمار خلاصه برای همه موردهای ارسالی تحویل داده شده"},"title":"آمار آزمون","unknown_answer":"چیز دیگر","user_names":"نام های کاربری"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_students_in_percentile_percentile_d0adecfe",
+  null,
+  function() { return {"one":"%{count} دانشجو در %{percentile} درصد.","other":"%{count} دانشجو در %{percentile} درصد."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "quizzesIndexView",
+  function() { return {"your_quiz_engine_choice_has_been_reset_68d268c1":"انتخاب موتور آزمون شما بازنشانی شده است!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_quizzes_found_e5e29bb4",
+  null,
+  function() { return {"one":"1 آزمون موجود است.","other":"%{count} آزمون موجود است.","zero":"هیچ آزمون نظیر موجود نیست."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "quizzes_index",
+  null,
+  function() { return {"headers":{"assignment_quizzes":"آزمون های تکلیف","practice_quizzes":"آزمون‌های تمرین","surveys":"نظرسنجی ها"},"toggle_message":"تغییر قابلیت دید آزمون"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "quiz_engine_modal",
+  function() { return {"new_quizzes_dbda7e0a":"آزمون‌های جدید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "calculator",
+  null,
+  function() { return {"buttons":{"save":"ذخیره سازی"},"command":{"abs":{"description":"قدر مطلق مقدار مورد نظر را به دست می دهد"},"acos":{"description":"آرک کسینوس مقدار مورد نظر را به دست می دهد"},"asin":{"description":"آرک کسینوس مقدار مورد نظر را به دست می دهد"},"at":{"description":"مقدار شاخص دار در فهرست مورد نظر را به دست می دهد"},"atan":{"description":"آرک تاتژانت مقدار مورد نظر را به دست می دهد"},"ceil":{"description":"سقف مقدار مورد نظر را به دست می دهد"},"comb":{"description":"نتیجه ترکیب مقادیر مورد نظر را به دست می دهد"},"cos":{"description":"کسینوس مقدار مورد نظر را به دست می دهد"},"cosec":{"description":"کسکانت مقدار مورد نظر را به دست می دهد"},"cotan":{"description":"کتاتژانت مقدار مورد نظر را به دست می دهد"},"count":{"description":"تعداد موردهای موجود در فهرست را به دست می دهد"},"default_description":"هیچ شرحی داده نشده است","deg_to_rad":{"description":"مقدار مورد نظر تبدیل شده از درجه به رادیان را به دست می دهد"},"e":{"description":"مقدار مربوط به e را به دست می دهد"},"fact":{"description":"فاکتوریال عدد مورد نظر را به دست می دهد"},"first":{"description":"اولین مقدار موجود در فهرست را به دست می دهد"},"floor":{"description":"کف مقدار مورد نظر را به دست می دهد"},"if":{"description":"آرگومان اول را ارزیابی می کند، در صورتی که به یک مقدار غیر صفر ارزیابی کند، آرگومان دوم را به دست می دهد، در غیر این صورت، مقدار سوم را به دست می دهد"},"last":{"description":"آخرین مقدار موجود در فهرست را به دست می دهد"},"length":{"description":"تعداد آرگومان های موجود در فهرست مورد نظر را به دست می دهد"},"ln":{"description":"لگاریتم طبیعی مقدار مورد نظر را به دست می دهد"},"log":{"description":"لگاریتم مقدار مورد نظر را با یک مبنای اختیاری به دست می دهد"},"max":{"description":"بیشترین مقدار موجود در فهرست را به دست می دهد"},"mean":{"description":"متوسط میانگین مقادیر موجود در فهرست را به دست می دهد"},"median":{"description":"مدیان مربوط به فهرست مقادیر را به دست می دهد"},"min":{"description":"کمترین مقدار موجود در فهرست را به دست می دهد"},"no_description":"هیچ شرحی برای تابع، %{functionName}، موجود نیست","perm":{"description":"نتیجه جایگشت را برای مقادیر مورد نظر به دست می دهد"},"pi":{"description":"مقدار محاسبه شده عدد پی را به دست می دهد"},"rad_to_deg":{"description":"مقدار مورد نظر تبدیل شده از رادیان به درجه را به دست می دهد"},"rand":{"description":"عدد تصادفی بین صفر و دامنه تعیین شده و در صورت عدم تعیین عدد، عدد یک را به دست می دهد"},"range":{"description":"دامنه مربوط به فهرست مقادیر را به دست می دهد"},"reverse":{"description":"ترتیب فهرست مقادیر را معکوس می کند"},"round":{"description":"مقدار مورد نظر که به نزدیکترین عدد صحیح گرد شده است را به دست می دهد"},"sec":{"description":"سکانت مقدار مورد نظر را به دست می دهد"},"sin":{"description":"سینوس مقدار مورد نظر را به دست می دهد"},"sort":{"description":"فهرست مقادیر که از کمترین به بیشترین مرتب شده اند را به دست می دهد"},"sqrt":{"description":"ریشه مربع مقدار مورد نظر را به دست می دهد"},"sum":{"description":"مجموع فهرست مقادیر را به دست می دهد"},"tan":{"description":"تانژانت مقدار مورد نظر را به دست می دهد"},"unrecognized":"%{functionName} یک تابع معلوم نیست"},"decimal_places":"رقم های اعشار","delete_formula":"حذف فرمول ها","drag_to_reorder":"برای مرتب کردن دوباره، بکشید","headings":{"formula":"فرمول","result":"نتیجه"},"last_formula_row":"آخرین ردیف فرمول برای محاسبه پاسخ نهایی اسفاده خواهد شد","sample_final_answer":"این مقدار یک پاسخ نهایی نمونه برای این نوع پرسش است"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "quizzes_public",
+  function() { return {"ip_filter_is_not_valid_152a46d8":"فیلتر آی پی معتبر نیست","please_add_at_least_one_non_blank_answer_213c2c8e":"لطفا حداقل یک پاسخ غیر خالی بیفزایید.","please_add_at_least_one_non_blank_answer_for_each__a05a55f9":"لطفا حداقل یک پاسخ غیر خالی برای هر متغیر بیفزایید.","quiz_40ee61b1":"آزمون","the_quiz_name_must_be_under_length_characters_68e7de3a":"نام آزمون باید کمتر از %{length} نویسه باشد"} },
+  function() { return {"alerts":{"no_valid_combinations":"سیستم نمی تواند هیچ ترکیب معتبری برای پارامترهای داده شده ایجاد کند","only_n_valid_combinations":{"one":"این سیستم تنها می تواند 1 ترکیب معتبر را برای پارامترهای داده شده ایجاد کند.","other":"این سیستم تنها می تواند %{count}  ترکیب معتبر را برای پارامترهای داده شده ایجاد کند"}},"answer_comments":"نظرهای مربوط به پاسخ","answer_text":"متن پاسخ","at_the_bottom":"-- در پایین --","before_quiz_item":"قبل از %{name}","buttons":{"add_selected_questions":"افزودن پرسش های انتخاب شده","adding_questions":"در حال افزودن پرسش ها...","create_group":"ایجاد گروه","create_question":"ایجاد پرسش","creating_group":"درحال ایجاد گروه...","generating":"در حال ایجاد...","generating_combinations_progress":"در حال ایجاد... (%{done}/%{total})","save":"ذخیره سازی","save_and_publish":"ذخیره سازی و انتشار","saved":"ذخیره شد!","saving":"در حال ذخیره سازی...","update_group":"بهنگام سازی گروه","update_question":"بهنگام سازی پرسش"},"choose_option":"[ انتخاب ]","confirms":{"delete_answer":"مطمئنید؟ حذف پاسخ ها از یک پرسش دارای موردهای ارسالی، گزینه نمره گذاری دوباره این پرسش را غیر فعال می کند.","delete_question":"مطمئنید که می خواهید این پرسش حذف شود؟","delete_quiz":"مطمئنید که می خواهید این آزمون حذف شود؟","scrap_and_restart":"این آزمون کنار گذاشته شود و از آغاز شروع شود؟"},"default_answer_comments":"پاسخ در صورتی که دانشجو این پاسخ را انتخاب کند","default_answer_comments_on_match":"پاسخ در صورتی که دانشجو این پاسخ را تطبیق دهد","default_comments_on_wrong_match":"پاسخ در صورتی که کاربر نتواند این تطبیق را انجام دهد","default_quesiton_name":"پرسش","default_question_name":"پرسش","default_quiz_title":"آزمون","default_response_to_essay":"پس از ارسال پاسخ، پاسخ به دانشجو نمایش داده شود","default_response_to_file_upload":"پس از ارسال پاسخ، پاسخ به دانشجو نمایش داده شود","enter_answer_variable_above":" [متغیرهای پاسخ را در قسمت بالا وارد کنید ]","errors":{"adding_questions_failed":"افزودن پرسش ها انجام نشد، لطفا دوباره تلاش کنید","creating_group_failed":"ایجاد گروه انجام نشد، لطفا دوباره تلاش کنید","field_is_required":"پر کردن این جای خالی لازم است","invalid_show_correct_answers_range":"تاریخ مخفی کردن نمی تواند قبل از تاریخ نشان دادن باشد.","loading_banks_failed":"بارگذاری مخزن های پرسش انجام نشد، لطفا دوباره تلاش کنید","loading_more_questions_failed":"بارگذاری پرسش های بیشتر انجام نشد","loading_question_failed":"بارگذاری پرسش انجام نشد","loading_questions_failed":"بارگذاری پرسش ها انجام نشد، لطفا دوباره تلاش کنید","missing_access_code":"باید یک رمز دسترسی را وارد کنید","missing_ip_filter":"باید یک نشانی آی پی معتبر وارد کنید","no_answer":"لطفا حداقل یک پاسخ را اضافه کنید","no_correct_answer":"لطفا پاسخ درست را انتخاب کنید","no_possible_solution":"لطفا حداقل یک راه حل ممکن را ایجاد کنید","quiz_score_not_a_number":"نمره باید عددی بین 0 تا 2,000,000,000 باشد.","quiz_score_too_long":"نمره باید کمتر از 2,000,000,000 باشد.","quiz_score_too_short":"نمره باید بزرگتر از 0 باشد.","retrieving_filters_failed":"بازیابی فیلترها انجام نشد"},"false":"نادرست","final_answer":"پاسخ نهایی","label":{"answer":{"text":"متن پاسخ، قسمت دارای متن غنی"},"question":{"instructions":"دستورالعمل های پرسش، قسمت دارای متن غنی"},"quiz":{"instructions":"دستورالعمل های آزمون، قسمت دارای متن غنی"}},"labels":{"answer_text":"متن پاسخ","comments_on_answer":"نظرها، اگر کاربر این پاسخ را انتخاب کند","comments_on_question":"نظرهای مربوط به این پرسش","comments_on_wrong_match":"نظرات اگر کاربر تطبیق را اشتباه انجام داده باشد","correct_answer":"پاسخ درست","message_text":"متن پیام","other_incorrect_matches":"سایر گزینه های نادرست تطبیق","possible_answer":"پاسخ ممکن"},"loading_more_questions":"در حال بارگذاری پرسش های بیشتر...","loading_question":"در حال بارگذاری پرسش...","loading_question_banks":"در حال بارگذاری مخزن های پرسش...","loading_questions":"در حال بارگذاری پرسش ها...","more_questions":"پرسش های بیشتر","no_filters_found":"فیلتر یافت نشد","question":{"positive_points":"باید صفر یا بزرگتر باشد"},"question_colon":"پرسش:","question_limit_reached":"به حداکثر تعداد پرسش های مجاز برای آزمون رسیده اید (%{count}/%{limit}).\n\nبه عنوان یک راه حل، مطالب را بین چند آزمون پخش کنید.","quiz_attempts_length_error":"اقدام های آزمون به 3 رقم محدود شده است، اگر مایلید به دانشجویان خود اقدام های نامحدود بدهید، کادر اجازه دادن به چند اقدام در سمت چپ را علامتگذاری نکنید","quiz_attempts_nan_error":"اقدام های آزمون را فقط می توان به عدد تعیین کرد","quiz_short_answer_length_error":"طول پاسخ ها برای تکمیل پرسش های پاسخ داده نشده باید کمتر از 80 نویسه باشد","retrieving_filters":"در حال بازیابی فیلترها...","titles":{"add_questions_as_group":"افزودن پرسش ها به عنوان یک گروه","click_to_enter_comments_on_answer":"برای وارد کردن نظر برای دانشجو در صورتی که این پاسخ را انتخاب کند، کلیک کنید","click_to_enter_comments_on_wrong_match":"برای وارد کردن نظر برای دانشجو در صورتی که نتواند این تطبیق را انجام دهد، کلیک کنید","click_to_set_as_correct":"برای تعیین این پاسخ به عنوان پاسخ درست، کلیک کنید","click_to_unset_as_correct":"برای لغو تعیین این پاسخ به عنوان پاسخ درست، کلیک کنید","find_question_bank":"یافتن مخزن پرسش","find_quiz_question":"یافتن پرسش آزمون","help_with_formulas":"راهنمایی در مورد فرمول های پرسش آزمون","ip_address_filtering":"فیلتر نشانی آی پی","set_as_correct":"این پاسخ به عنوان پاسخ درست تعیین شده است"},"top_level":"-- رده بالا --","true":"درست"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "registration",
+  function() { return {"canvas_introduction_video_2d81f3ad":"فیلم معرفی کانواس","child_s_username_dde3aa9":"نام کاربری فرزند","start_participating_f0c75256":"شروع به مشارکت","you_will_be_redirected_to_a_login_page_where_you_w_fc8df402":"به یک صفحه ورود که باید با استفاده از اعتبارنامه های فرزند خود وارد شوید، هدایت خواهید شد.","your_email_b5364bee":"پست الکترونیکی شما","your_name_7665e1d8":"نام شما"} },
+  function() { return {"incomplete_registration_warning":{"set_up_account":"حساب شما تقریبا ایجاد شده است. برای پایان، لطفا پست الکترونیکی خود به نشانی *%{email}* را بازبینی کنید تا رمز عبور خود را تعیین کنید.","start_participating":"اکنون می توانید شروع به شرکت کنید، اما قبل از اینکه بتوانید دوباره وارد شوید، باید یک رمز عبور تعیین کنید."},"login":{"password":"رمز عبور","remember_me":"من را به خاطر بسپار","sign_in":"ثبت نام"},"new_parent_dialog":{"anchor":{"pairing_code":"رمز جفتی چیست؟"},"buttons":{"cancel":"لغو","start_participating":"شروع به مشارکت"},"labels":{"code":"رمز جفتی دانشجو","confirm_password":"وارد کردن مجدد رمز عبور","email":"پست الکترونیکی شما","name":"نام شما","password":"رمز عبور"}},"parent_dialog":{"buttons":{"start_participating":"شروع به مشارکت"},"labels":{"email":"پست الکترونیکی شما","name":"نام شما","password":"رمز عبور فرزند","username":"نام کاربری فرزند"}},"student_dialog":{"buttons":{"start_learning":"شروع به یادگیری"},"labels":{"email":"پست الکترونیکی","join_code":"رمز عضویت","name":"نام کامل","password":"رمز عبور","password_confirmation":"تأیید رمز عبور","username":"نام کاربری"}},"teacher_dialog":{"agree_to_terms_and_pp":"با *ضوابط استفاده* موافق هستید و **سیاست حریم خصوصی** را تصدیق می کنید.","buttons":{"start_teaching":"شروع به تدریس"},"labels":{"email":"پست الکترونیکی","name":"نام"}}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "release_notes",
+  function() { return {"edit_release_note_84675efc":"ویرایش یادداشت انتشار","expand_collapse_lang_73edc33c":"توسعه دادن/کوچک کردن %{lang}","languages_835813f0":"زبان ها","new_note_5f05cb20":"یادداشت جدید","new_release_note_37ec0ea7":"انتشار یادداشت جدید","save_and_publish_1b765e7":"ذخیره و انتشار"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "ResendInvitationsView",
+  null,
+  function() { return {"error_sending_invitations":"در هنگام ارسال دعوت نامه، خطایی رخ داد. لطفا دوباره سعی کنید.","invitations_re_sent":"دعوت نامه ها با موفقیت ارسال شدند"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "RosterDialogMixin",
+  null,
+  function() { return {"updating":"در حال بهنگام سازی..."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "RosterUserView",
+  function() { return {"are_you_sure_you_want_to_deactivate_this_user_they_3fdaab79":"مطمئنید که می خواهید این کاربر غیر فعال شود؟ او قادر نخواهد بود در هنگام غیر فعال بودن در درس شرکت کند.","are_you_sure_you_want_to_remove_this_user_8d1a8295":"مطمئنید که می خواهید این کاربر حذف شود؟","something_went_wrong_re_activating_the_user_please_82c3e7a":"در هنگام فعال سازی دوباره کاربر اشکالی رخ داد. لطفا بعدا دوباره سعی کنید.","something_went_wrong_while_deactivating_the_user_p_8ff3e261":"در هنگام غیر فعال سازی کاربر اشکالی رخ داد. لطفا بعدا دوباره سعی کنید.","user_successfully_deactivated_9d92d80d":"کاربر با موفقیت غیر فعال شد","user_successfully_re_activated_b897e35b":"کاربر با موفقیت دوباره فعال شد","user_successfully_removed_a366ca5f":"کاربر با موفقیت حذف شد."} },
+  function() { return {"flash":{"removeError":"قادر به حذف این کاربر نیست. لطفا بعدا دوباره سعی کنید."},"nobody":"هیچ کس","observing_user":"درحال مشاهده: %{user_name}"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "RosterView",
+  function() { return {"search_people_as_you_type_in_this_field_the_list_o_5755e8ad":"افراد را جستجو کنید. وقتی در این قسمت تایپ می کنید، فهرست افراد به طور خودکار فقط برای شامل سازی افرادی که نام آنها با ورودی شما مطابقت دارند، فیلتر خواهد شد."} },
+  function() { return {"greater_than_three":"لطفا یک عبارت جستجو با سه نویسه یا بیشتر وارد نمایید","unknown_error":"جستجوی شما با اشکال مواجه شد، لطفا دوباره سعی کنید."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "roster_publicjs",
+  null,
+  function() { return {"filter_multiple_users_found":"%{userCount} کاربر موجود است.","filter_no_users_found":"هیج کاربر نظیر یافت نشد.","filter_one_user_found":"1 کاربر یافت شد."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "recipient_input",
+  null,
+  function() { return {"context_search_placeholder":"نام، درس یا گروه را وارد کنید","context_search_title":"نام, درس یا گروه","groups_count":{"one":"%{count} گروه","other":"%{count} گروه"},"no_results":"نتیجه ای یافت نشد","people_count":{"one":"%{count} نفر","other":"%{count} نفر"},"sections_count":{"one":"%{count} بخش","other":"%{count} بخش"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "listWithOthers",
+  null,
+  function() { return {"other":{"one":"1 نفر دیگر","other":"%{count} نفر دیگر"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "sr_gradebook",
+  function() { return {"download_scores_generated_on_date_ff5b9cd2":"بارگیری نمره های ایجاد شده در %{date}"} },
+  function() { return {"all_grading_periods":"همه دوره های نمره گذازی","all_sections":"همه بخش‌ها","assignment_muted":"برای فعال سازی، کلیک کنید.","assignment_order_alpha":"به ترتیب حروف الفبا","assignment_order_assignment_groups":"بر اساس گروه و موقعیت تکلیف","assignment_order_due_date":"بر اساس تاریخ مهلت","assignment_unmuted":"برای غیر فعال سازی، کلیک کنید.","discussion_topic":"موضوع بحث","external_tool":"ابزار بیرونی","final_point_ratio":"%{pointRatio} امتیازها","invalid_group_warning":{"one":"نکته: نمره شامل تکلیف گروه های %{list_of_group_names} نیست، زیرا آنها دارای امتیاز ممکن نیستند.","other":"نکته: نمره شامل تکلیف گروه های %{list_of_group_names} نیست، زیرا آنها دارای امتیاز ممکن نیستند."},"media_recordin":"ضبط رسانه ای","next_object":"%{type} بعدی","no_assignment":"هیچ تکلیفی انتخاب نشده است","no_outcome":"هیچ نتیجه ای انتخاب نشده است","no_student":"هیچ دانشجویی انتخاب نشده است","none":"هیچ یک","notes":"یادداشت ها","on_paper":"روی کاغذ","online_quiz":"آزمون آنلاین","online_text_entry":"ورودی متن آنلاین","online_upload":"بارگذاری آنلاین","online_url":"نشانی اینترنتی آنلاین","previous_object":"%{type} قبلی","student_hidden_name":"دانشجو %{position}"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "grading_cell",
+  function() { return {"no_points_possible_72db3a55":"امتیاز ممکن موجود نیست","out_of_points_37a749d7":"(از %{points})","score_out_of_points_84f44331":"(%{score} از %{points})"} },
+  function() { return {"grade_complete":"کامل","grade_incomplete":"ناقص","grade_ungraded":"نمره گذاری نشده"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "submissions",
+  function() { return {"click_here_to_download_size_of_file_74443988":"برای بارگیری %{size_of_file} اینجا کلیک کنید","download_assignment_submissions_41e50ee7":"بارگیری تکالیف ارسالی ","preview_your_submission_and_view_teacher_feedback__81a45279":"در صورت وجود، مورد ارسالی خود را پیش نمایش دهید و بازخورد استاد را مشاهده کنید"} },
+  function() { return {"creating_zip":"درحال ایجاد فایل فشرده...","download_submissions_title":"بارگیری موردهای ارسالی تکلیف","finished_redirecting":"به پایان رسید! در حال تغییر مسیر به فایل ...","gathering_files":"در حال گردآوری فایل ها (%{progress})...","gathering_files_progress":"در حال گردآوری فایل ها (%{progress})...","see_attached_files":"مشاهده فایل های پیوست شده","show_preview":{"preview_title":"پیش‌نمایش %{title}"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebookHelpers",
+  function() { return {"note_length_cannot_exceed_maxlength_characters_82798b1":"توجه داشته باشید که طول نمی تواند از %{maxLength} نویسه تجاوز کند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignment_details",
+  function() { return {"no_graded_submissions_e40c957a":"هیچ مورد ارسالی نمره‌گذاری شده وجود ندارد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignment_muter",
+  function() { return {"mute_assignment_bb505cd8":"غیر فعال کردن تکلیف","muting_assignment_a9aeb5c7":"در حال غیرفعال کردن تکلیف ...","this_assignment_is_currently_muted_that_means_stud_94d63139":"این تکلیف در حال حاضر غیر فعال شده است. بدین معنا که دانشجویان نمی توانند نمره ها و بازخورد خود را ببینند. آیا مایلید الان فعال شود؟","unmute_assignment_29a49038":"فعال کردن تکلیف"} },
+  function() { return {"unmute_assignment":"فعال کردن تکلیف","unmute_button":"فعال کردن تکلیف","unmuting_assignment":"در حال فعال کردن تکلیف..."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebookHeaderMenu",
+  null,
+  function() { return {"errors":{"upload_as_zip":"لطفا فایل ها را به صورت .zip بارگذاری نمایید"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "submission_details_dialog",
+  function() { return {"all_comments_are_sent_to_the_whole_group_284591e7":"کلیه نظرات به کل گروه ارسال می‌شود.","send_comment_to_this_student_only_e3d9ca1":"نظر را تنها برای این دانشجو ارسال کنید."} },
+  function() { return {"add_a_comment":"افزودن نظر","comments":"نظرها","grade_form_label":"نمره:","labels":{"group_comment":"ارسال نظر به کل گروه"},"late":"با تأخیر","links":{"click_to_view":"برای مشاهده، کلیک کنید"},"loading_comments":"در حال بارگذاری نظرها...","more_details_in_the_speedgrader":"اطلاعات بیشتر در برنامه نمره گذاری سریع","post_comment":"ارسال نظر","submitted":"ارسال شده:","this_was_submitted_multiple_times_choose_a_submission_to_view":"چند بار ارسال شده است, انتخاب کنید کدام را ببینید:","update_grade":"بهنگام سازی نمره","view_rubric_assessment_in_the_speedgrader":"مشاهده ارزیابی با استفاده از دستورالعمل در برنامه نمره گذاری سریع"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebook_individual_gradebook_gradebook_selector",
+  function() { return {"individual_view_81c2f124":"نمای منفرد","individual_view_d60b9132":"نمای منفرد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "section",
+  function() { return {"enrolled_as_enrollment_type_a784f82b":"ثبت نام شده به عنوان: %{enrollment_type}","enrolled_as_enrollment_type_with_section_only_acce_110d7929":"ثبت نام شده به عنوان: %{enrollment_type} فقط با دسترسی تعیین شده"} },
+  function() { return {"confirms":{"delete_enrollment":"مطمئنید که می خواهید این ثبت نام به طور دائم حذف شود؟"},"default_course_name":"شناسه درس \"%{course_id}\"","enrolled_as_designer":"به عنوان طراح ثبت نام شد","enrolled_as_limited_designer":"به عنوان طراح فقط با دسترسی به بخش ثبت نام شد","enrolled_as_limited_observer":"به عنوان بیننده فقط با دسترسی به بخش ثبت نام شد","enrolled_as_limited_student":"به عنوان دانشجو فقط با دسترسی به بخش ثبت‌نام شد","enrolled_as_limited_ta":"به عنوان دستیار آموزشی فقط با دسترسی به بخش ثبت‌نام شد","enrolled_as_limited_teacher":"به عنوان استاد فقط با دسترسی به بخش ثبت‌نام شد","enrolled_as_observer":"به عنوان بیننده ثبت نام شد","enrolled_as_student":"به عنوان دانشجو ثبت‌نام شد","enrolled_as_ta":"به عنوان دستیار آموزشی ثبت‌نام شد","enrolled_as_teacher":"به عنوان استاد ثبت‌نام شد","errors":{"confirmation_failed":"تایید انجام نشد","course_not_authorized_for_crosslist":"%{course_name} برای فهرست بندی متقابل مجاز نیست"},"status":{"confirming_course":"در حال تأیید %{course_name}...","removing_crosslisting_of_section":"در حال لغو فهرست بندی متقابل..."}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "paginated_list",
+  null,
+  function() { return {"no_results_found":"نتیجه موجود نیست","view_more_link":"مشاهده بیشتر"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "sis_import",
+  null,
+  function() { return {"buttons":{"process_data":"پردازش داده ها"},"errors":{"import_failed_code":"در اینجا هنگام وارد کردن داده‌های سامانه اطلاعات دانشجویی شما خطایی رخ داده است. لطفاً مدیران سیستم خود را مطلع کرده و کد زیر را به آن‌ها بدهید: \"%{code}\"","import_failed_messages":"عملیات وارد کردن با خطا مواجه شده با نمایش با این پیامها :"},"headers":{"import_errors":"خطاهایی که از ورود جلوگیری می کنند","import_warnings":"هشدارها","imported_items":"موردهای وارد شده"},"import_counts":{"accounts":"حساب ها: %{account_count}","admins":"مدیران: %{admin_count}","change_sis_ids":"تغییر شناس‌های سامانه اطلاعات دانشجو:%{change_sis_ids_count}","courses":"درس ها: %{course_count}","crosslists":"فهرست های متقابل: %{crosslist_count}","enrollments":"ثبت نام ها: %{enrollment_count}","group_categories":"رده‌های گروه : %{group_categories_count}","group_enrollments":"ثبت نام های گروه: %{group_enrollments_count}","groups":"گروه ها: %{group_count}","logins":"ورودها: %{login_count}","sections":"بخش ها: %{section_count}","terms":"نیمسال ها: %{term_count}","user_observers":"بیننده‌های کاربر : %{user_observers_count}","users":"کاربران: %{user_count}"},"messages":{"import_complete_success":"ورود انجام شد و همه سابقه ها با موفقیت وارد شدند.","import_complete_warnings":"اطلاعات سامانه اطلاعات دانشجو وارد شد اما با نمایش این پیام ها:"},"notices":{"processing_takes_awhile":"ممکن است قدری طول بکشد..."},"status":{"processing":"در حال پردازش "}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "speed_grader",
+  function() { return {"action_was_not_anonymous_b5262db1":"اقدام ناشناس نبود","add_a_comment_872470ac":"افزودن نظر","administrator_f325c186":"مدیر","an_error_occurred_updating_this_assignment_21287c7e":"در هنگام بهنگام سازی این تکلیف خطایی رخ داد.","anonymous_off_7985fcaf":"حالت ناشناس خاموش","anonymous_on_c5fa120d":"حالت ناشناس روشن","anonymous_turned_off_8118a0b":"حالت ناشناس خاموش شد","anonymous_turned_on_fe56f997":"حالت ناشناس روشن شد","anonymous_was_never_turned_on_e5e8aeda":"حالت ناشناس هرگز روشن نشد","anonymous_was_turned_off_300d25ec":"حالت ناشناس غیرفعال شد","are_you_sure_you_want_to_submit_this_comment_fbe76ba6":"مطمئنید که می خواهید این نظر ارسال شود؟","as_of_a036fa2e":"همانطور که از","assessment_audit_d4a76709":"حسابرسی ارزیابی","assessment_audit_events_for_creatorname_56e84e8":"رویدادهای ارزیابی حسابرسی برای%{creatorName}","assessment_audit_tray_5dd11721":"سینی حسابرسی ارزیابی","assignment_created_b3ee04d7":"تکلیف‌های ایجاد شده","assignment_is_reassigned_dd6b6ef2":"تکلیف دوباره اختصاص داده شد","assignment_muted_4cb590a4":"تکلیف غیر فعال شد","assignment_unmuted_2cffe4ca":"تکلیف فعال شد.","assignment_updated_c7482598":"تکلیف به روز شد ","change_section_to_sectionname_6e947e90":"تغییر بخش به %{sectionName}","creatorname_performed_actions_while_anonymous_was__c2124eca":"زمانی که حالت ناشناس غیر فعال بود، %{creatorName} اقداماتی را انجام داد.","days_late_a3a721b0":"روزهای تأخیر","delete_comment_commenttext_c8afe129":"حذف نظر: %{commentText}","docviewer_area_created_37502a31":"قسمت مستندساز ایجاد شد.","docviewer_area_deleted_6e56d3ba":"قسمت مستندساز حذف شد.","docviewer_area_updated_43f60b7e":"قسمت مستندساز به‌هنگام سازی شد.","docviewer_comment_created_1dc99da5":"نظر مستندساز ایجاد شد.","docviewer_comment_deleted_44cf642e":"نظر مستندساز حذف شد.","docviewer_comment_updated_696fbcea":"نظر مستندساز به‌هنگام سازی شد.","docviewer_free_draw_created_727f26aa":"بیرون کشیدن آزاد مستندساز ایجاد شد","docviewer_free_draw_deleted_2b79df21":"بیرون کشیدن آزاد مستندساز حذف شد","docviewer_free_draw_updated_6d907e5":"بیرون کشیدن آزاد مستندساز به هنگام سازی شد","docviewer_free_text_created_1b9c8cf9":"متن آزاد مستندساز ایجاد شد","docviewer_free_text_deleted_429a7572":"متن آزاد مستندساز حذف شد","docviewer_free_text_updated_6f3aadb6":"متن آزاد مستندساز به هنگام سازی شد","docviewer_highlight_created_337a5ced":"هایلایت مستندساز ایجاد شد","docviewer_highlight_deleted_6a7ca566":"هایلایت مستندساز حذف شد","docviewer_highlight_updated_47dc7da2":"هایلایت مستندساز به روز رسانی شد","docviewer_point_created_ade65993":"امتیاز مستندساز ایجاد شد.","docviewer_point_deleted_f4e0a018":"امتیاز مستندساز حذف شد.","docviewer_point_updated_d94078dc":"امتیاز مستندساز به‌هنگام سازی شد.","docviewer_strikeout_created_84cccd3b":"ابطال مستندساز ایجاد شد","docviewer_strikeout_deleted_ddca34b0":"ابطال مستندساز حذف شد","docviewer_strikeout_updated_f06aec74":"ابطال مستندساز به هنگام سازی شد","download_submission_comments_2a6c0395":"بارگیری نظرات در رابطه با مورد ارسالی","edit_status_612572db":"وضعیت ویرایش","error_deleting_file_551dc16e":"خطا در حذف %{file}","failed_to_submit_draft_comment_1de83451":"ارسال نظر پیش نویس انجام نشد","final_grader_1693103c":"نمره گذار نهایی","grader_comments_visible_to_graders_turned_off_d2af5e9d":"نظرات نمره گذار که برای دانشجویان قابل مشاهده است خاموش است","grader_comments_visible_to_graders_turned_on_dca303c7":"نظرات نمره گذار که برای دانشجویان قابل مشاهده است روشن است","grader_count_set_to_count_24f05b53":"تعداد دانشجویان تنظیم شد %{count}","grader_names_visible_to_final_grader_turned_off_e2fb0c8b":"امکان مشاهده نام های دانشجویان برای دانشجویان نهایی غیر فعال شد","grader_names_visible_to_final_grader_turned_on_7f768b67":"امکان مشاهده نام های دانشجویان برای دانشجویان نهایی فعال  شد","graders_anonymous_to_graders_turned_off_e017d355":"دانشجویان ناشناس برای دانشجویان خاموش شدند.","graders_anonymous_to_graders_turned_on_6ccf213f":"دانشجویان ناشناس برای دانشجویان روشن شدند.","grades_posted_c5d8dcce":"نمره ها ارسال شد","hour_s_b6e8d238":"ساعت(ها)","hours_late_989e9081":"تاخیر ساعت","if_you_would_like_to_keep_your_unsubmitted_comment_b7e349ce":"اگر مایلید نظرات ارسال نشده خود را نگه دارید، لطفا قبل از خارج شدن از این صفحه آنها را ذخیره کنید.","late_bd436902":"با تأخیر","loading_assessment_audit_trail_5cf4c10":"در حال بارگذاری دنباله حسابرسی ارزیابی  ","menu_options_9b6b0b5c":"گزینه های منو","missing_eaddacbd":"از دست رفته","monthandday_starting_at_time_769b12c8":"%{monthAndDay} شروع از %{time}","name_lti_tool_b61eb0af":"%{name} (ابزار  LTl )","name_quiz_15f55961":"%{name} (آزمون)","name_user_e44eebed":"%{name} کاربر","no_file_submitted_a879fa53":"فایلی ارسال نشده است.","partially_anonymous_483a892d":"تا حدودی ناشناس","posted_to_student_861beec9":"ارسال شده به دانشجو","provisional_grade_created_13f5c392":"نمره موقت ایجاد شد","provisional_grade_deleted_4af33a19":"نمره موقت حذف شد","provisional_grade_selected_416db903":"نمره موقت انتخاب شد","provisional_grade_updated_6753e2dd":"نمره موقت بروزرسانی شد","rubric_created_64980593":"دستورالعمل های ارزیابی ایجاد شد","rubric_deleted_3d9efc18":"دستورالعمل های ارزیابی حذف شد","rubric_updated_103e24dc":"دستورالعمل های ارزیابی بروزرسانی شد","score_pointspossible_bd57ea9e":"%{score}/%{pointsPossible}","show_all_sections_190203e8":"نمایش همه بخش ها","similarity_score_see_detailed_report_a113dac0":"نمره تشابه- جزئیات گزارش را ببینید","student_number_db6f06c1":"دانشجو %{number}","student_viewed_document_9065adb8":"سند مشاهده شده دانشجو","submission_comment_created_f9375ca2":"ایجاد نظرهای مربوط به مورد ارسالی","submission_comment_deleted_a031a529":"حذف نظرهای مربوط به مورد ارسالی","submission_comment_updated_8d917ded":"نظر درباره مورد ارسالی بروز شد","submission_index_e960f9bf":"ارسال %{index} ","submission_updated_8897f3b7":"مورد ارسالی به روز شد","submit_comment_commenttext_8e5638d7":"ارسال نظر: %{commentText}","the_following_students_have_unsaved_changes_to_the_7762def7":"دانشجویان زیر تغییرات ذخیره نشده ای در  آزمون‌های ارسالی خود دارند:\n\n%{users}\nبا این وجود، ادامه می دهید؟","the_grade_you_entered_has_been_selected_and_can_no_ca87612b":"نمره‌ای که وارد کردید انتخاب شده است و دیگر قابل تغییر نیست.","the_group_groupname_was_automatically_selected_bec_450689f":"گروه \"%{groupName}\"  بصورت اتوماتیک انتخاب شد زیرا هیچ گروهی قبلا انتخاب نشده بود.شما می توانید گروه انتخاب شده را در دفتر نمره تغییر دهید.","the_group_groupname_was_selected_because_the_previ_e080c168":"گروه \"%{groupName}\" انتخاب شده است زیرا گروه انتخاب شده قبلی هیچ دانشجویی نداشت.شما می توانید گروه انتخاب شده را در دفتر نمره تغییر دهید.","the_group_groupname_was_selected_because_the_stude_bcf7ba7c":"گروه \"%{groupName}\" انتخاب شده است چون دانشجویی که درخواست کردید در گروه درخواست شده قبلی نبود.شما می توانید گروه انتخاب شده را در دفتر نمره تغییر دهید","the_maximum_number_of_graders_has_been_reached_for_a9302ebb":"برای این تکلیف  تعداد نمره گذاران به حداکثر رسیده است.","the_selected_group_was_cleared_because_the_student_656e4f1c":"گروه انتخاب شده پاک شد زیرا دانشجویی که درخواست کردید جزء هیچ گروهی نیست. می توانید یک گروه را در دفتر نمره انتخاب کنید.","unknown_event_7a0bcda3":"رخداد نامعلوم","unknown_external_tool_c918e9b2":"ابزارهای بیرونی ناشناخته","unknown_quiz_3892d071":"آزمون نامعلوم","unknown_role_cbe9a089":"نقش ناشناس","unknown_user_1113fcaa":"کاربر ناشناس","vericite_similarity_score_see_detailed_report_390ab687":"نمره تشابه VeriCite - جزئیات گزارش را ببینید","word_count_c77fe3a6":"تعداد کلمه","x_y_4a86b3ab":"%{x}/%{y}","your_comment_is_not_posted_12677035":"نظر شما ارسال نشده است"} },
+  function() { return {"alerts":{"no_active_students":"متأسفانه، یا دانشجوی فعالی در درس شما وجود ندارد و یا اینکه هیچ یک از آنها قابل نمره دهی توسط شما نیستند.","no_students_in_groups_back":"متأسفانه، موردهای ارسالی برای این تکلیف را نمی توان در برنامه نمره گذاری سریع نمره گذاری کرد، زیرا کاربری به آن تخصیص داده نشده است. لطفا کاربران را به این مجموعه گروه تخصیص دهید و دوباره سعی کنید. برای بازگشت، روی دکمه «تأیید» کلیک کنید.","no_students_in_groups_close":"متأسفانه موردهای ارسالی این تکلیف را نمی توان در برنامه نمره گذاری سریع نمره گذاری کرد، زیرا کاربری به آن تخصیص داده نشده است. لطفا کاربران را به این مجموعه گروه تخصیص دهید و دوباره سعی کنید. روی دکمه 'تایید' کلیک کنید تا این پنجره بسته شود.","no_students_in_section":"هیچ دانشجویی در این بخش یافت نشد، در حال بازگشت برای نشان دادن همه بخش ها."},"allow_message":"برای آغاز ثبت، روی دکمه \"اجازه دادن» کلیک کنید.","begin_record_prompt":"برای شروع، روی دکمه «ضبط» کلیک کنید.","buttons":{"dialog_buttons":"لغو","saving_settings":"در حال ذخیره سازی تنظیمات...","submitting":"در حال ارسال..."},"canvadoc_expiring":"جلسه DocViewer کانواس شما به زودی منقضی می شود. لطفا برای اینکه کار شما از بین نرود، پنجره را دوباره بارگذاری کنید.","crocodoc_expiring":"جلسه Crocodoc شما به زودی منقضی می شود. لطفا برای اینکه کار شما از بین نرود، پنجره را دوباره بارگذاری کنید.","dialog_button":{"aria_record":"برای ضبط کلیک کنید"},"edit_view_rubric":"مشاهده دستورالعمل ارزیابی","group":"گروه","mic_blocked_message":"اجازه استفاده از میکروفن مسدود شده است. برای تغییر، به کروم ://settings/content/microphone برود. ","no_submission_time":"زمان مورد ارسالی موجود نیست","nodetect_message":"هیچ گفتاری حذف نشده است. ممکن است لازم باشد تنظیمات میکروفن خود را تغییر دهید.","portion_graded":"%{x}/%{y}","recording_expired_message":"بازشناسی گفتار به دلیل عدم فعالیت منقضی شده است. برای استفاده از متن فعلی برای اظهار نظر روی دکمه «توقف» کلیک کنید یا برای صرفنظر، روی «لغو» کلیک کنید.","recording_message":"در حال ضبط...","student":"دانشجو","submissions_dropdown":{"grade":"(نمره: %{grade})","see_all_quiz_attempts":"مشاهده همه تلاش های آزمون","submission_to_view":"مورد ارسالی برای مشاهده:","submitted":"*ارسال شد:* %{submittedAt}"},"submit":"ارسال","titles":{"click_to_record":"گفتار به متن"},"turnitin":{"info_message":"این فایل هنوز توسط ابزار تشخیص سرقت ادبی مربوط به تکالیف در حال پردازش است. لطفا بعدا بازبینی کنید تا نمره را ببینید.","tooltip":{"error":"نمره تشابه- جزئیات خطای مورد  ارسال را مشاهده کنید","pending":"نمره تشابه- ارسال در انتظار"}},"vericite":{"error_message":"در هنگام ارسال به VeriCite اشکالی رخ داد. لطفا قبل از تماس با پشتیبانی، فایل را دوباره ارسال کنید.","info_message":"این فایل هنوز در حال پردازش توسط VeriCite است. لطفا نمره را بعداً بازبینی کنید.","resubmitting":"در حال ارسال دوباره...","tooltip":{"error":"نمره تشابه VeriCite - جزئیات خطای ارسال را مشاهده کنید","pending":"نمره تشابه VeriCite - مورد ارسالی در انتظار"}}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "speed_grader_helpers",
+  function() { return {"there_was_an_error_submitting_to_the_similarity_de_eb6a261":"در هنگام ارسال به سرویس تشخیص شباهت وجود داشت. لطفا قبل از تماس با پشتیبانی، ارسال دوباره فایل را امتحان کنید."} },
+  function() { return {"dialog_button":{"aria_record_reset":"برای ضبط کلیک کنید","aria_stop":"برای خاتمه دادن به ضبط، روی «توقف» کلیک کنید."},"graded":"نمره گذاری شده","graded_then_resubmitted":"نمره گذاری شد، سپس دوباره در (%{when}) ارسال شد","not_graded":"نمره گذاری نشده","not_submitted":"ارسال نشده","turnitin":{"resubmitting":"در حال ارسال دوباره..."}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "CommentLibrary",
+  function() { return {"add_comment_to_library_1e3d95db":"افزودن نظر به کتابخانه","add_to_library_30514daa":"اضافه به کتابخانه","adding_to_library_b552868":"اضافه به کتابخانه","edit_comment_comment_c1ce8c10":"ویرایش نظر: %{comment}","edit_comment_ed0f05b3":"ویرایش نظر","error_creating_comment_cbbfc0f0":"خطا در ایجاد نظر","error_deleting_comment_87ca3d06":"خطا در حذف نظر","error_loading_comment_library_db6c9045":"خطا در بارگیری کتابخانه نظرات","error_updating_comment_4b80c76d":"خطا در به‌روزرسانی نظر","open_comment_library_9debe2":"کتابخانه نظرات را باز کنید","show_less_d5bbf728":"نمایش کمتر","show_more_8d5f918b":"نمایش بیشتر","show_suggestions_when_typing_b72545de":"نمایش پیشنهادات هنگام تایپ","write_something_430e346c":"چیزی بنویسید..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "SpeedGraderPostGradesMenu",
+  function() { return {"all_grades_hidden_84409b76":"همه نمره‌ها پنهان شدند.","all_grades_posted_d5b8cb68":"همه نمره‌ها ارسال شد.","no_grades_to_hide_2072bbd":"هیچ نمره‌ای برای پنهان شدن وجود ندارد.","no_grades_to_post_fc148c1b":"هیچ نمره‌ای برای ارسال وجو ندارد.","post_or_hide_grades_2d1d7815":"ارسال یا پنهان کردن نمره‌ها"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "SpeedGraderProvisionalGradeSelector",
+  function() { return {"hide_details_df9ef4a2":"مخفی کردن جزئیات","how_is_the_grade_determined_bb75bf53":"نمره چگونه تعیین می شود?","out_of_pointspossible_c163105a":"از %{pointsPossible}","select_a_provisional_grade_7106e3d5":" انتخاب نمره موقت ","show_details_194cf390":"نمایش جزئیات"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "SpeedGraderSettingsMenu",
+  function() { return {"moderation_page_4061aa2b":"صفحه تعدیل","speedgrader_settings_4195099b":"تنظیمات برنامه نمره گذاری سریع"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "sub_accounts",
+  null,
+  function() { return {"alerts":{"subaccount_has_courses":"نمی توانید یک زیر حساب که دارای درس است را حذف کنید","subaccount_has_subaccounts":"نمی توانید یک زیر حساب که دارای زیر حساب است را حذف کنید"},"confirms":{"delete_subaccount":"مطمئنید که می خواهید این زیر حساب حذف شود؟"},"courses_count":{"one":"%{count} درس","other":"%{count} درس"},"sub_accounts_count":{"one":"%{count} زیر حساب","other":"%{count} زیر حساب"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "external_toolsHomeworkSubmissionLtiContainer",
+  function() { return {"invalid_submission_file_type_cda6742a":"نوع فایل ارسالی نامعتبر است"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "ExternalContentFileSubmissionView",
+  null,
+  function() { return {"file_retrieval_error":"بازیابی فایل انجام نشد","getting_file":"درحال بازیابی فایل...","invalid_file_retrieval":"در هنگام بازیابی فایل ارسال شده از این ابزار، اشکالی رخ داد.","processing_submission":"کانواس در حال پردازش مورد ارسالی شما است. با خیال راحت می‌توانید از این پیمایش دور شوید و در صورت عدم پردازش ارسال، ما به شما ایمیل خواهیم زد."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "titles",
+  null,
+  function() { return {"view_in_separate_window":"مشاهده در پنجره جداگانه"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "submit_assignment_helper",
+  null,
+  function() { return {"messages":{"agree_to_pledge":"قبل از اینکه بتوانید این تکلیف را ارسال کنید، باید تعهد نامه ارسال را بپذیرید."}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "submit_assignment",
+  function() { return {"attached_files_must_be_greater_than_0_bytes_7f57bee7":"فایل های پیوست شده باید بزرگتر از 0 بایت باشند","file_has_not_finished_uploading_cfba3b2f":"بارگذاری فایل تمام نشده است","file_tree_collapsed_d4b0ae96":"درخت فایل  بسته شد.","file_tree_expanded_a1d20c4a":"درخت فایل  باز شد.","percent_complete_e46b6148":"%{percent} درصد کامل","remove_empty_attachment_b2aea632":"حذف پیوست خالی","remove_filename_87f3781e":"حذف %{filename}"} },
+  function() { return {"buttons":{"submit_assignment":"ارسال تکلیف"},"messages":{"not_submitted_yet":"ارسال تکلیف شما هنوز تمام نشده است. برای خاتمه دادن به فرایند تحویل باید روی «ارسال» کلیک کنید. به هر حال آیا مایلید از این صفحه خارج شوید؟","now_overdue":"اکنون مهلت این تکلیف گذشته است. هر مورد ارسالی جدید به عنوان دارای تاخیر علامت گذاری خواهد شد. با این وجود ادامه می دهید؟","overdue":"مهلت تکلیف گذشته است. هنوز می خواهید آن را ارسال کنید؟","record_before_submitting":"ثبت قبل از ارسال","submit_failed":"ارسال انجام نشد، لطفا دوباره سعی کنید","submitting":"در حال ارسال..."},"titles":{"uploading":"در حال بارگذاری مورد ارسالی"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "button",
+  null,
+  function() { return {"submit_assignment":"ارسال تکلیف"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "errors",
+  null,
+  function() { return {"blank":"لازم","no_attached_file":"باید حداقل یک فایل را به این تکلیف پیوست کنید","required":"لازم","unsaved_changes":"ذخیره سازی تغییرات را لغو کرده اید.","wrong_file_extension":"فایلی که با پسوند \"%{extension}\" انتخاب کردید، برای ارسال مجاز نیست"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "attachment",
+  function() { return {"upload_a_file_228b8cf9":"یک فایل بارگذاری کنید","use_webcam_1ed0bf6b":"از وب کم استفاده کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "syllabus",
+  function() { return {"course_syllabus_5de1b0af":"سرفصل درس"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "terms",
+  function() { return {"term_start_b8c2aad1":"شروع نیمسال","whenever_b943b119":"هر زمان"} },
+  function() { return {"index":{"add_term":"افزودن نیمسال","date":{"term_end":"پایان نیمسال","unspecified":"هر زمان"},"messages":{"classes_in_term":"نمی توانید نیمسالی که دارای کلاس است را حذف کنید.","submitting":"در حال ارسال..."},"prompts":{"delete":"مطمئنید که می خواهید این نیمسال حذف شود؟"},"update_term":"بهنگام سازی نیمسال"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "terms_of_service_modal",
+  function() { return {"acceptable_use_policy_29a28124":"سیاست استفاده قابل قبول "} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "terms_of_use",
+  function() { return {"you_must_agree_to_the_terms_99723f97":"باید با ضوابط موافقت داشته باشید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "user_grades",
+  function() { return {"no_grade_3fa326c":"نمره موجود نیست"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "user_lists",
+  null,
+  function() { return {"add_n_users":{"one":"به نظر مناسب می آید، این %{count} کاربر افزوده شوند","other":"به نظر مناسب می آید، این %{count} کاربر افزوده شوند"},"adding_users":"در حال افزودن کاربران...","buttons":{"continue":"ادامه..."},"cant_unenroll":"این کاربر به طور خودکار با استفاده از سامانه ثبت نام دانشگاه ثبت نام شده است، بنابراین نمی توان آنها را به طور دستی حذف کرد. اگر پرسشی دارید، لطفا با مدیر سامانه تماس بگیرید.","delete_confirm":"مطمئنید که می خواهید این کاربر حذف شود؟","duplicate_users":{"one":"%{count} کاربر تکراری یافت شد، موارد تکراری حذف شده اند.","other":"%{count} کاربر تکراری یافت شد، موارد تکراری حذف شده اند."},"invalid_users_notice":"ممکن است برخی موارد معتبر نباشند و شاید لازم باشد برگردید و هر گونه خطا را اصلاح کنید.","just_now":"همین الان","messages":{"processing":"در حال پردازش..."},"titles":{"existing_user":"کاربر موجود"},"user_parsing_errors":{"one":"در هنگام تجزیه این فهرست کاربران %{count} خطا رخ داد.","other":"در هنگام تجزیه این فهرست کاربران %{count} خطا رخ داد."},"users_added":{"one":"%{count} کاربر افزوده شد","other":"%{count} کاربر افزوده شد"},"users_adding_failed":"ثبت نام کاربران انجام نشد","users_existed":{"one":"(%{count} کاربر از قبل وجود داشته اند)","other":"(%{count} کاربر از قبل وجود داشته اند)"},"users_to_add":{"one":"اگر این گونه عمل کنید، %{count} کاربر اضافه خواهند شد.","other":"اگر این گونه عمل کنید، %{count} کاربر اضافه خواهند شد."}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "user_logins",
+  null,
+  function() { return {"buttons":{"add_login":"افزودن ورود","update_login":"بهنگام سازی ورود"},"confirms":{"delete_login":"مطمئنید که می خواهید ورود، \"%{login}\" حذف شود؟"},"error":{"unauthorized":"اختیارات کافی برای ایجاد تغییر درخواست شده را ندارید"},"notices":{"cant_delete_last_login":"نمی توانید آخرین ورود یک کاربر را حذف کنید","mfa_reset":"بازنشانی اعتبارسنجی چند عاملی"},"save_succeeded":"ذخیره سازی با موفقیت انجام شد","titles":{"add_login":"افزودن ورود","update_login":"بهنگام سازی ورود"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "user_name",
+  function() { return {"cache_cleared_successfully_9ab84d5a":"حافظه نهان با موفقیت پاک شد","failed_to_clear_cache_7361ab":"پاک کردن حافظه نهان انجام نشد"} },
+  function() { return {"buttons":{"update_user":"بهنگام سازی کاربر"},"confirms":{"remove_profile_picture":"مطمئنید که می خواهید عکس رخ نمای این کاربر حذف شود؟"},"errors":{"failed_to_remove_image":"حذف تصویر انجام نشد، لطفا دوباره سعی کنید","failed_to_report_image":"گزارش کردن تصویر انجام نشد، لطفا دوباره تلاش کنید","updating_user_details_failed":"بهنگام سازی اطلاعات کاربر انجام نشد، لطفا دوباره تلاش کنید"},"messages":{"removing_image":"در حال حذف کردن تصویر...","reporting_image":"در حال گزارش کردن تصویر...","updating_user_details":"در حال بهنگام سازی اطلاعات کاربر..."},"notices":{"image_reported":"این تصویر گزارش شده است"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "user_notes",
+  null,
+  function() { return {"confirms":{"delete_journal_entry":"مطمئنید که می خواهید ورودی این ژورنال حذف شود؟"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "observees",
+  function() { return {"in_order_to_complete_the_process_you_will_be_redir_83376e10":"به منظور تکمیل فرایند، به یک صفحه ورود هدایت خواهید شد که باید با استفاده از اعتبارنامه های فرزند خود وارد شوید.","no_students_being_observed_42e11732":"هیچ دانشجویی مشاهده نمی شود."} },
+  function() { return {"being_observed":"دانشجویانی که در حال مشاهده شدن هستند","new_observee_pairing_code":"رمز جفتی دانشجو","observee_added":"اکنون در حال مشاهده %{user}","observing":"در حال مشاهده"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "outcomes",
+  function() { return {"add_a_new_outcome_cbdbe96c":"افزودن نتیجه جدید","add_a_new_outcome_group_e3fab2fc":"افزودن گروه نتیجه جدید","delete_outcome_cc6546f1":"حذف نتیجه","delete_outcome_group_6b399d34":"حذف گروه نتیجه","edit_outcome_group_f82e0210":"ویرایش گروه نتیجه","find_an_outcome_919328e6":"یافتن نتیجه","hide_all_artifacts_d654fbd5":"مخفی کرده همه آثار","import_a_set_of_outcomes_6b782192":"مجموعه‌ای از نتایج را وارد کنید.","in_order_to_import_a_large_quantity_of_outcomes_at_c0d587e3":"برای وارد کردن مقدار زیادی از نتایج به صورت یکباره یا برای به روزرسانی نتایج موجود ، لطفاً * از قالب CSV را پیروی کنید *.","latest_assessment_a85280ef":"آخرین ارزیابی","mastery_n_mastery_points_precision_2_str_points_e0ed1b3b":"تسلط:  %{n_mastery_points_precision_2_str} امتیاز","more_importantly_canvas_allows_you_to_add_outcomes_78822cf":"از همه مهمتر، کانواس به شما این امکان را می‌دهد تا نتایج را به دستورالعمل‌های ارزیابی نمره گذاری خود اضافه کنید تا بتوانید تسلط را در نمره گذاری تکالیف ارزیابی کنید. پس از اینکه نتایج را تنظیم کردید، برای شروع استفاده از نتایج خود برای نمره گذاری، روی \"مدیریت دستورالعمل‌های ارزیابی\" کلیک کنید.","move_outcome_ce497e6c":"انتقال نتیجه","move_outcome_group_cfa1a505":"انتقال گروه نتیجه","n_points_precision_2_strip_insig_points_60ad6f21":"%{n_points_precision_2_strip_insig} امتیاز","new_outcome_7fba8c7d":"نتیجه جدید","new_outcome_group_af59f145":"گروه جدید نتیجه","no_score_yet_c94e919b":"هنوز هیچ نمره ای موجود نیست","not_available_until_next_submission_2175158":"تا مورد ارسالی بعدی در دسترس نیست","outcomes_are_created_here_to_track_mastery_in_a_co_2f487549":"برای پیگیری تسلط در یک درس، نتایج اینجا ایجاد می شود. برای شروع به کار، نوار منو در طول قسمت بالا را بررسی کنید. برای ایجاد نتیجه جدید، بر روی دکمه \"نتیجه جدید\" کلیک کنید یا برای ایجاد یک گروه جدید برای سازماندهی نتایج خود در آن، روی دکمه \"گروه جدید\" کلیک کنید. دکمه \"پیدا کردن\"به شما امکان می دهد از نتایج استان یا دانشگاه شما ایجاد شده اند استفاده کنید. به محض ایجاد و استفاده از نتایج می توانید از صفحه سمت چپ برای پیمایش در نتایج خود استفاده کنید. می توانید نتایج را برای ایجاد ساختار بین سطوح مختلف بکشید و رها کنید.","show_all_artifacts_34b91a83":"نمایش همه آثار","the_most_recent_scores_for_user_current_user_name__ea82f0b6":"جدیدترین نمره ها برای کاربر %{current_user_name} و نتیجه %{outcome_name}.","this_outcome_has_been_used_to_assess_a_student_and_a3a48511":"این نتیجه برای ارزیابی دانشجو استفاده شده است و بعضی از ویرایش‌ها بر نتایج دانش آموزان تأثیر می گذارد.","you_have_no_outcomes_click_here_to_create_one_ebf262a3":"هیچ نتیجه ای ندارید. برای ایجاد یک نتیجه، *اینجا کلیک کنید*."} },
+  function() { return {"criterion":{"close_rating":"تأیید","criterion_rating_points":"امتیازهای رتبه بندی معیار","delete_criterion":"حذف","edit_criterion_rating_title":"ویرایش %{description} رتبه بندی معیار","points":"امتیازها","pts":"امتیازها","rating_description":"شرح رتبه بندی معیار"},"criterion_header":{"insert_criterion_rating":"درج رتبه بندی معیار","insert_rating":"درج"},"find_instructions":{"instructions":{"find":{"description":"*می توانید به نتایج ایجاد شده توسط دانشگاه یا استان خود در اینجا دسترسی پیدا کنید. درست مثل درس خود، صفحه سمت چپ به شما امکان می دهد بین نتایج موجود پیمایش کنید. هنگامی که نتیجه یا گروه نتیجه که مایلید استفاده کنید را یافتید، برای افزودن آن به درس خود روی دکمه ورود در قسمت زیر کلیک کنید.*","title":"در حال یافتن نتایج"}}},"main_instructions":{"instructions":{"main":{"manage":{"title":"راه اندازی نتایج"}}}},"outcome":{"links":{"delete_outcome":"حذف","edit_outcome":"ویرایش"},"mastery_at_label":"تعیین تسلط برای هر نمره از این نمره یا بالاتر:","use_for_scoring":"استفاده از این معیار برای نمره گذاری"},"outcome_form":{"calculation_method":"روش محاسبه","criterion":"رتبه بندی های معیار","description":"این نتیجه را شرح دهید","display_name":"نام دوستانه (انتخابی)","mastery":"تسلط در","title":"این نتیجه را نام گذاری کنید"},"outcome_group":{"links":{"delete_outcome_group":"حذف","edit_outcome_group":"ویرایش"}},"outcome_group_form":{"group_description":"این گروه را شرح دهید","title":"این گروه را نام گذاری کنید"},"outcome_popover":{"mastery_set_at":"تسلط تعیین شده در","no_results":"(نتیجه موجود نیست)"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "users",
+  null,
+  function() { return {"confirms":{"unenroll_user":"مطمئنید که می خواهید ثبت نام این کاربر لغو شود؟"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "webzip_exports",
+  function() { return {"an_error_occurred_please_try_again_later_84223241":"یک خطا رخ داد. لطفا در زمان دیگری دوباره سعی کنید.","export_failed_5d615d6d":"صدور انجام نشد","exported_package_history_bfca44b9":"تاریخچه بسته صادر شده","most_recent_export_7282b756":"جدیدترین صدورها","no_exports_to_display_7f1b630b":"هیچ صدوری برای نمایش وجود ندارد","package_export_from_d6e2b073":"صدور بسته از","you_may_not_reproduce_or_communicate_any_of_the_co_7636b552":"نمی توانید هیچ یک از مطالب این درس را بازتولید یا  مبادله کنید،\nاز جمله فایل‌های صادر شده از این درس بدون مجوز کتبی پیشین از مؤسسه\nخود. دستورالعمل‌های آنلاین توافقنامه کاربر را با مؤسسه خود\nبررسی کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "pages",
+  function() { return {"name_is_locked_click_to_unlock_bbebf03e":"%{name} قفل شده است. برای باز کردن قفل کلیک کنید.","selected_pages_have_been_deleted_82a7f965":"صفحات انتخاب شده حذف شده اند"} },
+  function() { return {"cancel_button":"لغو","cannot_unpublish_front_page":"نمی توان انتشار صفحه آغازین را لغو کرد","delete_button":"حذف","delete_confirmation":"آیا اطمینان دارید که می‌خواهید این صفحه حذف شود؟","delete_dialog_title":"حذف  صفحه","deleting_button":"درحال حذف...","edit_dialog_title":"ویرایش صفحه","errors":{"require_title":"باید یک عنوان وارد کنید"},"headers":{"sort_ascending":"%{title}, مرتب سازی صعودی ","sort_descending":"%{title}, مرتب سازی نزولی "},"notices":{"delete_failed":"صفحه \"%{title}\" نمی تواند حذف شود.","page_deleted":"صفحه \"%{title}\" حذف شده است."},"reload_editing_page":"این صفحه از زمانی که شروع به ویرایش آن کرده اید تغییر یافته است. *بارگیری دوباره* همه تغییرات شما را از بین خواهد برد.","reload_viewing_page":"این صفحه از زمانی که شروع به مشاهده آن کرده اید، تغییر یافته است. *بارگذاری دوباره*","restore_failed":"بازیابی تجدید نظر صفحه انجام نشد","save_button":"ذخیره سازی","saving_button":"در حال ذخیره سازی...","warnings":{"overwrite_changes":"به زودی تغییرات دیگری که از زمان شروع ویرایش انجام داده اید را رونویسی می کنید.\n\nاین تغییرات رونویسی شوند؟","unsaved_changes":"ذخیره سازی تغییرات را لغو کرده اید. می خواهید بدون ذخیره سازی این تغییرات ادامه دهید؟ "}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "wiki_pages",
+  function() { return {"delete_in_progress_2d3f0e0d":"عملیات حذف در حال انجام است"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "content_locks",
+  null,
+  function() { return {"buttons":{"ok_thanks":"باشه، ممنون"},"messages":{"assignment_locked_at":"این تکلیف در تاریخ %{at} قفل شد.","assignment_locked_module":"این تکلیف بخشی از ماژول *%{module}* است و هنوز قفل گشایی نشده است.","assignment_locked_no_reason":"این تکلیف قفل شده است. هیچ دلیل دیگری ارائه نشده است.","assignment_locked_until":"این تکلیف تا تاریخ %{date} قفل شده است.","content_locked_at":"این محتوا در تاریخ %{at} قفل شد.","content_locked_module":"این محتوا بخشی از ماژول *%{module}* است و هنوز قفل گشایی نشده است.","content_locked_no_reason":"این محتوا قفل شده است. هیچ دلیل دیگری ارائه نشده است.","content_locked_until":"این محتوا تا تاریخ %{date} قفل شده است.","file_locked_at":"این فایل در %{at} قفل شد.","file_locked_module":"این فایل بخشی از ماژول *%{module}* است و هنوز قفل گشایی نشده است.","file_locked_no_reason":"این فایل قفل شده است. هیچ دلیل دیگری ارائه نشده است.","file_locked_until":"این فایل تا تاریخ %{date} قفل شده است.","page_locked_at":"این صفحه در تاریخ %{at} قفل شد.","page_locked_module":"این صفحه بخشی از ماژول *%{module}* است و هنوز قفل گشایی نشده است.","page_locked_no_reason":"این صفحه قفل شده است. هیچ دلیل دیگری ارائه نشده است.","page_locked_until":"این صفحه تا تاریخ %{date} قفل شده است.","quiz_locked_at":"این آزمون در تاریخ %{at} قفل شد.","quiz_locked_module":"این آزمون بخشی از ماژول *%{module}* است و هنوز قفل گشایی نشده است.","quiz_locked_no_reason":"این آزمون قفل شده است. هیچ دلیل دیگری ارائه نشده است.","quiz_locked_until":"این آزمون تا تاریخ %{date} قفل شده است.","topic_locked_at":"این موضوع در تاریخ %{at} قفل شد.","topic_locked_module":"این موضوع بخشی از ماژول *%{module}* است و هنوز قفل گشایی نشده است.","topic_locked_no_reason":"این موضوع قفل شده است. هیچ دلیل دیگری ارائه نشده است.","topic_locked_until":"این موضوع تا تاریخ %{date} قفل شده است.","visit_modules_page_for_details":"برای کسب اطلاعات درباره شیوه قفل گشایی این محتوا از صفحه ماژول ها بازدید نمایید."},"titles":{"content_is_locked":"محتوا قفل شده است"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "add_people_api_client",
+  function() { return {"you_do_not_have_permission_to_invite_users_that_do_b7142404":"مجاز به دعوت کاربرانی که هم‌اکنون وجود ندارند، نیستید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "add_people",
+  function() { return {"add_people_7ee4b2ec":"افزودن افراد","add_people_to_coursename_5ea234e1":"افزودن افراد به %{courseName}","add_users_b10c7fb1":"افزودن کاربران","loading_725811ca":"در حال بارگذاری","ready_to_enroll_panel_46f45abb":"آماده برای ثبت نام پنل","this_panel_lists_the_users_ready_to_be_added_to_th_79efad22":"این پنل کاربران آماده برای افزودن به این درس را فهرست می‌کند.","use_this_panel_to_resolve_duplicate_results_or_peo_856d1c96":"از این پنل برای حل و فصل نتایج تکراری یا افرادی که در جستجوی شما نیستند استفاده کنید. ","use_this_panel_to_search_for_people_you_wish_to_ad_a3d726a7":"از این پنل برای جستجوی افرادی که می‌خواهید به این درس اضافه شوند استفاده کنید.","user_search_panel_18f80511":"پنل جستجوی کاربر","user_vaildation_issues_panel_66b66945":"پنل مسائل مربوط به اعتبارسنجی کاربر"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "add_peopleApiError",
+  function() { return {"the_following_users_could_not_be_created_2573360a":"کاربران زیر نمی‌توانند ایجاد شوند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "add_people_duplicate_section",
+  function() { return {"click_to_create_a_new_user_for_address_325f6683":"برای ایجاد یک کاربر جدید برای %{address} کلیک کنید","click_to_create_a_new_user_for_login_56d2daf5":"برای ایجاد یک کاربر جدید برای %{login} کلیک کنید","click_to_select_user_name_41746803":"برای انتخاب کاربر %{name} کلیک کنید","click_to_skip_address_8f874b32":"برای از قلم انداختن %{address} کلیک کنید","create_a_new_user_for_address_7487e9c9":"یک کاربر جدید برای ‍‍%{address} ایجاد کنید","don_t_add_this_user_for_now_32912974":"اکنون این کاربر را اضافه نکنید.","possible_matches_for_address_select_the_correct_on_e206f972":"تطابق‌های ممکن برای \"%{address}\". یک مورد صحیح از موارد زیر را انتخاب کنید یا یک کاربر جدید بسازید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "add_people_missing_people_section",
+  function() { return {"check_to_add_a_user_for_loginid_6cd25597":"برای افزودن کاربر برای %{loginid}، انتخاب کنید","check_to_select_all_98e484f1":"برای انتخاب همه گزینه ها انتخاب کنید","check_to_skip_adding_a_user_for_loginid_5fa643da":"برای پرش از اضافه کردن کاربر برای %{loginid} انتخاب کنید","click_to_add_a_name_6cf551b0":"برای افزودن یک نام کلیک کنید","unmatched_login_list_283ca77":"فهرست ورود غیر منطبق"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "PeopleReadyList",
+  function() { return {"no_users_were_selected_to_add_to_the_course_a51c6083":"هیچ دانشجویی برای اضافه شدن به درس انتخاب نشده است","the_following_users_are_ready_to_be_added_to_the_c_1ea01560":"کاربران زیر آماده اضافه شدن به درس هستند.","user_list_66428346":"فهرست کاربر"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "PeopleSearch",
+  function() { return {"add_user_s_by_b2549f89":"افزودن کاربر(ها) توسط","can_interact_with_users_in_their_section_only_48cb8c43":"فقط می توانید با کاربران در بخش خود تعامل کنید","email_addresses_required_14483dc8":"نشانی پست الکترونیکی (لازم)","enter_the_email_addresses_of_the_users_you_would_l_f76448a6":"نشانی های پست الکترونیکی کاربرانی که باید اضافه شوند به نحوی که با ویرگول یا خط از هم جدا شده باشند وارد کنید","enter_the_login_ids_of_the_users_you_would_like_to_502fcbc5":"شناسه ورود کاربرانی که باید اضافه شوند را به نحوی که با ویرگول یا خط از هم جدا شده باشند، وارد کنید","enter_the_sis_ids_of_the_users_you_would_like_to_a_25e441f1":"شناسه سامانه اطلاعات دانشجو کاربرانی که باید اضافه شوند را به نحوی که با ویرگول یا خط از هم جدا شده باشند، وارد کنید","it_looks_like_you_have_an_invalid_email_address_ad_67dec734":"به نظر می‌رسد نشانی پست الکترونیکی شما معتبر نیست: \"%{addr}\"","role_13a7be77":"نقش","sis_ids_required_125074d9":"شناسه های SIS (لازم است)","when_adding_multiple_users_use_a_comma_or_line_bre_67f9c87d":"در هنگام اضافه کردن چندین کاربر، از ویرگول و یا جدا کننده خط برای جدا کردن کاربرها استفاده کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "PeopleValidationIssues",
+  function() { return {"there_were_several_possible_matches_with_the_impor_ad58bcd0":"چندین تطابق محتمل با ورود وجود داشت. لطفا آنها را در زیر برطرف کنید.","we_were_unable_to_find_matches_below_f1c6d1ed":"قادر به یافتن تطابق‌های زیر نبودیم.","we_were_unable_to_find_matches_below_select_any_yo_87035b30":"قادر به یافتن نظیرهای زیر نبودیم. هر کدام که مایل هستید به عنوان کاربر جدید ایجاد شود انتخاب کنید. در این زمان موارد انتخاب نشده نادیده گرفته می‌شوند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "add_peopleapiState_reducer",
+  function() { return {"an_internal_error_occurred_83b8a685":"یک خطای داخلی رخ داد","failed_creating_user_b706a1c5":"ایجاد کاربر انجام نشد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "app_shared_components_expandable_error_alert",
+  function() { return {"error_details_31e81e4d":"خطا در جزئیات"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "ajaxflashalert",
+  function() { return {"an_error_occurred_making_a_network_request_d1bda348":"برای یک  درخواست شبکه خطا رخ داده است"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignment_categories",
+  function() { return {"wiki_6603e81b":"ویکی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "models_Assignment",
+  function() { return {"can_t_unpublish_name_if_there_are_student_submissi_8ab8086c":"اگر موردهای ارسالی دانشجو وجود داشته باشد، نمی توان انتشار %{name} را لغو کرد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "AssignmentGroupCreateDialog",
+  null,
+  function() { return {"titles":{"add_assignment_group":"افزودن گروه تکلیف"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignment_group_selector",
+  null,
+  function() { return {"assignment_group_must_have_group":"لطفا یک گروه تکلیف برای این تکلیف انتخاب کنید"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignment_grading_type",
+  null,
+  function() { return {"gpa_scale_explainer":"نمره گذاری مقیاس معدل چیست؟","grading_type_options":{"gpa_scale":"مقایس معدل","letter_grade":"نمره با حروف الفبا","not_graded":"نمره گذاری نشده","pass_fail":"کامل/ناقص","percent":"درصد","points":"امتیازها"},"titles":{"gpa_scale_explainer":"نمره گذاری مقیاس معدل چیست؟","grading_scheme_info":"مشاهده/ویرایش طرح نمره گذاری"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignment!reupload_submissions_helper",
+  function() { return {"please_upload_files_as_a_zip_5a2c799f":"لطفا فایل ها را به صورت .zip بارگذاری نمایید","upload_files_a228f20f":"بارگذاری فایل ها","uploading_ee585874":"در حال بارگذاری..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "CollectionView",
+  null,
+  function() { return {"no_items":"هیچ موردی یافت نشد."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_settings_actions",
+  function() { return {"an_error_occurred_while_checking_the_migration_sta_d17035b1":"در هنگام بررسی وضعیت مهاجرت خطایی رخ داد","an_error_occurred_while_loading_associations_9699b3ee":"هنگام بارگذاری انجمن‌ها خطایی روی داد","an_error_occurred_while_loading_changes_9851b56f":"هنگام بارگذاری تغییرات خطایی رخ داد","an_error_occurred_while_loading_courses_11d4571e":"هنگام بارگذاری درس‌ها خطایی رخ داد","an_error_occurred_while_saving_associations_bd66f3f4":"هنگام ذخیره سازی انجمن ها خطایی رخ داد","an_error_occurred_while_starting_migration_8e6015e2":"هنگام شروع انتقال خطایی رخ داد","an_error_ocurred_while_loading_sync_history_ad9dc6df":"هنگام بارگذاری سابقه همگام‌سازی خطایی رخ داد","an_error_ocurred_while_loading_unsynced_changes_aed0d04d":"هنگام بارگذاری تغییرات همگام سازی نشده خطایی رخ داد","associations_saved_successfully_48b9eae3":"انجمن‌ها با موفقیت ذخیره شدند","there_was_an_unexpected_problem_with_the_sync_be079a67":"یک مشکل غیر منتظره در همگام سازی وجود داشت"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_coursesLockManageer",
+  function() { return {"there_was_a_problem_toggling_the_content_lock_2a5d678b":"در هنگام تغییر وضعیت قفل محتوا، مشکلی رخ داد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_coursesLockBanner",
+  function() { return {"attributes_locked_1a1a0f46":"%{attributes} قفل شده","locked_796957c7":"قفل شده:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_settingsSyncChange",
+  function() { return {"show_exceptions_270ea1c5":"نمایش استثناءها"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_exceptions_1176c596",
+  null,
+  function() { return {"one":"%{count} استثناء","other":"%{count} استثناء"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_settingsSyncHistoryItem",
+  function() { return {"count_pushed_changes_6fe7fba":"%{count} تغییر اعمال شده"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_settings_labels",
+  function() { return {"availability_dates_changed_exceptions_465ba375":"تاریخ‌های دسترس پذیری استثناء ها را تغییر داد:","content_1440204b":"محتوا","content_changed_exceptions_e8bff81e":"محتوا استثناء ها را تغییر داد:","created_58b8a75a":"ایجاد شد","deleted_content_exceptions_237e809d":"استثناءهای محتوی حذف شد:","due_dates_changed_exceptions_ddb028":"تاریخ مهلت استثناء ها را تغییر داد:","points_changed_exceptions_b0c771f7":"امتیازها استثناء ها را تغییر داد:","question_bank_f6c44d62":"مخزن پرسش","settings_changed_exceptions_e5247936":"تنظیمات استثناء ها را تغییر داد:","updated_2c1e8615":"به روزرسانی شده"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "blueprint_LockItemFormat",
+  function() { return {"no_attributes_locked_611c5cc":"هیچ ویژگی قفل نشده"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_nickname_edit",
+  function() { return {"nickname_1e6da3ad":"نام مستعار"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "calendar_color_picker",
+  function() { return {"blue_daf8fea9":"آبی","brick_f2656265":"آجر","could_not_save_chosencolor_741b74ce":"امکان ذخیره سازی '%{chosenColor}' وجود ندارد","cyan_c1d5f68a":"آبی تیره","deep_purple_bb3e2907":"ارغوانی پر رنگ","enter_a_hexcode_here_to_use_a_custom_color_51ecccce":"در اینجا یک کد هگزا برای استفاده از رنگ سفارشی وارد نمایید.","green_15af4778":"سبز","indigo_2035fc55":"Indigo","invalid_hexcode_9124519f":"کد هگز نامعتبر است","light_blue_5374f600":"آبی روشن","magenta_4a65993c":"ارغوانی","olive_6a3e4d6b":"زیتون","orange_81386a62":"نارنجی","pink_68ad45cb":"صورتی","pumpkin_904428d5":"کدوتنبل","purple_7678a9fc":"ارغوانی","red_8258edf3":"قرمز","select_a_predefined_color_c77ab2f5":"یک رنگ از پیش تعیین شده انتخاب کنید.","select_course_color_cad8e62b":"انتخاب رنگ درس","teal_f729a294":"سبز مایل به آبی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "format_range",
+  function() { return {"multiple_ba5220cd":"چند مورد","upper_lower_56cad16c":"%{upper} -%{lower}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "conditional_release",
+  function() { return {"add_items_44913315":"افزودن مورد ها","add_items_into_scoring_range_title_be08104e":"افزودن مورد ها به %{scoring_range_title}","add_items_to_score_range_297d413b":"موارد را به محدوده امتیاز اضافه کنید","all_items_a49b66c7":"همه موارد","assignment_name_options_43b1795":"گزینه های %{name} تکلیف","assignment_set_set_index_28b1f973":"انتخاب تکلیف %{set_index}","error_in_mastery_paths_range_index_7d17ddac":"%{error} در محدوده مسیرهای تسلط %{index}","label_as_gradingtype_ae164bd9":"%{label}، به عنوان %{gradingType}","move_to_lower_upper_94cb604f":"حرکت به %{lower} - %{upper}","must_be_a_number_f6e09df7":"حتما باید عدد باشد","must_not_be_empty_80fd90b8":"نمی تواند خالی باشد","no_items_found_870b2d0d":"موردی یافت نشد","score_percent_11941c81":"%{score} درصد","score_points_3c48e2a8":"%{score} امتیاز","sets_are_merged_click_to_split_fa741a5f":"مجموعه ها ادغام شده اند، برای تقسیم کلیک کنید","sets_are_split_click_to_merge_99552cdb":"مجموعه ها تقسیم شده اند، برای ادغام کلیک کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_items_found_224f86d3",
+  null,
+  function() { return {"zero":"موردی یافت نشد"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "cyoe_assignment_sidebar_breakdown_details",
+  function() { return {"close_details_sidebar_ff8f663d":"بستن نوار کناری جزئیات"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "cyoe_assignment_sidebar_breakdown_graph_bar",
+  function() { return {"lowerbound_to_upperbound_352a3c0b":"%{lowerBound}+ به %{upperBound}","rangestudents_out_of_totalstudents_students_e5ee60e1":"%{rangeStudents} از %{totalStudents} دانشجو","view_range_student_details_8116d68a":"مشاهده بازه بندی اطلاعات دانشجو"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "cyoe_assignment_sidebar_student_details_view",
+  function() { return {"not_submitted_7d05fdb4":"ارسال نشده است","submitted_submitdate_bdd3bf09":"ارسال شده: %{submitDate}","view_next_student_9fc72fef":"مشاهده دانشجوی بعدی","view_previous_student_90000459":"مشاهده دانشجوی قبلی","view_submission_ff3da5d":"مشاهده مورد ارسالی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "cyoe_assignment_sidebar_student_range_itme",
+  function() { return {"select_student_name_caaff244":"انتخاب دانشجوی %{name}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "select_content_checkbox",
+  null,
+  function() { return {"select_content_error":"باید یک گزینه محتوا را انتخاب کنید"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "student_context_trayLastActivity",
+  function() { return {"last_login_b7bc0479":"آخرین ورود:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "student_context_trayRating",
+  function() { return {"high_b5cbd048":"بالا","low_eab1cadd":"پایین","moderate_d0c85e92":"نظارت کردن"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "student_context_traySectionInfo",
+  function() { return {"section_section_names_98f172e6":"بخش: %{section_names}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "student_context_trayStudentContextTray",
+  function() { return {"activity_compared_to_class_8133cb0":"فعالیت در مقایسه با کلاس","page_views_eb64cf53":"نماهای صفحه","participation_af2598":"مشارکت","send_a_message_to_student_b2e72576":"ارسال پیام برای %{student}","view_analytics_for_name_9b31594e":"مشاهده تحلیل برای %{name}","view_grades_for_name_45aeb2f2":"مشاهده نمرات برای %{name}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "student_context_traySubmissionProgressBars",
+  function() { return {"grade_10d1e5a1":"%{grade}","last_length_graded_items_6db7374e":"آخرین %{length} موردهای نمره‌گذاری شده"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "publishable",
+  null,
+  function() { return {"cant_unpublish":"انتشار نمی تواند لغو شود"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "publishableModuleItem",
+  function() { return {"can_t_unpublish_if_there_are_student_submissions_2d7cd742":"اگر موردهای ارسالی دانشجو وجود داشته باشد، نمی توان انتشار را لغو کرد","can_t_unpublish_item_name_if_there_are_student_sub_b83c7a9f":"اگر موردهای ارسالی دانشجو وجود داشته باشد، نمی توان انتشار %{item_name} را لغو کرد","publishing_is_disabled_for_this_item_efa7803f":"انتشار برای این مورد غیر فعال شده است","publishing_item_name_is_disabled_8207a9e7":"انتشار %{item_name} غیر فعال شده است"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "viewsContextModules",
+  null,
+  function() { return {"context_module":{"unpublish":"لغو انتشار"},"context_modules":{"publish":"انتشار"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "context_modulespublic",
+  function() { return {"collapse_all_50275533":"جمع کردن همه","complete_all_items_e1779257":"تکمیل همه موردها","complete_one_item_90e5fb03":"تکمیل یک مورد","delete_prerequisite_title_19741947":"حذف پیش نیازها%{title}","delete_requirement_item_type_d7453a69":"حذف الزام %{item} (%{type})","duplicating_module_this_may_take_some_time_eef73720":"ماژول تکراری ، این ممکن است مدتی طول بکشد","error_duplicating_module_4b023042":"خطا در تکرار ماژول","error_rendering_duplicated_module_db821097":"خطا در تفسیر ماژول تکراری","expand_all_bb64d2ea":"باز کردن همه","expand_all_modules_a7d79134":"همه ماژول ها را گسترش دهید","module_item_module_item_name_was_successfully_dele_8626d846":"مورد ماژول %{module_item_name} با موفقیت حذف شد.","module_module_name_was_successfully_deleted_fc9e9d47":"ماژول %{module_name} با موفقیت حذف شد.","move_module_90e6927e":"انتقال ماژول","move_module_item_f525d6c8":"انتقال مورد ماژول","multiple_due_dates_283dd861":"چند تاریخ مهلت","must_contribute_to_the_page_fff632c":"باید در صفحه مشارکت شود","must_mark_as_done_91cff799":"باید به عنوان انجام شده علامت گذاری شود","must_score_at_least_a_score_3b4f813d":"نمره باید حداقل %{score} باشد","must_submit_the_assignment_782d025":"تکلیف باید ارسال شود","must_view_the_page_67eec19e":"صفحه باید مشاهده شود","not_completed_d70acea3":"تکمیل نشده","not_yet_completed_345a0bca":"هنوز تکمیل نشده است","prerequisites_list_62d66d12":"پیش نیازها: %{list}","released_by_mastery_path_path_b562d741":"منتشر شده توسط مسیر تسلط: %{path}","select_prerequisite_module_57894963":"انتخاب ماژول پیش نیاز","some_module_items_could_not_be_published_e4be3c0":"برخی موردهای ماژول نمی‌تواند منتشر شود","this_assignment_is_overdue_a44bea3b":"مهلت این تکلیف گذشته است","title_is_required_437f9993":"عنوان لازم است","you_scored_a_score_a5dd5561":"نمره %{score} را کسب کرده اید.","your_submission_has_not_been_graded_yet_d6963e53":"مورد ارسالی شما هنوز نمره گذاری نشده است"} },
+  function() { return {"buttons":{"add":"افزودن ماژول","add_item":"افزودن مورد","update":"بهنگام سازی ماژول"},"confirm":{"delete":"مطمئنید که می خواهید این ماژول حذف شود؟","delete_item":"مطمئنید که می خواهید این مورد از ماژول حذف شود؟"},"errors":{"reorder":"مرتب کردن دوباره انجام نشد، لطفا دوباره سعی کنید."},"optgroup":{"assignments":"تکلیف ها","discussion_topics":"بحث ها","external_tools":"ابزارهای بیرونی","external_urls":"نشانی های اینترنتی بیرونی","files":"فایل ها","quizzes":"آزمون ها"},"points_possible_short":"%{points} امتیاز","titles":{"add":"افزودن ماژول","add_item":"افزودن مورد به %{module}","add_prerequisite":"افزودن پیش نیاز به %{module}","edit":"ویرایش تنظیمات ماژول","edit_item":"ویرایش اطلاعات مورد"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_home_dialog",
+  function() { return {"assignments_list_fe3e54be":"فهرست تکلیف ها","before_publishing_your_course_you_must_either_publ_cf84cad9":"قبل از انتشار درس خود، باید در صفحه ماژول‌ها یک ماژول منتشر و یا یک صفحه اصلی دیگر انتخاب کنید.","choose_and_publish_980812cb":"انتخاب و منتشر کنید","choose_course_home_page_d8642f9e":"انتخاب صفحه اصلی درس","course_activity_stream_40091c17":"جریان فعالیت درس","course_modules_795cb95e":"ماژول‌های درس","front_page_must_be_set_first_c5246f7d":"ابتدا باید صفحه آغازین تعیین شود","pages_front_page_9ce5188":"صفحه آغازین صفحه ها","select_what_you_d_like_to_display_on_the_home_page_c1b53804":"آنچه که مایلید در صفحه اصلی نمایش داده شود را انتخاب کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "home_page_prompt",
+  function() { return {"before_publishing_your_course_you_must_either_publ_cdfdc78c":"قبل از انتشار درس خود، باید یک ماژول منتشر و یا یک صفحه اصلی دیگر انتخاب کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "subnav_menu_toggle",
+  function() { return {"hide_account_navigation_menu_ccdf9480":"مخفی کردن منوی پیمایش کاربر","hide_admin_navigation_menu_5cab9c9e":"مخفی کردن منوی پیمایش مدیر","hide_courses_navigation_menu_6f7c4cfd":"مخفی کردن منوی پیمایش درس‌ها","hide_groups_navigation_menu_62e8b3d0":"مخفی کردن منوی پیمایش گروه‌ها","hide_navigation_menu_f0b3e90":"مخفی کردن منوی پیمایش ","show_account_navigation_menu_d97270a9":"نمایش منوی پیمایش حساب","show_admin_navigation_menu_92fb579f":"نمایش منوی پیمایش مدیر","show_courses_navigation_menu_7ad1a8d4":"نمایش منوی پیمایش درس ها","show_groups_navigation_menu_1521d38d":"نمایش منوی پیمایش گروه ها","show_navigation_menu_34e7f441":"نمایش منوی پیمایش"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "create_course_modal",
+  function() { return {"course_details_25cdf103":"اطلاعات درس","create_course_9a69b32c":"ایجاد درس","create_subject_86de5618":"ایجاد موضوع","creating_new_course_62cd27bb":"ایجاد درس جدید...","error_creating_new_course_9d3903bc":"خطا در ایجاد درس جدید","error_creating_new_subject_89f16abe":"خطا در ایجاد موضوع جدید","name_e790ff1f":"اسم...","which_account_will_this_course_be_associated_with_80f78fd2":"این درس با کدام حساب مرتبط خواهد بود؟"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "dashcards",
+  function() { return {"actions_for_course_312ff446":"اقدام های مربوط به %{course}","all_courses_80701c6f":"همه درس ها.","choose_a_color_or_course_nickname_or_move_course_c_dd23f754":" یک رنگ یا نام مستعار درس انتخاب کنید یا  کارت درس را برای %{course} منتقل کنید","course_card_color_region_for_course_c356a69c":"فضای رنگ کارت درس %{course}","course_image_for_course_cfbb08df":"تصویر درس برای %{course}","move_down_4a9c9b18":"انتقال به پایین","move_to_bottom_d0f71bf0":"انتقال به انتها","move_to_top_e0d7d66e":"انتقال به ابتدا","move_up_2440f707":"انتقال به بالا","no_courses_to_display_700f94c4":"هیچ دوره ای برای نمایش وجود ندارد","we_were_unable_to_remove_this_course_from_your_fav_70fa598d":"ما نتوانستیم این درس را از موارد دلخواه شما حذف کنیم."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "models_DateGroup",
+  null,
+  function() { return {"everyone_else":"هر شخص دیگر"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "dateformat",
+  function() { return {"yyyy_mm_dd_hh_mm_a01b6081":"YYYY-MM-DD hh:mm"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "DateValidator",
+  function() { return {"due_date_cannot_be_after_course_end_fd128a14":"تاریخ مهلت نمی تواند بعد از خاتمه درس باشد","due_date_cannot_be_after_section_end_b0f54388":"تاریخ مهلت نمی تواند بعد از خاتمه بخش باشد","due_date_cannot_be_after_term_end_5d504cb1":"تاریخ مهلت نمی تواند بعد از خاتمه نمیسال باشد","due_date_cannot_be_before_course_start_ecc523ba":"تاریخ مهلت نمی تواند قبل از شروع درس باشد","due_date_cannot_be_before_section_start_f8950484":"تاریخ مهلت نمی تواند قبل از شروع بخش باشد","due_date_cannot_be_before_term_start_ea660b2c":"تاریخ مهلت نمی تواند قبل از شروع نیمسال باشد","due_date_cannot_fall_in_a_closed_grading_period_e4336124":"تاریخ مهلت نمی‌تواند در یک دوره نمره‌گذاری بسته شده قرار گیرد","lock_date_cannot_be_after_course_end_a473158b":"تاریخ قفل کردن نمی تواند بعد از خاتمه درس باشد","lock_date_cannot_be_after_section_end_d37da70c":"تاریخ قفل کردن نمی تواند بعد از خاتمه بخش باشد","lock_date_cannot_be_after_term_end_cf1a188f":"تاریخ قفل کردن نمی تواند بعد از پایان نیمسال باشد","lock_date_cannot_be_before_due_date_ac30f54":"تاریخ قفل کردن نمی تواند قبل تاریخ مهلت باشد","please_add_a_due_date_1d433d2":"لطفا یک تاریخ مهلت اضافه کنید","please_enter_a_due_date_on_or_after_earliestdate_b3fe6d29":"لطفا یک تاریخ مهلت در یا بعد از %{earliestDate} وارد کنید","unlock_date_cannot_be_after_due_date_8829d9ca":"تاریخ قفل گشایی نمی تواند بعد از تاریخ مهلت باشد","unlock_date_cannot_be_after_lock_date_591f7fda":"تاریخ قفل گشایی نمی تواند بعد از تاریخ قفل کردن باشد","unlock_date_cannot_be_before_course_start_9c7b8524":"تاریخ قفل گشایی نمی تواند قبل از شروع درس باشد","unlock_date_cannot_be_before_section_start_793ddc66":"تاریخ قفل گشایی نمی تواند قبل از شروع بخش باشد","unlock_date_cannot_be_before_term_start_d3c01813":"تاریخ قفل گشایی نمی تواند قبل از شروع نیمسال باشد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "datepicker",
+  null,
+  function() { return {"errors":{"not_a_date":"این یک تاریخ نیست!"},"first_day_index":"6","nextText":"بعدی","prevText":"قبلی"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "app_shared_components_canvas_date_time",
+  function() { return {"invalid_date_2a10bb7b":"تاریخ نامعتبر است"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "renderDatepickerTime",
+  null,
+  function() { return {"datepicker":{"titles":{"am_pm":"قبل از ظهر/بعد از ظهر","hour":"ساعت","minute":"حداقل"}}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "dates",
+  null,
+  function() { return {"no_date":"تاریخ موجود نیست"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "user_search_selector",
+  function() { return {"send_to_a879095e":"ارسال به:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "course_and_module_picker",
+  function() { return {"select_a_course_4710371f":"انتخاب یک درس","select_a_module_optional_7edb5cb0":"انتخاب یک ماژول (اختیاری)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "direct_share_course_panel",
+  function() { return {"copy_operation_started_successfully_b2f236a1":"عملیات کپی با موفقیت شروع شد","starting_copy_operation_cc46d911":"شروع عملیات کپی","there_was_a_problem_starting_the_copy_operation_dd599cdd":"هنگام شروع عملیات کپی مشکلی رخ داد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "direct_share_user_modal",
+  function() { return {"content_share_started_successfully_2c37fb79":"اشتراک محتوای با موفقیت شروع شد","error_starting_content_share_18fb1532":"خطا در شروع به اشتراک گذاری محتوا","starting_content_share_2d8c2999":"شروع به اشتراک گذاری محتوای"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "direct_share_user_panel",
+  function() { return {"remove_name_624e06be":"حذف %{name}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "jquery_doc_previews",
+  null,
+  function() { return {"errors":{"cannot_view_document_in_canvas":"این سند نمی تواند در کانواس نمایش داده شود.","document_preview_processing":"پیش نمایش سند در حال پردازش است. لطفا بعدا دوباره تلاش کنید."}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "DueDateOverrideView",
+  function() { return {"you_cannot_assign_to_a_group_outside_of_the_assign_7869eb3b":"نمی توانید به یک گروه خارج از مجموعه گروه تکلیف تخصیص دهید","you_must_have_a_student_or_section_selected_a99e45df":"باید یک دانشجو یا بخش را انتخاب کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignDueDateAddRowButtonments",
+  function() { return {"add_new_set_of_due_dates_e8e240f":"افزودن مجموعه جدید تاریخ های مهلت"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "DueDateCalendars",
+  function() { return {"available_from_f84e4611":"قابل دسترسی از"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "DueDateRemoveRowLink",
+  function() { return {"remove_these_dates_48453a81":"حذف این تاریخ ها"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "DueDateRow",
+  function() { return {"due_date_set_1c6364db":"تاریخ مهلت تعیین شد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "DueDateTokenWrapper",
+  function() { return {"add_students_by_searching_by_name_course_section_o_abb9e2f2":"افزودن دانشجویان با جستجوی نام، بخش یا گروه درس. پس از وارد کردن متن، نتایج را با استفاده از کلید جهت دار پایین پیمایش کنید. یک نتیجه را با استفاده از کلید Enter انتخاب کنید.","assign_to_c46e21":"اختصاص دادن به","continue_typing_to_find_additional_sections_or_stu_49786085":"تایپ کردن برای یافتن بخش ها یا دانشجویان دیگر را ادامه دهید.","course_section_7a988066":"بخش درس","currently_assigned_to_tokenname_click_to_remove_5a853a84":"در حال حاضر به %{tokenName} مرتبط شده است، برای حذف کلیک کنید","no_results_found_58717065":"نتیجه ای یافت نشد","searching_b0207e7f":"در حال جستجو","use_this_list_to_remove_assigned_students_add_new__ad6205ad":"از این فهرست برای حذف دانشحویان معین استفاده کنید. با کادر ترکیبی بعد از فهرست، دانشجویان جدید را اضافه کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "EditorToggle",
+  null,
+  function() { return {"done":{"title":"برای پایان دادن به ویرایش قسمت دارای متن غنی کلیک کنید"},"done_as_in_finished":"انجام شد"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "SwitchEditorControl",
+  null,
+  function() { return {"switch_editor_html":"ویرایشگر HTML","switch_editor_rich_text":"ویرایشگر محتوای غنی"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "i18n!emoji",
+  function() { return {"activity_13915493":"فعالیت","animals_nature_8bc03431":"حیوانات و طبیعت","emoji_categories_a08744ae":"طبقه بندی ایموجی","emoji_picker_5bb954f9":"انتخابگر ایموجی","flags_ce30e8e3":"پرچم ها","food_drink_b0ea7e7b":"غذا و نوشیدنی","frequently_used_21a3eb8e":"اغلب استفاده می شود","medium_light_skin_tone_6c4a27fb":"رنگ پوست متوسط تا روشن","objects_589fdc11":"اشیاء","open_emoji_menu_1df0eb0b":"منوی ایموجی را باز کنید","people_body_3ce556e3":"مردم و بدن","pick_an_emoji_942adfc4":"یک ایموجی انتخاب کنید...","search_results_4d5af4eb":"نتایج جستجو","smileys_emotion_edc2beac":"شکلک ها و احساسات"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "instructure_js",
+  null,
+  function() { return {"errors":{"posting_message_failed":"ارسال انجام نشد، دوباره سعی کنید"},"links":{"minimize_file_preview":"کمینه کردن پیش نمایش فایل","minimize_youtube_video":"کمینه کردن تصویر","view_equella_content_in_new_window":"مشاهده محتوا در پنجره جدید"},"status":{"posting_message":"درحال ارسال پیام..."},"switched_roles_message":{"designer":"نقش های مربوط به این درس را به طور موقتی تغییر داده اید و اکنون درس را به عنوان یک طراح مشاهده می کنید. می توانید نقش و مجوزهای خود را از صفحه اصلی درس بازیابی کنید.","observer":"نقش های مربوط به این درس را به طور موقتی تغییر داده اید و اکنون درس را به عنوان یک بیننده مشاهده می کنید. می توانید نقش و مجوزهای خود را از صفحه اصلی درس بازیابی کنید.","student":"نقش های مربوط به این درس را به طور موقتی تغییر داده اید و اکنون درس را به عنوان یک دانشجو مشاهده می کنید. می توانید نقش و مجوزها را از صفحه اصلی درس بازیابی کنید.","ta":"نقش های مربوط به این درس را تغییر داده اید و اکنون درس را به عنوان یک دستیار آموزشی مشاهده می کنید. می توانید نقش و مجوزهای خود را از صفحه اصلی درس بازیابی کنید.","teacher":"نقش های مربوط به این درس را به طور موقتی تغییر داده اید و اکنون درس را به عنوان یک استاد مشاهده می کنید. می توانید نقش و مجوزهای خود را از صفحه اصلی درس بازیابی کنید."},"titles":{"equella_content_preview":"پیش نمایش محتوای Equella","external_link":"به یک تارنمای بیرونی پیوند می شود."}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "standalone_file_preview",
+  function() { return {"failed_getting_file_to_preview_89fe2bf4":"خطا در دریافت فایل برای پیش نمایش"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "external_toolsModalLauncher",
+  function() { return {"launch_external_tool_672c0409":"راه اندازی ابزار بیرونی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "feature_flags",
+  function() { return {"an_error_occurred_updating_the_flag_b98edb3f":"هنگام به‌روزرسانی پرچم خطایی روی داد","current_state_baac9c8":"وضعیت فعلی:","feature_preview_5e1216a0":"پیش‌نمایش ویژگی","loading_feature_options_82e07ee4":"بارگیری تنظیمات ویژگی","search_features_15b601cd":"ویژگی های جستجو","site_admin_d0417171":"مدیر تارنما","this_will_affect_every_customer_are_you_sure_a1e0cac6":"این مورد روی هر سفارش دهنده تأثیر می گذارد. آیا اطمینان دارید؟"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "file_preview",
+  function() { return {"file_not_found_9eec054c":"فایل موجود نیست","file_preview_eedb43f2":"پیش نمایش فایل","file_preview_overlay_87f7e5f":"پوشش پیش نمایش پرونده","info_8f47054a":"اطلاعات","info_panel_displayed_51d481cc":"صفحه اطلاعات نمایش داده شده","info_panel_hidden_bf7c3b7b":"صفحه اطلاعات مخفی شده است","kind_7f0a88c4":"نوع","last_modified_by_ca4bb5e1":"آخرین تغییر توسط","view_next_file_a8a4a885":"مشاهده فایل بعدی","view_previous_file_b846db4f":"مشاهده فایل قبلی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "file_rename_form",
+  function() { return {"a_locked_item_named_name_already_exists_in_this_lo_ab03ee39":"یک مورد قفل شده به نام \"%{name}در حال حاضر در این مکان وجود دارد. لطفا یک نام جدید وارد کنید.","an_item_named_name_already_exists_in_this_location_147b7312":"یک مورد با عنوان \"%{name}\" در این محل موجود است. می خواهید با فایل موجود جایگزین شود؟","change_name_c8cce76c":"تغییر دادن نام","change_name_to_568374c8":"تغییر دادن \"%{name}\" به","replace_e61834a7":"جایگزین کردن","skip_bcb86160":"رد کردن"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "broccoli_cloud",
+  function() { return {"available_after_unlock_at_b5682224":"بعد از %{unlock_at} در دسترس است","available_after_unlock_at_until_lock_at_499e8092":"بعد از %{unlock_at} تا %{lock_at} در دسترس است","available_until_lock_at_ab022445":"تا %{lock_at} قابل دسترسی است"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "restrict_student_access",
+  function() { return {"available_from_date_43b5e11d":"در دسترس از تاریخ","available_from_date_must_precede_available_until_c9f9e533":"تاریخ «قابل دسترسی از» باید قبل از «قابل دسترسی تا» بیاید","available_until_date_cd125c62":"قابل دسترسی تا تاریخ","before_publishing_you_must_set_usage_rights_on_you_dcd7b567":"قبل از انتشار، باید حقوق استفاده مربوط به فایل های خود را تعیین کنید.","schedule_student_availability_332154a":"زمان بندی در دسترس بودن دانشجو","update_4d8ee62":"بهنگام سازی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "usage_rights_modal",
+  function() { return {"and_count_more_43eae021":"و %{count} بیشتر...","items_items_selected_5b55e566":"%{items} مورد انتخاب شد","items_selected_have_different_usage_rights_52b325cc":"موردهای انتخاب شده دارای حقوق استفاده متفاوتی هستند.","usage_rights_have_been_set_d1b433c7":"حقوق استفاده تعیین شده است.","usage_rights_will_be_set_for_all_of_the_files_cont_b192336a":"حقوق استفاده برای همه فایل های موجود در اینجا تعیین خواهد شد:","you_can_also_manage_access_at_this_time_105a2530":"همچنین می توانید دسترسی را در این زمان مدیریت کنید:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "publish_cloud",
+  function() { return {"editing_permissions_for_name_3503e235":"مجوزهای ویرایش برای: %{name}","filename_is_published_click_to_modify_38a4a269":"%{fileName} منتشر شده است. برای تغییر کلیک کنید","filename_is_restricted_9aaf9250":"%{fileName} %{restricted} است","filename_is_restricted_click_to_modify_c0bb77f8":"%{fileName} %{restricted}است- برای تغییر کلیک کنید","filename_is_unpublished_click_to_modify_7e731102":"%{fileName} منتشر نشده است. برای تغییر کلیک کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "files_upload_progress",
+  function() { return {"error_message_2b9d12ee":"خطا: %{message}","error_uploading_file_e2d31b56":"خطا در بارگذاری فایل.","filename_progress_percent_uploaded_1f465e66":"%{fileName} - %{progress} درصد بارگذاری شد","filename_uploaded_successfully_edd8e825":"%{fileName} با موفقیت بارگذاری شد!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "usageRightsSelectBox",
+  function() { return {"c_2001_acme_inc_283f7f80":"(c) 2001 Acme Inc.","choose_usage_rights_33683854":"انتخاب حقوق استفاده...","copyright_holder_66ee111":"دارنده حق نشر:","creative_commons_license_725584ae":"مجوز کریتیو کامنز:","i_have_obtained_permission_to_use_this_file_6386f087":"مجوز استفاده از این فایل را به دست آورده ام.","i_hold_the_copyright_71ee91b1":"حق نشر دارم","if_you_do_not_select_usage_rights_now_this_file_wi_40c42125":"اگر اکنون حقوق استفاده را انتخاب نکنید، انتشار این فایل بعد از بارگذاری لغو خواهد شد.","the_material_is_in_the_public_domain_279c39a3":"مطلب در دامنه عمومی است","the_material_is_licensed_under_creative_commons_3242cb5e":"مطلب تحت مجوز کریتیو کامنز است","usage_right_ff96f3e2":"حق استفاده:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "zip_file_options_form",
+  null,
+  function() { return {"expand":"باز کردن آن","message":"می خواهید که محتوای \"%{fileName}\" را در پوشه فعلی باز کنید، یا فایل zip را همان طور که هست، بارگذاری کنید؟","upload":"بارگذاری آن","zip_options":"گزینه های فایل Zip"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "file_status",
+  null,
+  function() { return {"hidden_status":"مخفی. از طریق یک پیوند فایل دسترسی است","published_status":"منتشر شده","restricted_status":"از %{from_date} تا %{until_date} موجود است","unpublished_status":"منتشر نشده"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "generate_pairing_code",
+  function() { return {"generating_pairing_code_251b7fc8":"ایجاد کردن رمز جفتی  ...","generating_pairing_code_d480ccf4":"ایجاد کردن رمز جفتی ","pair_with_observer_b1541895":"با بیننده هم گروه شوید","share_the_following_pairing_code_with_an_observer__44f50f99":"رمز جفتی زیر را با یک بیننده به اشتراک بگذارید تا\nبه آن‌ها  اجازه داده شود به %{name} متصل شوند. این کد هفت روز دیگر ،\nیا بعد از یک بار استفاده منقضی می شود.","share_the_following_pairing_code_with_an_observer__9b7c3667":"رمز جفتی زیر را با یک بیننده به اشتراک بگذارید تا\nبه آن‌ها  اجازه داده شود به شما متصل شوند. این کد هفت روز دیگر ،\nیا بعد از یک بار استفاده منقضی می شود.","there_was_an_error_generating_the_pairing_code_9edd639b":"در هنگام ایجاد رمز جفتی خطایی رخ داد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "generic_error_page",
+  function() { return {"comment_failed_to_post_please_try_again_later_e2d19a0a":"اظهار نظر درج نشد!لطفا دوباره تلاش کنید.","comment_submitted_d9934b":"نظر ارسال شده!","email_example_com_99490d29":"email@example.com","help_us_improve_by_telling_us_what_happened_d6392f18":"با گفنن اینکه چه اتفاقی افتاد به ما کمک کنید آنرا بهبود بدهیم","report_issue_b5f1db0e":"گزارش موضوع","what_happened_322d8259":"چه اتفاقی افتاد؟","your_email_address_844297ea":"نشانی پست الکترونیکی شما"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "CalculationMethodContent",
+  function() { return {"average_49c63f9b":"میانگین","between_1_and_99_d421a4c0":"بین یک و ۹۹ درصد","decaying_average_8bf6a0dd":"میانگین جدیدترین نمره ها","highest_score_e080551e":"بالاترین نمره ها:","items_299a7626":"موردها:","last_item_79583712":"آخرین مورد:","latest_score_905aa87b":"آخرین نمره","mastery_score_reflects_the_highest_score_of_a_grad_fd426d1e":"نمره تسلط بالاترین نمره یک تکلیف یا آزمون نمره گذاری شده را نشان می دهد.","mastery_score_reflects_the_most_recent_graded_assi_921f138f":"نمره تسلط جدیدترین تکلیف یا آزمون نمره گذاری شده را نشان می دهد.","most_recent_result_counts_as_calculation_int_of_ma_d2fc1d19":"جدیدترین نتیجه به عنوان %{calculation_int} از وزن تسلط محاسبه می شود، میانگین همه نتایج دیگر به عنوان %{remainder}% از وزن محاسبه می شود. اگر تنها یک نتیجه وجود داشته باشد، یک نمره برگردانده خواهد شد. ","most_recent_score_13a87e8c":"جدیدترین نمره","must_be_between_1_and_99_589b827d":"باید مابین عدد 1 و 99 باشد","n_number_of_times_c2e78b72":"n تعداد دفعات","of_times_1018baab":"# بار","recentint_remainderint_decaying_average_79bc09fb":"%{recentInt}/%{remainderInt} میانگین جدیدترین نمره ها"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "achieve_mastery_count_times_8c9bbcec",
+  null,
+  function() { return {"one":"کسب تسلط برای %{count} بار","other":"کسب تسلط برای %{count} بار"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "must_achieve_mastery_at_least_count_times_scores_a_628db168",
+  null,
+  function() { return {"one":"تسلط حداقل باید %{count} بار کسب شود. نمره های بالای تسلط برای محاسبه نمره نهایی میانگین گرفته می شود.","other":"تسلط حداقل باید %{count} بار کسب شود. نمره های بالای تسلط برای محاسبه نمره نهایی میانگین گرفته می شود."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "IndividiualStudentMasteryAssignmentResult",
+  function() { return {"your_score_a1fc2fcf":"امتیاز شما","your_score_score_fb785381":"امتیاز شما: %{score}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "IndividualStudentMasteryIndex",
+  function() { return {"an_error_occurred_loading_outcomes_data_cfd18b61":"هنگام بارگیری داده های نتایج خطایی روی داد.","loading_outcome_results_96e21ce4":"بارگزاری حاصل نتایج ","there_are_no_outcomes_in_the_course_1d36d9c6":"هیچ نتیجه ای در این درس وجود ندارد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "IndividualStudentMasteryOutcome",
+  function() { return {"mastered_34d4c857":"مسلط","no_alignments_are_available_for_this_outcome_7f8346f9":"هیچ تطبیقی برای این نتیجه موجود نیست.","not_mastered_5c2f9968":"مسلط نیست","score_out_of_points_possible_points_bbaea991":"%{score} از %{points_possible} امتیاز","toggle_alignment_details_for_title_944f605":"جزئیات تطبیق را  برای %{title} تغییر دهید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_alignments_40fbc23c",
+  null,
+  function() { return {"one":"%{count} تطبیق","other":"%{count} تطبیق","zero":"بدون تطبیق"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "IndividualStudentMasteryOutcomeGroup",
+  function() { return {"nummastered_of_numgroup_mastered_b8113c9c":"%{numMastered} از %{numGroup} مسلط","toggle_outcomes_for_title_6994b198":"تغییر نتایج برای %{title}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "IndividualStudentMasteryOutcomePopover",
+  function() { return {"1_item_scores_examplescores_9736236":"1- نمره های موردی: %{exampleScores}","2_final_score_exampleresult_922edf9c":"2- نمره نهایی: %{exampleResult}","click_to_close_outcome_details_popover_d469d47d":"برای بستن بازپخش جزئیات نتیجه کلیک کنید","click_to_expand_outcome_details_74a2a967":"برای گسترش جزئیات نتیجه کلیک کنید","last_assessment_cd5659b6":"آخرین ارزیابی:","no_submissions_164cea23":"مورد ارسالی وجود ندارد","outcome_details_ce254e89":"جزئیات نتیجه"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "IndividualStudentMasteryUnassessedAssignment",
+  function() { return {"not_yet_assessed_9362f199":"هنوز ارزیابی نشده است"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradingdataRow",
+  function() { return {"insert_row_below_name_a5b3bd41":"رج ردیف در قسمت پایین %{name}","lower_limit_of_range_6ddd4983":"حد پایین تر محدوده","range_name_90614433":"نام محدوده","remove_row_name_c053f5ae":"حذف ردیف %{name}","to_35c6baa2":"به","to_minscore_43e5452e":"به %{minScore}%","upper_limit_of_range_c454a8f2":"حد بالاتر محدوده"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradinggradingStandard",
+  function() { return {"context_contextname_24d82846":"(%{context}: %{contextName})","context_level_56d88f5b":"(%{context} level)","delete_grading_scheme_title_215f0a40":"حذف طرح نمره گذاری %{title}","edit_grading_scheme_title_ff41d916":"ویرایش طرح نمره گذاری %{title}","grading_standard_title_58f540a3":"عنوان استاندارد نمره گذاری","looks_great_e4d883ed":"چه عالی!","manage_grading_schemes_in_context_name_e3678273":"مدیریت طرح های نمره گذاری در %{context_name}","message_896d2ed0":"%{message}","range_56b2f310":"بازه"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "external_toolsgradingStandardCollection",
+  function() { return {"add_grading_scheme_81e23c05":"افزودن طرح نمره گذاری","are_you_sure_you_want_to_delete_this_grading_schem_df8b75f9":"مطمئنید که می خواهید این طرح نمره گذاری حذف شود؟","grading_scheme_deleted_7ae5a072":"طرح نمره گذاری حذف شد","grading_scheme_saved_85535151":"طرح نمره گذاری ذخیره شد","no_grading_schemes_to_display_8b0e92e7":"هیچ طرح نمره گذاری برای نمایش موجود نیست","there_was_a_problem_deleting_the_grading_scheme_2a959c40":"در هنگام حذف طرح نمره گذاری، اشکالی رخ داد","there_was_a_problem_saving_the_grading_scheme_5e6076e9":"در هنگام ذخیره سازی طرح نمره گذاری، اشکالی رخ داد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "grading_standards",
+  null,
+  function() { return {"buttons":{"save":"ذخیره سازی"},"confirm":{"delete_grading_scheme":"مطمئنید که می خواهید این طرح نمره گذاری حذف شود؟","unlink_grading_scheme":"مطمئنید که می خواهید پیوند این طرح نمره گذاری را لغو کنید؟"},"errors":{"cannot_delete_grading_scheme":"در هنگام حذف این طرح نمره گذاری اشکالی رخ داد","cannot_load_grading_standards":"بارگذاری استانداردهای نمره گذاری انجام نشد. لطفا دوباره سعی کنید","cannot_remove_grading_scheme":"در هنگام حذف این طرح نمره گذاری اشکالی رخ داد. لطفا صفحه را دوباره بارگذاری کنید و دوباره سعی کنید.","save_failed":"ذخیره سازی انجام نشد"},"grading_scheme_currently_set":"اخیرا تعیین شده","grading_scheme_not_set":"تعیین نشده","no_grading_standards":"هیچ طرح نمره گذاری برای نمایش موجود نیست","status":{"loading_grading_standards":"در حال بارگذاری استانداردهای نمره گذاری...","saving":"در حال ذخیره سازی..."},"titles":{"grading_scheme_info":"مشاهده/ویرایش طرح نمره گذاری"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "finalGradeOverrideApi",
+  function() { return {"there_was_a_problem_loading_final_grade_overrides_e269e08":"هنگام بارگیری درج نمره نهایی مشکلی رخ داد.","there_was_a_problem_overriding_the_grade_f6d83c4d":"در هنگام جایگزین کردن نمره مشکلی وجود داشت."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebooktranslations",
+  function() { return {"assignment_excused_eb6c08fa":"تکلیف اجرا شد","assignment_muted_8d74bfa0":"تکلیف غیر فعال شد","blank_38df4238":"خالی","discussion_submission_781d5d33":"ارسال بحث","dropped_for_grading_purposes_46256461":"برای نمره گذاری حذف شد","fail_62dbb06a":"نا موفق","file_upload_submission_740711f":"ارسال بارگذاری فایل","has_similarity_score_d5f332b4":"دارای امتیاز تشابه","media_comment_submission_14e224dc":"ارسال نظر رسانه‌ای","media_recording_submission_b7fd1491":"ارسال ضبط رسانه","missing_submission_ec204c33":"ارسال از دست رفته","moderated_assignment_12873e87":"تکالیف تعدیل شده","not_factored_into_grading_455dcf6a":"در نمره گذاری لحاظ نشده است","pass_2a8c4f07":"قبول","quiz_submission_dca0c013":"ارسال آزمون","resubmitted_since_last_graded_8484d285":"از زمان آخرین نمره گذاری دوباره ارسال شد","submitted_late_97730017":"با تأخیر ارسال شده","text_entry_submission_7b0ae0c5":"ارسال ورودی متن","there_was_an_error_updating_this_assignment_please_59fc608d":"در هنگام به روزرسانی این تکلیف خطایی رخ داد. لطفا صفحه را از نو سازی کنید و دوباره تلاش کنید.","this_assignment_is_unpublished_64c0f46c":"این تکلیف لغو انتشار شده است","this_quiz_needs_review_50e014e":"این آزمون به بازبینی نیاز دارد","this_student_was_just_awarded_an_unusually_high_gr_9ad835f3":"این دانشجو فقط یک نمره غیرمعمول بالا گرفته است.","this_student_was_just_awarded_negative_points_55741a37":"این دانشجو فقط امتیاز منفی گرفته است.","url_submission_f76327e3":"ارسال نشانی اینترنتی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "sharedGradeFormatHelper",
+  function() { return {"score_pointspossibletranslated_c1ac019e":"%{score}/%{pointsPossibleTranslated}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "sharedCurveGradesDialog",
+  function() { return {"of_students_5d1af0d2":"# دانشجو"} },
+  function() { return {"errors":{"no_points_possible":"بدون امتیازهای ممکن، امکان بردن روی منحنی وجود ندارد","none_to_update":"هیچ موردی برای بهنگام سازی موجود نیست"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "studentcount_student_scores_updated_232ad7b7",
+  null,
+  function() { return {"one":"نمرات %{studentCount} دانشجو به‌روز شد.","other":"نمرات %{studentCount} دانشجو به‌روز شد"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "studentcount_students_will_get_num_points_fdd43b55",
+  null,
+  function() { return {"one":"%{studentCount}دانشجو، %{num} نمره خواهند گرفت.","other":"%{studentCount}دانشجو، %{num} امتیاز خواهند گرفت"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradingPeriodSetsApi",
+  function() { return {"set_created_createdat_895e2243":"مجموعه ایجاد شد %{createdAt}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "sharedSetDefaultGradeDialog",
+  function() { return {"default_grade_cannot_be_set_to_ex_723caa59":"نمره پیش فرض را نمی توان روی %{ex} تعیین کرد"} },
+  function() { return {"alerts":{"scores_updated":{"one":"1 نمره‌ دانشجو به روز شد","other":"%{count} نمره‌ دانشجو به روز شد"}}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebooksharedMessageStudentsWhoHelper",
+  function() { return {"no_grade_for_assignment_97c9bc75":"نمره ای برای%{assignment} وجود ندارد","no_submission_for_assignment_a9cb6fe2":"مورد ارسالی برای%{assignment} وجود ندارد","scored_less_than_cutoff_on_assignment_5f5c4303":"نمره گذاری شده کمتر از %{cutoff} در %{assignment}","scored_more_than_cutoff_on_assignment_f422fec":"نمره گذاری شده بیشتر از %{cutoff} در %{assignment}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "hide_assignment_grades_tray",
+  function() { return {"all_students_will_be_able_to_see_their_grade_and_o_66c1beab":"همه دانش جویان می توانند نمره و/یا نظرات ارسالی خود را ببینند.","at_least_one_section_must_be_selected_to_hide_grad_f88c946f":"حداقل باید یک بخش برای مخفی کردن نمرات براساس بخش، انتخاب شود.","hide_e057ff36":"مخفی کردن","hide_grades_tray_5ed267fe":"سینی نمرات را مخفی کنید","hiding_grades_82691e44":"پنهان کردن نمرات","hiding_grades_is_not_allowed_because_grades_have_n_55e83813":"پنهان کردن نمرات مجاز نیست زیرا نمرات برای این تکلیف منتشر نشده است.","hiding_grades_will_refresh_your_browser_this_may_t_65085e24":"پنهان کردن نمرات مرورگر شما را بازیابی می کند. این ممکن است لحظه ای طول بکشد.","post_types_93ff86d9":"انواع ارسال","select_whether_to_post_for_all_submissions_or_only_b18d681f":"انتخاب کنید که آیا برای همه موارد ارسالی ارسال می شود یا فقط موارد نمره گذاری شده.","specific_sections_a38d8b0d":"بخش های خاص","students_will_be_able_to_see_that_the_grades_for_t_5421a866":"دانشجویان می توانند ببینند که نمرات این تکلیف پنهان است.","success_grades_have_been_hidden_for_assignmentname_4ed03c00":"موفقیت! نمرات مخفی شد برای قسمتهای %{assignmentName}.","success_grades_have_been_hidden_for_the_selected_s_3ad5692":"موفقیت! نمرات برای قسمتهای منتخب پنهان شده است. %{assignmentName}.","there_was_a_problem_hiding_assignment_grades_1d3fd0c7":"هنگام مخفی کردن نمرات تکالیف مشکلی رخ داد.","when_hiding_grades_for_anonymous_assignments_grade_1b0ef682":"هنگام پنهان کردن نمرات برای تکالیف ناشناس ، نمرات برای همه افراد در درس پنهان می شوند. ناشناس بودن دوباره اعمال می شود.","while_the_grades_for_this_assignment_are_hidden_st_c5d1992b":"مادامی که نمرات این تکلیف  پنهان است ، دانشجویان  اطلاعیه های جدیدی درباره آن دریافت نمی کنند یا قادر به مشاهده آن نخواهند بود:","you_can_begin_sending_notifications_again_by_click_50d3f0cf":"با کلیک روی لینک ارسال نمره‌ها، می توانید دوباره ارسال اطلاعیه‌ها را شروع کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "turnitin",
+  null,
+  function() { return {"tooltip":{"score":"نمره تشابه- جزئیات گزارش را ببینید"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "GroupUserCollection",
+  null,
+  function() { return {"flash":{"userAlreadyInGroup":"هشدار: %{user} اکنون عضو %{group} است"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignment_group_category",
+  function() { return {"please_create_a_group_set_8db6e8fe":"لطفا یک مجموعه گروه ایجاد کنید","please_select_a_group_set_for_this_assignment_e1da63d3":"لطفا یک مجموعه گروه برای این تکلیف انتخاب کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "student_groups",
+  function() { return {"add_new_group_7ac49f31":"افزودن گروه جدید","as_you_type_in_this_field_the_list_of_groups_will__16688a5f":"وقتی در این جای خالی تایپ می کنید، فهرست گروه ها به طور خودکار فقط برای شامل سازی افرادی که نام آنها با ورودی شما مطابقت دارند، فیلتر خواهد شد.","collapse_list_of_group_members_for_groupname_d6c66fa0":"جمع کردن اعضای گروه برای %{groupName}","course_members_are_free_to_join_9b2603d4":"پیوستن اعضای درس آزاد است","expand_list_of_group_members_for_groupname_9ce9d2f7":"باز کردن فهرست اعضای گروه برای %{groupName}","group_group_name_is_full_297880d6":"گروه %{group_name} تکمیل شده است","group_group_name_is_joined_by_invitation_only_4ac2a9e5":"فقط از طریق دعوت نامه می توان به گروه %{group_name} پیوست","group_group_name_is_not_available_at_this_time_971001c1":"گروه %{group_name} در این زمان فعال نیست. ","group_is_full_56849d78":"گروه تکمیل شده است","group_is_joined_by_invitation_only_d00f5a63":"فقط از طریق دعوت نامه می توان به گروه پیوست","group_is_not_available_at_this_time_d99f0eab":"در حال حاضر گروه در دسترس نیست","group_leader_user_name_6f24bebb":"سرگروه %{user_name}","group_members_ae5489ed":"اعضای گروه","group_name_in_group_category_name_group_category_29bf3254":"%{group_name} در رده گروه %{group_category_name}","group_name_is_required_5547bc0b":"نام گروه لازم است","invite_students_a4873a50":"دعوت از دانشجویان","join_6cafecca":"پیوستن","join_group_group_name_871a5e3f":"پیوستن به گروه %{group_name}","joined_group_group_name_e3802c04":"به گروه %{group_name} پیوست","leave_5e852989":"خارج شدن","leave_group_group_name_6847c632":"خارج شدن از گروه %{group_name}","left_group_group_name_aac4e813":"گروه %{group_name} را ترک کرد","manage_group_group_name_ac8578c6":"مدیریت گروه %{group_name}","member_count_members_out_of_maximum_of_max_members_d3e9f575":"%{member_count} عضو از حداکثر %{max_membership}","members_af25c21d":"اعضا","membership_by_invitation_only_9bc27199":"عضویت فقط از طریق دعوت نامه","search_groups_or_people_6c15d6ad":"جستجوی گروه ها یا افراد","switch_to_3f310557":"رفتن به","switch_to_group_group_name_786b913b":"رفتن به گروه %{group_name}","too_many_members_b8b15069":"تعداد عضو زیاد است","updated_group_group_name_727b1d98":"گروه %{group_name} بهنگام سازی شد","visit_864b4060":"بازدید","visit_group_group_name_7a816081":"بازدید از گروه %{group_name}","you_are_the_group_leader_for_this_group_b8629b70":"شما سرگروه این گروه هستید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_students_30e46120",
+  null,
+  function() { return {"one":"%{count} دانشجو","other":"%{count} دانشجو"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "enrollmentNames",
+  null,
+  function() { return {"designer":"طراح","observer":"بیننده","student":"دانشجو","teacher":"استاد","teacher_assistant":"دستیار آموزشی"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "handlebars_helpers",
+  function() { return {"duration_1_minute_29c7d5ab":"مدت زمان: 1 دقیقه","duration_hours_hours_and_minutes_minutes_d5da8c3":"مدت زمان: %{hours}ساعت و %{minutes} دقیقه","duration_minutes_minutes_d7b9182b":"مدت زمان: %{minutes} دقیقه"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "ImmersiveReader",
+  function() { return {"immersive_reader_7b87538":"خواننده ی همه جانبه","immersive_reader_failed_to_load_bc8d4dd4":"خواننده ی همه جانبه بارگیری نشد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "canvas_async_search_select",
+  function() { return {"count_options_loaded_cd59cc3b":"%{count} گزینه بارگذاری شد.","option_selected_737b6f72":"گزینه انتخاب شده:","type_to_search_de63ad38":"نوع برای جستجو"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "paginator",
+  function() { return {"page_page_59070cd8":"صفحه %{page}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "app_shared_components",
+  function() { return {"label_removed_8793d8b4":"%{label} حذف شده است.","list_collapsed_dde87718":"فهرست جمع شد.","remove_label_11d96b8f":"حذف %{label}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "disableWhileLoading",
+  null,
+  function() { return {"loading":"در حال بارگذاری..."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "instructure_misc_plugins",
+  null,
+  function() { return {"confirms":{"default_delete_thing":"مطمئنید که می خواهید این مورد حذف شود؟"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "k5_empty_dashboard_state",
+  function() { return {"you_don_t_have_any_active_courses_yet_fb3c4418":"شما هنوز هیچ درس فعالی ندارید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "important_info",
+  function() { return {"edit_important_info_for_coursename_bdb3eb6c":"ویرایش اطلاعات مهم برای %{courseName}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "important_info_announcement",
+  function() { return {"important_info_3bda6406":"اطلاعات مهم","loading_important_info_217bf805":"در حال بارگیری اطلاعات مهم"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "k5_announcement",
+  function() { return {"edit_announcement_title_cce0b4e":"ویرایش اطلاعیه %{title}","failed_getting_next_batch_of_announcements_1f1165a5":"دریافت دسته ی بعدی اعلان ها ناموفق بود.","your_homeroom_is_currently_unpublished_93c14f4f":"کلاس درس شما در حال حاضر منتشر نشده است."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "staff_info",
+  function() { return {"message_form_9658d1ef":"فرم پیام","message_name_3b100614":"پیام %{name}","send_a_message_to_name_43eec865":"ارسال پیام برای %{name}","sending_message_75923692":"ارسال پیام"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "teacher_groups_page",
+  function() { return {"manage_groups_4b962fa9":"مدیریت گروه ها","view_groups_47b5f60c":"مشاهده گروه ها"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "k5_utils",
+  function() { return {"n_a_d5d5a207":"خالی","observer_248a192e":"بیننده"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "KeyboardNavDialog",
+  null,
+  function() { return {"titles":{"keyboard_shortcuts":"میانبرهای صفحه کلید"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "link_enrollment",
+  null,
+  function() { return {"buttons":{"link":"پیوند دادن به دانشجو"},"errors":{"link_failed":"پیوند دادن انجام نشد، لطفا دوباره سعی کنید","load_failed":"بارگذاری دانشجویان انجام نشد، لطفا دوباره سعی کنید"},"messages":{"linking_to_student":"درحال پیوند دادن به دانشجو...","loading_students":"درحال بارگذاری اسامی دانشجویان..."},"options":{"no_link":"[ پیوند موجود نیست ]"},"titles":{"link_to_student":"پیوند دادن به دانشجو"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "LockButton",
+  function() { return {"locking_91f476a5":"در حال قفل کردن...","unlocking_a6b5c02d":"درحال قفل گشایی..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "mathquill",
+  null,
+  function() { return {"tabs":{"arrows":"پیکان ها","basic":"پایه","delimiters":"جدا کننده ها","greek":"یونانی","miscellaneous":"متفرقه","operators":"عملگرها","relationships":"روابط"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "media_comment_dialog_manager",
+  null,
+  function() { return {"messages":{"loading":"در حال بارگذاری..."},"titles":{"record_upload_media_comment":"ضبط/بارگذاری نظر رسانه ای"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "media_comments_publicjs",
+  null,
+  function() { return {"buttons":{"submit":"ارسال فایل رسانه ای"},"errors":{"file_too_large":"*حجم این فایل زیاد است.* حداکثر اندازه فایل %{size} مگابایت است.","load_failed":"بارگذاری برنامه نظر رسانه ای انجام نشد. لطفا دوباره سعی کنید.","media_comment_installation_broken":"بارگذاری نظر رسانه ای درست راه اندازی نشده است . لطفا با مدیر خود تماس بگیرید.","must_be_logged_in":"برای ضبط رسانه، باید وارد شده باشید.","persistent_problem":"اگر این اشکال ادامه یافت، ممکن است بخواهید رسانه خود را به طور محلی ضبط کنید و سپس در عوض فایل ذخیره شده را بارگذاری نمایید.","save_failed":"ظاهرا ذخیره سازی انجام نشده است. لطفا برای تلاش دوباره، این منوی باز شونده را ببندید.","save_failed_try_again":"ذخیره سازی ورودی انجام نشد. لطفا دوباره سعی کنید.","upload_failed":"بارگذاری با بروز خطا انجام نشد:"},"messages":{"flash_required_record_audio":"برای ضبط صدا، فلش لازم است.","flash_required_upload_audio":"برای بارگذاری صدا؛ فلش لازم است.","flash_required_upload_video":"برای بارگذاری تصویر، فلش لازم است.","loading":"در حال بارگذاری...","submitted":"فایل رسانه ای ارسال شد!","submitting":"درحال ارسال فایل رسانه ای..."},"titles":{"media_contribution":"ارائه رسانه ای","record_upload_media_comment":"ضبط/بارگذاری نظر رسانه ای"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "jquery_media_comments",
+  function() { return {"media_has_been_queued_for_conversion_please_try_ag_74343bbd":"رسانه برای تبدیل در صف انتظار مانده است، لطفا کمی بعد دوباره تلاش کنید.","play_media_comment_8614d30f":"پخش نظر رسانه ای"} },
+  function() { return {"loading":"در حال بارگذاری رسانه...","media_still_converting":"رسانه در حال حاضر در حال تبدیل است، لطفا کمی بعد دوباره تلاش کنید.","titles":{"play_comment":"پخش نظر رسانه ای"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "mediaCommentThumbnail",
+  function() { return {"play_media_comment_35257210":"پخش نظر رسانه ای","play_media_comment_by_name_from_createdat_515b3b":" نظر رسانه‌ای %{name} را  از %{createdAt} پخش کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "media_comments_upload_view_manager",
+  null,
+  function() { return {"errors":{"media_comment_installation_broken":"بارگذاری نظر رسانه ای درست راه اندازی نشده است . لطفا با مدیر خود تماس بگیرید."},"file_size_error":"اندازه %{file} از حداکثر اندازه مجاز فایل %{max} مگابایت بیشتر است.","file_type_error":"%{file} یک فایل قابل قبول از نوع %{type} نیست.","messages":{"submitting":"درحال ارسال فایل رسانه ای..."}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "mepfeaturetracksinstructure",
+  function() { return {"are_you_sure_you_want_to_delete_this_track_f5a16357":"آیا مطمئن هستید که می خواهید این فایل صوتی را حذف کنید؟","captions_subtitles_af2c47e":"عنوان‌ها / زیرنویس‌ها","delete_track_fc21128b":"حذف فایل صوتی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "UploadMediaTrackForm",
+  null,
+  function() { return {"cancel":"لغو","track_uploaded_successfully":"شیار با موفقیت بارگذاری شد؛ لطفا مرورگر خود را تازه سازی کنید.","upload":"بارگذاری","uploading":"در حال بارگذاری..."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "models_conversations",
+  null,
+  function() { return {"cannot_be_empty":"پیام نمی تواند خالی باشد","no_recipients_choose_another_group":"هیچ گیرنده ای در این گروه یافت نشد. گروه دیگری را انتخاب کنید."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "viewsMessageStudentsDialog",
+  function() { return {"message_students_37ba5dd5":"ارسال پیام برای دانشجویان","message_students_for_context_ee62ff92":"ارسال پیام برای دانشجویان برای %{context}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "public_message_students",
+  function() { return {"message_students_for_course_name_e55f8077":"ارسال پیام برای دانشجویان درس %{course_name}","remove_student_from_recipients_4b206e35":"حذف %{student} از گیرنده ها"} },
+  function() { return {"send_message":"ارسال پیام"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "public_message_students_who",
+  function() { return {"enter_score_cutoff_3ff8ad22":"نمره حذف کننده را وارد کنید","for_students_who_d0fd45d0":"برای دانشجویانی که...","have_not_been_graded_df2a5fd2":"نمره داده نشده اند","have_not_yet_submitted_57e6a58b":"هنوز ارسال نشده","hide_all_recipients_1ca02da6":"پنهان کردن همه ی گیرندگان","marked_incomplete_1bfc7235":"به عنوان ناقص علامت گذاری شد","send_message_to_891eb84":"ارسال پیام به:","show_all_recipients_9e4a3486":"نمایش همه گیرندگان"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "shared_message_students",
+  function() { return {"body_9f663faf":"متن اصلی","please_provide_a_field_e5a7d0b3":"لطفا یک %{field} فراهم کنید","subject_must_contain_fewer_than_255_characters_2e72cd02":"موضوع باید کمتر از 255 نویسه داشته باشد.","there_was_a_problem_sending_your_message_22b249a5":"در هنگام ارسال پیام شما، اشکالی رخ داد.","we_re_sending_your_message_d586da":"در حال ارسال پیام هستیم...","your_message_was_sent_977f6583":"پیام شما ارسال شد!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "mimeClass",
+  function() { return {"audio_dd489fcc":"صدا","flash_6afbf65a":"فلش","plain_text_e3ab33aa":"متن ساده","presentation_2d9387ca":"ارائه","source_code_2395ca74":"رمز منبع","spreadsheet_6d622119":"صفحه گسترده","text_document_eacbcdb7":"سند متنی","video_b9f27375":"تصویر","web_page_146f9102":"صفحه وب"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "sequence_footer",
+  function() { return {"choose_the_next_mastery_path_b035b727":"مسیر تسلط بعدی را انتخاب کنید","next_item_2d1ddc96":"بعدی :*مورد*","next_mastery_path_is_currently_locked_a9253711":"مسیر تسلط جدید در حال حاضر قفل است","next_mastery_path_is_still_processing_please_perio_bb0121af":"مسیر تسلط بعدی هنوز در حال پردازش است. لطفا به صورت دوره‌ای صفحه را نوسازی کنید"} },
+  function() { return {"next_module":"ماژول بعدی:","next_module_desc":"ماژول بعدی: *module*","prev_module":"ماژول قبلی:","prev_module_desc":"ماژول قبلی: *module*","prev_module_item_desc":"قبلی: *item*"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "prerequisites_lookup",
+  null,
+  function() { return {"headers":{"completion_prerequisites":"پیش نیازهای تکمیل"},"labels":{"requirements_must_be_completed":"قبل از اینکه این صفحه قفل گشایی شود، الزامات زیر باید برآورده شود"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "move_positions",
+  function() { return {"after_48b9d69":"بعد از ..","at_the_bottom_a6a5f0fe":"در پایین","at_the_top_fa836591":"در بالا","before_cb32fc0":"قبل از.."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "move_item_tray",
+  function() { return {"close_move_tray_8609e988":"بستن سینی انتقال","move_item_failed_8e4c1db6":"انتقال مورد ناموفق بود."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "move_select",
+  function() { return {"group_select_330df8bd":"گروه انتخاب شد"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "observer_pairing_code",
+  null,
+  function() { return {"errors":{"invalid":"کد جفت سازی نامعتبر است"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "notification_preferences",
+  function() { return {"account_notification_settings_e96de9b6":"تنظیمات اطلاعیه حساب","alerts_6b871b71":"گفتگوها","course_activities_21c83bd3":"فعالیت های درس","daily_summary_cf43f37c":"خلاصه روزانه","enable_notifications_for_contextname_b5b4440e":"فعال سازی اعلان ها برای %{contextName}","for_all_devices_1f603968":"برای همه دستگاه ها","notice_some_notifications_may_contain_confidential_5985f52a":"توجه: برخی از اطلاعیه ها ممکن است شامل اطلاعات محرمانه باشند. انتخاب برای دریافت اطلاعیه ها از طریق یک نشانی پست الکترونیکی به غیر از نشانی ارائه شده توسط دانشگاه ممکن است به ارسال اطلاعات حساس درس و گروه کانواس به خارج از سامانه دانشگاه شما منجر شود.","notification_settings_652dc60b":"تنظیمات اطلاعیه","notifications_off_80da021c":"اعلان ها خاموش است","notifications_unsupported_65f6bf65":"اعلان ها پشتیبانی نمی شوند","notify_immediately_d1749c07":"فورا اطلاع دهید","push_notification_a6532ff3":"وارد کردن اطلاعیه","scheduling_5a3327e7":"در حال زمان بندی","settings_for_e2322172":"تنظیمات برای","show_name_of_observed_students_in_notifications_d38b53ca":"نمایش نام دانشجویان مشاهده شده در اطلاعیه ها","weekly_summary_56cd0c95":"خلاصه هفتگی","you_will_not_receive_any_course_notifications_at_t_7d9ce24f":"در حال حاضر هیچ اطلاعیه درسی را دریافت نخواهید کرد. برای فعال کردن اعلان‌های درس، از کلید بالا استفاده کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "add_student_modal",
+  function() { return {"enter_a_student_pairing_code_below_to_add_a_studen_15789251":"یک کد جفت سازی دانش آموز را در زیر وارد کنید تا دانش آموزی برای مشاهده اضافه شود.","failed_pairing_student_c9f0863b":" جفت سازی دانش آموز ناموفق بود.","invalid_pairing_code_dde8d40a":"کد جفت سازی نامعتبر است.","pair_4d942a74":"جفت","pair_with_student_6f76e69a":"جفت شدن با دانشجو","pairing_code_1ddbd699":"کد جفت شدن"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "observer_options",
+  function() { return {"add_student_1152afc0":"افزودن دانشجو","select_a_student_to_view_281d17b9":"یک دانش آموز را برای مشاهده انتخاب کنید","you_are_observing_observeduser_afd2f245":"شما %{observedUser} را رصد می کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "contentview",
+  function() { return {"no_directory_is_selected_please_select_a_directory_46ded46":"هیچ دایرکتوری انتخاب نشده است، لطفا قبل از کلیک کردن روی «انتقال»، یک دایرکتوری انتخاب کنید","where_would_you_like_to_move_title_fabd6e8f":"می خواهید %{title} را به کجا انتقال دهید؟","you_have_no_outcomes_click_here_to_go_to_the_outco_574bd0af":"هیج نتیجه ای ندارید. برای رفتن به صفحه نتایج، اینجا کلیک کنید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "OutcomeContentBase",
+  null,
+  function() { return {"blank_error":"نباید خالی باشد","confirm":{"delete":"مطمئنید که می خواهید حذف شود؟"},"flash":{"addSuccess":"ایجاد با موفقیت انجام شد","deleteSuccess":"حذف با موفقیت انجام شد","error":"یک خطا رخ داده است. لطفا صفحه را تازه سازی کنید و دوباره تلاش کنید.","unexpectedDeleteError":"اشکالی رخ داده است. در حال حاضر امکان حذف نیست.","updateSuccess":"بهنگام سازی با موفقیت انجام شد","userDeleteError":"گروه نتیجه شامل یک یا چند نتیجه است که در حال حاضر با محتوا مطابق هستند."},"length_error":"باید 255 نویسه یا کمتر باشد"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "OutcomeView",
+  function() { return {"points_possible_points_fda3b111":"%{points_possible} امتیاز"} },
+  function() { return {"length_error":"باید 255 نویسه یا کمتر باشد","mastery_error":"باید بزرگتر از 0 یا مساوی با آن باشد"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "confirmOutcomeEditModal",
+  function() { return {"confirm_edit_outcome_a9746c99":"ویرایش نتیجه را تأیید کنید","this_will_update_all_rubrics_using_this_outcome_th_6954ca45":"با استفاده از این نتیجه که هنوز ارزیابی نشده است، تمام مباحث به روز می شود","you_ve_updated_the_scoring_criteria_this_will_affe_ec852671":"شما معیارهای نمره‌دهی را به روز کرده اید. این روی کلیه دانشجویانی که قبلاً با استفاده از این نتیجه ارزیابی شده اند تأثیر خواهد گذاشت."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "outcomesCriterionInfo",
+  function() { return {"criterion_ratings_3eed22e2":"رتبه بندی های معیار","learning_outcomes_can_be_included_in_assignment_ru_a48bb903":"\n  نتایج یاد گیری را می توان به عنوان روشی آسان برای\n  ارزیابی تسلط در نتایج تطبیق داده شده با برخی تکلیف ها در دستورالعمل های ارزیابی تکلیف گنجاند. وقتی یک\n  نتیجه یادگیری را تعیین می کنید، باید یک معیار نیز تعیین کنید که بتوان از آن در هنگام ایجاد دستورالعمل ارزیابی تکلیف استفاده کرد.\n  ستون های دستورالعمل ارزیابی را تا حد لازم تعیین کنید و یک نقطه آستانه مشخص\n  را تعیین کنید که برای تعیین تسلط در این نتیجه استفاده شود.\n","more_information_about_ratings_57cdd446":"اطلاعات بیشتر در مورد رتبه بندی"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebookHeaderFilterView",
+  null,
+  function() { return {"course_average":"میانگین درس","course_median":"میانه درس"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebookOutcomeGradebookGrid",
+  function() { return {"there_was_an_error_fetching_course_statistics_96e9dbad":"در جستجوی آمارهای درس خطایی وجود داشت."} },
+  function() { return {"learning_outcome":"نتیجه یادگیری"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "outcomesFindDirectoryVew",
+  null,
+  function() { return {"account_standards":"استانداردهای حساب","account_standards_description":"در سمت چپ، استانداردهایی که دانشگاه شما برای استفاده در درس ها ایجاد کرده است را خواهید دید.","state_standards":"استانداردهای استانی","state_standards_description":"در سمت چپ یک پوشه برای هر استان به همراه استانداردهای استانی بهنگام سازی شده آنها را خواهید دید. این امر به شما امکان می دهد استانداردهای استانی برای نمره گذاری را به راحتی در درس خود درج کنید."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "outcomesSidebarView",
+  function() { return {"model_is_already_located_in_newgroup_e5cea361":"%{model} در %{newGroup} قرار گرفته است","successfully_moved_model_to_newgroup_f7b7aa5a":"%{model} با موفقیت به %{newGroup} انتقال یافت"} },
+  function() { return {"titles":{"find_outcomes":"یافتن نتایج"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "OutcomesDirectoryView",
+  function() { return {"loading_more_results_1d437202":"در حال بارگذاری نتایج بیشتر"} },
+  function() { return {"flash":{"error":"یک خطا رخ داده است. لطفا صفحه را تازه سازی کنید و دوباره تلاش کنید.","updateSuccess":"بهنگام سازی با موفقیت انجام شد"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "modelsOutcome",
+  null,
+  function() { return {"criteria":{"does_not_meet_expectations":"مطابق با انتظارات نیست","exceeds_expectations":"فراتر از انتظارات","meets_expectations":"مطابق با انتظارات"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "outcomesFindDialog",
+  null,
+  function() { return {"confirm":{"import_group":"گروه \"%{group}\" به گروه  \"%{target}\" وارد شود؟","import_outcome":"نتیجه \"%{outcome}\" به گروه \"%{target}\" وارد شود؟"},"dont_import":"این گروه نمی تواند وارد شود.","flash":{"importError":"در هنگام وارد کردن، خطایی رخ داد. لطفا بعدا دوباره تلاش کنید.","importSuccess":"ورود با موفقیت انجام شد"},"top_level":"رده بالای %{context}"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "find_outcome",
+  null,
+  function() { return {"errors":{"outcome_retrieval_failed":"بازیابی نتایج به طور پیش بینی نشده انجام نشد. لطفا دوباره سعی کنید."},"messages":{"loading_outcomes":"در حال بارگذاری نتایج...","no_outcomes_found":"نتیجه یافت نشد","no_rubric_outcomes_found":"هیچ نتیجه ای که دارای دستورالعمل ارزیابی پیکربندی شده باشد، موجود نیست"},"titles":{"find_outcome":"یافتن نتیجه"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "useRatings",
+  function() { return {"above_max_rating_64b29915":"امتیاز بیش از حد مجاز","missing_required_points_39db69fa":"امتیازهای لازم ناقص است","no_evidence_75853352":"بدون مدرک"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "ImportOutcomesModal",
+  function() { return {"csv_or_json_formats_only_d8ba36d":"تنها فرمت‌های CSV یا JSON ","import_outcomes_to_groupname_d0a3264d":"وارد کردن نتایج به %{groupName}","outcomes_csv_format_9005acfb":"نتایج قالب CSV ","upload_your_outcomes_bceeadbe":"نتایج خود را بارگیری کنید!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "OutcomesImporter",
+  function() { return {"an_outcome_import_is_currently_in_progress_11e6cb38":"ورود نتیجه در حال انجام است.","importing_outcomes_e62a0375":"وارد کردن نتایج","it_s_ok_to_leave_this_page_we_ll_email_you_when_th_2dbed7fa":"ترک این صفحه مشکلی نیست ، وقتی ورود  انجام شد برای شما ایمیل ارسال خواهیم کرد.","please_wait_as_we_upload_and_process_your_file_73c4b5a8":"لطفاً هنگام بارگذاری و پردازش پرونده خود صبر کنید.","there_was_a_problem_importing_some_of_the_outcomes_482bac10":"هنگام وارد کردن برخی از نتایج در فایل بارگذاری شده مشکلی پیش آمد. برای جزئیات بیشتر ایمیل خود را بررسی کنید.","there_was_an_error_with_your_import_please_examine_7b42f29d":"هنگام وارد کردن شما خطایی روی داد، لطفاً فایل خود را بررسی کرده و دوباره بارگذاری را امتحان کنید. برای جزئیات بیشتر ایمیل خود را بررسی کنید.","your_outcomes_were_successfully_imported_c5de884":"نتایج شما با موفقیت وارد شد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "post_assignment_grades_tray",
+  function() { return {"count_hidden_e8d2c57c":"%{count} مخفی","post_1e445890":"ارسال","posting_grades_cd7cd758":"در حال ارسال نمرات","posting_grades_is_not_allowed_because_grades_have__229d9c9e":"ارسال نمرات مجاز نیست زیرا نمرات برای این تکلیف منتشر نشده است.","posting_grades_will_refresh_your_browser_this_may__97a9fe12":"ارسال نمرات مرورگر شما را بازیابی می کند. این ممکن است لحظه ای طول بکشد.","when_posting_grades_for_anonymous_assignments_grad_b13f3ae6":"هنگام ارسال نمرات برای تکالیف ناشناس ، نمرات برای همه افراد در درس ارسال می شود. ناشناس بودن حذف می شود."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "pseudonym",
+  null,
+  function() { return {"errors":{"bad_credentials":"نام کاربری یا رمز عبور معتبر نیست","common":"نمی توان از رمزهای عبور رایج استفاده کرد (مثل \"password\")","invalid":"فقط می تواند حاوی حروف، اعداد یا نویسه های زیر باشد:  %{characters}","mismatch":"منطبق نیست","not_email":"نشانی پست الکترونیکی معتبر نیست","repeated":"نمی توان از یک نویسه بیش از %{max} بار در یک ردیف استفاده کرد","required":"لازم","sequence":"نمی توان دنباله ای بیشتر از %{max} نویسه را درج کرد (مانند abcdef)","sis_taken":"شناسه سامانه اطلاعات دانشجو در حال حاضر در حال استفاده است","taken":" قبلا استفاده شده","too_long":"نمی تواند از %{max}  نویسه فراتر رود","too_short":"باید حداقل %{min} نویسه باشد"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "publish_btn_module",
+  function() { return {"published_click_to_unpublish_db016671":"منتشر شده است. برای لغو انتشار کلیک کنید.","published_click_to_unpublish_title_358122a":"منتشر شده است. برای لغو انتشار %{title} کلیک کنید.","unpublished_click_to_publish_6a6d12e1":"منتشر نشده. برای انتشار کلیک کنید.","unpublished_click_to_publish_title_7c57293f":"منتشر نشده. برای انتشار %{title} کلیک کنید."} },
+  function() { return {"buttons":{"publish":"انتشار","published":"منتشر شده","publishing":"در حال انتشار...","unpublish":"لغو انتشار","unpublishing":"در حال لغو انتشار..."}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "modelsQuiz",
+  null,
+  function() { return {"assignment_points_possible":{"one":"1 امتیاز","other":"%{count} امتیاز"},"cant_unpublish_when_students_submit":"اگر موردهای ارسالی دانشجو وجود داشته باشد، نمی توان انتشار را لغو کرد","question_count":{"one":"1 پرسش","other":"%{count} پرسش"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "EquationEditorView",
+  null,
+  function() { return {"button":{"insert_equation":"درج معادله"},"cannot_render_equation":"این معادله را نمی توان در نمای اصلی ارائه داد.","equation_editor_title":"در اینجا از نوارهای ابزار استفاده کنید، یا برای تایپ کردن/چسباندن در لاتکس، نما را به پیشرفته تغییر دهید"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "mentions",
+  function() { return {"select_name_to_mention_15d9674e":"انتخاب %{name} برای اشاره کردن"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "EditRubricPage",
+  null,
+  function() { return {"titles":{"find_outcomes":"یافتن نتایج"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "edit_rubric",
+  function() { return {"add_criterion_eb9587ef":"افزودن معیار","create_criterion_6df4d4ad":"ایجاد معیار","criterion_created_42669293":"معیار ایجاد شد","criterion_updated_36c0b3dc":"معیار به روز شد","edit_criterion_5e4dadca":"ویرایش معیار","max_dd02d615":"بیشینه","new_criterion_canceled_d8c2a655":"معیار جدید لغو شد","new_rating_canceled_eed3c4ff":"رتبه‌بندی جدید لغو شد","new_rating_created_54125331":"رتبه بندی جدید ایجاد شد","rating_title_3b60881e":"عنوان رتبه‌بندی","rating_updated_7aff90ea":"رتبه‌بندی به روز شد","update_criterion_edcbd330":"به روزرسانی معیار","you_can_t_edit_this_rubric_either_because_you_don__c2472826":"نمی توانید این دستورالعمل ارزیابی را ویرایش کنید، یا به این علت که اجازه ندارید و یا اینکه در بیش از یک جا استفاده شده است. هر گونه تغییری که انجام می دهید به یک دستورالعمل ارزیابی جدید بر مبنای دستورالعمل ارزیابی قدیمی منجر می شود. با این وجود ادامه می دهید؟"} },
+  function() { return {"buttons":{"create_rubric":"ایجاد دستورالعمل ارزیابی","update_rubric":"بهنگام سازی دستورالعمل ارزیابی"},"change":"تغییر دادن","discussion_points_possible":{"one":"%{count} امتیاز ممکن","other":"%{count} امتیاز ممکن"},"errors":{"load_rubrics_failed":"بارگذاری دستورالعمل های ارزیابی انجام نشد، لطفا دوباره سعی کنید"},"leave_different":"متفاوت گذاشتن","messages":{"loading_rubric_groups":"در حال بارگذاری گروه های دستورالعمل ارزیابی...","loading_rubrics":"در حال بارگذاری دستورالعمل های ارزیابی..."},"prompts":{"confirm_delete":"مطمئنید که می خواهید این دستورالعمل ارزیابی حذف شود؟"},"titles":{"edit_rubric_rating":"ویرایش رتبه بندی","find_existing_rubric":"یافتن دستورالعمل ارزیابی موجود"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "rubric_assessment",
+  function() { return {"additional_comments_9aed10bb":"نظرهای دیگر","extra_credit_not_permitted_on_outcomes_score_adjus_714dd746":"امتیاز اضافی در نتایج مجاز نیست، نمره در حداکثر ممکن برای %{outcome}  تنظیم شده است."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "rubric_delete_confirmation",
+  function() { return {"are_you_sure_you_want_to_delete_this_rubric_any_co_29d7ac76":"مطمئنید که می خواهید این دستورالعمل ارزیابی حذف شود؟ هر درسی که در حال حاضر با این دستورالعمل ارزیابی ارتباط دارد هنوز هم به آن دسترسی دارد، اما هیچ درس جدیدی قادر به استفاده از آن نخواهد بود.","are_you_sure_you_want_to_delete_this_rubric_this_a_d4ff43c7":"آیا مطمئن هستید که می خواهید این دستورالعمل های ارزیابی را حذف کنید؟ این اقدام،  ارتباط دستورالعمل‌های ارزیابی را از کلیه تکالیف درس فعلی حذف می‌کند و تمامی ارزیابی‌های مرتبط موجود حذف  ‌می‌شوند."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "edit_rubricCommentButton",
+  function() { return {"add_additional_comments_ec34a62f":"افزودن نظرات بیشتر"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "edit_rubricComments",
+  function() { return {"_2d4c0d31":"...","save_this_comment_for_reuse_5eda0b70":"ذخیره سازی این نظر برای استفاده دوباره","saved_comments_2f6ba95":"نظرهای ذخیره شده","select_from_saved_comments_dd398cd4":"انتخاب از میان نظرهای ذخیره شده","this_area_will_be_used_by_the_assessor_to_leave_co_98a5db8b":"این قسمت توسط ارزیاب برای نظر گذاری مربوط به این معیار استفاده خواهد شد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "RubricAddCriterionPopover",
+  function() { return {"criterion_5f0b62f8":"معیار","find_outcome_746cc57e":"یافتن نتیجه","new_criterion_6054bc7f":"معیار جدید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "RubricManagement",
+  function() { return {"account_rubrics_40c190a8":"دستورالعمل های ارزیابی حساب"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "edit_rubricCriterion",
+  function() { return {"this_criterion_is_linked_to_a_learning_outcome_c8aa57bf":"این معیار به نتیجه یادگیری پیوند داده شده است","threshold_pts_45f0e5d8":"آستانه: %{pts}","view_longer_description_6b762087":"نمایش شرح طولانی تر"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "edit_rubricPoints",
+  function() { return {"cannot_give_outcomes_extra_credit_696208f0":"نمی تواند نتایج اضافی را بدست بیاورد","invalid_score_3d247da7":"امتیاز بی اعتبار","points_possible_720fc8fd":"%{points} / %{possible}","possible_pts_b63dff4c":"%{possible}امتیاز"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "edit_rubricRatings",
+  function() { return {"no_details_1ee29870":"اطلاعات بیشتر موجود نیست","points_to_endofrangepoints_pts_aad207f0":"%{points} به \u003e%{endOfRangePoints} امتیازها","rating_selected_85c31e4c":"رتبه بندی انتخاب شده","this_rating_is_selected_ca68fce6":"این رتبه بندی انتخاب شده است"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "edit_rubricRubric",
+  function() { return {"criteria_9fac648":"معیارها","pts_51d69f4a":"امتیازها","ratings_2433172b":"رتبه بندی ها","total_points_total_f41b2cff":"مجموع امتیازها: %{total}","total_points_total_out_of_possible_9056fdb4":"مجموع امتیازها : %{total} از %{possible}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "count_sections_466dcd5c",
+  null,
+  function() { return {"one":"1 بخش","other":"%{count} بخش ها"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "modelsSection",
+  null,
+  function() { return {"overrides":{"everyone":"همه"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "select_content_dialog",
+  function() { return {"error_embedding_content_from_tool_49bb698e":"خطا در درج محتوا از ابزار","page_name_is_required_d8c2736e":"نام صفحه  لازم است","selected_content_is_not_an_lti_link_11780d96":"محتوای انتخاب شده یک لینک LTI نمی باشد.","selected_external_tool_tool_bae095ba":"ابزار خارجی انتخاب شده %{tool}","unselected_external_tool_tool_1bd68403":"عدم انتخاب ابزار بیرونی %{tool}","url_is_required_4689ed84":"نشانی اینترنتی لازم است"} },
+  function() { return {"buttons":{"add_item":"افزودن مورد"},"errors":{"assignment_name_blank":"نام تکلیف نمی تواند خالی باشد.","external_tool_url":"یک ابزار خارجی را بدون نشانی اینترنتی نمی توان ذخیره کرد.","failed_to_create_item":"ایجاد مورد جدید انجام نشد","loading_failed":"بارگذاری انجام نشد"},"link_from_external_tool":"پیوند دادن به منبع از ابزار بیرونی","titles":{"add_item_to_module":"افزودن مورد به ماژول","find_links_using_service":"یافتن پیوندها با استفاده از %{service}"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "selectPosition",
+  function() { return {"item_select_fe0f320a":"انتخاب مورد","place_b128fa94":"مکان","place_title_2c183274":"\"%{title}\" را قرار دهید","position_select_c2dd3980":"انتخاب موقعیت","select_one_b647b384":"یکی را انتخاب کنید"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "findLinkForService",
+  null,
+  function() { return {"buttons":{"search":"جستجو","search_by_tag":"جستجو بر اساس برچسب"},"errors":{"search_failed":"جستجو انجام نشد، لطفا دوباره سعی کنید."},"no_description":"شرح موجود نیست","no_results_found":"نتیجه ای یافت نشد","status":{"diigo_search_throttling":"Diigo کاربران را به یک جستجو در هر ده ثانیه محدود می کند. لطفا صبر کنید...","searching":"درحال جستجو..."},"titles":{"bookmark_search":"نشانه گذاری جستجو: %{service_name}"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "site",
+  null,
+  function() { return {"view_privacy_policy":"مشاهده سیاست حریم خصوصی"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "validate",
+  null,
+  function() { return {"is_required":"تکمیل این جای خالی لازم است"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "SisButtonView",
+  function() { return {"base_message_please_make_sure_name_has_a_due_date_928ae7ab":"%{base_message} مطمئن شوید که %{name} تاریخ مهلت دارد.","base_message_please_make_sure_name_has_a_due_date__9e9b0cfd":"%{base_message} مطمئن شوید که %{name} تاریخ مهلت دارد و نام طولانی نیست.","base_message_please_make_sure_name_name_is_not_too_d0c9454f":"%{base_message} مطمئن شوید که نام %{name} طولانی نیست.","sync_to_name_disabled_click_to_toggle_53a1396f":"همگام سازی با %{name} غیرفعال شد. برای تغییر وضعیت کلیک کنید.","sync_to_name_enabled_click_to_toggle_ddaef134":"همگام سازی با %{name}فعال شد. برای تغییر وضعیت کلیک کنید.","the_grade_for_this_assignment_will_not_sync_to_the_3bb4f6f5":"نمره این تکلیف با سامانه اطلاعات دانشجو همگام نخواهد شد.","the_grade_for_this_assignment_will_sync_to_the_stu_5d32cedb":"نمره این تکلیف با سامانه اطلاعات دانشجو همگام نخواهد شد."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "ExternalToolsPlugin",
+  function() { return {"apps_54d24a47":"برنامه ها","view_all_e13bf0a6":"مشاهده همه"} },
+  function() { return {"more_external_tools":"ابزارهای بیرونی دیگر"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "ExternalToolDialog",
+  function() { return {"loading_external_tool_d839042c":"بارگذاری ابزار خارجی"} },
+  function() { return {"embed_from_external_tool":"درج محتوا از ابزار بیرونی"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "treeBrowser",
+  function() { return {"selected_subtree_a7693937":"%{subtree} انتخاب شده"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "unread_badge",
+  function() { return {"totalcount_total_replies_b6988c0a":"%{totalCount} کل پاسخها","unreadcount_unread_replies_509e167f":"%{unreadCount} پاسخ خوانده نشده"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "upload_file",
+  function() { return {"canvas_failed_to_complete_the_upload_864a4c0f":"کانواس نتوانست بارگذاری را انجام دهد.","canvas_failed_to_initiate_the_upload_8e3824d5":"کانواس موفق به آپلود نشد","unable_to_transmit_file_to_the_storage_service_the_2d80b29e":"انتقال فایل به سرویس ذخیره سازی امکان پذیر نیست. ممکن است سرویس از کار افتاده باشد و یا لازم باشد دوباره وارد کانواس شوید."} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "user",
+  function() { return {"this_course_has_concluded_7995a84c":"این درس لغو شده است"} },
+  function() { return {"errors":{"already_enrolled":"شما در حال حاضر در این درس ثبت نام شده اید","course_full":"ظرفیت این درس تکمیل شده است","invalid_code":"رمز معتبر نیست","required":"لازم","terms":"باید ضوابط را بپذیرید","too_long":"نمی تواند از %{max} نویسه فراتر رود"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "closedCaptionLanguages",
+  function() { return {"afrikaans_da0fe6ee":"آفریقایی","albanian_21ed929e":"آلبانی","arabic_c5c87acd":"عربی","armenian_12da6118":"ارمنی","belarusian_b2f19c76":"بلاروسی","bulgarian_feccab7e":"بلغاری","catalan_16f6b78f":"کاتالیک","chinese_111d37f6":"چینی","chinese_simplified_7f0bd370":"چینی ساده شده","chinese_traditional_8a7f759d":"چینی سنتی","croatian_d713d655":"کرواسی","czech_9aa2cbe4":"چک","danish_c18cdac8":"دانمارکی","dutch_6d05cee5":"هلندی","english_australia_dc405d82":"انگلیسی (استرالیا)","english_c60612e2":"انگلیسی","english_canada_12688ee4":"انگلیسی (کانادا)","english_united_kingdom_a613f831":"انگلیسی (بریتانیا)","estonian_5e8e2fa4":"استونیایی","filipino_33339264":"فیلیپینی","finnish_4df2923d":"فنلاندی","french_33881544":"فرانسوی","french_canada_c3d92fa6":"فرانسوی (کانادا)","galician_7e4508b5":"گالیسی","german_3ec99bbb":"آلمانی","greek_65c5b3f7":"یونانی","haitian_creole_7eb4195b":"کرویل هائیتی","hebrew_88fbf778":"عبری","hindi_9bcd4b34":"هندی","hungarian_fc7d30c9":"مجارستانی","icelandic_9d6d35de":"ایسلندی","indonesian_5f6accd6":"اندونزیایی","irish_567e109f":"ایرلندی","italian_bd3c792d":"ایتالیایی","japanese_b5721ca7":"ژاپنی","korean_da812d9":"کره‌ای","latvian_2bbb6aab":"لتونی","lithuanian_5adcbe24":"لیتوانیایی","macedonian_6ed541af":"مقدونی","malay_f5dddce4":"مالایی","maltese_916925e8":"مالتیایی","norwegian_53f391ec":"نروژی","norwegian_bokmal_ad5843fa":"نروژی بوکمال","norwegian_nynorsk_c785f8a6":"نینورسک نروژی","persian_a8cadb95":"پارسی","polish_4cf2ecaf":"لهستانی","portuguese_9c212cf4":"پرتغالی","romanian_13670c1e":"رومانیایی","russian_1e3e197":"روسی","serbian_7187f1f2":"صربی","slovak_69f48e1b":"اسلواکی","slovenian_30ae5208":"اسلوونیایی","spanish_de9de5d6":"اسپانیایی","swahili_5caeb4ba":"سواحیلی","swedish_59a593ca":"سوییسی","tagalog_74906db7":"تاگالوگ","thai_8f9bc548":"تایلندی","turkish_5b69578b":"ترکی","ukrainian_945b00b7":"اوکراینی","vietnamese_e7a76583":"ویتنامی","welsh_42ab94b1":"ولزی","yiddish_f96986df":"ییدیش"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "user_content",
+  function() { return {"user_content_aaf0fb5a":"محتوای کاربر"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "lib",
+  null,
+  function() { return {"text_helper":{"ellipsis":"...","quoted_text_toggle":"نمایش متن نقل شده","word_separator":" "}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "help_dialog",
+  null,
+  function() { return {"Submitting_Ticket":"در حال ارسال بلیت...","description":"شرح","extreme_critical_emergency":"وضعیت بحرانی حاد!!","file_a_ticket_for_a_personal_response_from_our_support_team":"رزرو یک بلیت برای دریافت یک پاسخ شخصی از طرف تیم پشتیبانی ما","for_an_instant_answer":"برای یک پاسخ فوری:","how_is_this_affecting_you":"این امر چگونه شما را تحت تأثیر قرار می دهد؟","i_cant_get_things_done_until_i_hear_back_from_you":"نمی توانم کارها را انجام دهم تا اینکه از طرف شما پاسخی دریافت کنم","i_need_some_help_but_its_not_urgent":"به قدری راهنمایی نیاز دارم، اما فوری نیست","include_a_link_to_a_screencast_or_screenshot_using_something_like_jing":"با استفاده از چیزی شبیه به *Jing*، یک پیوند به یک ضبط ویدیویی از صفحه/نماگرفت درج کنید.","just_a_casual_question_comment_idea_suggestion":"فقط یک پرسش، نظر، ایده یا پیشنهاد تصادفی","message":"ارسال پیام","message_will_be_sent_to_all_the_teachers_tas_in_the_course":"پیام برای همه اساتید/دستیارهای آموزشی درس ارسال خواهد شد.","please_select_one":"لطفا یک مورد را انتخاب نمایید...","see_if_your_issue_is_addressed_in_the_canvas_guides":"ببینید که آیا به مشکل شما در *راهنماهای کانواس* اشاره شده است.","send_message":"ارسال پیام","sending":"درحال ارسال...","somethings_broken_but_i_can_work_around_it_for_now":"اشکالی به وجود آمده است، اما اکنون می توانم آن را برطرف کنم","subject":"موضوع","submit_this_support_request":"ارسال بلیت","which_course_is_this_question_about":"این پرسش مربوط به کدام درس است؟","your_email_address":"نشانی پست الکترونیکی شما"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "recent_student",
+  null,
+  function() { return {"last_logged_in":"آخرین ورود در %{last_login}"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "developer_key_form",
+  null,
+  function() { return {"cancel":"لغو","icon_url":"نشانی اینترنتی نماد:","key_name":"نام کلید:","notes":"یادداشت‌ها:","owner_email":"نشانی پست الکترونیکی مالک:","redirect_uri":"هدایت نشانی اینترنتی (جایگزین)","redirect_uris":"هدایت نشانی های اینترنتی:","save_key":"ذخیره سازی کلید","vendor_code":"رمز فروشنده (LTI 2)"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "developer_key",
+  function() { return {"activate_key_name_a99df672":"کلید فعالسازی %{name}","activate_this_key_6cd98f4b":"فعالسازی این کلید","deactivate_this_key_3e79a2b5":"غیر فعالسازی این کلید","edit_key_name_5c7d2f46":"ویرایش کلید %{name}","id_id_4e148481":"شناسه: %{id}","key_api_key_68bf80ae":"کلید: *%{api_key}*"} },
+  function() { return {"edit_key":"ویرایش این کلید"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "grade_display_warning_dialog",
+  null,
+  function() { return {"grade_display_warning":{"checkbox":"دوباره برای این درس نمایش داده نشود.","warning":"هشدار"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "contexts",
+  function() { return {"checked_883b93fd":"انتخاب شده"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "profiles",
+  function() { return {"from_gravatar_58372d5a":"از گرآواتار","link_title_189888b7":"عنوان پیوند","link_url_cf96376":"نشانی اینترنتی پیوند","take_a_picture_d582acf1":"گرفتن عکس","upload_a_picture_9f5f6e3c":"بارگذاری عکس"} },
+  function() { return {"gravatar_view":{"button":{"preview":"پیش‌نمایش"},"enter_gravatar_email_below":"نشانی پست الکترونیکی *گرآواتار* خود را در قسمت زیر وارد کنید"},"take_picture_view":{"retry":"تلاش دوباره","take_picture":"گرفتن عکس"},"upload_file_view":{"choose_a_picture":"انتخاب عکس","crop_instructions":"برای برش تصویر، انتخاب شده را درگ کرده یا از کلیدهای جهتی به منظور جابجایی انتخاب شده استفاده کنید و جهت نغییر اندازه انتخاب شده از کلیدهای شیفت و جهتی کیبورد استفاده کنید. سپس جهت ذخیره روی کلید \"ذخیره\" کلیک کنید. "}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "quiz",
+  null,
+  function() { return {"regrade":{"give_everyone_full_credit":"دادن امتیاز کامل به همه برای این پرسش","no_scores_reduced":"دادن امتیاز هم به پاسخ های تصحیح شده و هم پاسخ های درست قبلی (*هیچ نمره ای کسر نخواهد شد*) ","regrade_disabled":"نمره گذاری دوباره برای این پرسش مجاز نیست، زیرا بعد از اینکه دانشجو مورد ارسالی را ارسال کرده است، پاسخ حذف شده است یا نوع پرسش تغییر یافته است.","regrade_options":"گزینه نمره گذاری دوباره برای دانشجویانی که قبلا آزمون داده اند. کانواس همه موردهای ارسالی را بعد از اینکه آزمون را ذخیره کردید دوباره نمره گذاری خواهد کرد (نمره های دانشجویان ممکن است تحت تأثیر قرار بگیرد).","some_scores_reduced":"دادن امتیاز فقط به پاسخ درست (*برخی نمره های دانشجویان ممکن است کسر شود*) ","update_question_without_regrading":"بهنگام سازی پرسش بدون نمره گذاری دوباره"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "submission_detail",
+  null,
+  function() { return {"go_to_submission_url":"رفتن به نشانی اینترنتی مورد ارسالی","no_submission":"مورد ارسالی موجود نیست","submitted_files":"فایل های ارسال شده:"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "screenreader_gradebook",
+  function() { return {"allow_final_grade_override_a21a79ee":"به نمره نهایی اجازه بازنویسی داده شود","assignments_in_this_group_have_no_points_possible__ab0adb72":"تکلیف های موجود در این گروه دارای امتیازهای ممکن نیستند و نمی توان آنها را در محاسبه نمره شامل ساخت.","excuse_this_assignment_for_the_selected_student_af04e132":"معاف کردن دانشجوی انتخاب شده از این تکلیف","grade_for_name_b9df168a":"نمره برای: %{name}","gradebook_individual_view_8846598e":"دفترنمره: نمای منفرد","message_students_who_b9f2bf20":"ارسال پیام برای دانشجویانی که...","note_grades_and_notes_will_be_saved_automatically__e3270872":"نکته: نمرات و یادداشت‌ها بعد از خارج شدن از این قسمت، به طور خودکار ذخیره می‌شوند.","this_assignment_does_not_count_toward_the_final_gr_a5c238e2":"این تکلیف دیگر در نمره نهایی شما محاسبه نخواهد شد.","total_results_outcomedetails_cnt_30ff1f8d":"همه نتایج: %{outcomeDetails.cnt}"} },
+  function() { return {"assignment_information":{"actions":{"assignment_is_muted":"غیر فعال؟","curve_grades":"روی منحنی بردن نمره ها","set_default_grade":"تعیین نمره پیش فرض"},"details":{"avg_score":"میانگین نمره","graded_sub_count":"موردهای ارسالی نمره گذاری شده:","high_score":"نمره بالا","low_score":"نمره پایین","no_points":"امتیاز ممکن موجود نیست","points_possible":"امتیازهای ممکن","submission_types":"انواع ارسال:"},"index":{"assignment_in_speedgrader":"مشاهده این تکلیف در برنامه نمره گذاری سریع","assignment_info":"اطلاعات تکلیف","empty_assignment_selection":"یک تکلیف را برای مشاهده اطلاعات دیگر در اینجا انتخاب کنید."}},"components":{"final_grade":{"final_grade":"نمره نهایی:"}},"content_selection":{"assignment":{"select_assignment":"انتخاب یک تکلیف"},"header":{"content_selection":"انتخاب محتوا"},"outcome":{"select_outcome":"انتخاب نتیجه"},"student":{"select_student":"انتخاب دانشجو"}},"grading":{"empty_submission_selection":"دانشجو و تکلیف را برای مشاهده و ویرایش نمره ها انتخاب کنید.","grading":"نمره گذاری","is_dropped":"این نمره در حال حاضر برای این دانشجو حذف شده است.","submission_details":"اطلاعات مورد ارسالی","submission_hidden":"این تکلیف برای این دانشجو قابل دسترسی نیست و در نمره او شامل نخواهد شد.","was_resubmitted":"این تکلیف از زمان آخرین نمره گذاری، دوباره ارسال شده است."},"learning_mastery":{"download_results":"بارگیری نتایج (.csv)","empty_student_selection":"دانشجو را برای مشاهده اطلاعات دیگر در اینجا، انتخاب کنید.","empty_submission_selection":"دانشجو و نتیجه را برای مشاهده نتایج انتخاب کنید.","hide_student_names_label":"مخفی کردن نام دانشجویان","result":"نتیجه","result_for":"نتیجه ی:","results_loading":"نتایج این دانشجو هنوز در حال بارگذاری هستند...","select_a_section":"انتخاب بخش","select_student":"انتخاب دانشجو","student_info":"اطلاعات دانشجو"},"outcome_information":{"avg_score":"میانگین نمره","empty_outcome_selection":"نتیجه را برای مشاهده اطلاعات دیگر در اینجا، انتخاب کنید.","high_score":"نمره بالا","low_score":"نمره پایین","outcome_info":"اطلاعات نتیجه"},"screenreader_gradebook":{"assignments":"تکلیف ها","learning_mastery":"تسلط یادگیری"},"settings":{"assignment_toggles_and_actions":{"download_current_scores":"بارگیری نمره های فعلی (.csv)","grading_history":"مشاهده تاریخچه دفترتلفن","hide_student_names_label":"مخفی کردن نام دانشجویان","include_ungraded_assignments":"بدون نمره ها را 0 نشان بده","show_concluded_enrollments_label":"نمایش ثبت نام های خاتمه یافته","show_notes":"نمایش یادداشت ها در اطلاعات دانشجو","show_total_as_points":"نمایش نمره های کل به عنوان امتیاز در صفحه نمره دانشجو","upload_scores":"بارگذاری نمره ها (.csv)"},"header":{"global_settings":"تنظیمات سراسری"},"mastery_toggles_and_actions":{"download_results":"بارگیری نتایج (.csv)","hide_student_names_label":"مخفی کردن نام دانشجویان"},"section_select":{"select_a_section":"انتخاب بخش"},"sort_select":{"sort_assignments":"مرتب سازی تکلیف ها"}},"student_information":{"assignment_subtotals":{"ag_group_grade":"نمره","ag_group_percent_grade":"% از نمره","ag_letter_grade":"نمره با حروف الفبا"},"details":{"hidden":"مخفی","secondary_id":"شناسه ثانویه","sections":"بخش ها:"},"index":{"empty_student_selection":"دانشجو را برای مشاهده اطلاعات دیگر در اینجا، انتخاب کنید.","grades":"نمره ها","student_info":"اطلاعات دانشجو","submissions_loading":"موردهای ارسالی این دانشجو هنوز در حال بارگذاری است..."}}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "assignment_details_dialog",
+  null,
+  function() { return {"average_score":"میانگین نمره:","count_of_submissions":"%{cnt} مورد ارسالی","grading_statistics_for_assignment":"آمارهای نمره برای: %{assignment.name}","high_score":"بالاترین نمره:","low_score":"پایین ترین نمره:","no_one_scored_higher":"هیچ کس نمره بالاتر از%{max} نگرفت","no_one_scored_lower":"هیچ کس نمره پایین تر از %{min} نگرفت","scores_higher_than_the_average":"نمره های بالاتر از میانگین %{average}","scores_lower_than_the_average":"نمهر های پایین تر از میانگین %{average}","total_graded_submissions":"کل موردهای ارسالی نمره گذاری شده:"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "mute_dialog",
+  null,
+  function() { return {"curving_assignments":"در حال روی منحنی بردن تکلیف ها","grade_change_notifications":"اطلاعیه های تغییر نمره","how_to_unmute":"وقتی این تکلیف را غیر فعال کردید، می توانید با کلیک کردن روی پیوند «فعال کردن تکلیف»، اطلاعیه ها را دوباره ارسال کنید.","mute_assignment":"غیر فعال کردن تکلیف","score_change_notifications":"اطلاعیه های تغییر نمره","see_grade":"نمره آنها برای این تکلیف","students_will_see":"دانشجویان می توانند ببینند که این تکلیف غیرفعال شده است.","submission_comments":"نظرهای مربوط به مورد ارسالی","sure_you_want_to_mute":"مطمئنید که می خواهید این تکلیف غیرفعال شود؟ مادامی که این تکلیف غیرفعال است، دانشجویان اطلاعیه های جدیدی درباره آن دریافت نخواهند کرد و یا قادر به مشاهده آن نخواهند بود:"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "turnitin_info",
+  null,
+  function() { return {"buttons":{"resubmit_to_turnitin":"ارسال دوباره"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "vericite_info",
+  null,
+  function() { return {"buttons":{"resubmit_to_vericite":"ارسال دوباره به VeriCite"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "user_observee",
+  function() { return {"remove_edf2b8a7":"(حذف)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "wiki",
+  function() { return {"allow_in_mastery_paths_5332c786":"دادن امکان ورود به مسیرهای تسلط","copy_page_to_another_course_405cc07c":"کپی صفحه به دوره دیگر","created_ascending_cff48774":"ایجاد شده: صعودی","created_descending_e9a1b097":"ایجاد شده: نزولی","delete_selected_pages_7bc50580":"حذف صفحات انتخاب شده","edited_c4fcbdbf":"ویرایش شده","last_edit_ascending_6a18dba4":"آخرین ویرایش: صعودی","last_edit_descending_6b7ee755":"آخرین ویرایش: نزولی","master_lock_590266b6":"قفل اصلی","page_title_ascending_b5df950c":"عنوان صفحه: صعودی","page_title_descending_70c1483d":"عنوان صفحه: نزولی","pages_settings_968392a3":"تنظیمات صفحه ها","select_page_e93fc123":"صفحه را انتخاب کنید","select_title_for_deletion_45b08247":"انتخاب %{title} برای حذف شده","send_page_to_another_user_6ef5a7c1":"ارسال صفحه به دوره دیگر","to_do_date_2cb4bf7b":"تاریخ برای انجام:"} },
+  function() { return {"wiki_page":{"buttons":{"edit":"ویرایش","view_all_pages":"مشاهده همه صفحه ها"},"delete_wiki":"حذف","labels":{"front_page":"%{frontPageText}"},"menu":{"use_front_page":"استفاده به عنوان صفحه آغازین"},"published_indicator":"منتشر شده","toolbar_menu":{"settings":"تنظیمات"},"unpublished_indicator":"منتشر نشده","view_page_history_wiki":"مشاهده تاریخچه صفحه","wiki":{"todo_date":"تاریخ برای انجام:"}},"wiki_page_content":{"page_locked":"این صفحه قفل شده است","page_locked_by_modules":"این صفحه به محض اینکه این ماژول ها را تکمیل کنید، قابل دسترسی خواهد بود:","page_locked_by_modules_until":"در صورتی که این ماژول ها را تکمیل کنید، این صفحه در %{lock_info.unlock_at} قابل دسترسی خواهد بود:","page_locked_until":"این صفحه در %{lock_info.unlock_at} قابل دسترسی خواهد بود"},"wiki_page_edit":{"buttons":{"cancel":"لغو","save":"ذخیره سازی","save_and_publish":"ذخیره سازی و انتشار"},"course_editing_roles":{"anyone":"همه","only_teachers":"فقط اساتید","teachers_and_students":"اساتید و دانشجویان"},"editing_roles":{"anyone":"همه","only_members":"فقط اعضا"},"notify_users_text":"به کاربران اطلاع داده شود که این محتوا تغییر یافته است","options_label":"گزینه ها","title_label":"عنوان صفحه"},"wiki_page_index":{"add_page":"افزودن یک مورد!","buttons":{"new_page":"صفحه","new_page_label":"افزودن یک صفحه"},"headers":{"creation_date":"تاریخ ایجاد","last_edit":"آخرین ویرایش","page_title":"عنوان صفحه","todo_date":"تاریخ برای انجام"},"loading":"در حال بارگذاری...","loading_more":"در حال بارگذاری بیشتر ...","no_pages":"هنوز هیچ صفحه ای ایجاد نشده است","pages_title":"صفحه ها"},"wiki_page_index_edit_dialog":{"page_title":"عنوان"},"wiki_page_index_item":{"labels":{"front_page":"%{frontPageText}"},"menu":{"settings":"تنظیمات"}},"wiki_page_revision":{"latest_revision":"آخرین بازنگری","restore_revision":"بازیابی این بازنگری","revision_summary":"*%{updated_at}* توسط %{edited_by}","same_as_latest":"یکسان با *آخرین*"},"wiki_page_revisions":{"revision_history":"تاریخچه بازنگری"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "dialog_form_wrapper",
+  null,
+  function() { return {"cancel":"لغو","save_settings":"ذخیره سازی تنظیمات","saving":"در حال ذخیره سازی..."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "grading_box",
+  function() { return {"out_of_n_assignment_points_possible_3b026ea9":"از %{n_assignment.points_possible}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "gradebooks",
+  null,
+  function() { return {"grades":{"complete":"کامل","incomplete":"ناقص"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "curve_grades_dialog",
+  function() { return {"out_of_formattedoutof_e08e90d5":"از %{formattedOutOf}"} },
+  function() { return {"average_score":"میانگین نمره","buttons":{"curve_grades":"روی منحنی بردن نمره ها","curving_grades":"در حال روی منحنی بردن نمره ها..."},"curve_average":"یک میانگین نمره را برای منحنی مربوط به *%{assignment.name}* وارد کنید. نمودار بهترین اقدام را برای روی منحنی بردن نمره ها بر اساس نمره های فعلی دانشجو نشان می دهد.","curve_grade_for_assignment":"روی منحنی بردن نمره برای %{assignment.name}","labels":{"assign_blanks":"تخصیص صفر به دانشجویانی که ارسال نکرده اند"},"this_is_permanent":"روی منحنی بردن نمره را نمی توان لغو کرد. تاریخچه نمره از پیش روی منحنی برده شده موجود خواهد بود، اما اقدام روی منحنی بردن غیر قابل برگشت است."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "re_upload_submissions_form",
+  null,
+  function() { return {"buttons":{"upload":"بارگذاری فایل ها"},"reupload_submission_files":"بارگذاری دوباره فایل های ارسالی","upload_info":"اگر در فایل های ارسالی دانشجو که قبلا بارگیری کرده اید، تغییراتی ایجاد کردید، آنها را دوباره فشرده کنید و فایل فشرده را با استفاده از فرم زیر بارگذاری نمایید. دانشجویان فایل های تغییر یافته را در نظرهای مربوط به مورد ارسالی خود مشاهده خواهند کرد.","upload_warning":"مطمئن شوید که نام فایل های ارسالی را تغییر ندهید تا بتوانیم آنها را شناسایی کنیم."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "set_default_grade_dialog",
+  function() { return {"give_all_students_the_same_grade_for_assignment_na_e44fcc7e":"با وارد کردن و ارسال یک مقدار نمره در قسمت زیر، به همه دانشجویان نمره یکسانی برای *%{assignment.name}* بدهید:","give_all_students_the_same_percent_grade_for_assig_6a008004":"با وارد کردن و ارسال یک مقدار نمره در قسمت زیر، برای  **%{assignment.name}** به همه دانشجویان *درصد* نمره یکسان بدهید:"} },
+  function() { return {"dialog_title":"نمره پیش فرض برای %{assignment.name}","overwrite":"رونویسی نمره هایی که وارد شده اند","set_grades_button":"تعیین نمره پیش فرض","set_grades_button_loading":"در حال تعیین نمره ها..."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "keyboard_nav_dialog",
+  null,
+  function() { return {"esc_key_notification":"قبل از استفاده از میانبرهای صفحه کلید در هنگام پیمایش شبکه دفتر نمره، کلید escape را فشار دهید."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "media_comments",
+  function() { return {"record_with_microphone_only_e4ee07aa":"ضبط فقط با میکروفون","record_with_webcam_af21e07c":"ضبط با وب کم","saving_recording_e111cb05":"در حال ذخیره سازی ضبط...","submit_media_file_f334c1ba":"ارسال فایل رسانه ای","this_recorder_uses_flash_as_a_result_you_may_find__427d2ddb":"این ضبط کننده از فلاش استفاده می کند. در نتیجه ممکن است ضبط در دستگاه محلی شما را آسان تر بیابید، و سپس از زبانه بارگذارنده رسانه برای بارگذاری آن استفاده کنید.","title_52b8638d":"عنوان:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "widget",
+  null,
+  function() { return {"upload_media_track_form":{"choose_a_language":"--یک زبان انتخاب کنید--","error_message":"*خطا:* باید یک زبان و یک فایل شیار معتبر انتخاب کنید.","file":"فایل","language":"زبان","upload_media_track_form_description":"هنگامی که یک مسیر زیرنویس در  فرمت SRT یا *WebVTT* داشتید، می توانید آن را در اینجا بارگذاری کنید.","upload_media_track_form_description_1":"آدرس این ویدیو را کپی کنید:","upload_media_track_form_description_2":"با کلیک کردن روی این پیوند و دنبال کردن دستورالعمل ها، یک فایل زیرنویس ایجاد کنید.","upload_media_track_form_description_3":"یک شیار زیرنویس در قالب SRT یا *WebVTT* بارگذاری کنید.","upload_media_track_form_step1_label":"مرحله 1:","upload_media_track_form_step2_label":"مرحله 2:","upload_media_track_form_step3_label":"مرحله 3:","upload_media_track_info":"*دستورالعمل ها:* این سه مرحله را برای ایجاد یک فایل زیرنویس برای فیلم خود دنبال کنید، سپس آن را در اینجا بارگذاری کنید. اگر در حال حاضر یک فایل زیرنویس SRT دارید، می توانید به مرحله 3 بروید."}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "message_students_dialog",
+  function() { return {"recipients_a69b5e55":"گیرنده ها:","sent_f4ee89ec":"ارسال شد!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "fa",
+  "jquery",
+  function() { return {"module_navigation_97043417":"پیمایش ماژول","opens_in_new_window_b4b99243":"در پنجره جدید باز می شود"} },
+  function() { return {"module_sequence_footer":{"next":"بعدی","previous":"قبلی"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "paginated_collection",
+  null,
+  function() { return {"no_items":"هیچ موردی یافت نشد."} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "paginated_view",
+  null,
+  function() { return {"loading_more_results":"در حال بارگذاری نتایج بیشتر"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "editor",
+  null,
+  function() { return {"mathjax_text_entry_field_label":"معادله را به صورت LaTeX وارد کنید.","screen_reader_tip":"کاربران صفحه خوان: در دسترس ترین روش برای استفاده از این ویرایشگر رفتن به نمای پیشرفته است، و سپس LaTeX را مستقیما وارد کنید؛ یا از نوار ابزار برای کمک به انجام این کار استفاده کنید. پیوند رفتن به نمای پیشرفته را می توان نزدیک به انتهای این کادر گفتگو، مستقیما قبل از جای ویرایش یافت.","switch_to_mathjax":"تغییر دادن نما به اصلی","switch_to_mathquill":"تغییر دادن نما به پیشرفته","tabs":{"arrows":"پیکان ها","basic":"اصلی","delimiters":"جداکننده ها","greek":"یونانی","misc":"متفرقه","operators":"عملگرها","relationships":"روابط"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "find_flickr_image_view",
+  null,
+  function() { return {"find_cc_on_flickr":"یافتن تصاویر کریتیو کامنز در فلیکر","safesearch_warning_flickr":"فلیکر تصاویر جستجوی ایمن را در دامنه عمومی کریتیو کامنز نمایش می دهد. با این حال، نتایج جستجوی ایمن تضمین نمی شود، زیرا ممکن است برخی از تصاویر دارای سطح ایمنی مشخصی توسط صاحبان آن‌ها نباشد. ","search":"جستجو"} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "change_points_possible_to_match_rubric_dialog",
+  null,
+  function() { return {"prompts":{"update_assignment_points":"قرار دادن امتیاز کل تکلیف در %{assignmentPoints} و امتیاز کل دستورالعمل ارزیابی در %{rubricPoints} به حداکثر نمره احتمالی %{toPercentage_pointRatio} برای موردهای ارسالی نمره گذاری شده با استفاده از دستورالعمل ارزیابی منجر خواهد شد."},"titles":{"update_assignment_points":"امتیازهای تکلیف را برای مطابقت با دستورالعمل ارزیابی تغییر می دهید؟"}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "number",
+  null,
+  function() { return {"currency":{"format":{"delimiter":",","format":"%u%n","precision":2,"separator":".","significant":false,"strip_insignificant_zeros":false,"unit":"$"}},"format":{"delimiter":",","precision":3,"separator":".","significant":false,"strip_insignificant_zeros":false},"human":{"decimal_units":{"format":"%n %u","units":{"billion":"میلیارد","million":"میلیون","quadrillion":"کادريليون","thousand":"هزار","trillion":"تریلیون","unit":""}},"format":{"delimiter":"","precision":3,"significant":true,"strip_insignificant_zeros":true},"storage_units":{"format":"%n %u","units":{"byte":{"one":"بایت","other":"بایت"},"eb":"EB","gb":"گیگابایت","kb":"کیلوبایت","mb":"مگابایت","pb":"PB","tb":"ترابایت"}}},"nth":{"ordinalized":{},"ordinals":{}},"percentage":{"format":{"delimiter":"","format":"%n%"}},"precision":{"format":{"delimiter":""}}} }
+)
+
+
+setLazyTranslations(
+  "fa",
+  "datetime",
+  null,
+  function() { return {"distance_in_words":{"about_x_hours":{"one":"حدود %{count} ساعت","other":"حدود %{count} ساعت"},"about_x_months":{"one":"حدود %{count} ماه","other":"حدود %{count} ماه"},"about_x_years":{"one":"حدود %{count} سال","other":"حدود %{count} سال"},"almost_x_years":{"one":"تقریبا %{count} سال","other":"تقریبا %{count} سال"},"half_a_minute":"نیم دقیقه","less_than_x_minutes":{"one":"کمتر از %{count} دقیقه","other":"کمتر از %{count} دقیقه"},"less_than_x_seconds":{"one":"کمتر از %{count} ثانیه","other":"کمتر از %{count} ثانیه"},"over_x_years":{"one":"بیش از %{count} سال","other":"بیش از %{count} سال"},"x_days":{"one":"%{count} روز","other":"%{count} روز"},"x_minutes":{"one":"%{count} دقیقه","other":"%{count} دقیقه"},"x_months":{"one":"%{count} ماه","other":"%{count} ماه"},"x_seconds":{"one":"%{count} ثانیه","other":"%{count} ثانیه"}},"prompts":{"day":"روز","hour":"ساعت","minute":"دقیقه","month":"ماه","second":"ثانیه","year":"سال"}} }
+)
+
+
+})(setRootTranslations, setLazyTranslations)

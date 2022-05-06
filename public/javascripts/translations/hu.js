@@ -1,0 +1,4166 @@
+import { setRootTranslations, setLazyTranslations } from '@canvas/i18n/mergeI18nTranslations.js'; (function(setRootTranslations, setLazyTranslations) {
+
+setRootTranslations("hu", function() { return {"1_item_scores_5512cd03":"1. Elem pontszámok","2_final_score_7b0fd15e":"2. Végső pont","_b4455c8b":"%","a_file_named_name_already_exists_in_this_folder_do_e39de0b2":"Egy \"%{name}\" nevű elem már létezik ebben a mappában. Le szeretné cserélni a létező fájlt?","a_locked_file_named_name_already_exists_in_this_fo_33ca9a0c":"A \"%{name}\" nevű zárolt fájl már létezik ebben a mappában. Adjon meg egy új nevet!","accept_2fdd362e":"Elfogad","access_token_count_access_token_count_dfb5463c":"Elérési token száma:%{access_token_count}","account_97b34646":"Fiók","account_navigation_80bbefd4":"Fióknavigáció","account_settings_fe083453":"Fiókbeállítások","act_as_name_16d15bfa":"Belépés %{name} nevében","act_as_user_d7ef0e48":"Felhasználó nevében","actions_efcde10d":"Tevékenységek","active_d7e32718":"Aktív","add_8523c19b":"Hozzáadás","add_cc_subtitle_a9ef4a66":"CC/Felirat hozzáadása","add_group_c84f9e9d":"Csoport hozzáadása ","add_group_set_f9809e11":"Csoporthalmaz hozzáadása","add_mastery_level_76469d98":"Jártassági szint hozzáadása","add_new_caption_or_subtitle_59d2d044":"Új felirat hozzáadása","add_subtitle_9f660cc":"Felirat hozzáadása","add_to_student_to_do_58e66b4b":"Hozzáadás a hallgatói teendőlistához","added_caption_1895db92":"Hozzáadott felirat","admin_4d3ba42f":"Admin","admins_3e1dce15":"Adminisztrátorok","after_4c71e718":"Után","all_4321c3a1":"Összes","all_accounts_3bafc860":"Összes fiók","all_changes_were_saved_f6f3ddcc":"Minden módosítás el lett mentve","all_courses_a7dbb853":"Összes kurzus","all_dates_fields_must_be_present_and_formatted_cor_3a0fe925":"Minden dátummezőnek jelen kell lennie és helyesen formázottnak kell lennie.","all_grading_periods_77974940":"Összes osztályzási időszak","all_grading_periods_must_have_a_title_a1a38d87":"Minden osztályzási időszaknak kell, hogy legyen címe","all_groups_cea25817":"Összes csoport","all_roles_f3bba14d":"Minden szerep","all_sections_daf11554":"Minden szekció","all_start_dates_must_be_before_the_end_date_d949eca9":"A záródátum nem lehet a kezdődátumnál korábbi. Minden kezdődátumnak a záródátumot meg kell előznie.","all_subjects_5a42cfdb":"Minden tantárgy","all_terms_cd27b0fb":"Összes félév","allows_user_to_add_assignment_groups_in_a_course_3054675c":"Lehetővé teszi a felhasználó számára, hogy feladatcsoportokat adjon hozzá a kurzushoz.","allows_user_to_add_discussions_in_the_discussions__1b3d9a53":"Lehetővé teszi a felhasználó számára, hogy fórumokat adjon hozzá a Fórumok oldalon.","analytics_c94ba601":"Analitika","announcement_fb4cb645":"Hirdetmény","announcements_a4b8ed4a":"Hirdetmények","anonymous_e1b8ad27":"Névtelen","anonymous_grading_ccb5045c":"Névtelen osztályzás","app_b157c2b3":"Alkalmazás","applied_cc7be774":"Alkalmazott","apply_781a2546":"Alkalmazás","appointments_dcb41d23":"Megbeszélés","archive_3f794d7e":"Archívum","archived_de543437":"Archivált","are_you_sure_you_want_to_cancel_changes_you_made_m_c5210496":"Biztos benne, hogy mégsem? A változtatásai talán nincsenek elmentve.","are_you_sure_you_want_to_delete_this_assignment_88be6f5e":"Biztos benne, hogy törli ezt a feladatot?","are_you_sure_you_want_to_delete_this_comment_4ee386d":"Biztos benne, hogy törli ezt a megjegyzést?","are_you_sure_you_want_to_delete_this_grading_perio_422359cd":"Biztos benne, hogy törli ezt az osztályzási időszakot?","arrange_by_a121617c":"Rendezés ez alapján","assign_eedf72bb":"Hozzárendelés","assignment_976578a8":"Feladat","assignment_group_1a781505":"Feladatcsoport","assignment_name_b2d87383":"Feladat neve","assignments_1e02582c":"Feladatok","attempt_f2691284":"Próbálkozás","availability_dates_438d71e0":"Elérhetőségi dátumok","available_8606e40c":"Elérhető","available_from_587ce92f":"Elérhető ettől: ","available_to_b7350e02":"Számukra érhető el:","available_until_f3b9c4ed":"Elérhető eddig","back_2900f52a":"Vissza","before_44c686b4":"Előtte","blueprint_5cca2ef":"Blueprint","blueprint_courses_9dd321b8":"Blueprint kurzusok","calculation_method_fe281f9":"Számítási módszer","calendar_d14cfc8f":"Naptár","calendar_event_89aadc1c":"Naptáresemény","calendars_a756c286":"Naptárak","cancel_caeb1e68":"Mégse","change_dcaa253a":"Módosítás","chosencolor_is_not_a_valid_color_5d542cc":"'%{chosenColor}' nem valódi szín","clear_2084585f":"Törlés","clear_selected_file_82388e50":"A fájl kiválasztás törlése","clone_group_set_c2a40e15":"Csoporthalmaz klónozása","close_d634289d":"Bezárás","collaborations_5c56c15f":"Együttműködés","collapse_subdiscussion_89af1f5c":"Az alfórum összecsukása","collapsed_510aa02a":"Összecsukott","color_a363e1b0":"Szín","comments_e07bcbe3":"Megjegyzések","complete_4f4efbc":"kész","complete_fd828dea":"Kész","completed_19711ce7":"Befejezett","compose_message_8abd180a":"Üzenet írása","computer_1d7dfa6f":"Számítógép","concluded_courses_94782e21":"Befejeződött kurzusok","conferences_a0a8984b":"Konferenciák","configure_ecb97e30":"Konfigurálás","confirm_6556b3a6":"Jóváhagyás","confirm_delete_6febeafb":"Törlés jóváhagyása","confirm_deletion_b2efe7d4":"Törlés jóváhagyása","confirm_removal_a9bb889":"Eltávolítás jóváhagyása","continue_ac067716":"Folytatás","conversations_69a8dc26":"Üzenetváltások","copy_9748f9f":"Másolás","count_replies_a685c742":"%{count}válasz","course_8a63b4a3":"Kurzus","course_name_63b973d1":"Kurzus neve","course_navigation_dd035109":"Kurzusnavigáció","course_settings_f6d0bbf8":"Kurzusbeállítások","courses_43204aae":"Kurzusok","create_132b3be1":"Létrehozás","created_6ee36dff":"Létrehozva:","current_367624e9":"Aktuális","current_mastery_score_score_out_of_mastery_points_fedd343f":"Aktuális jártassági pontszám: %{score}, ennyi pontból: %{mastery_points}","current_volume_level_c55ab825":"Aktuális hangerőszint","curving_assignments_e9479ee3":"Feladatok normális eloszlásának számítása","custom_6979cd81":"Egyéni","custom_fields_fc3e55af":"Egyéni mezők","dashboard_7f1dbf71":"Vezérlőpult","dashboard_view_d7d85969":"Asztali nézet","date_created_87e265bc":"Létrehozás dátuma","date_ee500367":"Dátum","date_error_7b38f8ff":"Dátumhiba","date_modified_e1c8ac8f":"Módosítás dátuma","date_of_most_recent_bounce_b23d0119":"A legutolsó visszadobás dátuma","dates_6e416047":"Dátumok","day_s_7cc1231f":"Nap(ok)","default_9db103d":"Alapértelmezett","delete_a6efa79d":"Törlés","delete_assignment_group_7c3b01c4":"Feladatcsoport törlése","delete_this_key_70f74aa1":"Kulcs törlése","delete_title_6c18eba5":"%{title} törlése","deleted_1be5ed1":"Törölt","description_436c48d7":"Leírás","designer_c458392":"Tervező","details_98a31b68":"Részletek","developer_keys_d70ba44a":"Fejlesztői kulcsok","disable_a5c05db3":"Letilt","disabled_3b1b332a":"Letiltott","discussion_6719c51d":"Fórum","discussion_topic_dc85ad4c":"Fórumtéma","discussions_a5f96392":"Fórumok","display_as_e2a5c383":"Megjelenítés mint","domain_3b54c511":"Tartomány","done_54e3d4b6":"Kész","download_c7ffdfb9":"Letöltés","drag_a_file_here_39357b48":"Húzzon ide egy fájlt","drag_and_drop_or_click_to_browse_your_computer_60772d6d":"Húzza ide vagy tallózza ki a számítógépen","due_a73610f6":"Határidő","due_date_822625d8":"Határidő","due_dates_520a6c08":"Határidők","due_on_date_5ffb2182":"Határidő dátuma","duplicate_31cec192":"Duplikálás","edit_assignment_group_c04c4af0":"Feladatcsoport szerkesztése","edit_c5fbea07":"Szerkesztés","edit_group_c8679dba":"Csoport szerkesztése","edit_outcome_867a0381":"Tanulási eredmény szerkesztése","edit_title_20a9577":"%{title} szerkesztése","email_22a7d52d":"E-mail","email_address_a1b97a39":"E-mail cím","email_is_required_736ac26b":"Az e-mail megadása kötelező!","embed_828fac4a":"Beágyaz","embed_video_code_703e10f2":"Videó Kód beágyazása","enable_6f5d1328":"Engedélyezés","enabled_ba7cab66":"Engedélyezve","end_date_cannot_be_before_start_date_eb62ed6d":"A záródátum nem lehet a kezdődátumnál korábbi","end_date_e0093ed7":"Záródátum","error_59293a2c":"hiba","error_98e81528":"Hiba","error_uploading_video_audio_recording_16d9730a":"Hiba történt a video/audio feltöltés közben.","event_end_time_ef830e66":"Esemény vége","event_fe9ba3fe":"Esemény","event_start_time_441b491f":"Esemény kezdete","event_title_7f1051a6":"Esemény neve","everyone_854554dd":"Mindenki","everyone_else_6c6dc7b6":"Mindenki más ","example_84698b7d":"Példa","example_final_score_355aff0f":"Összpontszám példa","example_item_scores_6726c689":"Elem pontszám példa","exceeds_mastery_1f995dce":"A jártassági szint fölött","excused_3aab77":"felmentve","excused_cf8792eb":"Felmentve","expanded_f4493860":"Kinyitva","external_apps_f5490181":"Külső applikációk","external_tool_c5a6410a":"Külső eszköz","failed_276786d":"Sikertelen","favorite_courses_fbd356f0":"Kedvenc kurzusok","file_c851020d":"Fájl","file_name_2fe68ec1":"Fájlnév","file_name_8fd421ff":"Fájlnév","filename_preview_71b2cde2":"%{filename}előnézet","files_c300e900":"Fájlok","filter_e3398407":"Szűrés","final_grade_4d7f6545":"Végső érdemjegy","final_grade_override_be8a21cd":"Végső érdemjegy felülbírálása","find_8d605019":"Keresés","finish_bc343002":"Befejezés","folder_705fd2d7":"Mappa","folder_browsing_tree_1f00a3ae":"Mappaböngészés fanézetben","for_974cbb84":"Nekik","from_fdd4956d":"Feladó","future_5416ea92":"Jövő","global_navigation_8bee3501":"Globális navigáció","go_to_name_s_profile_eaa1826b":"%{name} profiljának megtekintése","gpa_scale_6710e2ee":"GPA skála","grade_9c6f076d":"Osztályzat","grade_change_notifications_98461261":"Értesítések jegyváltozásról","gradebook_1620a0aa":"Osztálynapló","gradebook_5fd8ef0":"Osztálynapló...","gradebook_history_a3e8e0b4":"Osztálynapló-előzmények","gradebook_history_b03f8524":"Osztálynapló-előzmények...","graded_25cd3fcd":"Értékelve","grader_d1198a9c":"Értékelő","grades_a61eba0a":"Értékelések","grading_aa6de9":"Osztályzás","grading_period_8b0a4a10":"Osztályzási időszak","grading_periods_81941e66":"Osztályzási időszakok","grading_periods_must_not_overlap_f45336fb":"Az osztályzási időszakok nem lehetnek egymással átfedésben","grading_schemes_1c3c3252":"Osztályzási rendszerek","group_a8f5ed9c":"Csoport","group_name_b69c144":"Csoport neve","group_set_name_2aed2347":"Csoporthalmaz neve","groups_6c90e26a":"Csoportok","haven_t_been_graded_d7dee5bb":"Még nincs értékelve","help_4c4968b1":"Segítség","hidden_14a032a7":"Rejtett","home_351838cd":"Kezdőlap","image_8ad06":"Kép","import_1b31507":"Importálás","import_outcomes_7dda186b":"Tanulási eredmények Importálása","importing_name_8f2b131d":"%{name}importálása folyamatban","in_progress_9d1ce8b9":"Folyamatban","inactive_cd40317f":"inaktív","inbox_bb245a60":"Bejövő üzenetek","incomplete_95612d72":"befejezetlen","incomplete_da3c2ea2":"Befejezetlen","institution_14179014":"Intézmény","integration_id_8a20b328":"Integrációs azonosító","invalid_file_type_881cc9b2":"Érvénytelen fájltípus","joining_81f8b6c9":"Csatlakozás","keyboard_shortcuts_ed1844bd":"Billentyűparancsok","language_6b3e2c7c":"Nyelv","last_used_f9457313":"Utoljára használt:","late_2be42b88":"Késve","late_8bd684b6":"késői","learning_mastery_5fc34276":"Tanulási jártassági szint","learning_mastery_6ed4fd63":"Jártassági szint...","letter_grade_f00fedc4":"Betű alapú érdemjegy ","limited_322546c5":"Korlátozott","link_url_a213671c":"Hivatkozás webcíme","list_collapsed_9ac35920":"Összecsukott lista.","list_expanded_efec2d0":"Lista kibontva.","load_more_a36f9cf9":"Továbbiak betöltése","loading_25990131":"Töltődik...","loading_announcements_b927a86c":"Hirdetmények betöltése","loading_bde52856":"Töltődik","loading_data_ecd89ba":"Adatok betöltése...","location_e17bd402":"Helyszín","lock_c341af13":"Zárolás","locked_762f138b":"Zárolt","locked_click_to_unlock_50747e11":"Zárolva. Kattintson a zárolás feloldásához.","login_id_12109693":"Belépési azonosító","manage_b88f7150":"Kezelés","manage_usage_rights_c5a8c216":"Felhasználói jogosultságok kezelése","manual_entry_e4a4f99a":"Kézi bejegyzés","mark_as_read_e7de2ce3":"Megjelölés olvasottként","mark_as_unread_4a413c41":"Megjelölés olvasatlanként","mastery_paths_breakdown_6e0b5fce":"Jártassági útvonal üzemzavar","mastery_paths_cc4096c2":"Jártassági útvonalak","media_af190855":"Média","meets_mastery_754e1c06":"Megfelel a jártassági szintnek","message_5c38209d":"Üzenet","message_sent_5e328899":"Az üzenet elküldve!","message_sent_9ff3a79d":"Az üzenet elküldve!","message_students_cecc3f83":"Üzenet a hallgatóknak","mic_a7f3d311":"Mikrofon","missing_1a256b3b":"Hiányzik","missing_d59852a7":"hiányzó","moderated_grading_e6127f72":"Moderált értékelés","module_90d9fd32":"Modul","modules_c4325335":"Modulok","more_cf9cc661":"Továbbiak","more_courses_5ebbe998":"Több kurzus","move_abf00365":"Áthelyezés","move_contents_into_f3e4fd9d":"Tartalom áthelyezése ide","move_to_25d7ef11":"Áthelyezés ide","must_be_a_number_e1dfe68a":"Számnak kell lennie","must_select_a_student_group_first_15c6a3cb":"Először hallgatói csoportot kell kiválasztani","n_a_d6f6c42f":"N/A","name_1aed4a1b":"Név","name_is_locked_click_to_unlock_7aad9928":"%{name}zárolva. Kattintson a zárolás feloldásához.","name_is_too_long_must_be_under_length_characters_b8dad44c":"A név túl hosszú, %{length}karakternél rövidebbnek kell lennie.","name_is_unlocked_click_to_lock_b8b9a2c8":"%{name}zárolás feloldva. Kattintson a zároláshoz.","near_mastery_f25174a4":"Közel a jártassági szinthez","never_df100b49":"Soha","new_13daf639":"Új","new_export_3ab758":"Új export","new_quiz_34aacba6":"Új kvíz","new_user_s_name_909b6267":"Új felhasználó neve","next_40e12421":"Következő","next_month_b55a387c":"Következő hónap","next_page_d2a39853":"Következő oldal","next_student_b62869f4":"Következő hallgató","no_due_date_44271c53":"Nincs megadva határidő","no_e16d9132":"Nem","no_results_3cda4e72":"Nincsenek eredmények","no_results_f36777ee":"Nincsenek eredmények","no_results_found_e4b686bd":"Nincs találat.","no_subject_970aad80":"Nincs tárgy","no_video_1ed00b26":"Nincs videó","none_3b5e34d2":"Nincs","not_starred_subject_click_to_star_4ea6eb64":"Nincs csillagozva \"%{subject}\", Kattintson a csillagozáshoz.","notes_c42e0fd5":"Jegyzetek","number_between_1_and_16_inclusive_31f5468d":"szám 1 és 16 között","number_more_a46966":"%{number}További...","number_of_allowed_attempts_3d10b740":"Engedélyezett próbálkozások száma","number_of_respondents_e1e7e8b":"Válaszadók száma","observers_672971d":"Megfigyelők","ok_c47544a2":"OK","ok_ff1b646a":"OK","okay_1772bbeb":"Rendben","one_per_line_format_name_value_79647700":"Soronként egy. Formátum: név=érték","options_3ab0ea65":"Beállítások","or_ef4e808":"vagy","other_1c6d9c79":"Egyéb","other_ddacb37d":"Egyéb","outcome_da397d20":"Tanulási eredmény","outcome_groups_3bc3b150":"Eredménycsoportok","outcome_title_has_a_status_of_statustooltip_82d1e6d9":"Tanulási eredmény: %{title} a következő státuszú %{statusTooltip}","outcomes_d1b18d33":"Tanulási eredmények","page_50c4823d":"Oldal","page_pagenum_20dbfeb8":"%{pageNum}. oldal","pages_e5414c2c":"Oldalak","pause_12af3bb4":"Szünet","pdf_d8236d9a":"PDF","people_b4ebb13c":"Résztvevők","percent_448ea947":"százalék","permissions_365c49e":"Engedélyek","placements_5b5e056b":"Elhelyezések","play_1a47eaa7":"Lejátszás","please_allow_canvas_to_access_your_microphone_and__dc2c3079":"Kérjük, engedélyezze, hogy a Canvas hozzáférhessen a mikrofonhoz és a webkamerához!","points_bb475533":"Pont","points_bceb5005":"pontszám","points_pts_e5596bf7":"%{points} pont","post_grades_39c52870":"Értékelések közzététele","preview_53003fd2":"Előnézet","preview_a3f8f854":"ELŐNÉZET","previous_bd2ac015":"Előző","previous_month_7adf1380":"Előző hónap","previous_page_928fc112":"Előző oldal","previous_student_46275eae":"Előző hallgató","proceed_f3d33864":"Folytatás","processing_2fcc9739":"Feldolgozás","public_a749f507":"Publikus","publish_5211dca3":"Publikálás","published_4bb5209e":"Publikált","queued_d0e45c4b":"Várakozó","quiz_e0dcce8f":"Kvíz","quizzes_7e598f57":"Kvízek","record_7c9448b":"Felvétel","record_media_6637ff19":"Médiatartalom felvétele","recording_98da6bda":"Felvétel","remove_attachment_ceae0973":"Melléklet eltávolítása","remove_f47dc62a":"Eltávolítás","remove_filename_dab5c02e":"%{filename}eltávolítása","reply_389d6fb9":"Válasz","reply_to_comment_72d96728":"Válasz a megjegyzésre","reports_1b9ab7a7":"Riportok","reserved_f247b60b":"Foglalt","retry_ebd5f8ba":"Újra","role_name_18a5943b":"Szerepkör neve","rubric_fc39da76":"Értékelőtábla","rubrics_b5ef369b":"Értékelőtáblák","save_11a80ec3":"Mentés","saving_d55dd90e":"Mentés...","score_change_notifications_6b94f27f":"Értesítések eredményváltozásról","score_f7ac9e08":"Eredmény","score_pts_adcb1af3":"%{score} pont","scored_less_than_2427896c":"Kevesebbet ért el, mint","search_280d00bd":"Keresés","search_courses_7b5c4ab3":"Kurzusok keresése","search_term_must_be_at_least_num_characters_669098ed":"A keresőszavaknak legalább %{num} karakterből kell állniuk","section_c7f66a0d":"Szekció","section_filter_cde54d0a":"Szekciószűrő","sections_94731e51":"Szekciók","select_1e849959":"[Kiválaszt]","select_a_grading_period_aab25483":"Osztályzási időszak választása","select_audio_file_7d905cce":"Audiófájl kiválasztása","select_course_5cf89177":"Kurzus kiválasztása","select_d70f31da":"Kiválasztás","select_language_7c93a900":"Válassz nyelvet","select_video_file_35b61d4e":"Videófájl kiválasztása","selected_274ce24f":"Kiválasztva","send_e3bd0ed0":"Küldés","send_message_6ccc90e8":"Üzenetküldés","sending_bf324366":"Küldés...","sending_message_8ac5bc90":"Üzenet küldése...","sending_message_failed_please_try_again_b53cc904":"Az üzenet küldése sikertelen, kérjük, próbálja újra!","sent_fe0a1eb4":"Elküldött","set_name_d14182d7":"Név beállítása...","set_name_f83b658":"Név beállítása","settings_5aa0fd0c":"Beállítások","settings_for_title_d3ca495":"%{title}beállításai","short_name_42f454a1":"Rövid név","show_76c0ed1c":"Megjelenít","sis_2164965":"SIS","sis_id_4495a887":"SIS ID","sis_import_14517892":"SIS importálás","size_b30e1077":"Méret","something_went_wrong_accessing_your_mic_or_webcam_6e3cad12":"Hiba történt a mikrofonja vagy webkamerája elérése közben.","sort_by_e75f9e3e":"Rendezés alapja","speedgrader_de0affa6":"Gyorsértékelő","starred_5a9efa8a":"Csillagozott","starred_subject_click_to_unstar_6aafcddc":"Csillagozva \"%{subject}\", Kattintson a csillag eltávolításához.","start_date_e937be8a":"Kezdődátum","start_over_f7552aa9":"Újrakezdés","start_recording_9a65141a":"Felvétel elkezdése","status_e7fdbe06":"Státusz","student_5da6bfd1":"Hallgató","student_context_card_ad59967e":"Hallgatói kontextuskártya","students_1b8cd07b":"Hallgatók","subject_114b2e98":"Tárgy","submission_comments_4fa03a17":"Megjegyzések beadásokhoz","submission_comments_b6d65841":"Megjegyzések beadásokhoz","submit_a3cc6859":"Küldés","subtitle_ee60ca78":"Felirat","syllabus_f191f65b":"Tematika","sync_68e5c167":"Szinkronizálás","sync_grades_a16622ca":"Értékelések Szinkronizálása","sync_grades_to_sis_4e7fbc08":"Értékelések Szinkronizálása a SIS-hez","ta_8d966626":"Segédoktató","teacher_5a73b637":"Oktató","teacher_count_teachers_a92f7199":"%{teacher_count}tanár","teacher_s_fdefb2c":"Oktató(k)","teachers_52e2423f":"Oktatók","term_e1c1d390":"Félév","text_7f4593da":"Szöveg","the_following_content_is_partner_provided_ed1da756":"A következő tartalmat partner biztosítja","the_grading_period_was_deleted_7814a349":"Osztályzási időszak törölve","the_preceding_content_is_partner_provided_d753928c":"Az előző tartalmat partner biztosítja","their_grade_for_the_assignment_c36a60ef":"A feladatra kapott jegyeik","theme_editor_b7b00f6b":"Témaszerkesztő","there_was_a_problem_loading_students_5bdb6cf2":"Hiba történt a hallgatók betöltésekor.","there_was_a_problem_saving_the_grading_period_243bed6c":"Probléma adódott az osztályzási időszak mentése közben","there_was_an_error_setting_usage_rights_53739e1d":"Hiba történt a felhasználási jogok beállítása közben.","this_field_is_required_fa58c4a":"A mező kitöltése kötelező","this_file_9443cda1":"Ez a fájl","this_folder_is_currently_locked_and_unavailable_to_f85c451":"A mappa jelenleg zárolva van, nem megtekinthető.","this_user_is_currently_not_able_to_access_the_cour_39cabed1":"Ez a felhasználó jelenleg nem fér hozzá a kurzushoz","time_2b5aac58":"Idő","time_limit_a6f1a51e":"Időkorlát","time_zone_f56f5183":"Időzóna","timeline_of_messages_between_the_student_and_instr_6dbd9ad3":"A hallgatók és az oktatók közötti üzenetek idővonala","timeline_showing_when_assignments_were_turned_in_bb44c8a1":"Az idővonal megmutatja, mikor lettek a feladatok feltöltve.","timeout_when_searching_5c24ff9d":"Időtúllépés a keresés során","timestamp_65f3a0a":"(%{timestamp})","timestamp_865fa6b7":"Időbélyeg","title_ee03d132":"Cím","to_51406be9":"Címzett","to_c4c44f4b":" - ","to_do_1d554f36":"Teendők","tool_content_2924d18f":"Eszköztartalom","total_points_44d76792":"Összpontszám","try_again_6ca44338":"Próbálja újra","type_c8106334":"Típus","unavailable_46d2c344":"Nem elérhető","undo_a7be8fef":"Visszavonás","unknown_47a3b725":"Ismeretlen","unlimited_ff19e96d":"Korlátlan","unlock_f6196bf5":"Zárolás feloldása","unlocked_beee43de":"Zárolás feloldva","unlocked_click_to_lock_53262ce7":"Zárolás feloldva. Kattintson a zároláshoz.","unpublish_9f2d730b":"Publikálás visszavonása","unpublished_8b6107d6":"Nem publikált","unread_e9c1b19c":"Olvasatlan","unstarted_932f2990":"Nincs elkezdve","until_4a1f8cda":"Eddig","untitled_16aa4f2b":"Cím nélküli","upload_8b403d05":"Feltöltés","upload_file_fd2361b8":"Fájl feltöltése","upload_media_ce31135a":"Médiafájl feltöltése","uploading_submission_4c8d944b":"Beadandó feltöltése","uri_redirect_uri_d4aad2b9":"URI: %{redirect_uri}","usage_rights_f0960ad6":"Felhasználási jogok","use_arrow_keys_to_navigate_options_2021cc50":"Használja a nyíl billentyűket az opció kiválasztására!","use_default_890939b7":"Alapértelmezett használata","user_c95de254":"Felhasználó","user_selection_f6139840":"Felhasználó kiválasztása","users_d1b60cb0":"Felhasználók","video_player_b371005":"Videólejátszó","view_ba339f93":"Megtekintés","warning_aacb8c24":"Figyelmeztetés","webcam_fe91b20f":"Webkamera","well_below_mastery_37664bdc":"Jóval a jártassági szint alatt","yes_dde87d5":"Igen","you_must_enter_a_date_f8eabfb1":"Be kell írnia egy dátumot","you_must_specify_a_usage_right_5eb57f87":"Határozza meg a felhasználói jogokat. ","your_webcam_may_already_be_in_use_6cd64c25":"Úgy tűnik, hogy a webkamera már használatban van."} })
+
+
+setLazyTranslations(
+  "hu",
+  "ajax_errors",
+  null,
+  function() { return {"error_heading":"Ajax hiba: %{status_code}","errors":{"connection_lost":"A kapcsolat megszakadt a következő géppel:  %{host} . Kérjük, ellenőrizze, hogy az internetkapcsolata rendben működik és próbálja újra.","logged_out":"Ön jelenleg nincs belépve, ennek oka lehet, hogy hosszú ideig volt inaktív.","unhandled":"Hoppá! Az utolsó kérés nem működött."},"links":{"details":"bővebben...","login":"Belépés"},"no_text":"Nincs szöveg"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "instructure",
+  null,
+  function() { return {"errors":{"field_is_required":"A mező kitöltése kötelező","invalid_datetime":"Érvénytelen dátum/idő érték ","invalid_entry_for_field":"Érvénytelen bejegyzés: %{field}","invalid_number":"Ennek számnak kell lennie.","required":"Kötelező mező"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "time",
+  null,
+  function() { return {"am":"de.","count_hours_ago":{"one":"1 órával ezelőtt","other":"%{count} órával ezelőtt"},"count_minutes_ago":{"one":"1 perccel ezelőtt","other":"%{count} perccel ezelőtt"},"due_date":"%{date}  %{time}-ig","event":"%{date},  %{time}","formats":{"default":"%a, %d %b %Y %H:%M:%S %z","long":"%B %d, %Y %H:%M","short":"%d %b %H:%M","tiny":"%H:%M ","tiny_on_the_hour":"%H:%M"},"less_than_a_minute_ago":"kevesebb mint egy perce","pm":"du.","ranges":{"different_days":"%{start_date_and_time}-tól %{end_date_and_time}-ig","same_day":"%{date} %{start_time}-tól %{end_time}-ig","times":"%{start_time}-tól %{end_time}-ig"},"with_ago":"%{time} idővel ezelőtt"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "support",
+  null,
+  function() { return {"array":{"last_word_connector":" és ","or":{"last_word_connector":", vagy ","two_words_connector":" vagy "},"two_words_connector":" és ","words_connector":", "},"help_menu":{"cisco_netacad_facebook":"A Közösség támogatása","cisco_netacad_facebook_description":"Kérjük, látogassa meg a Networking Academy Facebook-oldalt a közösségi támogatáshoz, vagy lépjen kapcsolatba az oktatójával.","community_support_description":"Lépjen kapcsolatba és kérjen támogatást társaitól.","community_support_forums":"Közösségi Támogató Fórumok","contact_support":"Lépjen kapcsolatba az ügyfélszolgálattal","contact_support_sub_text":"Kérjen támogatást az időérzékeny problémákhoz.","curriculum_assessment_errata":"Tanterv/értékelés hibajegyzék","curriculum_assessment_errata_description":"A már jelzett értékelési és tananyag hibák megtekintése. ","global_support_desk":"NetAcad támogatás","global_support_desk_description":"Az ASC-k az első sorát jelentik a támogatásnak, és össze tudják kötni Önt a Globális Támogatói hálózattal, ha a jelzett probléma további beavatkozást igényel.","networking_academy_description":"Cisco válaszok megtekintése a leggyakrabban feltett kérdésekre.","networking_academy_faqs":"Networking Academy GYIK","student_support":"NetAcad támogatás - Diák","student_support_description":"Your Instructor should be your first point of contact. They can answer your Networking Academy questions or contact the support desk for you. You can contact your instructor by using the Inbox feature.","support_desk_livechat":"Ügyfélszolgálat élő chat"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "helpDialog",
+  null,
+  function() { return {"Back":"Vissza","Help":"Segítség"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "instructure_inline_media_comment",
+  null,
+  function() { return {"alerts":{"kaltura_disabled":"A Kaltura le lett tiltva ezen a Canvas-oldalon"},"links":{"minimize_embedded_kaltura_content":"Beágyazott tartalom méretének csökkentése"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "common_bundle",
+  function() { return {"content_on_this_page_violates_the_security_policy__25685d8a":"Az oldal tartalma sérti a biztonsági szabályzatot, kérjen támogatást az adminisztrátortól."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "incompleteregistration",
+  null,
+  function() { return {"get_started":"Vágjon bele!","welcome_to_canvas":"Üdvözöljük a Canvasban!"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "course_logging",
+  function() { return {"blueprint_sync_90d0dfd5":"Blueprint Sync"} },
+  function() { return {"blank_placeholder":"-","event_source":{"api":"Api","manual":"Kézi","sis":"SIS"},"event_type":{"concluded":"Befejeződött","copied_from":"Másolva innen ","copied_to":"Másolva ide","corrupted":"Részletek nem állnak rendelkezésre","created":"Létrehozva","deleted":"Törölt","published":"Publikált","reset_from":"Visszaállítás innen","reset_to":"Visszaállítás ide","restored":"Helyreállítva","unconcluded":"Nem befejeződött ","updated":"Frissített"},"field_label":{"abstract_course_id":"Absztrakt kurzusazonosító","account_id":"Fiókazonosító","allow_student_discussion_editing":"Fórum szerkesztésének engedélyezése a hallgatók számára","allow_student_discussion_topics":"Fórumtémák szerkesztésének engedélyezése a hallgatók számára","allow_student_forum_attachments":"Mellékletek hozzáadásának engedélyezése hallgatók számára a fórumokban","allow_student_organized_groups":"Csoportok szervezésének engedélyezése a hallgatók számára ","allow_student_wiki_edits":"Wiki szerkesztésének engedélyezése a hallgatók számára","allow_wiki_comments":"Wiki megjegyzések engedélyezése","conclude_at":"Befejeződött ekkor","course_code":"Kurzuskód","created_at":"Létrehozva ekkor: ","default_view":"Alapértelmezett nézet","default_wiki_editing_roles":"Alapértelmezett wiki szerkesztői szerepek","enrollment_term_id":"Beiratkozási félév azonosító","grading_standard_id":"Osztályzási szabványazonosító","group_weighting_scheme":"Csoportsúlyozási rendszer","hide_distribution_graphs":"Eloszlási grafikonok elrejtése","hide_final_grade":"Végső osztályzat elrejtése","indexed":"Indexelve","integration_id":"Integrációs azonosító","is_public":"Nyilvános","large_roster":"Nagy névsor","license":"Licenc","locale":"Helyi","lock_all_announcements":"Minden hirdetmény zárolása","name":"Név","open_enrollment":"Beiratkozás megnyitása","public_description":"Nyilvános leírás","public_syllabus":"Nyilvános tematika","replacement_course_id":"Helyettesítő kurzusazonosító","restrict_enrollments_to_course_dates":"Beiratkozások korlátozása kurzus dátumokra","root_account_id":"Gyökérfiók-azonosító","self_enrollment":"Önálló beiratkozás ","self_enrollment_code":"Önálló beiratkozási kód","self_enrollment_limit":"Önálló beiratkozási korlát","show_public_context_messages":"Publikus kontextus üzenet megjelenítése","sis_batch_id":"SIS kötegazonosító","sis_source_id":"SIS forrás azonosító","start_at":"Kezdés ideje","storage_quota":"Tárhely kvóta","syllabus_body":"syllabus_body","tab_configuration":"Tab beállítások","template_course_id":"Sablon kurzusazonosító","turnitin_comments":"Turnitin megjegyzések","updated_at":"Frissítve ekkor: ","uuid":"UUID","wiki_id":"Wiki azonosító","workflow_state":"Munkafolyamat állapota"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "course_restore",
+  null,
+  function() { return {"restore_error":"Hiba történt a kurzus helyreállítása során. A kurzust nem állítottuk helyre."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "auth_logging",
+  null,
+  function() { return {"corrupted":"Részletek nem állnak rendelkezésre","login":"BEJELENTKEZÉS","logout":"KIJELENTKEZÉS"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "comm_messages",
+  null,
+  function() { return {"from_beginning":"a kezdet","to_now":"most"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "course_search",
+  null,
+  function() { return {"cant_be_blank":"Nem lehet üres"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "course_search_results",
+  function() { return {"course_found_f5a40cd3":"Kurzustalálat","course_not_found_c248a721":"Kurzus nem található"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "user_date_range_search",
+  function() { return {"not_a_valid_date_d3ac20ba":"Érvénytelen dátum"} },
+  function() { return {"cant_come_before_from":"'Vége dátum' nem lehet a 'Kezdete dátum' előtt"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "bounced_emails",
+  function() { return {"address_use_as_wildcard_48f2cf60":"Cím (használjon *-ot helyettesítő karakterként)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "date",
+  null,
+  function() { return {"abbr_day_names":["V","H","K","Sze","Cs","P","Szo"],"abbr_month_names":[null,"jan","feb","márc","ápr","máj","jún","júl","aug","szept","okt","nov","dec"],"datepicker":{"column_headings":["V","H","K","Sze","Cs","P","Szo"]},"day_names":["Vasárnap","Hétfő","Kedd","Szerda","Csütörtök","Péntek","Szombat"],"days":{"today":"Ma","today_lower":"ma","tomorrow":"Holnap","yesterday":"Tegnap"},"formats":{"date_at_time":"%b %-d, %H:%M","default":"%Y. %m. %d.","full":" %Y %b %-d, %H:%M","full_with_weekday":"%Y %b %-d, %a, %H:%M","long":"%Y. %B %-d","long_with_weekday":"%A, %B %-d","medium":"%Y. %b %-d","medium_month":"%Y. %b","medium_with_weekday":"%Y. %b %-d, %a ","short":"%b %-d","short_month":"%b","short_weekday":"%a","short_with_weekday":"%a, %b %-d","weekday":"%A"},"month_names":[null,"január","február","március","április","május","június","július","augusztus","szeptember","október","november","december"],"order":["year","month","day"]} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "mutationActivity",
+  function() { return {"graphql_mutation_activity_5a47678b":"GraphQL mutciós tevékenység","no_more_results_17c4f108":"Nincs több találat","parameters_a13374ec":"Paraméterek","something_went_wrong_89195131":"Hiba történt!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "account_course_user_search",
+  function() { return {"active_terms_83df727e":"Aktív félévek","add_a_new_course_4a041207":"Új kurzus hozzáadása","add_a_new_user_c440d053":"Új felhasználó hozzáadása","add_course_406cb773":"Kurzus hozzáadása","add_people_7948b7da":"Résztvevők hozzáadása","add_user_e73e8e50":"Felhasználó hozzáadása","add_users_to_name_b8109bbb":"Felhasználók hozzáadása ide: %{name}","click_to_sort_by_teacher_ascending_cda7a18c":"Rendezés oktató szerint növekvő sorrendben","click_to_sort_by_teacher_descending_45ef0d1e":"Rendezés oktató szerint csökkenő sorrendben","course_name_is_required_90919349":"A kurzusnév megadása kötelező","course_name_successfully_added_48116a50":" %{course_name} sikeresen hozzáadva!","course_option_links_a79d263d":"Kurzus opcióhivatkozások","course_results_updated_df9d1c95":"A kurzus eredményei frissítésre kerültek.","create_new_course_e3ef9cd0":"Új kurzus létrehozása","default_email_9efb7fbd":"Alapértelmezett e-mail","display_name_b80c243e":"Megjelenítendő név","edit_name_cbdef0c2":"%{name} szerkesztése","edit_user_details_4d7b63ff":"Felhasználó beállításainak részletei ","email_the_user_about_this_account_creation_e63f8759":"A felhasználó értesítése a fiók létrehozásáról","enrollment_term_7bfe840":"Beiratkozási félév","filter_by_term_cfe778b2":"Szűrés félév szerint","full_name_23fdfb6d":"Teljes név","full_name_is_required_8efbdc84":"A teljes név megadása kötelező","future_terms_7fba2ae6":"Jövőbeli félévek","hide_courses_without_students_fc6fc7a0":"Hallgatók nélküli kurzusok elrejtése","last_login_54565109":"Utolsó belépés","manage_profile_pictures_40c958ce":"Profilképek kezelése","more_people_options_730e9686":"További résztvevői opciók","no_74e9b590":"nem","no_courses_found_12d68a74":"Nem található kurzus","no_users_found_64a043ff":"Nincsenek ilyen felhasználók","past_terms_4b6ec40e":"Elmúlt Félévek","people_will_see_this_name_in_discussions_messages__fca9ebb2":"A felhasználók ezt a nevet látják a fórumokban, üzenetekben, kommentekben.","reference_code_3e8355dd":"Referenciakód","reference_code_is_required_c32c757f":"Referenciakód megadása kötelező","search_courses_591bc900":"Kurzusok keresése...","search_courses_by_teacher_e9760a48":"Kurzusok keresése oktató alapján...","search_people_44f36cd2":"Résztvevők keresése...","send_message_to_name_c8ac05fc":"Üzenet küldése %{name} felhasználónak","settings_for_name_7731a33d":"%{name} beállításai","show_more_af9cbc16":"További info...","show_only_blueprint_courses_9fb37b41":"Csak a sablon/Blueprint kurzusok megjelenítése","something_went_wrong_creating_the_course_please_tr_431adff5":"Hiba történt a kurzus létrehozása közben. Kérjük, próbálja újra.","sortable_name_73f707cf":"Rendezett listában megjelenő név","statistics_for_name_f4b7b0fc":"%{name} statisztikái","sub_account_daeadd0":"Alfiók","subaccount_91f4c279":"Alfiók","there_was_an_error_with_your_query_please_try_a_di_761dff12":"Hibás lekérdezés; próbáljon meg egy másik keresést","this_name_appears_in_sorted_lists_dccbd84b":"Ez a név jelenik meg a rendezett listákban.","this_name_will_be_used_by_teachers_for_grading_9b6aa8a0":"Ez a név az oktatók által használatos, az értékelés során","user_option_links_66090987":"Felhasználói opció link","user_results_updated_9ce38dce":"A felhasználó eredményei frissítésre kerültek.","view_user_groups_d2bfa855":"Felhasználócsoportok megtekintése","yes_3593c135":"igen"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "edit_timezone",
+  function() { return {"all_timezones_5e8afa7b":"Minden időzóna","common_timezones_2b00baba":"Közös időzónák"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "AccountGradingPeriod",
+  function() { return {"an_error_occured_while_deleting_the_grading_period_c8343484":"Hiba történt az osztályzási időszak törlése során","ends_4fcb632":"Véget ér:","starts_ce584f1c":"Kezdődik:","weight_ff579a8e":"Súly:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "GradingPeriodSetForm",
+  function() { return {"all_grading_period_sets_must_have_a_title_799538f":"Minden osztályzási időszak halmaznak kell, hogy legyen címe","grading_period_set_title_880a6ec4":"Osztályzási időszak halmaz címe","save_grading_period_set_e029fa88":"Osztályzási időszak mentése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "EnrollmentTermInput",
+  function() { return {"attach_terms_2b8770a5":"Félév hozzárendelése","no_unassigned_terms_deb7b76b":"Nincs hozzárendeletlen félév","past_14da759a":"Múlt","undated_15c2e5fe":"Időpont nélküli"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradingPeriodForm",
+  function() { return {"grading_period_title_23b7f8ac":"Osztályzási időszak címe","save_grading_period_daaaddea":"Osztályzási időszak mentése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "helpers",
+  null,
+  function() { return {"accessible_date_format":"ÉÉÉÉ-HH-NN óó:pp","accessible_date_only_format":"ÉÉÉÉ-HH-NN","accessible_date_prompt":"Ilyen formátumban","accessible_time_only_format":"óó:pp","account_time":"Fiók","course":"Kurzus","course_time":"Kurzus","local":"Helyi","local_time":"Helyi"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "GradingPeriodSet",
+  function() { return {"add_grading_period_6f774dc3":"Osztályzási időszak hozzáadása","all_close_dates_must_be_on_or_after_the_end_date_b898d85d":"Minden lezárási dátumnak a végdátum utáninak kell lennie","all_weights_must_be_greater_than_or_equal_to_0_cc2dcdf1":"Minden súlynak 0-nak, vagy nagyobbnak kell lennie","an_error_occured_while_deleting_the_grading_period_81bb16e5":"Hiba történt az osztályzási időszakok törlése során","are_you_sure_you_want_to_delete_this_grading_perio_380b040d":"Biztos benne, hogy törli ezt az osztályzási időszakot?","no_associated_terms_13bacefc":"Nincsenek társított félévek","terms_35d91184":"Félévek:","the_grading_period_set_was_deleted_cce5d8f6":"Az osztályzási időszak törölve"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "GradingPeriodSetCollection",
+  function() { return {"add_set_of_grading_periods_5b4d6e51":"Osztályzási időszakok hozzáadása","an_error_occured_while_fetching_enrollment_terms_1b7b4ac":"Hiba történt a beiratkozási félév megjelenítése során","an_error_occured_while_fetching_grading_period_set_b4f12aa5":"Hiba történt az osztályzási időszakok megjelenítése során","an_error_occured_while_updating_the_grading_period_9e024cd1":"Hiba történt az osztályzási időszakok frissítése során","set_of_grading_periods_545b37e9":"Osztályzási időszakok halmaza","showing_all_sets_of_grading_periods_6c160874":"Mutassa az összes osztályzási időszakot.","term_created_27d27c2b":"Félév létrehozva","term_starting_5bd5e070":"Félévkezdés","the_grading_period_set_was_updated_successfully_d8dd5d0f":"Az osztályzási időszak sikeresen frissítve."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "count_sets_of_grading_periods_found_c8857ae9",
+  null,
+  function() { return {"one":"1 osztályzási időszak találva","other":"%{count} osztályzási időszak találva","zero":"Nem található egy olyan osztályzási időszak sem, ami megfelelne a kritériumoknak."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "NewGradingPeriodSetForm",
+  function() { return {"a_name_for_this_set_is_required_222bad23":"A név megadása kötelező","successfully_created_a_set_38374719":"Halmaz sikeresen létrehozva!","there_was_a_problem_submitting_your_set_27ca2ed0":"Probléma adódott a beállítások feltöltése közben"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "SearchGradingPeriodsField",
+  function() { return {"search_grading_periods_e947a3e9":"Osztályzási időszak keresése..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "courses",
+  function() { return {"account_notification_settings_error_page_66c0bc61":"Fiók értesítési beállítások hibaoldal","account_notification_settings_initial_query_error_f55e1cbf":"Fiók értesítési beállítások kezdeti lekérdezési hiba","account_notification_settings_updated_dbabec35":"Fiók értesítési beállítások frissítve","deactivate_user_86c09036":"Felhasználó deaktiválása","due_by_c263dc10":"határidő:","edit_role_1e96ad20":"Szerep szerkesztése","faculty_journal_5634938e":"Intézményi hírlevél","re_activate_user_f7d77c9a":"Felhasználó újbóli aktiválása","remove_user_from_section_5556f465":"Felhasználó eltávolítása a szekcióból","role_7c0b7eaa":"Szerep:","this_user_has_multiple_roles_in_the_course_changin_8cbd82d4":"Ehhez a felhasználóhoz több szerep tartozik a kurzuson belül. A szerep megváltoztatásával felülírja sz összes jelenlegi beiratkozását.","to_do_6ac7b2dc":"Teendők:","to_link_the_course_observer_name_to_a_student_star_f993c826":"Ahhoz, hogy *%{name}* kurzusmegfigyelőt egy hallgatóhoz rendelje, alább kezdje el begépelni a hallgató nevét, majd ha megtalálta, kattintson a Frissítés-re.","you_cannot_remove_this_enrollment_c87be1cb":"Nem tudja eltávolítani ezt a beiratkozást."} },
+  function() { return {"confirm_reject_invitation":"Biztos benne, hogy visszautasítja a kurzusban való részvételre szóló meghívót?","roster":{"edit_sections_view":{"edit_sections_desc":"A szekciók létrehozása egy további lehetőséget biztosít a felhasználók csoportosítására. Lehetővé teszi, hogy több csoportot tanítson ugyanazon kurzuson belül, oly módon, hogy az összes kurzustartalom egy helyen legyen. Az alábbi részen felhasználókat tud mozgatni egy másik szekcióba, vagy hozzáadni/eltávolítani szekcióbeiratkozásokat. A felhasználóknak legalább egy szekcióban jelen kell lenniük."},"index":{"cannot_add_users":"Nem lehet hozzáadni új felhasználókat, mert ez a kurzus befejeződött ","filter_field_description":"Felhasználók keresése. Ahogy ebbe a mezőbe gépel, a felhasználók listáját automatikusan szűrjük oly módon, hogy csak azok a nevek jelenjenek meg, amelyek egyeznek a beírt szöveggel.","group_set":"Csoporthalmaz","people":"Résztvevők","role_to_search":"Keresés korlátozása szerepre","search_people":"Résztvevők keresése","title_add_people":"Résztvevők hozzáadása"},"invitations_view":{"accepted_invitation":"%{name} már megkapta és elfogadta a kurzusmeghívót, de ha szükséges, ismét kiküldheti a meghívót.","admin_invitation_unaccepted":"%{name} még nem fogadta el a a kurzusmeghívót. A meghívó ekkor lett kiküldve: %{time}","invitations_pending_publish":"A meghívók nem lesznek addig kiküldve, amíg a kurzus nincs *publikálva*","student_invitation_unaccepted_available":"%{name} még nem fogadta el a meghívót, hogy csatlakozzon a kurzushoz. A meghívó ekkor lett elküldve: %{time}","student_invitation_unaccepted_unavailable":"%{name} hozzá lett adva a kurzushoz ekkor: %{time}"},"link_to_students_view":{"link_student_desc":"Amikor egy megfigyelő van társítva a hallgatóhoz, akkor hozzáfér a hallgató értékeléseihez és a kurzusinterakcióihoz."},"resend_invitations":{"pending_invitation":"1 meghívó nem lett még elfogadva.","pending_invitations":"%{pendingInvitationsCount} meghívó nem lett elfogadva.","re_send_invitations":"Újraküldés","re_sending_invitations":"Újraküldés..."},"role_select":{"all_roles":"Minden szerep"},"roster_tabs":{"everyone_tab":"Mindenki","groups":"Csoportok"},"roster_user":{"links":{"edit_sections":"Szekciók szerkesztése","link_to_students":"Hivatkozás a hallgatókra","remove_from_course":"Eltávolítás a kurzusból","resend_invitation":"Meghívó újraküldése","user_details":"Felhasználói adatok"},"manage_user":"%{name} kezelése","pending_acceptance_explanation":"Ez a felhasználó még nem fogadta el a kurzusmeghívót","pending_acceptance_of_invitation":"folyamatban"},"roster_users":{"canvas_user_id":"Canvas felhasználói azonosító","last_activity":"Utolsó tevékenység","login_name":"Belépési azonosító","name":"Név","no_people_found":"Nem található ilyen személy","role":"Szerep","section":"Szekció","total_activity":"Összes tevékenység","you_can_search_by":"Kereshet ezek alapján:"},"section":{"remove_user_from_course_section":"Felhasználó eltávolítása innen: %{name}"}},"show":{"empty_body":"Nincs tartalom","re_sending":"Újraküldés...","send_done":"Kész! Az üzenet küldése eltarthat néhány percig. ","send_failed":"Nem sikerült teljesíteni a kérést. Próbálja újra!","titles":{"drop_course":"Kiiratkozás a kurzusból"}}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "accounts",
+  function() { return {"assignment_id_b040cee0":"Feladatazonosító","avatar_8a8aa935":"Avatár","course_activity_bfe11267":"Kurzustevékenység","course_id_8bd2a21c":"Kurzusazonosító","course_id_b0bc82d4":"Kurzusazonosító","ex_ba24edf6":"EX","limit_search_to_activity_after_c1ac2449":"Későbbi tevékenység keresésének korlátozása","limit_search_to_activity_before_e05aad05":"Korábbi tevékenység keresésének korlátozása","loading_6ac402e1":"betöltés...","notifications_search_results_80a0b06f":"Értesítési keresés eredmények","restore_courses_182e162e":"Kurzusok helyreállítása","value_d842f16d":"Érték"} },
+  function() { return {"admin_tools":{"admin_tools":{"tab_labels":{"admin_tools_logging":"Naplózás","restore_course":"Kurzusok helyreállítása"},"view_messages":"Értesítések megtekintése"},"auth_logging_search_results":{"activity":"Tevékenység","date":"Dátum","no_item_found":"Nincs találat","time":"Idő"},"comm_message_item":{"created_at":"Létrehozva ekkor: ","from_name":"Feladó","reply_to":"Címzett","sent_at":"Küldés időpontja: ","to":"Címzett"},"comm_messages_search_overview":{"messages_viewed":" *%{user}* felhasználónak küldött értesítések *%{start_date}* - *%{end_date}* között"},"comm_messages_search_results":{"no_messages_found":"Nincsenek üzenetek"},"course_logging_details":{"Field":"Mező","From":"Feladó","To":"Címzett","Value":"Érték","blank_placeholder":"-","copied_from_label":"Innen másolva: ","copied_to_label":"Ide másolva: ","date":"Dátum","event_id":"Eseményazonosító","event_sis_batch":"SIS kötegelt feldolgozás","event_source_label":"Forrás","event_type_label":"Típus","reset_from_label":"Visszaállítás innen","reset_to_label":"Visszaállítás ide","time":"Idő","user":"Felhasználó"},"course_logging_item":{"blank_placeholder":"-","view_event_details":"Részletek megtekintése"},"course_logging_results":{"date":"Dátum","event_details":"Esemény részletei","event_source":"Forrás","event_type":"Típus","no_item_found":"Nincs találat","time":"Idő","user":"Felhasználó"},"course_search_results":{"error_message":"Ehhez a fiókhoz nem található a megadott azonosítójú törölt kurzus","info_text":"A beiratkozások visszaállítása ennél a kurzusnál manuálisan történhet","labels":{"account_id":"Fiókazonosító:","account_id2":"Fiókazonosító:","coures_id1":"Kurzusazonosító:","coures_id2":"Kurzusazonosító:","course_code1":"Kurzuskód:","course_code2":"Kurzuskód:","restore_btn":"Helyreállítás"},"notdeleted_restore":{"add_enrollments":"Beiratkozás hozzáadása","header_subtext":"(Nem törölt)","view_course":"Kurzus megtekintése"},"successful_restore":{"view_course":"Kurzus megtekintése"},"successfull_restore":{"add_enrollments":"Beiratkozás hozzáadása","subtext":"Mit szeretne csinálni a következő lépésben?"}},"date_range_search":{"message_date_from":"Ettől a dátumtól","message_date_to":"Eddig a dátumig"},"grade_change_logging_item":{"blank_placeholder":"-","event_type":{"corrupted":"Részletek nem állnak rendelkezésre"},"no-abbreviation":"n","yes-abbreviation":"i"},"grade_change_logging_results":{"Anonymous":"Névtelen","Assignment":"Feladat","Course":"Kurzus","Grader":"Értékelő","Student":"Hallgató","To":"Címzett","date":"Dátum","from":"Feladó","no_item_found":"Nincs találat","time":"Idő"},"logging_content_pane":{"authentication":"Be/kijelentkezési tevékenységek ","course":"Kurzustevékenységek","grade_change":"Értékelésváltoztatási tevékenység","mutations":"GraphQL mutciós tevékenység","select_default":"Naplótípus kiválasztása"},"user_date_range_search_form":{"message_date_from":"Ettől a dátumtól","message_date_to":"Eddig a dátumig","search":"Résztvevő keresése azonosító vagy név alapján","search_people":"Résztvevők keresése"}},"course_type":"kurzus","default_account_quotas_not_updated":"Az alapértelmezett fiókkvóták nem frissültek","default_account_quotas_updated":"Az alapértelmezett fiókkvóták frissültek","find_not_authorized":"Nincs jogosultsága ezen elem elérésére: %{type} ","find_not_found":"Ezzel az azonosítóval nem található %{type} ","group_type":"csoport","integer_required":"Egész számot kell megadni","quota_not_updated":"A kvóta nem lett frissítve","quota_updated":"A kvóta frissítésre került","retry_login":"Újbóli belépés","settings":{"manual_quotas":{"find_button":"Keresés","label_for_course_or_group_id":"ID:","manual_quotas_title":"Manuálisan beállítható kvóták","megabytes":"megabyte","megabytes_tooltip":"megabyte","select_type_courses":"Kurzusazonosító","select_type_groups":"Csoportazonosító","select_type_label":"Kurzus vagy csoport keresése","update_button":"Kvóta frissítése"},"quotas":{"default_account_quota_title":"Alapértelmezett fiókkvóta","default_course_storage_quota":"Kurzuskvóta","default_group_storage_quota":"Csoportkvóta","default_user_storage_quota":"Felhasználói kvóta","megabytes":"megabyte","megabytes_tooltip":"megabyte","update_button":"Frissítés"}},"test_ldap_dialog_title":"LDAP beállítások tesztelése","test_ldap_result_canceled":"Megszakítva","test_ldap_result_failed":"Sikertelen","test_ldap_result_ok":"OK","test_login":"Belépés tesztelése","testing":"Ellenőrzés...","users_list":{"login_name_or_sis_id":"Belépési / SIS azonosító","name":"Név","no_people_found":"Nem található ilyen résztvevő","you_can_search_by":"Ezek alapján kereshet:"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "account_settings_jsx_bundle",
+  function() { return {"a_suffix_cannot_be_longer_than_255_characters_plea_2f2fefd5":"Az utótag nem lehet hosszabb, mint 255 karakter. Kérjük, használjon rövidebb utótagot, és próbálja újra!","a_suffix_cannot_have_any_tabs_or_spaces_please_rem_47db763e":"Az utótag nem tartalmazhat tabulátorokat vagy szóközöket. Kérjük, távolítsa el őket, és próbálja újra!","active_directory_lookup_attribute_d317cb60":"Active Directory keresési attribútum","active_directory_lookup_attribute_selector_d56a326f":"Active Directory keresési attribútumválasztó","after_completing_the_above_configuration_please_us_c6440d32":"A fenti konfiguráció befejezése után használja a következő hivatkozást, hogy Canvas-hozzáférést adjon a Microsoft-ügynökének:","allows_syncing_of_canvas_course_members_to_a_micro_785119b4":"Lehetővé teszi a Canvas kurzus tagjainak szinkronizálását a Microsoft TEAMs rendszerrel","login_attribute_731a8181":"Bejelentkezés attribútum","login_attribute_selector_9a106f9c":"Bejelentkezési attribútumválasztó","update_settings_9b422d0f":"Beállítások frissítése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "account_settings",
+  function() { return {"about_this_service_b10bc808":"A szolgáltatásról","security_tab_failed_to_load_2d2242a":"Nem sikerült betölteni a Biztonság fület.","there_are_no_reports_for_you_to_view_b716717a":"Nincsenek megtekinthető riportok.","title_is_too_long_b192a46a":"A cím túl hosszú"} },
+  function() { return {"account_name_too_long":"A fiók neve túl hosszú","confirms":{"delete_announcement":"Biztos benne, hogy törölni szeretné ezt a hirdetményt?","global_announcement":"Jóvá kell hagynia a globális hirdetményt","remove_account_admin":"Biztos, hogy el akarja távolítani ezt a fiókadminisztrátort?"},"custom_text_blank":"[Egyéni szöveg]","help_menu_name_too_long":"A súgó menü neve túl hosszú","links":{"turnitin":{"confirm_settings":"Turnitinbeállítások jóváhagyása"}},"notices":{"turnitin":{"checking_settings":"Turnitinbeállítások ellenőrzése...","invalid_settings":"Hibás Turnitinbeállítások, kérjük, ellenőrizze a fiókazonosítóját és a Turnitinnel megosztott titkos kódját","setings_confirmed":"Turnitinbeállítások jóváhagyva!"}},"titles":{"configure_report":"Riport konfigurálása","open_registration_delegated_warning_dialog":"Egy külső identitás szolgáltató engedélyezve van","what_are_quiz_ip_filters":"Mik azok a Kvíz IP szűrők?"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "security_panel",
+  function() { return {"add_domain_f15bc6c1":"Tartomány hozzáadása","allowed_domains_ee7868c8":"Engedélyezett domainek","invalid_domain_e810c1d":"Érvénytelen tartomány"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "csp_violation_table",
+  function() { return {"add_as_allowed_e95540be":"Hozzáadás engedélyezettként","add_hostname_as_an_allowed_domain_1f58c38d":"%{hostname}hozzáadása engedélyezett domainként","last_attempt_7258ebd7":"Utolsó próbálkozás"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "course_creation_settings",
+  function() { return {"account_administrators_can_always_create_courses_926dc0cb":"A fiókadminisztrátorok bármikor létrehozhatnak kurzusokat","allow_creation_anywhere_the_user_has_active_enroll_13c84fc2":"Létrehozás engedélyezése bárhol, ahol a felhasználó aktív regisztrációval rendelkezik","allow_creation_only_in_the_manually_created_course_69f37f2e":"Létrehozás engedélyezése csak a Manuálisan létrehozott kurzusok alfiókban","users_with_no_enrollments_5dddce33":"Nem beiratkozott felhasználók"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "custom_help_link",
+  function() { return {"add_custom_link_22059c0":"Egyéni hivatkozás hozzáadása","add_help_menu_links_de9fc34f":"Súgó menü link hozzáadása","add_link_5c01c1e8":"Link hozzáadása","add_link_fc336ed6":"Link hozzáadása","cancel_custom_link_creation_39ec70bd":"Egyéni hivatkozás készítésének visszavonása","cog_icon_69bdffd5":"fogaskerék ikon","custom_link_details_35fd38fc":"Egyéni hivatkozás részletei","e_g_http_university_edu_helpdesk_acab04d6":"pl. http://egyetem.hu/sugo","edit_text_27d8aa3d":"%{text} szerkesztése","features_2581da":"Funkciók","folder_icon_29017021":"Mappaikon","help_menu_links_51184b65":"Súgó menü linkek","help_menu_options_7ecf7031":"Súgó menü opciók","icon_215a1dc6":"Ikon","information_icon_8a514faa":"Információikon","life_preserver_icon_8660b6ce":"Mentőmellény ikon","link_7262adec":"Hivatkozás","link_description_4355ca82":"Hivatkozás leírása","link_name_b76fdb38":"Hivatkozás neve","move_text_down_7176acd4":"%{text} lefelé mozgatása","move_text_up_91fb4241":"%{text} felfelé mozgatása","please_enter_a_name_for_this_link_318f01a4":"Kérjük, adjon nevet ennek a hivatkozásnak","please_select_a_user_role_for_this_link_9fb4e655":"Kérjük válassza ki a linkhez tartozó felhasználói szerepet!","question_mark_icon_d2bbd204":"Kérdőjel ikon","remove_text_8e485c41":"%{text} eltávolítása","unenrolled_bc89d5e3":"Kiiratkozott","update_link_b7cab181":"Hivatkozás frissítése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "act_as",
+  function() { return {"act_as_is_essentially_logging_in_as_this_user_with_6244031c":"Az „Folytatás mint” lényegében jelszó nélkül jelentkezik be ezzel a felhasználóval. Bármilyen műveletet megtehet úgy, mintha Ön lenne ez a felhasználó, és más felhasználók szemszögéből olyan lesz, mintha ez a felhasználó hajtotta volna végre azokat. Az ellenőrzési naplók azonban rögzítik, hogy Ön volt az, aki végrehajtotta a műveleteket a felhasználó nevében.","category_b9a94408":"Kategória","default_email_5cb9fa04":"Alapértelmezett email:","display_name_6c2cfc58":"Megjelenítendő név:","full_name_14c958f7":"Teljes név:","integration_id_a6977535":"Integrációs azonosító:","login_id_bc943b97":"Belépési azonosító:","login_info_d1d9f11e":"Bejelentkezési adatok","sis_id_70eda157":"SIS azonosító:","sortable_name_e25fe66c":"Rendezett listában megjelenő név","user_details_e9aef9e5":"Felhasználói adatok","user_information_6353d7e1":"Felhasználói adatok"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "alerts",
+  null,
+  function() { return {"errors":{"criteria_required":"Legalább egy kiváltó szempont szükséges","recipients_required":"Legalább egy címzettet meg kell adni","threshold_should_be_numeric":"Ennek pozitív számnak kell lennie"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "catalog",
+  function() { return {"course_catalog_4cc7c8ce":"Kurzuskatalógus"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "announcements_v2",
+  function() { return {"add_announcement_165c3b05":"Hirdetmény hozzáadása","add_external_feed_6d437a28":"Külső hírfolyam hozzáadása","add_feed_49ed1cb2":"Hírfolyam hozzáadása","adding_rss_feed_f1202567":"Új hírfolyam hozzáadása folyamatban","announcements_list_c75fc413":"Hirdetmények listája","external_feeds_b6345379":"Külső hírfolyamok","failed_to_load_external_feeds_7ac8411d":"Külső hírfolyamok betöltése sikertelen","feed_url_8a433438":"Hírfolyam URL","full_article_9296bb6f":"Teljes cikk","link_only_995966e":"Csak link","no_announcements_280df147":"Nincsenek hirdetmények","only_add_posts_with_a_specific_phrase_in_the_title_b8b7b04e":"Csak a címben konkrét mondatot tartalmazó bejegyzéseket adja hozzá","truncated_56b1a661":"Rövidítve"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignment_editview",
+  function() { return {"assignment_d8387b78":"feladat","external_tool_url_cannot_be_left_blank_a34b6bb2":"A külső eszköz URL nem maradhat üresen","group_assignments_cannot_be_enabled_for_moderated__6b2faeef":"A csoportos feladatok nem engedélyezhetők moderált feladatokhoz","peer_reviews_cannot_be_enabled_for_moderated_assig_149d33c4":"Társértékelés nem engedélyezhető moderált feladatokhoz","points_possible_must_be_0_or_more_for_selected_gra_f96a04e3":"Az elérhető pontok száma ennél az értékelési típusnál csak 0 vagy annál nagyobb lehet"} },
+  function() { return {"at_least_one_file_type":"Kérjük, adjon meg legalább egy támogatott fájltípust","at_least_one_submission_type":"Kérjük, adjon meg legalább egy beadandó típust","buttons":{"select_url":"Kiválasztás"},"name_is_required":"A név megadása kötelező!","points_possible_number":"Az elérhető pontokat számként kell megadni","select_external_tool_dialog_title":"Külső eszköz konfigurálása","vericite_submission_types_validation":"A VeriCite csak a fájlbeadásokat és szövegebevitelt támogatja"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "count_students_c9920376",
+  null,
+  function() { return {"one":"%{count} hallgató","other":"%{count} hallgató"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "allowed_attempts",
+  function() { return {"allowed_attempts_4e229caa":"Próbálkozás engedélyezése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "DefaultToolForm",
+  function() { return {"add_content_58b4305a":"Tartalom hozzáadása "} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignment",
+  function() { return {"select_one_8e0af564":"Válasszon egyet","speedgrader_tm_44688790":"Gyorsértékelő"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "GraderCountNumberInput",
+  function() { return {"must_have_at_least_1_grader_d4a54e85":"Legalább 1 értékelőnek kell lennie"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "ModeratedGradingCheckbox",
+  function() { return {"allow_moderator_to_review_multiple_independent_gra_c59d64f6":"Engedélyezze a moderátornak, hogy több független érdemjegyet is felülvizsgáljon a kiválasztott beadványokhoz","moderated_grading_cannot_be_enabled_for_group_assi_7e947ab7":"A moderált értékelés nem engedélyezhető csoportos feladatokhoz","moderated_grading_cannot_be_enabled_for_peer_revie_6b7eedc1":"A moderált értékelés nem engedélyezhető társértékelt feladatokhoz","moderated_grading_setting_cannot_be_changed_if_gra_ba939ce2":"A moderált értékelés beállítás nem változtatható meg, ha már vannak értékelt beadandók"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "OriginalityReportVisibilityPicker",
+  function() { return {"after_the_assignment_is_graded_53754607":"Miután a feladat értékelve lett","after_the_due_date_eee89c9c":"Határidő után","immediately_c128ede6":"Azonnal"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignment_grade_summary",
+  function() { return {"accept_grades_4d56a3dd":"Értékelések elfogadása","accept_grades_by_gradername_7a98b969":" %{graderName}által adott értékelések elfogadása","accepted_c9f8ab87":"Elfogadott","accepting_40ba3b70":"Elfogadás","all_submissions_must_have_a_selected_grade_3a84e5a9":"Az összes beadandónak muszáj egy kiválasztott jeggyel rendelkeznie.","are_you_sure_you_want_to_do_this_it_cannot_be_undo_3379a544":"Biztos benne, hogy ezt szeretné? Ezt a műveletet nem lehet visszavonni és felülírja a létező értékeléseket az osztálynaplóban.","attention_aaca1f1d":"Figyelem!","grade_for_studentname_d124b199":"%{studentName}értékelése","selected_grade_942f40ba":"Kiválasztott érdemjegy","student_studentnumber_f398d9c2":"%{studentNumber}hallgató"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "AssignmentKeyBindingsMixin",
+  null,
+  function() { return {"keyboard_add_item":"Feladat hozzáadása a kiválasztott csoporthoz","keyboard_close_menu":"Aktív párbeszéd bezárása","keyboard_del_item":"Aktuális feladat vagy csoport törlése","keyboard_edit_item":"Aktuális feladat vagy csoport szerkesztése","keyboard_next_item":"Összpontosítás a következő feladatcsoportra ","keyboard_prev_item":"Összpontosítás az előző feladatcsoportra ","keyboard_show_assign":"Kiválasztott feladat teljes előnézetének megjelenítése","keycodes":{"add_item":"a","close_menu":"esc","del_item":"d","edit_item":"e","next":"j","previous":"k","show_assign":"f"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "AssignmentGroupListItemView",
+  function() { return {"move_group_3dd7f76e":"Csoport áthelyezése"} },
+  function() { return {"never_drop_rule":"Sose dobja el ezt: %{assignment_name}","rules_text":{"one":"1 szabály","other":"%{count}szabály"},"toggle_message":"feladat láthatóságának ki vagy bekapcsolása"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "AssignmentListItemView",
+  function() { return {"assignment_was_deleted_8320d26d":"Feladat törölve lett","move_assignment_6f890f64":"Feladat mozgatása"} },
+  function() { return {"complete":"Kész","grade_gpa_scale_screenreader":"Osztályzat: %{grade}","grade_letter_grade_screenreader":"Osztályzat: %{grade}","grade_pass_fail_screenreader":"Osztályzat: %{grade}","grade_percent":"%{grade}%","grade_percent_screenreader":"Osztályzat: %{grade}%","incomplete":"Befejezetlen"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "AssignmentSettingsView",
+  function() { return {"must_be_a_valid_number_59f0069":"Érvényes számnak kell lennie"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "CreateAssignmentView",
+  function() { return {"due_date_cannot_be_after_lock_date_675b30aa":"A határidő nem lehet a lezárás dátuma után","due_date_cannot_be_before_unlock_date_f263aab0":"A határidő nem lehet a feloldás dátuma előtt","edit_assignment_ebf22a72":"Feladat szerkesztése"} },
+  function() { return {"name_is_required":"A név megadása kötelező!","points_possible_number":"Az elérhető pontokat számként kell megadni"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "CreateGroupView",
+  function() { return {"a_name_is_required_b5df38a9":"A név megadása kötelező","assignment_group_was_saved_successfully_5caa27d3":"Feladatcsoport sikeresen el lett mentve","name_is_too_long_48daa8db":"A név túl hosszú","you_must_use_a_number_912ce4bd":"Számokat kell megadnia","you_must_use_a_positive_number_203b86fe":"Pozitív számot kell megadnia"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "DeleteGroupView",
+  null,
+  function() { return {"cannot_delete_group":"Legalább egy feladatcsoportnak lennie kell","confirm_delete_group":"Biztosan törli ezt a feladatcsoportot?"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "count_assignments_found_17520826",
+  null,
+  function() { return {"one":"1 feladatot találtam.","other":"%{count} feladatot találtam.","zero":"Egy egyező feladatot sem találtam."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignmentsNeverDrop",
+  null,
+  function() { return {"remove_never_drop_rule":"A \"soha ne dobja el szabály\" eltávolítása","remove_unsaved_never_drop_rule":"A mentés nélküli \"soha ne dobja el\" szabály eltávolítása"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignmentsToggleShowByView",
+  function() { return {"show_by_date_e3967761":"Megjelenítés dátum szerint","show_by_type_c5d61732":"Megjelenítés típus szerint"} },
+  function() { return {"overdue_assignments":"Lejárt feladatok","past_assignments":"Korábbi feladatok","undated_assignments":"Időpont nélküli feladatok","upcoming_assignments":"Közelgő feladatok"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignments_bulk_edit",
+  function() { return {"due_at_5d7d2fa":"Határidő","in_closed_grading_period_dc717846":"Zárt osztályozási időszakban","invalid_dates_were_found_please_correct_them_and_t_4140b318":"Helytelen dátumokat találtunk. Kérjük, javítsa ki őket, és próbálja újra."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignment_index_menu",
+  function() { return {"assignments_settings_30613d0c":"Feladatbeállítások"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignments",
+  function() { return {"add_an_assignment_fb73942e":"Feladat hozzáadása","add_another_assignment_fc5c908f":"További feladat hozzáadása","add_assignment_to_name_caf173b0":"Feladat hozzáadása ide: %{name}","allow_intra_group_peer_reviews_53f1e455":"Csoporton belüli szakértői értékelés engedélyezése","anonymous_instructor_annotations_2b6c822":"Névtelen oktatói kommentár","assign_reviews_on_date_7e48ec50":"Értékelés hozzárendelése dátumhoz","delete_assignment_name_deec56e3":"A következő feladat törlése: %{name}","do_not_count_this_assignment_towards_the_final_gra_4dd92e00":"Ez a feladat ne számítson bele a végső jegybe","due_at_5e18eeac":"Határidő:","edit_assignment_name_a8f7fae1":"%{name} feladat szerkesztése","enter_or_find_an_external_tool_url_6aebbd0d":"Írjon be vagy keressen egy külső eszköz URL-t","if_you_change_an_assignment_s_points_possible_you__dba531cb":"Ha megváltoztatja a feladatra adható lehetséges pontok számát, akkor a beadandókat újra kell értékelnie","imported_from_posttosisname_f7cc9258":"Importálás ebből %{postToSISName}","manage_assignment_31a132fb":"Feladat kezelése","manage_name_7f55f792":"%{name} kezelése","move_assignment_contents_245c61bb":"Feladat tartalmak mozgatása","move_assignment_group_46e09fc3":"Feladatcsoport mozgatása","move_assignment_name_aa253f26":"%{name} feladat mozgatása","move_contents_29713356":"Tartalmak áthelyezése...","move_group_77ae285d":"Csoport áthelyezése...","move_to_9b91c6e0":"Áthelyezés ide:","multiple_modules_930713d4":"Több modul","n_pointspossible_pts_73274d36":"%{n_pointsPossible} pont","new_assignment_2a984756":"Új feladat","new_group_category_66be9cbd":"Új csoporthalmaz","no_points_possible_368669d":"Nincsenek elérhető pontok","not_published_73f7079":"Nem publikált","not_yet_graded_40475341":"Még nem értékelt","online_submission_type_file_uploads_24910d74":"Online beadás típusa - Fájlok feltöltése","online_submission_type_file_uploads_restrict_uploa_5ec7b263":"Online beadás típusa - Fájlok feltöltése - Fájltípusok korlátozása","online_submission_type_media_recordings_9424bf34":"Online beadás típusa - Média felvétel","online_submission_type_text_entry_ac56d100":"Online beadás típusa - Szöveges bevitel","online_submission_type_website_url_2c9df33d":"Online beadási típus - webcím","select_a_group_category_295f7a34":"Csoporthalmaz választása","settings_for_assignment_name_c19565e1":"Beállítások a következő feladathoz: %{name}","this_assignment_has_been_excused_87f1dc13":"Ez a feladat kifogásolva lett.","warning_for_improved_accessibility_of_reordering_a_5d0206c7":"Figyelem! A feladatok és csoportok rendezésének jobb hozzáférhetőségének érdekében, kérjük, használja a menü Mozgatás ide párbeszédablakát."} },
+  function() { return {"assignment_group_create_dialog":{"assignment_group":{"labels":{"name":"Név"}},"buttons":{"add_group":"Csoport hozzáadása ","cancel":"Mégse"},"links":{"add_assignment_group":"Feladatcsoport hozzáadása"}},"assignment_group_list":{"no_assignment_groups":"Nem található feladatcsoport"},"assignment_group_selector":{"assignment_group":"Feladatcsoport","assignment_group_options":{"create_group":"Csoport készítése","new_group":"Új csoport"}},"assignment_list_item":{"delete":"Törlés"},"assignment_list_item_score":{"assignment_grading_type_is_not_graded":"Ehhez a feladathoz nem lesz osztályzat rendelve.","assignment_not_yet_graded_screenreader":"A feladat még nincs értékelve. %{pointsPossible} az elérhető pontszám.","empty_points_possible":"-/%{pointsPossible} pont","no_submission":"Nincs beadandó","no_submission_for_assignment_screenreader":"Ehhez a feladathoz nincs beadandó feladat. %{pointsPossible} az elérhető pontszám.","score_with_points_possible":"*%{score}*/%{pointsPossible} pont","score_with_points_possible_screenreader":"Eredmény: %{score} az %{pointsPossible} pontból. "},"available_date_description":{"available_until":"Elérhető eddig","closed":"Lezárva","not_available_until":"Nem érhető el eddig"},"create_assignment":{"assignment":"Feladat","assignment_due_at":"Határidő: ","assignment_name":"Név: ","assignment_points":"Pontszám: ","assignment_type":"Típus: ","buttons":{"save_and_publish":"Mentés és publikálás"},"cancel":"Mégse","differentiated_due_dates":"Differenciált határidő","discussion_type":"Fórum","external_tool_type":"Külső eszköz","more":"További lehetőségek","multiple_due_dates":"Többes határidő","not_graded_type":"Nem osztályozott","quiz_type":"Kvíz","save":"Mentés","saving":"Mentés..."},"create_group":{"cancel":"Mégse","drop_highest":"Legmagasabb pontszámok: ","drop_lowest":"Legalacsonyabb pontszámok:","example_group_name":"pl.: Esszé csoport 1","group_name":"Csoport neve: ","never_drop":"Soha ne dobja ki:","percent_of_total":"%-a a végső jegynek","save":"Mentés","saving":"Mentés..."},"date_available_column_view":{"available":"Elérhető","multiple_dates":"Többes határidő"},"date_due_column_view":{"due":"Határidő","due_date":"Határidő","multiple_dates":"Többes határidő","todo_date":"Teendők"},"delete_group":{"cancel":"Mégse","delete":"Csoport törlése","deleting":"Törlés...","labels":{"delete_assignments_in_group":"A feladatainak törlése","move_assignments_to":"A feladatainak mozgatása a következő helyre"},"options":{"select_group":"Csoport kiválasztása"},"tooltips":{"target_group":"Válasszon csoportot, ahová át szeretné mozgatni ezt a feladatot"},"warnings":{"delete_assignment_group":"*%{name}* törlésére készül, ami **%{assignment_count}** feladatot tartalmaz."},"would_you_like":"Szeretné:"},"edit_view":{"assignment_name":"Feladat neve","buttons":{"save":"Mentés","save_and_publish":"Mentés és publikálás"},"description":"Leírás","freeze_properties":"Feladat tulajdonságainak zárolása másoláskor","notify_content_change":"Felhasználók értesítése arról, hogy a tartalom módosult","points_possible":"Pont"},"external_content_homework_file_submission_view":{"additional_comments":"További megjegyzések","buttons":{"submit_assignment":"Feladat beadása"},"group_assignment_header":"Megjegyzések..."},"external_content_homework_url_submission_view":{"additional_comments":"További megjegyzések","buttons":{"submit_assignment":"Feladat beadása"},"group_assignment_header":"Megjegyzések..."},"grading_type_selector":{"display_grade_as":"Osztályzat megjelenítése, mint","gpa_scale_explainer":"A GPA értékelési skála azon iskoláknak lett tervezve, amelyek minden feladatnál a 4.0 (vagy 5.0/6.0) értékelést használják. Az osztályozási rendszer hasonló a Betű alapú osztályozási rendszerhez, néhány fontos különbséggel:","gpa_scale_input_explainer":"A pontszámok egy 4 fokú skálán lesznek elosztva. Ha például egy feladat 100 pontot ér, a 4-es rögzítése 100%-ot,a  3-as rögzítése 87%-ot eredményez, stb.","gpa_scale_letters_explainer":"Betű alapú érdemjegyek csak a szám alapú érdemjegyek mellett használhatóak ","gpa_scale_percentage_explainer":"Nem tud közvetlenül pontokat beírni, de százalékokat igen. Például, ha egy feladat 50 pontot ér, a \"40\" nem fog működni, de a \"80%\" igen.","gpa_scale_recommendation":"Ha az iskolája egy négyfokú (vagy ötfokú, esetleg hatfokú) skálát használ az osztályzásra, a Canvas azt ajánlja, hogy az érdemjegyeket betűként jelenítse meg.","gpa_scale_scores_explainer":"Csak az osztályzási rendszerben előre meghatározott pontszámok engedélyezettek. ","gpa_scale_title":"\"Mit jelent a GPA skála szerinti értékelés?\"","view_grading_scheme":"Osztályzási rendszer megtekintése"},"group_category_selector":{"grade_group_students_individually":"Az értékelések hozzárendelése a hallgatókhoz, egyénileg","group_assignment_header":"Csoportos feladat","group_category_locked_explanation":"A hallgatók már feltöltöttek megoldást ehhez a feladathoz, így a csoport beállításai nem módosíthatóak.","group_set":"Csoporthalmaz","is_group_assignment":"Ez egy csoportos feladat"},"index_view":{"add_assignment":"Feladat","add_group":"Csoport","add_quiz_lti":"Kvíz/teszt","assignments":"Feladatok","search_for_assignment":"Feladat keresése","title_add_assignment":"Feladat hozzáadása","title_add_group":"Feladatcsoport hozzáadása","title_add_quiz_lti":"Kvíz/teszt hozzáadása"},"no_assignments_list_item":{"no_assignments_in_this_group":"Ebben a csoportban nincsenek feladatok"},"no_assignments_search":{"aria_assignments":"Feladatok","assignments":"Feladatok","no_assignments_found":"Nem található feladat"},"peer_reviews":{"messages":{"cancel_peer_review":"Visszavonja ezt a társértékelést?"},"titles":{"remind":"%{assessor} emlékeztetése az értékelésről, legutolsó értesítő ekkor: %{time}","reminder":"%{assessor} emlékeztetése az értékelésről, legutolsó értesítő ekkor: %{time}"}},"peer_reviews_selector":{"anonymous_peer_reviews":"Anonimitás","how_to_peer_review":"Hogyan lehet társértékelőket hozzárendelni","labels":{"anonymous_peer_reviews":"A társértékelések névtelenül jelenjenek meg","automatically_assign_peer_reviews":"Társértékelők automatikus hozzárendelése","manually_assign_peer_reviews":"Társértékelők manuális hozzárendelése","require_peer_reviews":"Társértékelést igényel"},"locked_until":"Értékelések hozzárendelése","peer_reviews_assign_at_explanation":"A határidő utáni időpontnak kell lennie. Ha üresen marad, a határidő lesz beállítva.","peer_reviews_header":"Társértékelések","reviews_per_user":"Felhasználónkénti értékelések"},"submission_types_form":{"advanced_turnitin_settings":"Haladó Turnitinbeállítások","advanced_vericite_settings":"Haladó VeriCite beállítások","descriptions":{"allowed_extensions":"Adja meg az elfogadott kiterjesztések listáját, például: doc,xls,txt"},"external_tool_group_warning":"A csoportos feladatok külső eszközök esetén nem használhatóak. A csoportos beállítás mentéskor törölve lesz","external_tool_options":"Külsőeszköz-lehetőségek","label":{"external_tool_new_tab":"Új fülön töltse be ezt az eszközt ","turnitin_enabled":"Turnitin beküldések engedélyezése","vericite_enabled":"VeriCite beadások engedélyezése"},"labels":{"allow_file_uploads":"Fájlfeltöltések","allow_media_recordings":"Médiafelvételek","allow_text_entry":"Szöveges bevitel","allow_url":"Webcím","allowed_extensions":"Megengedett fájlformátumok","restrict_file_extensions":"Feltölthető fájltípusok korlátozása"},"online_entry_options":"Online beviteli lehetőségek","submission_type":"Beadás típusa","submission_types":{"external_tool":"Külső eszköz","no_submission":"Nincs beadott munka","on_paper":"Papíron ","online":"Online"}},"turnitin_settings_dialog":{"assignments":{"turnitin_settings":{"labels":{"exclude_small_matches":"Kis egyezések"}}},"buttons":{"update_settings":"Beállítások frissítése"},"turnitin_settings":{"labels":{"compare_against":"Összehasonlítás ezzel: ","do_not_consider":"Ne vegye figyelembe","exclude_biblio":"Bibliográfiai anyag","exclude_quoted":"Idézett anyagok ","internet_check":"Internetes adatbázis","journal_check":"Magazinok, folyóiratok és publikációk ","student_paper_check":"Más hallgatói dolgozatok","submit_papers_to":"Adattárba helyezés","turnitin_repository":"Turnitin adattár"},"originality_report_never":"Soha","originality_report_visibility":"A hallgatók láthatják az eredetiségről szóló jelentést","originality_report_visible_after_due_date":"Határidő után","originality_report_visible_after_grading":"A feladat értékelése után","originality_report_visible_immediately":"Azonnal","settings_exclude_fewer_than_count":"Kevesebb mint %{wordsInput} szó","settings_exclude_less_than_percent":"Kevesebb mint a dokumentum %{percentInput} százaléka"}},"veri_cite_settings_dialog":{"buttons":{"update_settings":"Beállítások frissítése"},"vericite_settings":{"originality_report_never":"Soha","originality_report_visibility":"A hallgatók láthatják az eredetiségről szóló jelentést","originality_report_visible_after_due_date":"Határidő után","originality_report_visible_after_grading":"Miután a feladat értékelve lett","originality_report_visible_immediately":"Azonnal"}}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignments_2_student_header_date_title",
+  function() { return {"due_5d7267be":"Határidő: "} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignments_2",
+  function() { return {"add_submission_type_8690db4b":"Beadás típus hozzáadása","all_comments_are_sent_to_the_whole_group_778126f3":"Minden megjegyzés elküldve az egész csoport számára.","all_image_types_allowed_9c65004d":"Minden képtípus engedélyezett","all_media_types_allowed_3c0cdce7":"Minden médiatípus engedélyezett","all_submission_comments_have_been_marked_as_read_74c0683b":"Az összes beküldött megjegyzés olvasottként lett megjelölve","all_types_allowed_287eb6b0":"Minden típus engedélyezett","and_7fcc2911":"És","arc_a935e585":"ARC","assignment_type_60255aac":"Feladat típusa","attached_d7423f41":"Mellékelve","available_d3bb0b5c":"Elérhető","available_until_3278ebe9":"Elérhető eddig","avi_2d8cc99f":"AVI","bmp_e297149c":"BMP","close_17f50799":"bezárás","coming_soon_79d46687":"HAMAROSAN","confirm_delete_a5239715":"törlés jóváhagyása","csv_de77e441":"CSV","delete_assignment_5d3f3f15":"feladat törlése","deleting_assignment_22d5851d":"feladat törlése","doc_50924b72":"DOC","eps_81bd3fbf":"EPS","everyone_else_cc5f6888":"Mindenki más ","file_6863ad33":"fájl","filter_students_2327fe79":"Hallgatók szűrése","flv_15e62834":"FLV","gif_74e4a622":"GIF","group_assignment_7060989f":"Csoportos feladat","image_c1c98202":"kép","in_class_23eeca38":"az osztályban","invalid_date_and_time_1a42d206":"Érvénytelen dátum és időpont","invalid_date_or_time_333acd43":"Érvénytelen dátum és időpont","invalid_date_time_3ae423f5":"Helytelen dátum-idő","jpg_903bacff":"JPG","label_3c9a991":"%{label}:","message_students_who_369b8488":"Üzenet azon hallgatóknak, akik...","messages_sent_b851d0dd":"Üzenet elküldve","modified_by_c1584b3c":"Módosította","more_modules_d9a9f003":"További modulok","mov_329e9416":"MOV","mp3_c21c0f5f":"MP3","mp4_5c789afc":"MP4","next_e0d38b1f":"következő","no_grade_for_assignmenttitle_83baad53":"%{assignmentTitle}nincs értékelve","no_submission_fb131a40":"Nincs beadott munka","on_paper_46d0ba36":"Papíron","or_9b70ccaa":"Vagy","png_55cbb586":"PNG","ppt_534cb87":"PPT","preview_filename_f1b58572":"%{filename}előnézet","preview_unavailable_aacd459a":"Előnézet nem elérhető","previous_445ca243":"előző","psd_33ae8820":"PSD","remove_studentname_16ba8c3a":"%{studentName}eltávolítása","rtf_9165aba5":"RTF","saving_assignment_fb958949":"Feladat mentése","search_by_student_name_26536097":"Keresés a hallgató neve alapján","sending_messages_effc7237":"Üzenetek küldése","sending_messages_f8f41998":"üzenetek küldése...","speedgrader_d9a6fa90":"Gyorsértékelő","subject_1bc03dea":"Tárgy","submission_type_a925fc5f":"Beadás típusa","svg_d5969386":"SVG","text_entry_e1808b2f":"Szöveges bevitel","the_date_is_not_valid_b6285fb5":"Érvénytelen dátum.","this_assignment_is_part_of_an_unpublished_module_a_4e25b3c5":"A feladat egy nem publikus modul része, ezért nem érhető még el.","tiff_c70066a3":"TIFF","txt_cae4e953":"TXT","unable_to_delete_assignment_abcf8d62":"A feladatot nem lehet törölni","unlimited_attempts_81a37d4":"Korlátlan számú próbálkozás","url_22a5f3b8":"URL","view_rubric_d71cce10":"Értékelőtábla megtekintése","wmv_1119d032":"WMV","xls_733452c1":"XLS","you_cannot_save_while_there_are_errors_b86585e9":"Amíg hibák vannak, nem lehetséges a mentés"} },
+  function() { return {"attempts":{"filter":"Próbálkozások"},"submission_attempts":"Próbálkozások"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignments_2_attempt_tab",
+  function() { return {"more_submission_options_c8d50818":"További beadási opciók"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignments_2_file_upload",
+  function() { return {"mark_as_done_6fa48d2f":"Megjelölés befejezettként","next_module_66f58e91":"Következő modul","previous_module_8801a74b":"Előző modul","submit_assignment_5799b4e3":"Feladat beadása","there_was_a_problem_loading_module_information_e79926f4":"Hiba történt a modul információinak betöltésekor."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignments_2_student_header",
+  function() { return {"add_comment_3205529f":"Megjegyzés hozzáadása","after_the_first_attempt_you_cannot_leave_comments__3922325f":"Az első próbálkozás után nem írhat megjegyzést, amíg el nem küldi a feladatot.","view_feedback_f2feabca":"Visszajelzés megtekintése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "a2_AccessibleTipContent",
+  function() { return {"grade_grade_7e52dd1c":"Osztályzat: %{grade}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "_count_points_23dc93e0",
+  null,
+  function() { return {"one":"-1 pont","other":"-%{count} pont"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignments_2_login_action_prompt",
+  function() { return {"accept_course_invitation_b4c04fbb":"Kurzusmeghívó elfogadása","accept_course_invitation_to_participate_in_this_as_b8342676":"Kurzusmeghívó elfogadása a feladatban való részvételhez","log_in_c9e240ef":"Bejelentkezés","log_in_to_submit_962106cf":"Bejelentkezés a beadáshoz"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignments_2_elide_string",
+  function() { return {"_5a374287":"..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignments_2_shared_Steps",
+  function() { return {"in_progress_13b9e26f":"folyamatban","submitted_318fad53":"Beadva","uploaded_285a2bfb":"Feltöltve"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "authentication_providers",
+  function() { return {"add_an_identity_provider_to_this_account_c2644478":"Identitásszolgáltató hozzáadása ehhez a fiókhoz:","another_configuration_is_currently_selected_select_95b394e":"Jelenleg egy másik konfiguráció van kiválasztva. Ennek a konfigurációnak a kiválasztásával a másik kiválasztása törlődni fog.","choose_an_authentication_service_47dc8875":"Válasszon hitelesítő szolgáltatást"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "blueprint_coursesChildChangeLog",
+  function() { return {"loading_change_log_94ac6073":"Előzménynapló betöltése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "blueprint_MasterChildStack",
+  function() { return {"your_course_db806851":"Az Ön kurzusa"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "blueprint_settingsAssociationsTable",
+  function() { return {"to_be_added_2959cc72":"Hozzáadandó","to_be_removed_d4b48586":"Törlendő"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "BlueprintAssociations",
+  function() { return {"associated_74756cc4":"Hozzárendelve","warning_d9ac42ef":"Figyelmeztetés:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "BlueprintCourseSidebar",
+  function() { return {"close_sidebar_10b0fbb4":"Oldalsáv bezárása","open_sidebar_2852e8c8":"Oldalsáv megnyitása"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "blueprint_settingsCourseFilter",
+  function() { return {"any_sub_account_ec7069f2":"Bármely alfiók","any_term_d49af19f":"Bármely félév","select_sub_account_6704196a":"Alfiók kiválasztása","select_term_f8083fb0":"Félév kiválasztása"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "blueprint_settingsCoursePicker",
+  function() { return {"loading_courses_409a3641":"Kurzusok betöltése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "blueprint_settingsCoursePickerTable",
+  function() { return {"course_selection_245808bf":"Kurzusválasztás","selected_all_courses_9cfef57f":"Minden kurzus kiválasztva"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "blueprint_course_sidebar",
+  function() { return {"associations_3fd4abe8":"Hozzárendelések"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "blueprint_settingsMigrationOptions",
+  function() { return {"add_a_message_4fee743f":"Üzenet hozzáadása","len_maxlen_97f1c88d":"%{len}/%{maxLen}","message_text_5f692459":"Üzenet szövege","send_notification_81773687":"Értesítés küldése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "blueprint_settingsMigrationSync",
+  function() { return {"sync_in_progress_12ff1d3c":"Szinkronizálás folyamatban","syncing_3061cc8d":"Szinkronizálás folyamatban...","this_may_take_a_bit_48fe4235":"Ez eltarthat egy ideig..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "blueprint_settingsUnsyncedChanges",
+  function() { return {"changed_item_1d16a85f":"Módosított elem","type_of_change_1cb24a0e":"Változtatás típusa","type_of_item_8a37f69d":"Elem típusa"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "theme_collection_view",
+  function() { return {"create_theme_based_on_40651ed3":"Téma létrehozása ez alapján: ","default_template_f2a759ed":"Alapértelmezett sablon","default_templates_are_used_as_starting_points_for__f06f9e33":"Az alapértelmezett sablonok az új témák kiindulópontjai és nem törölhetőek.","my_themes_b72217b8":"Témáim","templates_4ca13d07":"Sablonok","theme_52404e51":"Téma","themes_89bfe9c4":"Témák"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "theme_editor",
+  function() { return {"an_error_occurred_trying_to_apply_this_theme_pleas_253d0996":"Hiba történt a téma alkalmazása során, kérjük, próbálja újra!","an_error_occurred_trying_to_generate_this_theme_pl_b493e2e9":"Hiba történt a téma generálása során, kérjük, próbálja újra!","apply_theme_7af08387":"Téma alkalmazása","applying_new_styles_to_subaccounts_e8aeeef2":"Új stílusok alkalmazása az alfiókokra","applying_please_be_patient_f7b5f244":"Az alkalmazás folyamatban, kérjük várjon","before_implementing_custom_css_or_javascript_pleas_65423572":"Mielőtt saját CSS-t vagy Javascriptet implementálna, kérjük, nézze át a *dokumentációnkat*.","changes_will_still_apply_if_you_leave_this_page_935cedc6":"A változások az oldal elhagyása esetén is érvényben maradnak. ","css_file_709e6a83":"CSS fájl","current_theme_62e5e8cf":"Aktuális téma","custom_css_and_javascript_may_cause_accessibility__93d2a823":"Az egyéni CSS és Javascript hozzáférhetőségi problémákat okozhat vagy konfliktusba kerülhet a jövőbeli Canvas frissítésekkel!","delete_theme_bdb70d25":"Téma törlése","edit_this_theme_in_theme_editor_f8f07ac9":"Ennek a témának a szerkesztése a témaszerkesztőben","exit_d0c7b013":"Kilépés","file_s_will_be_included_on_all_pages_in_the_canvas_80569935":"A fájl(ok) minden oldalon megjelennek a Canvas asztali alkalmazásban.","file_s_will_be_included_when_user_content_is_displ_5e1fa73d":"A fájl(ok) akkor lesznek csatolva, amikor a tartalom Canvas IOS vagy Android applikációban kerül megjelenítésre, vagy más alkalmazásban készültek az API felhasználásával.","generating_preview_45b53be0":"Előnézet generálása... ","javascript_file_fc27c32b":"JavaScript fájl ","mobile_app_css_file_abbf06bd":"Mobil applikáció CSS fájl","mobile_app_javascript_file_faea55d5":"Mobil applikáció JavaScript fájl","open_in_theme_editor_156028e2":"Megnyitás a témaszerkesztőben","percent_complete_3a7edc20":"%{percent} kész","pick_a_name_to_save_this_theme_as_9773cb1a":"Válasszon egy nevet a téma mentéséhez","preview_your_changes_373557d8":"Módosítások előnézete","progress_for_account_name_ef203250":" %{account_name} haladása","reset_95a81614":"Visszaállítás","save_theme_f706116e":"Téma mentése","select_image_e1696a4d":"Kép kiválasztása","theme_name_68f46e09":"Téma neve","there_are_no_unsaved_changes_9276e87c":"Nincsenek mentetlen módosításai","this_is_your_current_theme_4331709b":"Ez az Ön jelenlegi témája","this_will_apply_this_theme_to_your_entire_account__4cfabbe5":"Ez az egész fiókjára alkalmazni fogja a témát. Szeretné folytatni?","to_preview_theme_editor_branding_you_will_need_to__462dda1a":"A témaszerkesztő arculat előnézetéhez *kapcsolja ki a magas kontrasztú felhasználó felületet*.","view_file_8a1c62e5":"Fájl megtekintése","you_are_about_to_lose_any_unsaved_changes_would_yo_e255f393":"El fog veszíteni minden el nem mentett változtatást.\n\nBiztosan szeretné folytatni?","you_need_to_preview_changes_before_saving_85e60232":"Mentés előtt a \"Módosítások előnézete\" szükséges","you_need_to_preview_changes_before_you_can_apply_t_212d1cca":"A fiók használata előtt a \"Módosítások előnézetének\" beállítása szükséges","you_need_to_save_before_applying_to_this_account_7436a5ae":"A fiókra alkalmazás előtt \"Mentés\" szükséges","you_will_not_be_able_to_preview_your_changes_f7b868fb":"Ön nem fogja tudni megjeleníteni változtatásainak előnézetét"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "community",
+  null,
+  function() { return {"admin_add_course":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-add-a-course-in-an-account-as-an-admin/ta-p/158","admin_add_users":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-add-users-to-an-account/ta-p/90","admin_app_center_allowlist":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-manage-a-whitelist-in-the-Edu-App-Center/ta-p/203","admin_custom_js_css":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-upload-custom-JavaScript-and-CSS-files-to-an-account/ta-p/253","admin_hangouts_meet_lti":"https://community.canvaslms.com/t5/Admin-Group/Google-Hangouts-Meet-LTI/ba-p/257649","admin_import_sis":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-import-SIS-data-to-a-Canvas-account/ta-p/98","admin_teams_meetings":"https://community.canvaslms.com/t5/Admin-Group/Microsoft-Teams-Meetings-in-Canvas/ba-p/256340","admin_training_services_portal":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-use-the-Training-Services-Portal-as-an-admin/ta-p/198","admin_zoom_meetings_faq":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826","admin_zoom_meetings_faq_add":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--1295024148","admin_zoom_meetings_faq_camera":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--1619578790","admin_zoom_meetings_faq_invite":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--361560439","admin_zoom_meetings_faq_mute":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--810232164","admin_zoom_meetings_faq_participants":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--237443356","admin_zoom_meetings_faq_record":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--1980253691","admin_zoom_meetings_faq_schedule":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId-447786187","admin_zoom_meetings_faq_screenshare":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId-123231545","admin_zoom_meetings_faq_share_record":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId-1866041880","admin_zoom_meetings_faq_start":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--1170907065","admin_zoom_meetings_faq_storage":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--1387179659","basics_announcements":"https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-Announcements/ta-p/39","basics_collaborations":"https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-Collaborations/ta-p/61","basics_speedgrader":"https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13","contingency_30_minute_quickstart":"https://community.canvaslms.com/t5/Contingency-Planning/Set-Up-Your-Canvas-Course-in-30-minutes-or-Less/ba-p/258437","contingency_web_conferencing":"https://community.canvaslms.com/t5/Contingency-Planning/Web-Conferencing-Resources/ba-p/262674","guides_home":"https://community.canvaslms.com/t5/Canvas/ct-p/canvas","instructor_add_announcement":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-announcement-in-a-course/ta-p/1194","instructor_add_dashboard_image":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-image-to-a-course-card-in-the-Dashboard/ta-p/624","instructor_add_module":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-a-module/ta-p/1151","instructor_add_module_items":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-course-content-as-module-items/ta-p/1157","instructor_add_rubric_assignment":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-a-rubric-to-an-assignment/ta-p/1058","instructor_add_rubric_course":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-a-rubric-in-a-course/ta-p/842","instructor_add_users":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-users-to-a-course/ta-p/1119","instructor_adjust_dates_on_import":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-adjust-events-and-due-dates-in-a-course-import/ta-p/1090","instructor_align_outcome_rubric":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-align-an-outcome-with-a-rubric-in-a-course/ta-p/1130","instructor_assignment_details":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-or-edit-details-in-an-assignment/ta-p/971","instructor_assignment_types":"https://community.canvaslms.com/t5/Instructor-Guide/What-assignment-types-can-I-create-in-a-course/ta-p/627","instructor_bulk_upload":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-bulk-upload-files-to-a-course/ta-p/623","instructor_change_course_home":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-change-the-Course-Home-Page/ta-p/1035","instructor_change_name_code":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-change-a-course-name-and-course-code/ta-p/1234","instructor_conclude_conference":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-conclude-a-conference/ta-p/606","instructor_copy_course":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-copy-a-Canvas-course-into-a-new-course-shell/ta-p/712","instructor_create_assignment":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-an-assignment/ta-p/740","instructor_create_conference":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-conference-in-a-course/ta-p/1156","instructor_create_discussion":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-discussion-as-an-instructor/ta-p/1029","instructor_create_gdrive_collaboration":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-Google-Drive-collaboration-as-an-instructor/ta-p/632","instructor_create_new_quiz":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-an-assessment-using-New-Quizzes/ta-p/1173","instructor_create_o365_collaboration":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-Microsoft-Office-365-collaboration-as-an/ta-p/629","instructor_create_outcome":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-an-outcome-for-a-course/ta-p/862","instructor_create_outcome_group":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-outcome-groups-for-a-course/ta-p/1128","instructor_create_page":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-new-page-in-a-course/ta-p/1031","instructor_create_quiz_questions":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-quiz-with-individual-questions/ta-p/1248","instructor_edit_announcement":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-edit-an-announcement-in-a-course/ta-p/1190","instructor_edit_gradebook":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-enter-and-edit-grades-in-the-Gradebook/ta-p/724","instructor_edit_syllabus":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-edit-the-Syllabus-in-a-course/ta-p/1178","instructor_gradebook_individual_view":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-assignments-or-students-individually-in-the/ta-p/1247","instructor_guide":"https://community.canvaslms.com/t5/Instructor-Guide/tkb-p/Instructor","instructor_homepage_layout_options":"https://community.canvaslms.com/t5/Instructor-Guide/What-layout-options-are-available-in-the-Course-Home-Page-as-an/ta-p/1291","instructor_import_outcomes":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-import-outcomes-for-a-course/ta-p/702","instructor_import_package":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-import-a-Canvas-course-export-package/ta-p/795","instructor_individual_new_analytics":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-analytics-for-an-individual-student-in-New/ta-p/801","instructor_manage_new_quizzes_settings":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manage-settings-for-an-assessment-in-New-Quizzes/ta-p/581","instructor_manage_rubrics":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manage-rubrics-in-a-course/ta-p/1017","instructor_message_all_criteria_new_analytics":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-send-a-message-to-all-students-based-on-specific-course/ta-p/1162","instructor_message_individual_new_analytics":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-send-a-message-to-an-individual-student-in-New/ta-p/1187","instructor_notification_preferences":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-set-my-Canvas-notification-preferences-as-an-instructor/ta-p/1222","instructor_organize_files":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-move-and-organize-my-files-as-an-instructor/ta-p/622","instructor_post_grades":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-post-grades-for-an-assignment-in-the-Gradebook/ta-p/576","instructor_publish_assignment":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-an-assignment-as-an-instructor/ta-p/585","instructor_publish_discussion":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-a-discussion-as-an-instructor/ta-p/590","instructor_publish_module":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-a-module-as-an-instructor/ta-p/571","instructor_publish_page":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-a-page-as-an-instructor/ta-p/592","instructor_quiz_options":"https://community.canvaslms.com/t5/Instructor-Guide/What-options-can-I-set-in-a-quiz/ta-p/683","instructor_quiz_statistics":"https://community.canvaslms.com/t5/Instructor-Guide/Once-I-publish-a-quiz-what-kinds-of-quiz-statistics-are/ta-p/659","instructor_record_conference":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-record-a-conference/ta-p/840","instructor_reorder_module":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-move-or-reorder-a-module/ta-p/1150","instructor_reply_discussion":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-reply-to-a-discussion-as-an-instructor/ta-p/1110","instructor_select_import_content":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-select-specific-content-as-part-of-a-course-import/ta-p/1091","instructor_set_course_details":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-set-details-for-a-course/ta-p/1037","instructor_set_front_page":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-set-a-Front-Page-in-a-course/ta-p/797","instructor_speedgrader_submission_details":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-the-details-of-a-submission-for-a-student-in/ta-p/762","instructor_start_conference":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-start-a-conference/ta-p/1074","instructor_upload_course_file":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-upload-a-file-to-a-course/ta-p/618","instructor_use_announcements_index":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Announcements-Index-Page/ta-p/1113","instructor_use_collaborations_index":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Collaborations-Index-Page/ta-p/922","instructor_use_course_homepage":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Course-Home-Page-as-an-instructor/ta-p/1250","instructor_use_course_settings":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-course-settings/ta-p/1267","instructor_use_files":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-Files-as-an-instructor/ta-p/929","instructor_use_gradebook":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Gradebook/ta-p/701","instructor_use_mastery_gradebook":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Learning-Mastery-Gradebook-to-view-outcome/ta-p/775","instructor_use_outcomes":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-outcomes-page-in-a-course/ta-p/645","instructor_use_pages_index":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Pages-Index-Page/ta-p/1005","instructor_use_people_page":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-People-page-in-a-course-as-an-instructor/ta-p/667","instructor_use_quizzes_index":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Quizzes-Index-Page/ta-p/1104","instructor_use_syllabus":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Syllabus-as-an-instructor/ta-p/638","instructor_view_discussion_replies":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-and-sort-discussion-replies-as-an-instructor/ta-p/908","instructor_view_enrollment_details":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-user-details-for-an-enrollment-in-a-course/ta-p/1216","instructor_view_student_context_card":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-a-context-card-for-a-student-in-a-course/ta-p/608","new_quizzes_feature_comparison":"https://community.canvaslms.com/t5/New-Quizzes-Users/New-Quizzes-Feature-Comparison/ta-p/243761","resource_course_content_distribution_comparison":"https://community.canvaslms.com/t5/Resource-Documents/Blueprint-Courses-and-Canvas-Commons-Comparison-PDF/ta-p/387051","resource_pairing_codes_faq":"https://community.canvaslms.com/t5/Resource-Documents/Pairing-Codes-FAQ-PDF/ta-p/388738"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "appointment_groups",
+  function() { return {"allow_students_to_see_who_was_signed_up_for_time_s_37f5cb01":"Lehetővé teszi a tanulók számára, hogy lássák, ki regisztrált a még szabad időpontokra","delete_group_86c381ec":"Csoport törlése","edit_pagetitle_cd8abab9":"%{pageTitle} szerkesztése","end_time_250391e8":"Záró időpont","must_be_a_number_0_e6ec3e78":"\u003e0 számnak kell lennie","select_calendars_d5fa50b6":"Naptárak kiválasztása","start_time_2c3d11b5":"Kezdési idő","you_are_here_54075d8c":"Ön itt van:","you_must_allow_at_least_one_appointment_per_partic_c142139c":"Legalább egy megbeszélést engedélyeznie kell résztvevőnként."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "calendar",
+  function() { return {"all_day_fb42c4fc":"Egész nap","allow_students_to_see_who_has_signed_up_for_time_s_7eb1d0ef":"A diákok láthassák, ki jelentkezett be a még rendelkezésre álló időpontokra.","and_more_1c35b232":"és további...","appends_a_number_to_the_end_of_each_event_title_e__bca98abd":"Hozzáfűz egy számot minden eseménycím végére (pl. Esemény 1, Esemény 2, stb)","are_you_sure_you_want_to_cancel_your_appointment_w_dbbd27eb":"Biztos benne, hogy törli a megbeszélést vele: %{name}? ","are_you_sure_you_want_to_delete_this_discussion_334554e0":"Biztos benne, hogy törli ezt a fórumot?","are_you_sure_you_want_to_delete_this_event_824b1e33":"Biztos benne, hogy törli ezt az eseményt?","are_you_sure_you_want_to_delete_this_page_2185844":"Biztos benne, hogy törli ezt az oldalt?","are_you_sure_you_want_to_delete_this_to_do_item_497016ea":"Biztos benne, hogy törölni szeretné ezt az elemet?","are_you_sure_you_want_to_delete_your_reservation_t_5ae87209":"Biztos benne, hogy törli a foglalását erre az eseményre?","assignment_title_82b4422e":"Feladat címe:","availableslots_available_87b8b69d":"%{availableSlots} szabad hely","calendar_a8563bb2":"Naptár:","completed_9b809e44":"befejezett","details_a6f427c3":"Részletek:","divide_into_equal_slots_of_num_minutes_minutes_go_52caee81":"Az idősáv egyenlő részekre osztása %{num_minutes} percenként. *Indít*","due_date_is_required_cdb75f25":"Határidő beállítása kötelező!","due_dueat_ef67f6f4":"Határidő: %{dueAt}","ends_at_9a62b528":"Befejezés ideje","event_date_c9459fe3":"Esemény dátuma","event_date_f05219e7":"Esemény dátuma: ","event_title_57a50568":"Esemény neve:","every_665d821e":"Minden","failed_loading_course_sections_refresh_page_to_try_f97160bf":"A kurzusszekciók betöltése sikertelen. Frissítse az oldalt.","filled_5d8c39e":"Kitöltve","go_back_ed239e69":"Visszalépés","group_details_e51122f1":"Csoport részletei","limit_each_time_slot_to_num_participants_groups_us_14ec4d65":"Minden időpont korlátozása %{num_participants} *csoportra.* **felhasználóra.**","limit_participants_to_attend_num_appointments_appo_dd3fd62f":"Résztvevők korlátozása %{num_appointments} darab megbeszélés(ek)en való részvételre.","month_s_5c17590e":"Hónap(ok)","n_contextscount_more_2f708db4":"+ %{n_contextsCount} számmal több","no_date_bfeb2df7":"Nincs dátum","not_all_sections_will_be_assigned_this_item_4e2b8eaa":"Nem minden szekció lesz ehhez az elemhez hozzárendelve.","not_completed_55fb4c00":"Befejezetlen","open_name_color_picker_a2646a33":"%{name} színválasztó megnyitása","publish_aa888e3c":"Publikálás:","save_publish_36440725":"Mentés és publikálás","starts_at_29843f98":"Kezdés","title_is_required_8bb13295":"Cím megadása kötelező!","to_do_5526f10a":"Teendők:","week_s_cb1492ee":"Hét/(hetek)","would_you_like_to_go_back_to_include_1d279044":"Vissza szeretne lépni, hogy belevegye:"} },
+  function() { return {"agenda_view":{"due":"Határidő","loading":"Töltődik","no_events":"*Nincs esemény ezután a dátum után.*"},"agenda_view_displaying_start_end":"Most megjelenik innentől idáig: %{start} - %{end}","buttons":{"cancel":"Mégse","send_message":"Küldés","sending_message":"Küldés..."},"calendar_header":{"create_event":"Új esemény létrehozása","done_go_back_to_list":"Kész, vissza a listához","links":{"calendar_agenda":"Napirend","calendar_month":"Hó","calendar_week":"Hét","improved_accessibility_recommend_agenda":"Figyelmeztetés: A jobb hozzáférhetőség érdekében kérjük, használja a \"Napirend nézet\" naptárat."},"loading":"Töltődik","my_appointment_groups":"Saját megbeszélés-csoportok"},"calendar_navigator":{"enter_navigation_date":"Adja meg azt a dátumot, amire ugrani szeretne","next":"Következő","previous":"Előző","today":"Ma"},"calendar_title":"Naptár:","context_selector":{"done":"Kész"},"delete_item":{"deletion_reason":"Törlés oka:"},"edit":{"confirm_delete_calendar_event":"Biztos benne, hogy törli ezt a naptári eseményt?","event_deleted":"%{event_title} sikeresen törölve","event_saved":"Esemény sikeresen elmentve","missingDueDate":{"one":"Nincs esedékesség hozzárendelve ehhez: %{sections}","other":"Nincs határidő rendelve ezekhez: %{sections}."},"titles":{"warning":"Figyelmeztetés"}},"edit_appointment_group":{"affect_reservations":"Hogy fogja ez befolyásolni a foglalásokat?","appt_group_options_help1":"Néhány meglévő foglalás már az Ön által megadott korláton felül van. Ez a változtatás csak új foglalások létrehozását fogja megakadályozni, a meglévő foglalásokra nem lesz hatással.","appt_group_options_help2":"Ön viszont bármely meglévő foglalást el tud távolítani manuálisan.","calendar":"Naptár","date":"Dátum","details":"Részletek:","group_category":"Csoporthalmaz","group_signup":"A hallgatók regisztrálása csoportokba.","location":"Helyszín","name":"Név","time_range":"Időtartomány"},"edit_appt_calendar_event":{"description":"Leírás:"},"edit_assignment":{"calendar":"Naptár:","due":"Határidő: ","group":"Csoport:","links":{"more_options":"További lehetőségek"},"title":"Tárgy:"},"edit_assignment_override":{"calendar":"Naptár:","due":"Határidő: ","links":{"more_options":"További lehetőségek"}},"edit_calendar_event":{"calendar":"Naptár:","date":"Dátum:","from":"Időpont:","links":{"more_options":"További lehetőségek"},"location":"Helyszín:","timespan_separator":"-","title":"Tárgy:"},"edit_calendar_event_full":{"buttons":{"create":"Esemény létrehozása","update":"Esemény frissítése"},"date":"Dátum","delete":"Törlés","different_date_for_each_section":"Használjon más dátumot minden egyes szekcióhoz","edit_calendar_event_header":"Naptáresemény szerkesztése","end_time":"Záró időpont","event_description":"Esemény leírása","location_address":"Cím:","location_name":"Helyszín:","new_calendar_event_header":"Új naptáresemény","repeat":"Duplikálás","start_time":"Kezdési idő"},"edit_event":{"tabs":{"appointment_group":"Megbeszélés-csoport","assignment":"Feladat","event":"Esemény","todo":"Teendők"}},"edit_planner_note":{"calendar":"Naptár","date":"Dátum:","time":"Idő:","title":"Cím:"},"edit_to_do_item":{"date":"Dátum:","links":{"more_options":"További lehetőségek"},"time":"Idő:","title":"Cím:"},"end_before_start_error":"A kezdő időpontnak a záró időpont előttinek kell lennie","ends_in_past_error":"Nem tud létrehozni olyan megbeszélési idősávot, ami a múltban végződik","errors":{"send_message_failed":"Hiba történt az üzenet elküldése közben, kérjük, próbálja újra"},"event_details":{"attendees":"Résztvevők","calendar":"Naptár","close":"Bezárás","details":"Részletek","links":{"delete":"Törlés","edit":"Szerkesztés","reserve":"Foglalás","unreserve":"Foglalás törlése"},"location":"Helyszín","location_address":"Cím","message_students":"Üzenet a hallgatóknak","slots_available":"Szabad helyek"},"event_on_this_day":"Ma van egy esemény","loading_more_items":"További elemek betöltése.","loading_undated_events":"Időpont nélküli események betöltése","message_participants":{"all_groups":"Összes csoport","all_users":"Összes felhasználó","message_groups":"Üzenet a csoportoknak","message_label":"Üzenet:","message_students":"Üzenet a hallgatóknak","registered_groups":"Csoportok, akik már feliratkoztak","registered_users":"Felhasználók, akik már feliratkoztak","send_message_to":"Üzenetküldés a következőnek...","unregistered_groups":"Csoportok, akik nem iratkoztak még fel","unregistered_users":"Felhasználók, akik nem iratkoztak még fel"},"messages_sent":"Üzenet elküldve","name_is_required":"A név megadása kötelező!","no_dates_error":"Meg kell adnia legalább egy dátumot és időt","no_groups":"Nem találhatóak csoportok","no_users":"Nincsenek ilyen felhasználók","open_appointment_on_this_day":"Van egy nyitott megbeszélése ezen a napon","prompts":{"delete_assignment":"Biztos benne, hogy törli ezt a feladatot?","delete_override":"Biztos benne, hogy törli ennek a feladatnak a felülbírálását?"},"reservation_over_limit_dialog":{"appointment_limit_reached":"Megbeszélés létszáma betelt","cancel_existing_reservation":"Lemondja a meglévő foglalását és feliratkozik inkább erre?","cancel_some_appointments_and_try_again":"Kérjük, mondja le egy másik foglalását és próbálja újból!","would_you_like_to_cancel_that_and_sign_up_for_this":"Le szeretné mondani azt és helyette feliratkozni erre?","you_are_already_signed_up_for":"Már feljelentkezett erre:"},"time_block_errors":"Az Ön idősávválasztása hibás.","time_block_row":{"date_label":"Dátum","delete_link":"Idősáv törlése","end_time_label":"Záró időpont","start_time_label":"Kezdési idő"},"titles":{"edit_event":"Esemény szerkesztése"},"today":"Ma","undated_events":{"loading_undated_events":"Időpont nélküli elemek betöltése...","no_undated_events":"Nincsenek időpont nélküli elemek.","show_undated_events":"Időpont nélküli elemek megjelenítése"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "EditAppointmentGroupDetails",
+  function() { return {"max_users_groups_per_appointment_867c505b":"Maximális felhasználók/csoportok megbeszélésenként","maximum_number_of_appointments_a_participant_can_a_70dfd6cd":"Megbeszélések maximális száma, amin egy résztvevő részt vehet","minutes_per_slot_5b7169e5":"perc / slot"} },
+  function() { return {"affect_reservations":"Ez hogyan fogja befolyásolni a foglalásokat?","and_n_contexts":"és %{n} másik ember","and_n_sectionCodes":"és %{n} másik ember","bad_max_appts":"Legalább egy megbeszélést engedélyeznie kell résztvevőnként","bad_per_slot":" Legalább egy megbeszélést engedélyeznie kell időpontonként","context_required":"Ki kell választania egy naptárat","select_calendars":"Naptárak kiválasztása"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "appt_calendar_event_dialog",
+  function() { return {"you_must_allow_at_least_one_group_to_attend_68531eab":"Legalább egy csoportnak engedélyeznie kell a részvételt"} },
+  function() { return {"invalid_participants":"Legalább egy felhasználónak engedélyeznie kell a részvételt","title":"%{name} szerkesztése","update":"Frissítés"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "react_scheduler",
+  function() { return {"find_appointment_85d6922e":"Találjon megbeszélés-időpontot"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "collaborations",
+  function() { return {"collaboration_creation_failed_95ff831f":"Az együttműködési forma létrehozása sikertelen","collaboration_update_failed_eb6622f3":"Az együttműködés frissítése sikertelen","collaboration_was_deleted_9cf9934b":"Az együttműködési forma törlésre került"} },
+  function() { return {"collaboration":{"delete":"Biztos benne, hogy törölni szeretné ezt az együttműködési formát?"},"collaborator_picker":{"labels":{"available_groups":"Elérhető csoportok","available_users":"Elérhető felhasználók","collaborate_with":"Együttműködés vele/velük:","collaboration_members":"Együttműködő tagok","groups":"Csoportok","loading":"Töltődik","people":"Résztvevők","remove_all":"Összes eltávolítása"},"member_instructions":"Kattintson vagy koppintson egy felhasználóra vagy csoportra a bal oldali oszlopban, hogy hozzáadhassa az Együttműködőkhöz."},"edit":{"buttons":{"cancel":"Mégse","update":"Együttműködés frissítése"},"labels":{"description":"Leírás:","title":"Együttműködés címe"}},"errors":{"no_name":"Kérjük, adjon nevet ennek az együttműködési formának","title_too_long":"Kérjük, a név megadásánál legfeljebb %{maxLength} karaktert használjon. A többi tartalom megadásához használhatja a leírás mezőt."},"titles":{"delete":"Együttműködés törlése?"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "conferences",
+  function() { return {"add_conference_7bcc625b":"Konferencia hozzáadása","add_conferencing_9f4ccded":"Konferencia hozzáadása","add_name_db699e72":"%{name}hozzáadása","add_toolname_4e17dc90":"%{toolName}hozzáadása","are_you_sure_you_want_to_delete_this_recording_a4aab14b":"Biztos, hogy törölni akarja ezt a felvételt?","conference_36b50fda":"Konferencia","conference_was_deleted_30869390":"A konferenciát törölték","count_recording_5ba8a655":"%{count} felvétel","count_recordings_9f8e4148":"%{count} felvétel","edit_conference_title_6e234815":"\"%{conference_title}\" szerkesztése","new_conference_8b483024":"Új konferencia","pick_the_date_and_time_for_the_following_conferenc_e9f91edd":"Dátum és idő választása a következő konferenciabeállításhoz:","recording_was_deleted_b989eaff":"A felvétel törölve lett","sorry_the_action_performed_on_this_recording_faile_2a1badda":"Sajnos nem sikerült a felvételen végrehajtott művelet. Próbálja újra később!"} },
+  function() { return {"concluded_conference":{"delete":"Törlés","recording":"1 felvétel","recordings":"%{recordingCount} felvétel","settings":"Beállítások","type":"%{type}"},"confirm":{"close":"Biztos benne, hogy befejezi a videokonferenciát?\n\nKésőbb már nem tudja újra megnyitni.","delete":"Biztos benne, hogy törli ezt a konferenciát?"},"edit_conference_form":{"advanced_settings":"Speciális beállítások kezelése...","conference_type":"Típus","description":"Leírás","duration":"Időtartam","duration_in_minutes":"perc","invite_all":{"course":"Összes kurzus tag meghívása","group":"Összes csoporttag meghívása"},"long_running":"Nincs időkorlát (hosszú konferenciákhoz)","members":"Tagok","name":"Név","options":"Beállítások"},"loading_urls_message":"Betöltés folyamatban, kérjük, várjon...","multiple_urls_message":"Több %{type} oldal is elérhető a konferenciához. Kérjük, válasszon egyet:","new_conference":{"delete":"Törlés","edit":"Szerkesztés","end_it_now":"Vége","in_progress":"Folyamatban","join":"Csatlakozás","recording":"1 felvétel","recordings":"%{recordingCount} felvétel","settings":"Beállítások","start":"Kezdés","type":"%{type}"},"no_concluded_conferences":"Nincsenek befejeződött konferenciák","no_new_conferences":"Nincsenek új konferenciák","no_urls_error":"Sajnos, ehhez a konferenciához még nem tartozik %{type} oldal.","notifications":{"inaccessible":"Figyelem! Ezen az oldalon harmadik féltől származó tartalom található, ami nem lesz elérhető a képernyő-felolvasó programok számára."}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "content_exports",
+  function() { return {"your_content_has_been_exported_bbb57764":"A tartalmat exportáltuk."} },
+  function() { return {"buttons":{"process":"Adat feldolgozása"},"errors":{"error":"Hiba történt a tartalom exportálása közben. Lépjen kapcsolatba rendszergazdájával, és továbbítsa az export azonosítóját: \"%{code}\""},"messages":{"processing":"Feldolgozás","this_may_take_a_bit":"ez eltarthat egy ideig..."}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "content_migrations",
+  function() { return {"beginning_date_2d2a29ac":"Kezdődátum","change_beginning_date_to_39dbd06e":"Kezdődátum mósosítása","change_ending_date_to_d2cebd54":"A záródátum megváltoztatása erre ","content_migration_queued_46c27790":"A tartalom migrálása várakozik","ending_date_e1ea13a4":"Záródátum","file_not_available_1869c733":"fájl nem elérhető","importing_course_content_into_the_same_course_will_b09c69e":"A kurzustartalom importálása azonos kurzusba a tartalom duplikálását eredményezi az első alkalommal és a duplikálásokat pedig felülírja, ha megismétli.","pre_processing_92865c1d":"Előfeldolgozás","select_content":"Tartalom kiválasztása","waiting_for_selection_ce0398c7":"Várakozás a kiválasztásra","you_must_select_a_course_to_copy_content_from_e7bd9e09":"Kurzus kiválasztása a tartalom másolásához"} },
+  function() { return {"canvas_export":{"content":"Tartalom","options":"Beállítások"},"common_cartridge":{"content":"Tartalom","options":"Beállítások"},"content_migration":"Tartalommigrálás","content_migration_issue":{"error_report":"Hibajelentés"},"copy_course":{"content":"Tartalom","options":"Beállítások"},"external_tool_content":{"content":"Tartalom"},"file_required":"Ki kell választania egy fájlt a tartalom importálásához","file_too_large":"A migráció mérete nem haladhatja meg a %{file_size} fájlméretet","hide_issues":"Problémák elrejtése","issues":"Problémák","loading":"Töltődik...","migration_converter":{"cancel_migration":"Mégse","default_option":"Válasszon egyet","header":"Tartalom importálása","import_from_label":"Tartalom típusa ","import_migration":"Importálás"},"moodle_zip":{"content":"Tartalom","options":"Beállítások"},"no_content_selected":"Még semmilyen tartalmat sem választott az importáláshoz.","no_day_substitutions":"Nincs nap helyettesítés hozzáadva","no_migrations_running":"Jelenleg nem zajlik migráció","progressing_content_migration":{"issues_text":"Problémák","select_content":"Tartalom kiválasztása","show_issues":"Problémák megjelenítése"},"progressing_content_migration_collection":{"no_items":"Nincs job ütemezve","progress_label":"Jelenlegi jobok"},"progressing_issues":{"loading":"Töltődik"},"qti_zip":{"options":"Beállítások"},"select_content":{"cancel_btn":"Mégse","select_content_btn":"Tartalom kiválasztása","select_content_label":"Válassza ki a tartalmat. Használja a fel és le nyilakat a fán való navigáláshoz. Nyomja meg a jobbra nyilat a kinyitáshoz és a balra nyilat az összecsukáshoz."},"show_issues":"Problémák megjelenítése","subviews":{"choose_migration_file":{"migration_text":"Forrás"},"course_find_select":{"course_name":"Kurzus neve","include_completed_courses":"A befejezett kurzusokat is beleértve","or":"vagy","search_label":"Kurzus keresése","select_default":"Kurzus kiválasztása"},"date_shift":{"add_day_sub_title":"Nap helyettesítés hozzáadása","beginning_change_to":"módosítás erre:","beginning_date":"Kezdődátum","checkbox_label":"Események és határidők igazítása","date_adjustment":"Dátumigazítás","ending_change_to":"módosítás erre:","ending_date":"Záródátum","remove_dates":"Dátumok eltávolítása","shift_dates":"Dátumok eltolása","substitution":"helyettesítés"},"day_substitution":{"move_from":"Mozgatás innen ","move_from_select_label":"Eltávolítás a hét napjáról","move_from_select_title":"Eltávolítás a hét napjáról","move_to_select_label":"Mozgatás a hét napjára","move_to_select_title":"Mozgatás a hét napjára","remove_day_substitution_link":"Nap helyettesítés eltávolítása","remove_day_substitution_link_label":"Nap helyettesítés eltávolítása","to_happen_on":"-"},"external_tool_launch":{"course":"Kurzus","find_a_course":"Kurzus keresése"},"folder_picker":{"default_select_folder":"Mappa kiválasztása","upload_to":"Feltöltés ide"},"import_quizzes_next_view":{"import_new_quizzes":"Értékelés tartalmának importálása Új kvízekként","import_new_quizzes_help_text":"Az Új kvízek a Canvas új értékelőmotorja. %{p_p} Ha többet szeretne tudni erről, lépjen kapcsolatba a rendszeradminisztrátorral vagy látogasson el a következő oldalra:","import_quizzesNext_help_label":"Értékelés tartalmának importálása Új kvízekként súgó ikonja","import_quizzesNext_help_title":"Új kvízek","import_quizzesNext_help_title_icon":"Értékelés tartalmának importálása Új kvízekként súgó ikonja"},"overwrite_assessment_content":{"assessment_help_label":"Értékelés felülírás súgó ikonja","assessment_help_text":"Néhány rendszer újrahasználja az azonosítóit minden egyes új exportálás alkalmával. Ennek eredményeképpen, ha exportál két kérdésbankot, azoknak ugyanolyan azonosítói lesznek. Az adatvesztés megakadályozása érdekében mi ezeket az objektumokat különállóként kezeljük az azonosítók ellenére. Ennek az opciónak a kiválasztásával ez a biztonsági funkció letiltásra kerül és engedélyezve lesz, hogy az értékelési adatok felülírjanak létező adatokat megegyező azonosítóval.","assessment_help_title":"\"Értékelés felülírás súgó\"","assessment_help_title_icon":"Értékelés felülírás súgó ikonja","overwrite_assessment_content":"Értékelések tartalmának felülírása egyező azonosítóval"},"question_bank":{"aria_new_label":"Új kérdésbank létrehozása","create_new_question":"-- Új kérdésbank létrehozása --","default_question_bank_label":"Alapértelmezett kérdésbank","question_bank_placeholder":"Kérdésbank neve","question_bank_placeholder_aria":"Új kérdésbank neve","question_bank_title":"Új kérdésbank neve","question_banks_disabled":"Ez az opció le van tiltva","select_question_bank":"Kérdésbank kiválasztása"},"select_content_checkbox":{"select_all_content":"Összes tartalom","select_specific_content":"Adott tartalom kiválasztása "}},"upload_warning":"Ha elnavigál az oldalról, a feltöltési folyamat megszakad.","uploading":"Feltöltés..."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "count_sub_modules_3373a1c4",
+  null,
+  function() { return {"one":"%{count} almodul","other":"%{count} almodul"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "progressbar_view",
+  function() { return {"content_migration_running_percent_complete_4b00c024":"A tartalommigrálás folyamatban, %{percent}% kész"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "content_share",
+  function() { return {"pending_3e506a5b":"Függőben lévő","shared_content_803ac37b":"Megosztott tartalom"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "direct_share_course_import_panel",
+  function() { return {"import_started_successfully_a3467411":"Az importálás sikeresen elindult"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "context_modules",
+  null,
+  function() { return {"module_complete":"Kész","module_locked":"Zárolt","module_started":"Folyamatban","module_unlocked":"Megkezdetlen"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "modules_home_page",
+  function() { return {"complete_registration_by_clicking_the_finish_the_r_fcd13ac8":" A regisztráció befejezéséhez kattintson az e-mailben kiküldött \"Regisztrációs folyamat befejezése\" linkre.","create_a_new_module_6f31b0fe":"Új modul létrehozása"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "context",
+  null,
+  function() { return {"roster_user":{"confirm":{"conclude":"Biztosan le szeretné zárni a beiratkozást?","delete_enrollment":"Biztos benne, hogy törli ezt a beiratkozást?"},"enrollment_change_failed":"A beiratkozási jogosultság módosítása sikertelen, kérjük, próbálja újra"},"roster_user_usage":{"loading_more_results":"További találatok betöltése"},"undelete_index":{"are_you_sure":"Biztos benne, hogy vissza akarja állítani ezt az elemet: %{item_name}?","restore_failed":"sikertelen helyreállítás","restoring":"helyreállítás... "}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "last_attended",
+  function() { return {"last_day_attended_b72d623c":"Az utolsó részvételi nap"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "conversations",
+  function() { return {"archive_selected_d64506ca":"Archívum kiválasztva","no_subject_58b7941c":"Nincs tárgy","not_starred_no_subject_click_to_star_adfefe93":"'Nincs csillagozva \"(Nincs tárgy)\", Kattintson a csillagozáshoz.","not_starred_no_subject_click_to_star_dc91380":"'Nincs csillagozva \"(Nincs tárgy)\", Kattintson a csillagozáshoz.","open_message_d7b12975":"Üzenet megnyitása","remove_recipient_name_a6b83cef":"%{name} nevű címzett eltávolítása","select_course_a_selection_is_required_before_recip_f622d9df":"Kurzus kiválasztása: a kijelölést az előtt kell elvégezni, mielőtt a címzettek mezője láthatóvá válna","starred_no_subject_click_to_unstar_3191d64":"Csillagozva \"(Nincs tárgy)\", Kattintson a csillag eltávolításához.","starred_no_subject_click_to_unstar_bff04bce":"Csillagozva \"(Nincs tárgy)\", Kattintson a csillag eltávolításához.","unarchive_selected_e0c4bd3d":"Archiválás visszavonása kiválasztva"} },
+  function() { return {"add_attachment":{"titles":{"attachment":"Csatolandó fájl","remove_attachment":"Melléklet eltávolítása"}},"all_courses":"Összes kurzus","all_in_context":"Minden ebben: %{context}","archive":"Archívum","autocomplete_result":{"group_people":"Résztvevők: %{people}","no_results":"Nincsenek eredmények"},"back":"Vissza","cannot_add_to_private":"Nem adhat hozzá résztvevőket egy magán célú üzenetváltáshoz.","compose_button_bar":{"titles":{"add_attachment":"Egy melléklet hozzáadása","record_media_comment":"Vegyen fel hang- vagy videomegjegyzést"}},"compose_title_bar":{"buttons":{"close":"bezárás"}},"confirm":{"delete_message":"Biztos benne, hogy törli az üzenet másolatát? Ezt a műveletet nem lehet visszavonni."},"context_message":{"labels":{"less":"kevesebb...","more":"több információ..."}},"course_options":{"course_options":{"concluded":"Befejeződött","favorite":"Kedvenc kurzusok","groups":"Csoportok","more_courses":"Több kurzus"}},"hide":"Elrejt","message_detail":{"delete":"Törlés","forward":"Továbbítás","more_options":"További lehetőségek","no_subject":"Nincs tárgy","reply":"Válasz","reply_all":"Válasz mindenkinek"},"message_form_dialog":{"body":"Szövegtörzs","comboboxInstructions":"Címzett: (Kezdjen el gépelni a címzettek kiválasztásához. Nyomja meg a lefele nyilat, az eredmények közti navigációhoz. Ha nem talál elfogadható opciót, beírhat egy alternatívát.)","headings":{"new_message":"Új üzenet"},"inbox_actions":{"add_people":"Résztvevők hozzáadása"},"labels":{"add_to_faculty_journal":"Intézményi hírlevél bejegyzésként való hozzáadás","attachments":"Mellékletek","course":"Kurzus","select_course":"Kurzus kiválasztása","subject":"Tárgy","to":"Címzett"},"links":{"media_comment":"Felvétel"},"media_comment":"Hang/videó alapú megjegyzés","no_course":"Nincs kurzus","no_subject":"Nincs tárgy","search_names_groups_courses":"Keresés a nevek, csoportok és kurzusok között","send_individual_messages":"Egyedi üzenet küldése minden résztvevőnek","titles":{"media_comment":"Felvett hang/videó alapú megjegyzés","record_media_comment":"Vegyen fel hang- vagy videómegjegyzést","remove_media_comment":"Hang/videó alapú megjegyzés eltávolítása"}},"message_item":{"delete":"Törlés","forward":"Továbbítás","more_options":"További lehetőségek","reply_all":"Válasz mindenkinek"},"message_list":{"messages":"Üzenetek"},"more_participants":"további +%{total} ","no_message":{"batch_selected":"Több üzenetváltás van kiválasztva","no_conversations_selected":"Nincs üzenetváltás kiválasztva"},"no_results_found":"Nincs találat","result_status":"Az automatikus kiegészítés %{results} elemet listáz, használja a fel és le nyíl gombokat, hogy elnavigáljon egy listaelemhez, majd nyomja meg az entert hogy hozzáadja a felhasználót a címzettek mezőhöz.","star":"Csillagozás","submission_comment_form_dialog":{"body":"Szövegtörzs"},"unarchive":"Archiválás visszavonása","unstar":"Csillagozás eltávolítása"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "are_you_sure_you_want_to_delete_your_copy_of_these_f04442ed",
+  null,
+  function() { return {"one":"Biztos benne, hogy törli az üzenetváltás másolatát? Ezt a műveletet nem lehet visszavonni.","other":"Biztos benne, hogy törli az üzenetváltások másolatát? Ezt a műveletet nem lehet visszavonni."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "conversation_dialog",
+  function() { return {"invalid_recipient_name_56b22b86":"Érvénytelen résztvevőnév."} },
+  function() { return {"message_sent":"Üzenet elküldve!","no_course":"Nincs kurzus","select_course":"Kurzus kiválasztása "} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "buttons",
+  null,
+  function() { return {"cancel":"Mégse","choose_a_file":"Fájl kiválasztása","delete":"Törlés","delete_file":"Ezen fájl törlése: %{name}","done":"Kész","import":"Importálás","login":"Belépés","save":"Mentés","send":"Küldés","submit":"Küldés","update":"Frissítés"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "SearchableSubmenuView",
+  function() { return {"below_this_search_field_is_a_list_of_content_type__58aaa03f":"Ezalatt a keresőmező alatt egy %{content_type} lista van. Ahogy gépeli a szöveget, a lista szűrésre kerül az Ön lekérdezése alapján. A üzenetek az Ön által kiválasztott opciók alapján lesznek szűrve."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "there_are_count_results_in_the_list_e74f6e36",
+  null,
+  function() { return {"one":"1 eredmény van a listában.","other":"%{count} eredmény van a listában."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradinggradingPeriodCollection",
+  function() { return {"there_was_a_problem_deleting_the_grading_period_50ce07c5":"Probléma adódott az osztályzási időszak törlése közben","there_was_a_problem_fetching_periods_bdc09a8f":"Probléma adódott az időszakok összegyűjtése közben","updating_6edbab78":"Frissítés"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradingPeriodTemplate",
+  function() { return {"delete_grading_period_dba36e59":"Osztályzási időszak törlése","grading_period_name_31ceb3e3":"Osztályzási időszak neve","weight_9b308e5b":"Súly"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "link_validator",
+  function() { return {"an_error_occured_please_try_again_e59b65b":"Hiba történt. Kérem, próbálja újra. ","quiz_question_1da5198e":"Kvízkérdés","restart_link_validation_b61286fc":"Hivatkozás-ellenőrzés újrakezdése","show_links_to_unpublished_content_30c0450d":"Tartalom visszavonásához tartozó link megjelenítése","start_link_validation_dc0ac99c":"Hivatkozás-ellenőrzés megkezdése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "course_list",
+  null,
+  function() { return {"favorited_tooltip":"Kattintson a kurzusok menüjéből való eltávolításhoz.","nonfavorited_tooltip":"Kattintson a kurzusok menüjébe való hozzáadáshoz."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "course_paces_module",
+  function() { return {"warning_6576b5b8":"figyelmeztetés"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "unpublished_warning_modal",
+  function() { return {"keep_editing_11ff42e5":"Szerkesztés folytatása"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "unpublished_changes_button_props",
+  function() { return {"all_changes_published_27a53ffd":"Minden változtatás közzétéve"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "course_settings",
+  function() { return {"a_sync_is_currently_running_please_wait_for_curren_55ccf501":"Egy szinkronizálás jelenleg fut. Kérjük, várja meg, amíg az aktuális szinkronizálás befejeződik, mielőtt másikat kezdene.","edit_course_role_3b992fc2":"Kurzusszerep szerkesztése","integration_error_44a52be4":"Integrációs hiba","integrations_cadb03f3":"Integrációk","never_1ed1244d":"soha","role_successfully_updated_4317e6a4":"A szerep sikeresen frissítve","something_went_wrong_updating_the_user_s_role_plea_5de95400":"Hiba történt a felhasználó szerepének frissítése közben. Kérjük, próbálja újra később."} },
+  function() { return {"buttons":{"add_section":"Szekció hozzáadása","adding_section":"Szekció hozzáadása...","re_sending_all":"El nem fogadott meghívók újraküldése...","re_sent_all":"Minden el nem fogadott meghívó újra el lett küldve!"},"cancel":"Mégse","confirm":{"delete_section":"Biztos benne, hogy törli ezt a szekciót?"},"edit_sections_placeholder":"Adjon meg egy szekció nevet","edit_sections_title":"Szekciónév","errors":{"invitation":"A meghívás sikertelen. Kérjük, próbálja újra.","re_send_all":"A küldés sikertelen, kérjük, próbálja újra","section":"Szekció hozzáadása sikertelen, próbálja újra"},"flash":{"invitation":"Meghívó elküldve.","linkError":"Hiba történt a felhasználó hallgató hivatkozásainak frissítése közben. Kérjük, próbálja újra később!","links":"A hallgató hivatkozásainak frissítése sikeres","sectionError":"Hiba történt a felhasználó szekciójának frissítésekor. Kérjük, próbálja újra később.","sections":"Szekcióbeiratkozások sikeresen frissítve"},"invitation_sent":"Meghívó elküldve!","invitation_sent_now":"Éppen most","link_students_placeholder":"Adja meg a hallgató nevét","links":{"fewer_options":"kevesebb lehetőség","more_options":"további lehetőségek","re_send_all":"Küldje el újra az összes el nem fogadott meghívót","re_sending_invitation":"Meghívó újraküldése..."},"re_send_invitation":"Meghívó újraküldése","remove_user_from_course_section":"Felhasználó eltávolítása innen: %{course_section}","titles":{"link_to_students":"Hivatkozás hallgatókra","move_course":"Kurzus mozgatása","reset_course_content_dialog_help":"Kurzustartalom alaphelyzetbe állítása","section_enrollments":"Szekcióbeiratkozások"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "actions",
+  function() { return {"there_was_an_error_removing_the_image_c83acffe":"Hiba lépett fel a kép eltávolítása közben","there_was_an_error_retrieving_the_course_image_d7ea094d":"Hiba lépett fel egy kurzus képének visszakeresése közben","there_was_an_error_uploading_the_image_932fc4ce":"Hiba lépett fel a kép feltöltése közben","type_is_not_a_valid_image_type_try_jpg_png_or_gif_1c109633":"'%{type}' nem egy érvényes képtípus (jpg, png, vagy gif fájlokat használjon)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "CourseAvailabilityOptions",
+  function() { return {"end_78c581cd":"Vége","start_5a4cfcd6":"Kezdés"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "course_images",
+  function() { return {"choose_image_242f727e":"Kép kiválasztása","choose_image_e5ee5d7a":"Kép választása","course_image_settings_eba3ec55":"Kurzuskép szerkesztése","flickr_9bed633e":"Flickr","remove_image_341340b3":"Kép eltávolítása","unsplash_ee049fbf":"Unsplash","upload_image_6120b609":"Kép feltöltése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "flickr_search",
+  function() { return {"search_flickr_6f28b02e":"Flickr keresése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "courses_show",
+  function() { return {"choose_home_page_80cef4ee":"Kezdőlap kiválasztása"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "course_statistics",
+  null,
+  function() { return {"unknown":"ismeretlen"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "course_wizard",
+  function() { return {"add_course_assignments_628ed6d0":"Kurzusfeladat hozzáadása","add_course_calendar_events_146154a5":"Események hozzáadása a kurzusnaptárba","add_files_to_the_course_da6ffd32":"Fájlok hozzáadása a kurzushoz","add_students_to_the_course_874be8fb":"Hallgatók hozzáadása a kurzushoz","add_tas_to_the_course_2aac6e02":"Segédoktatók hozzáadása a kurzushoz","add_your_assignments_you_can_just_make_a_long_list_8a7862dd":"Feladatok hozzáadása. Egy hosszú listába, vagy akár csoportokba szervezheti ezeket - és még súlyokat is rendelhet az egyes feladatcsoportokhoz.","all_finished_time_to_publish_your_course_click_the_b6f07217":"Mindennel elkészült? Akkor ideje publikálnia a kurzusát! Kattintson a lenti gombra a publikáláshoz! A publikálás után a hallgatók már hozzá is férhetnek a kurzushoz.","by_default_all_links_are_enabled_for_a_course_stud_8e617dbc":"A kurzusoknál alapértelmezetten minden hivatkozás engedélyezve van a menüben. Azonban a hallgatók nem fogják látni azokat a hivatkozásokat, amelyek olyan elemekre mutatnak, amelyekben nincs tartalom. Például, ha Ön nem hozott létre egyetlen egy kvízt sem, akkor a kvízek hivatkozás nem fog megjelenni a menüben. Önnek lehetősége van arra, hogy megváltoztassa a hivatkozások sorrendjét, és akár ki is tudja kapcsolni ezeket a hivatkozásokat, ha vannak olyan részei a kurzusnak, amelyekhez nem szeretné, hogy a hallgatói hozzáférjenek.","choose_a_course_home_page_8059c7b":"Kurzus kezdőlapjának megadása","close_and_return_to_canvas_80544344":"Bezárás és a munka folytatása","course_setup_wizard_is_showing_a7c087c1":"A kurzusbeállító varázsló látszódik.","great_so_you_ve_got_a_course_now_what_well_before__38cfba67":"Szuper, most már van egy kurzusa! Mi a következő lépés? Nos, mielőtt publikálja a kurzusát, érdemes ellenőriznie, hogy megfelelően előkészítette-e azt. A bal oldali lista segít annak eldöntésében, hogy a kurzusa készen áll-e a használatra.","here_s_a_great_chance_to_get_to_know_the_calendar__187ce49":"Itt a remek alkalom arra, hogy megismerkedjen a Naptár lehetőségeivel és hozzáadjon egy eseményt a kurzushoz. Ne aggódjon,segítünk! A feladatok határidejét nem kell felvennie, azok automatikusan bekerülnek a naptárba.","if_you_ve_been_using_another_course_management_sys_67edfab1":"Ha már használt egy másik kurzusmenedzsment rendszert, bizonyára vannak ott olyan anyagai, amelyeket át szeretne mozgatni a Canvasba. Itt végigvezetjük ezen a folyamaton, hogy minél egyszerűbben migrálhassa a kívánt tartalmakat.","import_content_b2fd6620":"Tartalom importálása","item_complete_d334fd43":"(Kész elem) ","item_incomplete_d6a16040":"(Befejezetlen elem)","loaded_more_collaborations_13f1d630":"Több együttműködés betöltve","my_dashboard_b724020":"A vezérlőpultom","next_steps_ce0f0d0c":"Következő lépések","now_that_your_course_is_set_up_and_available_you_p_c0c8635c":"A kurzus fel lett töltve és elérhetővé vált, így lehet, hogy erre az ellenőrzőlistára nincs többé szüksége. Ennek ellenére a lehetőség továbbra is megmarad arra, hogy új elemekkel bővítse a kurzust, vagy segítséget kapjon a kurzus módosítására vonatkozóan.","publish_the_course_f2f6ef80":"Kurzus publikálása","select_navigation_links_68e1e924":"Navigációs linkek kiválasztása","setup_checklist_eb8b00b8":"Beállítási ellenőrzőlista","the_files_tab_is_the_place_to_share_lecture_slides_95a93bce":"A Fájlok menüpont arra való, hogy megosszunk előadás diákat, dokumentumokat, tanulási segédleteket - bármit, aminek letöltése hasznos lehet a hallgatók számára. A fájlok feltöltése és rendszerezése elég egyszerű a Canvasban. Megmutatjuk, hogyan.","this_course_is_claimed_and_ready_but_you_ll_need_t_25b95a0a":"A kurzus elkészült, de be kell fejeznie a regisztrációt, mielőtt nyilvánossá teheti a kurzust. Kapnia kellett egy e-mailt a Canvastól egy linkkel, amivel befejezheti a regisztrációt. Ellenőrizze a spam mappát is.","this_course_is_visible_only_to_teachers_until_it_i_ce972f0":"Csak az oktatók láthatják ezt a kurzust, amíg nincs publikálva.","when_people_visit_the_course_this_is_the_page_they_de94acc2":"Amikor a felhasználók belépnek a kurzusba, ezt az oldalt fogják látni. Beállíthatja, hogy a hírfolyamot, a kurzusmoduljait, a tematikát vagy egy testreszabott oldalt mutasson. A hírfolyam az alapértelmezett beállítás.","you_do_not_have_permission_to_publish_this_course_ff361c82":"Nincs jogosultsága a kurzus publikálásához. ","you_ll_definitely_want_some_of_these_what_s_the_fu_f4f3578b":"Erre biztosan szüksége lesz, hiszen nem lenne jó úgy elindítani a kurzust, hogy nincs hallgatóság, ugye?","you_may_want_to_assign_some_tas_to_help_you_with_t_702244aa":"Érdemes néhány olyan segédoktatót  hozzárendelni a kurzushoz, akik segíthetnek a kurzus lebonyolításában. A segédoktatók értékelhetik a hallgatók beadandóit, segíthetnek a fórumok moderálásában, frissíthetik a határidőket és a feladatok tulajdonságait is."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "dashboard",
+  function() { return {"card_view_eaf73185":"Kártyanézet","color_overlay_fb5ecce7":"Színes réteg","list_view_430aecce":"Listanézet","recent_activity_51239235":"Legutóbbi tevékenységek"} },
+  function() { return {"announcements_collapse":{"one":"%{count} hirdetmény összecsukása","other":"%{count} hirdetmény összecsukása"},"announcements_expand":{"one":"%{count} hirdetmény lenyitása","other":"%{count} hirdetmény kinyitása"},"assignments_collapse":{"one":"%{count} feladatértesítő összecsukása","other":"%{count} feladatértesítő összecsukása"},"assignments_expand":{"one":"%{count} feladatértesítő lenyitása","other":"%{count} feladatértesítő kinyitása"},"confirm":{"close":"Biztos benne, hogy befejezi a videokonferenciát?\n\nKésőbb már nem tudja újra megnyitni."},"conversations_collapse":{"one":"%{count} üzenetváltás összecsukása","other":"%{count} üzenetváltás összecsukása"},"conversations_expand":{"one":"%{count} üzenetváltás lenyitása","other":"%{count} üzenetváltás kinyitása"},"discussions_collapse":{"one":"%{count} fórum összecsukása","other":"%{count} fórum összecsukása"},"discussions_expand":{"one":"%{count} fórum lenyitása","other":"%{count} fórum kinyitása"},"show_more_link":{"show_less":"Kevesebb megjelenítése","show_more":"Több információ megjelenítése"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "external_content",
+  function() { return {"all_items_marked_processed_have_been_saved_by_canv_7045295a":"Az összes „feldolgozva” megjelölésű elemet a Canvas elmentette.","field_9ec0ec01":"Mező"} },
+  function() { return {"cancel":{"popup_failure":"A szülőablak nem található, csukja be kézzel ezt a felugró ablakot.","popup_success":"Elvetve. Ennek a felugró ablaknak magától el kellene tűnnie..."},"success":{"content_failure":"A tartalomlekérés sikertelen, kérjük, próbálja újra vagy értesítse a rendszeradminisztrátorát a hibáról.","oembed_failure":"A tartalomlekérés sikertelen, kérjük, próbálja újra vagy értesítse a rendszeradminisztrátorát a hibáról.","popup_success":"Sikerült! Ennek a felugró ablaknak el kellene tűnnie magától..."}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "react_developer_keys",
+  function() { return {"a_json_url_is_required_please_supply_one_ed03101c":"Json URL szükséges, kérjük, adjon meg egyet!","a_redirect_uri_is_required_please_supply_one_471908db":"A redirect_uri megadása szükséges, kérjük, adjon meg egyet!","additional_settings_20362654":"További beállítások","allow_bb7ce9b1":"Engedélyezés","allow_include_parameters_bf3d3230":"Paraméterek belefoglalása","api_key_eeeb2167":"API Kulcs","are_you_sure_you_want_to_delete_this_developer_key_9937481a":"Biztos, hogy törli ezt a fejlesztői kulcsot?","canvas_3962b702":"Canvas","description_61f4296":"* Leírás","developer_key_921ddbae":"Fejlesztői kulcs","edit_this_key_1ee53473":"Kulcs szerkesztése","field_cannot_be_blank_afb5b332":"A mező nem lehet üres.","icon_url_ecce6557":"Ikon URL:","key_name_7311d22":"Kulcsnév:","key_settings_44df6a41":"Kulcsbeállítások","lti_1_3_configuration_c3534f3b":"LTI 1.3 konfiguráció","lti_advantage_services_c1746cb4":"LTI - Előnyös szolgáltatások","lti_key_14ad02b1":"LTI - Kulcs","missing_required_fields_please_fill_in_all_require_1e10b2e9":"Néhány kötelező mező hiányzik. Kérjük, mindet töltse ki!","no_email_8585ad7e":"Nincs e-mail","notes_6cfc3988":"Jegyzetek:","off_5385ef3f":"Kikapcsolt","on_8f7190e5":"Bekapcsolt","owner_email_4d02f795":"Tulajdonosi e-mail:","public_jwk_ee2d719d":"Nyilvános JWK","redirect_uri_legacy_b32323d3":"Átirányítási URI (Legacy)","redirect_uris_a54bd82f":"Átirányítási URI-k:","stats_9272cef3":"Statisztikák","title_f8e03596":"* Cím","unnamed_tool_961cb95b":"Névtelen eszköz"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "developer_keys",
+  null,
+  function() { return {"button":{"saving":"Kulcs mentése...","saving_failed":"Kulcs mentése sikertelen"},"messages":{"confirm_delete":"Biztos, hogy törli ezt a fejlesztői kulcsot?"},"no_user":"Nincs felhasználó","unnamed_tool":"Névtelen eszköz"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "discussion_topics",
+  function() { return {"a_message_is_required_129e1814":"Az üzenet megadása kötelező","add_attachment_93868828":"Melléklet hozzáadása","allow_users_to_comment_45b8f753":"Felhasználói hozzászólások engedélyezése","delay_posting_this_topic_until_aa483eec":"Téma közlésének késleltetése eddig: ","discussion_topic_a7bf935":"Fórumtéma","discussion_topic_will_be_available_starting_at_46aa7477":"A fórumtéma ekkortól lesz elérhető: ","discussion_topic_will_be_available_until_f5e3abc8":"A fórumtéma eddig lesz elérhető: ","if_you_change_an_assignment_s_points_possible_you__25a0edad":"Ha megváltoztatja a feladatra adható lehetséges pontok számát, akkor az értékelését is újra kell gondolnia.","new_announcement_23af4598":"Új hirdetmény","new_discussion_dae4fae3":"Új fórum","title_is_too_long_must_be_under_length_characters_ab694ae4":"A cím túl hosszú, legfeljebb %{length} karakterből állhat"} },
+  function() { return {"cannot_unpublish_with_replies":"Nem lehet a publikálást visszavonni, ha vannak már hallgatói válaszok","default_discussion_title":"Nincs cím","edit_view":{" saving":"Mentés..."," topic_title":"Téma címe","allow_liking":"Lájkolás engedélyezése","allow_threaded_replies":"Engedélyezi a szálakba rendezett válaszokat","attachment":"Melléklet","available_from":"Elérhető ettől: ","buttons":{"save_and_publish":"Mentés és publikálás"},"delay_posting":"Bejegyzés időzítése","enable_podcast_feed":"Podcastfolyam engedélyezése","include_replies_in_podcast_feed":"Hallgatói válaszok beillesztése a podcast hírfolyamba","only_graders_can_like":"Csak az értékelők lájkolhatnak","options":"Beállítások","points_possible":"Elérhető pontok","post_at":"Bejegyzés közzététele ekkor:","save":"Mentés","sort_by_likes":"Sorba rendezés lájkok szerint","topic_title":"Téma címe","until":"Eddig","use_for_grading":"Értékelésbe beszámító","users_must_post_before_seeing_replies":"A felhasználóknak először bejegyzést kell írniuk ahhoz, hogy láthassák a válaszokat."},"group_discussion_locked":"A hallgatók már hozzászóltak ehhez a megbeszéléshez, úgyhogy a csoportbeállítások nem módosíthatóak.","group_discussion_title":"Csoportfórum","page_nav":{"Page":"Oldal","current_page":"Aktuális","first_page":"Első","last_page":"Utolsó"},"points_possible_number":"Az elérhető pontokat számmal kell megadni","published_button":{"buttons":{"not_published":"Nem publikált","published":"Publikált"}},"reply_count_tooltip":{"one":"1 válasz.","other":"%{count} válasz.","zero":"Nincsenek válaszok."},"this_is_a_group_discussion":"Ez egy csoportfórum","unread_count_tooltip":{"one":"1 olvasatlan válasz.","other":"%{count} olvasatlan válasz.","zero":"Nincs olvasatlan válasz."}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "discussions",
+  function() { return {"an_error_occurred_please_post_your_reply_again_lat_b0220ac6":"*Hiba történt*, kérjük, próbálja meg újból a válasz küldését","delete_disabled_3196ce47":"Törlés (letiltva)","edit_disabled_e6a5ea0a":"Szerkesztés (letiltva)","expand_subdiscussion_cd226ed4":"Alfórum kinyitása","you_must_log_in_to_view_replies_9ccd4da0":"Jelentkezzen be a válaszok megtekintéséhez"} },
+  function() { return {"are_your_sure_delete":"Biztos benne, hogy törli ezt a bejegyzést?","author_link":{"authors_name":"Szerző neve","unknown_author":"\u003eIsmeretlen szerző"},"deleted_entry":{"deleted":"*%{editor_name}* törölte %{edited_at}"},"discussion_participant":"Fórum-résztvevő","entry_collection_view":{"add_reply_to_topic":"Válasz hozzáadása a témához"},"entry_content":{"edited_comment":"*%{editor.display_name}* szerkesztette ekkor: %{edited_at}","go_to_parent":"Ugrás a szülőre","go_to_topic":"Ugrás a témára","like_entry":"Bejegyzés lájkolása","manage_discussion_entry":"Fórumbejegyzés kezelése","open_in_speedgrader":"Megnyitás a Gyorsértékelőben","write_a_reply":"Válasz"},"entry_stats":{"show_more":"Több információ megjelenítése"},"hide_due_dates":"Határidők elrejtése","like_count":{"one":"(%{count} lájk)","other":"(%{count} lájk)"},"mark_as_read":"Megjelölés olvasottként","mark_as_unread":"Megjelölés olvasatlanként","no_content":"Nincs tartalom","no_results":{"make_sure_all_search_terms_are_spelled_correctly":"Győződjön meg róla, hogy minden keresőszó helyesen van leírva","suggestions":"Javaslatok:","try_different_more_general_or_fewer_keywords":"Próbálja más, általánosabb vagy kevesebb kulcsszóval.","try_disabling_the_unread_filter":"Próbálja meg kikapcsolni az \"Olvasatlan\" szűrőt.","your_search_did_not_match_any_entries":"A keresése nem hozott találatot."},"participant":{"anonymous_user":"Névtelen"},"reply":{"saving_reply":"Válasz mentése..."},"reply_attachment":{"attachment_label":"Melléklet","remove_attachment":"eltávolítás"},"reply_form":{"attach_file":"Csatolás","cancel":"Mégse","post_reply":"Válasz közzététele","write_a_reply":"Válasz"},"results_entry":{"view_in_discussion":"Megtekintés a fórumban"},"show_all_n_replies":{"one":"1 válasz mutatása","other":"Az összes - %{count} - válasz mutatása"},"show_due_dates":"Határidők megjelenítése","this_student":"Ez a hallgató","uknown_author":"Ismeretlen szerző","unknown":"Ismeretlen","unknown_author":"Ismeretlen szerző"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "discussions_posts",
+  function() { return {"my_drafts_4e4ac1a6":"Vázlataim","search_entries_or_author_63fb0a86":"Bejegyzések vagy szerzők keresése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "sections_autocomplete",
+  function() { return {"a_section_is_required_64103992":"Egy szekció megadása kötelező","post_to_961f8937":"Közzététel itt","section_added_83879254":"%{section}hozzáadva","section_removed_2ac72a79":"%{section}eltávolítva"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "EntryEditor",
+  function() { return {"failed_to_save_please_try_again_later_bb7070fb":"A mentés sikertelen, kérjük, próbálja újra később"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignmentRubricDialog",
+  null,
+  function() { return {"loading":"Betöltés...","titles":{"assignment_rubric_details":"Feladat értékelőtáblájának részletei"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "discussionTopicKeyboradShortcutModal",
+  function() { return {"delete_current_message_5da0221a":"Jelen üzenet törlése","edit_current_message_da650d4c":"Jelen üzenet szerkesztése","next_message_780bcf24":"Új üzenet","previous_message_8804f87e":"Előző üzenet","reply_to_current_message_55391f5b":"Válasz az aktuális üzenetre","reply_to_topic_12412b0f":"Válasz a témában"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "keyboardShortcutModal",
+  function() { return {"press_the_esc_key_to_close_this_modal_14d10601":"Bezáráshoz nyomja meg az ESC gombot","users_of_screen_readers_may_need_to_turn_off_the_v_98811cd":"A képernyőfelolvasót használóknak ki kell kapcsolniuk a virtuális kurzort, hogy használhassák a billentyűparancsokat"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "discussions_v2",
+  function() { return {"add_discussion_653dab4c":"Fórum hozzáadása","closed_for_comments_e395b42f":"Nem fűzhető hozzá megjegyzés","duplication_failed_3351ffb1":"A duplikálás nem sikerült","move_discussion_9ff5b2d1":"Fórum áthelyezése","ordered_by_recent_activity_112d33d5":"Legutóbbi tevékenységek alapján rendezve","pinned_discussions_a55c0cea":"Rögzített fórumok","search_by_title_or_author_273a8f49":"Keresés cím vagy szerző szerint...","subscribe_failed_2eb62de0":"Sikertelen feliratkozás","to_close_comments_on_a_discussion_drag_a_discussio_85b27448":"A fórummegjegyzések kikapcsolásához húzza erre a területre a fórumot, vagy válassza ki a \"Nem fűzhető hozzá megjegyzés\" opciót a beállításoknál. ","to_pin_a_discussion_to_the_top_of_the_page_drag_a__bfe476c3":"Ahhoz, hogy az oldal tetején rögzítsen egy fórumot, húzza a fórumot ide vagy válassza ki a Rögzítés opciót a fórumhoz tartozó Beállítások menüben.","you_currently_have_no_discussions_with_closed_comm_366a9dab":"Önnek jelenleg nincs olyan fóruma, amelyben a hozzászólások le vannak tiltva.","you_currently_have_no_pinned_discussions_6f0078b8":"Önnek jelenleg nincs rögzített fóruma"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "shared_components",
+  function() { return {"allow_comments_a1f45d8":"Hozzászólások engedélyezése","allow_comments_for_title_7ac9e00":"Megjegyzések engedélyezése a következőhöz: %{title}","delete_announcement_title_756a9d1f":"Hirdetmény törlése: %{title}","disallow_comments_6d04b47a":"Hozzászólások tiltása","posted_on_e1010e1e":"Közzétéve:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "discussion_row",
+  function() { return {"close_for_comments_ce0e5d00":"Nem fűzhető hozzá megjegyzés","last_post_at_date_bf77652f":"Utolsó bejegyzés ideje %{date}","open_for_comments_1810648":"Nyitott a megjegyzések számára","pin_cdbc9f8f":"Rögzítés","publish_title_102f2d90":"%{title}publikálása","subscribe_to_title_c7d6bbd2":"Feliratkozás erre: %{title}","unpin_a318452a":"Rögzítés feloldása","unpublish_title_26ae9667":"%{title}publikálásának visszavonása","unsubscribe_from_title_c98461b3":"Leiratkozás erről: %{title}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "discussion_settings",
+  function() { return {"attach_files_to_discussions_bd16c245":"Fájlok csatolása a fórumokhoz","create_discussion_topics_8330d52b":"Fórumtémák létrehozása","my_settings_2ff35329":"Beállításaim","save_settings_cafe79a5":"Beállítások mentése","student_settings_354d9a7e":"Hallgatói beállítások"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "discussion_posts",
+  function() { return {"add_rubric_3636d9a6":"Értékelőtábla hozzáadása","author_215203d2":"Szerző","close_for_comments_37783f56":"Megjegyzések lezárása","collapse_replies_ef4fc36b":"Válaszok összecsukása","count_more_beba6428":"további %{count} ","go_to_parent_7fb312b4":"Ugrás a szülőre","go_to_topic_af6025fc":"Ugrás a témára","manage_discussion_c1dd8f4e":"Fórum kezelése","mark_all_as_read_8f3bdf57":"Az összes megjelölése olvasottként","mark_all_as_unread_a435be3d":"Az összes megjelölése olvasatlanként","mark_as_read_47ec83dd":"Megjelölés olvasottként","mark_as_unread_4ded3977":"Megjelölés olvasatlanként","note_for_differentiated_group_topics_some_threads__90adbb21":"Megjegyzés: a differenciált csoporttémáknál néhány beszélgetésszálhoz lehet, hogy nincsenek hallgatók hozzárendelve.","open_for_comments_f8f7641e":"Nyitott a megjegyzések számára","open_in_speedgrader_57c64fe3":"Megnyitás a Gyorsértékelőben","peer_reviews_e3a55964":"Társértékelések","reported_3de7086a":"Jelentett","show_rubric_dca783f2":"Értékelőtábla megjelenítése","subscribe_4b301fb7":"Feliratkozás","subscribed_fe74d22a":"Feliratkozva","unsubscribe_8be438ff":"Leiratkozás","unsubscribed_c93564a2":"Leiratkozva"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "count_points_4735a2e8",
+  null,
+  function() { return {"one":"1 pont","other":"%{count} pont"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "discussion_topics_post",
+  function() { return {"are_you_sure_you_want_to_delete_this_entry_9aecd6d3":"Biztos benne, hogy törli ezt a bejegyzést?","inappropriate_1930c574":"Nem megfelelő"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "eportfolio",
+  function() { return {"_at_the_bottom__4360f2b4":"-- A lap alján --","click_to_edit_drag_to_reorder_ab725681":"Kattintson a szerkesztéshez, ragadja meg a sorrend módosításához","move_page_e25b123d":"Oldal áthelyezése","move_section_d3866941":"Szekció áthelyezése"} },
+  function() { return {"buttons":{"done_editing":"Szerkesztés kész","manage_sections":"Szekciók kezelése"},"confirm_delete_message":"Biztos benne, hogy törli az üzenetet?","confirm_delete_page":"Biztos benne, hogy törli az oldalt és minden tartalmát?","confirm_delete_section":"Biztos benne, hogy törli a szekciót és minden oldalát?","default_description":"Íme a beadandóm a/az %{assignment} feladathoz a következő kurzusban: %{course}.","eportfolio_settings":"E-portfólió-beállítások","errors":{"compiling":"Hiba történt az e-portfóliójának összeállítása közben. Kérjük, egy kis idő múlva próbálja újra. ","missing_file":"Kérjük, válasszon ki egy fájlt","name_required":"A név megadása kötelező","name_too_long":"A név túl hosszú","section_name_invalid":"A szekciónév helytelen","section_name_too_long":"A szekció neve túl hosszú","upload_failed":"Sikertelen feltöltés."},"titles":{"add_submission":"Oldal hozzáadása a leadáshoz ","download_eportfolio":"E-portfólió letöltése","section_list":"Ragadja meg a sorrend módosításához, kattintson a szerkesztéshez"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "eportfolios",
+  null,
+  function() { return {"_page_section":{"section_types":{"attachment":"Kép/fájl feltöltése","html":"HTML/beágyazott tartalom","rich_text":"Formázott szövegtartalom","submission":"Beadandók"}},"show":{"headers":{"export_progress":"E-portfólió anyagok összegyűjtése. Ha sok fájl található az e-portfóliójában, akkor ez a művelet el fog tartani egy ideig..."}}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "epub_exports",
+  function() { return {"download_associated_files_f35dcb5e":"Társított fájlok letöltése ","download_epub_757cf0af":"ePub letöltése","failed_307449e1":"Sikertelen: ","generate_epub_80e89ea4":"ePub generálása","generated_f26ee56b":"Generálva: ","generating_5b5e20f8":"Generálás: ","generating_c2aabc02":"Generálás...","regenerate_epub_395c8e56":"ePub újragenerálása"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "shared",
+  null,
+  function() { return {"components":{"ic_submission_download_dialog":{"click_to_download":"Kattintson ide a letöltéshez","download_message":"A leadott munkák zip fájlba lesznek tömörítve a letöltéshez. Ez eltarthat egy ideig, a beadott fájlok méretétől és számától függően. ","download_message_intro":"A hallgatói beadandóidnak összegyűjtése folyamatban van.","download_submissions":"Minden beadandó letöltése"}},"error_form":{"message_failed":"A jelentés nem lett elküldve. Kérjük, próbálja újra!","message_sent":"Köszönjük a segítségét! Azonnal foglalkozni fogunk az üggyel. "}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "external_tools",
+  function() { return {"access_token_3be22221":"Hozzáférési token","add_app_baf540f":"Alkalmazás hozzáadása","add_to_rce_toolbar_e5b3e3b4":"Hozzáadás az RCE eszköztárhoz","allow_this_tool_to_access_the_ims_names_and_role_p_33e16d7f":"Engedélyezze ennek az eszköznek az IMS-nevek és szerepkör-kiosztási szolgáltatás elérését","an_update_is_available_for_toolname_bba3fa2":"A frissítés elérhető a következő számára: %{toolName}","app_placements_6d877225":"Alkalmazás elhelyezések","app_reregistration_87cc8817":"Applikáció újraregisztrálása ","apps_are_an_easy_way_to_add_new_features_to_canvas_2cbc2531":"Az alkalmazások segítségével egyszerűen társíthat új funkciókat a Canvashoz. Ezek akár egyenként, vagy egy fiókon belül minden kurzushoz hozzáadhatóak. A beállítások után, a kurzusmodulon keresztül hivatkozhat ezekre, és akár ezekkel megoldható, speciális feladatokat is létrehozhat.","are_you_sure_you_want_to_remove_this_tool_7363f90b":"Biztos benne, hogy el szeretné távolítani ezt az eszközt?","assignment_menu_91fe3716":"Feladat menü","assignment_selection_6bff05c4":"Feladatkiválasztás","back_to_app_center_95420d83":"Vissza az Alkalmazásközpontba","by_lti_2_registration_url_e421e523":"LTI 2 regisztrációs URL alapján","by_url_a163275e":"URL szerint","client_id_cb2502af":"Kliensazonosító","collaboration_71c024f4":"Együttműködés","config_url_e96ceaf3":"Konfigurációs URL","configuration_type_25a084a4":"Konfiguráció típusa","configure_tool_app_3b1bb50b":"%{tool} App konfigurálása?","configure_toolname_app_651371be":"%{toolName} alkalmazás konfigurálása","consumer_key_6f94ba11":"Vevőazonosító","count_apps_found_f4d86860":"%{count}appot találtunk","course_home_sub_navigation_b1ee6b03":"Kurzus kezdőlap alnavigáció","course_settings_sub_navigation_b95deae":"Kurzusbeállítások alnavigáció","delete_tool_app_9c9f6d35":"Törli a következő applikációt: %{tool}? ","delete_toolname_app_85f9d4ee":"%{toolName} applikáció törlése","disabled_18c33a73":"(letiltva)","discussion_topic_menu_3d4684c6":"Fórumtéma menü","dismiss_dacdb625":"Elvetés","e_mail_only_2cc5e513":"Csak e-mail ","edit_app_b0cc1c17":"Alkalmazás szerkesztése","edit_toolname_app_23cfbb8":"%{toolName} Alkalmazás szerkesztése","editor_button_6647db9c":"Szerkesztőgomb","either_the_url_or_domain_should_be_set_c29cf8c1":"Vagy az url, vagy a tartomány megadása kötelező","example_https_example_com_config_xml_be5f36ac":"Példa: https://example.com/config.xml","example_https_lti_tool_provider_example_herokuapp__e9802142":"Példa: https://lti-tool-provider-example.herokuapp.com/register","file_menu_cc0ca54":"Fájlmenü","filter_by_name_34cbe139":"Szűrés névre","homework_submission_172e8354":"Házifeladat beadása","inactive_34365329":"Inaktív","installed_7b284a91":"Telepített","launch_registration_tool_38d4781":"Regisztrációs eszköz indítása","launch_url_e150bd41":"URL betöltése","link_selection_1486c5d0":"Link kiválasztása","manage_app_list_994cc26c":"Alkalmazáslista kezelése","manage_update_23de23a1":"Frissítés kezelése","manage_update_for_toolname_f8e3b2fb":"Frissítés kezelése ehhez: %{toolName}","migration_selection_5f1c5f55":"Migrációkijelölés","module_menu_3201af4e":"Modul menüje","na_3dbb9cfd":"NA","name_app_has_been_deleted_fb2d9426":"%{name} applikáció törölve lett ","name_has_been_successfully_installed_but_has_not_y_c3148b96":"*name* sikeresen telepítve lett, de még nincs engedélyezve.","name_is_currently_status_9065c996":"*név* jelenleg **státusz** státuszú.","name_only_5f56718e":"Csak név","no_placements_enabled_f705f28":"Nincsenek engedélyezett elhelyezések","not_installed_37a21a76":"Nem telepített","paste_xml_cda3a64e":"XML beillesztés","privacy_290109ea":"Adatvédelem","quiz_menu_4fcd5e61":"Kvíz Menü","register_tool_84de3186":"Eszköz regisztrálása","registration_url_60e0eaaa":"Regisztrációs URL","reregister_9ab95a57":"Újraregisztrálás","reregister_toolname_3dde0bfc":"%{toolName} újra regisztrálása","see_some_lti_tools_that_work_great_with_canvas_53e92091":"Tekintsen meg néhány LTI eszközt, amely a Canvasban használható.","shared_secret_892c88f2":"Megosztott titkos kulcs","the_app_was_activated_a84e055f":"Az alkalmazás aktiválva","the_app_was_added_58e2836a":"Az alkalmazás hozzáadva","the_app_was_added_successfully_3f785a23":"Az alkalmazás sikeresen hozzáadva","the_app_was_deactivated_573520ab":"Az alkalmazás deaktiválva","the_app_was_updated_successfully_3d71cd1b":"Az alkalmazás sikeresen frissítve","the_following_fields_are_invalid_fields_b3565800":"A következő mezők nem érvényesek: %{fields}","there_was_an_error_in_processing_your_request_6513a49a":"Hiba történt a kérés feldolgozása közben","there_were_errors_with_the_form_errors_ab5b559a":"Hibák történtek az űrlappal: %{errors}","this_field_name_is_required_988caebc":"A mező \"%{name}\" kitöltése kötelező.","this_field_name_is_required_b9196401":"A \"név\" mező kitöltése kötelező.","tool_configuration_63cd43b0":"Eszközkonfiguráció","tool_content_e699e813":"Eszköztartalom","tool_placements_3f996c24":"Eszköz elhelyezése","unable_to_accept_update_fd53a7e2":"A frissítést nem lehet elfogadni","unable_to_dismiss_update_df1e32eb":"A frissítést nem lehet elvetni","unable_to_remove_app_4293cb53":"Az alkalmazás nem távolítható el","unchanged_aca18e02":"[Változatlan]","update_tool_7d48ef2a":"%{tool} frissítése","user_navigation_a097be0f":"Felhasználói navigáció","view_app_center_6c89a3fe":"Alkalmazásközpont megtekintése","view_app_configurations_52b52441":"Alkalmazáskonfigurációk megtekintése","view_name_app_62a2ad8e":"%{name} app megtekintése","view_toolname_placements_4a5724d1":"%{toolName} elhelyezések megtekintése","we_were_unable_to_activate_the_app_578defe7":"Nem sikerült aktiválni az alkalmazást.","we_were_unable_to_add_the_access_token_1f471fe6":"Nem sikerült hozzáadni a hozzáférési tokent.","we_were_unable_to_add_the_app_418877ef":"Nem sikerült hozzáadni az alkalmazást.","we_were_unable_to_deactivate_the_app_5e2632f3":"Nem sikerült deaktiválni az alkalmazást.","we_were_unable_to_update_the_app_659f5bc6":"Nem tudtuk frissíteni az applikációt. ","would_you_like_to_accept_or_dismiss_this_update_9009d696":"Elfogadja vagy elveti ezt a frissítést?","would_you_like_to_enable_this_app_ccdf735d":"Szeretné engedélyezni ezt az alkalmazást? ","xml_configuration_5ea1b942":"XML Konfiguráció","yes_install_tool_f51b3278":"Igen, eszköz telepítése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "file_not_found",
+  function() { return {"be_a_hero_and_ask_your_instructor_to_fix_this_link_4981930c":"Ön lehet a nap hőse, ha megkéri az oktatóját, hogy javítsa ki ezt a hivatkozást.","broken_file_link_found_in_your_course_7cc24395":"Törött fájl hivatkozást találtunk az Ön kurzusában","please_let_them_know_which_page_you_were_viewing_a_c9816406":"Kérjük, ossza meg, mely oldalakat tekintette meg, és a linket, amire kattintott. ","this_most_likely_happened_because_you_imported_cou_a78ea880":"Ez valószínűleg azért történt, mert a kurzustartalmat a hozzá tartozó fájlok nélkül importálta.","this_student_wrote_f1a3f22d":"Ez a hallgató írta:","your_message_has_been_sent_thank_you_e0284316":"Üzenetét elküldtük! Köszönjük!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "MasterCourseLock",
+  function() { return {"this_file_16b24f02":"ez a fájl"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "react_files",
+  function() { return {"a_file_named_itemname_already_exists_in_this_folde_b0dc7185":"Már létezik %{itemName} nevű fájl ebben a mappában.","add_folder_ba50d107":"Mappa hozzáadása","all_my_files_a0213441":"Összes fájlom","an_error_occurred_trying_to_prepare_download_pleas_df6fa596":"Hiba történt a letöltés előkészítése során, kérjük, próbálja újra!","an_unknown_server_error_occurred_please_try_again_f517eaf3":"Ismeretlen szerverhiba történt. Kérjük, próbálja újra!","available_folders_694d0436":"Elérhető mappák","before_publishing_this_file_you_must_specify_usage_2229d20b":"Ennek a fájlnak a publikálása előtt be kell állítania a használati jogokat.","copy_to_folder_32ecc3c3":"Másolás mappába","copying_628a9607":"Másolás...","course_files_a31f97fc":"Kurzusfájlok","creative_commons_714a065f":"Creative Commons - \"kreatív közjavak\"","download_as_zip_5dae7f19":"Letöltés zip fájlként","error_deleting_name_reason_11f9d399":"Hiba történt %{name} törlésekor: %{reason}","fair_use_bee47d77":"Méltányos használat","file_list_350d08df":"Fájllista","file_upload_failed_af22dd91":"A file feltöltése nem sikerült","file_uploading_56c9c0c8":"Fájl feltöltése","files_toolbar_2f2f0976":"Fájlok eszköztár","folder_tree_fbab0726":"Könyvtárfa","group_files_82e5dcdb":"Csoportfájlok","if_you_leave_the_zip_file_download_currently_being_c47c1dfb":"Ha elhagyja az oldalt, a zip fájl letöltésének előkészítése megszakad.","loading_folders_d8b5869e":"Mappa feltöltése","loading_more_results_def6df65":"További találatok betöltése...","manage_access_bd923d8d":"Hozzáférés kezelése","move_to_1c208ae5":"Mozgatás...","moving_a4d552df":"Áthelyezés...","my_files_2f621040":"Fájljaim","own_copyright_cc59db55":"Szerzői jog birtoklása","please_enter_a_search_term_with_three_or_more_char_53fd5ed8":"Kérjük, olyan keresési kifejezést írjon be, ami három vagy több karakterből áll","public_domain_112ed397":"Közkincs","rename_45608f54":"Átnevezés","search_for_files_7541fb28":"Fájlok keresése","select_itemname_f70db487":"%{itemName} kiválasztása","show_and_hide_courses_menu_9e09d1d0":"Kurzusok menü megjelenítése és elrejtése","something_went_wrong_d238c551":"Hiba történt.","success_file_uploaded_8174e93f":"A fájl felöltése sikeres.","upload_not_available_for_this_folder_8f8623c6":"A feltöltés nem érhető el erre a mappára","used_by_permission_314a78dd":"Használat engedéllyel","viewing_folders_is_not_available_798a15e1":"Mappák megtekintése nem elérhető","warning_for_improved_accessibility_in_moving_files_71e1028b":"Figyelem! A fájlok rendezésének jobb hozzáférhetőségének érdekében, kérjük, használja a használja a menü Mozgatás ide párbeszédablakát."} },
+  function() { return {"accept":"Elfogad","cancel":"Mégse","confirm_delete_with_contents":{"one":"Biztos benne, hogy törli ezt az elemet %{name}? Ha nem üres, akkor minden egyebet is töröl benne.","other":"Biztos benne, hogy törli ezt a/az  %{count} elemet és minden egyebet benne?"},"created_at":"Létrehozás dátuma","created_at_short":"Létrehozva","errors":{"no_match":{"keywords":"Próbálja más kulcsszavakkal!","spelled":"Győződjön meg róla, hogy minden szó helyesen van leírva!","suggestions":"Javaslatok:","three_chars":"Legalább 3 karaktert be kell írni a keresőmezőbe!","your_search":"A keresésre - \"%{search_term}\" - nincs találat a fájlok között."}},"files":"Fájlok","folder_browsing_tree":"Mappaböngészés fanézetben","folder_name":"Mappa neve","modified_by":"Módosította","move_question":{"one":"Hová szeretné áthelyezni ezt az elemet %{item}?","other":"Hová szeretné áthelyezni ezt a/az %{count} elemet?"},"move_success":{"one":"%{item} elem áthelyezve ide: %{destinationFolder}","other":"%{count} elem áthelyezve ide: %{destinationFolder}"},"name":"Név","progress_message":"Letöltés előkészítése: %{percent}% kész","results_count":"%{num_results} keresési eredmény megjelenítése","search_results_for":"keresés eredménye a következő keresőszavakra: \"%{search_term}\"","select_all":"Összes kiválasztása","size":"Méret","sorted_ascending":"Emelkedő sorrendben","sorted_desending":"Csökkenő sorrendben","this_folder_is_empty":"Ez a mappa üres","updated_at":"Módosítás dátuma","updated_at_short":"Módosítva"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "your_search_encountered_the_following_errors_fc3e5e7f",
+  null,
+  function() { return {"one":"A keresés során a következő hiba merült fel:","other":"A keresés során a következő hibák merültek fel:"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "edit_permissions_for_count_items_d65e3855",
+  null,
+  function() { return {"one":"Engedélyek kezelése %{itemName} elemhez","other":"Engedélyek kezelése %{count} elemhez"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "count_items_selected_91814713",
+  null,
+  function() { return {"one":"%{count} elem kiválasztva","other":"%{count} elem kiválasztva"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "are_you_sure_you_want_to_delete_these_count_items_148e98ba",
+  null,
+  function() { return {"one":"Biztos, hogy törölni szeretné ezt: %{name}?","other":"Biztos, hogy törölni szeretné ezt a %{count} elemet?"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "count_items_deleted_successfully_a287aa53",
+  null,
+  function() { return {"one":"%{name} sikeresen törölve.","other":"%{count} elem sikeresen törölve."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "upload_drop_zone",
+  null,
+  function() { return {"drop_to_upload":"Fájlok idehúzása a feltöltéshez"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "folder_tree",
+  function() { return {"file_list_updated_38e2a5ad":"Fájllista frissítve"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "rootFoldersFinder",
+  null,
+  function() { return {"course_files":"Kurzusfájlok","group_files":"Csoportfájlok","my_files":"Fájljaim"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradingGradeSummary",
+  function() { return {"assignment_details_collapsed_55b67150":"feladat részletei elrejtve","assignment_details_expanded_20c6f0c7":"feladat részletei megjelenítve","grades_are_now_reverted_to_original_scores_e6deade1":"Az értékelések vissza lettek állítva az eredeti értékekre","grades_are_now_showing_what_if_scores_711a8be2":"Az értékelések most a \"Mi lenne, ha?\" állapotot mutatják","hide_all_details_61d7ebb":"Minden részlet elrejtése","show_all_details_9879980c":"Minden részlet megjelenítése ","this_assignment_is_dropped_and_will_not_be_conside_35c3e198":"Ez a feladat el lett dobva, nem lesz figyelembe véve a teljes számításban","this_is_a_what_if_score_cbdc04f9":"Ez csak egy \"Mi lenne ha?\" pontszám"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "grade_summary",
+  function() { return {"click_for_more_details_on_this_outcome_8c018d2f":"kattintson további részletekért ezen tanulási eredményre vonatkozóan","n_count_alignments_a45bebe7":"*%{n_count}* illesztés"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebook_history",
+  function() { return {"anonymously_graded_59149570":"Névtelenül értékelve","loading_more_gradebook_history_results_810f6d2e":"További osztályzási előzményel betöltése.","loading_results_769c8819":"Eredmények betöltése","more_results_were_added_at_the_bottom_of_the_page_dc323877":"Az oldal alján további eredmények láthatóak","no_students_with_that_name_found_f6004da2":"Ezen a néven nem található hallgató","not_available_487d3648":"Nem érhető el"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebook_uploads",
+  null,
+  function() { return {"errors":{"select_an_option":"Kérjük, válasszon egy lehetőséget"},"student":"Hallgató"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebook_upload",
+  function() { return {"done_8af51c9b":"Kész."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebookGradebookKeyboardNav",
+  null,
+  function() { return {"keyboard_assignment_desc":"Ugrás az aktuális feladat részleteihez","keyboard_sort_desc":"Rács rendezése a jelenleg aktív oszlopon","keycodes":{"close_menu":"esc","goto_assignment":"g","menu":"m","sort":"s"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebookGradeDisplayWarningDialog",
+  null,
+  function() { return {"grade_display_warning":{"cancel":"Mégse","continue":"Folytatás","percent_text":"A hallgatók százalékban fogják látni a végső eredményüket. Biztos benne, hogy folytatja?","points_text":"A hallgatók pontokban is látni fogják a végső eredményüket. Biztos benne, hogy folytatja?"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "LongTextEditor",
+  null,
+  function() { return {"cancel":"Mégse","save":"Mentés"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebookActionMenu",
+  function() { return {"export_de71cd8e":"Exportálás","export_in_progress_70db262a":"Az exportálás folyamatban","previous_export_c6a997f7":"Előző export","sync_to_name_6f04716d":"Szinkronizálás ehhez: %{name}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebook",
+  function() { return {"a_z_243c3301":"A–Z","add_condition_2ac12ddd":"Feltétel hozzáadása","advanced_36b35b8":"Haladó","all_grades_hidden_3092d5b5":"Minden osztályzat elrejtve","all_grades_posted_616a85ab":"Minden osztályzat felkerült","all_ungraded_artifacts_ec3ba09":"Minden osztályozatlan elem","allow_final_grade_override_8cf4336b":"Végső érdemjegy felülbírálásának engedélyezése","assignment_name_a_z_aeefaa36":"Feladat neve - A-Z","assignment_name_z_a_34f92f4b":"Feladat neve - Z-A","automatically_apply_deduction_to_late_submissions_2b68166e":"Automatikus pontlevonás alkalmazása a kései beadásokra","automatically_apply_grade_for_missing_submissions_2b5c1a72":"Értékelés automatikus beállítása a hiányzó beadásokra","avatar_for_author_2eabbf55":"%{author}avatárja","cancel_submitting_comment_2666e98b":"Hozzászólás küldésének visszavonása","cancel_updating_comment_6816d855":"Hozzászólás frissítésének visszavonása","changing_the_late_policy_will_affect_previously_gr_49071db7":"A késésre vonatkozó irányelv megváltoztatása hatással van az előzőleg értékelt beadásokra.","columns_464bd055":"Oszlopok","concluded_63150003":"befejeződött","concluded_enrollments_9da8da6":"Lezárt beiratkozások","day_9d999bec":"Nap","default_order_8c409051":"Alapértelmezett sorrend","delete_comment_comment_d32ffc85":"%{comment}megjegyzés törlése","display_as_percentage_3e755dc":"Megjelenítés százalékként","display_as_points_63084235":"Megjelenítés pontokként","download_submissions_7454665f":"Beadott munkák letöltése ","dropped_38031953":"Kiszórt","due_date_newest_to_oldest_35cffef9":"Határidő - A legújabbtól a legrégebbiig","due_date_oldest_to_newest_73e62815":"Határidő - A legrégebbitől a legújabbig","edit_comment_comment_e74afa04":"Hozzászólás szerkesztése: %{comment}","edited_date_b0455372":"%{date}(szerkesztve)","export_report_7c5899e":"Jelentés exportálása","filters_92f2776f":"Szűrők","final_grade_6e94d99e":"Végső érdemjegy:","first_last_name_9820d256":"Keresztnév, családnév","gradebook_settings_b45c6df9":"Osztálynapló-beállítások","grading_scheme_f151d195":"Osztályzási rendszer","hide_outcomes_with_no_results_7e4ce06f":"Érték nélküli eredmények elrejtése","hour_34d02553":"Óra","inactive_enrollments_3b84be3d":"Inaktív beiratkozások","last_first_name_95a078f5":"Vezetéknév, keresztnév","late_penalty_78099d18":"Késedelmi Büntetés:","late_policies_42bac80":"Késéssel kapcsolatos irányelvek","late_policies_fd5dced6":"Késéssel kapcsolatos irányelvek","letter_grade_29ff1938":"Betű alapú osztályzat","loading_comments_32366acf":"Megjegyzések betöltése","lowest_possible_grade_ae5510be":"A lehető legalacsonyabb értékelés","manual_8c2665de":"Kézi","message_students_who_57f07a41":"Üzenet azon hallgatóknak, akik","missing_policies_4f195e0b":"Hiányzási szabályok","module_first_to_last_6921f3ec":"Modul - elsőtől az utolsóig","module_last_to_first_8cdb7a8e":"Modul - utolsótól az elsőig","move_to_end_c6bfbcf5":"Áthelyezés a végére","move_to_front_bf6f0194":"Áthelyezés előre","name_options_bc5c95ce":"%{name}Lehetőségek","next_assignment_8ec51175":"Következő feladat","order_301c3ac1":"Sorrend","percentage_34ab7c2c":"Százalék","points_highest_to_lowest_87f1b143":"Pontok - a legmagasabbtól a legalacsonyabbig","points_lowest_to_highest_45089e82":"Pontok - a legalacsonyabbtól a legmagasabbig","previous_assignment_83d1f423":"Előző feladat","resubmitted_2080646f":"Újraküldve","score_similarity_score_2c25b94b":"%{score}%-os hasonlósági pontszám","select_student_group_c0be9f3e":"Hallgató csoport kiválasztása","set_default_grade_a202ebc1":"Alapértelmezett osztályzat beállítása","statuses_497dfa15":"Státuszok...","statuses_f41543d8":"Státuszok","student_name_c45b2a7":"Hallgató neve","submissions_11e96106":"Beadott munkák","submit_comment_e5cc2718":"Hozzászólás elküldése","successfully_deleted_the_comment_a8bbe561":"A hozzászólást sikerült törölni","successfully_updated_the_comment_946360d5":"A hozzászólást sikerült frissíteni","there_was_a_problem_creating_the_teacher_notes_col_dd73456f":"Probléma adódott az oktatói jegyzetek oszlopának hozzáadása közben.","there_was_a_problem_deleting_the_comment_93053aa9":"Probléma adódott a megjegyzés törlése közben","there_was_a_problem_hiding_the_teacher_notes_colum_3f03014":"Probléma adódott az oktatói jegyzetek oszlopának elrejtése közben.","there_was_a_problem_showing_the_teacher_notes_colu_a6e4a2bc":"Probléma adódott az oktatói jegyzetek oszlopának megjelenítése közben.","there_was_a_problem_updating_the_comment_5f3595b9":"Probléma adódott a megjegyzés frissítése közben","there_was_a_problem_updating_the_submission_6e5280a1":"Probléma adódott a beadandó frissítése közben.","this_grade_is_unusually_high_60533c20":"Ez az értékelés szokatlanul magas","total_71a4807":"Összesen","ungraded_ed0c6f98":"Nem értékelt","unpublished_assignments_9cdbcc87":"Nem publikált feladatok","update_comment_8cedb4f0":"Megjegyzés frissítése","upload_successful_ca47465f":"A feltöltés sikeres","z_a_be2ab67c":"Z - A"} },
+  function() { return {"gradebook_header_menu":{"assignment_details":"Feladat részletek","message_students_who":"Üzenet azon hallgatóknak, akik...","set_default_grade":"Alapértelmezett osztályzat beállítása","speedgrader":"Gyorsértékelő"},"header_filter":{"course_average":"Kurzus átlaga","course_median":"Kurzus mediánja"},"outcome_gradebook":{"toggle_sidebar":"Oldalsáv ki-/bekapcsolása"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebook_default_gradebook_components_content_filters_assignment_group_filter",
+  function() { return {"all_assignment_groups_a65e9e46":"Minden feladatcsoport","assignment_group_filter_c03f8a1d":"Feladat Csoport szűrő"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebook_default_gradebook_components_content_filters_grading_period_filter",
+  function() { return {"grading_period_filter_e1bf635a":"Szűrés osztályzási időszakra"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebook_default_gradebook_components_content_filters_module_filter",
+  function() { return {"all_modules_20c9a1c8":"Minden modul","module_filter_63b17d11":"Modulszűrő"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebook_default_gradebook_components_content_filters_student_group_filter",
+  function() { return {"all_student_groups_f74cd6c3":"Minden hallgatói csoport","student_group_filter_185fb085":"Hallgatói csoport szűrő"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebook_constants",
+  function() { return {"assignment_groups_bc9cc3c9":"Feladatcsoportok","student_groups_863201c1":"Hallgatói csoportok"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebookSharedGradebookexportManager",
+  function() { return {"an_export_is_already_in_progress_54270f01":"Egy exportálás már folyamatban van,","error_exporting_gradebook_msg_6ea31e2f":"Nem sikerült exportálni az osztálynaplót: %{msg}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebookSharedScoreToUngradedManager",
+  function() { return {"a_process_is_already_in_progress_f4495f5e":"Egy folyamat már végrehajtás alatt áll."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "modules",
+  function() { return {"a_file_named_name_already_exists_do_you_want_to_re_6536980":"Egy \"%{name}\" nevű fájl már létezik ezen a helyen. Le szeretné cserélni a létező fájlt?","a_locked_file_named_name_already_exists_please_ent_3b2e65a":"Már létezik a \"%{name}\" nevű zárolt fájl. Adjon meg egy új nevet!","ignore_assignment_738b3c99":"Feladat figyelmen kívül hagyása","ignore_name_55edc6fe":"%{name} figyelmen kívül hagyása","ignore_these_3940f6f5":"Ezeket hagyja figyelmen kívül ","name_error_fee4236":"név hiba","no_assignment_name_adbb215b":"Nincs feladatnév","note_students_have_submitted_work_for_these_assign_7bc34e28":"MEGJEGYZÉS: Néhány hallgató leadott munkát ezekhez a feladatokhoz, amelyek nem lettek osztályozva. Ha most közzéteszi az osztályzatokat, újra közzé kell tennie a pontokat az utolsó beadandók osztályozása után.","ungraded_submissions_44efb0ec":"Nem értékelt beadandók","would_you_like_to_let_students_continue_in_the_cou_a4c36171":"Szeretné, hogy a hallgatók folytathassák a kurzust, vagy újra lezárja a modult, amíg az új követelmények teljesülnek?","you_have_changed_the_progression_requirements_for__6772bc89":"Megváltoztatta egy aktív kurzushoz tartozó haladási követelményeket. Lehetnek hallgatók, akik már eljutottak ehhez a modulhoz, vagy másokhoz, amik ettől függenek."} },
+  function() { return {"assignments_to_grade":{"one":"1 feladatnál értékelendő munkák vannak","other":"%{count} feladatnál értékelendő munkák vannak"},"continue":"Folytatás","progression_module_collection":{"module_progress_for":"A következő hallgató haladása a modulban: *%{student.name}*","no_modules_found":"Nem található modul"},"progression_module_view":{"items":"Befejezendő elemek","items_below":"Befejezendő elemek alább"},"progression_student_view":{"show_progressions_for_student":"%{name} haladásának mutatása"},"progressions_index":{"back_to_modules":"Vissza a Modulok oldalra","no_students_found":"Nem található ilyen hallgató","progression_header":"Haladás a modulban","student_progress":"Hallgató előrehaladása"},"relock_modules":"Modulok újbóli zárolása","requirements_changed":"A követelmények módosultak"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "count_assignments_with_errors_e8f3c18c",
+  null,
+  function() { return {"one":"1 feladat hibákkal","other":"%{count} feladat hibákkal","zero":"Nincs hibás feladat, kattintson a továbbra"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "conversations_2",
+  function() { return {"add_an_attachment_b2e9092f":"Egy melléklet hozzáadása","add_as_a_faculty_journal_entry_55a38a30":"Intézményi hírlevél bejegyzésként való hozzáadás","address_book_dbecc4a3":"Címjegyzék","address_book_input_a0d8e76f":"Címjegyzék bemenet","address_book_menu_c986b615":"Címjegyzék menü","are_you_sure_you_want_to_delete_your_copy_of_this__8490c9d4":"Biztos benne, hogy törli az üzenet másolatát? Ezt a műveletet nem lehet visszavonni.","compose_a_new_message_db3a68ed":"Új üzenet írása","file_upload_9cae6da5":"Fájl feltöltése","filter_messages_by_course_21a53fc4":"Üzenetek szűrése kurzusonként","forward_d143f64":"Továbbítás","mailbox_selection_92d9cbf":"Postafiók kiválasztása","message_body_1f782712":"Üzenet törzse","more_options_e89670cf":"További lehetőségek","no_conversations_selected_ebcd9226":"Nincs üzenetváltás kiválasztva","no_results_found_2ace1494":"Nincs találat","record_an_audio_or_video_comment_88425add":"Hang- vagy videómegjegyzés rögzítése","record_upload_media_comment_4d01b943":"Médiatartalom felvétele/feltöltése","reply_all_80298bee":"Válasz mindenkinek","select_course_5b549441":"Kurzus kiválasztása ","send_an_individual_message_to_each_recipient_e9ddaeb8":"Egyedi üzenet küldése minden résztvevőnek","star_8d156e09":"Csillagozás","unarchive_f245e2d6":"Archiválás visszavonása","unstar_b84daaef":"Csillagozás eltávolítása"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "jobs_v2",
+  function() { return {"failed_at_f471dfd3":"Sikertelen ennél a pontnál","handler_7912052f":"Kezelő","id_290feb5":"Azonosító","jobs_ec5d59d8":"Jobok","last_error_a3832668":"Legutóbbi hiba","locked_at_cda02889":"Zárolva ekkor","locked_by_983c07f7":"zárolta","max_attempts_ae7b90bc":"Maximális próbálkozások száma","original_job_id_d81afbb3":"Eredeti Job ID","priority_dd4381ee":"Prioritás","run_at_759b47d":"Futtatás időpontja","strand_955969b1":"Szál","tag_7bb005ff":"Címke","tags_2b72a03b":"Címkék"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "jobs",
+  null,
+  function() { return {"columns":{"attempt":"próbálkozás","count":"szám","id":"azonosító","priority":"prioritás","run_at":"futtatás időpontja","runtime":"futtatás ideje","strand":"szál","tag":"címke","worker":"dolgozó"},"confirm":{"destroy_all":"Biztos benne, hogy megsemmisít *minden* ilyen típusú és a kéréssel egyező jobot?","hold_all":"Biztos benne, hogy megtart *minden* ilyen típusú és a kéréssel egyező jobot?","unhold_all":"Biztos benne, hogy feloldja *minden* ilyen típusú és a kéréssel egyező jobnak a tartását?"},"titles":{"job_handler":"Jobkezelő","last_error":"Legutóbbi hiba"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "empty_course",
+  function() { return {"all_subject_navigation_has_been_disabled_f06b0154":"Minden tárgynavigáció le van tiltva."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "grade_row",
+  function() { return {"_e59b5cb1":"—","not_graded_e78bcd50":"Nem értékelt"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "k5_course",
+  function() { return {"confirm_unenrollment_64333263":"Kiiratkozás jóváhagyása","student_view_ac9b672f":"Hallgatói nézet"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "grades_summary",
+  function() { return {"not_graded_e027c866":"Nem értékelt"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "homeroom_page",
+  function() { return {"my_subjects_61936afb":"Tantárgyaim"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "important_dates",
+  function() { return {"important_dates_304e306a":"Fontos dátumok"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "k5_dashboard",
+  function() { return {"important_dates_tray_fa41a025":"Fontos dátumok tálca"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "k5_dashboard_card",
+  function() { return {"new_announcement_title_30ba7c1b":"Új hirdetmény: %{title}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "todo",
+  function() { return {"grade_assignment_7c1abc11":"%{assignment} értékelése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "count_submissions_need_grading_d34bae25",
+  null,
+  function() { return {"one":"1 értékelendő beküldött munka","other":"%{count} értékelésre váró beadandó"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "todos_page",
+  function() { return {"loading_additional_todo_details_acba0cf2":"További teendő részletek betöltése..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "OutcomeManagement",
+  function() { return {"account_standards_a657d5e2":"Fiókszabványok","add_all_outcomes_6a12d08e":"Összes tanulási eredmény hozzáadása","added_e8a39b2":"Hozzáadva","all_grouptitle_outcomes_dcc565d1":"Minden %{groupTitle} tanulási eredmény","cannot_be_blank_c4e30496":"Nem hagyható üresen","load_more_35d33c7":"Továbbiak betöltése","mastery_at_cf0c477b":"Elfogadási szint:","must_be_255_characters_or_less_e8e7f25e":"Maximum 255 karakter hosszú lehet","state_standards_c9b1affd":"Állami szabványok"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "learning_mastery_gradebook",
+  function() { return {"inactive_enrollments_bd1831ea":"Inaktív beiratkozások"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebookSectionMenuView",
+  null,
+  function() { return {"all_sections":"Minden szekció"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "license_help",
+  null,
+  function() { return {"content_license_help":"Segítség a tartalom licenceléshez"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "pseudonyms",
+  null,
+  function() { return {"login":{"invalid_login":"Sikertelen bejelentkezés","invalid_password":"Helytelen jelszó","parent_signup":"Szülői regisztráció"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "react_collaborations",
+  function() { return {"add_collaboration_da9665ac":"Együttműködés hozzáadása","collaboration_ce3e2bac":"+ Együttműködés","collaborations_are_web_based_tools_to_work_collabo_6e9f7b3f":"Az együttműködést web alapú eszközök támogatják, amelyek segítségével közösen dolgozhat másokkal a különböző feladatokon, például jegyzeteket vagy csoportos tanulmányokat készíthet. Kezdje el a \"+ Együttműködés\" gombra kattintva.","collaborations_are_web_based_tools_to_work_collabo_8ae6dd38":"Az együttműködést web alapú eszközök támogatják, amelyek segítségével közösen dolgozhat másokkal a különböző feladatokon, például jegyzeteket vagy csoportos tanulmányokat készíthet. Kezdje el egy kollaborációs alkalmazás hozzáadásával.","getting_started_with_collaborations_794240ba":"Lássuk az együttműködésre vonatkozó tudnivalókat","learn_more_about_collaborations_2978f66d":"Bővebben az együttműködésről","load_more_results_460f49a9":"További eredmények betöltése","no_collaboration_apps_3bbd30ce":"Nincsenek együttműködési applikációk","you_have_no_collaboration_apps_configured_talk_to__6733123a":"Ön nem rendelkezik kompatibilis applikációkkal. Vegye fel a kapcsolatot az oktatójával, aki segíteni fog Önnek ebben."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "manage_avatars",
+  null,
+  function() { return {"errors":{"update_failed":"A frissítés sikertelen, kérjük, próbálja újra"},"messages":{"updating":"Frissítés..."},"prompts":{"delete_avatar":"Biztos benne, hogy szeretné törölni ezt a felhasználói profilképet?","lock_avatar":"A kép zárolása jóváhagyja azt és megtiltja a felhasználónak, hogy módosítsa azt. Folytatja?"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "groups",
+  function() { return {"clone_groupcategoryname_ef85ddb8":"(Klónozás) %{groupCategoryName}","members_are_free_to_join_defa5929":"A tagok szabadon csatlakozhatnak","must_have_at_least_1_group_per_section_9809e708":"Legalább 1 csoportnak kell lennie szekcióként"} },
+  function() { return {"create_group_set":"Csoporthalmaz létrehozása","delete_confirm":"Biztos benne, hogy el akarja távolítani ezt a csoporthalmazt?","edit_group_set":"Csoporthalmaz szerkesztése","everyone":"Mindenki (%{count})","flash":{"removeError":"A csoporthalmaz eltávolítása sikertelen. Kérjük, próbálja újra később.","removed":"Csoporthalmaz sikeresen eltávolítva."},"group_limit_number":"A csoportlétszám csak szám lehet","groups_count":"Csoportok (%{count})","manage":{"add_unassigned_menu":{"add_unassigned_student":"Besorolatlan hallgató hozzáadása","add_unassigned_user":"Besorolatlan felhasználó hozzáadása","search_people":"Résztvevők keresése"},"add_unassigned_user":{"add_to_group":"Felhasználó hozzáadása a csoporthoz","add_user_to_group":" %{name} nevű felhasználó hozzáadása a csoporthoz"},"add_unassigned_users":{"no_users_found":"Nincsenek ilyen felhasználók","too_short":"A keresési kulcsszónak legalább 3 karakterből kell állnia"},"assign_to_group_menu":{"add_to_group":"Hozzáadás a csoporthoz","all_groups_full":"Minden csoport megtelt. %{br}","all_groups_full_suggestion":"Változtassa meg a csoport korlátozását, vagy adjon még hozzá csoportot. ","assign_user_to_group":"Felhasználó hozzárendelése ehhez a csoporthoz","assign_user_to_group_name":"Felhasználó hozzárendelése a/az %{name} csoporthoz","no_groups_created":"Csoportokat kell létrehozni, mielőtt felhasználókat adnánk hozzá."},"auto_leadership_controls":{"auto_first_group_leader":"Az első csatlakozó hallgató legyen a csoportvezető","auto_group_leader":"Hallgatói csoportvezető automatikus hozzárendelése","auto_random_group_leader":"Csoportvezető véletlenszerű kiválasztása","leadership":"Vezetőség"},"group_categories":{"account_group_explanation":"A fiókszintű hallgatói csoportok hasznosak a hallgatók csoportosítására, konkrét kurzushoz való társítás nélkül. Minden hallgatói csoporthoz saját naptár, fórum és együttműködési eszközök tartoznak, így hatékonyabban tudják megszervezni a közös munkát.","course_group_explanation":"A hallgatói csoportok kialakítása hasznos módja annak, hogy projektekben működjenek együtt a hallgatók. Minden hallgatói csoport rendelkezik saját naptárral, fórummal és együttműködési eszközökkel, így hatékonyabban tudják megszervezni a közös munkát.","group_assignment_instructions":"A hallgatókat be tudja osztani véletlenszerűen csoportokba, vagy kézzel létrehozhatja és rendszerezheti a csoportokat. Amint létrejöttek a csoportok, beállíthatja a feladatokat úgy, hogy \"csoportos beadandó\" feladatok legyenek, ami azt jelenti, hogy minden egyes csoportnak egy beküldött megoldása lesz, mely a csoportbeli tagok közös megoldása.","group_set":"Csoporthalmaz","headings":{"account_groups":"Fiókszintű hallgatói csoportok","course_groups":"Hallgatói csoportok","groups":"Csoportok"},"tabs":{"everyone":"Mindenki"}},"group_category":{"search_groups":"Csoportok keresése","search_users":"Felhasználók keresése"},"group_category_clone":{"cancel":"Mégse"},"group_category_create":{"allow_self_signup":"Önálló feliratkozás engedélyezése","cancel":"Mégse","create_groups":"%{num_groups} csoport létrehozása","group_set_name":"Csoporthalmaz neve","group_structure":"Csoport felépítése","leave_group_limit_blank":"hagyja üresen, ha nincs korlátozás","limit_group_size":"Csoporttagok számának korlátozása %{group_limit} főre.","require_same_section":"A csoporttagoknak azonos szekcióban kell lenniük","save":"Mentés","saving":"Mentés...","self_signup":"Önálló feliratkozás","split_into_groups":"Hallgatók beosztása %{num_groups} egyforma csoportba","split_into_sized_groups":"Hallgatók beosztása csoportokba, csoportonként  %{num_members} számú hallgatóval"},"group_category_detail":{"category_settings":"Beállítások","delete_category_option":"Törlés","edit_category_option":"Szerkesztés","group":"Csoport","group_limit_blurb":"A csoportok maximális létszáma *%{group_limit}* tag.","import":"Importálás","message_all_unassigned_option":"Üzenet küldése minden besorolatlan hallgatónak","randomly_assign_students_option":"Hallgatók véletlenszerű beosztása","restricted_self_signup_blurb":"Egy csoportban minden hallgatónak ugyanabban a szekcióban kell lennie.","self_organized_warning":"Ezeket a csoportokat a hallgatók szervezik. Ellentétben a más típusú csoportokkal, a hallgatók egyszerre több ilyen csoport tagjai is lehetnek, ezért ezek a csoportok nem használhatóak feladatok értékeléséhez.","self_signup_blurb":"Önálló feliratkozás nem engedélyezett ezekhez a csoportokhoz.","settings":"Beállítások","uncategorized_groups":"Ezek a csoportok nincsenek társítva egy csoporthalmazhoz sem. Mivel a SIS-ből lettek importálva, csak a SIS-en keresztül frissíthetőek vagy törölhetőek"},"group_category_edit":{"allow_self_signup":"Önálló feliratkozás engedélyezése","cancel":"Mégse","group_limit_override":"Ennek megváltoztatása felülbírál minden egyénileg beállított csoportkorlátot","group_set_name":"Csoporthalmaz neve","leave_group_limit_blank":"hagyja üresen, ha nincs korlátozás","limit_group_size":"Csoporttagok számának korlátozása %{group_limit} főre","require_same_section":"A csoporttagoknak azonos szekcióban kell lenniük","save":"Mentés","saving":"Mentés..."},"group_detail":{"add_user_to_group":"Felhasználó hozzárendelése csoporthoz","group_delete":"Törlés","group_edit":"Szerkesztés","group_full":"Megtelt","group_leader":"Csoportvezető","group_settings":"Beállítások","show_group_details":"%{name} csoport részleteinek megtekintése","visit_group_homepage":"A csoport weboldalának megtekintése"},"group_user":{"assign_user_to_group":"%{name} hozzárendelése csoporthoz","edit_group_membership":"%{name} tagságának szerkesztése","group_leader":"Csoportvezető","move":"Mozgatás...","move_to_new_group":"%{name} áthelyezése új csoportba","remove":"Eltávolítás","remove_as_leader":"Eltávolítás mint vezető","remove_from_group":"%{name} eltávolítása a csoportból","remove_user_as_leader":"%{name} mint vezető eltávolítása ","set_as_leader":"Kijelölés vezetőként","set_user_as_leader":"%{name} beállítása vezetőként"},"group_users":{"add_student":"A kezdéshez adjon hozzá egy hallgatót.","add_user":"A kezdéshez adjon hozzá egy felhasználót.","greater_than_three":"Kérjük, olyan keresési kifejezést írjon be, ami három vagy több karakterből áll","no_matching_students":"Nincsenek egyező hallgatók.","no_matching_users":"Nincsenek egyező felhasználók.","no_students":"Jelenleg nincsenek hallgatók ebben a csoportban. ","no_users":"Jelenleg nincsenek felhasználók ebben a csoportban. "},"groups":{"no_groups":"Nincsenek csoportok ebben a csoporthalmazban. A kezdéshez adjon hozzá egy csoportot.","no_matching_groups":"Nincsenek olyan csoportok, melyek megfelelnének a keresési feltételeknek."},"randomly_assign_members":{"cancel":"Mégse","randomly_assign_students_dialog":"Ez automatikusan egyenlően el fogja osztani a csoporthoz hozzá nem rendelt hallgatókat a létező hallgatói csoportokba."},"self_signup_help":{"about_self_signup_groups":"Az önálló feliratkozású csoportokról","self_signup_description":"Létre tud hozni csoporthalmazokat ahová a hallgatók maguktól jelentkezhetnek fel. A hallgatók így is csak egy csoportban lehetnek minden halmazban, de így a hallgatók csoportokba szervezhetik magukat ahelyett, hogy az oktatók tennék ezt. Azt is megkövetelheti, hogy a csoport tagjai mindannyian ugyanabban a kurzusszekcióban legyenek. Tartsa észben, hogy amíg ez az opció engedélyezett, addig a hallgatók áttehetik magukat az egyik csoportból a másikba."}},"positive_group_count":"Pozitív csoportszámot kell megadnia","randomly_assigning_members":"A hallgatók véletlenszerű beosztása","unassigned_students":"Besorolatlan hallgatók (%{count})","unassigned_users":"Besorolatlan felhasználók (%{count})"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "GroupDetailView",
+  function() { return {"count_max_students_2db76773":"%{count} / %{max} hallgató","count_max_users_bdebb537":"%{count} / %{max} felhasználó"} },
+  function() { return {"delete_confirm":"Biztos benne, hogy törölni szeretné ezt a csoportot?","flash":{"removeError":"A csoportot nem lehet törölni. Kérjük, próbálja újra!","removed":"A csoport sikeresen el lett távolítva."},"student_count":{"one":"1 hallgató","other":"%{count} hallgató"},"user_count":{"one":"1 felhasználó","other":"%{count} felhasználó"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "GroupUsersView",
+  function() { return {"move_student_49d6bc9d":"Hallgató áthelyezése","removed_user_as_group_leader_bb69330f":"%{user} mint vezető eltávolítása ","user_is_now_group_leader_60ec9b98":"%{user} most már csoport vezető lett"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "messages",
+  null,
+  function() { return {"dialog":{"title":"Válasz küldése"},"messages":{"failure":"Hiba történt az e-mail küldése során. Kérjük, frissítse az oldalt, és próbálja újra!","success":"Az e-mail kézbesítése folyamatban van"},"send_form":{"labels":{"message_body":"Üzenet","send_button":"Küldés"}}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "pseudonyms_mobile_login",
+  null,
+  function() { return {"parent_signup":"Szülői regisztráció"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "quizzes",
+  function() { return {"add_quiz_cebfa28b":"Kvíz hozzáadása","an_error_occurred_while_migrating_405ac0b5":"Hiba történt a migrálás során","answer_answerid_97fc4afc":"Válasz %{answerId}","delete_quiz_142b8099":"Kvíz törlése","edit_quiz_ededddd8":"Kvíz szerkesztése","migrate_67c9f753":"Migrálás","migrate_quiz_5d0f777":"Kvíz migrálása","migration_in_progress_6f0ed4f9":"Migrálás folyamatban","student_extensions_d35a907":"Hallgatói kiterjesztések","view_question_banks_188a9e0f":"Kérdésbankok megtekintése","you_have_been_given_extra_time_on_this_attempt_9d8bff6c":"Ön több időt kapott ehhez a próbálkozáshoz ","your_time_for_this_quiz_has_been_reduced_394652e9":"Az Ön ideje a kvíz kitöltésére csökkent."} },
+  function() { return {"file_uploaded_or_removed":{"quizzes":{"file_successfully_uploaded":"A fájl feltöltése sikerült.","files_removed":"%{display_name} el lett távolítva."}},"index":{"confirms":{"delete_quiz":"Biztos, hogy törölni szeretné ezt a kvízt?"},"flash":{"fail":"A kvíz törlése sikertelen.","removed":"A kvíz sikeresen törölve."},"multiple_due_dates":"Több határidő"},"index_view":{"links":{"manage_question_banks":"Kérdésbankok kezelése","publish_multiple_quizzes":"Több kvíz közzététele"},"quizzes_title":"Kvízek","search_for_quiz":"Kvíz keresése"},"ldb_login_popup":{"email":"E-mail","log_in":"Bejelentkezés","password":"Jelszó","titles":{"log_in":"Kérjük, jelentkezzen be"}},"moderate":{"buttons":{"extend_time":"Idő kiterjesztése","extending_time":"Idő kiterjesztése...","save":"Mentés","save_failed":"A mentés sikertelen, kérjük, próbálja újra!","save_failed_n_updates_lost":"A mentés sikertelen,  %{n} hallgató adata nem lett frissítve","saving":"Mentés...","time_extension_failed":"Az idő kiterjesztése sikertelen, kérjük, próbálja újra!"},"confirms":{"taking_time_away":"Ez kevesebb idő, mint amennyivel a hallgató jelenleg rendelkezik. Ennek ellenére folytatja?"},"errors":{"quiz_submission_extra_attempts_not_a_number":"Az extra próbálkozás csak számként adható meg!","quiz_submission_extra_attempts_too_long":"Az extra próbálkozások száma 1000-nél kisebb kell, hogy legyen.","quiz_submission_extra_attempts_too_short":"Az extra próbálkozások számának 0-nál nagyobbnak kell lennie.","quiz_submission_extra_time_not_a_number":"Az extra időhöz számot kell beírni.","quiz_submission_extra_time_too_long":"Az extra időnek 10080-nál kevesebbnek kell lennie.","quiz_submission_extra_time_too_short":"Az extra időnek 0-nál nagyobbnak kell lennie.","server_communication_failed":"Probléma lépett fel a szerverrel való kommunikáció során. A rendszer 5 perc múlva újra próbálkozik, vagy Ön is frissítheti az oldalt."},"extensions_for_student":"%{student} hallgatóhoz tartozó kiterjesztés","extensions_for_students":{"one":"1 hallgatóhoz tartozó kiterjesztések","other":"%{count} hallgatókhoz tartozó kiterjesztések"},"finished_in_duration":"elkészült %{duration} alatt","time_up":"Lejárt az idő! ","titles":{"autosubmit_dialog":"Kiemelkedő leadott kvízek","extend_quiz_time":"Kvíz idejének kiterjesztése","student_extensions":"Hallgatói kiterjesztések"}},"no_quizzes_view":{"headers":{"course_quizzes":"Kurzuskvízek"},"no_quizzes":"Nem található kvíz"},"quiz_item_group_view":{"no_quizzes":"Nem található kvíz","no_surveys":"Nem található felmérés"},"quiz_submission":{"titles":{"this_is_an_external_element":"Ez egy külső elem, nem szöveg, és megváltozhatott, mióta a hallgató beadta azt","this_is_an_external_frame":"Ez egy külső keret, nem pedig szöveg, és megváltozhatott, mióta a hallgató beadta azt","this_is_an_image":"Ez egy kép, nem szöveg, és megváltozhatott, mióta a hallgató beadta azt"}},"rubric":{"loading":"Töltődik...","titles":{"details":"Feladat értékelőtáblájának részletei"}},"show":{"answers":{"correct":"Helyes!","correct_answers":"Helyes válaszok","incorrect":"Helytelen","partial":"Részleges","right":"Helyes válasz","unanswered":"Nincs megválaszolva","you_answered":"Megadott válasz"},"buttons":{"already_published":"Publikálva!","publishing":"Publikálás alatt..."},"confirms":{"delete_quiz":"Biztos, hogy törölni szeretné ezt a kvízt?","delete_quiz_submissions_warning":{"one":"Figyelmeztetés: 1 hallgató már kitöltötte ezt a kvízt. Ha törli, minden teljesített feladat törlődik és többé nem jelenik meg az eredménye a naplóban.","other":"Figyelem! %{count} hallgató már kitöltötte ezt a kvízt. Ha ezt törli, minden beadott feladat törlődik, és többé nem jelenik meg az eredmény az osztálynaplóban."}},"links":{"hide_student_quiz_results":"A hallgató kvízeredményeinek elrejtése","hide_student_survey_results":"A hallgatói felmérés eredményeinek elrejtése","show_student_quiz_results":"A hallgatói kvíz eredményeinek megjelenítése","show_student_survey_results":"A hallgatói felmérés eredményeinek megjelenítése"},"students_who_have_not_taken_the_quiz":"Hallgatók, akik NEM töltötték ki a kvízt","students_who_have_taken_the_quiz":"Hallgatók, akik kitöltötték a kvízt"},"take_quiz":{"confirms":{"cant_go_back_blank":"Nem térhet vissza ehhez a kérdéshez, ha a következőre lép. Biztos benne, hogy üresen hagyja?","navigate_away":"Az oldal elhagyására készül. Biztos, hogy ezt akarja?","unanswered_questions":{"one":"Van még 1 megválaszolatlan kérdés (jobb oldalon látja a részleteket). Mégis beküldi?","other":"Van még %{count} megválaszolatlan kérdés (jobb oldalon látja a részleteket). Mégis beküldi?"},"unfinished_quiz":"Ön a kvíz elhagyására készül, anélkül, hogy beadná. Biztos benne?","unseen_questions":{"one":"Van még 1 kérdés, amit nem látott még. Mégis beküldi?","other":"Van még %{count} kérdés, amit nem látott még. Mégis beküldi?"}},"days_count":{"one":"1 nap","other":"%{count} nap"},"errors":{"connection_lost":"A kapcsolat a %{host} géppel megszakadt. Mielőtt továbblép, kérjük, ellenőrizze, hogy az internetkapcsolata rendben működik.","only_numerical_values":"csak számok fogadhatóak el"},"hide_time_link":"Elrejt","hours_count":{"one":"1 óra","other":"%{count} óra"},"labels":{"time_elapsed":"Eltelt idő"},"login_failed":"A bejelentkezés sikertelen.","login_successful":"Sikeres bejelentkezés.","minutes_count":{"one":"1 perc","other":"%{count} perc"},"months_count":{"one":"1 hónap","other":"%{count} hónap"},"notices":{"due_date_five_minutes_left":"Öt perc maradt, mielőtt a kvíz késedelmesként lesz megjelölve. ","due_date_one_minute_left":"Egy perc maradt, mielőtt a kvíz késedelmesként lesz megjelölve. ","due_date_thirty_minutes_left":"Harminc perc maradt, mielőtt a kvíz késedelmesként lesz megjelölve. ","submission_five_minutes_left":"Ez a kvíz öt perc múlva be lesz adva","submission_one_minute_left":"Ez a kvíz egy perc múlva be lesz adva","submission_thirty_minutes_left":"Ez a kvíz harminc perc múlva be lesz adva"},"question_answered":"Megválaszolt","question_unanswered":"Még nincs megválaszolva","saved_at":"Kvíz mentve ekkor: %{t}","saving":"Mentés...","saving_not_needed":"Nincs menthető új adat. Utolsó ellenőrzés ekkor: %{t}","seconds_count":{"one":"1 másodperc","other":"%{count} másodperc"},"show_time_link":"Megjelenítés","titles":{"come_back_later":"Ön ezt a kérdést úgy jelölte meg, hogy később visszatér rá","times_up":"Lejárt az idő! "},"years_count":{"one":"1 év","other":"%{count} év"}},"timing":{"labels":{"time_elapsed":"Eltelt idő","time_remaining":"Hátralévő idő"}}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "TourPoints",
+  function() { return {"access_canvas_training_videos_and_courses_ea43173a":"Canvas képzési videók és kurzusok elérése","access_your_courses_and_groups_using_any_ios_or_an_cdb6ad63":"Bármely iOS vagy Android mobileszközzel elérheti kurzusait és csoportjait, és további információkat találhat a Súgó menüben.","add_people_and_courses_to_canvas_5c4bfff9":"Résztvevők ék kurzusok hozzáadása a Canvashoz","more_video_conferencing_tools_f55088d5":"További videokonferencia eszközök"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "common",
+  function() { return {"expand_global_navigation_2c28d5d4":"Globális navigáció kiterjesztése","minimize_global_navigation_2d839351":"Globális navigáció minimalizálása"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "createTicketForm",
+  function() { return {"extreme_critical_emergency_80b3dbda":"RENDKÍVÜL SÜRGŐS!","file_a_ticket_for_a_personal_response_from_our_sup_1e1ffaff":"Küldjön egy hibajegyet, ha személyes visszajelzést szeretne az üzemeltetői csapattól","for_an_instant_answer_see_if_your_issue_is_address_48280e89":"Azonnali válaszhoz ellenőrizze, hogy a problémára létezik-e megoldás a *Canvas kézikönyvben*!","how_is_this_affecting_you_b3b6a639":"Hogy érinti ez Önt ?","i_cannot_get_things_done_until_i_hear_back_from_yo_83ba46b7":"Nem tudok addig haladni, amíg nem kapok választ Öntől ","i_need_some_help_but_it_is_not_urgent_d967ea0a":"Szükségem van segítségre, de nem sürgős","include_a_link_to_a_screencast_screenshot_using_so_4b2fabcb":"Illesszen egy linket a képernyőképhez pl. a *Jing* használatával.","just_a_casual_question_comment_idea_or_suggestion_1579d069":"Csak egy alkalmi kérdés, megjegyzés, ötlet, javaslat","please_select_one_f931e883":"Kérjük, válasszon egyet...","something_is_broken_but_i_can_work_around_it_for_n_7fcedb9d":"Valami elromlott, de ismerek egy kerülő megoldást","submit_ticket_5515ffd":"Hibajegy leadása","ticket_successfully_submitted_f6254460":"A hibajegy sikeresen be lett küldve.","your_email_address_f881e583":"Az Ön e-mail címe"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "HelpLinks",
+  function() { return {"customize_this_menu_efa72a9":"Menü testreszabása"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "TeacherFeedbackForm",
+  function() { return {"ask_your_instructor_a_question_a61ca5e9":"Kérdezzen az oktatójától","loading_courses_bd1bffe":"Kurzusok betöltése...","message_sent_f4cba0c":"Üzenet elküldve.","message_will_be_sent_to_all_the_teachers_and_teach_1b8d17c1":"Az üzenet el lesz küldve a kurzus minden oktatójának és segédoktatójának","which_course_is_this_question_about_f819a158":"Melyik kurzussal kapcsolatos ez a kérdés?"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "LogoutButton",
+  function() { return {"logout_a9312e35":"Kijelentkezés"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "MobileGlobalMenu",
+  function() { return {"history_cd3f60a9":"Előzmények","login_6f3d6249":"Belépés","my_dashboard_8983c283":"A vezérlőpultom"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "CoursesTray",
+  function() { return {"unpublished_courses_4299148e":"Nem publikált kurzusok","welcome_to_your_courses_to_customize_the_list_of_c_f95e4b2":"Üdvözöljük a kurzusok oldalon! A kurzusok listájának testreszabásához kattintson az \"Összes kurzus\" linkre, és csillagozza meg a megjelenítendő tanfolyamokat."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "ProfileTray",
+  function() { return {"user_profile_picture_46bffbc7":"Felhasználói profilkép"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "new_user_tutorial",
+  function() { return {"end_course_set_up_tutorial_f358b85d":"Kurzus felállítási útmutató befejezése","how_do_i_use_the_learning_mastery_gradebook_to_vie_c555acf2":"Hogyan használhatom a Jártassági szint naplót, hogy láthassam a tanulási eredményeket egy kurzus értékelési táblájában?"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "OutcomeAlignmentDeleteLink",
+  function() { return {"delete_alignment_f33c97d5":"Illesztés törlése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "FindOutcomesModal",
+  function() { return {"all_outcomes_from_grouptitle_have_been_successfull_38e3c33c":"%{groupTitle} összes eredményét sikeresen hozzáadtuk ehhez a kurzushoz."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "MasteryScale",
+  function() { return {"must_be_between_lower_and_upper_1f501b2a":"számnak kell lennie %{lower} és %{upper} között"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "ProficiencyTable",
+  function() { return {"account_proficiency_ratings_saved_292d9239":"A fiók jártassági értékelései mentve","add_proficiency_rating_d819f6b8":"Hozzáértés minősítések hozzáadása","added_mastery_level_dd4792d1":"Hozzáadott jártassági szint","added_new_proficiency_rating_e30cab8a":"Hozzáadott Hozzáértés minősítések","customize_learning_mastery_ratings_4ace142a":"Jártassági szintek minősítéseinek testreszabása","get_started_b9507525":"Vágjon bele!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "modelsPageView",
+  null,
+  function() { return {"browsers":{"unrecognized":"Ismeretlen böngésző"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "page_views",
+  null,
+  function() { return {"table":{"headers":{"date":"Dátum","participated":"Részt vett","time":"Idő","url":"URL","user_agent":"Felhasználói ügynök"}}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "past_global_announcements",
+  function() { return {"active_announcements_6b67f33b":"Aktív közlemények"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_v2_add_tray",
+  function() { return {"a_role_name_is_required_47efd33":"A szerepnév megadása kötelező","new_account_role_6e5c4964":"Új fiókszerep","new_course_role_6a7bb75f":"Új kurzusszerep"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_v2",
+  function() { return {"account_roles_10fea071":"Felhasználói szerepek","add_role_3dc4d273":"Szerep hozzáadása","course_roles_d2d5d666":"Kurzusszerepek"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_role_tray",
+  function() { return {"edit_label_769ed6c5":"%{label}szerkesztése","last_changed_b544504d":"Utoljára módosítva:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_8",
+  function() { return {"add_delete_edit_7dbc9c5b":"Hozzáad / töröl / szerkeszt","add_delete_manage_d65e235":"hozzáad / töröl / kezel","add_manage_conclude_delete_publish_reset_8a5aa902":"hozzáadás / kezelés / lezárás / törlés / közzététel / visszaállítás"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_13",
+  function() { return {"allows_user_to_add_and_remove_other_account_admins_7834ea9a":"A felhasználónak engedélyezi más fiók adminisztrátorok hozzáadását és eltávolítását."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_14",
+  function() { return {"authentication_1b518c38":"Hitelesítés","reports_account_settings_78f5336a":"Jelentések (Fiók beállítások)","terms_4d979628":"Félévek"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_15",
+  function() { return {"allows_user_to_add_edit_and_delete_global_announce_8463e383":"Lehetővé teszi a felhasználó számára globális hirdetmények hozzáadását, szerkesztését és törlését."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_17",
+  function() { return {"allows_user_to_add_assignments_in_a_course_4513bd22":"Lehetővé teszi a felhasználó számára, hogy feladatokat adjon hozzá a kurzushoz."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_16",
+  function() { return {"allows_user_to_add_edit_delete_and_publish_and_unp_5b1059b":"Lehetővé teszi a felhasználó számára feladatok hozzáadását, szerkesztését, törlését, valamint közzétételét és közzétételének visszavonását.","allows_user_to_add_edit_delete_and_publish_and_unp_5f5b97aa":"Lehetővé teszi a felhasználók számára kvízek hozzáadását, szerkesztését, törlését, közzétételét és közzétételének visszavonását."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_18",
+  function() { return {"allows_user_to_add_edit_and_delete_events_in_the_c_14413268":"Lehetővé teszi a felhasználó számára, hogy eseményeket adjon hozzá, szerkesszen és töröljön a kurzusnaptárban.","scheduler_65b5ac91":"Ütemező"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_19",
+  function() { return {"allows_user_to_access_the_attendance_tool_72ef0b68":"Lehetővé teszi a felhasználó számára a jelenléti eszköz elérését.","allows_user_to_access_the_chat_tool_48d5f5c4":"Lehetővé teszi a felhasználó számára a Csevegés eszköz elérését.","allows_user_to_add_events_to_list_view_dashboard_v_1339e29e":"Lehetővé teszi a felhasználónak, hogy eseményeket adjon hozzá az irányítópult listanézetéhez a Hozzáadás a hallgatói feladatokhoz jelölőnégyzet segítségével.","attendance_ca433183":"Jelenlét","chat_2153c6b7":"Csevegés"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_20",
+  function() { return {"allows_user_to_add_designers_to_a_course_f81791e8":"Lehetővé teszi a felhasználó számára, hogy tervezőket adjon a kurzushoz.","allows_user_to_add_designers_to_a_course_from_the__427db55b":"Lehetővé teszi a felhasználó számára, hogy tervezőket adjon hozzá egy kurzushoz a fiók Kurzusok oldaláról."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_27",
+  function() { return {"allows_user_to_access_student_view_test_student_co_35fbd387":"Lehetővé teszi a felhasználó számára a Hallgatói nézet (teszthallgató), a Kurzus másolása és a Kurzus végleges törlése gombok elérését.","course_content_a92eca20":"Kurzustartalom"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_32",
+  function() { return {"allows_user_to_add_course_files_and_folders_566e3447":"Lehetővé teszi a felhasználó számára kurzusfájlok és mappák hozzáadását.","course_files_62deb8f8":"Kurzusfájlok"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_33",
+  function() { return {"allows_user_to_access_gradebook_history_9d599681":"Lehetővé teszi a felhasználó számára, hogy hozzáférjen az Osztálynapló előzményekhez.","allows_user_to_add_edit_and_update_grades_in_the_g_e7707f35":"Lehetővé teszi a felhasználó számára, hogy érdemjegyeket adjon hozzá, szerkesszen és frissítsen az Osztálynaplóban."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_35",
+  function() { return {"alerts_must_be_configured_for_the_institution_aler_43bbacb1":"A riasztásokat az intézményhez kell konfigurálni. A riasztások egy ritkán használt funkció, amelyet arra terveztek, hogy riasztást küldjön a diákoknak, tanároknak vagy rendszergazdáknak adott eseményindítók esetén (például, hogy 7 napig nincs diák-tanár interakció). Ezeket minden nap ellenőrzik, és értesítést küldenek a tanulónak és/vagy a tanárnak, amíg a kiváltó probléma meg nem oldódik."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_28",
+  function() { return {"lti_add_e3bc0049":"LTI - hozzáadás","lti_delete_ee5f1bef":"LTI - törlés","lti_edit_83a27850":"LTI - szerkesztés"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_40",
+  function() { return {"allows_user_to_view_and_manage_permissions_bdc80a1d":"Engedélyezi a felhasználónak, hogy megtekintse és kezelje a hozzáférési engedélyeket."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_42",
+  function() { return {"allows_user_to_add_course_sections_in_course_setti_f8e4cabf":"Lehetővé teszi a felhasználó számára, hogy kurzusrészeket adjon hozzá a kurzusbeállításokhoz."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_45",
+  function() { return {"allows_user_to_access_a_user_s_settings_menu_and_u_235d8fd8":"Lehetővé teszi a felhasználó számára, hogy hozzáférjen a felhasználói beállítások menüjéhez és a felhasználói adatokhoz."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_47",
+  function() { return {"user_details_2613c079":"Felhasználói adatok"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_51",
+  function() { return {"eportfolios_f6dc4579":"e-portfóliók"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_53",
+  function() { return {"allows_user_to_access_the_announcements_link_in_co_f2e824e9":"Lehetővé teszi a felhasználó számára, hogy hozzáférjen a Kurzusnavigáció közleményei hivatkozáshoz.","global_announcements_a78912c8":"Globális hirdetmények"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_55",
+  function() { return {"statistics_4573b730":"Statisztikák"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_58",
+  function() { return {"question_banks_45bdf347":"Kérdésbankok"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_60",
+  function() { return {"account_groups_2f301732":"Fiókcsoportok"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_61",
+  function() { return {"account_and_subaccount_40c6430":"Fiók és alfiók"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_66",
+  function() { return {"adds_analytics_link_on_the_user_settings_menu_3a048816":"Analitika hivatkozás hozzáadása a felhasználói beállítások menübe","adds_analytics_to_a_student_s_context_card_d4c1e3a3":"Analitika hozzáadása a hallgató tartalmi kártyájához","admin_tools_grade_change_logs_d804833f":"Admin eszközök (Osztályzat változási naplók)","allows_user_to_access_speedgrader_from_an_assignme_3b908f7":"Lehetővé teszi a felhasználó számára a Gyorsértékelő elérését egy feladatból.","assignments_speedgrader_2fbd6df4":"Feladatok, Gyorsértékelő"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_72",
+  function() { return {"allows_students_to_access_other_student_groups_wit_43918810":"Lehetővé teszi a hallgatók számára, hogy közvetlen hivatkozással hozzáférjenek más hallgatói csoportokhoz egy csoportkészleten belül."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "permissions_templates_75",
+  function() { return {"account_statistics_2b52a1c9":"Fiókstatisztikák","allows_admin_user_to_view_account_statistics_341f00d9":"Lehetővé teszi az adminisztrátor felhasználó számára a fiókstatisztikák megtekintését."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "plugins",
+  null,
+  function() { return {"buttons":{"saving":"Mentés..."}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "user_profile",
+  function() { return {"are_you_sure_you_want_to_remove_this_user_s_profil_6d703c4":"Biztos benne, hogy szeretné törölni ennek a felhasználónak a profilképét?"} },
+  function() { return {"invalid_url":"Helytelen webcím","profile_title_too_long":"A cím túl hosszú"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "profile",
+  function() { return {"bounce_count_reset_c4c2218f":"A visszapattanás számláló újraindítása!","cell_number_is_invalid_bd6faee0":"Érvénytelen mobilszám!","cell_number_is_required_2edcee60":"A mobilszám megadása kötelező","confirm_communication_channel_81c48d08":"Kommunikációs csatorna megerősítése","confirmation_failed_please_try_again_ae566d37":"A megerősítés sikertelen. Kérjük, próbálja újra!","email_is_invalid_e0d982eb":"Helytelen e-mail cím!","this_is_the_default_email_address_f3c421fb":"Ez az alapértelmezett e-mail cím","your_profile_photo_could_not_be_uploaded_you_may_h_1c90540c":"A profilképét nem sikerült feltölteni. Lehet, hogy túllépte a feltöltési keretét."} },
+  function() { return {"buttons":{"generate_token":"Token generálása","generating_token":"Token generálása... ","regenerate_token":"Token újragenerálása","regenerating_token":"Token újragenerálása...","save":"Mentés","select_profile_picture":"Profilkép kiválasztása","selecting_image":"Kép kiválasztása..."},"confirming_contact":"Jóváhagyás...","confirms":{"delete_access_key":"Biztos benne, hogy törli ezt a hozzáférési kulcsot?","delete_login":"Biztos benne, hogy törölni szeretné ezt a bejelentkezést?","regenerate_token":"Biztos benne, hogy újragenerálja ezt a tokent? Mindent frissíteni kell, ami használja ezt a tokent. ","unregister_service":"Biztos benne, hogy törölni szeretné ennek a szolgáltatásnak a regisztrációját?"},"done_resending":"Kész! Az üzenet küldése igénybe vehet néhány percet.","errors":{"generating_token_failed":"Token generálása sikertelen ","regenerating_token_failed":"Token generálása sikertelen ","registration_failed":"A regisztráció sikertelen. Ellenőrizze a felhasználónevet és próbálja meg újra."},"failed_resending":"Nem sikerült teljesíteni a kérést. Próbálja újra.","links":{"resend_confirmation":"Megerősítés újraküldése","resend_confirmation_failed":"Nem sikerült teljesíteni a kérést. Próbálja újra.","resending_confirmation":"Újraküldés...","resent_confirmation":"Kész! Az üzenet igénybe vehet néhány percet. "},"notices":{"contact_confirmed":"Kapcsolat sikeresen megerősítve!","mfa_disabled":"Többlépcsős hitelesítés letiltva"},"please_select_an_option":"Kérjük, válasszon egy lehetőséget","purpose_required":"Cél megadása kötelező","resending":"újraküldés...","titles":{"confirm_email_address":"E-mail cím megerősítése","contact_not_confirmed":"Ez a kapcsolat nincs megerősítve. A részletekért kattintson a címre","email_not_confirmed":"Ez az e-mail nincs megerősítve. A részletekért kattintson a címre","register_communication":"Kommunikáció regisztrálása","unconfirmed_click_to_confirm":"Nincs megerősítve. Kattintson a megerősítéshez"},"token_never_expires":"soha"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "fromNowFuzzy",
+  function() { return {"a_few_seconds_ago_e43118d":"pár másodperce","in_a_few_seconds_538ddff3":"néhány másodperc alatt","in_less_than_a_minute_c8595a28":"kevesebb mint egy perc alatt","less_than_a_minute_ago_9f45e2a5":"kevesebb mint egy perce"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "bundles_quesiton_bank",
+  null,
+  function() { return {"titles":{"find_outcomes":"Tanulási eredmény keresése"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "add_bank",
+  null,
+  function() { return {"default_name":"Névtelen"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "question_bank",
+  null,
+  function() { return {"align_outcomes":"Tanulási eredmények testreszabása","already_bookmarked":"Már könyvjelzőbe lett helyezve","bookmark_failed":"A könyvjelzőzés sikertelen","bookmarking":"Könyvjelző-beállítás folyamatban...","buttons":{"submit_copying":{"one":"Kérdés másolása...","other":"Kérdések másolása..."},"submit_copying_failed":{"one":"Kérdés másolása sikertelen, próbálja újra","other":"Kérdések másolása sikertelen, próbálja újra"},"submit_moving":{"one":"Kérdés áthelyezése...","other":"Kérdések áthelyezése..."},"submit_moving_failed":{"one":"Kérdés áthelyezése sikertelen, próbálja újra","other":"Kérdések áthelyezése sikertelen, próbálja újra"},"submit_retry_copying":"Kérdés másolása sikertelen, próbálja újra","submit_retry_moving":"Kérdés áthelyezése sikertelen, próbálja újra"},"delete_are_you_sure":"Biztos benne, hogy törli ezt a kérdésbankot?","links":{"more_questions":"további kérdések"},"load_questions":"Kérdések betöltése...","loading_more_fail":"a további kérdések betöltése sikertelen, próbálja újra!","move_questions":"Kérdések áthelyezése","multiple_questions":"Több kérdés","question_bank":"Kérdésbank","remove_outcome_from_bank":"Biztos, hogy el akarja távolítani ezt a tanulási eredményt a bankból?","title":{"move_copy_questions":"Kérdések másolása/áthelyezése"},"update_outcomes_fail":"A tanulási eredmény frissítése sikertelen","updating_outcomes":"Tanulási eredmény frissítése..."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "load_bank",
+  null,
+  function() { return {"error_loading_banks":"Hiba lépett fel a bankok betöltése közben","loading_banks":"Bankok betöltése..."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "question_banks",
+  null,
+  function() { return {"delete_question_bank_prompt":"Biztos benne, hogy törli ezt a kérdésbankot?"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "quiz_log_auditing",
+  function() { return {"answer_sequence_cfeda025":"Válasz sorrend","question_9121487":"Kérdés"} },
+  function() { return {"buttons":{"reload_events":"Újratöltés","table_view":"Táblázat megtekintése"},"event_stream":{"headers":{"action_log":"Tevékenységnapló"},"notices":{"no_events_available":"Nem került naplózásra esemény a kvízkitöltés munkamenete alatt."},"page_blurred":"Befejeződött a Canvas-kvízkitöltés-oldal megtekintése...","page_focused":"Folytatódik. ","question_answered":{"one":"Válaszoljon a következő kérdésre:","other":"A következő kérdésekre válaszolt:"},"question_flagged":"Megjelölt kérdés: ","question_unflagged":"Jelöletlen kérdés: ","question_viewed":{"one":"A következő kérdés megtekintve (és valószínűleg elolvasva):","other":"A következő kérdések megtekintve (és valószínűleg elolvasva):"},"session_started":"Munkamenet elkezdve"},"navigation":{"links":{"back_to_session_information":"Vissza a naplóhoz","question":"%{position} kérdés"},"questions":"Kérdések"},"no_answer":"Nincs válasz","page_header":"Munkamenet-információ","question_answers":{"essay":{"view_html_answer":"HTML megtekintése","view_plain_answer":"Egyszerű nézet"}},"question_header":"#%{position} kérdés","question_response_count":{"one":"Ezt a kérdést egyszer megválaszolták.","other":"Ezt a kérdést %{count} alkalommal válaszolták meg. ","zero":"Ezt a kérdést még soha nem válaszolták meg."},"question_type":"%{type}","session_table_headers":{"attempt":"Próbálkozás","started_at":"Elindítva ekkor "},"table_view":{"buttons":{"go_to_stream":"Folyam megtekintése"},"headers":{"question":"%{position} kérdés","timestamp":"Időbélyeg"},"legend":{"dotted_circle":"Pöttyös kör","dotted_circle_desc":"Egy válasz, helyességtől függetlenül. ","empty_circle":"Üres kör","empty_circle_desc":"Egy üres válasz.","filled_circle":"Tele kör","filled_circle_desc":"A végső válasz a kérdésre, az egyetlen, ami számít."},"options":{"expand_all":"Minden válasz kinyitása","invert":"Megfordít","truncate":"Szöveges válaszok csonkolása"}}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "quiz_reports",
+  function() { return {"download_item_analysis_report_statuslabel_8c9387ec":"Itemelemzési jelentés letöltése %{statusLabel}","download_student_analysis_report_statuslabel_1471c8c2":"Hallgatói elemzési jelentés letöltése %{statusLabel}","generate_item_analysis_report_statuslabel_16e02c8":"Elemanalízis-jelentés generálása %{statusLabel}","generate_student_analysis_report_statuslabel_aecdc4dc":"Hallgatói elemzési jelentés generálása %{statusLabel}"} },
+  function() { return {"cancel_generation":"Mégse","generatable":"Soha nem lett jelentés generálva.","generated_at":"Generálva: %{date}","generating":"Jelentés generálása...","generation_almost_done":"Majdnem kész.","generation_halfway":"Kevesebb mint fél éve. ","generation_started":"Jelentés generálása ","item_analysis":"Itemelemzés","non_generatable_report_notice":"Nem lehet jelentést generálni felmérő kvízekhez. ","student_analysis":"Hallgatói elemzés"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "quiz_statistics",
+  function() { return {"a_table_of_answers_and_brief_statistics_regarding__f516e98f":"Válaszokat és a hallgatók válaszaiból készült statisztikákat tartalmazó táblázat.","answer_correct_answer_c2c4a20c":"%{answer}, (helyes válasz)","answer_description_6b353cfd":"Válasz leírása ","answer_distribution_2a956e3f":"Válaszok megoszlása","answer_incorrect_answer_80efe585":"%{answer}, (helytelen válasz)","answer_text_909894d6":"Válasz szövege ","answers_which_scored_in_the_bottom_27_74409483":"Válaszok, amelyek az alsó 27% között voltak","answers_which_scored_in_the_middle_46_46466ffd":"Válaszok, amelyek a középső 46% között voltak","answers_which_scored_in_the_top_27_a605232d":"Válaszok, amelyek a felső 27% között voltak","correct_answer_5a6a57d1":"Helyes válasz","correct_check_icon_617da6c3":"helyes pipa ikon","graph_bar_b5daa23d":"Grafikon","incorrect_answer_7c17e63b":"Helytelen válasz","percent_of_respondents_selecting_this_answer_4c2ce4ee":"Ezt a lehetőséget választó válaszadók százaléka","ratio_answered_correctly_b0c1e7d":"%{ratio}% felelt helyesen","ratio_responded_correctly_6d890107":"%{ratio}% válaszolt helyesen","ungraded_answers_31ef2df7":"Nem értékelt válaszok","unknown_answers_9688a2bc":"Ismeretlen válaszok"} },
+  function() { return {"attempts":"Próbálkozások: %{count} az összesből %{total}","discrimination_index":{"audible_discrimination_index":"Diszkriminációs index: %{number}.","discrimination_index":"Diszkriminációs index","discrimination_index_dialog_title":"Diszkriminációs index diagram","discrimination_index_dialog_trigger":"Tudjon meg többet a diszkriminációs indexről."},"download_submissions":"Összes állomány letöltése","duration_in_hours":{"one":"1 óra","other":"%{count} óra"},"duration_in_hours_and_minutes":"%{hours} és %{minutes}","duration_in_minutes":{"one":"1 perc","other":"%{count} perc"},"duration_in_minutes_and_seconds":"%{minutes} és %{seconds}","duration_in_seconds":{"one":"1 másodperc","other":"%{count} másodperc"},"empty_question_breakdown":"Nem találhatóak kérdésstatisztikák","loading_questions":"A kérdésstatisztikák töltődnek. Kérjük, várjon.","no_answer":"Nincs válasz","question_breakdown":"Kérdésenkénti lebontás","question_header":"%{position} kérdés","quiz-stats-noshow-warning":"Nem tudjuk elkészíteni ennek a kvíznek a statisztikáit, de letöltheti a jelentéseket.","sad-panda-alttext":"A panda programnyelvben bábeli zűrzavar keletkezett. ","speedgrader":"Megtekintés a Gyorsértékelőben","summary":{"avg_time":"Átlagos idő","chart_title":"Diagram az eredmények percentilisek szerinti ábrázolására","high_score":"Legmagasabb pontszám ","low_score":"Legalacsonyabb pontszám ","mean":"Átlagpontszám ","not_available_abbrev":"N/A","quiz_summary":"Kvízösszegzés","stdev":"Szórás","table_description":"Összefoglaló statisztika az összes beadott feladatra"},"title":"Kvízstatisztika","unknown_answer":"Valami más","user_names":"Felhasználónevek"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "count_quizzes_found_e5e29bb4",
+  null,
+  function() { return {"one":"1 kvízt találtunk.","other":"%{count} kvízt találtunk.","zero":"Egy egyező kvízt sem találtam."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "quizzes_index",
+  null,
+  function() { return {"headers":{"assignment_quizzes":"Feladatkvízek","practice_quizzes":"Gyakorló kvízek","surveys":"Felmérések"},"toggle_message":"kvíz láthatóságának megváltoztatása"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "quiz_engine_modal",
+  function() { return {"new_quizzes_dbda7e0a":"Új kvízek"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "calculator",
+  null,
+  function() { return {"buttons":{"save":"Mentés"},"command":{"abs":{"description":"Visszaadja az abszolútértékét a megadott értéknek"},"acos":{"description":"Visszaadja a megadott érték arkusz koszinuszát"},"asin":{"description":"Visszaadja a megadott érték arkusz szinuszát"},"at":{"description":"Visszaadja az indexelt értéket a megadott listából"},"atan":{"description":"Visszaadja a megadott érték arkusz tangensét"},"ceil":{"description":"Visszaadja a megadott érték felső egészrészét"},"comb":{"description":"Visszaadja a megadott értékek kombinációs eredményét"},"cos":{"description":"Visszaadja a megadott érték koszinuszát"},"count":{"description":"Visszaadja a listabeli elemek számát"},"default_description":"Nincs megadva leírás","deg_to_rad":{"description":"Visszaadja a megadott értéket fokból radiánba alakítva"},"e":{"description":"Visszaadja az e értékét"},"fact":{"description":"Visszaadja a megadott szám faktoriálisát"},"first":{"description":"Visszaadja az első értéket a listából"},"floor":{"description":"Visszaadja a megadott érték alsó egészrészét"},"if":{"description":"Kiértékeli az első argumentumot, visszaadja a második argumentumot, ha a kiértékelés eredménye egy nem nulla érték, egyébként visszaadja a harmadik értéket"},"last":{"description":"Visszaadja az utolsó értéket a listából"},"length":{"description":"Visszaadja az argumentumok számát a megadott listában"},"ln":{"description":"Visszaadja a megadott érték természetes logaritmusát"},"log":{"description":"Visszaadja a megadott érték logaritmusát opcionális alappal"},"max":{"description":"Visszaadja a legnagyobb értéket a listában"},"mean":{"description":"Visszaadja a listában lévő értékek átlagos középértékét"},"median":{"description":"Visszaadja a listában szereplő értékek mediánját"},"min":{"description":"Visszaadja a legkisebb értéket a listában"},"no_description":"Nincs leírás a %{functionName} függvényhez.","perm":{"description":"Visszaadja a permutációját a megadott értékeknek"},"pi":{"description":"Visszaadja a pi kiszámolt értékét"},"rad_to_deg":{"description":"Visszaadja a megadott értéket radiánból átalakítva fokba"},"rand":{"description":"Visszaad egy véletlen számot nulla és a megadott szám között, vagy egy között ha nincs megadva szám"},"range":{"description":"Visszaadja a listában lévő értékek mintaterjedelmét"},"reverse":{"description":"Megfordítja a listában szereplő értékek sorrendjét"},"round":{"description":"Visszaadja a megadott értéket a legközelebbi egész számra kerekítve"},"sin":{"description":"Visszaadja a megadott érték szinuszát"},"sort":{"description":"Visszaadja az értékek listáját, sorba rendezve a legkisebbtől a legnagyobbig"},"sqrt":{"description":"Visszaadja a megadott érték négyzetgyökét"},"sum":{"description":"Visszaadja a listában szereplő értékek összegét"},"tan":{"description":"Visszaadja a megadott érték tangensét"},"unrecognized":"%{functionName} nem egy ismert függvény"},"decimal_places":"Tizedes helyek","delete_formula":"képlet törlése","drag_to_reorder":"Ragadja meg a sorrend módosításához","headings":{"formula":"Képlet","result":"Eredmény"},"last_formula_row":"az utolsó képlet sor lesz felhasználva a végleges válasz kiszámításához","sample_final_answer":"Ez az érték egy példa a végső válaszra ennél a kérdéstípusnál"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "quizzes_public",
+  function() { return {"ip_filter_is_not_valid_152a46d8":"IP szűrő nem érvényes.","please_add_at_least_one_non_blank_answer_213c2c8e":"Kérjük, adjon meg legalább egy nem üres választ.","please_add_at_least_one_non_blank_answer_for_each__a05a55f9":"Kérjük, adjon meg legalább egy nem üres választ minden változóhoz.","quiz_40ee61b1":"kvíz","the_quiz_name_must_be_under_length_characters_68e7de3a":"A kvíz neve legfeljebb %{length} karakterből állhat"} },
+  function() { return {"alerts":{"no_valid_combinations":"A rendszer egy érvényes kombinációt sem tudott generálni az adott paraméterekhez. "},"answer_comments":"Válasz a megjegyzésekre","answer_text":"Válasz szövege","at_the_bottom":"-- a lap alján --","before_quiz_item":"%{name} elé","buttons":{"add_selected_questions":"Kiválasztott kérdések hozzáadása","adding_questions":"Kérdések hozzáadása...","create_group":"Csoport készítése","create_question":"Kérdés létrehozása","creating_group":"Csoport létrehozása...","generating":"Generálás...","generating_combinations_progress":"Generálás... (%{done}/%{total})","save":"Mentés","save_and_publish":"Mentés és publikálás","saved":"Mentve! ","saving":"Mentés...","update_group":"Csoport frissítése","update_question":"Kérdés mentése/frissítése"},"choose_option":"[ Válasszon ]","confirms":{"delete_answer":"Biztos benne? A válasz törlése olyan kérdésből, melyhez már lett beadva megoldás, azzal jár, hogy a kérdés újraértékelésének lehetőségét elveszíti.","delete_question":"Biztos benne, hogy törli ezt a kérdést?","delete_quiz":"Biztos, hogy törölni szeretné ezt a kvízt?","scrap_and_restart":"Kvíz eldobása és kezdés elölről?"},"default_answer_comments":"Visszajelzés, ha a hallgató ezt a választ jelöli meg","default_answer_comments_on_match":"Visszajelzés, ha a hallgató ezt a választ jelöli meg","default_comments_on_wrong_match":"Visszajelzés, ha a felhasználó kihagyja ezt a párosítást","default_quesiton_name":"Kérdés","default_question_name":"Kérdés","default_quiz_title":"Kvíz","default_response_to_essay":" Megjelenítendő visszajelzés a hallgatónak, miután felelt a kérdésre","default_response_to_file_upload":" Megjelenítendő visszajelzés a hallgatónak, miután felelt a kérdésre","enter_answer_variable_above":"[ Írja be a változókat a fentiek alapján ]","errors":{"adding_questions_failed":"A kérdés hozzáadása sikertelen, kérjük, próbálja újra","creating_group_failed":"A csoport létrehozása sikertelen, kérjük, próbálja újra!","field_is_required":"A mező kitöltése kötelező","invalid_show_correct_answers_range":"Az elrejtés dátuma nem lehet a megjelenítés dátuma előtt. ","loading_banks_failed":"A kurzusbank betöltése sikertelen, kérjük, próbálja újra","loading_more_questions_failed":"több kérdés betöltése sikertelen","loading_question_failed":"Kérdés betöltése sikertelen...","loading_questions_failed":"Kérdés betöltése sikertelen, kérjük, próbálja újra","missing_access_code":"Hozzáférési kód megadása kötelező","missing_ip_filter":"Egy érvényes IP címet kell beírnia","no_answer":"Kérjük, adjon meg legalább egy választ","no_correct_answer":"Kérjük, válasszon ki egy helyes megoldást ","no_possible_solution":"Kérjük, generáljon le legalább egy lehetséges megoldást","quiz_score_not_a_number":"Az eredménynek egy 0 és 2 000 000 000 közötti számnak kell lennie.","quiz_score_too_long":"Az eredménynek kisebbnek kell lennie 2 000 000 000-nál. ","quiz_score_too_short":"Az eredménynek nagyobbnak kell lennie 0-nál","retrieving_filters_failed":"A szűrők lekérése sikertelen"},"false":"Hamis","final_answer":"Végleges válasz","label":{"answer":{"text":"A válasz szövege, formázott tartalom"},"question":{"instructions":"Kérdésinstrukciók, formázott tartalom"},"quiz":{"instructions":"Kvízinstrukciók, formázott tartalom"}},"labels":{"answer_text":"Válasz szövege","comments_on_answer":"Megjegyzések, amennyiben a felhasználó ezt a lehetőséget választja ","comments_on_question":"Megjegyzések ehhez a kérdéshez ","comments_on_wrong_match":"Megjegyzések, amennyiben a felhasználó eltéveszti a párosítást","correct_answer":"Helyes válasz","message_text":"Üzenet szövege","other_incorrect_matches":"További helytelen párosítási opciók","possible_answer":"Lehetséges válasz"},"loading_more_questions":"további kérdések betöltése...","loading_question":"Kérdések betöltése...","loading_question_banks":"Kérdésbank betöltése...","loading_questions":"Kérdések betöltése...","more_questions":"további kérdések","no_filters_found":"Nem található szűrő","question":{"positive_points":"0, vagy nagyobb értéket kell megadni!"},"question_colon":"Kérdés:","question_limit_reached":"Elérte a kvízeknél engedélyezett maximális kérdésszámot (%{count}/%{limit}).\n\nMegoldás lehet, hogy az anyagot több kvízre osztja fel.","quiz_attempts_length_error":"A kvíznél a próbálkozások száma legfeljebb 3 számjegyű lehet, ha korlátlan számú próbálkozást szeretne biztosítani, akkor ne válassza ki bal oldalon a Többszöri próbálkozás engedélyezése lehetőséget","quiz_attempts_nan_error":"A kvízpróbálkozások számát csak számjeggyel lehet megadni","quiz_short_answer_length_error":"A válaszok a szöveg kiegészítéses feladatoknál maximum 80 karakter hosszúságúak lehetnek","retrieving_filters":"Szűrők lekérése...","titles":{"add_questions_as_group":"Kérdések hozzáadása csoportként","click_to_enter_comments_on_answer":"Kattintson ide a megjegyzések hozzáadásához, ha a hallgatók ezt a választ választják","click_to_enter_comments_on_wrong_match":"Kattintson ide a megjegyzések hozzáadásához, ha a hallgatók kihagyják ezt a kérdést","click_to_set_as_correct":"Kattintson ide, ha ezt a választ akarja helyesként megjelölni","click_to_unset_as_correct":"Kattintson ide a helyes megjelölés visszavonásához","find_question_bank":"Kérdésbank keresése","find_quiz_question":"Kvízkérdés keresése","help_with_formulas":"Súgó a kvízkérdés formulákról","ip_address_filtering":"IP cím szűrés","set_as_correct":"Ez a válasz helyesként van megjelölve"},"top_level":"-- Felső szint  --","true":"Igaz"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "registration",
+  function() { return {"canvas_introduction_video_2d81f3ad":"Canvas bemutató videó","child_s_username_dde3aa9":"A gyerek felhasználói neve","start_participating_f0c75256":"Részvétel megkezdése","you_will_be_redirected_to_a_login_page_where_you_w_fc8df402":"Átirányítjuk a Bejelentkezés oldalra, ahol a gyermeke hozzáférésével jelentkezzen be.","your_email_b5364bee":"Az Ön e-mailje","your_name_7665e1d8":"Az Ön neve"} },
+  function() { return {"incomplete_registration_warning":{"set_up_account":"Az Ön fiókja majdnem kész. A befejezéshez kérjük, nézze meg az *%{email}* című e-mail fiókját, hogy beállíthassa jelszavát!","start_participating":"Most már részt vehet a tevékenységekben, de mielőtt újra bejelentkezne, meg kell változtatnia a jelszavát."},"login":{"password":"Jelszó","remember_me":"Emlékezzen rám","sign_in":"Bejelentkezés"},"new_parent_dialog":{"buttons":{"cancel":"Mégse","start_participating":"Részvétel megkezdése"},"labels":{"email":"Az Ön e-mailje","name":"Az Ön neve","password":"Jelszó"}},"parent_dialog":{"buttons":{"start_participating":"Részvétel megkezdése"},"labels":{"email":"Az Ön e-mailje","name":"Az Ön neve","password":"A gyerek jelszava","username":"A gyerek felhasználói neve"}},"student_dialog":{"buttons":{"start_learning":"Tanulás megkezdése"},"labels":{"email":"E-mail","join_code":"Csatlakozási kód","name":"Teljes név","password":"Jelszó","password_confirmation":"Jelszó megerősítése","username":"Felhasználónév"}},"teacher_dialog":{"agree_to_terms_and_pp":"Ön elfogadja a *felhasználási feltételeket* és tudomásul veszi az **adatvédelmi irányelveket**.","buttons":{"start_teaching":"Tanítás megkezdése"},"labels":{"email":"E-mail","name":"Név"}}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "release_notes",
+  function() { return {"languages_835813f0":"Nyelvek"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "ResendInvitationsView",
+  null,
+  function() { return {"error_sending_invitations":"A meghívó elküldése sikertelen. Kérjük, próbálja újra.","invitations_re_sent":"Meghívók sikeresen elküldve"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "RosterDialogMixin",
+  null,
+  function() { return {"updating":"Frissítés..."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "RosterUserView",
+  function() { return {"are_you_sure_you_want_to_deactivate_this_user_they_3fdaab79":"Biztos benne, hogy deaktiválja a felhasználót? Az inaktív felhasználók nem fognak tudni részt venni a kurzusokban.","are_you_sure_you_want_to_remove_this_user_8d1a8295":"Biztos benne, hogy szeretné törölni ezt a felhasználót?","something_went_wrong_re_activating_the_user_please_82c3e7a":"Hiba történt a felhasználó újraaktiválása közben. Kérjük, próbálja újra később.","something_went_wrong_while_deactivating_the_user_p_8ff3e261":"Hiba történt a felhasználó deaktiválása közben. Kérjük, próbálja újra később.","user_successfully_deactivated_9d92d80d":"A felhasználó deaktiválása sikeres","user_successfully_re_activated_b897e35b":"A felhasználó újra aktiválása sikeres","user_successfully_removed_a366ca5f":"A felhasználó sikeresen eltávolítva."} },
+  function() { return {"flash":{"removeError":"A felhasználó eltávolítása sikertelen. Kérjük, próbálja újra később."},"nobody":"senki ","observing_user":"Megfigyelés: %{user_name}"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "RosterView",
+  function() { return {"search_people_as_you_type_in_this_field_the_list_o_5755e8ad":"Felhasználók keresése. Ahogy ebbe a mezőbe gépel, a felhasználók listáját automatikusan szűrjük oly módon, hogy csak azok a nevek jelenjenek meg, amelyek egyeznek a beírt szöveggel."} },
+  function() { return {"greater_than_three":"Kérjük, olyan keresési kifejezést írjon be, ami három vagy több karakterből áll","unknown_error":"Hiba történt a keresése közben, kérjük, próbálja újra."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "roster_publicjs",
+  null,
+  function() { return {"filter_multiple_users_found":"%{userCount} talált felhasználó.","filter_no_users_found":"Egy egyező felhasználó sincs","filter_one_user_found":"1 talált felhasználó."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "recipient_input",
+  null,
+  function() { return {"context_search_placeholder":"Írja be a nevet, kurzust vagy csoportot","context_search_title":"Név, kurzus, csoport","groups_count":{"one":"1 csoport","other":"%{count} csoport"},"no_results":"Nincs találat","people_count":{"one":"1 ember","other":"%{count} résztvevő"},"sections_count":{"one":"1 szekció","other":"%{count} szekció"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "sr_gradebook",
+  function() { return {"download_scores_generated_on_date_ff5b9cd2":"Pontok letöltése, melyek ekkor lettek generálva: %{date} "} },
+  function() { return {"all_grading_periods":"Minden osztályzási időszak","all_sections":"Összes szekció","assignment_muted":"Kattintson ide az inaktivitás megszüntetéséhez!","assignment_order_alpha":"Betűrend szerint","assignment_order_assignment_groups":"Feladatcsoport és pozíció szerint","assignment_order_due_date":"Határidő szerint","assignment_unmuted":"Kattintson ide az elnémításhoz.","discussion_topic":"Fórumtéma","external_tool":"Külső eszköz","final_point_ratio":"%{pointRatio} pont","invalid_group_warning":{"one":"Megjegyzés: Az eredmény nem tartalmazza a/az %{list_of_group_names} csoporthoz tartozó feladatokat, mivel nincs megadva elérhető pontszám.","other":"Megjegyzés: Az eredmény nem tartalmazza a/az %{list_of_group_names} csoportokhoz tartozó feladatokat, mivel nincs megadva elérhető pontszám."},"media_recordin":"Média felvétele","next_object":"Következő %{type}","no_assignment":"Nincs kiválasztva feladat","no_outcome":"Nincs kiválasztva tanulási eredmény","no_student":"Nincs kiválasztva hallgató","none":"Nincs","notes":"Jegyzetek","on_paper":"Papíron","online_quiz":"Online kvíz","online_text_entry":"Online szövegesbejegyzés","online_upload":"Online feltöltés","online_url":"Online webcím","previous_object":"Előző %{type}","student_hidden_name":"Hallgató %{position}"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "grading_cell",
+  function() { return {"no_points_possible_72db3a55":"Nincsenek elérhető pontok","out_of_points_37a749d7":"(%{points}pontból)"} },
+  function() { return {"grade_complete":"Kész","grade_incomplete":"Hiányos","grade_ungraded":"Nem értékelt"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "submissions",
+  function() { return {"preview_your_submission_and_view_teacher_feedback__81a45279":"Beadott munka előnézetének megtekintése, és az elérhető oktatói visszajelzés megtekintése"} },
+  function() { return {"creating_zip":"Zip file létrehozása...","download_submissions_title":"Beadott feladatmegoldások letöltése","finished_redirecting":"Befejezve! Átirányítás a fájlhoz...","gathering_files":"Fájlok összegyűjtése (%{progress})...","gathering_files_progress":"Fájlok összegyűjtése (%{progress})...","see_attached_files":"Lásd csatolt fájlok","show_preview":{"preview_title":"%{title} előnézete"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebookHelpers",
+  function() { return {"note_length_cannot_exceed_maxlength_characters_82798b1":"A jegyzet hossza nem haladhatja meg a %{maxLength} karaktert."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignment_muter",
+  function() { return {"mute_assignment_bb505cd8":"Feladat inaktiválása","muting_assignment_a9aeb5c7":"Feladat inaktívvá tétele...","this_assignment_is_currently_muted_that_means_stud_94d63139":"Ez a feladat jelenleg inaktív. Ez azt jelenti, hogy a hallgatók nem láthatják az értékeléseiket és a visszajelzéseket. Szeretné aktívvá tenni?","unmute_assignment_29a49038":"Feladat inaktivitása feloldva"} },
+  function() { return {"unmute_assignment":"Feladat inaktivitása feloldva","unmute_button":"Feladat inaktivitása feloldva","unmuting_assignment":"Feladat aktívvá tétele..."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebookHeaderMenu",
+  null,
+  function() { return {"errors":{"upload_as_zip":"Kérjük, .zip tömörítéssel töltse fel a fájlokat"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "submission_details_dialog",
+  function() { return {"all_comments_are_sent_to_the_whole_group_284591e7":"Minden megjegyzés elküldve az egész csoportnak","send_comment_to_this_student_only_e3d9ca1":"Megjegyzés küldése csak ennek a hallgatónak"} },
+  function() { return {"add_a_comment":"Megjegyzés hozzáadása","comments":"Megjegyzések","grade_form_label":"Értékelés:","labels":{"group_comment":"Megjegyzés küldése az egész csoport számára"},"late":"KÉSŐ","links":{"click_to_view":"a megtekintéshez kattintson ide "},"loading_comments":"Megjegyzések betöltése...","more_details_in_the_speedgrader":"További részletek a Gyorsértékelőben","post_comment":"Megjegyzés közzététele","submitted":"Beadva:","this_was_submitted_multiple_times_choose_a_submission_to_view":"Többször leadva, válassza ki, melyiket szeretné megtekinteni:","update_grade":"Értékelés frissítése","view_rubric_assessment_in_the_speedgrader":"Értékelőtábla megtekintése a Gyorsértékelőben"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebook_individual_gradebook_gradebook_selector",
+  function() { return {"individual_view_81c2f124":"Egyéni nézet","individual_view_d60b9132":"Egyéni nézet..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "section",
+  null,
+  function() { return {"confirms":{"delete_enrollment":"Biztos benne, hogy véglegesen törli ezt a beiratkozást?"},"default_course_name":"Kurzusazonosító \"%{course_id}\"","enrolled_as_designer":"beiratkozott mint tervező","enrolled_as_limited_designer":"beiratkozott mint szekcióhoz hozzáférő tervező","enrolled_as_limited_observer":"beiratkozott mint szekcióhoz hozzáférő megfigyelő","enrolled_as_limited_student":"beiratkozott mint szekcióhoz hozzáférő hallgató","enrolled_as_limited_ta":"beiratkozott mint  szekcióhoz hozzáférő segédoktató","enrolled_as_limited_teacher":"beiratkozott mint szekcióhoz hozzáférő oktató","enrolled_as_observer":"beiratkozott mint megfigyelő","enrolled_as_student":"beiratkozott mint hallgató","enrolled_as_ta":"beiratkozott mint segédoktató","enrolled_as_teacher":"beiratkozott mint oktató","errors":{"confirmation_failed":"A megerősítés sikertelen","course_not_authorized_for_crosslist":"%{course_name} kurzusra nem engedélyezett a keresztlistázás"},"status":{"confirming_course":"%{course_name} megerősítése...","removing_crosslisting_of_section":"Szekció keresztlistázásának törlése..."}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "paginated_list",
+  null,
+  function() { return {"no_results_found":"Nincsenek eredmények","view_more_link":"További részletek..."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "sis_import",
+  null,
+  function() { return {"buttons":{"process_data":"Adatfeldolgozás"},"errors":{"import_failed_code":"Hiba történt a SIS adatok importálása közben. Egy bejegyzés sem lett importálva.  Lépjen kapcsolatba a rendszergazdával, és továbbítsa a következő kódot: \"%{code}\"","import_failed_messages":"Az importálás sikertelen volt az alábbi hibaüzenetekkel:"},"headers":{"import_errors":"Hibák, amelyek megakadályozzák az importálást","import_warnings":"Figyelmeztetések","imported_items":"Importált elemek"},"import_counts":{"accounts":"Fiókok: %{account_count}","courses":"Kurzusok: %{course_count}","crosslists":"Keresztlisták: %{crosslist_count}","enrollments":"Beiratkozások: %{enrollment_count}","group_categories":"Csoporthalmazok: %{group_categories_count}","group_enrollments":"Csoportbeiratkozások: %{group_enrollments_count}","groups":"Csoportok: %{group_count}","sections":"Szekciók: %{section_count}","terms":"Félévek: %{term_count}","users":"Felhasználók: %{user_count}"},"messages":{"import_complete_success":"Az importálás befejeződött, és minden rekord sikeresen importálva lett.","import_complete_warnings":"A SIS adatok importálva lettek, de ezekkel az üzenetekkel:"},"notices":{"processing_takes_awhile":"ez eltarthat egy ideig..."},"status":{"processing":"Feldolgozás"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "speed_grader",
+  function() { return {"action_was_not_anonymous_b5262db1":"A művelet nem volt névtelen","add_a_comment_872470ac":"Megjegyzés hozzáadása","administrator_f325c186":"Adminisztrátor","are_you_sure_you_want_to_submit_this_comment_fbe76ba6":"Biztos benne, hogy be akarja küldeni ezt a megjegyzést?","assignment_created_b3ee04d7":"Feladat létrehozva","assignment_muted_4cb590a4":"Inaktív állapotú feladat","assignment_updated_c7482598":"A feladat frissítve.","delete_comment_commenttext_c8afe129":"Megjegyzés törlése: %{commentText}","failed_to_submit_draft_comment_1de83451":"Nem sikerült a piszkozati megjegyzés feltöltése","hour_s_b6e8d238":"Órá(k)","if_you_would_like_to_keep_your_unsubmitted_comment_b7e349ce":"Ha meg szeretné tartani a nem közzétett hozzászólásait, kérjük mentse őket, mielőtt elhagyja az oldalt. ","late_bd436902":"KÉSŐI","missing_eaddacbd":"HIÁNYZÓ","name_user_e44eebed":"%{name}Felhasználó","similarity_score_see_detailed_report_a113dac0":"Hasonlósági mutató - Lásd a részletes jelentést","student_viewed_document_9065adb8":"Hallgató által megtekintett dokumentum","unknown_event_7a0bcda3":"Ismeretlen esemény","unknown_role_cbe9a089":"Ismeretlen szerep","unknown_user_1113fcaa":"Ismeretlen felhasználó","x_y_4a86b3ab":"%{x}/%{y}"} },
+  function() { return {"alerts":{"no_active_students":"Sajnáljuk, vagy nincs egy aktív hallgató sem a kurzuson vagy Ön egyet sem értékelhet.","no_students_in_groups_back":"Sajnáljuk, ehhez a feladathoz tartozó beadandók nem értékelhetőek a gyorsértékelővel, mert nincs hozzárendelt felhasználó. Kérjük, rendeljen felhasználókat a csoporthalmazhoz, és próbálja újra. Kattintson az 'OK'-ra a visszalépéshez.","no_students_in_groups_close":"Sajnáljuk, ehhez a feladathoz tartozó beadandók nem értékelhetők a gyorsértékelővel, mert nincs hozzárendelt felhasználó. Kérjük, rendeljen felhasználókat a csoporthalmazhoz, és próbálja újra. Kattintson az 'OK'-ra az ablak bezárásához.","no_students_in_section":"Nem található egy hallgató sem abban a szekcióban, visszatérünk a minden szekciót mutató nézetre."},"allow_message":"Kattintson az \"Engedélyezés\" gombra a felvétel kezdéséhez.","begin_record_prompt":"Kattintson a \"Felvétel\" gombra a kezdéshez.","buttons":{"dialog_buttons":"Mégse","saving_settings":"Beállítások mentése...","submitting":"Beküldés..."},"crocodoc_expiring":"Az Ön Crocodoc munkamenete hamarosan lejár. Kérjük, frissítse az ablakot, hogy megakadályozza munkájának elvesztését.","dialog_button":{"aria_record":"A felvétel megkezdéséhez kattintson ide"},"edit_view_rubric":"Értékelőtábla megtekintése","group":"Csoport","no_submission_time":"nincs leadási idő","nodetect_message":"Nem érzékelek hangot. Lehetséges, hogy meg kell változtatnia a mikrofon beállításait.","portion_graded":"%{x}/%{y}","recording_expired_message":"A beszédfelismerés inaktivitás miatt befejeződött. Kattintson a \"Leállítás\" gombra, hogy a jelenlegi szöveget használjuk megjegyzésként vagy a \"Mégse\" gombra az elvetéshez.","recording_message":"Felvétel...","student":"Hallgató","submissions_dropdown":{"grade":"(osztályzat: %{grade})","see_all_quiz_attempts":"Összes kvízkitöltési próbálkozás megtekintése","submission_to_view":"Beadandó megtekintése:","submitted":"*Beadva:* %{submittedAt}"},"submit":"Beküldés","titles":{"click_to_record":"Beszéd szöveggé"},"vericite":{"resubmitting":"Újraküldés..."}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "speed_grader_helpers",
+  function() { return {"there_was_an_error_submitting_to_the_similarity_de_eb6a261":"Hiba történt a hasonlóság érzékelő szolgáltatásba való beküldés közben. Kérjük, próbálja meg beküldeni a fájlt újra, mielőtt kapcsolatba lépne a támogatással!"} },
+  function() { return {"dialog_button":{"aria_record_reset":"A felvétel megkezdéséhez kattintson ide","aria_stop":"Kattintson a \"Stop\"-ra a felvétel befejezéséhez."},"graded":"osztályozva","graded_then_resubmitted":"értékelve, majd újra beadva (%{when})","not_graded":"nem értékelt","not_submitted":"nincs beadva","turnitin":{"resubmitting":"Újraküldés..."}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "CommentLibrary",
+  function() { return {"add_comment_to_library_1e3d95db":"Megjegyzés hozzáadása a könyvtárhoz","add_to_library_30514daa":"Hozzáadás a könyvtárhoz","adding_to_library_b552868":"Hozzáadás a könyvtárhoz folyamatban"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "SpeedGraderPostGradesMenu",
+  function() { return {"all_grades_hidden_84409b76":"Minden osztályzat elrejtve","all_grades_posted_d5b8cb68":"Minden osztályzat felkerült"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "sub_accounts",
+  null,
+  function() { return {"alerts":{"subaccount_has_courses":"Nem törölhet olyan alfiókot, ami kurzusokat tartalmaz","subaccount_has_subaccounts":"Nem törölhet olyan alfiókot, ami alfiókokat tartalmaz"},"confirms":{"delete_subaccount":"Biztos benne, hogy törli ezt az alfiókot?"},"courses_count":{"one":"1 kurzus","other":"%{count} kurzus"},"sub_accounts_count":{"one":"1 Alfiók","other":"%{count} alfiók"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "ExternalContentFileSubmissionView",
+  null,
+  function() { return {"file_retrieval_error":"A fájl lekérése sikertelen","getting_file":"Fájl lekérése...","invalid_file_retrieval":"Probléma adódott az eszköz által küldött fájl lekérése közben.","processing_submission":"A Canvas jelenleg feldolgozza beküldését. Nyugodtan elnavigálhat erről az oldalról, és e-mailben értesítjük, ha a beadványt nem sikerül feldolgozni."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "titles",
+  null,
+  function() { return {"view_in_separate_window":"Megtekintés különálló ablakban"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "submit_assignment_helper",
+  null,
+  function() { return {"messages":{"agree_to_pledge":"El kell fogadnia a beküldési nyilatkozatot, mielőtt beküldené ezt a feladatot."}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "submit_assignment",
+  function() { return {"attached_files_must_be_greater_than_0_bytes_7f57bee7":"A csatolt fájl mérete nem lehet 0 bájt","remove_empty_attachment_b2aea632":"üres melléklet eltávolítása","remove_filename_87f3781e":"%{filename} eltávolítása"} },
+  function() { return {"buttons":{"submit_assignment":"Feladat leadása"},"messages":{"not_submitted_yet":"Nem fejezte be a feladat beküldését. A beküldés befejezéséhez a \"Beküldés\" gombra kell kattintani. Ennek ellenére elhagyja az oldalt?","now_overdue":"A feladat határideje lejárt. Minden további beadás későként lesz megjelölve. Folytatja?","overdue":"A feladat határideje lejárt. Mégis be szeretné küldeni?","record_before_submitting":"Felvétel a beküldés előtt","submit_failed":"A beküldés sikertelen, kérjük, próbálja újra","submitting":"Beküldés..."},"titles":{"uploading":"Beadandó feltöltése"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "button",
+  null,
+  function() { return {"submit_assignment":"Feladat beadása"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "errors",
+  null,
+  function() { return {"blank":"Kötelező","no_attached_file":"Legalább egy fájlt csatolnia kell ehhez a feladathoz","required":"Kötelező","unsaved_changes":"Még el nem mentett módosításai vannak.","wrong_file_extension":"A kiválasztott \"%{extension}\" kiterjesztésű fájl nem engedélyezett beadásra"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "syllabus",
+  function() { return {"course_syllabus_5de1b0af":"Kurzus tematikája"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "terms",
+  function() { return {"term_start_b8c2aad1":"félév kezdete","whenever_b943b119":"bármikor"} },
+  function() { return {"index":{"add_term":"Félév hozzáadása","date":{"term_end":"félév vége","unspecified":"bármikor"},"messages":{"classes_in_term":"Nem törölhet olyan félévet, ami még tartalmaz kurzusokat.","submitting":"Leadás... "},"prompts":{"delete":"Biztos benne, hogy törli ezt a félévet?"},"update_term":"Félév frissítése"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "terms_of_service_modal",
+  function() { return {"acceptable_use_policy_29a28124":"Felhasználói szabályzat"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "terms_of_use",
+  function() { return {"you_must_agree_to_the_terms_99723f97":"Fogadja el a feltételeket"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "user_grades",
+  function() { return {"no_grade_3fa326c":"nincs érdemjegy"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "user_lists",
+  null,
+  function() { return {"add_n_users":{"one":"Ez jónak tűnik, folytatás 1 felhasználó hozzáadásával","other":"Ez jónak tűnik, folytatás %{count} felhasználó hozzáadásával"},"adding_users":"Felhasználók hozzáadása","buttons":{"continue":"Folytatás..."},"cant_unenroll":"Ez a felhasználó automatikusan iratkozott be az egyetem beiratkozási rendszerével, így manuálisan nem távolítható el. Lépjen kapcsolatba a rendszer-adminisztrátorral, ha kérdése van.","delete_confirm":"Biztos benne, hogy törölni szeretné ezt a felhasználót?","duplicate_users":{"one":"1 duplikált felhasználó megtalálva, a duplikátumok törölve lettek.","other":"%{count} duplikált felhasználót találtunk, a duplikátumok törölve lettek."},"invalid_users_notice":"Ezek közül néhány helytelen volt, így érdemes visszatérni és javítani a hibákat.","just_now":"Éppen most","messages":{"processing":"Feldolgozás..."},"titles":{"existing_user":"Létező felhasználó"},"user_parsing_errors":{"one":"A felhasználók listájának feldolgozásakor 1 hiba adódott.","other":"A felhasználók listájának feldolgozásakor %{count} hiba adódott."},"users_added":{"one":"1 felhasználó hozzáadva","other":"%{count} felhasználó hozzáadva"},"users_adding_failed":"Felhasználók hozzáadása sikertelen","users_existed":{"one":"(1 felhasználó már létezett)","other":"(%{count} felhasználó már létezett)"},"users_to_add":{"one":"Ha folytatja, 1 felhasználó hozzá lesz adva.","other":"Ha folytatja, %{count} felhasználó hozzá lesz adva."}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "user_logins",
+  null,
+  function() { return {"buttons":{"add_login":"Belépési azonosító hozzáadása","update_login":"Belépési azonosító frissítése"},"confirms":{"delete_login":"Biztos benne, hogy törölni szeretné  a/az \"%{login}\" bejelentkezést?"},"error":{"unauthorized":"Nincs megfelelő jogosultsága a kért változtatásokhoz"},"notices":{"cant_delete_last_login":"Nem törölheti egy felhasználó egyetlen bejelentkezési azonosítóját","mfa_reset":"Többlépcsős hitelesítés alaphelyzetbe hozása"},"save_succeeded":"Sikeres mentés","titles":{"add_login":"Belépési azonosító hozzáadása","update_login":"Belépési azonosító frissítése"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "user_name",
+  null,
+  function() { return {"buttons":{"update_user":"Felhasználó frissítése"},"confirms":{"remove_profile_picture":"Biztos benne, hogy szeretné törölni ennek a felhasználónak a profilképét?"},"errors":{"failed_to_remove_image":"A kép törlése nem sikerült, próbálja újra","failed_to_report_image":"A kép jelentése nem sikerült, próbálja újra","updating_user_details_failed":"A felhasználó részleteinek frissítése sikertelen, kérjük, próbálja újra"},"messages":{"removing_image":"Kép eltávolítása...","reporting_image":"Kép jelentése...","updating_user_details":"Felhasználó részleteinek frissítése..."},"notices":{"image_reported":"Ezt a képet kifogásolható tartalomnak jelentették."}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "user_notes",
+  null,
+  function() { return {"confirms":{"delete_journal_entry":"Biztos benne, hogy törli ezt a hírlevél bejegyzést?"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "observees",
+  function() { return {"in_order_to_complete_the_process_you_will_be_redir_83376e10":"A folyamat befejezéséhez átirányítjuk a bejelentkezési oldalra, ahol a gyermeke azonosítójával kell bejelentkeznie."} },
+  function() { return {"being_observed":"A hallgatók megfigyelés alatt állnak ","observee_added":" %{user} megfigyelése","observing":"Megfigyelés"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "outcomes",
+  function() { return {"add_a_new_outcome_cbdbe96c":"Új tanulási eredmény hozzáadása","add_a_new_outcome_group_e3fab2fc":"Új tanulási eredménycsoport hozzáadása","delete_outcome_cc6546f1":"Tanulási eredmény törlése","delete_outcome_group_6b399d34":"Tanulási eredménycsoport törlése","edit_outcome_group_f82e0210":"Tanulási eredménycsoport szerkesztése","find_an_outcome_919328e6":"Tanulási eredmény keresése","hide_all_artifacts_d654fbd5":"Minden alkotás elrejtése","import_a_set_of_outcomes_6b782192":"Tanulási eredményhalmaz importálása","in_order_to_import_a_large_quantity_of_outcomes_at_c0d587e3":"Ha egyszerre nagy mennyiségű Tanulási eredményt szeretne importálni, vagy frissíteni szeretné a meglévőket, használja a *CSV formátumot*.","latest_assessment_a85280ef":"Utolsó értékelés","more_importantly_canvas_allows_you_to_add_outcomes_78822cf":"Ennél is fontosabb, hogy a Canvas lehetővé teszi, hogy tanulási eredményeket társítson az értékelőtáblákhoz. Az eredmények beállítása után kattintson az Értékelőtáblák kezelése elemre, hogy a tanulási eredményeket felhasználhassa az értékelés során.","move_outcome_ce497e6c":"Tanulási eredmény áthelyezése","move_outcome_group_cfa1a505":"Tanulási eredménycsoport áthelyezése","new_outcome_7fba8c7d":"Új tanulási eredmény","new_outcome_group_af59f145":"Új tanulási eredménycsoport","no_score_yet_c94e919b":"Még nincs pontszám","not_available_until_next_submission_2175158":"A következő beadásig nem érhető el","show_all_artifacts_34b91a83":"Minden alkotás megjelenítése","the_most_recent_scores_for_user_current_user_name__ea82f0b6":"A legfrissebb pontszámok a/az %{current_user_name} felhasználó esetén, valamint a tanulási eredmények %{outcome_name}.","you_have_no_outcomes_click_here_to_create_one_ebf262a3":"Nincs tanulási eredmény. *Kattintson ide* a létrehozáshoz."} },
+  function() { return {"criterion":{"close_rating":"OK","criterion_rating_points":"Kritériumértékelési pontok","delete_criterion":"Törlés","edit_criterion_rating_title":"„%{description}” kritériumértékelés szerkesztése","points":"Pont","pts":"pont","rating_description":"Kritériumértékelés leírása"},"criterion_header":{"insert_criterion_rating":"Kritériumértékelés beszúrása","insert_rating":"Beszúrás"},"find_instructions":{"instructions":{"find":{"title":"Tanulási eredmények keresése"}}},"main_instructions":{"instructions":{"main":{"manage":{"title":"Tanulási eredmények beállítása"}}}},"outcome":{"links":{"delete_outcome":"Törlés","edit_outcome":"Szerkesztés"},"mastery_at_label":"Jártasság beállítása ezen a pontszámon vagy fölötte:","use_for_scoring":"Kritérium használata pontozáshoz"},"outcome_form":{"calculation_method":"Számítási módszer","criterion":"Kritériumértékelések","description":"A tanulási eredmény leírása","display_name":"Becenév (opcionális)","mastery":"Elfogadási szint:","title":"A tanulási eredmény neve"},"outcome_group":{"links":{"delete_outcome_group":"Törlés","edit_outcome_group":"Szerkesztés"}},"outcome_group_form":{"group_description":"A csoport leírása","title":"A csoport elnevezése"},"outcome_popover":{"mastery_set_at":"Elfogadási szint beállítva erre:","no_results":"(nincsenek eredmények)"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "users",
+  null,
+  function() { return {"confirms":{"unenroll_user":"Biztos benne, hogy kiiratkoztatja ezt a felhasználót?"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "webzip_exports",
+  function() { return {"an_error_occurred_please_try_again_later_84223241":"Hiba történt. Kérem, próbálja újra később.","export_failed_5d615d6d":"Az exportálás sikertelen","exported_package_history_bfca44b9":"Exportált csomagelőzmények","most_recent_export_7282b756":"A legutolsó export","no_exports_to_display_7f1b630b":"Nincs megjeleníthető export"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "pages",
+  function() { return {"name_is_locked_click_to_unlock_bbebf03e":"%{name}zárolva. Kattintson a zárolás feloldásához."} },
+  function() { return {"cancel_button":"Mégse","cannot_unpublish_front_page":"A kezdőlap publikálását nem lehet visszavonni","delete_button":"Törlés","delete_confirmation":"Biztos benne, hogy törli ezt az oldalt?","delete_dialog_title":"Oldal törlése","deleting_button":"Törlés...","edit_dialog_title":"Oldal szerkesztése","errors":{"require_title":"Be kell írnia egy címet"},"headers":{"sort_ascending":"%{title}, rendezés emelkedő sorrendben","sort_descending":"%{title}, rendezés csökkenő sorrendben"},"notices":{"delete_failed":"A következő oldal nem törölhető: \"%{title}\"","page_deleted":"A következő oldal sikeresen törölve lett: \"%{title}\" "},"reload_editing_page":"Az oldal módosult, mióta elkezdte szerkeszteni. Az *Újratöltés* esetén minden változtatását elveszíti.","reload_viewing_page":"Az oldal módosult, mióta elkezdte megtekinteni. *Újratöltés*","restore_failed":"Az oldal változatának helyreállítása sikertelen","save_button":"Mentés","saving_button":"Mentés...","warnings":{"overwrite_changes":"A szerkesztés kezdete óta keletkezett más változtatások felülírására készül.\n\nFelülírja a változtatásokat?","unsaved_changes":"Olyan módosításai vannak, amelyek még nincsenek elmentve. El akar navigálni anélkül, hogy elmentené ezeket a módosításokat?"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "content_locks",
+  null,
+  function() { return {"buttons":{"ok_thanks":"Rendben, köszönöm"},"messages":{"assignment_locked_at":"Ez a feladat zárolva lett ekkor: %{at}.","assignment_locked_module":"Ez a feladat a *%{module}* modul része és a zárolás még nem lett feloldva.","assignment_locked_no_reason":"A feladat zárolva van. Egyéb indok nincs megadva. ","assignment_locked_until":"A feladat zárolva van eddig: %{date}.","content_locked_at":"Ez a tartalom zárolásra került ekkor %{at}.","content_locked_module":"Ez a feladat a *%{module}* modul része és a zárolás még nem lett feloldva.","content_locked_no_reason":"A tartalom zárolva van. Egyéb indok nincs megadva. ","content_locked_until":"Ez a tartalom eddig van zárolva: %{date}.","file_locked_at":"Ezt a fájlt zárolták ekkor %{at}.","file_locked_module":"A fájl a következő modul része: *%{module}*, és még nem nyitható meg","file_locked_no_reason":"A fájl nem nyitható meg. Egyéb indok nincs megadva. ","file_locked_until":"A fájl nem nyitható meg eddig: %{date}.","page_locked_at":"Ezt az oldalt zárolták ekkor: %{at}.","page_locked_module":"Ez az oldal a következő modul része: *%{module}*,  és még nem nyitható meg.","page_locked_no_reason":"Az oldal nem nyitható meg. Egyéb indok nincs megadva. ","page_locked_until":"Az oldal zárolva van eddig: %{date}.","quiz_locked_at":"Ez a kvíz zárolásra került ekkor: %{at}.","quiz_locked_module":"Ez a kvíz a következő modul része: *%{module}*, és még nem lett a zárolás feloldva.","quiz_locked_no_reason":"A kvíz zárolásra került. Egyéb indok nincs megadva. ","quiz_locked_until":"A kvíz zárolva van eddig: %{date}.","topic_locked_at":"Ezt a témát ekkor zárolták: %{at}.","topic_locked_module":"Ez a téma a következő modul része: *%{module}*, és még nem nyitható meg.","topic_locked_no_reason":"A téma zárolsára került. Egyéb indok nincs megadva. ","topic_locked_until":"A téma zárolva van eddig: %{date}.","visit_modules_page_for_details":"Látogassa meg a kurzusmodul oldalát, ahol megtudhatja, hogyan kell megnyitni ezt a tartalmat. "},"titles":{"content_is_locked":"A tartalom zárolva lett"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "add_people",
+  function() { return {"add_people_7ee4b2ec":"Résztvevők hozzáadása","add_people_to_coursename_5ea234e1":"Felhasználók hozzáadása a következő modulhoz:%{courseName}","add_users_b10c7fb1":"Felhasználók hozzáadása","loading_725811ca":"betöltés"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "add_people_duplicate_section",
+  function() { return {"click_to_select_user_name_41746803":"Kattintson a felhasználó kiválasztásához %{name}","click_to_skip_address_8f874b32":"%{address}kihagyásához kattintson ide"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "add_people_missing_people_section",
+  function() { return {"click_to_add_a_name_6cf551b0":"Név hozzáadásához kattintson ide"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "PeopleReadyList",
+  function() { return {"user_list_66428346":"Felhasználók listája"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "PeopleSearch",
+  function() { return {"add_user_s_by_b2549f89":"Felhasználó(k) hozzáadása","can_interact_with_users_in_their_section_only_48cb8c43":"Csak a saját szekciójában lévő felhasználókkal léphet kapcsolatba","it_looks_like_you_have_an_invalid_email_address_ad_67dec734":"Úgy tűnik, van egy érvénytelen e-mail cím: \"%{addr}\"","role_13a7be77":"Szerep"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "add_peopleapiState_reducer",
+  function() { return {"an_internal_error_occurred_83b8a685":"Belső hiba történt","failed_creating_user_b706a1c5":"Felhasználó létrehozása sikertelen"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "ajaxflashalert",
+  function() { return {"an_error_occurred_making_a_network_request_d1bda348":"Hiba történt a hálózati kérelem létrehozásakor"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignment_categories",
+  function() { return {"wiki_6603e81b":"Wiki"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "models_Assignment",
+  function() { return {"can_t_unpublish_name_if_there_are_student_submissi_8ab8086c":"Nem lehet visszavonni %{name} publikálását, ha már vannak hallgatói munkák beadva"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "AssignmentGroupCreateDialog",
+  null,
+  function() { return {"titles":{"add_assignment_group":"Feladatcsoport hozzáadása"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignment_group_selector",
+  null,
+  function() { return {"assignment_group_must_have_group":"Kérjük, válasszon ki egy feladatcsoportot ehhez a feladathoz"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignment_grading_type",
+  null,
+  function() { return {"gpa_scale_explainer":"Mit jelent a GPA skála szerinti osztályzás?","grading_type_options":{"gpa_scale":"GPA skála","letter_grade":"Betű alapú érdemjegy","not_graded":"Nem osztályozott","pass_fail":"Kész/Hiányos","percent":"Százalék","points":"Pontok"},"titles":{"gpa_scale_explainer":"Mit jelent a GPA skála szerinti osztályzás?","grading_scheme_info":"Osztályzási rendszer megtekintése/szerkesztése"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignment!reupload_submissions_helper",
+  function() { return {"please_upload_files_as_a_zip_5a2c799f":"Kérjük, .zip tömörítéssel töltse fel a fájlokat","upload_files_a228f20f":"Fájlok feltöltése","uploading_ee585874":"Feltöltés..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "CollectionView",
+  null,
+  function() { return {"no_items":"Nincsenek elemek."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "blueprint_settings_actions",
+  function() { return {"an_error_occurred_while_checking_the_migration_sta_d17035b1":"Hiba történt a migráció státuszának ellenőrzésekor","an_error_occurred_while_loading_associations_9699b3ee":"Hiba történt a hozzárendelések betöltése során","an_error_occurred_while_loading_changes_9851b56f":"Hiba történt a változtatások betöltése során","an_error_occurred_while_loading_courses_11d4571e":"Hiba történt a kurzusok betöltése során","an_error_occurred_while_starting_migration_8e6015e2":"Hiba történt a migrálás megkezdése során"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "blueprint_coursesLockBanner",
+  function() { return {"attributes_locked_1a1a0f46":"%{attributes}zárolva"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "blueprint_settingsSyncChange",
+  function() { return {"show_exceptions_270ea1c5":"Mutassa a kivételeket"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "blueprint_settings_labels",
+  function() { return {"content_1440204b":"Tartalom","created_58b8a75a":"Létrehozva","question_bank_f6c44d62":"Kérdésbank","updated_2c1e8615":"Frissített"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "course_nickname_edit",
+  function() { return {"nickname_1e6da3ad":"Becenév"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "calendar_color_picker",
+  function() { return {"blue_daf8fea9":"Kék","brick_f2656265":"Tégla","could_not_save_chosencolor_741b74ce":"Nem sikerült elmenteni a színt: '%{chosenColor}'","cyan_c1d5f68a":"Cián","deep_purple_bb3e2907":"Sötétlila","enter_a_hexcode_here_to_use_a_custom_color_51ecccce":"Írjon be egy hexadecimális kódot ahhoz, hogy egyedi színt használhasson","green_15af4778":"Zöld","indigo_2035fc55":"Indigókék","invalid_hexcode_9124519f":"Érvénytelen hexadecimális kód","invalid_hexcode_enter_a_valid_hexcode_here_to_use__fc0f2741":"Érvénytelen hexkód. Egyéni szín használatához írjon be egy érvényes hexkódot.","light_blue_5374f600":"Világoskék","magenta_4a65993c":"Magenta","orange_81386a62":"Narancs","pink_68ad45cb":"Rózsaszín","pumpkin_904428d5":"Sütőtök","purple_7678a9fc":"Lila","red_8258edf3":"Vörös","select_a_predefined_color_c77ab2f5":"Válasszon egy előre definiált színt!","select_course_color_cad8e62b":"Kurzusszín kiválasztása","teal_f729a294":"Kékeszöld"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "format_range",
+  function() { return {"multiple_ba5220cd":"Többszörös","upper_lower_56cad16c":"%{upper} - %{lower}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "conditional_release",
+  function() { return {"add_items_44913315":"Elem hozzáadása","add_items_into_scoring_range_title_be08104e":"Elem hozzáadása ehhez %{scoring_range_title}","add_items_to_score_range_297d413b":"Elemek hozzáadása a pontszámtartományhoz","all_items_a49b66c7":"Minden elem","loading_1d2ad2d7":"Betöltés...","lower_bound_ed528347":"Alsó határ","must_be_a_number_f6e09df7":"számnak kell lennie","must_not_be_empty_80fd90b8":"nem lehet üres","must_provide_valid_letter_grade_999219e3":"érvényes betűalapú érdemjegyet kell megadni","no_items_found_870b2d0d":"Nincs találat","score_letter_grade_b3bb9e52":"%{score}betű alapú osztályzat","score_percent_11941c81":"%{score}%","score_points_3c48e2a8":"%{score} pont"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "count_items_found_224f86d3",
+  null,
+  function() { return {"zero":"Nincs találat"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "cyoe_assignment_sidebar_breakdown_graph_bar",
+  function() { return {"lowerbound_to_upperbound_352a3c0b":"%{lowerBound}+ - %{upperBound}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "cyoe_assignment_sidebar_student_details_view",
+  function() { return {"not_submitted_7d05fdb4":"Nincs beküldve","view_next_student_9fc72fef":"következő hallgató megtekintése","view_previous_student_90000459":"előző hallgató megtekintése","view_submission_ff3da5d":"Beadandó megtekintése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "select_content_checkbox",
+  null,
+  function() { return {"select_content_error":"Ki kell választania egy tartalomopciót "} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "student_context_trayLastActivity",
+  function() { return {"last_login_b7bc0479":"Utolsó bejelentkezés:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "student_context_trayRating",
+  function() { return {"high_b5cbd048":"Magas","low_eab1cadd":"Alacsony","moderate_d0c85e92":"Moderálás"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "student_context_trayStudentContextTray",
+  function() { return {"activity_compared_to_class_8133cb0":"Tevékenység összehasonlítva az osztállyal","page_views_eb64cf53":"Oldalmegtekintések","participation_af2598":"Részvétel"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "student_context_traySubmissionProgressBars",
+  function() { return {"grade_10d1e5a1":"%{grade}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "publishable",
+  null,
+  function() { return {"cant_unpublish":"Nem lehet a publikálást visszavonni"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "publishableModuleItem",
+  function() { return {"can_t_unpublish_if_there_are_student_submissions_2d7cd742":"Nem lehet visszavonni a publikálást, ha már vannak hallgatói munkák beadva","can_t_unpublish_item_name_if_there_are_student_sub_b83c7a9f":"Nem lehet visszavonni %{item_name} publikálását, ha már vannak hallgatói munkák beadva","publishing_is_disabled_for_this_item_efa7803f":"Ennél az elemnél a publikálás nem lehetséges","publishing_item_name_is_disabled_8207a9e7":"%{item_name} publikálása nem lehetséges"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "viewsContextModules",
+  null,
+  function() { return {"context_module":{"unpublish":"Publikálás visszavonása"},"context_modules":{"publish":"Publikálás"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "context_modulespublic",
+  function() { return {"collapse_all_50275533":"Összecsuk mindent","complete_all_items_e1779257":"Minden elemet tegyen befejezetté","complete_one_item_90e5fb03":"Egy elem befejezése","expand_all_bb64d2ea":"Kinyit mindent","module_item_module_item_name_was_successfully_dele_8626d846":"A modul eleme %{module_item_name} sikeresen törölve.","module_module_name_was_successfully_deleted_fc9e9d47":"%{module_name} nevű modul sikeresen törölve. ","move_module_90e6927e":"Modul áthelyezése","move_module_item_f525d6c8":"Modulelem áthelyezése","multiple_due_dates_283dd861":"Több határidő","must_contribute_to_the_page_fff632c":"Közre kell működni az oldal szerkesztésében","must_mark_as_done_91cff799":"Meg kell jelölni elkészültként","must_score_at_least_a_score_3b4f813d":"Legalább %{score} pontot kell elérni","must_submit_the_assignment_782d025":"Be kell adni a feladatot","must_view_the_page_67eec19e":"Meg kell tekintenie az oldalt","not_completed_d70acea3":"Befejezetlen","not_yet_completed_345a0bca":"Még befejezetlen","select_prerequisite_module_57894963":"Előfeltétel modul kiválasztása","this_assignment_is_overdue_a44bea3b":"Ez a feladat lejárt","title_is_required_437f9993":"Cím megadása kötelező","you_scored_a_score_a5dd5561":"%{score} pontot ért el.","your_submission_has_not_been_graded_yet_d6963e53":"A beadott anyagot még nem osztályozták"} },
+  function() { return {"buttons":{"add":"Modul hozzáadása","add_item":"Elem hozzáadása","update":"Modul frissítése"},"confirm":{"delete":"Biztos benne, hogy törli ezt a modult?","delete_item":"Biztos benne, hogy törli ezt az elemet a modulból?"},"errors":{"reorder":"A sorrend megváltoztatása sikertelen, próbálja újra"},"optgroup":{"assignments":"Feladatok","discussion_topics":"Fórumok","external_tools":"Külső eszközök","external_urls":"Külső webcímek","files":"Fájlok","quizzes":"Kvízek"},"points_possible_short":"%{points} pont","titles":{"add":"Modul hozzáadása","add_item":"Elem hozzáadása ide: %{module}","add_prerequisite":"Előfeltétel hozzáadása ehhez: %{module}","edit":"Modulbeállítások szerkesztése","edit_item":"Elem részleteinek szerkesztése"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "course_home_dialog",
+  function() { return {"assignments_list_fe3e54be":"Feladatok","choose_and_publish_980812cb":"Kiválasztás és publikálás","choose_course_home_page_d8642f9e":"Kurzus kezdőlapjának kiválasztása","course_activity_stream_40091c17":"Kurzustevékenység-folyam","course_modules_795cb95e":"Modulok","front_page_must_be_set_first_c5246f7d":"A kezdőlapot kell először beállítani","pages_front_page_9ce5188":"Oldalak kezdőlapja","select_what_you_d_like_to_display_on_the_home_page_c1b53804":"Válassza ki, hogy mit szeretne megjeleníteni kezdőlapként!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "subnav_menu_toggle",
+  function() { return {"hide_courses_navigation_menu_6f7c4cfd":"Kurzusnavigációs menü elrejtése","hide_navigation_menu_f0b3e90":"Navigációs menü elrejtése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "create_course_modal",
+  function() { return {"course_details_25cdf103":"Kurzusrészletek","create_course_9a69b32c":"Kurzus létrehozása","loading_accounts_3364e7a0":"Fiókok betöltése...","name_e790ff1f":"Név..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "dashcards",
+  function() { return {"actions_for_course_312ff446":"Tevékenységek a következő kurzusban: %{course}","all_courses_80701c6f":"Összes kurzus","move_down_4a9c9b18":"Lejjebb","move_to_bottom_d0f71bf0":"Legalulra","move_to_top_e0d7d66e":"Legfelülre","move_up_2440f707":"Feljebb","no_courses_favorited_4e69fd63":"Nincsenek kedvenc kurzusok","you_have_no_courses_favorited_reloading_this_page__a2bae9de":"Nincsenek kedvencnek jelölt kurzusok. Az oldal újratöltése \nmegmutatja az összes aktívkurzusát. Kedvencekhez adáshoz látogasson ide "} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "models_DateGroup",
+  null,
+  function() { return {"everyone_else":"Mindenki más "} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "dateformat",
+  function() { return {"yyyy_mm_dd_hh_mm_a01b6081":"ÉÉÉÉ-HH-NN óó:pp"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "DateValidator",
+  function() { return {"due_date_cannot_be_after_course_end_fd128a14":"A határidő nem lehet a kurzus vége után","due_date_cannot_be_after_section_end_b0f54388":"A határidő nem lehet a szekció vége után ","due_date_cannot_be_after_term_end_5d504cb1":"A határidő nem lehet a félév vége után ","due_date_cannot_be_before_course_start_ecc523ba":"A határidő nem lehet a kurzus kezdete előtt","due_date_cannot_be_before_section_start_f8950484":"A határidő nem lehet a szekció kezdete előtt ","due_date_cannot_be_before_term_start_ea660b2c":"A határidő nem lehet a félév kezdete előtt","lock_date_cannot_be_after_course_end_a473158b":"A zárolási időpont nem lehet a kurzus vége után","lock_date_cannot_be_after_section_end_d37da70c":"A zárolási időpont nem lehet a szekció vége után","lock_date_cannot_be_after_term_end_cf1a188f":"A zárolási időpont nem lehet a a félév vége után","lock_date_cannot_be_before_due_date_ac30f54":"A zárolási időpont nem lehet a határidő dátuma előtt","please_add_a_due_date_1d433d2":"Kérem, adjon hozzá egy határidőt","unlock_date_cannot_be_after_due_date_8829d9ca":"A zárolás feloldásának ideje nem lehet a határidő dátuma után","unlock_date_cannot_be_after_lock_date_591f7fda":"A zárolás feloldási ideje nem lehet a lezárás ideje után","unlock_date_cannot_be_before_course_start_9c7b8524":"A zárolás feloldásának ideje nem lehet a kurzus kezdete előtt","unlock_date_cannot_be_before_section_start_793ddc66":"A zárolás feloldásának ideje nem lehet a szekció kezdete előtt","unlock_date_cannot_be_before_term_start_d3c01813":"A zárolás feloldásának ideje nem lehet a félév kezdete előtt"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "datepicker",
+  null,
+  function() { return {"errors":{"not_a_date":"Ez nem egy dátum!"},"first_day_index":"0","nextText":"Következő","prevText":"Előző"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "app_shared_components_canvas_date_time",
+  function() { return {"invalid_date_2a10bb7b":"Helytelen dátum"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "renderDatepickerTime",
+  null,
+  function() { return {"datepicker":{"titles":{"am_pm":"de./du.","hour":"óra","minute":"min"}}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "dates",
+  null,
+  function() { return {"no_date":"Nincs dátum"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "direct_share_course_panel",
+  function() { return {"copy_operation_started_successfully_b2f236a1":"A másolás sikeresen elindult","starting_copy_operation_cc46d911":"Másolás indítása","there_was_a_problem_starting_the_copy_operation_dd599cdd":"Probléma lépett fel a másolás művelet elindításakor"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "direct_share_user_modal",
+  function() { return {"content_share_started_successfully_2c37fb79":"Tartalom megosztás sikeresen elindult","error_starting_content_share_18fb1532":"Tartalom megosztás elindítása nem sikerült","starting_content_share_2d8c2999":"Tartalom megosztás indítása"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "direct_share_user_panel",
+  function() { return {"remove_name_624e06be":"%{name}eltávolítása"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "module_position_picker",
+  function() { return {"loading_additional_items_ed5f672d":"További elemek betöltése..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "jquery_doc_previews",
+  null,
+  function() { return {"errors":{"cannot_view_document_in_canvas":"Ezt a dokumentumot nem lehet megtekinteni a Canvasban. ","document_preview_processing":"A dokumentum előnézete feldolgozás alatt. Kérjük, próbálja újra később."}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "DueDateOverrideView",
+  function() { return {"you_cannot_assign_to_a_group_outside_of_the_assign_7869eb3b":"Olyan csoporthoz nem lehet hozzárendelni, ami kívül esik a hozzárendeléshez tartozó csoportkészleten","you_must_have_a_student_or_section_selected_a99e45df":"Ki kell választania egy hallgatót vagy egy szekciót"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignDueDateAddRowButtonments",
+  function() { return {"add_new_set_of_due_dates_e8e240f":"Új határidők hozzáadása"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "DueDateCalendars",
+  function() { return {"available_from_f84e4611":"Elérhető ettől"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "DueDateRemoveRowLink",
+  function() { return {"remove_these_dates_48453a81":"Ezen dátumok törlése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "DueDateRow",
+  function() { return {"due_date_set_1c6364db":"Határidő beállítása"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "DueDateTokenWrapper",
+  function() { return {"assign_to_c46e21":"Feladatkiosztás a következő felhasználóknak:","continue_typing_to_find_additional_sections_or_stu_49786085":"Folytassa a gépelést ahhoz, hogy további szekciókat vagy hallgatókat találjon","course_section_7a988066":"Kurzusszekció","no_results_found_58717065":"Nincs találat","searching_b0207e7f":"Keresés..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "EditorToggle",
+  null,
+  function() { return {"done":{"title":"Kattintson, hogy befejezze a gazdag szövegmező szerkesztését"},"done_as_in_finished":"Kész"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "SwitchEditorControl",
+  null,
+  function() { return {"switch_editor_html":"HTML szerkesztő","switch_editor_rich_text":"Vizuális szövegszerkesztő"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "i18n!emoji",
+  function() { return {"activity_13915493":"Tevékenység"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "instructure_js",
+  null,
+  function() { return {"errors":{"posting_message_failed":"Sikertelen bejegyzés, próbálja újra "},"links":{"minimize_file_preview":"Fájl előnézet méretének csökkentése","minimize_youtube_video":"Videó méretének csökkentése","view_equella_content_in_new_window":"tartalom megtekintése új ablakban"},"status":{"posting_message":"Üzenet közzététele... "},"switched_roles_message":{"designer":"Ideiglenesen szerepkört váltott ezen a kurzuson, a kurzust jelenleg tervezőként tekinti meg. Visszaállíthatja a szerepkörét és jogosultságait a kurzus kezdőlapján.","observer":"Ideiglenesen szerepkört váltott ezen a kurzuson, a kurzust jelenleg megfigyelőként tekinti meg. Visszaállíthatja a szerepkörét és jogosultságait a kurzus kezdőlapján.","student":"Ideiglenesen szerepkört váltott ezen a kurzuson, a kurzust jelenleg hallgatóként tekinti meg. Visszaállíthatja a szerepkörét és jogosultságait a kurzus kezdőlapján.","ta":"Ideiglenesen szerepkört váltott ezen a kurzuson, a kurzust jelenleg segédoktatóként tekinti meg. Visszaállíthatja a szerepkörét és jogosultságait a kurzus kezdőlapján.","teacher":"Ideiglenesen szerepkört váltott ezen a kurzuson, a kurzust jelenleg oktatóként tekinti meg. Visszaállíthatja a szerepkörét és jogosultságait a kurzus kezdőlapján."},"titles":{"equella_content_preview":"Equella tartalom előnézete","external_link":"Linkek egy külső oldalra"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "feature_flags",
+  function() { return {"allowed_for_subaccounts_courses_default_off_da598c11":"Alfiókokhoz/kurzusokhoz engedélyezett, alapértelmezés szerint kikapcsolt","allowed_for_subaccounts_courses_default_on_e485ec7f":"Alfiókokhoz/kurzusokhoz engedélyezett, alapértelmezés szerint bekapcsolt","feature_preview_5e1216a0":"Funkció előnézete","site_admin_d0417171":"rendszeradminisztrátor"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "file_preview",
+  function() { return {"file_not_found_9eec054c":"Fájl nem található","file_preview_eedb43f2":"Fájl előnézete","info_8f47054a":"Infó","info_panel_displayed_51d481cc":"Infopanel megjelenítve","info_panel_hidden_bf7c3b7b":"Infopanel elrejtve","kind_7f0a88c4":"Típus","last_modified_by_ca4bb5e1":"Utoljára módosította","view_next_file_a8a4a885":"Következő fájl megtekintése","view_previous_file_b846db4f":"Előző fájl megtekintése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "file_rename_form",
+  function() { return {"a_locked_item_named_name_already_exists_in_this_lo_ab03ee39":"Egy \"%{name}\" nevű zárolt elem már létezik ezen a helyen. Adjon meg egy új nevet!","an_item_named_name_already_exists_in_this_location_147b7312":"Egy \"%{name}\" nevű elem már létezik ezen a helyen. Le szeretné cserélni a létező fájlt?","change_name_c8cce76c":"Név megváltoztatása","change_name_to_568374c8":"\"%{name}\" megváltoztatása erre ","replace_e61834a7":"Csere"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "broccoli_cloud",
+  function() { return {"available_after_unlock_at_b5682224":"Elérhető ettől %{unlock_at}","available_after_unlock_at_until_lock_at_499e8092":"Elérhető ettől %{unlock_at}, eddig: %{lock_at}","available_until_lock_at_ab022445":"Elérhető eddig: %{lock_at}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "restrict_student_access",
+  function() { return {"available_from_date_43b5e11d":"Elérhető ettől a naptól","available_from_date_must_precede_available_until_c9f9e533":"Az \"Elérhető ettől\" dátumnak meg kell előznie az \"Elérhető eddig\" dátumot","available_until_date_cd125c62":"Elérhető eddig a napig","before_publishing_you_must_set_usage_rights_on_you_dcd7b567":"Publikálás előtt be kell állítania használati jogokat a fájlain.","schedule_student_availability_332154a":"Hallgatóelérhetőség ütemezése","update_4d8ee62":"Frissítés"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "usage_rights_modal",
+  function() { return {"and_count_more_43eae021":"és  további %{count}...","items_items_selected_5b55e566":"%{items} elem kiválasztva","items_selected_have_different_usage_rights_52b325cc":"A kiválasztott elemekhez más-más felhasználási jogok kötődnek.","usage_rights_have_been_set_d1b433c7":"Felhasználási jogok beállítva.","usage_rights_will_be_set_for_all_of_the_files_cont_b192336a":"Felhasználási jogok beállítása az összes fájlra, ami ebben van:","you_can_also_manage_access_at_this_time_105a2530":"Kezelheti a hozzáférést ekkor:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "publish_cloud",
+  function() { return {"editing_permissions_for_name_3503e235":"%{name} jogainak szerkesztése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "files_upload_progress",
+  function() { return {"error_message_2b9d12ee":"Hiba: %{message}","error_uploading_file_e2d31b56":"Hiba adódott a fájl feltöltése közben.","filename_progress_percent_uploaded_1f465e66":"%{fileName} - %{progress} százalék feltöltve","filename_uploaded_successfully_edd8e825":"%{fileName} feltöltése sikeres volt!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "usageRightsSelectBox",
+  function() { return {"c_2001_acme_inc_283f7f80":"(c) 2001 Acme Inc.","choose_usage_rights_33683854":"Válasszon a felhasználói jogokból...","copyright_holder_66ee111":"Jog tulajdonosa:","creative_commons_license_725584ae":"Creative Commons licenc:","i_have_obtained_permission_to_use_this_file_6386f087":"Szereztem jogosultságot ennek a fájlnak a használatához.","i_hold_the_copyright_71ee91b1":"Megtartom a szerzői jogot","if_you_do_not_select_usage_rights_now_this_file_wi_40c42125":"Ha nem választja ki most a felhasználási jogokat, a fájl nem lesz publikálva a feltöltés után.","the_material_is_in_the_public_domain_279c39a3":"Az anyag a közkincs kategóriába tartozik","the_material_is_licensed_under_creative_commons_3242cb5e":"Ezt az anyagot Creative Commons licenc alatt tették közzé.","the_material_is_subject_to_an_exception_e_g_fair_u_a39c8ca2":"Az anyag kivételt képez- pl. tisztességes felhasználás, árajánlási jog vagy mások a vonatkozó szerzői jogi törvények alapján","usage_right_ff96f3e2":"Felhasználási jog:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "zip_file_options_form",
+  null,
+  function() { return {"expand":"Kicsomagolás","message":"Ki szeretné csomagolni a \"%{fileName}\" tartalmát a jelenlegi mappába, vagy töltsük fel a zip fájlt, ahogy van?","upload":"Feltöltés","zip_options":"Zip fájl beállítások"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "file_status",
+  null,
+  function() { return {"hidden_status":"Rejtett. Hivatkozással elérhető","published_status":"Publikált","restricted_status":"Elérhető ettől - eddig: %{from_date} - %{until_date}","unpublished_status":"Nem publikus"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "generic_error_page",
+  function() { return {"help_us_improve_by_telling_us_what_happened_d6392f18":"Segítsen nekünk a fejlesztésben, mondja el, mi történt!","what_happened_322d8259":"Mi történt?"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "CalculationMethodContent",
+  function() { return {"average_49c63f9b":"Átlag","between_1_and_99_d421a4c0":"1% és 99% közötti","decaying_average_8bf6a0dd":"Súlyozott átlag","highest_score_e080551e":"Legmagasabb pontszám","items_299a7626":"Alkalmak:","last_item_79583712":"Legutóbbi elem:","latest_score_905aa87b":"Legutóbbi eredmény","mastery_score_reflects_the_highest_score_of_a_grad_fd426d1e":"A jártassági szint pontszám a legmagasabb pontszámot jelenti az értékelt feladatok vagy a kvízek vonatkozásában","mastery_score_reflects_the_most_recent_graded_assi_921f138f":"A jártassági szint pontszám a legfrissebb pontszámot jelenti az értékelt feladatok vagy a kvízek vonatkozásában","most_recent_score_13a87e8c":"Legutóbbi pontszám","must_be_between_1_and_99_589b827d":"számnak kell lennie 1 és 99 között","n_number_of_times_c2e78b72":"x alkalommal","recentint_remainderint_decaying_average_79bc09fb":"%{recentInt}/%{remainderInt} súlyozott átlag"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "achieve_mastery_count_times_8c9bbcec",
+  null,
+  function() { return {"one":"Érjen el jártasságot egy alkalommal","other":"Jártasságot szerzett %{count} alkalommal"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "must_achieve_mastery_at_least_count_times_scores_a_628db168",
+  null,
+  function() { return {"one":"El kell érnie a jártasságot legalább egy alkalommal. A végső eredményt azoknak a pontszámoknak az átlagolásával számoljuk ki, melyek elérik a jártasság értékét.","other":"El kell érnie a jártasságot legalább %{count} alkalommal. A végső eredményt azoknak a pontszámoknak az átlagolásával számoljuk ki, melyek elérik a jártasság értékét."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "IndividiualStudentMasteryAssignmentResult",
+  function() { return {"your_score_a1fc2fcf":"Az Ön pontszáma","your_score_score_fb785381":"Az Ön pontszáma: %{score}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "IndividualStudentMasteryOutcomePopover",
+  function() { return {"last_assessment_cd5659b6":"Utolsó értékelés:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradingdataRow",
+  function() { return {"lower_limit_of_range_6ddd4983":"Intervallum alsó határa","range_name_90614433":"Tartomány neve","to_35c6baa2":"eddig ","to_minscore_43e5452e":"\u003c %{minScore}%","upper_limit_of_range_c454a8f2":"Intervallum felső határa"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradinggradingStandard",
+  function() { return {"a_table_that_contains_the_grading_scheme_data_firs_90d2e30d":"Az osztályozási séma adatait tartalmazó táblázat. Az első az osztályozási séma neve, valamint a séma szerkesztésére és törlésére szolgáló gombok. Minden sor tartalmaz egy nevet, egy maximális százalékot és egy minimális százalékot. Ezenkívül minden sor tartalmaz egy gombot az új sor hozzáadásához, és egy gombot az aktuális sor törléséhez.","context_contextname_24d82846":"(%{context}: %{contextName})","context_level_56d88f5b":"(%{context} level)","grading_standard_title_58f540a3":"Értékelési szabvány címe","looks_great_e4d883ed":"Szép munka!","manage_grading_schemes_in_context_name_e3678273":"Osztályzási rendszer kezelése %{context_name} alapján","message_896d2ed0":"%{message}","range_56b2f310":"Tartomány"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "external_toolsgradingStandardCollection",
+  function() { return {"add_grading_scheme_81e23c05":"Osztályzási séma hozzáadása","are_you_sure_you_want_to_delete_this_grading_schem_df8b75f9":"Biztos benne, hogy törli ezt az osztályzási rendszert?","grading_scheme_deleted_7ae5a072":"Törölt osztályzási rendszer","grading_scheme_saved_85535151":"Mentett osztályzási rendszer","no_grading_schemes_to_display_8b0e92e7":"Nincs megjeleníthető osztályzási rendszer","there_was_a_problem_deleting_the_grading_scheme_2a959c40":"Probléma adódott az osztályzási rendszer törlése közben","there_was_a_problem_saving_the_grading_scheme_5e6076e9":"Probléma adódott az osztályzási rendszer mentése közben"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "grading_standards",
+  null,
+  function() { return {"buttons":{"save":"Mentés"},"confirm":{"delete_grading_scheme":"Biztos benne, hogy törli ezt az osztályzási rendszert?","unlink_grading_scheme":"Biztos benne, hogy leválasztja ezt az osztályzási rendszert?"},"errors":{"cannot_delete_grading_scheme":"Probléma adódott az osztályzási rendszer törlése közben.","cannot_load_grading_standards":"Értékelési szabványok betöltése sikertelen. Kérjük, próbálja újra. ","cannot_remove_grading_scheme":"Probléma adódott az osztályzási rendszer eltávolítása közben. Kérjük töltse újra az oldalt és próbálja újra.","save_failed":"Sikertelen mentés"},"grading_scheme_currently_set":"Jelenleg beállított","grading_scheme_not_set":"Nincs kiválasztva","no_grading_standards":"Nem található osztályzási rendszer","status":{"loading_grading_standards":"Értékelési szabványok betöltése...","saving":"Mentés..."},"titles":{"grading_scheme_info":"Osztályzási rendszer megtekintése/szerkesztése"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "finalGradeOverrideApi",
+  function() { return {"there_was_a_problem_loading_final_grade_overrides_e269e08":"Hiba történt a végső osztályzat-felülírások betöltésekor."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebooktranslations",
+  function() { return {"assignment_muted_8d74bfa0":"Feladat inaktív állapotban","blank_38df4238":"üres","discussion_submission_781d5d33":"Fórumbeadás","dropped_for_grading_purposes_46256461":"Értékelés szempontjából elhagyva","fail_62dbb06a":"hiba","file_upload_submission_740711f":"Fájlfeltöltés-beadás","media_comment_submission_14e224dc":"Médiatartalom-beadás","media_recording_submission_b7fd1491":"Médiafelvétel-beadás","not_factored_into_grading_455dcf6a":"Nincs beleszámítva az osztályzásba","quiz_submission_dca0c013":"Kvízbeadás","resubmitted_since_last_graded_8484d285":"Utolsó értékelés óta újra beadva","submitted_late_97730017":"Határidőn túli beadás","text_entry_submission_7b0ae0c5":"Szövegesbejegyzés-beadás","there_was_an_error_updating_this_assignment_please_59fc608d":"Hiba történt a feladat frissítése során. Kérjük, frissítse az oldalt és próbálja újra!","this_assignment_is_unpublished_64c0f46c":"Ez a feladat nem publikált","this_quiz_needs_review_50e014e":"Ezt a kvízt felül kell vizsgálni","this_student_was_just_awarded_an_unusually_high_gr_9ad835f3":"Ennek a hallgatónak az értékelése a többihez képest kiemelkedően magas.","this_student_was_just_awarded_negative_points_55741a37":"A hallgatóhoz negatív pontszám lett rendelve.","url_submission_f76327e3":"URL beadás"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "sharedCurveGradesDialog",
+  function() { return {"of_students_5d1af0d2":"# a hallgatóknak"} },
+  function() { return {"errors":{"no_points_possible":"Az elérhető pontszámok nélkül nem lehet felrajzolni a görbét","none_to_update":"Nincs mit frissíteni"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "studentcount_students_will_get_num_points_fdd43b55",
+  null,
+  function() { return {"one":"1 hallgató fog kapni %{num} pontot","other":"%{studentCount} hallgató fog kapni %{num} pontot"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradingPeriodSetsApi",
+  function() { return {"set_created_createdat_895e2243":"Beállítás létrehozva %{createdAt}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "sharedSetDefaultGradeDialog",
+  function() { return {"default_grade_cannot_be_set_to_ex_723caa59":"Alapértelmezett osztályzat nem állítható be itt: %{ex}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebooksharedMessageStudentsWhoHelper",
+  function() { return {"no_grade_for_assignment_97c9bc75":"%{assignment}nincs értékelve"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "hide_assignment_grades_tray",
+  function() { return {"all_students_will_be_able_to_see_their_grade_and_o_66c1beab":"Minden diák láthatja majd az érdemjegyét és/vagy a beküldött megjegyzéseit.","hide_e057ff36":"Elrejt","there_was_a_problem_hiding_assignment_grades_1d3fd0c7":"Hiba történt a feladat értékelések elrejtésekor."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "turnitin",
+  null,
+  function() { return {"tooltip":{"score":"Hasonlósági mutató - Lásd a részletes jelentést"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "GroupUserCollection",
+  null,
+  function() { return {"flash":{"userAlreadyInGroup":"FIGYELEM! %{user} már tagja a %{group} csoportnak"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignment_group_category",
+  function() { return {"please_select_a_group_set_for_this_assignment_e1da63d3":"Kérjük, válassza ki a csoportokat ehhez a feladathoz!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "student_groups",
+  function() { return {"add_new_group_7ac49f31":"Új csoport hozzáadása","as_you_type_in_this_field_the_list_of_groups_will__16688a5f":"A mezőbe írás közben a csoportok listája automatikusan szűrésre kerül, vagyis csak azokat a neveket tartalmazza, amelyek egyeznek a beírt szöveggel.","collapse_list_of_group_members_for_groupname_d6c66fa0":"A %{groupName} csoporttaglistájának összecsukása","course_members_are_free_to_join_9b2603d4":"A kurzus tagjai szabadon csatlakozhatnak","expand_list_of_group_members_for_groupname_9ce9d2f7":"A %{groupName} csoporttaglistájának kinyitása","group_group_name_is_full_297880d6":"A %{group_name} csoport megtelt","group_group_name_is_joined_by_invitation_only_4ac2a9e5":"A %{group_name} csoportba csak meghívóval lehet csatlakozni","group_group_name_is_not_available_at_this_time_971001c1":"A %{group_name} csoport most nem elérhető","group_is_full_56849d78":"A csoport megtelt","group_is_joined_by_invitation_only_d00f5a63":"A csoporthoz csak meghívóval lehet csatlakozni","group_is_not_available_at_this_time_d99f0eab":"A csoport most nem elérhető","group_leader_user_name_6f24bebb":"csoportvezető: %{user_name}","group_members_ae5489ed":"csoporttagok","group_name_in_group_category_name_group_category_29bf3254":"%{group_name} a/az %{group_category_name} csoporthalmazban","group_name_is_required_5547bc0b":"A csoportnév megadása kötelező","join_6cafecca":"Csatlakozás","join_group_group_name_871a5e3f":"Csatlakozás a %{group_name} csoporthoz","joined_group_group_name_e3802c04":"Csatlakozott a %{group_name} csoporthoz","leave_5e852989":"Elhagyás","leave_group_group_name_6847c632":" %{group_name} csoport elhagyása","left_group_group_name_aac4e813":"Elhagyta a következő csoportot: %{group_name}","manage_group_group_name_ac8578c6":"%{group_name} csoport kezelése","member_count_members_out_of_maximum_of_max_members_d3e9f575":"%{member_count} taggal elértük a maximális létszámot %{max_membership}","members_af25c21d":"Tagok","membership_by_invitation_only_9bc27199":"Tagság csak meghívással","search_groups_or_people_6c15d6ad":"Csoportok vagy résztvevők keresése","switch_to_3f310557":"Váltás a következőre","switch_to_group_group_name_786b913b":"Váltás %{group_name} csoportra","too_many_members_b8b15069":"Túl sok tag","updated_group_group_name_727b1d98":"%{group_name} csoport frissítve","visit_864b4060":"Meglátogat","visit_group_group_name_7a816081":"%{group_name} csoport megtekintése ","you_are_the_group_leader_for_this_group_b8629b70":"Ön a csoport vezetője"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "count_students_30e46120",
+  null,
+  function() { return {"one":"1 hallgató","other":"%{count} hallgató"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "enrollmentNames",
+  null,
+  function() { return {"designer":"Tervező","observer":"Megfigyelő","student":"Hallgató","teacher":"Oktató","teacher_assistant":"Segédoktató"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "handlebars_helpers",
+  function() { return {"duration_1_minute_29c7d5ab":"Időtartam: 1 perc","duration_hours_hours_and_minutes_minutes_d5da8c3":"Időtartam: %{hours}óra és %{minutes}ˇperc","duration_minutes_minutes_d7b9182b":"Időtartam: %{minutes}perc"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "ImmersiveReader",
+  function() { return {"immersive_reader_7b87538":"Imerzív olvasó"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "paginator",
+  function() { return {"page_page_59070cd8":"Oldal %{page}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "app_shared_components",
+  function() { return {"list_collapsed_dde87718":"Összecsukott lista","remove_label_11d96b8f":"%{label}eltávolítása"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "disableWhileLoading",
+  null,
+  function() { return {"loading":"Betöltés..."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "instructure_misc_plugins",
+  null,
+  function() { return {"confirms":{"default_delete_thing":"Biztos benne, hogy törli ezt?"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "apps_list",
+  function() { return {"loading_apps_f85740cb":"Alkalmazások betöltése..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "important_info_announcement",
+  function() { return {"important_info_3bda6406":"Fontos információ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "k5_announcement",
+  function() { return {"edit_announcement_title_cce0b4e":"Hirdetmény szerkesztése: %{title}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "k5_utils",
+  function() { return {"n_a_d5d5a207":"n.a.","observer_248a192e":"Megfigyelő"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "KeyboardNavDialog",
+  null,
+  function() { return {"titles":{"keyboard_shortcuts":"Billentyűparancsok"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "link_enrollment",
+  null,
+  function() { return {"buttons":{"link":"Hivatkozás a hallgatóra"},"errors":{"link_failed":"Az összekapcsolás sikertelen, kérjük, próbálja újra","load_failed":"A hallgatók betöltése sikertelen, kérjük, próbálja újra"},"messages":{"linking_to_student":"Hivatkozás a hallgatókra...","loading_students":"Hallgatók betöltése..."},"options":{"no_link":"[ Nincs link ]"},"titles":{"link_to_student":"Hivatkozás a hallgatóra"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "LockButton",
+  function() { return {"locking_91f476a5":"Zárolás...","unlocking_a6b5c02d":"Zárolás feloldása..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "mathquill",
+  null,
+  function() { return {"tabs":{"arrows":"Nyilak","basic":"Alap","delimiters":"Elválasztó jelek","greek":"Görög","miscellaneous":"Egyéb","operators":"Műveletek","relationships":"Kapcsolatok"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "media_comment_dialog_manager",
+  null,
+  function() { return {"messages":{"loading":"Betöltés..."},"titles":{"record_upload_media_comment":"Médiatartalom felvétele/feltöltése"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "media_comments_publicjs",
+  null,
+  function() { return {"buttons":{"submit":"Médiafájl beküldése"},"errors":{"file_too_large":"*A fájl mérete túlságosan nagy.* A maximum méret: %{size}MB.","load_failed":"Media Comment Application betöltése sikertelen. Próbálja újra!","media_comment_installation_broken":"A Media alapú megjegyzés feltöltése nem lett helyesen beállítva. Kérjük, lépjen kapcsolatba az adminisztrátorral!","must_be_logged_in":"A médiarögzítéshez be kell jelentkeznie","persistent_problem":"Ha a probléma továbbra is fennáll, érdemes a médiát helyileg rögzíteni, és feltölteni.","save_failed":"A mentés során hiba történt. Kérjük, zárja be ezt a felpattanó ablakot és próbálja meg újra.","save_failed_try_again":"A bejegyzés mentése sikertelen. Kérjük, próbálja újra.","upload_failed":"A feltöltés során hiba adódott:"},"messages":{"flash_required_record_audio":"Az audiófelvételhez Flash szükséges.","flash_required_upload_audio":"Az audiófájl feltöltéséhez Flash szükséges.","flash_required_upload_video":"Az videófájl feltöltéséhez Flash szükséges.","loading":"Betöltés...","submitted":"Beadott médiafájl!","submitting":"Médiafájl beküldése..."},"titles":{"media_contribution":"Média közreműködés","record_upload_media_comment":"Médiatartalom felvétele/feltöltése"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "jquery_media_comments",
+  function() { return {"media_has_been_queued_for_conversion_please_try_ag_74343bbd":"A média a konverziós sorba került, kérjük várjon a feldolgozás végéig","play_media_comment_8614d30f":"Médiatartalom lejátszása"} },
+  function() { return {"loading":"Média betöltése...","media_still_converting":"A médiafájlt éppen konvertáljuk, kérjük, egy kis idő múlva próbálja újra.","titles":{"play_comment":"Médiatartalom lejátszása"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "media_comments_upload_view_manager",
+  null,
+  function() { return {"errors":{"media_comment_installation_broken":"A Media alapú megjegyzés feltöltése nem lett helyesen beállítva. Kérjük, lépjen kapcsolatba az adminisztrátorral!"},"file_size_error":"%{file} nagyobb, mint a feltöltési maximum: %{max} MB.","file_type_error":"%{file} fájl nem támogatott fájltípus %{type}.","messages":{"submitting":"Médiafájl beküldése..."}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "UploadMediaTrackForm",
+  null,
+  function() { return {"cancel":"Mégse","track_uploaded_successfully":"A hangfájl feltöltése sikeres, kérjük, frissítse a böngészőjét.","upload":"Feltöltés","uploading":"Feltöltés..."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "models_conversations",
+  null,
+  function() { return {"cannot_be_empty":"Az üzenet nem lehet üres","no_recipients_choose_another_group":"Nincsenek címzettek ebben a csoportban. Kérjük, válasszon egy másik csoportot."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "viewsMessageStudentsDialog",
+  function() { return {"message_students_37ba5dd5":"Üzenet a hallgatóknak","message_students_for_context_ee62ff92":"Üzenet a hallgatóknak: %{context}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "public_message_students",
+  function() { return {"message_students_for_course_name_e55f8077":"Üzenet a következő kurzus hallgatóinak: %{course_name}","remove_student_from_recipients_4b206e35":"%{student} nevű címzett eltávolítása"} },
+  function() { return {"send_message":"Üzenetküldés"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "shared_message_students",
+  function() { return {"body_9f663faf":"Szövegtörzs","subject_must_contain_fewer_than_255_characters_2e72cd02":"A tárgy legfeljebb 255 karakter lehet.","there_was_a_problem_sending_your_message_22b249a5":"Probléma adódott az üzenet elküldése közben.","we_re_sending_your_message_d586da":"Üzenetküldés folyamatban...","your_message_was_sent_977f6583":"Üzenetét elküldtük!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "mimeClass",
+  function() { return {"audio_dd489fcc":"Hang","flash_6afbf65a":"Flash","plain_text_e3ab33aa":"Egyszerű szöveg","presentation_2d9387ca":"Prezentáció","source_code_2395ca74":"Forráskód","spreadsheet_6d622119":"Táblázat","text_document_eacbcdb7":"Szöveges dokumentum","video_b9f27375":"Videó","web_page_146f9102":"Weboldal "} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "sequence_footer",
+  null,
+  function() { return {"next_module":"Következő modul:","next_module_desc":"Következő modul: *module*","prev_module":"Előző modul:","prev_module_desc":"Előző modul: *modul*","prev_module_item_desc":"Előző: *elem*"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "prerequisites_lookup",
+  null,
+  function() { return {"headers":{"completion_prerequisites":"Teljesítési előfeltételek"},"labels":{"requirements_must_be_completed":"A következő követelményeknek eleget kell tenni az oldal zárolásának feloldásához."}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "move_positions",
+  function() { return {"after_48b9d69":"Után...","at_the_bottom_a6a5f0fe":"A lap alján","at_the_top_fa836591":"A lap tetején","before_cb32fc0":"Előtte..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "move_item_tray",
+  function() { return {"move_item_failed_8e4c1db6":"Elem áthelyezése sikertelen"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "notification_preferences",
+  function() { return {"account_level_notifications_apply_to_all_courses_n_8b99c5b0":"A fiókszintű értesítések minden kurzusra érvényesek. Az egyes kurzusokhoz tartozó értesítések az egyes kurzusokon belül módosíthatók, és felülírják ezeket az értesítéseket.","account_notification_settings_e96de9b6":"Fiók értesítési beállítások","alerts_6b871b71":"Figyelmeztetések","course_activities_21c83bd3":"Kurzustevékenységek","for_all_devices_1f603968":"Minden eszközhöz","notice_some_notifications_may_contain_confidential_5985f52a":"Figyelem! Néhány értesítés bizalmas információt tartalmazhat. Ha azt választja, hogy olyan e-mail címre kapjon értesítéseket, amelyet nem az Ön intézménye szolgáltat az azt eredményezheti, hogy az intézményrendszerből kijuthatnak érzékeny Canvas-kurzus- és csoportinformációk.","push_notification_a6532ff3":"Értesítő kiküldése","scheduling_5a3327e7":"Időzítés"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "observer_options",
+  function() { return {"add_student_1152afc0":"Hallgató hozzáadása"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "contentview",
+  function() { return {"no_directory_is_selected_please_select_a_directory_46ded46":"Nem lett mappa kijelölve. Kérjük, válasszon egy mappát, mielőtt a 'mozgatásra' kattint","where_would_you_like_to_move_title_fabd6e8f":"Hová szeretné áthelyezni ezt: %{title}?","you_have_no_outcomes_click_here_to_go_to_the_outco_574bd0af":"Nincsenek tanulási eredményei. Kattintson ide az eredmények oldalra navigáláshoz."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "OutcomeContentBase",
+  null,
+  function() { return {"blank_error":"Nem hagyható üresen","confirm":{"delete":"Biztos benne, hogy törölni szeretné?"},"flash":{"addSuccess":"A létrehozás sikeres","deleteSuccess":"A törlés sikeres","error":"Hiba történt! Kérjük, frissítse az oldalt, és próbálja újra!","unexpectedDeleteError":"Hiba történt! A törlés most nem lehetséges.","updateSuccess":"A frissítés sikeres"},"length_error":"Maximum 255 karakter hosszú lehet"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "OutcomeView",
+  function() { return {"points_possible_points_fda3b111":"%{points_possible} pont"} },
+  function() { return {"length_error":"Maximum 255 karakter hosszú lehet","mastery_error":"0-nál nagyobb vagy egyenlő lehet"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "outcomesCriterionInfo",
+  function() { return {"criterion_ratings_3eed22e2":"Kritériumértékelések","more_information_about_ratings_57cdd446":"További információ az értékelésekről"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebookHeaderFilterView",
+  null,
+  function() { return {"course_average":"Kurzus átlaga","course_median":"Kurzus mediánja"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebookOutcomeGradebookGrid",
+  null,
+  function() { return {"learning_outcome":"Tanulási eredmény"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "outcomesFindDirectoryVew",
+  null,
+  function() { return {"account_standards":"Fiókszabványok","account_standards_description":"Balra találja azon szabványokat, amelyeket az intézménye hozott létre Önnek a kurzusaiban való használatra.","state_standards":"Állami szabványok","state_standards_description":"Bal oldalon mappákat talál, amelyben az állami szabványok lettek feltöltve. Ezeket a saját kurzusában is felhasználhatja az értékelések során."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "outcomesSidebarView",
+  function() { return {"model_is_already_located_in_newgroup_e5cea361":"%{model} már benne van ebben a csoportban: %{newGroup}","successfully_moved_model_to_newgroup_f7b7aa5a":" %{model} sikeresen áthelyezve ide %{newGroup}"} },
+  function() { return {"titles":{"find_outcomes":"Tanulási eredmény keresése"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "OutcomesDirectoryView",
+  function() { return {"loading_more_results_1d437202":"További találatok betöltése"} },
+  function() { return {"flash":{"error":"Hiba történt! Kérjük, frissítse az oldalt, és próbálja újra!","updateSuccess":"A frissítés sikeres"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "modelsOutcome",
+  null,
+  function() { return {"criteria":{"does_not_meet_expectations":"Nem teljesíti az elvárásokat","exceeds_expectations":"Elvárások felett teljesít","meets_expectations":"Megfelel az elvárásoknak"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "outcomesFindDialog",
+  null,
+  function() { return {"confirm":{"import_group":"\"%{group}\" csoport importálása ebbe a csoportba \"%{target}\"?","import_outcome":"Tanulási eredmény importálása \"%{outcome}\" ebbe a csoportba \"%{target}\"?"},"dont_import":"Ez a csoport nem importálható","flash":{"importError":"Hiba történt az importálás során! Kérjük, frissítse az oldalt, és próbálja újra!","importSuccess":"Az importálás sikeres"},"top_level":"%{context} Felső szint"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "find_outcome",
+  null,
+  function() { return {"errors":{"outcome_retrieval_failed":"Váratlan hiba a tanulási eredmények lehívása közben. Kérjük, próbálja újra. "},"messages":{"loading_outcomes":"Tanulási eredmények betöltése","no_outcomes_found":"Nem található tanulási eredmény","no_rubric_outcomes_found":"Nem található értékelőtáblához kapcsolódó tanulási eredmény"},"titles":{"find_outcome":"Tanulási eredmény keresése"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "useRatings",
+  function() { return {"above_max_rating_64b29915":"Maximum érték felett"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "ImportOutcomesModal",
+  function() { return {"csv_or_json_formats_only_d8ba36d":"Csak CSV vagy JSON formátum","upload_your_outcomes_bceeadbe":"Töltse fel a tanulási eredményeit!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "OutcomesImporter",
+  function() { return {"importing_outcomes_e62a0375":"Tanulási eredmények Importálása folyamatban"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "Validators",
+  function() { return {"must_be_length_characters_or_less_8c24db67":"%{length}hosszúnak vagy rövidebbnek kell lennie"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "post_assignment_grades_tray",
+  function() { return {"post_1e445890":"Bejegyzés közzététele"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "pseudonym",
+  null,
+  function() { return {"errors":{"bad_credentials":"Helytelen felhasználónév vagy jelszó","common":"Nem lehet általános jelszót használni (pl.: \"jelszó\") ","invalid":"Betűket, számokat vagy a következő karaktereket tartalmazhatja: %{characters}","mismatch":"Nem egyezik","not_email":"Helytelen formátumú e-mail cím","repeated":"Egy karakter maximum %{max} alkalommal szerepelhet egy sorban ","required":"Kötelező","sequence":"Nem lehet több, mint %{max} karakter (pl. abcdef)","taken":"Már használatban van","too_long":"Nem lehet túllépni a/az %{max} karaktert","too_short":"Legalább %{min} karakterhossz szükséges"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "publish_btn_module",
+  function() { return {"published_click_to_unpublish_db016671":"Publikált. Kattintson a visszavonáshoz.","published_click_to_unpublish_title_358122a":"Publikálva. Kattintson ide a/az %{title} publikálás visszavonásához . ","unpublished_click_to_publish_6a6d12e1":"Nem publikált, kattintson a publikáláshoz","unpublished_click_to_publish_title_7c57293f":"Nem publikált. Kattintson ide a/az %{title} publikálásához."} },
+  function() { return {"buttons":{"publish":"Publikálás","published":"Publikálva","publishing":"Publikálás alatt...","unpublish":"Publikálás visszavonása","unpublishing":"Publikálás visszavonása folyamatban..."}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "modelsQuiz",
+  null,
+  function() { return {"assignment_points_possible":{"one":"1 pont","other":"%{count} pont"},"cant_unpublish_when_students_submit":"Nem lehet visszavonni a publikálást, ha vannak a hallgatóknak beadandói","question_count":{"one":"1 kérdés","other":"%{count} kérdés"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "EquationEditorView",
+  null,
+  function() { return {"button":{"insert_equation":"Egyenlet beszúrása"},"cannot_render_equation":"Ezt az egyenletet nem lehet megjeleníteni alapnézetben.","equation_editor_title":"Használja az itt lévő eszköztárakat, vagy váltson haladó nézetre, hogy LaTeX formátumú szöveget írhasson/beilleszthessen "} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "EditRubricPage",
+  null,
+  function() { return {"titles":{"find_outcomes":"Tanulási eredmény keresése"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "edit_rubric",
+  function() { return {"add_criterion_eb9587ef":"Kritérium hozzáadása","create_criterion_6df4d4ad":"Kritérium létrehozása","criterion_updated_36c0b3dc":"Kritérium frissítve","edit_criterion_5e4dadca":"Kritérium szerkesztése","max_dd02d615":"max","new_criterion_canceled_d8c2a655":"Új kritérium törölve","new_rating_canceled_eed3c4ff":"Új értékelés törölve","new_rating_created_54125331":"Új értékelés létrehozva","rating_title_3b60881e":"Értékelés cím","update_criterion_edcbd330":"Kritérium frissítése","you_can_t_edit_this_rubric_either_because_you_don__c2472826":"Ön nem szerkesztheti ezt az értékelőtáblát, mert nincs engedélye vagy már használatban van. Minden módosítás egy új értékelőtáblába lesz átvezetve, ami az eredeti alapján készül el. Mindenképpen folytatja?"} },
+  function() { return {"buttons":{"create_rubric":"Értékelőtábla létrehozása","update_rubric":"Értékelőtábla frissítése"},"change":"Módosítás","discussion_points_possible":{"one":"%{count} elérhető pont","other":"elérhető pont: %{count} "},"errors":{"load_rubrics_failed":"Az értékelőtábla betöltése sikertelen, próbálja újra!"},"leave_different":"Hagyja meg különbözőnek","messages":{"loading_rubric_groups":"Értékelőtábla-csoportok betöltése...","loading_rubrics":"Értékelőtábla betöltése..."},"prompts":{"confirm_delete":"Biztos benne, hogy törli ezt az értékelőtáblát?"},"titles":{"find_existing_rubric":"Létező értékelőtábla keresése"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "rubric_assessment",
+  function() { return {"additional_comments_9aed10bb":"További megjegyzések"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "edit_rubricCommentButton",
+  function() { return {"add_additional_comments_ec34a62f":"További megjegyzések hozzáadása"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "edit_rubricComments",
+  function() { return {"_2d4c0d31":"...","save_this_comment_for_reuse_5eda0b70":"Mentse ezt a megjegyzést újbóli felhasználás céljából","this_area_will_be_used_by_the_assessor_to_leave_co_98a5db8b":"Ebben a mezőben az értékelő hagy megjegyzéseket ezzel a kritériummal kapcsolatban."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "RubricAddCriterionPopover",
+  function() { return {"criterion_5f0b62f8":"Kritérium","find_outcome_746cc57e":"Tanulási eredmény keresése","new_criterion_6054bc7f":"Új kritérium"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "RubricManagement",
+  function() { return {"account_rubrics_40c190a8":"Fiókszintű értékelőtáblák"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "edit_rubricCriterion",
+  function() { return {"this_criterion_is_linked_to_a_learning_outcome_c8aa57bf":"Ez a kritérium egy tanulási eredményhez van kapcsolva","view_longer_description_6b762087":"hosszabb leírás megtekintése"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "edit_rubricRatings",
+  function() { return {"no_details_1ee29870":"Nincsenek részletek"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "edit_rubricRubric",
+  function() { return {"criteria_9fac648":"Kritérium","pts_51d69f4a":"pontok","ratings_2433172b":"Értékelések"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "modelsSection",
+  null,
+  function() { return {"overrides":{"everyone":"Mindenki"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "select_content_dialog",
+  function() { return {"page_name_is_required_d8c2736e":"Az oldal nevének megadása kötelező","url_is_required_4689ed84":"URL megadása kötelező"} },
+  function() { return {"buttons":{"add_item":"Elem hozzáadása"},"errors":{"assignment_name_blank":"A feladat nevét nem lehet üresen hagyni ","external_tool_url":"Külső eszközt nem lehet elmenteni URL nélkül.","failed_to_create_item":"Új elem létrehozása sikertelen","loading_failed":"Betöltés sikertelen"},"link_from_external_tool":"Link forrás külső eszközről","titles":{"add_item_to_module":"Elem hozzáadása a modulhoz","find_links_using_service":"Linkek keresése a/az %{service} használatával"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "selectPosition",
+  function() { return {"item_select_fe0f320a":"Elem kiválasztása","place_b128fa94":"Elhelyezés","place_title_2c183274":"%{title}elhelyezése","select_one_b647b384":"Válasszon egyet"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "findLinkForService",
+  null,
+  function() { return {"buttons":{"search":"Keresés","search_by_tag":"Keresés címke alapján"},"errors":{"search_failed":"A keresés sikertelen, kérjük, próbálja újra. "},"no_description":"Nincs leírás","no_results_found":"Nincs találat","status":{"diigo_search_throttling":"A Diigo korlátozása alapján tíz másodpercenként egy keresést lehet végrehajtani. Kérjük, várjon...","searching":"Keresés..."},"titles":{"bookmark_search":"Könyvjelző keresése: %{service_name}"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "site",
+  null,
+  function() { return {"view_privacy_policy":"Adatvédelmi irányelvek megtekintése"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "validate",
+  null,
+  function() { return {"is_required":"A mező kitöltése kötelező"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "SisButtonView",
+  function() { return {"base_message_please_make_sure_name_has_a_due_date_928ae7ab":"%{base_message} Kérjük, ellenőrizze, hogy %{name} rendelkezik határidővel!","base_message_please_make_sure_name_has_a_due_date__9e9b0cfd":"%{base_message} Kérjük, ellenőrizze, hogy %{name} rendelkezik határidőval és a neve sem túl hosszú!","base_message_please_make_sure_name_name_is_not_too_d0c9454f":"%{base_message} Kérjük, ellenőrizze, hogy %{name} neve nem túl hosszú!","the_grade_for_this_assignment_will_not_sync_to_the_3bb4f6f5":"Ennek a feladatnak az értékelése nem kerül szinkronizálásra a tanulmányi rendszerrel.","the_grade_for_this_assignment_will_sync_to_the_stu_5d32cedb":"Erre a feladatra adott értékelés szinkronizálása a hallgatói információs rendszere felé."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "ExternalToolsPlugin",
+  function() { return {"apps_54d24a47":"Alkalmazások"} },
+  function() { return {"more_external_tools":"További külső eszközök"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "ExternalToolDialog",
+  null,
+  function() { return {"embed_from_external_tool":"Tartalom beágyazása külső eszközről"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "treeBrowser",
+  function() { return {"selected_subtree_a7693937":"%{subtree} kiválasztva"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "upload_file",
+  function() { return {"canvas_failed_to_complete_the_upload_864a4c0f":"A Canvas nem tudta a feltöltést feldolgozni","canvas_failed_to_initiate_the_upload_8e3824d5":"A Canvas nem tudta elindítani a feltöltést.","unable_to_transmit_file_to_the_storage_service_the_2d80b29e":"Nem sikerült elküldeni a fájlt a tár szolgáltatásnak. Lehet, hogy a szolgáltatás nem működik, vagy újra be kell lépnie a Canvas-ba."} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "user",
+  null,
+  function() { return {"errors":{"already_enrolled":"Ön már beiratkozott ebbe a kurzusba","course_full":"Ez a kurzus megtelt","invalid_code":"Érvénytelen kód","required":"Kötelező","terms":"Fogadja el a feltételeket","too_long":"Nem lehet több, mint %{max} karakter"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "closedCaptionLanguages",
+  function() { return {"afrikaans_da0fe6ee":"Afrikaans","albanian_21ed929e":"Albán","arabic_c5c87acd":"Arab","bulgarian_feccab7e":"Bolgár","catalan_16f6b78f":"Katalán","chinese_111d37f6":"Kínai","croatian_d713d655":"Horvát","czech_9aa2cbe4":"Cseh","danish_c18cdac8":"Dán","dutch_6d05cee5":"Holland","english_c60612e2":"Angol","estonian_5e8e2fa4":"Észt","finnish_4df2923d":"Finn","french_33881544":"Francia","galician_7e4508b5":"Galíciai","german_3ec99bbb":"Német","greek_65c5b3f7":"Görög","haitian_creole_7eb4195b":"Haiti","hebrew_88fbf778":"Héber","hindi_9bcd4b34":"Hindi","hungarian_fc7d30c9":"Magyar","icelandic_9d6d35de":"Izlandi","indonesian_5f6accd6":"Indonéz","irish_567e109f":"Ír","italian_bd3c792d":"Olasz","japanese_b5721ca7":"Japán","korean_da812d9":"Koreai","latvian_2bbb6aab":"Lett","lithuanian_5adcbe24":"Litván","macedonian_6ed541af":"Macedón","malay_f5dddce4":"Maláj","maltese_916925e8":"Máltai","norwegian_53f391ec":"Norvég","polish_4cf2ecaf":"Lengyel","portuguese_9c212cf4":"Portugál","romanian_13670c1e":"Román","russian_1e3e197":"Orosz","serbian_7187f1f2":"Szerb","slovak_69f48e1b":"Szlovák","slovenian_30ae5208":"Szlovén","spanish_de9de5d6":"Spanyol","swahili_5caeb4ba":"Szuahéli","swedish_59a593ca":"Svéd","tagalog_74906db7":"Tagalog","thai_8f9bc548":"Thai","turkish_5b69578b":"Török","ukrainian_945b00b7":"Ukrán","vietnamese_e7a76583":"Vietnami","welsh_42ab94b1":"Walesi","yiddish_f96986df":"Jiddis"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "user_content",
+  function() { return {"user_content_aaf0fb5a":"Felhasználói tartalom"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "lib",
+  null,
+  function() { return {"text_helper":{"ellipsis":"...","quoted_text_toggle":"idézett szöveg megjelenítése","word_separator":" "}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "help_dialog",
+  null,
+  function() { return {"Submitting_Ticket":"Hibajegy leadása...","description":"Leírás","extreme_critical_emergency":"RENDKÍVÜL SÜRGŐS!","file_a_ticket_for_a_personal_response_from_our_support_team":"Küldjön egy hibajegyet, ha személyes visszajelzést szeretne az üzemeltetői csapattól","for_an_instant_answer":"Azonnali válaszhoz:","how_is_this_affecting_you":"Hogy érinti ez Önt ?","i_cant_get_things_done_until_i_hear_back_from_you":"Nem tudok addig haladni, amíg nem kapok választ Öntől ","i_need_some_help_but_its_not_urgent":"Szükségem van segítségre, de nem sürgős","include_a_link_to_a_screencast_or_screenshot_using_something_like_jing":"Illesszen egy linket a képernyőképhez pl. a *Jing* használatával.","just_a_casual_question_comment_idea_suggestion":"Csak egy alkalmi kérdés, megjegyzés, ötlet, javaslat","message":"Üzenet","message_will_be_sent_to_all_the_teachers_tas_in_the_course":"Az üzenet el lesz küldve a kurzus minden oktatójának és segédoktatójának","please_select_one":"Kérjük, válasszon egyet...","see_if_your_issue_is_addressed_in_the_canvas_guides":"Nézze meg, hogy a problémára létezik-e megoldás a *Canvas kézikönyvben*!","send_message":"Üzenetküldés","sending":"Küldés...","somethings_broken_but_i_can_work_around_it_for_now":"Valami elromlott, de ismerek egy kerülő megoldást","subject":"Tárgy","submit_this_support_request":"Hibajegy leadása","which_course_is_this_question_about":"Melyik kurzussal kapcsolatos ez a kérdés?","your_email_address":"Az Ön e-mail címe"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "recent_student",
+  null,
+  function() { return {"last_logged_in":"utolsó bejelentkezés: %{last_login}"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "developer_key_form",
+  null,
+  function() { return {"cancel":"Mégse","icon_url":"Ikon URL:","key_name":"Kulcsnév:","notes":"Jegyzetek:","owner_email":"Tulajdonosi e-mail:","redirect_uri":"Átirányítási URI (Legacy)","redirect_uris":"Átirányítási URI-k:","save_key":"Kulcs mentése"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "developer_key",
+  function() { return {"activate_key_name_a99df672":"Aktiválja a kulcsot: %{name}","activate_this_key_6cd98f4b":"A kulcs aktiválása","deactivate_this_key_3e79a2b5":"Ezen kulcs deaktiválása","edit_key_name_5c7d2f46":"%{name}kulcs szerkesztése","id_id_4e148481":"Azonosító: %{id}","key_api_key_68bf80ae":"Kulcs: *%{api_key}*"} },
+  function() { return {"edit_key":"Kulcs szerkesztése"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "grade_display_warning_dialog",
+  null,
+  function() { return {"grade_display_warning":{"checkbox":"Ne jelenítse meg többé ezen kurzusnál.","warning":"Figyelmeztetés"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "profiles",
+  function() { return {"from_gravatar_58372d5a":"Gravatarról származó","link_title_189888b7":"Link címe","link_url_cf96376":"Link URL","take_a_picture_d582acf1":"Fotó készítése","upload_a_picture_9f5f6e3c":"Fotó feltöltése"} },
+  function() { return {"gravatar_view":{"button":{"preview":"Előnézet"},"enter_gravatar_email_below":"Adja meg a *Gravatar* e-mail címét!"},"take_picture_view":{"retry":"Újra","take_picture":"Fotó készítése"},"upload_file_view":{"choose_a_picture":"Kép kiválasztása","crop_instructions":"A kép széleinek levágásához ragadja meg a kijelölést, majd kattintson a \"Mentés\" gombra!"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "quiz",
+  null,
+  function() { return {"regrade":{"give_everyone_full_credit":"Mindenki kapja meg az összes pontot erre a kérdésre","no_scores_reduced":"Kijavított, és előzőleg helyes válaszokért is jár pont (*a pontok nem fognak csökkeni*)","regrade_disabled":"Az újraértékelés nem megengedett ennél a kérdésnél, mert vagy eltávolítottak egy választ, vagy megváltozott a kérdés típusa a megoldás beadása óta.","regrade_options":"Válasszon egy újraértékelési lehetőséget azon hallgatók számára, akik már kitöltötték a kvízt. A Canvas újraértékeli az összes beadandót a kvíz elmentése után (a hallgatók pontszámai megváltozhatnak).","some_scores_reduced":"Csak a helyes válaszért jár pont (*néhány hallgató pontszáma csökkenhet*)","update_question_without_regrading":"Kérdés frissítése újraértékelés nélkül"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "submission_detail",
+  null,
+  function() { return {"go_to_submission_url":"Ugrás a beadott URL-hez","no_submission":"Nincs beadott munka","submitted_files":"Beadott fájlok:"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "screenreader_gradebook",
+  function() { return {"allow_final_grade_override_a21a79ee":"Végső érdemjegy felülbírálás engedélyezése","assignments_in_this_group_have_no_points_possible__ab0adb72":"Az ebben a csoportban lévő feladatokhoz nem tartoznak pontszámok, és nem fognak beszámítani a jegy számításába.","excuse_this_assignment_for_the_selected_student_af04e132":"Kiválasztott hallgató felmentése az alábbi feladat alól","grade_for_name_b9df168a":"%{name}értékelése:","gradebook_individual_view_8846598e":"Osztálynapló: Egyedi nézet","message_students_who_b9f2bf20":"Üzenjen azon hallgatóknak, akik...","this_assignment_does_not_count_toward_the_final_gr_a5c238e2":"Ez a feladat nem számít bele a végső osztályzatba."} },
+  function() { return {"assignment_information":{"actions":{"assignment_is_muted":"Inaktívvá teszi? ","curve_grades":"Haranggörbék","set_default_grade":"Alapértelmezett osztályzat beállítása"},"details":{"avg_score":"Átlagpontszám ","graded_sub_count":"Értékelt beadandók:","high_score":"Legmagasabb pontszám ","low_score":"Legalacsonyabb pontszám ","no_points":"Nincsenek elérhető pontok","points_possible":"Elérhető pontok","submission_types":"Beadástípusok:"},"index":{"assignment_in_speedgrader":"Feladat megtekintése a Gyorsértékelőben","assignment_info":"Feladatinformáció ","empty_assignment_selection":"Válasszon ki egy feladatot további információk megtekintéséhez"}},"components":{"final_grade":{"final_grade":"Végső érdemjegy: "}},"content_selection":{"assignment":{"select_assignment":"Feladat kiválasztása"},"header":{"content_selection":"Tartalom kiválasztása"},"outcome":{"select_outcome":"Tanulási eredmény kiválasztása"},"student":{"select_student":"Hallgató kiválasztása"}},"grading":{"empty_submission_selection":"Válasszon ki egy hallgatót és egy feladatot az eredmények megtekintéséhez és szerkesztéséhez. ","grading":"Értékelés","is_dropped":"A hallgató ezen osztályzata jelenleg eldobva.","submission_details":"A leadás részletei","submission_hidden":"Ez a feladat nem elérhető az adott hallgató számára, és nem fog beszámítani a jegy számításába. ","was_resubmitted":"A feladatot újra beadták a legutóbbi értékelése óta. "},"learning_mastery":{"download_results":"Eredmények letöltése (.csv)","empty_student_selection":"Válasszon ki egy hallgatót további információk megtekintéséhez","empty_submission_selection":"Válasszon ki egy hallgatót, majd egy tanulási eredményt, az eredmények megtekintéséhez","hide_student_names_label":"Hallgatók nevének elrejtése","result":"Eredmény","result_for":"Eredménye ennek:","results_loading":"A hallgatók eredményei még töltődnek...","select_a_section":"Szekció kiválasztása","select_student":"Hallgató kiválasztása","student_info":"Hallgatóinformációk"},"outcome_information":{"avg_score":"Átlagpontszám ","empty_outcome_selection":"Válasszon ki egy tanulási eredményt további információk megtekintéséhez","high_score":"Legmagasabb pontszám ","low_score":"Legalacsonyabb pontszám ","outcome_info":"Információ a tanulási eredményről"},"screenreader_gradebook":{"assignments":"Feladatok","learning_mastery":"Tanulási jártassági szint"},"settings":{"assignment_toggles_and_actions":{"download_current_scores":"Jelenlegi pontszámok letöltése (.csv)","grading_history":"Osztálynapló-előzmények megtekintése","hide_student_names_label":"Hallgatók nevének elrejtése","include_ungraded_assignments":"Osztályzatnélküliek kezelése 0-ként","show_concluded_enrollments_label":"Befejeződött beiratkozások megjelenítése","show_notes":"Jegyzetek megjelenítése a Hallgatói infoban","show_total_as_points":"Végösszeg megjelenítése pontszámszerűen a hallgatói osztályzatok oldalon","upload_scores":"Pontszámok feltöltése (.csv)"},"header":{"global_settings":"Globális beállítások"},"mastery_toggles_and_actions":{"download_results":"Eredmények letöltése (.csv)","hide_student_names_label":"Hallgatók nevének elrejtése"},"section_select":{"select_a_section":"Szekció választása"},"sort_select":{"sort_assignments":"Feladatok rendezése"}},"student_information":{"assignment_subtotals":{"ag_group_grade":"Osztályzat","ag_letter_grade":"Betű alapú érdemjegy"},"details":{"hidden":"rejtve","secondary_id":"Másodlagos azonosító: ","sections":"Szekciók: "},"index":{"empty_student_selection":"Válasszon ki egy hallgatót további információk megtekintéséhez","grades":"Értékelések","student_info":"Hallgatói információk","submissions_loading":"A hallgató beadandói még töltődnek..."}}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "assignment_details_dialog",
+  null,
+  function() { return {"average_score":"Átlagos pontszám:","count_of_submissions":"%{cnt} beadandó","grading_statistics_for_assignment":"Osztályzatstatisztikák ehhez: %{assignment.name}","high_score":"Legmagasabb pontszám:","low_score":"Legalacsonyabb pontszám:","no_one_scored_higher":"Senki nem teljesített %{max} felett","no_one_scored_lower":"Senki nem teljesített %{min} alatt","scores_higher_than_the_average":"Magasabb pontszámok, mint az átlag %{average}","scores_lower_than_the_average":"Alacsonyabb pontszámok, mint az átlag %{average}","total_graded_submissions":"Összes értékelt beadandó: "} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "mute_dialog",
+  null,
+  function() { return {"curving_assignments":"Feladatok normális eloszlásának számítása","grade_change_notifications":"Értesítések jegyváltozásról","how_to_unmute":"Ha a feladatot inaktívvá tette, az értesítéseket akkor tudja újból küldeni, ha rákattint a \"Feladat aktívvá tétele\" linkre.","mute_assignment":"Feladatok inaktívvá tétele","score_change_notifications":"Értesítések eredményváltozásról","see_grade":"A feladatra kapott jegyeik","students_will_see":"A hallgatók láthatják, hogy a feladat inaktív","submission_comments":"Megjegyzések beadásokhoz","sure_you_want_to_mute":"Biztos benne, hogy inaktívvá akarja tenni a feladatot? Amíg a feladat inaktív, a hallgatók nem kapnak új értesítéseket, vagy nem láthatják ezt: "} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "turnitin_info",
+  null,
+  function() { return {"buttons":{"resubmit_to_turnitin":"Újraküldés"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "user_observee",
+  function() { return {"remove_edf2b8a7":"(Eltávolít)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "wiki",
+  function() { return {"allow_in_mastery_paths_5332c786":"Engedélyezett a jártassági útvonalon","pages_settings_968392a3":"Oldalbeállítások","raw_html_editor_e3993e41":"Egyszerű HTML szerkesztő","send_page_to_another_user_6ef5a7c1":"Oldal küldése más felhasználónak","to_do_date_2cb4bf7b":"Teendő napja:"} },
+  function() { return {"wiki_page":{"buttons":{"edit":"Szerkesztés","view_all_pages":"Összes oldal megtekintése"},"delete_wiki":"Törlés","labels":{"front_page":"Kezdőlap"},"menu":{"use_front_page":"Beállítás kezdőlapként"},"published_indicator":"Publikálva","toolbar_menu":{"settings":"Beállítások"},"unpublished_indicator":"Nem publikált","view_page_history_wiki":"Oldal előzményeinek megtekintése","wiki":{"todo_date":"Teendő napja:"}},"wiki_page_content":{"page_locked":"Az oldal zárolva van.","page_locked_by_modules":"Ez az oldal akkor lesz elérhető, ha teljesítette az ezeket a modulokat:","page_locked_by_modules_until":"Ez az oldal ekkor lesz elérhető: %{lock_info.unlock_at} ha teljesítette az alábbi modulokat:","page_locked_until":"Ez az oldal ekkor lesz elérhető %{lock_info.unlock_at}"},"wiki_page_edit":{"buttons":{"cancel":"Mégse","save":"Mentés","save_and_publish":"Mentés és publikálás"},"course_editing_roles":{"anyone":"Bárki","only_teachers":"Csak oktatók","teachers_and_students":"Oktatók és hallgatók"},"editing_roles":{"anyone":"Bárki","only_members":"Csak tagoknak"},"notify_users_text":"A felhasználók értesítése a tartalom módosulásáról","options_label":"Beállítások","title_label":"Oldal címe"},"wiki_page_index":{"add_page":"Adjon hozzá egyet!","buttons":{"new_page":"Oldal","new_page_label":"Oldal hozzáadása"},"headers":{"creation_date":"Létrehozás dátuma","last_edit":"Utolsó módosítás","page_title":"Oldal címe","todo_date":"Teendő napja"},"loading":"Töltődik...","loading_more":"Továbbiak betöltése...","no_pages":"Még nincsenek oldalak létrehozva.","pages_title":"Oldalak"},"wiki_page_index_edit_dialog":{"page_title":"Cím"},"wiki_page_index_item":{"labels":{"front_page":"Kezdőlap"},"menu":{"settings":"Beállítások"}},"wiki_page_revision":{"latest_revision":"Utolsó változat","restore_revision":"Ennek a változatnak a helyreállítása","revision_summary":"%{edited_by} ekkor: *%{updated_at}*","same_as_latest":"Ugyanaz, mint *Utolsó*"},"wiki_page_revisions":{"revision_history":"Módosítási előzmények"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "dialog_form_wrapper",
+  null,
+  function() { return {"cancel":"Mégse","save_settings":"Beállítások mentése","saving":"Mentés..."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "gradebooks",
+  null,
+  function() { return {"grades":{"complete":"Kész","incomplete":"Hiányos"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "curve_grades_dialog",
+  null,
+  function() { return {"average_score":"Átlagpontszám ","buttons":{"curve_grades":"Haranggörbék","curving_grades":"Érdemjegyek normális eloszlásának rajzolása folyamatban..."},"curve_average":"Adja meg *%{assignment.name}* feladathoz tartozó átlag osztályzatot a haranggörbéhez. A diagram megmutatja a legjobb kísérletet a normális eloszlás rajzolására a hallgatók pontjai alapján.","curve_grade_for_assignment":"Haranggörbe a következő feladathoz: %{assignment.name}","labels":{"assign_blanks":"Nulla hozzárendelés azokhoz a hallgatókhoz, akik nem adtak be munkát"},"this_is_permanent":"Az osztályzatok görbére illesztése nem vonható vissza. Az előzmények elérhetőek, de a maga az illesztés irreverzibilis."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "re_upload_submissions_form",
+  null,
+  function() { return {"buttons":{"upload":"Fájlok feltöltése"},"reupload_submission_files":"Beadott állományok újbóli feltöltése","upload_info":"Ha megváltoztatta a hallgatók által beadott fájlokat, amiket letöltött, tömörítse be újra, majd töltse fel a lenti űrlap segítségével. A hallgatók látni fogják a módosított fájlokat a beadandóhoz tartozó kommentekben.","upload_warning":"Figyeljen oda, hogy ne változtassa meg a beadott fájlok neveit, hogy felismerhetők legyenek."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "set_default_grade_dialog",
+  null,
+  function() { return {"dialog_title":"Alapértelmezett jegy a/az %{assignment.name} feladatra","overwrite":"Már bejegyzett értékelések felülírása","set_grades_button":"Alapértelmezett osztályzat beállítása","set_grades_button_loading":"Értékelések beállítása"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "keyboard_nav_dialog",
+  null,
+  function() { return {"esc_key_notification":"Nyomja meg az escape gombot a billentyűparancsok használata előtt, amikor az osztálynapló rácson navigál."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "media_comments",
+  function() { return {"record_with_microphone_only_e4ee07aa":"Felvétel csak mikrofonnal ","record_with_webcam_af21e07c":"Felvétel webkamerával","saving_recording_e111cb05":"Felvétel mentése...","submit_media_file_f334c1ba":"Médiafájl beküldése","this_recorder_uses_flash_as_a_result_you_may_find__427d2ddb":"Ez a felvevő Flash-t használ. Egyszerűbb megoldás lehet, ha a saját gépén készíti el a felvételt, majd azt feltölti a médiafeltöltő fülön.","title_52b8638d":"Cím:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "widget",
+  null,
+  function() { return {"upload_media_track_form":{"choose_a_language":"--Nyelv kiválasztása--","error_message":"*Hiba:* Ki kell választania egy nyelvet és egy érvényes hangfájlt.","file":"Fájl","language":"Nyelv","upload_media_track_form_description":"Amint rendelkezésre áll egy felirat sáv SRT vagy *WebVTT* formátumban, itt feltöltheti.","upload_media_track_form_description_1":"Videó url másolása:","upload_media_track_form_description_2":"Készítsen feliratfájlt erre a linkre kattintva az utasítások követésével.","upload_media_track_form_description_3":"Töltsön fel egy feliratsávot SRT vagy *WebVTT* formátumban.","upload_media_track_form_step1_label":"1. lépés:","upload_media_track_form_step2_label":"2. lépés:","upload_media_track_form_step3_label":"3. lépés:","upload_media_track_info":"*Utasítások:* Kövesse az alábbi három lépést, hogy feliratfájlt készítsen a videójához, majd töltse fel itt. Ha már rendelkezik SRT felirat fájllal, ugorjon a 3. lépéshez."}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "message_students_dialog",
+  function() { return {"recipients_a69b5e55":"Címzettek:","sent_f4ee89ec":"Elküldve!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "hu",
+  "jquery",
+  function() { return {"module_navigation_97043417":"Modulnavigáció"} },
+  function() { return {"module_sequence_footer":{"next":"Következő","previous":"Előző"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "paginated_collection",
+  null,
+  function() { return {"no_items":"Nincsenek elemek."} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "paginated_view",
+  null,
+  function() { return {"loading_more_results":"További találatok betöltése"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "editor",
+  null,
+  function() { return {"mathjax_text_entry_field_label":"Írja be az egyenletet LaTeX formátumban.","screen_reader_tip":"Képernyőfelolvasót használó felhasználók: a szerkesztő hozzáférhető használatához váltson haladó nézetre, majd írjon be közvetlenül LaTeX-et, vagy használja az eszköztárat erre. A link a haladó nézetre váltáshoz a párbeszéd vége felé található, közvetlenül a szerkesztés mező előtt.","switch_to_mathjax":"Váltás alapnézetre","switch_to_mathquill":"Váltás haladó nézetre","tabs":{"arrows":"Nyilak","basic":"Alap","delimiters":"Elválasztó jelek","greek":"Görög","misc":"Egyéb","operators":"Műveletek","relationships":"Kapcsolatok"}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "find_flickr_image_view",
+  null,
+  function() { return {"find_cc_on_flickr":"Képek keresése a Flickr Creative Commons segítségével","search":"Keresés"} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "change_points_possible_to_match_rubric_dialog",
+  null,
+  function() { return {"prompts":{"update_assignment_points":"Ha a feladat összpontszámát /%{assignmentPoints}/ és az értékelőtábla pontjait /%{rubricPoints}/ így hagyja, akkor a maximálisan elérhető pontszám %{toPercentage_pointRatio} százaléka lesz elérhető minden olyan hallgató számára, akit az értékelőtáblával értékel."},"titles":{"update_assignment_points":"Feladat pontjainak módosítása az értékelőtáblához illeszkedően? "}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "number",
+  null,
+  function() { return {"currency":{"format":{"delimiter":" ","format":"%u%n","precision":2,"separator":",","significant":false,"strip_insignificant_zeros":false,"unit":"Ft"}},"format":{"delimiter":" ","precision":3,"separator":",","significant":false,"strip_insignificant_zeros":false},"human":{"decimal_units":{"format":"%n %u","units":{"billion":"Milliárd","million":"Millió","quadrillion":"Billiárd","thousand":"Ezer","trillion":"Billió","unit":""}},"format":{"delimiter":"","precision":3,"significant":true,"strip_insignificant_zeros":true},"storage_units":{"format":"%n %u","units":{"byte":{"one":"Bájt","other":"Bájt"},"eb":"EB","gb":"GB","kb":"KB","mb":"MB","pb":"PB","tb":"TB"}}},"nth":{"ordinalized":{},"ordinals":{}},"percentage":{"format":{"delimiter":"","format":"%n%"}},"precision":{"format":{"delimiter":""}}} }
+)
+
+
+setLazyTranslations(
+  "hu",
+  "datetime",
+  null,
+  function() { return {"distance_in_words":{"about_x_hours":{"one":"körülbelül 1 óra","other":"körülbelül %{count} óra"},"about_x_months":{"one":"körülbelül 1 hónap","other":"körülbelül %{count} hónap"},"about_x_years":{"one":"körülbelül 1 év","other":"körülbelül %{count} év"},"almost_x_years":{"one":"közel 1 év","other":"közel %{count} év"},"half_a_minute":"fél perc","less_than_x_minutes":{"one":"kevesebb mint egy perc","other":"kevesebb mint %{count} perc"},"less_than_x_seconds":{"one":"kevesebb mint egy másodperc","other":"kevesebb mint %{count} másodperc"},"over_x_years":{"one":"több mint 1 éve","other":"több mint %{count} éve"},"x_days":{"one":"1 nap","other":"%{count} nap"},"x_minutes":{"one":"1 perc","other":"%{count} perc"},"x_months":{"one":"1 hónap","other":"%{count} hónap"},"x_seconds":{"one":"1 másodperc","other":"%{count} másodperc"}},"prompts":{"day":"Nap","hour":"Óra","minute":"Perc","month":"Hó","second":"Másodperc","year":"Év"}} }
+)
+
+
+})(setRootTranslations, setLazyTranslations)

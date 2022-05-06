@@ -1,0 +1,6310 @@
+import { setRootTranslations, setLazyTranslations } from '@canvas/i18n/mergeI18nTranslations.js'; (function(setRootTranslations, setLazyTranslations) {
+
+setRootTranslations("th", function() { return {"1_item_scores_5512cd03":"1- คะแนนรายการ","2_final_score_7b0fd15e":"2- คะแนนสรุป","_b4455c8b":"%","a_file_named_name_already_exists_in_this_folder_do_e39de0b2":"ไฟล์ชื่อ “%{name}” มีอยู่แล้วในโฟลเดอร์นี้ ต้องการแทนที่ไฟล์ในปัจจุบันหรือไม่","a_locked_file_named_name_already_exists_in_this_fo_33ca9a0c":"ไฟล์ที่ล็อคไว้ชื่อ “%{name}” มีอยู่แล้วในโฟลเดอร์นี้ กรุณากรอกชื่อใหม่","accept_2fdd362e":"ตอบรับ","access_token_count_access_token_count_dfb5463c":"จำนวนชุดข้อมูลการใช้งาน: %{access_token_count}","account_97b34646":"บัญชี","account_navigation_80bbefd4":"การสืบค้นบัญชี","account_settings_fe083453":"ค่าทางบัญชี","act_as_name_16d15bfa":"ดำเนินการในฐานะ %{name}","act_as_user_d7ef0e48":"ดำเนินการในฐานะผู้ใช้","actions_efcde10d":"การดำเนินการ","active_d7e32718":"ใช้งาน","add_8523c19b":"เพิ่ม","add_cc_subtitle_a9ef4a66":"เพิ่ม CC/คำบรรยาย","add_group_c84f9e9d":"เพิ่มกลุ่ม","add_group_set_f9809e11":"เพิ่มชุดกลุ่ม","add_mastery_level_76469d98":"เพิ่มระดับความเชี่ยวชาญ","add_new_caption_or_subtitle_59d2d044":"เพิ่มคำบรรยายหรือคำอธิบายใหม่","add_subtitle_9f660cc":"เพิ่มคำบรรยาย","add_to_student_to_do_58e66b4b":"เพิ่มไปยังรายการสิ่งที่ต้องทำสำหรับผู้เรียน","added_caption_1895db92":"คำบรรยายที่เพิ่ม","admin_4d3ba42f":"ผู้ดูแลระบบ","admin_tools_logging_tab_680698f3":"เครื่องมือดูแลระบบ (แท็บบันทึกประวัติ)","admins_3e1dce15":"ผู้ดูแลระบบ","after_4c71e718":"หลังจาก","all_4321c3a1":"ทั้งหมด","all_accounts_3bafc860":"ทุกบัญชี","all_changes_were_saved_f6f3ddcc":"บันทึกการเปลี่ยนแปลงทั้งหมดแล้ว","all_courses_a7dbb853":"บทเรียนทั้งหมด","all_dates_fields_must_be_present_and_formatted_cor_3a0fe925":"ฟิลด์วันที่ทั้งหมดจะต้องมีอยู่และกำหนดรูปแบบถูกต้อง","all_grading_periods_77974940":"ระยะเวลาการให้เกรดทั้งหมด","all_grading_periods_must_have_a_title_a1a38d87":"ระยะเวลาการให้เกรดทั้งหมดจะต้องมีชื่อ","all_groups_cea25817":"ทุกกลุ่ม","all_roles_f3bba14d":"ทุกบทบาท","all_sections_daf11554":"กลุ่มย่อยทั้งหมด","all_start_dates_must_be_before_the_end_date_d949eca9":"วันที่เริ่มต้นทั้งหมดจะต้องอยู่ก่อนวันที่สิ้นสุด","all_subjects_5a42cfdb":"วิชาทั้งหมด","all_terms_cd27b0fb":"เทอมทั้งหมด","allows_user_to_access_the_learning_mastery_gradebo_3c1fc35b":"อนุญาตให้ผู้ใช้สืบค้นสมุดบันทึกเกรดสำหรับระดับความเชี่ยวชาญด้านการเรียนรู้ (หากเปิดใช้ไว้)","allows_user_to_add_assignment_groups_in_a_course_3054675c":"อนุญาตให้ผู้ใช้เพิ่มกลุ่มภารกิจในบทเรียน","allows_user_to_add_discussions_in_the_discussions__1b3d9a53":"อนุญาตให้ผู้ใช้เพิ่มการพูดคุยไปยังหน้าการพูดคุย","allows_user_to_add_new_assignments_to_a_module_51ae198c":"อนุญาตให้ผู้ใช้เพิ่มภารกิจใหม่ไปยังหน่วยการเรียน","allows_user_to_edit_configurations_for_manually_ad_7e0f496c":"อนุญาตให้ผู้ใช้แก้ไขการกำหนดค่าสำหรับแอพจากภายนอกที่เพิ่มเข้ามาเอง","allows_user_to_generate_login_logout_activity_repo_bba62f2":"อนุญาตให้ผู้ใช้จัดทำรายงานการล็อกอิน/ล็อกเอาท์ในเครื่องมือสำหรับผู้ดูแลระบบ","allows_user_to_manage_assignment_settings_35d94690":"อนุญาตให้ผู้ใช้จัดการค่าปรับตั้งภารกิจ","allows_user_to_share_a_quiz_to_commons_6746e0da":"อนุญาตให้ผู้ใช้แชร์แบบทดสอบไปยัง Commons","allows_user_to_view_student_specific_data_in_analy_4abbf6be":"อนุญาตให้ผู้ใช้ดูข้อมูลเฉพาะของผู้เรียนในข้อมูลวิเคราะห์","an_error_occurred_when_saving_the_group_536c8f66":"เกิดข้อผิดพลาดขณะบันทึกกลุ่ม","an_error_occurred_while_loading_account_outcomes_e_d79afc2d":"เกิดข้อผิดพลาดขณะโหลดผลลัพธ์ทางบัญชี: %{error}","an_error_occurred_while_loading_course_outcomes_er_accefe77":"เกิดข้อผิดพลาดขณะโหลดผลลัพธ์ของบทเรียน: %{error}","analytics_c94ba601":"ข้อมูลวิเคราะห์","announcement_fb4cb645":"ประกาศ","announcements_a4b8ed4a":"ประกาศ","anonymous_e1b8ad27":"ไม่เปิดเผยตัว","anonymous_grading_ccb5045c":"การให้เกรดแบบไม่เปิดเผยตัว","app_b157c2b3":"แอพ","applied_cc7be774":"ที่ปรับใช้","apply_781a2546":"ปรับใช้","appointments_dcb41d23":"การนัดหมาย","archive_3f794d7e":"จัดเก็บแยก","archived_de543437":"จัดเก็บแยกแล้ว","are_you_sure_you_want_to_cancel_changes_you_made_m_c5210496":"คุณแน่ใจว่าต้องการยกเลิกหรือไม่ การเปลี่ยนแปลงที่คุณทำขึ้นอาจไม่ถูกบันทึกไว้","are_you_sure_you_want_to_delete_this_assignment_88be6f5e":"แน่ใจว่าต้องการลบภารกิจนี้หรือไม่","are_you_sure_you_want_to_delete_this_comment_4ee386d":"แน่ใจว่าต้องการลบความเห็นนี้หรือไม่","are_you_sure_you_want_to_delete_this_grading_perio_422359cd":"แน่ใจว่าต้องการลบระยะเวลาการให้เกรดนี้หรือไม่","arrange_by_a121617c":"จัดเรียงจาก","assign_eedf72bb":"กำหนด","assignment_976578a8":"ภารกิจ","assignment_group_1a781505":"กลุ่มภารกิจ","assignment_name_b2d87383":"ชื่อภารกิจ","assignments_1e02582c":"ภารกิจ","assignments_2_student_error_page_3ca3e0df":"หน้าข้อผิดพลาดของผู้เรียน ภารกิจ 2","assignments_2_student_initial_query_error_52aa5ebd":"ข้อผิดพลาดการสืบค้นเบื้องต้นสำหรับผู้เรียน ภารกิจ 2","attempt_attempt_d3911720":"การดำเนินการ %{attempt}","attempt_f2691284":"การดำเนินการ","availability_dates_438d71e0":"วันที่พร้อมใช้งาน","available_8606e40c":"พร้อมใช้","available_from_587ce92f":"ใช้ได้จาก","available_to_b7350e02":"พร้อมสำหรับ","available_until_f3b9c4ed":"ใช้ได้จนถึง","back_2900f52a":"ย้อนกลับ","base_type_e2840170":"ประเภทเกณฑ์พื้นฐาน","before_44c686b4":"ก่อน","begin_typing_to_search_7daa7b1":"เริ่มพิมพ์เพื่อค้นหา","below_mastery_abd1dca5":"ต่ำกว่าเกณฑ์ผู้เชี่ยวชาญ","blueprint_5cca2ef":"พิมพ์เขียว","blueprint_courses_9dd321b8":"บทเรียนพิมพ์เขียว","blueprint_courses_must_be_enabled_for_an_account_b_c630f425":"บทเรียนพิมพ์เขียวจะต้องเปิดใช้งานสำหรับบัญชีผู้ใช้โดยผู้ดูแลระบบ","bounced_emails_83f293b5":"อีเมลตีกลับ","build_78955b82":"จัดทำ","calculation_method_fe281f9":"วิธีการคำนวณ","calendar_d14cfc8f":"ปฏิทิน","calendar_event_89aadc1c":"กิจกรรมในปฏิทิน","calendars_a756c286":"ปฏิทิน","cancel_caeb1e68":"ยกเลิก","cancel_importing_name_a0b6f3e1":"ยกเลิกการนำเข้า \"%{name}\"","cancel_migrating_name_cfc745c2":"ยกเลิกการโอนย้าย \"%{name}\"","captured_image_91838f78":"ภาพที่บันทึกไว้","cc_subtitles_a0d16ff6":"CC/คำบรรยาย","change_dcaa253a":"เปลี่ยน","changes_you_made_may_not_be_saved_4e8db973":"การเปลี่ยนแปลงที่คุณทำขึ้นอาจไม่ถูกบันทึกไว้","choose_file_8d89ccab":"เลือกไฟล์","chosencolor_is_not_a_valid_color_5d542cc":"'%{chosenColor}' ไม่ใช่สีที่ถูกต้อง","clear_2084585f":"ล้าง","clear_selected_file_82388e50":"ล้างไฟล์ที่เลือก","clone_group_set_c2a40e15":"โคลนชุดกลุ่ม","close_d634289d":"ปิด","close_date_a2f617b3":"วันที่สิ้นสุด","collaborations_5c56c15f":"การประสานความร่วมมือ","collapse_subdiscussion_89af1f5c":"ย่อส่วนการพูดคุยย่อย","collapsed_510aa02a":"ย่อแล้ว","color_a363e1b0":"สี","comments_e07bcbe3":"ความเห็น","commons_ed0252fb":"Commons","complete_4f4efbc":"เสร็จสิ้น","complete_fd828dea":"เสร็จสิ้น","completed_19711ce7":"เสร็จสิ้นแล้ว","compose_message_8abd180a":"เขียนข้อความ","computer_1d7dfa6f":"คอมพิวเตอร์","concluded_courses_94782e21":"บทเรียนที่สรุปแล้ว","conferences_a0a8984b":"การประชุม","conferencing_b69e2537":"กำลังทำการประชุม:","configure_ecb97e30":"กำหนดค่า","confirm_6556b3a6":"ยืนยัน","confirm_delete_6febeafb":"ยืนยันการลบ","confirm_deletion_b2efe7d4":"ยืนยันการลบ","confirm_removal_a9bb889":"ยืนยันการลบ","continue_ac067716":"ดำเนินการต่อ","conversations_69a8dc26":"การพูดคุย","copy_9748f9f":"คัดลอก","copy_to_64f8456b":"คัดลอกไปยัง...","copy_to_a5396a6f":"คัดลอกไปยัง...","count_replies_a685c742":"%{count} การตอบกลับ","count_unread_cff5855":"%{count} ที่ไม่ได้อ่าน","count_unread_replies_86976ab":"%{count} การตอบกลับที่ไม่ได้อ่าน","course_8a63b4a3":"บทเรียน","course_name_63b973d1":"ชื่อบทเรียน","course_navigation_dd035109":"การสืบค้นเนื้อหาบทเรียน","course_pacing_40c14b61":"Course Pacing","course_roles_can_only_manage_content_in_blueprint__a37c5e0a":"ผู้มีบทบาทในบทเรียนจะสามารถจัดการได้เฉพาะเนื้อหาในบทเรียนพิมพ์เขียวหากถูกเพิ่มไปยังบทเรียนพิมพ์เขียวในฐานะผู้สอน, TA หรือผู้ออกแบบ","course_settings_f6d0bbf8":"ค่าปรับตั้งบทเรียน","courses_43204aae":"บทเรียน","courses_account_72e4fca7":"บทเรียน (บัญชี)","create_132b3be1":"จัดทำ","create_new_group_bf9561d4":"จัดทำกลุ่มใหม่","create_new_group_fca5cc73":"จัดทำกลุ่มใหม่","created_6ee36dff":"จัดทำแล้ว:","criterion_long_description_e9a97247":"รายละเอียดเกณฑ์แบบยาว","current_367624e9":"ปัจจุบัน","current_mastery_score_score_out_of_mastery_points_fedd343f":"คะแนนความเชี่ยวชาญในปัจจุบัน: %{score} จาก %{mastery_points}","current_volume_level_c55ab825":"ระดับเสียงในปัจจุบัน","curving_assignments_e9479ee3":"ภารกิจในการทำกราฟ","custom_6979cd81":"กำหนดเอง","custom_fields_fc3e55af":"ฟิลด์กำหนดเอง","dashboard_7f1dbf71":"แผงข้อมูล","dashboard_options_b240ed5a":"ตัวเลือกแผงข้อมูล","dashboard_view_d7d85969":"มุมมองแผงข้อมูล","date_created_87e265bc":"วันที่จัดทำ","date_created_createdat_265a0dfa":"วันที่จัดทำ: %{createdAt}","date_ee500367":"วันที่","date_error_7b38f8ff":"ข้อผิดพลาดวันที่","date_filter_is_in_effect_4363df73":"ตัวกรองวันที่ถูกใช้งานอยู่","date_is_after_course_end_date_94a2f4e3":"วันที่อยู่หลังจากวันที่สิ้นสุดบทเรียน","date_is_after_the_course_end_date_95bf9b6a":"วันที่อยู่หลังจากวันที่สิ้นสุดบทเรียน","date_is_after_the_specified_end_date_ae34a72f":"วันที่อยู่หลังจากวันที่สิ้นสุดที่ระบุ","date_is_after_the_term_end_date_4ab01e5d":"วันที่อยู่หลังจากวันที่สิ้นสุดของเทอม","date_is_before_course_start_date_16c9d531":"วันที่อยู่ก่อนวันที่เริ่มต้นบทเรียน","date_is_before_student_enrollment_date_a380a177":"วันที่อยู่ก่อนวันที่ลงทะเบียนของผู้เรียน","date_is_before_the_course_start_date_431ba0ff":"วันที่อยู่ก่อนวันที่เริ่มต้นบทเรียน","date_is_before_the_term_start_date_10104b92":"วันที่อยู่ก่อนวันที่เริ่มต้นของเทอม","date_is_required_9c6f5e83":"ต้องระบุวันที่!","date_modified_e1c8ac8f":"วันที่ปรับแต่ง","date_modified_modifiedat_b839cc8b":"วันที่ปรับแต่ง: %{modifiedAt}","date_of_most_recent_bounce_b23d0119":"วันที่ที่มีการตีกลับล่าสุด","date_required_a74e077c":"ต้องระบุวันที่","date_time_options_7abcdea7":"ตัวเลือกวันที่/เวลา","date_time_options_b501e73b":"ตัวเลือกวันที่/เวลา","dates_6e416047":"วันที่","dates_shown_in_course_time_zone_da2f77d5":"วันที่ที่ปรากฏในเขตเวลาสำหรับบทเรียน","day_s_7cc1231f":"วัน","default_9db103d":"ค่าเริ่มต้น","delete_a6efa79d":"ลบ","delete_assignment_group_7c3b01c4":"ลบกลุ่มภารกิจ","delete_this_key_70f74aa1":"ลบคีย์นี้","delete_title_6c18eba5":"ลบ %{title}","deleted_1be5ed1":"ลบแล้ว","deleted_caption_b5c66807":"คำบรรยายที่ลบแล้ว","description_436c48d7":"รายละเอียด","description_for_mastery_level_position_description_cc17114b":"รายละเอียดสำหรับระดับความเชี่ยวชาญ %{position}: %{description}","designer_c458392":"ผู้ออกแบบ","details_98a31b68":"รายละเอียด","determines_visibility_and_management_of_the_questi_c57c5b31":"กำหนดการแสดงผลและการจัดการลิงค์แถวคำถามในส่วนการสืบค้นเนื้อหาทางบัญชี","developer_keys_d70ba44a":"คีย์สำหรับผู้พัฒนา","disable_a5c05db3":"ปิดใช้งาน","disabled_3b1b332a":"ปิดใช้งานแล้ว","discussion_6719c51d":"การพูดคุย","discussion_topic_dc85ad4c":"หัวข้อการพูดคุย","discussions_a5f96392":"การพูดคุย","display_as_e2a5c383":"แสดงเป็น","display_totals_for_all_grading_periods_option_4a72586":"แสดงยอดรวมสำหรับตัวเลือกระยะเวลาการให้เกรดทั้งหมด","domain_3b54c511":"โดเมน","done_54e3d4b6":"เสร็จสิ้น","download_c7ffdfb9":"ดาวน์โหลด","drag_a_file_here_39357b48":"ลากไฟล์ที่นี่","drag_and_drop_or_click_to_browse_your_computer_60772d6d":"ลากและวาง หรือคลิกเพื่อเรียกดูในคอมพิวเตอร์ของคุณ","due_a73610f6":"ครบกำหนด","due_date_2c6e4cfb":"ครบกำหนด %{date}","due_date_822625d8":"วันครบกำหนด","due_date_falls_in_a_closed_grading_period_e447ff2f":"วันครบกำหนดจะอยู่ในระยะเวลาให้เกรดสรุปไม่ได้","due_dates_520a6c08":"วันครบกำหนด","due_on_date_5ffb2182":"ครบกำหนดวันที่","duplicate_31cec192":"ซ้ำซ้อน","edit_assignment_dates_6f8c72b":"แก้ไขวันที่ภารกิจ","edit_assignment_group_c04c4af0":"แก้ไขกลุ่มภารกิจ","edit_c5fbea07":"แก้ไข","edit_group_c8679dba":"แก้ไขกลุ่ม","edit_mastery_paths_for_title_3c0a15e1":"แก้ไขเส้นทางพัฒนาความเชี่ยวชาญสำหรับ %{title}","edit_outcome_867a0381":"แก้ไขผลลัพธ์","edit_title_20a9577":"แก้ไข %{title}","email_22a7d52d":"อีเมล","email_address_a1b97a39":"อีเมลแอดเดรส","email_is_required_736ac26b":"ต้องระบุอีเมล","embed_828fac4a":"ผนวก","embed_video_code_703e10f2":"ผนวกรหัสข้อมูลวิดีโอ","enable_6f5d1328":"เปิดใช้งาน","enabled_ba7cab66":"เปิดใช้งานแล้ว","end_date_cannot_be_before_start_date_eb62ed6d":"วันที่สิ้นสุดจะอยู่ก่อนวันที่เริ่มต้นไม่ได้","end_date_e0093ed7":"วันที่สิ้นสุด","enter_at_least_count_characters_1c7a0b36":"กรอกอย่างน้อย %{count} ตัวอักษร","enter_new_group_name_b97d5819":"กรอกชื่อกลุ่มใหม่","error_59293a2c":"ข้อผิดพลาด","error_98e81528":"ข้อผิดพลาด","error_retrieving_content_c07ee76b":"เกิดข้อผิดพลาดในการเรียค้นเนื้อหา","error_retrieving_content_from_tool_e65ef3b7":"เกิดข้อผิดพลาดในการเรียกค้นเนื้อหาจากเครื่องมือ","error_updating_status_of_module_item_80336274":"เกิดข้อผิดพลาดในการอัพเดตสถานะรายการของหน่วยการเรียน","error_uploading_video_audio_recording_16d9730a":"มีข้อผิดพลาดในการโหลดบันทึกวิดีโอ/เสียง","event_end_time_ef830e66":"เวลาสิ้นสุดกิจกรรม","event_fe9ba3fe":"กิจกรรม","event_start_time_441b491f":"เวลาเริ่มต้นกิจกรรม","event_title_7f1051a6":"ชื่อกิจกรรม","everyone_854554dd":"ทุกคน","everyone_else_6c6dc7b6":"คนอื่น ๆ ทั้งหมด","example_84698b7d":"ตัวอย่าง","example_final_score_355aff0f":"ตัวอย่างคะแนนสรุป","example_item_scores_6726c689":"ตัวอย่างคะแนนรายการ","exceeds_mastery_1f995dce":"สูงกว่าเกณฑ์ความเชี่ยวชาญ","excused_3aab77":"ยกเว้นแล้ว","excused_cf8792eb":"ได้รับการยกเว้น","expanded_f4493860":"ขยายแล้ว","external_apps_f5490181":"แอพจากภายนอก","external_tool_c5a6410a":"เครื่องมือจากภายนอก","failed_276786d":"ล้มเหลว","favorite_courses_fbd356f0":"บทเรียนโปรด","feature_f5526584":"คุณสมบัติ","feature_option_dbfa062f":"ตัวเลือกคุณสมบัติ","feature_options_account_settings_294a39f8":"ตัวเลือกคุณสมบัติ (ค่าปรับตั้งทางบัญชี)","file_c851020d":"ไฟล์","file_name_2fe68ec1":"ชื่อไฟล์","file_name_8fd421ff":"ชื่อไฟล์","file_selected_for_upload_filename_18ca9b8a":"ไฟล์ที่เลือกสำหรับอัพโหลด: %{filename}","filename_preview_71b2cde2":"แสดงตัวอย่าง %{filename}","files_c300e900":"ไฟล์","filter_by_2f4368a8":"กรองจาก","filter_e3398407":"ตัวกรอง","final_grade_4d7f6545":"เกรดสรุป","final_grade_override_be8a21cd":"บอกล้างเกรดสรุป","find_8d605019":"ค้นหา","finish_bc343002":"เสร็จสิ้น","folder_705fd2d7":"โฟลเดอร์","folder_browsing_tree_1f00a3ae":"ทรีเรียกดูโฟลเดอร์","for_974cbb84":"สำหรับ","friendly_description_57f7fdde":"รายละเอียดที่เป็นกันเอง","from_fdd4956d":"จาก","future_5416ea92":"อนาคต","global_navigation_8bee3501":"ส่วนการสืบค้นเนื้อหาส่วนกลาง","go_to_name_s_profile_eaa1826b":"ไปที่โพรไฟล์ของ %{name}","gpa_scale_6710e2ee":"คะแนน GPA","grade_9c6f076d":"เกรด","grade_change_notifications_98461261":"การแจ้งแก้ไขเกรด","grade_saved_ab539b53":"บันทึกเกรดแล้ว","gradebook_1620a0aa":"สมุดบันทึกเกรด","gradebook_5fd8ef0":"สมุดบันทึกเกรด...","gradebook_history_a3e8e0b4":"ประวัติสมุดบันทึกเกรด","gradebook_history_b03f8524":"ประวัติสมุดบันทึกเกรด...","graded_25cd3fcd":"ให้เกรดแล้ว","grader_d1198a9c":"ผู้ให้เกรด","grades_a61eba0a":"เกรด","grading_aa6de9":"การให้เกรด","grading_period_8b0a4a10":"ระยะเวลาการให้เกรด","grading_period_weight_99b66906":"น้ำหนักระยะเวลาการให้เกรด","grading_periods_81941e66":"ระยะเวลาการให้เกรด","grading_periods_must_not_overlap_f45336fb":"ระยะเวลาการให้เกรดจะต้องไม่ซ้อนทับกัน","grading_schemes_1c3c3252":"รูปแบบการให้เกรด","group_a8f5ed9c":"กลุ่ม","group_name_b69c144":"ชื่อกลุ่ม","group_set_name_2aed2347":"ชื่อชุดกลุ่ม","groups_6c90e26a":"กลุ่ม","haven_t_been_graded_d7dee5bb":"ยังไม่ได้ให้เกรด","haven_t_submitted_yet_e63834db":"ยังไม่ได้จัดส่ง","help_4c4968b1":"ความช่วยเหลือ","hidden_14a032a7":"ซ่อนไว้","hide_grades_585e63b4":"ซ่อนเกรด","home_351838cd":"หน้าหลัก","homeroom_view_a676e270":"มุมมองโฮมรูม","if_an_enrollment_is_created_via_sis_only_admins_ca_729493d3":"หากมีการจัดทำส่วนการลงทะเบียนไว้ผ่าน SIS เฉพาะผู้ดูแลระบบเท่านั้นที่สามารถลบส่วนการลงทะเบียนจากบทเรียน","if_the_feature_option_is_enabled_and_this_permissi_3f9424e2":"หากเปิดใช้งานตัวเลือกคุณสมบัติไว้ และเปิดใช้งานสิทธิ์อนุญาตนี้ไว้ เพจ ผลลัพธ์ (Outcomes) จะประกอบไปด้วยแท็บสามรายการได้แก่ จัดการ ความเชี่ยวชาญ และ การคำนวณ","if_this_permission_is_enabled_the_learning_mastery_af45b0ca":"หากเปิดใช้งานสิทธิ์อนุญาตนี้ไว้ แท็บ ความเชี่ยวชาญด้านการเรียนรู้ จะปรากฏขึ้นในเพจ ผลลัพธ์ แทนเพจ เกณฑ์การให้คะแนน","image_8ad06":"ภาพ","import_1b31507":"นำเข้า","import_outcomes_7dda186b":"นำเข้าผลลัพธ์","importing_name_8f2b131d":"กำลังนำเข้า \"%{name}\"","importing_the_same_course_content_more_than_once_w_8b28b2c6":"การนำเข้าเนื้อหาบทเรียนเดียวกันมากกว่าหนึ่งครั้งจะเป็นการเขียนทับเนื้อหาที่มีอยู่ในบทเรียน","in_progress_9d1ce8b9":"กำลังดำเนินการ","inactive_cd40317f":"ไม่ได้ใช้งาน","inbox_bb245a60":"กล่องจดหมาย","include_this_assignment_s_grades_when_syncing_to_y_55bfa487":"รวมเกรดของภารกิจนี้เมื่อซิงค์กับระบบสารสนเทศสำหรับผู้เรียนในสถานศึกษาของคุณ","incomplete_95612d72":"ไม่เสร็จสิ้น","incomplete_da3c2ea2":"ไม่เสร็จสิ้น","institution_14179014":"สถาบัน","integration_id_8a20b328":"ID การผสานรวม","invalid_file_type_881cc9b2":"ประเภทไฟล์ไม่ถูกต้อง","invalid_points_8e929c3f":"คะแนนไม่ถูกต้อง","joining_81f8b6c9":"กำลังเข้าร่วม","keyboard_shortcuts_ed1844bd":"ชอร์ตคัทแป้นพิมพ์","language_6b3e2c7c":"ภาษา","last_used_f9457313":"ใช้ล่าสุด:","late_2be42b88":"ล่าช้า","late_8bd684b6":"ล่าช้า","late_penalty_9c312b22":"โทษปรับล่าช้า","learning_mastery_5fc34276":"ความเชี่ยวชาญด้านการเรียนรู้","learning_mastery_6ed4fd63":"ความเชี่ยวชาญด้านการเรียนรู้...","letter_grade_f00fedc4":"เกรดแบบตัวอักษร","limited_322546c5":"จำกัด","link_url_a213671c":"URL ลิงค์","list_collapsed_5f19f5bb":"ย่อรายการแล้ว","list_collapsed_9ac35920":"ย่อรายการแล้ว","list_expanded_4857ff4c":"ขยายรายการแล้ว","list_expanded_efec2d0":"ขยายรายการแล้ว","load_more_a36f9cf9":"โหลดเพิ่มเติม","loading_25990131":"กำลังโหลด...","loading_announcements_b927a86c":"กำลังโหลดประกาศ","loading_bde52856":"กำลังโหลด","loading_data_ecd89ba":"กำลังโหลดข้อมูล...","loading_media_32847745":"กำลังโหลดสื่อ","loading_options_c823e98b":"กำลังโหลดตัวเลือก...","local_4ee321b1":"ในพื้นที่","location_e17bd402":"ตำแหน่ง","lock_c341af13":"ล็อค","locked_762f138b":"ล็อคแล้ว","locked_click_to_unlock_50747e11":"ล็อคแล้ว คลิกเพื่อปลดล็อค","login_id_12109693":"ID ล็อกอิน","manage_b88f7150":"จัดการ","manage_options_for_name_83278ad0":"จัดการตัวเลือกสำหรับ %{name}","manage_usage_rights_c5a8c216":"จัดการสิทธิ์การใช้งาน","manual_entry_e4a4f99a":"กรอกด้วยตัวเอง","mark_as_important_date_533718de":"กำกับเป็นวันที่ที่สำคัญ","mark_as_read_e7de2ce3":"กำกับว่าอ่านแล้ว","mark_as_unread_4a413c41":"กำกับว่ายังไม่ได้อ่าน","mastery_7ec348b5":"ความเชี่ยวชาญ","mastery_paths_breakdown_6e0b5fce":"แยกย่อยเส้นทางความเชี่ยวชาญ","mastery_paths_cc4096c2":"เส้นทางความเชี่ยวชาญ","media_af190855":"สื่อ","media_record_not_available_f78c16dd":"บันทึกสำหรับสื่อไม่พร้อมใช้งาน","meets_mastery_754e1c06":"ผ่านเกณฑ์ความเชี่ยวชาญ","menu_39cb0e8e":"เมนู","message_5c38209d":"ข้อความ","message_sent_5e328899":"ส่งข้อความแล้ว!","message_sent_9ff3a79d":"ส่งข้อความแล้ว!","message_students_cecc3f83":"ส่งข้อความถึงผู้เรียน","mic_a7f3d311":"ไมค์","migrating_name_e05aa53e":"กำลังโอนย้าย \"%{name}\"","missing_1a256b3b":"ขาดหาย","missing_d59852a7":"ขาดหาย","missing_required_description_99a99ff":"ไม่มีรายละเอียดที่กำหนด","moderated_grading_e6127f72":"การให้เกรดแบบมีการปรับประสาน","module_90d9fd32":"หน่วยการเรียน","modules_c4325335":"หน่วยการเรียน","more_cf9cc661":"มากกว่า","more_courses_5ebbe998":"บทเรียนเพิ่มเติม","move_abf00365":"ย้าย","move_contents_into_f3e4fd9d":"ย้ายเนื้อหาไปยัง","move_to_25d7ef11":"ย้ายไป","must_be_a_number_e1dfe68a":"จะต้องเป็นตัวเลข","must_select_a_student_group_first_15c6a3cb":"จะต้องเลือกกลุ่มผู้เรียนก่อน","n_a_d6f6c42f":"ไม่มี","n_points_possible_precision_2_st_points_bc3748df":"%{n_points_possible_precision_2_st} คะแนน","name_1aed4a1b":"ชื่อ","name_is_locked_click_to_unlock_7aad9928":"%{name} ถูกล็อคอยู่ คลิกเพื่อปลดล็อค","name_is_too_long_must_be_under_length_characters_b8dad44c":"ชื่อยาวเกินไป จะต้องไม่เกิน %{length} ตัวอักษร","name_is_unlocked_click_to_lock_b8b9a2c8":"%{name} ปลดล็อคแล้ว คลิกเพื่อล็อค","near_mastery_f25174a4":"ใกล้เคียงระดับความเชี่ยวขาญ","negative_points_fda45730":"คะแนนเป็นลบ","never_df100b49":"ไม่เลย","new_13daf639":"ใหม่","new_bd30f253":"ใหม่","new_export_3ab758":"การส่งออกใหม่","new_quiz_34aacba6":"แบบทดสอบใหม่","new_user_s_name_909b6267":"ชื่อผู้ใช้ใหม่","next_40e12421":"ถัดไป","next_month_b55a387c":"เดือนถัดไป","next_page_d2a39853":"เพจถัดไป","next_student_b62869f4":"ผู้เรียนถัดไป","no_additional_details_were_added_for_this_assignme_547c0de7":"ไม่มีรายละเอียดเพิ่มเติมถูกเพิ่มไปสำหรับภารกิจนี้","no_due_date_44271c53":"ไม่มีวันครบกำหนด","no_e16d9132":"ไม่","no_file_selected_92d2ac30":"ไม่มีไฟล์ที่เลือก","no_results_3cda4e72":"ผลลัพธ์","no_results_f36777ee":"ไม่มีผลลัพธ์","no_results_found_e4b686bd":"ไม่พบผลลัพธ์","no_subject_970aad80":"ไม่มีหัวเรื่อง","no_video_1ed00b26":"ไม่มีวิดีโอ","no_violations_have_been_reported_977a08d1":"ไม่มีการแจ้งการละเมิด","none_3b5e34d2":"ไม่มี","not_available_at_the_subaccount_level_3fc74ab":"ไม่พร้อมใช้งานในระดับบัญชีย่อย","not_starred_subject_click_to_star_4ea6eb64":"ไม่ได้ให้ดาวไว้ \"%{subject}\" คลิกเพื่อให้ดาว","notes_c42e0fd5":"หมายเหตุ","number_between_1_and_16_inclusive_31f5468d":"เลขระหว่าง 1 และ 16","number_each_event_d934cd65":"กำกับตัวเลขแต่ละกิจกรรม","number_is_too_large_4da4af0a":"ตัวเลขมากเกินไป","number_is_too_small_618a6ca7":"ตัวเลขน้อยเกินไป","number_of_allowed_attempts_3d10b740":"จำนวนการดำเนินการทั้งหมดที่อนุญาต","number_of_attempts_b0994c2f":"จำนวนการดำเนินการ","number_of_attempts_must_be_a_number_greater_than_0_a915568c":"จำนวนการดำเนินการจะต้องมากกว่า 0","number_of_graders_cde8dd54":"จำนวนผู้ให้เกรด","number_of_respondents_e1e7e8b":"จำนวนผู้ตอบ","number_of_scores_to_ignore_for_each_student_fb94e818":"จำนวนคะแนนที่ละเว้นสำหรับผู้เรียนแต่ละราย","observers_672971d":"ผู้สังเกตการณ์","ok_c47544a2":"ตกลง","ok_ff1b646a":"ตกลง","okay_1772bbeb":"ตกลง","one_per_line_format_name_value_79647700":"หนึ่งรายการต่อบรรทัด รูปแบบ: name=value","only_available_to_students_with_link_107e2468":"เฉพาะผู้เรียนที่มีลิงค์เท่านั้น","oops_something_went_wrong_importing_name_d382cac1":"อุ๊ปส์! มีบางอย่างผิดพลาดขณะนำเข้า \"%{name}\"","oops_something_went_wrong_with_migrating_name_acdbc98b":"อุ๊ปส์! มีบางอย่างผิดพลาดกับการโอนย้าย \"%{name}\"","option_selected_49a37af2":"เลือก {option} ไว้","option_selected_list_collapsed_70a356b4":"%{option} ถูกเลือกไว้ ย่อรายการแล้ว","options_3ab0ea65":"ตัวเลือก","or_choose_files_b795006d":"หรือเลือกไฟล์","or_ef4e808":"หรือ","other_1c6d9c79":"อื่น ๆ","other_ddacb37d":"อื่น ๆ","outcome_da397d20":"ผลลัพธ์","outcome_group_39fae76f":"กลุ่มผลลัพธ์","outcome_groups_3bc3b150":"กลุ่มผลลัพธ์","outcome_title_has_a_status_of_statustooltip_82d1e6d9":"ผลลัพธ์: %{title} มีสถานะ %{statusTooltip}","outcomes_d1b18d33":"ผลลัพธ์","page_50c4823d":"หน้าเพจ","page_pagenum_20dbfeb8":"หน้า %{pageNum}","pages_e5414c2c":"เพจ","pause_12af3bb4":"หยุดชั่วคราว","pdf_d8236d9a":"PDF","people_account_30bbffec":"บุคคล (บัญชี)","people_b4ebb13c":"บุคคล","people_course_ddd9a66":"บุคคล (บทเรียน)","percent_448ea947":"เปอร์เซ็นต์","percent_af88d1b1":"%{percent}%","permissions_365c49e":"สิทธิ์อนุญาต","placements_5b5e056b":"การจัดวาง","play_1a47eaa7":"เปิดเล่น","please_allow_canvas_to_access_your_microphone_and__dc2c3079":"กรุณาให้อนุญาต Canvas ในการใช้งานไมโครโฟนและเว็บแคมของคุณ","points_bb475533":"คะแนน","points_bceb5005":"คะแนน","points_for_mastery_level_position_points_9e72ac3f":"คะแนนสำหรับระดับความเชี่ยวชาญ %{position}: %{points}","points_must_be_unique_f1758a4f":"คะแนนจะต้องไม่ซ้ำกัน","points_pts_e5596bf7":"%{points} คะแนน","post_grades_39c52870":"แจ้งเกรด","preview_53003fd2":"แสดงตัวอย่าง","preview_a3f8f854":"แสดงตัวอย่าง","previous_bd2ac015":"ก่อนหน้า","previous_month_7adf1380":"เดือนก่อนหน้า","previous_page_928fc112":"หน้าที่แล้ว","previous_student_46275eae":"ผู้เรียนก่อนหน้า","proceed_f3d33864":"ดำเนินการต่อ","processing_2fcc9739":"กำลังประมวลผล","proficiency_rating_6346119f":"คะแนนประเมินความเชี่ยวชาญ","public_a749f507":"สาธารณะ","publish_5211dca3":"เผยแพร่","published_4bb5209e":"เผยแพร่แล้ว","publishing_pace_a65e4152":"กำลังเผยแพร่ความคืบหน้า...","queued_d0e45c4b":"เข้าคิวแล้ว","quiz_e0dcce8f":"แบบทดสอบ","quizzes_7e598f57":"คำถาม","reassigned_cedad6d9":"จัดสรรใหม่แล้ว","record_7c9448b":"บันทึก","record_media_6637ff19":"บันทึกสื่อ","recording_98da6bda":"กำลังบันทึก","release_notes_12ca833c":"หมายเหตุการเผยแพร่","released_by_mastery_path_cyoe_releasedlabel_14c67a92":"เผยแพร่จากเส้นทางพัฒนาความเชี่ยวชาญ: %{cyoe.releasedLabel}","remove_attachment_ceae0973":"ลบเอกสารแนบ","remove_f47dc62a":"ลบ","remove_file_cbf3f40f":"ลบไฟล์","remove_filename_dab5c02e":"ลบ %{filename}","reply_389d6fb9":"ตอบกลับ","reply_to_comment_72d96728":"ตอบกลับความเห็น","reports_1b9ab7a7":"รายงาน","require_completion_by_specified_end_date_ed742ecb":"กำหนดการดำเนินการให้สิ้นสุดภายในวันที่สิ้นสุดที่ระบุ","require_group_members_to_be_in_the_same_section_7f6c36af":"กำหนดให้สมาชิกกลุ่มต้องอยู่ในกลุ่มย่อยเดียวกัน","required_email_address_379b2392":"อีเมลแอดเดรสที่ร้องขอ","reserved_f247b60b":"สำรองแล้ว","resources_ccefab27":"ทรัพยากร","retry_ebd5f8ba":"ลองใหม่","retry_migrating_name_bdc802ef":"ลองโอนย้าย “%{name}” อีกครั้ง","role_name_18a5943b":"ชื่อบทบาท","rubric_fc39da76":"เกณฑ์การให้คะแนน","rubrics_b5ef369b":"เกณฑ์การให้คะแนน","running_c5a4998d":"กำลังดำเนินการ","save_11a80ec3":"บันทึก","saving_2521e616":"กำลังบันทึก","saving_blackout_dates_be03e6ee":"กำลังบันทึกวันที่ไม่พร้อมใช้งาน...","saving_d55dd90e":"กำลังบันทึก...","saving_group_230707e6":"กำลังบันทึกกลุ่ม","schedule_e5dd4c32":"กำหนดเวลา","score_change_notifications_6b94f27f":"การแจ้งการเปลี่ยนแปลงคะแนน","score_f7ac9e08":"คะแนน","score_pts_adcb1af3":"%{score} คะแนน","scored_less_than_2427896c":"ทำคะแนนได้น้อยกว่า","scored_more_than_d1646bd5":"ทำคะแนนได้มากกว่า","search_280d00bd":"ค้นหา","search_assignments_8c3c21bb":"ค้นหาภารกิจ","search_courses_7b5c4ab3":"ค้นหาบทเรียน","search_term_must_be_at_least_num_characters_669098ed":"คำค้นหาจะต้องยาวอย่างน้อย %{num} ตัวอักษร","secondary_info_835a07dd":"ข้อมูลสำรอง","section_c7f66a0d":"หัวข้อ","section_filter_cde54d0a":"ตัวกรองกลุ่มย่อย","sections_94731e51":"กลุ่มย่อย","select_1e849959":"[ เลือก ]","select_a_grading_period_aab25483":"เลือกระยะเวลาการให้เกรด","select_a_student_to_view_the_page_will_refresh_aut_eaa5d00c":"เลือกผู้เรียนที่จะดู เพจนี้จะรีเฟรชอัตโนมัติ","select_audio_file_7d905cce":"เลือกไฟล์เสียง","select_course_5cf89177":"เลือกบทเรียน","select_d70f31da":"เลือก","select_grader_782af48":"เลือกผู้ให้เกรด","select_grading_period_4ce4cd3a":"เลือกระยะเวลาการให้เกรด","select_group_to_grade_6df28d80":"เลือกกลุ่มที่จะให้เกรด","select_language_7c93a900":"เลือกภาษา","select_video_file_35b61d4e":"เลือกไฟล์วิดีโอ","selected_274ce24f":"เลือกแล้ว","selected_filename_7552a8c0":"%{filename} ที่เลือกไว้","send_e3bd0ed0":"ส่ง","send_message_6ccc90e8":"ส่งข้อความ","send_to_7881bf0e":"ส่งถึง...","send_to_b940900a":"ส่งถึง...","sending_bf324366":"กำลังส่ง...","sending_message_8ac5bc90":"กำลังส่งข้อความ...","sending_message_failed_please_try_again_b53cc904":"การส่งข้อความล้มเหลว กรุณาลองใหม่อีกครั้ง","sent_fe0a1eb4":"ส่งแล้ว","set_name_d14182d7":"กำหนดชื่อ...","set_name_f83b658":"กำหนดชื่อ","set_usage_rights_a4e47ed9":"ตั้งค่าสิทธิ์การใช้งาน","settings_5aa0fd0c":"ค่าปรับตั้ง","settings_for_title_d3ca495":"ค่าปรับตั้งสำหรับ %{title}","short_name_42f454a1":"ชื่อย่อ","show_76c0ed1c":"แสดง","show_course_sections_for_course_name_5f715702":"แสดงกลุ่มย่อยบทเรียนสำหรับบทเรียน %{name}","show_event_on_homeroom_sidebar_c618275d":"แสดงกิจกรรมในแถบรายการโฮมรูมด้านข้าง","sis_2164965":"SIS","sis_id_4495a887":"SIS ID","sis_import_14517892":"การนำเข้า SIS","size_b30e1077":"ขนาด","skip_weekends_13cbd889":"ข้ามวันสุดสัปดาห์","something_went_wrong_accessing_your_mic_or_webcam_6e3cad12":"มีบางอย่างผิดพลาดขณะใช้งานไมค์หรือเว็บแคมของคุณ","something_went_wrong_please_try_refreshing_the_pag_3f651814":"มีบางอย่างผิดพลาด กรุณาลองรีเฟรชหน้าเพจ หากยังเกิดปัญหาอยู่ สามารถโหลดกลุ่มผู้เรียนหนึ่งกลุ่มใน SpeedGrader โดยใช้*ค่าปรับตั้งบทเรียนขนาดใหญ่*","something_went_wrong_please_try_refreshing_the_pag_689be273":"มีบางอย่างผิดพลาด กรุณาลองรีเฟรชหน้าเพจ","sort_by_72dbba9c":"จัดเรียงจาก","sort_by_e75f9e3e":"จัดเรียงจาก","speedgrader_de0affa6":"SpeedGrader","star_conversation_2e2ba614":"ให้ดาวการพูดคุย","starred_5a9efa8a":"ให้ดาวแล้ว","starred_subject_click_to_unstar_6aafcddc":"ให้ดาว \"%{subject}\" ไว้ คลิกเพื่อยกเลิกการให้ดาว","start_date_e937be8a":"วันที่เริ่มต้น","start_over_f7552aa9":"เริ่มใหม่","start_recording_9a65141a":"เริ่มบันทึก","state_66a67ba2":"สถานะ","status_e7fdbe06":"สถานะ","student_5da6bfd1":"ผู้เรียน","student_context_card_ad59967e":"การ์ดเนื้อหาของผู้เรียน","student_context_cards_must_be_enabled_for_an_accou_f84169cb":"การ์ดเนื้อหาของผู้เรียนจะต้องเปิดใช้งานสำหรับบัญชีผู้ใช้โดยผู้ดูแลระบบ","student_details_49901ceb":"รายละเอียดผู้เรียน","students_1b8cd07b":"ผู้เรียน","subaccounts_efd02bd4":"บัญชีย่อย","subject_114b2e98":"หัวเรื่อง","subjects_14c0c4de":"หัวเรื่อง","submission_comments_4fa03a17":"ความเห็นผลงานจัดส่ง","submission_comments_b6d65841":"ความเห็นผลงานจัดส่ง","submission_failed_to_submit_8de4efcd":"ผลงานจัดส่งไม่สามารถนำส่งได้","submit_a3cc6859":"ส่ง","subtitle_ee60ca78":"คำบรรยาย","supported_file_types_vtt_srt_8cb75c13":"ประเภทไฟล์ที่รองรับ: .vtt, .srt","syllabus_f191f65b":"หลักสูตร","sync_68e5c167":"ซิงค์","sync_completed_successfully_8f68b542":"ซิงค์เสร็จสิ้น","sync_grades_a16622ca":"ซิงค์เกรด","sync_grades_to_sis_4e7fbc08":"ซิงค์เกรดไปยัง SIS","sync_to_posttosisname_9837a8bf":"ซิงค์ไปยัง %{postToSISName}:","sync_to_posttosisname_dffd5c9":"ซิงค์ไปยัง %{postToSISName}","ta_8d966626":"TA","teacher_5a73b637":"ผู้สอน","teacher_count_teachers_a92f7199":"ผู้สอน %{teacher_count} ราย","teacher_s_fdefb2c":"ผู้สอน","teachers_52e2423f":"ผู้สอน","term_e1c1d390":"เทอม","text_7f4593da":"ข้อความ","the_following_content_is_partner_provided_ed1da756":"เนื้อหาต่อไปนี้จัดหาโดยพันธมิตรของเรา","the_grading_period_was_deleted_7814a349":"ลบระยะเวลาการให้เกรดแล้ว","the_preceding_content_is_partner_provided_d753928c":"เนื้อหาก่อนหน้าไม่ได้จัดหาโดยผู้ใช้","their_grade_for_the_assignment_c36a60ef":"เกรดของคนเหล่านี้สำหรับภารกิจ","theme_editor_b7b00f6b":"ระบบแก้ไขธีม","there_was_a_problem_loading_students_5bdb6cf2":"มีปัญหาในการโหลดผู้เรียน","there_was_a_problem_saving_the_grade_8ea5d2ac":"มีปัญหาในการบันทึกเกรด","there_was_a_problem_saving_the_grading_period_243bed6c":"มีปัญหาในการบันทึกระยะเวลาการให้เกรด","there_was_an_error_loading_the_document_d80e57e0":"มีข้อผิดพลาดในการโหลดเอกสาร","there_was_an_error_setting_usage_rights_53739e1d":"มีข้อผิดพลาดในการตั้งค่าสิทธิ์การใช้งาน","there_was_an_error_uploading_your_file_please_try__ce458566":"มีข้อผิดพลาดในการอัพโหลดไฟล์ของคุณ กรุณาลองใหม่อีกครั้งในภายหลัง","this_feature_affects_existing_data_for_all_courses_4fc75fe1":"คุณสมบัตินี้จะส่งผลต่อข้อมูลในปัจจุบันสำหรับบทเรียนทั้งหมดในบัญชีผู้ใช้","this_feature_affects_existing_data_for_an_entire_a_2372dc52":"คุณสมบัตินี้จะส่งผลต่อข้อมูลในปัจจุบันสำหรับบัญชีทั้งหมด","this_field_is_required_fa58c4a":"นี่เป็นฟิลด์บังคับ","this_file_9443cda1":"ไฟล์นี้","this_folder_is_currently_locked_and_unavailable_to_f85c451":"โฟลเดอร์นี้ปัจจุบันล็อคอยู่และไม่พร้อมสำหรับเรียกดู","this_permission_requires_the_account_and_course_le_618da734":"สิทธิ์อนุญาตนี้ต้องใช้ตัวเลือกคุณสมบัติ ระดับความเชี่ยวชาญตามผลลัพธ์ในระดับบัญชีและบทเรียน (Account and Course Level Outcome Mastery Scales) ซึ่งจะต้องเปิดใช้งานโดยผู้ดูแลความสำเร็จของลูกค้า","this_permission_requires_the_account_and_course_le_bdeefd51":"สิทธิ์อนุญาตนี้ต้องใช้ตัวเลือกคุณสมบัติของ ระดับความเชี่ยวชาญตามผลลัพธ์ในระดับบัญชีและบทเรียน (Account and Course Level Outcome Mastery Scales) ซึ่งสามารถเปิดใช้งานได้ในระดับบัญชีผู้ใช้เท่านั้น","this_submission_is_in_a_closed_grading_period_cc9ecb8a":"ผลงานจัดส่งนี้อยู่ในระยะเวลาการให้เกรดที่สรุปไปแล้ว","this_submission_is_in_another_grading_period_36bc720b":"ผลงานจัดส่งนี้อยู่ในระยะเวลาการให้เกรดอื่น","this_submission_is_not_in_any_grading_period_cbbd2f8":"ผลงานจัดส่งนี้ไม่อยู่ในระยะเวลาการให้เกรดใด ๆ","this_user_is_currently_not_able_to_access_the_cour_39cabed1":"ผู้ใช้นี้ปัจจุบันไม่สามารถเข้าไปยังบทเรียนได้","time_2b5aac58":"เวลา","time_block_5a7cda5c":"บล็อคเวลา","time_limit_a6f1a51e":"เกณฑ์เวลา","time_zone_f56f5183":"เขตเวลา","timeline_of_messages_between_the_student_and_instr_6dbd9ad3":"ไทม์ไลน์ของข้อความระหว่างผู้เรียนและผู้สอน","timeline_showing_when_assignments_were_turned_in_bb44c8a1":"ไทม์ไลน์แสดงเวลาที่ส่งมอบภารกิจ","timeout_when_searching_5c24ff9d":"เกินกำหนดเวลาขณะค้นหา","times_participated_5296451b":"เวลาที่เข้าร่วม","times_viewed_40013c9b":"เวลาที่เปิดดู","timestamp_65f3a0a":"(%{timestamp})","timestamp_865fa6b7":"การกำกับเวลา","title_eb77c512":"%{title}","title_ee03d132":"ชื่อ","title_is_locked_click_to_unlock_21548cfb":"%{title} ถูกล็อคอยู่ คลิกเพื่อปลดล็อค","title_is_unlocked_click_to_lock_6a20cfcb":"%{title} ปลดล็อคแล้ว คลิกเพื่อล็อค","to_51406be9":"ถึง","to_access_the_account_courses_page_courses_view_li_e1da6165":"เข้าไปยังเพจบทเรียนสำหรับบัญชีผู้ใช้โดยจะต้องเปิดใช้งาน บทเรียน - ดูรายการ","to_access_the_assignments_index_page_course_conten_49d884f2":"เข้าไปยังเพจดัชนีภารกิจโดยจะต้องเปิดใช้งาน เนื้อหาบทเรียน - ดู ไว้","to_access_the_people_page_users_view_list_must_be__5dfdbe23":"เข้าไปยังเพจ บุคคล โดยจะต้องเปิดใช้งาน ผู้ใช้ - ดูรายการ ไว้","to_access_the_student_interactions_report_courses__e8432cd0":"เข้าไปยังรายงานการปฏิสัมพันธ์ของผู้เรียนโดยจะต้องเปิดใช้งาน บทเรียน - ดูรายงานการใช้งาน ไว้ด้วย","to_add_a_user_via_sis_id_sis_data_manage_must_also_30b6624a":"เพิ่มผู้ใช้ผ่าน SIS ID โดยจะต้องเปิดใช้งาน ข้อมูล SIS - จัดการ ไว้ด้วย","to_add_or_remove_users_to_a_course_the_appropriate_139d5f3f":"เพิ่มหรือลบผู้ใช้ไปยังบทเรียนโดยจะต้องเปิดใช้งานสิทธิ์อนุญาตผู้ใช้ที่เกี่ยวข้อง (เช่น ผู้ใช้ - ผู้สอน)","to_c4c44f4b":"เป็น","to_do_1d554f36":"สิ่งที่ต้องทำ","to_do_date_ddfb582c":"วันที่สำหรับสิ่งที่ต้องทำ:","to_do_time_a7e17623":"เวลาสำหรับสิ่งที่ต้องทำ","to_edit_a_user_s_section_users_allow_administrativ_966b3fcc":"แก้ไขกลุ่มย่อยของผู้ใช้โดยจะต้องเปิดใช้งาน ผู้ใช้ - อนุญาตการจัดการในบทเรียน และ ผู้ใช้ - ดูรายการ ไว้ด้วย","to_edit_assignment_details_on_individual_discussio_99f718a7":"แก้ไขรายละเอียดภารกิจในส่วนการพูดคุยแยกเฉพาะโดยจะต้องเปิดใช้งาน การพูดคุย - จัดการ ไว้ด้วย","to_edit_lock_settings_from_the_assignments_index_p_261082c7":"แก้ไขค่าปรับตั้งการล็อคจากเพจดัชนีภารกิจ โดยจะต้องเปิดใช้งาน บทเรียนพิมพ์เขียว - เพิ่ม / แก้ไข / เชื่อมโยง / ลบ และ บทเรียน - จัดการ ไว้ด้วย","to_edit_lock_settings_on_an_individual_quiz_or_on__b31e1b60":"แก้ไขค่าปรับตั้งแบบทดสอบแยกเฉพาะ หรือในเพจดัชนีแบบทดสอบ โดยจะต้องเปิดใช้งาน บทเรียนพิมพ์เขียว - เพิ่ม / แก้ไข / เชื่อมโยง / ลบ  และ บทเรียน - จัดการ ไว้ด้วย","to_edit_user_details_modify_login_details_or_chang_63aa95a5":"แก้ไขรายละเอียดผู้ใช้ แก้ไขรายละเอียดล็อกอิน หรือแก้ไขรหัสผ่านผู้ใช้โดยจะต้องเปิดใช้งาน ผู้ใช้ - จัดการายละเอียดล็อกอิน ไว้ด้วย","to_import_assignments_and_quizzes_using_the_course_86c5bdbb":"นำเข้าภารกิจและแบบทดสอบโดยใช้เครื่องมือนำเข้าบทเรียนโดยจะต้องเปิดใช้งาน เนื้อหาบทเรียน - เพิ่ม / แก้ไข / ลบ ไว้ด้วย","to_manage_discussions_discussions_moderate_must_al_834a8b9":"จัดการการพูดคุยโดยจะต้องเปิดใช้งาน การพูดคุย - ควบคุม ไว้","to_moderate_grades_grades_select_final_grade_for_m_8c605763":"ควบคุมเกรดโดยจะต้องเปิดใช้งาน เกรด - เลือกเกรดสรุปสำหรับการควบคุม ไว้ด้วย","to_remove_a_user_via_sis_id_sis_data_manage_must_a_5d0f4839":"ลบผู้ใช้ผ่าน SIS ID โดยจะต้องเปิดใช้งาน ข้อมูล SIS - จัดการ ไว้ด้วย","to_search_grade_change_logs_grades_view_change_log_d4d40cf2":"ค้นหาจากบันทึกประวัติการแก้ไขเกรดโดยจะต้องเปิดใช้งาน เกรด - ดูบันทึกประวัติการแก้ไข ไว้ด้วย","to_view_discussions_in_a_course_discussions_view_m_6be8ec80":"ดูการพูดคุยในบทเรียนได้โดยจะต้องเปิดใช้งาน การพูดคุย - ดู ไว้","to_view_sis_ids_sis_data_read_must_be_enabled_12edce68":"ดู SIS ID โดยจะต้องเปิดใช้งาน ข้อมูล SIS - อ่าน ไว้","toggle_tooltip_d3b7cb86":"เปิดปิดคำแนะนำในการใช้เครื่องมือ","tool_content_2924d18f":"เนื้อหาของเครื่องมือ","total_points_44d76792":"คะแนนรวม","totals_are_calculated_based_only_on_graded_assignm_7d1bbf55":"ยอดรวมคำนวณจากภารกิจที่ให้เกรดแล้วเท่านั้น","try_again_6ca44338":"ลองใหม่อีกครั้ง","type_c8106334":"พิมพ์","unable_to_curve_grades_because_this_assignment_is__17f78c27":"ไม่สามารถทำกราฟเกรดได้เนื่องจากภารกิจนี้ครบกำหนดในระยะเวลาการให้เกรดที่สรุปแล้วสำหรับผู้เรียนอย่างน้อยหนึ่งราย","unable_to_save_draft_message_db49a89d":"ไม่สามารถบันทึกข้อความแบบร่างได้","unable_to_set_default_grade_because_this_assignmen_d19842a9":"ไม่สามารถกำหนดเกรดเริ่มต้นเนื่องจากภารกิจนี้ครบกำหนดในระยะเวลาการให้เกรดที่สรุปแล้วสำหรับผู้เรียนอย่างน้อยหนึ่งราย","unable_to_switch_students_b901bc4b":"ไม่สามารถสลับผู้เรียนได้","unavailable_46d2c344":"ไม่มีให้บริการ","undo_a7be8fef":"เลิกทำ","unknown_47a3b725":"ไม่รู้จัก","unlimited_ff19e96d":"ไม่จำกัด","unlock_f6196bf5":"ปลดล็อค","unlocked_beee43de":"ปลดล็อคแล้ว","unlocked_click_to_lock_53262ce7":"ปลดล็อคแล้ว คลิกเพื่อล็อค","unpublish_9f2d730b":"เลิกเผยแพร่","unpublished_8b6107d6":"ไม่ได้เผยแพร่","unread_c14cb06f":"ไม่ได้อ่าน","unread_e9c1b19c":"ไม่ได้อ่าน","unstar_conversation_45fc43d6":"เลิกให้ดาวการพูดคุย","unstarted_932f2990":"เลิกการเริ่มดำเนินการแล้ว","until_4a1f8cda":"จนถึง","untitled_16aa4f2b":"ไม่มีชื่อ","upload_8b403d05":"อัพโหลด","upload_file_fd2361b8":"อัพโหลดไฟล์","upload_media_ce31135a":"อัพโหลดสื่อ","uploading_files_5ff8f4fd":"กำลังอัพโหลดไฟล์","uploading_media_progress_c23a953b":"กำลังอัพโหลดสถานะสื่อ","uploading_submission_4c8d944b":"กำลังอัพโหลดผลงานจัดส่ง","uri_redirect_uri_d4aad2b9":"URI: %{redirect_uri}","usage_rights_f0960ad6":"สิทธิ์การใช้","use_arrow_keys_to_navigate_options_2021cc50":"ใช้ปุ่มลูกศรเพื่อไปยังตัวเลือกต่าง ๆ","use_arrows_a60b3330":"ใช้ลูกศร","use_default_890939b7":"ใช้ค่าเริ่มต้น","user_c95de254":"ผู้ใช้","user_selection_f6139840":"การเลือกผู้ใช้","users_d1b60cb0":"ผู้ใช้","video_player_b371005":"เครื่องเล่นวิดีโอ","view_ba339f93":"ดู","view_gradebook_d6713dd1":"ดูสมุดบันทึกเกรด","waiting_for_request_to_complete_13cf037a":"กำลังรอคำขอให้ดำเนินการให้เสร็จสิ้น","warning_aacb8c24":"คำเตือน","webcam_fe91b20f":"เว็บแคม","weighted_grading_periods_ae4edd70":"ระยะเวลาการให้เกรดแบบถ่วงน้ำหนัก","well_below_mastery_37664bdc":"ต่ำกว่าระดับเกณฑ์ความเชี่ยวชาญ","yes_dde87d5":"ใช่","you_have_reported_this_reply_4b21b6ce":"คุณแจ้งการตอบกลับนี้แล้ว","you_must_enter_a_date_f8eabfb1":"คุณจะต้องกรอกวันที่","you_must_specify_a_usage_right_5eb57f87":"คุณจะต้องระบุสิทธิ์การใช้งาน","your_webcam_may_already_be_in_use_6cd64c25":"เว็บแคมของคุณอาจใช้งานอยู่","zoom_f3e54d69":"Zoom"} })
+
+
+setLazyTranslations(
+  "th",
+  "ajax_errors",
+  null,
+  function() { return {"error_heading":"ข้อผิดพลาด Ajax: %{status_code}","errors":{"connection_lost":"การเชื่อมต่อกับ %{host} ขาดหาย  กรุณาตรวจสอบว่าคอมพิวเตอร์เชื่อมต่ออินเทอร์เน็ตอยู่แล้วลองใหม่อีกครั้ง","logged_out":"ปัจจุบันคุณไม่ได้ล็อกอิน อาจเนื่องจากไม่มีการทำรายการนานเกินไป","unhandled":"อุ๊ปส์! คำขอล่าสุดไม่ได้ผล"},"links":{"details":"รายละเอียด...","login":"ล็อกอิน"},"no_text":"ไม่มีข้อความ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "instructure",
+  null,
+  function() { return {"errors":{"field_is_required":"นี่เป็นฟิลด์บังคับ","invalid_datetime":"ค่าวันที่/เวลาไม่ถูกต้อง","invalid_entry_for_field":"รายการไม่ถูกต้อง: %{field}","invalid_number":"ควรเป็นตัวเลข","required":"ฟิลด์บังคับ"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "time",
+  null,
+  function() { return {"am":"am","count_hours_ago":{"one":"1 ชั่วโมงก่อน","other":"%{count} ชั่วโมงก่อน"},"count_minutes_ago":{"one":"1 นาทีที่แล้ว","other":"%{count} นาทีที่แล้ว"},"due_date":"%{date} ในเวลา %{time}","event":"%{date} ที่ %{time}","formats":{"default":"%a, %d %b %Y %H:%M:%S %z","long":"%B %d, %Y %H:%M","short":"%d %b %H:%M","tiny":"%k:%M","tiny_on_the_hour":"%k:%M"},"less_than_a_minute_ago":"น้อยกว่าหนึ่งนาทีที่ผ่านมา","pm":"pm","ranges":{"different_days":"%{start_date_and_time} ถึง %{end_date_and_time}","same_day":"%{date} จาก %{start_time} ถึง %{end_time}","times":"%{start_time} ถึง %{end_time}"},"with_ago":"%{time} ที่ผ่านมา"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "support",
+  null,
+  function() { return {"array":{"last_word_connector":"และ ","or":{"last_word_connector":"หรือ ","two_words_connector":" หรือ "},"two_words_connector":" และ ","words_connector":", "},"help_menu":{"community_support_description":"มีปฏิสัมพันธ์และรับความช่วยเหลือจากเพื่อน ๆ ของคุณ","community_support_forums":"กระดานกระทู้ให้บริการของกลุ่ม","global_support_desk":"ฝ่ายบริการของ NetAcad","global_support_desk_description":"ASCs ของเราเป็นส่วนบริการด่านแรก และสามารถเชื่อมต่อคุณกับฝ่ายบริการจากส่วนกลางของเราเพื่อจัดการปัญหาต่าง ๆ ที่ต้องการความช่วยเหลือเพิ่มเติม","networking_academy_description":"ดูคำตอบของ Cisco สำหรับคำถามที่พบบ่อย","networking_academy_faqs":"Networking Academy FAQs","student_support":"ฝ่ายบริการ NetAcad - ผู้เรียน","student_support_description":"ผู้สอนของคุณควรเป็นเจ้าหน้าที่ประสานงานด่านแรก เจ้าหน้าที่สามารถตอบคำถามของคุณเกี่ยวกับ Networking Academy หรือติดต่อฝ่ายบริการของคุณ คุณสามารถติดต่อกับผู้สอนโดยใช้คุณสมบัติ กล่องจดหมาย","support_desk_livechat":"ระบบแชทไลฟ์ของส่วนบริการ"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "helpDialog",
+  null,
+  function() { return {"Back":"ย้อนกลับ","Help":"ความช่วยเหลือ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "instructure_inline_media_comment",
+  null,
+  function() { return {"alerts":{"kaltura_disabled":"Kaltura ถูกปิดใช้งานสำหรับไซต์ Canvas นี้"},"links":{"minimize_embedded_kaltura_content":"ย่อเนื้อหาผนวก"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "broken_images",
+  function() { return {"locked_image_24f37a16":"ภาพที่ล็อคไว้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "common_bundle",
+  function() { return {"content_on_this_page_violates_the_security_policy__25685d8a":"เนื้อหาในหน้านี้ละเมิดนโยบายการรักษาความปลอดภัย ติดต่อผู้ดูแลระบบเพื่อขอความช่วยเหลือ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "incompleteregistration",
+  null,
+  function() { return {"get_started":"เริ่มต้น","welcome_to_canvas":"ยินดีต้อนรับสู่ Canvas!"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_logging",
+  function() { return {"blueprint_sync_90d0dfd5":"ซิงค์พิมพ์เขียว"} },
+  function() { return {"blank_placeholder":"-","event_source":{"api":"Api","manual":"แมนวล","sis":"SIS"},"event_type":{"concluded":"สรุปแล้ว","copied_from":"คัดลอกจาก","copied_to":"คัดลอกไปยัง","corrupted":"ไม่มีรายละเอียด","created":"จัดทำแล้ว","deleted":"ลบแล้ว","published":"เผยแพร่แล้ว","reset_from":"รีเซ็ตจาก","reset_to":"รีเซ็ตไปยัง","restored":"กู้คืนแล้ว","unconcluded":"ไม่ได้สรุป","updated":"อัพเดตแล้ว"},"field_label":{"abstract_course_id":"Id บทเรียนแอ็บสแทร็ค","account_id":"ID บัญชี","allow_student_discussion_editing":"อนุญาตให้แก่ไขการพูดคุยของผู้เรียน","allow_student_discussion_topics":"อนุญาตหัวข้อการพูดคุยของผู้เรียน","allow_student_forum_attachments":"อนุญาตเอกสารแนบกระดานกระทู้ผู้เรียน","allow_student_organized_groups":"อนุญาตกลุ่มจัดตั้งของผู้เรียน","allow_student_wiki_edits":"อนุญาตให้แก้ไข Wiki ของผู้เรียน","allow_wiki_comments":"อนุญาตความเห็น Wiki","conclude_at":"สรุปเมื่อ","course_code":"รหัสบทเรียน","created_at":"จัดทำเมื่อ","default_view":"มุมมองเริ่มต้น","default_wiki_editing_roles":"บทบาทการแก้ไข Wiki เริ่มต้น","enrollment_term_id":"Id เทอมการลงทะเบียน","grading_standard_id":"Id มาตรฐานการให้เกรด","group_weighting_scheme":"รูปแบบการถ่วงน้ำหนักกลุ่ม","hide_distribution_graphs":"ซ่อนกราฟแจกแจง","hide_final_grade":"ซ่อนเกรดสรุป","indexed":"จัดทำดัชนีแล้ว","integration_id":"ID การผสานรวม","is_public":"เป็นสาธารณะ","large_roster":"บัญชีรายชื่อขนาดใหญ่","license":"สิทธิ์ใช้งาน","locale":"สถานที่","lock_all_announcements":"ล็อคประกาศทั้งหมด","name":"ชื่อ","open_enrollment":"เปิดการลงทะเบียน","public_description":"รายละเอียดสาธารณะ","public_syllabus":"หลักสูตรสาธารณะ","replacement_course_id":"ID บทเรียนแทนที่","restrict_enrollments_to_course_dates":"จำกัดวันที่การลงทะเบียนบทเรียน","root_account_id":"ID บัญชีราก","self_enrollment":"การลงทะเบียนด้วยตัวเอง","self_enrollment_code":"รหัสการลงทะเบียนด้วยตัวเอง","self_enrollment_limit":"เกณฑ์จำกัดการลงทะเบียนด้วยตัวเอง","show_public_context_messages":"แสดงข้อความเนื้อหาสาธารณะ","sis_batch_id":"ID ชุด SIS","sis_source_id":"ID ต้นทาง SIS","start_at":"เริ่มเมื่อ","storage_quota":"โควต้าพื้นที่จัดเก็บ","syllabus_body":"syllabus_body","tab_configuration":"ส่วนกำหนดค่าแท็บ","template_course_id":"ID บทเรียนแม่แบบ","turnitin_comments":"ความเห็น Turnitin","updated_at":"อัพเดตเมื่อ","uuid":"UUID","wiki_id":"Wiki Id","workflow_state":"สถานะกระบวนงาน"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_restore",
+  null,
+  function() { return {"restore_error":"มีข้อผิดพลาดในการพยายามกู้คืนบทเรียน ไม่ได้กู้คืนบทเรียน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "auth_logging",
+  null,
+  function() { return {"corrupted":"ไม่มีรายละเอียด","login":"ล็อกอิน","logout":"ล็อกเอาท์"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "comm_messages",
+  null,
+  function() { return {"from_beginning":"จุดเริ่มต้น","to_now":"ตอนนี้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_search",
+  null,
+  function() { return {"cant_be_blank":"ปล่อยว่างไม่ได้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_search_results",
+  function() { return {"course_found_f5a40cd3":"พบบทเรียน","course_found_not_deleted_a20f72f0":"พบบทเรียน (ไม่ได้ลบ)","course_not_found_c248a721":"ไม่พบบทเรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "user_date_range_search",
+  function() { return {"generate_activity_for_user_2b0af749":"จัดทำกิจกรรมสำหรับ %{user}","length_notifications_found_25276610":"พบ %{length} การแจ้งข้อมูล","length_results_found_3afd01e5":"พบ %{length} ผลลัพธ์","not_a_valid_date_d3ac20ba":"ไม่ใช่วันที่ที่ถูกต้อง","to_date_cannot_come_before_from_date_3eeb2633":"ถึงวันที่ จะอยู่ก่อน จากวันที่ ไม่ได้"} },
+  function() { return {"cant_come_before_from":"'ถึงวันที่’ จะอยู่ก่อน ‘จากวันที่ ไม่ได้'"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "bounced_emails",
+  function() { return {"address_use_as_wildcard_48f2cf60":"ที่อยู่ (ใช้ * เป็นอักขระแทน)","download_these_results_as_csv_9a890883":"ดาวน์โหลดผลลัพธ์เหล่านี้เป็น CSV","failed_to_perform_search_c918100f":"ไม่สามารถทำการค้นหา","last_bounced_after_76f9ce30":"ตีกลับล่าสุดหลังจาก","last_bounced_before_601c221a":"ตีกลับล่าสุดก่อน","mfoster_708c21fb":"mfoster@*"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "date",
+  null,
+  function() { return {"abbr_day_names":["อา.","จ.","อ.","พ.","พฤ.","ศ.","ส."],"abbr_month_names":[null,"ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค."],"datepicker":{"column_headings":["อา.","จ.","อ.","พ.","พฤ.","ศ.","ส."]},"day_names":["อาทิตย์","จันทร์","อังคาร","พุธ","พฤหัสบดี","ศุกร์","เสาร์"],"days":{"today":"วันนี้","today_lower":"วันนี้","tomorrow":"พรุ่งนี้","yesterday":"เมื่อวานนี้"},"formats":{"date_at_time":"%-d %b ที่ %k:%M","default":"%d/%m/%Y","full":"%b %-d, %Y %k:%M","full_with_weekday":"%a %b %-d, %Y %k:%M","long":"%B %-d, %Y","long_with_weekday":"%A, %B %-d","medium":"%b %-d, %Y","medium_month":"%b %Y","medium_with_weekday":"%a %b %-d, %Y","short":"%b %-d","short_month":"%b","short_weekday":"%a","short_with_weekday":"%a, %b %-d","weekday":"%A"},"month_names":[null,"มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"],"order":["year","month","day"]} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "mutationActivity",
+  function() { return {"asset_string_ddeaf719":"ชุดอักขระทรัพยากร","graphql_mutation_activity_5a47678b":"กิจกรรมการแปลง GraphQL","hide_params_eadf0961":"ซ่อนพารามิเตอร์","mutation_f0ac253f":"การแปลงสภาพ","mutations_on_search_e5a62790":"การแปลงสภาพใน %{search}","no_more_results_17c4f108":"ไม่มีผลลัพธ์เพิ่มเติม","parameters_a13374ec":"พารามิเตอร์","performed_by_70b3ce96":"ดำเนินการโดย","show_params_3401895b":"แสดงพารามิเตอร์","something_went_wrong_89195131":"มีบางอย่างผิดปกติ","user1_masquerading_as_user2_4fa5bb55":"%{user1} สวมบทบาทเป็น %{user2}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "account_course_user_search",
+  function() { return {"active_terms_83df727e":"ภาคการศึกษาในปัจจุบัน","add_a_new_course_4a041207":"เพิ่มบทเรียนใหม่","add_a_new_user_c440d053":"เพิ่มผู้ใช้ใหม่","add_course_406cb773":"เพิ่มบทเรียน","add_people_7948b7da":"เพิ่มบุคคล","add_user_e73e8e50":"เพิ่มผู้ใช้","add_users_to_name_b8109bbb":"เพิ่มผู้ใช้ไปยัง %{name}","click_to_sort_by_email_ascending_cb789ec4":"คลิกเพื่อเรียงจากอีเมลจากน้อยไปมาก","click_to_sort_by_email_descending_72801b54":"คลิกเพื่อเรียงจากอีเมลจากมากไปน้อย","click_to_sort_by_last_login_ascending_eafcbee4":"คลิกเพื่อเรียงจากการล็อกอินล่าสุดจากน้อยไปมาก","click_to_sort_by_last_login_descending_61fdadc":"คลิกเพื่อเรียงจากล็อกอินล่าสุดจากมากไปน้อย","click_to_sort_by_name_ascending_739c011e":"คลิกเพื่อเรียงจากชื่อจากน้อยไปมาก","click_to_sort_by_name_descending_b6262093":"คลิกเพื่อเรียงจากชื่อจากมากไปน้อย","click_to_sort_by_sis_id_ascending_832c870":"คลิกเพื่อเรียงจาก SIS ID จากน้อยไปมาก","click_to_sort_by_sis_id_descending_2d611236":"คลิกเพื่อเรียงจาก SIS ID จากมากไปน้อย","click_to_sort_by_sub_account_ascending_989b1ab":"คลิกเพื่อเรียงจากบัญชีย่อยจากน้อยไปมาก","click_to_sort_by_sub_account_descending_88c611db":"คลิกเพื่อเรียงจากบัญชีย่อยจากมากไปน้อย","click_to_sort_by_teacher_ascending_cda7a18c":"คลิกเพื่อเรียงจากผู้สอนจากน้อยไปมาก","click_to_sort_by_teacher_descending_45ef0d1e":"คลิกเพื่อเรียงจากผู้สอนจากมากไปน้อย","click_to_sort_by_term_ascending_c3ef1eb7":"คลิกเพื่อเรียงจากเทอมจากน้อยไปมาก","click_to_sort_by_term_descending_199c48c0":"คลิกเพื่อเรียกจากเทอมจากมากไปน้อย","course_name_is_required_90919349":"ต้องระบุชื่อบทเรียน","course_name_successfully_added_48116a50":"เพิ่ม %{course_name} เสร็จสิ้น!","course_option_links_a79d263d":"ลิงค์ตัวเลือกบทเรียน","course_results_updated_df9d1c95":"อัพเดตผลลัพธ์ของบทเรียนแล้ว","create_new_course_e3ef9cd0":"จัดทำบทเรียนใหม่","default_email_9efb7fbd":"อีเมลเริ่มต้น","display_name_b80c243e":"ชื่อจัดแสดง","edit_name_cbdef0c2":"แก้ไข %{name}","edit_user_details_4d7b63ff":"แก้ไขรายละเอียดผู้ใช้","email_the_user_about_this_account_creation_e63f8759":"ส่งอีเมลผู้ใช้เกี่ยวกับการจัดทำบัญชีผู้ใช้นี้","enrollment_term_7bfe840":"เทอมการลงทะเบียน","filter_by_term_cfe778b2":"กรองจากเทอม","filter_by_user_type_dbbd3e3d":"กรองจากประเภทผู้ใช้","full_name_23fdfb6d":"ชื่อนามสกุล","full_name_is_required_8efbdc84":"ต้องระบุชื่อนามสกุล","future_terms_7fba2ae6":"เทอมในอนาคต","hide_courses_without_students_fc6fc7a0":"ซ่อนบทเรียนที่ไม่มีผู้เรียน","last_login_54565109":"ล็อกอินล่าสุด","login_handle_is_required_90ab7fe0":"ต้องระบุ %{login_handle}","manage_profile_pictures_40c958ce":"จัดการภาพโพรไฟล์","more_people_options_730e9686":"ตัวเลือก บุคคล เพิ่มเติม","no_74e9b590":"ไม่ใช่","no_courses_found_12d68a74":"ไม่พบบทเรียน","no_users_found_64a043ff":"ไม่พบผู้ใช้","past_terms_4b6ec40e":"เทอมที่ผ่านมา","people_will_see_this_name_in_discussions_messages__fca9ebb2":"บุคคลจะเห็นชื่อนี้ในส่วนการพูดคุย ข้อความและความเห็น","reference_code_3e8355dd":"รหัสอ้างอิง","reference_code_is_required_c32c757f":"ต้องระบุรหัสอ้างอิง","search_by_99d1ba5f":"ค้นหาจาก","search_courses_591bc900":"ค้นหาบทเรียน...","search_courses_by_teacher_e9760a48":"ค้นหาบทเรียนจากผู้สอน...","search_people_44f36cd2":"ค้นหาบุคคล...","send_message_to_name_c8ac05fc":"ส่งข้อความไปยัง %{name}","settings_for_name_7731a33d":"ค่าปรับตั้งสำหรับ %{name}","show_courses_from_8a087f63":"แสดงบทเรียนจาก","show_more_af9cbc16":"แสดงเพิ่มเติม","show_only_blueprint_courses_9fb37b41":"แสดงเฉพาะบทเรียนพิมพ์เขียว","something_went_wrong_creating_the_course_please_tr_431adff5":"มีบางอย่างผิดพลาดในการจัดทำบทเรียนนี้ กรุณาลองใหม่อีกครั้งในภายหลัง","sortable_name_73f707cf":"ชื่อที่จัดเรียงได้","statistics_for_name_f4b7b0fc":"สถิติสำหรับ %{name}","sub_account_daeadd0":"บัญชีย่อย","subaccount_91f4c279":"บัญชีย่อย","there_was_an_error_with_your_query_please_try_a_di_761dff12":"มีข้อผิดพลาดกับการสืบค้นของคุณ กรุณาลองทำการค้นหาอื่น","this_is_a_blueprint_course_5e7b47fe":"นี่เป็นบทเรียนพิมพ์เขียว","this_is_a_course_template_99bbe698":"นี่เป็นแม่แบบบทเรียน","this_name_appears_in_sorted_lists_dccbd84b":"ชื่อนี้ปรากฏในรายการที่จัดเรียงไว้","this_name_will_be_used_by_teachers_for_grading_9b6aa8a0":"ชื่อนี้จะถูกใช้โดยผู้สอนสำหรับการให้เกรด","user_option_links_66090987":"ลิงค์ตัวเลือกผู้ใช้","user_results_updated_9ce38dce":"อัพเดตผลลัพธ์ของผู้ใช้แล้ว","username_saved_successfully_9303974f":"บันทึก *%{userName}* เสร็จสิ้น!","username_saved_successfully_they_should_receive_an_877e31e":"บันทึก *%{userName}* เสร็จสิ้น! คนเหล่านี้ควรได้รับอีเมลยืนยันในไม่ช้า","view_user_groups_d2bfa855":"ดูกลุ่มผู้ใช้","yes_3593c135":"ใช่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_people_successfully_enrolled_into_course_nam_db8eed18",
+  null,
+  function() { return {"one":"%{user_name} ลงทะเบียนเสร็จสิ้นไปยัง *%{course_name}*.","other":"%{count} คนลงทะเบียนเสร็จสิ้นไปยัง *%{course_name}*"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "managed_course_selector",
+  function() { return {"list_collapsed_381ef1b6":"ย่อรายการแล้ว ","no_matches_to_your_search_16d3d3b1":"ไม่พบข้อมูลที่ตรงกับการค้นหาของคุณ","type_to_search_use_arrow_keys_to_navigate_options_5d538c0":"พิมพ์เพื่อค้นหา ใช้ปุ่มลูกศรเพื่อพิจารณาตัวเลือกต่าง ๆ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "edit_timezone",
+  function() { return {"all_timezones_5e8afa7b":"ทุกเขตเวลา","common_timezones_2b00baba":"เขตเวลาร่วม"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "AccountGradingPeriod",
+  function() { return {"an_error_occured_while_deleting_the_grading_period_c8343484":"เกิดข้อผิดพลาดขณะลบระยะเวลาการให้เกรด","closes_5c6b4367":"ปิด:","ends_4fcb632":"สิ้นสุด:","starts_ce584f1c":"เริ่ม:","weight_ff579a8e":"น้ำหนัก:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "GradingPeriodSetForm",
+  function() { return {"all_grading_period_sets_must_have_a_title_799538f":"ชุดระยะเวลาการให้เกรดทั้งหมดจะต้องมีชื่อ","grading_period_set_title_880a6ec4":"ชื่อระยะเวลาการให้เกรดที่กำหนด","save_grading_period_set_e029fa88":"บันทึกชุดระยะเวลาการให้เกรด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "EnrollmentTermInput",
+  function() { return {"attach_terms_2b8770a5":"แนบเทอม","no_unassigned_terms_deb7b76b":"ไม่มีเทอมที่ไม่ได้กำหนด","past_14da759a":"อดีต","undated_15c2e5fe":"ไม่ได้กำกับวันที่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradingPeriodForm",
+  function() { return {"grading_period_title_23b7f8ac":"ชื่อระยะเวลาการให้เกรด","save_grading_period_daaaddea":"บันทึกระยะเวลาการให้เกรด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "helpers",
+  null,
+  function() { return {"accessible_date_format":"DD/MM/YYYY hh:mm","accessible_date_only_format":"DD/MM/YYYY","accessible_date_prompt":"รูปแบบเช่น","accessible_time_only_format":"hh:mm","account_time":"บัญชี","course":"บทเรียน","course_time":"บทเรียน","local":"ในพื้นที่","local_time":"ในพื้นที่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "GradingPeriodSet",
+  function() { return {"add_grading_period_6f774dc3":"เพิ่มระยะเวลาการให้เกรด","all_close_dates_must_be_on_or_after_the_end_date_b898d85d":"วันที่สรุปทั้งหมดจะต้องตรงกับหรืออยู่หลังจากวันที่สิ้นสุด","all_weights_must_be_greater_than_or_equal_to_0_cc2dcdf1":"น้ำหนักทั้งหมดจะต้องมากกว่าหรือเท่ากับ 0","an_error_occured_while_deleting_the_grading_period_81bb16e5":"เกิดข้อผิดพลาดขณะลบชุดระยะเวลาการให้เกรด","are_you_sure_you_want_to_delete_this_grading_perio_380b040d":"แน่ใจว่าต้องการลบชุดระยะเวลาการให้เกรดนี้หรือไม่","no_associated_terms_13bacefc":"ไม่มีเทอมที่เชื่อมโยงไว้","terms_35d91184":"เทอม: ","the_grading_period_set_was_deleted_cce5d8f6":"ระยะเวลาการให้เกรดที่กำหนดถูกลบทิ้ง","toggle_title_grading_period_visibility_462b2136":"เปิดปิดการแสดงระยะเวลาการให้เกรด %{title}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "GradingPeriodSetCollection",
+  function() { return {"add_set_of_grading_periods_5b4d6e51":"เพิ่มชุดระยะเวลาการให้เกรด","an_error_occured_while_fetching_enrollment_terms_1b7b4ac":"เกิดข้อผิดพลาดขณะสืบค้นเทอมสำหรับการลงทะเบียน","an_error_occured_while_fetching_grading_period_set_b4f12aa5":"เกิดข้อผิดพลาดขณะสืบค้นชุดระยะเวลาการให้เกรด","an_error_occured_while_updating_the_grading_period_9e024cd1":"เกิดข้อผิดพลาดขณะอัพเดตชุดระยะเวลาการให้เกรด","set_of_grading_periods_545b37e9":"การกำหนดระยะเวลาการให้เกรด","showing_all_sets_of_grading_periods_6c160874":"กำลังแสดงชุดระยะเวลาการให้เกรดทั้งหมด","term_created_27d27c2b":"จัดทำเทอมแล้ว ","term_starting_5bd5e070":"กำลังเริ่มเทอม ","the_grading_period_set_was_updated_successfully_d8dd5d0f":"อัพเดตระยะเวลาการให้เกรดที่กำหนดเสร็จสิ้น"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_sets_of_grading_periods_found_c8857ae9",
+  null,
+  function() { return {"one":"พบชุดระยะเวลาการให้เกรด 1 ชุด","other":"พบ %{count} ชุดระยะเวลาการให้เกรด","zero":"ไม่พบชุดระยะเวลาการให้เกรดที่ตรงกัน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "NewGradingPeriodSetForm",
+  function() { return {"a_name_for_this_set_is_required_222bad23":"ต้องระบุชื่อสำหรับชุดข้อมูลนี้","successfully_created_a_set_38374719":"จัดทำชุดข้อมูลเสร็จสิ้น","there_was_a_problem_submitting_your_set_27ca2ed0":"มีปัญหาในการส่งชุดข้อมูลของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "SearchGradingPeriodsField",
+  function() { return {"search_grading_periods_e947a3e9":"ค้นหาระยะเวลาการให้เกรด..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "courses",
+  function() { return {"account_notification_settings_error_page_66c0bc61":"หน้าข้อผิดพลาดค่าปรับตั้งการแจ้งข้อมูลทางบัญชี","account_notification_settings_initial_query_error_f55e1cbf":"ข้อผิดพลาดในการสืบค้นเบื้องต้นค่าปรับตั้งการแจ้งข้อมูลทางบัญชี","account_notification_settings_updated_dbabec35":"อัพเดตค่าปรับตั้งการแจ้งข้อมูลทางบัญชีแล้ว","course_notification_settings_error_page_c0512c17":"หน้าข้อผิดพลาดค่าปรับตั้งการแจ้งข้อมูลบทเรียน","course_notification_settings_initial_query_error_6dfb24ef":"ข้อผิดพลาดการสืบค้นเบื้องต้นค่าปรับตั้งการแจ้งข้อมูลบทเรียน","course_notification_settings_updated_f6726d7e":"อัพเดตค่าปรับตั้งการแจ้งข้อมูลบทเรียนแล้ว","deactivate_user_86c09036":"ปิดใช้งานผู้ใช้","due_by_c263dc10":"ครบกำหนดภายใน","edit_role_1e96ad20":"แก้ไขบทบาท","faculty_journal_5634938e":"บันทึกสำหรับภาควิชา","failed_to_load_courses_refresh_the_page_to_try_aga_4248fa3f":"ไม่สามารถโหลดบทเรียนได้ รีเฟรชเพจเพื่อลองใหม่อีกครั้ง","failed_to_update_account_notification_settings_194c1cd4":"ไม่สามารถอัพเดตค่าปรับตั้งการแจ้งข้อมูลทางบัญชี","failed_to_update_course_notification_settings_cbf0eb18":"ไม่สามารถอัพเดตค่าปรับการแจ้งข้อมูลบทเรียน","re_activate_user_f7d77c9a":"เปิดใช้งานผู้ใช้อีกครั้ง","remove_user_from_section_5556f465":"ลบผู้ใช้จากกลุ่มย่อย","role_7c0b7eaa":"บทบาท:","this_user_has_multiple_roles_in_the_course_changin_8cbd82d4":"ผู้ใช้นี้มีหลายบทบาทในบทเรียน การแก้ไขบทบาทจะเป็นการเขียนทับการลงทะเบียนในปัจจุบันทั้งหมดของคนเหล่านี้","to_do_6ac7b2dc":"สิ่งที่ต้องทำ:","to_link_the_course_observer_name_to_a_student_star_f993c826":"เชื่อมโยงผู้สังเกตการณ์บทเรียน *%{name}* เข้ากับผู้เรียน โดยเริ่มจากพิมพ์ชื่อผู้เรียนไว้ด้านล่างเพื่อค้นหาแล้วคลิก อัพเดต","you_cannot_remove_this_enrollment_c87be1cb":"คุณไม่สามารถลบการลงทะเบียนนี้"} },
+  function() { return {"confirm_reject_invitation":"แน่ใจว่าต้องการปฏิเสธคำเชิญเข้าร่วมบทเรียนนี้หรือไม่","roster":{"edit_sections_view":{"edit_sections_desc":"กลุ่มย่อยเป็นช่องทางเพิ่มเติมในการกำหนดโครงสร้างผู้ใช้ คุณจะสามารถสอนหลาย ๆ ชั้นเรียนได้จากบทเรียนเดียวกัน เพื่อให้มีเนื้อหาบทเรียนทั้งหมดรวมอยู่ในที่เดียว ต่อไปนี้คุณสามารถย้ายผู้ใช้ไปยังกลุ่มย่อยต่าง ๆ หรือเพิ่ม/ลบการลงทะเบียนกลุ่มย่อย ผู้ใช้จะต้องอยู่ในกลุ่มย่อยอย่างน้อยหนึ่งกลุ่มไม่ว่าในกรณีใดก็ตาม"},"index":{"cannot_add_users":"ไม่สามารถเพิ่มผู้ใช้ใหม่ได้เนื่องจากบทเรียนนี้สรุปไปแล้ว","filter_field_description":"ค้นหาบุคคล ขณะพิมพ์ในฟิลด์นี้ รายการบุคคลจะถูกกรองอัตโนมัติให้รวมเฉพาะผู้ที่ชื่อตรงกับข้อมูลที่คุณกรอก","group_set":"ชุดกลุ่ม","people":"บุคคล","role_to_search":"จำกัดการค้นหาบทบาท","search_people":"ค้นหาบุคคล","title_add_people":"เพิ่มบุคคล"},"invitations_view":{"accepted_invitation":"%{name} ได้รับและตอบรับคำเชิญเข้าร่วมบทเรียนแล้ว แต่คุณอาจยังต้องส่งคำเชิญใหม่ในกรณีที่จำเป็น","admin_invitation_unaccepted":"%{name} ยังไม่ได้ตอบรับคำเชิญเข้าร่วมบทเรียนใด ๆ ส่งคำเชิญแล้ว: %{time}","invitations_pending_publish":"คำเชิญจะไม่ถูกจัดส่งจนกว่าบทเรียนจะถูก*เผยแพร่*","student_invitation_unaccepted_available":"%{name} ยังไม่ได้ตอบรับคำเชิญเข้าร่วมบทเรียนใด ๆ ส่งคำเชิญแล้ว: %{time}","student_invitation_unaccepted_unavailable":"%{name} ถูกเพิ่มไปยังบทเรียนนี้แล้ว: %{time}"},"link_to_students_view":{"link_student_desc":"หากผู้สังเกตการณ์ถูกเชื่อมโยงกับผู้เรียน จะสามารถสืบค้นเกรดของผู้เรียนและการปฏิสัมพันธ์ในบทเรียนของผู้เรียน"},"resend_invitations":{"pending_invitation":"1 คำเชิญยังไม่ได้รับการตอบรับ","pending_invitations":"%{pendingInvitationsCount} คำเชิญยังไม่ได้รับการตอบรับ","re_send_invitations":"ส่งใหม่","re_sending_invitations":"กำลังส่งใหม่..."},"role_select":{"all_roles":"ทุกบทบาท"},"roster_tabs":{"everyone_tab":"ทุกคน","groups":"กลุ่ม"},"roster_user":{"links":{"edit_sections":"แก้ไขกลุ่มย่อย","link_to_students":"ลิงค์ไปยังผู้เรียน","remove_from_course":"ลบจากบทเรียน","resend_invitation":"ส่งคำเชิญใหม่","user_details":"รายละเอียดผู้ใช้"},"manage_user":"จัดการ %{name}","pending_acceptance_explanation":"ผู้ใช้รายนี้ยังไม่ได้ตอบรับคำเชิญสำหรับบทเรียน","pending_acceptance_of_invitation":"กำลังรอดำเนินการ"},"roster_users":{"canvas_user_id":"ID ผู้ใช้ Canvas","last_activity":"กิจกรรมล่าสุด","login_name":"ID ล็อกอิน","name":"ชื่อ","no_people_found":"ไม่พบบุคคล","role":"บทบาท","section":"หัวข้อ","total_activity":"กิจกรรมทั้งหมด","you_can_search_by":"คุณสามารถค้นหาจาก:"},"section":{"remove_user_from_course_section":"ลบผู้ใช้จาก %{name}"}},"show":{"empty_body":"ไม่มีเนื้อหา","re_sending":"กำลังส่งใหม่...","send_done":"เสร็จสิ้น! การส่งข้อความอาจใช้เวลาสักครู่","send_failed":"คำขอล้มเหลว ลองใหม่อีกครั้ง","titles":{"drop_course":"ดรอปบทเรียนนี้"}}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "accounts",
+  function() { return {"assignment_id_b040cee0":"Id ภารกิจ","avatar_8a8aa935":"ภาพประจำตัว","course_activity_bfe11267":"กิจกรรมในบทเรียน","course_id_8bd2a21c":"ID บทเรียน","course_id_b0bc82d4":"ID บทเรียน","data_point_over_time_8d0a54cc":"%{data_point} ตามช่วงเวลา","ex_ba24edf6":"เช่น","grade_change_activity_75fb525":"กิจกรรมการแก้ไขเกรด","limit_search_to_activity_after_c1ac2449":"จำกัดการค้นหาสำหรับกิจกรรมหลังจาก","limit_search_to_activity_before_e05aad05":"จำกัดการค้นหาสำหรับกิจกรรมก่อน","loading_6ac402e1":"กำลังโหลด...","notifications_search_results_80a0b06f":"ผลการค้นหาส่วนการแจ้งข้อมูล","over_time_bee1a733":"ตามช่วงเวลา","restore_courses_182e162e":"กู้คืนบทเรียน","search_for_a_deleted_course_by_id_f553398d":"ค้นหาบทเรียนที่ลบแล้วจาก ID","select_a_log_type_to_search_247fc6b4":"เลือกประเภทบันทึกประวัติที่จะค้นหา","to_view_all_notifications_sent_to_a_canvas_user_se_6172daa":"ดูการแจ้งข้อมูลทั้งหมดที่ส่งไปยังผู้ใช้ Canvas โดยเลือกผู้ใช้และช่วงวันที่สำหรับการค้นหาของคุณ","user_login_logout_activity_90fbbd9a":"การล็อกอิน/ล็อกเอาท์ของผู้ใช้","value_d842f16d":"ค่า","view_notifications_6aea09a2":"ดูการแจ้งข้อมูล"} },
+  function() { return {"admin_tools":{"admin_tools":{"tab_labels":{"admin_tools_logging":"กำลังบันทึกประวัติ","restore_course":"กู้คืนบทเรียน"},"view_messages":"ดูการแจ้งข้อมูล"},"auth_logging_search_results":{"activity":"กิจกรรม","date":"วันที่","no_item_found":"ไม่พบรายการ","time":"เวลา"},"comm_message_item":{"created_at":"จัดทำเมื่อ","from_name":"จาก","reply_to":"ตอบกลับไปยัง","sent_at":"ส่งเมื่อ","to":"ถึง"},"comm_messages_search_overview":{"messages_viewed":"ส่งการแจ้งข้อมูลไปยัง *%{user}* จาก *%{start_date}* ถึง *%{end_date}* แล้ว"},"comm_messages_search_results":{"no_messages_found":"ไม่พบข้อความ"},"course_logging_details":{"Field":"ฟิลด์","From":"จาก","To":"ถึง","Value":"ค่า","blank_placeholder":"-","copied_from_label":"คัดลอกจาก","copied_to_label":"คัดลอกไปยัง","date":"วันที่","event_id":"Id กิจกรรม","event_sis_batch":"ชุด SIS","event_source_label":"ที่มา","event_type_label":"พิมพ์","reset_from_label":"รีเซ็ตจาก","reset_to_label":"รีเซ็ตไปยัง","time":"เวลา","user":"ผู้ใช้"},"course_logging_item":{"blank_placeholder":"-","view_event_details":"ดูรายละเอียด"},"course_logging_results":{"date":"วันที่","event_details":"รายละเอียดกิจกรรม","event_source":"ที่มา","event_type":"พิมพ์","no_item_found":"ไม่พบรายการ","time":"เวลา","user":"ผู้ใช้"},"course_search_results":{"error_message":"ไม่พบบทเรียนที่ลบแล้วที่ใช้ ID ดังกล่าวสำหรับบัญชีนี้","info_text":"การลงทะเบียนไปยังบทเรียนนี้จะต้องกู้คืนด้วยตัวเอง","labels":{"account_id":"ID บัญชี:","account_id2":"ID บัญชี:","coures_id1":"ID บทเรียน:","coures_id2":"ID บทเรียน:","course_code1":"รหัสบทเรียน:","course_code2":"รหัสบทเรียน:","restore_btn":"กู้คืน"},"notdeleted_restore":{"add_enrollments":"เพิ่มการลงทะเบียน","header_subtext":"(ไม่ได้ลบ)","view_course":"ดูบทเรียน"},"successful_restore":{"view_course":"ดูบทเรียน"},"successfull_restore":{"add_enrollments":"เพิ่มการลงทะเบียน","subtext":"คุณต้องการทำอะไรต่อไป"}},"date_range_search":{"message_date_from":"จากวันที่","message_date_to":"ถึงวันที่"},"grade_change_logging_item":{"blank_placeholder":"-","event_type":{"corrupted":"ไม่มีรายละเอียด"},"no-abbreviation":"n","yes-abbreviation":"y"},"grade_change_logging_results":{"Anonymous":"ไม่เปิดเผยตัว","Assignment":"ภารกิจ","Course":"บทเรียน","Grader":"ผู้ให้เกรด","Student":"ผู้เรียน","To":"ถึง","date":"วันที่","from":"จาก","no_item_found":"ไม่พบรายการ","time":"เวลา"},"logging_content_pane":{"authentication":"การล็อกอิน/ล็อกเอาท์","course":"กิจกรรมในบทเรียน","grade_change":"กิจกรรมการแก้ไขเกรด","mutations":"กิจกรรมการแปลง GraphQL","select_default":"เลือกประเภทบันทึกประวัติ"},"user_date_range_search_form":{"message_date_from":"จากวันที่","message_date_to":"ถึงวันที่","search":"ค้นหาบุคคลจาก ID หรือชื่อ","search_people":"ค้นหาบุคคล"}},"course_type":"บทเรียน","default_account_quotas_not_updated":"ไม่ได้อัพเดตโควต้าบัญชีเริ่มต้น","default_account_quotas_updated":"อัพเดตโควต้าบัญชีเริ่มต้นแล้ว","find_not_authorized":"คุณไม่ได้รับอนุญาตให้ใช้ %{type} นี้","find_not_found":"ไม่พบ %{type} ที่ใช้ ID นี้","group_type":"กลุ่ม","integer_required":"ต้องระบุจำนวนเต็ม","quota_not_updated":"ไม่ได้อัพเดตโควต้า","quota_updated":"อัพเดตโควต้าแล้ว","retry_login":"ลองล็อกอินใหม่","settings":{"manual_quotas":{"find_button":"ค้นหา","label_for_course_or_group_id":"ID:","manual_quotas_title":"โควต้ากำหนดได้เอง","megabytes":"เมกะไบต์","megabytes_tooltip":"เมกะไบต์","select_type_courses":"ID บทเรียน","select_type_groups":"ID กลุ่ม","select_type_label":"ค้นหาบทเรียนหรือกลุ่ม","update_button":"อัพเดตโควต้า"},"quotas":{"default_account_quota_title":"โควต้าบัญชีเริ่มต้น","default_course_storage_quota":"โควต้าบทเรียน","default_group_storage_quota":"โควต้ากลุ่ม","default_user_storage_quota":"โควต้าผู้ใใช้","megabytes":"เมกะไบต์","megabytes_tooltip":"เมกะไบต์","update_button":"อัพเดต"}},"test_ldap_dialog_title":"ค่าปรับตั้ง LDAP การทดสอบ","test_ldap_result_canceled":"ยกเลิก","test_ldap_result_failed":"ล้มเหลว","test_ldap_result_ok":"ตกลง","test_login":"ล็อกอินสู่การทดสอบ","testing":"กำลังทดสอบ...","users_list":{"login_name_or_sis_id":"ล็อกอิน / SIS ID","name":"ชื่อ","no_people_found":"ไม่พบบุคคล","you_can_search_by":"คุณสามารถค้นหาจาก:"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "account_settings_jsx_bundle",
+  function() { return {"a_suffix_cannot_be_longer_than_255_characters_plea_2f2fefd5":"อักขระพ่วงจะยาวมากกว่า 255 ตัวอักษรไม่ได้ กรุณาใช้อักขระพ่วงที่สั้นกว่านี้แล้วลองใหม่อีกครั้ง","a_suffix_cannot_have_any_tabs_or_spaces_please_rem_47db763e":"อักขระพ่วงจะต้องไม่มีแท็บหรือเคาะว่าง กรุณาลบการเลือกรายการและลองใหม่อีกครั้ง","active_directory_lookup_attribute_d317cb60":"คุณลักษณะการสืบค้น Active Directory","active_directory_lookup_attribute_selector_d56a326f":"ระบบเลือกคุณลักษณะการสืบค้น Active Directory","after_completing_the_above_configuration_please_us_c6440d32":"หลังจากกำหนดโครงร่างการทำงานข้างต้น กรุณาใช้ลิงค์ต่อไปนี้เพื่อให้อนุญาต Canvas ในการสืบค้น Microsoft Tenant ของคุณ:","allows_syncing_of_canvas_course_members_to_a_micro_785119b4":"อนุญาตให้ซิงค์สมาชิกบทเรียนใน Canvas กับ Microsoft Team","changing_the_tenant_will_delete_existing_groups_f86c48dc":"การเปลี่ยน tenant จะเป็นการลบกลุ่มที่มีอยู่ทั้งหมด","email_alias_mailnickname_d92fa8bd":"นามแฝงอีเมล (mailNickname)","example_edu_cc1a0744":"@example.edu","grant_tenant_access_9afafd":"ให้อนุญาตการใช้งานของ tenant","loading_microsoft_teams_sync_settings_c2633e46":"กำลังโหลดค่าปรับตั้ง Microsoft Teams Sync","login_attribute_731a8181":"คุณลักษณะการล็อกอิน","login_attribute_selector_9a106f9c":"ตัวเลือกคุณลักษณะการล็อกอิน","login_attribute_suffix_input_area_18f7c7f7":"พื้นที่กรอกอักขระพ่วงท้ายคุณลักษณะการล็อกอิน","microsoft_teams_sync_ef749b9a":"Microsoft Teams Sync","microsoft_teams_sync_settings_updated_ca31ca6":"อัพเดตค่า Microsoft Teams Sync แล้ว!","microsoft_tenant_name_domain_ba8ed4bb":"microsoft_tenant_name%{domain}","not_required_if_this_is_populated_the_entered_text_68a9b719":"ไม่จำเป็นต้องระบุ หากกรอกไว้ ข้อความที่กรอกจะถูกผนวกไว้กับคุณลักษณะสำหรับการล็อกอิน","please_provide_a_valid_tenant_domain_check_your_az_7acb215b":"กรุณาระบุโดเมน tenant ที่ถูกต้อง ตรวจสอบค่าปรับตั้ง Azure Active Directory ของคุณเพื่อทำการค้นหา","primary_email_address_mail_9018f":"ที่อยู่อีเมลหลัก (เมล)","sis_user_id_f631a010":"ID ผู้ใช้ SIS","suffix_294d5cc4":"อักขระพ่วง","tenant_name_e174f404":"ชื่อ Tenant","tenant_name_input_area_283dfcde":"พื้นที่กรอกชื่อ Tenant","the_active_directory_attribute_that_will_be_used_t_96f5824e":"คุณลักษณะของ Active Directory จะถูกใช้เพื่อเทียบเคียงผู้ใช้ Canvas กับ Microsoft","the_attribute_to_use_when_associating_a_canvas_use_112f140d":"คุณลักษณะที่จะใช้เมื่อเชื่อมโยงผู้ใช้ Canvas กับผู้ใช้ Microsoft","to_toggle_microsoft_teams_sync_you_need_to_input_a_d32476b0":"เปิดปิดการ Microsoft Teams Sync โดยคุณจะต้องกรอกโดเมน tenant","unable_to_fetch_current_microsoft_teams_sync_setti_3ad2f08b":"ไม่สามารถเรียกค้นค่าปรับตั้งในปัจจุบันของ Microsoft Teams Sync กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ หากยังเกิดปัญหาอยู่ กรุณาติดต่อฝ่ายบริการ","unable_to_update_microsoft_teams_sync_settings_ple_64255854":"ไม่สามารถอัพเดตค่าปรับตึ้ง Microsoft Teams Sync กรุณาลองใหม่อีกครั้งในภายหลัง หากยังเกิดปัญหาอยู่ กรุณาติดต่อฝ่ายบริการ","unique_user_id_dfca1a7f":"ID ผู้ใช้เฉพาะ","update_settings_9b422d0f":"อัพเดตค่าปรับตั้ง","user_principal_name_upn_fbf59a08":"ชื่อหลักของผู้ใช้ (UPN)","your_azure_active_directory_tenant_name_d8bb31fa":"ชื่อ Tenant สำหรับ Azure Active Directory ของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "account_settings",
+  function() { return {"about_this_service_b10bc808":"เกี่ยวกับบริการนี้","security_tab_failed_to_load_2d2242a":"แท็บความปลอดภัยไม่สามารถโหลดได้","there_are_no_reports_for_you_to_view_b716717a":"ไม่มีรายงานสำหรับให้คุณดู","title_is_too_long_b192a46a":"ชื่อยาวเกินไป"} },
+  function() { return {"account_name_too_long":"ชื่อบัญชียาวเกินไป","confirms":{"delete_announcement":"แน่ใจว่าต้องการลบประกาศนี้หรือไม่","global_announcement":"คุณต้องยืนยันประกาศของส่วนกลาง","remove_account_admin":"แน่ใจว่าต้องการลบผู้ดูแลบัญชีนี้หรือไม่"},"custom_text_blank":"[ข้อความกำหนดเอง]","help_menu_name_too_long":"ชื่อเมนูความช่วยเหลือยาวเกินไป","links":{"turnitin":{"confirm_settings":"ยืนยันค่าปรับตั้ง Turnitin"}},"notices":{"turnitin":{"checking_settings":"กำลังตรวจสอบค่าปรับตั้ง Turnitin...","invalid_settings":"ค่าปรับตั้ง Turnitin ไม่ถูกต้อง กรุณาตรวจสอบ ID บัญชีของคุณและข้อมูลลับแบบแชร์จาก Turnitin","setings_confirmed":"ยืนยันค่าปรับตั้ง Turnitin แล้ว!"}},"titles":{"configure_report":"กำหนดค่ารายงาน","open_registration_delegated_warning_dialog":"เปิดใช้งานผู้ให้บริการระบุตัวตนจากภายนอกแล้ว","what_are_quiz_ip_filters":"ตัวกรอง IP แบบทดสอบคืออะไร"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "security_panel",
+  function() { return {"add_domain_f15bc6c1":"เพิ่มโดเมน","allowed_domains_ee7868c8":"โดเมนที่อนุญาต","associated_tool_domains_ba5767c5":"โดเมนเครื่องมือที่เชื่อมโยง","canvas_content_security_policy_c3d7bf2b":"นโยบายความปลอดภัยของเนื้อหาของ Canvas","domain_editing_is_disabled_when_security_settings__3feb6da0":"การแก้ไขโดเมนถูกปิดใช้งานหากค่าปรับตั้งการรักษาความปลอดภัยรับต่อมาจากบัญชีต้นทาง","domain_name_6c783b0":"ชื่อโดเมน","domains_66feaf7f":"โดเมน","domains_count_max_a52b7947":"โดเมน (%{count}/%{max})","enable_content_security_policy_8bd0b492":"เปิดใช้งานนโยบายความปลอดภัยสำหรับเนื้อหา","inherit_content_security_policy_94aff861":"นโยบายความปลอดภัยสำหรับเนื้อหา","invalid_domain_e810c1d":"โดเมนไม่ถูกต้อง","no_allowed_domains_b6633d12":"ไม่มีโดเมนที่อนุญาต","note_associated_tools_are_only_listed_once_even_if_ebae2aba":"หมายเหตุ: เครื่องมือที่เชื่อมโยงไว้จะแสดงเพียงครั้งเดียว แม้ว่าจะ\n                ติดตั้งในบัญชีย่อยหลายบัญชีก็ตาม","remove_domain_as_an_allowed_domain_c510a69e":"ลบ %{domain} จากโดเมนที่อนุญาต","the_content_security_policy_allows_you_to_restrict_eaa7c0d6":"นโยบายรักษาความปลอดภัยของเนื้อหาช่วยให้คุณสามารถจำกัด\n               JavaScriptแบบกำหนดเองที่ทำงานอยู่ในส่วนรายการ Canvas ของคุณ คุณสามารถเพิ่มโดเมนที่อนุญาต\n               ได้สูงสุด %{max_domains} รายการ แนะนำให้ใช้อักขระแทน\n               (เช่น *.instructure.com) โดเมน Canvas และ Instructure จะถูกรวมไว้\n               อัตโนมัติและไม่นับรวมกับจำนวนโดเมนที่จำกัดไว้ที่ 50 รายการ","the_following_domains_have_automatically_been_allo_cea27372":"โดเมนต่อไปนี้ได้รับอนุญาตอัตโนมัติจากเครื่องมือที่มีอยู่แล้วในบัญชีผู้ใช้ของคุณ\n                 ลบโดเมนเหล่านี้โดยลบเครื่องมือที่เกี่ยวข้อง","view_violation_log_e80ea322":"ดูบันทึกประวัติการละเมิด","violation_log_tray_d4eff9f4":"ถาดข้อมูลบันทึกประวัติการละเมิด","you_have_reached_the_domain_limit_you_can_add_more_1143333a":"คุณใช้โดเมนครบจำนวนที่กำหนดแล้ว คุณสามารถเพิ่มโดเมนได้โดยลบโดเมนในปัจจุบันในรายการที่อนุญาตของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "csp_violation_table",
+  function() { return {"add_as_allowed_e95540be":"เพิ่มเป็น อนุญาต","add_hostname_as_an_allowed_domain_1f58c38d":"เพิ่ม %{hostname} เป็นโดเมนที่อนุญาต","blocked_domain_name_b5b93150":"ชื่อโดเมนที่ถูกบล็อค","csp_violations_337f8529":"การละเมิด CSP","last_attempt_7258ebd7":"การดำเนินการล่าสุด","requested_bbdb5b26":"ร้องขอแล้ว","success_you_added_hostname_as_an_allowed_domain_4713bfe8":"เสร็จสิ้น: คุณเพิ่ม %{hostname} เป็นโดเมนที่อนุญาต"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "csp_violation_tray",
+  function() { return {"something_went_wrong_loading_the_violations_try_re_9461d057":"มีบางอย่างผิดพลาดขณะโหลดข้อมูลการละเมิด ลองโหลดหน้าเพจใหม่","violation_log_491edd84":"บันทึกประวัติการละเมิด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_creation_settings",
+  function() { return {"account_administrators_can_always_create_courses_926dc0cb":"ผู้ดูแลระบบบัญชีสามารถจัดทำบทเรียนได้ทุกเมื่อ","allow_creation_anywhere_the_user_has_active_enroll_13c84fc2":"อนุญาตให้จัดทำได้ทุกที่ที่ผู้ใช้มีการลงทะเบียนไว้","allow_creation_only_in_the_manually_created_course_69f37f2e":"อนุญาตให้จัดทำเฉพาะบัญชีย่อยบทเรียนที่จัดทำด้วยตัวเอง","select_users_who_can_create_new_courses_75f92743":"เลือกผู้ใช้ที่สามารถจัดทำบทเรียนใหม่","users_with_no_enrollments_5dddce33":"ผู้ใช้ที่ไม่มีการลงทะเบียน","where_can_students_create_courses_fd0c8a00":"ผู้เรียนสามารถจัดทำบทเรียนได้ที่ไหน","where_can_teachers_create_courses_d87eaff2":"ผู้สอนสามารถจัดทำบทเรียนได้ที่ไหน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "i18n!custom_emoji_deny_list",
+  function() { return {"blocked_emojis_9fbaca3a":"อีโมจิที่ถูกบล็อค","remove_emoji_emojiname_cb388de9":"ลบอีโมจิ \"%{emojiName}\"","selected_emojis_will_not_be_available_in_the_emoji_412d8776":"อีโมจิที่เลือกจะไม่สามารถใช้งานได้ใน “ระบบเลือกอีโมจิ” (Emoji Picker” สำหรับผู้เรียนหรือผู้สอน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "custom_help_link",
+  function() { return {"add_custom_link_22059c0":"เพิ่มลิงค์กำหนดเอง","add_help_menu_links_de9fc34f":"เพิ่มลิงค์เมนูความช่วยเหลือ","add_link_5c01c1e8":"เพิ่มลิงค์","add_link_fc336ed6":"เพิ่มลิงค์","cancel_custom_link_creation_39ec70bd":"ยกเลิกการจัดทำลิงค์กำหนดเอง","cog_icon_69bdffd5":"ไอคอนรูปเฟือง","custom_link_details_35fd38fc":"รายละเอียดลิงค์กำหนดเอง","e_g_http_university_edu_helpdesk_acab04d6":"เช่น http://university.edu/helpdesk","edit_text_27d8aa3d":"แก้ไข %{text}","feature_headline_3f0daf4":"พาดหัวคุณสมบัติ","featured_83f6041d":"นำเสนอ","features_2581da":"คุณสมบัติ","folder_icon_29017021":"ไอคอนโฟลเดอร์","help_menu_links_51184b65":"ลิงค์เมนูความช่วยเหลือ","help_menu_options_7ecf7031":"ตัวเลือกเมนูความช่วยเหลือ","icon_215a1dc6":"ไอคอน","information_icon_8a514faa":"ไอคอนข้อมูล","life_preserver_icon_8660b6ce":"ไอคอนช่วยชีวิต","link_7262adec":"ลิงค์","link_description_4355ca82":"รายละเอียดลิงค์","link_name_b76fdb38":"ชื่อลิงค์","may_have_one_featured_link_and_one_new_link_at_a_t_21106efe":"(มีได้แค่ลิงค์นำเสนอหนึ่งลิงค์และลิงค์ใหม่หนึ่งลิงค์ต่อครั้ง)","move_text_down_7176acd4":"เลื่อน %{text} ลง","move_text_up_91fb4241":"เลื่อน %{text} ขึ้น","please_enter_a_name_for_this_link_318f01a4":"กรุณากรอกชื่อสำหรับลิงค์นี้","please_enter_a_valid_url_protocol_is_required_e_g__4bc49ab1":"กรุณากรอก URL ที่ถูกต้อง ต้องระบุโปรโตคอล (เช่น http://, https://, ftp://, tel:, mailto:0","please_select_a_user_role_for_this_link_9fb4e655":"กรุณาเลือกบทบาทผู้ใช้สำหรับลิงค์นี้","question_mark_icon_d2bbd204":"ไอคอนเครื่องหมายคำถาม","remove_text_8e485c41":"ลบ %{text}","the_featured_link_was_moved_to_the_top_of_list_6cabcda9":"ลิงค์ที่นำเสนอถูกย้ายไปยังด้านบนของรายการ","unenrolled_bc89d5e3":"เลิกลงทะเบียนแล้ว","update_link_b7cab181":"อัพเดตลิงค์","you_left_the_required_name_field_empty_8f9bce5c":"คุณปล่อยฟิลด์ชื่อที่กำหนดไว้ว่างเปล่า"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "act_as",
+  function() { return {"act_as_is_essentially_logging_in_as_this_user_with_6244031c":"\"ดำเนินการในฐานะ\" เป็นการล็อกอินเป็นผู้ใช้รายนี้โดยไม่มีรหัสผ่าน คุณสามารถดำเนินการใด ๆ ก็ได้เสมือนเป็นผู้ใช้รายนี้ และผู้ใช้อื่น ๆ จะเข้าใจว่าผู้ใช้รายนี้เป็นผู้ดำเนินการ อย่างไรก็ตาม บันทึกประวัติจะมีจัดทำไว้เพื่อแจ้งว่าคุณเป็นบุคคลที่ดำเนินการในนามของผู้ใช้รายนี้","category_b9a94408":"หมวดหมู่","default_email_5cb9fa04":"อีเมลเริ่มต้น:","display_name_6c2cfc58":"ชื่อจัดแสดง:","full_name_14c958f7":"ชื่อ:","integration_id_a6977535":"ID การผสานรวม:","login_id_bc943b97":"ID ล็อกอิน:","login_info_d1d9f11e":"ข้อมูลล็อกอิน","sis_id_70eda157":"SIS ID:","sortable_name_e25fe66c":"ชื่อที่จัดเรียงได้:","user_details_e9aef9e5":"รายละเอียดผู้ใช้","user_information_6353d7e1":"ข้อมูลผู้ใช้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "admin_split",
+  function() { return {"failed_to_split_users_d9759007":"ไม่สามารถแยกผู้ใช้","note_this_will_attempt_to_undo_the_merge_as_fully__41c9c4e9":"หมายเหตุ: การดำเนินการนี้จะเป็นการยกเลิกการผสานให้สมบูรณ์มากที่สุด ทั้งนี้ผู้ใช้ที่ถูกผสานไปแล้วอาจไม่สามารถกู้คืนเป็นสถานะก่อนหน้าได้อย่างสมบุรณ์แบบ","split_74c03348":"แยก","the_following_users_will_be_split_into_separate_us_d67c54a4":"ผู้ใช้ต่อไปนี้จะถูกแยกเป็นบัญชีผู้ใช้แยกเฉพาะ:","there_are_no_user_accounts_to_split_from_this_user_4e132eb1":"ไม่มีบัญชีผู้ใช้สำหรับแยกจากผู้ใช้รายนี้","user_split_complete_links_to_split_user_accounts_f_dab79796":"แยกผู้ใช้เสร็จสิ้น ลิงค์เพื่อแยกบัญชีผู้ใช้ดังนี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "alerts",
+  null,
+  function() { return {"errors":{"criteria_required":"ต้องมีตัวสั่งการอย่างน้อยหนึ่งรายการ","recipients_required":"ต้องมีผู้รับอย่างน้อยหนึ่งราย","threshold_should_be_numeric":"ควรเป็นจำนวนเต็มบวก"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "catalog",
+  function() { return {"course_catalog_4cc7c8ce":"แคตาล็อกบทเรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "announcements_on_home_page",
+  function() { return {"recent_announcements_8becc59c":"ประกาศล่าสุด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "announcements_v2",
+  function() { return {"add_announcement_165c3b05":"เพิ่มประกาศ","add_external_feed_6d437a28":"เพิ่มฟีดจากภายนอก","add_feed_49ed1cb2":"เพิ่มฟีด","adding_rss_feed_f1202567":"กำลังเพิ่มฟีด RSS","an_error_occurred_while_deleting_announcements_ab1ff3f6":"เกิดข้อผิดพลาดขณะลบประกาศ","an_error_occurred_while_locking_announcements_8115ccd7":"เกิดข้อผิดพลาดขณะล็อคประกาศ","an_error_occurred_while_updating_announcements_loc_5a1c5dcf":"เกิดข้อผิดพลาดขณะอัพเดตสถานะการล็อคของประกาศ","an_error_ocurred_while_loading_announcements_32af2ce4":"เกิดข้อผิดพลาดขณะโหลดประกาศ","announcement_filter_d35318a7":"ตัวกรองประกาศ","announcements_deleted_successfully_7d77e9e1":"ลบประกาศเสร็จสิ้น","announcements_list_c75fc413":"รายการประกาศ","announcements_locked_successfully_43d58107":"ล็อคประกาศเสร็จสิ้น","announcements_unlocked_successfully_1432da9d":"ปลดล็อคประกาศเสร็จสิ้น","check_back_later_c4234dbc":"ตรวจสอบใหม่ในภายหลัง","count_announcements_found_b7b055b3":"พบ %{count} ประกาศ","create_announcements_above_1c36202b":"จัดทำประกาศด้านบน","delete_feedname_1ac9a4a4":"ลบ %{feedName}","delete_selected_announcements_69e23710":"ลบประกาศที่เลือก","dropdown_changed_state_to_expanded_517689c2":"ส่วนแสดงรายการเปลี่ยนสถานะเป็น %{expanded}","enter_specific_phrase_9b686755":"กรอกวลีเฉพาะ","external_feed_deleted_successfully_33209dbc":"ลบฟีดจากภายนอกเสร็จสิ้น","external_feed_successfully_added_e0ce0784":"เพิ่มฟีดจากภายนอกเสร็จสิ้น","external_feeds_b6345379":"ฟีดจากภายนอก","failed_to_add_new_feed_ee1c5ea":"ไม่สามารถเพิ่มฟีดใหม่ได้","failed_to_delete_external_feed_36f19d70":"ไม่สามารถลบฟีดจากภายนอก","failed_to_load_external_feeds_7ac8411d":"ไม่สามารถโหลดฟีดจากภายนอก","feed_url_8a433438":"Url ฟีด","feeds_9f1c5c76":"ฟีด","full_article_9296bb6f":"บทความเต็ม","link_only_995966e":"เชื่อมโยงอย่างเดียว","lock_selected_announcements_33740f80":"ล็อคประกาศที่เลือก","next_announcements_page_3956eb11":"เพจประกาศถัดไป","no_announcements_280df147":"ไม่มีประกาศ","only_add_posts_with_a_specific_phrase_in_the_title_b8b7b04e":"เพิ่มโพสต์ที่มีวลีเฉพาะในชื่อเท่านั้น","previous_announcements_page_79c0ada1":"เพจประกาศก่อนหน้า","rss_feed_cf6286b3":"ฟีด RSS","search_announcements_by_title_407a998e":"ค้นหาประกาศจากชื่อ","select_embedded_content_type_966f048a":"เลือกประเภทเนื้อหาที่ผนวก","truncated_56b1a661":"ตัดทอนแล้ว","unlock_selected_announcements_37485f05":"ปลดล็อคประกาศที่เลือก"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "you_are_about_to_delete_count_announcements_are_yo_96a2b383",
+  null,
+  function() { return {"one":"คุณกำลังจะลบ 1 ประกาศ แน่ใจหรือไม่","other":"คุณกำลังจะลบ %{count} ประกาศ แน่ใจหรือไม่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_posts_added_fa55ce4",
+  null,
+  function() { return {"one":"%{count} โพสต์ที่เพิ่มเข้ามา","other":"%{count} โพสต์ที่เพิ่มเข้ามา","zero":"%{count} โพสต์ที่เพิ่มเข้ามา"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignment_editview",
+  function() { return {"anonymous_grading_cannot_be_enabled_for_group_assi_faa33494":"การให้เกรดแบบไม่เปิดเผยตัวไม่สามารถเปิดใช้ได้สำหรับภารกิจกลุ่ม","assignment_d8387b78":"ภารกิจ","assignment_details_updated_493f410b":"อัพเดตรายละเอียดภารกิจแล้ว","cannot_be_edited_for_assignments_in_closed_grading_792ef6c1":"ไม่สามารถแก้ไขสำหรับภารกิจในระยะเวลาการให้เกรดที่สรุปแล้ว","external_tool_url_cannot_be_left_blank_a34b6bb2":"URL เครื่องมือจากภายนอกปล่อยว่างไม่ได้","failed_to_load_student_annotation_file_data_256d99d2":"ไม่สามารถโหลดข้อมูลไฟล์หมายเหตุกำกับของผู้เรียน","grader_count_cannot_be_0_9228afe4":"จำนวนผู้ให้เกรดจะเป็น 0 ไม่ได้","grader_count_is_required_45b6c85b":"ต้องระบุจำนวนผู้ให้เกรด","grader_is_required_62c88f67":"ต้องระบุผู้ให้เกรด","group_assignments_cannot_be_enabled_for_anonymousl_ed896b1c":"ภารกิจของกลุ่มไม่สามารถเปิดใช้ได้สำหรับภารกิจที่ให้เกรดแบบไม่เปิดเผยตัว","group_assignments_cannot_be_enabled_for_moderated__6b2faeef":"ภารกิจของกลุ่มไม่สามารถเปิดใช้ได้สำหรับภารกิจที่มีการควบคุม","group_assignments_do_not_currently_support_student_3e9aa243":"ภารกิจของกลุ่มปัจจุบันไม่รองรับภารกิจการทำหมายเหตุกำกับของผู้เรียน","loading_assignment_details_from_external_app_36013936":"กำลังโหมดรายละเอียดภารกิจจากแอพจากภายนอก","peer_reviews_cannot_be_enabled_for_moderated_assig_149d33c4":"ความคิดเห็นจากผู้เกี่ยวข้องไม่สามารถเปิดใช้งานได้สำหรับภารกิจที่มีการควบคุม","points_possible_must_be_0_or_more_for_selected_gra_f96a04e3":"คะแนนที่เป็นไปได้จะต้องเท่ากับ 0 หรือมากกว่าสำหรับประเภทการให้เกรดที่เลือก","removed_filename_a8634af3":"ลบ %{filename} แล้ว","student_annotation_assignments_are_not_currently_s_d840064b":"ภารกิจในการทำหมายเหตุกำกับของผู้เรียนไม่รองรับสำหรับภารกิจของกลุ่มในปัจจุบัน","you_must_attach_a_file_b6041092":"คุณจะต้องแนบไฟล์","you_must_set_document_usage_rights_b4afa1e9":"คุณจะต้องกำหนดสิทธิ์ใช้งานเอกสาร"} },
+  function() { return {"at_least_one_file_type":"กรุณาระบุอย่างน้อยหนึ่งประเภทไฟล์ที่อนุญาต","at_least_one_submission_type":"กรุณาเลือกอย่างน้อยหนึ่งประเภทการจัดส่ง","buttons":{"select_url":"เลือก"},"name_is_required":"ต้องระบุชื่อ!","points_possible_number":"คะแนนที่ทำได้จะต้องเป็นตัวเลข","select_external_tool_dialog_title":"กำหนดค่าชุดเครื่องมือจากภายนอก","vericite_submission_types_validation":"VeriCite รองรับเฉพาะการจัดส่งไฟล์และกรอกข้อความ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_students_c9920376",
+  null,
+  function() { return {"one":"1 ผู้เรียน","other":"%{count} ผู้เรียน","zero":"0 ผู้เรียน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "allowed_attempts",
+  function() { return {"allowed_attempts_4e229caa":"การดำเนินการที่อนุญาต"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "moderated_grading",
+  function() { return {"error_retrieving_assignment_external_tools_9102d343":"เกิดข้อผิดพลาดในการเรียกค้นเครื่องมือจากภายนอกสำหรับภารกิจ","error_retrieving_similarity_detection_tools_d6d4f9e9":"เกิดข้อผิดพลาดในการเรียกค้นเครื่องตรวจตรวจจับเนื้อหาที่คล้ายกัน","external_tool_tool_id_6028b3b1":"เครื่องมือจากภายนอก %{tool_id}","plagiarism_review_7bccc7df":"การพิจารณาการคัดลอกผลงาน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "DefaultToolForm",
+  function() { return {"add_content_58b4305a":"เพิ่มเนื้อหา","click_the_button_above_to_add_content_4c7024a":"คลิกที่ปุ่มข้างต้นเพื่อเพิ่มเนื้อหา","content_successfully_added_395c906f":"เพิ่ม %{content} เสร็จสิ้น","successfully_added_fb3e6008":"เพิ่มเสร็จสิ้น","the_tool_is_not_installed_in_the_course_or_account_1be7230b":"เครื่องมือไม่ได้ติตดั้งในบทเรียนหรือบัญชีผู้ใช้นี้","tool_not_found_f6366382":"ไม่พบเครื่องมือ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignment",
+  function() { return {"remove_selected_attachment_61f81ee4":"ลบเอกสารแนบที่เลือก","select_one_8e0af564":"เลือกหนึ่งรายการ","speedgrader_tm_44688790":"SpeedGrader™"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "FinalGraderSelectMenu",
+  function() { return {"grader_that_determines_final_grade_cc55f20":"ผู้ให้เกรดที่พิจารณาเกรดสรุป"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "GraderCommentVisibilityCheckbox",
+  function() { return {"graders_can_view_each_other_s_comments_d836b848":"ผู้ให้เกรดสามารถดูความเห็นของกันและกัน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "GraderCountNumberInput",
+  function() { return {"must_have_at_least_1_grader_d4a54e85":"จะต้องมีผู้ให้เกรดอย่างน้อย 1 ราย","there_are_currently_availablegraderscount_availabl_58f85403":"ปัจจุบันมีผู้ให้เกรดที่ใช้ได้ %{availableGradersCount} ราย","there_is_currently_1_available_grader_758e4a21":"ปัจจุบันมีผู้ให้เกรดใช้ได้ 1 ราย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "GraderNamesVisibleToFinalGraderCheckbox",
+  function() { return {"final_grader_can_view_other_grader_names_67736530":"ผู้ให้เกรดสรุปสามารถดูชื่อผู้ให้เกรดรายอื่น"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "ModeratedGradingCheckbox",
+  function() { return {"allow_moderator_to_review_multiple_independent_gra_c59d64f6":"อนุญาตให้ผู้ควบคุมพิจารณาเกรดหลาย ๆ รายการสำหรับผลงานจัดส่งที่เลือกแบบเป็นอิสระ","moderated_grading_cannot_be_enabled_for_group_assi_7e947ab7":"การให้เกรดแบบมีการปรับประสานไม่สามารถเปิดใช้งานได้สำหรับภารกิจกลุ่ม","moderated_grading_cannot_be_enabled_for_peer_revie_6b7eedc1":"การให้เกรดแบบมีการปรับประสานไม่สามารถเปิดใช้งานได้สำหรับภารกิจแสดงความคิดเห็นจากผู้เกี่ยวข้อง","moderated_grading_setting_cannot_be_changed_if_gra_ba939ce2":"ค่าปรับตั้งการให้เกรดแบบมีการปรับประสามารถไม่สามารถแก้ไขได้หากมีผลงานจัดส่งแบบให้เกรดแล้วอยู่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "OriginalityReportVisibilityPicker",
+  function() { return {"after_the_assignment_is_graded_53754607":"หลังจากให้เกรดภารกิจ","after_the_due_date_eee89c9c":"หลังจากวันครบกำหนด","immediately_c128ede6":"ทันที","show_report_to_students_a07888a6":"แสดงรายงานกับผู้เรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignment_grade_summary",
+  function() { return {"accept_grades_4d56a3dd":"ตอบรับเกรด","accept_grades_by_gradername_7a98b969":"ตอบรับเกรดโดย %{graderName}","accepted_c9f8ab87":"ตอบรับแล้ว","accepting_40ba3b70":"กำลังตอบรับ","all_submissions_must_have_a_selected_grade_3a84e5a9":"ผลงานจัดส่งทั้งหมดจะต้องมีเกรดที่เลือกไว้","are_you_sure_you_want_to_do_this_it_cannot_be_undo_3379a544":"แน่ใจว่าต้องการดำเนินการหรือไม่ ไม่สามารถยกเลิกได้และจะเป็นการบอกล้างเกรดในปัจจุบันจากสมุดบันทึกเกรด","are_you_sure_you_want_to_post_grades_for_this_assi_bafe5753":"แน่ใจว่าต้องการแจ้งเกรดสำหรับภารกิจนี้ให้แก่ผู้เรียนหรือไม่","assignment_grades_have_already_been_released_4c8a91b":"เกรดภารกิจถูกตรวจปล่อยแล้ว","attention_aaca1f1d":"ข้อควรทราบ!","grade_for_studentname_d124b199":"เกรดสำหรับ %{studentName}","grade_selection_table_dcf9d1ea":"ตารางการเลือกเกรด","grade_summary_255289f6":"สรุปข้อมูลเกรด","grader_details_6406bea0":"รายละเอียดผู้ให้เกรด","grader_gradernumber_fef5d5cf":"ผู้ให้เกรด %{graderNumber}","grades_cannot_be_modified_from_this_page_as_they_h_d0ebeb6":"เกรดไม่สามารถแก้ไขได้จากเพจนี้ เนื่องจากถูกเผยแพร่ไปแล้ว","grades_for_this_assignment_are_now_visible_to_stud_623efda0":"เกรดสำหรับภารกิจนี้แสดงผลให้แก่ผู้เรียนอยู่ในปัจจุบัน","grades_posted_to_students_56b8cb2d":"โพสต์เกรดให้แก่ผู้เรียนแล้ว","grades_released_488c2808":"เผยแพร่เกรดแล้ว","grades_saved_5954b0bb":"บันทึกเกรดแล้ว","grades_were_successfully_released_to_the_gradebook_4c3b07d6":"เผยแพร่เกรดเสร็จสิ้นไปยังสมุดบันทึกเกรด","one_or_more_grade_selected_was_provided_by_a_grade_58d46830":"เกรดบางส่วนที่เลือกแจ้งโดยผู้ให้เกรดที่มีการลงทะเบียนที่ไม่ได้ใช้งาน กรุณาอัพเดตรายการที่คุณเลือกเป็นรายการของผู้ให้เกรดในปัจจุบัน","post_to_students_b02df196":"แจ้งให้แก่ผู้เรียน","posting_to_students_eaa57964":"กำลังแจ้งไปยังผู้เรียน","release_grades_c68fbcc":"เผยแพร่เกรด","releasing_grades_31a57dde":"กำลังเผยแพร่เกรด","selected_grade_942f40ba":"เกรดที่เลือก","student_studentnumber_f398d9c2":"ผู้เรียน %{studentNumber}","students_are_loading_206c5246":"ผู้เรียนกำลังโหลด","there_was_a_problem_releasing_grades_fa0ae6":"มีปัญหาในการเผยแพร่เกรด","there_was_a_problem_saving_the_grades_5e61f9e2":"มีปัญหาในการบันทึกเกรด","there_was_a_problem_updating_the_assignment_61b9b98b":"มีปัญหาในการอัพเดตภารกิจ","there_was_a_problem_updating_the_grade_1b6c8b4c":"มีปัญหาในการอัพเดตเกรด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "AssignmentKeyBindingsMixin",
+  null,
+  function() { return {"keyboard_add_item":"เพิ่มภารกิจไปยังกลุ่มที่เลือก","keyboard_close_menu":"ปิดกล่องโต้ตอบใช้งาน","keyboard_del_item":"ลบภารกิจหรือกลุ่มในปัจจุบัน","keyboard_edit_item":"แก้ไขภารกิจหรือกลุ่มในปัจจุบัน","keyboard_next_item":"เน้นที่ภารกิจหรือกลุ่มถัดไป","keyboard_prev_item":"เน้นที่ภารกิจหรือกลุ่มก่อนหน้า","keyboard_show_assign":"แสดงตัวอย่างแบบเต็มสำหรับภารกิจที่เลือก","keycodes":{"add_item":"a","close_menu":"esc","del_item":"d","edit_item":"e","next":"j","previous":"k","show_assign":"f"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "AssignmentGroupListItemView",
+  function() { return {"move_group_3dd7f76e":"ย้ายกลุ่ม"} },
+  function() { return {"drop_highest_rule":{"one":"วางคะแนนสูงสุด","other":"วางคะแนนสูงสุด %{count} คะแนน"},"drop_lowest_rule":{"one":"วางคะแนนต่ำสุด","other":"วางคะแนนต่ำสุด %{count} คะแนน"},"never_drop_rule":"ห้ามดรอป %{assignment_name}","rules_text":{"one":"กฎ 1 ข้อ","other":"กฎ %{count} ข้อ"},"toggle_message":"เปิดปิดการแสดงภารกิจ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "AssignmentListItemView",
+  function() { return {"assignment_was_deleted_8320d26d":"ลบภารกิจแล้ว","move_assignment_6f890f64":"ย้ายภารกิจ"} },
+  function() { return {"complete":"เสร็จสิ้น","grade_gpa_scale_screenreader":"เกรด: %{grade}","grade_letter_grade_screenreader":"เกรด: %{grade}","grade_pass_fail_screenreader":"เกรด: %{grade}","grade_percent":"%{grade}%","grade_percent_screenreader":"เกรด: %{grade}%","incomplete":"ไม่เสร็จสิ้น"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "AssignmentSettingsView",
+  function() { return {"must_be_a_valid_number_59f0069":"จะต้องเป็นเลขที่ถูกต้อง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "AssignmentSyncSettingsView",
+  function() { return {"disabling_sync_to_name_failed_e7521ebb":"การปิดการซิงค์ไปยัง %{name} ล้มเหลว","sync_to_name_successfully_disabled_8045ad95":"ปิดใช้งานการซิงค์ไปยัง %{name} เสร็จสิ้น"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "CreateAssignmentView",
+  function() { return {"due_date_cannot_be_after_lock_date_675b30aa":"วันครบกำหนดจะอยู่หลังวันที่ล็อคไม่ได้","due_date_cannot_be_before_unlock_date_f263aab0":"วันครบกำหนดจะอยู่ก่อนวันที่ปลดล็อคไม่ได้","edit_assignment_ebf22a72":"แก้ไขภารกิจ"} },
+  function() { return {"name_is_required":"ต้องระบุชื่อ!","points_possible_number":"คะแนนที่ทำได้จะต้องเป็นตัวเลข"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "CreateGroupView",
+  function() { return {"a_name_is_required_b5df38a9":"ต้องระบุชื่อ","assignment_group_was_saved_successfully_5caa27d3":"กลุ่มภารกิจถูกบันทึกเสร็จสิ้น","name_is_too_long_48daa8db":"ชื่อยาวเกินไป","you_cannot_use_a_number_greater_than_the_number_of_af33e220":"คุณไม่สามารถใช้เลขที่มากกว่าจำนวนภารกิจ","you_must_use_a_number_912ce4bd":"คุณจะต้องใช้ตัวเลข","you_must_use_a_positive_number_203b86fe":"คุณจะต้องใช้จำนวนเต็มบวก"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "DeleteGroupView",
+  function() { return {"you_must_select_an_assignment_group_c16a2168":"คุณจะต้องเลือกกลุ่มภารกิจ"} },
+  function() { return {"cannot_delete_group":"คุณจะต้องมีกลุ่มภารกิจอย่างน้อยหนึ่งกลุ่ม","confirm_delete_group":"แน่ใจว่าต้องการลบกลุ่มภารกิจนี้หรือไม่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_assignments_found_17520826",
+  null,
+  function() { return {"one":"พบ 1 ภารกิจ","other":"พบ %{count} ภารกิจ","zero":"ไม่พบภารกิจที่ตรงกัน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignmentsNeverDrop",
+  null,
+  function() { return {"remove_never_drop_rule":"ลบกฎการห้ามดรอป","remove_unsaved_never_drop_rule":"ลบกฎการห้ามดรอกที่ไม่ได้บันทึกไว้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignmentsToggleShowByView",
+  function() { return {"show_by_709f525b":"แสดงจาก","show_by_date_e3967761":"แสดงจากวันที่","show_by_type_c5d61732":"แสดงจากประเภท"} },
+  function() { return {"overdue_assignments":"ภารกิจที่เกินกำหนด","past_assignments":"ภารกิจในอดีต","undated_assignments":"ภารกิจที่มีการอัพเดต","upcoming_assignments":"ภารกิจที่จะมีขึ้น"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_bulk_edit",
+  function() { return {"apply_date_range_selection_cc4351ed":"ปรับใช้การเลือกช่วงวันที่","assignment_dates_dccc98de":"วันที่ของภารกิจ","assignment_dates_saved_successfully_78e0f355":"บันทึกวันที่ของภารกิจเสร็จสิ้น","assignments_loaded_72ee472c":"โหลดภารกิจแล้ว","batch_edit_6d41d0d7":"แก้ไขรวม","batch_edit_dates_f1ec3df2":"วันที่แก้ไขรวม","default_dates_a0a2ae26":"วันที่เริ่มต้น","due_at_5d7d2fa":"ครบกำหนดเมื่อ","error_saving_assignment_dates_2af5e800":"เกิดข้อผิดพลาดในการบันทึกวันที่สำหรับภารกิจ: ","error_starting_save_operation_81bcb99":"เกิดข้อผิดพลาดในการเริ่มการบันทึก:","in_closed_grading_period_dc717846":"ในระยะเวลาให้เกรดที่สรุปแล้ว","invalid_dates_were_found_please_correct_them_and_t_4140b318":"พบวันที่ไม่ถูกต้อง กรุณาแก้ไขและลองใหม่อีกครั้ง","loading_assignments_b3b248be":"กำลังโหลดภารกิจ","only_the_moderator_can_edit_this_assignment_a162b20d":"เฉพาะโมเดอเรเตอร์เท่านั้นที่สามารถแก้ไขภารกิจนี้ได้","parent_assignment_is_not_selected_9efb4ac1":"ไม่ได้เลือกภารกิจสำหรับผู้ปกครองไว้","parent_assignment_is_selected_6a2fbca8":"เลือกภารกิจสำหรับผู้ปกครองแล้ว","remove_dates_9b9ba2f6":"ลบวันที่","remove_due_dates_and_assignment_availability_dates_608cd97b":"ลบวันครบกำหนดและวันที่จัดสรรภารกิจ","revert_date_changes_5105ce5":"คืนค่าการเปลี่ยนวันที่","saving_assignment_dates_progress_9856153d":"กำลังบันทึกวันที่สำหรับภารกิจ","saving_assignment_dates_progress_percent_a5ea89a1":"กำลังบันทึกวันที่สำหรับภารกิจ: %{percent}%","select_all_assignments_bd07b919":"เลือกภารกิจทั้งหมด","select_an_edit_operation_ec1467d":"เลือกการแก้ไข","select_assignment_title_4571ffcb":"เลือกภารกิจ: %{title}","select_by_date_range_c3af0101":"เลือกจากช่วงวันที่","select_dates_to_remove_be55b14c":"เลือกวันที่ที่จะลบ","selection_end_date_10fcc8c6":"วันที่สิ้นสุดรายการที่เลือก","selection_start_date_2e4a4dca":"วันที่เริ่มต้นรายการที่เลือก","shift_dates_b5a7b7a1":"ปรับวันที่","shift_due_dates_and_assignment_availability_dates__c5ad272":"ปรับวันครบกำหนดและวันที่จัดสรรภารกิจไปในอนาคตเป็นจำนวนวัน","the_end_date_must_be_after_the_start_date_2a273107":"วันที่สิ้นสุดจะต้องอยู่หลังจากวันที่เริ่มต้น","there_was_an_error_retrieving_assignment_dates_39320c15":"มีข้อผิดพลาดในการเรียกค้นวันที่ภารกิจ","this_assignment_has_no_default_dates_ae314295":"ภารกิจนี้ไม่มีวันที่กำหนดค่าไว้สำเร็จ","this_assignment_has_too_many_dates_to_display_262f555f":"ภารกิจนี้มีวันที่จัดแสดงมากเกินไป","you_do_not_have_permission_to_edit_this_assignment_59b53274":"คุณไม่มีสิทธิ์อนุญาตในการแก้ไขภารกิจนี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_assignments_selected_b03891ea",
+  null,
+  function() { return {"one":"เลือกไว้ %{count} ภารกิจ","other":"เลือกไว้ %{count} ภารกิจ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_bulk_edit_use_save_assignment",
+  function() { return {"there_was_an_error_retrieving_job_progress_266523f9":"มีข้อผิดพลาดในการเรียกค้นความคืบหน้าของงาน","there_was_an_error_starting_the_save_assignment_da_22ffb6a8":"มีข้อผิดพลาดในการเริ่มงาน บันทึกวันที่สำหรับภารกิจ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignment_index_menu",
+  function() { return {"assignment_groups_weight_2f1a5a7c":"น้ำหนักกลุ่มภารกิจ","assignment_options_1e5b7074":"ตัวเลือกภารกิจ","assignments_settings_30613d0c":"ค่าปรับตั้งภารกิจ","disable_sync_to_name_10c371dc":"ปิดใช้งานการซิงค์ไปยัง %{name}","edit_dates_ed31061":"แก้ไขวันที่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments",
+  function() { return {"add_an_assignment_fb73942e":"เพิ่มภารกิจ","add_another_assignment_fc5c908f":"เพิ่มภารกิจอื่น","add_assignment_to_name_caf173b0":"เพิ่มภารกิจไปยัง %{name}","allow_intra_group_peer_reviews_53f1e455":"อนุญาตให้มีความคิดเห็นจากผู้เกี่ยวข้องภายในกลุ่ม","anonymize_all_annotations_made_by_instructors_on_s_5540bc09":"ปิดรายละเอียดส่วนตัวสำหรับหมายเหตุกำกับทั้งหมดที่จัดทำโดยผู้สอนในผลงานจัดส่งสำหรับภารกิจนี้ใน DocViewer","anonymous_instructor_annotations_2b6c822":"หมายเหตุกำกับสำหรับผู้สอนแบบไม่เปิดเผยตัว","are_you_sure_you_want_to_disable_sync_to_sisname_f_f24245c1":"แน่ใจว่าต้องการปิดใช้งานการซิงค์ไปยัง %{sisName} สำหรับภารกิจทั้งหมดหรือไม่","assign_reviews_on_date_7e48ec50":"กำหนดการพิจารณาในวันที่","assignment_group_weights_and_drop_rules_can_t_be_e_7b5f305d":"น้ำหนักกลุ่มภารกิจและกฎการดรอปไม่สามารถแก้ไขได้เนื่องจากมีภารกิจในกลุ่มบางส่วนที่วันครบกำหนดสรุปไปแล้ว","assignment_group_weights_can_t_be_edited_because_t_b6b591ae":"น้ำหนักกลุ่มภารกิจไม่สามารถแก้ไขได้เนื่องจากมีภารกิจในกลุ่มบางส่วนที่วันครบกำหนดสรุปไปแล้ว","build_name_41ba9e7a":"จัดทำ %{name}","cancel_duplicating_originalassignmentname_fd7ee1d8":"ยกเลิกการจำลอง \"%{originalAssignmentName}\"","consider_selecting_multiple_submission_types_to_ac_f7e624d5":"พิจารณาเลือกประเภทผลงานจัดส่งหลาย ๆ ประเภทเพื่อรองรับผู้เรียนที่อาจไม่สามารถจัดทำหมายเหตุกำกับได้","copy_assignment_name_to_another_course_b62d0a54":"คัดลอกภารกิจ %{name} ไปยังบทเรียนอื่น","delete_assignment_name_deec56e3":"ลบภารกิจ %{name}","disabling_f594bda":"กำลังปิดใช้งาน...","do_not_count_this_assignment_towards_the_final_gra_4dd92e00":"ไม่นับรวมภารกิจนี้สำหรับเกรดสรุป","due_at_5e18eeac":"ครบกำหนดเมื่อ:","duplicate_assignment_name_3ca7d753":"จำลองภารกิจ %{name}","edit_assignment_name_a8f7fae1":"แก้ไขภารกิจ %{name}","edit_assignment_name_mastery_paths_40b50541":"แก้ไขเส้นทางพัฒนาความเชี่ยวชาญ %{name} สำหรับภารกิจ","edit_mastery_paths_for_name_c9fc59f9":"แก้ไขเส้นทางพัฒนาความเชี่ยวชาญสำหรับ %{name}","enter_or_find_an_external_tool_url_6aebbd0d":"กรอกหรือค้นหา URL เครื่องมือจากภายนอก","graders_cannot_view_each_other_s_names_b1fa7899":"ผู้ให้เกรดจะไม่สามารถดูชื่อของกันและกัน","graders_cannot_view_student_names_2e8d3ff9":"ผู้ให้เกรดไม่สามารถดูชื่อผู้เรียนได้","group_weight_for_d46c5db4":"น้ำหนักกลุ่มสำหรับ:","i_agree_to_the_tool_s_end_user_license_agreement_1ba71197":"ฉันยอมรับ*ข้อตกลงสิทธิ์ใช้งานผู้ใช้ปลายทาง*ของเครื่องมือนี้","if_you_change_an_assignment_s_points_possible_you__dba531cb":"หากต้องการแก้ไขคะแนนภารกิจ คุณจะต้องปรับเกรดผลงานจัดส่งต่าง ๆ","imported_from_posttosisname_f7cc9258":"นำเข้าจาก %{postToSISName}","making_a_copy_of_originalassignmentname_b7268992":"จัดทำสำเนาของ \"%{originalAssignmentName}\"","manage_assignment_31a132fb":"จัดการภารกิจ","manage_name_7f55f792":"จัดการ %{name}","move_assignment_contents_245c61bb":"ย้ายเนื้อหาภารกิจ","move_assignment_group_46e09fc3":"ย้ายกลุ่มภารกิจ","move_assignment_name_aa253f26":"ย้ายภารกิจ %{name}","move_contents_29713356":"ย้ายเนื้อหา...","move_group_77ae285d":"ย้ายกลุ่ม...","move_to_9b91c6e0":"ย้ายไป...","multiple_modules_930713d4":"หน่วยการเรียนหลายหน่วย","n_groupweight_percentage_of_total_2ae4d996":"%{n_groupWeight_percentage} จากทั้งหมด","n_pointspossible_points_possible_1d098245":"%{n_pointsPossible} คะแนนที่เป็นไปได้","n_pointspossible_pts_73274d36":"%{n_pointsPossible} คะแนน","new_assignment_2a984756":"ภารกิจใหม่","new_group_category_66be9cbd":"หมวดหมู่ใหม่ของกลุ่ม","no_points_possible_368669d":"ไม่มีคะแนนที่เป็นไปได้","not_published_73f7079":"ไม่ได้เผยแพร่","not_yet_graded_40475341":"ยังไม่ได้ให้เกรด","online_submission_type_file_uploads_24910d74":"ประเภทการจัดส่งออนไลน์ - การอัพโหลดไฟล์","online_submission_type_file_uploads_restrict_uploa_5ec7b263":"ประเภทการจัดส่งออนไลน์ - การอัพโหลดไฟล์ - จำกัดประเภทไฟล์อัพโหลด","online_submission_type_media_recordings_9424bf34":"ประเภทการจัดส่งออนไลน์ - ข้อมูลบันทึกสื่อมีเดีย","online_submission_type_student_annotation_733641b5":"ประเภทการจัดส่งออนไลน์ - หมายเหตุกำกับสำหรับผู้เรียน","online_submission_type_text_entry_ac56d100":"ประเภทการจัดส่งออนไลน์ - การกรอกข้อความ","online_submission_type_website_url_2c9df33d":"ประเภทการจัดส่งออนไลน์ - URL เว็บไซต์","oops_something_went_wrong_with_making_a_copy_of_or_7e9d6695":"อุ๊ปส์! มีบางอย่างผิดพลาดขณะทำสำเนา \"%{originalAssignmentName}\"","retry_duplicating_originalassignmentname_884aee1":"ลองจำลอง “%{originalAssignmentName}” อีกครั้ง","select_a_group_category_295f7a34":"เลือกหมวดหมู่กลุ่ม","send_assignment_name_to_another_user_e2ca494d":"ส่งภารกิจ %{name} ไปยังผู้ใช้อื่น","settings_for_assignment_name_c19565e1":"ค่าปรับตั้งสำหรับภารกิจ %{name}","some_settings_have_been_administratively_locked_9e3ee880":"ค่าปรับตั้งบางส่วนถูกล็อคไว้โดยผู้ดูแลระบบ","some_settings_have_been_disabled_because_the_assig_6b6cc3b4":"ค่าปรับตั้งบางส่วนถูกปิดใช้งานเนื่องจากภารกิจอยู่ในระยะเวลาการให้เกรดที่สรุปแล้ว","students_have_already_submitted_homework_on_this_a_7eb5cb6e":"ผู้เรียนจัดส่งการบ้านสำหรับภารกิจนี้แล้ว ไม่สามารถแก้ไขค่าปรับตั้งแพลตฟอร์มตรวจสอบการลอกเลียนเนื้อหาได้","this_assignment_has_been_excused_87f1dc13":"ภารกิจนี้ได้รับการยกเว้น","warning_for_improved_accessibility_of_reordering_a_5d0206c7":"คำเตือน: เพื่อให้สะดวกในการเรียงลำดับภารกิจและกลุ่มใหม่ กรุณาใช้ตัวเลือก ย้ายไปกล่องโต้ตอบ ในเมนูดังกล่าว","weight_final_grade_based_on_assignment_groups_3124161":"ถ่วงน้ำหนักเกรดสรุปตามกลุ่มภารกิจ","you_do_not_have_permissions_to_build_this_moderate_bd5d350a":"คุณไม่มีสิทธิ์อนุญาตในการจัดทำภารกิจที่มีการควบคุมนี้","you_do_not_have_permissions_to_edit_this_moderated_3195294f":"คุณไม่มีสิทธิ์อนุญาตในการแก้ไขภารกิจที่มีการควบคุมนี้"} },
+  function() { return {"assignment_group_create_dialog":{"assignment_group":{"labels":{"name":"ชื่อ"}},"buttons":{"add_group":"เพิ่มกลุ่ม","cancel":"ยกเลิก"},"links":{"add_assignment_group":"เพิ่มกลุ่มภารกิจ\""}},"assignment_group_list":{"no_assignment_groups":"ไม่พบกลุ่มภารกิจ"},"assignment_group_selector":{"assignment_group":"กลุ่มภารกิจ","assignment_group_options":{"create_group":"จัดทำกลุ่ม","new_group":"กลุ่มใหม่"}},"assignment_list_item":{"delete":"ลบ"},"assignment_list_item_score":{"assignment_grading_type_is_not_graded":"ภารกิจนี้จะไม่มีการให้เกรด","assignment_not_yet_graded_screenreader":"ยังไม่ได้ให้เกรดภารกิจ %{pointsPossible} คะแนนที่เป็นไปได้","empty_points_possible":"-/%{pointsPossible} คะแนน","no_submission":"ไม่มีผลงานจัดส่ง","no_submission_for_assignment_screenreader":"ไม่มีผลงานจัดส่งสำหรับภารกิจนี้ %{pointsPossible} คะแนนที่เป็นไปได้","score_with_points_possible":"*%{score}*/%{pointsPossible} คะแนน","score_with_points_possible_screenreader":"คะแนน: %{score} จาก %{pointsPossible} คะแนน"},"available_date_description":{"available_until":"ใช้ได้จนถึง","closed":"ปิดแล้ว","not_available_until":"ไม่มีจนถึง"},"create_assignment":{"assignment":"ภารกิจ","assignment_due_at":"ครบกำหนด:","assignment_name":"ชื่อ:","assignment_points":"คะแนน:","assignment_type":"ประเภท:","buttons":{"save_and_publish":"บันทึกและเผยแพร่"},"cancel":"ยกเลิก","differentiated_due_dates":"วันครบกำหนดที่แตกต่าง","discussion_type":"การพูดคุย","external_tool_type":"เครื่องมือจากภายนอก","more":"ตัวเลือกเพิ่มเติม","multiple_due_dates":"วันครบกำหนดหลายรายการ","not_graded_type":"ไม่ได้ลงเกรด","quiz_type":"แบบทดสอบ","save":"บันทึก","saving":"กำลังบันทึก..."},"create_group":{"cancel":"ยกเลิก","drop_highest":"คะแนนสูงสุด:","drop_lowest":"คะแนนต่ำสุด:","example_group_name":"เล่น กลุ่มเรียงความ 1","group_name":"ชื่อกลุ่ม:","never_drop":"ห้ามดรอป:","percent_of_total":"% เกรดรวม","save":"บันทึก","saving":"กำลังบันทึก..."},"date_available_column_view":{"available":"พร้อม","multiple_dates":"วันที่หลายรายการ"},"date_due_column_view":{"due":"ครบกำหนด","due_date":"ครบกำหนด","multiple_dates":"วันที่หลายรายการ","todo_date":"สิ่งที่ต้องทำ"},"delete_group":{"cancel":"ยกเลิก","delete":"ลบกลุ่ม","deleting":"กำลังลบ...","labels":{"delete_assignments_in_group":"ลบภารกิจภายใน","move_assignments_to":"ย้ายภารกิจภายในไปยัง"},"options":{"select_group":"เลือกกลุ่ม"},"tooltips":{"target_group":"เลือกกลุ่มที่จะเป็นปลายทางการย้ายภารกิจนี้"},"warnings":{"delete_assignment_group":"คุณกำลังจะลบ *%{name}* ซึ่งมี **%{assignment_count}** ภารกิจอยู่ภายใน"},"would_you_like":"คุณต้องการ:"},"edit_view":{"assignment_name":"ชื่อภารกิจ","buttons":{"build":"จัดทำ","save":"บันทึก","save_and_publish":"บันทึกและเผยแพร่"},"description":"รายละเอียด","freeze_properties":"ล็อคคุณสมบัติภารกิจเมื่อถูกคัดลอก","notify_content_change":"แจ้งผู้ใช้ว่าเนื้อหานี้มีการเปลี่ยนแปลง","points_possible":"คะแนน","submission_attempts":"ความพยายามในการจัดส่ง"},"external_content_homework_file_submission_view":{"additional_comments":"ข้อคิดเห็นเพิ่มเติม","buttons":{"submit_assignment":"จัดส่งภารกิจ"},"group_assignment_header":"ความเห็น..."},"external_content_homework_url_submission_view":{"additional_comments":"ข้อคิดเห็นเพิ่มเติม","buttons":{"submit_assignment":"จัดส่งภารกิจ"},"group_assignment_header":"ความเห็น..."},"grading_type_selector":{"display_grade_as":"แสดงเกรดเป็น","gpa_scale_explainer":"เกรดคะแนน GPA จัดทำขึ้นสำหรับสถานศึกษาที่ใช้เกรดแบบ 4.0 (หรือ 5.0/6.0) สำหรับภารกิจทั้งหมด รูปแบบการให้เกรดนี้จะคล้าย ๆ กับการจัดแสดงเกรดตัวอักษรแต่จะมีความแตกต่างที่สำคัญ ๆ ได้แก่","gpa_scale_input_explainer":"คะแนนที่จะใช้เกณฑ์คะแนน 4.0 เช่น หากภารกิจมี 100 คะแนน ผลคะแนน 4.0 จะเท่ากับ 100%, 3.0 จะเท่ากับ 87% เป็นต้น","gpa_scale_letters_explainer":"เกรดแบบตัวอักษรสามารถใช้เพิ่มเติมจากเกรดแบบตัวเลข","gpa_scale_percentage_explainer":"คุณไม่สามารถกรอกคะแนนได้โดยตรง แต่สามารถกรอกเป็นเปอร์เซ็นต์ได้ เช่น หากภารกิจมี 50 คะแนน ตัวเลข “40” จะไม่สามารถใช้ได้ แต่จะต้องกรอกเป็น “80%”","gpa_scale_recommendation":"หากสถานศึกษาคุณไม่ใช้เกณฑ์คะแนน 4.0 (หรือ 5.0/6.0) สำหรับให้เกรด Canvas ขอแนะนำให้แสดงเกรดเป็นตัวอักษร","gpa_scale_scores_explainer":"คะแนนที่อนุญาตจะมีกำหนดไว้สำเร็จในรูปแบบการให้เกรด","gpa_scale_title":"\"การให้เกรดระดับ GPA คืออะไร\"","view_grading_scheme":"ดูรูปแบบการให้เกรด"},"group_category_selector":{"grade_group_students_individually":"กำหนดเกรดให้กับผู้เรียนแต่ละรายแยกกัน","group_assignment_header":"ภารกิจของกลุ่ม","group_category_locked_explanation":"ผู้เรียนจัดส่งการบ้านสำหรับภารกิจนี้แล้ว ค่าปรับตั้งกลุ่มจึงไม่สามารถแก้ไขได้","group_set":"ชุดกลุ่ม","is_group_assignment":"นี่เป็นภารกิจของกลุ่ม"},"index_view":{"add_assignment":"ภารกิจ","add_group":"กลุ่ม","add_quiz_lti":"แบบทดสอบ/การทดสอบ","assignments":"ภารกิจ","search_for_assignment":"ค้นหาภารกิจ","title_add_assignment":"เพิ่มภารกิจ","title_add_group":"เพิ่มกลุ่มภารกิจ","title_add_quiz_lti":"เพิ่มแบบทดสอบ/การทดสอบ"},"no_assignments_list_item":{"no_assignments_in_this_group":"ไม่มีภารกิจในกลุ่มนี้"},"no_assignments_search":{"aria_assignments":"ภารกิจ","assignments":"ภารกิจ","no_assignments_found":"ไม่พบภารกิจ"},"peer_reviews":{"messages":{"cancel_peer_review":"ยกเลิกความคิดเห็นจากผู้เกี่ยวข้องนี้หรือไม่"},"titles":{"remind":"แจ้งเตือน %{assessor} เกี่ยวกับการประเมิน แจ้งล่าสุด %{time}","reminder":"แจ้งเตือน %{assessor} เกี่ยวกับการประเมิน แจ้งล่าสุด %{time}"}},"peer_reviews_selector":{"anonymous_peer_reviews":"การปกปิดตัวตน","how_to_peer_review":"การกำหนดความคิดเห็นจากผู้เกี่ยวข้อง","labels":{"anonymous_peer_reviews":"ความคิดเห็นจากผู้เกี่ยวข้องปรากฏขึ้นแบบไม่ระบุตัวตน","automatically_assign_peer_reviews":"กำหนดความคิดเห็นจากผู้เกี่ยวข้องอัตโนมัติ","manually_assign_peer_reviews":"กำหนดความคิดเห็นจากผู้เกี่ยวข้องด้วยตัวเอง","require_peer_reviews":"ต้องมีความคิดเห็นจากผู้เกี่ยวข้อง"},"locked_until":"กำหนดความคิดเห็น","peer_reviews_assign_at_explanation":"หากปล่อยว่างไว้ ให้ใช้วันครบกำหนด","peer_reviews_header":"ความคิดเห็นจากผู้เกี่ยวข้อง","reviews_per_user":"ความคิดเห็นต่อผู้ใช้"},"submission_types_form":{"advanced_turnitin_settings":"ค่าปรับตั้ง Turnitin ขั้นสูง","advanced_vericite_settings":"ค่าปรับตั้ง VeriCite ขั้นสูง","descriptions":{"allowed_extensions":"กรอกรายการนามสกุลที่ใช้ได้ เช่น doc, xls, txt"},"external_tool_group_warning":"ภารกิจของกลุ่มจะใช้เครื่องมือจากภายนอกไม่ได้ ค่าปรับตั้งของกลุ่มจะถูกลบเครื่องหมายกำกับเมื่อคุณทำการบันทึก","external_tool_options":"ตัวเลือกชุดเครื่องมือจากภายนอก","label":{"external_tool_new_tab":"โหลดเครื่องมือนี้ในแท็บใหม่","turnitin_enabled":"เปิดใช้งานการจัดส่งของ Turnitin","vericite_enabled":"เปิดใช้งานการจัดส่งของ VeriCite"},"labels":{"allow_file_uploads":"การอัพโหลดไฟล์","allow_media_recordings":"การบันทึกสื่อมีเดีย","allow_text_entry":"การกรอกข้อความ","allow_url":"URL เว็บไซต์","allowed_extensions":"นามสกุลที่ใช้ได้","allows_annotated_document":"หมายเหตุกำกับสำหรับผู้เรียน","restrict_file_extensions":"จำกัดประเภทไฟล์อัพโหลด"},"online_entry_options":"ตัวเลือกการป้อนข้อมูลออนไลน์","submission_type":"ประเภทการจัดส่ง","submission_types":{"external_tool":"เครื่องมือจากภายนอก","no_submission":"ไม่มีผลงานจัดส่ง","on_paper":"เอกสาร","online":"ออนไลน์"}},"turnitin_settings_dialog":{"assignments":{"turnitin_settings":{"labels":{"exclude_small_matches":"ตรงกันจำนวนเล็กน้อย"}}},"buttons":{"update_settings":"อัพเดตค่าปรับตั้ง"},"turnitin_settings":{"labels":{"compare_against":"เปรียบเทียบกับ","do_not_consider":"ไม่พิจารณา","exclude_biblio":"ข้อมูลบรรณานุกรม","exclude_quoted":"ชุดข้อมูลที่เสนอ","internet_check":"ฐานข้อมูลอินเทอร์เน็ต","journal_check":"บันทึก วารสารและผลงานเผยแพร่","student_paper_check":"เอกสารอื่น ๆ ของผู้เรียน","submit_papers_to":"รวมในคลัง","turnitin_repository":"คลังของ Turnitin"},"originality_report_never":"ไม่เลย","originality_report_visibility":"ผู้เรียนสามารถดูรายงานต้นขั้ว","originality_report_visible_after_due_date":"หลังจากวันครบกำหนด","originality_report_visible_after_grading":"หลังจากให้เกรดภารกิจ","originality_report_visible_immediately":"ทันที","settings_exclude_fewer_than_count":"น้อยกว่า %{wordsInput} คำ","settings_exclude_less_than_percent":"น้อยกว่า %{percentInput} ของเอกสาร"}},"veri_cite_settings_dialog":{"buttons":{"update_settings":"อัพเดตค่าปรับตั้ง"},"vericite_settings":{"originality_report_never":"ไม่เลย","originality_report_visibility":"ผู้เรียนสามารถดูรายงานต้นขั้ว","originality_report_visible_after_due_date":"หลังจากวันครบกำหนด","originality_report_visible_after_grading":"หลังจากให้เกรดภารกิจ","originality_report_visible_immediately":"ทันที"}}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_student_header_date_title",
+  function() { return {"due_5d7267be":"ครบกำหนด:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2",
+  function() { return {"add_submission_type_8690db4b":"เพิ่มประเภทผลงานจัดส่ง","all_comments_are_sent_to_the_whole_group_778126f3":"ความเห็นทั้งหมดจะถูกจัดส่งไปยังกลุ่มทั้งหมด","all_image_types_allowed_9c65004d":"ประเภทของภาพที่อนุญาต","all_media_types_allowed_3c0cdce7":"ประเภทสื่อทั้งหมดที่อนุญาต","all_submission_comments_have_been_marked_as_read_74c0683b":"ความเห็นสำหรับผลงานจัดส่งทั้งหมดถูกกำกับว่าอ่านแล้ว","all_types_allowed_287eb6b0":"ทุกประเภทที่อนุญาต","an_error_occured_saving_the_assignment_d71cb3d2":"เกิดข้อผิดพลาดในการบันทึกภารกิจ","and_7fcc2911":"และ","arc_a935e585":"ARC","assign_to_6b806cd9":"กำหนดให้กับ:","assign_to_95404a83":"กำหนดให้กับ","assignment_locked_a6233228":"ภารกิจถูกล็อคไว้","assignment_locked_until_future_date_80cd0df2":"ล็อคภารกิจไว้จนถึงวันที่ในอนาคต","assignment_locked_with_prerequisite_5b8cb148":"ล็อคภารกิจไว้พร้อมเงื่อนไขเบื้องต้น","assignment_name_12eadcbd":"ชื่อภารกิจ","assignment_name_is_required_9d17311b":"ต้องระบุชื่อภารกิจ","assignment_type_60255aac":"ประเภทภารกิจ","assignments_2_teacher_view_error_page_8e45dedc":"หน้าข้อผิดพลาดมุมมองผู้สอน ภารกิจ 2","at_791460b3":"เมื่อ","attach_a_file_86a4fc00":"แนบไฟล์","attached_d7423f41":"แนบแล้ว","attempt_attempt_feedback_1b042ff5":"ผลตอบรับของการดำเนินการ %{attempt}","attempt_count_267a4fc5":"การดำเนินการ %{count}","attempt_number_83dcd86a":"การดำเนินการ %{number}","attempts_allowed_8441aadf":"การดำเนินการที่อนุญาต","audio_1c89b0c8":"เสียง","available_2ed9f226":"พร้อมใช้:","available_after_3416802b":"พร้อมใช้หลังจาก","available_d3bb0b5c":"พร้อม ","available_date_must_be_before_the_due_date_cbab390b":"วันที่พร้อมใช้จะต้องอยู่ก่อนวันครบกำหนด","available_date_must_be_before_the_until_date_9ccc52b":"วันที่พร้อมใช้จะต้องอยู่ก่อนวันที่ ถึง","available_until_3278ebe9":"ใช้ได้จนถึง","avi_2d8cc99f":"AVI","bmp_e297149c":"BMP","body_f48fe5cd":"เนื้อหา:","click_to_hide_details_f7d353d9":"คลิกเพื่อซ่อนรายละเอียด","click_to_show_details_310154eb":"คลิกเพื่อแสดงรายละเอียด","close_17f50799":"ปิด","close_student_details_2f6900":"ปิดรายละเอียดผู้เรียน","code_93e9abbb":"รหัส","coming_soon_79d46687":"เร็ว ๆ นี้","comment_input_box_b8c7e58b":"กล่องกรอกความเห็น","confirm_delete_a5239715":"ยืนยันการลบ","creating_a_group_is_not_yet_handled_by_the_new_ass_3360471d":"การจัดทำกลุ่มยังไม่มีการจัดการโดยโครงสร้างภารกิจใหม่ ไปยังเพจภารกิจเดิมหรือไม่","csv_de77e441":"CSV","delete_assignment_5d3f3f15":"ลบภารกิจ","delete_this_submission_type_37a0809c":"ลบประเภทการจัดส่งนี้","deleting_assignment_22d5851d":"กำลังลบภารกิจ","disable_extra_filter_options_1d1cdc02":"ปิดใช้งานตัวเลือกตัวกรองเสริม","doc_50924b72":"DOC","doc_c63509f8":"doc","due_639f281d":"ครบกำหนด: ","due_available_and_until_dates_f90713da":"ครบกำหนด พร้อมใช้งานและจนถึงวันที่","due_date_must_be_after_the_available_date_94f03d92":"วันครบกำหนดจะต้องอยู่หลังจากวันที่พร้อมใช้งาน","due_date_must_be_before_the_until_date_740484c5":"วันครบกำหนดจะต้องอยู่ก่อนวันที่ จนถึง","edit_assignment_name_8a7af80c":"แก้ไขชื่อภารกิจ","edit_points_3a339cd8":"แก้ไขคะแนน","edit_when_36c1c2c8":"แก้ไข %{when}","enable_extra_filter_options_b52c23e6":"เปิดใช้งานตัวเลือกตัวกรองเสริม","eps_81bd3fbf":"EPS","error_sending_messages_13c874eb":"เกิดข้อผิดพลาดในการส่งข้อความ","error_sending_submission_comment_dc15d24f":"เกิดข้อผิดพลาดในการส่งความเห็นสำหรับผลงานจัดส่ง","everyone_else_cc5f6888":"คนอื่น ๆ ทั้งหมด","extend_due_date_20651e76":"ขยายวันครบกำหนด","file_6863ad33":"ไฟล์","file_select_filename_folder_contents_9146bab7":"เลือกไฟล์, เนื้อหาโฟลเดอร์ %{filename}","file_size_exceeds_the_maximum_of_max_mb_edb41d85":"ขนาดไฟล์เกินกว่าขีดจำกัดสูงสุดที่ %{max} MB","filter_students_2327fe79":"กรองผู้เรียน","flash_ab3ad95e":"แฟลช","flv_15e62834":"FLV","gif_74e4a622":"GIF","group_assignment_7060989f":"ภารกิจของกลุ่ม","html_fc8563c6":"html","image_c1c98202":"ภาพ","in_class_23eeca38":"ในชั้นเรียน","invalid_date_and_time_1a42d206":"วันที่และเวลาไม่ถูกต้อง","invalid_date_or_time_333acd43":"วันที่หรือเวลาไม่ถูกต้อง","invalid_date_time_3ae423f5":"วันที่-เวลาไม่ถูกต้อง","item_count_3c7bae0d":"รายการ %{count}","jpg_903bacff":"JPG","label_3c9a991":"%{label}:","load_previous_comments_c3aaa07d":"โหลดความเห็นก่อนหน้า","message_student_f12b37a6":"ส่งข้อความถึงผู้เรียน","message_students_who_369b8488":"ส่งข้อความถึงผู้เรียนที่...","message_students_who_778ce759":"ส่งข้อความถึงผู้เรียนที่","messages_sent_b851d0dd":"ส่งข้อความแล้ว","modified_by_c1584b3c":"แก้ไขโดย","modified_by_user_e6c8ade3":"แก้ไขโดย: %{user}","modules_b8f6aa9":"หน่วยการเรียน","more_modules_d9a9f003":"หน่วยการเรียนเพิ่มเติม","mov_329e9416":"ย้าย","mp3_c21c0f5f":"MP3","mp4_5c789afc":"MP4","name_name_913c785b":"ชื่อ: %{name}","next_e0d38b1f":"ถัดไป","no_assignment_group_assigned_8f1cdb9b":"ไม่มีกลุ่มภารกิจที่จัดสรร","no_grade_for_assignmenttitle_83baad53":"ไม่มีเกรดสำหรับ %{assignmentTitle}","no_label_date_ff3a372f":"ไม่มีวันที่สำหรับ %{label}","no_module_assigned_ca183bd7":"ไม่มีหน่วยการเรียนที่กำหนด","no_submission_fb131a40":"ไม่มีผลงานจัดส่ง","no_submission_for_assignmenttitle_243bd1f4":"ไม่มีผลงานจัดส่งสำหรับ %{assignmentTitle}","non_canvas_11f36d4a":"ไม่ใช่ Canvas","now_viewing_attempt_current_attempt_918e616":"กำลังดูส่วนการดำเนินการ %{current_attempt}","on_paper_46d0ba36":"เอกสาร","open_student_context_tray_24c1b1d6":"เปิดถาดข้อมูลเนื้อหาสำหรับผู้เรียน","or_9b70ccaa":"หรือ","overview_of_student_status_a004bcf3":"ภาพรวมสถานะผู้เรียน","pdf_4e842f10":"pdf","peer_review_assignment_7d314c59":"ภารกิจความคิดเห็นจากผู้เกี่ยวข้อง","peer_reviewed_assignments_are_not_yet_handled_in_t_5eef60fb":"ภารกิจความคิดเห็นจากผู้เกี่ยวข้องยังไม่ได้มีการจัดการในกระบวนการสำหรับภารกิจใหม่ ไปที่เพจเดิมสำหรับการจัดทำภารกิจหรือไม่","please_visit_your_modules_page_for_more_informatio_846c5e32":"กรุณาเข้าไปที่*เพจหน่วยการเรียน*ของคุณเพื่อดูรายละเอียดเพิ่มเติม","png_55cbb586":"PNG","points_is_required_9a9d05b2":"ต้องระบุคะแนน","points_must_0_3bff353":"คะแนนจะต้อง \u003e= 0","points_must_be_a_number_0_daa4f7dc":"คะแนนจะต้องเป็นตัวเลข \u003e= 0","ppt_534cb87":"PPT","preview_filename_f1b58572":"แสดงตัวอย่าง %{filename}","preview_unavailable_aacd459a":"ไม่มีการแสดงตัวอย่าง","previous_445ca243":"ก่อนหน้า","psd_33ae8820":"PSD","ptt_f7ff4c09":"ptt","quizzes_are_not_yet_handled_in_the_new_assignments_3898536a":"แบบทดสอบยังไม่มีการจัดการในโครงสร้างภารกิจใหม่ ไปที่เพจจัดทำแบบทดสอบเดิมหรือไม่","record_audio_video_d9993f6c":"บันทึกเสียง/วิดีโอ","remove_studentname_16ba8c3a":"ลบ %{studentName}","return_to_parent_folder_4ece2184":"กลับไปที่โฟลเดอร์ต้นทาง","rtf_9165aba5":"RTF","saving_assignment_fb958949":"กำลังบันทึกภารกิจ","score_student_points_possible_points_78360e86":"คะแนน {{student_points}}/{{possible_points}}","scored_less_than_score_on_assignmenttitle_5a011033":"ทำคะแนนได้น้อยกว่า %{score} ใน %{assignmentTitle}","scored_more_than_score_on_assignmenttitle_2afa1d32":"ทำคะแนนได้มากกว่า %{score} ใน %{assignmentTitle}","search_by_student_name_26536097":"ค้นหาจากชื่อผู้เรียน","send_a_message_4600821d":"ส่งข้อความ","send_comment_4e05f2fb":"ส่งความเห็น","sending_messages_effc7237":"กำลังส่งข้อความ","sending_messages_f8f41998":"กำลังส่งข้อความ...","size_size_a77bd760":"ขนาด: %{size}","sorry_something_broke_91c15918":"ขออภัย บางอย่างไม่สมบูรณ์","speedgrader_d9a6fa90":"Speedgrader","state_published_e42697da":"สถานะ: เผยแพร่แล้ว","state_unpublished_e19c06e6":"สถานะ: เลิกเผยแพร่แล้ว","student_points_possible_points_196c7108":"{{student_points}}/{{possible_points}}","subject_1bc03dea":"หัวเรื่อง:","submission_comment_sent_3f2af3d0":"ส่งความเห็นสำหรับผลงานจัดส่งแล้ว","submission_date_8f659c0c":"วันที่จัดส่ง","submission_items_b2db1b8d":"รายการผลงานจัดส่ง","submission_type_a925fc5f":"ประเภทการจัดส่ง","submit_a_comment_7edbf648":"ส่งความเห็น","submit_for_student_d90838e8":"ส่งสำหรับผู้เรียน","svg_d5969386":"SVG","text_df773ce4":"ข้อความ","text_entry_e1808b2f":"การกรอกข้อความ","the_date_is_not_valid_b6285fb5":"วันที่ไม่ถูกต้อง","there_was_a_problem_marking_submission_comments_as_27c2f5c7":"มีปัญหาในการแสดงความเห็นสำหรับผลงานจัดส่งว่าอ่านแล้ว","this_assignment_is_currently_unavailable_because_y_129792e0":"ภารกิจนี้ปัจจุบันไม่พร้อมใช้งานเนื่องจากคุณยังไม่ผ่านเงื่อนไขเบื้องต้นที่ผู้สอนกำหนด","this_assignment_is_part_of_an_unpublished_module_a_4e25b3c5":"ภารกิจนี้เป็นส่วนหนึ่งของหน่วยการเรียนที่ไม่ได้เผยแพร่และยังไม่พร้อมใช้งาน","this_is_where_you_can_leave_a_comment_and_view_you_a2259ec8":"คุณสามารถแสดงความคิดเห็นทิ้งไว้และดูข้อเสนอแนะจากผู้สอนของคุณ","tiff_c70066a3":"TIFF","to_1126ab55":" เป็น","to_f0e90538":"ถึง:","txt_cae4e953":"TXT","type_file_14f017c9":"ประเภท: ไฟล์ข้อมูล","type_folder_115f3b07":"ประเภท: โฟลเดอร์","unable_to_delete_assignment_abcf8d62":"ไม่สามารถลบภารกิจ","unlimited_attempts_81a37d4":"การดำเนินการที่ไม่จำกัด","until_6437a827":" จนถึง","until_date_must_be_after_the_available_date_8670dfcd":"วันที่จนถึงจะต้องอยู่หลังจากวันที่พร้อมใช้งาน","until_date_must_be_after_the_due_date_d961566c":"วันที่จนถึงจะต้องอยู่หลังจากวันครบกำหนด","url_22a5f3b8":"URL","video_78335c71":"วีดีโอ","view_rubric_d71cce10":"ดูเกณฑ์การให้คะแนน","wmv_1119d032":"WMV","working_b1f63edf":"กำลังดำเนินการ...","xls_733452c1":"XLS","xls_e593104b":"xls","you_cannot_leave_comments_until_you_submit_the_ass_de0f2024":"คุณไม่สามารถแสดงความเห็นได้จนกว่าจะส่งภารกิจนี้","you_cannot_publish_this_assignment_while_there_are_e3dee69a":"คุณไม่สามารถเผยแพร่ภารกิจนี้ได้ขณะที่มีข้อผิดพลาด","you_cannot_save_while_there_are_errors_b86585e9":"คุณไม่สามารถบันทึกได้ขณะที่มีข้อผิดพลาด","you_have_count_submissions_to_grade_6c5b511a":"คุณมี %{count} ผลงานจัดส่งที่จะให้เกรด","you_may_not_see_all_comments_for_this_assignment_u_61817628":"คุณจะไม่เห็นความเห็นทั้งหมดสำหรับภารกิจนี้จนกว่าจะมีการแจ้งเกรด","you_must_provide_a_date_with_a_time_ec369ff4":"คุณจะต้องแจ้งวันที่พร้อมเวลา","zip_26961da":"zip"} },
+  function() { return {"attempts":{"filter":"การดำเนินการ"},"submission_attempts":"การดำเนินการ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "attempts_22baad",
+  null,
+  function() { return {"one":"การดำเนินการ","other":"การดำเนินการ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_attempts_d23c69a0",
+  null,
+  function() { return {"one":"1 การดำเนินการ","other":"%{count} การดำเนินการ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_attempt_tab",
+  function() { return {"available_submission_types_1c577ae5":"ประเภทผลงานจัดส่งที่มี","choose_a_submission_type_8f45651a":"เลือกประเภทการจัดส่ง","keep_in_mind_this_submission_will_count_for_everyo_9b18472c":"ผลงานจัดส่งนี้จะพิจารณาสำหรับทุกคนในกลุ่ม %{groupName} ของคุณ","more_submission_options_c8d50818":"ตัวเลือกการจัดส่งเพิ่มเติม","select_submission_type_displayname_97e47bc2":"เลือกประเภทการจัดส่ง %{displayName}","submission_type_displayname_currently_selected_3f8aa9f8":"ประเภทการจัดส่ง %{displayName} ถูกเลือกในปัจจุบัน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_external_tool",
+  function() { return {"website_url_url_bd07233d":"URL เว็บไซต์: %{url}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_file_upload",
+  function() { return {"back_to_attempt_attempt_ffb22bb8":"กลับไปที่การดำเนินการ %{attempt}","cancel_attempt_attempt_aab8c2a9":"ยกเลิกการดำเนินการ %{attempt}","canceling_this_attempt_will_permanently_delete_any_21ce850c":"การยกเลิกการดำเนินการนี้เป็นการลบงานที่ดำเนินการที่เกี่ยวข้องกันนี้ไปอย่างถาวร ต้องการดำเนินการต่อและลบงานของคุณหรือไม่","choose_a_file_to_upload_a63bac0f":"เลือกไฟล์ที่จะอัพโหลด","confirm_submission_e3b43f1":"ยืนยันการส่ง","delete_work_e377128b":"ลบงาน","delete_your_work_fe136221":"ลบงานของคุณหรือไม่","draft_saved_eba9cfeb":"บันทึกร่างแล้ว","drag_a_file_here_or_1aaf19c1":"ลากไฟล์ที่นี่หรือ","drag_a_file_here_or_click_to_select_a_file_to_uplo_ad482dda":"ลากไฟล์ที่นี่หรือคลิกเพื่อเลือกไฟล์ที่จะอัพโหลด","error_adding_canvas_file_to_submission_draft_de258021":"มีข้อผิดพลาดในการเพิ่มไฟล์ Canvas ไปยังร่างสำหรับการจัดส่ง","error_adding_files_to_submission_draft_6acac337":"มีข้อผิดพลาดในการเพิ่มไฟล์ไปยังร่างการจัดส่ง","error_canceling_draft_ec3dbdc9":"มีข้อผิดพลาดในการยกเลิกฉบับร่าง","error_saving_draft_295be180":"มีข้อผิดพลาดในการบันทึกร่าง","error_sending_submission_d32dc075":"เกิดข้อผิดพลาดในการส่งผลงานจัดส่ง","error_updating_submission_draft_1d40ade7":"เกิดข้อผิดพลาดในการอัพเดตร่างผลงานจัดส่ง","file_permitted_filetypes_714e4e8d":"ไฟล์ที่อนุญาต: %{fileTypes}","i_agree_to_the_tool_s_end_user_license_agreement_c77fa44d":"ฉันยอมรับ*ข้อตกลงสิทธิ์ใช้งานผู้ใช้ปลายทาง*ของเครื่องมือนี้","mark_as_done_6fa48d2f":"กำกับว่าเสร็จสิ้นแล้ว","next_module_66f58e91":"หน่วยการเรียนถัดไป","previous_module_8801a74b":"หน่วยการเรียนก่อนหน้า","remove_displayname_a2f31aa3":"ลบ %{displayName}","saving_draft_c97afab3":"กำลังบันทึกร่าง","submission_draft_updated_e953166a":"อัพเดตร่างผลงานจัดส่งแล้ว","submission_sent_3f0d2ee1":"ส่งผลงานจัดส่งแล้ว","submit_assignment_5799b4e3":"จัดส่งภารกิจ","there_was_a_problem_loading_module_information_e79926f4":"มีปัญหาในการโหลดข้อมูลหน่วยการเรียน","upload_progress_for_name_39f03acf":"สถานะการอัพโหลดสำหรับ %{name}","uploaded_files_11f11564":"ไฟล์ที่อัพโหลด","you_are_submitting_a_submissiontype_submission_onl_29c1cdc1":"คุณกำลังจัดส่ง %{submissionType} ผลงานจัดส่ง อนุญาตเพียงหนึ่งประเภทการจัดส่ง ประเภทการจัดส่งอื่น ๆ ทั้งหมดจะถูกลบทิ้ง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_media_attempt",
+  function() { return {"panda_taking_photograph_8db13e0f":"แพนด้ากำลังถ่ายภาพ","rocketship_on_launchpad_4011ea8c":"จรวดบนฐานปล่อย","there_was_an_error_submitting_your_attempt_fdbe9259":"มีข้อผิดพลาดในการส่งข้อมูลการดำเนินการของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_MoreOptions_CanvasFiles",
+  function() { return {"current_folder_path_e094d59":"เส้นทางโฟลเดอร์ในปัจจุบัน","root_523acd46":"ราก"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_MoreOptions",
+  function() { return {"canvas_files_889a274f":"ไฟล์ Canvas","submit_file_using_label_9fa4bbb7":"ส่งไฟล์โดยใช้ %{label}","take_a_photo_via_webcam_954f2433":"ถ่ายภาพผ่านเว็บแคม","user_groups_query_error_bba6a6b7":"ข้อผิดพลาดการสืบค้นกลุ่มผู้ใช้","webcam_photo_ee55462c":"ภาพเว็บแคม"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "webcam_modal",
+  function() { return {"canvas_needs_acccess_to_your_camera_16db6502":"Canvas ต้องการใช้งานกล้องของคุณ","canvas_needs_access_to_your_camera_b5418c0":"Canvas ต้องการใช้งานกล้องของคุณ","enter_a_filename_for_the_photo_4f0fc10e":"กรอกชื่อไฟล์สำหรับภาพ","take_photo_b06762f9":"ถ่ายภาพ","use_this_photo_3a594830":"ใช้ภาพนี้","you_can_provide_this_access_in_your_browser_settin_2b81a586":"คุณสามารถจัดสรรการใช้งานนี้ในค่าปรับตั้งสำหรับเบราเซอร์ของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_student_annotation",
+  function() { return {"document_to_annotate_d37b93bc":"เอกสารที่จะทำหมายเหตุกำกับ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_url_entry",
+  function() { return {"enter_web_url_483c2cbb":"กรอก URL ทางเว็บ","http_67e238b4":"http://","please_enter_a_valid_url_e_g_http_example_com_b97051b4":"กรุณากรอก url ที่ถูกต้อง (เช่น http://example.com)","preview_website_url_eb5b8a5f":"แสดงตัวอย่าง url เว็บไซต์","website_url_input_1a3eab25":"ข้อมูล url เว็บไซต์"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_student_points_display",
+  function() { return {"formattedgrade_points_576abfea":"%{formattedGrade} *คะแนน*","ungraded_147a0dce":"ยกเลิกการให้เกรดแล้ว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "formattedpoints_possible_points_b0473a26",
+  null,
+  function() { return {"one":"*1* คะแนนที่เป็นไปได้","other":"*%{formattedPoints}* คะแนนที่เป็นไปได้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "ungraded_formattedpoints_possible_points_1a7666e5",
+  null,
+  function() { return {"one":"เลิกให้เกรดแล้ว, 1 คะแนนที่เป็นไปได้","other":"เลิกให้เกรดแล้ว, %{formattedPoints} คะแนนที่เป็นไปได้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_student_header",
+  function() { return {"add_comment_3205529f":"เพิ่มความเห็น","after_the_first_attempt_you_cannot_leave_comments__3922325f":"หลังจากการดำเนินการในครั้งแรก คุณจะไม่สามารถแสดงความเห็นได้จนกว่าจะส่งภารกิจนี้","attempt_attempt_score_2a973edc":"คะแนน %{attempt} สำหรับการทำกิจกรรม:","next_up_review_feedback_19a15e0e":"ลำดับบนถัดไป: พิจารณาผลตอบรับ","next_up_submit_assignment_793a9d41":"ถัดไปเลื่อนขึ้น: จัดส่งภารกิจ","offline_score_8d7b4779":"คะแนนออฟไลน์:","review_feedback_4b4abb38":"พิจารณาผลตอบรับ","submission_progress_323f5e7b":"ความคืบหน้าผลงานจัดส่ง","submitted_on_a09f839e":"จัดส่งเมื่อ","submitted_on_bb3b53fc":"จัดส่งเมื่อ","this_assignment_is_complete_5e096a06":"ภารกิจนี้เสร็จสิ้นแล้ว!","view_feedback_f2feabca":"ดูข้อเสนอแนะ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "a2_AccessibleTipContent",
+  function() { return {"attempt_attempt_grade_c01f45df":"การดำเนินการ %{attempt}: %{grade}","grade_grade_7e52dd1c":"เกรด: %{grade}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "late_penalty_minus_count_points_810572fe",
+  null,
+  function() { return {"one":"โทษปรับล่าช้า: ลบ 1 คะแนน","other":"โทษปรับล่าช้า: ลบ %{count} คะแนน","zero":"โทษปรับล่าช้า: ไม่มี"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "a2LatePolicyStatusDisplay",
+  function() { return {"late_policy_d3f95a91":"นโยบายล่าช้า:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "late_policy_minus_count_points_1a945541",
+  null,
+  function() { return {"one":"นโยบายล่าช้า: ลบ 1 คะแนน","other":"นโยบายล่าช้า: ลบ %{count} คะแนน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "_count_points_23dc93e0",
+  null,
+  function() { return {"one":"-1 คะแนน","other":"-%{count} คะแนน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_login_action_prompt",
+  function() { return {"accept_course_invitation_b4c04fbb":"ตอบรับคำเชิญสำหรับบทเรียน","accept_course_invitation_to_participate_in_this_as_b8342676":"ตอบรับคำเชิญสำหรับบทเรียนในการเข้าร่วมภารกิจนี้","course_has_not_started_yet_ed525dcc":"บทเรียนยังไม่ได้เริ่มต้น","log_in_c9e240ef":"ล็อกอิน","log_in_to_submit_962106cf":"ล็อกอินเพื่อส่ง","submission_locked_a6074f8b":"ผลงานจัดส่งถูกล็อคไว้","submission_locked_image_93aced38":"ภาพผลงานจัดส่งที่ถูกล็อคไว้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_student_content",
+  function() { return {"warning_for_improved_accessibility_with_annotated__43e3a5ea":"คำเตือน: เพื่อให้การใช้งานกับภารกิจแบบมีหมายเหตุกำกับดีขึ้น กรุณาใช้ การอัพโหลดไฟล์ หรือ การกรอกข้อความ เพื่อแสดงความคิดเห็น","you_are_unable_to_submit_to_this_assignment_as_you_40491eb0":"คุณไม่สามารถส่งภารกิจนี้เนื่องจากการลงทะเบียนของคุณในบทเรียนนี้ถูกสรุปแล้ว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_attempts_allowed_d65a014c",
+  null,
+  function() { return {"one":"อนุญาตให้ดำเนินการ 1 ครั้ง","other":"อนุญาตให้ดำเนินการ %{count} ครั้ง","zero":"อนุญาตให้ทำได้ไม่จำกัดครั้ง"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_submission_histories_query",
+  function() { return {"failed_to_load_more_submissions_148ff11f":"ไม่สามารถโหลดผลงานจัดส่งได้เพิ่มเติม"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_elide_string",
+  function() { return {"_5a374287":"..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_submission_helpers",
+  function() { return {"annotation_89e402e0":"หมายเหตุกำกับ","web_url_d84feaf5":"URL เว็บ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignments_2_shared_Steps",
+  function() { return {"button_a1577211":"ปุ่ม","in_progress_13b9e26f":"กำลังดำเนินการ","not_graded_yet_82f63c67":"ยังไม่ได้ให้เกรด","submitted_318fad53":"จัดส่งแล้ว","unavailable_c04e4c93":"ไม่มีให้บริการ","uploaded_285a2bfb":"อัพโหลดแล้ว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "asignments_2",
+  function() { return {"add_override_da70f198":"เพิ่มการบอกล้าง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "authentication_providers",
+  function() { return {"add_an_identity_provider_to_this_account_c2644478":"เพิ่มผู้ให้บริการระบุตัวตนไปยังบัญชีนี้:","another_configuration_is_currently_selected_select_95b394e":"กำลังเลือกส่วนกำหนดค่าอื่นอยู่  การเลือกส่วนกำหนดค่านี้จะเป็นการยกเลิกการเลือกรายการอื่น","choose_an_authentication_service_47dc8875":"เลือกบริการตรวจรับรอง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "PronounsInput",
+  function() { return {"available_pronouns_b45330b1":"สรรพนามที่ใช้ได้","these_pronouns_will_be_available_to_canvas_users_i_e8f474e5":"สรรพนามเหล่านี้จะมีให้เลือกใช้สำหรับผู้ใช้ Canvas ในบัญชีผู้ใช้ของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_coursesChildChangeLog",
+  function() { return {"change_applied_89d1aa5a":"ปรับใช้การแก้ไขแล้ว","learning_object_1f9e5dd8":"ออบเจคต์การเรียนรู้","loading_change_log_94ac6073":"กำลังโหลดบันทึกประวัติการเปลี่ยนแปลง","object_type_e4f3bbeb":"ประเภทออบเจคต์"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_coursesChildContent",
+  function() { return {"blueprint_course_information_term_course_10d5cf30":"ข้อมูลบทเรียนพิมพ์เขียว: %{term} - %{course}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_MasterChildStack",
+  function() { return {"your_course_db806851":"บทเรียนของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_settingsAssociationsTable",
+  function() { return {"blueprint_course_associations_72c9609":"การเชื่อมโยงบทเรียนพิมพ์เขียว","loading_associations_9da66c4e":"กำลังกำลังโหลดการเชื่อมโยง","loading_associations_complete_b93a9c6e":"โหลดการเชื่อมโยงเสร็จสิ้น","loading_associations_started_1f65d8d":"เริ่มโหลดการเชื่อมโยงแล้ว","remove_association_1412eabf":"ลบการเชื่อมโยง","remove_course_association_name_b760c502":"ลบการเชื่อมโยงบทเรียน %{name}","removed_course_association_course_a233342c":"ลบการเชื่อมโยงบทเรียน %{course} แล้ว","restored_course_association_course_c9e16045":"กู้คืนการเชื่อมโยงบทเรียน %{course} แล้ว","there_are_currently_no_associated_courses_fba1754f":"ปัจจุบันไม่มีบทเรียนที่เชื่อมโยงไว้","to_be_added_2959cc72":"ที่จะเพิ่มเข้ามา","to_be_removed_d4b48586":"ที่จะลบ","undo_remove_course_association_name_68eb4037":"เลิกลบการเชื่อมโยงบทเรียน %{name}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "BlueprintAssociations",
+  function() { return {"associated_74756cc4":"เชื่อมโยงแล้ว","saving_associations_989bd4da":"กำลังบันทึกส่วนการเชื่อมโยง","saving_associations_complete_e4b9634d":"บันทึกการเชื่อมโยงเสร็จสิ้น","saving_associations_started_8ac85360":"เริ่มการบันทึกการเชื่อมโยงแล้ว","warning_d9ac42ef":"คำเตือน:","you_have_unsynced_changes_that_will_sync_to_all_as_9028e711":"คุณมีการเปลี่ยนแปลงที่ไม่ได้ซิงค์ที่จะทำการซิงค์กับบทเรียนที่เชื่อมโยงทั้งหมดเมื่อบันทึกการเชื่อมโยงใหม่ไว้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "BlueprintCourseSidebar",
+  function() { return {"blueprint_settings_233e909a":"ค่าปรับตั้งพิมพ์เขียว","close_sidebar_10b0fbb4":"ปิดแถบรายการด้านข้าง","open_sidebar_2852e8c8":"เปิดแถบรายการด้านข้าง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_settingsCourseFilter",
+  function() { return {"any_sub_account_ec7069f2":"บัญชีย่อยทั้งหมด","any_term_d49af19f":"ทุกเทอม","search_by_title_short_name_or_sis_id_fe84aa12":"ค้นหาจากชื่อ ชื่อย่อหรือ SIS ID","select_sub_account_6704196a":"เลือกบัญชีย่อย","select_term_f8083fb0":"เลือกเทอม"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_settingsCoursePicker",
+  function() { return {"loading_courses_409a3641":"กำลังโหลดบทเรียน","loading_courses_started_6e6d742c":"เริ่มโหลดบทเรียนแล้ว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "loading_courses_complete_count_courses_found_6768d9e1",
+  null,
+  function() { return {"one":"โหลดบทเรียนเสร็จสิ้น: พบหนึ่งบทเรียน","other":"โหลดบทเรียนเสร็จสิ้น: พบ %{count} บทเรียน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_settingsCoursePickerTable",
+  function() { return {"course_selection_245808bf":"การเลือกบทเรียน","selected_all_courses_9cfef57f":"บทเรียนทั้งหมดที่เลือก","selected_course_course_a581f834":"บทเรียน %{course} ที่เลือก","toggle_select_course_name_310fdee4":"เปิดปิดบทเรียน %{name} ที่เลือก","unselected_all_courses_99a9d35c":"ยกเลิกการเลือกบทเรียนทั้งหมดแล้ว","unselected_course_course_89995a83":"ยกเลิกการเลือกบทเรียน %{course} แล้ว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "select_all_count_courses_4fc63811",
+  null,
+  function() { return {"one":"เลือกบทเรียน (%{count})","other":"เลือกบทเรียนทั้งหมด (%{count})"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_course_sidebar",
+  function() { return {"associations_3fd4abe8":"การเชื่อมโยง","loading_associations_2b92bcf7":"กำลังโหลดการเชื่อมโยง...","loading_sync_history_3eb11baf":"กำลังโหลดประวัติการซิงค์...","loading_unsynced_changes_1b52f725":"กำลังโหลดการเปลี่ยนแปลงที่ไม่ได้ซิงค์...","loading_unsynced_changes_b5d7b202":"กำลังโหลดการเปลี่ยนแปลงที่ไม่ได้ซิงค์","not_available_during_sync_ae645e8c":"ไม่พร้อมใช้งานระหว่างการซิงค์","sync_history_3d46eb19":"ประวัติการซิงค์","unsynced_changes_4ddaec76":"การเปลี่ยนแปลงที่ไม่ได้ซิงค์"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "there_are_count_unsynced_changes_25ed3bed",
+  null,
+  function() { return {"one":"มี 1 การเปลี่ยนแปลงที่ไม่ได้ซิงค์","other":"มี %{count} การเปลี่ยนแปลงที่ไม่ได้ซิงค์"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "there_are_count_associations_906edb03",
+  null,
+  function() { return {"one":"มี 1 การเชื่อมโยง","other":"มี %{count} การเชื่อมโยง"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_settingsMigrationOptions",
+  function() { return {"add_a_message_4fee743f":"เพิ่มข้อความ ","chars_written_max_character_length_len_fec9bd18":"%{chars} ถูกเขียนไว้ ความยาวอักขระสูงสุดคือ %{len}","count_of_max_maximum_characters_fcb6ddf8":"%{count} จากสูงสุด %{max} อักขระ","history_settings_c63dbaaf":"ค่าปรับตั้งประวัติ","include_course_settings_c4c08764":"รวมค่าปรับตั้งบทเรียน","len_maxlen_97f1c88d":"%{len}/%{maxLen}","message_text_5f692459":"เนื้อความ","send_notification_81773687":"ส่งการแจ้งข้อมูล","you_have_reached_the_limit_of_len_characters_in_th_babea8fe":"คุณมาถึงขีดจำกัดที่ %{len} ตัวอักษรแล้วในข้อความแจ้งเตือน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_settingsMigrationSync",
+  function() { return {"sync_in_progress_12ff1d3c":"กำลังซิงค์","syncing_3061cc8d":"กำลังซิงค์...","this_may_take_a_bit_48fe4235":"อาจต้องใช้เวลา...","you_can_leave_the_page_and_you_will_get_a_notifica_fefe11e8":"คุณสามารถออกจากเพจนี้และรับการแจ้งข้อมูลเมื่อกระบวนการซิงค์เสร็จสิ้น"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_settingsSyncHistory",
+  function() { return {"loading_sync_history_9f342cbf":"กำลังโหลดประวัติการซิงค์"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_settingsUnsyncedChanges",
+  function() { return {"changed_item_1d16a85f":"รายการที่แก้ไข","count_unsynced_changes_1fc147e5":"%{count} การเปลี่ยนแปลงที่ไม่ได้ซิงค์","there_are_no_unsynced_changes_4e8f0838":"ไม่มีการเปลี่ยนแปลงที่ไม่ได้ซิงค์","type_of_change_1cb24a0e":"ประเภทการเปลี่ยนแปลง","type_of_item_8a37f69d":"ประเภทรายการ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "theme_collection_view",
+  function() { return {"create_theme_based_on_40651ed3":"จัดทำธีมอ้างอิงกับ","default_template_f2a759ed":"แม่แบบเริ่มต้น","default_templates_are_used_as_starting_points_for__f06f9e33":"แม่แบบเริ่มต้นใช้เป็นจุดเริ่มต้นสำหรับธีมใหม่และไม่สามารถลบได้","my_themes_b72217b8":"ธีมของฉัน","templates_4ca13d07":"แม่แบบ","theme_52404e51":"ธีม","themes_89bfe9c4":"ธีม"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "theme_editor",
+  function() { return {"an_error_occurred_trying_to_apply_this_theme_pleas_253d0996":"เกิดข้อผิดพลาดในการพยายามปรับใช้ธีมนี้ กรุณาลองใหม่อีกครั้ง","an_error_occurred_trying_to_generate_this_theme_pl_b493e2e9":"เกิดข้อผิดพลาดขณะพยายามจัดทำธีมนี้ กรุณาลองใหม่อีกครั้ง","apply_theme_7af08387":"ปรับใช้ธีม","applying_new_styles_to_subaccounts_e8aeeef2":"กำลังปรับใช้รูปแบบใหม่สำหรับบัญชีย่อย","applying_please_be_patient_f7b5f244":"กำลังปรับใช้ กรุณารอสักครู่","before_implementing_custom_css_or_javascript_pleas_65423572":"ก่อนใช้ CSS กำหนดเองหรือ JavaScript กรุณาดูรายละเอียดใน *เอกสารกำกับของเรา*","changes_will_still_apply_if_you_leave_this_page_935cedc6":"การเปลี่ยนแปลงจะยังคงมีผลหากคุณออกจากหน้านี้","css_file_709e6a83":"ไฟล์ CSS","current_theme_62e5e8cf":"ธีมในปัจจุบัน","custom_css_and_javascript_may_cause_accessibility__93d2a823":"CSS และ JavaScript กำหนดเองอาจทำให้เกิดปัญหาในการใช้งานหรือขัดแย้งกับข้อมูลอัพเดตในอนาคตของ Canvas!","delete_theme_918a7f24":"ลบธีมหรือไม่","delete_theme_bdb70d25":"ลบธีม","delete_themename_8c4223a3":"ลบ %{themeName} หรือไม่","edit_this_theme_in_theme_editor_f8f07ac9":"แก้ไขธีมนี้ใน Theme Editor","exit_d0c7b013":"ออก","file_s_will_be_included_on_all_pages_in_the_canvas_80569935":"ไฟล์จะถูกรวมอยู่ในทุกเพจในแอพพลิเคชั่น Canvas สำหรับเดสก์ทอป","file_s_will_be_included_when_user_content_is_displ_5e1fa73d":"ไฟล์จะถูกรวมไว้เมื่อเนื้อหาของผู้ใช้ถูกจัดแสดงภายในแอพ Canvas iOS หรือ Android และในแอพจากภายนอกที่อยู่ใน API ของเรา","generating_preview_45b53be0":"กำลังจัดทำตัวอย่างจัดแสดง...","javascript_file_fc27c32b":"ไฟล์ JavaScript","mobile_app_css_file_abbf06bd":"ไฟล์ CSS แอพอุปกรณ์พกพา","mobile_app_javascript_file_faea55d5":"ไฟล์ JavaScript สำหรับแอพอุปกรณ์พกพา","multiple_are_marked_current_theme_because_the_same_3bdebbe1":"หลายรายการกำกับเป็น “ธีมปัจจุบัน” เนื่องจากค่าเดียวกันถูกบันทึกไว้ในหลายชื่อ เช่น แต่ละรายการเหมือนกันกับค่าที่ปรับใช้ในปัจจุบัน","open_in_theme_editor_156028e2":"เปิดใน Theme Editor","percent_complete_3a7edc20":"%{percent} เสร็จสิ้น","pick_a_name_to_save_this_theme_as_9773cb1a":"เลือกชื่อเพื่อบันทึกธีมนี้","preview_your_changes_373557d8":"แสดงตัวอย่างการเปลี่ยนแปลงของคุณ","progress_for_account_name_ef203250":"ความคืบหน้าสำหรับ %{account_name}","reset_95a81614":"รีเซ็ต","save_theme_36c73e6a":"บันทึกธีม","save_theme_f706116e":"บันทึกธีม","select_image_e1696a4d":"เลือกภาพ","theme_name_68f46e09":"ชื่อธีม","there_are_no_unsaved_changes_9276e87c":"ไม่มีการเปลี่ยนแปลงที่ไม่ได้บันทึกไว้","this_is_your_current_theme_4331709b":"นี่เป็นธีมปัจจุบันของคุณ","this_will_apply_this_theme_to_your_entire_account__4cfabbe5":"กรณีนี้จะเป็นการปรับใช้ธีมนี้กับบัญชีผู้ใช้ทั้งหมดของคุณ ต้องการดำเนินการต่อหรือไม่","to_preview_theme_editor_branding_you_will_need_to__462dda1a":"แสดงตัวอย่างการนำเสนอแบรนด์ระบบแก้ไขธีมโดยคุณจะต้อง*ปิด UI คอนทราสต์สูง* ไว้","view_file_8a1c62e5":"ดูไฟล์","you_are_about_to_lose_any_unsaved_changes_would_yo_e255f393":"คุณกำลังจะสูญเสียการเปลี่ยนแปลงที่ไม่ได้บันทึกไว้\n\nต้องการดำเนินการต่อไปหรือไม่","you_need_to_preview_changes_before_saving_85e60232":"คุณจะต้อง “แสดงตัวอย่างการเปลี่ยนแปลง” ก่อนบันทึก","you_need_to_preview_changes_before_you_can_apply_t_212d1cca":"คุณจะต้อง “แสดงตัวอย่างการเปลี่ยนแปลง” ก่อนสามารถปรับใช้กับบัญชีของคุณ","you_need_to_save_before_applying_to_this_account_7436a5ae":"คุณจะต้อง “บันทึก” ก่อนปรับใช้กับบัญชีนี้","you_will_not_be_able_to_preview_your_changes_f7b868fb":"คุณจะไม่สามารถแสดงตัวอย่างการเปลี่ยนแปลงของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "community",
+  null,
+  function() { return {"admin_add_course":null,"admin_add_users":null,"admin_app_center_allowlist":null,"admin_custom_js_css":null,"admin_hangouts_meet_lti":null,"admin_import_sis":null,"admin_teams_meetings":null,"admin_training_services_portal":null,"admin_zoom_meetings_faq":null,"admin_zoom_meetings_faq_add":null,"admin_zoom_meetings_faq_camera":null,"admin_zoom_meetings_faq_invite":null,"admin_zoom_meetings_faq_mute":null,"admin_zoom_meetings_faq_participants":null,"admin_zoom_meetings_faq_record":null,"admin_zoom_meetings_faq_schedule":null,"admin_zoom_meetings_faq_screenshare":null,"admin_zoom_meetings_faq_share_record":null,"admin_zoom_meetings_faq_start":null,"admin_zoom_meetings_faq_storage":null,"basics_announcements":null,"basics_collaborations":null,"basics_speedgrader":null,"contingency_30_minute_quickstart":null,"contingency_web_conferencing":null,"guides_home":null,"instructor_add_announcement":null,"instructor_add_dashboard_image":null,"instructor_add_module":null,"instructor_add_module_items":null,"instructor_add_rubric_assignment":null,"instructor_add_rubric_course":null,"instructor_add_users":null,"instructor_adjust_dates_on_import":null,"instructor_align_outcome_rubric":null,"instructor_assignment_details":null,"instructor_assignment_types":null,"instructor_bulk_upload":null,"instructor_change_course_home":null,"instructor_change_name_code":null,"instructor_conclude_conference":null,"instructor_copy_course":null,"instructor_create_assignment":null,"instructor_create_conference":null,"instructor_create_discussion":null,"instructor_create_gdrive_collaboration":null,"instructor_create_new_quiz":null,"instructor_create_o365_collaboration":null,"instructor_create_outcome":null,"instructor_create_outcome_group":null,"instructor_create_page":null,"instructor_create_quiz_questions":null,"instructor_edit_announcement":null,"instructor_edit_gradebook":null,"instructor_edit_syllabus":null,"instructor_gradebook_individual_view":null,"instructor_guide":null,"instructor_homepage_layout_options":null,"instructor_import_outcomes":null,"instructor_import_package":null,"instructor_individual_new_analytics":null,"instructor_manage_new_quizzes_settings":null,"instructor_manage_rubrics":null,"instructor_message_all_criteria_new_analytics":null,"instructor_message_individual_new_analytics":null,"instructor_notification_preferences":null,"instructor_organize_files":null,"instructor_post_grades":null,"instructor_publish_assignment":null,"instructor_publish_discussion":null,"instructor_publish_module":null,"instructor_publish_page":null,"instructor_quiz_options":null,"instructor_quiz_statistics":null,"instructor_record_conference":null,"instructor_reorder_module":null,"instructor_reply_discussion":null,"instructor_select_import_content":null,"instructor_set_course_details":null,"instructor_set_front_page":null,"instructor_speedgrader_submission_details":null,"instructor_start_conference":null,"instructor_upload_course_file":null,"instructor_use_announcements_index":null,"instructor_use_collaborations_index":null,"instructor_use_course_homepage":null,"instructor_use_course_settings":null,"instructor_use_files":null,"instructor_use_gradebook":null,"instructor_use_mastery_gradebook":null,"instructor_use_outcomes":null,"instructor_use_pages_index":null,"instructor_use_people_page":null,"instructor_use_quizzes_index":null,"instructor_use_syllabus":null,"instructor_view_discussion_replies":null,"instructor_view_enrollment_details":null,"instructor_view_student_context_card":null,"new_quizzes_feature_comparison":null,"resource_course_content_distribution_comparison":null,"resource_pairing_codes_faq":null} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "appointment_groups",
+  function() { return {"allow_students_to_see_who_was_signed_up_for_time_s_37f5cb01":"อนุญาตให้ผู้เรียนสามารถดูได้ว่าใครที่ถูกจองพื้นที่ตามช่วงเวลาต่าง ๆ ที่มีเปิดไว้ให้","an_error_ocurred_while_deleting_the_appointment_gr_4948bbc5":"เกิดข้อผิดพลาดขณะลบกลุ่มนัดหมายนี้","an_error_ocurred_while_saving_the_appointment_grou_e19452cd":"เกิดข้อผิดพลาดขณะบันทึกกลุ่มนัดหมาย","create_slots_71dbb2f8":"จัดทำช่วง","delete_group_86c381ec":"ลบกลุ่ม","divide_into_equal_slots_value_is_in_minutes_13fe14d2":"แบ่งเป็นช่วงเท่า ๆ กัน (ค่าเป็นนาที)","divide_into_equal_time_slots_in_minutes_234312fa":"แบ่งเป็นช่วงเวลาเท่า ๆ กัน (เป็นนาที","edit_pagetitle_cd8abab9":"แก้ไข %{pageTitle}","end_time_250391e8":"เวลาสิ้นสุด","limit_each_time_slot_to_input_value_user_s_47461538":"จำกัดช่วงเวลาแต่ละส่วนสำหรับ %{input_value} ผู้ใช้ ","limit_students_to_attend_input_value_slot_s_9a5bf576":"จำกัดผู้เรียนในการเข้าร่วม %{input_value} นัดหมาย ","must_be_a_number_0_e6ec3e78":"จะต้องเป็นตัวเลข \u003e 0","select_calendars_d5fa50b6":"เลือกปฏิทิน","start_date_start_time_to_end_time_dc676ce1":"%{start_date}, %{start_time} ถึง %{end_time}","start_time_2c3d11b5":"เวลาเริ่มต้น","you_are_here_54075d8c":"คุณอยู่ที่นี่:","you_must_allow_at_least_one_appointment_per_partic_c142139c":"คุณจะต้องให้มีอย่างน้อยหนึ่งนัดหมายต่อผู้เข้าร่วม","you_must_allow_at_least_one_appointment_per_time_s_76e22300":"คุณจะต้องให้มีอย่างน้อยหนึ่งนัดหมายต่อช่วงเวลา","you_must_provide_a_value_or_unselect_the_option_3b28b754":"คุณจะต้องระบุค่าหรือยกเลิกการเลือกตัวเลือกดังกล่าว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "contextname_and_count_others_9dda769b",
+  null,
+  function() { return {"one":"%{contextName} และอีก %{count} รายการ","other":"%{contextName} และอีก %{count} รายการ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "calendar",
+  function() { return {"additional_occurrence_s_7b5b0173":"สถานการณ์เพิ่มเติม","all_day_fb42c4fc":"ทั้งวัน","allow_students_to_see_who_has_signed_up_for_time_s_7eb1d0ef":"อนุญาตให้ผู้เรียนสามารถดูได้ว่าใครที่จองพื้นที่ตามช่วงเวลาต่าง ๆ ที่มีเปิดไว้ให้","and_more_1c35b232":"และมากกว่านี้...","appends_a_number_to_the_end_of_each_event_title_e__bca98abd":"ผนวกตัวเลขเข้าที่ส่วนท้ายของชื่อกิจกรรมแต่ละส่วน (เช่น กิจกรรม 1 กิจกรรม 2 ฯลฯ)","are_you_sure_you_want_to_cancel_your_appointment_w_dbbd27eb":"แน่ใจว่าต้องการยกเลิกนัดหมายของคุณกับ %{name} หรือไม่","are_you_sure_you_want_to_delete_this_discussion_334554e0":"แน่ใจว่าต้องการลบการพูดคุยนี้หรือไม่","are_you_sure_you_want_to_delete_this_event_824b1e33":"แน่ใจว่าต้องการลบกิจกรรมนี้หรือไม่","are_you_sure_you_want_to_delete_this_page_2185844":"แน่ใจว่าต้องการลบเพจนี้หรือไม่","are_you_sure_you_want_to_delete_this_to_do_item_497016ea":"แน่ใจว่าต้องการลบรายการสิ่งที่ต้องทำนี้หรือไม่","are_you_sure_you_want_to_delete_your_reservation_t_5ae87209":"แน่ใจว่าต้องการลบการสำรองพื้นที่สำหรับกิจกรรมนี้ของคุณหรือไม่","assignment_has_a_locked_date_due_date_cannot_be_se_2e2e3389":"ภารกิจมีวันที่ที่ล็อคไว้ ไม่สามารถระบุวันครบกำหนดนอกช่วงวันที่ล็อคไว้ได้","assignment_title_82b4422e":"ชื่อภารกิจ:","availableslots_available_87b8b69d":"พร้อมใช้ %{availableSlots} รายการ","availableslots_more_available_be5193a8":"พร้อมใช้อีก %{availableSlots} รายการ","calendar_a8563bb2":"ปฏิทิน:","calendar_contextinfo_name_a7d98525":"ปฏิทิน %{contextInfo.name}","completed_9b809e44":"เสร็จสิ้นแล้ว","conferencing_6a6d9b55":"กำลังทำการประชุม","confirm_reservation_removal_e6350e7c":"ยืนยันการลบรายการจอง","course_section_name_ea880ed1":"กลุ่มย่อยสำหรับบทเรียน %{name}","details_a6f427c3":"รายละเอียด:","divide_into_equal_slots_of_num_minutes_minutes_go_52caee81":"แบ่งเป็นช่วงเท่า ๆ กันสำหรับ %{num_minutes} นาที *ไป*","do_nothing_9672b478":"ไม่ทำอะไรเลย","due_date_is_required_cdb75f25":"ต้องระบุวันครบกำหนด!","due_dueat_ef67f6f4":"ครบกำหนด: %{dueAt}","ends_at_9a62b528":"สิ้นสุดเมื่อ","event_creation_failed_71b75bea":"จัดทำกิจกรรมล้มเหลว","event_date_c9459fe3":"วันที่จัดกิจกรรม","event_date_f05219e7":"วันที่จัดกิจกรรม:","event_title_57a50568":"ชื่อกิจกรรม:","event_update_failed_b6116651":"อัพเดตกิจกรรมล้มเหลว","every_665d821e":"ทุก ๆ","failed_loading_course_sections_refresh_page_to_try_f97160bf":"ไม่สามารถโหลดกลุ่มย่อยของบทเรียน รีเฟรชเพจเพื่อลองใหม่อีกครั้ง","filled_5d8c39e":"เติมแล้ว","go_back_ed239e69":"ย้อนกลับ","group_details_e51122f1":"รายละเอียดกลุ่ม","input_event_title_1d4c8b10":"กรอกชื่อกิจกรรม","limit_each_time_slot_to_num_participants_groups_us_14ec4d65":"จำกัดช่วงเวลาแต่ละส่วนสำหรับ %{num_participants} *กลุ่ม* **ผู้ใช้**","limit_participants_to_attend_num_appointments_appo_dd3fd62f":"จำกัดผู้เข้าร่วมในการเข้าร่วม %{num_appointments} นัดหมาย","limit_this_slot_to_input_type_number_name_max_part_1580add0":"จำกัดช่วงนี้สำหรับ %{input_type_number_name_max_parti} กลุ่ม","limit_this_slot_to_input_type_number_name_max_part_8344547a":"จำกัดช่วงนี้สำหรับ %{input_type_number_name_max_parti} ผู้ใช้","month_s_5c17590e":"เดือน","n_contextscount_more_2f708db4":"+ %{n_contextsCount} รายการเพิ่มเติม","no_date_bfeb2df7":"ไม่มีวันที่","not_all_sections_will_be_assigned_this_item_4e2b8eaa":"กลุ่มย่อยบางส่วนเท่านั้นที่จะถูกกำหนดสำหรับรายการนี้","not_completed_55fb4c00":"ไม่เสร็จสิ้น","open_event_menu_for_783510e3":"เปิดเมนูกิจกรรมสำหรับ","open_name_color_picker_a2646a33":"เปิดระบบเลือกสี %{name}","publish_aa888e3c":"เผยแพร่:","remove_attendee_name_55165070":"ลบผู้เข้าร่วม %{name}","reschedule_9f780bb8":"กำหนดเวลาใหม่","reserved_by_d563e7d2":"สำรองโดย: ","reserved_by_you_cd03b62d":"สำรองโดยคุณ","save_publish_36440725":"บันทึกและเผยแพร่","starts_at_29843f98":"เริ่มเมื่อ","the_event_was_successfully_created_31326d98":"จัดทำกิจกรรมเสร็จสิ้น","the_event_was_successfully_updated_45944cd7":"อัพเดตกิจกรรมเสร็จสิ้น","the_next_available_appointment_in_this_course_is_o_da10316c":"นัดหมายที่ใช้ได้ถัดไปในบทเรียนนี้คือ *%{date}*","there_are_no_available_signups_for_this_course_26b05c56":"ไม่มีการสมัครที่พร้อมใช้สำหรับบทเรียนนี้","title_is_required_8bb13295":"ต้องระบุชื่อ!","to_do_5526f10a":"สิ่งที่ต้องทำ:","to_do_item_d76ecb78":"รายการสิ่งที่ต้องทำ","unreserved_e86b7425":"เลิกการสำรองแล้ว","week_s_cb1492ee":"สัปดาห์","would_you_like_to_go_back_to_include_1d279044":"ต้องการย้อนกลับไปเพื่อผนวกรายการต่อไปนี้หรือไม่:"} },
+  function() { return {"agenda_view":{"due":"ครบกำหนด","loading":"กำลังโหลด","no_events":"*ไม่มีกิจกรรมหลังจากวันที่นี้*"},"agenda_view_displaying_start_end":"กำลังจัดแสดง %{start} ถึง %{end}","buttons":{"cancel":"ยกเลิก","send_message":"ส่ง","sending_message":"กำลังส่ง..."},"calendar_header":{"create_event":"จัดทำกิจกรรมใหม่","done_go_back_to_list":"เสร็จสิ้น, กลับไปที่รายการ","links":{"calendar_agenda":"หัวข้อ","calendar_month":"เดือน","calendar_week":"สัปดาห์","improved_accessibility_recommend_agenda":"คำเตือน: เพื่อให้การใช้งานดีขึ้น กรุณาใช้ปฏิทิน “มุมมองตามหัวข้อ”"},"loading":"กำลังโหลด","my_appointment_groups":"กลุ่มนัดหมายของฉัน"},"calendar_navigator":{"enter_navigation_date":"กรอกวันที่ที่ต้องการเข้าไป","next":"ถัดไป","previous":"ก่อนหน้า","today":"วันนี้"},"calendar_title":"ปฏิทิน:","context_selector":{"done":"เสร็จสิ้น"},"delete_item":{"deletion_reason":"สาเหตุในการลบ:"},"edit":{"confirm_delete_calendar_event":"แน่ใจว่าต้องการลบกิจกรรมในปฏิทินนี้หรือไม่","event_deleted":"ลบ %{event_title} เสร็จสิ้น","event_saved":"บันทึกกิจกรรมเสร็จสิ้น","missingDueDate":{"one":"%{sections} ไม่มีวันครบกำหนดระบุไว้","other":"%{sections} ไม่มีวันครบกำหนดที่ระบุไว้"},"titles":{"warning":"คำเตือน"}},"edit_appointment_group":{"affect_reservations":"สิ่งนี้จะมีผลต่อการจองอย่างไร","appt_group_options_help1":"รายการจองที่มีอยู่บางส่วนเกินขีดจำกัดที่คุณเพิ่มไว้ ข้อมูลเหล่านี้จะไม่ได้รับผลกระทบ แต่การเปลี่ยนแปลงนี้จะทำให้ไม่สามารถทำรายการจองใหม่ได้","appt_group_options_help2":"ทั้งนี้คุณสามารถลบรายการจองที่มีอยู่ในปัจจุบัน","calendar":"ปฏิทิน","date":"วันที่","details":"รายละเอียด:","group_category":"หมวดหมู่ของกลุ่ม","group_signup":"มีผู้เรียนสมัครเข้ากลุ่ม","location":"ตำแหน่ง","name":"ชื่อ","time_range":"ช่วงเวลา"},"edit_appt_calendar_event":{"description":"รายละเอียด:"},"edit_assignment":{"calendar":"ปฏิทิน:","due":"ครบกำหนด:","group":"กลุ่ม:","links":{"more_options":"ตัวเลือกเพิ่มเติม"},"title":"ชื่อ:"},"edit_assignment_override":{"calendar":"ปฏิทิน:","due":"ครบกำหนด:","links":{"more_options":"ตัวเลือกเพิ่มเติม"}},"edit_calendar_event":{"calendar":"ปฏิทิน:","date":"วันที่:","from":"จาก:","links":{"more_options":"ตัวเลือกเพิ่มเติม"},"location":"สถานที่:","timespan_separator":"เป็น","title":"ชื่อ:"},"edit_calendar_event_full":{"buttons":{"create":"จัดทำกิจกรรม","update":"อัพเดตกิจกรรม"},"date":"วันที่","delete":"ลบ","different_date_for_each_section":"ใช้วันที่อื่นสำหรับแต่ละกลุ่มย่อย","edit_calendar_event_header":"แก้ไขกิจกรรมในปฏิทิน","end_time":"เวลาสิ้นสุด","event_description":"รายละเอียดกิจกรรม","location_address":"ที่อยู่:","location_name":"สถานที่:","new_calendar_event_header":"กิจกรรมใหม่ในปฏิทิน","repeat":"ซ้ำซ้อน","start_time":"เวลาเริ่มต้น"},"edit_event":{"tabs":{"appointment_group":"กลุ่มนัดหมาย","assignment":"ภารกิจ","event":"กิจกรรม","todo":"สิ่งที่ต้องทำของฉัน"}},"edit_planner_note":{"calendar":"ปฏิทิน:","date":"วันที่:","time":"เวลา:","title":"ชื่อ:"},"edit_to_do_item":{"date":"วันที่:","links":{"more_options":"ตัวเลือกเพิ่มเติม"},"time":"เวลา:","title":"ชื่อ:"},"end_before_start_error":"เวลาเริ่มต้นต้องอยู่ก่อนเวลาสิ้นสุด","ends_in_past_error":"คุณไม่สามารจถัดทำสล็อตนัดหมายที่สิ้นสุดในเวลาที่ผ่านมาแล้ว","errors":{"send_message_failed":"มีข้อผิดพลาดในการส่งข้อความของคุณ กรุณาลองใหม่อีกครั้ง"},"event_details":{"attendees":"ผู้เข้าร่วม","calendar":"ปฏิทิน","close":"ปิด","details":"รายละเอียด","links":{"delete":"ลบ","edit":"แก้ไข","reserve":"สำรอง","unreserve":"ยกเลิกการสำรอง"},"location":"ตำแหน่ง","location_address":"ที่อยู่","message_students":"ส่งข้อความถึงผู้เรียน","slots_available":"มีช่วงว่าง"},"event_on_this_day":"มีกิจกรรมในวันนี้","loading_more_items":"กำลังโหลดรายการเพิ่มเติม","loading_undated_events":"กำลังโหลดกิจกรรมไม่กำกับวันที่","message_participants":{"all_groups":"ทุกกลุ่ม","all_users":"ผู้ใช้ทั้งหมด","message_groups":"ส่งข้อความถึงกลุ่ม","message_label":"ข้อความ:","message_students":"ส่งข้อความถึงผู้เรียน","registered_groups":"กลุ่มที่สมัครไปแล้ว","registered_users":"ผู้ใช้ที่สมัครไปแล้ว","send_message_to":"ส่งข้อความไปยัง...","unregistered_groups":"กลุ่มที่ยังไม่ได้สมัคร","unregistered_users":"ผู้ใช้ที่ยังไม่ได้สมัคร"},"messages_sent":"ส่งข้อความแล้ว","name_is_required":"ต้องระบุชื่อ!","no_dates_error":"คุณจะต้องระบุวันที่และเวลาอย่างน้อยหนึ่งรายการ","no_groups":"ไม่พบกลุ่ม","no_users":"ไม่พบผู้ใช้","open_appointment_on_this_day":"มีนัดหมายที่ว่างอยู่สำหรับวันนี้","prompts":{"delete_assignment":"แน่ใจว่าต้องการลบภารกิจนี้หรือไม่","delete_override":"แน่ใจว่าต้องการลบการบอกล้างภารกิจนี้หรือไม่"},"reservation_over_limit_dialog":{"appointment_limit_reached":"ถึงขีดจำกัดนัดหมายแล้ว","cancel_existing_reservation":"ยกเลิกรายการจองในปัจจุบันและสมัครรายการนี้หรือไม่","cancel_some_appointments_and_try_again":"กรุณายกเลิกรายการจองอื่น ๆ ของคุณและลองใหม่อีกครั้ง","would_you_like_to_cancel_that_and_sign_up_for_this":"ต้องการยกเลิกและสมัครรายการนี้หรือไม่","you_are_already_signed_up_for":"คุณสมัครบริการแล้วสำหรับ:"},"time_block_errors":"มีข้อผิดพลาดในการเลือกช่วงเวลาของคุณ","time_block_row":{"date_label":"วันที่","delete_link":"ลบช่วงเวลา","end_time_label":"เวลาสิ้นสุด","start_time_label":"เวลาเริ่มต้น"},"titles":{"edit_event":"แก้ไขกิจกรรม"},"today":"วันนี้","undated_events":{"loading_undated_events":"กำลังโหลดรายการไม่กำกับวันที่...","no_undated_events":"ไม่มีรายการไม่กำกับวันที่","show_undated_events":"แสดงรายการไม่กำกับวันที่"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "context_sector",
+  function() { return {"hide_course_sections_for_course_name_bd1911af":"ซ่อนกลุ่มย่อยของบทเรียนสำหรับบทเรียน %{name}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "EditAppointmentGroupDetails",
+  function() { return {"max_users_groups_per_appointment_867c505b":"ผู้ใช้/กลุ่มสูงสุดต่อนัดหมาย","maximum_number_of_appointments_a_participant_can_a_70dfd6cd":"จำนวนนัดหมายสูงสุดที่ผู้เข้าร่วมสามารถเข้าร่วมได้","minutes_per_slot_5b7169e5":"นาทีต่อช่วง"} },
+  function() { return {"affect_reservations":"สิ่งนี้จะมีผลต่อการจองอย่างไร","and_n_contexts":"และอื่น ๆ อีก %{n} รายการ","and_n_sectionCodes":"และอื่น ๆ อีก %{n} รายการ","bad_max_appts":"คุณจะต้องให้มีอย่างน้อยหนึ่งนัดหมายต่อผู้เข้าร่วม","bad_per_slot":"คุณจะต้องให้มีอย่างน้อยหนึ่งนัดหมายต่อช่วงเวลา","context_required":"คุณจะต้องเลือกปฏิทิน","select_calendars":"เลือกปฏิทิน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "appt_calendar_event_dialog",
+  function() { return {"you_must_allow_at_least_one_group_to_attend_68531eab":"คุณจะต้องให้อนุญาตอย่างน้อยหนึ่งกลุ่มในการเข้าร่วม"} },
+  function() { return {"invalid_participants":"คุณจะต้องให้ผู้ใช้อย่างน้อยหนึ่งรายเข้าร่วม","title":"แก้ไข %{name}","update":"อัพเดต"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "react_scheduler",
+  function() { return {"find_appointment_85d6922e":"ค้นหานัดหมาย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "choose_mastery_path",
+  function() { return {"assignment_path_selected_e80191d1":"เลือกเส้นทางภารกิจแล้ว","choose_assignment_path_8ea55f3a":"เลือกเส้นทางภารกิจ","option_index_6308524d":"ตัวเลือกที่ %{index}","select_one_of_the_options_c8b0c6e4":"เลือกหนึ่งตัวเลือก:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "collaborations",
+  function() { return {"collaboration_creation_failed_95ff831f":"จัดทำความร่วมมือล้มเหลว","collaboration_update_failed_eb6622f3":"อัพเดตความร่วมมือล้มเหลว","collaboration_was_deleted_9cf9934b":"ลบความร่วมมือแล้ว"} },
+  function() { return {"collaboration":{"delete":"แน่ใจว่าต้องการลบความร่วมมือนี้หรือไม่"},"collaborator_picker":{"labels":{"available_groups":"กลุ่มที่มี","available_users":"ผู้ใช้ที่มี","collaborate_with":"ร่วมมือกับ:","collaboration_members":"สมาชิกในความร่วมมือ","groups":"กลุ่ม","loading":"กำลังโหลด","people":"บุคคล","remove_all":"ลบทั้งหมด"},"member_instructions":"คลิกหรือกดเลือกผู้ใช้หรือกลุ่มในคอลัมน์ด้านซ้ายเพื่อเพิ่มผู้ร่วมมือ"},"edit":{"buttons":{"cancel":"ยกเลิก","update":"อัพเดตความร่วมมือ"},"labels":{"description":"รายละเอียด:","title":"ชื่อความร่วมมือ"}},"errors":{"no_name":"กรุณากรอกชื่อสำหรับความร่วมมือนี้","title_too_long":"กรุณาใช้ไม่เกิน %{maxLength} ตัวอักษรเพื่อระบุชื่อ ใช้รายละเอียดดังกล่าวสำหรับเนื้อหาเพิ่มเติม"},"titles":{"delete":"ลบความร่วมมือหรือไม่"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "conferences",
+  function() { return {"add_conference_7bcc625b":"เพิ่มการประชุม","add_conferencing_9f4ccded":"เพิ่มการประชุม","add_name_db699e72":"เพิ่ม %{name}","add_toolname_4e17dc90":"เพิ่ม %{toolName}","are_you_sure_you_want_to_delete_this_recording_a4aab14b":"แน่ใจว่าต้องการลบผลงานบันทึกนี้หรือไม่","conference_36b50fda":"การประชุม","conference_has_been_removed_f771cb11":"ลบการประชุมแล้ว","conference_has_been_updated_title_2bacc5fa":"อัพเดตการประชุมแล้ว: %{title}","conference_was_deleted_30869390":"ลบการประชุมแล้ว","count_recording_5ba8a655":"%{count} ผลงานบันทึก","count_recordings_9f8e4148":"%{count} ผลงานบันทึก","creating_conference_95b59116":"กำลังจัดทำการประชุม","edit_conference_title_6e234815":"แก้ไข \"%{conference_title}\"","name_conference_8e042dd2":"%{name} การประชุม","new_conference_8b483024":"การประชุมใหม่","no_conferencing_options_enabled_fc00e371":"ไม่มีตัวเลือกการประชุมที่เปิดใช้งาน","no_valid_lti_resource_was_returned_11f7f91f":"ไม่มีทรัพยากร LTI ที่ถูกต้องที่แจ้งกลับมา","pick_the_date_and_time_for_the_following_conferenc_e9f91edd":"เลือกวันที่และเวลาสำหรับค่าปรับตั้งการประชุมต่อไปนี้","recording_was_deleted_b989eaff":"ผลงานบันทึกถูกลบทิ้ง","remove_all_course_observer_members_4622c70d":"ลบสมาชิกผู้สังเกตการณ์ของบทเรียนทั้งหมด","remove_conference_title_207d32c0":"ลบการประชุม: %{title}","select_conference_provider_58c7f7fe":"เลือกผู้ให้บริการการประชุม","sorry_the_action_performed_on_this_recording_faile_2a1badda":"ขออภัย การดำเนินการสำหรับผลงานบันทึกนี้ล้มเหลว ลองใหม่อีกครั้งในภายหลัง","unknown_conference_c4f13ad0":"การประชุมที่ไม่รู้จัก","use_arrow_keys_to_select_a_conference_provider_c5b456a6":"ใช้ปุ่มลูกศรเพื่อเลือกผู้ให้บริการจัดการประชุม"} },
+  function() { return {"concluded_conference":{"delete":"ลบ","recording":"1 ผลงานบันทึก","recordings":"%{recordingCount} ผลงานบันทึก","settings":"ค่าปรับตั้ง","type":"%{type}"},"confirm":{"close":"แน่ใจว่าต้องการสิ้นสุดการประชุมนี้หรือไม่\n\nคุณจะไม่สามารถเปิดใหม่ได้อีก","delete":"แน่ใจว่าต้องการลบการประชุมนี้หรือไม่"},"edit_conference_form":{"advanced_settings":"จัดการค่าปรับตั้งขั้นสูง...","conference_type":"พิมพ์","description":"รายละเอียด","duration":"ระยะเวลา","duration_in_minutes":"นาที","invite_all":{"course":"เชิญสมาชิกบทเรียนทั้งหมด","group":"เชิญสมาชิกกลุ่มทั้งหมด"},"long_running":"ไม่มีจำกัดเวลา (สำหรับการประชุมต่อเนื่องเป็นเวลานาน)","members":"สมาชิก","name":"ชื่อ","options":"ตัวเลือก"},"loading_urls_message":"กำลังโหลด กรุณารอสักครู่...","multiple_urls_message":"มีเพจ %{type} หลายเพจสำหรับการประชุมนี้ กรุณาเลือกหนึ่งรายการ:","new_conference":{"delete":"ลบ","edit":"แก้ไข","end_it_now":"สิ้นสุด","in_progress":"กำลังดำเนินการ","join":"เข้าร่วม","recording":"1 ผลงานบันทึก","recordings":"%{recordingCount} ผลงานบันทึก","settings":"ค่าปรับตั้ง","start":"เริ่ม","type":"%{type}"},"no_concluded_conferences":"ไม่มีการประชุมที่สรุปแล้ว","no_new_conferences":"ไม่มีการประชุมใหม่","no_urls_error":"ขออภัย ดูเหมือนจะไม่มีเพจ %{type} สำหรับการประชุมนี้ในตอนนี้","notifications":{"inaccessible":"คำเตือน: เพจนี้มีเนื้อหาจากภายนอกที่ไม่สามารถสืบค้นได้จากตัวอ่านหน้าจอ"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "conferences_alternatives",
+  function() { return {"conferences_powered_by_bigbluebutton_is_unable_to__37ef28fe":"การประชุมโดย BigBlueButton ไม่สามารถจัดการความต้องการที่มีอยู่ในปัจจุบัน  พิจารณาอัพเกรดเป็น\n        Premium BigBlueButton หรือใช้ผู้ให้บริการประชุมสายวิดีโอต่อไปนี้  กรุณาพูดคุยกับผู้ดูแลระบบ\n        ในพื้นที่ของคุณเพื่อขอคำแนะนำเพิ่มเติม","google_meet_f896b61c":"Google Meet","if_your_school_uses_microsoft_teams_you_can_use_th_992dff59":"หากสถานศึกษาของคุณใช้ Microsoft Teams คุณสามารถใช้ Enhanced Rich Content Editor (RCE) เพื่อเพิ่มห้อง Team ได้อย่างง่าย ๆ ขณะจัดทำกิจกรรมในปฏิทิน ประกาศ โพสต์การพูดคุยและรายการอื่น ๆ","learn_how_to_use_google_meet_in_canvas_3e7aadd9":"เรียนรู้วิธีการใช้ Google Meet ใน Canvas","learn_how_to_use_microsoft_teams_in_canvas_8b79dde":"เรียนรู้วิธีการใช้ Microsoft Teams ใน Canvas","microsoft_teams_99cb45c0":"Microsoft Teams","paste_google_meet_links_into_calendar_events_annou_2e363fc7":"วางลิงค์ Google Meet ในกิจกรรมในปฏิทิน ประกาศ การพูดคุย หรือในจุดต่าง ๆ ที่คุณใช้ Rich Content Editor (RCE)","paste_zoom_into_calendar_events_announcements_disc_d873358e":"วาง Zoom ในกิจกรรมในปฏิทิน ประกาศ การพูดคุย หรือในจุดต่าง ๆ ที่คุณใช้ Rich Content Editor (RCE)","to_create_a_link_you_can_use_in_canvas_you_ll_need_5c6d93e4":"เพื่อจัดทำลิงค์ที่คุณสามารถใช้ใน Canvas คุณจะต้องสมัครบัญชี Zoom หากไม่มีใช้งานในปัจจุบัน","to_create_a_link_you_can_use_in_canvas_you_ll_need_7dd85497":"เพื่อจัดทำลิงค์ที่คุณสามารถใช้ใน Canvas คุณจะต้องมีบัญชี Google สำหรับใช้ Google Meet","visit_google_meet_ebdaf94f":"เข้าไปที่ Google Meet","visit_zoom_14636084":"เข้าไปที่ Zoom"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "content_exports",
+  function() { return {"your_content_has_been_exported_bbb57764":"เนื้อหาของคุณถูกส่งออกแล้ว"} },
+  function() { return {"buttons":{"process":"ประมวลผลข้อมูล"},"errors":{"error":"มีข้อผิดพลาดในการส่งออกเนื้อหาของคุณ  กรุณาแจ้งผู้ดูแลระบบของคุณและแจ้งรหัสส่งออกต่อไปนี้ \"%{code}\""},"messages":{"processing":"กำลังประมวลผล","this_may_take_a_bit":"อาจต้องใช้เวลา..."}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "content_migrations",
+  function() { return {"beginning_date_2d2a29ac":"วันที่เริ่มต้น","change_beginning_date_to_39dbd06e":"เปลี่ยนวันที่เริ่มต้นเป็น","change_ending_date_to_d2cebd54":"เปลี่ยนวันที่สิ้นสุดเป็น","content_import_files_cannot_be_downloaded_after_en_7e3a2099":"ไม่สามารถดาวน์โหลดไฟล์นำเข้าเนื้อหาหลัง %{ENV.CONTENT_MIGRATIONS_EXPIRE_DA} วัน","content_migration_queued_46c27790":"เข้าคิวการโอนย้ายเนื้อหาแล้ว","download_attachment_filename_8cc17629":"ดาวน์โหลด %{attachment.filename}","ending_date_e1ea13a4":"วันที่สิ้นสุด","file_not_available_1869c733":"ไฟล์ไม่พร้อมใช้งาน","importing_course_content_into_the_same_course_will_b09c69e":"การนำเข้าเนื้อหาบทเรียนในบทเรียนเดียวกันจะเป็นการทำสำเนาเนื้อหาในครั้งแรกและเขียนทับข้อมูลสำเนาหากมีการทำซ้ำ","pre_processing_92865c1d":"การประมวลผลเบื้องต้น","select_content":"เลือกเนื้อหา","this_option_is_not_compatible_with_new_quizzes_ed489d7c":"ตัวเลือกนี้จะไม่สามารถใช้ได้กับแบบทดสอบใหม่","uploading_progress_2f5dd4bf":"สถานะการอัพโหลด","waiting_for_selection_ce0398c7":"กำลังรอการเลือกรายการ","you_must_select_a_course_to_copy_content_from_e7bd9e09":"คุณจะต้องเลือกบทเรียนที่จะคัดลอกเนื้อหา","you_must_select_a_folder_to_upload_your_migration__ac7bc7c0":"คุณจะต้องเลือกโฟลเดอร์ที่จะอัพโหลดการโอนย้ายของคุณ"} },
+  function() { return {"canvas_export":{"content":"ข้อมูล","options":"ตัวเลือก"},"common_cartridge":{"content":"ข้อมูล","options":"ตัวเลือก"},"content_migration":"การโอนย้ายเนื้อหา","content_migration_issue":{"error_report":"รายงานข้อผิดพลาด"},"copy_course":{"content":"ข้อมูล","options":"ตัวเลือก"},"external_tool_content":{"content":"ข้อมูล"},"file_required":"คุณจะต้องเลือกไฟล์ที่จะนำเข้าเนื้อหา","file_too_large":"การโอนย้ายของคุณจะต้องไม่เกิน %{file_size}","hide_issues":"ซ่อนปัญหา","issues":"ปัญหา","loading":"กำลังโหลด...","migration_converter":{"cancel_migration":"ยกเลิก","default_option":"เลือกหนึ่งรายการ","header":"นำเข้าเนื้อหา","import_from_label":"ประเภทเนื้อหา","import_migration":"นำเข้า"},"moodle_zip":{"content":"ข้อมูล","options":"ตัวเลือก"},"no_content_selected":"คุณไม่ได้เลือกเนื้อหาใด ๆ ที่จะนำเข้า","no_day_substitutions":"ไม่มีการแทนที่วันที่เพิ่มเข้ามา","no_migrations_running":"ไม่มีการโอนย้ายที่ดำเนินการอยู่ในปัจจุบัน","progressing_content_migration":{"issues_text":"ปัญหา","select_content":"เลือกเนื้อหา","show_issues":"แสดงปัญหา"},"progressing_content_migration_collection":{"no_items":"ไม่มีงานที่เข้าคิว","progress_label":"งานในปัจจุบัน"},"progressing_issues":{"loading":"กำลังโหลด"},"qti_zip":{"options":"ตัวเลือก"},"select_content":{"cancel_btn":"ยกเลิก","select_content_btn":"เลือกเนื้อหา","select_content_label":"เลือกเนื้อหา ใช้ปุ่มลูกศรขึ้นและลงเพื่อสืบค้นโครงสร้างโครงสร้างทรี กดขวาเพื่อขยายและซ้ายเพื่อย่อ"},"show_issues":"แสดงปัญหา","subviews":{"choose_migration_file":{"migration_text":"ที่มา"},"course_find_select":{"course_name":"ชื่อบทเรียน","include_completed_courses":"รวมบทเรียนที่เสร็จสิ้นแล้ว","or":"หรือ","search_label":"ค้นหาบทเรียน","select_default":"เลือกบทเรียน"},"date_shift":{"add_day_sub_title":"เพิ่มการแทนที่วัน","beginning_change_to":"เปลี่ยนเป็น","beginning_date":"วันที่เริ่มต้น","checkbox_label":"ปรับกิจกรรมและวันครบกำหนด","date_adjustment":"การปรับวันที่","ending_change_to":"เปลี่ยนเป็น","ending_date":"วันที่สิ้นสุด","remove_dates":"ลบวันที่","shift_dates":"ปรับวันที่","substitution":"การแทนที่"},"day_substitution":{"move_from":"ย้ายจาก","move_from_select_label":"ย้ายจากวันในสัปดาห์","move_from_select_title":"ย้ายจากวันในสัปดาห์","move_to_select_label":"ย้ายไปวันในสัปดาห์","move_to_select_title":"ย้ายไปวันในสัปดาห์","remove_day_substitution_link":"ลบการแทนที่วัน","remove_day_substitution_link_label":"ลบการแทนที่วัน","to_happen_on":"เป็น"},"external_tool_launch":{"course":"บทเรียน","find_a_course":"ค้นหาบทเรียน"},"folder_picker":{"default_select_folder":"เลือกโฟลเดอร์","upload_to":"อัพโหลดไปยัง"},"import_quizzes_next_view":{"import_new_quizzes":"นำเข้าแบบทดสอบในปัจจุบันเป็น *แบบทดสอบใหม่ (New Quizzes)*","import_new_quizzes_help_text":"แบบทดสอบใหม่คือเอนจินการประเมินสำหรับ Canvas%{p_p}ตรวจสอบรายละเอียดเพิ่มเติมโดยติดต่อผู้ดูแลระบบของคุณหรือเข้าไปที่","import_quizzesNext_help_label":"นำเข้าการประเมินเป็นไอคอนความช่วยเหลือใหม่สำหรับแบบทดสอบ","import_quizzesNext_help_title":"แบบทดสอบใหม่","import_quizzesNext_help_title_icon":"นำเข้าการประเมินเป็นไอคอนความช่วยเหลือใหม่สำหรับแบบทดสอบ"},"overwrite_assessment_content":{"assessment_help_label":"ไอคอนความช่วยเหลือการเขียนทับการประเมิน","assessment_help_text":"ระบบบางส่วนมีการรีไซเคิล ID สำหรับการส่งออกใหม่แต่ละรายการ ดังนั้นหากคุณส่งออกแถวคำถามแยกสองแถว ข้อมูลจะมี ID เดียวกัน เพื่อป้องกันข้อมูลการประเมินสูญหาย เราจะจัดการออบเจคต์เหล่านี้เป็นคนละรายการกันแม้ว่าจะมี ID เหมือนกัน การเลือกตัวเลือกนี้จะเป็นการปิดระบบความปลอดภัยและทำให้ข้อมูลการประเมินสามารถเขียนทับข้อมูลในปัจจุบันโดยใช้ ID เดียวกัน","assessment_help_title":"\"ความช่วยเหลือในการเขียนทับการประเมิน\"","assessment_help_title_icon":"ไอคอนความช่วยเหลือการเขียนทับการประเมิน","overwrite_assessment_content":"เขียนทับเนื้อหาการประเมินด้วย ID ที่ตรงกัน"},"question_bank":{"aria_new_label":"จัดทำแถวคำถามใหม่","create_new_question":"-- จัดทำแถวคำถามใหม่ --","default_question_bank_label":"แถวคำถามเริ่มต้น","question_bank_placeholder":"ชื่อแถวคำถาม","question_bank_placeholder_aria":"กรอกชื่อแถวคำถามใหม่","question_bank_title":"ชื่อแถวคำถามใหม่","question_banks_disabled":"ตัวเลือกนี้ถูกปิดใช้งาน","select_question_bank":"เลือกแถวคำถาม"},"select_content_checkbox":{"select_all_content":"เนื้อหาทั้งหมด","select_specific_content":"เลือกเนื้อหาเฉพาะ"}},"upload_warning":"การออกจากหน้านี้จะเป็นการยกเลิกการอัพโหลด","uploading":"กำลังอัพโหลด..."} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_sub_modules_3373a1c4",
+  null,
+  function() { return {"one":"%{count} หน่วยย่อย","other":"%{count} หน่วยย่อย"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "progressbar_view",
+  function() { return {"content_migration_running_percent_complete_4b00c024":"กำลังโอนย้ายเนื้อหา %{percent}% เสร็จสิ้น"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "content_share",
+  function() { return {"are_you_sure_you_want_to_remove_this_item_7887ce31":"แน่ใจว่าต้องการลบรายการนี้หรือไม่","content_shared_by_others_to_you_5a40bb2c":"เนื้อหาที่แชร์โดยบุคคลอื่นถึงคุณ","content_shares_received_view_error_page_c7021a4a":"หน้าข้อผิดพลาดการเปิดดูการแชร์เนื้อหาที่ได้รับ","import_e929507b":"นำเข้า...","name_mark_as_read_cc9e5fd6":"%{name} กำกับว่าอ่านแล้ว","name_mark_as_unread_abd650da":"%{name} กำกับว่ายังไม่ได้อ่าน","no_content_has_been_shared_with_you_667fde6c":"ไม่มีเนื้อหาที่แชร์ไว้กับคุณ","pending_3e506a5b":"กำลังรอดำเนินการ","received_7689640e":"ได้รับแล้ว","received_content_53049822":"เนื้อหาที่ได้รับ","shared_content_803ac37b":"เนื้อหาที่แชร์","the_list_below_is_content_that_has_been_shared_wit_2b2648bc":"รายการด้านล่างเป็นเนื้อหาที่ถูกแชร์ไว้กับคุณแล้ว คุณสามารถดูตัวอย่างเนื้อหา นำเข้าไปยังบทเรียนของคุณหรือลบจากรายการได้","there_was_an_error_removing_the_item_f8324776":"มีข้อผิดพลาดในการลบรายการ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_shared_items_loaded_ef94ef6a",
+  null,
+  function() { return {"one":"โหลด 1 รายการแชร์แล้ว","other":"โหลด %{count} รายการแชร์แล้ว"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "direct_share_course_import_panel",
+  function() { return {"import_started_successfully_a3467411":"เริ่มนำเข้าเสร็จสิ้น","starting_import_operation_f25745f0":"กำลังเริ่มการนำเข้า","there_was_a_problem_starting_import_operation_4c42c5e":"มีปัญหาในการเริ่มการนำเข้า"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "content_share_preview_overlay",
+  function() { return {"content_share_preview_166f6562":"แสดงตัวอย่างการแชร์เนื้อหา"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "context_modules",
+  null,
+  function() { return {"module_complete":"เสร็จสิ้น","module_locked":"ล็อคแล้ว","module_started":"กำลังดำเนินการ","module_unlocked":"ปลดล็อคแล้ว"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "modules_home_page",
+  function() { return {"an_error_ocurred_while_publishing_course_3760cf04":"เกิดข้อผิดพลาดขณะเผยแพร่บทเรียน","complete_registration_by_clicking_the_finish_the_r_fcd13ac8":"สิ้นสุดการลงทะเบียนโดยคลิกที่ลิงค์ “สิ้นสุดกระบวนการลงทะเบียน” ที่จัดส่งทางอีเมลให้กับคุณ","create_a_new_module_6f31b0fe":"จัดทำหน่วยการเรียนใหม่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "context",
+  null,
+  function() { return {"roster_user":{"confirm":{"conclude":"แน่ใจว่าต้องการสรุปการลงทะเบียนนี้หรือไม่","delete_enrollment":"แน่ใจว่าต้องการลบการลงทะเบียนนี้หรือไม่"},"enrollment_change_failed":"แก้ไขสิทธิ์ในการลงทะเบียนนี้ล้มเหลว กรุณาลองใหม่อีกครั้ง"},"roster_user_usage":{"loading_more_results":"กำลังโหลดผลลัพธ์เพิ่มเติม"},"undelete_index":{"are_you_sure":"แน่ใจว่าต้องการกู้คืน %{item_name} หรือไม่","restore_failed":"กู้คืนล้มเหลว","restoring":"กำลังกู้คืน..."}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "last_attended",
+  function() { return {"failed_to_change_last_attended_date_1e340ba6":"ไม่สามารถแก้ไขวันที่เข้าร่วมล่าสุด","last_day_attended_b72d623c":"วันสุดท้ายที่เข้าร่วม","loading_last_attended_date_5a42463":"กำลังโหลดวันที่เข้าร่วมล่าสุด","set_last_attended_date_8fb30092":"กำหนดวันที่เข้าร่วมล่าสุด","value_is_not_a_valid_date_23c2d0a2":"%{value} ไม่ใช่วันที่ที่ถูกต้อง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "conversations",
+  function() { return {"archive_selected_d64506ca":"จัดเก็บแยกรายการที่เลือก","message_actions_for_conversation_d29b26cc":"การทำรายการเกี่ยวกับข้อความสำหรับการพูดคุย","message_actions_for_conversation_subject_fdb54c88":"การทำรายการเกี่ยวกับข้อความสำหรับการพูดคุย %{subject}","message_actions_for_text_27eead86":"การทำรายการเกี่ยวกับข้อความสำหรับ %{text}","no_subject_58b7941c":"ไม่มีหัวเรื่อง","not_starred_no_subject_click_to_star_adfefe93":"'ไม่ได้ให้ดาวไว้ \"(ไม่มีหัวเรื่อง)\" คลิกเพื่อให้ดาว","not_starred_no_subject_click_to_star_dc91380":"ไม่ได้ให้ดาวไว้ \"(ไม่มีหัวเรื่อง)\" คลิกเพื่อให้ดาว","open_message_d7b12975":"เปิดข้อความ","remove_recipient_name_a6b83cef":"ลบผู้รับ %{name}","reply_to_conversation_f1aa0d4":"ตอบกลับการพูดคุย","reply_to_conversation_subject_4b2e6fe7":"ตอบกลับการพูดคุย %{subject}","reply_to_conversation_text_cd45c48f":"ตอบกลับการพูดคุย %{text}","select_conversation_subject_3f36074a":"เลือกการพูดคุย %{subject}","select_course_a_selection_is_required_before_recip_f622d9df":"เลือกบทเรียน: ต้องเลือกรายการก่อนฟิลด์ของผู้รับจะเปิดใช้งาน","starred_no_subject_click_to_unstar_3191d64":"ให้ดาว \"(No Subject)\" ไว้ คลิกเพื่อยกเลิกการให้ดาว","starred_no_subject_click_to_unstar_bff04bce":"ให้ดาว \"(No subject)\" ไว้ คลิกเพื่อยกเลิกการให้ดาว","this_attachment_has_been_unpublished_by_the_author_37bff9c3":"เอกสารแนบนี้ถูกยกเลิกการเผยแพร่แล้วโดยผู้จัดทำ","total_messages_af025be6":"ข้อความทั้งหมด","unarchive_selected_e0c4bd3d":"เลือกยกเลิกการจัดเก็บแยกไว้"} },
+  function() { return {"add_attachment":{"titles":{"attachment":"ไฟล์ที่จะแนบ","remove_attachment":"ลบเอกสารแนบ"}},"all_courses":"บทเรียนทั้งหมด","all_in_context":"ทั้งหมดใน %{context}","archive":"จัดเก็บแยก","autocomplete_result":{"group_people":"บุคคล: %{people}","no_results":"ไม่มีผลลัพธ์"},"back":"ย้อนกลับ","cannot_add_to_private":"คุณไม่สามารถเพิ่มผู้เข้าร่วมไปยังการพูดคุยส่วนตัวได้","compose_button_bar":{"titles":{"add_attachment":"เพิ่มเอกสารแนบ","record_media_comment":"บันทึกความเห็นแบบเสียงและวิดีโอ"}},"compose_title_bar":{"buttons":{"close":"ปิด"}},"confirm":{"delete_message":"แน่ใจว่าต้องการลบสำเนาข้อความนี้ของคุณหรือไม่ การดำเนินการนี้ไม่สามารถยกเลิกได้"},"context_message":{"labels":{"less":"น้อยลง...","more":"มากขึ้น..."}},"course_options":{"course_options":{"concluded":"สรุปแล้ว","favorite":"บทเรียนโปรด","groups":"กลุ่ม","more_courses":"บทเรียนเพิ่มเติม"}},"hide":"ซ่อน","message_detail":{"delete":"ลบ","forward":"ส่งต่อ","more_options":"ตัวเลือกเพิ่มเติม","no_subject":"ไม่มีหัวเรื่อง","reply":"ตอบกลับ","reply_all":"ตอบกลับทั้งหมด"},"message_form_dialog":{"body":"เนื้อหา","comboboxInstructions":"ถึง: (เริ่มพิมพ์เพื่อเลือกผู้รับ กดลูกศรลงเพื่อไปยังผลลัพธ์ หากไม่พบตัวเลือกที่ยอมรับได้ คุณสามารถกรอกตัวเลือกลงไป)","headings":{"new_message":"ข้อความใหม่"},"inbox_actions":{"add_people":"เพิ่มบุคคล"},"labels":{"add_to_faculty_journal":"เพิ่มเป็นรายการบันทึกสำหรับวิชา","attachments":"เอกสารแนบ","course":"บทเรียน","select_course":"เลือกบทเรียน","subject":"วิชา","to":"ถึง"},"links":{"media_comment":"บันทึก"},"media_comment":"ความเห็นแบบสื่อ","no_course":"ไม่มีบทเรียน","no_subject":"ไม่มีหัวเรื่อง","search_names_groups_courses":"ค้นหาชื่อ กลุ่มและบทเรียน","send_individual_messages":"ส่งข้อความเฉพาะรายไปยังผู้รับแต่ละคน","titles":{"media_comment":"ความเห็นแบบสื่อที่บันทึกไว้","record_media_comment":"บันทึกความเห็นแบบเสียงและวิดีโอ","remove_media_comment":"ลบความเห็นแบบสื่อ"}},"message_item":{"delete":"ลบ","forward":"ส่งต่อ","more_options":"ตัวเลือกเพิ่มเติม","reply_all":"ตอบกลับทั้งหมด"},"message_list":{"messages":"ข้อความ"},"more_participants":"อีก +%{total} รายการ","no_message":{"batch_selected":"เลือกการพูดคุยไว้หลายรายการ","no_conversations_selected":"ไม่ได้เลือกการพูดคุยใด ๆ"},"no_results_found":"ไม่พบผลลัพธ์","result_status":"ระบบกรอกอัตโนมัติมี %{results} รายการที่จัดแสดง ใช้ลูกศรขึ้นและลงเพื่อเลือกรายการ จากนั้นกด Enter เพื่อเพิ่มบุคคลไปยังฟิลด์ ถึง","star":"ดาว","submission_comment_form_dialog":{"body":"เนื้อหา"},"unarchive":"ยกเลิกการจัดเก็บแยก","unstar":"ลบดาว"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "are_you_sure_you_want_to_archive_your_copies_of_th_7d219afe",
+  null,
+  function() { return {"one":"แน่ใจว่าต้องการจัดเก็บแยกสำเนาการพูดคุยนี้ของคุณหรือไม่","other":"แน่ใจว่าต้องการจัดเก็บแยกสำเนาการพูดคุยเหล่านี้ของคุณหรือไม่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "are_you_sure_you_want_to_unarchive_these_conversat_ec7d7e8d",
+  null,
+  function() { return {"one":"แน่ใจว่าต้องการยกเลิกการจัดเก็บแยกการพูดคุยนี้หรือไม่","other":"แน่ใจว่าต้องการยกเลิกการจัดเก็บแยกการพูดคุยเหล่านี้หรือไม่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "are_you_sure_you_want_to_delete_your_copy_of_these_f04442ed",
+  null,
+  function() { return {"one":"แน่ใจว่าต้องการลบสำเนาการพูดคุยนี้ของคุณหรือไม่ การดำเนินการนี้ไม่สามารถยกเลิกได้","other":"แน่ใจว่าต้องการลบสำเนาการพูดคุยเหล่านี้ของคุณหรือไม่ การดำเนินการนี้ไม่สามารถยกเลิกได้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "messages_deleted_8f781481",
+  null,
+  function() { return {"one":"ลบข้อความแล้ว!","other":"ลบข้อความแล้ว!"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "conversation_dialog",
+  function() { return {"file_count_attached_name_45d81fdf":"ไฟล์ที่แนบ %{count}: %{name}","invalid_recipient_name_56b22b86":"ชื่อผู้รับไม่ถูกต้อง"} },
+  function() { return {"message_sent":"ส่งข้อความแล้ว!","no_course":"ไม่มีบทเรียน","select_course":"เลือกบทเรียน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "buttons",
+  null,
+  function() { return {"cancel":"ยกเลิก","choose_a_file":"เลือกไฟล์","delete":"ลบ","delete_file":"ลบไฟล์ %{name}","done":"เสร็จสิ้น","import":"นำเข้า","login":"ล็อกอิน","save":"บันทึก","send":"ส่ง","submit":"ส่ง","update":"อัพเดต"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "SearchableSubmenuView",
+  function() { return {"below_this_search_field_is_a_list_of_content_type__58aaa03f":"ด้านล่างฟิลด์ค้นหานี้คือรายการ %{content_type} ขณะพิมพ์ รายการจะถูกคัดกรองเพื่อให้ตรงกับการสืบค้นของคุณ ข้อความการพูดคุยจะถูกกรองจากตัวเลือกที่คุณเลือกไว้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "there_are_count_results_in_the_list_e74f6e36",
+  null,
+  function() { return {"one":"มี 1 ผลลัพธ์ในรายการ","other":"มี %{count} ผลลัพธ์ในรายการ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "ConversationStatusFilter",
+  function() { return {"filter_conversations_by_type_1ce8c064":"กรองการพูดคุยตามประเภท"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradinggradingPeriodCollection",
+  function() { return {"there_was_a_problem_deleting_the_grading_period_50ce07c5":"มีปัญหาในการลบระยะเวลาการให้เกรด","there_was_a_problem_fetching_periods_bdc09a8f":"มีปัญหาในการสืบค้นรอบเวลา","updating_6edbab78":"กำลังอัพเดต"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradingPeriodTemplate",
+  function() { return {"delete_grading_period_dba36e59":"ลบระยะเวลาการให้เกรด","grading_period_name_31ceb3e3":"ชื่อระยะเวลาการให้เกรด","weight_9b308e5b":"น้ำหนัก"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "link_validator",
+  function() { return {"an_error_occured_please_try_again_e59b65b":"เกิดข้อผิดพลาดขึ้น กรุณาลองใหม่อีกครั้งในภายหลัง","assessment_question_b523622f":"คำถามสำหรับการประเมิน","deleted_content_referenced_in_this_resource_e42d1998":"เนื้อหาที่ลบที่ถูกอ้างอิงในทรัพยากรข้อมูลนี้:","external_images_in_this_resource_were_unreachable_5d9cbad2":"ภาพจากภายนอกในทรัพยากรข้อมูลนี้ไม่สามารถเข้าถึงได้:","external_links_in_this_resource_were_unreachable_ad00a7e3":"ลิงค์จากภายนอกในบทเรียนนี้ไม่สามารถเข้าถึงได้","link_validation_is_running_caf08ced":"กำลังตรวจสอบลิงค์","links_to_other_courses_in_this_resource_may_not_be_d9f2779":"ลิงค์ไปยังบทเรียนอื่นในทรัพยากรข้อมูลนี้อาจไม่สามารถสืบค้นได้โดยผู้เรียนในบทเรียนนี้:","no_broken_links_found_38d951e3":"ไม่พบลิงค์ที่ไม่สมบูรณ์","non_existent_content_referenced_in_this_resource_d86c6bcb":"มีการอ้างอิงเนื้อหาที่ไม่มีอยู่ในทรัพยากรข้อมูลนี้:","quiz_question_1da5198e":"คำถามแบบทดสอบ","restart_link_validation_b61286fc":"รีสตาร์ทการตรวจสอบลิงค์","show_links_to_unpublished_content_30c0450d":"แสดงลิงค์ไปยังเนื้อหาที่ไม่ได้เผยแพร่","start_link_validation_dc0ac99c":"เริ่มการตรวจสอบลิงค์","unpublished_content_referenced_in_this_resource_865f8ef6":"เนื้อหาที่เลิกเผยแพร่แล้วถูกอ้างอิงในทรัพยากรข้อมูลนี้:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "found_count_broken_links_9224b8dd",
+  null,
+  function() { return {"one":"พบ 1 ลิงค์ที่เสียหาย","other":"พบ %{count} ลิงค์ที่เสียหาย"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_list",
+  function() { return {"this_course_cannot_be_added_to_the_courses_menu_un_c932b9c7":"ไม่สามารถเพิ่มบทเรียนนี้ไปยังเมนูบทเรียน เว้นแต่บทเรียนจะเปิดใช้งานอยู่"} },
+  function() { return {"favorited_tooltip":"คลิกเพื่อลบจากเมนูบทเรียน","nonfavorited_tooltip":"คลิกเพื่อเพิ่มไปยังเมนูบทเรียน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_paces_actions",
+  function() { return {"cannot_relink_unsaved_paces_3ed42012":"ไม่สามารถเชื่อมโยงความคืบหน้าที่ไม่ได้บันทึกไว้ได้","compressing_f4a35c08":"กำลังบีบอัดข้อมูล...","failed_publishing_pace_40f87d0e":"ล้มเหลวในการเผยแพร่ความก้าวหน้า","finished_publishing_pace_597ffc4f":"สิ้นสุดการเผยแพร่ความก้าวหน้า","relinking_paces_fb1a0047":"กำลังเชื่อมโยงความคืบหน้าใหม่...","response_body_was_empty_c7034341":"เนื้อหาการตอบกลับว่างเปล่า"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_paces_app",
+  function() { return {"title_required_3ff5969":"ต้องระบุชื่อ","unpublished_changes_tray_9e9b2ac2":"ถาดรายการการเปลี่ยนแปลงที่ไม่ได้เผยแพร่","you_must_provide_required_fields_before_adding_6717073d":"คุณจะต้องกรอกข้อมูลในฟิลด์ที่กำหนดก่อนเพิ่มรายการ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_pts_e9de6268",
+  null,
+  function() { return {"one":"1 คะแนน","other":"%{count} คะแนน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_paces_module",
+  function() { return {"changing_course_pacing_days_may_modify_due_dates_9009aecd":"การแก้ไขลำดับของบทเรียนอาจทำให้วันครบกำหนดเปลี่ยนไป","days_af2ac87b":"วัน","due_dates_are_being_compressed_based_on_your_start_c6db279e":"วันครบกำหนด (Due Dates) กำลังถูกบีบอัดตามวันที่เริ่มต้นและสิ้นสุดของคุณ","info_2f75aa74":"ข้อมูล","warning_6576b5b8":"คำเตือน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_paces_errors",
+  function() { return {"an_error_has_occurred_8f1f6649":"เกิดข้อผิดพลาดขึ้น","there_was_an_error_checking_pace_publishing_status_c391b6e0":"มีข้อผิดพลาดในการตรวจสอบสถานะการเผยแพร่ความคืบหน้า","there_was_an_error_linking_pace_7d2bb508":"ข้อผิดพลาดในการเชื่อมโยงความคืบหน้า","there_was_an_error_loading_the_pace_810e3a7e":"มีข้อผิดพลาดในการโหลดความคืบหน้า","there_was_an_error_publishing_your_course_pace_1aa5fdeb":"มีข้อผิดพลาดในการเผยแพร่ความคืบหน้าในบทเรียนของคุณ","there_was_an_error_resetting_to_the_previous_pace_83153ec2":"มีข้อผิดพลาดในการรีเซ็ตไปยังความคืบหน้าก่อนหน้า","there_was_an_error_saving_your_blackout_dates_1efee334":"มีข้อผิดพลาดในการบันทึกวันที่ไม่พร้อมใช้งานของคุณ","there_was_an_error_saving_your_changes_bfaf3d79":"มีข้อผิดพลาดในการบันทึกการเปลี่ยนแปลงของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_paces_footer",
+  function() { return {"there_are_no_pending_changes_to_cancel_244389fe":"ไม่มีการเปลี่ยนแปลงที่รอการยกเลิก","there_are_no_pending_changes_to_publish_b4ffc6a7":"ไม่มีการเปลี่ยนแปลงที่รอการเผยแพร่","you_cannot_cancel_while_loading_the_pace_c6ccf2cc":"คุณไม่สามารถยกเลิกขณะโหลดความคืบหน้า","you_cannot_cancel_while_publishing_5a920ae1":"คุณไม่สามารถยกเลิกขณะเผยแพร่","you_cannot_publish_while_loading_the_pace_c5682dbc":"คุณไม่สามารถเผยแพร่ขณะโหลดความคืบหน้า","you_cannot_publish_while_publishing_2f65264b":"คุณไม่สามารถเผยแพร่ขณะทำการเผยแพร่อยู่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_paces_projected_dates",
+  function() { return {"determined_by_course_end_date_5e3ffb4f":"กำหนดจากวันที่สิ้นสุดบทเรียน","determined_by_course_pace_45063fa8":"กำหนดจากลำดับเนื้อหาบทเรียน","determined_by_course_start_date_fc1a8ecf":"กำหนดจากวันที่เริ่มต้นบทเรียน","determined_by_section_end_date_3cda3832":"กำหนดจากวันที่สิ้นสุดกลุ่มย่อย","determined_by_section_stat_date_35dc5e7f":"กำหนดจากวันที่เริ่มต้นกลุ่มย่อย","determined_by_today_s_date_87330acf":"กำหนดจากวันนี้","hypothetical_end_date_117d81cf":"วันที่สิ้นสุดตามสมมติฐาน","hypothetical_student_enrollment_date_30a00685":"วันที่ลงทะเบียนผู้เรียนตามสมมติฐาน","not_specified_24a60319":"ไม่ได้ระบุ","reqired_end_date_a7deac41":"วันที่สิ้นสุดที่กำหนด","required_by_course_end_date_d87a4772":"ต้องระบุวันที่สิ้นสุดบทเรียน","required_by_specified_end_date_22dd6b49":"ต้องระบุวันที่สิ้นสุดที่กำหนด","required_by_term_end_date_403dff38":"ต้องระบุภายในวันที่สิ้นสุดเทอม","student_enrollment_date_71424bea":"วันที่ลงทะเบียนผู้เรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_assignments_bce378d7",
+  null,
+  function() { return {"one":"1 ภารกิจ","other":"%{count} ภารกิจ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_weeks_11fbd2dc",
+  null,
+  function() { return {"one":"1 สัปดาห์","other":"%{count} สัปดาห์"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_days_de0c6a32",
+  null,
+  function() { return {"one":"1 วัน","other":"%{count} วัน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_paces_settings",
+  function() { return {"manage_blackout_dates_1f67216a":"จัดการวันที่ไม่พร้อมใช้งาน","modify_settings_ed8b9ccf":"แก้ไขค่าปรับตั้ง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_paces_show_projections_button",
+  function() { return {"hide_projections_9d4ed1e1":"ซ่อนข้อมูลคาดการณ์","show_projections_32a3756":"แสดงข้อมูลคาดการณ์"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "unpublished_warning_modal",
+  function() { return {"discard_changes_e04b15f9":"ยกเลิกการเปลี่ยนแปลง","keep_editing_11ff42e5":"แก้ไขต่อไป","you_have_unpublished_changes_to_your_course_pace_c_90d5a4b1":"คุณมีการเปลี่ยนแปลงที่ไม่ได้เผยแพร่สำหรับความคืบหน้าในบทเรียน (Course Pace) ของคุณ การดำเนินการต่อจะเป็นการยกเลิกการเปลี่ยนแปลงเหล่านี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "unpublished_changes_button_props",
+  function() { return {"all_changes_published_27a53ffd":"เผยแพร่การเปลี่ยนแปลงทั้งหมดแล้ว","publishing_error_bdfb3390":"ข้อผิดพลาดในการเผยแพร่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_unpublished_changes_a366ed45",
+  null,
+  function() { return {"one":"1 การเปลี่ยนแปลงที่ไม่ได้เผยแพร่","other":"%{count} การเปลี่ยนแปลงที่ไม่ได้เผยแพร่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "unpublished_changes_tray_contents",
+  function() { return {"unpublished_changes_cb1cf6ff":"การเปลี่ยนแปลงที่ไม่ได้เผยแพร่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_paces_blackout_dates_modal",
+  function() { return {"blackout_dates_4a140a72":"วันที่ไม่พร้อมใช้งาน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_paces_blackout_dates_table",
+  function() { return {"no_blackout_dates_1297ec22":"ไม่มีวันที่ไม่พร้อมใช้งาน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_pace_date_input",
+  function() { return {"the_date_entered_is_invalid_4503a477":"วันที่ที่กรอกไม่ถูกต้อง","the_date_entered_was_invalid_7091cf9b":"วันที่กรอกไม่ถูกต้อง","the_selected_date_is_on_a_blackout_day_bedcc1b8":"วันที่ที่เลือกอยู่ในวันที่ห้ามทำรายการ","the_selected_date_is_on_a_weekend_and_this_course__66d43756":"วันที่ที่เลือกอยู่ในช่วงสุดสัปดาห์ และความคืบหน้าในบทเรียนนี้จะละเว้นวันสุดสัปดาห์","the_selected_date_is_too_early_6173fe43":"วันที่ที่เลือกเริ่มเร็วเกินไป","the_selected_date_is_too_late_cbe184a1":"วันที่ที่เลือกเริ่มสายเกินไป"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_paces_change_tracking",
+  function() { return {"blackout_date_title_was_added_ec8bf15e":"วันที่ไม่พร้อมใช้งาน %{title} ถูกเพิ่มเข้าไปแล้ว","blackout_date_title_was_deleted_e8cc238b":"วันที่ไม่พร้อมใช้งาน %{title} ถูกลบแล้ว","blackout_date_title_was_edited_31752bc9":"วันที่ไม่พร้อมใช้งาน %{title} ถูกแก้ไขแล้ว","descriptivename_was_changed_from_formattedoldvalue_47623537":"%{descriptiveName} ถูกแก้ไขจาก %{formattedOldValue} เป็น %{formattedNewValue}","descriptivename_was_set_to_formattednewvalue_cd78b357":"%{descriptiveName} ถูกปรับเป็น %{formattedNewValue}","descriptivename_was_turned_off_38771a19":"%{descriptiveName} ปิดใช้งานแล้ว","descriptivename_was_turned_on_132583bb":"%{descriptiveName} เปิดใช้งานแล้ว","require_completion_by_end_date_bd154e32":"กำหนดให้ต้องดำเนินการให้เสร็จสิ้นในวันที่สิ้นสุด (Require Completion by End Date)","require_completion_by_end_date_was_turned_on_and_s_756fc89c":"กำหนดให้ต้องดำเนินการให้เสร็จสิ้นในวันที่สิ้นสุด (Require Completion by End Date) ถูกเปิดใช้และปรับเป็น %{date}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_navigation",
+  function() { return {"move_navigation_item_f034cd8a":"ย้ายรายการสืบค้นเนื้อหา"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_settings",
+  function() { return {"a_sync_is_currently_running_please_wait_for_curren_55ccf501":"กำลังทำการซิงค์ กรุณารอให้การซิงค์ในปัจจุบันเสร็จสิ้นก่อนเริ่มรายการอื่น","also_note_that_microsoft_teams_is_unable_to_suppor_5b3c65e1":"Microsoft Teams จะไม่สามารถรองรับบทเรียนที่มีการลงทะเบียนมากกว่า %{max_enrollments} รายการหรือผู้ดูแลมากก %{max_owners} ราย หากบทเรียนของคุณเกินขีดจำกัดเหล่านี้ การซิงค์อาจถูกแทรกแซง","an_error_occurred_during_the_sync_process_error_62d98be7":"เกิดข้อผิดพลาดระหว่างกระบวนการซิงค์: %{error}","an_error_occurred_please_try_again_error_error_8800b506":"เกิดข้อผิดพลาดขึ้น กรุณาลองใหม่อีกครั้ง ข้อผิดพลาด: %{error}","are_you_sure_you_want_to_resync_these_grades_to_th_e509cb9e":"แน่ใจว่าต้องการซิงค์เกรดเหล่านี้ใหม่กับระบบสารสนเทศของผู้เรียนหรือไม่","are_you_sure_you_want_to_sync_these_grades_to_the__ca3c28a4":"แน่ใจว่าต้องการซิงค์เกรดเหล่านี้กับระบบสารสนเทศของผู้เรียนหรือไม่ คุณควรทำเช่นนี้หากเกรดทั้งหมดสรุปแล้วเท่านั้น","disable_content_security_policy_8660a787":"ปิดใช้งานนโยบายรักษาความปลอดภัยของเนื้อหา","edit_course_role_3b992fc2":"แก้ไขบทบาทในบทเรียน","failed_to_load_csp_information_try_refreshing_the__4a056997":"ไม่สามารถโหลดข้อมูล CSP ลองรีเฟรชหน้าเพจ","hide_name_details_23814c37":"ซ่อน %{name} รายละเอียด","integration_error_44a52be4":"ข้อผิดพลาดในการผสานรวม","integrations_cadb03f3":"การผสานการทำงาน","invalid_sis_sync_status_b68db497":"สถานะซิงค์ SIS ไม่ถูกต้อง","last_sync_5aac1ff1":"ซิงค์ล่าสุด:","last_synced_right_now_f6c2ab00":"ซิงค์ไว้ล่าสุด: ตอนนี้","loading_microsoft_sync_data_a5203d3b":"กำลังโหลดข้อมูลซิงค์ Microsoft","loading_name_data_c66ea65f":"กำลังโหลดข้อมูล %{name}","manual_syncs_are_available_every_cooldown_minutes__e47de0a8":"การซิงค์แบบแมนวลสามารถใช้ได้ทุก ๆ %{coolDown} นาที กรุณารอ %{minutesRemaining} เพื่อซิงค์อีกครั้ง","microsoft_sync_8bddc8a2":"Microsoft Sync","never_1ed1244d":"ไม่เลย","no_errors_1ac47724":"ไม่มีข้อผิดพลาด","no_integrations_available_6729d0ca":"ไม่มีการผสานรวม","note_syncing_is_triggered_by_changes_to_course_enr_4fa83ef3":"หมายเหตุ: การซิงค์ถูกเรียกใช้จากการเปลี่ยนแปลงไปยังส่วนการลงทะเบียนบทเรียน ในครั้งแรกที่คุณเปิดใช้งาน Microsoft Sync คุณอาจต้องทำการซิงค์ด้วยตัวเองโดยใช้ปุ่มด้านล่างนี้","only_account_administrators_can_change_this_settin_149f8fe3":"เฉพาะผู้ดูแลบัญชีผู้ใช้เท่านั้นที่สามารถแก้ไขค่าปรับตั้งนี้","ready_for_sync_16eaf713":"พร้อมสำหรับซิงค์","remove_linked_student_name_52dc7fce":"ลบผู้เรียน %{name} ที่เชื่อมโยงไว้","resync_grades_to_sis_d4dcfe12":"ซิงค์เกรดอีกครั้งไปยัง SIS","role_successfully_updated_4317e6a4":"อัพเดตบทบาทเสร็จสิ้น","saving_the_csp_status_failed_please_try_again_8275aaa4":"การบันทึกสถานะ CSP ล้มเหลว กรุณาลองใหม่อีกครั้ง","scheduling_sync_3f4a7cac":"กำลังกำหนดเวลาการซิงค์","setting_failed_to_load_try_refreshing_c24bf008":"การตั้งค่าไม่สามารถโหลดได้ ลองทำการรีเฟรช","show_name_details_186d86e6":"แสดง %{name} รายละเอียด","something_went_wrong_updating_the_user_s_role_plea_5de95400":"มีบางอย่างผิดพลาดขณะอัพเดตบทบาทผู้ใช้ กรุณาลองใหม่อีกครั้งในภายหลัง","something_went_wrong_when_trying_to_sync_grades_to_592c4c35":"มีบางอย่างผิดพลาดขณะลองซิงค์เกรดกับระบบสารสนเทศของผู้เรียน กรุณาลองใหม่อีกครั้งในภายหลัง","sync_and_provision_microsoft_teams_with_your_canva_a8018b6c":"ซิงค์และจัดสรร Microsoft Teams กับบทเรียน Canvas ของคุณ","sync_auto_scheduled_by_enrollment_changes_bd96ff7f":"ซิงค์การกำหนดเวลาอัตโนมัติตามการเปลี่ยนแปลงข้อมูลการลงทะเบียน","sync_currently_running_2cd5114a":"กำลังทำการซิงค์","sync_manually_scheduled_138a8ad2":"กำหนดเวลาซิงค์ด้วยตัวเองแล้ว","sync_not_enabled_88785878":"ไม่ได้เปิดใช้งานการซิงค์ไว้","sync_now_9bb67e9f":"ซิงค์ตอนนี้","sync_scheduled_successfully_you_may_safely_leave_t_492d42ee":"กำหนดเวลาซิงค์เสร็จสิ้น! คุณสามารถออกจากเพจนี้ได้อย่างปลอดภัย","syncing_grades_to_sis_d63112e0":"กำลังซิงค์เกรดไปยัง SIS...","the_sync_encountered_an_error_and_did_not_complete_538790b9":"การซิงค์เกิดข้อผิดพลาดและดำเนินการไม่เสร็จสิ้น","this_integration_is_not_enabled_please_enable_it_t_b9e8a997":"การผสานรวมนี้ไม่ได้เปิดใช้งาน กรุณาเปิดใช้งานเพื่อโต้ตอบกับค่าปรับตั้งนี้","toggle_name_c0ab332b":"สลับ %{name}","unable_to_load_this_control_543a8271":"ไม่สามารถโหลดการควบคุมนี้"} },
+  function() { return {"buttons":{"add_section":"เพิ่มกลุ่มย่อย","adding_section":"กำลังเพิ่มกลุ่มย่อย...","re_sending_all":"จัดส่งคำเชิญที่ไม่ได้รับการตอบรับใหม่...","re_sent_all":"ส่งคำเชิญที่ไม่ได้รับการตอบรับทั้งหมดใหม่!"},"cancel":"ยกเลิก","confirm":{"delete_section":"แน่ใจว่าต้องการลบกลุ่มย่อยนี้หรือไม่"},"edit_sections_placeholder":"กรอกชื่อกลุ่มย่อย","edit_sections_title":"ชื่อส่วนเนื้อหา","errors":{"invitation":"คำเชิญล้มเหลว  กรุณาลองใหม่อีกครั้งในภายหลัง","re_send_all":"ส่งล้มเหลว กรุณาลองใหม่อีกครั้ง","section":"เพิ่มกลุ่มย่อยล้มเหลว ลองใหม่อีกครั้ง"},"flash":{"invitation":"ส่งคำเชิญแล้ว","linkError":"มีบางอย่างผิดพลาดในการอัพเดตลิงค์ผู้เรียนของผู้ใช้ กรุณาลองใหม่อีกครั้งในภายหลัง","links":"อัพเดตลิงค์ของผู้เรียนเสร็จสิ้น","sectionError":"มีบางอย่างผิดพลาดในการอัพเดตกลุ่มย่อยของผู้ใช้ กรุณาลองใหม่อีกครั้งในภายหลัง","sections":"อัพเดตการลงทะเบียนกลุ่มย่อยเสร็จสิ้น"},"invitation_sent":"ส่งคำเชิญแล้ว!","invitation_sent_now":"ตอนนี้","link_students_placeholder":"กรอกชื่อผู้เรียน","links":{"fewer_options":"ตัวเลือกน้อยลง","more_options":"ตัวเลือกเพิ่มเติม","re_send_all":"ส่งคำเชิญที่ไม่ได้รับการตอบรับทั้งหมดใหม่","re_sending_invitation":"ส่งคำเชิญใหม่..."},"re_send_invitation":"ส่งคำเชิญใหม่","remove_user_from_course_section":"ลบผู้ใช้จาก %{course_section}","titles":{"link_to_students":"ลิงค์ไปยังผู้เรียน","move_course":"ย้ายบทเรียน","reset_course_content_dialog_help":"รีเซ็ตเนื้อหาบทเรียน","section_enrollments":"การลงทะเบียนกลุ่มย่อย"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "actions",
+  function() { return {"there_was_an_error_removing_the_image_c83acffe":"มีข้อผิดพลาดในการลบภาพ","there_was_an_error_retrieving_the_course_image_d7ea094d":"มีข้อผิดพลาดในการเรียกค้นภาพบทเรียน","there_was_an_error_uploading_the_image_932fc4ce":"มีข้อผิดพลาดในการอัพโหลดภาพ","type_is_not_a_valid_image_type_try_jpg_png_or_gif_1c109633":"'%{type}' ไม่ใช่ประเภทภาพที่ถูกต้อง (ลองใช้ jpg, png หรือ gif)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "BlueprintLockOptions",
+  function() { return {"define_general_settings_for_locked_objects_in_this_20da2981":"ระบุค่าปรับตั้งทั่วไปสำหรับออบเจคต์ที่ถูกล็อคในบทเรียนนี้ ","define_settings_by_type_for_locked_objects_in_this_676197bf":"ระบุค่าปรับตั้งตามประเภทของออบเจคต์ที่ล็อคไว้ในบทเรียนนี้ ","enable_course_as_a_blueprint_course_8515ffd5":"เปิดใช้งานบทเรียนเป็นบทเรียนพิมพ์เขียว","general_locked_objects_6a9adafb":"ออบเจคต์ทั่วไปที่ล็อค","locked_objects_by_type_ff376c6c":"ออบเจคต์ที่ล็อคไว้ตามประเภท","locked_objects_cannot_be_edited_in_associated_cour_1af858c8":"ออบเจคต์ที่ล็อคไว้ไม่สามารถแก้ไขได้ในบทเรียนที่มีการเชื่อมโยง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "CourseAvailabilityOptions",
+  function() { return {"changing_the_course_participation_will_republish_a_5715b0d5":"การเปลี่ยนรายละเอียดการเข้าร่วมบทเรียนจะเป็นการเผยแพร่ลำดับเส้นทางของบทเรียนใหม่ทั้งหมดเป็นวันที่ใหม่","course_end_date_4c797823":"วันที่สิ้นสุดสำหรับบทเรียน","course_participation_and_access_settings_7a3d6297":"ค่าปรับตั้งการเข้าร่วมบทเรียนและการสืบค้น","course_participation_is_limited_to_course_start_an_7315866d":"การเข้าร่วมบทเรียนจำกัดเฉพาะระหว่างวันที่เริ่มต้นและสิ้นสุดของ*บทเรียน* วันที่สำหรับกลุ่มย่อยที่จัดทำในบทเรียนจะเป็นการบอกล้างวันที่ของบทเรียน","course_participation_is_limited_to_term_start_and__c8974314":"การเข้าร่วมบทเรียนจำกัดเฉพาะระหว่างวันที่เริ่มต้นและสิ้นสุดของ*เทอม*","course_participation_is_set_to_expire_at_midnight__b05fb48e":"การเข้าร่วมบทเรียนกำหนดให้สิ้นสุดในเวลาเที่ยงคืน ดังนั้นวันก่อนหน้าจะเป็นวันสุดท้ายที่บทเรียนนี้จะใช้งาน","course_start_date_daae16ae":"วันที่เริ่มต้นบทเรียน","end_78c581cd":"สิ้นสุด","limit_course_participation_to_term_or_custom_cours_67797a86":"จำกัดการเข้าร่วมบทเรียนตามวันที่ของเทอมและบทเรียนกำหนดเองหรือไม่","restrict_students_from_viewing_course_after_course_c6baf31":"จำกัดผู้เรียนจากการดูบทเรียนหลังวันที่สิ้นสุดของบทเรียน","restrict_students_from_viewing_course_after_term_e_1f93ccb9":"จำกัดผู้เรียนจากการดูบทเรียนหลังวันที่สิ้นสุดเทอม","restrict_students_from_viewing_course_before_cours_cca659a4":"จำกัดผู้เรียนจากการดูบทเรียนก่อนวันที่เริ่มต้นบทเรียน","restrict_students_from_viewing_course_before_term__3c4924f0":"จำกัดผู้เรียนจากการดูบทเรียนก่อนวันที่เริ่มต้นเทอม","start_5a4cfcd6":"เริ่ม"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_color_selector",
+  function() { return {"set_course_color_to_a_custom_hexadecimal_code_c8a50918":"กำหนดสีบทเรียนเป็นรหัสฐานสิบหกกำหนดเอง","set_course_color_to_a_preset_hexadecimal_color_cod_97608d8":"กำหนดสีบทเรียนเป็นรหัสสีฐานสิบหกกำหนดสำเร็จ ใช้ปุ่มลูกศรซ้ายและขวาเพื่อไปยังค่าปรับตั้งสำเร็จ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_images",
+  function() { return {"choose_image_242f727e":"เลือกภาพ","choose_image_e5ee5d7a":"เลือกภาพ","course_image_settings_eba3ec55":"ค่าปรับตั้งภาพสำหรับบทเรียน","file_must_be_an_image_293567a8":"ไฟล์จะต้องเป็นภาพ","flickr_9bed633e":"Flickr","remove_image_341340b3":"ลบภาพ","unsplash_ee049fbf":"Unsplash","upload_image_6120b609":"อัพโหลดภาพ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_template_details",
+  function() { return {"associated_accounts_c4c0689d":"บัญชีที่เชื่อมโยง","associated_with_10_accounts_dc29a105":"เชื่อมโยงไว้มากกว่า 10 บัญชี","enable_course_as_a_course_template_5299afb6":"เปิดใช้บทเรียนนี้เป็นแม่แบบบทเรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "associated_with_count_accounts_be191ced",
+  null,
+  function() { return {"one":"เชื่อมโยงไว้กับหนึ่งบัญชี","other":"เชื่อมโยงไว้กับ %{count} บัญชี","zero":"ไม่ได้เชื่อมโยงกับบัญชีใด ๆ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "flickr_search",
+  function() { return {"flickr_displays_safesearch_images_within_the_creat_48835f79":"Flickr แสดงภาพ SafeSearch ภายในโดเมนสาธารณะของ Creative Commons\n              อย่างไรก็ตาม ไม่รับประกันผลการค้นหาที่ปลอดภัย เนื่องจากบางภาพไม่มี\n              ระดับความปลอดภัยที่กำหนดโดยเจ้าของ","search_flickr_6f28b02e":"ค้นหา flickr"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "image_search",
+  function() { return {"artist_info_for_username_for_description_12d5d862":"ข้อมูลศิลปินสำหรับ %{userName} สำหรับ %{description}","count_images_found_for_term_a93635ed":"%{count} ภาพที่พบสำหรับ %{term}","no_results_found_for_searchterm_7ee9b03e":"ไม่พบผลลัพธ์สำหรับ %{searchTerm}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "courses_show",
+  function() { return {"choose_home_page_80cef4ee":"เลือกหน้าหลัก","failed_to_load_the_to_do_sidebar_b6169202":"ไม่สามารถโหลดแถบรายการด้านข้างสิ่งที่ต้องทำ (To Do)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_statistics",
+  null,
+  function() { return {"unknown":"ไม่ทราบ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_wizard",
+  function() { return {"add_course_assignments_628ed6d0":"เพิ่มภารกิจสำหรับบทเรียน","add_course_calendar_events_146154a5":"เพิ่มกิจกรรมตามปฏิทินสำหรับบทเรียน","add_files_to_the_course_da6ffd32":"เพิ่มไฟล์ไปยังบทเรียน","add_students_to_the_course_874be8fb":"เพิ่มผู้เรียนไปยังบทเรียนดังกล่าว","add_tas_to_the_course_2aac6e02":"เพิ่ม TA ไปยังบทเรียน","add_your_assignments_you_can_just_make_a_long_list_8a7862dd":"เพิ่มภารกิจของคุณ  คุณสามารถจัดทำรายการแบบยาวหรือแยกย่อยเป็นกลุ่ม ๆ หรือระบุน้ำหนักถ่วงสำหรับแต่ละกลุ่มภารกิจ","all_finished_time_to_publish_your_course_click_the_b6f07217":"เสร็จสิ้นทั้งหมดหรือไม่  เวลาในการเผยแพร่บทเรียนของคุณ!  คลิกที่ปุ่มด้านล่างเพื่อกำหนดเป็นทางการ! การเผยแพร่จะทำให้ผู้ใช้สามารถเริ่มเข้าร่วมบทเรียน","by_default_all_links_are_enabled_for_a_course_stud_8e617dbc":"ตามค่าเริ่มต้น ลิงค์ทั้งหมดจะถูกเปิดใช้งานสำหรับบทเรียน  ผู้เรียนจะไม่เห็นลิงค์ไปยังกลุ่มย่อยต่าง ๆ ที่ตนเองไม่มีเนื้อหาอยู่ด้วย  เช่น หากคุณยังไม่ได้จัดทำแบบทดสอบใด ๆ คนเหล่านี้จะไม่เห็นลิงค์แบบทดสอบดังกล่าว  คุณสามารถจัดเรียงและปิดใช้งานลิงค์เหล่านี้เป็นการเฉพาะหากมีส่วนใดในบทเรียนที่ไม่ต้องการให้ผู้เรียนสืบค้น","choose_a_course_home_page_8059c7b":"เลือกหน้าหลักของบทเรียน","close_and_return_to_canvas_80544344":"ปิดและกลับไปที่ Canvas","course_setup_wizard_is_showing_a7c087c1":"ตัวช่วยตั้งค่าบทเรียนกำลังแสดงผล","course_wizard_31c87552":"ตัวช่วยดำเนินการสำหรับบทเรียน","great_so_you_ve_got_a_course_now_what_well_before__38cfba67":"ดีมาก คุณมีบทเรียนแล้ว มีขั้นตอนอะไรต่อจากนี้ ก่อนเผยแพร่ให้กับคนทั่วไป คุณอาจต้องตรวจสอบว่าคุณแจ้งรายละเอียดเบื้องต้นไว้เรียบร้อยแล้ว  พิจารณารายการทางด้านซ้ายเพื่อให้แน่ใจว่าบทเรียนของคุณพร้อมใช้งาน","here_s_a_great_chance_to_get_to_know_the_calendar__187ce49":"นี่เป็นโอกาสที่สำคัญในการเรียนรู้เกี่ยวกับปฏิทินและเพิ่มกิจกรรมที่ไม่เกี่ยวข้องกับภารกิจที่คุณอาจมีสำหรับบทเรียน ไม่ต้องกังวล เราพร้อมช่วยคุณ","if_you_ve_been_using_another_course_management_sys_67edfab1":"หากคุณใช้ระบบจัดการบทเรียนอื่นอยู่ คุณอาจมีข้อมูลภายในส่วนการใช้งานดังกล่าวที่คุณอาจต้องการเคลื่อนย้ายไปยัง Canvas เราจะแนะนำให้คุณทราบขั้นตอนเพื่อโอนย้ายเนื้อหาของคุณไปยัง Canvas ได้อย่างไม่ยุ่งยาก","import_content_b2fd6620":"นำเข้าเนื้อหา","item_complete_d334fd43":"(รายการที่เสร็จสิ้น)","item_incomplete_d6a16040":"(รายการที่ไม่เสร็จสมบูรณ์)","loaded_more_collaborations_13f1d630":"โหลดความร่วมมือเพิ่มเติมแล้ว","my_dashboard_b724020":"แผงข้อมูลของฉัน","next_steps_ce0f0d0c":"ขั้นต่อไป","now_that_your_course_is_set_up_and_available_you_p_c0c8635c":"หลังจากที่ตั้งค่าบทเรียนของคุณและพร้อมใช้งานแล้ว คุณไม่จำเป็นต้องใช้รายการตรวจสอบนี้อีกต่อไป แต่เราจะจัดเก็บไว้ในกรณีที่คุณนึกได้ภายหลังว่าต้องการลองอะไรใหม่ ๆ หรือแค่ต้องการความช่วยเหลือเพิ่มเติมเล็กน้อยขณะทำการแก้ไขเนื้อหาบทเรียนของคุณ","publish_the_course_f2f6ef80":"เผยแพร่บทเรียน","select_navigation_links_68e1e924":"เลือกลิงค์สืบค้นเนื้อหา","setup_checklist_eb8b00b8":"รายการตรวจสอบการตั้งค่า","the_files_tab_is_the_place_to_share_lecture_slides_95a93bce":"แท็บ ไฟล์ เป็นที่สำหรับแชร์สไลด์การสอน เอกสารตัวอย่าง ความช่วยเหลือในการเรียน และข้อมูลต่าง ๆ ที่ผู้เรียนของคุณต้องการดาวน์โหลด  การอัพโหลดและกำหนดโครงสร้างไฟล์สามารถทำได้ง่าย ๆ ผ่าน Canvas  เราจะแสดงวิธีการให้คุณดู","this_course_is_claimed_and_ready_but_you_ll_need_t_25b95a0a":"บทเรียนนี้ถูกอ้างสิทธิ์และพร้อมใช้แล้ว แต่คุณจะต้องสิ้นสุดการลงทะเบียนก่อนสามารถเผยแพร่บทเรียนได้  คุณควรได้รับอีเมลจาก Canvas พร้อมลิงค์เพื่อสิ้นสุดขั้นตอน  อย่าลืมตรวจสอบกล่องอีเมลขยะของคุณ","this_course_is_visible_only_to_teachers_until_it_i_ce972f0":"บทเรียนนี้จะแสดงเฉพาะกับผู้สอนจนกว่าจะมีการเผยแพร่","when_people_visit_the_course_this_is_the_page_they_de94acc2":"เมื่อมีคนเข้ามาในบทเรียน นี่จะเป็นเพจที่คุณพบ  คุณสามารถตั้งค่าให้แสดงสตรีมกิจกรรม รายการหน่วยการเรียนในบทเรียน หลักสูตรหรือเพจกำหนดเองที่คุณจัดทำขึ้นเอง  ค่าเริ่มต้นคือสตรีมกิจกรรมของบทเรียน","you_do_not_have_permission_to_publish_this_course_ff361c82":"คุณไม่มีสิทธิ์อนุญาตในการเผยแพร่บทเรียนนี้","you_ll_definitely_want_some_of_these_what_s_the_fu_f4f3578b":"คุณต้องใช้สิ่งเหล่านี้แน่ ๆ  จะมีอะไรสนุกจากการสอนหากไม่มีคนรับฟัง","you_may_want_to_assign_some_tas_to_help_you_with_t_702244aa":"คุณอาจต้องกำหนด TA บางส่วนเพื่อช่วยในบทเรียนนี้  TA สามารถให้เกรดผลงานจัดส่งของผู้เรียน ช่วยควบคุมการพูดคุยและอัพเดตวันครบกำหนดและรายละเอียดภารกิจให้กับคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "dashboard",
+  function() { return {"card_view_eaf73185":"มุมมองการ์ด","color_overlay_fb5ecce7":"โอเวอร์เลย์สี","failed_initializing_dashboard_3d967143":"ไม่สามารถเริ่มการทำงานของแผงข้อมูล","failed_to_load_recent_activity_d3e5adeb":"ไม่สามารถโหลดกิจกรรมล่าสุด","failed_to_save_dashboard_selection_32e71c72":"ไม่สามารถบันทึกการเลือกแผงข้อมูล","list_view_430aecce":"มุมมองแบบแสดงรายการ","recent_activity_51239235":"กิจกรรมล่าสุด","toggle_course_card_color_overlays_b5b8137a":"เปิดปิดโอเวอร์เลย์สีการ์ดข้อมูลบทเรียน"} },
+  function() { return {"announcements_collapse":{"one":"ย่อ %{count} ประกาศ","other":"ย่อ %{count} ประกาศ"},"announcements_expand":{"one":"ขยาย %{count} ประกาศ","other":"ขยาย %{count} ประกาศ"},"assignments_collapse":{"one":"ย่อ %{count} การแจ้งข้อมูลภารกิจ","other":"ย่อ %{count} การแจ้งข้อมูลภารกิจ"},"assignments_expand":{"one":"ขยาย %{count} การแจ้งข้อมูลภารกิจ","other":"ขยาย %{count} การแจ้งข้อมูลภารกิจ"},"confirm":{"close":"แน่ใจว่าต้องการสิ้นสุดการประชุมนี้หรือไม่\n\nคุณจะไม่สามารถเปิดใหม่ได้อีก"},"conversations_collapse":{"one":"ย่อ %{count} ข้อความการพูดคุย","other":"ย่อ %{count} ข้อความการพูดคุย"},"conversations_expand":{"one":"ขยาย %{count} ข้อความการพูดคุย","other":"ขยาย %{count} ข้อความการพูดคุย"},"discussions_collapse":{"one":"ย่อ %{count} การพูดคุย","other":"ย่อ %{count} การพูดคุย"},"discussions_expand":{"one":"ขยาย %{count} การพูดคุย","other":"ขยาย %{count} การพูดคุย"},"show_more_link":{"show_less":"แสดงมากขึ้น","show_more":"แสดงเพิ่มเติม"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "external_content",
+  function() { return {"all_items_marked_processed_have_been_saved_by_canv_7045295a":"รายการทั้งหมดที่กำกับว่า “ประมวลผลแล้ว” ถูกบันทึกแล้วโดย Canvas","content_item_title_96079d16":"ชื่อรายการเนื้อหา","content_items_with_errors_a9438fdb":"รายการเนื้อหาที่มีข้อผิดพลาด","discarded_20a4e7e8":"ล้มเลิกแล้ว","field_9ec0ec01":"ฟิลด์","i_understand_continue_a8261425":"ฉันเข้าใจ ดำเนินการต่อ","one_or_more_content_items_sent_by_this_external_ap_76a5ba2a":"รายการเนื้อหาบางส่วนที่ส่งจากแอพจากภายนอกนี้ไม่สามารถประมวลผลอย่างถูกต้อง ข้อมูลเหล่านี้ไม่ได้ถูกบันทึกไว้โดย Canva และสาเหตุที่เกิดข้อผิดพลาดมีระบุไว้ด้านล่าง","processed_4725b02":"ประมวลผลแล้ว","retrieving_content_ed0b9b33":"กำลังเรียกค้นเนื้อหา"} },
+  function() { return {"cancel":{"popup_failure":"ไม่พบหน้าต่างต้นทาง คุณจะต้องปิดป๊อปอัพนี้เอง","popup_success":"ยกเลิกแล้ว ป๊อปอัพนี้ควรปิดเอง..."},"success":{"content_failure":"เรียกค้นเนื้อหาล้มเหลว กรุณาลองใหม่อีกครั้งหรือแจ้งผู้ดูแลระบบให้ทราบข้อผิดพลาด","oembed_failure":"เรียกค้นเนื้อหาล้มเหลว กรุณาลองใหม่อีกครั้งหรือแจ้งผู้ดูแลระบบให้ทราบข้อผิดพลาด","popup_success":"สำเร็จ! ป๊อปอัพนี้ควรปิดเอง..."}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "react_developer_keys",
+  function() { return {"a_json_url_is_required_please_supply_one_ed03101c":"ต้องระบุ json url กรุณากรอกข้อมูล","a_redirect_uri_is_required_please_supply_one_471908db":"ต้องระบุ redirect_uri กรุณากรอกข้อมูล","additional_settings_20362654":"ค่าปรับตั้งเพิ่มเติม","all_scopename_scopes_6c220783":"ขอบเขต %{scopeName} ทั้งหมด","allow_bb7ce9b1":"Allow","allow_include_parameters_bf3d3230":"อนุญาตให้ระบุพารามิเตอร์ ","api_key_eeeb2167":"คีย์ API","are_you_sure_you_want_to_change_the_state_of_this__18c6a72":"แน่ใจว่าต้องการแก้ไขสถานะของคีย์ผู้พัฒนานี้หรือไม่","are_you_sure_you_want_to_delete_this_developer_key_9937481a":"แน่ใจว่าต้องการลบคีย์สำหรับผู้พัฒนานี้หรือไม่","are_you_sure_you_want_to_delete_this_developer_key_ce246033":"แน่ใจว่าต้องการลบคีย์สำหรับผู้พัฒนานี้หรือไม่ การดำเนินการนี้จะเป็นการลบเครื่องมือทั้งหมดที่เชื่อมโยงกับคีย์สำหรับผู้พัฒนาในเนื้อหานี้","at_least_one_scope_must_be_selected_97d6fce9":"ต้องเลือกอย่างน้อยหนึ่งขอบเขต","canvas_3962b702":"Canvas","check_services_to_enable_8877c451":"ตรวจสอบส่วนบริการที่จะเปิดใช้งาน","clicking_the_checkbox_will_cause_scopes_table_to_a_fba5886a":"การคลิกที่ช่องทำเครื่องหมายจะทำให้ตารางขอบเขตปรากฏขึ้นด้านล่าง","clicking_the_checkbox_will_cause_scopes_table_to_d_dbdbffd3":"การคลิกที่ช่องทำเครื่องหมายจะทำให้ตารางขอบเขตหายไปด้านล่าง","client_credentials_audience_218f2d93":"กลุ่มเป้าหมายข้อมูลล็อกอินของไคลเอนท์","create_a_64f6f82":"จัดทำ","create_an_ba36d171":"จัดทำ","create_developer_key_78de8510":"จัดทำคีย์สำหรับผู้พัฒนา","created_created_at_37c0ec3b":"จัดทำแล้ว: %{created_at}","creating_key_8a026e61":"กำลังจัดทำคีย์","delete_key_developername_be80e695":"ลบคีย์ %{developerName}","description_61f4296":"* รายละเอียด","developer_key_921ddbae":"คีย์สำหรับผู้พัฒนา","developer_key_developerkeyid_deleted_focus_moved_t_80fffb4d":"ลบคีย์สำหรับผู้พัฒนา %{developerKeyId} แล้ว ย้ายโฟกัสเพื่อเพิ่มปุ่มเพิ่มคีย์ผู้พัฒนา","developer_key_developerkeyid_deleted_focus_moved_t_9f5b5198":"ลบคีย์สำหรับผู้พัฒนา %{developerKeyId} แล้ว ย้ายโฟกัสไปที่ปุ่มลบของคีย์ผู้พัฒนาก่อนหน้าในรายการ","developer_key_is_an_external_tool_27c6166b":"คีย์ผู้พัฒนาเป็นเครื่องมือจากภายนอก","developer_key_settings_889721f1":"ค่าปรับตั้งคีย์ผู้พัฒนา","developers_keys_table_69ae6b7e":"ตารางคีย์สำหรับผู้พัฒนา","disable_all_read_only_scopes_f9ffdd28":"ปิดใช้งานขอบเขตอ่านอย่างเดียวทั้งหมด","disable_scope_6ba4e4d4":"ปิดใช้งานขอบเขต","display_values_f517c73c":"แสดงค่า","edit_developer_key_d8fa33c4":"แก้ไขคีย์สำหรับผู้พัฒนา","edit_key_developername_2980f240":"แก้ไขคีย์ %{developerName}","edit_this_key_1ee53473":"แก้ไขปุ่มนี้","enable_all_read_only_scopes_3ddc2bb5":"เปิดใช้งานขอบเขตอ่านอย่างเดียวทั้งหมด","enable_scope_ac28b832":"เปิดใช้งานขอบเขต","enforce_scopes_be28989c":"บังคับใช้ขอบเขต","enter_url_e8bb8a33":"กรอก URL","failed_to_save_changes_errors_6920f334":"ไม่สามารถบันทึกการเปลี่ยนแปลง: %{errors}%","field_cannot_be_blank_afb5b332":"ฟิลด์นี้ปล่อยว่างไม่ได้","hide_key_e8fe1e8c":"ซ่อนคีย์","icon_url_e3d56e89":"URL ไอคอน","icon_url_ecce6557":"URL ไอคอน:","identification_values_86d9ffda":"ค่ารหัสประจำตัว","inherited_d4d0bc33":"รับต่อแล้ว","inherited_developer_keys_table_e4a65b67":"ตารางคีย์สำหรับผู้พัฒนาที่รับต่อเข้ามา","json_is_not_valid_please_submit_properly_formatted_e3b2f88f":"Json ไม่ถูกต้อง กรุณาส่ง json ที่กำหนดรูปแบบได้ถูกต้อง","json_url_adbee260":"JSON URL","jwk_method_6d5d0c84":"* วิธี JWK","key_f2a919d5":"คีย์","key_name_7311d22":"ชื่อคีย์:","key_settings_44df6a41":"ค่าปรับตั้งคีย์","key_state_for_the_current_account_d16b1cd5":"สถานะคีย์สำหรับบัญชีในปัจจุบัน","label_values_76f4b5fa":"ค่าฉลากกำกับ","loaded_more_developer_keys_focus_moved_to_the_dele_f5b867f8":"โหลดคีย์ผู้พัฒนาเพิ่มเติมแล้ว ย้ายส่วนการเน้นย้ำไปที่ปุ่มลบของคีย์ผู้พัฒนาที่โหลดไว้ล่าสุดในรายการ","loaded_more_developer_keys_focus_moved_to_the_name_6e3c3b34":"โหลดคีย์ผู้พัฒนาเพิ่มเติมแล้ว ย้ายส่วนการเน้นย้ำไปที่ชื่อคีย์ผู้พัฒนาที่โหลดล่าสุดในรายการแล้ว","loading_available_scopes_bc29bf98":"กำลังโหลดขอบเขตที่ใช้ได้","lti_1_3_configuration_c3534f3b":"LTI 1.3 ส่วนกำหนดค่า","lti_advantage_services_c1746cb4":"LTI Advantage Services","lti_key_14ad02b1":"คีย์ LTI","make_key_developername_invisible_212ecf72":"กำหนดให้คีย์ %{developerName} ไม่แสดงผล","make_key_developername_visible_97c404bf":"กำหนดให้คีย์ %{developerName} แสดงผล","make_key_invisible_e66af89":"กำหนดให้คีย์ไม่แสดงผล","make_key_visible_5c03fa34":"กำหนดให้คีย์แสดงผล","manual_configuration_b586fe54":"การกำหนดค่าเอง","method_c2a4e17a":"วิธีการ","missing_required_fields_please_fill_in_all_require_1e10b2e9":"ไม่มีฟิลด์ที่กำหนด กรุณากรอกรายละเอียดในฟิลด์บังคับทั้งหมด","must_have_at_least_one_redirect_uri_defined_bb236d38":"จะต้องระบุรายละเอียด redirect_uri อย่างน้อยหนึ่งรายการ","no_email_8585ad7e":"ไม่มีอีเมล","notes_6cfc3988":"หมายเหตุ:","off_5385ef3f":"ปิด","on_8f7190e5":"จาก","openid_connect_initiation_url_d9037d30":"Url การเริ่มทำงานของ * OpenID","owner_email_236d1b2":"อีเมลเจ้าของ","owner_email_4d02f795":"อีเมลเจ้าของ:","paste_json_26ad8050":"วาง JSON","peer_service_6b4828b9":"บริการที่เกี่ยวข้อง","permit_usage_of_all_includes_parameters_for_this_d_4f8318f4":"อนุญาตการใช้งานสำหรับพารามิเตอร์ “รวม” สำหรับคีย์สำหรับผู้พัฒนานี้ พารามิเตอร์ “รวม” จะให้อนุญาตในการเข้าถึงข้อมูลเพิ่มเติมที่ไม่มีอยู่ในขอบเขตที่เลือกไว้ด้านล่าง","placement_values_c0a2cf56":"ค่าการจัดวาง","privacy_level_f0ec09a3":"ระดับความเป็นส่วนตัว","private_3883d133":"ส่วนตัว","public_jwk_ee2d719d":"JWK สาธารณะ","public_jwk_json_is_not_valid_please_submit_properl_31ea2004":"JWK json สาธารณะไม่ถูกต้อง กรุณาส่ง json ที่กำหนดรูปแบบได้ถูกต้อง","public_jwk_json_must_have_the_following_string_fie_5f1a42d6":"JWK json สาธารณะจะต้องมีฟิลด์ชุดอักขระต่อไปนี้: kty, e, n, kid, alg, use","public_jwk_url_b5564c1d":"JWK URL สาธารณะ","read_only_3d26d8fe":"อ่านอย่างเดียว","redirect_uri_legacy_b32323d3":"URI เปลี่ยนเส้นทาง (เดิม):","redirect_uris_79534b60":"* URI เปลี่ยนเส้นทาง:","redirect_uris_a54bd82f":"URI เปลี่ยนเส้นทาง:","request_values_89976f2c":"แจ้งขอค่า","required_values_1eb5841f":"ค่าที่กำหนด","save_successful_b2f64da4":"บันทึกเสร็จสิ้น","search_endpoints_d5abf37f":"ค้นหาปลายทาง","select_message_type_806b2dea":"เลือกประเภทข้อความ","select_placements_type_or_use_arrow_keys_to_naviga_a6bfd561":"เลือกการจัดวาง พิมพ์หรือใช้ปุ่มลูกศรเพื่อสืบค้น อนุญาตให้เลือกได้หลายรายการ","selection_height_9d57ec24":"ความสูงรายการที่เลือก","selection_width_183acd79":"ความกว้างรายการที่เลือก","services_must_be_supported_by_the_tool_in_order_to_1f194a36":"เครื่องมือจะต้องรองรับบริการนี้เพื่อให้ใช้การได้ ตรวจสอบกับผู้ให้บริการเครื่องมือของคุณเพื่อให้แน่ใจว่าสามารถใช้การได้","show_all_keys_fa88c55c":"แสดงคีย์ทั้งหมด","show_key_1fbf0c64":"แสดงคีย์","stats_9272cef3":"สถิติ","target_link_uri_bbed67d1":"URI ลิงค์เป้าหมาย *","target_link_uri_d166858":"URI ลิงค์เป้าหมาย","test_cluster_only_70e61c19":"คลัสเตอร์ทดสอบเท่านั้น","this_placement_requires_deep_link_support_by_the_v_702d554f":"การจัดวางนี้ต้องอาศัย Deep Link ของผู้ให้บริการ ตรวจสอบกับผู้ให้บริการเครื่องมือของคุณเพื่อตรวจสอบว่ารองรับฟังก์ชั่นนี้หรือไม่","title_f8e03596":"* ชื่อ","toggle_tooltip_1ed3b35e":"เปิดปิดคำแนะนำในการใช้เครื่องมือ","toggle_tooltip_2447b4fa":"เปิดปิดคำแนะนำในการใช้เครื่องมือ","tool_id_afd739e1":"Id เครื่องมือ","toolname_logo_6b639926":"%{toolName} โลโก้","unnamed_tool_961cb95b":"เครื่องมือไม่มีชื่อ","vendor_code_lti_2_ef36207b":"รหัสผู้ให้บริการ (LTI 2):","when_scope_enforcement_is_disabled_tokens_have_acc_6939182f":"หากปิดใช้งานการกำหนดขอบเขตไว้ ชุดข้อมูลจะสามารถเข้าถึงปลายทางทั้งหมดสำหรับผู้ใช้ที่ให้อนุญาต","will_credentials_issued_by_this_key_be_presented_t_68faff8c":"ข้อมูลล็อกอินจากคีย์นี้จะถูกนำเสนอไปยัง Canvas หรือบริการร่วม (เช่น Canvas Data) หรือไม่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "developer_keys",
+  null,
+  function() { return {"button":{"saving":"กำลังบันทึกคีย์...","saving_failed":"การบันทึกคีย์ล้มเหลว"},"messages":{"confirm_delete":"แน่ใจว่าต้องการลบคีย์สำหรับผู้พัฒนานี้หรือไม่"},"no_user":"ไม่มีผู้ใช้","unnamed_tool":"เครื่องมือไม่มีชื่อ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "discussion_topics",
+  function() { return {"a_message_is_required_129e1814":"ต้องระบุข้อความ","add_attachment_93868828":"เพิ่มเอกสารแนบ","allow_users_to_comment_45b8f753":"อนุญาตให้ผู้ใช้แสดงความเห็น","could_not_duplicate_discussion_953ed67f":"ไม่สามารถจำลองการพูดคุย","delay_posting_this_topic_until_aa483eec":"หน่วงการโพสต์หัวข้อนี้จนกว่า","discussion_topic_a7bf935":"หัวข้อการพูดคุย","discussion_topic_will_be_available_starting_at_46aa7477":"หัวข้อการพูดคุยจะพร้อมใช้งานตั้งแต่","discussion_topic_will_be_available_until_f5e3abc8":"หัวข้อการพูดคุยจะใช้งานได้จนถึง","discussion_topic_will_show_on_student_to_do_list_f_1c9e6286":"หัวข้อการพูดคุยจะแสดงในรายการสิ่งที่ต้องทำของผู้เรียนสำหรับวันที่","full_student_names_and_profile_pictures_will_be_hi_ddfba94e":"Full (แบบเต็ม): ชื่อผู้เรียนและภาพโพรไฟล์จะถูกซ่อนไว้","if_you_change_an_assignment_s_points_possible_you__25a0edad":"หากต้องการปรับคะแนนภารกิจ คุณจะต้องปรับเกรดภารกิจดังกล่าว","new_announcement_23af4598":"ประกาศใหม่","new_discussion_dae4fae3":"การพูดคุยใหม่","off_student_names_and_profile_pictures_will_be_vis_6891e2cf":"Off (ปิด): ชื่อผู้เรียนและภาพโพรไฟล์จะจัดแสดงให้แก่สมาชิกคนอื่น ๆ ในบทเรียนนี้","partial_students_can_choose_to_reveal_their_name_a_baa936d4":"บางส่วน: ผู้เรียนสามารถเลือกเปิดเผยชื่อและภาพโพรไฟล์","title_is_too_long_must_be_under_length_characters_ab694ae4":"ชื่อยาวเกินไป จะต้องไม่เกิน %{length} ตัวอักษร","you_are_not_allowed_to_create_an_anonymous_graded__3eeb1382":"คุณไม่ได้รับอนุญาตให้จัดทำส่วนการพูดคุยที่ให้เกรดแบบไม่เปิดเผยตัว","you_must_input_a_section_b8d370fe":"คุณจะต้องกรอกกลุ่มย่อย","you_must_set_usage_rights_87fc1382":"คุณจะต้องกำหนดสิทธิ์การใช้งาน"} },
+  function() { return {"cannot_unpublish_with_replies":"ไม่สามารถยกเลิกการเผยแพร่หากมีการตอบกลับของผู้เรียน","default_discussion_title":"ไม่มีชื่อ","edit_view":{"allow_liking":"อนุญาตให้กดไลค์","allow_threaded_replies":"อนุญาตการตอบกลับแบบต่อเนื่อง","attachment":"เอกสารแนบ","available_from":"ใช้ได้จาก","buttons":{"save_and_publish":"บันทึกและเผยแพร่"},"delay_posting":"หน่วงการโพสต์","enable_podcast_feed":"เปิดใช้งานฟีดพอดคาสต์","include_replies_in_podcast_feed":"รวมการตอบกลับของผู้เรียนในฟีดพอดคาสต์","only_graders_can_like":"เฉพาะผู้ให้เกรดที่กดไลค์ได้","options":"ตัวเลือก","points_possible":"คะแนนที่เป็นไปได้","post_at":"โพสต์เมื่อ","save":"บันทึก","sort_by_likes":"เรียงจากไลค์","topic_title":"ชื่อหัวข้อ","until":"จนถึง","use_for_grading":"ให้เกรดแล้ว","users_must_post_before_seeing_replies":"ผู้ใช้จะต้องโพสต์ก่อนดูการตอบกลับ"},"group_discussion_locked":"ผู้เรียนจัดส่งผลงานไปยังการพูดคุยนี้แล้ว ดังนั้นจึงไม่สามารถแก้ไขค่าปรับตั้งของกลุ่มได้","group_discussion_title":"การพูดคุยของกลุ่ม","page_nav":{"Page":"หน้าเพจ","current_page":"ปัจจุบัน","first_page":"อันดับแรก","last_page":"อันดับสุดท้าย"},"points_possible_number":"คะแนนที่ทำได้จะต้องเป็นตัวเลข","published_button":{"buttons":{"not_published":"ไม่ได้เผยแพร่","published":"เผยแพร่แล้ว"}},"reply_count_tooltip":{"one":"1 การตอบกลับ","other":"%{count} การตอบกลับ","zero":"ไม่มีการตอบกลับ"},"this_is_a_group_discussion":"นี่เป็นการพูดคุยของกลุ่ม","unread_count_tooltip":{"one":"1 การตอบกลับที่ไม่ได้อ่าน","other":"%{count} การตอบกลับที่ไม่ได้อ่าน","zero":"ไม่มีการตอบกลับที่ไม่ได้อ่าน"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "discussions",
+  function() { return {"an_error_occurred_please_post_your_reply_again_lat_b0220ac6":"*เกิดข้อผิดพลาดขึ้น* กรุณาโพสต์คำตอบของคุณอีกครั้งในภายหลัง","delete_disabled_3196ce47":"ลบ (ปิดใช้งาน)","edit_disabled_e6a5ea0a":"แก้ไข (ปิดใช้งานอยู่)","expand_subdiscussion_cd226ed4":"ขยายการพูดคุยย่อย","grading_and_groups_are_not_supported_in_anonymous__36b53a84":"ไม่รองรับการให้เกรด (Grading) และกลุ่ม (Groups) ในการพูดคุยที่ไม่เปิดเผยตัว (Anonymous Discussions)","like_this_entry_60da41a5":"ไลค์รายการนี้","reply_to_title_f227303f":"ตอบกลับไปยัง %{title}","unlike_this_entry_f22e8d45":"เลิกไลค์รายการนี้","you_must_log_in_to_view_replies_9ccd4da0":"คุณจะต้องล็อกอินเพื่อดูการตอบกลับ"} },
+  function() { return {"are_your_sure_delete":"แน่ใจว่าต้องการลบรายการนี้หรือไม่","author_link":{"authors_name":"ชื่อผู้จัดทำ","unknown_author":"\u003eผู้จัดทำที่ไม่รู้จัก"},"deleted_entry":{"deleted":"ลบโดย *%{editor_name}* เมื่อ %{edited_at}"},"discussion_participant":"ผู้เข้าร่วมการพูดคุย","entry_collection_view":{"add_reply_to_topic":"เพิ่มการตอบกลับไปยังหัวข้อ"},"entry_content":{"edited_comment":"แก้ไขโดย *%{editor.display_name}* เมื่อ %{edited_at}","go_to_parent":"ไปที่ต้นทาง","go_to_topic":"ไปที่หัวข้อ","like_entry":"กดไลค์รายการ","manage_discussion_entry":"จัดการายการการพูดคุย","open_in_speedgrader":"เปิดใน SpeedGrader","write_a_reply":"ตอบกลับ"},"entry_stats":{"show_more":"แสดงเพิ่มเติม"},"hide_due_dates":"ซ่อนวันครบกำหนด","like_count":{"one":"(%{count} ไลค์)","other":"(%{count} ไลค์)"},"mark_as_read":"กำกับว่าอ่านแล้ว","mark_as_unread":"กำลังว่าไม่ได้อ่าน","no_content":"ไม่มีเนื้อหา","no_results":{"make_sure_all_search_terms_are_spelled_correctly":"คำค้นหาจะต้องสะกดให้ถูกต้อง","suggestions":"คำแนะนำ:","try_different_more_general_or_fewer_keywords":"ลองใช้คำค้นหาอื่นที่แตกต่าง ไม่เจาะจงหรือสั้นกว่านี้","try_disabling_the_unread_filter":"ลองปิดใช้งานตัวกรอง “ไม่ได้อ่าน”","your_search_did_not_match_any_entries":"การค้นหาของคุณไม่ตรงกับรายการใด ๆ"},"participant":{"anonymous_user":"ไม่เปิดเผยตัว"},"reply":{"saving_reply":"กำลังบันทึกการตอบกลับ..."},"reply_attachment":{"attachment_label":"เอกสารแนบ","remove_attachment":"ลบ"},"reply_form":{"attach_file":"ติด","cancel":"ยกเลิก","post_reply":"โพสต์การตอบกลับ","write_a_reply":"ตอบกลับ"},"results_entry":{"edited_comment":"แก้ไขโดย *%{editor.display_name}* เมื่อ %{edited_at}","view_in_discussion":"ดูในการพูดคุย"},"show_all_n_replies":{"one":"แสดงหนึ่งการตอบกลับ","other":"แสดง %{count} การตอบกลับทั้งหมด"},"show_due_dates":"แสดงวันครบกำหนด","this_student":"ผู้เรียนนี้","uknown_author":"ผู้จัดทำที่ไม่รู้จัก","unknown":"ไม่ทราบ","unknown_author":"ผู้จัดทำที่ไม่รู้จัก"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "discussions_posts",
+  function() { return {"hide_from_everyone_9fc3e6d0":"ซ่อนจากทุกวัน","hide_name_and_profile_picture_d18eed70":"ซ่อนชื่อและภาพโพรไฟล์","my_drafts_4e4ac1a6":"ฉบับร่างของฉัน","newest_first_87672763":"ใหม่สุดก่อน","oldest_first_ab166f62":"เก่าสุดก่อน","replying_as_f8371a46":"กำลังปรับใช้อีกครั้งเป็น","search_entries_or_author_63fb0a86":"ค้นรายการหรือผู้จัดทำ","search_entries_or_author_8a737938":"ค้นหารายการหรือผู้จัดทำ...","show_name_and_profile_picture_9329d8f8":"แสดงชื่อและภาพโพรไฟล์","show_to_everyone_94d66d01":"แสดงให้กับทุกคน","sort_15eac63f":"จัดเรียง","sorted_by_ascending_af61f8ca":"จัดเรียงจากน้อยไปมาก","sorted_by_descending_824c4300":"จัดเรียงจากมากไปน้อย","this_is_your_anonymous_avatar_55211702":"นี่เป็นภาพประจำตัวแบบไม่เปิดเผยตัวของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "replycount_replies_unreadcount_unread_a85c0bc8",
+  null,
+  function() { return {"one":"%{replyCount} การตอบกลับ, %{unreadCount} รายการที่ไม่ได้อ่าน","other":"%{replyCount} การตอบกลับ, %{unreadCount} รายการที่ไม่ได้อ่าน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "replycount_replies_2775aca1",
+  null,
+  function() { return {"one":"%{replyCount} การตอบกลับ","other":"%{replyCount} การตอบกลับ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "replycount_replies_unreadcount_c79e6060",
+  null,
+  function() { return {"one":"%{replyCount} การตอบกลับ (%{unreadCount})","other":"%{replyCount} การตอบกลับ (%{unreadCount})"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "sections_autocomplete",
+  function() { return {"a_section_is_required_64103992":"ต้องระบุกลุ่มย่อย","post_to_961f8937":"แจ้งกับ","section_added_83879254":"เพิ่ม %{section} แล้ว","section_removed_2ac72a79":"ลบ %{section} แล้ว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "EntryEditor",
+  function() { return {"failed_to_save_please_try_again_later_bb7070fb":"ไม่สามารถบันทึกได้ กรุณาลองใหม่อีกครั้งในภายหลัง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignmentRubricDialog",
+  null,
+  function() { return {"loading":"กำลังโหลด...","titles":{"assignment_rubric_details":"รายละเอียดเกณฑ์การให้คะแนนสำหรับภารกิจ"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "discussionTopicKeyboradShortcutModal",
+  function() { return {"delete_current_message_5da0221a":"ลบข้อความในปัจจุบัน","edit_current_message_da650d4c":"แก้ไขข้อความในปัจจุบัน","next_message_780bcf24":"ข้อความถัดไป","previous_message_8804f87e":"ข้อความก่อนหน้า","reply_to_current_message_55391f5b":"ตอบกลับข้อความปัจจุบัน","reply_to_topic_12412b0f":"ตอบกลับหัวข้อ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "keyboardShortcutModal",
+  function() { return {"press_the_esc_key_to_close_this_modal_14d10601":"กดปุ่ม esc เพื่อปิดโหมดนี้","users_of_screen_readers_may_need_to_turn_off_the_v_98811cd":"ผู้ใช้ระบบอ่านหน้าจอจะต้องปิดเคอร์เซอร์เสมือนจริงเพื่อใช้ชอร์ตคัทแป้นพิมพ์เหล่านี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "discussions_v2",
+  function() { return {"add_discussion_653dab4c":"เพิ่มการพูดคุย","click_here_to_add_a_discussion_f17c4260":"คลิกที่นี่เพื่อเพิ่มการพูดคุย","closed_for_comments_e395b42f":"ปิดสำหรับแสดงความเห็น","count_discussions_found_fc326362":"พบ %{count} การพูดคุย","discussion_filter_5d68de61":"ตัวกรองการพูดคุย","discussions_menu_f18eb4a2":"เมนูการพูดคุย","duplication_failed_3351ffb1":"การจำลองล้มเหลว","duplication_of_title_succeeded_2e0bd645":"การจำลอง %{title} เสร็จสิ้น","error_saving_discussion_settings_3360661d":"เกิดข้อผิดพลาดในการบันทึกค่าปรับตั้งการพูดคุย","failed_to_delete_discussion_title_986df717":"ไม่สามารถลบการพูดคุย %{title}","failed_to_update_discussion_23cc229a":"ไม่สามารถอัพเดตการพูดคุย","loading_discussions_8ed5fcd7":"กำลังโหลดการพูดคุย","move_discussion_9ff5b2d1":"ย้ายการพูดคุย","ordered_by_recent_activity_112d33d5":"สั่งโดยกิจกรรมล่าสุด","pinned_discussions_a55c0cea":"การพูดคุยที่ปักหมุดไว้","saved_discussion_settings_successfully_ebd46a57":"บันทึกค่าปรับตั้งการพูดคุยเสร็จสิ้น","search_by_title_or_author_273a8f49":"ค้นหาจากชื่อหรือผู้จัดทำ...","search_discussion_by_title_30466604":"ค้นหาการพูดคุยจากชื่อ","subscribe_failed_2eb62de0":"สมัครบริการล้มเหลว","successfully_deleted_discussion_title_a685f345":"ลบการพูดคุย %{title} เสร็จสิ้น","there_are_no_discussions_to_show_in_this_section_e8f04ebd":"ไม่มีการพูดคุยสำหรับแสดงในกลุ่มย่อยนี้","to_close_comments_on_a_discussion_drag_a_discussio_85b27448":"ปิดความเห็นในส่วนการพูดคุยโดยลากการพูดคุยไว้ที่นี่ หรือเลือก ปิดสำหรับความเห็น จากเมนูค่าปรับตั้งการพูดคุย","to_pin_a_discussion_to_the_top_of_the_page_drag_a__bfe476c3":"ปักหมุดการพูดคุยไว้ที่ด้านบนของเพจโดยลากการพูดคุยไว้ที่นี่ หรือเลือก ปักหมุด จากเมนูค่าปรับตั้งการพูดคุย","unsubscribed_failed_2a176d2":"เลิกการสมัครบริการล้มเหลว","updating_discussion_failed_aadb2d35":"อัพเดตการพูดคุยล้มเหลว","you_currently_have_no_discussions_with_closed_comm_366a9dab":"ปัจจุบันคุณไม่มีการพูดคุยที่มีความเห็นที่สรุปแล้ว","you_currently_have_no_pinned_discussions_6f0078b8":"ปัจจุบันคุณไม่มีการพูดคุยที่ปักหมุดไว้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "you_are_about_to_delete_count_discussions_are_you__7ff455aa",
+  null,
+  function() { return {"one":"คุณกำลังจะลบ 1 การพูดคุย แน่ใจหรือไม่","other":"คุณกำลังจะลบ %{count} การพูดคุย แน่ใจหรือไม่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "shared_components",
+  function() { return {"allow_comments_a1f45d8":"อนุญาตให้แสดงความเห็น","allow_comments_for_title_7ac9e00":"อนุญาตให้แสดงความเห็นสำหรับ %{title}","delayed_until_58b7af4b":"หน่วงจนถึง:","delete_announcement_title_756a9d1f":"ลบประกาศ %{title}","disallow_comments_6d04b47a":"ไม่อนุญาตแสดงความเห็น","disallow_comments_for_title_21f9c653":"ไม่อนุญาตแสดงความเห็นสำหรับ %{title}","posted_on_e1010e1e":"โพสต์เมื่อ:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "discussion_row",
+  function() { return {"anonymous_discussion_1e9b981":"ส่วนการพูดคุยที่ไม่เปิดเผยตัว | ","available_until_date_d2fe6cb1":"ใช้ได้จนถึง %{date}","close_discussion_title_for_comments_adde43bc":"ปิดการพูดคุย %{title} สำหรับความเห็น","close_for_comments_ce0e5d00":"ปิดสำหรับความเห็น","copy_title_to_course_2a41a2f4":"คัดลอก %{title} ไปยังบทเรียน","delete_discussion_title_a28df8b6":"ลบการพูดคุย %{title}","discussions_announcements_redesign_901c5528":"การปรับรูปแบบการพูดคุย/ประกาศ","due_date_bf4eaf46":"ครบกำหนด %{date} ","duplicate_discussion_title_6537ef4d":"จำลองการพูดคุย %{title}","enable_cbcd2eef":"เปิดใช้งาน ","last_post_at_date_bf77652f":"โพสต์ล่าสุดเมื่อ %{date}","lock_discussion_title_failed_9d49f2d":"ล็อคการพูดคุย %{title} ล้มเหลว","lock_discussion_title_succeeded_fb24ebfc":"ล็อคการพูดคุย %{title} เสร็จสิ้น","move_discussion_title_93ea7be1":"ย้ายการพูดคุย %{title}","not_available_until_date_3c1c73c2":"ไม่พร้อมใช้งานจนถึง %{date}","open_discussion_title_for_comments_6baa3fa":"เปิดการพูดคุย %{title} สำหรับความเห็น","open_for_comments_1810648":"เปิดสำหรับความเห็น","partially_anonymous_discussion_13ceb585":"การพูดคุยแบบไม่เปิดเผยตัวบางส่วน | ","pin_cdbc9f8f":"ปักหมุด","pin_discussion_title_67c84658":"ปักหมุดการพูดคุย %{title}","pin_of_discussion_title_failed_6c2c32a5":"ปักหมุดการพูดคุย %{title} ล้มเหลว","pin_of_discussion_title_succeeded_c7d59580":"ปักหมุดการพูดคุย %{title} เสร็จสิ้น","publish_title_102f2d90":"เผยแพร่ %{title}","send_title_to_user_d952e233":"ส่ง %{title} ให้แก่ผู้ใช้","subscribe_to_title_c7d6bbd2":"สมัครไปยัง %{title}","to_do_date_d6b79bfd":"สิ่งที่ต้องทำ %{date}","to_view_anonymous_discussion_c11482a3":" เพื่อดูการพูดคุยแบบไม่เปิดเผยตัว","unlock_discussion_title_failed_42a4252f":"ปลดล็อคการพูดคุย %{title} ล้มเหลว","unlock_discussion_title_succeeded_cd97847c":"ปลดล็อคการพูดคุย %{title} เสร็จสิ้น","unpin_a318452a":"เลิกปักหมุด","unpin_discussion_title_8c2a0942":"เลิกปักหมุดการพูดคุย %{title}","unpin_of_discussion_title_failed_852116d4":"การเลิกปักหมุดการพูดคุย %{title} ล้มเหลว","unpin_of_discussion_title_succeeded_ce315adb":"การเลิกปักหมุดการพูดคุย %{title} เสร็จสิ้น","unpublish_title_26ae9667":"เลิกเผยแพร่ %{title}","unsubscribe_from_title_c98461b3":"เลิกการสมัครบริการจาก %{title}","was_locked_at_date_acf1c576":"ถูกล็อคเมื่อ %{date}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "discussion_settings",
+  function() { return {"attach_files_to_discussions_bd16c245":"แนบไฟล์เข้ากับการพูดคุย","create_anonymous_discussion_topics_d573e88e":"จัดทำหัวข้อการพูดคุยแบบไม่เปิดเผยตัว","create_discussion_topics_8330d52b":"จัดทำหัวข้อการพูดคุย","discussion_settings_2fbf0b95":"ค่าปรับตั้งการพูดคุย","edit_and_delete_their_own_replies_e5b9d793":"แก้ไขและลบการตอบกลับของตน","manually_mark_replies_as_read_580adc59":"กำกับการตอบกลับว่าอ่านแล้วด้วยตนเอง","my_settings_2ff35329":"ค่าปรับตั้งของฉัน","report_replies_500cdcd3":"แจ้งเหตุการตอบกลับ","save_settings_cafe79a5":"บันทึกค่าปรับตั้ง","student_settings_354d9a7e":"ค่าปรับตั้งของผู้เรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "discussion_posts",
+  function() { return {"add_rubric_3636d9a6":"เพิ่มเกณฑ์การให้คะแนน","anonymous_discussion_54517e84":"ส่วนการพูดคุยที่ไม่เปิดเผยตัว","are_you_sure_you_want_to_delete_this_topic_c0466e91":"แน่ใจว่าต้องการลบหัวข้อนี้หรือไม่","author_215203d2":"ผู้จัดทำ","availability_8942cde6":"ความพร้อม","available_from_availabledate_b8cb93ef":"ใช้ได้จาก %{availableDate}","available_from_availabledate_until_untildate_f27b70aa":"ใช้ได้ตั้งแต่ %{availableDate} จนถึง %{untilDate}","available_until_untildate_b926fe11":"ใช้ได้จนถึง %{untilDate}","close_for_comments_37783f56":"ปิดสำหรับความเห็น","collapse_replies_ef4fc36b":"ย่อการตอบกลับ","continue_draft_6166ea79":"ดำเนินการในฉบับร่างต่อไป","count_less_e65e028b":"ลดลง %{count} รายการ","count_more_beba6428":"อีก %{count} รายการ","created_timingdisplay_82e15b1e":"จัดทำแล้ว %{timingDisplay}","deeply_nested_replies_are_no_longer_supported_your_e84c6796":"ไม่รองรับการตอบกลับที่มีข้อมูลซ้อนทับกันมากเกินไปอีกต่อไป การตอบกลับของคุณจะปรากฏขึ้นในหน้าแรกของสายการติดต่อนี้","deleted_by_deletername_f269211a":"ลบโดย %{deleterName}","deleted_deletedtimingdisplay_f4c73003":"ลบแล้ว %{deletedTimingDisplay}","discussion_topic_title_95b1d6b6":"หัวข้อการพูดคุย: %{title}","due_dates_duedatecount_bbc24d65":"วันครบกำหนด (%{dueDateCount})","edited_by_editorname_editedtimingdisplay_ae2f4692":"แก้ไขโดย %{editorName} %{editedTimingDisplay}","edited_editedtimingdisplay_85d8f1db":"แก้ไขแล้ว %{editedTimingDisplay}","enter_the_grade_41d5c97d":"กรอกเกรด","go_to_parent_7fb312b4":"ไปที่ต้นทาง","go_to_quoted_reply_6f4661e":"ไปที่การตอบกลับที่นำเสนอ","go_to_reply_36fe5f51":"ไปที่การตอบกลับ","go_to_topic_af6025fc":"ไปที่หัวข้อ","group_discussions_914b1577":"การพูดคุยของกลุ่ม","include_quoted_reply_in_message_d0c8af8a":"รวมการตอบกลับที่อ้างถึงในข้อความ","last_reply_lastreplyatdisplay_7a4af30":"ตอบกลับล่าสุด %{lastReplyAtDisplay}","last_reply_lastreplyatdisplaytext_f3d8ee3a":"ตอบกลับล่าสุด %{lastReplyAtDisplayText}","like_count_count_9467dc82":"จำนวนไลค์: %{count}","like_post_from_author_79b874f1":"ไลค์โพสต์จาก %{author}","manage_discussion_c1dd8f4e":"จัดการการพูดคุย","mark_all_as_read_8f3bdf57":"กำกับทั้งหมดว่าอ่านแล้ว","mark_all_as_unread_a435be3d":"กำกับทั้งหมดว่ายังไม่ได้อ่าน","mark_as_read_47ec83dd":"กำกับว่าอ่านแล้ว","mark_as_unread_4ded3977":"กำลังว่าไม่ได้อ่าน","mark_thread_as_read_41c1bcb3":"กำกับชุดข้อมูลติดต่อว่าอ่านแล้ว","mark_thread_as_unread_bc3d7a4":"กำกับชุดข้อมูลติดต่อว่ายังไม่ได้อ่าน","no_end_date_2608075c":"ไม่มีวันที่สิ้นสุด","no_results_match_searchterm_f28e50e0":"ไม่พบผลลัพธ์ที่ตรงกับ \"%{searchTerm}\"","no_start_date_6e81c22b":"ไม่มีวันที่เริ่มต้น","note_for_differentiated_group_topics_some_threads__90adbb21":"หมายเหตุ: สำหรับหัวข้อกลุ่มที่แตกต่างกัน ชุดข้อมูลบางส่วนอาจไม่มีผู้เรียนกำหนดไว้","open_for_comments_f8f7641e":"เปิดสำหรับแสดงความเห็น","open_in_speedgrader_506a4ad5":"เปิดใน SpeedGrader","open_in_speedgrader_57c64fe3":"เปิดใน SpeedGrader","partially_anonymous_discussion_e821cf85":"การพูดคุยแบบไม่เปิดเผยตัวบางส่วน","peer_review_due_dueattext_20987412":"ความคิดเห็นจากผู้เกี่ยวข้องที่ครบกำหนด %{dueAtText}","peer_review_due_eb63af38":"ความคิดเห็นจากผู้เกี่ยวข้องที่ครบกำหนด","peer_review_for_name_bcffa32f":"ความคิดเห็นจากผู้เกี่ยวข้องสำหรับ %{name}","peer_review_for_name_due_dueattext_f5f6547d":"ความคิดเห็นจากผู้เกี่ยวข้องสำหรับ %{name} ครบกำหนด: %{dueAtText}","peer_reviews_e3a55964":"ความคิดเห็นจากผู้เกี่ยวข้อง","quote_ae4462ad":"ข้อคิด","replace_filename_png_button_cf5dc7c3":"แทนที่ปุ่ม filename.png","reply_to_post_from_author_116cedd5":"ตอบกลับโพสต์จาก %{author}","report_58d2ac9e":"รายงาน","reported_3de7086a":"รายงานข้อมูลแล้ว","review_now_318a6a3e":"พิจารณาตอนนี้","saved_3cd67a7c":"บันทึกแล้ว","show_due_dates_duedatecount_5e0b056c":"แสดงวันครบกำหนด (%{dueDateCount})","show_rubric_dca783f2":"แสดงเกณฑ์การให้คะแนน","students_have_the_option_to_reply_anonymously_some_503cdf6c":"ผู้เรียนสามารถเลือกตอบกลับแบบไม่เปิดเผยตัว ชื่อและภาพโพรไฟล์บางส่วนอาจถูกซ่อนไว้","subscribe_4b301fb7":"สมัครบริการ","subscribed_fe74d22a":"สมัครบริการแล้ว","the_discussion_topic_was_successfully_deleted_d8b93b70":"ลบหัวข้อการพูดคุยเสร็จสิ้น","there_was_an_unexpected_error_deleting_the_discuss_fe1022cb":"มีข้อผิดพลาดที่ไม่คาดคิดในการลบหัวข้อการพูดคุย","there_was_an_unexpected_error_marking_all_as_read_117fe739":"มีข้อผิดพลาดที่ไม่คาดคิดในการกำกับว่าอ่านแล้ว","there_was_an_unexpected_error_marking_all_as_unrea_e4658766":"มีข้อผิดพลาดที่ไม่คาดคิดในการกำกับรายการทั้งหมดว่าไม่ได้อ่าน","there_was_an_unexpected_error_updating_the_discuss_6cd3489c":"มีข้อผิดพลาดที่ไม่คาดคิดในการอัพเดตหัวข้อการพูดคุย","this_announcement_will_not_be_visible_until_delaye_88f7f5c":"ประกาศนี้จะไม่แสดงผลจนถึง %{delayedPostAt}","this_is_an_anonymous_discussion_student_names_and__bc19b64d":"นี่เป็นการพูดคุยแบบไม่เปิดเผยตัว ชื่อและภาพโพรไฟล์ผู้เรียนถูกซ่อนไว้","this_is_an_anonymous_discussion_though_student_nam_f98abe71":"นี่เป็นการพูดคุยแบบไม่เปิดเผยตัว แม้ว่าชื่อผู้เรียนและภาพโพรไฟล์จะถูกซ่อนไว้ แต่ชื่อและภาพโพรไฟล์ของคุณจะถูกแสดงให้กับสมาชิกทั้งหมดในบทเรียน","this_is_an_anonymous_discussion_your_name_and_prof_72c49b77":"นี่เป็นการพูดคุย (Discussion) แบบไม่เปิดเผยตัว ชื่อและภาพโพรไฟล์ของคุณจะถูกซ่อนไว้จากสมาชิกอื่น ๆ ในบทเรียน","this_topic_will_be_available_delayedpostat_6b47c4c3":"หัวข้อนี้จะพร้อมใช้งาน %{delayedPostAt}","topic_podcast_feed_9ab6f5ac":"หัวข้อ: ฟีดพอดคาสต์","unlike_post_from_author_5e2c13c5":"เลิกไลค์โพสต์จาก %{author}","unread_post_47a1a06b":"โพสต์ที่ไม่ได้อ่าน","unsubscribe_8be438ff":"เลิกการสมัครบริการ","unsubscribed_c93564a2":"ยกเลิกการสมัครบริการแล้ว","view_availability_963f62ff":"ดูความพร้อม","when_creating_a_reply_students_will_have_the_optio_716eb2f4":"ขณะจัดทำการตอบกลับ ผู้เรียนสามารถแสดงชื่อและภาพโพรไฟล์ของตนเองหรือเลือกไม่แสดงตัว ชื่อและภาพโพรไฟล์ของคุณจะจัดแสดงกับสมาชิกทั้งหมดในบทเรียน","when_creating_a_reply_you_will_have_the_option_to__8607ac10":"ขณะจัดทำการตอบกลับ คุณสามารถเลือกแสดงชื่อและภาพโพรไฟล์ของคุณกับสมาชิกอื่น ๆ ในบทเรียนหรือเลือกที่จะไม่เปิดเผยตัว","you_have_completed_a_peer_review_for_name_4dd2264b":"คุณผ่านการแสดงความคิดเห็นจากผู้เกี่ยวข้องสำหรับ %{name} แล้ว","you_have_successfully_marked_all_as_read_f246ef1a":"คุณกำกับทั้งหมดว่าอ่านแล้ว","you_have_successfully_marked_all_as_unread_cb019eb9":"คุณกำกับรายการทั้งหมดว่าไม่ได้อ่านเสร็จสิ้นแล้ว","you_have_successfully_subscribed_to_the_discussion_a577c521":"คุณสมัครเข้าร่วมหัวข้อการพูดคุยเสร็จสิ้น","you_have_successfully_unsubscribed_from_the_discus_883e8326":"คุณเลิกสมัครหัวข้อการพูดคุยเสร็จสิ้น","you_have_successfully_updated_the_discussion_topic_b2910500":"คุณอัพเดตหัวข้อการพูดคุยเสร็จสิ้น","you_must_post_before_seeing_replies_24f8bcd4":"คุณจะต้องโพสต์ก่อนเห็นการตอบกลับ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_points_4735a2e8",
+  null,
+  function() { return {"one":"1 คะแนน","other":"%{count} คะแนน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_points_possible_aa76302d",
+  null,
+  function() { return {"one":"1 คะแนนที่เป็นไปได้","other":"%{count} คะแนนที่เป็นไปได้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_results_found_da21e05c",
+  null,
+  function() { return {"one":"พบ 1 ผลลัพธ์","other":"พบ %{count} ผลลัพธ์"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "discussion_topics_post",
+  function() { return {"anonymous_id_2ef1c6d2":"ไม่เปิดเผยตัว %{id}","anonymous_id_you_cf43ab76":"ไม่เปิดเผยตัว %{id} (คุณ)","anonymous_you_e708af99":"ไม่เปิดเผยตัว  (คุณ)","are_you_sure_you_want_to_delete_this_entry_9aecd6d3":"แน่ใจว่าต้องการลบรายการนี้หรือไม่","deleted_by_editor_d3fdc2ee":"ลบโดย %{editor}","discussion_topic_initial_query_error_37c98b4":"ข้อผิดพลาดการสืบค้นเบื้องต้นสำหรับหัวข้อการพูดคุย","discussion_topic_post_error_page_7f7edc49":"เพจข้อผิดพลาดในการโพสต์หัวข้อการพูดคุย","inappropriate_1930c574":"ไม่เหมาะสม","isolated_entry_post_error_page_2a447d08":"เพจข้อผิดพลาดการโพสต์รายการแยกเฉพาะ","isolated_entry_query_error_f0bfae18":"ข้อผิดพลาดการสืบค้นรายการแยกเฉพาะ","offensive_abusive_c41dcb08":"ก้าวร้าว หยาบคาย","please_select_a_reason_for_reporting_this_reply_51719e8d":"กรุณาเลือกสาเหตุที่แจ้งเหตุเกี่ยวกับการตอบกลับนี้","read_less_ae7bd04f":"อ่านน้อยลง","read_more_f69fb6ec":"อ่านเพิ่มเติม","report_reply_5af43ed0":"แจ้งเหตุการตอบกลับ","report_reply_options_44e47591":"ตัวเลือกการแจ้งเหตุการตอบกลับ","reported_replies_will_be_sent_to_your_teacher_for__e7c814ec":"การตอบกลับที่มีการแจ้งเหตุจะถูกส่งไปยังผู้สอนของคุณเพื่อให้พิจารณา คุณจะไม่สามารถเลิกดำเนินการในส่วนนี้ได้","show_newer_replies_9f73d06d":"แสดงการตอบกลับที่ใหม่กว่า","show_older_replies_e85891b3":"แสดงการตอบกลับเก่า","the_discussion_entry_was_successfully_created_7cddf67b":"จัดทำรายการพูดคุยเสร็จสิ้น","the_replies_were_successfully_updated_56430189":"อัพเดตการตอบกลับเสร็จสิ้น","the_reply_was_successfully_deleted_84f3e46e":"ลบการตอบกลับเสร็จสิ้น","the_reply_was_successfully_updated_18d7421f":"อัพเดตการตอบกลับเสร็จสิ้น","there_was_an_unexpected_error_creating_the_discuss_8811a868":"มีข้อผิดพลาดที่ไม่คาดคิดในการจัดทำรายการพูดคุย","there_was_an_unexpected_error_loading_the_replies_578d9738":"มีข้อผิดพลาดที่ไม่คาดคิดในการโหลดการตอบกลับ","there_was_an_unexpected_error_updating_the_reply_a3eaf19f":"มีข้อผิดพลาดที่ไม่คาดคิดในการอัพเดตการตอบกลับ","there_was_an_unexpected_error_while_deleting_the_r_7df6ebe0":"มีข้อผิดพลาดที่ไม่คาดคิดขณะลบการตอบกลับ","there_was_an_unexpected_error_while_updating_the_r_412e6e54":"มีข้อผิดพลาดที่ไม่คาดคิดขณะอัพเดตการตอบกลับ","there_was_an_unexpected_error_while_updating_the_r_a7ab5183":"มีข้อผิดพลาดที่ไม่คาดคิดขณะอัพเดตการตอบกลับ","view_replies_8565a729":"ดูการตอบกลับ","we_experienced_an_issue_this_reply_was_not_reporte_7622abd1":"เราพบปัญหาขึ้น การตอบกลับนี้ไม่ได้ถูกแจ้ง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "eportfolio",
+  function() { return {"_at_the_bottom__4360f2b4":"-- ด้านล่าง --","click_to_edit_drag_to_reorder_ab725681":"คลิกเพื่อแก้ไข ให้ลากเพื่อเรียงลำดับใหม่","move_page_e25b123d":"ย้ายเพจ","move_section_d3866941":"ย้ายกลุ่มย่อย","place_section_before_5b45714e":"จัดวาง \"%{section}\" ไว้ก่อน:","submission_added_title_50ebdc85":"เพิ่มผลงานจัดส่งแล้ว: %{title}"} },
+  function() { return {"buttons":{"done_editing":"แก้ไขเสร็จสิ้น","manage_sections":"จัดการกลุ่มย่อย"},"confirm_delete_message":"แน่ใจว่าต้องการลบข้อความนี้หรือไม่","confirm_delete_page":"ลบหน้านี้และเนื้อหาภายในหรือไม่","confirm_delete_section":"ลบกลุ่มย่อยนี้และเพจภายในทั้งหมดหรือไม่","default_description":"นี่เป็นผลงานจัดส่งสำหรับ %{assignment} ของฉันสำหรับ %{course}","eportfolio_settings":"ค่าปรับตั้ง ePortfolio","errors":{"compiling":"มีข้อผิดพลาดในการเรียบเรียง ePortfolio ของคุณ  กรุณาลองใหม่อีกครั้งเมื่อผ่านไปครู่หนึ่ง","missing_file":"กรุณาเลือกไฟล์","name_required":"ต้องระบุชื่อ","name_too_long":"ชื่อยาวเกินไป","section_name_invalid":"ชื่อกลุ่มย่อยไม่ถูกต้อง","section_name_too_long":"ชื่อกลุ่มย่อยยาวเกินไป","upload_failed":"อัพโหลดล้มเหลว"},"titles":{"add_submission":"เพิ่มเพจสำหรับผลงานจัดส่ง","download_eportfolio":"ดาวน์โหลด ePortfolio","section_list":"ลากเพื่อจัดเรียง คลิกเพื่อแก้ไข"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "eportfolios",
+  null,
+  function() { return {"_page_section":{"section_types":{"attachment":"การอัพโหลดภาพ/ไฟล์","html":"HTML/เนื้อหาผนวก","rich_text":"เนื้อหา Rich Text","submission":"ผลงานจัดส่งสำหรับบทเรียน"}},"show":{"headers":{"export_progress":"กำลังรวบรวมทรัพยากรข้อมูล ePortfolio อาจต้องใช้เวลาสักครู่หากคุณมีไฟล์เป็นจำนวนมากใน ePortfolio ของคุณ"}}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "epub_exports",
+  function() { return {"download_associated_files_f35dcb5e":"ดาวน์โหลดไฟล์ที่เชื่อมโยง","download_epub_757cf0af":"ดาวน์โหลด ePub","failed_307449e1":"ล้มเหลว:","generate_epub_80e89ea4":"จัดทำ ePub","generated_f26ee56b":"ที่จัดทำ:","generating_5b5e20f8":"กำลังจัดทำ:","generating_c2aabc02":"กำลังจัดทำ...","regenerate_epub_395c8e56":"จัดทำ ePub ใหม่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "shared",
+  null,
+  function() { return {"components":{"ic_submission_download_dialog":{"click_to_download":"คลิกที่นี่เพื่อดาวน์โหลด","download_message":"ผลงานจัดส่งจะถูกบีบอัดเป็นไฟล์ zip สำหรับดาวน์โหลด อาจต้องใช้เวลาครู่หนึ่ง ขึ้นอยู่กับขนาดและจำนวนไฟล์ที่จัดส่ง","download_message_intro":"กำลังรวบรวมผลงานจัดส่งของผู้เรียน","download_submissions":"ดาวน์โหลดผลงานจัดส่งทั้งหมด"}},"error_form":{"message_failed":"ไม่ได้จัดส่งรายงาน  กรุณาลองใหม่อีกครั้งในภายหลัง","message_sent":"ขอขอบคุณสำหรับความช่วยเหลือ!  เราจะจัดการให้"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "external_tools",
+  function() { return {"access_token_3be22221":"ชุดข้อมูลการใช้งาน","add_app_baf540f":"เพิ่มแอพ","add_to_rce_toolbar_e5b3e3b4":"เพิ่มแถบเครื่องมือ RCE","allow_this_tool_to_access_the_ims_names_and_role_p_33e16d7f":"อนุญาตให้เครื่องมือนี้สามารถสืบค้นชื่อ IMS และบริการจัดสรรบทบาท","an_error_occured_while_trying_to_find_the_lti_conf_90f50a4c":"เกิดข้อผิดพลาดขณะพยายามค้นหาค่าปรับตั้ง LTI","an_update_is_available_for_toolname_bba3fa2":"มีข้อมูลอัพเดตสำหรับ %{toolName}","app_placements_6d877225":"การจัดวางแอพ","app_reregistration_87cc8817":"การลงทะเบียนแอพ","app_was_installed_by_admin_and_is_locked_3bee4d39":"%{app} ถูกติดตั้งโดยผู้ดูแลระบบและล็อคไว้","app_was_installed_by_the_master_course_and_is_lock_dbeb24a6":"%{app} ถูกติดตั้งโดยบทเรียนหลักและถูกล็อคไว้","app_was_installed_by_the_master_course_e55ba1d7":"%{app} ถูกติดตั้งโดยบทเรียนหลัก","apps_are_an_easy_way_to_add_new_features_to_canvas_2cbc2531":"แอพเป็นวิธีง่าย ๆ ในการเพิ่มคุณสมบัติใหม่ไปยัง Canvas สามารถเพิ่มไปยังบทเรียนแยกเฉพาะ หรือบทเรียนทั้งหมดในบัญชีผู้ใช้ หลังจากกำหนดค่าแล้ว คุณสามารถเชื่อมโยงเข้าด้วยกันผ่านหน่วยการเรียนในบทเรียนและจัดทำภารกิจสำหรับเครื่องมือการประเมิน","are_you_sure_you_want_to_remove_this_tool_7363f90b":"แน่ใจว่าต้องการลบเครื่องมือนี้หรือไม่","assignment_and_link_selection_557faf38":"การเลือกภารกิจและลิงค์","assignment_edit_6dced39f":"การแก้ไขภารกิจ","assignment_menu_91fe3716":"เมนูภารกิจ","assignment_selection_6bff05c4":"การเลือกภารกิจ","assignment_view_1206a60b":"มุมมองภารกิจ","assignments_group_menu_c2522316":"เมนูกลุ่มภารกิจ","assignments_index_menu_4088a035":"เมนูดัชนีภารกิจ","back_to_app_center_95420d83":"กลับไปที่ศูนย์แอพ","by_client_id_4f2fe02c":"จาก ID ไคลเอนท์","by_lti_2_registration_url_e421e523":"จาก URL การลงทะเบียน LTI 2","by_url_a163275e":"จาก URL","client_id_cb2502af":"ID ไคลเอนท์","client_id_is_required_1afd54d1":"ต้องระบุ ID ไคลเอนท์","collaboration_71c024f4":"ความร่วมมือ","conference_selection_ea4050bb":"การเลือกการประชุม","config_url_e96ceaf3":"กำหนดค่า URL","configuration_type_25a084a4":"ประเภทการกำหนดค่า","configure_tool_app_3b1bb50b":"กำหนดค่าแอพ %{tool} หรือไม่","configure_toolname_app_651371be":"กำหนดค่าแอพ %{toolName}","consumer_key_6f94ba11":"คีย์ผู้ใช้","could_not_find_an_lti_configuration_for_client_id__b7d07b3c":"ไม่พบส่วนกำหนดค่า LTI สำหรับ ID ไคลเอนท์ %{clientId}","count_apps_found_f4d86860":"พบ %{count} แอพ","course_assignments_menu_fa6aeb23":"เมนูภารกิจสำหรับบทเรียน","course_home_sub_navigation_b1ee6b03":"ส่วนการสืบค้นย่อยหน้าหลักบทเรียน","course_settings_sub_navigation_b95deae":"ส่วนการสืบค้นย่อยค่าปรับตั้งบทเรียน","delete_tool_app_9c9f6d35":"ลบแอพ %{tool} หรือไม่","delete_toolname_app_85f9d4ee":"ลบแอพ %{toolName}","deployment_id_fc270280":"ID การปรับใช้","deployment_id_for_tool_app_cb59335":"ID การปรับใช้สำหรับแอพ %{tool}","deployment_id_for_toolname_app_e54a7364":"ID การปรับใช้สำหรับแอพ %{toolName}","disabled_18c33a73":"(ปิดใช้งานไว้)","discussion_topic_menu_3d4684c6":"เมนูหัวข้อการพูดคุย","discussions_index_menu_42591bc9":"เมนูดัชนีการพูดคุย","dismiss_dacdb625":"ยกเลิก","e_mail_only_2cc5e513":"อีเมลเท่านั้น","edit_app_b0cc1c17":"แก้ไขแอพ","edit_toolname_app_23cfbb8":"แก้ไขแอพ %{toolName}","editor_button_6647db9c":"ปุ่มโปรแกรมแก้ไข","either_the_url_or_domain_should_be_set_c29cf8c1":"ต้องระบุ url หรือโดเมน","enter_the_access_token_for_your_organization_from__7b67e135":"กรอกชุดข้อมูลการใช้งานสำหรับหน่วยงานของคุณจาก \n                    *eduappcenter.com* หลังจากปรับใช้แล้ว เฉพาะแอพที่หน่วยงานของคุณรับรองใน \n                    EduAppCenter เท่านั้นที่จะแสดงในเพจ แอพจากภายนอก \n                    เรียนรู้วิธีการ**จัดทำชุดข้อมูลการใช้งาน**","example_https_example_com_config_xml_be5f36ac":"ตัวอย่าง https://example.com/config.xml","example_https_lti_tool_provider_example_herokuapp__e9802142":"ตัวอย่าง https://lti-tool-provider-example.herokuapp.com/register","favorite_d720d310":"รายการโปรด","file_menu_cc0ca54":"เมนูไฟล์","files_index_menu_c6961f14":"เมนูดัชนีไฟล์","filter_by_name_34cbe139":"กรองจากชื่อ","homework_submission_172e8354":"ผลงานจัดส่งโฮมรูม","inactive_34365329":"ไม่ได้ใช้งาน","install_c54fad9b":"ติดตั้ง","installed_7b284a91":"ติดตั้งแล้ว","it_may_take_some_time_for_placement_availability_t_9ee07437":"อาจต้องใช้เวลาในการจัดสรรพื้นที่เพื่อรองรับการเปลี่ยนแปลงที่เกิดขึ้นที่นี่ นอกจากนี้คุณยังสามารถล้างแคชและรีเฟรชหน้าเพจเพื่อรอให้การเปลี่ยนแปลงมีผล","launch_registration_tool_38d4781":"เรียกใช้เครื่องมือลงทะเบียน","launch_url_e150bd41":"เรียกใช้ URL","link_selection_1486c5d0":"การเลือกลิงค์","link_to_lti_tools_608df3b0":"เชื่อมโยงไปยังเครื่องมือ LIT","manage_app_list_994cc26c":"จัดการรายชื่อแอพ","manage_update_23de23a1":"จัดการการอัพเดต","manage_update_for_toolname_f8e3b2fb":"จัดการการอัพเดตสำหรับ %{toolName}","migration_selection_5f1c5f55":"การเลือกรายการโอนย้าย","module_menu_3201af4e":"เมนูหน่วยการเรียน","module_menu_modal_6b20c03":"เมนูหน่วยการเรียน (โมดัล)","modules_group_menu_4aae0d5f":"เมนูกลุ่มหน่วยการเรียน","modules_index_menu_modal_79123a19":"เมนูดัชนีหน่วยการเรียน (โมดัล)","modules_index_menu_tray_3f9975d9":"เมนูดัชนีหน่วยการเรียน (เทรย์)","na_3dbb9cfd":"ไม่มี","name_app_has_been_deleted_fb2d9426":"แอพ %{name} ถูกลบแล้ว","name_has_been_successfully_installed_but_has_not_y_c3148b96":"*ชื่อ*ติดตั้งเสร็จสิ้นแต่ยังไม่ได้เปิดใช้งาน","name_is_currently_status_9065c996":"*ชื่อ*ปัจจุบันอยู่ใน**สถานะ**","name_only_5f56718e":"ชื่ออย่างเดียว","no_cancel_installation_db8d12d7":"ไม่ ยกเลิกการติดตั้ง","no_placements_enabled_f705f28":"ไม่ได้เปิดใช้การจัดวางใด ๆ","not_installed_37a21a76":"ไม่ได้ติดตั้ง","page_menu_2f8bee0":"เมนูเพจ","pages_index_menu_f391bf04":"เมนูดัชนีเพจ","paste_xml_cda3a64e":"วาง XML","placement_active_click_to_deactivate_47f8cf45":"เปิดใช้ส่วนการจัดวางไว้; คลิกเพื่อปิดใช้งาน","placement_inactive_click_to_activate_f7fe8c30":"ปิดส่วนการจัดวางไว้; คลิกเพื่อเปิดใช้งาน","privacy_290109ea":"ความเป็นส่วนตัว","quiz_menu_4fcd5e61":"เมนูแบบทดสอบ","quizzes_index_menu_1ce11b54":"เมนูดัชนีแบบทดสอบ","register_tool_84de3186":"ลงทะเบียนเครื่องมือ","registration_url_60e0eaaa":"URL การลงทะเบียน","reregister_9ab95a57":"ลงทะเบียนใหม่","reregister_toolname_3dde0bfc":"ลงทะเบียน %{toolName} ใหม่","retrieving_tool_51709735":"เครื่องมือการสืบค้น","see_some_lti_tools_that_work_great_with_canvas_53e92091":"ดูเครื่องมือ LTI บางส่วนที่ใช้ได้ดีกับ Canvas","shared_secret_892c88f2":"ข้อมูลลับที่แชร์","similarity_detection_dcada48":"การตรวจสอบความใกล้เคียง","submission_type_selection_72ce19f":"การเลือกประเภทผลงานจัดส่ง","the_app_was_activated_a84e055f":"แอพเปิดใช้งานแล้ว","the_app_was_added_58e2836a":"เพิ่มแอพแล้ว","the_app_was_added_successfully_3f785a23":"เพิ่มแอพเสร็จสิ้น","the_app_was_deactivated_573520ab":"ปิดใช้งานแอพแล้ว","the_app_was_updated_successfully_3d71cd1b":"อัพเดตแอพเสร็จสิ้น","the_client_id_clientid_is_disabled_b4a02cb1":"ID ไคลเอนท์ %{clientId} ถูกปิดใช้งาน","the_following_fields_are_invalid_fields_b3565800":"ฟิลด์ต่อไปนี้ไม่ถูกต้อง: %{fields}","there_is_a_2_app_limit_for_placement_within_the_rc_971821a8":"จำกัดการจัดวางไว้ที่ 2 แอพภายในแถบเครื่องมือ RCE","there_was_an_error_in_processing_your_request_6513a49a":"มีข้อผิดพลาดในการประมวลผลคำขอของคุณ","there_was_an_unknown_error_registering_the_tool_b9a29954":"มีข้อผิดพลาดที่ไม่รู้จักในการลงทะเบียนเครื่องมือ","there_were_errors_with_the_form_errors_ab5b559a":"มีข้อผิดพลาดกับแบบฟอร์ม: %{errors}","this_field_name_is_required_988caebc":"ฟิลด์ \"%{name}\" เป็นฟิลด์บังคับ","this_field_name_is_required_b9196401":"ฟิลด์ “ชื่อ” เป็นฟิลด์บังคับ","this_tool_has_already_been_installed_in_this_conte_b73ea29c":"เครื่องมือนี้ถูกติดตั้งไว้แล้วในเนื้อหานี้ ต้องการติดตั้งอีกหรือไม่","to_obtain_a_client_id_an_account_admin_will_need_t_33f4063e":"ขอรับ ID ไคลเอนท์ โดยผู้ดูแลระบบจะต้องจัดทำคีย์สำหรับผู้พัฒนา LTI","toggling_placement_ee1ab8b5":"กำลังสลับการจัดวาง","tool_configuration_63cd43b0":"การกำหนดค่าเครื่องมือ","tool_content_e699e813":"เนื้อหาของเครื่องมือ","tool_placements_3f996c24":"การจัดวางเครื่องมือ","tool_toolname_found_for_client_id_clientid_would_y_13f35b91":"พบเครื่องมือ \"%{toolName}\" สำหรับ ID ไคลเอนท์ %{clientId} ต้องการติดตั้งหรือไม่","unable_to_accept_update_fd53a7e2":"ไม่สามารถตอบรับข้อมูลอัพเดต","unable_to_dismiss_update_df1e32eb":"ไม่สามารถล้มเลิกการอัพเดต","unable_to_remove_app_4293cb53":"ไม่สามารถลบแอพได้","unable_to_toggle_placement_833db6ff":"ไม่สามารถเปิดปิดการจัดวาง","unchanged_aca18e02":"[ยกเลิกการเปลี่ยนแปลงแล้ว]","update_tool_7d48ef2a":"อัพเดต %{tool}","user_navigation_a097be0f":"การสืบค้นเนื้อหาของผู้ใช้","view_app_center_6c89a3fe":"ดูศูนย์แอพ","view_app_configurations_52b52441":"ดูการกำหนดค่าแอพ","view_name_app_62a2ad8e":"ดูแอพ %{name}","view_toolname_placements_4a5724d1":"ดู %{toolName} การจัดวาง","we_were_unable_to_activate_the_app_578defe7":"เราไม่สามารถเปิดใช้งานแอพนี้ได้","we_were_unable_to_add_the_access_token_1f471fe6":"เราไม่สามารถเพิ่มชุดข้อมูลการใช้งานได้","we_were_unable_to_add_the_app_418877ef":"เราไม่สามารถเพิ่มแอพได้","we_were_unable_to_deactivate_the_app_5e2632f3":"เราไม่สามารถปิดใช้งานแอพได้","we_were_unable_to_update_the_app_659f5bc6":"เราไม่สามารถอัพเดตแอพดังกล่าว","would_you_like_to_accept_or_dismiss_this_update_9009d696":"ต้องการตอบรับหรือล้มเลิกการอัพเดตหรือไม่","would_you_like_to_enable_this_app_ccdf735d":"ต้องการเปิดใช้งานแอพนี้หรือไม่","xml_configuration_5ea1b942":"ค่าปรับตั้ง XML","yes_install_tool_f51b3278":"ใช่ ติดตั้งเครื่องมือ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "file_not_found",
+  function() { return {"be_a_hero_and_ask_your_instructor_to_fix_this_link_4981930c":"เป็นหนึ่งในฮีโร่และแจ้งให้ผู้สอนของคุณแก้ไขลิงค์นี้","broken_file_link_found_in_your_course_7cc24395":"พบลิงค์ไฟล์ที่ไม่สมบูรณ์ในบทเรียนของคุณ","please_let_them_know_which_page_you_were_viewing_a_c9816406":"กรุณาแจ้งให้อีกฝ่ายทราบว่าเพจใดที่คุณกำลังรับชมและลิงค์ที่คุณคลิกเลือก","this_most_likely_happened_because_you_imported_cou_a78ea880":"นี่เป็นกรณีที่อาจเกิดขึ้นได้มากที่สุดเนื่องจากคุณนำเข้าเนื้อหาบทเรียนโดยไม่มีไฟล์ที่เชื่อมโยงไว้","this_student_wrote_f1a3f22d":"ผู้เรียนนี้เขียนว่า:","your_message_has_been_sent_thank_you_e0284316":"ส่งข้อความของคุณแล้ว ขอขอบคุณ!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "MasterCourseLock",
+  function() { return {"an_error_occurred_changing_the_lock_state_for_file_77443f15":"เกิดข้อผิดพลาดในการแก้ไขสถานะล็อคสำหรับ \"%{fileName}\"","filename_is_locked_click_to_modify_bf711763":"%{fileName} ถูกล็อค - คลิกเพื่อแก้ไข","filename_is_unlocked_click_to_modify_99e847be":"%{fileName} ถูกปลดล็อค - คลิกเพื่อแก้ไข","this_file_16b24f02":"ไฟล์นี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "react_files",
+  function() { return {"a_file_named_itemname_already_exists_in_this_folde_b0dc7185":"ไฟล์ชื่อ %{itemName} มีอยู่แล้วในโฟลเดอร์นี้","add_folder_ba50d107":"เพิ่มโฟลเดอร์","all_my_files_a0213441":"ไฟล์ทั้งหมดของฉัน","an_error_occurred_trying_to_prepare_download_pleas_df6fa596":"เกิดข้อผิดพลาดในการพยายามเตรียมการดาวน์โหลด กรุณาลองใหม่อีกครั้ง","an_unknown_server_error_occurred_please_try_again_f517eaf3":"เกิดข้อผิดพลาดของเซิร์ฟเวอร์ที่ไม่รู้จัก  กรุณาลองใหม่อีกครั้งในภายหลัง","available_folders_694d0436":"โฟลเดอร์ที่ใช้ได้","before_publishing_this_file_you_must_specify_usage_2229d20b":"ก่อนเผยแพร่ไฟล์นี้ คุณจะต้องระบุสิทธิ์การใช้งาน","copy_to_folder_32ecc3c3":"คัดลอกไปยังโฟลเดอร์","copying_628a9607":"กำลังคัดลอก...","course_files_a31f97fc":"ไฟล์บทเรียน","creative_commons_714a065f":"Creative Commons","download_as_zip_5dae7f19":"ดาวน์โหลดเป็น Zip","error_deleting_name_reason_11f9d399":"มีข้อผิดพลาดในการลบ %{name}: %{reason}","fair_use_bee47d77":"การใช้งานอย่างเหมาะสม","file_list_350d08df":"รายชื่อไฟล์","file_upload_failed_af22dd91":"อัพโหลดไฟล์ล้มเหลว","file_uploading_56c9c0c8":"กำลังอัพโหลดไฟล์","files_menu_86dddbc0":"เมนูไฟล์","files_quota_percentused_of_bytesavailable_used_7f62792c":"โควต้าไฟล์: ใช้ไป %{percentUsed} จาก %{bytesAvailable}","files_toolbar_2f2f0976":"แถบเครื่องมือไฟล์","folder_tree_fbab0726":"โครงสร้างโฟลเดอร์","group_files_82e5dcdb":"ไฟล์ของกลุ่ม","if_you_leave_the_zip_file_download_currently_being_c47c1dfb":"หากคุณออกจากรายการ การดาวน์โหลดไฟล์ zip ที่กำลังเตรียมการในปัจจุบันจะถูกยกเลิก","loading_folders_d8b5869e":"กำลังโหลดโฟลเดอร์","loading_more_results_def6df65":"กำลังโหลดผลลัพธ์เพิ่มเติม...","manage_access_bd923d8d":"จัดการการใช้งาน","manage_usage_rights_da351cd8":"จัดการสิทธิ์การใช้งาน","move_to_1c208ae5":"ย้ายไป...","moving_a4d552df":"กำลังย้าย...","my_files_2f621040":"ไฟล์ของฉัน","own_copyright_cc59db55":"เป็นเจ้าของลิขสิทธิ์","percentused_of_bytesavailable_used_a859a40d":"ใช้ไป %{percentUsed} จาก %{bytesAvailable}","please_enter_a_search_term_with_three_or_more_char_53fd5ed8":"กรุณากรอกคำค้นหาความยาวสามตัวอักษรขึ้นไป","public_domain_112ed397":"โดเมนสาธารณะ","rename_45608f54":"เปลี่ยนชื่อ","search_for_files_7541fb28":"ค้นหาไฟล์","select_itemname_f70db487":"เลือก %{itemName}","show_and_hide_courses_menu_9e09d1d0":"แสดงและซ่อนเมนูบทเรียน","something_went_wrong_d238c551":"มีบางอย่างผิดพลาด","sorted_direction_by_columnname_d049ac44":"จัดเรียง %{direction} จาก %{columnName} แล้ว","success_file_uploaded_8174e93f":"เสร็จสิ้น: อัพโหลดไฟล์แล้ว","upload_not_available_for_this_folder_8f8623c6":"ไม่สามารถอัพโหลดได้สำหรับโฟลเดอร์นี้","used_by_permission_314a78dd":"ใช้โดยได้รับอนุญาต","viewing_folders_is_not_available_798a15e1":"ไม่สามารถเปิดดูโฟลเดอร์ได้","warning_for_improved_accessibility_in_moving_files_71e1028b":"คำเตือน: เพื่อให้การเคลื่อนย้ายไฟล์สะดวกขึ้น กรุณาใช้ตัวเลือก ย้ายไปที่กล่องโต้ตอบ ที่อยู่ในเมนู"} },
+  function() { return {"accept":"ยอมรับ","cancel":"ยกเลิก","confirm_delete_with_contents":{"one":"แน่ใจว่าต้องการลบ %{name} หรือไม่ มีข้อมูลภายใน ข้อมูลภายในจะถูกลบทิ้งไปด้วย","other":"แน่ใจว่าต้องการลบ %{count} รายการเหล่านี้และข้อมูลภายในหรือไม่"},"created_at":"วันที่จัดทำ","created_at_short":"จัดทำแล้ว","errors":{"no_match":{"keywords":"ลองใช้คำค้นหาอื่น","spelled":"ตรวจสอบว่าคำทั้งหมดสะกดถูกต้อง","suggestions":"คำแนะนำ:","three_chars":"กรอกตัวอักษรอย่างน้อย 3 ตัวในกล่องค้นหา","your_search":"การค้นหาของคุณ - \"%{search_term}\" - ไม่ตรงกับไฟล์ใด ๆ"}},"files":"ไฟล์","folder_browsing_tree":"ทรีเรียกดูโฟลเดอร์","folder_name":"ชื่อโฟลเดอร์","modified_by":"แก้ไขโดย","move_question":{"one":"คุณต้องการย้าย %{item} ไปที่ไหน","other":"คุณต้องการย้าย %{count} รายการเหล่านี้ไปที่ไหน"},"move_success":{"one":"%{item} ย้ายไป %{destinationFolder}","other":"%{count} รายการถูกย้ายไป %{destinationFolder}"},"name":"ชื่อ","progress_message":"กำลังเตรียมการดาวน์โหลด: %{percent}% เสร็จสิ้น","results_count":"กำลังแสดงผลการค้นหา %{num_results} รายการ","search_results_for":"ผลการค้นหาสำหรับ \"%{search_term}\"","select_all":"เลือกทั้งหมด","size":"ขนาด","sorted_ascending":"เรียงจากน้อยไปมาก","sorted_desending":"เรียงจากมากไปน้อย","this_folder_is_empty":"โฟลเดอร์นี้ว่างเปล่า","updated_at":"วันที่ปรับแต่ง","updated_at_short":"แก้ไขแล้ว"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "your_search_encountered_the_following_errors_fc3e5e7f",
+  null,
+  function() { return {"one":"การค้นหาของคุณพบข้อผิดพลาดต่อไปนี้","other":"การค้นหาของคุณพบข้อผิดพลาดต่อไปนี้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "edit_permissions_for_count_items_d65e3855",
+  null,
+  function() { return {"one":"แก้ไขสิทธิ์อนุญาตสำหรับ: %{itemName}","other":"แก้ไขสิทธิ์อนุญาตสำหรับ %{count} รายการ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_items_selected_91814713",
+  null,
+  function() { return {"one":"%{count} รายการที่เลือก","other":"%{count} รายการที่เลือก"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "are_you_sure_you_want_to_delete_these_count_items_148e98ba",
+  null,
+  function() { return {"one":"แน่ใจว่าต้องการลบ %{name} หรือไม่","other":"แน่ใจว่าต้องการลบ %{count} รายการเหล่านี้หรือไม่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_items_deleted_successfully_a287aa53",
+  null,
+  function() { return {"one":"%{name} ลบเสร็จสิ้น","other":"%{count} รายการที่ลบเสร็จสิ้น"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "upload_drop_zone",
+  function() { return {"drop_files_here_to_upload_ce0f50f9":"ลากไฟล์ที่นี่เพื่ออัพโหลด"} },
+  function() { return {"drop_to_upload":"วางรายการเพื่ออัพโหลด"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "folder_tree",
+  function() { return {"file_list_updated_38e2a5ad":"อัพเดตรายชื่อไฟล์แล้ว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "rootFoldersFinder",
+  null,
+  function() { return {"course_files":"ไฟล์บทเรียน","group_files":"ไฟล์ของกลุ่ม","my_files":"ไฟล์ของฉัน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradingGradeSummary",
+  function() { return {"assignment_details_collapsed_55b67150":"ย่อรายละเอียดภารกิจแล้ว","assignment_details_expanded_20c6f0c7":"ขยายรายละเอียดภารกิจแล้ว","based_on_what_if_scores_the_new_total_is_now_grade_d223be10":"อิงจากคะแนน What-If ยอดรวมใหม่ในปัจจุบันคือ %{grade}","click_to_test_a_different_score_2e0bb6f0":"คลิกเพื่อทดสอบคะแนนอื่น ๆ","enter_a_what_if_score_668c91a3":"กรอกคะแนน What-If","grades_are_now_reverted_to_original_scores_e6deade1":"เกรดถูกแปลงเป็นคะแนนเดิมแล้วในตอนนี้","grades_are_now_showing_what_if_scores_711a8be2":"เกรดกำลังแสดงคะแนน What-If","hide_all_details_61d7ebb":"ซ่อนรายละเอียดทั้งหมด","instructor_has_not_posted_this_grade_3b4c4124":"ผู้สอนไม่ได้แจ้งเกรดนี้","show_all_details_9879980c":"แสดงรายละเอียดทั้งหมด","this_assignment_is_dropped_and_will_not_be_conside_35c3e198":"ภารกิจนี้ถูกพักและจะไม่ถูกพิจารณาในการคำนวณรวม","this_is_a_what_if_score_cbdc04f9":"นี่คือคะแนน What-If"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "grade_summary",
+  function() { return {"an_error_occurred_please_try_again_95361e05":"เกิดข้อผิดพลาดขึ้น กรุณาลองใหม่อีกครั้งในภายหลัง","apply_filters_note_clicking_this_button_will_cause_753f04":"ปรับใช้ตัวกรอง หมายเหตุ: การคลิกที่ปุ่มนี้จะทำให้เพจโหลดใหม่","click_for_more_details_on_this_outcome_8c018d2f":"คลิกเพื่อดูรายละเอียดเพิ่มเติมสำหรับผลลัพธ์นี้","expand_collapse_title_outcome_group_student_meets__46ffef48":"ขยาย/ย่อกลุ่มผลลัพธ์ %{title} ผู้เรียนผ่านระดับความเชี่ยวชาญ %{mastery_count} จาก %{count} ผลลัพธ์","n_count_alignments_a45bebe7":"*%{n_count}* การปรับประสาน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebook_history",
+  function() { return {"anonymously_graded_59149570":"ให้เกรดแบบไม่เปิดเผยตัวแล้ว","artifact_f7003de5":"ผลงาน","error_loading_gradebook_history_try_again_19032437":"มีข้อผิดพลาดในการโหลดประวัติสมุดบันทึกเกรด ต้องการลองอีกครั้งหรือไม่?","from_date_must_be_before_to_date_79f00046":"“วันที่ จาก” จะต้องอยู่ก่อนวันที่ “ถึง”","grade_changes_cb5a57a8":"การแก้ไขเกรด","loading_more_gradebook_history_results_810f6d2e":"กำลังโหมดผลลัพธ์ประวัติสมุดบันทึกเกรดเพิ่มเติม","loading_results_769c8819":"กำลังโหลดผลลัพธ์","more_results_were_added_at_the_bottom_of_the_page_dc323877":"ผลลัพธ์เพิ่มเติมถูกเพิ่มไปยังด้านล่างของเพจ","no_artifacts_with_that_name_found_b8679f53":"ไม่พบผลงานชื่อดังกล่าว","no_graders_with_that_name_found_d8204d90":"ไม่พบผู้ให้เกรดชื่อดังกล่าว","no_more_results_to_load_6774fb1c":"ไม่มีผลลัพธ์เพิ่มเติมที่จะโหลด","no_students_with_that_name_found_f6004da2":"ไม่พบผู้เรียนชื่อดังกล่าว","not_anonymously_graded_87574f91":"ไม่ได้ให้เกรดแบบไม่เปิดเผยตัว","not_available_487d3648":"ไม่มี","not_available_assignment_is_anonymous_94e77edf":"ไม่มี ภารกิจเป็นแบบไม่เปิดเผยตัว","search_form_fcaa38f7":"ค้นหาแบบฟอร์ม","show_final_grade_overrides_only_c3017aaa":"แสดงการบอกล้างเกรดสรุปเท่านั้น","type_a_few_letters_to_start_searching_3334657b":"พิมพ์ตัวอักษรเล็กน้อยเพื่อเริ่มการค้นหา"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebook_uploads",
+  function() { return {"an_unknown_error_has_occurred_verify_the_csv_file__96087ece":"เกิดข้อผิดพลาดที่ไม่รู้จัก ยืนยันไฟล์ CSV หรือลองใหม่อีกครั้งในภายหลัง","override_score_5f3c1189":"คะแนนบอกล้าง","override_score_gradingperiod_286ac51b":"คะแนนบอกล้าง (%{gradingPeriod})","the_csv_header_row_is_invalid_a8ec1787":"แถวหัวเรื่อง CSV ไม่ถูกต้อง"} },
+  function() { return {"errors":{"select_an_option":"กรุณาเลือกตัวเลือก"},"student":"ผู้เรียน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebook_upload",
+  function() { return {"done_8af51c9b":"เสร็จสิ้น","you_will_be_redirected_to_gradebook_while_your_fil_23fab7de":"คุณจะถูกนำไปยังสมุดบันทึกเกรดขณะที่อัพโหลดไฟล์ของคุณ หากคุณมีไฟล์ CSV ขนาดใหญ่ การเปลี่ยนแปลงของคุณอาจต้องใช้เวลาสักครู่ในการอัพเดต เพื่อป้องกันการเขียนทับข้อมูล กรุณายืนยันว่าการอัพโหลดเสร็จสิ้นแล้ว และสมุดบันทึกเกรดถูกต้องก่อนทำการแก้ไขเพิ่มเติม"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebookGradebookKeyboardNav",
+  function() { return {"open_the_grade_detail_tray_cea682a5":"เปิดถาดรายละเอียดเกรด"} },
+  function() { return {"keyboard_assignment_desc":"ไปที่หน้ารายละเอียดภารกิจในปัจจุบัน","keyboard_close_menu":"ปิดเมนูใช้งานในปัจจุบัน","keyboard_menu_desc":"เปิดเมนูสำหรับคอลัมน์ใช้งา","keyboard_sort_desc":"จัดเรียงกริดในคอลัมน์ใช้งานในปัจจุบัน","keycodes":{"close_menu":"esc","goto_assignment":"g","menu":"m","sort":"s"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebookGradeDisplayWarningDialog",
+  null,
+  function() { return {"grade_display_warning":{"cancel":"ยกเลิก","continue":"ดำเนินการต่อ","percent_text":"ผู้เรียนยังจะพบเกรดสรุปของตนแสดงเป็นเปอร์เซ็นต์ แน่ใจว่าต้องการดำเนินการต่อหรือไม่","points_text":"ผู้เรียนยังจะพบเกรดสรุปของตนแสดงเป็นคะแนน แน่ใจว่าต้องการดำเนินการต่อหรือไม่"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "LongTextEditor",
+  null,
+  function() { return {"cancel":"ยกเลิก","save":"บันทึก"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "post_grades_tray",
+  function() { return {"an_error_occurred_while_saving_the_assignment_post_94f1184e":"เกิดข้อผิดพลาดขณะบันทึกนโยบายการโพสต์ภารกิจ","at_least_one_section_must_be_selected_to_post_grad_2c140f52":"ต้องเลือกอย่างน้อยหนึ่งกลุ่มย่อยเพื่อแจ้งเกรดแยกตามกลุ่มย่อย","grade_posting_policy_name_a6d6f178":"นโยบายการโพสต์เกรด: %{name}","grade_posting_policy_tray_c929cfd":"ถาดข้อมูลนโยบายการโพสต์เกรด","post_grades_tray_83f2fb2e":"ถาดข้อมูลแจ้งเกรด","success_grades_have_been_posted_for_the_selected_s_54c73ef0":"สำเร็จ! โพสต์เกรดแล้วสำหรับกลุ่มย่อยที่เลือกของ %{assignmentName}","success_grades_have_been_posted_to_everyone_for_as_f37ea031":"สำเร็จ! แจ้งเกรดให้กับทุกคนสำหรับ %{assignmentName} แล้ว","success_grades_have_been_posted_to_everyone_graded_70d15d1a":"สำเร็จ! แจ้งเกรดสำหรับทุกคนที่มีการให้เกรดสำหรับ %{assignmentName} แล้ว","success_the_post_policy_for_name_has_been_updated_ea92283f":"สำเร็จ! นโยบายการโพสต์สำหรับ %{name} ได้รับการอัพเดตแล้ว","there_was_a_problem_posting_assignment_grades_958669e8":"มีปัญหาในการโพสต์เกรดสำหรับภารกิจ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignment_posting_policy_tray",
+  function() { return {"assignment_grades_will_be_visible_to_students_as_s_bfbea571":"\n          เกรดภารกิจจะแสดงให้แก่ผู้เรียนทันทีที่กรอก\n          เกรดที่ถูกซ่อนไว้แล้วจะถูกซ่อนไว้ตามเดิม\n        ","automatically_dff02416":"อัตโนมัติ","grades_will_be_hidden_by_default_any_grades_that_h_53a7fb03":"\n          เกรดจะถูกซ่อนเป็นค่าเริ่มต้น เกรดที่ถูกโพสต์แล้วจะยังคงแสดงผลอยู่\n          เลือกเวลาแจ้งเกรดสำหรับภารกิจนี้ในสมุดบันทึกเกรด\n        ","manually_9de23e1f":"แมนนวล","once_a_grade_is_posted_manually_it_will_automatica_26aff290":"\n              หลังจากแจ้งเกรดด้วยตัวเองแล้ว ระบบจะส่งการแจ้งข้อมูลใหม่และแสดงให้ผู้เรียนเห็น\n              การแก้ไขเกรดในอนาคตสำหรับเกรดที่แจ้งจะไม่ต้องแจ้งด้วยตัวเอง\n            ","while_the_grades_for_this_assignment_are_set_to_ma_cb716ede":"ขณะเกรดสำหรับภารกิจนี้ถูกำหนดเป็นแบบกำหนดเอง ผู้เรียนจะไม่ได้รับการแจ้งข้อมูลใหม่เกี่ยวกับหรือสามารถเข้าไปดู:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebookActionMenu",
+  function() { return {"export_de71cd8e":"ส่งออก","export_in_progress_70db262a":"กำลังส่งออก","gradebook_export_failed_reason_2b0f6c53":"ส่งออกสมุดบันทึกเกรดล้มเหลว: %{reason}","gradebook_export_started_723461b9":"เริ่มส่งออกสมุดบันทึกเกรดแล้ว","previous_export_c6a997f7":"การส่งออกก่อนหน้า","sync_to_name_6f04716d":"ซิงค์ไปยัง %{name}","sync_to_sisname_f343e59":"ซิงค์ไปยัง %{sisName}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebook",
+  function() { return {"a_z_243c3301":"A–Z","add_condition_2ac12ddd":"เพิ่มเงื่อนไข","advanced_36b35b8":"ขั้นสูง","all_grades_hidden_3092d5b5":"ซ่อนเกรดทั้งหมดแล้ว","all_grades_posted_616a85ab":"แจ้งเกรดทั้งหมดแล้ว","all_ungraded_artifacts_ec3ba09":"ผลงานที่ไม่ได้ให้เกรดทั้งหมด","allow_final_grade_override_8cf4336b":"อนุญาตการบอกล้างเกรดสรุป","an_error_occurred_while_loading_late_policies_c415f676":"เกิดข้อผิดพลาดขณะโหลดนโยบายล่าช่า","an_error_occurred_while_saving_the_course_post_pol_b48976dc":"เกิดข้อผิดพลาดขณะบันทึกนโยบายการโพสต์บทเรียน","an_error_occurred_while_saving_your_settings_b503a31c":"เกิดข้อผิดพลาดขณะบันทึกค่าปรับตั้งของคุณ","an_error_occurred_while_updating_late_policies_a95b707f":"เกิดข้อผิดพลาดขณะอัพเดตนโยบายล่าช้า","an_error_occurred_while_updating_view_options_c4807f37":"เกิดข้อผิดพลาดขณะอัพเดตตัวเลือกในการเรียกดู","anonymous_assignments_are_hidden_by_default_and_wi_c8884e1e":"ปิดรายละเอียดส่วนตัวสำหรับภารกิจที่ซ่อนไว้เป็นค่าเริ่มต้นและจะต้องโพสต์ด้วยตัวเองแม้ว่าค่าปรับตั้งบทเรียนจะกำหนดเป็นอัตโนมัติก็ตาม","anonymous_mode_on_2dd9b94a":"เปิดโหมดไม่เปิดเผยตัว","anonymous_mode_on_feb53729":"เปิดโหมดไม่เปิดเผยตัว:","applied_filters_63a90ccd":"ตัวกรองที่ใช้:","apply_conditions_9e941010":"ปรับใช้เงื่อนไข","apply_missing_status_cd98e1d3":"ปรับใช้สถานะที่ขาดหาย","apply_score_1edd7cda":"ปรับใช้คะแนน","apply_score_to_ungraded_afd025d0":"ปรับใช้คะแนนกับที่ไม่ได้ให้เกรด","apply_settings_10409ad9":"ปรับใช้ค่าปรับตั้ง","apply_to_92f70c8c":"ปรับใช้กับ:","applying_score_to_ungraded_7311df9a":"กำลังปรับใช้คะแนนกับที่ไม่ได้ให้เกรด (Score to Ungraded)","assignment_grades_will_be_visible_to_students_as_s_62975ef6":"\n            เกรดภารกิจจะแสดงให้แก่ผู้เรียนทันทีที่กรอก\n            เกรดที่ถูกซ่อนไว้แล้วจะถูกซ่อนไว้ตามเดิม\n          ","assignment_name_a_z_aeefaa36":"ชื่อภารกิจ - A-Z","assignment_name_z_a_34f92f4b":"ชื่อภารกิจ - Z-A","assignment_names_858b1880":"ชื่อภารกิจ","automatically_apply_deduction_to_late_submissions_2b68166e":"หักลบอัตโนมัติเมื่อจัดส่งล่าช้า","automatically_apply_grade_for_missing_submissions_2b5c1a72":"ให้เกรดอัตโนมัติหากไม่มีผลงานจัดส่ง","automatically_post_grades_29a7eff5":"แจ้งเกรดอัตโนมัติ","avatar_for_author_2eabbf55":"ภาพประจำตัวสำหรับ %{author}","being_processed_by_plagiarism_service_2269be71":"กำลังประมวลผลจากบริการตรวจสอบการขโมยผลงาน","can_t_compute_score_until_an_assignment_has_points_f34dd600":"ไม่สามารถประมวลผลคะแนนจนกว่าจะสามารถให้คะแนนภารกิจ","cancel_rename_aa60a881":"ยกเลิกการเปลี่ยนชื่อ","cancel_submitting_comment_2666e98b":"ยกเลิกการจัดส่งความคิดเห็น","cancel_updating_comment_6816d855":"ยกเลิกการอัพเดตความคิดเห็น","changing_the_late_policy_will_affect_previously_gr_49071db7":"การปรับเปลี่ยนนโยบายล่าช้าจะมีผลต่อผลงานจัดการที่ให้เกรดไว้ก่อนหน้า","close_submission_tray_c4988fa8":"ปิดถาดผลงานจัดส่ง","columns_464bd055":"คอลัมน์","concluded_63150003":"สรุปแล้ว","concluded_enrollments_9da8da6":"การลงทะเบียนที่สรุปแล้ว","condition_9e5fc8ca":"เงื่อนไข","condition_type_a04d30d3":"ประเภทเงื่อนไข","create_new_filter_c244aa92":"จัดทำตัวกรองใหม่","curve_grades_b7a75443":"เกรดแบบกราฟ","day_9d999bec":"วัน","deduction_interval_e18bd51":"ช่วงการหักลบ","default_order_8c409051":"ลำดับเริ่มต้น","delete_comment_comment_d32ffc85":"ลบความเห็น: %{comment}","delete_condition_622401ca":"ลบเงื่อนไข","delete_filter_83ca1a6a":"ลบตัวกรอง","did_you_know_you_can_now_create_detailed_filters_a_c6b8756c":"ทราบหรือไม่ว่าปัจจุบันคุณสามารถจัดทำตัวกรองอย่างละเอียดและบันทึกไว้สำหรับใช้งานในอนาคตได้","display_as_percentage_3e755dc":"แสดงเป็นเปอร์เซ็นต์","display_as_points_63084235":"แสดงเป็นคะแนน","display_student_filter_options_ab034cfa":"แสดงตัวเลือกคัดกรองผู้เรียน","download_submissions_7454665f":"ดาวน์โหลดผลงานจัดส่ง","dropped_38031953":"วางแล้ว","due_date_newest_to_oldest_35cffef9":"วันครบกำหนด - ใหม่สุดไปเก่าสุด","due_date_oldest_to_newest_73e62815":"วันครบกำหนด - เก่าสุดไปใหม่สุด","due_to_the_size_of_your_course_you_must_select_a_s_f834ba66":"\n                เนื่องจากขนาดบทเรียนของคุณ คุณจะต้องเลือกกลุ่มผู้เรียนก่อนเปิดใช้\n                SpeedGrader\n              ","edit_comment_comment_e74afa04":"แก้ไขความเห็น: %{comment}","edited_date_b0455372":"(แก้ไขแล้ว) %{date}","end_date_value_3d3e8906":"วันที่สิ้นสุด %{value}","enter_grades_as_e113e606":"กรอกเกรดเป็น","error_submitting_to_plagiarism_service_9b0748cb":"เกิดข้อผิดพลาดในการจัดส่งบริการตรวจสอบการคัดลอกผลงาน","error_submitting_to_plagiarism_service_you_may_res_3c89e82d":"เกิดข้อผิดพลาดในการจัดส่งบริการตรวจสอบการคัดลอกผลงาน คุณสามารถจัดส่งจาก SpeedGrader ได้อีกครั้ง","export_report_7c5899e":"ส่งออกรายงาน","filters_92f2776f":"ตัวกรอง","final_grade_6e94d99e":"เกรดสรุป:","first_last_name_9820d256":"ชื่อตัว นามสกุล","friendly_panda_3a0df50e":"แพนด้าใจดี","give_this_filter_a_name_36b4b03a":"กำหนดชื่อให้ตัวกรองนี้","grade_for_missing_submissions_56f91c83":"เกรดสำหรับผลงานจัดส่งที่ขาดหาย","grade_for_ungraded_artifacts_d0b6fb57":"เกรดสำหรับผลงานที่ไม่ได้ให้เกรด","grade_high_to_low_1cea0381":"เกรด - สูงไปต่ำ","grade_low_to_high_1678b713":"เกรด - ต่ำไปสูง","grade_out_of_percentage_1972bf52":"เกรดจาก %{percentage}","grade_out_of_points_d401b79d":"เกรดจาก %{points}","grade_posting_policy_42c8a94b":"นโยบายการโพสต์เกรด","gradebook_filters_fc25f772":"ตัวกรองสมุดบันทึกเกรด","gradebook_settings_b45c6df9":"ค่าปรับตั้งสมุดบันทึกเกรด","gradebook_settings_updated_fef63d60":"อัพเดตค่าปรับตั้งสมุดบันทึกเกรดแล้ว","grades_will_be_hidden_by_default_any_grades_that_h_b6fac5e5":"\n            เกรดจะถูกซ่อนเป็นค่าเริ่มต้น เกรดที่ถูกโพสต์แล้วจะยังคงแสดงผลอยู่\n            เลือกเวลาแจ้งเกรดสำหรับแต่ละภารกิจในแต่ละคอลัมน์ในสมุดบันทึกเกรด\n          ","grading_scheme_f151d195":"รูปแบบการให้เกรด","has_submissions_6c12ef4c":"มีผลงานจัดส่ง","has_ungraded_submissions_2bff87df":"มีผลงานจัดส่งที่ไม่ได้ให้เกรด","hide_assignment_group_totals_f4fb8660":"ซ่อนยอดรวมกลุ่มภารกิจ","hide_grades_5ff26682":"ซ่อนเกรด","hide_outcomes_with_no_results_7e4ce06f":"ซ่อนผลลัพธ์ที่ไม่มีผลลัพธ์","hour_34d02553":"ชั่วโมง","inactive_enrollments_3b84be3d":"การลงทะเบียนที่ไม่ใช้งาน","individual_assignment_grade_posting_d8322b99":"การแจ้งเกรดภารกิจแยกเฉพาะ","individual_gradebook_c7de9821":"สมุดบันทึกเกรดแยกเฉพาะ","last_first_name_95a078f5":"นามสกุล ชื่อ","late_penalty_78099d18":"โทษปรับล่าช้า:","late_policies_42bac80":"นโยบายล่าช้า","late_policies_fd5dced6":"นโยบายล่าช้า","late_submission_deduction_5d7fa3cb":"การหักลบผลงานจัดส่งล่าช้า","late_submission_deduction_must_be_numeric_5b3f468e":"การหักลบผลงานจัดส่งล่าช้าจะต้องเป็นตัวเลข","leave_a_comment_7991725b":"ให้ความเห็น","letter_grade_29ff1938":"เกรดแบบตัวอักษร","loading_comments_32366acf":"กำลังโหลดความเห็น","loading_gradebook_b0b75cd3":"กำลังโหลดสมุดบันทึกเกรด","lowest_possible_grade_ae5510be":"เกรดต่ำสุดที่เป็นไปได้","lowest_possible_grade_must_be_numeric_3d97659d":"เกรดต่ำสุดที่เป็นไปได้จะต้องเป็นตัวเลข","manual_8c2665de":"แมนวล","manually_post_grades_18248306":"แจ้งเกรดด้วยตัวเอง","message_students_who_57f07a41":"ส่งข้อความถึงผู้เรียนที่","missing_policies_4f195e0b":"ไม่มีนโยบาย","missing_submission_grade_must_be_numeric_1a142ef2":"เกรดผลงานจัดส่งที่ขาดหายไปจะต้องเป็นตัวเลข","module_first_to_last_6921f3ec":"หน่วยการเรียน - ลำดับแรกไปลำดับสุดท้าย","module_last_to_first_8cdb7a8e":"หน่วยการเรียน - ลำดับแรกไปลำดับสุดท้าย","move_to_end_c6bfbcf5":"ย้ายไปท้ายสุด","move_to_front_bf6f0194":"ย้ายไปหน้าสุด","name_options_bc5c95ce":"%{name} ตัวเลือก","needs_grading_9143d47c":"ต้องให้เกรด","next_assignment_8ec51175":"ภารกิจใหม่","no_first_name_4b772708":"\u003cไม่มีชื่อตัว\u003e","no_grades_to_hide_6f51fc5b":"ไม่มีเกรดที่จะซ่อน","no_grades_to_post_91425bfd":"ไม่มีเกรดที่จะแจ้ง","no_last_name_62c3e5e2":"\u003cไม่มีนามสกุล\u003e","not_calculated_in_final_grade_2b7d5bd1":"ไม่ได้คำนวณในเกรดสรุป","once_a_grade_is_posted_manually_it_will_automatica_bb90f67c":"หลังจากแจ้งเกรดด้วยตัวเองแล้ว ระบบจะส่งการแจ้งข้อมูลใหม่อัตโนมัติและแสดงให้แก่ผู้เรียน","only_ungraded_artifacts_that_are_past_due_eab9a83a":"เฉพาะผลงานที่ไม่ได้ให้เกรดที่เกินกำหหนด","open_complete_incomplete_menu_cfe2033b":"เปิดเมนู เสร็จสิ้น/ไม่เสร็จสิ้น","open_grading_scheme_menu_5f889203":"เปิดเมนู รูปแบบการให้เกรด","open_speedgrader_11604608":"เปิด SpeedGrader","open_submission_tray_4eb14e96":"เปิดถาดข้อมูลผลงานจัดส่ง","order_301c3ac1":"คำสั่ง","out_of_pointspossible_3fb5ee20":"จาก %{pointsPossible}","override_3de65b2c":"บอกล้าง","percentage_34ab7c2c":"เปอร์เซ็นต์","points_highest_to_lowest_87f1b143":"คะแนน - สูงสุดไปต่ำสุด","points_lowest_to_highest_45089e82":"คะแนน - ต่ำสุดไปสูงสุด","post_grades_3e692d46":"แจ้งเกรด","previous_assignment_83d1f423":"ภารกิจก่อนหน้า","re_upload_submissions_125e415d":"อัพโหลดผลงานจัดส่งใหม่","remove_condition_9cf94f7f":"ลบเงื่อนไข","rename_filter_c6cc8efc":"เปลี่ยนชื่อตัวกรอง","request_successfully_sent_note_that_applying_score_ee8665b6":"ส่งคำขอเสร็จสิ้น การปรับใช้คะแนนอาจต้องใช้เวลาและการเปลี่ยนแปลงจะไม่ปรากฏขึ้นจนกว่าคุณจะโหลดเพจอีกครั้ง","resubmitted_2080646f":"จัดส่งใหม่แล้ว","save_label_6ed4a68e":"บันทึกฉลากกำกับ","save_these_conditions_as_a_filter_a31bbbf8":"บันทึกเงื่อนไขเหล่านี้เป็นตัวกรอง","score_similarity_score_2c25b94b":"คะแนนความใกล้เคียง %{score}%","score_to_ungraded_process_failed_e143fd1b":"กระบวนการให้คะแนนกับที่ไม่ได้ให้เกรดไว้ล้มเหลว","score_to_ungraded_process_finished_successfully_6689b418":"กระบวนการให้คะแนนกับที่ไม่ได้ให้เกรดดำเนินการเสร็จสิ้น","search_students_e1f506c":"ค้นหาผู้เรียน","select_condition_6e02d859":"เลือกเงื่อนไข","select_condition_type_aac7cf21":"เลือกประเภทเงื่อนไข","select_student_group_c0be9f3e":"เลือกกลุ่มผู้เรียน","select_the_score_that_you_would_like_to_apply_to_u_5a281baa":"เลือกคะแนนที่คุณต้องการปรับใช้ผลงานที่ไม่ได้ให้เกรดใน %{groupName} หลังจากปรับใช้แล้ว การดำเนินการนี้จะไม่สามารถยกเลิกได้","select_the_score_that_you_would_like_to_apply_to_u_a445c726":"เลือกคะแนนที่คุณต้องการปรับใช้ผลงานที่ไม่ได้ให้เกรด หลังจากปรับใช้แล้ว การดำเนินการนี้จะไม่สามารถยกเลิกได้","set_default_grade_a202ebc1":"กำหนดเกรดเริ่มต้น","similarityscore_similarity_score_52236e85":"คะแนนความใกล้เคียง %{similarityScore}%","split_student_names_df0ef806":"แยกชื่อผู้เรียน","start_date_value_817cab96":"วันที่เริ่มต้น %{value}","status_color_1c4ce650":"สีสถานะ","status_color_picker_9ea0156b":"ระบบเลือกสี %{status}","statuses_497dfa15":"สถานะ...","statuses_f41543d8":"สถานะ","student_first_name_aaa42cbc":"ชื่อผู้เรียน","student_group_75b86a9f":"กลุ่มผู้เรียน","student_last_name_9839801c":"นามสกุลผู้เรียน","student_last_name_options_a07764dd":"ตัวเลือกนามสกุลผู้เรียน","student_name_c45b2a7":"ชื่อผู้เรียน","student_name_options_cb029725":"ตัวเลือกชื่อผู้เรียน","student_names_ea4b671a":"ชื่อผู้เรียน","submission_is_being_processed_by_plagiarism_servic_df4aa603":"กำลังประมวลผลผลงานจัดส่งโดยบริการตรวจสอบการคัดลอกผลงาน","submission_tray_429ac3df":"ถาดข้อมูลผลงานจัดส่ง","submissions_11e96106":"ผลงานจัดส่ง","submit_comment_e5cc2718":"ส่งความเห็น","successfully_deleted_the_comment_a8bbe561":"ลบความเห็นเสร็จสิ้น","successfully_saved_the_comment_c87681fd":"บันทึกความเห็นเสร็จสิ้น","successfully_updated_the_comment_946360d5":"อัพเดตความเห็นเสร็จสิ้น","there_was_a_problem_creating_the_teacher_notes_col_dd73456f":"มีปัญหาในการจัดทำคอลัมน์หมายเหตุของผู้สอน","there_was_a_problem_deleting_the_comment_93053aa9":"มีปัญหาในการลบความเห็น","there_was_a_problem_hiding_the_teacher_notes_colum_3f03014":"มีปัญหาในการซ่อนคอลัมน์หมายเหตุผู้สอน","there_was_a_problem_loading_submissions_39855ff0":"มีปัญหาในการโหลดผลงานจัดส่ง","there_was_a_problem_saving_the_comment_d94cbac9":"มีปัญหาในการบันทึกความเห็นนี้","there_was_a_problem_showing_the_teacher_notes_colu_a6e4a2bc":"มีปัญหาในการแสดงคอลัมน์หมายเหตุผู้สอน","there_was_a_problem_updating_the_comment_5f3595b9":"มีปัญหาในการอัพเดตความเห็น","there_was_a_problem_updating_the_submission_6e5280a1":"มีปัญหาในการอัพเดตผลงานจัดส่ง","there_was_an_error_creating_a_new_filter_e93bb765":"มีข้อผิดพลาดในการจัดทำตัวกรองใหม่","there_was_an_error_deleting_name_aa3050e5":"มีข้อผิดพลาดในการลบ \"%{name}\"","there_was_an_error_fetching_data_for_gradebook_174e82f9":"มีข้อผิดพลาดในการสืบค้นข้อมูลสมุดบันทึกเกรด","there_was_an_error_fetching_gradebook_filters_3b4607ac":"มีข้อผิดพลาดในการสืบค้นตัวกรองสมุดบันทึกเกรด","there_was_an_error_fetching_modules_8ee451bb":"มีข้อผิดพลาดในการสืบค้นหน่วยการเรียน","there_was_an_error_fetching_submission_comments_ce153077":"มีข้อผิดพลาดในการสืบค้นความเห็นสำหรับผลงานจัดส่ง","there_was_an_error_updating_a_filter_2a5ebc87":"มีข้อผิดพลาดในการอัพเดตตัวกรอง","there_was_an_error_updating_view_options_d024a3ec":"มีข้อผิดพลาดในการอัพเดตตัวเลือกการเปิดดู","this_assignment_is_not_graded_576f1244":"ภารกิจนี้ไม่ได้ให้เกรดไว้","this_grade_differs_from_the_student_s_view_of_the__f78d0023":"เกรดนี้แตกต่างจากมุมมองเกรดของผู้เรียนเนื่องจากเกรดสำหรับภารกิจบางส่วนยังไม่ได้แจ้งไว้","this_grade_has_negative_points_496400d4":"เกรดนี้มีคะแนนเป็นลบ","this_grade_is_invalid_8ab192c7":"เกรดนี้ไม่ถูกต้อง","this_grade_is_unusually_high_60533c20":"เกรดนี้สูงผิดปกติ","this_is_not_a_valid_grade_9cc2cb8":"นี่ไม่ใช่เกรดที่ถูกต้อง","this_setting_only_affects_your_view_of_student_gra_8f58eb33":"ค่าปรับตั้งนี้จะมีผลเฉพาะกับการดูเกรดผู้เรียนของคุณและแสดงเกรดเสมือนว่าภารกิจที่ไม่ได้ให้เกรดทั้งหมดมีคะแนนเป็นศูนย์ ค่าปรับตั้งนี้เป็นการปรับเปลี่ยนการแสดงผลเท่านั้น ไม่มีผลต่อเกรดสำหรับผู้เรียนหรือผู้ใช้อื่น ๆ สำหรับสมุดบันทึกเกรดนี้ เมื่อเปิดใช้งานค่าปรับตั้งนี้ Canvas จะไม่กรอกศูนย์ในสมุดบันทึกเกรดสำหรับผลงานจัดส่งของผู้เรียนภายในภารกิจแต่ละส่วน เฉพาะกลุ่มภารกิจและคอลัมน์ทั้งหมดเท่านั้นที่จะถูกปรับคะแนนอัตโนมัติเป็นศูนย์ในเปอร์เซ็นต์รวมสำหรับผู้เรียนแต่ละราย","this_student_s_enrollment_has_been_concluded_f135b8e4":"การลงทะเบียนของผู้เรียนรายนี้สรุปแล้ว","this_submission_has_plagiarism_data_for_multiple_a_335c881d":"ผลงานจัดส่งนี้มีข้อมูลพิจารณาการคัดลอกผลงานสำหรับเอกสารแนบหลายรายการ ดูรายงานทั้งหมดโดยเปิด SpeedGrader","total_71a4807":"รวม","total_options_351e2682":"ตัวเลือกทั้งหมด","unable_to_access_specific_student_go_to_assignment_585e05e9":"ไม่สามารถสืบค้นผู้เรียนเฉพาะราย ไปที่ภารกิจใน SpeedGrader","unassessed_students_3809ac5e":"ผู้เรียนที่ไม่ได้รับการประเมิน","ungraded_as_0_bb864f07":"ยกเลิกการให้เกรดเป็น 0","ungraded_ed0c6f98":"ยกเลิกการให้เกรดแล้ว","unposted_8d9932ec":"เลิกโพสต์แล้ว","unpublished_assignments_9cdbcc87":"ภารกิจที่เลิกเผยแพร่แล้ว","untitled_filter_c07b8ddc":"ตัวกรองไม่ระบุชื่อ","update_comment_8cedb4f0":"อัพเดตความเห็น","upload_successful_ca47465f":"อัพโหลดเสร็จสิ้น","view_options_f5503a84":"ดูตัวเลือก","view_ungraded_as_0_1a9631a1":"ดูการเลิกให้เกรดเป็น 0","view_ungraded_as_0_a9e87a54":"ดูการเลิกให้เกรดเป็น 0","view_ungraded_as_zero_e19da657":"ดูการเลิกให้เกรดเป็นศูนย์","weight_of_grade_19d9ce0f":"%{weight} จากเกรด/","weight_of_grade_dff535d9":"%{weight} จากเกรด","while_the_grades_for_an_assignment_are_set_to_manu_457c38ff":"เกรดสำหรับภารกิจถูกกำหนดไว้เป็นแบบกำหนดเอง ผู้เรียนจะไม่ได้รับการแจ้งข้อมูลใหม่เกี่ยวกับหรือสามารถเข้าไปดู:","you_have_entered_an_invalid_grade_for_this_student_7c41e9bc":"คุณกรอกเกรดไม่ถูกต้องสำหรับผู้เรียนนี้ ตรวจสอบค่าและประเภทการให้เกรดและลองใหม่อีกครั้ง","z_a_be2ab67c":"Z–A"} },
+  function() { return {"gradebook_header_menu":{"assignment_details":"รายละเอียดภารกิจ","curve_grades":"เกรดแบบกราฟ","download_submissions":"ดาวน์โหลดผลงานจัดส่ง","message_students_who":"ส่งข้อความถึงผู้เรียนที่...","re_upload_submissions":"อัพโหลดผลงานจัดส่งใหม่","set_default_grade":"กำหนดเกรดเริ่มต้น","speedgrader":"SpeedGrader"},"header_filter":{"course_average":"ค่าเฉลี่ยบทเรียน","course_median":"ค่ามัธยฐานบทเรียน"},"outcome_gradebook":{"toggle_sidebar":"เปิดปิดแถบรายการด้านข้าง"},"section_to_show_menu":{"choose_a_section_to_show":"เลือกกลุ่มย่อยที่จะแสดง","showing_course":"กำลังแสดงบทเรียน","showing_sections":"กำลังแสดง *%{currentSection}*"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "score_does_not_include_groups_because_they_have_no_80d12f42",
+  null,
+  function() { return {"one":"คะแนนไม่รวม %{groups} เนื่องจากไม่สามารถให้คะแนนได้","other":"คะแนนไม่รวม %{groups} เนื่องจากไม่สามารถให้คะแนนได้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebook_default_gradebook_components_content_filters_assignment_group_filter",
+  function() { return {"all_assignment_groups_a65e9e46":"กลุ่มภารกิจทั้งหมด","assignment_group_filter_c03f8a1d":"ตัวกรองกลุ่มภารกิจ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebook_default_gradebook_components_content_filters_grading_period_filter",
+  function() { return {"grading_period_filter_e1bf635a":"ตัวกรองระยะเวลาการให้เกรด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebook_default_gradebook_components_content_filters_module_filter",
+  function() { return {"all_modules_20c9a1c8":"หน่วยการเรียนทั้งหมด","module_filter_63b17d11":"ตัวกรองหน่วยการเรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebook_default_gradebook_components_content_filters_student_group_filter",
+  function() { return {"all_student_groups_f74cd6c3":"กลุ่มผู้เรียนทั้งหมด","student_group_filter_185fb085":"ตัวกรองกลุ่มผู้เรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebook_constants",
+  function() { return {"assignment_groups_bc9cc3c9":"กลุ่มภารกิจ","student_groups_863201c1":"กลุ่มผู้เรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebookSharedGradebookexportManager",
+  function() { return {"an_export_is_already_in_progress_54270f01":"กำลังทำการส่งออก","error_exporting_gradebook_msg_6ea31e2f":"มีข้อผิดพลาดในการส่งออกสมุดบันทึกเกรด %{msg}","no_way_to_export_gradebooks_provided_b4c2939d":"ไม่มีวิธีส่งออกสมุดบันทึกเกรดแจ้งไว้!","no_way_to_monitor_gradebook_exports_provided_b451236a":"ไม่มีวิธีตรวจสอบการส่งออกสมุดบันทึกเกรดแจ้งไว้!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebookSharedScoreToUngradedManager",
+  function() { return {"a_process_is_already_in_progress_f4495f5e":"กระบวนการกำลังดำเนินการอยู่","msg_680333e2":"%{msg}","no_way_to_monitor_score_to_ungraded_provided_9258253f":"ไม่มีวิธีตรวจสอบคะแนนกับที่ไม่ได้ให้เกรดระบุไว้!","score_to_ungraded_process_failed_reason_788f9030":"กระบวนการให้คะแนนกับที่ไม่ได้ให้เกรดไว้ล้มเหลว: %{reason}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "modules",
+  function() { return {"a_file_named_name_already_exists_do_you_want_to_re_6536980":"ไฟล์ชื่อ “%{name}” มีอยู่แล้ว ต้องการแทนที่ไฟล์ในปัจจุบันหรือไม่","a_locked_file_named_name_already_exists_please_ent_3b2e65a":"ไฟล์ที่ล็อคไว้ชื่อ “%{name}” มีอยู่แล้ว กรุณากรอกชื่อใหม่","drop_files_here_to_add_to_module_236304f5":"ลากไฟล์ที่นี่เพื่อเพิ่มหน่วยการเรียน","duplicating_module_9727f5e4":"กำลังจำลองหน่วยการเรียน...","duplicating_module_ae6670b0":"กำลังจำลองหน่วยการเรียน","ignore_assignment_738b3c99":"ละเว้นภารกิจ","ignore_name_55edc6fe":"ละเว้น %{name}","ignore_these_3940f6f5":"ละเว้นรายการเหล่านี้","name_error_fee4236":"ข้อผิดพลาดชื่อ","no_assignment_name_adbb215b":"ไม่มีชื่อภารกิจ","note_students_have_submitted_work_for_these_assign_7bc34e28":"หมายเหตุ: ผู้เรียนจัดส่งผลงานสำหรับภารกิจนี้ที่ยังไม่ได้ให้เกรด หากคุณแจ้งเกรดเหล่านี้ในตอนนี้ คุณจะต้องแจ้งคะแนนใหม่หลังจากให้เกรดผลงานจัดส่งล่าสุดของบุคคลเหล่านี้","sync_grades_to_sis_fd01f7fd":"ซิงค์เกรดไปยัง SIS","unable_to_set_up_drag_and_drop_for_modules_4d339f1d":"ไม่สามารถกำหนดค่าการลากและวางสำหรับหน่วยการเรียน","ungraded_submissions_44efb0ec":"ผลงานจัดส่งที่ยกเลิกการให้เกรดแล้ว","would_you_like_to_let_students_continue_in_the_cou_a4c36171":"ต้องการให้ผู้เรียนดำเนินการต่อในบทเรียนหรือต้องการล็อคหน่วยการเรียนนี้ใหม่จนกว่าเงื่อนไขใหม่จะเสร็จสมบูรณ์หรือไม่","you_have_changed_the_progression_requirements_for__6772bc89":"คุณแก้ไขเงื่อนไขความคืบหน้าสำหรับบทเรียนที่ใช้อยู่ อาจมีผู้เรียนที่มีความคืบหน้าในหน่วยการเรียนนี้แล้ว และหน่วยการเรียนอื่นที่เชื่อมโยงกัน"} },
+  function() { return {"assignments_to_grade":{"one":"1 ภารกิจมีผลงานจัดส่งที่ยังไม่ให้เกรด","other":"%{count} ภารกิจมีผลงานจัดส่งที่ยังไม่ให้เกรด"},"continue":"ดำเนินการต่อ","progression_module_collection":{"module_progress_for":"สถานะในหน่วยการเรียนสำหรับ *%{student.name}*","module_progress_for_student":"สถานะในหน่วยการเรียนสำหรับ %{student.name}","no_modules_found":"ไม่พบหน่วยการเรียน"},"progression_module_view":{"items":"รายการที่จะต้องดำเนินการ","items_below":"รายการที่จะต้องดำเนินการด้านล่าง"},"progression_student_view":{"show_progressions_for_student":"แสดงความคืบหน้าสำหรับ %{name}"},"progressions_index":{"back_to_modules":"กลับไปที่เพจหน่วยการเรียน","no_students_found":"ไม่พบผู้เรียน","progression_header":"สถานะในหน่วยการเรียน","student_progress":"ความคืบหน้าของผู้เรียน"},"relock_modules":"ล็อคหน่วยการเรียนใหม่","requirements_changed":"แก้ไขเงื่อนไขแล้ว"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_assignments_with_errors_e8f3c18c",
+  null,
+  function() { return {"one":"1 ภารกิจพร้อมข้อผิดพลาด","other":"%{count} ภารกิจพร้อมข้อผิดพลาด","zero":"ไม่มีภารกิจพร้อมข้อผิดพลาด คลิก ดำเนินการต่อ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "you_are_ready_to_sync_count_assignments_525eb8b1",
+  null,
+  function() { return {"one":"คุณพร้อมสำหรับซิงค์ 1 ภารกิจ","other":"คุณพร้อมสำหรับซิงค์ %{count} ภารกิจ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "GroupSubmissionAlert",
+  function() { return {"keep_in_mind_this_submission_will_count_for_everyo_bb526d67":"ผลงานจัดส่งนี้จะพิจารณาสำหรับทุกคนในกลุ่ม %{groupType} ของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "conversations_2",
+  function() { return {"add_an_attachment_b2e9092f":"เพิ่มเอกสารแนบ","add_as_a_faculty_journal_entry_55a38a30":"เพิ่มเป็นรายการบันทึกสำหรับวิชา","address_book_dbecc4a3":"สมุดที่อยู่","address_book_input_a0d8e76f":"การป้อนสมุดที่อยู่","address_book_menu_c986b615":"เมนูสมุดที่อยู่","all_in_e5ddaee0":"ทั้งหมดใน","archive_operation_failed_5504706":"จัดเก็บแยกล้มเหลว","are_you_sure_you_want_to_delete_your_copy_of_this__8490c9d4":"แน่ใจว่าต้องการลบสำเนาข้อความนี้ของคุณหรือไม่ การดำเนินการนี้ไม่สามารถยกเลิกได้","compose_a_new_message_db3a68ed":"เขียนข้อความใหม่","contextname_selected_59de1002":"%{contextName} ถูกเลือกไว้","delete_operation_failed_3db8cd19":"การลบล้มเหลว","error_adding_files_97ba198e":"มีข้อผิดพลาดในการเพิ่มไฟล์","error_adding_files_to_conversation_message_58e83876":"มีข้อผิดพลาดในการเพิ่มไฟล์ไปยังข้อความการพูดคุย","error_loading_course_data_f056172b":"มีข้อผิดพลาดในการโหลดข้อมูลบทเรียน","error_loading_past_messages_4f142523":"มีข้อผิดพลาดในการโหลดข้อความในอดีต","error_occurred_while_adding_message_to_conversatio_3dafd0e5":"เกิดข้อผิดพลาดขณะเพิ่มข้อความไปยังการพูดคุย","error_occurred_while_creating_conversation_message_43751479":"เกิดข้อผิดพลาดขณะจัดทำข้อความสำหรับการพูดคุย","error_uploading_files_db354fa9":"มีข้อผิดพลาดในการอัพโหลดไฟล์","error_uploading_files_f709361f":"มีข้อผิดพลาดในการอัพโหลดไฟล์","failed_to_load_conversation_messages_9b4546fc":"ไม่สามารถโหลดข้อความการพูดคุย","file_upload_9cae6da5":"การอัพโหลดไฟล์","filter_messages_by_course_21a53fc4":"กรองข้อความจากบทเรียน","forward_d143f64":"ส่งต่อ","group_newoptiongroup_entered_newoptioncontextname_9eaf1b13":"กรอก %{newOptionGroup} ของกลุ่มแล้ว %{newOptionContextName}","loading_compose_modal_f6da0e8b":"กำลังโหลดโหมดการเขียนเนื้อหา","loading_conversation_messages_71e9050e":"กำลังโหลดข้อความสนทนา","loading_message_list_226a131e":"กำลังโหลดรายการข้อความ","mailbox_selection_92d9cbf":"การเลือกกล่องจดหมาย","mark_all_as_read_a995ffbe":"กำกับทั้งหมดว่าอ่านแล้ว","mark_all_as_unread_10e7f0fe":"กำกับทั้งหมดว่ายังไม่ได้อ่าน","message_body_1f782712":"เนื้อหาข้อความ","message_body_is_required_105d5986":"ต้องมีเนื้อหาข้อความ","more_options_e89670cf":"ตัวเลือกเพิ่มเติม","no_conversations_selected_ebcd9226":"ไม่ได้เลือกการพูดคุยใด ๆ","no_results_found_2ace1494":"ไม่พบผลลัพธ์","not_selected_57866888":"ไม่ได้เลือก","not_starred_98931190":"ไม่ได้ให้ดาวไว้","open_address_book_41ce8576":"เปิดสมุดที่อยู่","open_conversation_a6590865":"เปิดการพูดคุย","participantcount_less_8d258f6":"ลดลง %{participantCount} รายการ","participantcount_more_50363e55":"อีก %{participantCount} รายการ","please_wait_while_we_upload_attachments_59544216":"กรุณารอขณะเราอัพโหลดเอกสารแนบ","please_wait_while_we_upload_attachments_and_media_c7e7221c":"กรุณารอขณะเราอัพโหลดเอกสารแนบและสื่อมีเดีย","read_dc99757a":"อ่าน","read_state_change_failed_859eeaa1":"เปลี่ยนสถานะการอ่านล้มเหลว","read_state_change_operation_failed_86710e1":"การเปลี่ยนสถานะการอ่านล้มเหลว","record_an_audio_or_video_comment_88425add":"บันทึกความเห็นแบบเสียงและวิดีโอ","record_upload_media_comment_4d01b943":"บันทึก/อัพโหลดความเห็นแบบสื่อ","remove_media_attachment_d2926f1e":"ลบเอกสารแนบสำหรับสื่อ","replace_attachmentdisplayname_button_94dd8ba1":"แทนที่ปุ่ม %{attachmentDisplayName}","reply_all_80298bee":"ตอบกลับทั้งหมด","reply_all_b864cd0e":"ตอบกลับทั้งหมด","select_course_5b549441":"เลือกบทเรียน","selected_de3a8019":"ที่เลือกไว้","send_an_individual_message_to_each_recipient_e9ddaeb8":"ส่งข้อความเฉพาะรายไปยังผู้รับแต่ละคน","sending_message_ba2f0f0e":"กำลังส่งข้อความ","star_8d156e09":"ดาว","starred_9523c316":"ให้ดาวแล้ว","successfully_deleted_the_conversation_message_2a546732":"ลบข้อความการพูดคุยเสร็จสิ้น","the_conversation_has_been_successfully_starred_ce079a12":"ให้ดาวการพูดคุยเสร็จสิ้น","the_conversation_has_been_successfully_unstarred_6514095d":"ยกเลิกการให้ดาวการพูดคุยเสร็จสิ้น","there_was_an_error_uploading_the_media_6841a37b":"มีข้อผิดพลาดในการอัพโหลดสื่อ","there_was_an_unexpected_error_deleting_the_convers_412fd621":"มีข้อผิดพลาดที่ไม่คาดคิดในการลบข้อความการพูดคุย","there_was_an_unexpected_error_updating_the_convers_a1a37400":"มีข้อผิดพลาดที่ไม่คาดคิดในการอัพเดตผู้เข้าร่วมการพูดคุย","there_was_an_unexpected_error_updating_the_convers_d44c9fde":"มีข้อผิดพลาดที่ไม่คาดคิดในการอัพเดตผู้เข้าร่วมการพูดคุย","type_or_use_arrow_keys_to_navigate_options_7507d3d2":"พิมพ์หรือใช้ปุ่มลูกศรเพื่อเข้าไปยังตัวเลือกต่าง ๆ","unable_to_load_courses_menu_7074ea04":"ไม่สามารถโหลดเมนูบทเรียน","unable_to_load_messages_49a2942b":"ไม่สามารถโหลดข้อความ","unarchive_f245e2d6":"ยกเลิกการจัดเก็บแยก","unarchive_operation_failed_22c42032":"เลิกจัดเก็บแยกส่วนการดำเนินการล้มเหลว","unstar_b84daaef":"ลบดาว","uploading_files_9e39dbf9":"กำลังอัพโหลดไฟล์"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "read_states_changed_45d9cba",
+  null,
+  function() { return {"one":"แก้ไขสถานะการอ่านแล้ว!","other":"แก้ไขสถานะการอ่านแล้ว!"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "messages_archived_58eb202f",
+  null,
+  function() { return {"one":"จัดเก็บข้อความแยกแล้ว!","other":"จัดเก็บข้อความแยกแล้ว!"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "messages_unarchived_df1a4b97",
+  null,
+  function() { return {"one":"เลิกจัดเก็บข้อความแยกแล้ว!","other":"เลิกจัดเก็บข้อความแยกแล้ว!"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "the_conversations_has_been_successfully_unstarred_fb69c53d",
+  null,
+  function() { return {"one":"ยกเลิกการให้ดาวการพูดคุยเสร็จสิ้น","other":"ยกเลิกการให้ดาวการพูดคุยเสร็จสิ้น"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "the_conversations_has_been_successfully_starred_315da1a",
+  null,
+  function() { return {"one":"ให้ดาวการพูดคุยเสร็จสิ้น","other":"ให้ดาวการพูดคุยเสร็จสิ้น"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "are_you_sure_you_want_to_archive_your_copy_of_thes_92c9b8f1",
+  null,
+  function() { return {"one":"แน่ใจว่าต้องการจัดเก็บแยกสำเนาการพูดคุยนี้ของคุณหรือไม่","other":"แน่ใจว่าต้องการจัดเก็บแยกสำเนาการพูดคุยนี้ของคุณหรือไม่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "are_you_sure_you_want_to_unarchive_your_copy_of_th_c961b520",
+  null,
+  function() { return {"one":"แน่ใจว่าต้องการยกเลิกการจัดเก็บแยกสำเนาการพูดคุยนี้หรือไม่","other":"แน่ใจว่าต้องการยกเลิกการจัดเก็บแยกสำเนาการพูดคุยเหล่านี้ของคุณหรือไม่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "jobs_v2",
+  function() { return {"clear_job_selection_6ad1ff95":"ล้างรายการเลือกงาน","clear_search_900e9c97":"ล้างการค้นหา","count_40eced3b":"จำนวน","enter_an_id_or_an_original_job_id_d81ad1c7":"กรอก id หรือ original_job_id","failed_at_61f5fb71":"ล้มเหลวเมื่อ","failed_at_f471dfd3":"ล้มเหลวเมื่อ","failed_jobs_b632bbf0":"งานล้มเหลว","filter_bucket_jobs_by_group_9bd1668c":"กรอง %{bucket} งานจาก %{group}","filter_jobs_by_date_202eb267":"กรองงานจากวันที่","future_jobs_cf2964a1":"งานในอนาคต","handler_7912052f":"ชุดคำสั่ง","id_290feb5":"ID","job_category_f8e4dfe7":"หมวดหมู่งาน","job_details_b33137dc":"รายละเอียดงาน","job_grouping_f652413e":"การจัดกลุ่มงาน","job_lookup_1d980054":"ค้นหางาน","jobs_control_panel_cae05c3f":"Jobs Control Panel","jobs_ec5d59d8":"งาน","last_error_a3832668":"ข้อผิดพลาดล่าสุด","last_failed_at_b714ff2e":"ล้มเหลวล่าสุดเมื่อ","loading_group_f1647ebb":"กำลังโหลด %{group}","loading_jobs_12f0609d":"กำลังโหลดงาน...","locked_at_cda02889":"ล็อคเมื่อ","locked_by_983c07f7":"ล็อคโดย","max_attempts_ae7b90bc":"จำนวนการดำเนินการสูงสุด","max_concurrent_a6f135c":"การดำเนินการพร้อมกันสูงสุด","max_run_time_6022a5f1":"รันไทม์สูงสุด","max_wait_time_dc158bf1":"เวลารอสูงสุด","next_run_at_635de64a":"ดำเนินการครั้งถัดไปเมื่อ","no_job_selected_d6c5e6f4":"ไม่ได้เลือกงานใด ๆ","num_days_1c5c91b6":"%{num} วัน","original_job_id_d81afbb3":"ID งานเดิม","pause_auto_refresh_9bd773ca":"หยุดการรีเฟรชอัตโนมัติชั่วคราว","priority_dd4381ee":"ลำดับความสำคัญ","queued_jobs_9a7a923e":"งานที่จัดคิวไว้","refresh_8a04b019":"รีเฟรช","run_at_759b47d":"เรียกใช้เมื่อ","run_at_92dd90df":"เรียกใช้เมื่อ","run_time_370dedb6":"รันไทม์","running_jobs_9861080e":"งานที่กำลังดำเนินการ","scope_9729c11e":"ขอบเขต:","scope_c59afc8a":"ขอบเขต","shard_5d340495":"Shard","show_e0cb4667":"(แสดง)","singleton_46df7e3b":"รายการเดี่ยว","singletons_99a47787":"รายการเดี่ยว","start_auto_refresh_e2feafb2":"เริ่มรีเฟรชอัตโนมัติ","strand_955969b1":"ชุดกระบวนงาน","strand_singleton_2d7d7be7":"ชุดงาน / งานแยกเดี่ยว","strands_b086013b":"ชุดกระบวนงาน","tag_7bb005ff":"หมายเหตุกำกับ","tags_2b72a03b":"หมายเหตุกำกับ","utc_e44049af":"UTC","view_timestamps_in_time_zone_9b699a8b":"ดูเวลากำกับในเขตเวลา","wait_time_4c8f74a2":"เวลารอ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "jobs",
+  null,
+  function() { return {"columns":{"attempt":"การดำเนินการ","count":"จำนวน","id":"id","priority":"ลำดับความสำคัญ","run_at":"เรียกใช้เมื่อ","runtime":"รันไทม์","singleton":"รายการเดี่ยว","strand":"ชุดกระบวนงาน","tag":"หมายเหตุกำกับ","worker":"ผู้ปฏิบัติงาน"},"confirm":{"destroy_all":"แน่ใจว่าต้องการทำลายงานประเภทนี้*ทั้งหมด*และที่ตรงกับส่วนการสืบค้นนี้หรือไม่","hold_all":"แน่ใจว่าต้องการเก็บงานประเภทนี้*ทั้งหมด*และที่ตรงกับส่วนการสืบค้นนี้หรือไม่","unhold_all":"แน่ใจว่าต้องการเลิกเก็บงานประเภทนี้*ทั้งหมด*และที่ตรงกับส่วนการสืบค้นนี้หรือไม่"},"titles":{"job_handler":"ชุดคำสั่งงาน","last_error":"ข้อผิดพลาดล่าสุด"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "empty_course",
+  function() { return {"all_subject_navigation_has_been_disabled_f06b0154":"การสืบค้นวิชาทั้งหมดถูกปิดใช้งาน","reestablish_your_world_b4bd6dff":"สร้างโลกของคุณใหม่อีกครั้ง","welcome_to_the_cold_dark_void_of_name_65fc9839":"ยินดีต้อนรับสู่ %{name} ที่มืดมิดและหนาวเย็น"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "empty_home",
+  function() { return {"manage_home_4fc3480b":"จัดการหน้าหลัก","manage_home_for_coursename_5e5c7661":"จัดการหน้าหลักสำหรับ %{courseName}","relax_and_take_a_break_there_s_nothing_to_do_yet_fde1d2ef":"อย่าเครียด พักสักครู่ ยังไม่มีอะไรให้ทำ","this_is_where_you_ll_land_when_your_home_is_comple_8ab4d2b8":"นี่เป็นปลายทางของคุณเมื่อต้นทางของคุณเสร็จสมบูรณ์"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "empty_modules",
+  function() { return {"your_modules_will_appear_here_after_they_re_assemb_bfd5abe8":"หน่วยการเรียนของคุณจะปรากฏขึ้นที่นี่หลังจากรวบรวมเนื้อหาต่าง ๆ แล้ว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "grade_details",
+  function() { return {"coursename_total_grade_5b3f3564":"%{courseName} รวม: %{grade}","failed_to_load_grade_details_for_coursename_2325cfd2":"ไม่สามารถโหลดรายละเอียดเกรดสำหรับ %{courseName}","grades_for_coursename_f5c92045":"เกรดสำหรับ %{courseName}","groupname_score_75afe27":"%{groupName}: %{score}","loading_assignment_group_totals_c5a6490d":"กำลังโหลดยอดรวมกลุ่มภารกิจ","loading_grades_for_coursename_26784c2d":"กำลังโหลดเกรดสำหรับ %{courseName}","loading_total_grade_for_coursename_b6eff3b6":"กำลังโหลดเกรดรวมสำหรับ %{courseName}","total_grade_b0c33841":"รวม: %{grade}","view_assignment_group_totals_c8db16b2":"ดูยอดรวมกลุ่มภารกิจ","view_coursename_s_assignment_group_totals_bd4b707":"ดูยอดรวมกลุ่มภารกิจของ %{courseName}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "grade_row",
+  function() { return {"_e59b5cb1":"—","gpa_3931582b":"— GPA","gpa_gpa_4ade5b09":"%{gpa} GPA","late_date_178cba25":"ช่วงท้าย %{date}","new_grade_for_assignmentname_4f2e6b38":"เกรดใหม่สำหรับ %{assignmentName}","not_graded_e78bcd50":"ไม่ได้ให้เกรด","out_of_pointspossible_pts_b2b73373":"จาก %{pointsPossible} คะแนน","pts_212a1b18":"- คะแนน","submitted_date_ba55b0ae":"จัดส่งแล้ว %{date}","ungraded_assignment_c33ad508":"ภารกิจแบบไม่ให้เกรด","view_feedback_b88c99c":"ดูข้อเสนอแนะ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "grades_empty_page",
+  function() { return {"students_see_their_grades_here_ae80f808":"ผู้เรียนสามารถดูเกรดของตนได้ที่นี่","view_coursename_gradebook_8b3a6240":"ดูสมุดบันทึกเกรด %{courseName}","you_don_t_have_any_grades_yet_373f731f":"คุณยังไม่มีเกรด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_grades_page",
+  function() { return {"failed_to_load_grading_periods_for_coursename_87ac2b6":"ไม่สามารถโหลดระยะเวลาการให้เกรดสำหรับ %{courseName}","learning_outcome_gradebook_for_coursename_4634781b":"สมุดบันทึกเกรดผลการเรียนรู้สำหรับ %{courseName}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_grading_period_select",
+  function() { return {"loading_grading_periods_for_coursename_bbe46919":"กำลังโหลดระยะเวลาการให้เกรดสำหรับ %{courseName}","title_current_750a3c65":"%{title} (ปัจจุบัน)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "k5_course",
+  function() { return {"are_you_sure_you_want_to_unenroll_in_this_subject__30f60c48":"แน่ใจว่าต้องการเลิกลงทะเบียนวิชานี้หรือไม่  คุณจะไม่เห็นบัญชีรายชื่อวิชาหรือสื่อสารโดยตรงกับผู้สอนได้อีกต่อไป และคุณจะไม่เห็นกิจกรรมของวิชาเรียนในสตรีมของคุณหรือเป็นการแจ้งข้อมูลอีกต่อไป","confirm_unenrollment_64333263":"ยืนยันการเลิกลงทะเบียน","drop_coursename_813d3162":"ดรอป %{courseName}","drop_this_subject_ced1b10a":"ดรอปวิชานี้","dropping_subject_1d68ccf4":"กำลังดรอปวิชา","join_this_subject_ef4b8845":"เข้าร่วมวิชานี้","manage_subject_coursecontext_2328e1ff":"จัดการวิชา: %{courseContext}","manage_subject_f9835769":"จัดการวิชา","student_view_ac9b672f":"มุมมองผู้เรียน","unable_to_drop_the_subject_d7d55ba1":"ไม่สามารถดรอปวิชานี้ได้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "overview_page",
+  function() { return {"edit_home_page_ee907de9":"แก้ไขหน้าหลัก","subject_home_page_41226803":"หน้าหลักวิชา"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "filter_calendars_modal",
+  function() { return {"failed_to_save_selected_calendars_210b5e8f":"ไม่สามารถบันทึกปฏิทินที่เลือก","selected_calendars_cc7f325b":"ปฏิทินที่เลือก"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "choose_up_to_count_subject_calendars_a7df06d7",
+  null,
+  function() { return {"one":"เลือกได้สูงสุด 1 ปฏิทินวิชา","other":"เลือกได้สูงสุด %{count} ปฏิทินวิชา"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "you_have_count_calendars_left_f0cbcac4",
+  null,
+  function() { return {"one":"คุณเหลืออีก 1 วันปฏิทิน","other":"คุณเหลืออีก %{count} วันปฏิทิน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "dashboard_grades_page",
+  function() { return {"failed_to_load_grades_for_the_requested_grading_pe_52cefa9":"ไม่สามารถโหลดเกรดสำหรับระยะเวลาการให้เกรดที่ร้องขอ","failed_to_load_the_grades_tab_c6118c57":"ไม่สามารถโหลดแท็บเกรด","loading_grades_446fc226":"กำลังโหลดเกรด...","loading_grading_periods_c635d96":"กำลังโหลดระยะเวลาการให้เกรด..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "grades_summary",
+  function() { return {"grade_for_course_ccc8513c":"เกรดสำหรับ %{course}","not_graded_e027c866":"ไม่ได้ลงเกรด","percent_of_points_possible_93cd8127":"%{percent} คะแนนที่เป็นไปได้","view_gradebook_for_course_10cbf171":"ดูสมุดบันทึกเกรดสำหรับ %{course}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "dashboard_grading_period_select",
+  function() { return {"current_grading_period_b85226c2":"ระยะเวลาการให้เกรดในปัจจุบัน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "homeroom_page",
+  function() { return {"loading_card_4b812198":"กำลังโหลดการ์ด","my_subjects_61936afb":"หัวข้อของฉัน","open_new_subject_modal_c9049e1d":"เปิดโหมดวิชาใหม่","start_a_new_subject_7271b3ec":"เริ่มวิชาใหม่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "important_dates",
+  function() { return {"failed_to_load_assignments_in_important_dates_ce3b4227":"ไม่สามารถโหลดภารกิจในวันที่ที่สำคัญ","failed_to_load_events_in_important_dates_2195b227":"ไม่สามารถโหลดกิจกรรมในวันที่ที่สำคัญ","hide_important_dates_c23d2102":"ซ่อนวันที่ที่สำคัญ","important_dates_304e306a":"วันที่ที่สำคัญ","loading_important_date_2d3a29ce":"กำลังโหลดวันที่ที่สำคัญ","loading_important_date_details_1b2d2b85":"กำลังโหลดรายละเอียดวันที่ที่สำคัญ","select_calendars_to_retrieve_important_dates_from_26dc92b7":"เลือกปฏิทินที่จะเรียกค้นวันที่ที่สำคัญจาก"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "important_dates_empty",
+  function() { return {"waiting_for_important_things_to_happen_5d2e2f18":"กำลังรอเหตุการณ์สำคัญ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "k5_dashboard",
+  function() { return {"classic_view_33f29576":"มุมมองคลาสสิค","failed_to_load_announcements_429c16fc":"ไม่สามารถโหลดประกาศได้","failed_to_opt_out_of_the_canvas_for_elementary_das_cf7210f0":"ไม่สามารถเลือกไม่รับแผงข้อมูลระดับประถมศึกษาของ Canvas","homeroom_12546f9c":"โฮมรูม","important_dates_tray_fa41a025":"ถาดรายการวันที่ที่สำคัญ","view_important_dates_173c7e1b":"ดูวันที่ที่สำคัญ","welcome_name_a16afa7f":"ยินดีต้อนรับ %{name}!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "k5_dashboard_card",
+  function() { return {"due_due_today_4dfe420a":"%{due} ครบกำหนดวันนี้","loading_latest_announcement_link_f1746190":"กำลังโหลดลิงค์ประกาศล่าสุด","loading_missing_assignments_link_d9a0d320":"กำลังโหลดลิงค์ภารกิจที่ขาดหาย","missing_missing_c1010432":"%{missing} ขาดหายไป","new_announcement_title_30ba7c1b":"ประกาศใหม่: %{title}","nothing_due_today_26217223":"ไม่มีวันครบกำหนดวันนี้","nothing_due_today_for_course_coursename_e6e7e012":"ไม่มีกำหนดเวลาวันนี้สำหรับบทเรียน %{courseName}","nothing_else_due_7f8436af":"ไม่มีรายการที่ครบกำหนดอีก","nothing_else_due_today_for_course_coursename_1a75915e":"ไม่มีอะไรอีกที่มีกำหนดในวันนี้สำหรับบทเรียน %{courseName}","view_due_items_due_today_for_course_coursename_129e433":"ดู %{due} รายการที่มีกำหนดในวันนี้สำหรับบทเรียน %{courseName}","view_missing_missing_items_for_course_coursename_e7509012":"ดู %{missing} รายการที่ขาดหายไปสำหรับบทเรียน %{courseName}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "todo",
+  function() { return {"failed_to_ignore_assignment_46565fa3":"ไม่สามารถละเว้นภารกิจได้","grade_assignment_7c1abc11":"เกรด %{assignment}","ignore_assignment_until_new_submission_424f8f01":"ละเว้น %{assignment} จนกว่าจะมีผลงานจัดส่งใหม่","multiple_due_dates_47416f7a":"(วันครบกำหนดหลายรายการ)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_submissions_need_grading_d34bae25",
+  null,
+  function() { return {"one":"1 ผลงานจัดส่งที่ต้องให้เกรด","other":"%{count} ผลงานจัดส่งที่ต้องให้เกรด"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "todos_page",
+  function() { return {"failed_to_load_todos_93cfc2d2":"ไม่สามารถโหลดรายการสิ่งที่ต้องทำ","loading_additional_todo_details_acba0cf2":"กำลังโหลดรายละเอียดสิ่งที่ต้องทำเพิ่มเติม","loading_todo_course_name_b851e509":"กำลังโหลดชื่อบทเรียนสำหรับสิ่งที่ต้องทำ","loading_todo_title_5c73a869":"กำลังโหลดชื่อรายการสิ่งที่ต้องทำ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "OutcomeManagement",
+  function() { return {"account_standards_a657d5e2":"มาตรฐานทางบัญชี","add_all_outcomes_6a12d08e":"เพิ่มผลลัพธ์ทั้งหมด","add_outcome_title_ce9dff87":"เพิ่มผลลัพธ์ %{title}","add_outcomes_36272787":"เพิ่มผลลัพธ์","added_e8a39b2":"เพิ่มแล้ว","added_outcome_title_3c258a9":"เพิ่มผลลัพธ์แล้ว %{title}","all_grouptitle_outcomes_dcc565d1":"ผลลัพธ์ทั้งหมดของ %{groupTitle}","an_error_occurred_while_creating_this_outcome_plea_f1c69d92":"เกิดข้อผิดพลาดขณะจัดทำผลลัพธ์นี้ กรุณาลองใหม่อีกครั้งในภายหลัง","an_error_occurred_while_editing_this_outcome_pleas_f0e403a9":"เกิดข้อผิดพลาดขณะแก้ไขผลลัพธ์นี้ กรุณาลองใหม่อีกครั้งในภายหลัง","an_error_occurred_while_loading_account_learning_o_29a11066":"เกิดข้อผิดพลาดขณะโหลดกลุ่มผลการเรียนรู้ระดับบัญชีผู้ใช้","an_error_occurred_while_loading_course_learning_ou_c4053b06":"เกิดข้อผิดพลาดขณะโหลดกลุ่มผลการเรียนรู้ระดับบทเรียน","an_error_occurred_while_loading_selected_group_8b80d3d5":"เกิดข้อผิดพลาดขณะโหลดกลุ่มที่เลือก","an_error_occurred_while_removing_this_group_groupt_2c343304":"เกิดข้อผิดพลาดขณะลบกลุ่มนี้: \"%{groupTitle}\" มีผลลัพธ์บางส่วนที่ปัจจุบันประสานไว้กับเนื้อหา","an_error_occurred_while_removing_this_group_please_bd9407ff":"เกิดข้อผิดพลาดขณะลบกลุ่มนี้ กรุณาลองใหม่อีกครั้งในภายหลัง","are_you_sure_that_you_want_to_remove_this_group_an_2122c9ec":"แน่ใจว่าต้องการลบกลุ่มนี้และเนื้อหาภายในทั้งหมดจากบทเรียนของคุณหรือไม่","are_you_sure_that_you_want_to_remove_this_group_an_ff69dcff":"แน่ใจว่าต้องการลบกลุ่มนี้และเนื้อหาภายในทั้งหมดจากบัญชีของคุณหรือไม่","are_you_sure_you_want_to_proceed_changes_you_made__2f87f0e7":"แน่ใจว่าต้องการดำเนินการต่อหรือไม่ การเปลี่ยนแปลงของคุณจะไม่ถูกบันทึกไว้","calculation_d82f6181":"การคำนวณ","cannot_be_blank_c4e30496":"ไม่สามารถปล่อยว่างได้","cannot_remove_c0fd581d":"ไม่สามารถลบได้:","change_mastery_points_c4f68a36":"แก้ไขคะแนนความเชี่ยวชาญ","clear_all_da755751":"ล้างทั้งหมด","clear_search_field_75f595c7":"ล้างฟิลด์ค้นหา","collapse_description_for_outcome_title_bcd9b8c9":"ย่อรายละเอียดสำหรับผลลัพธ์ %{title}","create_a_friendly_display_name_c1036ed":"จัดทำชื่อจัดแสดงที่เป็นมิตร","create_outcome_4dac05a0":"จัดทำผลลัพธ์","enter_name_or_code_b4c103f6":"กรอกชื่อหรือรหัส","enter_your_friendly_description_here_b3c230d3":"กรอกรายละเอียดที่เป็นกันเองของคุณที่นี่","error_loading_rollups_87115bc":"มีข้อผิดพลาดในการโหลดผลการคำนวณร่วม","expand_description_for_outcome_title_abc8f30":"ขยายรายละเอียดสำหรับผลลัพธ์ %{title}","friendly_description_for_parent_student_display_e608ecf3":"รายละเอียดที่เป็นกันเอง (การแสดงผลสำหรับพ่อแม่ผู้ปกครอง/ผู้เรียน)","friendly_name_601153fb":"ชื่อที่เป็นมิตร","from_grouptitle_860dff95":"จาก %{groupTitle}","load_more_35d33c7":"โหลดเพิ่มเติม","loading_grouptitle_dba362d2":"กำลังโหลด %{groupTitle}.","mastery_at_cf0c477b":"ความเชี่ยวชาญที่","mastery_at_e804b49":"ความเชี่ยวชาญที่:","menu_for_group_title_fbf60567":"เมนูสำหรับกลุ่ม %{title}","menu_for_outcome_title_1d93378d":"เมนูสำหรับผลลัพธ์ %{title}","must_be_255_characters_or_less_e8e7f25e":"จะต้องยาวไม่เกิน 255 ตัวอักษร","outcomes_selected_e9f87772":"เลือกผลลัพธ์แล้ว","points_points_d70ced4f":"%{points} คะแนน","remove_d83a966c":"ลบ:","remove_group_5d2f2f2d":"ลบกลุ่ม","remove_group_981d6a02":"ลบกลุ่มหรือไม่","remove_removablecount_out_of_totalcount_outcomes_3270d9c0":"ลบ %{removableCount} จาก %{totalCount} ผลลัพธ์หรือไม่","root_learning_outcome_groups_4eb5a030":"กลุ่มผลการเรียนรู้ราก","search_field_234156fc":"ฟิลด์ค้นหา","search_results_for_62243f02":"ผลการค้นหาสำหรับ","search_within_grouptitle_4d38272f":"ค้นหาจากใน %{groupTitle}","select_a_location_4eb17e4b":"เลือกตำแหน่ง","select_another_group_24773e5f":"เลือกกลุ่มอื่น","select_outcome_title_b99b3ca0":"เลือกผลลัพธ์ %{title}","some_of_the_outcomes_that_you_have_selected_cannot_4a42634a":"ผลลัพธ์บางส่วนที่คุณเลือกเอาไว้ไม่สามารถลบได้เนื่องจากประสานไว้กับเนื้อหาในบัญชีนี้ คุณต้องการลบผลลัพธ์นี้ต่อโดยไม่มีการปรับประสานหรือไม่","some_of_the_outcomes_that_you_have_selected_cannot_c417625":"ผลลัพธ์บางส่วนที่คุณเลือกเอาไว้ไม่สามารถลบได้เนื่องจากประสานไว้กับเนื้อหาในบทเรียนนี้ คุณต้องการลบผลลัพธ์นี้ต่อโดยไม่มีการปรับประสานหรือไม่","state_standards_c9b1affd":"มาตรฐานของรัฐ","the_search_returned_no_results_c2e4d13c":"การค้นหาไม่พบผลลัพธ์ใด ๆ","there_are_no_outcomes_in_this_group_9a70fa8a":"ไม่มีผลลัพธ์ในกลุ่มนี้","this_group_was_successfully_removed_81178d51":"ลบกลุ่มนี้เสร็จสิ้น","title_outcomes_7adbd9cc":"%{title} ผลลัพธ์","title_was_successfully_created_f2a07c56":"จัดทำ \"%{title}\" เสร็จสิ้น","title_was_successfully_updated_14b78676":"\"%{title}\" อัพเดตเสร็จสิ้น","view_description_b6d8e52b":"ดูรายละเอียด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_outcomes_3af5e3e",
+  null,
+  function() { return {"one":"%{count} ผลลัพธ์","other":"%{count} ผลลัพธ์"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_outcomes_were_successfully_removed_ea0ca83e",
+  null,
+  function() { return {"one":"ลบผลลัพธ์นี้เสร็จสิ้น","other":"%{count} ผลลัพธ์ที่ลบเสร็จสิ้น"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "an_error_occurred_while_removing_these_outcomes_pl_21f22da0",
+  null,
+  function() { return {"one":"เกิดข้อผิดพลาดขณะลบผลลัพธ์นี้ กรุณาลองใหม่อีกครั้งในภายหลัง","other":"เกิดข้อผิดพลาดขณะลบผลลัพธ์เหล่านี้ กรุณาลองใหม่อีกครั้งในภายหลัง"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "remove_outcomes_5f8b601c",
+  null,
+  function() { return {"one":"ลบผลลัพธ์","other":"ลบผลลัพธ์"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "unable_to_remove_outcomes_f682e68f",
+  null,
+  function() { return {"one":"ไม่สามารถลบผลลัพธ์ได้","other":"ไม่สามารถลบผลลัพธ์ได้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "the_outcomes_that_you_have_selected_cannot_be_remo_fc7244f2",
+  null,
+  function() { return {"one":"ผลลัพธ์ที่คุณเลือกเอาไว้ไม่สามารถลบได้เนื่องจากประสานไว้กับเนื้อหาในบทเรียนนี้","other":"ผลลัพธ์ที่คุณเลือกเอาไว้ไม่สามารถลบได้เนื่องจากประสานไว้กับเนื้อหาในบทเรียนนี้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "the_outcomes_that_you_have_selected_cannot_be_remo_6d259ee0",
+  null,
+  function() { return {"one":"ผลลัพธ์ที่คุณเลือกเอาไว้ไม่สามารถลบได้เนื่องจากประสานไว้กับเนื้อหาในบัญชีนี้","other":"ผลลัพธ์ที่คุณเลือกเอาไว้ไม่สามารถลบได้เนื่องจากประสานไว้กับเนื้อหาในบัญชีนี้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "remove_outcomes_9abcc8fd",
+  null,
+  function() { return {"one":"ลบผลลัพธ์หรือไม่","other":"ลบผลลัพธ์หรือไม่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "are_you_sure_that_you_want_to_remove_these_count_o_8ad349c4",
+  null,
+  function() { return {"one":"แน่ใจว่าต้องการลบผลลัพธ์นี้จากบทเรียนนี้หรือไม่","other":"แน่ใจว่าต้อกงารลบ %{count} เหล่านี้จากบทเรียนนี้หรือไม่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "are_you_sure_that_you_want_to_remove_these_count_o_67ef2d6c",
+  null,
+  function() { return {"one":"แน่ใจว่าต้องการลบผลลัพธ์นี้จากบัญชีนี้หรือไม่","other":"แน่ใจว่าต้องการลบ %{count} ผลลัพธ์เหล่านี้จากบัญชีนี้หรือไม่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_outcomes_selected_55902958",
+  null,
+  function() { return {"one":"เลือกไป 1 ผลลัพธ์","other":"เลือกไป %{count} ผลลัพธ์"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "showing_count_outcomes_for_grouptitle_32d7988b",
+  null,
+  function() { return {"one":"กำลังแสดง %{count} ผลลัพธ์สำหรับ %{groupTitle}","other":"กำลังแสดง %{count} ผลลัพธ์สำหรับ %{groupTitle}"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "LearningMasteryGradebook",
+  function() { return {"not_assessed_2b87bfd0":"ยังไม่ได้ประเมิน","showing_1ac6ed70":"กำลังแสดง:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "learning_mastery_gradebook",
+  function() { return {"ascending_b3c87427":"ล่างขึ้นบน","concluded_enrollments_8f460271":"การลงทะเบียนที่สรุปแล้ว","descending_b7828162":"บนลงล่าง","inactive_enrollments_bd1831ea":"การลงทะเบียนที่ไม่ใช้งาน","show_contributing_scores_7674c46f":"แสดงคะแนนการมีส่วนร่วม","sort_outcome_column_c53702ed":"จัดเรียงคอลัมน์ผลลัพธ์","sort_students_1a561e98":"จัดเรียงผู้เรียน","students_without_assessments_eb100e60":"ผู้เรียนที่ไม่มีการประเมิน","unassessed_a0264e97":"เลิกการใช้งานแล้ว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebookOutcomeGradebookView",
+  function() { return {"there_was_an_error_fetching_outcome_results_45c57590":"มีข้อผิดพลาดในการสืบค้นผลลัพธ์"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebookSectionMenuView",
+  null,
+  function() { return {"all_sections":"กลุ่มย่อยทั้งหมด"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "license_help",
+  null,
+  function() { return {"content_license_help":"ความช่วยเหลือในการให้สิทธิ์สำหรับเนื้อหา"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "pseudonyms",
+  function() { return {"your_password_recovery_instructions_will_be_sent_t_1b7991f5":"คำแนะนำในการกู้รหัสผ่านของคุณถูกจัดส่งไปยัง *%{email_address}* อาจใช้เวลาสูงสุด 30 นาที อย่าลืมดูในโฟลเดอร์อีเมลขยะด้วย"} },
+  function() { return {"login":{"invalid_login":"ข้อมูลล็อกอินไม่ถูกต้อง","invalid_password":"รหัสผ่านไม่ถูกต้อง","parent_signup":"การสมัครของผู้ปกครอง"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "react_collaborations",
+  function() { return {"add_collaboration_da9665ac":"เพิ่มความร่วมมือ","collaboration_ce3e2bac":"+ การประสานความร่วมมือ","collaborations_are_web_based_tools_to_work_collabo_6e9f7b3f":"ความร่วมมือเป็นชุดเครื่องมือทางเว็บสำหรับประสานความร่วมมือในงานต่าง ๆ เช่น การจดบันทึกและเอกสารของกลุ่ม เริ่มต้นโดยคลิกที่ปุ่ม “+ ความร่วมมือ”","collaborations_are_web_based_tools_to_work_collabo_6fa285b6":"ความร่วมมือเป็นชุดเครื่องมือทางเว็บสำหรับประสานความร่วมมือในงานต่าง ๆ เช่น การจดบันทึกและเอกสารของกลุ่ม พูดคุยกับผู้สอนของคุณเพื่อเริ่มต้น","collaborations_are_web_based_tools_to_work_collabo_8ae6dd38":"ความร่วมมือเป็นชุดเครื่องมือทางเว็บสำหรับประสานความร่วมมือในงานต่าง ๆ เช่น การจดบันทึกและเอกสารของกลุ่ม เริ่มต้นโดยเพิ่มแอพความร่วมมือเข้าไป","delete_collaboration_23035eaf":"ลบความร่วมมือ","edit_collaboration_b014c18b":"แก้ไขความร่วมมือ","getting_started_with_collaborations_794240ba":"การเริ่มใช้งาน ความร่วมมือ","learn_more_about_collaborations_2978f66d":"เรียนรู้เพิ่มเติมเกี่ยวกับความร่วมมือ","load_more_results_460f49a9":"โหลดผลลัพธ์เพิ่มเติม","loading_collaborations_e6c5f262":"กำลังโหลดความร่วมมือ","no_collaboration_apps_3bbd30ce":"ไม่มีแอพความร่วมมือ","remove_collaborationtitle_c3e81adb":"ลบ \"%{collaborationTitle}\" หรือไม่","yes_remove_86a61759":"ใช่ ลบ","you_have_no_collaboration_apps_configured_talk_to__6733123a":"คุณไม่มีแอพความร่วมมือที่กำหนดค่าไว้ พูดคุยกับผู้สอนของคุณเพื่อเตรียมความพร้อม"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "manage_avatars",
+  null,
+  function() { return {"errors":{"update_failed":"อัพเดตล้มเหลว กรุณาลองใหม่อีกครั้ง"},"messages":{"updating":"กำลังอัพเดต..."},"prompts":{"delete_avatar":"แน่ใจว่าต้องการลบภาพโพรไฟล์ผู้ใช้นี้หรือไม่","lock_avatar":"การล็อคภาพนี้จะเป็นการรับรองและทำให้ผู้ใช้ไม่สามารถอัพเดตได้  ดำเนินการต่อหรือไม่"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "groups",
+  function() { return {"an_error_occurred_when_cloning_the_group_set_8e80da6b":"เกิดข้อผิดพลาดขณะโคลนชุดกลุ่ม","cannot_restrict_by_section_unless_groups_are_empty_662d3144":"ไม่สามารถจำกัดจากลุ่มย่อยเว้นแต่กลุ่มจะว่างเปล่าและไม่ได้มีขนาดจำกัด","change_existing_group_2c91a32b":"เปลี่ยนกลุ่มในปัจจุบัน","clone_groupcategoryname_ef85ddb8":"(โคลน) %{groupCategoryName}","cloning_group_set_813b06f5":"กำลังโคลนชุดกลุ่ม","create_new_group_set_13b1f62a":"จัดทำชุดกลุ่มใหม่","download_course_roster_csv_86b3d192":"ดาวน์โหลด CSV บัญชีบทเรียน","drag_and_drop_or_click_to_browse_your_computer_2b46a2b6":"ลากและวาง หรือคลิกเพื่อเรียกดูในคอมพิวเตอร์ของคุณ","group_import_api_documentation_7d0d28ee":"เอกสารกำกับ API การนำเข้าของกลุ่ม","group_membership_limit_54e165b":"เกณฑ์จำกัดสมาชิกภาพของกลุ่ม","group_membership_limit_must_be_equal_to_or_greater_c52e0d7b":"เกณฑ์จำกัดสมาชิกกลุ่มจะต้องเท่ากับหรือมากกว่าจำนวนสมาชิกในปัจจุบัน","group_saved_successfully_fcd5ca66":"บันทึกกลุ่มเสร็จสิ้น","group_set_cloned_successfully_3e1a1497":"โคลนชุดกลุ่มเสร็จสิ้น","import_groups_3a2ae14b":"นำเข้ากลุ่ม","invitation_only_9a253f1d":"คำเชิญเท่านั้น","members_are_free_to_join_defa5929":"สมาชิกสามารถเข้าร่วมได้ฟรี","message_students_for_groupcategoryname_cf245ca4":"ส่งข้อความผู้เรียนสำหรับ %{groupCategoryName}","must_have_at_least_1_group_per_section_9809e708":"จะต้องมีอย่างน้อย 1 กลุ่มต่อกลุ่มย่อย","percent_complete_a7f6d403":"เปอร์เซ็นต์ที่เสร็จสิ้น","progress_percent_ae80cd55":"%{progress} เปอร์เซ็นต์","recipients_students_who_have_not_joined_a_group_a0c6a3c":"ผู้รับ: ผู้เรียนที่ไม่ได้เข้าร่วมกลุ่ม","required_input_message_all_unassigned_students_1e721442":"ข้อมูลที่ต้องกรอก ส่งข้อความถึงผู้เรียนทั้งหมดที่ไม่ได้รับการจัดสรร","this_may_take_a_few_minutes_e2df06d6":"อาจต้องใช้เวลาสักครู่","to_assign_students_to_a_group_enter_group_names_in_913d06fb":"กำหนดผู้เรียนสำหรับกลุ่มโดยกรอกชื่อกลุ่มในคอลัมน์ \"group_name\"","type_message_here_e15e30a7":"พิมพ์ข้อความที่นี่...","upload_csv_file_c2d287c9":"อัพโหลดไฟล์ CSV","warning_you_are_about_to_adjust_this_group_s_membe_a04281b6":"คำเตือน! คุณกำลังจะปรับสมาชิกภาพของกลุ่มนี้ *การเปลี่ยนแปลงนี้จะมีผลกับการจัดส่งของกลุ่มในปัจจุบัน หมายเหตุกำกับและความเห็น และทำให้มีข้อมูลสูญหายทั้งสำหรับกลุ่มนี้และกลุ่มก่อนหน้าของผู้เรียน*** เพื่อป้องกันผลที่ไม่คาดคิดในการจัดส่งของกลุ่มในปัจจุบัน ให้จัดทำชุดกลุ่มใหม่สำหรับภารกิจในอนาคต **","your_groups_are_being_created_50156e34":"กำลังจัดทำกลุ่มของคุณ"} },
+  function() { return {"create_group_set":"จัดทำชุดกลุ่ม","delete_confirm":"แน่ใจว่าต้องการลบชุดกลุ่มนี้หรือไม่","edit_group_set":"แก้ไขชุดกลุ่ม","everyone":"ทุกคน (%{count})","flash":{"removeError":"ไม่สามารถลบชุดกลุ่มนี้ กรุณาลองใหม่อีกครั้งในภายหลัง","removed":"ลบชุดกลุ่มเสร็จสิ้น"},"group_limit_number":"เกณฑ์จำกัดของกลุ่มจะต้องเป็นตัวเลข","groups_count":"กลุ่ม (%{count})","manage":{"add_unassigned_menu":{"add_unassigned_student":"เพิ่มผู้เรียนที่ไม่ได้รับการจัดสรร","add_unassigned_user":"เพิ่มผู้ใช้ที่ไม่ได้รับการจัดสรร","search_people":"ค้นหาบุคคล"},"add_unassigned_user":{"add_to_group":"เพิ่มผู้ใช้ไปยังกลุ่ม","add_user_to_group":"เพิ่มผู้ใช้ %{name} ไปยังกลุ่มนี้"},"add_unassigned_users":{"no_users_found":"ไม่พบผู้ใช้","too_short":"กรุณากรอกคำค้นหา 3 ตัวขึ้นไป"},"assign_to_group_menu":{"add_to_group":"เพิ่มไปยังกลุ่ม","all_groups_full":"ทุกกลุ่มเต็มแล้ว %{br}","all_groups_full_suggestion":"เปลี่ยนเกณฑ์จำกัดของกลุ่มหรือเพิ่มกลุ่ม","assign_user_to_group":"กำหนดผู้ใช้สำหรับกลุ่มนี้","assign_user_to_group_name":"กำหนดผู้ใช้ไปยังกลุ่ม %{name}","no_groups_created":"จะต้องจัดทำกลุ่มก่อนสามารถเพิ่มผู้ใช้"},"auto_leadership_controls":{"auto_first_group_leader":"กำหนดผู้เรียนแรกเพื่อเข้าร่วมเป็นผู้นำกลุ่ม","auto_group_leader":"กำหนดผู้นำกลุ่มของผู้เรียนอัตโนมัติ","auto_random_group_leader":"กำหนดผู้เรียนสุ่มเป็นผู้นำกลุ่ม","leadership":"ความเป็นผู้นำ"},"group_categories":{"account_group_explanation":"กลุ่มผู้เรียนระดับบัญชีผู้ใช้เป็นแนวทางที่เหมาะสมในการจัดกลุ่มผู้เรียนโดยไม่ถูกเชื่อมโยงกับบทเรียนใดโดยเฉพาะ กลุ่มผู้เรียนทุกกลุ่มจะได้รับปฏิทิน กระดานพูดคุยและเครื่องมือประสานความร่วมมือของตนเองเพื่อให้สามารถกำหนดโครงสร้างได้เองและร่วมมือกันได้อย่างมีประสิทธิภาพ","course_group_explanation":"กลุ่มผู้เรียนเป็นวิธีที่เป็นประโยชน์ในการกำหนดโครงสร้างผู้เรียนสำหรับวัตถุประสงค์ต่าง ๆ เช่น โครงการของกลุ่มหรือเอกสาร กลุ่มผู้เรียนทุกกลุ่มจะได้รับปฏิทิน กระดานพูดคุยและเครื่องมือประสานความร่วมมือของตนเองเพื่อให้สามารถกำหนดโครงสร้างได้เองและร่วมมือกันได้อย่างมีประสิทธิภาพ","group_assignment_instructions":"คุณสามารถสุ่มกำหนดผู้เรียนสำหรับกลุ่มขนาดต่าง ๆ หรือจัดทำและกำหนดโครงสร้างกลุ่มด้วยตัวเอง หลังจากจัดทำกลุ่มของคุณแล้ว คุณสามารถกำหนดภารกิจที่จะให้เป็น “การจัดส่งของกลุ่ม” ซึ่งหมายความว่าแต่ละกลุ่มจะมีหนึ่งผลงานจัดส่งสำหรับผู้ใช้ทั้งหมดในกลุ่มดังกล่าว","group_set":"ชุดกลุ่ม","headings":{"account_groups":"กลุ่มผู้เรียนระดับบัญชีผู้ใช้","course_groups":"กลุ่มผู้เรียน","groups":"กลุ่ม"},"tabs":{"everyone":"ทุกคน"}},"group_category":{"search_groups":"ค้นหากลุ่ม","search_users":"ค้นหาผู้ใช้"},"group_category_clone":{"cancel":"ยกเลิก"},"group_category_create":{"allow_self_signup":"อนุญาตให้สมัครด้วยตัวเอง","cancel":"ยกเลิก","create_groups":"จัดทำ %{num_groups} กลุ่มตอนนี้","create_groups_later":"ฉันจะจัดทำกลุ่มในภายหลัง","group_set_name":"ชื่อชุดกลุ่ม","group_structure":"โครงสร้างกลุ่ม","leave_group_limit_blank":"ปล่อยว่างหากไม่มีข้อจำกัด","limit_group_size":"จำกัดสมาชิกกลุ่มที่ %{group_limit} คน","require_same_section":"กำหนดให้สมาชิกกลุ่มต้องอยู่ในกลุ่มย่อยเดียวกัน","save":"บันทึก","saving":"กำลังบันทึก...","self_signup":"สมัครด้วยตัวเอง","split_into_groups":"แยกผู้เรียนเป็น %{num_groups} กลุ่ม","split_into_sized_groups":"แยกผู้เรียนเป็นกลุ่มผู้เรียน %{num_members} คนต่อกลุ่ม"},"group_category_detail":{"category_settings":"ค่าปรับตั้ง","delete_category_option":"ลบ","edit_category_option":"แก้ไข","group":"กลุ่ม","group_limit_blurb":"กลุ่มจำกัดสมาชิกไว้ที่ *%{group_limit}* คน","import":"นำเข้า","message_all_unassigned_option":"ส่งข้อความผู้เรียนที่ไม่ได้รับการจัดสรรทั้งหมด","randomly_assign_students_option":"กำหนดผู้เรียนแบบสุ่ม","restricted_self_signup_blurb":"ผู้เรียนทั้งหมดในกลุ่มจะต้องอยู่ในกลุ่มย่อยเดียวกัน","self_organized_warning":"กลุ่มเหล่านี้กำหนดโครงสร้างเองโดยผู้เรียน ซึ่งจะแตกต่างจากกลุ่มประเภทอื่น โดยผู้เรียนสามารถเข้าร่วมกับกลุ่มเหล่านี้มากกว่าหนึ่งกลุ่มพร้อมกัน ดังนั้นกลุ่มเหล่านี้จะไม่สามารถใช้เพื่อภารกิจแบบมีการให้เกรด","self_signup_blurb":"เปิดใช้การสมัครด้วยตัวเองไว้สำหรับกลุ่มเหล่านี้","settings":"ค่าปรับตั้ง","uncategorized_groups":"กลุ่มเหล่านี้ไม่ได้เชื่อมโยงกับชุดกลุ่มเฉพาะใด ๆ เนื่องจากถูกนำเข้าผ่าน SIS จึงสามารถอัพเดตหรือลบได้ผ่าน SIS เท่านั้น"},"group_category_edit":{"allow_self_signup":"อนุญาตให้สมัครด้วยตัวเอง","cancel":"ยกเลิก","group_limit_override":"การเปลี่ยนข้อมูลนี้จะเป็นการบอกล้างเกณฑ์จำกัดของกลุ่มที่กำหนดไว้แยกเฉพาะ","group_set_name":"ชื่อชุดกลุ่ม","leave_group_limit_blank":"ปล่อยว่างหากไม่มีข้อจำกัด","limit_group_size":"จำกัดสมาชิกกลุ่มที่ %{group_limit} คน","require_same_section":"กำหนดให้สมาชิกกลุ่มต้องอยู่ในกลุ่มย่อยเดียวกัน","save":"บันทึก","saving":"กำลังบันทึก..."},"group_detail":{"add_user_to_group":"กำหนดผู้ใช้ไปยังกลุ่ม","group_delete":"ลบ","group_edit":"แก้ไข","group_full":"เต็ม","group_leader":"ผู้นำกลุ่ม","group_settings":"ค่าปรับตั้ง","show_group_details":"แสดงรายละเอียดสำหรับกลุ่ม %{name}","visit_group_homepage":"เยี่ยมชมหน้าหลักของกลุ่ม"},"group_user":{"assign_user_to_group":"กำหนด %{name} ให้กับกลุ่ม","edit_group_membership":"แก้ไขสมาชิกภาพของ %{name}","group_leader":"ผู้นำกลุ่ม","move":"ย้ายไป...","move_to_new_group":"ย้าย %{name} ไปยังกลุ่มใหม่","remove":"ลบ","remove_as_leader":"ลบในฐานะผู้นำ","remove_from_group":"ลบ %{name} จากกลุ่ม","remove_user_as_leader":"ลบ %{name} ในฐานะผู้นำ","set_as_leader":"กำหนดเป็นผู้นำ","set_user_as_leader":"กำหนด %{name} เป็นผู้นำ"},"group_users":{"add_student":"เพิ่มผู้เรียนเพื่อเริ่มต้น","add_user":"เพิ่มผู้เรียนเพื่อเริ่มต้น","greater_than_three":"กรุณากรอกคำค้นหาความยาวสามตัวอักษรขึ้นไป","no_matching_students":"ไม่มีผู้เรียนที่ตรงกัน","no_matching_users":"ไม่มีผู้ใช้ที่ตรงกัน","no_students":"ปัจจุบันไม่มีผู้เรียนในกลุ่มนี้","no_users":"ปัจจุบันไม่มีผู้ใช้ในกลุ่มนี้"},"groups":{"no_groups":"ปัจจุบันไม่มีกลุ่มในชุดกลุ่มนี้ เพิ่มกลุ่มเพื่อเริ่มต้น","no_matching_groups":"ไม่มีกลุ่มที่ตรงกับคำค้นหาในปัจจุบันของคุณ"},"randomly_assign_members":{"cancel":"ยกเลิก","randomly_assign_students_dialog":"นี่จะเป็นการกำหนดผู้เรียนที่ไม่ได้รับการจัดสรรทั้งหมดอัตโนมัติให้เท่าเทียมที่สุดระหว่างกลุ่มผู้เรียนที่มีอยู่"},"self_signup_help":{"about_self_signup_groups":"เกี่ยวกับกลุ่มสมัครด้วยตัวเอง","self_signup_description":"คุณสามารถจัดทำชุดกลุ่มที่ผู้เรียนสามารถสมัครได้เอง ผู้เรียนยังถูกจำกัดให้ต้องเข้าร่วมเพียงกลุ่มเดียวในชุดกลุ่ม แต่วิธีนี้จะทำให้ผู้เรียนสามารถกำหนดโครงสร้างตัวเองเข้ากับกลุ่มแทนการรอให้ผู้สอนทำให้ หากเปิดใช้ตัวเลือกนี้ไว้ ผู้เรียนจะสามารถย้ายตัวเองระหว่างกลุ่มได้"}},"positive_group_count":"จะต้องกรอกจำนวนกลุ่มที่เป็นบวก","randomly_assigning_members":"กำหนดผู้เรียนแบบสุ่ม","unassigned_students":"ผู้เรียนที่ไม่ได้รับการจัดสรร (%{count})","unassigned_users":"ผู้ใช้ที่ไม่ได้รับการจัดสรร (%{count})"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "GroupDetailView",
+  function() { return {"count_max_students_2db76773":"%{count} / %{max} ผู้เรียน","count_max_users_bdebb537":"%{count} / %{max} ผู้ใช้"} },
+  function() { return {"delete_confirm":"แน่ใจว่าต้องการลบกลุ่มนี้หรือไม่","flash":{"removeError":"ไม่สามารถลบกลุ่มนี้ได้ กรุณาลองใหม่อีกครั้งในภายหลัง","removed":"ลบกลุ่มเสร็จสิ้น"},"student_count":{"one":"1 ผู้เรียน","other":"%{count} ผู้เรียน"},"user_count":{"one":"1 ผู้ใช้","other":"%{count} ผู้ใช้"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "GroupUsersView",
+  function() { return {"move_student_49d6bc9d":"ย้ายผู้เรียน","removed_user_as_group_leader_bb69330f":"ลบ %{user} จากผู้นำกลุ่ม","user_is_now_group_leader_60ec9b98":"%{user} ปัจจุบันคือผู้นำกล่อง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "CanvasMediaPlayer",
+  function() { return {"audio_player_for_label_dd9a6819":"เครื่องเล่นเสียงสำหรับ %{label}","failed_retrieving_media_sources_32aed288":"ไม่สามารถเรียกค้นต้นทางสื่อได้","giving_up_on_retrieving_media_sources_this_issue_w_ad49b0d3":"ล้มเลิกในการเรียกค้นต้นทางสื่อ ปัญหาจะได้รับแก้ไขเองในไม่ช้า","video_player_for_label_6a5fdb03":"เครื่องเล่นวิดีโอสำหรับ %{label}","your_media_has_been_uploaded_and_will_appear_here__8546af57":"สื่อของคุณถูกอัพโหลดแล้วและจะปรากฏขึ้นที่นี่หลังจากประมวลผล"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "messages",
+  null,
+  function() { return {"dialog":{"title":"ส่งข้อความตอบกลับ"},"messages":{"failure":"มีข้อผิดพลาดในการส่งอีเมลของคุณ กรุณารีโหลดหน้าเอกสารแล้วลองใหม่อีกครั้ง","success":"กำลังจัดทำอีเมลของคุณ"},"send_form":{"labels":{"message_body":"ข้อความ","send_button":"ส่ง"}}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "pseudonyms_mobile_login",
+  null,
+  function() { return {"parent_signup":"การสมัครของผู้ปกครอง"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "quizzes",
+  function() { return {"add_quiz_cebfa28b":"เพิ่มแบบทดสอบ","an_error_occurred_while_migrating_405ac0b5":"เกิดข้อผิดพลาดขณะทำการโอนย้าย","answer_answerid_97fc4afc":"คำตอบ %{answerId}","build_quiz_df7e734a":"จัดทำแบบทดสอบ","cancel_duplicating_original_assignment_name_e974c534":"ยกเลิกการจำลอง \"%{original_assignment_name}\"","copy_quiz_to_course_74f9c8c1":"คัดลอกแบบทดสอบไปยังบทเรียน","delete_quiz_142b8099":"ลบแบบทดสอบ","duplicate_quiz_name_79fdcb3e":"จำลองแบบทดสอบ %{name}","edit_mastery_paths_for_title_label_41d81451":"แก้ไขเส้นทางพัฒนาความเชี่ยวชาญสำหรับ %{title_label}","edit_quiz_ededddd8":"แก้ไขแบบทดสอบ","making_a_copy_of_original_assignment_name_8f029a9b":"จัดทำสำเนาของ \"%{original_assignment_name}\"","migrate_67c9f753":"โอนย้าย","migrate_quiz_5d0f777":"โอนย้ายแบบทดสอบ","migration_in_progress_6f0ed4f9":"กำลังโอนย้าย","oops_something_went_wrong_with_making_a_copy_of_or_22787360":"อุ๊ปส์! มีบางอย่างผิดพลาดขณะทำสำเนา \"%{original_assignment_name}\"","options_for_title_label_17f821ff":"ตัวเลือกสำหรับ %{title_label}","quiz_settings_4e17f005":"ค่าปรับตั้งแบบทดสอบ","reset_quiz_engine_choice_323a40e6":"รีเซ็ตตัวเลือกเอนจินแบบทดสอบ","retry_duplicating_original_assignment_name_90b83bb8":"ลองจำลอง “%{original_assignment_name}” อีกครั้ง","send_quiz_to_user_e8c47177":"ส่งแบบทดสอบไปยังผู้ใช้","student_extensions_d35a907":"การต่อเวลาสำหรับผู้เรียน","view_question_banks_188a9e0f":"ดูแถวคำถาม","you_have_been_given_extra_time_on_this_attempt_9d8bff6c":"คุณได้รับเวลาเพิ่มสำหรับการดำเนินการนี้","your_browser_connectivity_may_be_slow_or_unstable__97c1f4c5":"การเชื่อมต่อเบราเซอร์ของคุณอาจช้าหรือไม่เสถียร แม้ว่าระบบจับเวลาของเบราเซอร์จะไม่ได้เชื่อมต่ออยู่ แต่คำตอบของคุณจะถูกบันทึกไว้เพิ่มอีก 5 นาทีจากจำกัดเวลาเดิมสำหรับการดำเนินการนี้","your_time_for_this_quiz_has_been_reduced_394652e9":"เวลาสำหรับแบบทดสอบนี้ถูกปรับลด"} },
+  function() { return {"file_uploaded_or_removed":{"quizzes":{"file_successfully_uploaded":"อัพโหลดไฟล์ของคุณเสร็จสิ้น","files_removed":"ลบ %{display_name} แล้ว"}},"index":{"confirms":{"delete_quiz":"แน่ใจว่าต้องการลบแบบทดสอบนี้หรือไม่"},"flash":{"fail":"ลบแบบทดสอบล้มเหลว","removed":"ลบแบบทดสอบเสร็จสิ้น"},"multiple_due_dates":"วันที่หลายรายการ"},"index_view":{"links":{"manage_question_banks":"จัดการแถวคำถาม","publish_multiple_quizzes":"เผยแพร่หลายแบบทดสอบ"},"quizzes_title":"คำถาม","search_for_quiz":"ค้นหาแบบทดสอบ"},"ldb_login_popup":{"email":"อีเมล","log_in":"ล็อกอิน","logged_out_of_canvas":"*คุณออกจาก Canvas แล้ว* ดำเนินการต่อโดยล็อกอินเข้าสู่ระบบ","password":"รหัสผ่าน","titles":{"log_in":"กรุณาล็อกอิน"}},"moderate":{"buttons":{"extend_time":"ขยายเวลา","extending_time":"กำลังขยายเวลา...","save":"บันทึก","save_failed":"บันทึกล้มเหลว กรุณาลองใหม่อีกครั้ง","save_failed_n_updates_lost":"บันทึกล้มเหลว ไม่ได้อัพเดต %{n} ผู้เรียน","saving":"กำลังบันทึก...","time_extension_failed":"ขยายเวลาล้มเหลว กรุณาลองใหม่อีกครั้ง"},"confirms":{"taking_time_away":"จะมีเวลาน้อยกว่าที่ผู้เรียนมีในปัจจุบัน  ดำเนินการต่อไปหรือไม่"},"errors":{"quiz_submission_extra_attempts_not_a_number":"จำนวนครั้งเพิ่มเติมจะต้องเป็นตัวเลข","quiz_submission_extra_attempts_too_long":"จำนวนครั้งเพิ่มเติมจะต้องต่ำกว่า 1000","quiz_submission_extra_attempts_too_short":"จำนวนครั้งเพิ่มเติมจะต้องมากกว่า 0","quiz_submission_extra_time_not_a_number":"เวลาเพิ่มเติมจะต้องเป็นตัวเลข","quiz_submission_extra_time_too_long":"เวลาเพิ่มเติมจะต้องต่ำกว่า 10080","quiz_submission_extra_time_too_short":"เวลาเพิ่มเติมจะต้องมากกว่า 0","server_communication_failed":"มีปัญหาในการสื่อสารกับเซิร์ฟเวอร์  ระบบจะพยายามอีกภายในห้านาที หรือคุณสามารถโหลดเพจนี้ใหม่"},"extensions_for_student":"ต่อเวลาสำหรับ %{student}","extensions_for_students":{"one":"ต่อเวลาสำหรับผู้เรียน 1 ราย","other":"ต่อเวลาสำหรับผู้เรียน %{count} ราย"},"finished_in_duration":"เสร็จสิ้นใน %{duration}","time_up":"หมดเวลา!","titles":{"autosubmit_dialog":"การส่งแบบทดสอบที่รอดำเนินการ","extend_quiz_time":"ขยายเวลาแบบทดสอบ","student_extensions":"การต่อเวลาสำหรับผู้เรียน"}},"no_quizzes_view":{"headers":{"course_quizzes":"แบบทดสอบของบทเรียน"},"no_quizzes":"ไม่มีแบบทดสอบ"},"quiz_item_group_view":{"no_quizzes":"ไม่พบแบบทดสอบ","no_surveys":"ไม่พบแบบสอบถาม"},"quiz_submission":{"titles":{"this_is_an_external_element":"นี่เป็นองค์ประกอบจากภายนอก ไม่ใช่ข้อความ และอาจมีการเปลี่ยนแปลงนับตั้งแต่มีการจัดส่งโดยผู้เรียน","this_is_an_external_frame":"นี่เป็นเฟรมจากภายนอก ไม่ใช่ข้อความ และอาจมีการเปลี่ยนแปลงนับตั้งแต่มีการจัดส่งโดยผู้เรียน","this_is_an_image":"นี่เป็นภาพ ไม่ใช่ข้อความ และอาจมีการเปลี่ยนแปลงนับตั้งแต่มีการจัดส่งโดยผู้เรียน"}},"rubric":{"loading":"กำลังโหลด...","titles":{"details":"รายละเอียดเกณฑ์การให้คะแนนสำหรับภารกิจ"}},"show":{"answers":{"correct":"ถูกต้อง!","correct_answers":"คำตอบที่ถูกต้อง","incorrect":"ไม่ถูกต้อง","partial":"บางส่วน","right":"คำตอบถูกต้อง","unanswered":"ไม่ได้ตอบ","you_answered":"คุณตอบ"},"buttons":{"already_published":"เผยแพร่แล้ว!","publishing":"กำลังเผยแพร่..."},"confirms":{"delete_quiz":"แน่ใจว่าต้องการลบแบบทดสอบนี้หรือไม่","delete_quiz_submissions_warning":{"one":"คำเตือน: ผู้เรียน 1 รายทำแบบทดสอบนี้ไปแล้ว หากคุณลบ ผลงานจัดส่งที่เสร็จสิ้นจะถูกลบทิ้งและไม่ปรากฏในสมุดบันทึกเกรดอีกต่อไป","other":"คำเตือน: ผู้เรียน %{count} รายทำแบบทดสอบนี้ไปแล้ว หากคุณลบ ผลงานจัดส่งที่เสร็จสิ้นจะถูกลบทิ้งและไม่ปรากฏในสมุดบันทึกเกรดอีกต่อไป"}},"links":{"hide_student_quiz_results":"ซ่อนผลลัพธ์แบบทดสอบสำหรับผู้เรียน","hide_student_survey_results":"ซ่อนผลลัพธ์สำหรับแบบสอบถามของผู้เรียน","show_student_quiz_results":"แสดงผลลัพธ์แบบทดสอบสำหรับผู้เรียน","show_student_survey_results":"แสดงผลลัพธ์สำหรับแบบสอบถามของผู้เรียน"},"students_who_have_not_taken_the_quiz":"ผู้เรียนที่ไม่ได้ทำแบบทดสอบ","students_who_have_taken_the_quiz":"ผู้เรียนที่ทำแบบทดสอบแล้ว"},"take_quiz":{"confirms":{"cant_go_back_blank":"คุณไม่สามารถกลับมาที่คำถามนี้หลังจากกดถัดไปแล้วได้ แน่ใจว่าต้องการปล่อยว่างไว้หรือไม่","file_upload_in_progress":"กำลังอัพโหลดไฟล์ คำตอบของคุณอาจหายไปก่อนเสร็จสิ้น","navigate_away":"คุณกำลังจะออกจากเพจนี้  ดำเนินการต่อไปหรือไม่","unanswered_questions":{"one":"คุณมีคำถาม 1 ข้อที่ไม่ได้ตอบ (ดูรายละเอียดจากแถบข้อมูลด้านขวา)  ส่งต่อไปหรือไม่","other":"คุณมีคำถาม %{count} ข้อที่ไม่ได้ตอบ (ดูรายละเอียดจากแถบข้อมูลด้านขวา)  ส่งต่อไปหรือไม่"},"unfinished_quiz":"คุณกลำงจากออกจากแบบทดสอบทั้งที่ยังไม่เสร็จสิ้น  ดำเนินการต่อไปหรือไม่","unseen_questions":{"one":"ยังมีอีก 1 คำถามที่คุณยังไม่ได้ดู  ส่งต่อไปหรือไม่","other":"ยังมีอีก %{count} คำถามที่คุณยังไม่ได้ดู  ส่งต่อไปหรือไม่"}},"days_count":{"one":"1 วัน","other":"%{count} วัน"},"errors":{"connection_lost":"การเชื่อมต่อกับ %{host} ขาดหาย  กรุณาตรวจสอบว่าคุณเชื่อมต่ออินเทอร์เน็ตอยู่ก่อนดำเนินการต่อ","only_numerical_values":"ยอมรับเฉพาะค่าตัวเลข"},"hide_time_link":"ซ่อนเวลา","hours_count":{"one":"1 ชั่วโมง","other":"%{count} ชั่วโมง"},"labels":{"time_elapsed":"เวลาที่ผ่านไป"},"login_failed":"ล็อกอินล้มเหลว","login_successful":"ล็อกอินเสร็จสิ้น","minutes_count":{"one":"1 นาที","other":"%{count} นาที"},"months_count":{"one":"1 เดือน","other":"%{count} เดือน"},"notices":{"due_date_five_minutes_left":"เหลืออีกห้านาทีก่อนกำกับแบบทดสอบว่าล่าช้า","due_date_one_minute_left":"เหลืออีกหนึ่งนาทีก่อนกำกับแบบทดสอบว่าล่าช้า","due_date_thirty_minutes_left":"เหลืออีกสามสิบนาทีก่อนกำกับแบบทดสอบว่าล่าช้า","submission_five_minutes_left":"แบบทดสอบจะถูกจัดส่งภายในห้านาที","submission_one_minute_left":"แบบทดสอบจะถูกจัดส่งภายในหนึ่งนาที","submission_thirty_minutes_left":"แบบทดสอบจะถูกจัดส่งภายในสามสิบนาที"},"question_answered":"ตอบแล้ว","question_unanswered":"ยังไม่ได้ตอบ","saved_at":"บันทึกแบบทดสอบไว้ที่ %{t}","saving":"กำลังบันทึก...","saving_not_needed":"ไม่มีข้อมูลใหม่ที่จะบันทึก ตรวจสอบล่าสุดเมื่อ %{t}","seconds_count":{"one":"1 วินาที","other":"%{count} วินาที"},"show_time_link":"แสดงเวลา","titles":{"come_back_later":"คุณกำกับคำถามนี้ไว้เพื่อกลับมาในภายหลัง","times_up":"หมดเวลา!"},"years_count":{"one":"1 ปี","other":"%{count} ปี"}},"timing":{"labels":{"time_elapsed":"เวลาที่ผ่านไป","time_remaining":"เวลาที่เหลือ"}}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "TourPoints",
+  function() { return {"access_canvas_training_videos_and_courses_ea43173a":"เข้าไปยังวิดีโอฝึกอบรมและบทเรียน Canvas","access_your_courses_and_groups_using_any_ios_or_an_cdb6ad63":"เข้าไปยังบทเรียนของคุณและกลุ่มโดยใช้อุปกรณ์พกพาระบบ iOS หรือ Android และดูรายละเอียดเพิ่มเติมได้จากเมนู ความช่วยเหลือ","add_people_and_courses_to_canvas_5c4bfff9":"เพิ่มบุคคลและบทเรียนไปยัง Canvas","admin_tour_36d89fbb":"ทัวร์ผู้ดูแลระบบ","canvas_course_tutorial_video_5205c1c1":"วิดีโอแนะนำบทเรียน Canvas","canvas_notifications_tutorial_video_79b8e768":"วิดีโอแนะนำการแจ้งข้อมูลจาก Canvas","click_on_the_account_navigation_button_to_access_n_fbe82181":"คลิกที่ปุ่มสืบค้นเนื้อหาในบัญชีผู้ใช้เพื่อเข้าไปยังค่าปรับแต่งการแจ้งข้อมูล","click_on_the_courses_navigation_button_to_access_y_138d4dfb":"คลิกที่ปุ่มสืบค้นเนื้อหาบทเรียนเพื่อเข้าไปยังบทเรียนของคุณ","click_the_admin_navigation_button_to_access_accoun_38d881bf":"คลิกที่ปุ่มสืบค้นเนื้อหาสำหรับผู้ดูแลระบบเพื่อเข้าไปยังค่าปรับตั้งทางบัญชี","come_back_later_5eab7dba":"มาใหม่ภายหลัง!","current_of_totalsteps_19d7ee37":"%{current} จาก %{totalSteps}","don_t_miss_notifications_from_your_students_900e9e30":"ไม่พลาดการแจ้งข้อมูลจากผู้เรียนของคุณ","download_canvas_android_app_60b5595f":"ดาวน์โหลดแอพ Canvas Android","download_canvas_ios_app_11c8651b":"ดาวน์โหลดแอพ Canvas iOS","find_training_resources_and_more_help_f148612c":"ค้นหาข้อมูลการฝึกอบรมและความช่วยเหลือเพิ่มเติม","find_your_classes_or_subjects_in_the_dashboard_72e1ed47":"ค้นหาชั้นเรียนของคุณหรือวิชาในแผงข้อมูล...","get_your_content_online_9546ecff":"นำเสนอเนื้อหาของคุณในโลกออนไลน์","get_your_content_online_quickly_41fd925b":"นำเสนอเนื้อหาของคุณในโลกออนไลน์อย่างรวดเร็ว","hello_name_cabdd4ce":"สวัสดี%{name}!","here_s_some_quick_tips_to_get_you_started_in_canva_72425979":"ต่อไปนี้เป็นคำแนะนำอย่างง่าย ๆ เพื่อเริ่มใช้งาน Canvas!","how_do_i_contact_my_instructor_184e35ed":"จะติดต่อผู้สอนของฉันได้อย่างไร","how_do_i_download_the_student_app_4a4b8a63":"จะดาวน์โหลดแอพสำหรับผู้เรียนได้อย่างไร","how_do_i_download_the_student_app_and_get_addition_3604c207":"จะดาวน์โหลดแอพสำหรับผู้เรียนและรับความช่วยเหลือเพิ่มเติมได้อย่างไร","how_do_i_find_my_courses_b826e4ce":"จะค้นหาบทเรียนของฉันได้อย่างไร","learn_more_about_using_commons_and_blueprints_3df953f6":"เรียนรู้เพิ่มเติมเกี่ยวกับการใช้ Commons และพิมพ์เขียว","learn_more_about_video_conferencing_5f0e76e4":"เรียนรู้เพิ่มเติมเกี่ยวกับการประชุมสายวิดีโอ","more_video_conferencing_tools_f55088d5":"เครื่องมือประชุมสายวิดีโอเพิ่มเติม","not_now_afa29fa7":"ไม่ใช่ตอนนี้","or_in_the_courses_list_6201030":"...หรือในรายการบทเรียน","quickly_share_course_content_and_templates_with_te_1cf3dc6f":"แชร์เนื้อหาบทเรียนและแม่แบบกับผู้สอนอย่างรวดเร็ว","quickly_share_course_content_and_templates_with_te_c70a5eeb":"แชร์เนื้อหาบทเรียนและแม่แบบกับผู้สอนอย่างรวดเร็ว","set_up_video_conferencing_and_other_tools_1a94a350":"ตั้งค่าการประชุมสายวิดีโอและเครื่องมืออื่น ๆ","set_up_video_conferencing_c0049abe":"ตั้งค่าการประชุมสายวิดีโอ","set_up_your_canvas_course_in_30_minutes_or_less_94817b6d":"ตั้งค่าบทเรียน Canvas ของคุณภายในเวลาไม่เกิน 30 นาที","set_up_your_notifications_568ecf91":"ตั้งค่าการแจ้งข้อมูลของคุณ","set_up_your_notifications_9c005279":"ตั้งค่าการแจ้งข้อมูลของคุณ","star_2d27c137":"ดาว","start_a_conversation_with_your_instructor_in_the_c_50c9b8d5":"เริ่มการพูดคุยกับผู้สอนของคุณในกล่องจดหมาย Canvas","start_tour_29787099":"เริ่มทัวร์","student_tour_38b735c8":"ทัวร์ของผู้เรียน","teacher_tour_26282921":"ทัวร์ผู้สอน","to_add_bulk_users_courses_and_enrollments_click_si_4395c26":"เพิ่มผู้ใช้ บทเรียนและการลงทะเบียนรวมกันโดยคลิก นำเข้า SIS","to_add_individual_courses_click_courses_c5355180":"เพิ่มบทเรียนแต่ละส่วนโดยคลิกที่ บทเรียน","to_add_individual_users_click_people_4d6de56a":"เพิ่มผู้ใช้แต่ละราย โดยคลิกที่ บุคคล","video_conferencing_tools_enable_face_to_face_conne_144420a5":"เครื่องมือประชุมสายวิดีโอจะช่วยให้สามารถเชื่อมต่อแบบตัวต่อตัวระหว่างผู้สอนและผู้เรียน","we_know_getting_your_courses_online_quickly_during_40424e8":"เราทราบดีว่าการเผยแพร่บทเรียนของคุณออนไลน์อย่างรวดเร็วในช่วงเวลานี้คือสิ่งสำคัญที่สุด นี่เป็นทัวร์อย่างย่อเพื่อนำเสนอวิธีการกับคุณ:","we_know_it_s_a_priority_to_transition_your_institu_9a5bed0c":"เราทราบดีถึงความจำเป็นในการปรับเปลี่ยนสถานศึกษาของคุณเพื่อเตรียมพร้อมสำหรับการเรียนรู้ผ่านระบบออนไลน์ในช่วงเวลานี้ นี่เป็นทัวร์อย่างย่อเพื่อนำเสนอวิธีการกับคุณ:","you_can_access_the_welcome_tour_here_any_time_as_w_95b44855":"คุณสามารถชมทัวร์ต้อนรับได้ที่ทุกเมื่อ รวมไปถึงทรัพยากรข้อมูลใหม่อื่น ๆ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "common",
+  function() { return {"expand_global_navigation_2c28d5d4":"ขยายรายละเอียดการสืบค้นเนื้อหาส่วนกลาง","minimize_global_navigation_2d839351":"ย่อรายละเอียดการสืบค้นเนื้อหาส่วนกลาง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "createTicketForm",
+  function() { return {"extreme_critical_emergency_80b3dbda":"กรณีฉุกเฉินอย่างยิ่ง!","file_a_ticket_for_a_personal_response_from_our_sup_1e1ffaff":"แจ้งตั๋วรับบริการสำหรับการตอบกลับส่วนบุคคลจากทีมงานให้บริการของเรา","for_an_instant_answer_see_if_your_issue_is_address_48280e89":"เพื่อให้ได้คำตอบในทันที ให้ตรวจสอบว่าปัญหาของคุณมีการกล่าวถึงใน*คู่มือ Canvas* หรือไม่","how_is_this_affecting_you_b3b6a639":"สิ่งนี้มีผลกับคุณอย่างไร","i_cannot_get_things_done_until_i_hear_back_from_yo_83ba46b7":"ฉันไม่สามารถดำเนินการใด ๆ ได้จนกว่าจะได้รับการติดต่อกลับจากคุณ","i_need_some_help_but_it_is_not_urgent_d967ea0a":"ฉันต้องการความช่วยเหลือ แต่ไม่เร่งด่วนอะไร","include_a_link_to_a_screencast_screenshot_using_so_4b2fabcb":"ครอบคลุมลิงค์ไปยังระบบส่งภาพหน้าจอ/ภาพหน้าจอโดยอาศัยระบบต่าง ๆ เช่น *Jing*","just_a_casual_question_comment_idea_or_suggestion_1579d069":"แค่คำถาม ความเห็น แนวคิดหรือข้อเสนอแนะทั่ว ๆ ไป","please_select_one_f931e883":"กรุณาเลือกหนึ่งข้อ","something_is_broken_but_i_can_work_around_it_for_n_7fcedb9d":"บางอย่างไม่ครบถ้วน แต่ฉันสามารถจัดการได้ในตอนนี้","submit_ticket_5515ffd":"ส่งตั๋วรับบริการ","ticket_successfully_submitted_f6254460":"จัดส่งตั๋วบริการเสร็จสิ้น","your_email_address_f881e583":"อีเมลแอดเดรสของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "HelpLinks",
+  function() { return {"customize_this_menu_efa72a9":"กำหนดค่าเมนูนี้","other_resources_fee3ddda":"ทรัพยากรข้อมูลอื่น ๆ","show_welcome_tour_a105aa2e":"แสดงทัวร์ต้อนรับ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "TeacherFeedbackForm",
+  function() { return {"ask_your_instructor_a_question_a61ca5e9":"ถามคำถามกับผู้สอนของคุณ","loading_courses_bd1bffe":"กำลังโหลดบทเรียน...","message_sent_f4cba0c":"ส่งข้อความแล้ว","message_will_be_sent_to_all_the_teachers_and_teach_1b8d17c1":"ข้อความจะถูกจัดส่งไปยังผู้สอนและผู้ช่วยสอนทั้งหมดในบทเรียน","which_course_is_this_question_about_f819a158":"คำถามนี้เกี่ยวข้องกับบทเรียนใด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "new_nav",
+  function() { return {"recent_history_bcb0f4c0":"ประวัติล่าสุด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "LogoutButton",
+  function() { return {"logout_a9312e35":"ล็อกเอาท์"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "MobileNavigation",
+  function() { return {"disabled_not_visible_to_students_2c9d693f":"ปิดใช้งานแล้ว ไม่แสดงให้กับผู้เรียน","loading_f99d93d4":"...กำลังโหลด","no_content_not_visible_to_students_905f8996":"ไม่มีเนื้อหา ไม่แสดงให้กับผู้เรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "MobileGlobalMenu",
+  function() { return {"history_cd3f60a9":"ประวัติ","login_6f3d6249":"ล็อกอิน","my_dashboard_8983c283":"แผงข้อมูลของฉัน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "Navigation",
+  function() { return {"admin_tray_3b680e7b":"ถาดรายการผู้ดูแลระบบ","courses_tray_cec46d6e":"ถาดรายการบทเรียน","global_navigation_tray_35612e2e":"ถาดการสืบค้นเนื้อหาส่วนกลาง","groups_tray_ef3e2649":"ถาดรายการกลุ่ม","loading_release_notes_7deaa2eb":"กำลังโหลดหมายเหตุการเผยแพร่","profile_tray_bcec5044":"ถาดข้อมูลโพรไฟล์","recent_history_tray_241a384e":"ถาดข้อมูลประวัติล่าสุด","release_notes_could_not_be_loaded_b4246d49":"ไม่สามารถโหลดหมายเหตุการเผยแพร่","show_badges_for_new_release_notes_b2035bbb":"แสดงตราสัญลักษณ์สำหรับหมายเหตุการเผยแพร่ใหม่","title_tray_ec9f7488":"ถาดข้อมูล %{title}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_unread_messages_e312aa7b",
+  null,
+  function() { return {"one":"หนึ่งข้อความที่ไม่ได้อ่าน","other":"%{count} ข้อความที่ไม่ได้อ่าน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_unread_shares_ff9e91a5",
+  null,
+  function() { return {"one":"หนึ่งแชร์ที่ไม่ได้อ่าน","other":"%{count} แชร์ที่ไม่ได้อ่าน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_release_notes_6f50a89f",
+  null,
+  function() { return {"one":"หนึ่งหมายเหตุการเผยแพร่ที่ไม่ได้อ่าน","other":"%{count} หมายเหตุการเผยแพร่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "CoursesTray",
+  function() { return {"published_courses_294ef14c":"บทเรียนที่เผยแพร่แล้ว","published_subjects_d73a029d":"วิชาที่เผยแพร่แล้ว","unpublished_courses_4299148e":"บทเรียนที่เลิกเผยแพร่แล้ว","unpublished_subjects_62a7d38":"วิชาที่เลิกเผยแพร่แล้ว","welcome_to_your_courses_to_customize_the_list_of_c_f95e4b2":"ยินดีต้อนรับสู่บทเรียนของคุณ! ปรับแต่งรายการบทเรียนโดยคลิกที่ลิงค์ “บทเรียนทั้งหมด” แล้วให้ดาวบทเรียนเพื่อจัดแสดง","welcome_to_your_subjects_to_customize_the_list_of__f6574116":"ยินดีต้อนรับสู่วิชาของคุณ! กำหนดค่ารายการวิชาเองโดยคลิกที่ลิงค์ “ทุกวิชา” แล้วให้ดาววิชาเพื่อจัดแสดง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "ProfileTray",
+  function() { return {"an_error_occurred_while_trying_to_change_the_ui_bca3b2d2":"เกิดข้อผิดพลาดขณะพยายามแก้ไข UI","enhance_color_contrast_of_content_685ddd49":"ปรับคอนทราสต์สีสำหรับเนื้อหา","enhances_the_color_contrast_of_text_buttons_etc_88e22e61":"ปรับคอนทราสต์สีของข้อความ ปุ่ม ฯลฯ","hi_contrast_373b614f":"คอนทราสต์สูง","reload_the_page_or_navigate_to_a_new_page_for_this_e6335972":"รีโหลดเพจหรือไปที่เพจใหม่เพื่อให้การเปลี่ยนแปลงนี้มีผล","use_high_contrast_ui_a5917282":"ใช้ UI คอนทราสต์สูง","user_profile_picture_46bffbc7":"ภาพโพรไฟล์ผู้ใช้","waiting_for_change_to_complete_b75b5e8b":"กำลังรอการเปลี่ยนแปลงให้เสร็จสิ้น"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "new_user_tutorial",
+  function() { return {"assess_student_understanding_1e0b8d7f":"ประเมินความเข้าใจผู้เรียน","assignments_include_quizzes_graded_discussions_and_182e5899":"ภารกิจครอบคลุมแบบทดสอบ การพูดคุยที่มีการให้เกรด และ\n      ผลงานจัดส่งออนไลน์ประเภทอื่น ๆ (ไฟล์ ภาพ ข้อความ URL และไฟล์สื่อ) กำหนด\n      ให้กับทุกคนในบทเรียน หรือกำหนดวันครบกำหนดอื่นสำหรับ\n      กลุ่มย่อยหรือผู้ใช้เฉพาะราย จัดทำกลุ่มภารกิจเพื่อกำหนดโครงสร้างภารกิจของคุณ\n      และถ่วงน้ำหนักกลุ่มเป็นเปอร์เซ็นต์ เปิดใช้งานความคิดเห็นจากผู้เกี่ยวข้องเพื่อให้ผู้เรียนสามารถ\n      แสดงความคิดเห็นกับผลงานของกันและกัน","bring_existing_content_into_your_course_c5fc7e1b":"นำเนื้อหาที่มีอยู่เข้าไปยังบบทเรียนของคุณ","canvas_helps_you_leverage_collaborative_technology_a453f09f":"Canvas ช่วยคุณในการใช้ประโยชน์จากเทคโนโลยีเพื่อประสานความร่วมมือนี้เพื่อให้ผู้ใช้\n      เป็นจำนวนมากสามารถทำงานร่วมกันในเอกสารเดียวกันและในเวลาเดียวกัน จดทำ\n      เอกสารความร่วมมือที่บันทึกแบบเรียลไทม์ การแก้ไขโดย\n      ผู้ใช้จะถูกจัดแสดงให้ทุกคนทราบ","collapse_tutorial_tray_66ee7dc1":"ย่อถาดข้อมูลแนะนำ","communicate_course_objectives_f457158c":"แจ้งวัตถุประสงค์สำหรับบทเรียน","communicate_grading_expectations_484a1f01":"แจ้งความคาดหวังในการให้เกรด","conduct_lectures_office_hours_and_student_group_me_13ec766c":"จัดการสอน เวลาทำการ และการประชุมสำหรับกลุ่มผู้เรียน\n      จากคอมพิวเตอร์ของคุณ เผยแพร่ภาพและเสียงแบบเรียลไทม์ แชร์สไลด์ผลงานนำเสนอ\n      สาธิตการใช้งานและข้อมูลออนไลน์ต่าง ๆ\n      และอีกมากมาย","create_interactive_course_content_76665336":"จัดทำเนื้อหาบทเรียนอินเทอร์แอคทีฟ","customize_course_details_26fd4afe":"กำหนดรายละเอียดบทเรียน","discussions_allow_students_and_instructors_to_comm_ce03ca43":"การพูดคุยช่วยให้ผู้เรียนและผู้สอนสามารถสื่อสารเกี่ยวกับ\n      หัวข้อในบทเรียนได้ทุกเมื่อ จัดทำการพูดคุยสำหรับให้เกรด หรือจัด\n      การพูดคุยสำหรับผู้เรียนในการแลกเปลี่ยนความคิดและแก้ไขปัญหา  การพูดคุย\n      แบบมีการเชื่อมโยงต่อเนื่องเหมาะสำหรับการติดตามหรือการพูดคุยในระยะยาว\n      เพื่อให้จัดเก็บได้อย่างเป็นระบบ ในขณะที่การพูดคุยแบบมีเป้าหมายเฉพาะจะเหมาะที่สุดสำหรับการแลกเปลี่ยนระยะสั้น","display_grades_as_points_percentages_complete_inco_fa848380":"แสดงเกรดเป็น\n      คะแนน เปอร์เซ็นต์ เสร็จสิ้น/ไม่เสร็จสิ้น หรือวิธีการอื่น ๆ ที่ตรงกับ\n      รูปแบบการให้เกรดสำหรับบทเรียนของคุณ และเป็นการคัดกรองและจัดเรียงรายการสมุดบันทึกเกรด\n      ตามค่าปรับแต่งของคุณ ปรับใช้เกรดอัตโนมัติสำหรับผลงานจัดส่งที่ขาดหายหรือ\n      ล่าช้า และซ่อนเกรดได้ง่าย ๆ จนกว่าคุณจะพร้อมสำหรับให้\n      ผู้เรียนดู เพื่อให้เกรดได้ง่ายขึ้น ให้ใช้ SpeedGrader เพื่อดูและให้เกรดผลงานจัดส่ง","don_t_show_again_8c7b7297":"ไม่ต้องแสดงอีก","easily_import_or_copy_content_from_another_canvas__c6312f32":"นำเข้าหรือคัดลอกเนื้อหาได้ง่าย ๆ จากบทเรียน Canvas อื่นไปยัง\n        บทเรียนของคุณ หรือนำเข้าเนื้อหาจากรูปแบบอื่น เช่น Moodle หรือ QTI","enable_face_to_face_connection_9df19b76":"เปิดใช้งานการเชื่อมต่อแบบตัวต่อตัว","encourage_student_discourse_7836b9f7":"สนับสนุนการพูดคุยเชิงลึกของผู้เรียน","end_course_set_up_tutorial_f358b85d":"สิ้นสุดข้อมูลแนะนำการตั้งค่าบทเรียน","enter_and_distribute_grades_c1216df":"กรอกและแจกแจงเกรด","expand_tutorial_tray_22630c49":"ขยายถาดข้อมูลแนะนำ","host_virtual_lectures_in_real_time_150cef95":"โฮสต์การสอนเสมือนจริงแบบเรียลไทม์","how_do_i_add_a_module_65f5bf13":"จะเพิ่มหน่วยการเรียนได้อย่างไร","how_do_i_add_a_rubric_in_a_course_a4c7a40":"จะเพิ่มเกณฑ์การให้คะแนนในบทเรียนได้อย่างไร","how_do_i_add_a_rubric_to_an_assignment_46fd097e":"จะเพิ่มเกณฑ์การให้คะแนนสำหรับภารกิจได้อย่างไร","how_do_i_add_an_announcement_in_a_course_63396bb7":"จะเพิ่มประกาศในบทเรียนได้อย่างไร","how_do_i_add_an_image_to_a_course_card_in_the_dash_c869a3d7":"จะเพิ่มภาพไปยังการ์ดข้อมูลบทเรียนในแผงข้อมูลได้อย่างไร","how_do_i_add_assignment_types_pages_and_files_as_m_c1a520a6":"จะเพิ่มประเภทภารกิจ หน้าเพจและไฟล์เป็นรายการในหน่วยการเรียนได้อย่างไร","how_do_i_add_or_edit_details_in_an_assignment_fa779906":"จะเพิ่มหรือแก้ไขรายละเอียดในภารกิจได้อย่างไร","how_do_i_add_users_to_a_course_4a88efaf":"จะเพิ่มผู้ใช้ไปยังบทเรียนได้อย่างไร","how_do_i_add_zoom_to_a_course_31300d74":"จะเพิ่ม Zoom สำหรับบทเรียนได้อย่างไร","how_do_i_adjust_events_and_due_dates_in_a_course_i_4647c50b":"จะปรับกิจกรรมและวันครบกำหนดในการนำเข้าบทเรียนได้อย่างไร","how_do_i_align_an_outcome_with_a_rubric_in_a_cours_d9c8f009":"จะปรับประสานผลลัพธ์กับเกณฑ์การให้คะแนนในบทเรียนได้อย่างไร","how_do_i_bulk_upload_files_to_a_course_b145d8cc":"จะอัพโหลดไฟล์เป็นจำนวนมากไปยังบทเรียนได้อย่างไร","how_do_i_change_a_course_name_and_course_code_23b41292":"จะเปลี่ยนชื่อบทเรียนและรหัสบทเรียนได้อย่างไร","how_do_i_change_the_course_home_page_326cee50":"จะแก้ไขหน้าหลักบทเรียนได้อย่างไร","how_do_i_conclude_a_conference_689d60dc":"จะสรุปการประชุมได้อย่างไร","how_do_i_copy_a_canvas_course_into_a_new_course_sh_1633c6c1":"จะคัดลอกบทเรียน Canvas ไปยังเชลล์บทเรียนใหม่ได้อย่างไร","how_do_i_create_a_conference_in_a_course_69affbf4":"จะจัดทำการประชุมในบทเรียนได้อย่างไร","how_do_i_create_a_discussion_as_an_instructor_fa6c26d6":"จะจัดทำการพูดคุยในฐานะผู้สอนได้อย่างไร","how_do_i_create_a_google_drive_collaboration_as_an_28274cf7":"จะจัดทำความร่วมมือสำหรับ Google Drive ในฐานะผู้สอนได้อย่างไร","how_do_i_create_a_microsoft_office_365_collaborati_52e46698":"จะจัดทำความร่วมมือสำหรับ Microsoft Office 365 ในฐานะผู้สอนได้อย่างไร","how_do_i_create_a_new_page_in_a_course_37a87285":"จะจัดทำเพจใหม่ในบทเรียนได้อย่างไร","how_do_i_create_a_quiz_with_individual_questions_4a68ce0d":"จะจัดทำแบบทดสอบพร้อมคำถามแยกเฉพาะได้อย่างไร","how_do_i_create_an_assessment_using_new_quizzes_801b0146":"จะจัดทำการประเมินโดยใช้แบบทดสอบใหม่ได้อย่างไร","how_do_i_create_an_assignment_35532b59":"จะจัดทำภารกิจได้อย่างไร","how_do_i_create_an_outcome_for_a_course_cf0ea2b3":"จะจัดทำผลลัพธ์สำหรับบทเรียนได้อย่างไร","how_do_i_create_outcome_groups_for_a_course_362429a0":"จะจัดทำกลุ่มผลลัพธ์สำหรับบทเรียนได้อย่างไร","how_do_i_edit_an_announcement_in_a_course_815c3c60":"จะแก้ไขประกาศในบทเรียนได้อย่างไร","how_do_i_edit_the_syllabus_description_in_a_course_57f25a87":"จะแก้ไขรายละเอียดหลักสูตรในบทเรียนได้อย่างไร","how_do_i_enter_and_edit_grades_in_the_gradebook_5002616f":"จะกรอกและแก้ไขเกรดในสมุดบันทึกเกรดได้อย่างไร","how_do_i_import_a_canvas_course_export_package_ed3aafd4":"จะนำเข้าแพคเกจส่งออกบทเรียน Canvas ได้อย่างไร","how_do_i_import_outcomes_for_a_course_8eced1a":"จะนำเข้าผลลัพธ์สำหรับบทเรียนได้อย่างไร","how_do_i_invite_others_to_join_a_meeting_d09bfd6c":"จะเชิญคนอื่นเข้าร่วมการประชุมได้อย่างไร","how_do_i_know_if_students_have_joined_the_meeting_bbfb1c36":"จะทราบได้อย่างไรว่าผู้เรียนเข้าร่วมการประชุมแล้วหรือยัง","how_do_i_manage_and_share_the_recording_52fc2993":"จะจัดการและแชร์ผลงานบันทึกได้อย่างไร","how_do_i_manage_rubrics_in_a_course_a5441fb7":"จะจัดการเกณฑ์การให้คะแนนในบทเรียนได้อย่างไร","how_do_i_manage_settings_for_an_assessment_in_new__b2688ec7":"จะจัดการค่าปรับตั้งสำหรับการประเมินในแบบทดสอบใหม่ได้อย่างไร","how_do_i_move_and_organize_my_files_as_an_instruct_5ae4f9bd":"จะย้ายและกำหนดโครงสร้างไฟล์ของฉันในฐานะผู้สอนได้อย่างไร","how_do_i_move_or_reorder_a_module_e64a4baa":"จะย้ายหรือเรียงลำดับหน่วยการเรียนใหม่ได้อย่างไร","how_do_i_mute_and_unmute_all_participants_a7a2115b":"จะปิดเสียงและเลิกปิดเสียงผู้เข้าร่วมทั้งหมดได้อย่างไร","how_do_i_post_grades_for_an_assignment_in_the_grad_bc01018e":"จะแจ้งเกรดสำหรับภารกิจในสมุดบันทึกเกรดได้อย่างไร","how_do_i_publish_or_unpublish_a_discussion_as_an_i_4055a43e":"จะเผยแพร่หรือยกเลิกการเผยแพร่การพูดคุยในฐานะผู้สอนได้อย่างไร","how_do_i_publish_or_unpublish_a_module_as_an_instr_6e1758d7":"จะเผยแพร่หรือยกเลิกการเผยแพร่หน่วยการเรียนในฐานะผู้สอนได้อย่างไร","how_do_i_publish_or_unpublish_a_page_as_an_instruc_5721ea3":"จะเผยแพร่หรือยกเลิกการเผยแพร่เพจในฐานะผู้สอนได้อย่างไร","how_do_i_publish_or_unpublish_an_assignment_as_an__616f465":"จะเผยแพร่หรือยกเลิกการเผยแพร่ภารกิจในฐานะผู้สอนได้อย่างไร","how_do_i_record_a_conference_e4845e7":"จะบันทึกการประชุมคอนเฟอเรนซ์ได้อย่างไร","how_do_i_record_a_meeting_ae3a0d4e":"จะบันทึกการประชุมหารือได้อย่างไร","how_do_i_reply_to_a_discussion_as_an_instructor_399fdaff":"จะตอบกลับการพูดคุยในฐานะผู้สอนได้อย่างไร","how_do_i_schedule_a_zoom_video_meeting_5986f068":"จะกำหนดเวลาประชุมสายวิดีโอผ่าน Zoom ได้อย่างไร","how_do_i_select_specific_content_as_part_of_a_cour_11fe2c8d":"จะเลือกเนื้อหาเฉพาะในการนำเข้าบทเรียนได้อย่างไร","how_do_i_send_a_message_to_all_students_based_on_s_59d186d1":"จะส่งข้อความถึงผู้เรียนทั้งหมดพิจารณาตามเกณฑ์เฉพาะสำหรับบทเรียนในข้อมูลวิเคราะห์ใหม่ได้อย่างไร","how_do_i_send_a_message_to_an_individual_student_i_92c7fb":"จะส่งข้อความถึงผู้เรียนแต่ละรายในข้อมูลการวิเคราะห์ใหม่ได้อย่างไร","how_do_i_set_a_front_page_in_a_course_a5f53cd5":"จะกำหนดหน้าแรกสำหรับบทเรียนได้อย่างไร","how_do_i_set_details_for_a_course_52cfbeff":"จะกำหนดรายละเอียดสำหรับบทเรียนได้อย่างไร","how_do_i_share_my_screen_c280e585":"จะแชร์หน้าจอของฉันได้อย่างไร","how_do_i_start_a_conference_52792795":"จะเริ่มการประชุมคอนเฟอเรนซ์ได้อย่างไร","how_do_i_start_a_meeting_e8a9e67b":"จะเริ่มการประชุมหารือได้อย่างไร","how_do_i_turn_my_camera_on_or_off_and_use_zoom_con_8a96538b":"จะเปิดหรือปิดกล้องและใช้ระบบควบคุมต่าง ๆ ของ Zoom ได้อย่างไร","how_do_i_upload_a_file_to_a_course_e8332cfe":"จะอัพโหลดไฟล์ไปยังบทเรียนได้อย่างไร","how_do_i_use_course_settings_1e8467e6":"จะใช้ค่าปรับตั้งสำหรับบทเรียนได้อย่างไร","how_do_i_use_files_as_an_instructor_70a996b":"จะใช้ไฟล์ในฐานะผู้สอนได้อย่างไร","how_do_i_use_speedgrader_e18e4ca2":"จะใช้ SpeedGrader ได้อย่างไร","how_do_i_use_the_announcements_index_page_94a14011":"จะใช้หน้าดัชนีประกาศได้อย่างไร","how_do_i_use_the_collaborations_index_page_68ee88b5":"จะใช้หน้าดัชนีความร่วมมือได้อย่างไร","how_do_i_use_the_course_home_page_as_an_instructor_af32848e":"จะใช้หน้าหลักบทเรียนในฐานะผู้สอนได้อย่างไร","how_do_i_use_the_gradebook_622395dc":"จะใช้สมุดบันทึกเกรดได้อย่างไร","how_do_i_use_the_learning_mastery_gradebook_to_vie_c555acf2":"จะใช้สมุดบันทึกเกรดความเชี่ยวชาญด้านการเรียนรู้เพื่อดูผลลัพธ์ในบทเรียนจากสมุดบันทึกเกรดได้อย่างไร","how_do_i_use_the_outcomes_page_in_a_course_a37e0231":"จะใช้เพจผลลัพธ์ในบทเรียนได้อย่างไร","how_do_i_use_the_pages_index_page_dafb986c":"จะใช้เพจดัชนีเพจได้อย่างไร","how_do_i_use_the_people_page_in_a_course_as_an_ins_b1830b46":"จะใช้เพจ บุคคล ในบทเรียนในฐานะผู้สอนได้อย่างไร","how_do_i_use_the_quizzes_index_page_cc2e15d3":"จะใช้เพจดัชนีแบบทดสอบได้อย่างไร","how_do_i_use_the_syllabus_as_an_instructor_82f00933":"จะใช้หลักสูตรในฐานะผู้สอนได้อย่างไร","how_do_i_view_a_context_card_for_a_student_in_a_co_166c0e59":"จะดูการ์ดข้อมูลเนื้อหาสำหรับผู้เรียนในบทเรียนได้อย่างไร","how_do_i_view_analytics_for_an_individual_student_724134ed":"จะดูข้อมูลวิเคราะห์สำหรับผู้เรียนแต่ละรายได้อย่างไร","how_do_i_view_and_sort_discussion_replies_as_an_in_a73217e3":"จะดูและจัดเรียงการตอบกลับการพูดคุยในฐานะผู้สอนได้อย่างไร","how_do_i_view_assignments_or_students_individually_2b7211f8":"จะดูภารกิจหรือผู้เรียนแยกเฉพาะในสมุดบันทึกเกรดได้อย่างไร","how_do_i_view_the_details_of_a_submission_for_a_st_3ba83fb3":"จะดูรายละเอียดผลงานจัดส่งสำหรับผู้เรียนใน SpeedGrader ได้อย่างไร","how_do_i_view_user_details_for_an_enrollment_in_a__308e9ac0":"จะดูรายละเอียดผู้ใช้สำหรับการลงทะเบียนในบทเรียนได้อย่างไร","keep_students_informed_3f41a7e6":"แจ้งให้ผู้เรียนทราบอย่างต่อเนื่อง","know_your_users_5c1323be":"รู้จักผู้ใช้ของคุณ","make_your_course_your_own_upload_an_image_to_repre_ec57713e":"กำหนดบทเรียนให้เป็นของคุณเอง! อัพโหลดภาพเพื่อนำเสนอบทเรียน\n      ของคุณ เพื่อให้ผู้เรียนสามารถจัดการพื้นที่บทเรียน และซ่อนรายละเอียด\n      เกรดจากผู้เรียน นอกจากนี้คุณยังสามารถปรับชื่อและรหัสบทเรียนได้","new_analytics_f6147886":"ข้อมูลวิเคราะห์ใหม่","new_analytics_is_an_interactive_tool_that_helps_yo_9bd32611":"ข้อมูลวิเคราะห์ใหม่ เป็นเครื่องมืออินเทอร์แอคทีฟเพื่อให้คุณและผู้เรียนสามารถ\n    ติดตามผลงานและกิจกรรมได้ดียิ่งขึ้นในบทเรียน เรียนรู้ว่าผู้เรียนรายใดเปิดดู\n    เพจและทรัพยากรข้อมูลต่าง ๆ และเข้าร่วมภารกิจต่าง ๆ และผู้เรียนรายใดที่ต้องการ\n    การสนับสนุนเพิ่มเติมอีกเล็กน้อย","observe_student_mastery_a1f01a":"สังเกตการณ์ความเชี่ยวชาญของผู้เรียน","organize_course_content_11de8958":"กำหนดโครงสร้างเนื้อหาบทเรียน","pages_let_you_create_interactive_content_directly__9933eb32":"เพจ ช่วยให้คุณสามารถจัดทำเนื้อหาอินเทอร์แอคทีฟได้โดยตรงใน Canvas\n      ไม่ว่าจะเป็นการอัพเดตรายสัปดาห์ wiki บทเรียนความร่วมมือหรือ\n      รายการทรัพยากรข้อมูลการเรียนรู้ เพจอาจประกอบไปด้วยข้อความ มัลติมีเดีย\n      และลิงค์ไปยังไฟล์และเนื้อหาบทเรียนหรือเพจอื่น ๆ นอกจากนี้คุณยังสามารถ\n      ให้โอกาสผู้เรียนในการมีส่วนร่วมในหน้าเพจเฉพาะของบทเรียน","reinforce_student_understanding_304d18a6":"ส่งเสริมความเข้าใจของผู้เรียน","rubrics_can_show_students_your_expectations_for_as_3382da64":"เกณฑ์การให้คะแนนสามารถแสดงให้ผู้เรียนเห็นความคาดหวังของคุณสำหรับคุณภาพของภารกิจ\n    และแนวทางในการทำคะแนน เกณฑ์การให้คะแนนสามารถเชื่อมโยงกับ\n    ภารกิจ การพูดคุยและแบบทดสอบ ใช้เกณฑ์การให้คะแนนสำหรับการให้เกรด\n    หรือจัดทำเกณฑ์การให้คะแนนแบบไม่ระบุคะแนนเฉพาะสำหรับการให้เกรดเพื่อประเมินและ\n    การให้เกรดแบบอิงผลลัพธ์โดยไม่มีคะแนนจริงเท่านั้น ผลลัพธ์สามารถเพิ่มเป็นรายการเกณฑ์พิจารณา\n    ในเกณฑ์การให้คะแนน","see_more_in_canvas_guides_fc90a457":"ดูรายละเอียดเพิ่มเติมได้จากคู่มือ Canvas","set_up_outcomes_in_your_course_as_measured_by_peda_78eb842e":"กำหนดผลลัพธ์ในบทเรียนตามที่ตรวจวัดภายใต้เป้าหมายด้านการสอนหรือวัตถุประสงค์ที่คาดหวัง\n      ช่วยให้ผู้เรียนได้เรียนรู้ทักษะและกิจกรรมต่าง ๆ แทนการเน้นที่เกรดเป็นเกณฑ์ชี้วัดผลสัมฤทธิ์\n      ประเมินความคืบหน้าของผู้เรียนผ่านวิธีการคำนวณต่าง ๆ และวัดความคืบหน้าโดยตรงในสมุดบันทึกเกรดความเชี่ยวชาญด้านการเรียนรู้\n      นำเข้าบัญชีในปัจจุบันและผลลัพธ์ของสถานะไปยังบทเรียนของคุณ นอกจากนี้คุณยังสามารถปรับประสานผลลัพธ์ในเกณฑ์การให้คะแนนของบทเรียน","share_important_information_about_your_course_with_dceacbf9":"แชร์ข้อมูลที่สำคัญเกี่ยวกับบทเรียนของคุณกับผู้ใช้ทั้งหมด\n      ใช้ประกาศเพื่อแจ้งเตือนผู้เรียนเกี่ยวกับกำหนดเวลาและงานที่สำคัญ ๆ\n      นำผู้เรียนไปยังทรัพยากรข้อมูลภายในและภายนอกเพื่อผลักดันผลสำเร็จ\n      สำหรับบทเรียน ฉลองความสำเร็จของผู้เรียน และเพื่อนำเสนอกิจกรรมที่น่าสนใจ\n      ประกาศอาจประกอบไปด้วยข้อความ มัลติมีเดียและไฟล์ข้อมูล","store_and_share_course_assets_82a9967c":"จัดเก็บและแชร์ทรัพยากรข้อมูลสำหรับบทเรียน","the_course_home_page_is_the_first_page_students_se_4dbacd35":"หน้าหลักบทเรียนเป็นหน้าแรกที่ผู้เรียนจะเห็นเมื่อเปิด\n      บทเรียนของคุณขึ้นมา หน้าหลักสามารถแสดงสตรีมข้อมูลการเข้าร่วมบทเรียน\n       หน้าหน่วยการเรียน รายการภารกิจ หลักสูตร\n      หรือเพจที่คุณออกแบบเป็นหน้าแรก","the_syllabus_lets_you_welcome_your_course_users_an_ba74c779":"หลักสูตร ช่วยให้คุณสามารถต้อนรับผู้ใช้บทเรียนของคุณและแชร์ส่วนความคาดหวังต่าง ๆ\n       กับผู้เรียนของคุณ ใช้รายละเอียดหลักสูตรนี้เพื่อชี้แจงวัตถุประสงค์ของบทเรียน\n      วิธีการติดต่อที่ต้องการและรายละเอียดอื่น ๆ หรืออัพโหลด PDF ของหลักสูตร\n      ในปัจจุบัน เพจหลักสูตรยังสามารถแสดงภารกิจทั้งหมดและกิจกรรมต่าง ๆ\n       ภายในบทเรียน","track_student_performance_and_activity_a92a2a8b":"ติดตามผลงานและกิจกรรมของผู้เรียน","turning_off_this_tutorial_will_remove_the_tutorial_dfd81b3a":"การปิดข้อมูลแนะนำนี้จะเป็นการลบถาดข้อมูลแนะนำจากมุมมองของคุณสำหรับบทเรียนทั้งหมดของคุณ สามารถเปิดใช้อีกครั้งได้จาก ตัวเลือกคุณสมบัติ ใน ค่าปรับตั้งผู้ใช้ ของคุณ","upload_and_store_course_files_or_any_other_files_y_b00cb954":"อัพโหลดและจัดเก็บไฟล์บทเรียน หรือไฟล์ข้อมูลอื่น ๆ ที่คุณต้องการเก็บไว้\n      ใช้งาน ขณะบันทึกทรัพยากรข้อมูลใน ไฟล์ ข้อมูลจะสามารถแทรกโดยตรงไปยัง\n      หน่วยการเรียน ภารกิจ การพูดคุยหรือเพจต่าง ๆ ได้โดยง่าย! แจกจ่ายไฟลให้แก่ผู้เรียน\n      จากโฟลเดอร์บทเรียนของคุณหรือล็อคไฟล์จนกว่าคุณจะพร้อมสำหรับชั้นเรียน\n      ในการดาวน์โหลด","use_modules_to_organize_your_content_and_create_a__1da4149":"ใช้หน่วยการเรียนเพื่อกำหนดโครงสร้างเนื้อหาของคุณและจัดทำโครงสร้างแบบไล่ลำดับ\n      เพื่อระบุสิ่งที่ผู้เรียนจะต้องดำเนินการในบทเรียน สามารถใช้หน่วยการเรียนเพื่อกำหนดโครงสร้าง\n      เนื้อหาเป็นสัปดาห์ หน่วย หรือโครงสร้างอื่น ๆ\n      เพิ่มไฟล์ การพูดคุย ภารกิจ แบบทดสอบและข้อมูลการเรียนรู้อื่น ๆ\n      กำหนดเงื่อนไขเบื้องต้นที่จะต้องดำเนินการก่อนย้ายหน่วยการเรียนหรือ\n      รายการในหน่วยการเรียนถัดไป หรือดูหน่วยการเรียนทั้งหมดจนถึงวันที่ที่กำหนด","use_quizzes_to_challenge_student_understanding_and_a340ff1c":"ใช้แบบทดสอบเพื่อทดสอบความเข้าใจของผู้เรียนและประเมินความเข้าใจ\n      เนื้อหาในบทเรียน เอนจินการประเมินแบบทดสอบใหม่ช่วยให้คุณสามารถจัดทำคำถามและเนื้อหาได้\n      13 ประเภท หากไม่ได้เปิดใช้งานแบบทดสอบใหม่สำหรับสถาบันของคุณไว้\n      แบบทดสอบแบบคลาสสิคจะยังคงสามารถเรียกใช้ได้เพื่อให้คุณดำเนินการได้ตามวัตถุประสงค์ของคุณ","welcome_your_students_e1d96088":"กล่าวต้อนรับผู้เรียนของคุณ","what_are_announcements_52175539":"ประกาศคืออะไร","what_are_collaborations_27c20a98":"ความร่วมมือคืออะไร","what_assignment_types_can_i_create_in_a_course_1ed4eed4":"ภารกิจประเภทไหนที่ฉันสามารถจัดทำได้ในบทเรียน","what_layout_options_are_available_in_the_course_ho_5d364ce3":"ตัวเลือกเค้าโครงใดที่มีจัดไว้ให้ในหน้าหลักของบทเรียนในฐานะผู้สอน","what_options_can_i_set_in_a_quiz_53522d76":"ตัวเลือกใดที่ฉันสามารถกำหนดได้ในแบบทดสอบ","what_s_a_class_without_people_to_take_and_lead_it__4470b81a":"จะเข้าร่วมและกำกับชั้นเรียนที่ไม่มีคนได้อย่างไร เพจ บุคคล\n      แสดงรายชื่อผู้ใช้ในบทเรียนของคุณ คุณอาจสามารถเพิ่มผู้เรียน ผู้ช่วยสอนและผู้สังเกตการณ์\n      ไปยังบทเรียนของคุณ\n      ขึ้นอยู่กับสิทธิ์อนุญาตที่คุณมี นอกจากนี้คุณยังสามารถจัดทำกลุ่มผู้เรียนเพื่อรองรับภารกิจของกลุ่ม\n      การพูดคุยและไฟล์ข้อมูล","what_storage_options_do_i_have_in_zoom_b79c738e":"ตัวเลือกในการจัดเก็บข้อมูลที่ฉันมีใน Zoom เป็นอย่างไร","work_and_create_together_c65f358b":"ทำงานและสร้างสรรค์ไปด้วยกัน","zoom_is_a_real_time_video_conferencing_tool_that_b_97dd23ec":"Zoom เป็นเครื่องมือประชุมสายวิดีโอแบบเรียลไทม์ที่ช่วยให้\n    ผู้สอนและผู้เรียนได้ประสานความร่วมมือกัน คุณสามารถกำหนดเวลาและจัด\n    การประชุมวิดีโอโดยตรงภายใน Canvas โดยการเพิ่มลิงค์ Zoom\n    ในบทเรียน Canvas ประกาศสำหรับบทเรียน หน่วยการเรียนหรือผ่านทางปฏิทิน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "new_user_tutorials",
+  function() { return {"announcements_tutorial_tray_994287d6":"ถาดข้อมูลแนะนำประกาศ","assignments_tutorial_tray_4cc844b":"ถาดข้อมูลแนะนำภารกิจ","collaborations_tutorial_tray_9219d9d":"ถาดข้อมูลแนะนำความร่วมมือ","conferences_tutorial_tray_6f071ce2":"ถาดข้อมูลแนะนำสำหรับการประชุม","discussions_tutorial_tray_4ef79bcc":"ถาดข้อมูลแนะนำการพูดคุย","files_tutorial_tray_3ad1eea6":"ถาดรายการข้อมูลแนะนำสำหรับไฟล์","gradebook_tutorial_tray_d835c750":"ถาดรายการข้อมูลแนะนำสมุดบันทึกเกรด","home_tutorial_tray_66826983":"ถาดรายการข้อมูลนำเสนอหน้าหลัก","import_tutorial_tray_8b92e956":"ถาดข้อมูลแนะนำการนำเข้า","modules_tutorial_tray_d58ac3cb":"ถาดข้อมูลแนะนำหน่วยการเรียน","new_analytics_tutorial_tray_2511a34a":"ถาดข้อมูลแนะนำ ข้อมูลวิเคราะห์ใหม่","outcomes_tutorial_tray_ebfce995":"ถาดข้อมูลแนะนำผลลัพธ์","pages_tutorial_tray_169464a9":"ถาดข้อมูลแนะนำเพจ","people_tutorial_tray_a87a6c48":"ถาดข้อมูลแนะนำบุคคล","quizzes_tutorial_tray_6f87cdd3":"ถาดข้อมูลแนะนำแบบทดสอบ","rubrics_tutorial_tray_be65d10d":"ถาดข้อมูลแนะนำเกณฑ์การให้คะแนน","settings_tutorial_tray_6f37761b":"ถาดข้อมูลแนะนำค่าปรับตั้ง","syllabus_tutorial_tray_97e8ef82":"ถาดข้อมูลแนะนำหลักสูตร","zoom_tutorial_tray_5dcb7fc":"ถาดข้อมูลแนะนำ Zoom"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "not_found_index",
+  function() { return {"we_couldn_t_find_that_page_34068c1d":"เราไม่พบเพจดังกล่าว!","whoops_looks_like_nothing_is_here_f5c7dd44":"อุ๊ปส์... ดูเหมือนจะไม่มีอะไรที่นี่!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "not_found_page_space_invaders",
+  function() { return {"game_over_104baa":"สิ้นสุดแล้ว","press_space_to_start_over_d4b8a2da":"กด ‘space’ เพื่อเริ่มต้นใหม่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "OutcomeAlignmentDeleteLink",
+  function() { return {"can_t_delete_alignments_based_on_rubric_associatio_1a10fcce":"\n              ไม่สามารถลบการประสานตามการเชื่อมโยงของเกณฑ์การให้คะแนน\n              ลบการเชื่อมโยงเหล่านี้โดยคุณจะต้องลบแถวจากเกณฑ์การให้คะแนนสำหรับชุดข้อมูลนี้\"\n            ","delete_alignment_f33c97d5":"ลบภารกิจ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "FindOutcomesModal",
+  function() { return {"add_outcomes_to_account_4647776f":"เพิ่มผลลัพธ์ไปยังบัญชี","add_outcomes_to_course_88ba09be":"เพิ่มผลลัพธ์ไปยังบทเรียน","add_outcomes_to_groupname_8c33d118":"เพิ่มผลลัพธ์ไปยัง %{groupName}","all_outcomes_from_grouptitle_have_been_successfull_38e3c33c":"ผลลัพธ์ทั้งหมดจาก %{groupTitle} ถูกเพิ่มไปยังบทเรียนนี้เสร็จสิ้น","all_outcomes_from_grouptitle_have_been_successfull_6267efe4":"ผลลัพธ์ทั้งหมดจาก %{groupTitle} ถูกเพิ่มไปยัง %{targetGroupTitle} เรียบร้อยแล้ว","all_outcomes_from_grouptitle_have_been_successfull_cb6ad008":"ผลลัพธ์ทั้งหมดจาก %{groupTitle} ถูกเพิ่มไปยังบัญชีนี้เสร็จสิ้น","an_error_occurred_while_creating_this_group_please_ec96f426":"เกิดข้อผิดพลาดขณะจัดทำกลุ่มนี้ กรุณาลองใหม่อีกครั้งในภายหลัง","an_error_occurred_while_editing_this_group_please__8f4eeefe":"เกิดข้อผิดพลาดขณะแก้ไขกลุ่มนี้ กรุณาลองใหม่อีกครั้งในภายหลัง","an_error_occurred_while_importing_these_outcomes_d4e6f13e":"เกิดข้อผิดพลาดขณะนำเข้าผลลัพธ์เหล่านี้","an_error_occurred_while_importing_these_outcomes_m_6a8052d1":"เกิดข้อผิดพลาดขณะนำเข้าผลลัพธ์เหล่านี้: %{message}","an_error_occurred_while_importing_this_outcome_2ce488af":"เกิดข้อผิดพลาดขณะนำเข้าผลลัพธ์นี้","an_error_occurred_while_importing_this_outcome_mes_25106dea":"เกิดข้อผิดพลาดขณะนำเข้าผลลัพธ์นี้: %{message}","group_description_f142b1e5":"รายละเอียดเกี่ยวกับกลุ่ม","group_groupname_entered_2a0624a0":"เข้าสู่กลุ่ม \"%{groupName}\" แล้ว","groupname_was_successfully_created_970dcc7d":"จัดทำ \"%{groupName}\" เสร็จสิ้น","grouptitle_was_successfully_updated_658f725e":"\"%{groupTitle}\" อัพเดตเสร็จสิ้น","loading_learning_outcome_groups_599d259c":"กำลังโหลดกลุ่มผลการเรียนรู้","pro_tip_30e41fa3":"คำแนะนำของโปร!","save_yourself_a_lot_of_time_by_only_adding_the_out_33293248":"ประหยัดเวลาได้อย่างมากโดยการเพิ่มผลลัพธ์เฉพาะสำหรับเนื้อหาบทเรียนของคุณ","select_a_group_to_reveal_outcomes_here_91883028":"เลือกกลุ่มเพื่อแสดงผลลัพธ์ที่นี่","select_an_outcome_group_6edb08a7":"เลือกกลุ่มผลลัพธ์","use_arrow_keys_to_navigate_options_d45347e8":"ใช้ปุ่มลูกศรเพื่อไปยังตัวเลือกต่าง ๆ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "view_count_outcomes_9609792",
+  null,
+  function() { return {"one":"ดู 1 ผลลัพธ์","other":"ดู %{count} ผลลัพธ์"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "ImportConfirmBox",
+  function() { return {"import_anyway_8c996ef6":"นำเข้าต่อไป","to_make_outcome_alignment_easier_only_add_outcomes_aecf5e0e":"เพื่อให้ปรับประสานผลลัพธ์ได้ง่ายขึ้น ให้ระบุเฉพาะผลลัพธ์ที่เกี่ยวข้องกับบทเรียนนี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "you_are_about_to_add_count_outcomes_to_this_course_de7e2b1d",
+  null,
+  function() { return {"one":"คุณกำลังจะเพิ่ม 1 ผลลัพธ์ไปยังบทเรียนนี้","other":"คุณกำลังจะเพิ่ม %{count} ผลลัพธ์ไปยังบทเรียนนี้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "MoveOutcomesModal",
+  function() { return {"an_error_occurred_while_moving_this_group_please_t_4f3baa9f":"เกิดข้อผิดพลาดขณะย้ายกลุ่มนี้ กรุณาลองใหม่อีกครั้งในภายหลัง","grouptitle_was_moved_to_newgrouptitle_efabcda2":"\"%{groupTitle}\" ถูกย้ายไปที่ \"%{newGroupTitle}\"","move_grouptitle_20927676":"ย้าย \"%{groupTitle}\"","where_would_you_like_to_move_this_group_e4ddd778":"คุณต้องการย้ายกลุ่มนี้ไปที่ไหน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_outcomes_have_been_moved_to_newgrouptitle_3018f532",
+  null,
+  function() { return {"one":"\"%{outcomeTitle}\" ถูกย้ายไปที่ \"%{newGroupTitle}\"","other":"%{count} ผลลัพธ์ถูกย้ายไปยัง \"%{newGroupTitle}\""} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "an_error_occurred_while_moving_these_outcomes_plea_208f372",
+  null,
+  function() { return {"one":"เกิดข้อผิดพลาดขณะย้ายผลลัพธ์นี้ กรุณาลองใหม่อีกครั้งในภายหลัง","other":"เกิดข้อผิดพลาดขณะย้ายผลลัพธ์เหล่านี้ กรุณาลองใหม่อีกครั้งในภายหลัง"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "move_count_outcomes_c0ca2b30",
+  null,
+  function() { return {"one":"ย้าย \"%{outcomeTitle}” หรือไม่","other":"ย้าย %{count} ผลลัพธ์หรือไม่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "where_would_you_like_to_move_these_outcomes_6f9a8cf9",
+  null,
+  function() { return {"one":"คุณต้องการย้ายผลลัพธ์นี้ไปที่ไหน","other":"คุณต้องการย้ายผลลัพธ์เหล่านี้ไปที่ไหน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "MasteryScale",
+  function() { return {"an_error_occurred_updating_the_calculation_method_49384084":"เกิดข้อผิดพลาดในการอัพเดตวิธีการคำนวณ","an_error_occurred_updating_the_mastery_scale_fc11e6e1":"เกิดข้อผิดพลาดในการอัพเดตระดับความเชี่ยวชาญ","an_error_occurred_updating_the_mastery_scale_messa_d9910855":"เกิดข้อผิดพลาดในการอัพเดตระดับความเชี่ยวชาญ: %{message}","an_error_occurred_while_loading_the_mastery_calcul_f8e3d884":"เกิดข้อผิดพลาดขณะโหลดการคำนวณความเชี่ยวชาญ: %{error}","an_error_occurred_while_loading_the_mastery_scale__871f3531":"เกิดข้อผิดพลาดขณะโหลดระดับความเชี่ยวชาญ: %{error}","confirm_mastery_calculation_19ad19f9":"ยืนยันการคำนวณความเชี่ยวชาญ","final_score_53278fd0":"คะแนนสรุป:","http_response_code_832d6baa":"การตอบกลับของ HTTP: %{code}","item_scores_9fbfe956":"คะแนนรายการ:","mastery_calculation_5fd5f5fe":"การคำนวณความเชี่ยวชาญ","mastery_calculation_parameters_f072c3":"พารามิเตอร์การคำนวณความเชี่ยวชาญ","mastery_calculation_saved_df378fdd":"บันทึกผลการคำนวณความเชี่ยวชาญแล้ว","must_be_between_lower_and_upper_1f501b2a":"จะต้องอยู่ระหว่าง %{lower} และ %{upper}","parameter_91ed199":"พารามิเตอร์","permission_to_change_this_mastery_calculation_at_t_9b1966c5":"สิทธิ์อนุญาตในการแก้ไขส่วนการคำนวณความเชี่ยวชาญในระดับบทเรียนนี้ถูกเปิดใช้งานไว้สำหรับ:","permission_to_change_this_mastery_calculation_at_t_f292da7a":"สิทธิ์อนุญาตในการแก้ไขส่วนการคำนวณความเชี่ยวชาญนี้ที่ระดับบัญชีถูกเปิดใช้งานไว้สำหรับ:","permission_to_change_this_mastery_scale_at_the_acc_ea75238f":"สิทธิ์อนุญาตในการแก้ไขระดับความเชี่ยวชาญนี้ในระดับบัญชีถูกเปิดใช้งานไว้สำหรับ:","permission_to_change_this_mastery_scale_at_the_cou_58677e7f":"สิทธิ์อนุญาตในการแก้ไขระดับความเชี่ยวชาญในระดับบทเรียนนี้ถูกเปิดใช้งานไว้สำหรับ:","proficiency_calculation_57f0bdf":"การคำนวณความเชี่ยวชาญ","proficiency_calculation_daa4fd57":"การคำนวณความเชี่ยวชาญ","save_mastery_calculation_84fbeb0f":"บันทึกส่วนการคำนวณความเชี่ยวชาญ","see_example_below_to_see_how_different_calculation_618de98d":"ดูตัวอย่างด้านล่างเพื่อพิจารณาว่าพารามิเตอร์ในการคำนวณต่าง ๆ มีผลต่อการคำนวณความเชี่ยวชาญของผู้เรียนอย่างไร","this_mastery_scale_will_be_used_as_the_default_for_f784ee7d":"ระดับความเชี่ยวชาญนี้จะถูกใช้เป็นค่าเริ่มต้นสำหรับบทเรียนทั้งหมดภายในบัญชีของคุณ","this_will_update_all_student_mastery_results_tied__a52301e5":"นี่เป็นการอัพเดตผลความเชี่ยวชาญสำหรับผู้เรียนทั้งหมดที่เชื่อมโยงกับการคำนวณความเชี่ยวชาญระดับบัญชีผู้ใช้","this_will_update_all_student_mastery_results_withi_934580d1":"นี่เป็นการอัพเดตผลความเชี่ยวชาญสำหรับผู้เรียนทั้งหมดภายในบทเรียนนี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "ProficiencyRating",
+  function() { return {"change_color_for_mastery_level_position_daa51849":"เปลี่ยนสีสำหรับระดับความเชี่ยวชาญ %{position}","change_description_34c49853":"รายละเอียดการเปลี่ยนแปลง","change_description_for_mastery_level_position_c3c41be9":"เปลี่ยนรายละเอียดสำหรับระดับความเชี่ยวชาญ %{position}","change_mastery_f4d43c07":"เปลี่ยนความเชี่ยวชาญ","change_points_9e5104ac":"เปลี่ยนคะแนน","change_points_for_mastery_level_position_90c1d7e6":"เปลี่ยนคะแนนสำหรับระดับความเชี่ยวชาญ %{position}","color_color_for_mastery_level_position_35079de":"สี %{color} สำหรับระดับความเชี่ยวชาญ %{position}","delete_mastery_level_position_5cf0f8f7":"ลบระดับความเชี่ยวชาญ %{position}","delete_proficiency_rating_5436ee08":"ลบคะแนนความเชี่ยวชาญ","mastery_mastery_for_mastery_level_position_5c9c3206":"ความเชี่ยวชาญ %{mastery} สำหรับระดับความเชี่ยวชาญ %{position}","remove_mastery_level_b1e8dcb0":"ลบระดับความเชี่ยวชาญ","this_will_remove_the_mastery_level_from_your_maste_1f4130ea":"นี่จะเป็นการลบระดับความเชี่ยวชาญจากคะแนนประเมินความเชี่ยวชาญของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "ProficiencyTable",
+  function() { return {"account_proficiency_ratings_saved_292d9239":"บันทึกคะแนนความถนัดทางบัญชีแล้ว","add_proficiency_rating_d819f6b8":"เพิ่มคะแนนความเชี่ยวชาญ","added_mastery_level_dd4792d1":"ระดับความเชี่ยวชาญที่เพิ่ม","added_new_proficiency_rating_e30cab8a":"คะแนนความเชี่ยวชาญใหม่ที่เพิ่ม","an_error_occurred_while_loading_account_proficienc_c7d6568b":"เกิดข้อผิดพลาดขณะโหลดคะแนนความเชี่ยวชาญของบัญชีผู้ใช้: %{m}","an_error_occurred_while_loading_account_proficienc_d38554c8":"เกิดข้อผิดพลาดขณะโหลดคะแนนความเชี่ยวชาญของบัญชีผู้ใช้","an_error_occurred_while_saving_account_proficiency_43e7fb6a":"เกิดข้อผิดพลาดขณะบันทึกคะแนนความเชี่ยวชาญของบัญชีผู้ใช้","an_error_occurred_while_saving_the_mastery_scale_m_30c15545":"เกิดข้อผิดพลาดขณะบันทึกคะแนนความเชี่ยวชาญ: %{message}","confirm_mastery_scale_9a779252":"ยืนยันระดับความเชี่ยวชาญ","customize_learning_mastery_ratings_4ace142a":"กำหนดคะแนนความเชี่ยวชาญด้านการเรียนรู้","get_started_b9507525":"เริ่มต้น","mastery_level_deleted_88838a33":"ลบระดับความเชี่ยวชาญแล้ว","mastery_levels_7d4ee512":"ระดับความเชี่ยวชาญ","mastery_scale_saved_34c64b6b":"บันทึกคะแนนความเชี่ยวชาญแล้ว","points_must_be_less_than_previous_rating_bc627bec":"คะแนนจะต้องน้อยกว่าคะแนนประเมินก่อนหน้า","proficiency_rating_deleted_77827473":"ลบคะแนนประเมินความเชี่ยวชาญแล้ว","proficiency_ratings_2bbabdcd":"คะแนนประเมินความเชี่ยวชาญ","save_learning_mastery_82889d8b":"บันทึกความเชี่ยวชาญด้านการเรียนรู้","save_mastery_scale_2b4dc13a":"บันทึกระดับความเชี่ยวชาญ","set_up_how_your_proficiency_ratings_appear_inside__8139bb81":"\n            กำหนดค่าการแสดงประเมินความเชี่ยวชาญของคุณในสมุดบันทึกเกรดความเชี่ยวชาญด้านการเรียนรู้\n            ปรับตัวเลขคะแนนประเมิน ระดับความเชี่ยวชาญ คะแนนและสี\n          ","this_will_update_all_account_and_course_level_rubr_3438121e":"นี่จะเป็นการอัพเดตบัญชีผู้ใช้และเกณฑ์การให้คะแนนระดับบทเรียนทั้งหมดที่เชื่อมโยงกับคะแนนประเมินความเชี่ยวชาญระดับบัญชีและยังไม่ได้รับการประเมิน","this_will_update_all_rubrics_aligned_to_outcomes_w_59d8d04b":"นี่เป็นการอัพเดตเกณฑ์การให้คะแนนทั้งหมดที่เชื่อมโยงกับผลลัพธ์ภายในบทเรียนนี้ซึ่งยังไม่ได้ประเมิน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "modelsPageView",
+  null,
+  function() { return {"browsers":{"unrecognized":"เบราเซอร์ที่ไม่รู้จัก"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "PageViews",
+  function() { return {"download_page_views_csv_974f36e1":"ดาวน์โหลด CSV มุมมองเพจ","filter_by_date_c076a845":"กรอกจากวันที่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "page_views",
+  null,
+  function() { return {"table":{"headers":{"date":"วันที่","participated":"ที่เข้าร่วม","time":"เวลา","url":"URL","user_agent":"ตัวแทนของผู้ใช้"}}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "past_global_announcements",
+  function() { return {"active_announcements_6b67f33b":"ประกาศที่มีผล","announcements_from_the_past_four_months_cefbc99c":"ประกาศจากช่วงสี่เดือนที่ผ่านมา","no_announcements_to_display_fbf9ed1e":"ไม่มีประกาศที่จะแสดง","recent_f19e8c64":"เร็ว ๆ นี้","you_can_view_dismissed_announcements_by_going_to_a_7f6f4f08":"คุณสามารถดูประกาศที่ถูกล้มเลิกได้โดยไปที่ บัญชีผู้ใช้ แล้วเลือก ประกาศ\n            ส่วนกลาง จากเมนู"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions",
+  function() { return {"count_rows_added_dacc9daf":"%{count} แถวที่เพิ่มเข้ามา","count_rows_removed_c6ff7bc":"%{count} แถวที่ลบทิ้ง","delete_role_label_succeeded_1690aa28":"ลบบทบาท %{label} เสร็จสิ้น","expand_permission_b45bf097":"ขยาย %{permission}","failed_to_create_new_role_e336e461":"ไม่สามารถจัดทำบทบาทใหม่","failed_to_delete_role_label_27959de3":"ไม่สามารถลบบทบาท %{label}","failed_to_update_permission_33c493f":"ไม่สามารถอัพเดตสิทธิ์อนุญาต","failed_to_update_role_name_8c7b0119":"ไม่สามารถอัพเดตชื่อบทบาท","shrink_permission_74b01aed":"ย่อ %{permission}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_permissions_found_1a926f7d",
+  null,
+  function() { return {"one":"พบหนึ่งสิทธิ์อนุญาต","other":"พบ %{count} สิทธิ์อนุญาต"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_v2_add_tray",
+  function() { return {"a_role_name_is_required_47efd33":"ต้องระบุชื่อบทบาท","cannot_add_role_name_name_already_in_use_a523639c":"ไม่สามารถเพิ่มชื่อบทบาท %{name}: ถูกใช้อยู่แล้ว","new_account_role_6e5c4964":"บทบาทใหม่ของบัญชีผู้ใช้","new_course_role_6a7bb75f":"บทบาทใหม่ของบทเรียน","saving_new_role_458f4ba8":"กำลังบันทึกบทบาทใหม่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permission_button",
+  function() { return {"disabled_and_locked_d14dc6c2":"ปิดใช้งานและล็อคอยู่","enabled_and_locked_49ff3de4":"เปิดใช้งานและล็อคแล้ว","partially_enabled_and_locked_9a39d38a":"เปิดใช้งานและล็อคบางส่วน","partially_enabled_cd506819":"เปิดใช้งานบางส่วน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_v2",
+  function() { return {"account_roles_10fea071":"บทบาททางบัญชี","add_role_3dc4d273":"เพิ่มบทบาท","course_roles_d2d5d666":"บทบาทของบทเรียน","filter_roles_type_or_use_arrow_keys_to_navigate_mu_13c9ffe5":"กรองบทบาท พิมพ์หรือใช้ปุ่มลูกศรเพื่อสืบค้น อนุญาตให้เลือกได้หลายรายการ","search_permissions_915bbd09":"ค้นหาสิทธิ์อนุญาต","value_added_1846cc30":"เพิ่ม %{value} แล้ว","value_removed_bba9430c":"ลบ %{value} แล้ว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_role_tray",
+  function() { return {"assigned_permissions_6f6fecb6":"สิทธิ์อนุญาตที่จัดสรร","assigned_roles_ace6c950":"บทบาทที่จัดสรร","based_on_basedon_d6e4f4d7":"อิงจาก: %{basedOn}","cannot_change_role_name_to_label_already_in_use_c8126e4e":"ไม่สามารถเปลี่ยนชื่อบทบาทเป็น %{label}: ถูกใช้งานอยู่แล้ว","click_ok_to_continue_deleting_this_role_baa9d9e2":"คลิก “ตกลง” เพื่อทำการลบบทบาทนี้ต่อไป","edit_label_769ed6c5":"แก้ไข %{label}","last_changed_b544504d":"แก้ไขล่าสุด:","no_explainer_text_available_9d9a2f3c":"ไม่มีข้อความอธิบาย","unassigned_permissions_6a38ca95":"สิทธิ์อนุญาตที่ไม่ได้รับการจัดสรร","unassigned_roles_cb9e95ec":"บทบาทที่ไม่ได้รับการจัดสรร","warning_all_permissions_will_change_to_match_the_s_e3c9819f":"คำเตือน: สิทธิ์อนุญาตทั้งหมดจะเปลี่ยนไปตามบทบาทพื้นฐานที่เลือกไว้","warning_if_there_are_any_users_with_this_role_they_1a7c1fef":"คำเตือน: หากมีผู้ใช้ที่ใช้บทบาทนี้ สิทธิ์อนุญาตในปัจจุบันจะถูกเก็บไว้แต่คุณจะไม่สามารถจัดทำผู้ใช้ใหม่ที่มีบทบาทนี้ได้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_role_tray_table_row",
+  function() { return {"expand_permission_c61d5958":"ขยายสิทธิ์อนุญาต"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_detail_sections",
+  function() { return {"additional_considerations_f3801683":"ข้อพิจารณาเพิ่มเติม","what_it_does_74ec1339":"ใช้เพื่ออะไร"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_1",
+  function() { return {"allows_user_to_edit_a_user_s_section_or_role_if_no_cf272262":"อนุญาตให้ผู้ใช้แก้ไขกลุ่มย่อยหรือบทบาทของผู้ใช้ (หากไม่ได้เพิ่มไว้ผ่าน SIS)","allows_user_to_view_login_id_information_for_users_895256fb":"อนุญาตให้ผู้ใช้ดูข้อมูล ID ล็อกอินสำหรับผู้ใช้","allows_user_to_view_user_details_for_course_users_ec1b6218":"อนุญาตให้ผู้ใช้ดูรายละเอียดผู้ใช้สำหรับผู้ใช้บทเรียน","observers_course_83850091":"ผู้สังเกตการณ์ (บทเรียน)","to_edit_a_user_s_section_conversations_send_to_ind_a54de83d":"แก้ไขหัวข้อของผู้ใช้โดยจะต้องเปิดใช้งาน การพูดคุย - ส่งไปยังสมาชิกในบทเรียนแต่ละราย ไว้ด้วย","to_generate_a_pairing_code_on_behalf_of_a_student__3caa504b":"จัดทำรหัสเข้าคู่ในนามของผู้เรียนเพื่อแชร์กับผู้สังเกตการณ์โดยจะต้องเปิดใช้งาน ผู้ใช้ - จัดทำรหัสเข้าคู่ของผู้สังเกตการณ์สำหรับผู้เรียน ไว้ด้วย","to_link_an_observer_to_a_student_conversations_sen_37aad7b5":"เชื่อมโยงผู้สังเกตการณ์กับผู้เรียนโดยจะต้องเปิดใช้งาน การพูดคุย - ส่งไปยังสมาชิกในบทเรียนแต่ละราย ไว้","to_link_an_observer_to_a_student_users_manage_logi_cc370c29":"เชื่อมโยงผู้สังเกตการณ์ไปยังผู้เรียนโดยจะต้องเปิดใช้งาน ผู้ใช้ - จัดการรายละเอียดล็อกอิน และ การพูดคุย - ส่งไปยังสมาชิกในบทเรียนแต่ละราย ไว้","to_view_the_people_page_courses_view_list_must_be__c1d54670":"ดูเพจ บุคคล โดยจะต้องเปิดใช้งาน บทเรียน - ดูรายการ ไว้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_2",
+  function() { return {"allows_user_to_access_the_act_as_user_link_on_stud_c7391722":"อนุญาตให้ผู้ใช้ใช้งานลิงค์ ดำเนินการในฐานะ ในการ์ดเนื้อหาของผู้เรียน","allows_user_to_act_as_other_users_in_the_account_195628ae":"อนุญาตให้ผู้ใช้ดำเนินการในฐานะผู้ใช้อื่นในบัญชีดังกล่าว","allows_user_to_delete_a_submission_file_65f1dd7d":"อนุญาตให้ผู้ใช้ลบไฟล์ผลงานจัดส่ง","allows_user_to_view_login_ids_in_a_course_people_p_b2cfd83e":"อนุญาตให้ผู้ใช้ดู ID ล็อกอินในหน้า บุคคล ของบทเรียน","api_7bd66e19":"API","the_roles_api_refers_to_this_permission_as_become__bededd25":"API บทบาทอ้างอิงกับสิทธิ์อนุญาตนี้เป็น become_user","this_permission_should_only_be_assigned_to_users_t_231c182e":"สิทธิ์อนุญาตนี้ควรจัดสรรให้แก่ผู้ใช้ที่สถาบันของคุณให้อนุญาตในฐานะผู้ใช้รายอื่นในบัญชี Canvas ทั้งหมดของคุณเท่านั้น","to_view_the_list_of_users_in_an_account_users_view_9db2061":"ดูรายชื่อผู้ใช้ในบัญชีผู้ใช้โดยจะต้องเปิดใช้งาน ผู้ใช้ - ดูรายการ ไว้ด้วย","users_with_this_permission_may_be_able_to_use_the__84394072":"ผู้ใช้ที่ได้รับสิทธิ์อนุญาตนี้สามารถใช้ ดำเนินการในฐานะ เพื่อจัดการค่าปรับตั้งทางบัญชี ดูและปรับเกรด สืบค้นข้อมูลผู้ใช้ เป็นต้นสิทธิ์อนุญาตนี้ยังช่วยให้ผู้ดูแลระบบที่กำหนดไว้สำหรับบัญชีย่อยสามารถเข้าไปยับค่าปรับตั้งและข้อมูลภายนอกบัญชีย่อยของตน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_3",
+  function() { return {"allows_user_to_create_collaborations_b4f214bf":"อนุญาตให้ผู้ใช้จัดทำส่วนความร่วมมือ","allows_user_to_view_edit_and_delete_collaborations_f2281cb0":"อนุญาตให้ผู้ใช้ดู แก้ไขและลบส่วนความร่วมมือที่ตนเองจัดทำขึ้น","allows_user_to_view_edit_and_delete_conferences_th_7c93c8e1":"อนุญาตให้ผู้ใช้ดู แก้ไขและลบการประชุมที่ตนเองจัดทำขึ้น","if_course_content_add_edit_delete_is_enabled_and_s_e85a8208":"หากเปิดใช้งาน เนื้อหาบทเรียน - เพิ่ม / แก้ไข / ลบ ไว้ และปิดใช้งาน ความร่วมมือของผู้เรียน - จัดทำ ไว้ ผู้ใช้จะไม่สามารถจัดทำส่วนความร่วมมือใหม่แต่จะสามารถดู แก้ไขและลบความร่วมมือทั้งหมดได้","if_course_content_add_edit_delete_is_enabled_and_s_ef307329":"หากเปิดใช้งาน เนื้อหาบทเรียน - เพิ่ม / แก้ไข / ลบ ไว้ และปิดใช้งาน ความร่วมมือของผู้เรียน - จัดทำ ไว้ ผู้ใช้จะไม่สามารถจัดทำส่วนความร่วมมือใหม่แต่จะสามารถดู แก้ไขและลบความร่วมมือทั้งหมดได้","to_add_a_course_group_to_a_collaboration_groups_ad_c26d8db0":"เพิ่มกลุ่มบทเรียนไปยังส่วนความร่วมมือโดยจะต้องเปิดใช้งาน กลุ่ม - เพิ่ม ไว้ด้วย","to_add_students_to_a_collaboration_users_view_list_806a5935":"เพิ่มผู้เรียนไปยังส่วนความร่วมมือโดยจะต้องเปิดใช้งาน ผู้ใช้ - ดูรายการ ไว้ด้วย","to_allow_view_edit_and_delete_functionality_of_col_f948198e":"เพื่อให้สามารถดู แก้ไขและลบการทำงานของส่วนความร่วมมือที่จัดทำโดยผู้ใช้อื่น จะต้องเปิดใช้งาน เนื้อหาบทเรียน - เพิ่ม / แก้ไข / ลบ ไว้ด้วย","to_allow_view_edit_delete_functionality_of_collabo_f46fade2":"เพื่อให้สามารถดู แก้ไขและลบการทำงานของส่วนความร่วมมือที่จัดทำโดยผู้ใช้อื่น จะต้องเปิดใช้งาน เนื้อหาบทเรียน - เพิ่ม / แก้ไข / ลบ ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_4",
+  function() { return {"allows_user_to_create_new_conferences_in_courses_a_80899f64":"อนุญาตให้ผู้ใช้จัดทำการประชุมใหม่ในบทเรียนและกลุ่มต่าง ๆ","allows_user_to_start_conferences_they_created_281b03ea":"อนุญาตให้ผู้ใช้เริ่มการประชุมที่ตนเองจัดทำขึ้น","if_the_course_content_permission_enabled_and_web_c_85f91e32":"หากเปิดใช้งานสิทธิ์อนุญาตเนื้อหาบทเรียนไว้ และ การประชุมทางเว็บ - จัดทำ ถูกปิดใช้งานไว้ ผู้ใช้จะยังสามารถจัดการการประชุมได้","to_allow_full_management_of_conferences_created_by_bc7910e6":"เพื่อให้สามารจถัดการการประชุมที่จัดทำโดยผู้ใช้หรือบุคคลอื่นได้อย่างครอบคลุม จะต้องเปิดใช้งานสิทธิ์อนุญาตเนื้อหาบทเรียนไว้ด้วย","to_end_a_long_running_conference_the_course_conten_63e3f993":"เพื่อสิ้นสุดการประชุมที่ใช้เวลานาน จะต้องเปิดใช้งานสิทธิ์อนุญาตเนื้อหาบทเรียนไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_5",
+  function() { return {"both_discussions_create_and_discussions_moderate_a_482e4c7e":"ทั้ง การพูดคุย - จัดทำ และ การพูดคุย - ควบคุม ช่วยให้ผู้ใช้สามารถจัดทำการพูดคุยได้ในหน้า การพูดคุย","to_create_announcements_discussions_moderate_must__8a8278f2":"จัดทำประกาศโดยจะต้องเปิดใช้งาน การพูดคุย - ควบคุม ไว้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_6",
+  function() { return {"allows_user_to_generate_a_pairing_code_on_behalf_o_9ea9bb0a":"อนุญาตให้ผู้ใช้จัดทำรหัสเข้าคู่ในนามของผู้เรียนเพื่อแชร์กับผู้สังเกตการณ์","pairing_codes_are_only_supported_when_self_registr_1c8201cf":"รองรับรหัสเข้าคู่ก็ต่อเมื่อเปิดใช้การลงทะเบียนด้วยตัวเองไว้สำหรับบทเรียน","pairing_codes_are_only_supported_when_self_registr_af82b9bc":"รองรับรหัสเข้าคู่ก็ต่อเมื่อเปิดใช้การลงทะเบียนด้วยตัวเองไว้สำหรับบัญชี","qr_codes_are_not_the_same_as_pairing_codes_and_are_19f506d4":"รหัส QR จะไม่เหมือนกับรหัสเข้าคู่ และจะใช้เพื่อช่วยให้ผู้ใช้สามารถล็อกอินไปยังบัญชีของตนเองผ่านแอพ Canvas สำหรับอุปกรณ์พกพาเท่านั้น","qr_codes_are_not_the_same_as_pairing_codes_and_are_e9a16676":"รหัส QR จะไม่เหมือนกับรหัสเข้าคู่ และจะใช้เพื่อช่วยให้ผู้ใช้สามารถล็อกอินไปยังบัญชีของตนเองผ่านแอพ Canvas สำหรับอุปกรณ์พกพาเท่านั้น ปิดใช้งานการล็อกอินด้วยรหัส QR สำหรับผู้ใช้ทั้งหมดในบัญชีของคุณโดยติดต่อผู้ดูแลความสำเร็จของลูกค้าของคุณ","to_generate_a_pairing_code_from_a_student_s_user_d_b3256aa0":"จัดทำรหัสเข้าคู่จากเพจรายละเอียดผู้ใช้ของผู้เรียนโดยจะต้องเปิดใช้งานสิทธิ์อนุญาต ผู้ใช้ - อนุญาตการจัดการในบทเรียน ไว้ด้วย","to_generate_a_pairing_code_from_a_student_s_user_s_5dcba185":"จัดทำรหัสเข้าคู่จากเพจ ค่าปรับตั้งของผู้ใช้สำหรับผู้เรียนโดยจะต้องเปิดใช้งานสิทธิ์อนุญาต ผู้ใช้ - ดำเนินการในฐานะ ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_8",
+  function() { return {"add_delete_edit_7dbc9c5b":"เพิ่ม / ลบ / แก้ไข","add_delete_manage_d65e235":"เพิ่ม / ลบ / จัดการ","add_manage_conclude_delete_publish_reset_8a5aa902":"เพิ่ม / จัดการ / สรุป / ลบ / เผยแพร่ / รีเซ็ต","add_remove_in_courses_d65aaee3":"เพิ่ม / ลบในบทเรียน","conclude_delete_publish_reset_35b64f0f":"สรุป / ลบ / เผยแพร่ / รีเซ็ต","create_delete_edit_157bb1a3":"จัดทำ / ลบ / แก้ไข","create_delete_update_4ff115bf":"จัดทำ / ลบ / อัพเดต"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_9",
+  function() { return {"allows_user_to_import_account_learning_outcomes_f6f6d0b9":"อนุญาตให้ผู้ใช้นำเข้าผลการเรียนรู้ทางบัญชี","allows_user_to_import_course_learning_outcomes_2ca3f18f":"อนุญาตให้ผู้ใช้นำเข้าผลการเรียนรู้สำหรับบทเรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_10",
+  function() { return {"allows_user_to_import_sis_data_583b20a5":"อนุญาตให้ผู้ใช้เพื่อนำเข้าข้อมูล SIS","determines_visibility_and_management_of_sis_import_bf386823":"กำหนดการแสดงผลและการจัดการลิงค์นำเข้า SIS ในส่วนการสืบค้นเนื้อหาทางบัญชี","not_available_at_the_subaccount_level_6ee9b41f":"ไม่พร้อมใช้งานในระดับบัญชีย่อย","to_manage_sis_data_sis_data_manage_must_also_be_en_748806e8":"จัดการข้อมูล SIS โดยจะต้องเปิดใช้งาน ข้อมูล SIS - จัดการ ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_11",
+  function() { return {"additionally_if_this_permission_is_disabled_users__6acf5d08":"นอกจากนี้ หากสิทธิ์อนุญาตนี้ถูกปิดใช้งาน ผู้ใช้จะไม่สามารถลบแอพจากภายนอกที่เพิ่มเข้ามาเองได้","allows_user_to_manually_add_and_delete_an_app_in_a_402d3d91":"อนุญาตให้ผู้ใช้เพิ่มและลบแอพในค่าปรับตั้งทางบัญชีด้วยตัวเอง","allows_user_to_manually_add_and_delete_an_app_in_c_18250cad":"อนุญาตให้ผู้ใช้เพิ่มและลบแอพในค่าปรับตั้งบทเรียนด้วยตัวเอง","external_apps_account_course_settings_78de2b2f":"แอพจากภายนอก (บัญชี ค่าปรับตั้งบทเรียน)","external_apps_course_settings_1f045644":"แอพจากภายนอก (ค่าปรับตั้งบทเรียน)","if_this_permission_is_disabled_users_can_still_ins_e9c4269f":"หากปิดใช้งานสิทธิ์อนุญาตนี้ไว้ ผู้ใช้ยังสามารถติดตั้งแอพที่ได้รับการรับรองผ่านศูนย์แอพ Canvas (หากเปิดใช้งานไว้สำหรับสถาบันของคุณ)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_12",
+  function() { return {"allows_user_to_view_all_item_banks_in_a_course_3b603780":"อนุญาตให้ผู้ใช้ดูแถวรายการทั้งหมดในบทเรียน","allows_user_to_view_all_item_banks_in_the_account_36f5f214":"อนุญาตให้ผู้ใช้ดูแถวรายการทั้งหมดในบัญชีผู้ใช้","if_this_permission_is_not_enabled_users_can_view_i_3d9f22da":"หากไม่ได้เปิดใช้สิทธิ์อนุญาตนี้ ผู้ใช้จะสามารถดูแถวรายการได้ตนเองจัดทำ หรือที่แชร์สำหรับตนไว้จากผู้ใช้รายอื่นหรือที่แชร์โดยตรงผ่านบทเรียนที่ตนเองลงทะเบียนไว้ในฐานะผู้สอนได้","item_banks_1db48044":"แถวรายการ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_13",
+  function() { return {"allows_user_to_access_and_edit_the_admin_settings__e45da9d7":"อนุญาตผู้ใช้ให้สืบค้นและแก้ไขค่าปรับตั้งผู้ดูแลระบบใน Commons","allows_user_to_add_and_remove_other_account_admins_7834ea9a":"อนุญาตให้ผู้ใช้เพิ่มและลบผู้ดูแลระบบบัญชีรายอื่น","allows_user_to_create_and_manage_groups_allows_use_562e0013":"อนุญาตให้ผู้ใช้สามารถจัดทำและจัดการกลุ่ม อนุญาตให้ผู้ใช้สามารถจัดการทรัพยากรแชร์ในบัญชีดังกล่าว","allows_user_to_manage_shared_resources_in_the_acco_edcd69a6":"อนุญาตให้ผู้ใช้สามารถจัดการทรัพยากรแชร์ในบัญชีดังกล่าว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_14",
+  function() { return {"allows_user_to_access_the_theme_editor_26691f9a":"อนุญาตให้ผู้ใช้ใช้งาน Theme Editor","allows_user_to_view_and_manage_authentication_opti_e1bb0ad3":"อนุญาตให้ผู้ใช้ดูและจัดการตัวเลือกการตรวจรับรองสำหรับบัญชีทั้งหมด","allows_user_to_view_and_manage_subaccounts_for_the_37d5120b":"อนุญาตให้ผู้ใช้ดูและจัดการบัญชีย่อยสำหรับบัญชีผู้ใช้","allows_user_to_view_and_manage_terms_for_the_accou_4547d971":"อนุญาตให้ผู้ใช้ดูและจัดการเทอมสำหรับบัญชีผู้ใช้","allows_user_to_view_and_manage_the_settings_and_no_e223e6b8":"อนุญาตให้ผู้ใช้ดูและจัดการแท็บ ค่าปรับตั้ง และ การแจ้งข้อมูล ในค่าปรับตั้งทางบัญชี","authentication_1b518c38":"การตรวจรับรอง","not_all_settings_options_are_available_at_the_suba_20efaa98":"ตัวเลือกค่าปรับตั้งบางส่วนเท่านั้นที่พร้อมใช้งานในระดับบัญชีย่อย รวมทั้งแท็บ การแจ้งข้อมูล","reports_account_settings_78f5336a":"รายงาน (ค่าปรับตั้งทางบัญชี)","subaccount_navigation_account_settings_add9eff9":"การสืบค้นเนื้อหาบัญชีย่อย (ค่าปรับตั้งทางบัญชี)","terms_4d979628":"เทอม","the_announcements_tab_is_always_visible_to_admins__58df854d":"แท็บ ประกาศจะแสดงผลกับผู้ดูแลระบบตลอดเวลา แต่หากต้องการจัดการประกาศ จะต้องเปิดใช้งาน ประกาศส่วนกลาง - เพิ่ม / แก้ไข / ลบ ไว้ด้วย","to_manage_the_feature_options_tab_feature_options__fc32fca3":"จัดการแท็บ ตัวเลือกคุณสมบัติ โดยจะต้องเปิดใช้งาน ตัวเลือกคุณสมบัติ - เปิดใช้งาน ปิดใช้งาน ไว้ด้วย","to_view_the_reports_tab_courses_view_usage_reports_d371ec85":"ดูแท็บ รายงาน โดยจะต้องเปิดใช้งาน บทเรียน - ดูรายงานการใช้งาน ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_15",
+  function() { return {"allows_user_to_add_edit_and_delete_global_announce_8463e383":"อนุญาตให้ผู้ใช้เพิ่ม แก้ไขและลบประกาศส่วนกลาง","announcements_account_4e9df626":"ประกาศ (บัญชี)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_17",
+  function() { return {"allows_user_to_add_assignments_in_a_course_4513bd22":"ผู้ใช้สามารถเพิ่มภารกิจในบทเรียน","allows_user_to_add_new_question_banks_to_a_course__9731f87d":"ผู้ใช้สามารถเพิ่มแถวคำถามใหม่ไปยังบทเรียนหรือบัญชีผู้ใช้","allows_user_to_add_new_question_banks_to_a_course_a18a410a":"ผู้ใช้สามารถเพิ่มแถวคำถามใหม่ไปยังบทเรียน","allows_user_to_add_new_questions_to_new_or_existin_995b8fee":"ผู้ใช้สามารถเพิ่มคำถามใหม่ไปยังแถวคำถามใหม่หรือแถวคำถามในปัจจุบันในบทเรียนหรือบัญชีผู้ใช้","allows_user_to_add_new_questions_to_new_or_existin_fde9db3b":"ผู้ใช้สามารถเพิ่มคำถามใหม่ไปยังแถวคำถามใหม่หรือแถวคำถามในปัจจุบันในบทเรียน","allows_user_to_add_quizzes_in_a_course_80916c02":"ผู้ใช้สามารถเพิ่มแบบทดสอบในบทเรียน","allows_user_to_delete_assignment_groups_in_a_cours_88c89c76":"ผู้ใช้สามารถลบกลุ่มภารกิจในบทเรียน","allows_user_to_delete_assignments_in_a_course_b0f220c4":"ผู้ใช้สามารถลบภารกิจในบทเรียน","allows_user_to_delete_question_banks_in_a_course_o_d9cd0b2f":"ผู้ใช้สามารถลบแถวคำถามในบทเรียนหรือบัญชีผู้ใช้","allows_user_to_delete_quizzes_in_a_course_acdbdfba":"ผู้ใช้สามารถลบแบบทดสอบในบทเรียน","allows_user_to_duplicate_assignments_in_a_course_a3bf4f54":"ผู้ใช้สามารถทำสำเนาภารกิจในบทเรียน","allows_user_to_duplicate_quizzes_in_a_course_1d3437f2":"ผู้ใช้สามารถทำสำเนาแบบทดสอบในบทเรียน","allows_user_to_edit_and_publish_unpublish_assignme_54d13630":"ผู้ใช้สามารถแก้ไขและเผยแพร่/เลิกเผยแพร่ภารกิจ","allows_user_to_edit_and_publish_unpublish_quizzes_bdc5b306":"ผู้ใช้สามารถแก้ไขและเผยแพร่/เลิกเผยแพร่แบบทดสอบ","allows_user_to_edit_lock_settings_on_the_assignmen_4c347262":"ผู้ใช้สามารถแก้ไขค่าปรับตั้งการล็อคในเพจดัชนีภารกิจและบทเรียน","allows_user_to_edit_question_banks_in_a_course_or__f72a39cf":"ผู้ใช้สามารถแก้ไขแถวคำถามในบทเรียนหรือบัญชีผู้ใช้","allows_user_to_share_an_assignment_to_commons_5b0fd98b":"ผู้ใช้สามารถแชร์ภารกิจไปยัง Commons","allows_user_to_weight_assignment_groups_95cb11b2":"ผู้ใช้สามารถถ่วงน้ำหนักกลุ่มภารกิจ","assignments_and_quizzes_add_b1473591":"ภารกิจและแบบทดสอบ - เพิ่ม","assignments_and_quizzes_delete_84ecc680":"ภารกิจและแบบทดสอบ - ลบ","assignments_and_quizzes_edit_1c23f658":"ภารกิจและแบบทดสอบ - แก้ไข","disabling_the_assignments_and_quizzes_add_permissi_e06f1379":"การปิดใช้งานสิทธิ์อนุญาต ภารกิจและแบบทดสอบ - เพิ่ม จะเป็นการบอกล้าง (หากเปิดใช้งานไว้) สิทธิ์อนุญาต เกณฑ์การให้คะแนน - เพิ่ม / แก้ไข / ลบ ทำให้ผู้ใช้ไม่สามารถจัดทำเกณฑ์การให้คะแนนสำหรับภารกิจแยกเฉพาะได้","disabling_the_assignments_and_quizzes_delete_permi_ad890eb3":"การปิดใช้งานสิทธิ์อนุญาต ภารกิจและแบบทดสอบ - ลบ จะเป็นการบอกล้าง (หากเปิดใช้งานไว้) สิทธิ์ใช้งาน เกณฑ์การให้คะแนน - เพิ่ม / แก้ไข / ลบ ทำให้ผู้ใช้ไม่สามารถลบเกณฑ์การให้คะแนนจากภารกิจแยกเฉพาะได้","disabling_the_assignments_and_quizzes_edit_permiss_529f9360":"การปิดสิทธิ์อนุญาต ภารกิจและแบบทดสอบ - แก้ไข จะเป็นการบอกล้าง (หากเปิดใช้งานไว้) สิทธิ์อนุญาต เกณฑ์การให้คะแนน - เพิ่ม / แก้ไข / ลบ ทำให้ผู้ใช้ไม่สามารถแก้ไขเกณฑ์การให้คะแนนจากภารกิจแยกเฉพาะ","if_blueprint_courses_add_edit_associate_delete_and_9ebd192d":"หากเปิดใช้งาน บทเรียนพิมพ์เขียว - เพิ่ม / แก้ไข / เชื่อมโยง / ลบ และ บทเรียน - จัดการ ไว้ แต่ไม่ได้เปิดใช้งาน ภารกิจและแบบทดสอบ - แก้ไข ไว้ ค่าปรับตั้งการล็อคพิมพ์เขียวสำหรับภารกิจจะสามารถจัดการได้จากเพจรายละเอียดภารกิจ","these_permissions_do_not_manage_discussions_discus_79defb66":"สิทธิ์อนุญาตเหล่านี้ไม่ได้เป็นการจัดการส่วนการพูดคุย การพูดคุยจะถูกจัดการผ่านสิทธิ์อนุญาตแยกเฉพาะสำหรับการพูดคุย","to_access_item_banks_for_a_course_item_banks_manag_a60a144f":"เข้าไปยังแถวรายการสำหรับบทเรียนโดยจะต้องเปิดใช้งาน แถวรายการ - จัดการบัญชี ร่วมด้วย","to_access_item_banks_for_a_course_or_account_item__f1f7b0af":"เข้าไปยังแถวรายการสำหรับบทเรียนหรือบัญชีผู้ใช้โดยจะต้องเปิดใช้งาน แถวรายการ - จัดการบัญชี ร่วมด้วย","to_access_the_quizzes_index_page_course_content_vi_d9607c01":"เข้าไปยังเพจดัชนีแบบทดสอบโดยจะต้องเปิดใช้งาน เนื้อหาบทเรียน - ดู ไว้","to_differentiate_assignments_to_individual_student_69373d88":"แยกภารกิจสำหรับผู้เรียนแต่ละรายโดยจะต้องเปิดใช้งาน ผู้ใช้ - ดูรายการ ไว้ด้วย","to_edit_quizzes_assignments_and_quizzes_manage_edi_d57651dd":"แก้ไขแบบทดสอบโดยจะต้องเปิดใช้งาน ภารกิจและแบบทดสอบ - จัดการ / แก้ไข ไว้ด้วย","to_manage_moderated_grading_grades_select_final_gr_d701c298":"จัดการการให้เกรดแบบมีการควบคุมโดยจะต้องเปิดใช้งาน เกรด - เลือกเกรดสรุปสำหรับการควบคุม ไว้ด้วย","to_moderate_a_quiz_grades_edit_must_also_be_enable_eae38da2":"แก้ไขแบบทดสอบโดยจะต้องเปิดใช้งาน เกรด - แก้ไข ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_16",
+  function() { return {"allows_user_to_add_edit_delete_and_publish_and_unp_5b1059b":"อนุญาตให้ผู้ใช้เพิ่ม แก้ไข ลบและเผยแพร่และยกเลิกการเผยแพร่ภารกิจ","allows_user_to_add_edit_delete_and_publish_and_unp_5f5b97aa":"อนุญาตให้ผู้ใช้เพิ่ม แก้ไข ลบ เผยแพร่และยกเลิกการเผยแพร่แบบทดสอบ","allows_user_to_edit_blueprint_lock_settings_on_the_43278a22":"อนุญาตให้ผู้ใช้แก้ไขค่าปรับตั้งการล็อคพิมพ์เขียวในหน้าดัชนีภารกิจและแบบทดสอบในบทเรียนหลักที่เป็นพิมพ์เขียว","allows_user_to_enable_and_edit_assignment_group_we_87c09b9f":"อนุญาตให้ผู้ใช้เปิดใช้งานและแก้ไขการถ่วงน้ำหนักกลุ่มภารกิจในบทเรียน","disabling_this_permission_will_override_if_enabled_59c2b5c9":"การปิดสิทธิ์อนุญาตนี้เป็นการบอกล้าง (หากเปิดใช้งาน) เกณฑ์การให้คะแนน - เพิ่ม / แก้ไข / ลบสิทธิ์อนุญาต ทำให้ผู้ใช้ไม่สามารถจัดทำหรือแก้ไขเกณฑ์การให้คะแนนจากภารกิจแยกเฉพาะได้","if_these_additional_permissions_are_enabled_but_as_d264879d":"หากเปิดใช้งานสิทธิ์อนุญาตเพิ่มเติมเหล่านี้ไว้ แต่ไม่ได้เปิดใช้งาน ภารกิจและแบบทดสอบ - เพิ่ม / แก้ไข / ลบ ไว้ ค่าการล็อคพิมพ์เขียวสำหรับภารกิจจะสามารถจัดการได้จากเพจรายละเอียดภารกิจ","question_banks_account_navigation_9a7ab7c2":"แถวคำถาม (การสืบค้นเนื้อหาในบัญชี)","to_differentiate_assignments_to_individual_student_6cc40fde":"แยกภารกิจสำหรับผู้เรียนแต่ละรายโดยจะต้องเปิดใช้งาน ผู้ใช้ - ดูรายการ ไว้ด้วย","to_moderate_a_quiz_grades_edit_must_also_be_enable_72ca6ca1":"ควบคุมแบบทดสอบโดยจะต้องเปิดใช้งาน เกรด - แก้ไข ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_18",
+  function() { return {"allows_user_to_add_edit_and_delete_events_in_the_c_14413268":"อนุญาตให้ผู้ใช้เพิ่ม แก้ไขและลบกิจกรรมในปฏิทินบทเรียน","allows_user_to_create_and_manage_appointments_on_t_393e9e84":"อนุญาตให้ผู้ใช้จัดทำและจัดการนัดหมายในปฏิทินโดยใช้ระบบกำหนดเวลา","regardless_of_whether_this_permission_is_enabled_o_a16e31b5":"ไม่ว่าสิทธิ์อนุญาตนี้จะเปิดใช้งานหรือไม่ ผู้ใช้ยังสามารถจัดการกิจกรรต่าง ๆ ในปฏิทินส่วนตัวของตน","scheduler_65b5ac91":"ระบบกำหนดเวลา","scheduler_must_be_enabled_by_your_canvas_admin_7508c8c2":"ระบบกำหนดเวลาจะต้องเปิดใช้งานโดยผู้ดูแลระบบ Canvas ของคุณ","scheduler_must_be_enabled_for_your_account_e6e53972":"ระบบกำหนดเวลาจะต้องเปิดใช้งานสำหรับบัญชีผู้ใช้ของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_19",
+  function() { return {"allows_user_to_access_the_attendance_tool_72ef0b68":"อนุญาตให้ผู้ใช้ใช้งานเครื่องมือตรวจนับจำนวนผู้เข้าเรียน","allows_user_to_access_the_chat_tool_48d5f5c4":"อนุญาตให้ผู้ใช้ใช้งานเครื่องมือแชท","allows_user_to_add_events_to_list_view_dashboard_v_1339e29e":"อนุญาตให้ผู้ใช้เพิ่มกิจกรรมไปยัง แผงข้อมูลมุมมองแสดงรายการ ผ่านช่องทำเครื่องหมาย เพิ่มไปยังรายการสิ่งที่ต้องทำของผู้เรียน ","allows_user_to_add_events_to_list_view_dashboard_v_2ad5de25":"อนุญาตให้ผู้ใช้เพิ่มกิจกรรมไปยัง แผงข้อมูลมุมมองแสดงรายการ ผ่านช่องทำเครื่องหมาย เพิ่มไปยังรายการสิ่งที่ต้องทำของผู้เรียน","allows_user_to_add_non_graded_discussions_to_list__65e44efe":"อนุญาตให้ผู้ใช้เพิ่มการพูดคุยที่ยังไม่ได้ให้เกรดไปยัง แผงข้อมูลมุมมองแสดงรายการ ผ่านช่องทำเครื่องหมาย เพิ่มไปยังรายการสิ่งที่ต้องทำของผู้เรียน","allows_user_to_add_pages_to_list_view_dashboard_vi_a661a203":"อนุญาตให้ผู้ใช้เพิ่มเพจไปยัง แผงข้อมูลมุมมองแสดงรายการ ผ่านช่องทำเครื่องหมาย เพิ่มไปยังรายการสิ่งที่ต้องทำของผู้เรียน","allows_user_to_copy_individual_course_items_to_ano_46ba40d6":"อนุญาตให้ผู้ใช้ทำสำเนารายการบทเรียนแยกเฉพาะไปยังบทเรียนอื่น","allows_user_to_edit_conferences_61eb62e0":"อนุญาตให้ผู้ใช้แก้ไขการประชุม","allows_user_to_edit_the_course_syllabus_a28ff262":"อนุญาตให้ผู้ใช้แก้ไขหลักสูตรสำหรับบทเรียน","allows_user_to_edit_title_description_or_remove_co_483daae5":"อนุญาตให้ผู้ใช้แก้ไขชื่อ รายละเอียดหรือลบผู้ประสานงานในส่วนความร่วมมือทั้งหมด","allows_user_to_import_content_using_the_course_imp_4a4ec4c7":"อนุญาตให้ผู้ใช้นำเข้าเนื้อหาโดยใช้ชุดเครื่องมือนำเข้าบทเรียน","allows_user_to_import_resources_from_commons_into__79e8255e":"อนุญาตให้ผู้ใช้นำเข้าทรัพยากรจาก Commons ไปยังบทเรียน","allows_user_to_manage_modules_create_add_items_edi_9459e815":"อนุญาตให้ผู้ใช้จัดการหน่วยการเรียน (จัดทำ เพิ่มรายการ แก้ไขค่าปรับตั้งหน่วยการเรียน เผยแพร่ เลิกการเผยแพร่ ฯลฯ)","allows_user_to_share_assignments_to_commons_or_edi_c70ddf7":"อนุญาตให้ผู้ใช้แชร์ภารกิจไปยัง Commons หรือแก้ไขเนื้อหาที่แชร์ไว้ก่อนหน้า","allows_user_to_share_course_items_directly_with_ot_e5793d35":"อนุญาตให้ผู้ใช้แชร์รายการบทเรียนโดยตรงกับผู้ใช้อื่น","allows_user_to_view_course_status_choose_home_page_21bf32a8":"อนุญาตให้ผู้ใช้ดูปุ่ม สถานะบทเรียน เลือกหน้าหลัก และ รายการตรวจสอบการตั้งค่าบทเรียน จากหน้าหลัก","allows_user_to_view_previously_created_collaborati_d3a37402":"อนุญาตให้ผู้ใช้ดูความร่วมมือที่จัดทำไว้ก่อนหน้า","attendance_ca433183":"การเข้าร่วม","chat_2153c6b7":"แชท","course_home_page_5c61dba7":"หน้าหลักบทเรียน","module_items_cannot_be_unpublished_if_there_are_st_7a80507c":"รายการหน่วยการเรียนไม่สามารถเลิกการเผยแพร่ได้หากมีผลงานจัดส่งจากผู้เรียน","teachers_designers_and_tas_can_select_a_course_hom_30025956":"ผู้สอน ผู้ออกแบบและ TA สามารถเลือกหน้าหลักบทเรียนโดยไม่ต้องมีสิทธิ์อนุญาตเนื้อหาบทเรียน - เพิ่ม / แก้ไข / ลบ","the_attendance_tool_must_be_enabled_by_your_canvas_108e6dca":"เครื่องมือตรวจนับการเข้าเรียนจะต้องเปิดใช้งานโดยผู้ดูแลระบบ Canvas ของคุณ","the_chat_tool_must_be_enabled_by_your_canvas_admin_e3b26123":"จะต้องเปิดใช้งานเครื่องมือแชทโดยผู้ดูแลระบบ Canvas ของคุณ","the_course_status_buttons_unpublished_and_publishe_e2dca595":"ปุ่มสถานะบทเรียน (ที่เลิกเผยแพร่และที่เผยแพร่) จะปรากฏขึ้นจนกว่าจะได้รับผลงานจัดส่งจากผู้เรียนเท่านั้น ไม่สามารถยกเลิกการเผยแพร่บทเรียนที่มีผลงานจัดส่งจากผู้เรียนได้","to_publish_and_unpublish_module_content_courses_ma_4a203bea":"เผยแพร่และเลิกการเผยแพร่เนื้อหาหน่วยการเรียนโดยจะต้องเปิดใช้งาน บทเรียน - จัดการ และ เนื้อหาบทเรียน - ดู ไว้ด้วย รายการหน่วยการเรียนไม่สามารถเลิกการเผยแพร่ได้หากมีผลงานจัดส่งจากผู้เรียน","to_share_a_discussion_to_commons_discussions_view__ef6c015a":"แชร์การพูดคุยไปยัง Commons โดยจะต้องเปิดใช้งาน การพูดคุย - ดู ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_20",
+  function() { return {"allows_user_to_add_designers_to_a_course_f81791e8":"อนุญาตให้ผู้ใช้เพิ่มผู้ออกแบบไปยังบทเรียน","allows_user_to_add_designers_to_a_course_from_the__427db55b":"อนุญาตให้ผู้ใช้เพิ่มผู้ออกแบบไปยังบทเรียนจากหน้าบทเรียนสำหรับบัญชีผู้ใช้","allows_user_to_deactivate_designers_in_a_course_e4ed0881":"ผู้ใช้สามารถปิดใช้งานผู้ออกแบบในบทเรียน","allows_user_to_remove_designers_from_a_course_fa9e887e":"อนุญาตให้ผู้ใช้สามารถลบผู้ออกแบบจากบทเรียน","designers_add_c6335849":"ผู้ออกแบบ - เพิ่ม","designers_remove_39f50ec9":"ผู้ออกแบบ - ลบ","if_the_open_registration_account_setting_is_enable_10b1965c":"หากเปิดใช้งานค่าปรับตั้งทางบัญชี เปิดการลงทะเบียน ไว้ ผู้ใช้ที่ได้รับสิทธิ์อนุญาตนี้จะสามารถเพิ่มผู้ออกแบบไปยังบทเรียนจากเพจ บทเรียน ผ่านอีเมลแอดเดรสหรือ ID ล็อกอินได้แม้ว่าผู้ออกแบบจะไม่มีบัญชี Canvas อยู่ก็ตาม","if_the_open_registration_account_setting_is_enable_474c98c2":"หากเปิดใช้งาน เปิดค่าปรับตั้งทางบัญชีสำหรับลงทะเบียน ไว้ ผู้ใช้ที่ได้รับสิทธิ์อนุญาตนี้จะสามารถเพิ่มผู้ออกแบบไปยังบทเรียนจากเพจ บุคคล ผ่านอีเมลแอดเดรสหรือ ID ล็อกอินได้แม้ว่าผู้ออกแบบจะไม่มีบัญชี Canvas อยู่ก็ตาม"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_21",
+  function() { return {"allows_user_to_add_observers_to_a_course_ca1a678b":"อนุญาตให้ผู้ใช้เพิ่มผู้สังเกตการณ์ไปยังบทเรียน","allows_user_to_add_observers_to_a_course_from_the__9017365c":"อนุญาตให้ผู้ใช้เพิ่มผู้สังเกตการณ์ไปยังบทเรียนจากหน้าบทเรียนสำหรับบัญชีผู้ใช้","allows_user_to_deactivate_observers_in_a_course_d6e0fee2":"ผู้ใช้สามารถปิดใช้งานผู้สังเกตการณ์ในบทเรียน","allows_user_to_remove_observers_from_a_course_e090d53e":"อนุญาตให้ผู้ใช้ลบผู้สังเกตการณ์จากบทเรียน","if_the_open_registration_account_setting_is_enable_87662428":"หากเปิดใช้งานค่าปรับตั้งทางบัญชี เปิดการลงทะเบียน ไว้ ผู้ใช้ที่มีสิทธิ์อนุญาตนี้จะสามารถเพิ่มผู้สังเกตการณ์ไปยังบทเรียนได้จากเพจ บทเรียน ผ่านทางอีเมลแอดเดรสหรือ ID ล็อกอิน แม้ว่าผู้สังเกตการณ์จะไม่มีบัญชี Canvas อยู่ก็ตาม","if_the_open_registration_account_setting_is_enable_9e63fda6":"หากเปิดใช้งานค่าปรับตั้งทางบัญชี เปิดการลงทะเบียน ไว้ ผู้ใช้ที่มีสิทธิ์อนุญาตนี้จะสามารถเพิ่มผู้สังเกตการณ์ไปยังบทเรียนได้จากเพจ บุคคล ผ่านทางอีเมลแอดเดรสหรือ ID ล็อกอิน แม้ว่าผู้สังเกตการณ์จะไม่มีบัญชี Canvas อยู่ก็ตาม","observers_add_93d8b063":"ผู้สังเกตการณ์ - เพิ่ม","observers_remove_ad508fbe":"ผู้สังเกตการณ์ - ลบ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_22",
+  function() { return {"allows_user_to_add_students_to_a_course_aa642fa6":"อนุญาตให้ผู้ใช้เพิ่มผู้เรียนไปยังบทเรียน","allows_user_to_add_students_to_a_course_from_the_a_3b752dd2":"อนุญาตให้ผู้ใช้เพิ่มผู้เรียนไปยังบทเรียนจากหน้าบทเรียนสำหรับบัญชีผู้ใช้","allows_user_to_deactivate_students_in_a_course_ffb1dddc":"ผู้ใช้สามารถปิดใช้งานผู้เรียนในบทเรียน","allows_user_to_remove_a_student_s_section_enrollme_78d1916e":"อนุญาตให้ผู้ใช้ลบการลงทะเบียนกลุ่มย่อยหรือบทบาทของผู้เรียน","allows_user_to_remove_students_from_a_course_70952ba6":"อนุญาตให้ผู้ใช้ลบผู้เรียนจากบทเรียน","allows_user_to_update_a_student_s_section_enrollme_80420ac9":"อนุญาตให้ผู้ใช้อัพเดตการลงทะเบียนกลุ่มย่อยหรือบทบาทของผู้เรียน","if_the_open_registration_account_setting_is_enable_2f43fcc0":"หากเปิดใช้งานค่าปรับตั้งทางบัญชี เปิดการลงทะเบียน ไว้ ผู้ใช้ที่มีสิทธิ์อนุญาตนี้จะสามารถเพิ่มผู้เรียนไปยังบทเรียนจากเพจ บุคคล ผ่านทางอีเมลแอดเดรสหรือ ID ล็อกอิน แม้ว่าผู้เรียนจะไม่มีบัญชี Canvas อยู่ก็ตาม","if_the_open_registration_account_setting_is_enable_99a8a04a":"หากเปิดใช้งานค่าปรับตั้งทางบัญชี เปิดการลงทะเบียน ไว้ ผู้ใช้ที่มีสิทธิ์อนุญาตนี้จะสามารถเพิ่มผู้เรียนไปยังบทเรียนจากเพจ บทเรียน ผ่านทางอีเมลแอดเดรสหรือ ID ล็อกอิน แม้ว่าผู้เรียนจะไม่มีบัญชี Canvas อยู่ก็ตาม","students_add_4e988446":"ผู้เรียน - เพิ่ม","students_remove_4b27390b":"ผู้เรียน - ลบ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_23",
+  function() { return {"allows_user_to_add_tas_in_the_course_f4de4c19":"อนุญาตให้ผู้ใช้เพิ่ม TA ในบทเรียน","allows_user_to_add_tas_to_a_course_from_the_accoun_66e76aee":"อนุญาตให้ผู้ใช้เพิ่ม TA ไปยังบทเรียนจากหน้าบทเรียนสำหรับบัญชีผู้ใช้","allows_user_to_deactivate_tas_in_a_course_a4e38cff":"ผู้ใช้สามารถปิดใช้งาน TA ในบทเรียน","allows_user_to_remove_tas_from_a_course_c8002894":"อนุญาตให้ผู้ใช้ลบ TA จากบทเรียน","if_the_open_registration_account_setting_is_enable_1e679e07":"หากเปิดใช้งานค่าปรับตั้งทางบัญชี เปิดการลงทะเบียน ไว้ ผู้ใช้ที่มีสิทธิ์อนุญาตนี้จะสามารถเพิ่ม TA ไปยังบทเรียนได้จากเพจ บทเรียน ผ่านทางอีเมลแอดเดรสหรือ ID ล็อกอิน แม้ว่า TA จะไม่มีบัญชี Canvas อยู่ก็ตาม","if_the_open_registration_account_setting_is_enable_b6fdaab4":"หากเปิดใช้งานค่าปรับตั้งทางบัญชี เปิดการลงทะเบียน ไว้ ผู้ใช้ที่มีสิทธิ์อนุญาตนี้จะสามารถเพิ่ม TA ไปยังบทเรียนได้จากเพจ บุคคล ผ่านทางอีเมลแอดเดรสหรือ ID ล็อกอิน แม้ว่า TA จะไม่มีบัญชี Canvas อยู่ก็ตาม","tas_add_ccec2573":"TA - เพิ่ม","tas_remove_16a99b22":"TA - ลบ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_24",
+  function() { return {"allows_user_to_add_teachers_to_a_course_37b9594c":"อนุญาตให้ผู้ใช้เพิ่มผู้สอนไปยังบทเรียน","allows_user_to_add_teachers_to_a_course_from_the_a_afbe4c3d":"อนุญาตให้ผู้ใช้เพิ่มผู้สอนไปยังบทเรียนจากหน้าบทเรียนสำหรับบัญชีผู้ใช้","allows_user_to_deactivate_teachers_in_a_course_626cab36":"ผู้ใช้สามารถปิดใช้งานผู้สอนในบทเรียน","allows_user_to_remove_teachers_from_a_course_6d627914":"อนุญาตให้ผู้ใช้ลบผู้สอนจากบทเรียน","if_the_open_registration_account_setting_is_enable_9ca710e2":"หากเปิดใช้งาน เปิดค่าปรับตั้งทางบัญชีสำหรับลงทะเบียน ไว้ ผู้ใช้ที่ได้รับสิทธิ์อนุญาตนี้จะสามารถเพิ่มผู้สอนไปยังบทเรียนจากเพจ บุคคล ผ่านอีเมลแอดเดรสหรือ ID ล็อกอินได้แม้ว่าผู้สอนจะไม่มีบัญชี Canvas อยู่ก็ตาม","if_the_open_registration_account_setting_is_enable_e7f97cf0":"หากเปิดใช้งาน เปิดค่าปรับตั้งทางบัญชีสำหรับลงทะเบียน ไว้ ผู้ใช้ที่ได้รับสิทธิ์อนุญาตนี้จะสามารถเพิ่มผู้สอนไปยังบทเรียนจากเพจ บทเรียน ผ่านอีเมลแอดเดรสหรือ ID ล็อกอินได้แม้ว่าผู้สอนจะไม่มีบัญชี Canvas อยู่ก็ตาม","teachers_add_d5258e33":"ผู้สอน - เพิ่ม","teachers_remove_5622b490":"ผู้สอน - ลบ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_25",
+  function() { return {"allows_user_to_change_the_template_being_used_by_a_eab509a3":"อนุญาตให้ผู้ใช้แก้ไขแม่แบบที่กำลังใช้งานโดยบัญชีผู้ใช้","allows_user_to_remove_a_course_as_a_course_templat_15e653d3":"อนุญาตให้ผู้ใช้ลบบทเรียนที่เป็นแม่แบบบทเรียนในค่าปรับตั้งสำหรับบทเรียน","allows_user_to_select_a_course_as_a_course_templat_547e203f":"อนุญาตให้ผู้ใช้เลือกบทเรียนเป็นแม่แบบบทเรียนในค่าปรับตั้งสำหรับบทเรียน","allows_user_to_set_a_template_for_an_account_34fe3695":"อนุญาตให้ผู้ใช้กำหนดแม่แบบสำหรับบัญชี","allows_user_to_set_an_account_to_not_use_a_templat_d34fe23c":"อนุญาตให้ผู้ใช้ตั้งค่าบัญชีไม่ให้ใช้แม่แบบ","allows_user_to_view_names_of_course_templates_in_t_12b87e7e":"อนุญาตให้ผู้ใช้ดูชื่อแม่แบบบทเรียนในบัญชีราก","course_templates_create_eb00e263":"แม่แบบบทเรียน - จัดทำ","course_templates_delete_5ec47e1f":"แม่แบบบทเรียน - ลบ","course_templates_edit_fd44b74c":"แม่แบบบทเรียน - แก้ไข","to_access_the_account_settings_tab_account_level_s_9676d44b":"เข้าไปยังแท็บ ค่าปรับตั้งทางบัญชีโดยจะต้องเปิดใช้งาน ค่าปรับตั้งระดับบัญชี - จัดการ ไว้ด้วย","to_create_a_new_course_to_use_as_a_course_template_aa0ff48e":"จัดทำบทเรียนใหม่เพื่อใช้แม่แบบบทเรียนโดยจะต้องเปิดใช้งาน บทเรียน - เพิ่ม ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_26",
+  function() { return {"allows_user_to_manage_the_visibility_options_in_co_e781e4e4":"อนุญาตให้ผู้ใช้จัดการตัวเลือกในการแสดงผลในค่าปรับตั้งสำหรับบทเรียนหรือเมื่อจัดทำบทเรียนใหม่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_27",
+  function() { return {"allows_user_to_access_student_view_test_student_co_35fbd387":"อนุญาตให้ผู้ใช้ใช้งานปุ่ม มุมมองผู้เรียน (ทดสอบผู้เรียน) คัดลอกบทเรียนนี้ และ ลบบทเรียนนี้อย่างถาวร","allows_user_to_access_the_navigation_tab_68efd3f":"ผู้ใช้สามารถเข้าไปยังแท็บการสืบค้นเนื้อหา","allows_user_to_add_new_courses_to_an_account_bcb32ad2":"อนุญาตให้ผู้ใช้เพิ่มบทเรียนใหม่ไปยังบัญชี","allows_user_to_edit_course_image_name_course_code__8a4681c8":"อนุญาตให้ผู้ใช้แก้ไขภาพบทเรียน ชื่อ รหัสบทเรียน เขตเวลา บัญชีย่อย เทอม และตัวเลือกอื่น ๆ ในแท็บ รายละเอียดบทเรียน","allows_user_to_sync_blueprint_courses_db4fcc03":"อนุญาตให้ผู้ใช้ซิงค์บทเรียนพิมพ์เขียว","allows_user_to_view_and_manage_courses_in_the_acco_12333da2":"อนุญาตให้ผู้ใช้ดูและจัดการบทเรียนในบัญชีผู้ใช้","allows_user_to_view_blueprint_sync_history_d545cb7d":"อนุญาตให้ผู้ใช้ดูประวัติการซิงค์พิมพ์เขียว","allows_user_to_view_student_context_cards_in_annou_dadef934":"อนุญาตให้ผู้ใช้ดูการ์ดเนื้อหาสำหรับผู้เรียนในประกาศและการตอบกลับสำหรับการพูดคุย","allows_user_to_view_the_conclude_course_button_e90a1175":"อนุญาตให้ผู้ใช้ดูปุ่ม สรุปบทเรียน","allows_user_to_view_the_course_setup_checklist_but_4d7524f0":"อนุญาตให้ผู้ใช้ดูปุ่ม รายการตรวจสอบการตั้งค่าบทเรียน","allows_user_to_view_the_delete_this_course_button_92a4c832":"อนุญาตให้ผู้ใช้ดูปุ่ม ลบบทเรียนนี้","allows_user_to_view_the_publish_button_in_a_course_c18d0360":"อนุญาตให้ผู้ใช้ดูปุ่ม เผยแพร่ ในการ์ดบทเรียนสำหรับบทเรียนที่ยังไม่ได้เผยแพร่ (แผงข้อมูลมุมมองการ์ด)","allows_user_to_view_the_publish_course_and_unpubli_55fcd20":"อนุญาตให้ผู้ใช้ดูปุ่ม เผยแพร่บทเรียน และ ยกเลิกการเผยแพร่บทเรียน ในเพจ หน้าหลักบทเรียน อนุญาตให้ผู้ใช้ดูปุ่ม เผยแพร่ ในการ์ดบทเรียนสำหรับบทเรียนที่ยังไม่ได้เผยแพร่ (แผงข้อมูลมุมมองการ์ด)","allows_user_to_view_the_publish_course_and_unpubli_aac98465":"อนุญาตให้ผู้ใช้ดูปุ่ม เผยแพร่บทเรียน และ ยกเลิกการเผยแพร่บทเรียน ในเพจ หน้าหลักบทเรียน","allows_user_to_view_the_reset_course_content_butto_75c8c410":"อนุญาตให้ผู้ใช้ดูปุ่ม รีเซ็ตเนื้อหาบทเรียน","blueprint_courses_must_be_enabled_for_an_account_b_ffb3ac4b":"บทเรียนพิมพ์เขียวจะต้องเปิดใช้งานสำหรับบัญชีผู้ใช้โดยผู้ดูแลระบบ ผู้มีบทบาทในบทเรียนจะสามารถจัดการได้เฉพาะเนื้อหาในบทเรียนพิมพ์เขียวหากถูกเพิ่มไปยังบทเรียนพิมพ์เขียวในฐานะผู้สอน, TA หรือผู้ออกแบบ","course_content_a92eca20":"เนื้อหาบทเรียน","courses_account_navigations_a60c71db":"บทเรียน - การสืบค้นบัญชีผู้ใช้","courses_account_settings_79e2f748":"บทเรียน - ค่าปรับตั้งทางบัญชี","courses_add_20891f99":"บทเรียน - เพิ่ม","courses_can_only_be_created_at_the_course_level_if_192bb838":"สามารถจัดทำบทเรียนได้ในระดับบทเรียนเท่านั้นหากผู้ดูแลระบบของ Canvas ให้อนุญาต หากได้รับอนุญาต จะสามารถจัดทำบทเรียนได้จากแผงข้อมูล","courses_conclude_7bf4ce68":"บทเรียน - สรุป","courses_delete_20c9beb2":"บทเรียน - ลบ","courses_manage_3ea9687f":"บทเรียน - จัดการ","courses_publish_39df53f8":"บทเรียน - เผยแพร่","courses_reset_211acdd":"บทเรียน - รีเซ็ต","if_courses_manage_is_enabled_but_blueprint_courses_28a42664":"หากเปิดใช้งาน บทเรียน - จัดการ ไว้ แต่ บทเรียนพิมพ์เขียว - เพิ่ม / แก้ไข / เชื่อมโยง / ลบ ไม่ได้เปิดใช้งานไว้ ผู้ใช้ยังสามารถซิงค์บทเรียนพิมพ์เขียวและดูประวัติการซิงค์ได้","if_this_permission_is_enabled_and_courses_view_lis_cdf22691":"หากสิทธิ์อนุญาตนี้ถูกเปิดใช้งานไว้ และปิดใช้งาน บทเรียน - ดูรายการ ไว้ ผู้ใช้สามารถเพิ่มบทเรียนใหม่ด้วยปุ่ม เพิ่มบทเรียนใหม่ ใน ค่าปรับตั้งทางบัญชี","student_context_cards_376d2072":"การ์ดเนื้อหาของผู้เรียน","student_context_cards_must_be_enabled_for_an_accou_8e1dc261":"การ์ดเนื้อหาของผู้เรียนจะต้องเปิดใช้งานสำหรับบัญชีผู้ใช้โดยผู้ดูแลระบบ หาก บทเรียน - จัดการ ไม่ได้เปิดใช้งานไว้ ผู้ใช้ยังสามารถดูการ์ดเนื้อหาได้ผ่านสมุดบันทึกเกรด","the_courses_delete_permission_affects_viewing_the__b8744b4c":"สิทธิ์อนุญาต บทเรียน - ลบ จะมีผลต่อการเปิดดูปุ่ม ลบบทเรียนนี้อย่างถาวร ซึ่งจะปรากฏขึ้นสำหรับบทเรียนที่จัดทำเองเท่านั้น","the_courses_publish_permission_allows_the_user_to__30694e34":"สิทธิ์อนุญาต บทเรียน - เผยแพร่ ช่วยให้ผู้ใช้สามารถเผยแพร่บทเรียนที่ไม่มีหน่วยการเรียน เผยแพร่/เลิกการเผยแพร่เนื้อหาหน่วยการเรียนโดยจะต้องเปิดใช้งาน เนื้อหาบทเรียน - เพิ่ม / แก้ไข / ลบ ไว้ด้วย","the_courses_reset_permission_resets_course_content_921321c3":"สิทธิ์อนุญาต บทเรียน - รีเซ็ต จะเป็นการรีเซ็ตเนื้อหาบทเรียนทั้งแบบจัดทำเองและบทเรียนที่จัดการผ่าน SIS (สำหรับบทเรียนที่จัดการผ่าน SIS สิทธิ์อนุญาต ข้อมูล SIS - จัดการ จะไม่ถูกนำมาใช้)","to_access_the_courses_link_in_account_navigation_c_5aa3d76c":"เข้าไปยังลิงค์บทเรียนในส่วนการสืบค้นเนื้อหาบัญชีผู้ใช้โดยจะต้องเปิดใช้งาน บทเรียน - ดูรายการ ไว้","to_access_the_courses_link_in_account_navigation_c_a2c556e6":"เข้าไปยังลิงค์บทเรียน ในส่วนการสืบค้นเนื้อหาทางบัญชี โดยจะต้องเปิดใช้งาน บทเรียน - จัดการ และ บทเรียน - ดูรายการ ไว้","to_add_a_course_courses_add_must_also_be_enabled_8c2231d9":"เพิ่มบทเรียนโดยจะต้องเปิดใช้งาน บทเรียน - เพิ่ม ไว้ด้วย","to_allow_other_users_to_create_courses_in_an_accou_1f2c70a4":"อนุญาตให้ผู้ใช้จัดทำบทเรียนในบัญชีผู้ใช้โดยเลือกบทบาทผู้ใช้ที่เหมาะสมในเพจค่าปรับตั้งทางบัญชีได้แก่ ผู้สอน ผู้เรียนและ/หรือผู้ใช้ที่ไม่มีการลงทะเบียน","to_cross_list_a_section_courses_manage_and_manage__3af8bad7":"อ้างอิงโยงกลุ่มย่อยโดยจะต้องเปิดใช้งาน บทเรียน - จัดการ และ จัดการกลุ่มย่อยของบทเรียน - แก้ไข ไว้ด้วย","to_edit_the_course_sis_id_courses_manage_and_sis_d_dfe90e4e":"แก้ไข SIS ID ของบทเรียน โดยจะต้องเปิดใช้งาน บทเรียน - จัดการ และ ข้อมูล SIS - จัดการ ไว้ด้วย","to_manage_course_content_courses_manage_and_course_c7a49f42":"จัดการเนื้อหาบทเรียน โดยจะต้องเปิดใช้งาน บทเรียน - จัดการ และ เนื้อหาบทเรียน - เพิ่ม / แก้ไข / ลบ ไว้","to_restore_a_deleted_course_courses_delete_courses_83c7e64f":"กู้คืนบทเรียนที่ถูกลบทิ้งโดยจะต้องเปิดใช้งาน บทเรียน - ลบ, บทเรียน - เลิกลบ และ เนื้อหาบทเรียน - ดู ไว้ด้วย","to_view_choose_home_page_and_course_setup_checklis_402b2311":"ดูปุ่ม เลือกหน้าหลัก และ รายการตรวจสอบการตั้งค่าบทเรียน โดยจะต้องเปิดใช้งาน บทเรียน - จัดการ และ เนื้อหาบทเรียน - ดู ไว้ด้วย (ผู้สอน ผู้ออกแบบ และ TA สามารถกำหนดหน้าหลักของบทเรียน ไม่ว่าจะมีสิทธิ์อนุญาตอย่างไรก็ตาม)","to_view_grades_in_a_course_courses_manage_and_grad_c1ab5515":"ดูเกรดในบทเรียนโดยจะต้องเปิดใช้งาน บทเรียน - จัดการ และ เกรด - ดูเกรดทั้งหมด ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_30",
+  function() { return {"allows_user_to_create_developer_keys_for_accounts_76bedd2b":"อนุญาตให้ผู้ใช้สามารถจัดทำคีย์ผู้พัฒนาสำหรับบัญชีผู้ใช้","required_fields_include_key_name_owner_email_tool__b8e42174":"ฟิลด์บังคับจะต้องมีชื่อคีย์, อีเมลเจ้าของ, ID เครื่องมือ, URL เปลี่ยนเส้นทางและ URL ไอคอน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_31",
+  function() { return {"allows_user_to_manage_feature_options_in_account_s_c3c8ee03":"อนุญาตให้ผู้ใช้จัดการ ตัวเลือกคุณสมบัติ จากค่าปรับตั้งทางบัญชี","to_view_feature_options_for_an_account_feature_opt_14b0cea0":"ดูตัวเลือกคุณสมบัติการทำงานสำหรับบัญชีผู้ใช้โดยจะต้องเปิดใช้งาน ตัวเลือกคุณสมบัติ - เปิดใช้งาน / ปิดใช้งาน ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_32",
+  function() { return {"allows_user_to_add_course_files_and_folders_566e3447":"อนุญาตให้ผู้ใช้เพิ่มไฟล์และโฟลเดอร์บทเรียน","allows_user_to_delete_course_files_and_folders_34a7793c":"อนุญาตให้ผู้ใช้ลบไฟล์และโฟลเดอร์บทเรียน","allows_user_to_edit_course_files_and_folders_7a3fc8c7":"อนุญาตให้ผู้ใช้แก้ไขไฟล์และโฟลเดอร์บทเรียน","allows_user_to_import_a_zip_file_97bd7db2":"อนุญาตให้ผู้ใช้นำเข้าไฟล์ zip","course_files_62deb8f8":"ไฟล์บทเรียน","course_files_add_2eede390":"ไฟล์บทเรียน - เพิ่ม","course_files_delete_fae0effe":"ไฟล์บทเรียน - ลบ","course_files_edit_d05d4e8b":"ไฟล์บทเรียน - แก้ไข","if_one_or_all_permissions_are_disabled_user_can_st_f83271b3":"หากปิดสิทธิ์อนุญาตบางส่วนหรือปิดไว้ทั้งหมด ผู้ใช้ยังสามารถดูและดาวน์โหลดไฟล์เป็น zip ได้","to_edit_lock_settings_for_course_files_course_file_92273739":"แก้ไขค่าปรับตั้งการล็อคสำหรับไฟล์บทเรียนโดยจะต้องเปิดใช้งาน ไฟล์บทเรียน - แก้ไข บทเรียนพิมพ์เขียว - เพิ่ม / แก้ไข / เชื่อมโยง / ลบ  และ บทเรียน - จัดการ ไว้ด้วย","to_import_files_using_the_course_import_tool_cours_eb0ce4e1":"นำเข้าไฟล์โดยใช้เครื่องมือนำเข้าบทเรียนโดยจะต้องเปิดใช้งาน ไฟล์บทเรียน - เพิ่ม และ เนื้อหาบทเรียน - เพิ่ม / แก้ไข / ลบ ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_33",
+  function() { return {"allows_user_to_access_gradebook_history_9d599681":"อนุญาตให้ผู้ใช้สืบค้นประวัติของสมุดบันทึกเกรด","allows_user_to_access_gradebook_history_allows_use_79dfddd":"อนุญาตให้ผู้ใช้สืบค้นประวัติของสมุดบันทึกเกรด อนุญาตให้ผู้ใช้สืบค้นสมุดบันทึกเกรดสำหรับระดับความเชี่ยวชาญด้านการเรียนรู้ (หากเปิดใช้ไว้)","allows_user_to_add_edit_and_update_grades_in_the_g_e7707f35":"อนุญาตให้ผู้ใช้เพิ่ม แก้ไขและอัพเดตเกรดในสมุดบันทึกเกรด","allows_user_to_create_and_modify_grading_schemes_e4433a19":"อนุญาตให้ผู้ใช้จัดทำและแก้ไขรูปแบบการให้เกรด","allows_user_to_edit_grades_and_add_comments_in_spe_dc18e3c0":"อนุญาตให้ผู้ใช้แก้ไขเกรดและเพิ่มความเห็นใน SpeedGrader","allows_user_to_edit_grades_in_the_gradebook_83fa5c4f":"อนุญาตให้ผู้ใช้แก้ไขเกรดในสมุดบันทึกเกรด","allows_user_to_edit_grading_schemes_98c35117":"อนุญาตให้ผู้ใช้แก้ไขรูปแบบการให้เกรด","allows_user_to_like_discussion_posts_when_the_only_7390d91c":"อนุญาตให้ผู้ใช้กดไลค์โพสต์การพูดคุยเมื่อเลือกช่องทำเครื่องหมาย เฉพาะผู้ให้เกรดเท่านั้นที่กดไลค์ได้","allows_user_to_moderate_a_quiz_and_view_the_quiz_s_59ce0eee":"อนุญาตให้ผู้ใช้สามารถปรับแบบทดสอบและดูหน้าสถิติสำหรับแบบทดสอบ","allows_user_to_search_by_course_id_or_assignment_i_1f41eb6a":"อนุญาตให้ผู้ใช้ค้นหาจาก ID บทเรียนหรือ ID ภารกิจในบันทึกประวัติการแก้ไขเกรดในเครื่องมือสำหรับผู้ดูแลระบบ (ไม่มีในระดับบัญชีย่อย)","allows_user_to_view_the_course_grading_scheme_32a6042":"อนุญาตให้ผู้ใช้ดูรูปแบบการให้เกรดสำหรับบทเรียน","course_grading_schemes_can_be_enabled_disabled_in__26b298b3":"รูปแบบการให้เกรดสำหรับบทเรียนสามารถเปิด/ปิดใช้งานได้จากค่าปรับตั้งสำหรับบทเรียน","gradebook_and_speedgrader_will_be_inaccessible_if__eda88bc3":"สมุดบันทึกเกรดและ SpeedGrader จะไม่สามารถใช้งานได้หากปิดใช้งานทั้ง เกรด - แก้ไข และ เกรด - ดูเกรดทั้งหมด ไว้","gradebook_speedgrader_66cb7a6a":"สมุดบันทึกเกรด, SpeedGrader","to_edit_course_grading_schemes_courses_manage_must_b6de9dbc":"แก้ไขรูปแบบการให้เกรดบทเรียนโดยจะต้องเปิดใช้งาน บทเรียน - จัดการ ไว้ด้วย","to_moderate_a_quiz_assignments_and_quizzes_manage__b96b1937":"ควบคุมแบบทดสอบโดยจะต้องเปิดใช้งาน ภารกิจและแบบทดสอบ - จัดการ / แก้ไข ไว้ด้วย","to_view_student_analytics_in_course_analytics_anal_21ed5b9c":"ดูข้อมูลวิเคราะห์สำหรับผู้เรียนในข้อมูลวิเคราะห์สำหรับงบทเรียนโดยเปิดใช้งาน ข้อมูลวิเคราะห์ - ดู ไว้ด้วย","to_view_student_analytics_users_view_list_and_anal_41d32ecb":"ดูข้อมูลวิเคราะห์สำหรับผู้เรียนโดยจะต้องเปิดใช้งาน ผู้ใช้ - ดูรายการ และ ข้อมูลวิเคราะห์ - ดู ไว้ด้วย","to_view_the_submission_log_quizzes_view_submission_b8353d6e":"ดูบันทึกประวัติการจัดส่งโดยจะต้องเปิดใช้งาน แบบทดสอบ - ดูบันทึกประวัติการจัดส่ง ไว้ด้วย","to_view_the_user_sis_id_column_in_the_quiz_item_an_2bf433fa":"ดูคอลัมน์ SIS ID ผู้ใช้ในไฟล์ CSV วิเคราะห์รายการแบบทดสอบโดยจะต้องเปิดใช้งาน ข้อมูล SIS - อ่าน ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_34",
+  function() { return {"allows_user_to_add_a_group_for_a_group_assignment__b77a71cc":"ผู้ใช้สามารถเพิ่มกลุ่มสำหรับภารกิจของกลุ่มภายในบทเรียน","allows_user_to_add_group_members_to_account_or_cou_5b143ef":"ผู้ใช้สามารถเพิ่มสมาชิกของกลุ่มไปยังบัญชีผู้ใช้หรือกลุ่มบทเรียน","allows_user_to_add_students_to_course_groups_969f968":"ผู้ใช้สามารถเพิ่มผู้เรียนไปยังกลุ่มบทเรียน","allows_user_to_add_users_to_a_course_group_aa0df439":"ผู้ใช้สามารถเพิ่มผู้ใช้ไปยังกลุ่มบทเรียน","allows_user_to_add_users_to_an_account_or_course_g_f2a3a2b8":"ผู้ใช้สามารถเพิ่มผู้ใช้ไปยังบัญชีผู้ใช้หรือกลุ่มบทเรียน","allows_user_to_assign_a_student_group_leader_in_a__6851d646":"ผู้ใช้สามารถกำหนดผู้นำกลุ่มของผู้เรียนในบทเรียน","allows_user_to_assign_a_student_group_leader_in_an_73e12cb6":"ผู้ใช้สามารถกำหนดผู้นำกลุ่มของผู้เรียนในบัญชีผู้ใช้หรือบทเรียน","allows_user_to_create_account_or_course_groups_1d5c4aaf":"ผู้ใช้สามารถจัดทำบัญชีผู้ใช้หรือกลุ่มบทเรียน","allows_user_to_create_course_groups_created_by_stu_2be56e8f":"ผู้ใช้สามารจถัดทำกลุ่มบทเรียนที่จัดทำโดยผู้เรียน","allows_user_to_create_course_groups_e169f91b":"ผู้ใช้สามารถจัดทำกลุ่มบทเรียน","allows_user_to_delete_account_or_course_groups_3078d0c5":"ผู้ใช้สามารถลบบัญชีผู้ใช้หรือกลุ่มบทเรียน","allows_user_to_delete_course_groups_5ce7382e":"ผู้ใช้สามารถลบกลุ่มบทเรียน","allows_user_to_edit_account_and_course_groups_259139c0":"ผู้ใช้สามารถแก้ไขบัญชีผู้ใช้และกลุ่มบทเรียน","allows_user_to_edit_course_groups_d459145d":"ผู้ใช้สามารถแก้ไขกลุ่มบทเรียน","allows_user_to_move_group_members_to_another_group_697d8da9":"ผู้ใช้สามารถย้ายสมาชิกกลุ่มไปยังกลุ่มอื่นในบัญชีผู้ใช้หรือบทเรียน","allows_user_to_move_group_members_to_another_group_fc9d8d92":"ผู้ใช้สามารถย้ายสมาชิกกลุ่มไปยังกลุ่มอื่นในบทเรียน","allows_user_to_randomly_assign_users_to_a_course_g_e866fc4":"ผู้ใช้สามารถสุ่มกำหนดผู้ใช้ไปยังกลุ่มบทเรียน","allows_user_to_randomly_assign_users_to_an_account_f6f24e8b":"ผู้ใช้สามารถสุ่มกำหนดผู้ใช้ไปยังบัญชีผู้ใช้หรือกลุ่มบทเรียน","allows_user_to_remove_group_members_from_course_gr_4f745b58":"ผู้ใช้สามารถลบสมาชิกกลุ่มจากกลุ่มบทเรียน","allows_user_to_remove_students_from_account_or_cou_845945f9":"ผู้ใช้สามารถลบผู้เรียนจากบัญชีผู้ใช้หรือกลุ่มบทเรียน","allows_user_to_view_the_clone_group_set_button_for_d68aab98":"ผู้ใช้สามารถดูปุ่ม โคลนชุดกลุ่ม สำหรับบัญชีผู้ใช้หรือกลุ่มบทเรียน","allows_user_to_view_the_clone_group_set_button_for_f975352":"ผู้ใช้สามารถดูปุ่ม โคลนชุดกลุ่ม สำหรับกลุ่มบทเรียน","allows_users_to_import_groups_in_a_course_a8b5c73e":"ผู้ใช้สามารถนำเข้ากลุ่มในบทเรียน","by_default_students_can_always_create_groups_in_a__5727f4cf":"ตามค่าเริ่มต้น ผู้เรียนสามารถจัดทำกลุ่มในบทเรียนได้ตลอดเวลา จำกัดผู้เรียนไม่ให้จัดทำกลุ่มโดยจะต้องเปิดใช้งาน บทเรียน - จัดการ ไว้ด้วย และจะต้องไม่เลือกช่องทำเครื่องหมาย ให้ผู้เรียนจัดกลุ่มของตนเอง ใน ค่าปรับตั้งบทเรียน","groups_add_4038ae8a":"กลุ่ม - เพิ่ม","groups_delete_bb79a2b4":"กลุ่ม - ลบ","groups_manage_a5197479":"กลุ่ม - จัดการ","if_this_permission_is_disabled_at_the_account_leve_1b0e403f":"หากปิดใช้งานสิทธิ์อนุญาตนี้ไว้ในระดับบัญชีผู้ใช้ ผู้ใช้จะไม่สามารถดูกลุ่มบัญชีผู้ใช้ในปัจจุบันได้ ในระดับบทเรียน ผู้ใช้จะสามารถดูแต่ไม่สามารถสืบค้นกลุ่มใด ๆ ในปัจจุบัน รวมทั้งกลุ่มที่จัดทำโดยผู้เรียน","to_access_the_people_page_and_view_course_groups_u_e2dc13eb":"เข้าไปยังเพจ บุคคล และดูกลุ่มบทเรียนโดยจะต้องเปิดใช้งาน ผู้ใช้ ดูรายการ ไว้ด้วย","to_add_account_level_groups_via_csv_sis_data_impor_b1a4ccf3":"เพิ่มกลุ่มระดับบัญชีผู้ใช้ผ่าน CSV โดยจะต้องเปิดใช้งาน ข้อมูล SIS - นำเข้า ไว้ด้วย","to_view_account_level_groups_users_view_list_must__3e933ddf":"ดูกลุ่มระดับบัญชีผู้ใช้โดยจะต้องเปิดใช้งาน ผู้ใช้ - ดูรายการ ไว้ด้วย","to_view_all_student_groups_in_a_course_groups_view_7a16b659":"ดูกลุ่มผู้เรียนทั้งหมดในบทเรียนโดยจะต้องเปิดใช้งาน กลุ่ม - ดูกลุ่มผู้เรียนทั้งหมด ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_35",
+  function() { return {"alerts_must_be_configured_for_the_institution_aler_43bbacb1":"จะต้องกำหนดค่าการแจ้งเตือนสำหรับสถาบัน คุณสมบัติ ใช้การแจ้งเตือนนาน ๆ ครั้ง ออกแบบมาเพื่อการส่งการแจ้งเตือนไปยังผู้เรียน ผู้สอนหรือผู้ดูแลระบบเพื่อการดำเนินการเฉพาะ (เช่น หากไม่มีการปฏิสัมพันธ์ระหว่างผู้เรียน-ผู้สอนเป็นเวลา 7 วัน) จะมีการตรวจสอบทุกวัน และจะมีการส่งการแจ้งเตือนไปยังผู้เรียนและ/หรือผู้สอนจนกว่าปัญหาที่แจ้งจะได้รับการแก้ไข","allows_user_to_configure_alerts_in_course_settings_c6b938ab":"อนุญาตให้ผู้ใช้กำหนดค่าการแจ้งเตือนในค่าปรับตั้งสำหรับบทเรียน","this_is_an_account_setting_that_must_be_enabled_by_8ced660":"นี่เป็นค่าปรับตั้งทางบัญชีที่จะต้องเปิดใช้งานโดยผู้ดูแลของ Customer Success คุณสมบัติ ใช้การแจ้งเตือนนาน ๆ ครั้ง ออกแบบมาเพื่อการส่งการแจ้งเตือนไปยังผู้เรียน ผู้สอนหรือผู้ดูแลระบบเพื่อการดำเนินการเฉพาะ (เช่น หากไม่มีการปฏิสัมพันธ์ระหว่างผู้เรียน-ผู้สอนเป็นเวลา 7 วัน) จะมีการตรวจสอบทุกวัน และจะมีการส่งการแจ้งเตือนไปยังผู้เรียนและ/หรือผู้สอนจนกว่าปัญหาที่แจ้งจะได้รับการแก้ไข"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_28",
+  function() { return {"allows_user_to_add_external_app_icons_to_the_rich__27174e71":"อนุญาตให้ผู้ใช้เพิ่มไอคอนแอพจากภายนอกไปยังแถบเครื่องมือ Rich Content Editor","allows_user_to_manually_add_an_app_in_account_sett_c5ce3789":"อนุญาตให้ผู้ใช้เพิ่มแอพในค่าปรับตั้งทางบัญชีด้วยตัวเอง","allows_user_to_manually_add_an_app_in_course_setti_cf39f581":"อนุญาตให้ผู้ใช้เพิ่มแอพในค่าปรับตั้งบทเรียนด้วยตัวเอง","allows_user_to_manually_delete_an_app_in_account_s_a4b872dd":"อนุญาตให้ผู้ใช้ลบแอพในค่าปรับตั้งทางบัญชีด้วยตัวเอง","allows_user_to_manually_delete_an_app_in_course_se_f6015d14":"อนุญาตให้ผู้ใช้ลบแอพในค่าปรับตั้งบทเรียนด้วยตัวเอง","if_lti_add_is_disabled_users_can_still_install_app_78aa7908":"หากปิดใช้งาน LTI - เพิ่ม ไว้ ผู้ใช้ยังสามารถติดตั้งแอพที่ได้รับการรับรองผ่านศูนย์แอพ Canvas (หากเปิดใช้งานไว้สำหรับสถาบันของคุณ) ทั้งนี้หากไม่ได้เปิดใช้งาน LTI - ลบ ไว้ จะไม่สามารถลบแอพจากภายนอกที่เพิ่มเข้ามาได้ด้วยตัวเอง","lti_add_e3bc0049":"LTI - เพิ่ม","lti_delete_ee5f1bef":"LTI - ลบ","lti_edit_83a27850":"LTI - แก้ไข"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_36",
+  function() { return {"allows_user_to_add_and_remove_associated_courses_2ae6e4d6":"อนุญาตให้ผู้ใช้เพิ่มและลบบทเรียนที่เกี่ยวข้อง","allows_user_to_designate_a_course_as_a_blueprint_c_15109885":"อนุญาตให้ผู้ใช้กำหนดบทเรียนเป็นบทเรียนพิมพ์เขียว","allows_user_to_edit_lock_settings_on_individual_as_80ed188a":"อนุญาตให้ผู้ใช้แก้ไขค่าปรับตั้งการล็อคในภารกิจ หน้าเพจหรือการพูดคุยแยกเฉพาะ","allows_user_to_manage_blueprint_course_settings_in_697362c5":"อนุญาตให้ผู้ใช้จัดการค่าปรับตั้งบทเรียนพิมพ์เขียวในค่าปรับตั้งสำหรับบทเรียน","course_roles_can_only_manage_blueprint_courses_if__12964fbb":"ผู้มีบทบาทในบทเรียนจะสามารถจัดการได้เฉพาะบทเรียนพิมพ์เขียวหากถูกเพิ่มไปยังบทเรียนพิมพ์เขียวในฐานะผู้สอน, TA หรือผู้ออกแบบ","to_edit_lock_settings_on_files_courses_manage_and__f4718695":"แก้ไขค่าปรับตั้งการล็อคโดยจะต้องเปิดใช้งาน บทเรียน - จัดการ และ ไฟล์บทเรียน - แก้ไข ไว้ด้วย","to_edit_lock_settings_on_quizzes_courses_manage_an_eb629aa9":"แก้ไขค่าการล็อคในแบบทดสอบโดยจะต้องเปิดใช้งาน บทเรียน - จัดการ และ ภารกิจและแบบทดสอบ - จัดการ / แก้ไข ไว้ด้วย","to_manage_associated_courses_courses_view_list_and_26f4c15c":"จัดการบทเรียนที่เชื่อมโยงโดยจะต้องเปิดใช้งาน บทเรียน - ดูรายการ และ บทเรียน - เพิ่ม ไว้ด้วย","to_manage_lock_settings_for_object_types_courses_m_c3373154":"จัดการค่าปรับตั้งการล็อคสำหรับออบเจคต์ประเภทต่าง ๆ โดยจะต้องเปิดใช้งาน บทเรียน - จัดการ ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_37",
+  function() { return {"access_to_these_tabs_requires_the_outcome_proficie_dd8ca732":"การสืบค้นแท็บเหล่านี้จะต้องใช้สิทธิ์อนุญาตการคำนวณผลสัมฤทธิ์ของผลลัพธ์ - เพิ่ม / แก้ไข และ คะแนนความเชี่ยวชาญสำหรับผลลัพธ์ - เพิ่ม / แก้ไข","allows_user_to_create_edit_and_delete_outcomes_and_162c9ece":"อนุญาตให้ผู้ใช้จัดทำ แก้ไขและลบผลลัพธ์และกลุ่มผลลัพธ์ในระดับบัญชีและบทเรียน","allows_user_to_create_edit_and_delete_outcomes_and_1cf52c38":"อนุญาตให้ผู้ใช้จัดทำ แก้ไขและลบผลลัพธ์และกลุ่มผลลัพธ์ในระดับบทเรียน","allows_user_to_view_the_outcomes_manage_tab_at_the_a7d5ffce":"ผู้ใช้สามารถดูแท็บ จัดการผลลัพธ์ ในระดับบัญชีและบทเรียน","determines_visibility_and_management_of_the_outcom_aace9659":"กำหนดการแสดงผลและการจัดการลิงค์ผลลัพธ์ในส่วนการสืบค้นเนื้อหาทางบัญชี","if_the_account_and_course_level_outcome_mastery_sc_95307d59":"หากเปิดใช้งานตัวเลือกคุณสมบัติ ระดับความเชี่ยวชาญตามผลลัพธ์ในระดับบัญชีและบทเรียน (Account and Course Level Outcome Mastery Scales) แท็บ จัดการ (Manage) จะปรากฏขึ้นในอินเทอร์เฟซที่มีการอัพเดต นอกจากนี้ เพจ ผลลัพธ์ จะแสดงแท็บเพิ่มอีกสองแท็บเพื่อแยกคะแนนประเมินความเชี่ยวชาญและผลการคำนวณความเชี่ยวชาญออกจากส่วนการจัดการผลลัพธ์","to_allow_the_outcomes_page_as_read_only_this_permi_ddb00693":"เพื่อให้เพจผลลัพธ์เป็นแบบอ่านอย่างเดียว สามารถปิดใช้งานสิทธิ์อนุญาตนี้ได้ แต่จะต้องเปิดใช้งาน เนื้อหาบทเรียน - ดู ไว้","to_import_learning_outcomes_learning_outcomes_impo_5abbd2fb":"นำเข้าผลการเรียนรู้โดยจะต้องเปิดใช้งาน ผลการเรียนรู้ - นำเข้า ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_38",
+  function() { return {"allows_user_to_view_the_outcomes_calculation_tab_a_def5fecb":"ผู้ใช้สามารถดูแท็บ การคำนวณผลลัพธ์ และกำหนดการคำนวณผลสัมฤทธิ์ของผลลัพธ์ได้ในระดับบทเรียน","allows_user_to_view_the_outcomes_calculations_tab__d320b540":"ผู้ใช้สามารถดูแท็บ การคำนวณผลลัพธ์ และกำหนดการคำนวณผลสัมฤทธิ์ของผลลัพธ์ได้ในระดับบัญชีและบทเรียน","to_access_the_mastery_tab_the_outcome_mastery_scal_46ae1c5b":"เข้าไปยังแท็บ ความเชี่ยวชาญโดยจะต้องเปิดใช้งานสิทธิ์อนุญาต ระดับความเชี่ยวชาญตามผลลัพธ์ - เพิ่ม / แก้ไข ร่วมด้วย เข้าไปยังแท็บ จัดการ โดยจะต้องเปิดใช้งานสิทธิ์อนุญาต ผลการเรียนรู้ - เพิ่ม / แก้ไข / ลบ ร่วมด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_39",
+  function() { return {"allows_user_to_view_the_outcomes_mastery_tab_and_s_a93a23d2":"ผู้ใช้สามารถดูแท็บ ความเชี่ยวชาญสำหรับผลลัพธ์ และกำหนดคะแนนประเมินความเชี่ยวชาญสำหรับผลลัพธ์ในระดับบัญชีและบทเรียน","allows_user_to_view_the_outcomes_mastery_tab_and_s_d9626906":"ผู้ใช้สามารถดูแท็บ ความเชี่ยวชาญสำหรับผลลัพธ์ และกำหนดคะแนนประเมินความเชี่ยวชาญสำหรับผลลัพธ์ได้ในระดับบทเรียน","to_access_the_calculation_tab_the_outcome_proficie_cdd40cdf":"เข้าไปยังแท็บ การคำนวณ โดยจะต้องเปิดใช้งานสิทธิ์อนุญาต การคำนวณผลสัมฤทธิ์ของผลลัพธ์ - เพิ่ม / แก้ไข ไว้ด้วย เข้าไปยังแท็บ จัดการ โดยจะต้องเปิดใช้งานสิทธิ์อนุญาต ผลการเรียนรู้ - เพิ่ม / แก้ไข / ลบ ร่วมด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_40",
+  function() { return {"allows_user_to_view_and_manage_permissions_bdc80a1d":"อนุญาตให้ผู้ใช้ดูและจัดการสิทธิ์อนุญาต"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_41",
+  function() { return {"allows_user_to_create_edit_and_delete_course_rubri_493ac58f":"อนุญาตให้ผู้ใช้จัดทำ แก้ไขและลบเกณฑ์การให้คะแนนบทเรียน","allows_user_to_create_edit_and_delete_rubrics_1c0acc08":"อนุญาตให้ผู้ใช้จัดทำ แก้ไขและลบเกณฑ์การให้คะแนน","allows_user_to_view_the_rubrics_link_in_course_nav_41052c80":"อนุญาตให้ผู้ใช้ดูลิงค์ เกณฑ์การให้คะแนน ใน การสืบค้นเนื้อหาบทเรียน","determines_visibility_and_management_of_rubrics_li_9b974d71":"กำหนดการแสดงผลและการจัดการลิงค์เกณฑ์การให้คะแนนในส่วนการสืบค้นเนื้อหาทางบัญชี","determines_visibility_and_management_of_the_rubric_533da0b8":"กำหนดการแสดงผลและการจัดการลิงค์เกณฑ์การให้คะแนนในส่วนการสืบค้นเนื้อหาทางบัญชี","users_can_access_and_create_but_not_edit_individua_59bcb8dd":"ผู้้สามารถสืบค้นและจัดทำ (แต่ไม่สามารถแก้ไข) เกณฑ์การให้คะแนนสำหรับภารกิจแยกเฉพาะผ่าน ภารกิจ เมื่อเปิดใช้งาน ภารกิจและแบบทดสอบ - เพิ่ม ไว้","users_can_access_and_create_but_not_edit_individua_a0b26adf":"ผู้ใช้สามารถสืบค้นและจัดทำ (แต่ไม่สามารถแก้ไข) เกณฑ์การให้คะแนนสำหรับภารกิจแยกเฉพาะผ่าน ภารกิจ เมื่อเปิดใช้งาน เนื้อหาบทเรียน - ดู และ ภารกิจและแบบทดสอบ - เพิ่ม ไว้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_42",
+  function() { return {"allows_user_to_add_course_sections_in_course_setti_f8e4cabf":"อนุญาตให้ผู้ใช้เพิ่มกลุ่มย่อยบทเรียนในค่าปรับตั้งสำหรับบทเรียน","allows_user_to_change_start_and_end_dates_for_cour_f437cee1":"อนุญาตให้ผู้ใช้แก้ไขวันที่เริ่มต้นและสิ้นสุดสำหรับกลุ่มย่อยบทเรียน","allows_user_to_cross_list_sections_f6726df2":"อนุญาตให้ผู้ใช้อ้างอิงโยงกลุ่มย่อยต่าง ๆ","allows_user_to_delete_a_user_from_a_course_section_4b99a5c4":"อนุญาตให้ผู้ใช้ลบผู้ใช้จากกลุ่มย่อยของบทเรียน","allows_user_to_delete_course_sections_19193a35":"อนุญาตให้ผู้ใช้ลบกลุ่มย่อยของบทเรียน","allows_user_to_rename_course_sections_928982f0":"อนุญาตให้ผู้ใช้เปลี่ยนชื่อกลุ่มย่อยสำหรับบทเรียน","allows_user_to_rename_course_sections_allows_user__8e9e7bac":"อนุญาตให้ผู้ใช้เปลี่ยนชื่อกลุ่มย่อยสำหรับบทเรียน อนุญาตให้ผู้ใช้แก้ไขวันที่เริ่มต้นและสิ้นสุดสำหรับกลุ่มย่อยบทเรียน อนุญาตให้ผู้ใช้อ้างอิงโยงกลุ่มย่อยต่าง ๆ","course_sections_add_c6b5dc1":"กลุ่มย่อยบทเรียน - เพิ่ม","course_sections_delete_e75e3eeb":"กลุ่มย่อยบทเรียน - ลบ","course_sections_edit_bd783e1":"กลุ่มย่อยบทเรียน - แก้ไข","cross_listing_3318526a":"การจัดทำรายการโยง","to_cross_list_sections_course_sections_edit_and_co_59598c07":"อ้างอิงโยงกลุ่มย่อยโดยจะต้องเปิดใช้งาน กลุ่มย่อยของบทเรียน - แก้ไข และ บทเรียน - จัดการ ไว้ด้วย","to_cross_list_sections_course_sections_edit_must_b_4ffea833":"อ้างอิงโยงกลุ่มย่อยโดยจะต้องเปิดใช้งาน กลุ่มย่อยของบทเรียน - แก้ไข ไว้ ผู้ใช้ยังจะต้องลงทะเบียนในฐานะผู้สอนในบทเรียนที่จะมีการอ้างอิงโยง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_43",
+  function() { return {"allows_user_to_edit_the_course_sis_id_e1eccee3":"อนุญาตให้ผู้ใช้แก้ไข SIS ID บทเรียน","allows_user_to_view_and_edit_the_sis_id_and_integr_af6dc3f3":"อนุญาตให้ผู้ใช้ดูและแก้ไข SIS ID และ ID การผสานรวมในรายละเอียดการล็อกอินของผู้ใช้","allows_user_to_view_and_insert_data_in_the_sis_id__921967c":"อนุญาตให้ผู้ใช้ดูและแทรกข้อมูลในฟิลด์ SIS ID","allows_user_to_view_the_previous_sis_import_dates__1716ddb5":"ผู้ใช้สามารถดูวันที่นำเข้า SIS ก่อนหน้า ข้อผิดพลาดและรายการที่นำเข้า","determines_visibility_of_sis_import_link_in_accoun_53da8632":"กำหนดการแสดงผลลิงค์นำเข้า SIS ในส่วนการสืบค้นเนื้อหาทางบัญชี","if_this_permission_is_enabled_users_do_not_need_th_fb3f761e":"หากเปิดใช้งานสิทธิ์อนุญาตนี้ไว้ ผู้ใช้จะไม่ต้องเปิดใช้งานสิทธิ์อนุญาตสำหรับ ข้อมูล SIS - อ่าน สิทธิ์อนุญาตทางบัญชีเป็นการบอกล้างสิทธิ์อนุญาตสำหรับบทเรียน","subaccount_settings_8549eff7":"ค่าปรับตั้งสำหรับบัญชีย่อย","to_disallow_users_from_managing_sis_ids_at_the_cou_2058787b":"ไม่อนุญาตผู้ใช้ในการจัดการ SIS ID ในระดับบทเรียนโดยจะต้องปิดใช้งานทั้ง ข้อมูล SIS - จัดการ และ ข้อมูล SIS - อ่าน ไว้","to_edit_course_settings_courses_manage_must_be_ena_813e1588":"แก้ไขค่าปรับตั้งบทเรียนโดยจะต้องเปิดใช้งาน บทเรียน - จัดการ ไว้","to_import_sis_data_sis_data_import_must_also_be_en_187c39b":"นำเข้าข้อมูล SIS โดยจะต้องเปิดใช้งาน ข้อมูล SIS - นำเข้า ไว้ด้วย","to_view_or_edit_a_user_s_sis_id_or_integration_id__76b8d055":"ดูหรือแก้ไข SIS ID ของผู้ใช้หรือ ID การผสานรวมโดยจะต้องเปิดใช้งานทั้ง ผู้ใช้ - ดูรายการ และ ผู้ใช้ - จัดการรายละเอียดล็อกอิน ไว้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_44",
+  function() { return {"allows_user_to_view_and_manage_quotas_tab_in_accou_aa3fea8":"อนุญาตให้ผู้ใช้ดูและจัดการแท็บ โควต้า ใน ค่าปรับตั้งทางบัญชี ผู้ใช้สามารถกำหนดบทเรียนเริ่มต้น ผู้ใช้และการเสนอพื้นที่จัดเก็บข้อมูลของกลุ่ม","quotas_account_settings_22c12b8d":"โควต้า (ค่าปรับตั้งทางบัญชี)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_45",
+  function() { return {"allows_user_to_access_a_user_s_settings_menu_and_u_235d8fd8":"อนุญาตให้ผู้ใช้สืบค้นเมนูค่าปรับตั้งสำหรับผู้ใช้และรายละเอียดผู้ใช้","allows_user_to_resend_course_invitations_from_the__2822fe53":"อนุญาตให้ผู้ใช้ส่งคำเชิญเข้าร่วมบทเรียนอีกครั้งจากหน้า บุคคลสำหรับบทเรียน","allows_user_to_view_login_id_information_for_stude_70930399":"อนุญาตให้ผู้ใช้ดูข้อมูล ID ล็อกอินสำหรับผู้เรียน","allows_user_to_view_prior_enrollments_df5286d":"อนุญาตให้ผู้ใช้ดูข้อมูลการลงทะเบียนก่อนหน้า","to_add_or_remove_a_student_to_or_from_a_course_the_a357b751":"เพิ่มหรือลบผู้เรียนกับบทเรียนโดยจะต้องเปิดใช้งานสิทธิ์อนุญาต ผู้ใช้ - ผู้เรียน ไว้ด้วย","to_add_or_remove_a_student_to_or_from_a_course_the_b6001e67":"เพิ่มหรือลบผู้เรียนกับบทเรียนโดยจะต้องเปิดใช้งานสิทธิ์อนุญาต ผู้ใช้ - ผู้เรียน (Users - Students) ไว้ด้วย","to_edit_a_student_s_section_conversations_send_to__12a2623f":"แก้ไขหัวข้อของผู้เรียนโดยจะต้องเปิดใช้งาน การพูดคุย - ส่งไปยังสมาชิกในบทเรียนแต่ละราย ไว้ด้วย","to_view_the_list_of_users_in_the_course_users_view_20278cf":"ดูรายชื่อผู้ใช้ในบทเรียนโดยจะต้องเปิดใช้งาน ผู้ใช้ - ดูรายการ ไว้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_46",
+  function() { return {"allows_user_to_create_accounts_for_new_users_e4ec27c3":"อนุญาตให้ผู้ใช้จัดทำบัญชีสำหรับผู้ใช้ใหม่","allows_user_to_modify_user_account_details_e16fb115":"อนุญาตให้ผู้ใช้แก้ไขรายละเอียดทางบัญชีสำหรับผู้ใช้","allows_user_to_remove_and_merge_users_in_an_accoun_b7e1aec7":"อนุญาตให้ผู้ใช้ลบและผสานผู้ใช้ในบัญชี","allows_user_to_view_and_modify_login_information_f_78f3a544":"อนุญาตให้ผู้ใช้ดูและแก้ไขข้อมูลล็อกอินสำหรับผู้ใช้","if_users_manage_login_details_or_statistics_view_i_cff4155d":"หากเปิดใช้งาน ผู้ใช้ - จัดการรายละเอียดล็อกอิน หรือ สถิติ - ดู ไว้ ผู้ใช้จะสามารถจัดทำรายการล็อกอิน/ล็อกเอาท์ได้จาก เครื่องมือดูแลระบบ ซ่อนตัวเลือกในการล็อกอิน/ล็อกเอาท์ใน เครื่องมือสำหรับผู้ดูแลระบบ โดยจะต้องปิดใช้งานสิทธิ์อนุญาตทั้งสองอย่างนี้ไว้","to_change_user_passwords_users_view_must_also_be_e_6aeea86c":"แก้ไขรหัสผ่านผู้ใช้โดยจะต้องเปิดใช้งาน ผู้ใช้ - ดู ไว้ด้วย","to_merge_users_the_self_service_user_merge_feature_d07a9276":"ผสานผู้ใช้โดยจะต้องเปิดใช้ตัวเลือกคุณสมบัติ ผสานผู้ใช้แบบบริการตัวเอง ไว้ด้วย","to_view_a_user_s_integration_id_sis_data_manage_mu_99438830":"ดู ID การผสานรวมของผู้ใช้โดยจะต้องเปิดใช้งาน ข้อมูล SIS - จัดการ ไว้ด้วย","to_view_a_user_s_sis_id_sis_data_manage_or_sis_dat_1f603502":"ดู SIS ID ผู้ใช้โดยจะต้องเปิดใช้งาน ข้อมูล SIS - จัดการ หรือ ข้อมูล SIS - อ่าน ไว้ด้วย","to_view_users_and_user_account_details_users_view__cc958682":"ดูผู้ใช้และรายละเอียดทางบัญชีของผู้ใช้โดยจะต้องเปิดใช้งาน ผู้ใช้ - ดูรายการ ไว้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_47",
+  function() { return {"allows_user_to_create_new_entries_in_the_faculty_j_2a280fec":"อนุญาตให้ผู้ใช้จัดทำรายการใหม่ใน บันทึกสำหรับวิชา","allows_user_to_view_a_link_to_the_faculty_journal__61d71a94":"อนุญาตให้ผู้ใช้ดูลิงค์ไปยังบันทึกสำหรับวิชาในแถบรายการด้านข้างของหน้า รายละเอียดผู้ใช้","allows_user_to_view_faculty_journal_entries_in_the_3f58f09c":"อนุญาตให้ผู้ใช้ดูรายการ บันทึกสำหรับวิชา ในรายงานการปฏิสัมพันธ์ของผู้เรียน","allows_user_to_view_faculty_journal_information_fo_3c725307":"อนุญาตให้ผู้ใช้ดูข้อมูล บันทึกสำหรับวิชา สำหรับผู้เรียนแต่ละราย","allows_user_to_view_the_faculty_journal_link_in_gl_e3fd6889":"อนุญาตให้ผู้ใช้ดูลิงค์บันทึกสำหรับวิชาในส่วนการสืบค้นเนื้อหาส่วนกลาง","student_interaction_report_3f3d2ff1":"รายงานการปฏิสัมพันธ์ของผู้เรียน","to_view_the_student_interactions_report_grades_vie_68f791b0":"ดูรายงานการปฏิสัมพันธ์ของผู้เรียนโดยจะต้องเปิดใช้งาน เกรด - ดูเกรดทั้งหมด และ บทเรียน - ดูรายงานการใช้งาน ไว้ด้วย","to_view_the_user_details_page_for_a_student_users__5d0ca2d5":"ดูเพจ รายละเอียดผู้ใช้ สำหรับผู้เรียนโดยจะต้องเปิดใช้งาน ผู้เรียน - เพิ่ม/ลบผู้เรียนในบทเรียน ไว้ด้วย","user_details_2613c079":"รายละเอียดผู้ใช้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_48",
+  function() { return {"allows_user_to_manage_observers_associated_with_st_4b45f2be":"อนุญาตให้ผู้ใช้จัดการผู้สังเกตการณ์ที่เชื่อมโยงกับผู้เรียนในบัญชีผู้ใช้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_49",
+  function() { return {"allows_user_to_add_page_to_student_to_do_list_7085a054":"อนุญาตให้ผู้ใช้เพิ่มเพจไปยังรายการสิ่งที่ต้องทำของผู้เรียน","allows_user_to_create_course_pages_ec9c6647":"อนุญาตให้ผู้ใช้จัดทำหน้าบทเรียน","allows_user_to_define_users_allowed_to_edit_the_pa_39fddc1c":"อนุญาตให้ผู้ใช้ระบุรายละเอียดผู้ใช้ที่ได้รับอนุญาตให้แก้ไขหน้าเพจ","allows_user_to_delete_course_pages_dfaf4fb7":"อนุญาตให้ผู้ใช้ลบหน้าบทเรียน","allows_user_to_edit_blueprint_course_lock_settings_c89e1787":"อนุญาตให้ผู้ใช้แก้ไขค่าปรับตั้งการล็อคบทเรียนพิมพ์เขียนในเพจดัชนี เพจ สำหรับแต่ละเพจในบทเรียนพิมพ์เขียนหลัก","allows_user_to_edit_blueprint_lock_settings_for_in_95db0d27":"อนุญาตให้ผู้ใช้แก้ไขค่าปรับตั้งการล็อคแบบพิมพ์เขียวสำหรับหน้าเพจแยกเฉพาะในบทเรียนหลักที่เป็นพิมพ์เขียว","allows_user_to_edit_blueprint_lock_settings_in_the_a0a8d955":"อนุญาตให้ผู้ใช้แก้ไขค่าปรับตั้งการล็อคพิมพ์เขียวในเพจดัชนี เพจ และสำหรับแต่ละเพจในบทเรียนพิมพ์เขียวหลัก","allows_user_to_edit_course_pages_30f188b4":"อนุญาตให้ผู้ใช้แก้ไขหน้าบทเรียน","allows_user_to_publish_and_unpublish_pages_e9397f80":"อนุญาตให้ผู้ใช้เผยแพร่และยกเลิกการเผยแพร่เพจ","allows_user_to_view_page_history_and_set_front_pag_c2321326":"อนุญาตให้ผู้ใช้ดูประวัติเพจและกำหนดหน้าแรก","however_if_these_additional_permissions_are_enable_35d3082c":"ทั้งนี้หากสิทธิ์อนุญาตเพิ่มเติมเหล่านี้ถูกเปิดใช้งาน แต่ไม่ได้เปิดใช้ เพจ - สิทธิ์อนุญาตในการอัพเดต ผู้ใช้ยังสามารถปรับค่าปรับตั้งการล็อคเนื้อหาสำหรับแต่ละเพจได้ในบทเรียนพิมพ์เขียวหลัก","if_the_pages_update_permission_is_disabled_the_use_3df16c25":"หากปิดใช้งานสิทธิ์อนุญาต เพจ - อัพเดต ไว้ ผู้ใช้ยังสามารถปรับค่าการล็อคเนื้อหาสำหรับแต่ละเพจได้จากบทเรียนพิมพ์เขียวหลัก","pages_create_7c48801a":"เพจ - จัดทำ","pages_delete_c98c1c66":"เพจ - ลบ","pages_update_6bbb5599":"เพจ - อัพเดต","student_page_history_ce86b3c2":"ประวัติเพจผู้เรียน","students_can_edit_and_view_page_history_if_allowed_67f9b8da":"ผู้เรียนสามารถแก้ไขและดูประวัติเพจได้หากได้รับอนุญาตในตัวเลือกสำหรับเพจแยกเฉพาะ","to_edit_lock_settings_on_the_pages_index_page_page_5e65b3d6":"แก้ไขค่าปรับตั้งการล็อคในเพจดัชนี เพจ โดยจะต้องเปิดใช้งาน เพจ - อัพเดต บทเรียนพิมพ์เขียว - เพิ่ม / แก้ไข / เชื่อมโยง / ลบ และ บทเรียน - จัดการ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_50",
+  function() { return {"allows_user_to_add_announcements_in_the_announceme_726541b5":"อนุญาตให้ผู้ใช้เพิ่มประกาศในหน้าประกาศ","allows_user_to_close_for_comments_move_pin_unpin_e_bf17f03c":"อนุญาตให้ผู้ใช้ปิดความเห็น ย้าย ปักหมุด/เลิกปักหมุด แก้ไขและลบหัวข้อการพูดคุยในเพจการพูดคุย","allows_user_to_edit_blueprint_lock_settings_on_the_5b5edb55":"อนุญาตให้ผู้ใช้แก้ไขค่าปรับตั้งการล็อคพิมพ์เขียวในหน้าดัชนีการพูดคุยในบทเรียนหลักที่เป็นพิมเขียว","allows_user_to_edit_discussion_topics_5576aeb1":"ผู้ใช้สามารถแก้ไขหัวข้อการพูดคุย","allows_user_to_view_all_replies_within_a_discussio_fea861da":"ผู้ใช้สามารถดูการตอบกลับทั้งหมดภายในหัวข้อการพูดคุย","allows_user_to_view_the_new_announcement_button_in_4f1a0a2b":"อนุญาตให้ผู้ใช้ดูปุ่ม ประกาศ ที่หน้าหลัก","both_discussions_create_and_discussions_moderate_a_ca6f38a2":"ทั้ง การพูดคุย - จัดทำ และ การพูดคุย - ควบคุม ช่วยให้ผู้ใช้สามารถจัดทำการพูดคุยได้ในหน้า การพูดคุย หากเปิดใช้สิทธิ์อนุญาตไว้ ไม่จำเป็นต้องใช้ การพูดคุย - จัดทำ","if_the_additional_permissions_are_enabled_but_this_619c2a4a":"หากเปิดใช้งานสิทธิ์อนุญาตเพิ่มเติม แต่สิทธิ์อนุญาตนี้ไม่ได้เปิดใช้งานไว้ ค่าการล็อคจะสามารถแก้ไขได้จากส่วนการพูดคุยแยกเฉพาะ","if_this_setting_is_disabled_and_discussions_view_i_8a068652":"หากปิดการตั้งค่านี้ไว้ และเปิดใช้งาน การพูดคุย - ดู ไว้ ผู้ใช้ยังสามารถปรับค่าปรับตั้งการล็อคเนื้อหาในส่วนการพูดคุยแยกเฉพาะได้จากบทเรียนหลักที่เป็นพิมพ์เขียว","to_edit_a_discussion_discussions_moderate_must_als_bd4c60f7":"แก้ไขส่วนการพูดคุยโดยจะต้องเปิดใช้งาน การพูดคุย - ควบคุม ไว้ด้วย","to_edit_lock_settings_on_the_discussions_index_pag_9488110a":"แก้ไขค่าปรับตั้งการล็อคจากเพจดัชนีการพูดคุย โดยจะต้องเปิดใช้งาน บทเรียน - จัดการ และ การพูดคุย - ดู ไว้ด้วย","to_reply_to_a_discussion_discussions_post_must_be__a4cf502a":"ตอบกลับการพูดคุยโดยจะต้องเปิดใช้งาน การพูดคุย - โพสต์ ไว้","to_view_announcements_announcements_view_must_also_75f652df":"ดูประกาศโดยจะต้องเปิดใช้งาน ประกาศ - ดู ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_51",
+  function() { return {"allows_user_to_view_the_eportfolio_moderation_page_5a6be051":"อนุญาตให้ผู้ใช้ดูหน้า การควบคุม ePortfolio และจัดการข้อมูลขยะของ ePortfolio","eportfolios_f6dc4579":"ePortfolio"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_52",
+  function() { return {"allows_user_to_reply_to_a_discussion_post_83f43e19":"อนุญาตให้ผู้ใช้สามารถตอบกลับโพสต์การพูดคุย","if_the_option_requiring_users_to_post_before_seein_a9274f5f":"หากเลือกตัวเลือกที่กำหนดให้ผู้ใช้ต้องทำการโพสต์ก่อนดูการตอบกลับไว้จากส่วนการพูดคุย ผู้ใช้จะต้องโพสต์การตอบกลับเพื่อดูโพสต์ทั้งหมด ยกเว้นหาก การพูดคุย - ควบคุม ถูกเปิดใช้งานไว้ด้วย","to_view_discussions_in_a_course_discussions_view_m_eb15b3f1":"ดูการพูดคุยในบทเรียนโดยจะต้องเปิดใช้งาน การพูดคุย - ดู ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_53",
+  function() { return {"allows_user_to_access_the_announcements_link_in_co_f2e824e9":"อนุญาตให้ผู้ใช้ใช้งานลิงค์ประกาศในส่วนการสืบค้นเนื้อหาบทเรียน","allows_user_to_view_course_announcements_e71afc2":"อนุญาตให้ผู้ใช้ดูประกาศสำหรับบทเรียน","allows_user_to_view_recent_announcements_on_the_co_e56c881e":"อนุญอนุญาตให้ผู้ใช้ดูประกาศล่าสุดในโฮมเพจบทเรียน","allows_user_to_view_the_announcements_link_in_cour_b3522273":"อนุญาตให้ผู้ใช้ดูลิงค์ปะรกาศในส่วนการสืบค้นเนื้อหาบทเรียน","global_announcements_a78912c8":"ประกาศส่วนกลาง","this_permission_only_affects_course_announcements__6bc2b0a5":"สิทธิ์อนุญาตนี้จะมีผลเฉพาะกับประกาศสำหรับบทเรียนเพื่อจัดการประกาศจากส่วนกลาง โดยจะต้องเปิดใช้งาน ประกาศจากส่วนกลาง - เพิ่ม / แก้ไข / ลบ ไว้","to_add_announcements_discussions_moderate_must_als_a83fd681":"เพิ่มประกาศโดยจะต้องเปิดใช้งาน การพูดคุย - ควบคุม ไว้","to_manage_course_announcements_discussions_moderat_5f02f46e":"จัดการประกาศสำหรับบทเรียนโดยจะต้องเปิดใช้งาน การพูดคุย - ควบคุม ไว้ด้วย","to_view_recent_announcements_on_the_home_page_cour_5a91447e":"ดูประกาศล่าสุดในหน้าหลักโดยจะต้องเปิดใช้งาน เนื้อหาบทเรียน - ดู ไว้ และเลือกช่องทำเครื่องหมาย แสดงประกาศล่าสุดในหน้าหลักของบทเรียน ไว้ใน ค่าปรับตั้งบทเรียน","to_view_recent_announcements_on_the_home_page_the__fbd8d115":"ดูประกาศล่าสุดในหน้าหลักโดยจะต้องเลือกช่องทำเครื่องหมาย แสดงประกาศล่าสุดในหน้าหลักของบทเรียน ไว้ใน ค่าปรับตั้งบทเรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_54",
+  function() { return {"admin_tools_undelete_courses_d9bd8631":"เครื่องมือดูแลระบบ (เลิกลบบทเรียน)","allows_user_to_view_published_and_unpublished_cour_25a5dcc0":"อนุญาตให้ผู้ใช้ดูเนื้อหาบทเรียนที่เผยแพร่และไม่ได้เผยแพร่","if_course_visibility_is_limited_to_users_enrolled__ab1b1517":"หากจำกัดการแสดงผลบทเรียนไว้สำหรับผู้ใช้ที่ลงทะเบียนในบทเรียน สิทธิ์อนุญาตนี้จะช่วยให้ผู้ใช้สามารถดูเนื้อหาบทเรียนโดยไม่ต้องลงทะเบียนเข้าในบทเรียน","if_courses_manage_and_courses_undelete_are_also_en_9047d4b3":"หาก บทเรียน - จัดการ และ บทเรียน - เลิกลบ ถูกเปิดใช้งานไว้ด้วย ผู้ใช้ระดับบัญชีผู้ใช้จะสามารถกู้คืนบทเรียนที่ถูกลบได้จากเครื่องมือสำหรับผู้ดูแลระบบ","if_disabled_user_will_still_have_access_to_course__fbf32c87":"หากปิดใช้งานไว้ ผู้ใช้จะยังสามารถเข้าไปยังค่าปรับตั้งบทเรียนได้","to_view_the_gradebook_grades_view_all_grades_must__7ead435":"ดูสมุดบันทึกเกรดโดยจะต้องเปิดใช้งาน เกรด - ดูเกรดทั้งหมด ไว้ด้วย","user_cannot_manage_individual_course_content_witho_d7b65fd4":"ผู้ใช้ไม่สามารถจัดการเนื้อหาบทเรียนแยกเฉพาะหากไม่ได้รับสิทธิ์อนุญาตที่เหมาะสมสำหรับรายการเนื้อหาดังกล่าว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_55",
+  function() { return {"allows_user_to_filter_for_blueprint_courses_as_the_2b3d864e":"อนุญาตให้ผู้ใช้กรอกบทเรียนพิมพ์เขียวเป็นระดับบัญชีผู้ใช้ อนุญาตให้ผู้ใช้เพิ่มบทเรียนที่เกี่ยวข้อง","allows_user_to_see_the_list_of_courses_in_the_acco_5fa0142f":"อนุญาตให้ผู้ใช้ดูรายการบทเรียนในบัญชีผู้ใช้","allows_user_to_see_the_list_of_recently_started_an_f6d3fe6":"อนุญาตให้ผู้ใช้ดูรายการบทเรียนที่เริ่มต้นและสิ้นสุดเมื่อเร็ว ๆ นี้ในสถิติบัญชีผู้ใช้","if_this_permission_is_disabled_and_courses_add_is__acccce1b":"หากปิดใช้งานสิทธิ์อนุญาตนี้ไว้และเปิดใช้งาน บทเรียน - เพิ่ม ไว้ ผู้ใช้จะสามารถเพิ่มบทเรียนใหม่โดยใช้ปุ่ม เพิ่มบทเรียนใหม่ ในค่าปรับตั้งทางบัญชี","statistics_4573b730":"สถิติ","to_add_associated_courses_blueprint_courses_add_ed_c1567d8a":"เพิ่มบทเรียนที่เชื่อมโยงโดยจะต้องเปิดใช้งาน บทเรียนพิมพ์เขียว - เพิ่ม / แก้ไข / เชื่อมโยง / ลบ และ บทเรียน - เพิ่ม ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_56",
+  function() { return {"allows_user_to_search_for_account_users_via_primar_db535df4":"อนุญาตให้ผู้ใช้ค้นหาผู้ใช้บัญชีผ่านอีเมลแอดเดรสหลักในหน้าบุคคลสำหรับบัญชีผู้ใช้","allows_user_to_search_for_other_users_via_primary__c1da56c8":"อนุญาตให้ผู้ใช้ค้นหาผู้ใช้อื่นผ่านอีเมลแอดเดรสหลักในหน้า บุคคล สำหรับบทเรียน","allows_user_to_search_for_other_users_via_primary__c95888c8":"อนุญาตให้ผู้ใช้ค้นหาผู้ใช้อื่นผ่านอีเมลแอดเดรสหลักในหน้า บุคคล","if_this_permission_is_disabled_and_users_view_logi_9dbd9236":"หากปิดใช้งานสิทธิ์อนุญาตนี้ไว้ และเปิดใช้งาน ผู้ใช้ - ดู ID ล็อกอิน ไว้ ผู้ใช้จะยังเห็นอีเมลแอดเดรสที่ใช้เป็น ID ล็อกอิน","to_view_the_account_people_page_users_view_list_mu_9d0bdb80":"ดูเพจ บุคคล สำหรับบัญชีผู้ใช้โดยจะต้องเปิดใช้งาน ผู้ใช้ - ดูรายการ ไว้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_57",
+  function() { return {"allows_user_to_edit_blueprint_content_lock_setting_58a85315":"อนุญาตให้ผู้ใช้แก้ไขค่าปรับตั้งการล็อคเนื้อหาพิมพ์เขียวในค่าปรับตั้งแยกเฉพาะหากผู้ใช้ลงทะเบียนไว้กับบทเรียนหลักที่เป็นพิมพ์เขียว","allows_user_to_edit_blueprint_content_lock_setting_cbbf55ee":"อนุญาตให้ผู้ใช้แก้ไขค่าปรับตั้งการล็อคเนื้อหาพิมพ์เขียวในส่วนการพูดคุยแยกเฉพาะ","allows_user_to_view_course_discussions_23346fa1":"อนุญาตให้ผู้ใช้ดูการพูดคุยของบทเรียน","allows_user_to_view_the_discussions_link_in_course_80ab2fca":"อนุญาตให้ผู้ใช้ดูลิงค์การพูดคุยในส่วนการสืบค้นเนื้อหาบทเรียน","blueprint_courses_must_be_enabled_for_an_account_b_edd8f7d3":"บทเรียนพิมพ์เขียวจะต้องเปิดใช้งานสำหรับบัญชีผู้ใช้โดยผู้ดูแลระบบ","course_roles_can_only_manage_content_in_blueprint__c4b14b26":"ผู้มีบทบาทในบทเรียนจะสามารถจัดการได้เฉพาะเนื้อหาในบทเรียนพิมพ์เขียวหากถูกเพิ่มไปยังบทเรียนพิมพ์เขียวพร้อมกับผู้สอน, TA หรือผู้ออกแบบ","to_edit_blueprint_lock_settings_from_the_discussio_66c1f4d3":"แก้ไขค่าปรับตั้งการล็อคพิมพ์เขียวจากหน้าดัชนีส่วนการพูดคุย โดยจะต้องเปิดใช้งาน การพูดคุย - ควบคุม ไว้ด้วย","to_edit_lock_settings_from_the_discussions_index_p_d6743898":"แก้ไขค่าปรับตั้งการล็อคพิมพ์เขียวจากเพจดัชนีการพูดคุย โดยจะต้องเปิดใช้งาน บทเรียนพิมพ์เขียว - เพิ่ม / แก้ไข / เชื่อมโยง / ลบ และ บทเรียน - จัดการ ไว้ด้วย","to_reply_to_a_discussion_discussions_post_must_als_c9654a9b":"ตอบกลับการพูดคุยโดยจะต้องเปิดใช้งาน การพูดคุย - โพสต์ ไว้","to_share_a_discussion_to_commons_course_content_ad_962c5e53":"แชร์การพูดคุยไปยัง Commons โดยจะต้องเปิดใช้งาน เนื้อหาบทเรียน - เพิ่ม / แก้ไข / ลบ ไว้ด้วย","to_share_a_discussion_to_commons_courses_manage_mu_addad8ba":"แชร์การพูดคุยไปยัง Commons โดยจะต้องเปิดใช้งาน บทเรียน - จัดการ ร่วมด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_58",
+  function() { return {"allows_user_to_access_the_manage_question_banks_li_616d45c8":"อนุญาตให้ผู้ใช้ใช้งานลิงค์ จัดการแถวคำถาม ที่เพจ ดัชนีแบบทดสอบ","allows_user_to_view_and_link_questions_in_a_quiz_t_f6795580":"อนุญาตให้ผู้ใช้ดูและเชื่อมโยงคำถามในแบบทดสอบกับแถวคำถามระดับบัญชีผู้ใช้","allows_user_to_view_and_link_questions_in_a_quiz_t_f8c3d8de":"อนุญาตให้ผู้ใช้ดูและเชื่อมโยงคำถามในแบบทดสอบกับแถวคำถามระดับบทเรียน","question_banks_45bdf347":"แถวคำถาม","question_banks_courses_dd907ecf":"แถวคำถาม (บทเรียน)","quizzes_and_question_banks_9b7569e3":"แบบทดสอบและแถวคำถาม","to_access_the_manage_question_banks_link_in_a_cour_cc26af7c":"เข้าไปยังลิงค์จัดการแถวคำถามในเพจดัชนีแบบทดสอบโดยจะต้องเปิดใช้งาน เนื้อหาบทเรียน - ดู และ ภารกิจและแบบทดสอบ - จัดการ / แก้ไข ไว้ด้วย","to_fully_manage_course_level_question_banks_assign_3e5eb580":"จัดการแถวคำถามระดับบทเรียนทั้งหมดโดยจะต้องเปิดใช้งานสิทธิ์อนุญาต ภารกิจและแบบทดสอบ - จัดการ / แก้ไข ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_59",
+  function() { return {"allows_user_to_view_access_reports_f7be7a84":"อนุญาตให้ผู้ใช้ดูรายละเอียดใน สืบค้นรายงาน","allows_user_to_view_and_configure_reports_in_accou_d3cee49f":"อนุญาตให้ผู้ใช้ดูและกำหนดค่ารายงานในค่าปรับตั้งทางบัญชี","allows_user_to_view_last_activity_and_total_activi_105b5bc3":"อนุญาตให้ผู้ใช้ดูกิจกรรมล่าสุดและข้อมูลกิจกรรมทั้งหมดในหน้า บุคคล","allows_user_to_view_last_activity_and_total_activi_1455c521":"อนุญาตให้ผู้ใช้ดูรายงาน กิจกรรมล่าสุด และ กิจกรรมทั้งหมด","allows_user_to_view_last_activity_and_total_activi_786a7286":"อนุญาตให้ผู้ใช้ดูกิจกรรมล่าสุดและข้อมูลกิจกรรมทั้งหมดในหน้า บุคคล","allows_user_to_view_the_course_statistics_button_i_f44b2c7a":"อนุญาตให้ผู้ใช้ดูปุ่ม สถิติบทเรียน ในค่าปรับตั้งสำหรับบทเรียน","reports_course_f09b7d9e":"รายงาน (บทเรียน)","to_access_a_course_people_page_users_view_list_mus_5a4ee1a5":"เข้าไปยังเพจ บุคคลในบทเรียน โดยจะต้องเปิดใช้งาน ผู้ใช้ - ดูรายการ ร่วมด้วย","to_access_the_people_page_users_view_list_must_be__6f42bf9e":"เข้าไปยังเพจ บุคคล โดยจะต้องเปิดใช้งาน ผู้ใช้ - ดูรายการ ไว้","to_access_the_student_interactions_report_grades_v_69105662":"เข้าไปยังรายงานการปฏิสัมพันธ์ของผู้เรียนโดยจะต้องเปิดใช้งาน เกรด - ดูเกรดทั้งหมด ไว้ด้วย","to_view_last_activity_and_total_activity_informati_473265d8":"ดูกิจกรรมล่าสุดและข้อมูลกิจกรรมทั้งหมดในเพจ บุคคลภายในบทเรียน โดยจะต้องเปิดใช้งาน ผู้ใช้ - ดูรายการ ร่วมด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_60",
+  function() { return {"account_groups_2f301732":"กลุ่มบัญชีผู้ใช้","allows_user_to_access_the_people_link_in_account_n_d42a0fd4":"อนุญาตให้ผู้ใช้ใช้งานลิงค์ บุคคล ในส่วนการสืบค้นเนื้อหาทางบัญชี","allows_user_to_differentiate_assignments_to_indivi_37f701a5":"อนุญาตให้ผู้ใช้แยกความแตกต่างของภารกิจสำหรับผู้เรียนแต่ละราย","allows_user_to_search_grade_change_logs_by_grader__406d1976":"อนุญาตให้ผู้ใช้ค้นหาบันทึกประวัติการแก้ไขเกรดโดยผู้ให้เกรดหรือผู้เรียนใน ชุดเครื่องมือผู้ดูแลระบบ","allows_user_to_send_a_message_in_conversations_wit_d48abf1a":"อนุญาตให้ผู้ใช้ส่งข้อความใน การพูดคุย โดยไม่ต้องเลือกบทเรียน","allows_user_to_view_and_add_users_in_a_collaborati_9ec3c68b":"อนุญาตให้ผู้ใช้ดูและเมผู้ใช้ในส่วนความร่วมมือ","allows_user_to_view_enrollments_on_the_sections_ta_6279a03e":"อนุญาตให้ผู้ใช้ดูการลงทะเบียนในแท็บ กลุ่มย่อย","allows_user_to_view_groups_in_a_course_8a95805b":"อนุญาตให้ผู้ใช้ดูกลุ่มในบทเรียน","allows_user_to_view_list_of_users_in_the_account_1802ad42":"อนุญาตให้ผู้ใช้ดูรายชื่อผู้ใช้ในบัญชี","allows_user_to_view_list_of_users_in_the_course_pe_9ab1309c":"อนุญาตให้ผู้ใช้ดูรายชื่อผู้ใช้ในหน้า บุคคล ของบทเรียน","allows_user_to_view_login_logout_activity_of_users_e11dd2de":"อนุญาตให้ผู้ใช้ดูการล็อกอิน/ล็อกเอาท์ของผู้ใช้ในชุดเครื่องมือผู้ดูแลระบบ","allows_user_to_view_the_people_link_in_course_navi_58b38f5d":"อนุญาตให้ผู้ใช้ดูลิงค์ บุคคล ใน การสืบค้นเนื้อหาบทเรียน","allows_user_to_view_the_prior_enrollments_button_i_b04b8132":"อนุญาตให้ผู้ใช้ดูปุ่ม การลงทะเบียนก่อนหน้า ในหน้า บุคคล ของบทเรียน","groups_course_c73e4c2c":"กลุ่ม (บทเรียน)","navigation_allows_user_to_view_the_people_link_in__dd533d29":"ส่วนการสืบค้นช่วยให้ผู้ใช้สามารถดูลิงค์ บุคคล ใน การสืบค้นเนื้อหาบทเรียน","to_act_as_other_users_users_act_as_must_also_be_en_cc96faf1":"ดำเนินการในฐานะผู้ใช้อื่นโดยจะต้องเปิดใช้งาน ผู้ใช้ - ดำเนินการในฐานะ ไว้ด้วย","to_add_groups_groups_add_must_also_be_enabled_33680f91":"เพิ่มกลุ่มโดยจะต้องเปิดใช้งาน กลุ่ม - เพิ่ม ไว้ด้วย","to_delete_groups_groups_delete_must_also_be_enable_5157ff6e":"ลบกลุ่มโดยจะต้องเปิดใช้งาน กลุ่ม - ลบ ไว้ด้วย","to_edit_a_user_s_section_the_appropriate_users_per_31b7a90d":"แก้ไขกลุ่มย่อยของผู้ใช้โดยจะต้องเปิดใช้งานสิทธิ์อนุญาตสำหรับผู้ใช้ที่เหมาะสม (เช่น ผู้ใช้ - ผู้สอน) ผู้ใช้ - อนุญาตการจัดการในบทเรียน และ การพูดคุย - ส่งไปยังสมาชิกในบทเรียน ไว้ด้วย","to_edit_groups_groups_manage_must_also_be_enabled_64b30525":"แก้ไขกลุ่มโดยจะต้องเปิดใช้งาน กลุ่ม - จัดการ ไว้ด้วย","to_generate_grade_change_logs_in_admin_tools_grade_cbcab1c9":"จัดทำบันทึกประวัติการแก้ไขเกรดใน เครื่องมือผู้ดูแลระบบ โดยจะต้องเปิดใช้งาน เกรด - ดูบันทึกประวัติการแก้ไข ไว้ด้วย","to_generate_login_logout_activity_in_admin_tools_u_603c40a0":"จัดทำส่วนรายการล็อกอิน/ล็อกเอาท์ใน ชุดเครื่องมือผู้ดูแลระบบ โดยจะต้องเปิดใช้งาน ผู้ใช้ - จัดการรายละเอียดล็อกอินหรือสถิติ - ดู ไว้ด้วย","to_send_a_message_to_an_individual_user_conversati_8d86a0da":"ส่งข้อความไปยังผู้ใช้เฉพาะรายโดยจะต้องเปิดใช้งาน การพูดคุย - ส่งข้อความไปยังสมาชิกในบทเรียนเฉพาะราย ไว้ด้วย","to_view_account_level_groups_groups_manage_must_al_ca16b035":"ดูกลุ่มระดับบัญชีผู้ใช้โดยจะต้องเปิดใช้งาน กลุ่ม - จัดการ ไว้ด้วย","to_view_user_page_views_statistics_view_must_also__e400875a":"ดูมุมมองเพจผู้ใช้โดยจะต้องเปิดใช้งาน สถิติ - ดู ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_61",
+  function() { return {"account_and_subaccount_40c6430":"บัญชีและบัญชีย่อย","allows_user_to_view_a_course_s_sis_id_5c4a4c50":"อนุญาตให้ผู้ใช้ดู SIS ID สำหรับบทเรียน","allows_user_to_view_course_sis_id_3a1818a5":"อนุญาตให้ผู้ใช้ดู SIS ID บทเรียน","allows_user_to_view_the_sis_id_in_a_user_s_login_d_71e0922b":"อนุญาตให้ผู้ใช้ดู SIS ID ในรายละเอียดล็อกอินของผู้ใช้","allows_user_to_view_the_user_sis_id_column_in_the__265cb234":"อนุญาตให้ผู้ใช้ดูคอลัมน์ SIS ID ของผู้ใช้ใน CSV วิเคราะห์รายการแบบทดสอบ","allows_user_to_view_user_sis_ids_68a9d218":"อนุญาตให้ผู้ใช้ดู SIS ID","allows_user_to_view_user_sis_ids_in_a_course_peopl_fc145ade":"อนุญาตให้ผู้ใช้ดู SIS ID ในหน้า บุคคล ของบทเรียน","governs_account_related_sis_ids_i_e_subaccount_sis_b7dd0954":"กำกับดูแล SIS ID ทางบัญชีที่เกี่ยวข้อง (เช่น SIS ID บัญชีย่อย)","if_sis_data_manage_is_disabled_and_sis_data_read_i_3db0be5":"หากปิดใช้งาน ข้อมูล SIS - จัดการ ไว้ และเปิดใช้งาน ข้อมูล SIS - อ่าน ไว้ ผู้ใช้จะสามารถดูบทเรียน ผู้ใช้และ SIS ID สำหรับบัญชีย่อยเท่านั้น","if_sis_data_manage_is_enabled_and_sis_data_read_is_155d15ef":"หากเปิดใช้งาน ข้อมูล SIS - จัดการ ไว้ และปิดใช้งาน ข้อมูล SIS - อ่าน ไว้ สิทธิ์อนุญาตทางบัญชีจะบอกล้างสิทธิ์อนุญาตสำหรับบทเรียน","subaccount_admins_are_not_able_to_view_sis_informa_a9690589":"ผู้ดูแลบัญชีย่อยจะไม่สามารถดูข้อมูล SIS ได้ เว้นแต่จะได้รับอนุญาตในฐานะผู้สอนในบทเรียนด้วย","subaccount_admins_cannot_view_sis_information_with_15a41444":"ผู้ดูแลบัญชีย่อยจะไม่สามารถดูข้อมูล SIS โดยไม่มีการเชื่อมโยงบทเรียน เนื่องจากบทบาทผู้สอนจะมีสิทธิ์อนุญาตในการอ่านข้อมูล SIS ในระดับบัญชีผู้ใช้","subaccounts_only_have_ownership_of_courses_and_sec_56385a91":"บัญชีย่อยจะมีสถานะดูแลเฉพาะบทเรียนและกลุ่มย่อย ไม่สามารถมีข้อมูลผู้ใช้ได้ ผู้ดูแลบัญชีย่อยจะไม่สามารถดูข้อมูล SIS ได้ เว้นแต่จะได้รับอนุญาตในฐานะผู้สอนในบทเรียนด้วย","to_add_or_remove_users_to_a_course_via_sis_the_app_a1eee199":"เพิ่มหรือลบผู้ใช้ไปยังบทเรียนผ่าน SIS โดยจะต้องเปิดใช้งานสิทธิ์อนุญาตผู้ใช้ที่เกี่ยวข้อง (เช่น ผู้ใช้ - ผู้สอน)","to_disallow_users_from_viewing_any_sis_ids_at_the__7e0cac1b":"ไม่อนุญาตผู้ใช้ให้ดู SIS ID ในระดับบทเรียนโดยจะต้องปิดใช้งานทั้ง ข้อมูล SIS - จัดการ และ ข้อมูล SIS - อ่าน ไว้","to_manage_sis_data_sis_data_manage_must_be_enabled_cb33e77d":"จัดการข้อมูล SIS โดยจะต้องเปิดใช้งาน ข้อมูล SIS - จัดการ ไว้","to_view_a_user_s_login_details_users_view_list_and_6d42118b":"ดูรายละเอียดล็อกอินของผู้ใช้โดยจะต้องเปิดใช้งานทั้ง ผู้ใช้ - ดูรายการ และ แก้ไขรายละเอียดล็อกอินสำหรับผู้ใช้ ไว้","to_view_the_list_of_users_in_the_course_users_view_b7b9b4ef":"ดูรายชื่อผู้ใช้ในบทเรียนโดยจะต้องเปิดใช้งาน ผู้ใช้ - ดูรายการ ไว้ด้วย","users_and_terms_are_located_at_the_account_so_the__8f3258e6":"ผู้ใช้และเทอมจะอยู่ในบัญชีดังกล่าว ดังนั้นปลายทาง SIS จะยืนยันสิทธิ์อนุญาตของผู้ใช้ตามบัญชีผู้ใช้เสมอ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_62",
+  function() { return {"allows_user_to_select_final_grade_for_moderated_as_c5e28a9c":"อนุญาตให้ผู้ใช้เลือกเกรดสรุปสำหรับภารกิจที่มีการควบคุม","to_add_students_to_a_moderation_set_grades_view_al_40f2b8eb":"เพิ่มผู้เรียนไปยังชุดการควบคุมโดยจะต้องเปิดใช้งาน เกรด - ดูเกรดทั้งหมด ไว้ด้วย","to_post_or_hide_grades_for_a_moderated_assignment__bf929e0c":"แจ้งหรือซ่อนเกรดสำหรับภารกิจที่มีการควบคุมโดยจะต้องเปิดใช้งาน เกรด - แก้ไข ไว้ด้วย","to_publish_final_grades_for_a_moderated_assignment_713090cf":"เผยแพร่เกรดสรุปสำหรับภารกิจที่มีการควบคุมโดยจะต้องเปิดใช้งาน เกรด - แก้ไข ไว้ด้วย","to_review_a_moderated_assignment_in_speedgrader_gr_33227412":"พิจารณาภารกิจที่มีการควบคุมสน SpeedGrader โดยจะต้องเปิดใช้งาน เกรด - แก้ไข ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_64",
+  function() { return {"allows_user_to_send_a_message_to_all_in_course_nam_4f41b5a2":"อนุญาตให้ผู้ใช้ส่งข้อความไปยัง “ทั้งหมดใน [ชื่อบทเรียน]” หรือ “ทั้งหมดใน [กลุ่มบทเรียน]”","allows_user_to_send_a_message_to_all_in_course_nam_992e425":"อนุญาตให้ผู้ใช้ส่งข้อความไปยัง “ทั้งหมดใน [ชื่อบทเรียน]” หรือ “ทั้งหมดใน [กลุ่มบทเรียน]”"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_63",
+  function() { return {"allows_user_to_send_messages_to_individual_course__9347e1e2":"อนุญาตให้ผู้ใช้ส่งข้อความไปยังสมาชิกเฉพาะรายสำหรับบทเรียน","to_edit_a_user_s_section_users_allow_administrativ_69b3cdaa":"แก้ไขกลุ่มย่อยของผู้ใช้โดยจะต้องเปิดใช้งาน ผู้ใช้ - อนุญาตการจัดการในบทเรียน และ ผู้ใช้ - ดูรายการ ไว้ด้วย ","when_disabled_students_can_still_send_individual_m_3bf396f2":"ขณะปิดใช้งาน ผู้เรียนยังสามารถส่งข้อความเฉพาะรายไปยังผู้สอน TA และผู้เรียนที่อยู่ในกลุ่มตามระดับบัญชีผู้ใช้เดียวกัน","when_disabled_students_can_still_send_individual_m_567a911c":"ขณะปิดใช้งาน ผู้เรียนยังสามารถส่งข้อความเฉพาะรายไปยังผู้สอน TA และผู้เรียนที่อยู่ในกลุ่มตามระดับบัญชีผู้ใช้เดียวกัน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_65",
+  function() { return {"admin_tools_restore_courses_tab_b07bbfa7":"เครื่องมือดูแลระบบ (แท็บกู้คืนบทเรียน)","allows_user_to_access_the_restore_courses_tab_in_a_397d9178":"อนุญาตให้ผู้ใช้ใช้งานแท็บ กู้คืนบทเรียน ใน เครื่องมือสำหรับผู้ดูแลระบบ","to_restore_a_deleted_course_in_an_account_manage_c_3ad933ee":"กู้คืนบทเรียนที่ถูกลบทิ้งในบัญชีผู้ใช้โดยจะต้องเปิดใช้งาน จัดการบทเรียน - ลบ และ เนื้อหาบทเรียน - ดู ไว้ด้วย","to_search_for_a_course_in_the_restore_courses_tab__93dffdd5":"ค้นหาบทเรียนในแท็บ กู้คืนบทเรียน โดยจะต้องเปิดใช้งาน เนื้อหาบทเรียน - ดู ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_66",
+  function() { return {"adds_analytics_link_on_the_user_settings_menu_3a048816":"เพิ่มลิงค์วิเคราะห์ในเมนูค่าปรับตั้งของผู้ใช้","adds_analytics_to_a_student_s_context_card_d4c1e3a3":"เพิ่มข้อมูลวิเคราะห์ไปยังการ์ดเนื้อหาของผู้เรียน","admin_tools_grade_change_logs_d804833f":"เครื่องมือดูแลระบบ (บันทึกประวัติการเปลี่ยนเกรด)","allows_user_to_access_speedgrader_from_an_assignme_3b908f7":"อนุญาตให้ผู้ใช้สามารถใช้งาน SpeedGrader จากภารกิจ","allows_user_to_access_the_student_progress_page_aca95197":"อนุญาตให้ผู้ใช้ใช้งานหน้า ความคืบหน้าของผู้เรียน","allows_user_to_export_the_gradebook_to_a_comma_sep_e52259a3":"อนุญาตให้ผู้ใช้ส่งออกสมุดบันทึกเกรดเป็นไฟล์คั่นด้วยจุลภาค (CSV)","allows_user_to_search_by_assignment_id_in_grade_ch_ae195b94":"อนุญาตให้ผู้ใช้สามารถค้นหาจาก ID ภารกิจในบันทึกประวัติการแก้ไขเกรด","allows_user_to_view_a_link_to_speedgrader_from_ass_8ed9b342":"อนุญาตให้ผู้ใช้ดูลิงค์ไปยัง SpeedGrader จากส่วนภารกิจ","allows_user_to_view_analytics_link_in_the_user_set_56867782":"อนุญาตให้ผู้ใช้ดูลิงค์วิเคราะห์ในเมนูค่าปรับตั้งสำหรับผู้ใช้","allows_user_to_view_gradebook_9720b3e2":"อนุญาตให้ผู้ใช้ดูสมุดบันทึกเกรด","allows_user_to_view_grader_comments_on_a_rubric_in_2ac9f890":"อนุญาตให้ผู้ใช้ดูความเห็นสำหรับผู้ให้เกรดจากเกณฑ์การให้คะแนนใน SpeedGrader","allows_user_to_view_student_grades_pages_e0091b20":"อนุญาตให้ผู้ใช้ดูหน้า เกรด ของผู้เรียน","allows_user_to_view_student_results_view_quiz_stat_7d77640a":"อนุญาตให้ผู้ใช้ดูผลลัพธ์ของผู้เรียน ดูสถิติแบบทดสอบ และสืบค้นแบบทดสอบจาก SpeedGrader","assignments_speedgrader_2fbd6df4":"ภารกิจ, SpeedGrader","if_both_grades_edit_and_grades_view_all_grades_are_ed522d43":"หากปิดใช้งานไว้ทั้ง เกรด - แก้ไข และ เกรด - ดูเกรดทั้งหมด สมุดบันทึกเกรดจะถูกซ่อนไว้จากส่วนการสืบค้นเนื้อหาบทเรียน","rubrics_speedgrader_a6ebec57":"เกณฑ์การให้คะแนน, SpeedGrader","to_post_or_hide_grades_grades_edit_must_also_be_en_c58f5efe":"แจ้งหรือซ่อนเกรดโดยจะต้องเปิดใช้งาน เกรด - แก้ไข ไว้ด้วย","to_view_module_progression_grades_view_all_grades__1acc0880":"ดูสถานะในหน่วยการเรียนโดยจะต้องเปิดใช้างน เกรด - ดูเกรดทั้งหมด ร่วมด้วย","to_view_student_analytics_analytics_view_must_also_a735c0b4":"ดูข้อมูลวิเคราะห์สำหรับผู้เรียนโดยจะต้องเปิดใช้งาน ข้อมูลวิเคราะห์ - ดู ไว้ด้วย","to_view_the_gradebook_course_content_view_must_als_45c2e607":"ดูสมุดบันทึกเกรดโดยจะต้องเปิดใช้งาน เนื้อหาบทเรียน - ดู ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_67",
+  function() { return {"allows_user_to_view_account_analytics_98fbc6ad":"อนุญาตให้ผู้ใช้ดูข้อมูลวิเคราะห์ทางบัญชี","allows_user_to_view_course_analytics_through_the_c_192889dc":"อนุญาตให้ผู้ใช้ดูข้อมูลวิเคราะห์บทเรียนผ่านแผงข้อมูลบทเรียน","allows_user_to_view_course_and_student_analytics_f_5e3dca12":"อนุญาตให้ผู้ใช้ดูข้อมูลวิเคราะห์บทเรียนและผู้เรียนจากหน้าหลักบทเรียนหรือหน้า บุคคล","allows_user_to_view_student_analytics_89bfd9e8":"อนุญาตให้ผู้ใช้ดูข้อมูลวิเคราะห์ของผู้เรียน","analytics_account_c2bf8cf6":"ข้อมูลวิเคราะห์ (บัญชี)","analytics_course_5d53aef7":"ข้อมูลวิเคราะห์ (บทเรียน)","the_analytics_feature_must_be_enabled_in_account_s_869b63a2":"ระบบวิเคราะห์จะต้องเปิดใช้งานไว้ในค่าปรับตั้งทางบัญชีเพื่อดูเพจข้อมูลวิเคราะห์","to_see_the_analytics_link_in_the_user_sidebar_from_6a8b20d9":"ดูลิงค์ข้อมูลวิเคราะห์ในแถวรายการด้านข้างสำหรับผู้ใช้จากเพจ บุคคล โดยจะต้องปิดใช้งาน โพรไฟล์ ในบัญชีผู้ใช้ของคุณ","to_view_student_analytics_in_course_analytics_grad_654a5c5a":"ดูข้อมูลวิเคราะห์สำหรับผู้เรียนในข้อมูลวิเคราะห์สำหรับบทเรียนโดยจะต้องเปิดใช้งาน เกรด - ดูเกรดทั้งหมด ไว้ด้วย","to_view_student_analytics_in_course_analytics_grad_91d58a8a":"ดูข้อมูลวิเคราะห์สำหรับผู้เรียนในข้อมูลวิเคราะห์สำหรับบทเรียนโดยจะต้องเปิดใช้งาน เกรด - ดูเกรดทั้งหมด ไว้ด้วย","to_view_student_analytics_users_view_list_and_grad_59d0da3e":"ดูข้อมูลวิเคราะห์สำหรับผู้เรียนโดยจะต้องเปิดใช้งาน ผู้ใช้ - ดูรายการ และ เกรด - ดูเกรดทั้งหมด ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_68",
+  function() { return {"allows_user_to_review_an_audit_trail_in_assignment_9ca5d03d":"อนุญาตให้ผู้ใช้พิจารณาประวัติการตรวจสอบในภารกิจ ทั้งที่มีการควบคุมและแบบไม่เปิดเผยตัว","to_post_or_hide_grades_for_an_assignment_grades_ed_974f6de4":"แจ้งหรือซ่อนเกรดสำหรับภารกิจโดยจะต้องเปิดใช้งาน เกรด - แก้ไข ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_69",
+  function() { return {"allows_user_to_view_course_activity_information_fo_e420113b":"อนุญาตให้ผู้ใช้ดูข้อมูลกิจกรรมในบทเรียนสำหรับบัญชีผู้ใช้","determines_visibility_of_the_course_activity_optio_6dc5ceb9":"กำหนดการแสดงผลของตัวเลือกกิจกรรมสำหรับบทเรียนในแท็บ การบันทึกประวัติเครื่องมือผู้ดูแลระบบ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_70",
+  function() { return {"allows_user_to_view_feature_options_in_account_set_befc6b83":"อนุญาตให้ผู้ใช้ดู ตัวเลือกคุณสมบัติ จากค่าปรับตั้งทางบัญชี","to_manage_feature_options_for_an_account_feature_o_6327c2da":"จัดการตัวเลือกคุณสมบัติการทำงานสำหรับบัญชีผู้ใช้โดยจะต้องเปิดใช้งาน ตัวเลือกคุณสมบัติ - เปิดใช้งาน / ปิดใช้งาน ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_71",
+  function() { return {"determines_visibility_of_the_grade_change_activity_6c23036b":"กำหนดการแสดงผลของตัวเลือกกิจกรรมการแก้ไขเกรดในแท็บ การบันทึกประวัติเครื่องมือผู้ดูแลระบบ","to_search_by_assignment_id_only_grades_view_all_gr_6c58d9bb":"ค้นหาจาก ID ภารกิจอย่างเดียวโดยจะต้องเปิดใช้งาน เกรด - ดูเกรดทั้งหมด ไว้ด้วย","to_search_by_course_id_or_assignment_id_grades_edi_ac2c7b94":"ค้นหาจาก ID บทเรียนหรือ ID ภารกิจโดยจะต้องเปิดใช้งาน เกรด - แก้ไข ไว้ด้วย","to_search_by_grader_or_student_id_users_view_must__4639a825":"ค้นหาจากผู้ให้เกรดหรือ ID ผู้เรียนโดยจะต้องเปิดใช้งาน ผู้ใช้ - ดู ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_72",
+  function() { return {"allows_students_to_access_other_student_groups_wit_43918810":"อนุญาตให้ผู้เรียนสืบค้นกลุ่มผู้เรียนอื่น ๆ ภายในชุดกลุ่มที่มีลิงค์ตรง","allows_user_to_view_the_group_home_pages_of_all_st_b463b0f9":"อนุญาตให้ผู้ใช้ดูหน้าหลักของกลุ่มสำหรับกลุ่มผู้เรียนทั้งหมด","by_default_students_are_able_to_create_groups_to_r_ac2a70bd":"ตามค่าเริ่มต้น ผู้เรียนจะสามารถจัดทำกลุ่ม จำกัดผู้เรียนจากการจัดทำกลุ่ม อย่าเลือก ให้ผู้เรียนจัดกลุ่มของตนเอง ใน ค่าปรับตั้งสำหรับบทเรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_73",
+  function() { return {"admin_tools_notifications_tab_120d6cdf":"เครื่องมือดูแลระบบ (แท็บการแจ้งข้อมูล)","allows_user_to_access_the_view_notifications_tab_i_71995596":"อนุญาตให้ผู้ใช้ใช้งานแท็บ ดูการแจ้งข้อมูล ใน เครื่องมือสำหรับผู้ดูแลระบบ","to_search_and_view_notifications_for_a_user_users__fab7293a":"ค้นหาและดูการแจ้งข้อมูลสำหรับผู้ใช้โดยจะต้องเปิดใช้งาน ผู้ใช้ - ดู ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_74",
+  function() { return {"allows_user_to_view_student_quiz_logs_e1c4491":"อนุญาตให้ผู้ใช้ดูบันทึกประวัติแบบทดสอบสำหรับผู้เรียน","grades_edit_must_also_be_enabled_c025f45d":"ต้องเปิดใช้งาน เกรด - แก้ไข ด้วย","the_quiz_log_auditing_feature_option_must_be_enabl_77bf321e":"ตัวเลือกคุณสมบัติในการตรวจสอบบันทึกประวัติการทดสอบจะต้องเปิดใช้งานไว้ในค่าปรับตั้งบทเรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_75",
+  function() { return {"account_statistics_2b52a1c9":"สถิติทางบัญชี","allows_admin_user_to_view_account_statistics_341f00d9":"อนุญาตผู้ใช้ที่เป็นผู้ดูแลระบบในการดูสถิติทางบัญชี","if_statistics_view_or_users_manage_login_details_i_18b00d5c":"หากเปิดใช้งาน สถิติ - ดู หรือ ผู้ใช้ - จัดการรายละเอียดการล็อกอิน ไว้ ผู้ใช้จะสามารถจัดทำส่วนรายการล็อกอิน/ล็อกเอาท์ได้จากในเครื่องมือสำหรับผู้ดูแลระบบ ซ่อนตัวเลือกในการล็อกอิน/ล็อกเอาท์ใน เครื่องมือสำหรับผู้ดูแลระบบ โดยจะต้องปิดใช้งานสิทธิ์อนุญาตทั้งสองอย่างนี้ไว้","to_view_user_page_views_users_view_list_must_also__81cc34ed":"ดูมุมมองเพจของผู้ใช้โดยจะต้องเปิดใช้งาน ผู้ใช้ - ดูรายการ ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "permissions_templates_76",
+  function() { return {"allows_user_to_search_for_other_users_by_login_id__2b0bd8c9":"อนุญาตให้ผู้ใช้ค้นหาผู้ใช้อื่นจาก ID ล็อกอินในหน้า บุคคล ของบทเรียน","allows_user_to_search_for_other_users_by_login_id__3edb3702":"อนุญาตให้ผู้ใช้ค้นหาผู้ใช้อื่นจาก ID ล็อกอินในหน้า บุคคล ของบัญชีผู้ใช้","if_this_permission_is_enabled_and_if_users_view_pr_9ba99d6":"หากสิทธิ์อนุญาตนี้ถูกเปิดใช้งานและหากปิดใช้งาน ผู้ใช้ - ดูอีเมลแอดเดรสหลัก ไว้ ผู้ใช้จะเห็นอีเมลแอดเดรสที่ใช้เป็น ID สำหรับล็อกอิน","people_account_course_97b2bbb6":"บุคคล (บัญชี, บทเรียน)","to_view_login_ids_users_allow_administrative_actio_1b5789db":"ดู ID ล้อกอินโดยจะต้องเปิดใช้งาน ผู้ใช้ - อนุญาตการจัดการในบทเรียน ไว้ด้วย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "plugins",
+  null,
+  function() { return {"buttons":{"saving":"กำลังบันทึก..."}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "user_profile",
+  function() { return {"are_you_sure_you_want_to_remove_this_user_s_profil_6d703c4":"แน่ใจว่าต้องการลบภาพโพรไฟล์ผู้ใช้นี้หรือไม่","failed_to_remove_the_image_please_try_again_bd3ca65d":"ไม่สามารถลบภาพได้ กรุณาลองใหม่อีกครั้ง","failed_to_report_the_image_please_try_again_92398b47":"ไม่สามารถรายงานภาพดังกล่าว กรุณาลองใหม่อีกครั้ง","report_profile_picture_8f1d7535":"รายงานภาพโพรไฟล์","reported_profile_pictures_will_be_sent_to_administ_50fd4d05":"ภาพโพรไฟล์ที่แจ้งจะถูกส่งไปยังผู้ดูแลระบบเพื่อให้พิจารณา คุณจะไม่สามารถเลิกดำเนินการในส่วนนี้ได้","the_profile_picture_has_been_removed_74d50047":"ลบภาพโพรไฟล์แล้ว","the_profile_picture_has_been_reported_762e3755":"มีการแจ้งภาพโพรไฟล์แล้ว"} },
+  function() { return {"invalid_url":"URL ไม่ถูกต้อง","profile_bio_too_long":"ประวัติยาวเกินไป","profile_title_too_long":"ชื่อยาวเกินไป"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "profile",
+  function() { return {"bounce_count_reset_c4c2218f":"รีเซ็ตจำนวนที่ตีกลับแล้ว!","cell_number_is_invalid_bd6faee0":"เบอร์มือถือไม่ถูกต้อง!","cell_number_is_required_2edcee60":"ต้องระบุเบอร์มือถือ","confirm_communication_channel_81c48d08":"ยืนยันช่องทางการสื่อสาร","confirmation_failed_please_try_again_ae566d37":"การยืนยันล้มเหลว  กรุณาลองใหม่อีกครั้งในภายหลัง","country_or_region_is_required_86917b39":"ต้องระบุประเทศหรือภูมิภาค","email_is_invalid_e0d982eb":"อีเมลไม่ถูกต้อง!","profile_photo_save_failed_too_many_times_e1ebda5":"บันทึกภาพโพรไฟล์ล้มเหลวหลายครั้งเกินไป","this_is_the_default_email_address_f3c421fb":"นี่เป็นอีเมลแอดเดรสเริ่มต้น","your_profile_photo_could_not_be_uploaded_you_may_h_1c90540c":"ไม่สามารถอัพโหลดภาพโพรไฟล์ของคุณ คุณอาจอัพโหลดเกินจำกัดที่กำหนดไว้"} },
+  function() { return {"buttons":{"generate_token":"จัดทำชุดข้อมูล","generating_token":"กำลังจัดทำชุดข้อมูล...","regenerate_token":"จัดทำชุดข้อมูลใหม่","regenerating_token":"กำลังจัดทำชุดข้อมูลใหม่...","save":"บันทึก","select_profile_picture":"เลือกภาพโพรไฟล์","selecting_image":"กำลังเลือกภาพ..."},"confirming_contact":"กำลังยืนยัน...","confirms":{"delete_access_key":"แน่ใจว่าต้องการลบคีย์ใช้งานนี้หรือไม่","delete_login":"แน่ใจว่าต้องการลบข้อมูลล็อกอินนี้หรือไม่","regenerate_token":"แน่ใจว่าต้องการจัดทำชุดข้อมูลนี้ใหม่หรือไม่  อัพเดตทุกอย่างที่ใช้ชุดข้อมูลนี้","unregister_service":"แน่ใจว่าต้องการยกเลิกการลงทะเบียนบริการนี้หรือไม่"},"done_resending":"เสร็จสิ้น! การจัดส่งข้อความอาจใช้เวลาสักครู่","errors":{"generating_token_failed":"จัดทำชุดข้อมูลล้มเหลว","regenerating_token_failed":"การจัดทำชุดข้อมูลล้มเหลว","registration_failed":"การลงทะเบียนล้มเหลว ตรวจสอบชื่อผู้ใช้และรหัสผ่าน และลองอีกครั้ง"},"failed_resending":"คำขอล้มเหลว ลองใหม่อีกครั้ง","links":{"resend_confirmation":"ส่งการยืนยันใหม่","resend_confirmation_failed":"คำขอล้มเหลว ลองใหม่อีกครั้ง","resending_confirmation":"กำลังส่งใหม่...","resent_confirmation":"เสร็จสิ้น! การส่งข้อความอาจใช้เวลาสักครู่"},"notices":{"contact_confirmed":"ยืนยันข้อมูลติดต่อเสร็จสิ้น!","mfa_disabled":"ปิดใช้งานการตรวจรับรองแบบหลายชั้นแล้ว"},"please_select_an_option":"กรุณาเลือกตัวเลือก","purpose_required":"ต้องระบุเป้าหมาย","resending":"กำลังส่งใหม่...","titles":{"confirm_email_address":"ยืนยันอีเมลแอดเดรส","contact_not_confirmed":"ข้อมูลติดต่อนี้ไม่ได้มีการยืนยัน  คลิกที่อยู่ดังกล่าวเพื่อดูรายละเอียดเพิ่มเติม","email_not_confirmed":"อีเมลนี้ยังไม่ได้มีการยืนยัน  คลิกที่อยู่ดังกล่าวเพื่อดูรายละเอียดเพิ่มเติม","register_communication":"ลงทะเบียนการสื่อสาร","unconfirmed_click_to_confirm":"ยังไม่ได้ยืนยัน  คลิกเพื่อยืนยัน"},"token_never_expires":"ไม่เคย"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "fromNowFuzzy",
+  function() { return {"a_few_seconds_ago_e43118d":"ไม่กี่วินาทีก่อนหน้านี้","in_a_few_seconds_538ddff3":"ภายในไม่กี่วินาที","in_less_than_a_minute_c8595a28":"น้อยกว่าหนึ่งนาที","less_than_a_minute_ago_9f45e2a5":"น้อยกว่าหนึ่งนาทีที่ผ่านมา"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "QRMobileLogin",
+  function() { return {"an_error_occurred_while_retrieving_your_qr_code_5392e2da":"เกิดข้อผิดพลาดขณะเรียกค้นรหัส QR ของคุณ","click_cancel_if_you_don_t_want_the_code_displayed_ff7b1846":"คลิก “ยกเลิก” หากคุณไม่ต้องการจัดแสดงรหัส","click_proceed_to_continue_b6eeffc6":"คลิก “ดำเนินการต่อ” เพื่อดำเนินการต่อ","confirm_qr_code_display_49664fa3":"ยืนยันการแสดงรหัส QR","please_make_sure_no_one_is_able_to_capture_the_ima_3d6498e7":"กรุณาตรวจสอบว่าไม่มีใครที่สามารถเก็บภาพนี้ในหน้าจอของคุณจากพื้นที่แวดล้อมหรือจากบริการแชร์หน้าจอ","qr_code_display_was_canceled_96234bf2":"การแสดงรหัส QR ถูกยกเลิก","qr_code_image_2b3a89b5":"ภาพรหัส QR","qr_for_mobile_login_1b1560ce":"QR สำหรับล็อกอินผ่านอุปกรณ์พกพา","sharing_a_qr_code_can_give_others_immediate_access_79575158":"การแชร์รหัส QR จะช่วยให้บุคคลอื่นสามารถเข้าไปยังบัญชีของคุณได้ในทันทีผ่านแอพพลิเคชั่นสำหรับอุปกรณ์พกพา %{canvas}","this_code_expires_timefromnow_877a5225":"รหัสนี้หมดอายุ %{timeFromNow}","this_code_has_expired_41f76642":"รหัสนี้หมดอายุแล้ว","to_log_in_to_your_canvas_account_when_you_re_on_th_63ac63b1":"ล็อกอินไปยังบัญชี Canvas ของคุณขณะเดินทางโดยสแกนรหัส QR จากแอพ Canvas สำหรับอุปกรณ์พกพา","waiting_for_confirmation_to_display_qr_code_6f904d63":"กำลังรอการยืนยันเพื่อแสดงรหัส QR","waiting_for_your_qr_code_to_load_809299e5":"กำลังรอโหลดรหัส QR ของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "bundles_quesiton_bank",
+  null,
+  function() { return {"titles":{"find_outcomes":"ค้นหาผลลัพธ์"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "add_bank",
+  null,
+  function() { return {"default_name":"ไม่มีชื่อ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "question_bank",
+  null,
+  function() { return {"align_outcomes":"ประสานผลลัพธ์","already_bookmarked":"ทำบุ๊กมาร์กไว้แล้ว","bookmark_failed":"ทำบุ๊กมาร์กล้มเหลว","bookmarking":"กำลังทำบุ๊กมาร์ก...","buttons":{"submit_copying":{"one":"กำลังคัดลอกคำถาม...","other":"กำลังคัดลอกคำถาม..."},"submit_copying_failed":{"one":"คัดลอกคำถามล้มเหลว กรุณาลองใหม่อีกครั้ง","other":"คัดลอกคำถามล้มเหลว กรุณาลองใหม่อีกครั้ง"},"submit_moving":{"one":"กำลังย้ายคำถาม...","other":"กำลังย้ายคำถาม..."},"submit_moving_failed":{"one":"ย้ายคำถามล้มเหลว กรุณาลองใหม่อีกครั้ง","other":"ย้ายคำถามล้มเหลว กรุณาลองใหม่อีกครั้ง"},"submit_retry_copying":"คัดลอกคำถามล้มเหลว กรุณาลองใหม่อีกครั้ง...","submit_retry_moving":"ย้ายคำถามล้มเหลว กรุณาลองใหม่อีกครั้ง..."},"delete_are_you_sure":"แน่ใจว่าต้องการลบแถวคำถามนี้หรือไม่","links":{"more_questions":"คำถามเพิ่มเติม"},"load_questions":"กำลังโหลดคำถาม...","loading_more_fail":"โหลดคำถามเพิ่มเติมล้มเหลว กรุณาลองใหม่อีกครั้ง","move_questions":"ย้ายคำถาม","multiple_questions":"หลายคำถาม","question_bank":"แถวคำถาม","remove_outcome_from_bank":"แน่ใจว่าต้องการลบผลลัพธ์จากแถวนี้หรือไม่","title":{"move_copy_questions":"ย้าย/คัดลอกคำถาม"},"update_outcomes_fail":"อัพเดตผลลัพธ์ล้มเหลว","updating_outcomes":"กำลังอัพเดตผลลัพธ์..."} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "load_bank",
+  null,
+  function() { return {"error_loading_banks":"มีข้อผิดพลาดในการโหลดแถวรายการ","loading_banks":"กำลังโหลดแถวรายการ..."} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "question_banks",
+  null,
+  function() { return {"delete_question_bank_prompt":"แน่ใจว่าต้องการลบแถวคำถามนี้หรือไม่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "quiz_log_auditing",
+  function() { return {"answer_sequence_cfeda025":"ลำดับคำตอบ","question_9121487":"คำถาม"} },
+  function() { return {"buttons":{"reload_events":"รีโหลด","table_view":"ดูตาราง"},"event_stream":{"headers":{"action_log":"บันทึกประวัตการดำเนินการ"},"notices":{"no_events_available":"ไม่มีกิจกรรมที่บันทึกไว้ระหว่างการทำแบบทดสอบ"},"page_blurred":"หยุดดูเพจทำแบบทดสอบของ Canvas...","page_focused":"ดำเนินการต่อ","question_answered":{"one":"คำถามที่ตอบแล้ว:","other":"ได้ตอบคำถามต่อไปนี้"},"question_flagged":"คำถามที่มีหมายเหตุกำกับ:","question_unflagged":"คำถามที่ไม่ได้ทำหมายเหตุกำกับ:","question_viewed":{"one":"คำถามที่เปิดดู (และอาจอ่านแล้ว)","other":"ดู (และอาจอ่าน) คำถามต่อไปนี้แล้ว:"},"session_started":"เริ่มส่วนรายการแล้ว"},"links":{"log_accessibility_warning":"คำเตือน: เพื่อให้การใช้งานสะดวกมากขึ้นขณะใช้บันทึกประวัติแบบทดสอบ กรุณาค้างอยู่ในมุมมองสตรีมปัจจุบัน"},"navigation":{"links":{"back_to_session_information":"กลับไปที่บันทึกประวัติ","question":"คำถาม %{position}"},"questions":"คำถาม"},"no_answer":"ไม่มีคำตอบ","page_header":"ข้อมูลส่วนทำรายการ","question_answers":{"essay":{"view_html_answer":"ดู HTML","view_plain_answer":"ดูแบบปกติ"}},"question_header":"คำถาม #%{position}","question_response_count":{"one":"คำถามนี้มีการตอบหนึ่งครั้ง","other":"คำถามนี้มีการตอบ %{count} ครั้ง","zero":"คำถามนี้ไม่เคยได้รับคำตอบ"},"question_type":"%{type}","session_table_headers":{"attempt":"การดำเนินการ","started_at":"เริ่มเมื่อ"},"table_view":{"buttons":{"go_to_stream":"ดูสตรีม"},"headers":{"question":"คำถาม %{position}","timestamp":"การกำกับเวลา"},"legend":{"dotted_circle":"วงกลมประจุด","dotted_circle_desc":"คำตอบไม่ว่าจะถูกต้องหรือไม่","empty_circle":"วงกลมเปล่า","empty_circle_desc":"คำตอบว่างเปล่า","filled_circle":"วงกลมเต็มพื้นที่","filled_circle_desc":"คำตอบสรุปสำหรับคำถาม ข้อที่มีการพิจารณา"},"options":{"expand_all":"ขยายคำตอบทั้งหมด","invert":"สับเปลี่ยน","truncate":"ตัดทอนข้อความคำตอบ"}}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "quiz_migration_notifications",
+  function() { return {"there_was_an_error_removing_the_notification_20a9de65":"มีข้อผิดพลาดในการลบการแจ้งข้อมูล"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "quiz_reports",
+  function() { return {"download_item_analysis_report_statuslabel_8c9387ec":"ดาวน์โหลดรายงานวิเคราะห์รายการ %{statusLabel}","download_student_analysis_report_statuslabel_1471c8c2":"ดาวน์โหลดรายงานวิเคราะห์ผู้เรียน %{statusLabel}","generate_item_analysis_report_statuslabel_16e02c8":"จัดทำรายงานวิเคราะห์รายการ %{statusLabel}","generate_student_analysis_report_statuslabel_aecdc4dc":"จัดทำรายงานวิเคราะห์ผู้เรียน %{statusLabel}"} },
+  function() { return {"cancel_generation":"ยกเลิก","generatable":"ไม่เคยมีการจัดทำรายงาน","generated_at":"ที่จัดทำ: %{date}","generating":"กำลังจัดทำรายงาน...","generation_almost_done":"เกือบเสร็จแล้ว","generation_halfway":"เหลืออีกไม่ถึงครึ่งทาง","generation_started":"กำลังจัดทำรายงาน","item_analysis":"การวิเคราะห์รายการ","non_generatable_report_notice":"ไม่สามารถจัดทำรายการได้สำหรับแบบทดสอบการสำรวจความเห็น","student_analysis":"ข้อมูลวิเคราะห์ผู้เรียน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "quiz_statistics",
+  function() { return {"a_table_of_answers_and_brief_statistics_regarding__f516e98f":"ตารางคำตอบและข้อมูลทางสถิติอย่างย่อเกี่ยวกับตัวเลือกคำตอบของผู้เรียน","answer_correct_answer_c2c4a20c":"%{answer}, (คำตอบที่ถูกต้อง)","answer_description_6b353cfd":"รายละเอียดคำตอบ","answer_distribution_2a956e3f":"การกระจายคำตอบ","answer_incorrect_answer_80efe585":"%{answer}, (คำตอบที่ไม่ถูกต้อง)","answer_text_909894d6":"ข้อความสำหรับคำตอบ","answers_which_scored_in_the_bottom_27_74409483":"คำตอบที่ทำคะแนนได้ในช่วง 27% จากต่ำสุด","answers_which_scored_in_the_middle_46_46466ffd":"คำตอบที่ทำคะแนนได้ในช่วง 46% ช่วงกลาง","answers_which_scored_in_the_top_27_a605232d":"คำตอบที่ทำคะแนนได้ในช่วง 27% จากบนสุด","correct_answer_5a6a57d1":"คำตอบถูกต้อง","correct_check_icon_617da6c3":"ไอคอนเครื่องหมายกำกับที่ถูกต้อง","graph_bar_b5daa23d":"แท่งกราฟ","incorrect_answer_7c17e63b":"คำตอบที่ไม่ถูกต้อง","it_divides_students_into_three_groups_based_on_the_1a107f5b":"\n        จะมีการแบ่งผู้เรียนเป็นสามกลุ่มตามคะแนนสำหรับแบบสอบถาม\n        ทั้งหมด และแสดงกลุ่มเหล่านี้จากผู้ที่ตอบคำถามได้ถูกต้อง\n      ","learn_more_about_quiz_statistics_315a378":"เรียนรู้เพิ่มเติมเกี่ยวกับสถิติแบบทดสอบ","percent_of_respondents_selecting_this_answer_4c2ce4ee":"เปอร์เซ็นต์ผู้ตอบที่เลือกคำตอบนี้","ratio_answered_correctly_b0c1e7d":"%{ratio}% ที่ตอบถูกต้อง","ratio_responded_correctly_6d890107":"%{ratio}% ที่ตอบกลับได้ถูกต้อง","this_metric_provides_a_measure_of_how_well_a_singl_a9aa334e":"\n        โครงสร้างนี้ใช้เป็นเกณฑ์ประเมินว่าคำถามหนึ่งข้อจะสามารถบอก\n        ข้อแตกต่าง (หรือแจกแจง) ระหว่างผู้เรียนที่ทำแบบทดสอบได้ดีและ\n        คนที่ไม่ใช่ได้อย่างไร\n      ","ungraded_answers_31ef2df7":"คำตอบที่ยกเลิกการให้เกรด","unknown_answers_9688a2bc":"คำตอบที่ไม่รู้จัก"} },
+  function() { return {"attempts":"ครั้งที่: %{count} จาก %{total}","discrimination_index":{"audible_discrimination_index":"ดัชนีอำนาจจำแนก: %{number}.","discrimination_index":"ดัชนีอำนาจจำแนก","discrimination_index_dialog_title":"แผนผังดัชนีอำนาจจำแนก","discrimination_index_dialog_trigger":"เรียนรู้เพิ่มเติมเกี่ยวกับดัชนีอำนาจจำแนก"},"download_submissions":"ดาวน์โหลดไฟล์ทั้งหมด","duration_in_hours":{"one":"1 ชั่วโมง","other":"%{count} ชั่วโมง"},"duration_in_hours_and_minutes":"%{hours} และ %{minutes}","duration_in_minutes":{"one":"1 นาที","other":"%{count} นาที"},"duration_in_minutes_and_seconds":"%{minutes} และ %{seconds}","duration_in_seconds":{"one":"1 วินาที","other":"%{count} วินาที"},"empty_question_breakdown":"ไม่มีสถิติคำถามให้เรียกดู","loading_questions":"กำลังโหลดสถิติคำถาม กรุณารอสักครู่","no_answer":"ไม่มีคำตอบ","question_breakdown":"แยกย่อยคำถาม","question_header":"คำถาม %{position}","quiz-stats-noshow-warning":"ไม่ว่าจะยิ่งใหญ่แค่ไหนก็มีข้อจำกัด เราไม่สามารถเรนเดอร์ข้อมูลสถิติสำหรับแบบทดสอบนี้ แต่คุณสามารถดาวน์โหลดรายงานดังกล่าวได้","sad-panda-alttext":"เรื่องเศร้าในดินแดนของแพนด้า","speedgrader":"ดูใน SpeedGrader","summary":{"audible_chart_description":"%{above_average} ผู้เรียนที่ทำคะแนนได้มากกว่าหรือในระดับค่าเฉลี่ยและ %{below_average} ที่ต่ำกว่า ","avg_time":"เวลาเฉลี่ย","chart_title":"แผนผังเปอร์เซ็นต์ไทล์คะแนน","high_score":"คะแนนสูง","low_score":"คะแนนต่ำ","mean":"คะแนนเฉลี่ย","not_available_abbrev":"ไม่มี","quiz_summary":"สรุปแบบทดสอบ","stdev":"ค่าเบี่ยงเบนมาตรฐาน","table_description":"สถิติสรุปสำหรับผลงานจัดส่งที่ส่งมอบทั้งหมด"},"title":"สถิติแบบทดสอบ","unknown_answer":"อย่างอื่น","user_names":"ชื่อผู้ใช้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_respondents_fc4c2da4",
+  null,
+  function() { return {"one":"1 ผู้ตอบ","other":"%{count} ผู้ตอบ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_students_in_percentile_percentile_d0adecfe",
+  null,
+  function() { return {"one":"1 ผู้เรียนในเปอร์เซ็นไทล์ %{percentile} ","other":"%{count} ผู้เรียนในเปอร์เซ็นไทล์ %{percentile} "} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "quizzesIndexView",
+  function() { return {"there_was_a_problem_resetting_your_quiz_engine_cho_ba4277c7":"มีปัญหาในการรีเซ็ตตัวเลือกเอนจินแบบทดสอบของคุณ","your_quiz_engine_choice_has_been_reset_68d268c1":"รีเซ็ตตัวเลือกเอนจินแบบทดสอบของคุณแล้ว!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_quizzes_found_e5e29bb4",
+  null,
+  function() { return {"one":"พบ 1 แบบทดสอบ","other":"พบ %{count} แบบทดสอบ","zero":"ไม่พบแบบทดสอบที่ตรงกัน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "quizzes_index",
+  null,
+  function() { return {"headers":{"assignment_quizzes":"แบบทดสอบสำหรับภารกิจ","practice_quizzes":"แบบทดสอบฝึกหัด","surveys":"แบบสอบถาม"},"toggle_message":"เปิดปิดการแสดงแบบทดสอบ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "quiz_engine_modal",
+  function() { return {"canvas_now_has_two_quiz_engines_please_choose_whic_4aa9821":"Canvas มีเอนจินทดสอบอยู่สองชุดในตอนนี้ กรุณาเลือกรายการที่\n        คุณต้องการใช้","choose_a_quiz_engine_8820d521":"เลือกเอนจินทดสอบ","classic_quizzes_dee3c7b7":"แบบทดสอบแบบคลาสสิค","for_the_time_being_if_you_need_security_from_3rd_p_95f5c0d4":"ณ ปัจจุบัน หากต้องการความปลอดภัยโดยอาศัย\n        เครื่องมือจากภายนอก, SpeedGrader หรือ CSV สำหรับระบบวิเคราะห์การตอบกลับของผู้เรียน\n         นี่ถือเป็นตัวเลือกที่ดีกว่า","learn_more_about_the_differences_a1217479":"เรียนรู้เพิ่มเติมเกี่ยวกับความแตกต่าง","new_quizzes_dbda7e0a":"แบบทดสอบใหม่","remember_my_choice_for_this_course_5a3b7206":"จดจำตัวเลือกของฉันสำหรับบทเรียนนี้","this_has_more_question_types_like_hotspot_categori_620e9df6":"จะมีประเภทคำถามมากกว่า เช่น ฮอตสปอต\n        การจำแนกหมวดหมู่ การเทียบเคียงและการจัดลำดับ นอกจากนี้ยังมี\n        ส่วนการจัดการและคุณสมบัติรองรับมากกว่า"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "calculator",
+  null,
+  function() { return {"buttons":{"save":"บันทึก"},"command":{"abs":{"description":"แจ้งค่าสัมบูรณ์ของค่าที่ระบุ"},"acos":{"description":"แจ้ง arccos ของค่าที่ระบุ"},"asin":{"description":"แจ้ง arcsin ของค่าที่ระบุ"},"at":{"description":"แจ้งค่าดัชนีในรายการที่ระบุ"},"atan":{"description":"แจ้ง arctan ของค่าที่ระบุ"},"ceil":{"description":"แจ้งเพดานสำหรับค่าที่ระบุ"},"comb":{"description":"แจ้งผลร่วมสำหรับค่าที่ระบุ"},"cos":{"description":"แจ้ง cosine ของค่าที่ระบุ"},"cosec":{"description":"แจ้ง cosecant ของค่าที่ระบุ"},"cotan":{"description":"แจ้ง cotangent ของค่าที่ระบุ"},"count":{"description":"แจ้งจำนวนรายการของรายการดังกล่าว"},"default_description":"ไม่ได้ระบุรายละเอียด","deg_to_rad":{"description":"แจ้งค่าที่ระบุที่แปลงจากองศาเป็นเรเดียน"},"e":{"description":"แจ้งค่าสำหรับ e"},"fact":{"description":"แจ้งค่าแฟคทอเรียลของเลขที่แจ้ง"},"first":{"description":"แจ้งค่าแรกในรายการ"},"floor":{"description":"แจ้งเกณฑ์ต่ำสุดของค่าที่ระบุ"},"if":{"description":"ประเมินอาร์กิวเมนท์แรก แจ้งอาร์กิวเมนท์ที่สองหากมีการประเมินเป็นค่าที่ไม่ใช่ศูนย์ ไม่เช่นนั้นให้แจ้งค่าที่สาม"},"last":{"description":"แจ้งค่าสุดท้ายในรายการ"},"length":{"description":"แจ้งจำนวนอาร์กิวเมนท์ในรายการที่ระบุ"},"ln":{"description":"แจ้งบันทึกประวัติทั่วไปของค่าที่ระบุ"},"log":{"description":"แจ้งบันทึกประวัติของค่าที่ระบุพร้อมเกณฑ์เผื่อเลือก"},"max":{"description":"แจ้งค่าสูงสุดในรายการ"},"mean":{"description":"แจ้งค่าเฉลี่ยของค่าในรายการ"},"median":{"description":"แจ้งค่ามัธยฐานสำหรับรายการค่า"},"min":{"description":"แจ้งค่าต่ำสุดในรายการ"},"no_description":"ไม่พบรายละเอียดสำหรับฟังก์ชั่นนี้, %{functionName}","perm":{"description":"แจ้งผลการเรียงสับเปลี่ยนสำหรับค่าที่ระบุ"},"pi":{"description":"แจ้งค่าที่ประมวลผลสำหรับ pi"},"rad_to_deg":{"description":"แจ้งค่าที่ระบุที่แปลงจากเรเดียนเป็นองศา"},"rand":{"description":"แจ้งตัวเลขสุ่มระหว่างศูนย์และช่วงที่ระบุ หรือหนึ่งหากไม่ได้ระบุตัวเลขไว้"},"range":{"description":"แจ้งช่วงสำหรับรายการค่า"},"reverse":{"description":"กลับลำดับรายการค่า"},"round":{"description":"แจ้งค่าที่ระบุปัดเศษเป็นจำนวนเต็มที่ใกล้เคียงที่สุด"},"sec":{"description":"แจ้ง secant สำหรับค่าที่ระบุ"},"sin":{"description":"แจ้ง sine ของค่าที่ระบุ"},"sort":{"description":"แจ้งรายการค่าที่จัดเรียงจากต่ำสุดไปสูงสุด"},"sqrt":{"description":"แจ้งรากที่สองของค่าที่ระบุ"},"sum":{"description":"แจ้งผลรวมของรายการค่า"},"tan":{"description":"แจ้ง tangent ของค่าที่ระบุ"},"unrecognized":"%{functionName} ไม่ใช่ฟังก์ชั่นที่รู้จัก"},"decimal_places":"ตำแหน่งทศนิยม","delete_formula":"ลบสูตร","drag_to_reorder":"ลากเพียงเรียงลำดับใหม่","headings":{"formula":"สูตร","result":"ผลลัพธ์"},"last_formula_row":"แถวสูตรล่าสุดจะถูกใช้เพื่อประมวลผลคำตอบสรุป","sample_final_answer":"ค่านี้เป็นตัวอย่างคำตอบสรุปสำหรับคำถามประเภทนี้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "quizzes_public",
+  function() { return {"ip_filter_is_not_valid_152a46d8":"ตัวกรอง IP ไม่ถูกต้อง","please_add_at_least_one_non_blank_answer_213c2c8e":"กรุณาเพิ่มคำตอบแบบไม่ปล่อยว่างอย่างน้อยหนึ่งรายการ","please_add_at_least_one_non_blank_answer_for_each__a05a55f9":"กรุณาเพิ่มคำตอบแบบไม่ปล่อยว่างอย่างน้อยหนึ่งรายการสำหรับตัวแปรแต่ละตัว","quiz_40ee61b1":"แบบทดสอบ","the_quiz_name_must_be_under_length_characters_68e7de3a":"ชื่อแบบทดสอบจะต้องต่ำกว่า %{length} ตัวอักษร"} },
+  function() { return {"alerts":{"no_valid_combinations":"ระบบไม่สามารถจัดทำองค์ประกอบที่ถูกต้องใด ๆ สำหรับพารามิเตอร์ที่ระบุ","only_n_valid_combinations":{"one":"ระบบจัดทำองค์ประกอบที่ถูกต้องได้เพียง 1 รายการสำหรับพารามิเตอร์ที่ระบุ","other":"ระบบสามารถจัดทำองค์ประกอบที่ถูกต้องได้เพียง %{count} รายการสำหรับพารามิเตอร์ที่ระบุ"}},"answer_comments":"ความเห็นสำหรับคำตอบ","answer_text":"ข้อความสำหรับคำตอบ","at_the_bottom":"-- ด้านล่าง --","before_quiz_item":"ก่อน %{name}","buttons":{"add_selected_questions":"เพิ่มคำถามที่เลือก","adding_questions":"กำลังเพิ่มคำถาม...","create_group":"จัดทำกลุ่ม","create_question":"จัดทำคำถาม","creating_group":"กำลังจัดทำกลุ่ม...","generating":"กำลังจัดทำ...","generating_combinations_progress":"กำลังจัดทำ... (%{done}/%{total})","save":"บันทึก","save_and_publish":"บันทึกและเผยแพร่","saved":"บันทึกแล้ว!","saving":"กำลังบันทึก...","update_group":"อัพเดตกลุ่ม","update_question":"อัพเดตคำถาม"},"choose_option":"[ เลือก ]","confirms":{"delete_answer":"แน่ใจหรือไม่ การลบคำตอบจากคำถามที่มีผลงานจัดส่งจะเป็นการปิดตัวเลือกในการปรับเกรดคำถามนี้","delete_question":"แน่ใจว่าต้องการลบคำถามนี้หรือไม่","delete_quiz":"แน่ใจว่าต้องการลบแบบทดสอบนี้หรือไม่","scrap_and_restart":"ทิ้งคำถามนี้และเริ่มใหม่หรือไม่"},"default_answer_comments":"การตอบกลับหากผู้เรียนเลือกคำตอบนี้","default_answer_comments_on_match":"การตอบกลับหากผู้เรียนเชื่อมโยงกับคำถามนี้","default_comments_on_wrong_match":"การตอบกลับหากผู้ใช้พลาดการเทียบเคียงนี้","default_quesiton_name":"คำถาม","default_question_name":"คำถาม","default_quiz_title":"แบบทดสอบ","default_response_to_essay":"การตอบกลับสำหรับผู้เรียนหลังจากส่งคำตอบ","default_response_to_file_upload":"การตอบกลับสำหรับผู้เรียนหลังจากส่งคำตอบ","enter_answer_variable_above":"[ กรอกตัวแปรคำตอบด้านบน ]","errors":{"adding_questions_failed":"การเพิ่มคำถามล้มเหลว กรุณาลองใหม่อีกครั้ง","creating_group_failed":"จัดทำกลุ่มล้มเหลว กรุณาลองใหม่อีกครั้ง","field_is_required":"นี่เป็นฟิลด์บังคับ","invalid_show_correct_answers_range":"วันที่ซ่อนจะอยู่ก่อนวันที่แสดงไม่ได้","loading_banks_failed":"แถวคำถามไม่สามารถโหลดได้ กรุณาลองใหม่อีกครั้ง","loading_more_questions_failed":"โหลดคำถามเพิ่มเติมล้มเหลว","loading_question_failed":"โหลดคำถามล้มเหลว...","loading_questions_failed":"ไม่สามารถโหลดคำถาม กรุณาลองใหม่อีกครั้ง","missing_access_code":"คุณจะต้องกรอกรหัสใช้งาน","missing_ip_filter":"คุณจะต้องกรอกที่อยู่ IP ที่ถูกต้อง","no_answer":"กรุณาเพิ่มคำตอบอย่างน้อยหนึ่งข้อ","no_correct_answer":"กรุณาเลือกคำตอบที่ถูกต้อง","no_possible_solution":"กรุณาจัดทำคำตอบที่เป็นไปได้อย่างน้อยหนึ่งข้อ","quiz_score_not_a_number":"คะแนนจะต้องอยู่ระหว่าง 0 และ 2,000,000,000","quiz_score_too_long":"คะแนนจะต้องน้อยกว่า 2,000,000,000","quiz_score_too_short":"คะแนนจะต้องมากกว่า 0","retrieving_filters_failed":"เรียกค้นตัวกรองล้มเหลว"},"false":"ไม่จริง","final_answer":"คำตอบสุดท้าย","label":{"answer":{"text":"ข้อความคำตอบ, rich text area"},"question":{"instructions":"คำแนะนำสำหรับคำถาม, rich text area"},"quiz":{"instructions":"คำแนะนำสำหรับคำถาม, rich text area"}},"labels":{"answer_text":"ข้อความสำหรับคำตอบ","comments_on_answer":"ความเห็น, หากผู้ใช้เลือกคำตอบนี้","comments_on_question":"ความเห็นสำหรับคำถามนี้","comments_on_wrong_match":"ความเห็นหากผู้ใช้เทียบเคียงไม่ถูกต้อง","correct_answer":"คำตอบถูกต้อง","message_text":"เนื้อความ","other_incorrect_matches":"ตัวเลือกเทียบเคียงที่ไม่ถูกต้องอื่น ๆ","possible_answer":"คำตอบที่เป็นไปได้"},"loading_more_questions":"โหลดคำถามเพิ่มเติม...","loading_question":"กำลังโหลดคำถาม...","loading_question_banks":"กำลังโหลดแถวคำถาม...","loading_questions":"กำลังโหลดคำถาม...","more_questions":"คำถามเพิ่มเติม","no_filters_found":"ไม่พบตัวกรอง","question":{"positive_points":"จะต้องเป็นศูนย์หรือมากกว่า"},"question_colon":"คำถาม:","question_limit_reached":"คุณมาถึงจำนวนคำถามสูงสุดที่อนุญาตสำหรับแบบทดสอบแล้ว (%{count}/%{limit}).\n\nสามารถกระจายเนื้อหาระหว่างแบบทดสอบหลาย ๆ ชุดแทนได้","quiz_attempts_length_error":"การทำแบบทดสอบจำกัดไว้ที่เลข 3 หลัก หากต้องการให้ผู้เรียนทำได้ไม่จำกัด อย่าทำเครื่องหมายในช่อง อนุญาตให้ดำเนินการได้หลายครั้ง ทางด้านซ้าย","quiz_attempts_nan_error":"จำนวนครั้งการทำแบบทดสอบจะมีระบุเป็นตัวเลขเท่านั้น","quiz_short_answer_length_error":"คำตอบสำหรับกรอกในคำถามกรอกในช่องว่างจะต้องยาวน้อยกว่า 80 ตัวอักษร","retrieving_filters":"กำลังเรียกค้นตัวกรอง...","titles":{"add_questions_as_group":"เพิ่มคำถามเป็นกลุ่ม","click_to_enter_comments_on_answer":"คลืกเพื่อกรอกความเห็นสำหรับผู้เรียนหากเลือกคำตอบนี้","click_to_enter_comments_on_wrong_match":"คลิกเพื่อกรอกความเห็นสำหรับผู้เรียนหากพลาดการเทียบเคียงนี้","click_to_set_as_correct":"คลิกเพื่อกำหนดว่าคำตอบนี้เป็นคำตอบที่ถูกต้อง","click_to_unset_as_correct":"คลิกเพื่อยกเลิกการกำหนดว่าคำตอบนี้เป็นคำตอบที่ถูกต้อง","find_question_bank":"ค้นหาแถวคำถาม","find_quiz_question":"ค้นหาคำถามแบบทดสอบ","help_with_formulas":"ความช่วยเหลือเกี่ยวกับสูตรสำหรับคำถามแบบทดสอบ","ip_address_filtering":"การกรองที่อยู่ IP","set_as_correct":"คำตอบนี้กำหนดว่าถูกต้อง"},"top_level":"-- ระดับบนสุด --","true":"จริง"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "registration",
+  function() { return {"canvas_introduction_video_2d81f3ad":"วิดีโอแนะนำ Canvas","child_s_username_dde3aa9":"ชื่อผู้ใช้ของผู้เยาว์","start_participating_f0c75256":"เริ่มการเข้าร่วม","you_will_be_redirected_to_a_login_page_where_you_w_fc8df402":"คุณจะถูกนำไปยังเพจล็อกอินโดยคุณจะต้องล็อกอินโดยใช้ข้อมูลล็อกอินของบุตรหลานของคุณ","your_email_b5364bee":"อีเมลของคุณ","your_name_7665e1d8":"ชื่อของคุณ"} },
+  function() { return {"incomplete_registration_warning":{"set_up_account":"บัญชีของคุณเกือบพร้อมแล้ว สิ้นสุดโดยตรวจสอบอีเมลของคุณที่ *%{email}* เพื่อกำหนดรหัสผ่านของคุณ","start_participating":"คุณสามารถเริ่มเข้าร่วมได้ตอนนี้ แต่จะต้องกำหนดรหัสผ่านก่อนล็อกอินกลับเข้าไป"},"login":{"password":"รหัสผ่าน","remember_me":"จำฉัน","sign_in":"ลงชื่อเข้าใช้"},"new_parent_dialog":{"anchor":{"pairing_code":"รหัสเข้าคู่คืออะไร"},"buttons":{"cancel":"ยกเลิก","start_participating":"เริ่มการเข้าร่วม"},"labels":{"code":"รหัสเข้าคู่ของผู้เรียน","confirm_password":"กรอกรหัสผ่านอีกครั้ง","email":"อีเมลของคุณ","name":"ชื่อของคุณ","password":"รหัสผ่าน"}},"parent_dialog":{"buttons":{"start_participating":"เริ่มการเข้าร่วม"},"labels":{"email":"อีเมลของคุณ","name":"ชื่อของคุณ","password":"รหัสผ่านของผู้เยาว์","username":"ชื่อผู้ใช้ของผู้เยาว์"}},"student_dialog":{"buttons":{"start_learning":"เริ่มการเรียนรู้"},"labels":{"email":"อีเมล","join_code":"รหัสเข้าร่วม","name":"ชื่อนามสกุล","password":"รหัสผ่าน","password_confirmation":"ยืนยันรหัสผ่าน","username":"ชื่อผู้ใช้"}},"teacher_dialog":{"agree_to_terms_and_pp":"ฉันยอมรับ*เงื่อนไขการใช้งาน*และรับทราบ**นโยบายความเป็นส่วนตัว**","buttons":{"start_teaching":"เริ่มการสอน"},"labels":{"email":"อีเมล","name":"ชื่อ"}}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "release_notes",
+  function() { return {"edit_release_note_84675efc":"แก้ไขหมายเหตุการเผยแพร่","expand_collapse_lang_73edc33c":"ขยาย/ย่อ %{lang}","languages_835813f0":"ภาษา","new_note_5f05cb20":"หมายเหตุใหม่","new_release_note_37ec0ea7":"หมายเหตุการเผยแพร่ใหม่","release_date_for_e2de5547":"วันที่เผยแพร่สำหรับ: ","save_and_publish_1b765e7":"บันทึกและเผยแพร่","select_target_groups_type_or_use_arrow_keys_to_nav_aa648826":"เลือกกลุ่มเป้าหมาย พิมพ์หรือใช้ปุ่มลูกศรเพื่อสืบค้น อนุญาตให้เลือกได้หลายรายการ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "ResendInvitationsView",
+  null,
+  function() { return {"error_sending_invitations":"มีข้อผิดพลาดในการส่งคำเชิญ กรุณาลองใหม่อีกครั้งในภายหลัง","invitations_re_sent":"ส่งคำเชิญเสร็จสิ้น"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "RosterDialogMixin",
+  null,
+  function() { return {"updating":"กำลังอัพเดต..."} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "RosterUserView",
+  function() { return {"are_you_sure_you_want_to_deactivate_this_user_they_3fdaab79":"แน่ใจว่าต้องการปิดใช้งานผู้ใช้นี้หรือไม่ บุคคลเหล่านี้จะไม่สามารถเข้าร่วมบทเรียนได้ขณะที่ไม่มีสถานะใช้งาน","are_you_sure_you_want_to_remove_this_user_8d1a8295":"แน่ใจว่าต้องการลบผู้ใช้นี้หรือไม่","something_went_wrong_re_activating_the_user_please_82c3e7a":"มีบางอย่างผิดพลาดขณะเปิดใช้งานผู้ใช้ใหม่ กรุณาลองใหม่อีกครั้งในภายหลัง","something_went_wrong_while_deactivating_the_user_p_8ff3e261":"มีบางอย่างผิดพลาดขณะปิดใช้งานผู้ใช้ กรุณาลองใหม่อีกครั้งในภายหลัง","user_successfully_deactivated_9d92d80d":"ปิดใช้งานผู้ใช้เสร็จสิ้น","user_successfully_re_activated_b897e35b":"ปิดใช้งานผู้ใช้อีกครั้งเสร็จสิ้น","user_successfully_removed_a366ca5f":"ลบผู้ใช้เสร็จสิ้น"} },
+  function() { return {"flash":{"removeError":"ไม่สามารถลบผู้ใช้นี้ กรุณาลองใหม่อีกครั้งในภายหลัง"},"nobody":"ไม่มีใครเลย","observing_user":"กำลังสังเกตการณ์: %{user_name}"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "RosterView",
+  function() { return {"search_people_402e622c":"ค้นหาบุคคล","search_people_as_you_type_in_this_field_the_list_o_5755e8ad":"ค้นหาบุคคล ขณะพิมพ์ในฟิลด์นี้ รายการบุคคลจะถูกกรองอัตโนมัติให้รวมเฉพาะผู้ที่ชื่อตรงกับข้อมูลที่คุณกรอก"} },
+  function() { return {"greater_than_three":"กรุณากรอกคำค้นหาความยาวสามตัวอักษรขึ้นไป","unknown_error":"มีบางอย่างผิดพลาดกับการค้นหาของคุณ กรุณาลองใหม่อีกครั้ง"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "roster_publicjs",
+  null,
+  function() { return {"filter_multiple_users_found":"พบผู้ใช้ %{userCount} ราย","filter_no_users_found":"ไม่พบผู้ใช้ที่ตรงกัน","filter_one_user_found":"พบผู้ใช้ 1 ราย"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "recipient_input",
+  null,
+  function() { return {"context_search_placeholder":"กรอกชื่อ บทเรียนหรือกลุ่ม","context_search_title":"ชื่อ บทเรียนหรือกลุ่ม","groups_count":{"one":"1 กลุ่ม","other":"%{count} กลุ่ม"},"no_results":"ไม่พบผลลัพธ์","people_count":{"one":"1 คน","other":"%{count} คน"},"sections_count":{"one":"1 กลุ่มย่อย","other":"%{count} กลุ่มย่อย"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "listWithOthers",
+  null,
+  function() { return {"other":{"one":"รายอื่น 1 ราย","other":"%{count} รายอื่น ๆ"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "sr_gradebook",
+  function() { return {"download_scores_generated_on_date_ff5b9cd2":"ดาวน์โหลดคะแนนที่จัดทำเมื่อ %{date}"} },
+  function() { return {"all_grading_periods":"ระยะเวลาการให้เกรดทั้งหมด","all_sections":"กลุ่มย่อยทั้งหมด","assignment_muted":"คลิกเพื่อเลิกปิดเสียง","assignment_order_alpha":"ตามลำดับตัวอักษร","assignment_order_assignment_groups":"ตามกลุ่มภารกิจและตำแหน่ง","assignment_order_due_date":"ตามวันครบกำหนด","assignment_unmuted":"คลิกเพื่อปิดเสียง","discussion_topic":"หัวข้อการพูดคุย","external_tool":"เครื่องมือจากภายนอก","final_point_ratio":"%{pointRatio} คะแนน","invalid_group_warning":{"one":"หมายเหตุ: คะแนนไม่รวมภารกิจจากกลุ่ม %{list_of_group_names} เนื่องจากไม่มีคะแนนที่เป็นไปได้","other":"หมายเหตุ: คะแนนไม่รวมภารกิจจากกลุ่ม %{list_of_group_names} เนื่องจากไม่มีคะแนนที่เป็นไปได้"},"media_recordin":"การบันทึกสื่อมีเดีย","next_object":"%{type} ถัดไป","no_assignment":"ไม่มีภารกิจที่เลือกไว้","no_outcome":"ไม่มีผลลัพธ์ที่เลือก","no_student":"ไม่มีผู้เรียนที่เลือก","none":"ไม่มี","notes":"หมายเหตุ","on_paper":"ในเอกสาร","online_quiz":"แบบทดสอบออนไลน์","online_text_entry":"การกรอกข้อความออนไลน์","online_upload":"การอัพโหลดออนไลน์","online_url":"URL ออนไลน์","previous_object":"%{type} ก่อนหน้า","student_hidden_name":"ผู้เรียน %{position}"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "grading_cell",
+  function() { return {"no_points_possible_72db3a55":"ไม่มีคะแนนที่เป็นไปได้","out_of_points_37a749d7":"(จาก %{points})","score_out_of_points_84f44331":"(%{score} จาก %{points})"} },
+  function() { return {"grade_complete":"เสร็จสิ้น","grade_incomplete":"ไม่เสร็จสิ้น","grade_ungraded":"ยกเลิกการให้เกรดแล้ว"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "submissions",
+  function() { return {"click_here_to_download_size_of_file_74443988":"คลิกที่นี่เพื่อดาวน์โหลด %{size_of_file}","download_assignment_submissions_41e50ee7":"ดาวน์โหลดผลงานจัดส่งสำหรับภารกิจ","no_submissions_to_zip_please_try_again_after_stude_7e0f478":"ไม่มีผลงานจัดส่งที่จะ zip ลองใหม่อีกครั้งหลังมีการจัดส่งของผู้เรียน","preview_your_submission_and_view_teacher_feedback__81a45279":"แสดงตัวอย่างผลงานจัดส่งของคุณและดูผลตอบรับของผู้สอนถ้ามี","something_went_wrong_downloading_submissions_pleas_6d069a09":"มีบางอย่างผิดพลาดในการดาวน์โหลดผลงานจัดส่ง กรุณาลองใหม่อีกครั้งในภายหลัง"} },
+  function() { return {"creating_zip":"กำลังจัดทำไฟล์ zip...","download_submissions_title":"ดาวน์โหลดผลงานจัดส่งสำหรับภารกิจ","finished_redirecting":"เสร็จสิ้นแล้ว!  กำลังเปลี่ยนเส้นทางไปยังไฟล์...","gathering_files":"กำลังรวบรวมไฟล์ (%{progress})...","gathering_files_progress":"กำลังรวบรวมไฟล์ (%{progress})...","see_attached_files":"ดูไฟล์ที่แนบ","show_preview":{"preview_title":"แสดงตัวอย่าง %{title}"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebookHelpers",
+  function() { return {"note_length_cannot_exceed_maxlength_characters_82798b1":"ความยาวหมายเหตุจะเกินกว่า %{maxLength} ตัวอักษรไม่ได้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignment_details",
+  function() { return {"no_graded_submissions_e40c957a":"ไม่มีผลงานจัดส่งที่ให้เกรดแล้ว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignment_muter",
+  function() { return {"mute_assignment_bb505cd8":"ปิดเสียงภารกิจ","muting_assignment_a9aeb5c7":"กำลังปิดเสียงภารกิจ...","this_assignment_is_currently_muted_that_means_stud_94d63139":"ภารกิจนี้ปิดเสียงอยู่ในปัจจุบัน ซึ่งหมายความว่าผู้เรียนจะไม่เห็นเกรดและข้อเสนอแนะของตน ต้องการเลิกปิดเสียงตอนนี้หรือไม่","unmute_assignment_29a49038":"เลิกปิดเสียงภารกิจ"} },
+  function() { return {"unmute_assignment":"เลิกปิดเสียงภารกิจ","unmute_button":"เลิกปิดเสียงภารกิจ","unmuting_assignment":"กำลังเลิกปิดเสียงภารกิจ..."} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebookHeaderMenu",
+  null,
+  function() { return {"errors":{"upload_as_zip":"กรุณาอัพโหลดไฟล์เป็น .zip"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "submission_details_dialog",
+  function() { return {"all_comments_are_sent_to_the_whole_group_284591e7":"ความเห็นทั้งหมดจะถูกจัดส่งไปยังกลุ่มทั้งหมด","send_comment_to_this_student_only_e3d9ca1":"ส่งความเห็นให้แก่ผู้เรียนนี้เท่านั้น"} },
+  function() { return {"add_a_comment":"เพิ่มความเห็น","comments":"ความเห็น","grade_form_label":"เกรด:","labels":{"group_comment":"ส่งความเห็นให้กับกลุ่มทั้งหมด"},"late":"ล่าช้า","links":{"click_to_view":"คลิกที่นี่เพื่อดู"},"loading_comments":"กำลังโหลดความเห็น...","more_details_in_the_speedgrader":"รายละเอียดเพิ่มเติมใน SpeedGrader","post_comment":"โพสต์ความเห็น","submitted":"จัดส่งแล้ว:","this_was_submitted_multiple_times_choose_a_submission_to_view":"จัดส่งแล้วหลายครั้ง เลือกรายการที่จะดู:","update_grade":"อัพเดตเกรด","view_rubric_assessment_in_the_speedgrader":"ดูการประเมินสำหรับเกณฑ์การให้คะแนนใน SpeedGrader"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebook_individual_gradebook_gradebook_selector",
+  function() { return {"individual_view_81c2f124":"มุมมองแยกเฉพาะ","individual_view_d60b9132":"มุมมองแยกเฉพาะ..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "section",
+  function() { return {"enrolled_as_enrollment_type_a784f82b":"ลงทะเบียนเป็น: %{enrollment_type}","enrolled_as_enrollment_type_with_section_only_acce_110d7929":"ลงทะเบียนเป็น: %{enrollment_type} โดยสามารถสืบค้นเฉพาะหัวข้อ"} },
+  function() { return {"confirms":{"delete_enrollment":"แน่ใจว่าต้องการลบการลงทะเบียนนี้ถาวรหรือไม่"},"default_course_name":"ID บทเรียน \"%{course_id}\"","enrolled_as_designer":"ลงทะเบียนเป็น: ผู้ออกแบบ","enrolled_as_limited_designer":"ลงทะเบียนเป็น: ผู้ออกแบบที่มีสิทธิ์สืบค้นเฉพาะหัวข้อ","enrolled_as_limited_observer":"ลงทะเบียนเป็น: ผู้สังเกตการณ์ที่มีสิทธิ์สืบค้นเฉพาะหัวข้อ","enrolled_as_limited_student":"ลงทะเบียนเป็น: ผู้เรียนที่มีสิทธิ์สืบค้นเฉพาะหัวข้อ","enrolled_as_limited_ta":"ลงทะเบียนเป็น: TA ที่มีสิทธิ์สืบค้นเฉพาะหัวข้อ","enrolled_as_limited_teacher":"ลงทะเบียนเป็น: ผู้สอนที่มีสิทธิ์สืบค้นเฉพาะหัวข้อ","enrolled_as_observer":"ลงทะเบียนเป็น: ผู้สังเกตการณ์","enrolled_as_student":"ลงทะเบียนเป็น: ผู้เรียน","enrolled_as_ta":"ลงทะเบียนเป็น: TA","enrolled_as_teacher":"ลงทะเบียนเป็น: ผู้สอน","errors":{"confirmation_failed":"การยืนยันล้มเหลว","course_not_authorized_for_crosslist":"%{course_name} ไม่ได้รับอนุญาตสำหรับการแสดงรายการโยง"},"status":{"confirming_course":"กำลังยืนยัน %{course_name}...","removing_crosslisting_of_section":"ยกเลิกการแสดงรายการโยงกลุ่มย่อย..."}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "paginated_list",
+  null,
+  function() { return {"no_results_found":"ผลลัพธ์","view_more_link":"ดูเพิ่มเติม"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "sis_import",
+  null,
+  function() { return {"buttons":{"process_data":"ประมวลผลข้อมูล"},"errors":{"import_failed_code":"มีข้อผิดพลาดในการนำเข้าข้อมูล SIS ของคุณ กรุณาแจ้งผู้ดูแลระบบของคุณพร้อมกับรหัสต่อไปนี้ \"%{code}\"","import_failed_messages":"การนำเข้าล้มเหลวพร้อมกับข้อความต่อไปนี้"},"headers":{"import_errors":"มีข้อผิดพลาดทำให้ไม่สามารถนำเข้าได้","import_warnings":"คำเตือน","imported_items":"รายการที่นำเข้า"},"import_counts":{"accounts":"บัญชี: %{account_count}","admins":"ผู้ดูแลระบบ: %{admin_count}","change_sis_ids":"เปลี่ยน SIS ID: %{change_sis_ids_count}","courses":"บทเรียน: %{course_count}","crosslists":"รายการอ้างอิงโยง: %{crosslist_count}","enrollments":"การลงทะเบียน: %{enrollment_count}","group_categories":"หมวดหมู่ของกลุ่ม: %{group_categories_count}","group_enrollments":"การลงทะเบียนของกลุ่ม: %{group_enrollments_count}","groups":"กลุ่ม: %{group_count}","logins":"การล็อกอิน: %{login_count}","sections":"กลุ่มย่อย: %{section_count}","terms":"เทอม: %{term_count}","user_observers":"ผู้สังเกตการณ์ของผู้ใช้: %{user_observers_count}","users":"ผู้ใช้: %{user_count}"},"messages":{"import_complete_success":"การนำเข้าเสร็จสิ้นและระเบียนข้อมูลทั้งหมดถูกนำเข้าเสร็จสิ้นแล้ว","import_complete_warnings":"ข้อมูล SIS ถูกนำเข้าแล้วแต่มีแจ้งข้อความต่อไปนี้"},"notices":{"processing_takes_awhile":"อาจต้องใช้เวลา..."},"status":{"processing":"กำลังประมวลผล"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "speed_grader",
+  function() { return {"action_was_not_anonymous_b5262db1":"การดำเนินการไม่ได้ปกปิดตัวตน","add_a_comment_872470ac":"เพิ่มความเห็น","administrator_f325c186":"ผู้ดูแลระบบ","an_error_occurred_updating_this_assignment_21287c7e":"เกิดข้อผิดพลาดในการอัพเดตภารกิจนี้","anonymous_off_7985fcaf":"ปิดการไม่เปิดเผยตัว","anonymous_on_c5fa120d":"เปิดการไม่เปิดเผยตัว","anonymous_turned_off_8118a0b":"ปิดการปกปิดตัวตน","anonymous_turned_on_fe56f997":"เปิดการปกปิดตัวตน","anonymous_was_never_turned_on_e5e8aeda":"การปกปิดตัวตนไม่เคยเปิดใช้งาน","anonymous_was_turned_off_300d25ec":"การปกปิดตัวตนถูกปิดใช้งาน","are_you_sure_you_want_to_submit_this_comment_fbe76ba6":"แน่ใจว่าต้องการส่งความเห็นนี้หรือไม่","as_of_a036fa2e":"ณ","assessment_audit_d4a76709":"การตรวจสอบการประเมิน","assessment_audit_events_for_creatorname_56e84e8":"กิจกรรมการตรวจสอบการประเมินสำหรับ %{creatorName}","assessment_audit_tray_5dd11721":"ถาดรายการตรวจสอบการประเมิน","assignment_created_b3ee04d7":"จัดทำภารกิจแล้ว","assignment_is_reassigned_dd6b6ef2":"มอบหมายภารกิจใหม่แล้ว","assignment_muted_4cb590a4":"ปิดเสียงภารกิจแล้ว","assignment_unmuted_2cffe4ca":"เลิกปิดเสียงภารกิจแล้ว","assignment_updated_c7482598":"อัพเดตภารกิจแล้ว","cannot_view_detailed_reports_for_anonymous_assignm_d6c42475":"ไม่สามารถดูรายงานอย่างละเอียดสำหรับภารกิจที่ไม่ระบุตัวบุคคลจนกว่าจะมีการแจ้งเกรด","change_section_to_sectionname_6e947e90":"เปลี่ยนกลุ่มย่อยเป็น %{sectionName}","creatorname_performed_actions_while_anonymous_was__c2124eca":"%{creatorName} ดำเนินการขณะที่ปิดการปกปิดตัวตนไว้","days_late_a3a721b0":"วันที่ล่าช้า","delete_comment_commenttext_c8afe129":"ลบความเห็น: %{commentText}","deleting_a_submission_file_is_typically_done_only__fb8b07e6":"การลบไฟล์จัดส่งโดยปกติจะดำเนินการก็ต่อเมื่อผู้เรียนโพสต์ข้อมูลที่ไม่เหมาะสมหรือข้อมูลส่วนตัว\n\nการดำเนินการนี้ไม่สามารถยกเลิกได้ แน่ใจว่าต้องการลบ %{file} หรือไม่","do_not_show_again_for_this_assignment_d0abd4ae":"ไม่ต้องแสดงอีกสำหรับภารกิจนี้","docviewer_area_created_37502a31":"จัดทำพื้นที่สำหรับ Docviewer แล้ว","docviewer_area_deleted_6e56d3ba":"ลบพื้นที่สำหรับ Docviewer แล้ว","docviewer_area_updated_43f60b7e":"อัพเดตพื้นที่สำหรับ Docviewer แล้ว","docviewer_comment_created_1dc99da5":"จัดทำความเห็นสำหรับ Docviewer แล้ว","docviewer_comment_deleted_44cf642e":"ลบความเห็นสำหรับ Docviewer แล้ว","docviewer_comment_updated_696fbcea":"อัพเดตความเห็นสำหรับ Docviewer แล้ว","docviewer_free_draw_created_727f26aa":"จัดทำการวาดอิสระสำหรับ Docviewer แล้ว","docviewer_free_draw_deleted_2b79df21":"ลบการวาดอิสระสำหรับ Docviewer แล้ว","docviewer_free_draw_updated_6d907e5":"อัพเดตการวาดอิสระสำหรับ Docviewer แล้ว","docviewer_free_text_created_1b9c8cf9":"จัดทำข้อความอิสระสำหรับ Docviewer แล้ว","docviewer_free_text_deleted_429a7572":"ลบข้อความอิสระสำหรับ Docviewer แล้ว","docviewer_free_text_updated_6f3aadb6":"อัพเดตข้อความอิสระสำหรับ Docviewer แล้ว","docviewer_highlight_created_337a5ced":"จัดทำข้อมูลนำเสนอสำหรับ Docviewer แล้ว","docviewer_highlight_deleted_6a7ca566":"ลบข้อมูลนำเสนอสำหรับ Docviewer แล้ว","docviewer_highlight_updated_47dc7da2":"อัพเดตข้อมูลนำเสนอสำหรับ Docviewer แล้ว","docviewer_point_created_ade65993":"จัดทำคะแนนสำหรับ Docviewer แล้ว","docviewer_point_deleted_f4e0a018":"อัพเดตคะแนนสำหรับ Docviewer แล้ว","docviewer_point_updated_d94078dc":"อัพเดตคะแนนสำหรับ Docviewer แล้ว","docviewer_strikeout_created_84cccd3b":"จัดทำรายการคัดทิ้งสำหรับ Docviewer แล้ว","docviewer_strikeout_deleted_ddca34b0":"ลบรายการคัดทิ้งสำหรับ Docviewer แล้ว","docviewer_strikeout_updated_f06aec74":"อัพเดตรายการคัดทิ้งสำหรับ Docviewer แล้ว","download_submission_comments_2a6c0395":"ดาวน์โหลดความเห็นสำหรับผลงานจัดส่ง","edit_status_612572db":"แก้ไขสถานะ","error_deleting_file_551dc16e":"มีข้อผิดพลาดในการลบ %{file}","failed_to_submit_draft_comment_1de83451":"ไม่สามารถแยกความเห็นร่าง","final_grader_1693103c":"ผู้ให้เกรดสรุป","grader_comments_visible_to_graders_turned_off_d2af5e9d":"ปิดความเห็นสำหรับผู้ให้เกรดที่แสดงกับผู้ให้เกรด","grader_comments_visible_to_graders_turned_on_dca303c7":"เปิดความเห็นสำหรับผู้ให้เกรดที่แสดงกับผู้ให้เกรด","grader_count_set_to_count_24f05b53":"กำหนดจำนวนผู้ให้เกรดเป็น %{count} แล้ว","grader_names_visible_to_final_grader_turned_off_e2fb0c8b":"ปิดการแสดงชื่อผู้ให้เกรดสำหรับผู้ให้เกรดสรุป","grader_names_visible_to_final_grader_turned_on_7f768b67":"เปิดการแสดงชื่อผู้ให้เกรดสำหรับผู้ให้เกรดสรุป","graders_anonymous_to_graders_turned_off_e017d355":"ปิดการไม่เปิดเผยตัวผู้ให้เกรดแก่ผู้ให้เกรดไว้","graders_anonymous_to_graders_turned_on_6ccf213f":"เปิดการไม่เปิดเผยตัวผู้ให้เกรดแก่ผู้ให้เกรดไว้","grades_posted_c5d8dcce":"โพสต์เกรดแล้ว","hour_s_b6e8d238":"ชั่วโมง","hours_late_989e9081":"ชั่วโมงล้าช้า","if_you_would_like_to_keep_your_unsubmitted_comment_b7e349ce":"หากต้องการเก็บความเห็นที่ไม่ได้จัดส่งของคุณไว้ กรุณาบันทึกไว้ก่อนออกจากเพจนี้","late_bd436902":"ล่าช้า","loading_assessment_audit_trail_5cf4c10":"กำลังโหลดเส้นทางการตรวจสอบสำหรับการประเมิน","menu_options_9b6b0b5c":"ตัวเลือกเมนู","missing_eaddacbd":"ขาดหาย","monthandday_starting_at_time_769b12c8":"%{monthAndDay} เริ่มเวลา %{time}","name_lti_tool_b61eb0af":"%{name} (เครื่องมือ LTI)","name_quiz_15f55961":"%{name} (แบบทดสอบ)","name_user_e44eebed":"ผู้ใช้ %{name}","no_file_submitted_a879fa53":"ไม่มีไฟล์ที่จัดส่ง","partially_anonymous_483a892d":"ปกปิดตัวตนบางส่วน","posted_to_student_861beec9":"แจ้งไปยังผู้เรียนแล้ว","provisional_grade_created_13f5c392":"จัดทำเกรดภายใต้เงื่อนไขแล้ว","provisional_grade_deleted_4af33a19":"ลบเกรดภายใต้เงื่อนไขแล้ว","provisional_grade_selected_416db903":"เลือกเกรดภายใต้เงื่อนไขแล้ว","provisional_grade_updated_6753e2dd":"อัพเดตเกรดภายใต้เงื่อนไขแล้ว","reassign_assignment_e3a70bcb":"จัดสรรภารกิจใหม่","reassigning_682888a2":"กำลังจัดสรร...","rubric_created_64980593":"จัดทำเกณฑ์การให้คะแนนแล้ว","rubric_deleted_3d9efc18":"ลบเกณฑ์การให้คะแนนแล้ว","rubric_updated_103e24dc":"อัพเดตเกณฑ์การให้คะแนนแล้ว","score_pointspossible_bd57ea9e":"%{score}/%{pointsPossible}","show_all_sections_190203e8":"แสดงกลุ่มย่อยทั้งหมด","similarity_score_see_detailed_report_a113dac0":"คะแนนความใกล้เคียง - ดูรายงานอย่างละเอียด","student_feedback_required_in_comments_above_to_rea_2f5dafbf":"ต้องมีข้อเสนอแนะของผู้เรียนในความเห็นด้านบนเพื่อจัดสรรใหม่","student_has_met_maximum_allowed_attempts_fa9a71b5":"ผู้เรียนดำเนินการถึงจำนวนครั้งสูงสุดที่กำหนดแล้ว","student_number_db6f06c1":"ผู้เรียน %{number}","student_viewed_document_9065adb8":"เอกสารที่ดูโดยผู้เรียน","submission_comment_created_f9375ca2":"จัดทำความเห็นสำหรับผลงานจัดส่งแล้ว","submission_comment_deleted_a031a529":"ลบความเห็นสำหรับผลงานจัดส่งแล้ว","submission_comment_updated_8d917ded":"อัพเดตความเห็นสำหรับผลงานจัดส่งแล้ว","submission_index_e960f9bf":"ผลงานจัดส่ง %{index}","submission_updated_8897f3b7":"อัพเดตผลงานจัดส่งแล้ว","submit_comment_commenttext_8e5638d7":"ส่งความเห็น: %{commentText}","the_following_students_have_unsaved_changes_to_the_7762def7":"ผู้เรียนต่อไปนี้มีการเปลี่ยนแปลงที่ไม่ได้บันทึกไว้ในการจัดส่งแบบทดสอบของตน: \n\n%{users}\nดำเนินการต่อไปหรือไม่","the_grade_you_entered_has_been_selected_and_can_no_ca87612b":"เกรดที่คุณกรอกถูฏเลือกแล้วและไม่สามารถแก้ไขได้อีก","the_group_groupname_was_automatically_selected_bec_450689f":"กลุ่ม \"%{groupName}\" ถูกเลือกอัตโนมัติเนื่องจากไม่มีกลุ่มที่เลือกไว้ก่อนหน้า คุณสามารถแก้ไขกลุ่มที่เลือกได้จากสมุดบันทึกเกรด","the_group_groupname_was_selected_because_the_previ_e080c168":"กลุ่ม \"%{groupName}\" ถูกเลือกเนื่องจากกลุ่มที่เลือกไว้ก่อนหน้าไม่มีผู้เรียน คุณสามารถแก้ไขกลุ่มที่เลือกได้จากสมุดบันทึกเกรด","the_group_groupname_was_selected_because_the_stude_bcf7ba7c":"กลุ่ม \"%{groupName}\" ถูกเลือกเนื่องจากผู้เรียนที่คุณร้องขอไม่ได้อยู่ในกลุ่มที่เลือกไว้ก่อนหน้า คุณสามารถแก้ไขกลุ่มที่เลือกได้จากสมุดบันทึกเกรด","the_maximum_number_of_graders_has_been_reached_for_a9302ebb":"จำนวนผู้ให้เกรดสูงสุดถึงกำหนดสำหรับภารกิจนี้แล้ว","the_selected_group_was_cleared_because_the_student_656e4f1c":"กลุ่มที่เลือกถูกล้างเนื่องจากผู้เรียนที่คุณร้องขอไม่ได้เป็นส่วนหนึ่งของกลุ่มใด ๆ คุณสามารถเลือกกลุ่มได้จากสมุดบันทึกเกรด","this_assignment_is_locked_and_cannot_be_reassigned_9c1ed1ce":"ภารกิจนี้จะถูกล็อคและไม่สามารถจัดสรรใหม่ได้","unknown_event_7a0bcda3":"กิจกรรมที่ไม่รู้จัก","unknown_external_tool_c918e9b2":"เครื่องมือจากภายนอกที่ไม่รู้จัก","unknown_quiz_3892d071":"แบบทดสอบที่ไม่รู้จัก","unknown_role_cbe9a089":"บทบาทที่ไม่รู้จัก","unknown_user_1113fcaa":"ผู้ใช้ที่ไม่รู้จัก","vericite_similarity_score_see_detailed_report_390ab687":"คะแนนความใกล้เคียง VeriCite - ดูรายงานอย่างละเอียด","word_count_c77fe3a6":"จำนวนคำ","x_y_4a86b3ab":"%{x}/%{y}","you_do_not_have_permission_to_delete_file_please_c_3b0abf50":"คุณไม่มีสิทธิ์อนุญาตในการลบ %{file} กรุณาติดต่อผู้ดูแลระบบของคุณ","you_have_created_a_comment_that_has_not_been_poste_cd1d3a06":"คุณจัดทำความเห็นที่ไม่ได้มีการโพสต์ไว้ ต้องการดำเนินการต่อและบันทึกความเห็นนี้เป็นฉบับร่างหรือไม่ (คุณสามารถโพสต์ความเห็นร่างได้ทุกเมื่อ)","your_comment_is_not_posted_12677035":"ความเห็นของคุณไม่มีการโพสต์"} },
+  function() { return {"alerts":{"no_active_students":"ขออภัย ไม่มีผู้เรียนในบทเรียนหรือไม่มีคนที่คุณให้เกรดได้","no_students_in_groups_back":"ขออภัย ผลงานจัดส่งสำหรับภารกิจนี้ไม่สามารถให้เกรดได้ใน SpeedGrader เนื่องจากไม่มีผู้ใช้ที่กำหนดไว้ กรุณากำหนดผู้ใช้สำหรับชุดกลุ่มนี้แล้วลองใหม่อีกครั้ง คลิก “ตกลง” เพื่อย้อนกลับ","no_students_in_groups_close":"ขออภัย ผลงานจัดส่งสำหรับภารกิจนี้ไม่สามารถให้เกรดได้ใน SpeedGrader เนื่องจากไม่มีผู้ใช้ที่กำหนดไว้ กรุณากำหนดผู้ใช้สำหรับชุดกลุ่มนี้แล้วลองใหม่อีกครั้ง คลิก “ตกลง” เพื่อปิดหน้าต่างนี้","no_students_in_section":"ไม่พบผู้เรียนในกลุ่มย่อยดังกล่าว กลับไปที่แสดงกลุ่มย่อยทั้งหมด"},"allow_message":"คลิกที่ปุ่ม “อนุญาต” เพื่อเริ่มการบันทึก","begin_record_prompt":"คลิกที่ปุ่ม “บันทึก” เพื่อเริ่มต้น","buttons":{"dialog_buttons":"ยกเลิก","saving_settings":"กำลังบันทึกค่าปรับตั้ง...","submitting":"กำลังจัดส่ง..."},"canvadoc_expiring":"ส่วนทำรายการ Canvas DocViewer ของคุณกำลังจะหมดอายุ  กรุณาโหลดหน้าต่างใหม่เพื่อไม่ให้ผลงานหายไป","crocodoc_expiring":"ส่วนทำรายการ Crocodoc ของคุณกำลังจะหมดอายุ  กรุณาโหลดหน้าต่างใหม่เพื่อไม่ให้ผลงานหายไป","dialog_button":{"aria_record":"คลิกเพื่อบันทึก"},"edit_view_rubric":"ดูเกณฑ์การให้คะแนน","group":"กลุ่ม","mic_blocked_message":"สิทธิ์อนุญาตสำหรับใช้ไมโครโฟนถูกบล็อคไว้ แก้ไขโดยไปที่ chrome://settings/content/microphone","no_submission_time":"ไม่มีเวลาสำหรับผลงานจัดส่ง","nodetect_message":"ไม่พบคำพูดใด ๆ คุณอาจต้องปรับค่าปรับตั้งไมโครโฟนของคุณ","portion_graded":"%{x}/%{y}","recording_expired_message":"ระบบตรวจจำคำพูดหมดอายุเนื่องจากไม่มีการดำเนินการใด ๆ คลิกที่ปุ่ม “หยุด” เพื่อใช้ข้อความปัจจุบันสำหรับแสดงความเห็น หรือ “ยกเลิก” เพื่อล้มเลิก","recording_message":"กำลังบันทึก...","student":"ผู้เรียน","submissions_dropdown":{"grade":"(เกรด: %{grade})","see_all_quiz_attempts":"ดูการทำแบบทดสอบทั้งหมด","submission_to_view":"ผลงานจัดส่งที่จะดู:","submitted":"*จัดส่งแล้ว:* %{submittedAt}"},"submit":"ส่ง","titles":{"click_to_record":"คำพูดเป็นข้อความ"},"turnitin":{"info_message":"ไฟล์นี้ยังประมวลผลอยู่โดยระบบตรวจจับการคัดลอกผลงานที่เชื่อมโยงไว้กับภารกิจนี้ กรุณาตรวจสอบอีกครั้งในภายหลังเพื่อดูคะแนน","tooltip":{"error":"คะแนนความใกล้เคียง - ดูรายละเอียดข้อผิดพลาดผลงานจัดส่ง","pending":"คะแนนความใกล้เคียง - กำลังรอจัดส่ง"}},"vericite":{"error_message":"มีข้อผิดพลาดในการส่งไปยัง VeriCite กรุณาลองส่งไฟล์ใหม่ก่อนติดต่อฝ่ายบริการ","info_message":"ไฟล์นี้กำลังประมวลผลโดย VeriCite กรุณาตรวจสอบอีกครั้งในภายหลังเพื่อดูคะแนน","resubmitting":"กำลังจัดส่ง...","tooltip":{"error":"VeriCite คะแนนความใกล้เคียง - ดูรายละเอียดข้อผิดพลาดผลงานจัดส่ง","pending":"VeriCite คะแนนความใกล้เคียง - กำลังรอจัดส่ง"}}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_words_e0b79b82",
+  null,
+  function() { return {"one":"1 คำ","other":"%{count} คำ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "speed_grader_helpers",
+  function() { return {"there_was_an_error_submitting_to_the_similarity_de_eb6a261":"มีข้อผิดพลาดในการจัดส่งไปยังบริการตรวจสอบความใกล้เคียง กรุณาลองส่งไฟล์ใหม่ก่อนติดต่อฝ่ายบริการ"} },
+  function() { return {"dialog_button":{"aria_record_reset":"คลิกเพื่อบันทึก","aria_stop":"กด “หยุด” เพื่อสิ้นสุดการบันทึก"},"graded":"ให้เกรดแล้ว","graded_then_resubmitted":"ให้เกรดแล้ว จากนั้นจัดส่งใหม่ (%{when})","not_graded":"ไม่ได้ให้เกรด","not_submitted":"ไม่ได้จัดส่ง","turnitin":{"resubmitting":"กำลังจัดส่ง..."}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "CommentLibrary",
+  function() { return {"add_comment_to_library_1e3d95db":"เพิ่มความเห็นไปยังไลบรารี่","add_to_library_30514daa":"เพิ่มไปยังไลบรารี่","adding_to_library_b552868":"กำลังเพิ่มไปยังไลบรารี่","close_comment_library_cdcc2dde":"ปิดไลบรารี่ความเห็น","close_suggestions_6fcb4985":"ปิดคำแนะนำ","comment_added_33ab70d9":"เพิ่มความเห็นแล้ว","comment_destroyed_5cfc922d":"ทำลายความเห็นแล้ว","comment_library_84735835":"ไลบรารี่ความเห็น","comment_library_suggestions_disabled_ae04eb77":"ไลบรารี่ความเห็น (ปิดคำแนะนำไว้)","comment_suggestions_554a0dc6":"ข้อเสนอแนะสำหรับความเห็น","comment_updated_2cd56fe2":"อัพเดตความเห็นแล้ว","delete_comment_comment_f5ab8a91":"ลบความเห็น: %{comment}","edit_comment_comment_c1ce8c10":"แก้ไขความเห็น: %{comment}","edit_comment_ed0f05b3":"แก้ไขความเห็น","error_creating_comment_cbbfc0f0":"มีข้อผิดพลาดในการจัดทำความเห็น","error_deleting_comment_87ca3d06":"มีข้อผิดพลาดในการลบความเห็น","error_loading_comment_library_db6c9045":"มีข้อผิดพลาดในการโหลดไลบรารี่ความเห็น","error_saving_suggestion_preference_c36ecceb":"มีข้อผิดพลาดในการบันทึกค่าปรับแต่งข้อเสนอแนะ","error_updating_comment_4b80c76d":"มีข้อผิดพลาดในการอัพเดตความเห็น","insert_comment_from_library_57cddc75":"แทรกความเห็นจากไลบรารี่","loading_comment_library_3131e5c6":"กำลังโหลดไลบรารี่ความเห็น","manage_comment_library_48f2d123":"จัดการไลบรารี่ความเห็น","open_comment_library_9debe2":"เปิดไลบรารี่ความเห็น","show_less_d5bbf728":"แสดงน้อยลง","show_more_8d5f918b":"แสดงเพิ่ม","show_suggestions_when_typing_b72545de":"แสดงข้อเสนอแนะขณะพิมพ์","there_are_new_comment_suggestions_available_press__7b8d4195":"มีข้อเสนอแนะสำหรับความเห็นใหม่ กด แท็บ เพื่อเข้าไปยังเมนูแนะนำ","use_comment_comment_136b5cb3":"ใช้ความเห็น %{comment}","write_something_430e346c":"เขียนบางอย่างลงไป..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "SpeedGraderPostGradesMenu",
+  function() { return {"all_grades_hidden_84409b76":"ซ่อนเกรดทั้งหมดแล้ว","all_grades_posted_d5b8cb68":"แจ้งเกรดทั้งหมดแล้ว","no_grades_to_hide_2072bbd":"ไม่มีเกรดที่จะซ่อน","no_grades_to_post_fc148c1b":"ไม่มีเกรดที่จะแจ้ง","post_or_hide_grades_2d1d7815":"แจ้งหรือซ่อนเกรด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "SpeedGraderProvisionalGradeSelector",
+  function() { return {"hide_details_df9ef4a2":"ซ่อนรายละเอียด","how_is_the_grade_determined_bb75bf53":"มีการพิจารณาเกรดอย่างไร","out_of_pointspossible_c163105a":"จาก %{pointsPossible}","select_a_provisional_grade_7106e3d5":"เลือกเกรดภายใต้เงื่อนไข","show_details_194cf390":"แสดงรายละเอียด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "SpeedGraderSettingsMenu",
+  function() { return {"moderation_page_4061aa2b":"เพจการปรับประสาน","speedgrader_settings_4195099b":"ค่าปรับตั้ง SpeedGrader"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "sub_accounts",
+  null,
+  function() { return {"alerts":{"subaccount_has_courses":"คุณไม่สามารถลบบัญชีย่อยที่มีบทเรียนอยู่","subaccount_has_subaccounts":"คุณไม่สามารถลบบัญชีย่อยที่มีบัญชีย่อยอยู่"},"confirms":{"delete_subaccount":"แน่ใจว่าต้องการลบบัญชีย่อยนี้หรือไม่"},"courses_count":{"one":"1 บทเรียน","other":"%{count} บทเรียน"},"sub_accounts_count":{"one":"1 บัญชีย่อย","other":"%{count} บัญชีย่อย"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "external_toolsHomeworkSubmissionLtiContainer",
+  function() { return {"invalid_submission_file_type_cda6742a":"ประเภทไฟล์จัดส่งไม่ถูกต้อง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "ExternalContentFileSubmissionView",
+  null,
+  function() { return {"file_retrieval_error":"การเรียกค้นไฟล์ล้มเหลว","getting_file":"กำลังเรียกค้นไฟล์...","invalid_file_retrieval":"มีปัญหาในการเรียกค้นไฟล์ที่ส่งจากเครื่องมือนี้","processing_submission":"ปัจจุบัน Canvas กำลังประมวลผลผลงานจัดส่งของคุณ คุณสามารถออกจากหน้านี้ได้อย่างปลอดภัย เราจะจัดส่งอีเมลถึงคุณหากการจัดส่งล้มเหลว"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "titles",
+  null,
+  function() { return {"view_in_separate_window":"ดูในหน้าต่างแยก"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "submit_assignment_helper",
+  null,
+  function() { return {"messages":{"agree_to_pledge":"คุณจะต้องยอมรับคำมั่นในการจัดส่งก่อนสามารถส่งภารกิจนี้"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "submit_assignment",
+  function() { return {"attached_files_must_be_greater_than_0_bytes_7f57bee7":"ไฟล์ที่แนบจะต้องใหญ่กว่า 0 ไบต์","file_has_not_finished_uploading_cfba3b2f":"ไฟล์อัพโหลดไม่เสร็จสิ้น","file_tree_collapsed_d4b0ae96":"ย่อโครงสร้างทรีของไฟล์แล้ว","file_tree_expanded_a1d20c4a":"ขยายโครงสร้างทรีของไฟล์แล้ว","percent_complete_e46b6148":"%{percent}% เสร็จสิ้น","remove_empty_attachment_b2aea632":"ลบเอกสารแนบเปล่า","remove_filename_87f3781e":"ลบ %{filename}","the_student_annotation_tab_includes_the_document_f_4cc5cac8":"แท็บหมายเหตุกำกับสำหรับผู้เรียนครอบคลุมเอกสารสำหรับภารกิจ แท็บที่มีประเภทการจัดส่งเพิ่มเติมจะมีจัดไว้ด้วยเช่นกัน","uploading_progress_d62bb6e9":"สถานะการอัพโหลด"} },
+  function() { return {"buttons":{"submit_assignment":"จัดส่งภารกิจ"},"messages":{"not_submitted_yet":"คุณยังจัดส่งภารกิจของคุณไม่เสร็จสิ้น  คุณยังต้องคลิก “ส่ง” เพื่อสิ้นสุดการส่งมอบ ต้องการออกจากเพจนี้จริง ๆ หรือไม่","now_overdue":"ภารกิจนี้เกินกำหนดแล้วในตอนนี้  ผลงานจัดส่งใหม่ที่มีจะถูกกำกับว่าล่าช้า  ดำเนินการต่อไปหรือไม่","overdue":"ภารกิจนี้เกินกำหนดแล้ว  ยังต้องการจัดส่งหรือไม่","record_before_submitting":"บันทึกก่อนจัดส่ง","submit_failed":"จัดส่งล้มเหลว กรุณาลองใหม่อีกครั้ง","submitting":"กำลังจัดส่ง..."},"titles":{"uploading":"กำลังอัพโหลดผลงานจัดส่ง"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "button",
+  null,
+  function() { return {"submit_assignment":"จัดส่งภารกิจ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "errors",
+  null,
+  function() { return {"blank":"บังคับ","no_attached_file":"คุณจะต้องแนบอย่างน้อยหนึ่งไฟล์ไปยังภารกิจนี้","required":"บังคับ","unsaved_changes":"คุณมีการเปลี่ยนแปลงที่ไม่ได้บันทึกไว้","wrong_file_extension":"ไฟล์ที่เลือกนามสกุล \"%{extension}\" ซึ่งไม่ได้รับอนุญาตสำหรับการจัดส่ง"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "attachment",
+  function() { return {"remove_webcam_image_count_efee4a11":"ลบภาพเว็บแคม %{count}","upload_a_file_228b8cf9":"อัพโหลดไฟล์","use_webcam_1ed0bf6b":"ใช้เว็บแคม"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "syllabus",
+  function() { return {"course_syllabus_5de1b0af":"หลักสูตรสำหรับบทเรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "terms",
+  function() { return {"term_start_b8c2aad1":"เริ่มเทอม","whenever_b943b119":"ทุกเมื่อ"} },
+  function() { return {"index":{"add_term":"เพิ่มเทอม","date":{"term_end":"สิ้นสุดเทอม","unspecified":"ทุกเมื่อ"},"messages":{"classes_in_term":"คุณไม่สามารถลบเทอมที่ยังมีชั้นเรียนอยู่","submitting":"กำลังจัดส่ง..."},"prompts":{"delete":"แน่ใจว่าต้องการลบเทอมนี้หรือไม่"},"update_term":"อัพเดตเทอม"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "terms_of_service_modal",
+  function() { return {"acceptable_use_policy_29a28124":"นโยบายการใช้งานที่ยอมรับได้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "terms_of_use",
+  function() { return {"you_must_agree_to_the_terms_99723f97":"คุณจะต้องยอมรับเงื่อนไข"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "user_grades",
+  function() { return {"no_grade_3fa326c":"ไม่มีเกรด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "user_lists",
+  null,
+  function() { return {"add_n_users":{"one":"ดูดีแล้ว เพิ่มผู้ใช้ 1 รายนี้","other":"ดูดีแล้ว เพิ่มผู้ใช้ %{count} รายนี้"},"adding_users":"กำลังเพิ่มผู้ใช้...","buttons":{"continue":"ดำเนินการต่อ..."},"cant_unenroll":"ผู้ใช้รายนี้ถูกลงทะเบียนอัตโนมัติโดยใช้ระบบลงทะเบียนของสถาบันทำให้ไม่สามารถลบได้ด้วยตัวเอง  กรุณาติดต่อผู้ดูแลระบบหากมีข้อสงสัยใด ๆ","delete_confirm":"แน่ใจว่าต้องการลบผู้ใช้นี้หรือไม่","duplicate_users":{"one":"พบผู้ใช้ซ้ำซ้อน 1 รายการ ลบข้อมูลที่ซ้ำซ้อนแล้ว","other":"พบผู้ใช้ซ้ำซ้อน %{count} รายการ ลบข้อมูลที่ซ้ำซ้อนแล้ว"},"invalid_users_notice":"อาจมีบางส่วนที่ไม่ถูกต้อง และคุณอาจต้องกลับไปแก้ไขข้อผิดพลาด","just_now":"ตอนนี้","messages":{"processing":"กำลังประมวลผล..."},"titles":{"existing_user":"ผู้ใช้ในปัจจุบัน"},"user_parsing_errors":{"one":"พบ 1 ข้อผิดพลาดในการแบ่งรายชื่อผู้ใช้ดังกล่าว","other":"พบ %{count} ข้อผิดพลาดในการแบ่งรายชื่อผู้ใช้ดังกล่าว"},"users_added":{"one":"เพิ่มผู้ใช้ 1 รายแล้ว","other":"เพิ่มผู้ใช้ %{count} รายแล้ว"},"users_adding_failed":"ไม่สามารถลงทะเบียนผู้ใช้","users_existed":{"one":"(มีผู้ใช้อยู่แล้ว 1 ราย)","other":"(มีผู้ใช้อยู่แล้ว %{count} ราย)"},"users_to_add":{"one":"หากคุณดำเนินการต่อไป ผู้ใช้ 1 รายจะถูกเพิ่มเข้าไป","other":"หากคุณดำเนินการต่อไป ผู้ใช้ %{count} รายจะถูกเพิ่มเข้าไป"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "user_logins",
+  null,
+  function() { return {"buttons":{"add_login":"เพิ่มการล็อกอิน","update_login":"อัพเดตการล็อกอิน"},"confirms":{"delete_login":"แน่ใจว่าต้องการลบล็อกอิน \"%{login}\" หรือไม่"},"error":{"unauthorized":"คุณมีสิทธิพิเศษไม่เพียงพอในการทำการแก้ไขตามที่ร้องขอ"},"notices":{"cant_delete_last_login":"คุณไม่สามารถลบล็อกอินล่าสุดสำหรับผู้ใช้","mfa_reset":"รีเซ็ตการตรวจรับรองแบบหลายชั้น"},"save_succeeded":"บันทึกเสร็จสิ้น","titles":{"add_login":"เพิ่มการล็อกอิน","update_login":"อัพเดตการล็อกอิน"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "user_name",
+  function() { return {"are_you_sure_you_want_to_permanently_remove_the_us_e6b84ce0":"แน่ใจว่าต้องการลบผู้ใช้นี้อย่างถาวรจากบัญชีทั้งหมดหรือไม่","cache_cleared_successfully_9ab84d5a":"ล้างแคชเสร็จสิ้น","confirm_reactivation_ec0f30c6":"ยืนยันการเปิดใช้งานใหม่","confirm_suspension_18cc1fd2":"ยืนยันการระงับ","could_not_reactivate_this_user_s_access_c5c6d232":"ไม่สามารถเปิดใช้งานสิทธิ์ใช้งานของผู้ใช้รายนี้ได้ใหม่","could_not_suspend_this_user_s_access_13f2ac":"ไม่สามารถระงับสิทธิ์ใช้งานของผู้ใช้รายนี้","failed_to_clear_cache_7361ab":"ไม่สามารถล้างแคช","failed_to_remove_user_7ce5e427":"ไม่สามารถลบผู้ใช้","reactivate_user_e058db8b":"เปิดใช้งานผู้ใช้อีกครั้ง","reactivation_will_allow_all_logins_for_name_to_log_455df70":"การเปิดใช้งานอีกครั้งจะเป็นการอนุญาตการล็อกอินทั้งหมดสำหรับ %{name} เพื่อล็อกอินไปยัง Canvas และเพื่อให้สามารถสืบค้นส่วนการผสานรวม API ที่ได้รับอนุญาตก่อนหน้า","suspend_db764978":"พักระงับ","suspend_user_e19fa489":"พักระงับผู้ใช้","suspending_name_from_this_account_will_remove_all__a5aabff3":"การพักระงับ %{name} จากบัญชีนี้จะเป็นการลบสิทธิ์ใช้งานทั้งหมดสำหรับระบบที่ได้รับอนุญาตทั้งหมดจากส่วนการล็อกอินทั้งหมดที่เกี่ยวข้อง","the_login_login_is_currently_suspended_and_will_no_472b19e9":"ล็อกอิน %{login} ปัจจุบันถูกพักระงับและจะไม่สามารถใช้งาน Canvas ได้","user_removed_successfully_20a3889d":"ลบผู้ใช้เสร็จสิ้น"} },
+  function() { return {"buttons":{"update_user":"อัพเดตผู้ใช้"},"confirms":{"remove_profile_picture":"แน่ใจว่าต้องการลบภาพโพรไฟล์ผู้ใช้นี้หรือไม่"},"errors":{"failed_to_remove_image":"ไม่สามารถลบภาพได้ กรุณาลองใหม่อีกครั้ง","failed_to_report_image":"ไม่สามารถรายงานภาพดังกล่าว กรุณาลองใหม่อีกครั้ง","updating_user_details_failed":"การอัพเดตรายละเอียดผู้ใช้ล้มเหลว กรุณาลองใหม่อีกครั้ง"},"messages":{"removing_image":"กำลังลบภาพ...","reporting_image":"กำลังรายงานภาพ...","updating_user_details":"กำลังอัพเดตรายละเอียดผู้ใช้..."},"notices":{"image_reported":"ภาพนี้ถูกรายงานแล้ว"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "user_notes",
+  null,
+  function() { return {"confirms":{"delete_journal_entry":"แน่ใจว่าต้องการลบรายการบันทึกนี้หรือไม่"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "observees",
+  function() { return {"are_you_sure_you_want_to_stop_observing_name_b040e7ab":"แน่ใจว่าต้องการหยุดสังเกตการณ์ %{name} หรือไม่","in_order_to_complete_the_process_you_will_be_redir_83376e10":"เพื่อสิ้นสุดกระบวนการนี้ คุณจะถูกนำไปยังหน้าล็อกอิน โดยคุณจะต้องล็อกอินโดยใช้ข้อมูลล็อกอินสำหรับบุตรหลานของคุณ","no_longer_observing_user_efa5298a":"ไม่ได้สังเกตการณ์ %{user} อีกต่อไป","no_students_being_observed_42e11732":"ไม่มีผู้เรียนที่ถูกสังเกตการณ์อยู่"} },
+  function() { return {"being_observed":"ผู้เรียนกำลังถูกสังเกตการณ์","new_observee_pairing_code":"รหัสเข้าคู่ของผู้เรียน","observee_added":"กำลังสังเกตการณ์ %{user}","observing":"กำลังสังเกตการณ์"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "outcomes",
+  function() { return {"add_a_new_outcome_cbdbe96c":"เพิ่มผลลัพธ์ใหม่","add_a_new_outcome_group_e3fab2fc":"เพิ่มกลุ่มผลลัพธ์ใหม่","delete_outcome_cc6546f1":"ผลการลบ","delete_outcome_group_6b399d34":"ลบกลุ่มผลลัพธ์","edit_outcome_group_f82e0210":"แก้ไขกลุ่มผลลัพธ์","find_an_outcome_919328e6":"ค้นหาผลลัพธ์","hide_all_artifacts_d654fbd5":"ซ่อนผลงานทั้งหมด","import_a_set_of_outcomes_6b782192":"นำเข้าเป็นชุดผลลัพธ์","in_order_to_import_a_large_quantity_of_outcomes_at_c0d587e3":"เพื่อนำเข้าผลลัพธ์เป็นจำนวนมากพร้อม ๆ กัน หรือเพื่ออัพเดตผลลัพธ์ในปัจจุบัน กรุณา*ใช้รูปแบบ CSV*","latest_assessment_a85280ef":"การประเมินช่าช้า","mastery_n_mastery_points_precision_2_str_points_e0ed1b3b":"ความเชี่ยวชาญ: %{n_mastery_points_precision_2_str} คะแนน","more_importantly_canvas_allows_you_to_add_outcomes_78822cf":"ที่สำคัญ Canvas ยินยอมให้คุณเพิ่มผลลัพธ์ไปยังเกณฑ์การให้คะแนนแบบมีการให้เกรดเพื่อให้คุณสามารถประเมินความเชี่ยวชาญขณะให้เกรดภารกิจ หลังจากกำหนดผลลัพธ์แล้ว ให้คลิกที่ จัดการเกณฑ์การให้คะแนน เพื่อเริ่มใช้ผลลัพธ์ของคุณสำหรับการให้เกรด","move_outcome_ce497e6c":"ย้ายผลลัพธ์","move_outcome_group_cfa1a505":"ย้ายกลุ่มผลลัพธ์","n_points_precision_2_strip_insig_points_60ad6f21":"%{n_points_precision_2_strip_insig} คะแนน","new_outcome_7fba8c7d":"ผลลัพธ์ใหม่","new_outcome_group_af59f145":"กลุ่มผลลัพธ์ใหม่","no_score_yet_c94e919b":"ยังไม่มีคะแนน","not_available_until_next_submission_2175158":"ไม่พร้อมจนกว่าจะถึงการจัดส่งครั้งถัดไป","outcomes_are_created_here_to_track_mastery_in_a_co_2f487549":"ผลลัพธ์จะถูกจัดทำที่นี่เพื่อติดตามความเชี่ยวชาญในบทเรียน เริ่มต้นโดยตรวจสอบแถบเมนูที่ด้านบน คลิกที่ปุ่ม ผลลัพธ์ใหม่ เพื่อจัดทำผลลัพธ์ใหม่ หรือปุ่ม กลุ่มใหม่ เพื่อจัดทำกลุ่มใหม่เพื่อกำหนดโครงสร้างสำหรับผลลัพธ์ของคุณ ปุ่ม ค้นหา ช่วยให้คุณสามารถใช้ผลลัพธ์ที่ถูกจัดทำโดยมลรัฐหรือสถาบันของคุณ ขณะจัดทำและใช้ผลลัพธ์ คุณจะสามารถใช้แผงข้อมูลทางด้านซ้ายเพื่อสืบค้นผลลัพธ์ของคุณ คุณสามารถลากและวางผลลัพธ์ระหว่างระดับต่าง ๆ เพื่อจัดทำโครงสร้างรองรับ","show_all_artifacts_34b91a83":"แสดงผลงานตัวอย่างทั้งหมด","the_most_recent_scores_for_user_current_user_name__ea82f0b6":"คะแนนล่าสุดสำหรับผู้ใช้ %{current_user_name} และผลลัพธ์ %{outcome_name}","this_outcome_has_been_used_to_assess_a_student_and_a3a48511":"ผลลัพธ์นี้ถูกใช้เพื่อประเมินผู้เรียนและการแก้ไขบางส่วนจะมีผลกับผลลัพธ์ของผู้เรียน","you_have_no_outcomes_click_here_to_create_one_ebf262a3":"คุณไม่มีผลลัพธ์ใด ๆ *คลิกที่นี่*เพื่อจัดทำ"} },
+  function() { return {"criterion":{"close_rating":"ตกลง","criterion_rating_points":"คะแนนตามเกณฑ์","delete_criterion":"ลบ","edit_criterion_rating_title":"แก้ไขคะแนนตามเกณฑ์ \"%{description}\"","points":"คะแนน","pts":"คะแนน","rating_description":"รายละเอียดคะแนนตามเกณฑ์"},"criterion_header":{"insert_criterion_rating":"แทรกคะแนนตามเกณฑ์","insert_rating":"แทรก"},"find_instructions":{"instructions":{"find":{"description":"*ผลลัพธ์จัดทำโดยสถาบันของคุณ หรือสามารถตรวจสอบสถานะได้ที่นี่ แผงข้อมูลทางด้านซ้ายช่วยให้คุณสามารถสืบค้นผลลัพธ์ต่าง ๆ ที่มีอยู่เหมือนกับในบทเรียนของคุณ หลังจากพบผลลัพธ์หรือกลุ่มผลลัพธ์ที่ต้องการใช้แล้ว ให้คลิกที่ปุ่มนำเข้าด้านล่างเพื่อเพิ่มไปยังบทเรียนของคุณ*","title":"การค้นหาผลลัพธ์"}}},"main_instructions":{"instructions":{"main":{"manage":{"title":"การตั้งค่าผลลัพธ์"}}}},"outcome":{"links":{"delete_outcome":"ลบ","edit_outcome":"แก้ไข"},"mastery_at_label":"กำหนดความเชี่ยวชาญสำหรับคะแนนที่เท่ากับหรือมากกว่า:","use_for_scoring":"ใช้เกณฑ์นี้สำหรับให้คะแนน"},"outcome_form":{"calculation_method":"วิธีการคำนวณ","criterion":"คะแนนตามเกณฑ์","description":"อธิบายผลลัพธ์นี้","display_name":"ชื่อที่เป็นมิตร (เผื่อเลือก)","mastery":"ความเชี่ยวชาญที่","title":"กำหนดชื่อผลลัพธ์นี้"},"outcome_group":{"links":{"delete_outcome_group":"ลบ","edit_outcome_group":"แก้ไข"}},"outcome_group_form":{"group_description":"อธิบายเกี่ยวกับกลุ่มนี้","title":"กำหนดชื่อกลุ่มนี้"},"outcome_popover":{"mastery_set_at":"ความเชี่ยวชาญกำหนดไว้ที่","no_results":"(ไม่มีผลลัพธ์)"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "users",
+  null,
+  function() { return {"confirms":{"unenroll_user":"แน่ใจว่าต้องการยกเลิกการลงทะเบียนผู้ใช้นี้หรือไม่"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "webzip_exports",
+  function() { return {"an_error_occurred_please_try_again_later_84223241":"เกิดข้อผิดพลาดขึ้น กรุณาลองใหม่อีกครั้งในภายหลัง","export_failed_5d615d6d":"ส่งออกล้มเหลว","exported_package_history_bfca44b9":"ส่งออกประวัติแพคเกจแล้ว","most_recent_export_7282b756":"ส่งออกรายการล่าสุด","no_exports_to_display_7f1b630b":"ไม่มีข้อมูลส่งออกที่จะจัดแสดง","package_export_from_d6e2b073":"ส่งออกแพคเกจจาก","the_download_process_has_started_this_can_take_a_w_cef4bb75":"กระบวนการดาวน์โหลดเริ่มต้นไปแล้ว \n          อาจต้องใช้เวลาหากมีบทเรียนเป็นจำนวนมาก \n          คุณสามารถออกจากเพจโดยจะได้รับแจ้งเตือน\n          เมื่อการดาวน์โหลดเสร็จสิ้น","this_may_take_a_while_d07790f2":"อาจต้องใช้เวลาสักครู่...","you_may_not_reproduce_or_communicate_any_of_the_co_7636b552":"คุณไม่สามารถทำซ้ำหรือสื่อสารเนื้อหาใด ๆ\n            ในบทเรียนนี้ รวมทั้งไฟล์ที่ส่งออกจากบทเรียนนี้โดยไม่ได้รับอนุญาต\n            เป็นลายลักษณ์อักษรล่วงหน้าจากสถาบันของคุณ  ตรวจสอบ\n            แนวทางข้อตกลงผู้ใช้ออนไลน์สำหรับสถาบันของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "pages",
+  function() { return {"failed_to_delete_selected_pages_26fa87db":"ไม่สามารถลบเพจที่เลือก","name_is_locked_click_to_unlock_bbebf03e":"%{name} ถูกล็อคอยู่ คลิกเพื่อปลดล็อค","selected_pages_have_been_deleted_82a7f965":"เพจที่เลือกถูกลบแล้ว"} },
+  function() { return {"cancel_button":"ยกเลิก","cannot_unpublish_front_page":"ไม่สามารถยกเลิกการเผยแพร่เพจแรก","delete_button":"ลบ","delete_confirmation":"แน่ใจว่าต้องการลบเพจนี้หรือไม่","delete_dialog_title":"ลบเพจ","deleting_button":"กำลังลบ...","edit_dialog_title":"แก้ไขเพจ","errors":{"require_title":"คุณจะต้องกรอกชื่อ"},"headers":{"sort_ascending":"%{title}, เรียงจากน้อยไปมาก","sort_descending":"%{title}, เรียงจากมากไปน้อย"},"notices":{"delete_failed":"ไม่สามารถลบเพจ \"%{title}\"","page_deleted":"เพจ \"%{title}\" ถูกลบแล้ว"},"reload_editing_page":"เพจนี้มีการเปลี่ยนแปลงนับตั้งแต่คุณเริ่มแก้ไข *การรีโหลด*จะทำให้การเปลี่ยนแปลงทั้งหมดของคุณหายไป","reload_viewing_page":"เพจนี้มีการเปลี่ยนแปลงนับตั้งแต่คุณเริ่มเปิดดู *รีโหลด*","restore_failed":"ไม่สามารถกู้คืนเวอร์ชั่นของเพจ","save_button":"บันทึก","saving_button":"กำลังบันทึก...","warnings":{"overwrite_changes":"คุณกำลังจะเขียนทับการเปลี่ยนแปลงอื่น ๆ ที่ถูกทำขึ้นนับตั้งแต่คุณเริ่มแก้ไข\n\nเขียนทับการเปลี่ยนแปลงเหล่านี้หรือไม่","unsaved_changes":"คุณมีการเปลี่ยนแปลงที่ไม่ได้บันทึกไว้ ต้องการดำเนินการต่อโดยไม่บันทึกการเปลี่ยนแปลงเหล่านี้หรือไม่"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "wiki_pages",
+  function() { return {"delete_in_progress_2d3f0e0d":"กำลังลบ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_pages_selected_for_deletion_1ab0f684",
+  null,
+  function() { return {"one":"เลือกไป %{count} หน้าที่จะลบ","other":"เลือกไป %{count} หน้าที่จะลบ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "content_locks",
+  null,
+  function() { return {"buttons":{"ok_thanks":"โอเค ขอบคุณ"},"messages":{"assignment_locked_at":"ภารกิจนี้ถูกล็อคไว้ %{at}","assignment_locked_module":"ภารกิจนี้เป็นส่วนหนึ่งของหน่วยการเรียน *%{module}* และยังไม่ได้ปลดล็อค","assignment_locked_no_reason":"ภารกิจนี้ถูกล็อคไว้  ไม่มีสาเหตุอื่น ๆ แจ้งไว้","assignment_locked_until":"ภารกิจนี้ถูกล็อคจนถึง %{date}","content_locked_at":"เนื้อหานี้ถูกล็อค %{at}","content_locked_module":"เนื้อหานี้เป็นส่วนหนึ่งของหน่วยการเรียน *%{module}* และยังไม่ได้ปลดล็อค","content_locked_no_reason":"เนื้อหานี้ถูกล็อคไว้  ไม่มีสาเหตุอื่น ๆ แจ้งไว้","content_locked_until":"เนื้อหานี้ถูกล็อคจนถึง %{date}","file_locked_at":"ไฟล์นี้ถูกล็อค %{at}","file_locked_module":"ไฟล์นี้เป็นส่วนหนึ่งของหน่วยการเรียน *%{module}* และยังไม่ได้ปลดล็อค","file_locked_no_reason":"ไฟล์นี้ถูกล็อคอยู่  ไม่มีสาเหตุอื่น ๆ แจ้งไว้","file_locked_until":"ไฟล์นี้ถูกล็อคจนถึง %{date}","page_locked_at":"เพจนี้ถูกล็อค %{at}","page_locked_module":"เพจนี้เป็นส่วนหนึ่งของหน่วยการเรียน *%{module}* และยังไม่ได้ปลดล็อค","page_locked_no_reason":"เพจนี้ถูกล็อคอยู่  ไม่มีสาเหตุอื่น ๆ แจ้งไว้","page_locked_until":"เพจนี้ถูกล็อคจนถึง %{date}","quiz_locked_at":"แบบทดสอบนี้ถูกล็อค %{at}","quiz_locked_module":"แบบทดสอบนี้เป็นส่วนหนึ่งของหน่วยการเรียน *%{module}* และยังไม่ได้ปลดล็อค","quiz_locked_no_reason":"แบบทดสอบนี้ถูกล็อคอยู่  ไม่มีสาเหตุอื่น ๆ แจ้งไว้","quiz_locked_until":"แบบทดสอบนี้ถูกล็อคจนถึง %{date}","topic_locked_at":"หัวข้อนี้ถูกล็อค %{at}","topic_locked_module":"หัวข้อนี้เป็นส่วนหนึ่งของหน่วยการเรียน *%{module}* และยังไม่ได้ปลดล็อค","topic_locked_no_reason":"หัวข้อนี้ถูกล็อคอยู่  ไม่มีสาเหตุอื่น ๆ แจ้งไว้","topic_locked_until":"หัวข้อนี้ถูกล็อคจนถึง %{date}","visit_modules_page_for_details":"เข้าไปที่หน้าหน่วยการเรียนเพื่อดูข้อมูลการปลดล็อคเนื้อหานี้"},"titles":{"content_is_locked":"เนื้อหาถูกล็อคไว้"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "add_people_api_client",
+  function() { return {"you_do_not_have_permission_to_invite_users_that_do_b7142404":"คุณไม่มีสิทธิ์อนุญาตในการเชิญผู้ใช้ที่ไม่มีอยู่แล้ว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "add_people",
+  function() { return {"add_people_7ee4b2ec":"เพิ่มบุคคล","add_people_to_coursename_5ea234e1":"เพิ่มบุคคลไปยัง: %{courseName}","add_users_b10c7fb1":"เพิ่มผู้ใช้","loading_725811ca":"กำลังโหลด","ready_to_enroll_panel_46f45abb":"แผงรายการที่พร้อมสำหรับการลงทะเบียน","this_panel_lists_the_users_ready_to_be_added_to_th_79efad22":"แผงข้อมูลนี้ระบุผู้ใช้ที่พร้อมสำหรับเพิ่มไปยังบทเรียนนี้","use_this_panel_to_resolve_duplicate_results_or_peo_856d1c96":"ใช้แผงข้อมูลนี้เพื่อแก้ไขผลลัพธ์ซ้ำซ้อนหรือปัญหาไม่พบบุคคลจากการค้นหาของคุณ","use_this_panel_to_search_for_people_you_wish_to_ad_a3d726a7":"ใช้แผงข้อมูลนี้เพื่อต","user_search_panel_18f80511":"แผงข้อมูลการค้นหาผู้ใช้","user_vaildation_issues_panel_66b66945":"แผงข้อมูลปัญหาในการตรวจสอบผู้ใช้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "add_peopleApiError",
+  function() { return {"the_following_users_could_not_be_created_2573360a":"ไม่สามารถจัดทำผู้ใช้ต่อไปนี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "add_people_duplicate_section",
+  function() { return {"click_to_create_a_new_user_for_address_325f6683":"คลิกเพื่อจัดทำผู้ใช้ใหม่สำหรับ %{address}","click_to_create_a_new_user_for_login_56d2daf5":"คลิกเพื่อจัดทำผู้ใช้ใหม่สำหรับ %{login}","click_to_select_user_name_41746803":"คลิกเพื่อเลือกผู้ใช้ %{name}","click_to_skip_address_8f874b32":"คลิกเพื่อข้าม %{address}","create_a_new_user_for_address_7487e9c9":"จัดทำผู้ใช้ใหม่สำหรับ \"%{address}\"","don_t_add_this_user_for_now_32912974":"ไม่เพิ่มผู้ใช้นี้ในตอนนี้","possible_matches_for_address_select_the_correct_on_e206f972":"ข้อมูลเทียบเคียงที่เป็นไปได้สำหรับ \"%{address}\" เลือกที่ถูกต้องด้านล่างหรือจัดทำผู้ใช้ใหม่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "add_people_missing_people_section",
+  function() { return {"check_to_add_a_user_for_loginid_6cd25597":"ทำเครื่องหมายเพื่อเพิ่มผู้ใช้สำหรับ %{loginid}","check_to_select_all_98e484f1":"ทำเครื่องหมายเพื่อเลือกทั้งหมด","check_to_skip_adding_a_user_for_loginid_5fa643da":"ทำเครื่องหมายเพื่อข้ามการเพิ่มผู้ใช้สำหรับ %{loginid}","click_to_add_a_name_6cf551b0":"คลิกเพื่อเพิ่มชื่อ","unmatched_login_list_283ca77":"รายการล็อกอินที่ไม่ตรงกัน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "PeopleReadyList",
+  function() { return {"no_users_were_selected_to_add_to_the_course_a51c6083":"ไม่มีผู้ใช้ที่เลือกให้เพิ่มไปยังบทเรียน","the_following_users_are_ready_to_be_added_to_the_c_1ea01560":"ผู้ใช้ต่อไปนี้พร้อมสำหรับเพิ่มเข้าไปยังบทเรียนแล้ว","user_list_66428346":"รายชื่อผู้ใช้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "PeopleSearch",
+  function() { return {"add_user_s_by_b2549f89":"เพิ่มผู้ใช้จาก","can_interact_with_users_in_their_section_only_48cb8c43":"สามารถโต้ตอบกับผู้ใช้ในกลุ่มย่อยของตนเองเท่านั้น","email_addresses_required_14483dc8":"อีเมลแอดเดรส (ต้องระบุ)","enter_the_email_addresses_of_the_users_you_would_l_f76448a6":"กรอกอีเมลแอดเดรสของผู้ใช้ที่คุณต้องการเพิ่ม คั่นด้วยจุลภาคหรือการเคาะเว้นบรรทัด","enter_the_login_ids_of_the_users_you_would_like_to_502fcbc5":"กรอก ID ล็อกอินของผู้ใช้ที่ต้องการเพิ่ม คั่นด้วยจุลภาคหรือการเคาะเว้นบรรทัด","enter_the_sis_ids_of_the_users_you_would_like_to_a_25e441f1":"กรอก SIS ID ของผู้ใช้ที่คุณต้องการเพิ่ม คั่นด้วยจุลภาคหรือการเคาะเว้นบรรทัด","it_looks_like_you_have_an_invalid_email_address_ad_67dec734":"ดูเหมือนคุณจะมีอีเมลแอดเดรสไม่ถูกต้อง: \"%{addr}\"","login_ids_required_ff2273ab":"ID ล็อกอิน (ต้องระบุ)","role_13a7be77":"บทบาท","sis_ids_required_125074d9":"SIS ID (ต้องระบุ)","when_adding_multiple_users_use_a_comma_or_line_bre_67f9c87d":"ขณะเพิ่มผู้ใช้หลายราย ให้ใช้จุลภาคหรือเคาะบรรทัดเพื่อแยกผู้ใช้จากกัน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "PeopleValidationIssues",
+  function() { return {"there_were_several_possible_matches_with_the_impor_ad58bcd0":"มีข้อมูลที่อาจตรงกันหลายส่วนกับผลงานนำเข้า กรุณาแก้ไขด้านล่าง","we_were_unable_to_find_matches_below_f1c6d1ed":"เราไม่พบข้อมูลที่ตรงกับด้านล่างนี้","we_were_unable_to_find_matches_below_select_any_yo_87035b30":"เราไม่พบข้อมูลที่ตรงกับด้านล่างนี้ เลือกรายการที่คุณต้องการจัดทำเป็นผู้ใช้ใหม่ รายการที่เลิกการเลือกจะถูกละเว้นในคราวนี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "add_peopleapiState_reducer",
+  function() { return {"an_internal_error_occurred_83b8a685":"เกิดข้อผิดพลาดภายในขึ้น","failed_creating_user_b706a1c5":"ไม่สามารถจัดทำผู้ใช้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "app_shared_components_expandable_error_alert",
+  function() { return {"error_details_31e81e4d":"รายละเอียดข้อผิดพลาด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "ajaxflashalert",
+  function() { return {"an_error_occurred_making_a_network_request_d1bda348":"เกิดข้อผิดพลาดขณะทำคำขอผ่านเครือข่าย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignment_categories",
+  function() { return {"wiki_6603e81b":"Wiki"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "models_Assignment",
+  function() { return {"can_t_unpublish_name_if_there_are_student_submissi_8ab8086c":"ไม่สามารถเลิกเผยแพร่ %{name} หากมีผลงานจัดส่งจากผู้เรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "AssignmentGroupCreateDialog",
+  null,
+  function() { return {"titles":{"add_assignment_group":"เพิ่มกลุ่มภารกิจ"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignment_group_selector",
+  null,
+  function() { return {"assignment_group_must_have_group":"กรุณาเลือกกลุ่มภารกิจสำหรับภารกิจนี้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignment_grading_type",
+  null,
+  function() { return {"gpa_scale_explainer":"การให้เกรดระดับ GPA คืออะไร","grading_type_options":{"gpa_scale":"คะแนน GPA","letter_grade":"เกรดแบบตัวอักษร","not_graded":"ไม่ได้ลงเกรด","pass_fail":"เสร็จสิ้น/ไม่เสร็จสิ้น","percent":"เปอร์เซ็นต์","points":"คะแนน"},"titles":{"gpa_scale_explainer":"การให้เกรดระดับ GPA คืออะไร","grading_scheme_info":"ดู/แก้ไขรูปแบบการให้เกรด"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignment!reupload_submissions_helper",
+  function() { return {"please_upload_files_as_a_zip_5a2c799f":"กรุณาอัพโหลดไฟล์เป็น .zip","upload_error_please_try_again_c6587f48":"ข้อผิดพลาดในการอัพโหลด กรุณาลองใหม่อีกครั้งในภายหลัง","upload_files_a228f20f":"อัพโหลดไฟล์","uploading_ee585874":"กำลังอัพโหลด..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "CollectionView",
+  null,
+  function() { return {"no_items":"ไม่มีรายการ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_settings_actions",
+  function() { return {"an_error_occurred_while_checking_the_migration_sta_d17035b1":"เกิดข้อผิดพลาดขณะตรวจสอบสถานะการโอนย้าย","an_error_occurred_while_loading_associations_9699b3ee":"เกิดข้อผิดพลาดขณะโหลดส่วนการประสาน","an_error_occurred_while_loading_changes_9851b56f":"เกิดข้อผิดพลาดขณะโหลดการเปลี่ยนแปลง","an_error_occurred_while_loading_courses_11d4571e":"เกิดข้อผิดพลาดขณะโหลดบทเรียน","an_error_occurred_while_saving_associations_bd66f3f4":"เกิดข้อผิดพลาดขณะบันทึกการเชื่อมโยง","an_error_occurred_while_starting_migration_8e6015e2":"เกิดข้อผิดพลาดขณะเริ่มการโอนย้าย","an_error_ocurred_while_loading_sync_history_ad9dc6df":"เกิดข้อผิดพลาดขณะโหลดประวัติการซิงค์","an_error_ocurred_while_loading_unsynced_changes_aed0d04d":"เกิดข้อผิดพลาดขณะโหลดการเปลี่ยนแปลงที่ไม่ได้ซิงค์","associations_saved_successfully_48b9eae3":"บันทึกการเชื่อมโยงเสร็จสิ้น","there_was_an_unexpected_problem_with_the_sync_be079a67":"มีปัญหาที่ไม่คาดคิดกับการซิงค์"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "BlueprintModal",
+  function() { return {"publish_upon_association_53cb0450":"เผยแพร่เมื่อมีการเชื่อมโยง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_coursesLockManageer",
+  function() { return {"there_was_a_problem_toggling_the_content_lock_2a5d678b":"มีปัญหาในการเปิดปิดล็อคเนื้อหา"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_coursesLockBanner",
+  function() { return {"attributes_locked_1a1a0f46":"%{attributes} ล็อคอยู่","locked_796957c7":"ล็อคแล้ว:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_settingsSyncChange",
+  function() { return {"show_exceptions_270ea1c5":"แสดงข้อยกเว้น"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_exceptions_1176c596",
+  null,
+  function() { return {"one":"%{count} ข้อยกเว้น","other":"%{count} ข้อยกเว้น"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_settingsSyncHistoryItem",
+  function() { return {"count_changes_pushed_by_user_654aade2":"%{count} การเปลี่ยนแปลงที่แจ้งโดย %{user}","count_pushed_changes_6fe7fba":"%{count} การเปลี่ยนแปลงที่แจ้ง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_settings_labels",
+  function() { return {"availability_dates_changed_exceptions_465ba375":"ข้อยกเว้นในการแก้ไขวันที่พร้อมใช้งาน:","content_1440204b":"ข้อมูล","content_changed_exceptions_e8bff81e":"ข้อยกเว้นสำหรับเนื้อหาที่แก้ไข:","created_58b8a75a":"จัดทำแล้ว","deleted_content_exceptions_237e809d":"ข้อยกเว้นสำหรับเนื้อหาที่ลบ:","due_dates_changed_exceptions_ddb028":"ข้อยกเว้นในการแก้ไขวันครบกำหนด:","initial_sync_incomplete_ec74fe8e":"ซิงค์เบื้องต้นเสร็จสิ้น","points_changed_exceptions_b0c771f7":"ข้อยกเว้นสำหรับคะแนนที่แก้ไข:","question_bank_f6c44d62":"แถวคำถาม","settings_changed_exceptions_e5247936":"ข้อยกเว้นสำหรับการเปลี่ยนแปลงค่าปรับตั้ง:","updated_2c1e8615":"อัพเดตแล้ว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "blueprint_LockItemFormat",
+  function() { return {"no_attributes_locked_611c5cc":"ไม่มีคุณลักษณะที่ล็อคไว้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_nickname_edit",
+  function() { return {"nickname_1e6da3ad":"ชื่อเล่น"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "calendar_color_picker",
+  function() { return {"blue_daf8fea9":"น้ำเงิน","brick_f2656265":"Brick","chosencolor_is_not_a_valid_color_enter_a_valid_hex_9e2c7c42":"'%{chosenColor}' ไม่ใช่สีที่ถูกต้อง กรอก hexcode ที่ถูกต้องก่อนทำการบันทึก","could_not_save_chosencolor_741b74ce":"ไม่สามารถบันทึก '%{chosenColor}'","cyan_c1d5f68a":"ฟ้า","deep_purple_bb3e2907":"ม่วงเข้ม","enter_a_hexcode_here_to_use_a_custom_color_51ecccce":"กรอก hexcode ที่นี่เพื่อใช้สีกำหนดเอง","green_15af4778":"เขียว","indigo_2035fc55":"คราม","invalid_hexcode_9124519f":"Hexcode ไม่ถูกต้อง","invalid_hexcode_enter_a_valid_hexcode_here_to_use__fc0f2741":"Hexcode ไม่ถูกต้อง กรอก hexcode ที่ถูกต้องที่นี่เพื่อใช้สีกำหนดเอง","light_blue_5374f600":"ฟ้า","magenta_4a65993c":"ม่วงอมแดง","olive_6a3e4d6b":"โอลีฟ","orange_81386a62":"ส้ม","pink_68ad45cb":"ชมพู","pumpkin_904428d5":"ฟักทอง","purple_7678a9fc":"ม่วง","red_8258edf3":"แดง","select_a_predefined_color_c77ab2f5":"เลือกสีกำหนดสำเร็จ","select_course_color_cad8e62b":"เลือกสีบทเรียน","teal_f729a294":"ทีล"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "format_range",
+  function() { return {"multiple_ba5220cd":"หลายรายการ","upper_lower_56cad16c":"%{upper} - %{lower}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "conditional_release",
+  function() { return {"add_items_44913315":"เพิ่มรายการ","add_items_into_scoring_range_title_be08104e":"เพิ่มรายการไปยัง %{scoring_range_title}","add_items_to_score_range_297d413b":"เพิ่มรายการไปยังช่วงคะแนน","all_items_a49b66c7":"รายการทั้งหมด","assignment_name_options_43b1795":"ตัวเลือก %{name} ของภารกิจ","assignment_set_set_index_28b1f973":"ชุดภารกิจ %{set_index}","click_to_merge_sets_here_638fcac7":"คลิกเพื่อผสานชุดรายการที่นี่","click_to_split_set_here_9c35462a":"คลิกเพื่อแยกชุดรายการที่นี่","division_cutoff_cutoff_value_e938bc9d":"จุดแบ่ง %{cutoff_value}","error_in_mastery_paths_range_index_7d17ddac":"%{error} ในช่วงเส้นทางการพัฒนาความเชี่ยวชาญ %{index}","filter_assignment_category_63acaed4":"กรองหมวดหมู่ภารกิจ","item_category_category_icon_for_item_name_item_nam_ff2b97f0":"ไอคอนหมวดหมู่ %{item_category} สำหรับชื่อรายการ %{item_name}","label_as_gradingtype_ae164bd9":"%{label}, เป็น %{gradingType}","loading_1d2ad2d7":"กำลังโหลด...","lower_bound_ed528347":"เย็บล่าง","move_to_lower_upper_94cb604f":"ย้ายไปที่ %{lower} - %{upper}","moved_assignment_name_to_scoring_range_lower_upper_edd6fc4e":"ย้ายภารกิจ %{name} ไปที่ช่วงคะแนน %{lower} - %{upper}","must_be_a_number_f6e09df7":"จะต้องเป็นตัวเลข","must_not_be_empty_80fd90b8":"จะต้องไม่ปล่อยว่าง","must_provide_valid_letter_grade_999219e3":"จะต้องระบุเกรดแบบตัวอักษรที่ถูกต้อง","no_items_found_870b2d0d":"ไม่พบรายการ","removed_assignment_assignment_name_835cc776":"ภารกิจ %{assignment_name} ที่ลบ","score_letter_grade_b3bb9e52":"เกรดแบบตัวอักษร %{score}","score_percent_11941c81":"%{score} เปอร์เซ็นต์","score_points_3c48e2a8":"%{score} คะแนน","scoring_range_upperbound_to_lowerbound_c017669b":"ช่วงคะแนน %{upperBound} ถึง %{lowerBound}","sets_are_merged_click_to_split_fa741a5f":"ชุดข้อมูลถูกผสานไว้ คลิกเพื่อแยก","sets_are_split_click_to_merge_99552cdb":"ชุดข้อมูลถูกจัดแบ่ง คลิกเพื่อผสาน","splitting_disabled_reached_maximum_of_three_assign_716acb13":"ปิดการแยกไว้: ถึงจำกัดสูงสุดของกลุ่มภารกิจสามกลุ่มในช่วงคะแนนแล้ว","splitting_disabled_there_can_only_be_a_maximum_of__7070ec11":"ปิดการแยกไว้: กำหนดจำกัดสูงสุดของกลุ่มภารกิจไว้สามกลุ่มเท่านั้นในช่วงคะแนน","these_scores_are_out_of_order_4f0859ef":"คะแนนเหล่านี้ไม่อยู่ในเกณฑ์กำหนด","top_bound_282d045b":"เย็บบน","upper_to_lower_168f5fe7":"%{upper} ถึง %{lower}"} },
+  function() { return {"and":"\u0026"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_items_found_224f86d3",
+  null,
+  function() { return {"one":"พบหนึ่งรายการ","other":"พบ %{count} รายการ","zero":"ไม่พบรายการ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "cyoe_assignment_sidebar_breakdown_details",
+  function() { return {"close_details_sidebar_ff8f663d":"ปิดแถบรายการด้านข้างระบุรายละเอียด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "cyoe_assignment_sidebar_breakdown_graph_bar",
+  function() { return {"lowerbound_to_upperbound_352a3c0b":"%{lowerBound}+ ถึง %{upperBound}","rangestudents_out_of_totalstudents_students_e5ee60e1":"ผู้เรียน %{rangeStudents} จาก %{totalStudents} ราย","view_range_student_details_8116d68a":"ดูรายละเอียดผู้เรียนตามช่วง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "cyoe_assignment_sidebar_student_details_view",
+  function() { return {"not_submitted_7d05fdb4":"ไม่ได้จัดส่ง","submitted_submitdate_bdd3bf09":"จัดส่งแล้ว: %{submitDate}","view_next_student_9fc72fef":"ดูผู้เรียนถัดไป","view_previous_student_90000459":"ดูผู้เรียนก่อนหน้า","view_submission_ff3da5d":"ดูผลงานจัดส่ง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "cyoe_assignment_sidebar_student_range_itme",
+  function() { return {"select_student_name_caaff244":"เลือกผู้เรียน %{name}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "confetti",
+  function() { return {"great_work_from_the_canvas_developers_8c23f1c3":"ทำได้ดีมาก! จากผู้พัฒนาของ Canvas"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "select_content_checkbox",
+  null,
+  function() { return {"select_content_error":"คุณจะต้องเลือกตัวเลือกเนื้อหา"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "student_context_trayLastActivity",
+  function() { return {"last_login_b7bc0479":"ล็อกอินล่าสุด:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "student_context_trayRating",
+  function() { return {"high_b5cbd048":"สูง","low_eab1cadd":"ต่ำ","moderate_d0c85e92":"ควบคุม"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "student_context_traySectionInfo",
+  function() { return {"section_section_names_98f172e6":"กลุ่มย่อย: %{section_names}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "student_context_trayStudentContextTray",
+  function() { return {"activity_compared_to_class_8133cb0":"กิจกรรมเทียบกับชั้นเรียน","page_views_eb64cf53":"การเปิดดูเพจ","participation_af2598":"การเข้าร่วม","send_a_message_to_student_b2e72576":"ส่งข้อความไปยัง %{student}","view_analytics_for_name_9b31594e":"ดูข้อมูลวิเคราะห์สำหรับ %{name}","view_grades_for_name_45aeb2f2":"ดูเกรดสำหรับ %{name}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "student_context_traySubmissionProgressBars",
+  function() { return {"grade_10d1e5a1":"%{grade}","last_length_graded_items_6db7374e":"%{length} รายการที่ให้เกรดแล้วล่าสุด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "publishable",
+  null,
+  function() { return {"cant_unpublish":"ไม่สามารถเลิกการเผยแพร่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "publishableModuleItem",
+  function() { return {"can_t_unpublish_if_there_are_student_submissions_2d7cd742":"ไม่สามารถเลิกเผยแพร่ได้หากมีผลงานจัดส่งจากผู้เรียน","can_t_unpublish_item_name_if_there_are_student_sub_b83c7a9f":"ไม่สามารถเลิกเผยแพร่ %{item_name} หากมีผลงานจัดส่งจากผู้เรียน","publishing_is_disabled_for_this_item_efa7803f":"การเผยแพร่ถูกปิดใช้งานสำหรับรายการนี้","publishing_item_name_is_disabled_8207a9e7":"การเผยแพร่ %{item_name} ถูกปิดใช้งาน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "viewsContextModules",
+  null,
+  function() { return {"context_module":{"unpublish":"เลิกเผยแพร่"},"context_modules":{"publish":"เผยแพร่"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "context_modulespublic",
+  function() { return {"collapse_all_50275533":"ย่อทั้งหมด","collapse_all_modules_e092807c":"ย่อหน่วยการเรียนทั้งหมด","complete_all_items_e1779257":"ดำเนินการทั้งหมด","complete_one_item_90e5fb03":"ดำเนินการรายการเดียว","delete_prerequisite_title_19741947":"ลบเงื่อนไขเบื้องต้น %{title}","delete_requirement_item_type_d7453a69":"ลบเงื่อนไข %{item} (%{type})","duplicating_module_this_may_take_some_time_eef73720":"กำลังจำลองหน่วยการเรียน อาจต้องใช้เวลาครู่หนึ่ง","error_duplicating_module_4b023042":"มีข้อผิดพลาดในการจำลองหน่วยการเรียน","error_rendering_duplicated_module_db821097":"เกิดข้อผิดพลาดในการเรนเดอร์หน่วยการเรียนซ้ำซ้อน","expand_all_bb64d2ea":"ขยายทั้งหมด","expand_all_modules_a7d79134":"ขยายหน่วยการเรียนทั้งหมด","module_item_module_item_name_was_successfully_dele_8626d846":"รายการหน่วยการเรียน %{module_item_name} ลบเสร็จสิ้น","module_module_name_was_successfully_deleted_fc9e9d47":"หน่วยการเรียน %{module_name} ลบเสร็จสิ้น","move_module_90e6927e":"ย้ายหน่วยการเรียน","move_module_item_f525d6c8":"ย้ายรายการหน่วยการเรียน","multiple_due_dates_283dd861":"วันครบกำหนดหลายรายการ","must_contribute_to_the_page_fff632c":"จะต้องมีส่วนร่วมในเพจดังกล่าว","must_mark_as_done_91cff799":"จะต้องกำกับว่าเสร็จสิ้นแล้ว","must_score_at_least_a_score_3b4f813d":"จะต้องทำคะแนนได้อย่างน้อย %{score}","must_submit_the_assignment_782d025":"จะต้องส่งภารกิจดังกล่าว","must_view_the_page_67eec19e":"จะต้องดูหน้าเพจดังกล่าว","not_completed_d70acea3":"ไม่เสร็จสิ้น","not_yet_completed_345a0bca":"ยังไม่เสร็จสิ้น","prerequisites_list_62d66d12":"เงื่อนไขเบื้องต้น: %{list}","released_by_mastery_path_path_b562d741":"เผยแพร่จากเส้นทางพัฒนาความเชี่ยวชาญ: %{path}","select_prerequisite_module_57894963":"เลือกหน่วยการเรียนตามเงื่อนไขเบื้องต้น","some_module_items_could_not_be_published_e4be3c0":"หน่วยการเรียนบางส่วนไม่สามารถเผยแพร่ได้","this_assignment_is_overdue_a44bea3b":"ภารกิจนี้เกินกำหนดแล้ว","title_is_required_437f9993":"ต้องระบุชื่อ","you_scored_a_score_a5dd5561":"คุณทำคะแนนได้ %{score}","your_submission_has_not_been_graded_yet_d6963e53":"ผลงานจัดส่งของคุณยังไม่ได้ให้เกรด"} },
+  function() { return {"buttons":{"add":"เพิ่มหน่วยการเรียน","add_item":"เพิ่มรายการ","update":"อัพเดตหน่วยการเรียน"},"confirm":{"delete":"แน่ใจว่าต้องการลบหน่วยการเรียนนี้หรือไม่","delete_item":"แน่ใจว่าต้องการลบรายการนี้จากหน่วยการเรียนนี้หรือไม่"},"errors":{"reorder":"เรียงลำดับใหม่ล้มเหลว กรุณาลองใหม่อีกครั้ง"},"optgroup":{"assignments":"ภารกิจ","discussion_topics":"การพูดคุย","external_tools":"เครื่องมือจากภายนอก","external_urls":"URL จากภายนอก","files":"ไฟล์","quizzes":"คำถาม"},"points_possible_short":"%{points} คะแนน","titles":{"add":"เพิ่มหน่วยการเรียน","add_item":"เพิ่มรายการไปยัง %{module}","add_prerequisite":"เพิ่มเงื่อนไขเบื้องต้นไปยัง %{module}","edit":"แก้ไขค่าปรับตั้งหน่วยการเรียน","edit_item":"แก้ไขรายละเอียดรายการ"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "copy_to_clipboard",
+  function() { return {"copy_the_video_url_dd509606":"คัดลอก URL วิดีโอ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_home_dialog",
+  function() { return {"assignments_list_fe3e54be":"รายการภารกิจ","before_publishing_your_course_you_must_either_publ_cf84cad9":"ก่อนเผยแพร่บทเรียนของคุณ คุณจะต้องเผยแพร่หน่วยการเรียนในหน้าหน่วยการเรียน หรือเลือกหน้าหลักอื่น","choose_and_publish_980812cb":"เลือกและเผยแพร่","choose_course_home_page_d8642f9e":"เลือกหน้าหลักของบทเรียน","course_activity_stream_40091c17":"สตรีมกิจกรรมสำหรับบทเรียน","course_modules_795cb95e":"หน่วยการเรียนของบทเรียน","front_page_must_be_set_first_c5246f7d":"จะต้องกำหนดหน้าแรกก่อน","pages_front_page_9ce5188":"หน้าเพจ หน้าแรก","select_what_you_d_like_to_display_on_the_home_page_c1b53804":"เลือกสิ่งที่คุณต้องการจัดแสดงในหน้าหลัก"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "home_page_prompt",
+  function() { return {"before_publishing_your_course_you_must_either_publ_cdfdc78c":"ก่อนเผยแพร่บทเรียนของคุณ คุณจะต้องเผยแพร่หน่วยการเรียนหรือเลือกหน้าหลักอื่น"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "subnav_menu_toggle",
+  function() { return {"hide_account_navigation_menu_ccdf9480":"ซ่อนเมนูสืบค้นเนื้อหาในบัญชีผู้ใช้","hide_admin_navigation_menu_5cab9c9e":"ซ่อนเมนูสืบค้นของผู้ดูแลระบบ","hide_courses_navigation_menu_6f7c4cfd":"ซ่อนเมนูสืบค้นเนื้อหาบทเรียน","hide_groups_navigation_menu_62e8b3d0":"ซ่อนเมนูการสืบค้นเนื้อหาของกลุ่ม","hide_navigation_menu_f0b3e90":"ซ่อนเมนูการสืบค้นเนื้อหา","show_account_navigation_menu_d97270a9":"แสดงเมนูสืบค้นเนื้อหาบัญชีผู้ใช้","show_admin_navigation_menu_92fb579f":"แสดงเมนูสืบค้นเนื้อหาผู้ดูแลระบบ","show_courses_navigation_menu_7ad1a8d4":"แสดงเมนูการสืบค้นเนื้อหาบทเรียน","show_groups_navigation_menu_1521d38d":"แสดงเมนูสืบค้นเนื้อหาของกลุ่ม","show_navigation_menu_34e7f441":"แสดงเมนูสืบค้นเนื้อหา"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "create_course_modal",
+  function() { return {"course_details_25cdf103":"รายละเอียดบทเรียน","create_course_9a69b32c":"จัดทำบทเรียน","create_subject_86de5618":"จัดทำวิชา","creating_new_course_62cd27bb":"กำลังจัดทำบทเรียนใหม่...","creating_new_subject_35fe8d13":"กำลังจัดทำวิชาใหม่...","error_creating_new_course_9d3903bc":"มีข้อผิดพลาดในการจัดทำบทเรียนใหม่","error_creating_new_subject_89f16abe":"มีข้อผิดพลาดในการจัดทำวิชาใหม่","loading_accounts_3364e7a0":"กำลังโหลดบัญชี...","name_e790ff1f":"ชื่อ...","select_a_homeroom_bd9ec5d5":"เลือกโฮมรูม","subject_details_12405b1":"รายละเอียดวิชา","subject_name_a1ac4da4":"ชื่อวิชา","sync_enrollments_and_subject_start_end_dates_from__b36ecf3":"ซิงค์การลงทะเบียนและวันที่เริ่มต้น/สิ้นสุดวิชาจากโฮมรูม","unable_to_get_accounts_cb825c43":"ไม่สามารถรับบัญชีผู้ใช้","unable_to_get_homerooms_959dfe67":"ไม่สามารถรับโฮมรูม","which_account_will_this_course_be_associated_with_80f78fd2":"บัญชีใดที่จะเชื่อมโยงกับบทเรียนนี้","which_account_will_this_subject_be_associated_with_921d6bac":"บัญชีใดที่จะเชื่อมโยงกับวิชานี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "load_card_dashboard",
+  function() { return {"failed_loading_course_cards_8fcdb36d":"ไม่สามารถโหลดบัตรข้อมูลบทเรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "dashcards",
+  function() { return {"actions_for_course_312ff446":"การดำเนินการสำหรับ %{course}","all_courses_80701c6f":"บทเรียนทั้งหมด","an_error_ocurred_while_fetching_course_details_ple_9cab7735":"เกิดข้อผิดพลาดขณะเรียกค้นรายละเอียดบทเรียน กรุณาลองใหม่อีกครั้งในภายหลัง","choose_a_color_or_course_nickname_or_move_course_c_dd23f754":"เลือกสีหรือชื่อเล่นของบทเรียนหรือการ์ดบทเรียนเพิ่มเติมสำหรับ %{course}","confirm_unfavorite_course_fa01966d":"ยืนยันบทเรียนที่ไม่ใช่รายการโปรด","course_card_color_region_for_course_c356a69c":"พื้นที่ตามสีในการ์ดบทเรียนสำหรับ %{course}","course_image_for_course_cfbb08df":"ภาพบทเรียนสำหรับ %{course}","dashboard_card_movement_menu_b65b98f5":"เมนูการเคลื่อนย้ายการ์ดแผงข้อมูล","move_down_4a9c9b18":"ย้ายลง","move_to_bottom_d0f71bf0":"ย้ายไปล่างสุด","move_to_top_e0d7d66e":"ย้ายไปบนสุด","move_up_2440f707":"ย้ายขึ้น","no_courses_favorited_4e69fd63":"ไม่มีบทเรียนที่กำหนดเป็นรายการโปรด","no_courses_to_display_700f94c4":"ไม่มีบทเรียนที่จะจัดแสดง","observing_observee_d31d5fa2":"กำลังสังเกตการณ์: %{observee}","published_courses_count_e7e82f3b":"บทเรียนที่เผยแพร่แล้ว (%{count})","unfavorite_cd0c113e":"เลิกทำรายการโปรด","unfavorite_coursename_32f77231":"เลิกทำรายการโปรดสำหรับ %{courseName}","unpublished_courses_count_d35672f0":"บทเรียนที่เลิกเผยแพร่แล้ว (%{count})","we_were_unable_to_remove_this_course_from_your_fav_70fa598d":"เราไม่สามารถลบบทเรียนนี้จากรายการโปรดของคุณ","you_are_about_to_remove_this_course_from_your_dash_7e806db6":"คุณกำลังจะลบบทเรียนนี้จากแผงข้อมูลของคุณ ข้อมูลจะยังสามารถใช้การได้\n              โดยไปที่ บทเรียน \u003e บทเรียนทั้งหมด จากเมนูหลัก","you_have_no_courses_favorited_reloading_this_page__a2bae9de":"คุณไม่มีบทเรียนที่ทำรายการโปรดไว้ การโหลดหน้าเพจนี้ใหม่จะเป็นการแสดง\n      บทเรียนในปัจจุบันทั้งหมดของคุณ เพิ่มรายการโปรดโดยไปที่ "} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "models_DateGroup",
+  null,
+  function() { return {"everyone_else":"คนอื่น ๆ ทั้งหมด"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "dateformat",
+  function() { return {"yyyy_mm_dd_hh_mm_a01b6081":"DD/MM/YYYY hh:mm"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "timeValue",
+  null,
+  function() { return {"event":"%{dateValue} %{timeValue}"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "DateValidator",
+  function() { return {"due_date_cannot_be_after_course_end_fd128a14":"วันครบกำหนดจะอยู่หลังวันสิ้นสุดบทเรียนไม่ได้","due_date_cannot_be_after_section_end_b0f54388":"วันครบกำหนดจะอยู่หลังวันที่สิ้นสุดกลุ่มย่อยไม่ได้","due_date_cannot_be_after_term_end_5d504cb1":"วันครบกำหนดจะอยู่หลังจากวันที่สิ้นสุดของเทอมไม่ได้","due_date_cannot_be_before_course_start_ecc523ba":"วันครบกำหนดจะอยู่ก่อนวันที่เริ่มต้นบทเรียนไม่ได้","due_date_cannot_be_before_section_start_f8950484":"วันครบกำหนดจะอยู่ก่อนวันที่เริ่มต้นกลุ่มย่อยไม่ได้","due_date_cannot_be_before_term_start_ea660b2c":"วันครบกำหนดจะอยู่ก่อนวันที่เริ่มต้นเทอมไม่ได้","due_date_cannot_fall_in_a_closed_grading_period_e4336124":"วันครบกำหนดจะอยู่ในระยะเวลาให้เกรดที่สรุปแล้วไม่ได้","lock_date_cannot_be_after_course_end_a473158b":"วันที่ล็อคจะอยู่หลังจากสิ้นสุดบทเรียนไม่ได้","lock_date_cannot_be_after_section_end_d37da70c":"วันที่ล็อคจะอยู่หลังจากสิ้นสุดกลุ่มย่อยไม่ได้","lock_date_cannot_be_after_term_end_cf1a188f":"วันที่ล็อคจะอยู่หลังจากสิ้นสุดเทอมไม่ได้","lock_date_cannot_be_before_due_date_ac30f54":"วันที่ล็อคจะอยู่ก่อนวันครบกำหนดไม่ได้","please_add_a_due_date_1d433d2":"กรุณาเพิ่มวันครบกำหนด","please_enter_a_due_date_on_or_after_earliestdate_b3fe6d29":"กรุณากรอกวันครบกำหนด ณ หรือหลังจาก %{earliestDate}","unlock_date_cannot_be_after_due_date_8829d9ca":"วันที่ปลดล็อคจะอยู่หลังจากวันครบกำหนดไม่ได้","unlock_date_cannot_be_after_lock_date_591f7fda":"วันที่ปลดล็อคจะอยู่หลังจากวันที่ล็อคไม่ได้","unlock_date_cannot_be_before_course_start_9c7b8524":"วันที่ปลดล็อคจะอยู่ก่อนวันที่เริ่มต้นบทเรียนไม่ได้","unlock_date_cannot_be_before_section_start_793ddc66":"วันที่ปลดล็อคจะอยู่ก่อนวันที่เริ่มต้นกลุ่มย่อยไม่ได้","unlock_date_cannot_be_before_term_start_d3c01813":"วันที่ปลดล็อคจะอยู่ก่อนวันที่เริ่มต้นเทอมไม่ได้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "datepicker",
+  null,
+  function() { return {"errors":{"not_a_date":"นี่ไม่ใช่วันที่!"},"first_day_index":"0","nextText":"ถัดไป","prevText":"ก่อนหน้า"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "app_shared_components_canvas_date_time",
+  function() { return {"choose_a_date_cd0263fe":"เลือกวันที่","invalid_date_2a10bb7b":"วันที่ไม่ถูกต้อง","type_a_date_or_use_arrow_keys_to_navigate_date_pic_61f7cc86":"พิมพ์วันที่หรือใช้ปุ่มลูกศรเพื่อไปยังตัวเลือกวันที่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "renderDatepickerTime",
+  null,
+  function() { return {"datepicker":{"titles":{"am_pm":"am/pm","hour":"ชม.","minute":"นาที"}}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "dates",
+  null,
+  function() { return {"no_date":"ไม่มีวันที่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "user_search_selector",
+  function() { return {"send_to_a879095e":"ส่งถึง:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "course_and_module_picker",
+  function() { return {"select_a_course_4710371f":"เลือกบทเรียน","select_a_module_optional_7edb5cb0":"เลือกหน่วยการเรียน (เผื่อเลือก)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "direct_share_course_panel",
+  function() { return {"copy_operation_started_successfully_b2f236a1":"เริ่มการคัดลอกเสร็จสิ้น","starting_copy_operation_cc46d911":"กำลังเริ่มการคัดลอก","there_was_a_problem_starting_the_copy_operation_dd599cdd":"มีปัญหาในการเริ่มการคัดลอก"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "direct_share_user_modal",
+  function() { return {"content_share_started_successfully_2c37fb79":"เริ่มการแชร์เนื้อหาเสร็จสิ้น","error_starting_content_share_18fb1532":"เกิดข้อผิดพลาดในการเริ่มการแชร์เนื้อหา","starting_content_share_2d8c2999":"กำลังเริ่มการแชร์เนื้อหา"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "direct_share_user_panel",
+  function() { return {"remove_name_624e06be":"ลบ %{name}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "module_position_picker",
+  function() { return {"loading_additional_items_ed5f672d":"กำลังโหลดรายการเพิ่มเติม..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "jquery_doc_previews",
+  null,
+  function() { return {"errors":{"cannot_view_document_in_canvas":"เอกสารนี้ไม่สามารถแสดงได้ภายใน Canvas","document_preview_processing":"การแสดงตัวอย่างเอกสารปัจจุบันกำลังประมวลผลอยู่ กรุณาลองใหม่อีกครั้งในภายหลัง"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "DueDateOverrideView",
+  function() { return {"you_cannot_assign_to_a_group_outside_of_the_assign_7869eb3b":"คุณไม่สามารถกำหนดให้กับกลุ่มภายนอกชุดกลุ่มสำหรับภารกิจ","you_must_have_a_student_or_section_selected_a99e45df":"คุณจะต้องเลือกผู้เรียนหรือกลุ่มย่อยไว้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignDueDateAddRowButtonments",
+  function() { return {"add_new_set_of_due_dates_e8e240f":"เพิ่มชุดวันครบกำหนดใหม่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "DueDateCalendars",
+  function() { return {"available_from_f84e4611":"ใช้ได้จาก"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "DueDateRemoveRowLink",
+  function() { return {"remove_these_dates_48453a81":"ลบวันที่เหล่านี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "DueDateRow",
+  function() { return {"due_date_set_1c6364db":"กำหนดวันครบกำหนดแล้ว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "due_datesDueDates",
+  function() { return {"mark_as_important_date_and_show_on_homeroom_sideba_1bc818ad":"กำกับเป็นวันที่ที่สำคัญและแสดงไว้ในแถบรายการด้านข้างของโฮมรูม"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "DueDateTokenWrapper",
+  function() { return {"add_students_by_searching_by_name_course_section_o_abb9e2f2":"เพิ่มผู้เรียนโดยการค้นหาชื่อ กลุ่มย่อยบทเรียนหรือกลุ่ม หลังจากกรอกข้อความ ให้ไปยังผลลัพธ์โดยใช้ปุ่มลูกศรลง เลือกผลลัพธ์โดยใช้ปุ่ม Enter","assign_to_c46e21":"กำหนดให้กับ","continue_typing_to_find_additional_sections_or_stu_49786085":"พิมพ์ต่อไปเพื่อค้นหากลุ่มย่อยหรือผู้เรียนเพิ่มเติม","course_section_7a988066":"กลุ่มย่อยของบทเรียน","currently_assigned_to_tokenname_click_to_remove_5a853a84":"ปัจจุบันจัดสรรให้กับ %{tokenName} คลิกเพื่อลบ","no_results_found_58717065":"ไม่พบผลลัพธ์","searching_b0207e7f":"กำลังค้นหา","use_this_list_to_remove_assigned_students_add_new__ad6205ad":"ใช้รายการนี้เพื่อลบผู้เรียนที่จัดสรร เพิ่มผู้เรียนใหม่พร้อมกล่องคอมโบต่อจากรายการ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "EditorToggle",
+  null,
+  function() { return {"done":{"title":"คลิกเพื่อสิ้นสุดการแก้ไขพื้นที่ Rich Text"},"done_as_in_finished":"เสร็จสิ้น"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "SwitchEditorControl",
+  null,
+  function() { return {"switch_editor_html":"HTML Editor","switch_editor_rich_text":"Rich Content Editor"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "i18n!emoji",
+  function() { return {"activity_13915493":"กิจกรรม","animals_nature_8bc03431":"สัตว์และธรรมชาติ","choose_your_default_skin_tone_f09bf0bd":"เลือกสกินโทนเริ่มต้นของคุณ","dark_skin_tone_6c9e7c7c":"สกินโทนสีคล้ำ","default_skin_tone_f378d31c":"สกินโทนเริ่มต้น","emoji_categories_a08744ae":"หมวดหมู่อีโมจิ","emoji_picker_5bb954f9":"ระบบเลือกอีโมจิ","flags_ce30e8e3":"หมายเหตุกำกับ","food_drink_b0ea7e7b":"อาหารและเครื่องดื่ม","frequently_used_21a3eb8e":"ที่ใช้ประจำ","light_skin_tone_28ab2db1":"สกินโทนสีอ่อน","medium_dark_skin_tone_5134edbc":"สกินโทนคล้ำปานกลาง","medium_light_skin_tone_6c4a27fb":"สกินโทนสีอ่อนปานกลาง","medium_skin_tone_8608d74e":"สกินโทนระดับกลาง","no_emoji_found_4db2f53c":"ไม่พบอีโมจิ","objects_589fdc11":"ออบเจคต์","open_emoji_menu_1df0eb0b":"เปิดเมนูอีโมจิ","people_body_3ce556e3":"บุคคลและร่างกาย","pick_an_emoji_942adfc4":"เลือกอีโมจิ...","search_results_4d5af4eb":"ผลการค้นหา","smileys_emotion_edc2beac":"หน้ายิ้มและอารมณ์","symbols_35065d67":"สัญลักษณ์","travel_places_f461329c":"การเดินทางและสถานที่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "instructure_js",
+  function() { return {"download_filename_781704f5":"ดาวน์โหลด %{filename}","something_went_wrong_loading_the_file_previewer_3fb369e8":"มีบางอย่างผิดพลาดขณะโหลดส่วนแสดงตัวอย่างไฟล์","this_image_is_currently_unavailable_25c68857":"ภาพนี้ปัจจุบันไม่พร้อมใช้งาน"} },
+  function() { return {"errors":{"posting_message_failed":"โพสต์ล้มเหลว ลองใหม่อีกครั้ง"},"links":{"minimize_file_preview":"ย่อการแสดงตัวอย่างไฟล์","minimize_youtube_video":"ย่อวิดีโอ","view_equella_content_in_new_window":"ดูเนื้อหาในหน้าต่างใหม่"},"status":{"posting_message":"กำลังโพสต์ข้อความ..."},"switched_roles_message":{"designer":"คุณสลับบทบาทเป็นการชั่วคราวสำหรับบทเรียนนี้ และกำลังดูเนื้อหาบทเรียนในฐานะผู้ออกแบบ  คุณสามารถกู้คืนบทบาทและสิทธิ์อนุญาตของคุณจากหน้าหลักบทเรียน","observer":"คุณสลับบทบาทเป็นการชั่วคราวสำหรับบทเรียนนี้ และกำลังดูเนื้อหาบทเรียนในฐานะผู้สังเกตการณ์  คุณสามารถกู้คืนบทบาทและสิทธิ์อนุญาตของคุณจากหน้าหลักบทเรียน","student":"คุณสลับบทบาทเป็นการชั่วคราวสำหรับบทเรียนนี้ และกำลังดูเนื้อหาบทเรียนในฐานะผู้เรียน  คุณสามารถกู้คืนบทบาทและสิทธิ์อนุญาตของคุณจากหน้าหลักบทเรียน","ta":"คุณสลับบทบาทเป็นการชั่วคราวสำหรับบทเรียนนี้ และกำลังดูเนื้อหาบทเรียนในฐานะ TA  คุณสามารถกู้คืนบทบาทและสิทธิ์อนุญาตของคุณจากหน้าหลักบทเรียน","teacher":"คุณสลับบทบาทเป็นการชั่วคราวสำหรับบทเรียนนี้ และกำลังดูเนื้อหาบทเรียนในฐานะผู้สอน  คุณสามารถกู้คืนบทบาทและสิทธิ์อนุญาตของคุณจากหน้าหลักบทเรียน"},"titles":{"equella_content_preview":"แสดงตัวอย่างเนื้อหา Equella","external_link":"ลิงค์ไปยังไซต์ภายนอก"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "standalone_file_preview",
+  function() { return {"failed_getting_file_to_preview_89fe2bf4":"ไม่สามารถสืบค้นไฟล์ที่จะแสดงตัวอย่าง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "external_toolsModalLauncher",
+  function() { return {"launch_external_tool_672c0409":"เรียกใช้ชุดเครื่องมือจากภายนอก"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "feature_flags",
+  function() { return {"allowed_for_subaccounts_courses_default_off_da598c11":"ที่อนุญาตสำหรับบัญชีย่อย/บทเรียน, ปิดค่าเริ่มต้น","allowed_for_subaccounts_courses_default_on_e485ec7f":"ที่อนุญาตสำหรับบัญชีย่อย/บทเรียน, เปิดค่าเริ่มต้น","an_error_occurred_updating_the_flag_b98edb3f":"เกิดข้อผิดพลาดในการอัพเดตหมายเหตุกำกับ","beta_cb5f307e":"เบต้า","current_state_baac9c8":"สถานะปัจจุบัน:","disabled_for_all_subaccounts_courses_6c8938e0":"ปิดใช้งานแล้วสำหรับบัญชีย่อย/บทเรียนทั้งหมด","enabled_for_all_subaccounts_courses_e2ee4b2":"เปิดใช้งานแล้วสำหรับบัญชีย่อย/บทเรียนทั้งหมด","feature_preview_5e1216a0":"แสดงตัวอย่างคุณสมบัติ (Feature Preview)","feature_preview_opting_in_includes_ongoing_updates_111627f2":"แสดงตัวอย่างคุณสมบัติ (Feature preview) - การเลือกใช้จะครอบคลุมทั้งข้อมูลอัพเดตต่อเนื่องนอกกำหนดเวลาการเผยแพร่ตามปกติ","loading_feature_options_82e07ee4":"กำลังโหลดตัวเลือกคุณสมบัติการใช้งาน","search_features_15b601cd":"ค้นหาคุณสมบัติ","site_admin_d0417171":"ผู้ดูแลไซต์","this_feature_option_is_only_visible_to_users_with__d5e21cee":"ตัวเลือกคุณสมบัตินี้จะแสดงเฉพาะกับผู้ใช้ที่มีสิทธิ์เป็นผู้ดูแลไซต์ (Site Admin)\n                            ผู้ใช้ปลายทางจะไม่เห็นข้อมูลนี้จนกว่าผู้ดูแลไซต์ (Site Admin) จะเปิดใช้งาน\n                            ก่อนเปิดใช้งานสำหรับสถาบัน กรุณาตรวจสอบว่าคุณเข้าใจ\n                            การทำงานและผลกระทบที่อาจเกิดขึ้นกับผู้ใช้อย่างครบถ้วนแล้ว","this_will_affect_every_customer_are_you_sure_a1e0cac6":"กรณีนี้จะมีผลกับลูกค้าทุกราย แน่ใจหรือไม่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "file_preview",
+  function() { return {"file_not_found_9eec054c":"ไม่พบไฟล์","file_preview_eedb43f2":"แสดงตัวอย่างไฟล์","file_preview_overlay_87f7e5f":"โอเวอร์เลย์ตัวอย่างไฟล์","info_8f47054a":"ข้อมูล","info_panel_displayed_51d481cc":"แผงข้อมูลแสดงผลอยู่","info_panel_hidden_bf7c3b7b":"แผงข้อมูลแสดงซ่อนอยู่","kind_7f0a88c4":"ประเภท","last_modified_by_ca4bb5e1":"แก้ไขล่าสุดโดย","view_next_file_a8a4a885":"ดูไฟล์ถัดไป","view_previous_file_b846db4f":"ดูไฟล์ก่อนหน้า"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "file_rename_form",
+  function() { return {"a_locked_item_named_name_already_exists_in_this_lo_ab03ee39":"รายการที่ล็อคไว้ชื่อ “%{name}” มีอยู่แล้วในตำแหน่งนี้ กรุณากรอกชื่อใหม่","an_item_named_name_already_exists_in_this_location_147b7312":"รายการชื่อ \"%{name}\" มีอยู่แล้วในตำแหน่งนี้ ต้องการแทนที่ไฟล์ในปัจจุบันหรือไม่","change_name_c8cce76c":"ชื่อชื่อ","change_name_to_568374c8":"เปลี่ยน \"%{name}\" เป็น","replace_e61834a7":"แทนที่","skip_bcb86160":"ข้าม"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "broccoli_cloud",
+  function() { return {"available_after_unlock_at_b5682224":"พร้อมใช้หลังจาก %{unlock_at}","available_after_unlock_at_until_lock_at_499e8092":"พร้อมใช้หลังจาก %{unlock_at} จนถึง %{lock_at}","available_until_lock_at_ab022445":"ใช้ได้จนถึง %{lock_at}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "restrict_student_access",
+  function() { return {"available_from_date_43b5e11d":"วันที่ ใช้ได้จาก","available_from_date_must_precede_available_until_c9f9e533":"\"วันที่ ใช้ได้จาก\" จะต้องอยู่ก่อน \"พร้อมใช้จนถึง\"","available_until_date_cd125c62":"วันที่ใช้ได้จนถึง","before_publishing_you_must_set_usage_rights_on_you_dcd7b567":"ก่อนการเผยแพร่ คุณจะต้องกำหนดสิทธิ์การใช้งานในไฟล์ของคุณ","schedule_student_availability_332154a":"กำหนดเวลาความพร้อมของผู้เรียน","update_4d8ee62":"อัพเดต"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "usage_rights_modal",
+  function() { return {"and_count_more_43eae021":"และอีก %{count} รายการ…","items_items_selected_5b55e566":"%{items} รายการที่เลือก","items_selected_have_different_usage_rights_52b325cc":"รายการที่เลือกมีสิทธิ์การใช้งานอื่น","usage_rights_have_been_set_d1b433c7":"สิทธิ์การใช้งานถูกกำหนดไว้แล้ว","usage_rights_will_be_set_for_all_of_the_files_cont_b192336a":"สิทธิ์การใช้งานจะถูกกำหนดไว้สำหรับไฟล์ทั้งหมดภายใน","you_can_also_manage_access_at_this_time_105a2530":"นอกจากนี้คุณยังสามารถจัดการการใช้งานได้ในตอนนี้:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "publish_cloud",
+  function() { return {"editing_permissions_for_name_3503e235":"กำลังแก้ไขสิทธิ์อนุญาตสำหรับ: %{name}","filename_is_only_available_to_students_with_the_li_97190506":"%{fileName} ใช้ได้เฉพาะสำหรับผู้เรียนที่มีลิงค์นี้ - คลิกเพื่อแก้ไข","filename_is_published_click_to_modify_38a4a269":"%{fileName} ถูกเผยแพร่แล้ว - คลิกเพื่อแก้ไข","filename_is_restricted_9aaf9250":"%{fileName} มีสถานะ %{restricted}","filename_is_restricted_click_to_modify_c0bb77f8":"%{fileName} มีสถานะ %{restricted} - คลิกเพื่อแก้ไข","filename_is_unpublished_click_to_modify_7e731102":"%{fileName} ถูกเลิกเผยแพร่แล้ว - คลิกเพื่อแก้ไข"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "files_upload_progress",
+  function() { return {"error_message_2b9d12ee":"ข้อผิดพลาด: %{message}","error_uploading_file_e2d31b56":"มีข้อผิดพลาดในการอัพโหลดไฟล์","filename_progress_percent_uploaded_1f465e66":"%{fileName} - อัพโหลดแล้ว %{progress}","filename_uploaded_successfully_edd8e825":"%{fileName} อัพโหลดเสร็จสิ้น!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "usageRightsSelectBox",
+  function() { return {"c_2001_acme_inc_283f7f80":"(c) 2001 Acme Inc.","choose_usage_rights_33683854":"เลือกสิทธิ์การใช้งาน...","copyright_holder_66ee111":"ผู้ถือลิขสิทธิ์:","creative_commons_license_725584ae":"สิทธิ์ใช้งาน Creative Commons:","i_have_obtained_permission_to_use_this_file_6386f087":"ฉันได้รับสิทธิ์อนุญาตให้ใช้ไฟล์นี้","i_hold_the_copyright_71ee91b1":"ฉันถือลิขสิทธิ์","if_you_do_not_select_usage_rights_now_this_file_wi_40c42125":"หากคุณไม่เลือกสิทธิ์การใช้งาน ไฟล์นี้จะถูกเลิกเผยแพร่หลังจากอัพโหลดแล้ว","the_material_is_in_the_public_domain_279c39a3":"สื่ออยู่ในโดเมนสาธารณะ","the_material_is_licensed_under_creative_commons_3242cb5e":"สื่อได้รับอนุญาตภายใต้ ใช้งานร่วมกันเพื่อการสร้างสรรค์","the_material_is_subject_to_an_exception_e_g_fair_u_a39c8ca2":"สื่อมีข้อยกเว้น เช่น การใช้งานอย่างเหมาะสม สิทธิ์ในการเสนอราคา หรืออื่น ๆ ภายใต้กฎหมายลิขสิทธิ์ที่เกี่ยวข้อง","usage_right_ff96f3e2":"สิทธิ์การใช้งาน:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "zip_file_options_form",
+  null,
+  function() { return {"expand":"คัดแยก","message":"ต้องการคัดแยกเนื้อหาของ \"%{fileName}\" ไปยังโฟลเดอร์ปัจจุบันหรืออัพโหลดไฟล์ .zip ตามเดิมหรือไม่","upload":"อัพโหลด","zip_options":"ตัวเลือกไฟล์ Zip"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "file_status",
+  null,
+  function() { return {"hidden_status":"ซ่อนไว้ มีพร้อมลิงค์","published_status":"เผยแพร่แล้ว","restricted_status":"ใช้ได้ตั้งแต่ %{from_date} จนถึง %{until_date}","unpublished_status":"ไม่ได้เผยแพร่"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "generate_pairing_code",
+  function() { return {"generating_pairing_code_251b7fc8":"กำลังจัดทำรหัสเข้าคู่...","generating_pairing_code_d480ccf4":"กำลังจัดทำรหัสเข้าคู่","pair_with_observer_b1541895":"เข้าคู่กับผู้สังเกตการณ์","share_the_following_pairing_code_with_an_observer__44f50f99":"แชร์รหัสเข้าคู่ต่อไปนี้ร่วมกับผู้สังเกตการณ์เพื่อให้\n    สามารถเชื่อมต่อกับ %{name} รหัสนี้จะหมดอายุภายในเจ็ดวัด\n    หรือหลังใช้งานหนึ่งครั้ง","share_the_following_pairing_code_with_an_observer__9b7c3667":"แชร์รหัสเข้าคู่ต่อไปนี้กับผู้สังเกตการณ์เพื่อให้\n    สามารถเชื่อมต่อกับคุณ รหัสนี้จะหมดอายุภายในเจ็ดวัด\n    หรือหลังใช้งานหนึ่งครั้ง","there_was_an_error_generating_the_pairing_code_9edd639b":"มีข้อผิดพลาดในการจัดทำรหัสเข้าคู่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "generic_error_page",
+  function() { return {"comment_failed_to_post_please_try_again_later_e2d19a0a":"ไม่สามารถโพสต์ความเห็นได้! กรุณาลองใหม่อีกครั้งในภายหลัง","comment_submitted_d9934b":"ส่งความเห็นแล้ว!","email_example_com_99490d29":"email@example.com","help_us_improve_by_telling_us_what_happened_d6392f18":"ช่วยเราในการปรับปรุงโดยการแจ้งให้เราทราบว่าเกิดอะไรขึ้น","report_issue_b5f1db0e":"แจ้งปัญหา","what_happened_322d8259":"เกิดอะไรขึ้น","your_email_address_844297ea":"อีเมลแอดเดรสของคุณ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "CalculationMethodContent",
+  function() { return {"average_49c63f9b":"เฉลี่ย","between_1_and_10_7118bf2d":"ระหว่าง 1 และ 10","between_1_and_99_d421a4c0":"ระหว่าง 1% และ 99%","decaying_average_8bf6a0dd":"Decaying Average","decaying_average_recentint_remainderint_ab0636cc":"Decaying Average - %{recentInt}%/%{remainderInt}%","highest_score_e080551e":"คะแนนสูงสุด","items_299a7626":"รายการ: ","last_item_79583712":"รายการล่าสุด: ","latest_score_905aa87b":"คะแนนล่าสุด","mastery_score_reflects_the_highest_score_of_a_grad_fd426d1e":"คะแนนความเชี่ยวชาญพิจารณาจากคะแนนสูงสุดของภารหรือแบบทดสอบที่ให้เกรดแล้ว","mastery_score_reflects_the_most_recent_graded_assi_921f138f":"คะแนนความเชี่ยวชาญพิจารณาจากภารกิจหรือแบบทดสอบล่าสุดที่ให้เกรดแล้ว","most_recent_result_counts_as_calculation_int_of_ma_d2fc1d19":"จำนวนผลลัพธ์ล่าสุดที่ %{calculation_int} ของการถ่วงน้ำหนักระดับความเชี่ยวชาญ ค่าเฉลี่ยของจำนวนผลลัพธ์อื่นทั้งหมดเป็น %{remainder} ของค่าถ่วงน้ำหนัก หากมีผลลัพธ์เดียว จะมีการแจ้งคะแนนเพียงรายการเดียว","most_recent_score_13a87e8c":"คะแนนล่าสุด","must_be_between_1_and_10_e99eb0d1":"จะต้องอยู่ระหว่าง 1 และ 10","must_be_between_1_and_99_589b827d":"จะต้องอยู่ระหว่าง 1 และ 99","n_number_of_times_c2e78b72":"n ครั้ง","of_times_1018baab":"# ครั้ง","recentint_remainderint_decaying_average_79bc09fb":"%{recentInt}/%{remainderInt} Decaying Average","weighting_for_last_item_ee22ae13":"% ถ่วงน้ำหนักสำหรับรายการล่าสุด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "achieve_mastery_count_times_8c9bbcec",
+  null,
+  function() { return {"one":"ทำผลงานระดับเชี่ยวชาญได้หนึ่งครั้ง","other":"ทำผลงานระดับเชี่ยวชาญได้ %{count} ครั้ง"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "must_achieve_mastery_at_least_count_times_scores_a_628db168",
+  null,
+  function() { return {"one":"จะต้องผ่านเกณฑ์ความเชี่ยวชาญอย่างน้อยหนึ่งครั้ง คะแนนเกินกว่าระดับความเชี่ยวชาญจะถูกปรับเฉลี่ยเพื่อคำนวณคะแนนสรุป","other":"จะต้องมีระดับความเชี่ยวชาญอย่างน้อย %{count} ครั้ง คะแนนเกินกว่าระดับความเชี่ยวชาญจะถูกปรับเฉลี่ยเพื่อคำนวณคะแนนสรุป"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "IndividiualStudentMasteryAssignmentResult",
+  function() { return {"your_score_a1fc2fcf":"คะแนนของคุณ","your_score_score_fb785381":"คะแนนของคุณ: %{score}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "IndividualStudentMasteryIndex",
+  function() { return {"an_error_occurred_loading_outcomes_data_cfd18b61":"เกิดข้อผิดพลาดในการโหลดข้อมูลผลลัพธ์","loading_outcome_results_96e21ce4":"กำลังโหลดผลลัพธ์","there_are_no_outcomes_in_the_course_1d36d9c6":"ไม่มีผลลัพธ์ในบทเรียนนี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "IndividualStudentMasteryOutcome",
+  function() { return {"mastered_34d4c857":"มีความเชี่ยวชาญ","no_alignments_are_available_for_this_outcome_7f8346f9":"ไม่มีภารกิจที่พร้อมสำหรับผลลัพธ์นี้","not_mastered_5c2f9968":"ไม่ได้ผ่านเกณฑ์ความเชี่ยวชาญ","score_out_of_points_possible_points_bbaea991":"%{score} จา %{points_possible} คะแนน","toggle_alignment_details_for_title_944f605":"เปิดปิดรายละเอียดการผสานสำหรับ %{title}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_alignments_40fbc23c",
+  null,
+  function() { return {"one":"%{count} การปรับประสาน","other":"%{count} การปรับประสาน","zero":"ไม่มีการปรับประสาน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "IndividualStudentMasteryOutcomeGroup",
+  function() { return {"nummastered_of_numgroup_mastered_b8113c9c":"%{numMastered} จาก %{numGroup} ที่ผ่านเกณฑ์ความเชี่ยวชาญ","toggle_outcomes_for_title_6994b198":"เปิดปิดผลลัพธ์สำหรับ %{title}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "IndividualStudentMasteryOutcomePopover",
+  function() { return {"1_item_scores_examplescores_9736236":"1- คะแนนรายการ: %{exampleScores}","2_final_score_exampleresult_922edf9c":"2- คะแนนสรุป: %{exampleResult}","click_to_close_outcome_details_popover_d469d47d":"คลิกเพื่อปิดส่วนแสดงรายละเอียดผลลัพธ์","click_to_expand_outcome_details_74a2a967":"คลิกเพื่อขยายรายละเอียดผลลัพธ์","last_assessment_cd5659b6":"การประเมินล่าสุด: ","no_submissions_164cea23":"ไม่มีผลงานจัดส่ง","outcome_details_ce254e89":"รายละเอียดผลลัพธ์"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "IndividualStudentMasteryUnassessedAssignment",
+  function() { return {"not_yet_assessed_9362f199":"ยังไม่ได้ประเมิน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradingdataRow",
+  function() { return {"insert_row_below_name_a5b3bd41":"แทรกแถวด้านล่าง %{name}","lower_limit_of_range_6ddd4983":"เกณฑ์จำกัดช่วงล่าง","range_name_90614433":"ชื่อช่วง","remove_row_name_c053f5ae":"ลบแถว %{name}","to_35c6baa2":"เป็น ","to_minscore_43e5452e":"ถึง %{minScore}%","upper_limit_of_range_c454a8f2":"เกณฑ์จำกัดช่วงบนของช่วง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradinggradingStandard",
+  function() { return {"a_table_that_contains_the_grading_scheme_data_firs_90d2e30d":"ตารางที่มีข้อมูลรูปแบบการให้เกรด ชื่อคือชื่อของรูปแบบการให้เกรดและปุ่มสำหรับแก้ไขและลบรูปแบบ แต่ละแถวจะมีชื่อ เปอร์เซ็นต์สูงสุดและเปอร์เซ็นต์ต่ำสุด นอกจากนี้ แต่ละแถวจะมีปุ่มเพื่อเพิ่มแถวใหม่ไว้ด้านล่าง และปุ่มเพื่อลบแถวในปัจจุบัน","context_contextname_24d82846":"(%{context}: %{contextName})","context_level_56d88f5b":"(ระดับของ %{context})","delete_grading_scheme_title_215f0a40":"ลบรูปแบบการให้เกรด %{title}","edit_grading_scheme_title_ff41d916":"แก้ไขรูปแบบการให้เกรด %{title}","grading_standard_title_58f540a3":"ชื่อมาตรฐานในการให้เกรด","insert_row_in_edit_mode_5976f269":"แทรกแถวในโหมดแก้ไข","looks_great_e4d883ed":"ดูใช้ได้เลย!","manage_grading_schemes_in_context_name_e3678273":"จัดการรูปแบบการให้เกรดใน %{context_name}","message_896d2ed0":"%{message}","range_56b2f310":"ช่วง","remove_row_in_edit_mode_49c4dc07":"ลบแถวในโหมดแก้ไข"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "external_toolsgradingStandardCollection",
+  function() { return {"add_grading_scheme_81e23c05":" เพิ่มรูปแบบการให้เกรด","are_you_sure_you_want_to_delete_this_grading_schem_df8b75f9":"แน่ใจว่าต้อกงารลบรูปแบบการให้เกรดนี้หรือไม่","grading_scheme_deleted_7ae5a072":"ลบรูปแบบการให้เกรดแล้ว","grading_scheme_saved_85535151":"บันทึกรูปแบบการให้เกรดแล้ว","no_grading_schemes_to_display_8b0e92e7":"ไม่มีรูปแบบการให้เกรดที่จะจัดแสดง","there_was_a_problem_deleting_the_grading_scheme_2a959c40":"มีปัญหาในการลบรูปแบบการให้เกรด","there_was_a_problem_saving_the_grading_scheme_5e6076e9":"มีปัญหาในการบันทึกรูปแบบการให้เกรด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "grading_standards",
+  null,
+  function() { return {"buttons":{"save":"บันทึก"},"confirm":{"delete_grading_scheme":"แน่ใจว่าต้องการลบรูปแบบการให้เกรดนี้หรือไม่","unlink_grading_scheme":"แน่ใจว่าต้องการเลิกลิงค์รูปแบบการให้เกรดนี้หรือไม่"},"errors":{"cannot_delete_grading_scheme":"มีปัญหาในการลบรูปแบบการให้เกรดนี้","cannot_load_grading_standards":"การโหลดมาตรฐานการให้เกรดล้มเหลว  กรุณาลองใหม่อีกครั้ง","cannot_remove_grading_scheme":"มีปัญหาในการลบรูปแบบการให้เกรดนี้  กรุณารีโหลดหน้าเอกสารแล้วลองใหม่อีกครั้ง","save_failed":"บันทึกล้มเหลว"},"grading_scheme_currently_set":"ตั้งค่าไว้ในปัจจุบัน","grading_scheme_not_set":"ไม่ได้กำหนดไว้","no_grading_standards":"ไม่พบรูปแบบการให้เกรด","status":{"loading_grading_standards":"กำลังโหลดมาตรฐานการให้เกรด...","saving":"กำลังบันทึก..."},"titles":{"grading_scheme_info":"ดู/แก้ไขรูปแบบการให้เกรด"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "finalGradeOverrideApi",
+  function() { return {"there_was_a_problem_loading_final_grade_overrides_e269e08":"มีปัญหาในการโหลดการบอกล้างเกรดสรุป","there_was_a_problem_overriding_the_grade_f6d83c4d":"มีปัญหาในการบอกล้างเกรด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebooktranslations",
+  function() { return {"assignment_excused_eb6c08fa":"ภารกิจได้รับข้อยกเว้น","assignment_muted_8d74bfa0":"ปิดเสียงภารกิจแล้ว","blank_38df4238":"เปล่า","discussion_submission_781d5d33":"การจัดส่งการพูดคุย","dropped_for_grading_purposes_46256461":"วางแล้วเพื่อให้เกรด","fail_62dbb06a":"ล้มเหลว","file_upload_submission_740711f":"การจัดส่งข้อมูลอัพโหลดไฟล์","has_similarity_score_d5f332b4":"มีคะแนนความใกล้เคียง","media_comment_submission_14e224dc":"การจัดส่งความเห็นแบบสื่อ","media_recording_submission_b7fd1491":"การจัดส่งผลงานบันทึกสื่อ","missing_submission_ec204c33":"ไม่มีผลงานจัดส่ง","moderated_assignment_12873e87":"ภารกิจที่มีการควบคุม","not_factored_into_grading_455dcf6a":"ไม่ได้กำหนดสำหรับให้เกรด","pass_2a8c4f07":"pass","quiz_submission_dca0c013":"การส่งแบบทดสอบ","resubmitted_since_last_graded_8484d285":"จัดส่งใหม่แล้วหลังจากให้เกรดล่าสุด","submitted_late_97730017":"จัดส่งล่าช้า","text_entry_submission_7b0ae0c5":"การจัดส่งข้อความ","there_was_an_error_updating_this_assignment_please_59fc608d":"มีข้อผิดพลาดในการอัพเดตภารกิจนี้ กรุณารีเฟรชหน้าเพจและลองใหม่อีกครั้ง","this_assignment_is_unpublished_64c0f46c":"ภารกิจยกเลิกการเผยแพร่แล้ว","this_quiz_needs_review_50e014e":"แบบทดสอบนี้ต้องมีการพิจารณา","this_student_was_just_awarded_an_unusually_high_gr_9ad835f3":"ผู้เรียนรายนี้เพิ่งได้รับเกรดที่สูงผิดปกติ","this_student_was_just_awarded_negative_points_55741a37":"ผู้เรียนรายนี้เพิ่งได้รับคะแนนเป็นลบ","url_submission_f76327e3":"การจัดส่ง URL"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "sharedGradeFormatHelper",
+  function() { return {"score_pointspossibletranslated_c1ac019e":"%{score}/%{pointsPossibleTranslated}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "sharedCurveGradesDialog",
+  function() { return {"of_students_5d1af0d2":"# ผู้เรียน"} },
+  function() { return {"errors":{"no_points_possible":"ไม่สามารถจัดทำกราฟโดยไม่มีคะแนน","none_to_update":"ไม่มีข้อมูลที่จะอัพเดต"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "studentcount_student_scores_updated_232ad7b7",
+  null,
+  function() { return {"one":"อัพเดตคะแนนผู้เรียน 1 รายการ","other":"อัพเดตคะแนนผู้เรียน %{studentCount} รายการ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "studentcount_students_will_get_num_points_fdd43b55",
+  null,
+  function() { return {"one":"ผู้เรียน 1 รายจะได้รับ %{num} คะแนน","other":"ผู้เรียน %{studentCount} รายจะได้รับ %{num} คะแนน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradingPeriodSetsApi",
+  function() { return {"set_created_createdat_895e2243":"จัดทำเมื่อ %{createdAt}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "sharedSetDefaultGradeDialog",
+  function() { return {"default_grade_cannot_be_set_to_ex_723caa59":"เกรดเริ่มต้นจะกำหนดเป็น %{ex} ไม่ได้"} },
+  function() { return {"alerts":{"scores_updated":{"one":"อัพเดตคะแนนผู้เรียน 1 รายการ","other":"อัพเดตคะแนนผู้เรียน %{count} รายการ"}}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebooksharedMessageStudentsWhoHelper",
+  function() { return {"no_grade_for_assignment_97c9bc75":"ไม่มีเกรดสำหรับ %{assignment}","no_submission_for_assignment_a9cb6fe2":"ไม่มีผลงานจัดส่งสำหรับ %{assignment}","scored_less_than_cutoff_on_assignment_5f5c4303":"ทำคะแนนได้น้อยกว่า %{cutoff} ใน %{assignment}","scored_more_than_cutoff_on_assignment_f422fec":"ทำคะแนนได้มากกว่า %{cutoff} ใน %{assignment}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "hide_assignment_grades_tray",
+  function() { return {"all_students_will_be_able_to_see_their_grade_and_o_66c1beab":"ผู้เรียนทั้งหมดจะสามารถดูเกรดและ/หรือความเห็นสำหรับผลงานจัดส่งทั้งหมดของตน","at_least_one_section_must_be_selected_to_hide_grad_f88c946f":"ต้องเลือกอย่างน้อยหนึ่งกลุ่มย่อยเพื่อซ่อนเกรดแยกตามกลุ่มย่อย","count_posted_b92a9562":"%{count} ที่โพสต์","hide_e057ff36":"ซ่อน","hide_grades_tray_5ed267fe":"ซ่อนถาดข้อมูลเกรด","hiding_grades_82691e44":"ซ่อนเกรด","hiding_grades_is_not_allowed_because_grades_have_n_55e83813":"ไม่อนุญาตให้ซ่อนเกรดเนื่องจากเกรดไม่ได้ถูกเผยแพร่สำหรับภารกิจนี้","hiding_grades_will_refresh_your_browser_this_may_t_65085e24":"การซ่อนเกรดจะเป็นการรีเฟรชเบราเซอร์ของคุณ อาจต้องใช้เวลาครู่หนึ่ง","post_types_93ff86d9":"ประเภทการโพสต์","posted_455862b9":"โพสต์เมื่อ","select_whether_to_post_for_all_submissions_or_only_b18d681f":"เลือกว่าจะโพสต์ผลงานจัดส่งทั้งหมดหรือเฉพาะที่มีการให้เกรด","specific_sections_a38d8b0d":"กลุ่มย่อยเฉพาะ","students_who_have_received_a_grade_or_a_submission_7ef046cc":"ผู้เรียนที่ได้รับเกรดหรือความเห็นสำหรับผลงานจัดส่งจะสามารถดูเกรดและ/หรือความเห็นสำหรับผลงานตัดส่งของตน","students_will_be_able_to_see_that_the_grades_for_t_5421a866":"ผู้เรียนจะทราบได้ว่าเกรดสำหรับภารกิจนี้ถูกซ่อนไว้","success_grades_have_been_hidden_for_assignmentname_4ed03c00":"สำเร็จ! ซ่อนเกรดแล้วสำหรับ %{assignmentName}","success_grades_have_been_hidden_for_the_selected_s_3ad5692":"สำเร็จ! ซ่อนเกรดแล้วสำหรับกลุ่มย่อยที่เลือกของ %{assignmentName}","there_was_a_problem_hiding_assignment_grades_1d3fd0c7":"มีปัญหาในการซ่อนเกรดสำหรับภารกิจ","when_hiding_grades_for_anonymous_assignments_grade_1b0ef682":"ขณะซ่อนเกรดสำหรับภารกิจที่ไม่เปิดเผยตัว เกรดจะถูกซ่อนไว้จากทุกคนในบทเรียน ค่าไม่เปิดเผยตัวตนจะถูกนำมาใช้ใหม่","while_the_grades_for_this_assignment_are_hidden_st_c5d1992b":"ขณะซ่อนเกรดสำหรับภารกิจนี้ไว้ ผู้เรียนจะไม่ได้รับการแจ้งเตือนใหม่เกี่ยวกับหรือสามารถเข้าไปดู:","you_can_begin_sending_notifications_again_by_click_50d3f0cf":"คุณสามารถเริ่มส่งการแจ้งข้อมูลอีกครั้งโดยคลิกที่ลิงค์ แจ้งเกรด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "turnitin",
+  null,
+  function() { return {"tooltip":{"score":"คะแนนความใกล้เคียง - ดูรายงานอย่างละเอียด"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "GroupUserCollection",
+  null,
+  function() { return {"flash":{"userAlreadyInGroup":"คำเตือน: %{user} เป็นสมาชิกของ %{group} อยู่แล้ว"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignment_group_category",
+  function() { return {"group_add_permission_is_needed_to_create_a_new_gro_3cd0d1b5":"ต้องใช้สิทธิ์อนุญาตการเพิ่มกลุ่มเพื่อจัดทำหมวดหมู่กลุ่มใหม่","please_create_a_group_set_8db6e8fe":"กรุณาจัดทำชุดกลุ่ม","please_select_a_group_set_for_this_assignment_e1da63d3":"กรุณาเลือกชุดกลุ่มสำหรับภารกิจนี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "student_groups",
+  function() { return {"add_new_group_7ac49f31":"เพิ่มกลุ่มใหม่","as_you_type_in_this_field_the_list_of_groups_will__16688a5f":"ขณะพิมพ์ในฟิลด์นี้ รายการกลุ่มจะถูกกรองอัตโนมัติให้รวมเฉพาะผู้ที่ชื่อตรงกับข้อมูลที่คุณกรอก","collapse_list_of_group_members_for_groupname_d6c66fa0":"ย่อรายชื่อสมาชิกกลุ่มสำหรับ %{groupName}","course_members_are_free_to_join_9b2603d4":"สมาชิกในบทเรียนสามารถเข้าร่วมได้","created_group_group_name_224ce5f9":"กลุ่มที่จัดทำ: %{group_name}","expand_list_of_group_members_for_groupname_9ce9d2f7":"ขยายรายชื่อสมาชิกกลุ่มสำหรับ %{groupName}","group_group_name_is_full_297880d6":"กลุ่ม %{group_name} เต็มแล้ว","group_group_name_is_joined_by_invitation_only_4ac2a9e5":"กลุ่ม %{group_name} เข้าร่วมได้ผ่านคำเชิญเท่านั้น","group_group_name_is_not_available_at_this_time_971001c1":"กลุ่ม %{group_name} ไม่สามารถใช้งานได้ในตอนนี้","group_is_full_56849d78":"กลุ่มเต็มแล้ว","group_is_joined_by_invitation_only_d00f5a63":"กลุ่มเข้าร่วมได้ผ่านคำเชิญเท่านั้น","group_is_not_available_at_this_time_d99f0eab":"กลุ่มไม่พร้อมใช้งานในตอนนี้","group_leader_user_name_6f24bebb":"ผู้นำกลุ่ม %{user_name}","group_members_ae5489ed":"สมาชิกในกลุ่ม","group_name_in_group_category_name_group_category_29bf3254":"%{group_name} ในหมวดหมู่ของกลุ่ม %{group_category_name}","group_name_is_required_5547bc0b":"ต้องระบุชื่อกลุ่ม","groups_are_a_good_place_to_collaborate_on_projects_92bb0c02":"กลุ่มเป็นจุดที่สะดวกในการประสานความร่วมมือในโครงการต่าง ๆ หรือในการกำหนดเวลาสำหรับกิจกรรมการเรียนรู้\n    หรือกิจกรรมในลักษณะเดียวกัน  ทุกกลุ่มจะได้รับปฏิทิน, wiki, การพูดคุยและพื้นที่เล็กน้อย\n    สำหรับจัดเก็บไฟล์  กลุ่มสามารถประสานความร่วมมือเกี่ยวกับเอกสาร หรือกำหนดเวลาการประชุมทางเว็บ\n    ลักษณะจะเหมือนกับบทเรียนย่อย ๆ ที่คุณสามารถจัดขึ้นกับผู้เรียนกลุ่มเล็ก ๆ ใน\n    โครงการที่มีเป้าหมายเฉพาะ","invite_students_a4873a50":"เชิญผู้เรียน","join_6cafecca":"เข้าร่วม","join_group_group_name_871a5e3f":"เข้าร่วมกลุ่ม %{group_name}","joined_group_group_name_e3802c04":"กลุ่มที่เข้าร่วม %{group_name}","leave_5e852989":"ฝาก","leave_group_group_name_6847c632":"ออกจากกลุ่ม %{group_name}","left_group_group_name_aac4e813":"ออกจากกลุ่ม %{group_name} แล้ว","manage_group_group_name_ac8578c6":"จัดการกลุ่ม %{group_name}","member_count_members_out_of_maximum_of_max_members_d3e9f575":"สมาชิก %{member_count} รายจากสูงสุด %{max_membership} ราย","members_af25c21d":"สมาชิก","membership_by_invitation_only_9bc27199":"ต้องเชิญเป็นสมาชิกเท่านั้น","new_student_group_description_bfeb76aa":"รายละเอียดกลุ่มผู้เรียนใหม่","new_student_group_e31b7cb5":"กลุ่มผู้เรียนใหม่","search_groups_or_people_6c15d6ad":"ค้นกลุ่มกลุ่มหรือบุคคล","switch_to_3f310557":"สลับไปที่","switch_to_group_group_name_786b913b":"สลับไปที่กลุ่ม %{group_name}","too_many_members_b8b15069":"สมาชิกมากเกินไป","updated_group_group_name_727b1d98":"อัพเดตกลุ่ม %{group_name} แล้ว","visit_864b4060":"เยี่ยมชม","visit_group_group_name_7a816081":"เข้าไปที่กลุ่ม %{group_name}","you_are_the_group_leader_for_this_group_b8629b70":"คุณเป็นผู้นำกลุ่มสำหรับกลุ่มนี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_students_30e46120",
+  null,
+  function() { return {"one":"1 ผู้เรียน","other":"%{count} ผู้เรียน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "enrollmentNames",
+  null,
+  function() { return {"designer":"ผู้ออกแบบ","observer":"ผู้สังเกตการณ์","student":"ผู้เรียน","teacher":"ผู้สอน","teacher_assistant":"TA"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "handlebars_helpers",
+  function() { return {"duration_1_minute_29c7d5ab":"ระยะเวลา: 1 นาที","duration_hours_hours_and_minutes_minutes_d5da8c3":"ระยะเวลา: %{hours} ชั่วโมงและ %{minutes} นาที","duration_minutes_minutes_d7b9182b":"ระยะเวลา: %{minutes} นาที"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "ImmersiveReader",
+  function() { return {"immersive_reader_7b87538":"Immersive Reader","immersive_reader_failed_to_load_bc8d4dd4":"Immersive Reader ไม่สามารถโหลดได้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "canvas_async_search_select",
+  function() { return {"count_options_loaded_cd59cc3b":"โหลดไป %{count} ตัวเลือก","option_selected_737b6f72":"เลือกตัวเลือกแล้ว:","type_to_search_de63ad38":"พิมพ์เพื่อค้นหา"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "paginator",
+  function() { return {"page_page_59070cd8":"หน้า %{page}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "app_shared_components",
+  function() { return {"label_removed_8793d8b4":"%{label} ถูกลบแล้ว","label_selected_list_collapsed_d93e77da":"%{label} ถูกเลือกไว้ ย่อรายการแล้ว","list_collapsed_dde87718":"ย่อรายการแล้ว","remove_label_11d96b8f":"ลบ %{label}","type_or_use_arrow_keys_to_navigate_multiple_select_ec56e29c":"พิมพ์หรือใช้ปุ่มลูกศรเพื่อสืบค้น อนุญาตให้เลือกได้หลายรายการ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_options_available_28794ede",
+  null,
+  function() { return {"one":"มีหนึ่งตัวเลือก","other":"%{count} ตัวเลือกที่มี"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "disableWhileLoading",
+  null,
+  function() { return {"loading":"กำลังโหลด..."} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "instructure_misc_plugins",
+  null,
+  function() { return {"confirms":{"default_delete_thing":"แน่ใจว่าต้องการลบหรือไม่"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "apps_list",
+  function() { return {"loading_apps_f85740cb":"กำลังโหลดแอพ...","student_applications_5e58f44c":"แอพพลิเคชั่นของผู้เรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "k5_empty_dashboard_state",
+  function() { return {"you_don_t_have_any_active_courses_yet_fb3c4418":"คุณยังไม่มีบทเรียนใด ๆ ในปัจจุบัน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "empty_homeroom_announcement",
+  function() { return {"create_a_new_announcement_for_coursename_8dede2d0":"จัดทำประกาศใหม่สำหรับ %{courseName}","new_announcements_show_up_in_this_area_create_a_ne_83f476ba":"ประกาศใหม่จะปรากฏขึ้นในพื้นที่นี้ จัดทำประกาศใหม่ตอนนี้","you_do_not_have_permission_to_view_announcements_i_6b2e31a2":"คุณไม่มีสิทธิ์อนุญาตในการดูประกาศในบทเรียนนี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "k5_use_planner",
+  function() { return {"failed_to_load_the_schedule_tab_fd7b0911":"ไม่สามารถโหลดแท็บกำหนดเวลา"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "important_info",
+  function() { return {"edit_important_info_for_coursename_bdb3eb6c":"แก้ไขข้อมูลที่สำคัญสำหรับ %{courseName}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "important_info_announcement",
+  function() { return {"important_info_3bda6406":"ข้อมูลสำคัญ","loading_important_info_217bf805":"กำลังโหมดข้อมูลที่สำคัญ","loading_section_header_616c8cdd":"กำลังโหลดหัวเรื่องสำหรับกลุ่มย่อย"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "k5_announcement",
+  function() { return {"edit_announcement_title_cce0b4e":"แก้ไขประกาศ %{title}","failed_getting_next_batch_of_announcements_1f1165a5":"ไม่สามารถสืบค้นประกาศชุดถัดไป","loading_announcement_content_4405470f":"กำลังโหลดเนื้อหาประกาศ","loading_announcement_title_b8fc3057":"กำลังโหลดชื่อประกาศ","loading_homeroom_course_name_9f63923d":"กำลังโหลดชื่อบทเรียนช่วงโฮมรูม","next_announcement_6e6e0f17":"ประกาศถัดไป","no_recent_announcements_abf950d5":"ไม่มีประกาศล่าสุด","previous_announcement_7efc02d9":"ประกาศก่อนหน้า","your_homeroom_is_currently_unpublished_93c14f4f":"โฮมรูมของคุณเลิกการเผยแพร่แล้วในปัจจุบัน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "k5_app_link",
+  function() { return {"choose_a_course_85ef72b9":"เลือกบทเรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "k5_tabs",
+  function() { return {"coursecontext_label_d563be4c":"%{courseContext} %{label}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "resources_page",
+  function() { return {"failed_to_load_apps_db37e651":"ไม่สามารถโหลดแอพ","failed_to_load_important_info_da5b24dc":"ไม่สามารถโหลดข้อมูลที่สำคัญ","failed_to_load_staff_f866cf2e":"ไม่สามารถโหลดบุคลากร"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "staff_contact_info_layout",
+  function() { return {"loading_staff_1ce7d803":"กำลังโหลดบุคลากร...","staff_contact_info_2f7a6603":"ข้อมูลติดต่อบุคลากร"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "staff_info",
+  function() { return {"avatar_for_name_e3ba987c":"ภาพประจำตัวสำหรับ %{name}","failed_sending_message_64001749":"ไม่สามารถส่งข้อความได้","message_form_9658d1ef":"แบบฟอร์มข้อความ","message_name_3b100614":"ข้อความ %{name}","message_to_name_sent_f67d0cc3":"ส่งข้อความมถึง %{name} แล้ว","send_a_message_to_name_43eec865":"ส่งข้อความไปยัง %{name}","sending_message_75923692":"กำลังส่งข้อความ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "teacher_groups_page",
+  function() { return {"manage_groups_4b962fa9":"จัดการกลุ่ม","this_is_where_students_can_see_their_groups_7dd2dae3":"นี่เป็นจุดที่ผู้เรียนจะเห็นกลุ่มของตน","view_groups_47b5f60c":"ดูกลุ่ม"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "k5_utils",
+  function() { return {"n_a_d5d5a207":"ไม่มี","observer_248a192e":"ผู้สังเกตการณ์","score_grade_8742b368":"%{score} (%{grade})","teaching_assistant_9635edaf":"ผู้ช่วยสอน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "KeyboardNavDialog",
+  null,
+  function() { return {"titles":{"keyboard_shortcuts":"ชอร์ตคัทแป้นพิมพ์"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "link_enrollment",
+  null,
+  function() { return {"buttons":{"link":"ลิงค์ไปยังผู้เรียน"},"errors":{"link_failed":"เชื่อมโยงล้มเหลว กรุณาลองใหม่อีกครั้ง","load_failed":"โหลดผู้เรียนล้มเหลว กรุณาลองใหม่อีกครั้ง"},"messages":{"linking_to_student":"กำลังเชื่อมโยงไปยังผู้เรียน...","loading_students":"กำลังโหลดผู้เรียน..."},"options":{"no_link":"[ ไม่มีลิงค์ ]"},"titles":{"link_to_student":"ลิงค์ไปยังผู้เรียน"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "LockButton",
+  function() { return {"locking_91f476a5":"กำลังล็อค...","unlocking_a6b5c02d":"กำลังปลดล็อค..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "mathquill",
+  null,
+  function() { return {"tabs":{"arrows":"ลูกศร","basic":"พื้นฐาน","delimiters":"ตัวคั่น","greek":"กรีก","miscellaneous":"เบ็ดเตล็ด","operators":"ผู้ดำเนินการ","relationships":"ความสัมพันธ์"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "media_comment_dialog_manager",
+  null,
+  function() { return {"messages":{"loading":"กำลังโหลด..."},"titles":{"record_upload_media_comment":"บันทึก/อัพโหลดความเห็นแบบสื่อ"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "media_comments_publicjs",
+  null,
+  function() { return {"buttons":{"submit":"ส่งไฟล์สื่อ"},"errors":{"file_too_large":"*ไฟล์นี้ใหญ่เกินไป* ขนาดสูงสุดคือ %{size}MB","load_failed":"แอพพลิเคชี่นความเห็นแบบสื่อไม่สามารถโหลดได้  กรุณาลองใหม่อีกครั้งในภายหลัง","media_comment_installation_broken":"การอัพโหลดความเห็นแบบสื่อตั้งค่าไม่ถูกต้อง กรุณาติดต่อผู้ดูแลระบบของคุณ","must_be_logged_in":"คุณจะต้องล็อกอินเพื่อบันทึกสื่อ","persistent_problem":"หากปัญหาเกิดขึ้นอีก คุณอาจต้องบันทึกสื่อของคุณเป็นการภายในและอัพโหลดไฟล์ที่บันทึกไว้แทน","save_failed":"การบันทึกดูเหมือนจะล้มเหลว  กรุณาปิดป๊อปอัพนี้เพื่อลองใหม่อีกครั้ง","save_failed_try_again":"ไม่สามารถบันทึกข้อมูลได้  กรุณาลองใหม่อีกครั้งในภายหลัง","upload_failed":"อัพโหลดล้มเหลวพร้อมข้อผิดพลาด:"},"messages":{"flash_required_record_audio":"ต้องใช้แฟลชสำหรับบันทึกเสียง","flash_required_upload_audio":"ต้องใช้แฟลชสำหรับอัพโหลดข้อมูลเสียง","flash_required_upload_video":"ต้องใช้แฟลชสำหรับอัพโหลดวิดีโอ","loading":"กำลังโหลด...","submitted":"จัดส่งไฟล์สื่อแล้ว!","submitting":"กำลังจัดส่งไฟล์สื่อ..."},"titles":{"media_contribution":"ส่วนร่วมในการจัดทำสื่อ","record_upload_media_comment":"บันทึก/อัพโหลดความเห็นแบบสื่อ"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "jquery_media_comments",
+  function() { return {"media_has_been_queued_for_conversion_please_try_ag_74343bbd":"สื่อถูกจัดคิวสำหรับการแปลงข้อมูล กรุณาลองใหม่อีกครั้งในภายหลัง","play_media_comment_8614d30f":"เปิดเล่นความเห็นแบบสื่อ"} },
+  function() { return {"loading":"กำลังโหลดสื่อ...","media_still_converting":"กำลังแปลงสื่ออยู่ในปัจจุบัน กรุณาลองใหม่อีกครั้งเมื่อผ่านไปครู่หนึ่ง","titles":{"play_comment":"เปิดเล่นความเห็นแบบสื่อ"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "mediaCommentThumbnail",
+  function() { return {"play_media_comment_35257210":"เปิดเล่นความเห็นแบบสื่อ","play_media_comment_by_name_from_createdat_515b3b":"เปิดเล่นความเห็นแบบสื่อโดย %{name} จาก %{createdAt}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "media_comments_upload_view_manager",
+  null,
+  function() { return {"errors":{"media_comment_installation_broken":"การอัพโหลดความเห็นแบบสื่อตั้งค่าไม่ถูกต้อง กรุณาติดต่อผู้ดูแลระบบของคุณ"},"file_size_error":"ขนาด %{file} มากกว่าขนาดไฟล์สูงสุดที่ %{max} MB","file_type_error":"%{file} ไม่ใช่ไฟล์ %{type} ที่ยอมรับได้","messages":{"submitting":"กำลังจัดส่งไฟล์สื่อ..."}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "mepfeaturetracksinstructure",
+  function() { return {"are_you_sure_you_want_to_delete_this_track_f5a16357":"แน่ใจว่าต้องการลบการตรวจย้อนนี้หรือไม่","captions_subtitles_af2c47e":"คำบรรยาย/บทบรรยาย","delete_track_fc21128b":"ลบการตรวจย้อน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "UploadMediaTrackForm",
+  null,
+  function() { return {"cancel":"ยกเลิก","track_uploaded_successfully":"อัพโหลดข้อมูลการติดตามเสร็จสิ้น กรุณารีเฟรชเบราเซอร์ของคุณ","upload":"อัพโหลด","uploading":"กำลังอัพโหลด..."} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "models_conversations",
+  null,
+  function() { return {"cannot_be_empty":"ข้อความปล่อยว่างไม่ได้","no_recipients_choose_another_group":"ไม่มีผู้รับในกลุ่มนี้ กรุณาเลือกกลุ่มอื่น"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "viewsMessageStudentsDialog",
+  function() { return {"message_students_37ba5dd5":"ส่งข้อความถึงผู้เรียน","message_students_for_context_ee62ff92":"ส่งข้อความผู้เรียนสำหรับ %{context}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "public_message_students",
+  function() { return {"message_students_for_course_name_e55f8077":"ส่งข้อความผู้เรียนสำหรับ %{course_name}","remove_student_from_recipients_4b206e35":"ลบ %{student} จากผู้รับ"} },
+  function() { return {"send_message":"ส่งข้อความ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "public_message_students_who",
+  function() { return {"enter_score_cutoff_3ff8ad22":"กรอกจุดตัดสำหรับคำแนน","for_students_who_d0fd45d0":"สำหรับผู้เรียนที่...","have_not_been_graded_df2a5fd2":"ยังไม่ได้ให้เกรด","have_not_yet_submitted_57e6a58b":"ยังไม่ได้จัดส่ง","hide_all_recipients_1ca02da6":"ซ่อนผู้รับทั้งหมด","list_of_students_and_observers_f7f1a58a":"รายชื่อผู้เรียนและผู้สังเกตการณ์","marked_incomplete_1bfc7235":"กำกับแล้วว่าไม่เสร็จสิ้น","observercount_observers_69aef8e4":"%{observerCount} ผู้สังเกตการณ์","send_message_to_891eb84":"ส่งข้อความไปยัง:","show_all_recipients_9e4a3486":"แสดงผู้รับทั้งหมด","studentcount_students_3cdade62":"%{studentCount} ผู้เรียน","type_something_79a0f02c":"พิมพ์บางอย่างลงไป...","type_your_message_here_3551e252":"พิมพ์ข้อความของคุณที่นี่..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "shared_message_students",
+  function() { return {"body_9f663faf":"เนื้อหา","please_provide_a_field_e5a7d0b3":"กรุณาแจ้ง %{field}","subject_must_contain_fewer_than_255_characters_2e72cd02":"หัวเรื่องจะต้องยาวน้อยกว่า 255 ตัวอักษร","there_was_a_problem_sending_your_message_22b249a5":"มีปัญหาในการส่งข้อความของคุณ","we_re_sending_your_message_d586da":"เรากำลังส่งข้อความถึงคุณ...","your_message_was_sent_977f6583":"ส่งข้อความของคุณแล้ว!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "mimeClass",
+  function() { return {"audio_dd489fcc":"เสียง","flash_6afbf65a":"แฟลช","plain_text_e3ab33aa":"อักษรอย่างเดียว","presentation_2d9387ca":"การนำเสนอ","source_code_2395ca74":"รหัสข้อมูลต้นทาง","spreadsheet_6d622119":"กระดาษคำนวณ","text_document_eacbcdb7":"เอกสารแบบข้อความ","video_b9f27375":"วิดีโอ","web_page_146f9102":"เว็บเพจ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "sequence_footer",
+  function() { return {"choose_the_next_mastery_path_b035b727":"เลือกเส้นทางพัฒนาความเชี่ยวชาญถัดไป","next_item_2d1ddc96":"ถัดไป: *รายการ*","next_mastery_path_is_currently_locked_a9253711":"เส้นทางพัฒนาความเชี่ยวชาญถัดไปถูกล็อคอยู่ในตอนนี้","next_mastery_path_is_still_processing_please_perio_bb0121af":"เส้นทางพัฒนาความเชี่ยวชาญถัดไปกำลังดำเนินการ กรุณารีเฟรชเพจเป็นระยะ ๆ"} },
+  function() { return {"next_module":"หน่วยการเรียนถัดไป:","next_module_desc":"หน่วยการเรียนถัดไป: *หน่วยการเรียน*","prev_module":"หน่วยการเรียนก่อนหน้า:","prev_module_desc":"หน่วยการเรียนก่อนหน้า: *หน่วยการเรียน*","prev_module_item_desc":"ก่อนหน้า: *รายการ*"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "prerequisites_lookup",
+  null,
+  function() { return {"headers":{"completion_prerequisites":"เงื่อนไขเบื้องต้นที่เสร็จสมบูรณ์"},"labels":{"requirements_must_be_completed":"จะต้องทำตามเงื่อนไขต่อไปนี้ก่อนสามารถปลดล็อคเพจนี้ได้"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "move_positions",
+  function() { return {"after_48b9d69":"หลังจาก...","at_the_bottom_a6a5f0fe":"ที่ด้านล่าง","at_the_top_fa836591":"ที่ด้านบน","before_cb32fc0":"ก่อน..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "move_item_tray",
+  function() { return {"close_move_tray_8609e988":"ปิดถาดเคลื่อนย้าย","move_item_failed_8e4c1db6":"ย้ายรายการล้มเหลว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "move_select",
+  function() { return {"group_select_330df8bd":"เลือกกลุ่ม"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "observer_pairing_code",
+  null,
+  function() { return {"errors":{"invalid":"รหัสเข้าคู่ไม่ถูกต้อง"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "notification_preferences",
+  function() { return {"account_level_notifications_apply_to_all_courses_n_8b99c5b0":"การแจ้งข้อมูลระดับบัญชีมีผลกับบทเรียนทั้งหมด การแจ้งข้อมูลสำหรับแต่ละบทเรียนสามารถแก้ไขได้ในแต่ละบทเรียนและจะเป็นการบอกล้างการแจ้งข้อมูลเหล่านี้","account_notification_settings_e96de9b6":"ค่าปรับตั้งการแจ้งข้อมูลทางบัญชี","alerts_6b871b71":"แจ้งเตือน","categoryname_notification_preferences_cd64e4a0":"ค่าปรับแต่งการแจ้งข้อมูล %{categoryName}","course_activities_21c83bd3":"กิจกรรมในบทเรียน","course_level_notifications_are_inherited_from_your_7ae3c0c2":"การแจ้งข้อมูลระดับบทเรียนรับต่อมาจากค่าปรับตั้งการแจ้งข้อมูลระดับบัญชีของคุณ การปรับการแจ้งข้อมูลสำหรับบทเรียนนี้จะเป็นการบอกล้างการแจ้งข้อมูลในระดับบัญชี","course_notification_settings_d9821d36":"ค่าปรับตั้งการแจ้งเตือนบทเรียน","daily_notifications_will_be_delivered_around_day_t_a2b49202":"การแจ้งเตือนรายวันจะถูกจัดส่งเวลาประมาณ %{day_time} การแจ้งเตือนรายสัปดาห์จะถูกจัดส่ง %{weekday} ระหว่างเวลา %{start_time} และ %{end_time}","daily_summary_cf43f37c":"สรุปรายวัน","enable_notifications_for_contextname_b5b4440e":"เปิดใช้งานการแจ้งข้อมูลสำหรับ %{contextName}","for_all_devices_1f603968":"สำหรับอุปกรณ์ทั้งหมด","notice_some_notifications_may_contain_confidential_5985f52a":"หมายเหตุ: การแจ้งข้อมูลบางส่วนอาจมีข้อมูลลับ การเลือกรับการแจ้งข้อมูลในอีเมลอื่นนอกเหนือจากของสถาบันของคุณที่แจ้งไว้อาจทำให้มีการส่งข้อมูลบทเรียนและกลุ่มที่อ่อนไหวไปภายนอกระบบของสถาบัน","notification_settings_652dc60b":"ค่าปรับตั้งการแจ้งข้อมูล","notifications_off_80da021c":"ปิดการแจ้งข้อมูล","notifications_unsupported_65f6bf65":"การแจ้งข้อมูลที่ไม่รองรับ","notify_immediately_d1749c07":"แจ้งทันที","push_notification_a6532ff3":"การแจ้งข้อมูลด่วน","scheduling_5a3327e7":"กำลังกำหนดเวลา","settings_for_e2322172":"ค่าปรับตั้งสำหรับ","show_name_of_observed_students_in_notifications_d38b53ca":"แสดงชื่อผู้เรียนที่สังเกตการณ์ในส่วนการแจ้งข้อมูล","weekly_summary_56cd0c95":"ข้อมูลสรุปรายสัปดาห์","you_are_currently_receiving_notifications_for_this_9646b09d":"คุณกำลังได้รับการแจ้งข้อมูลสำหรับบทเรียนนี้ ปิดใช้งานการแจ้งข้อมูลบทเรียนโดยใช้ฟังก์ชั่นเปิดปิดด้านบน","you_will_not_receive_any_course_notifications_at_t_7d9ce24f":"คุณจะไม่ได้รับการแจ้งข้อมูลบทเรียนใด ๆ ในตอนนี้ เปิดใช้งานการแจ้งข้อมูลบทเรียนโดยใช้ตัวเปิดปิดด้านบน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "add_student_modal",
+  function() { return {"enter_a_student_pairing_code_below_to_add_a_studen_15789251":"กรอกรหัสเข้าคู่ของผู้เรียนด้านล่างเพื่อเพิ่มผู้เรียนที่จะสังเกตการณ์","failed_pairing_student_c9f0863b":"ไม่สามารถเข้าคู่ผู้เรียนได้","invalid_pairing_code_dde8d40a":"รหัสเข้าคู่ไม่ถูกต้อง","pair_4d942a74":"เข้าคู่","pair_with_student_6f76e69a":"เข้าคู่กับผู้เรียน","pairing_code_1ddbd699":"รหัสเข้าคู่","please_provide_a_pairing_code_530d1e9d":"กรุณาระบุรหัสเข้าคู่","student_paired_successfully_a88def61":"เข้าคู่ผู้เรียนเสร็จสิ้น","visit_canvas_guides_to_learn_more_8c7361ad":"ดูรายละเอียดเพิ่มเติมได้จาก*คู่มือ Canvas*"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "observer_options",
+  function() { return {"add_student_1152afc0":"เพิ่มผู้เรียน","select_a_student_to_view_281d17b9":"เลือกผู้เรียนที่จะดู","unable_to_get_observed_students_ff62d801":"ไม่สามารถสืบค้นผู้เรียนที่สังเกตการณ์ได้","you_are_observing_observeduser_afd2f245":"คุณกำลังสังเกตการณ์ %{observedUser}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "contentview",
+  function() { return {"no_directory_is_selected_please_select_a_directory_46ded46":"ไม่มีไดเรคทอรี่ที่เลือกไว้ กรุณาเลือกไดเรคทอรี่ก่อนคลิก “ย้าย”","where_would_you_like_to_move_title_fabd6e8f":"คุณต้องการย้าย %{title} ไปที่ไหน","you_have_no_outcomes_click_here_to_go_to_the_outco_574bd0af":"คุณไม่มีผลลัพธ์ใด ๆ คลิกที่นี่เพื่อไปที่เพจผลลัพธ์"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "OutcomeContentBase",
+  null,
+  function() { return {"blank_error":"ไม่สามารถปล่อยว่างได้","confirm":{"delete":"แน่ใจว่าต้องการลบหรือไม่"},"flash":{"addSuccess":"จัดทำเสร็จสิ้น","deleteSuccess":"ลบเสร็จสิ้น","error":"เกิดข้อผิดพลาดขึ้น กรุณารีเฟรชหน้าเพจและลองใหม่อีกครั้ง","unexpectedDeleteError":"มีบางอย่างผิดปกติ ไม่สามารถลบได้ในตอนนี้","updateSuccess":"อัพเดตเสร็จสิ้น","userDeleteError":"กลุ่มผลลัพธ์มีผลลัพธ์บางส่วนที่ปัจจุบันประสานไว้กับเนื้อหา"},"length_error":"จะต้องยาวไม่เกิน 255 ตัวอักษร"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "OutcomeView",
+  function() { return {"points_possible_points_fda3b111":"%{points_possible} คะแนน"} },
+  function() { return {"length_error":"จะต้องยาวไม่เกิน 255 ตัวอักษร","mastery_error":"ต้องมากกว่าหรือเท่ากับ 0"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "confirmOutcomeEditModal",
+  function() { return {"confirm_edit_outcome_a9746c99":"ยืนยันผลลัพธ์ในการแก้ไข","this_will_update_all_rubrics_using_this_outcome_th_6954ca45":"นี่เป็นการอัพเดตเกณฑ์การให้คะแนนทั้งหมดโดยใช้ผลลัพธ์นี้ซึ่งยังไม่มีการประเมิน","you_ve_updated_the_scoring_criteria_this_will_affe_ec852671":"คุณอัพเดตเกณฑ์การให้คะแนนแล้ว ซึ่งจะมีผลต่อผู้เรียนทั้งหมดที่ประเมินก่อนหน้าโดยใช้ผลลัพธ์นี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "outcomesCriterionInfo",
+  function() { return {"criterion_ratings_3eed22e2":"คะแนนตามเกณฑ์","learning_outcomes_can_be_included_in_assignment_ru_a48bb903":"\nผลการเรียนรู้สามารถรวมอยู่ในเกณฑ์การให้คะแนนสำหรับภารกิจ เนื่องจากเป็นวิธีง่าย ๆ ในการประเมิน\nระดับความเชี่ยวชาญสำหรับผลลัพธ์ตามภารกิจที่กำหนด  ขณะกำหนดรายละเอียดผลการเรียนรู้\n คุณควรระบุรายละเอียดเกณฑ์พิจารณาที่สามารถใช้ขณะจัดทำ\nเกณฑ์การให้คะแนนของภารกิจ  ระบุคอลัมน์เกณฑ์การให้คะแนนได้มากเท่าที่ต้องการ และระบุ\nเกณฑ์คะแนนที่จะใช้เพื่อชี้วัดความเชี่ยวชาญสำหรับผลลัพธ์นี้\n","more_information_about_ratings_57cdd446":"ข้อมูลเพิ่มเติมเกี่ยวกับคะแนนประเมิน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebookHeaderFilterView",
+  null,
+  function() { return {"course_average":"ค่าเฉลี่ยบทเรียน","course_median":"ค่ามัธยฐานบทเรียน"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebookOutcomeGradebookGrid",
+  function() { return {"there_was_an_error_fetching_course_statistics_96e9dbad":"มีข้อผิดพลาดในการสืบค้นสถิติบทเรียน"} },
+  function() { return {"learning_outcome":"ผลการเรียนรู้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "outcomesFindDirectoryVew",
+  null,
+  function() { return {"account_standards":"มาตรฐานทางบัญชี","account_standards_description":"ทางด้านซ้ายจะเห็นมาตรฐานที่สถาบันของคุณจัดทำไว้สำหรับคุณเพื่อใช้ในบทเรียนของคุณ","state_standards":"มาตรฐานของรัฐ","state_standards_description":"ทางด้านซ้ายจะเห็นโฟลเดอร์สำหรับแต่ละรัฐพร้อมมาตรฐานของรัฐที่มีการอัพเดต ทั้งนี้เพื่อให้คุณสามารถรวมมาตรฐานของรัฐสำหรับให้เกรดได้อย่างสะดวกในบทเรียนของคุณ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "outcomesSidebarView",
+  function() { return {"model_is_already_located_in_newgroup_e5cea361":"%{model} อยู่ใน %{newGroup} อยู่แล้ว","successfully_moved_model_to_newgroup_f7b7aa5a":"ย้าย %{model} ไปยัง %{newGroup} เสร็จสิ้น"} },
+  function() { return {"titles":{"find_outcomes":"ค้นหาผลลัพธ์"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "OutcomesDirectoryView",
+  function() { return {"loading_more_results_1d437202":"กำลังโหลดผลลัพธ์เพิ่มเติม"} },
+  function() { return {"flash":{"error":"เกิดข้อผิดพลาดขึ้น กรุณารีเฟรชหน้าเพจและลองใหม่อีกครั้ง","updateSuccess":"อัพเดตเสร็จสิ้น"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "modelsOutcome",
+  null,
+  function() { return {"criteria":{"does_not_meet_expectations":"ไม่ผ่านเกณฑ์ความคาดหวัง","exceeds_expectations":"เกินความคาดหวัง","meets_expectations":"เป็นไปตามความคาดหวัง"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "outcomesFindDialog",
+  null,
+  function() { return {"confirm":{"import_group":"นำเข้ากลุ่ม \"%{group}\" ไปกลุ่ม \"%{target}\" หรือไม่","import_outcome":"นำเข้าผลลัพธ์ \"%{outcome}\" ไปกลุ่ม \"%{target}\" หรือไม่"},"dont_import":"กลุ่มนี้ไม่สามารถนำเข้าได้","flash":{"importError":"เกิดข้อผิดพลาดขณะนำเข้า กรุณาลองใหม่อีกครั้งในภายหลัง","importSuccess":"นำเข้าเสร็จสิ้น"},"top_level":"%{context} ระดับสูงสุด"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "find_outcome",
+  null,
+  function() { return {"errors":{"outcome_retrieval_failed":"การเรียกค้นผลลัพธ์ที่ล้มเหลวโดยไม่ได้คาดคิด  กรุณาลองใหม่อีกครั้งในภายหลัง"},"messages":{"loading_outcomes":"กำลังโหลดผลลัพธ์...","no_outcomes_found":"ไม่พบผลลัพธ์","no_rubric_outcomes_found":"ไม่พบผลลัพธ์ที่กำหนดโดยเกณฑ์การให้คะแนน"},"titles":{"find_outcome":"ค้นหาผลลัพธ์"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "useRatings",
+  function() { return {"above_max_rating_64b29915":"เกินกว่าคะแนนประเมินสูงสุด","below_min_rating_78a742c3":"ต่ำกว่าคะแนนประเมินต่ำสุด","missing_required_points_39db69fa":"ไม่มีคะแนนที่กำหนด","no_evidence_75853352":"ไม่มีสิ่งยืนยัน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "ImportOutcomesModal",
+  function() { return {"choose_a_file_to_upload_from_your_device_d1b50d4c":"เลือกไฟล์ที่จะอัพโหลดจากอุปกรณ์ของคุณ","csv_or_json_formats_only_d8ba36d":"เฉพาะ CSV หรือ JSON","import_outcomes_to_groupname_d0a3264d":"นำเข้าผลลัพธ์ (Outcomes) ไปยัง \"%{groupName}\"","outcomes_csv_format_9005acfb":"รูปแบบ CSV ผลลัพธ์","upload_your_outcomes_bceeadbe":"อัพโหลดผลลัพธ์ของคุณ!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "OutcomesImporter",
+  function() { return {"an_outcome_import_is_currently_in_progress_11e6cb38":"การนำเข้าผลลัพธ์กำลังดำเนินการในปัจจุบัน","importing_outcomes_e62a0375":"กำลังนำเข้าผลลัพธ์","it_s_ok_to_leave_this_page_we_ll_email_you_when_th_2dbed7fa":"สามารถออกจากเพจนี้ได้ เราจะส่งอีเมลถึงคุณเมื่อนำเข้าเสร็จสิ้น","please_wait_as_we_upload_and_process_your_file_73c4b5a8":"กรุณารอขณะเราอัพโหลดและประมวลผลไฟล์ของคุณ","there_was_a_problem_importing_some_of_the_outcomes_482bac10":"มีปัญหาในการนำเข้าผลลัพธ์บางส่วนในไฟล์ที่อัพโหลด ตรวจสอบรายละเอียดเพิ่มเติมจากอีเมลของคุณ","there_was_an_error_with_your_import_please_examine_7b42f29d":"มีข้อผิดพลาดกับข้อมูลนำเข้าของคุณ กรุณาตรวจสอบไฟล์และลองอัพโหลดใหม่อีกครั้ง ตรวจสอบรายละเอียดเพิ่มเติมจากอีเมลของคุณ","your_outcomes_were_successfully_imported_c5de884":"นำเข้าผลลัพธ์ของคุณเสร็จสิ้น"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "Validators",
+  function() { return {"must_be_length_characters_or_less_8c24db67":"จะต้องยาว %{length} ตัวอักษรหรือน้อยกว่า"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "post_assignment_grades_tray",
+  function() { return {"count_hidden_e8d2c57c":"%{count} ที่ซ่อนไว้","post_1e445890":"โพสต์","posting_grades_cd7cd758":"กำลังแจ้งเกรด","posting_grades_is_not_allowed_because_grades_have__229d9c9e":"ไม่อนุญาตให้แจ้งเกรดเนื่องจากเกรดไม่ได้ถูกเผยแพร่สำหรับภารกิจนี้","posting_grades_will_refresh_your_browser_this_may__97a9fe12":"การแจ้งเกรดจะเป็นการรีเฟรชเบราเซอร์ของคุณ อาจต้องใช้เวลาครู่หนึ่ง","when_posting_grades_for_anonymous_assignments_grad_b13f3ae6":"ขณะแจ้งเกรดสำหรับภารกิจที่ไม่เปิดเผยตัว เกรดจะถูกแจ้งสำหรับทุกคนในบทเรียน ค่าการไม่เปิดเผยตัวตนจะถูกยกเลิก"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "pseudonym",
+  null,
+  function() { return {"errors":{"bad_credentials":"ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง","common":"ไม่สามารถใช้รหัสผ่านทั่วไป (เช่น “password”)","invalid":"มีได้เฉพาะตัวอักษร ตัวเลขหรืออักขระต่อไปนี้ %{characters}","mismatch":"ไม่ตรงกัน","not_email":"ไม่ใช่อีเมลแอดเดรสที่ถูกต้อง","repeated":"จะมีอักขระเหมือนกันมากกว่า %{max} ตัวต่อเนื่องไม่ได้","required":"บังคับ","sequence":"จะต้องไม่มีอักขระเรียงมากกว่า %{max} ตัวต่อเนื่องกัน (เช่น abcdef)","sis_taken":"SIS ID ถูกใช้งานอยู่แล้ว","taken":"ถูกใช้งานอยู่แล้ว","too_long":"จะเกิน %{max} ตัวอักษรไม่ได้","too_short":"จะต้องยาวอย่างน้อย %{min} ตัวอักษร"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "publish_btn_module",
+  function() { return {"published_click_to_unpublish_db016671":"เผยแพร่แล้ว  คลิกเพื่อเลิกการเผยแพร่","published_click_to_unpublish_title_358122a":"เผยแพร่แล้ว  คลิกเพื่อเลิกเผยแพร่ %{title}","unpublished_click_to_publish_6a6d12e1":"เลิกเผยแพร่แล้ว  คลิกที่เผยแพร่","unpublished_click_to_publish_title_7c57293f":"เลิกเผยแพร่แล้ว  คลิกเพื่อเผยแพร่ %{title}"} },
+  function() { return {"buttons":{"publish":"เผยแพร่","published":"เผยแพร่แล้ว","publishing":"กำลังเผยแพร่...","unpublish":"เลิกเผยแพร่","unpublishing":"กำลังเลิกการเผยแพร่..."}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "modelsQuiz",
+  null,
+  function() { return {"assignment_points_possible":{"one":"1 คะแนน","other":"%{count} คะแนน"},"cant_unpublish_when_students_submit":"ไม่สามารถเลิกเผยแพร่ได้หากมีผลงานจัดส่งจากผู้เรียน","question_count":{"one":"1 คำถาม","other":"%{count} คำถาม"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "EquationEditorView",
+  null,
+  function() { return {"button":{"insert_equation":"แทรกสมการ"},"cannot_render_equation":"สมการนี้ไม่สามารถเรนเดอร์ได้ในมุมมองพื้นฐาน","equation_editor_title":"ใช้แถบเครื่องมือที่นี่ หรือสลับมุมมองเป็นขั้นสูงเพื่อพิมพ์/วางไว้ใน LaTeX"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "loadEventListeners",
+  function() { return {"something_went_wrong_loading_equella_f7e3907c":"มีบางอย่างผิดพลาดขณะโหลด Equella","something_went_wrong_loading_the_equation_editor_62bca61c":"มีบางอย่างผิดพลาดในการโหลดเครื่องมือแก้ไขสมการ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "mentions",
+  function() { return {"mentions_error_page_fd84c53c":"เพจข้อผิดพลาดการอ้างถึง","select_name_to_mention_15d9674e":"เลือก %{name} ที่จะอ้างถึง"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "EditRubricPage",
+  null,
+  function() { return {"titles":{"find_outcomes":"ค้นหาผลลัพธ์"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "edit_rubric",
+  function() { return {"add_criterion_eb9587ef":"เพิ่มเกณฑ์","create_criterion_6df4d4ad":"จัดทำเกณฑ์พิจารณา","criterion_created_42669293":"จัดทำเกณฑ์แล้ว","criterion_updated_36c0b3dc":"อัพเดตเกณฑ์แล้ว","edit_criterion_5e4dadca":"แก้ไขเกณฑ์","max_dd02d615":"สูงสุด","new_criterion_canceled_d8c2a655":"เกณฑ์พิจารณาใหม่ถูกยกเลิกแล้ว","new_rating_canceled_eed3c4ff":"ยกเลิกคะแนนประเมินแล้ว","new_rating_created_54125331":"จัดทำคะแนนประเมินแล้ว","rating_title_3b60881e":"ชื่อคะแนนประเมิน","rating_updated_7aff90ea":"อัพเดตคะแนนประเมินแล้ว","update_criterion_edcbd330":"อัพเดตเกณฑ์พิจารณา","you_can_t_edit_this_rubric_either_because_you_don__5247d35d":"คุณไม่สามารถแก้ไขเกณฑ์การให้คะแนนนี้ อาจเนื่องจากคุณไม่มีสิทธิ์อนุญาตหรือกำลังถูกใช้มากกว่าหนึ่งจุด การเปลี่ยนแปลงใด ๆ ของคุณจะทำให้มีเกณฑ์การให้คะแนนใหม่ เกณฑ์ผลลัพธ์ที่เกี่ยวข้องใด ๆ จะใช้คะแนนประเมินความเชี่ยวชาญสำหรับบทเรียนนี้ ดำเนินการต่อไปหรือไม่","you_can_t_edit_this_rubric_either_because_you_don__ab22f243":"คุณไม่สามารถแก้ไขเกณฑ์การให้คะแนนนี้ อาจเนื่องจากคุณไม่มีสิทธิ์อนุญาตหรือกำลังถูกใช้มากกว่าหนึ่งจุด การเปลี่ยนแปลงใด ๆ ของคุณจะทำให้มีเกณฑ์การให้คะแนนใหม่ เกณฑ์ผลลัพธ์ที่เกี่ยวข้องใด ๆ จะใช้คะแนนประเมินความเชี่ยวชาญสำหรับบัญชีผู้ใช้นี้ ดำเนินการต่อไปหรือไม่","you_can_t_edit_this_rubric_either_because_you_don__c2472826":"คุณไม่สามารถแก้ไขเกณฑ์การให้คะแนนนี้ อาจเนื่องจากคุณไม่มีสิทธิ์อนุญาตหรือกำลังถูกใช้มากกว่าหนึ่งจุด การเปลี่ยนแปลงใด ๆ ของคุณจะทำให้เกณฑ์การให้คะแนนใหม่อิงกับเกณฑ์การให้คะแนนเดิม ดำเนินการต่อไปหรือไม่"} },
+  function() { return {"buttons":{"create_rubric":"จัดทำเกณฑ์การให้คะแนน","update_rubric":"อัพเกรดเกณฑ์การให้คะแนน"},"change":"เปลี่ยน","discussion_points_possible":{"one":"%{count} คะแนนที่เป็นไปได้","other":"%{count} คะแนนที่เป็นไปได้"},"errors":{"load_rubrics_failed":"การโหลดเกณฑ์การให้คะแนนล้มเหลว กรุณาลองใหม่อีกครั้ง"},"leave_different":"ทิ้งไว้ให้แตกต่าง","messages":{"loading_rubric_groups":"กำลังโหลดกลุ่มเกณฑ์การให้คะแนน...","loading_rubrics":"กำลังโหลดเกณฑ์การให้คะแนน..."},"prompts":{"confirm_delete":"แน่ใจว่าต้องการลบเกณฑ์การให้คะแนนนี้หรือไม่"},"rubric":{"import_outcome":{"duplicated_outcome":"ผลลัพธ์นี้ไม่ได้ถูกเพิ่มเข้าไปเนื่องจากมีอยู่แล้วในเกณฑ์การให้คะแนน"}},"titles":{"edit_rubric_rating":"แก้ไขคะแนนประเมิน","find_existing_rubric":"ค้นหาเกณฑ์การให้คะแนนที่มีอยู่ก่อน"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "rubric_assessment",
+  function() { return {"additional_comments_9aed10bb":"ความเห็นเพิ่มเติม","extra_credit_not_permitted_on_outcomes_score_adjus_714dd746":"ไม่อนุญาตเครดิตพิเศษกับผลลัพธ์ คะแนนปรับเป็นคะแนนสูงสุดที่เป็นไปได้สำหรับ %{outcome} แล้ว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "rubric_delete_confirmation",
+  function() { return {"are_you_sure_you_want_to_delete_this_rubric_any_co_29d7ac76":"แน่ใจว่าต้องการลบเกณฑ์การให้คะแนนนี้หรือไม่ บทเรียนที่เชื่อมโยงกับเกณฑ์การให้คะแนนนี้ในปัจจุบันจะยังสามารถใช้งานได้ แต่จะไม่มีบทเรียนใหม่ ๆ ที่สามารถใช้งานได้","are_you_sure_you_want_to_delete_this_rubric_this_a_d4ff43c7":"แน่ใจว่าต้องการลบเกณฑ์การให้คะแนนนี้หรือไม่ การดำเนินการนี้เป็นการลบการเชื่อมโยงเกณฑ์การให้คะแนนจากภารกิจทั้งหมดในบทเรียนในปัจจุบัน และลบการประเมินที่เชื่อมโยงอยู่ในปัจจุบันทั้งหมด"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "edit_rubricCommentButton",
+  function() { return {"add_additional_comments_ec34a62f":"เพิ่มความเห็นเพิ่มเติม"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "edit_rubricComments",
+  function() { return {"_2d4c0d31":"…","save_this_comment_for_reuse_5eda0b70":"บันทึกความเห็นนี้เพื่อใช้ซ้ำ","saved_comments_2f6ba95":"บันทึกความเห็นแล้ว","select_from_saved_comments_dd398cd4":"เลือกจากความเห็นที่บันทึกไว้","this_area_will_be_used_by_the_assessor_to_leave_co_98a5db8b":"พื้นที่เหล่านี้จะถูกใช้งานโดยผู้ประเมินเพื่อแสดงความเห็นเกี่ยวกับเกณฑ์พิจารณานี้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "RubricAddCriterionPopover",
+  function() { return {"criterion_5f0b62f8":"เกณฑ์","find_outcome_746cc57e":"ค้นหาผลลัพธ์","new_criterion_6054bc7f":"เกณฑ์พิจารณาใหม่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "RubricManagement",
+  function() { return {"account_rubrics_40c190a8":"เกณฑ์การให้คะแนนสำหรับบัญชี"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "edit_rubricCriterion",
+  function() { return {"this_criterion_is_linked_to_a_learning_outcome_c8aa57bf":"เกณฑ์นี้เชื่อมโยงไว้กับผลการเรียนรู้","threshold_pts_45f0e5d8":"เกณฑ์ขั้นต่ำ: %{pts}","view_longer_description_6b762087":"ดูรายละเอียดแบบยาว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "edit_rubricPoints",
+  function() { return {"cannot_give_outcomes_extra_credit_696208f0":"ไม่สามารถแจ้งเครดิตพิเศษสำหรับผลลัพธ์","invalid_score_3d247da7":"คะแนนไม่ถูกต้อง","points_possible_720fc8fd":"%{points} / %{possible}","possible_pts_b63dff4c":"%{possible} คะแนน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "edit_rubricRatings",
+  function() { return {"no_details_1ee29870":"ไม่มีรายละเอียด","points_to_endofrangepoints_pts_aad207f0":"%{points} ถึง \u003e%{endOfRangePoints} คะแนน","rating_selected_85c31e4c":"คะแนนประเมินที่เลือก","rating_unselected_7eb0ab52":"เลิกเลือกคะแนนแล้ว","this_rating_is_selected_ca68fce6":"คะแนนประเมินนี้ถูกเลือกไว้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "edit_rubricRubric",
+  function() { return {"criteria_9fac648":"เกณฑ์","pts_51d69f4a":"คะแนน","ratings_2433172b":"คะแนนประเมิน","total_points_total_f41b2cff":"คะแนนรวม: %{total}","total_points_total_out_of_possible_9056fdb4":"คะแนนรวม: %{total} จาก %{possible}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "sections_tooltip",
+  function() { return {"count_students_227cbe2":"(%{count} ผู้เรียน)","name_count_students_d004ba32":"%{name} (%{count} ผู้เรียน)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "count_sections_466dcd5c",
+  null,
+  function() { return {"one":"1 กลุ่มย่อย","other":"%{count} กลุ่มย่อย"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "modelsSection",
+  null,
+  function() { return {"overrides":{"everyone":"ทุกคน"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "select_content_dialog",
+  function() { return {"error_embedding_content_from_tool_49bb698e":"มีข้อผิดพลาดในการผนวกเนื้อหาจากเครื่องมือ","error_the_tool_did_not_return_a_url_to_canvas_a9afa641":"ข้อผิดพลาด: เครื่องมือไม่ได้แจ้ง URL ไปยัง Canvas","error_the_tool_returned_an_invalid_content_type_co_10a11c07":"ข้อผิดพลาด: เครื่องมือแจ้งประเภทเนื้อหาที่ไม่ถูกต้อง \"%{contentType}\"","page_name_is_required_d8c2736e":"ต้องระบุชื่อเพจ","selected_content_contains_non_lti_links_f9dfd762":"เนื้อหาที่เลือกมีลิงค์ที่ไม่ใช่ LTI","selected_content_is_not_an_lti_link_11780d96":"เนื้อหาที่เลือกไม่ใช่ลิงค์ LTI","selected_external_tool_tool_bae095ba":"เครื่องมือจากภายนอก %{tool} ที่เลือกไว้","unselected_external_tool_tool_1bd68403":"ยกเลิกการเลือกเครื่องมือจากภายนอก %{tool} แล้ว","url_is_required_4689ed84":"ต้องมี URL"} },
+  function() { return {"buttons":{"add_item":"เพิ่มรายการ"},"errors":{"assignment_name_blank":"ชื่อภารกิจจะปล่อยว่างไม่ได้","external_tool_url":"ไม่สามารถบันทึกเครื่องมือจากภายนอกโดยไม่มี URL","failed_to_create_item":"ไม่สามารถจัดทำรายการใหม่","loading_failed":"การโหลดล้มเหลว"},"link_from_external_tool":"เชื่อมโยงทรัพยากรจากเครื่องมือจากภายนอก","titles":{"add_item_to_module":"เพิ่มรายการไปยังหน่วยการเรียน","find_links_using_service":"ค้นหาลิงค์โดยใช้ %{service}"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "context_modulesFileSelectBox",
+  function() { return {"create_file_s_188549e6":"[ จัดทำไฟล์ ]","new_file_s_8876bba1":"[ ไฟล์ใหม่ ]","select_the_files_you_want_to_associate_or_add_file_741ad4fa":"เลือกไฟล์ที่คุณต้องการเชื่อมโยง หรือเพิ่มไฟล์โดยเลือก “จัดทำไฟล์”","select_the_files_you_want_to_associate_or_add_file_9acd7878":"เลือกไฟล์ที่คุณต้องการเชื่อมโยง หรือเพิ่มไฟล์โดยเลือก “ไฟล์ใหม่”"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "selectPosition",
+  function() { return {"item_select_fe0f320a":"เลือกรายการ","place_b128fa94":"สถานที่","place_title_2c183274":"จัดวาง \"%{title}\"","position_select_c2dd3980":"เลือกตำแหน่ง","select_one_b647b384":"เลือกหนึ่งรายการ"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "findLinkForService",
+  null,
+  function() { return {"buttons":{"search":"ค้นหา","search_by_tag":"ค้นหาจากหมายเหตุกำกับ"},"errors":{"search_failed":"ค้นหาล้มเหลว กรุณาลองใหม่อีกครั้ง"},"no_description":"ไม่มีรายละเอียด","no_results_found":"ไม่พบผลลัพธ์","status":{"diigo_search_throttling":"Diigo จำกัดผู้ใช้สำหรับหนึ่งการค้นหาทุก ๆ สิบวินาที  กรุณารอสักครู่...","searching":"กำลังค้นหา..."},"titles":{"bookmark_search":"ค้นหาบุ๊กมาร์ก: %{service_name}"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "site",
+  null,
+  function() { return {"view_privacy_policy":"ดูนโยบายความเป็นส่วนตัว"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "validate",
+  null,
+  function() { return {"is_required":"นี่เป็นฟิลด์บังคับ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "SisButtonView",
+  function() { return {"base_message_please_make_sure_name_has_a_due_date_928ae7ab":"%{base_message} %{name} จะต้องมีวันครบกำหนด","base_message_please_make_sure_name_has_a_due_date__9e9b0cfd":"%{base_message} %{name} จะต้องมีวันครบกำหนด และชื่อจะต้องไม่ยาวเกินไป","base_message_please_make_sure_name_name_is_not_too_d0c9454f":"%{base_message} ชื่อของ %{name} จะต้องไม่ยาวเกินไป","sync_to_name_disabled_click_to_toggle_53a1396f":"ปิดใช้งานการซิงค์ไปยัง %{name} แล้ว คลิกเพื่อเปิดปิด","sync_to_name_enabled_click_to_toggle_ddaef134":"เปิดใช้งานการซิงค์ไปยัง %{name} แล้ว คลิกเพื่อเปิดปิด","the_grade_for_this_assignment_will_not_sync_to_the_3bb4f6f5":"เกรดสำหรับภารกิจนี้จะไม่ซิงค์กับระบบสารสนเทศของผู้เรียน","the_grade_for_this_assignment_will_sync_to_the_stu_5d32cedb":"เกรดสำหรับภารกิจนี้จะซิงค์กับระบบสารสนเทศของผู้เรียน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "ExternalToolsPlugin",
+  function() { return {"apps_54d24a47":"แอพ","view_all_e13bf0a6":"ดูทั้งหมด"} },
+  function() { return {"more_external_tools":"เครื่องมือจากภายนอกเพิ่มเติม"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "ExternalToolDialog",
+  function() { return {"loading_external_tool_d839042c":"กำลังโหลดเครื่องมือจากภายนอก"} },
+  function() { return {"embed_from_external_tool":"แทรกเนื้อหาจากเครื่องมือจากภายนอก"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "treeBrowser",
+  function() { return {"selected_subtree_a7693937":"%{subtree} ที่เลือก"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "unread_badge",
+  function() { return {"totalcount_total_replies_b6988c0a":"%{totalCount} การตอบกลับทั้งหมด","unreadcount_unread_replies_509e167f":"%{unreadCount} การตอบกลับที่ไม่ได้อ่าน"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "upload_file",
+  function() { return {"canvas_failed_to_complete_the_upload_864a4c0f":"Canvas ไม่สามารถทำการอัพโหลดให้เสร็จสิ้น","canvas_failed_to_initiate_the_upload_8e3824d5":"Canvas ไม่สามารถเริ่มการอัพโหลดได้","unable_to_transmit_file_to_the_storage_service_the_2d80b29e":"ไม่สามารถส่งไฟล์ไปยังบริการจัดเก็บข้อมูล บริการอาจไม่พร้อมใช้งานหรือคุณอาจต้องล็อกอินไปยัง Canvas ใหม่"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "user",
+  function() { return {"this_course_has_concluded_7995a84c":"บทเรียนนี้สรุปแล้ว"} },
+  function() { return {"errors":{"already_enrolled":"คุณลงทะเบียนไว้แล้วสำหรับบทเรียนนี้","course_full":"บทเรียนนี้เต็มแล้ว","invalid_code":"รหัสไม่ถูกต้อง","required":"บังคับ","terms":"คุณจะต้องยอมรับเงื่อนไข","too_long":"จะเกิน %{max} ตัวอักษรไม่ได้"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "closedCaptionLanguages",
+  function() { return {"afrikaans_da0fe6ee":"อาฟริกา","albanian_21ed929e":"อัลเบเนีย","arabic_c5c87acd":"อารบิก","armenian_12da6118":"อาร์เมเนีย","belarusian_b2f19c76":"เบลารุส","bulgarian_feccab7e":"บัลแกเรีย","catalan_16f6b78f":"คาตาลัน","chinese_111d37f6":"จีน","chinese_simplified_7f0bd370":"จีนใหม่","chinese_traditional_8a7f759d":"จีนเก่า","croatian_d713d655":"โครเอเชีย","czech_9aa2cbe4":"เชก","danish_c18cdac8":"เดนมาร์ก","dutch_6d05cee5":"เนเธอร์แลนด์","english_australia_dc405d82":"อังกฤษ (ออสเตรเลีย)","english_c60612e2":"อังกฤษ","english_canada_12688ee4":"อังกฤษ (แคนาดา)","english_united_kingdom_a613f831":"อังกฤษ (สหราชอาณาจักร)","estonian_5e8e2fa4":"เอสโทเนีย","filipino_33339264":"ฟิลิปปินส์","finnish_4df2923d":"ฟินแลนด์","french_33881544":"ฝรั่งเศส","french_canada_c3d92fa6":"ฝรั่งเศส (แคนาดา)","galician_7e4508b5":"กาลิเซีย","german_3ec99bbb":"เยอรมัน","greek_65c5b3f7":"กรีก","haitian_creole_7eb4195b":"ครีโอลเฮติ","hebrew_88fbf778":"ฮีบรู","hindi_9bcd4b34":"ฮินดู","hungarian_fc7d30c9":"ฮังการี","icelandic_9d6d35de":"ไอซ์แลนด์","indonesian_5f6accd6":"อินโดนีเซีย","irish_567e109f":"ไอร์แลนด์","italian_bd3c792d":"อิตาลี","japanese_b5721ca7":"ญี่ปุ่น","korean_da812d9":"เกาหลี","latvian_2bbb6aab":"ลัทเวีย","lithuanian_5adcbe24":"ลิทัวเนีย","macedonian_6ed541af":"มาซิโดเนีย","malay_f5dddce4":"มาเลย์","maltese_916925e8":"มอลต้า","maori_new_zealand_5380a95f":"เมารี (นิวซีแลนด์)","norwegian_53f391ec":"นอร์เวย์","norwegian_bokmal_ad5843fa":"บุ๊กมอลนอร์เวย์","norwegian_nynorsk_c785f8a6":"นือนอสก์นอร์เวย์","persian_a8cadb95":"เปอร์เซีย","polish_4cf2ecaf":"โปแลนด์","portuguese_9c212cf4":"โปรตุเกส","romanian_13670c1e":"โรมาเนีย","russian_1e3e197":"รัสเซีย","serbian_7187f1f2":"เซอร์เบีย","slovak_69f48e1b":"สโลวัก","slovenian_30ae5208":"สโลเวเนีย","spanish_de9de5d6":"สเปน","swahili_5caeb4ba":"สวาฮีลี","swedish_59a593ca":"สวีเดน","tagalog_74906db7":"ตากาล็อก","thai_8f9bc548":"ไทย","turkish_5b69578b":"ตุรกี","ukrainian_945b00b7":"ยูเครน","vietnamese_e7a76583":"เวียดนาม","welsh_42ab94b1":"เวลส์","yiddish_f96986df":"ยิดติช"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "user_content",
+  function() { return {"user_content_aaf0fb5a":"เนื้อหาของผู้ใช้"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "lib",
+  null,
+  function() { return {"text_helper":{"ellipsis":"...","quoted_text_toggle":"แสดงข้อความที่เสนอ","word_separator":" "}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "help_dialog",
+  null,
+  function() { return {"Submitting_Ticket":"กำลังจัดส่งตั๋วบริการ...","description":"รายละเอียด","extreme_critical_emergency":"กรณีฉุกเฉินอย่างยิ่ง!!","file_a_ticket_for_a_personal_response_from_our_support_team":"แจ้งตั๋วรับบริการสำหรับการตอบกลับส่วนบุคคลจากทีมงานให้บริการของเรา","for_an_instant_answer":"เพื่อรับคำตอบในทันที:","how_is_this_affecting_you":"สิ่งนี้มีผลกับคุณอย่างไร","i_cant_get_things_done_until_i_hear_back_from_you":"ฉันไม่สามารถดำเนินการใด ๆ ได้จนกว่าจะได้รับการติดต่อกลับจากคุณ","i_need_some_help_but_its_not_urgent":"ฉันต้องการความช่วยเหลือ แต่ไม่เร่งด่วนอะไร","include_a_link_to_a_screencast_or_screenshot_using_something_like_jing":"ครอบคลุมลิงค์ไปยังระบบส่งภาพหน้าจอ/ภาพหน้าจอโดยอาศัยระบบต่าง ๆ เช่น *Jing*","just_a_casual_question_comment_idea_suggestion":"แค่คำถาม ความเห็น แนวคิดหรือข้อเสนอแนะทั่ว ๆ ไป","message":"ข้อความ","message_will_be_sent_to_all_the_teachers_tas_in_the_course":"ข้อความจะถูกจัดส่งไปยังผู้สอน/TA ทั้งหมดในบทเรียน","please_select_one":"กรุณาเลือกหนึ่งรายการ...","see_if_your_issue_is_addressed_in_the_canvas_guides":"ให้ตรวจสอบว่าปัญหาของคุณมีการกล่าวถึงใน*คู่มือ Canvas* หรือไม่","send_message":"ส่งข้อความ","sending":"กำลังส่ง...","somethings_broken_but_i_can_work_around_it_for_now":"บางอย่างไม่ครบถ้วน แต่ฉันสามารถจัดการได้ในตอนนี้","subject":"วิชา","submit_this_support_request":"ส่งตั๋วรับบริการ","which_course_is_this_question_about":"คำถามนี้เกี่ยวข้องกับบทเรียนใด","your_email_address":"อีเมลแอดเดรสของคุณ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "recent_student",
+  null,
+  function() { return {"last_logged_in":"ล็อกอินล่าสุดเมื่อ %{last_login}"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "developer_key_form",
+  null,
+  function() { return {"cancel":"ยกเลิก","icon_url":"URL ไอคอน:","key_name":"ชื่อคีย์:","notes":"หมายเหตุ:","owner_email":"อีเมลเจ้าของ:","redirect_uri":"URI เปลี่ยนเส้นทาง (เดิม):","redirect_uris":"URI เปลี่ยนเส้นทาง:","save_key":"บันทึกคีย์","vendor_code":"รหัสผู้ให้บริการ (LTI 2):"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "developer_key",
+  function() { return {"activate_key_name_a99df672":"เปิดใช้งานคีย์ %{name}","activate_this_key_6cd98f4b":"เปิดใช้งานคีย์นี้","deactivate_this_key_3e79a2b5":"ปิดใช้งานคีย์นี้","edit_key_name_5c7d2f46":"แก้ไขคีย์ %{name}","id_id_4e148481":"ID: %{id}","key_api_key_68bf80ae":"คีย์: *%{api_key}*"} },
+  function() { return {"edit_key":"แก้ไขปุ่มนี้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "grade_display_warning_dialog",
+  null,
+  function() { return {"grade_display_warning":{"checkbox":"ไม่แสดงบทเรียนนี้อีก","warning":"คำเตือน"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "contexts",
+  function() { return {"checked_883b93fd":"ตรวจสอบแล้ว"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "profiles",
+  function() { return {"from_gravatar_58372d5a":"จาก Gravatar","link_title_189888b7":"ชื่อลิงค์","link_url_cf96376":"URL ลิงค์","take_a_picture_d582acf1":"ถ่ายภาพ","upload_a_picture_9f5f6e3c":"อัพโหลดภาพ"} },
+  function() { return {"gravatar_view":{"button":{"preview":"แสดงตัวอย่าง"},"enter_gravatar_email_below":"กรอกอีเมลแอดเดรส *Gravatar* ของคุณด้านล่าง"},"take_picture_view":{"retry":"ลองใหม่","take_picture":"ถ่ายภาพ"},"upload_file_view":{"choose_a_picture":"เลือกภาพ","crop_instructions":"ครอปภาพโดยลากรายการที่เลือกโดยใช้เมาส์หรือใช้ปุ่มลูกศรเพื่อย้ายรายการที่เลือก และปุ่ม shift+ลูกศร เพื่อปรับขนาดรายการที่เลือก จากนั้นคลิกที่ปุ่ม “บันทึก” ด้านล่าง"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "quiz",
+  null,
+  function() { return {"regrade":{"give_everyone_full_credit":"ให้เครดิตทุกคนสำหรับคำถามนี้","no_scores_reduced":"ให้คะแนนทั้งสำหรับคำตอบที่แก้ไขและคำถามที่ถูกต้องก่อนหน้านี้ (*ไม่มีการปรับลดคะแนน*)","regrade_disabled":"ไม่อนุญาตให้ปรับเกรดสำหรับคำถามนี้ เนื่องจากคำตอบถูกลบหรือประเภทคำถามมีการเปลี่ยนแปลงหลังจากผู้เรียนส่งข้อมูล","regrade_options":"เลือกตัวเลือกการปรับเกรดสำหรับผู้เรียนที่ทำแบบทดสอบไปแล้ว Canvas จะปรับเกรดผลงานจัดส่งทั้งหมดของคุณหลังจากบันทึกแบบทดสอบ (คะแนนผู้เรียนอาจมีการเปลี่ยนแปลง)","some_scores_reduced":"ให้คะแนนเฉพาะคำตอบที่ถูกต้อง (*คะแนนบางส่วนของผู้เรียนอาจมีการปรับลด*)","update_question_without_regrading":"อัพเดตคำถามโดยไม่ปรับเกรด"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "submission_detail",
+  null,
+  function() { return {"go_to_submission_url":"ไปที่่ URL ผลงานจัดส่ง","no_submission":"ไม่มีผลงานจัดส่ง","submitted_files":"ไฟล์ที่จัดส่ง:"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "screenreader_gradebook",
+  function() { return {"allow_final_grade_override_a21a79ee":"อนุญาตอนุญาตการบอกล้างเกรดสรุป","assignments_in_this_group_have_no_points_possible__ab0adb72":"ภารกิจในกลุ่มนี้ไม่สามารถมีคะแนนได้ และไม่สามารถรวมอยู่ในการคำนวณเกรด","excuse_this_assignment_for_the_selected_student_af04e132":"ยกเว้นภารกิจนี้สำหรับผู้เรียนที่เลือก","grade_for_name_b9df168a":"เกรดสำหรับ: %{name}","gradebook_individual_view_8846598e":"สมุดบันทึกเกรด: มุมมองแยกเฉพาะ","message_students_who_b9f2bf20":"ส่งข้อความถึงผู้เรียนที่...","note_grades_and_notes_will_be_saved_automatically__e3270872":"หมายเหตุ: เกรดและหมายเหตุจะถูกบันทึกไว้อัตโนมัติหลังจากย้ายออกจากฟิลด์","this_assignment_does_not_count_toward_the_final_gr_a5c238e2":"ภารกิจนี้ไม่นับรวมในเกรดสรุป","total_results_outcomedetails_cnt_30ff1f8d":"ผลลัพธ์รวม: %{outcomeDetails.cnt}"} },
+  function() { return {"assignment_information":{"actions":{"assignment_is_muted":"ปิดเสียงแล้ว?","curve_grades":"เกรดแบบกราฟ","set_default_grade":"กำหนดเกรดเริ่มต้น"},"details":{"avg_score":"คะแนนเฉลี่ย","graded_sub_count":"การส่งเกรด:","high_score":"คะแนนสูง","low_score":"คะแนนต่ำ","no_points":"ไม่มีคะแนนที่เป็นไปได้","points_possible":"คะแนนที่เป็นไปได้","submission_types":"ประเภทการจัดส่ง:"},"index":{"assignment_in_speedgrader":"ดูภารกิจนี้ใน SpeedGrader","assignment_info":"ข้อมูลภารกิจ","empty_assignment_selection":"เลือกภารกิจที่จะดูข้อมูลเพิ่มเติมได้ที่นี่"}},"components":{"final_grade":{"final_grade":"เกรดสรุป:"}},"content_selection":{"assignment":{"select_assignment":"เลือกภารกิจ"},"header":{"content_selection":"การเลือกเนื้อหา"},"outcome":{"select_outcome":"เลือกผลลัพธ์"},"student":{"select_student":"เลือกผู้เรียน"}},"grading":{"empty_submission_selection":"เลือกผู้เรียนและภารกิจที่จะดูและแก้ไขเกรด","grading":"การให้เกรด","is_dropped":"เกรดนี้ปัจจุบันถูกดรอปไว้สำหรับผู้เรียนนี้","submission_details":"รายละเอียดผลงานจัดส่ง","submission_hidden":"ภารกิจนี้ไม่พร้อมใช้งานสำหรับผู้เรียนนี้และจะไม่รวมอยู่ในเกรดของผู้เรียน","was_resubmitted":"ภารกิจนี้ถูกจัดส่งใหม่นับตั้งแต่ให้เกรดครั้งล่าสุด"},"learning_mastery":{"download_results":"ดาวน์โหลดผลลัพธ์ (.csv)","empty_student_selection":"เลือกผู้เรียนเพื่อดูข้อมูลเพิ่มเติมได้ที่นี่","empty_submission_selection":"เลือกผู้เรียนและผลลัพธ์เพื่อดูผลลัพธ์","hide_student_names_label":"ซ่อนชื่อผู้เรียน","result":"ผลลัพธ์","result_for":"ผลลัพธ์สำหรับ:","results_loading":"ผลลัพธ์สำหรับผู้เรียนนี้ยังโหลดอยู่...","select_a_section":"เลือกกลุ่มย่อย","select_student":"เลือกผู้เรียน","student_info":"ข้อมูลผู้เรียน"},"outcome_information":{"avg_score":"คะแนนเฉลี่ย","empty_outcome_selection":"เลือกผลลัพธ์เพื่อดูข้อมูลเพิ่มเติมได้ที่นี่","high_score":"คะแนนสูง","low_score":"คะแนนต่ำ","outcome_info":"ข้อมูลผลลัพธ์"},"screenreader_gradebook":{"assignments":"ภารกิจ","learning_mastery":"ความเชี่ยวชาญด้านการเรียนรู้"},"settings":{"assignment_toggles_and_actions":{"download_current_scores":"ดาวน์โหลดคะแนนปัจจุบัน (.csv)","grading_history":"ดูประวัติสมุดบันทึกเกรด","hide_student_names_label":"ซ่อนชื่อผู้เรียน","include_ungraded_assignments":"ดูการเลิกให้เกรดเป็น 0","show_concluded_enrollments_label":"แสดงการลงทะเบียนที่สรุปแล้ว","show_notes":"แสดงหมายเหตุในข้อมูลผู้เรียน","show_total_as_points":"แสดงยอดรวมเป็นคะแนนในเพจเกรดของผู้เรียน","upload_scores":"อัพโหลดคะแนน (.csv)"},"header":{"global_settings":"ค่าปรับตั้งกลาง"},"mastery_toggles_and_actions":{"download_results":"ดาวน์โหลดผลลัพธ์ (.csv)","hide_student_names_label":"ซ่อนชื่อผู้เรียน"},"section_select":{"select_a_section":"เลือกกลุ่มย่อย"},"sort_select":{"sort_assignments":"จัดเรียงภารกิจ"}},"student_information":{"assignment_subtotals":{"ag_group_grade":"เกรด","ag_group_percent_grade":"% เกรด","ag_letter_grade":"เกรดแบบตัวอักษร"},"details":{"hidden":"ซ่อนไว้","secondary_id":"ID สำรอง:","sections":"กลุ่มย่อย:"},"index":{"empty_student_selection":"เลือกผู้เรียนเพื่อดูข้อมูลเพิ่มเติมได้ที่นี่","grades":"เกรด","student_info":"ข้อมูลผู้เรียน","submissions_loading":"ผลงานจัดส่งสำหรับผู้เรียนนี้กำลังโหลดอยู่..."}}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "assignment_details_dialog",
+  null,
+  function() { return {"average_score":"คะแนนเฉลี่ย:","count_of_submissions":"%{cnt} ผลงานจัดส่ง","grading_statistics_for_assignment":"สถิติเกรดสำหรับ: %{assignment.name}","high_score":"คะแนนสูง:","low_score":"คะแนนต่ำ:","no_one_scored_higher":"ไม่มีคนที่ได้คะแนนมากกว่า %{max}","no_one_scored_lower":"ไม่มีคนที่ได้คะแนนต่ำกว่า %{min}","scores_higher_than_the_average":"คะแนนมากกว่าคะแนนเฉลี่ยที่ %{average}","scores_lower_than_the_average":"คะแนนต่ำกว่าคะแนนเฉลี่ยที่ %{average}","total_graded_submissions":"ผลงานจัดส่งที่ให้เกรดทั้งหมด:"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "mute_dialog",
+  null,
+  function() { return {"curving_assignments":"ภารกิจในการทำกราฟ","grade_change_notifications":"การแจ้งแก้ไขเกรด","how_to_unmute":"หลังจากปิดเสียงภารกิจนี้แล้ว คุณสามารถเริ่มส่งการแจ้งข้อมูลอีกครั้งโดยคลิกที่ลิงค์ “เลิกปิดเสียงภารกิจ”","mute_assignment":"ปิดเสียงภารกิจ","score_change_notifications":"การแจ้งการเปลี่ยนแปลงคะแนน","see_grade":"เกรดของคนเหล่านี้สำหรับภารกิจ","students_will_see":"ผู้เรียนจะสามารถดูได้ว่าภารกิจนี้ปิดเสียงอยู่หรือไม่","submission_comments":"ความเห็นผลงานจัดส่ง","sure_you_want_to_mute":"แน่ใจว่าต้องการปิดเสียงภารกิจนี้หรือไม่ ขณะปิดเสียงภารกิจนี้ ผู้เรียนจะไม่ได้รับการแจ้งข้อมูลใหม่เกี่ยวกับหรือสามารถดู:"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "turnitin_info",
+  null,
+  function() { return {"buttons":{"resubmit_to_turnitin":"จัดส่งใหม่"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "vericite_info",
+  null,
+  function() { return {"buttons":{"resubmit_to_vericite":"จัดส่งไปยัง VeriCite ใหม่"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "user_observee",
+  function() { return {"remove_edf2b8a7":"(ลบ)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "wiki",
+  function() { return {"allow_in_mastery_paths_5332c786":"อนุญาตเส้นทางพัฒนาความเชี่ยวชาญ","by_b90c6b6f":"เมื่อ","copy_page_to_another_course_405cc07c":"คัดลอกเพจไปยังบทเรียนอื่น","created_ascending_cff48774":"จัดทำแล้ว: ล่างขึ้นบน","created_descending_e9a1b097":"จัดทำแล้ว: บนลงล่าง","delete_selected_pages_7bc50580":"ลบเพจที่เลือก","edited_c4fcbdbf":"แก้ไขแล้ว:","last_edit_ascending_6a18dba4":"แก้ไขล่าสุด: ล่างขึ้นบน","last_edit_descending_6b7ee755":"แก้ไขล่าสุด: บนลงล่าง","master_lock_590266b6":"ล็อคตัวแม่","page_title_ascending_b5df950c":"ชื่อเพจ: ล่างขึ้นบน","page_title_descending_70c1483d":"ชื่อเพจ: บนลงล่าง","pages_settings_968392a3":"ค่าปรับตั้งเพจ","raw_html_editor_e3993e41":"Raw HTML Editor","remove_as_frontpagetext_133cdaee":"ลบเป็น %{frontPageText}","select_page_e93fc123":"เลือกเพจ","select_title_for_deletion_45b08247":"เลือก %{title} เพื่อลบ","send_page_to_another_user_6ef5a7c1":"ส่งเพจไปยังผู้ใช้อื่น","to_do_date_2cb4bf7b":"วันที่สำหรับสิ่งที่ต้องทำ:","to_do_date_ascending_c3a59abb":"วันที่สำหรับสิ่งที่ต้องทำ: ล่างขึ้นบน","to_do_date_descending_25b2141d":"วันที่สำหรับสิ่งที่ต้องทำ: บนลงล่าง","use_as_frontpagetext_fa88bbb2":"ใช้เป็น %{frontPageText}","users_allowed_to_edit_this_page_d6d316d0":"ผู้ใช้ที่ได้รับอนุญาตให้แก้ไขเพจนี้"} },
+  function() { return {"wiki_page":{"buttons":{"edit":"แก้ไข","view_all_pages":"ดูเพจทั้งหมด"},"delete_wiki":"ลบ","labels":{"front_page":"%{frontPageText}"},"menu":{"use_front_page":"ใช้เป็น %{frontPageText}"},"published_indicator":"เผยแพร่แล้ว","toolbar_menu":{"settings":"ค่าปรับตั้ง"},"unpublished_indicator":"ไม่ได้เผยแพร่","view_page_history_wiki":"ดูประวัติเพจ","wiki":{"todo_date":"วันที่สำหรับสิ่งที่ต้องทำ:"}},"wiki_page_content":{"page_locked":"เพจนี้ถูกล็อคอยู่","page_locked_by_modules":"เพจนี้จะพร้อมใช้งานหลังจากคุณผ่านหน่วยการเรียนเหล่านี้แล้ว:","page_locked_by_modules_until":"เพจนี้จะพร้อมใช้งานเมื่อ %{lock_info.unlock_at} หากคุณผ่านหน่วยการเรียนเหล่านี้:","page_locked_until":"เพจนี้จะพร้อมใช้งานเมื่อ %{lock_info.unlock_at}"},"wiki_page_edit":{"buttons":{"cancel":"ยกเลิก","save":"บันทึก","save_and_publish":"บันทึกและเผยแพร่"},"course_editing_roles":{"anyone":"ทุกคน","only_teachers":"เฉพาะผู้สอน","teachers_and_students":"ผู้สอนและผู้เรียน"},"editing_roles":{"anyone":"ทุกคน","only_members":"เฉพาะสมาชิก"},"notify_users_text":"แจ้งผู้ใช้ว่าเนื้อหานี้มีการเปลี่ยนแปลง","options_label":"ตัวเลือก","title_label":"ชื่อเพจ"},"wiki_page_index":{"add_page":"เพิ่มหนึ่งรายการ!","buttons":{"new_page":"หน้าเพจ","new_page_label":"เพิ่มเพจ"},"headers":{"creation_date":"วันที่จัดทำ","last_edit":"แก้ไขล่าสุด","page_title":"ชื่อเพจ","todo_date":"วันที่สำหรับสิ่งที่ต้องทำ"},"loading":"กำลังโหลด...","loading_more":"กำลังโหลดเพิ่มเติม...","no_pages":"ยังไม่ได้จัดทำเพจ","pages_title":"เพจ"},"wiki_page_index_edit_dialog":{"page_title":"ชื่อ"},"wiki_page_index_item":{"labels":{"front_page":"%{frontPageText}"},"menu":{"settings":"ค่าปรับตั้ง"}},"wiki_page_revision":{"latest_revision":"แก้ไขล่าสุด","restore_revision":"กู้คืนเวอร์ชั่นนี้","revision_summary":"*%{updated_at}* โดย %{edited_by}","same_as_latest":"เหมือนกับ *ล่าสุด*"},"wiki_page_revisions":{"revision_history":"ประวัติการแก้ไข"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "dialog_form_wrapper",
+  null,
+  function() { return {"cancel":"ยกเลิก","save_settings":"บันทึกค่าปรับตั้ง","saving":"กำลังบันทึก..."} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "grading_box",
+  function() { return {"out_of_n_assignment_points_possible_3b026ea9":"จาก %{n_assignment.points_possible}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "gradebooks",
+  null,
+  function() { return {"grades":{"complete":"เสร็จสิ้น","incomplete":"ไม่เสร็จสิ้น"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "curve_grades_dialog",
+  function() { return {"out_of_formattedoutof_e08e90d5":"จาก %{formattedOutOf}"} },
+  function() { return {"average_score":"คะแนนเฉลี่ย","buttons":{"curve_grades":"เกรดแบบกราฟ","curving_grades":"กำลังทำกราฟเกรด..."},"curve_average":"กรอกเกรดเฉลี่ยสำหรับกราฟของ *%{assignment.name}* แผนภาพแสดงการทำรายการที่ดีที่สุดที่ส่วนการจัดทำกราฟเกรดพิจารณาจากคะแนนของผู้เรียนในปัจจุบัน","curve_grade_for_assignment":"เกรดแบบกราฟสำหรับ %{assignment.name}","labels":{"assign_blanks":"กำหนดศูนย์ให้กับผู้เรียนที่ไม่ได้จัดส่ง"},"this_is_permanent":"การทำกราฟเกรดไม่สามารถยกเลิกได้ ประวัติเกรดที่ทำกราฟไว้เบื้องต้นจะสามารถเรียกใช้ได้ แต่การทำกราฟจะไม่สามารถย้อนกลับได้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "re_upload_submissions_form",
+  null,
+  function() { return {"buttons":{"upload":"อัพโหลดไฟล์"},"reupload_submission_files":"อัพโหลดไฟล์ผลงานจัดส่งใหม่","upload_info":"หากคุณทำการแก้ไขไฟล์ผลงานจัดส่งของผู้เรียนที่คุณดาวน์โหลดไว้ก่อนหน้านี้ ให้ zip ไฟล์และอัพโหลด zip พร้อมกับแบบฟอร์มด้านล่างนี้ ผู้เรียนจะเห็นไฟล์ที่มีการแก้ไขในความเห็นสำหรับผลงานจัดส่งของตน","upload_warning":"คุณจะต้องไม่แก้ไขชื่อของไฟล์ผลงานจัดส่งเพื่อให้เราสามารถแยกออกได้"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "set_default_grade_dialog",
+  function() { return {"give_all_students_the_same_grade_for_assignment_na_e44fcc7e":"ให้เกรดเดียวกับผู้เรียนทั้งหมดสำหรับ *%{assignment.name}* โดยกรอกและส่งค่าเกรดต่อไปนี้","give_all_students_the_same_percent_grade_for_assig_6a008004":"แจ้งเกรดเป็น*เปอร์เซ็นต์*เท่ากันทั้งหมดสำหรับ **%{assignment.name}** โดยกรอกและส่งค่าเกรดด้านล่าง:"} },
+  function() { return {"dialog_title":"เกรดเริ่มต้นสำหรับ %{assignment.name}","overwrite":"เขียนทับเกรดที่กรอกไว้แล้ว","set_grades_button":"กำหนดเกรดเริ่มต้น","set_grades_button_loading":"กำลังกำหนดเกรด..."} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "keyboard_nav_dialog",
+  null,
+  function() { return {"esc_key_notification":"กดปุ่ม escape ก่อนใช้ชอร์ตคัทแป้นพิมพ์ขณะเข้าไปยังกริดสมุดบันทึกเกรด"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "media_comments",
+  function() { return {"record_with_microphone_only_e4ee07aa":"บันทึกโดยใช้ไมโครโฟนเท่านั้น","record_with_webcam_af21e07c":"บันทึกผ่านเว็บแคม","saving_recording_e111cb05":"กำลังบันทึกผลงานบันทึก...","submit_media_file_f334c1ba":"ส่งไฟล์สื่อ","this_recorder_uses_flash_as_a_result_you_may_find__427d2ddb":"ระบบบันทึกนี้อาศัย Flash คุณจะสามารถบันทึกได้ง่ายขึ้นผ่านเครื่องของคุณ และใช้แท็บระบบอัพโหลดสื่อเพื่อทำการอัพโหลด","title_52b8638d":"ชื่อ:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "widget",
+  null,
+  function() { return {"upload_media_track_form":{"amara_instructions":"เมื่อได้รับแจ้ง ให้วาง URL วิดีโอที่คัดลอกไว้ในขั้นตอนที่ 1","amara_link_text":"Amara (เครื่องมือจัดทำคำบรรยาย)","choose_a_language":"--เลือกภาษา--","error_message":"*ข้อผิดพลาด:* คุณจะต้องเลือกภาษาและไฟล์ติดตามที่ถูกต้อง","file":"ไฟล์","language":"ภาษา","upload_media_track_form_description":"หลังจากมีแทร็คคำบรรยายแล้วแบบ SRT หรือ *WebVTT* คุณจะสามารถอัพโหลดได้ที่นี่","upload_media_track_form_description_1":"คัดลอก URL วิดีโอนี้:","upload_media_track_form_description_2":"จัดทำไฟล์คำบรรยายโดยคลิกที่ลิงค์ต่อไปนี้","upload_media_track_form_description_3":"อัพโหลดแทร็คคำบรรยายแบบ SRT หรือ *WebVTT*","upload_media_track_form_step1_label":"ขั้นตอนที่ 1:","upload_media_track_form_step2_label":"ขั้นตอนที่ 2:","upload_media_track_form_step3_label":"ขั้นตอนที่ 3:","upload_media_track_info":"*คำแนะนำ:* ทำตามสามขั้นตอนง่าย ๆ เหล่านี้เพื่อจัดทำไฟล์คำบรรยายสำหรับวิดีโอของคุณ จากนั้นอัพโหลดไว้ที่นี่ หากคุณมีไฟล์คำบรรยาย SRT อยู่แล้ว คุณสามารถข้ามไปขั้นตอนที่ 3 ได้"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "message_students_dialog",
+  function() { return {"recipients_a69b5e55":"ผู้รับ:","sent_f4ee89ec":"ส่งแล้ว!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "th",
+  "jquery",
+  function() { return {"module_navigation_97043417":"การสืบค้นเนื้อหาหน่วยการเรียน","next_module_item_19e835f3":"รายการหน่วยการเรียนถัดไป","opens_in_new_window_b4b99243":"เปิดในหน้าต่างใหม่","previous_module_item_a9e57348":"รายการหน่วยการเรียนก่อนหน้า"} },
+  function() { return {"module_sequence_footer":{"next":"ถัดไป","previous":"ก่อนหน้า"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "paginated_collection",
+  null,
+  function() { return {"no_items":"ไม่มีรายการ"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "paginated_view",
+  null,
+  function() { return {"loading_more_results":"กำลังโหลดผลลัพธ์เพิ่มเติม"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "editor",
+  null,
+  function() { return {"mathjax_text_entry_field_label":"กรอกสมการเป็น LaTeX","screen_reader_tip":"ผู้ใช้โปรแกรมอ่านหน้าจอ: วิธีที่สะดวกที่สุดในการใช้โปรแกรมแก้ไขนี้คือสลับไปที่มุมมองขั้นสูง และกรอก LaTeX โดยตรง หรือใช้แถบเครื่องมือเพื่อช่วยคุณในการดำเนินการ ลิงค์เพื่อสลับไปยังมุมมองขั้นสูงจะอยู่ใกล้กับตอนท้ายของกล่องโต้ตอบนี้ ก่อนฟิลด์แก้ไข","switch_to_mathjax":"สลับมุมมองเป็นพื้นฐาน","switch_to_mathquill":"สลับมุมมองเป็นขั้นสูง","tabs":{"arrows":"ลูกศร","basic":"พื้นฐาน","delimiters":"ตัวคั่น","greek":"กรีก","misc":"เบ็ดเตล็ด","operators":"ผู้ดำเนินการ","relationships":"ความสัมพันธ์"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "find_flickr_image_view",
+  null,
+  function() { return {"find_cc_on_flickr":"ค้นหาภาพ Creative Commons ใน Flickr","safesearch_warning_flickr":"Flickr แสดงภาพ SafeSearch ภายในโดเมนสาธารณะของ Creative Commons อย่างไรก็ตาม ไม่รับประกันผลการค้นหาแบบปลอดภัย เนื่องจากภาพบางส่วนอาจไม่รวมระดับความปลอดภัยที่ระบุโดยเจ้าของ","search":"ค้นหา"} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "change_points_possible_to_match_rubric_dialog",
+  null,
+  function() { return {"prompts":{"update_assignment_points":"ทำให้คะแนนรวมของภารกิจอยู่ที่ %{assignmentPoints} และคะแนนรวมของเกณฑ์การให้คะแนนอยู่ที่ %{rubricPoints} ทำให้คะแนนสูงสุดที่เป็นไปได้อยู่ที่ %{toPercentage_pointRatio} สำหรับผลงานจัดส่งของผู้เรียนที่ให้เกรดโดยใช้เกณฑ์การให้คะแนนดังกล่าว"},"titles":{"update_assignment_points":"เปลี่ยนคะแนนภารกิจให้ตรงกับเกณฑ์การให้คะแนนหรือไม่"}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "number",
+  null,
+  function() { return {"currency":{"format":{"delimiter":",","format":"%u%n","precision":2,"separator":".","significant":false,"strip_insignificant_zeros":false,"unit":"$"}},"format":{"delimiter":",","precision":3,"separator":".","significant":false,"strip_insignificant_zeros":false},"human":{"decimal_units":{"format":"%n %u","units":{"billion":"พันล้าน","million":"ล้าน","quadrillion":"พันล้านล้าน","thousand":"พัน","trillion":"ล้านล้าน","unit":""}},"format":{"delimiter":"","precision":3,"significant":true,"strip_insignificant_zeros":true},"storage_units":{"format":"%n %u","units":{"byte":{"one":"ไบต์","other":"ไบต์"},"eb":"EB","gb":"GB","kb":"KB","mb":"MB","pb":"PB","tb":"TB"}}},"nth":{"ordinalized":{},"ordinals":{}},"percentage":{"format":{"delimiter":"","format":"%n%"}},"precision":{"format":{"delimiter":""}}} }
+)
+
+
+setLazyTranslations(
+  "th",
+  "datetime",
+  null,
+  function() { return {"distance_in_words":{"about_x_hours":{"one":"ประมาณ 1 ชั่วโมง","other":"ประมาณ %{count} ชั่วโมง"},"about_x_months":{"one":"ประมาณ 1 เดือน","other":"ประมาณ %{count} เดือน"},"about_x_years":{"one":"ประมาณ 1 ปี","other":"ประมาณ %{count} ปี"},"almost_x_years":{"one":"เกือบ 1 ปี","other":"เกือบ %{count} ปี"},"half_a_minute":"ครึ่งนาที","less_than_x_minutes":{"one":"น้อยกว่าหนึ่งนาที","other":"น้อยกว่า %{count} นาที"},"less_than_x_seconds":{"one":"น้อยกว่า 1 วินาที","other":"น้อยกว่า %{count} วินาที"},"over_x_years":{"one":"มากกว่า 1 ปี","other":"มากกว่า %{count} ปี"},"x_days":{"one":"1 วัน","other":"%{count} วัน"},"x_minutes":{"one":"1 นาที","other":"%{count} นาที"},"x_months":{"one":"1 เดือน","other":"%{count} เดือน"},"x_seconds":{"one":"1 วินาที","other":"%{count} วินาที"}},"prompts":{"day":"วัน","hour":"ชั่วโมง","minute":"นาที","month":"เดือน","second":"วินาที","year":"ปี"}} }
+)
+
+
+})(setRootTranslations, setLazyTranslations)

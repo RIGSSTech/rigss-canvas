@@ -1,0 +1,6310 @@
+import { setRootTranslations, setLazyTranslations } from '@canvas/i18n/mergeI18nTranslations.js'; (function(setRootTranslations, setLazyTranslations) {
+
+setRootTranslations("da-x-k12", function() { return {"1_item_scores_5512cd03":"1 element| elementer","2_final_score_7b0fd15e":"2- Endeligt resultat","_b4455c8b":"%","a_file_named_name_already_exists_in_this_folder_do_e39de0b2":"En fil med navnet ”%{name}” findes allerede i denne mappe. Vil du udskifte den eksisterende fil?","a_locked_file_named_name_already_exists_in_this_fo_33ca9a0c":"En låst fil med navnet ”%{name}” findes allerede i denne mappe. Indtast et nyt navn.","accept_2fdd362e":"Acceptér","access_token_count_access_token_count_dfb5463c":"Antal adgangs-tokens: %{access_token_count}","account_97b34646":"Konto","account_navigation_80bbefd4":"Kontonavigation","account_settings_fe083453":"Kontoindstillinger","act_as_name_16d15bfa":"Funger som %{name}","act_as_user_d7ef0e48":"Funger som bruger","actions_efcde10d":"Handlinger","active_d7e32718":"Aktiv","add_8523c19b":"Tilføj","add_cc_subtitle_a9ef4a66":"Tilføj undertekst","add_group_c84f9e9d":"Tilføj gruppe","add_group_set_f9809e11":"Tilføj gruppesæt","add_mastery_level_76469d98":"Tilføj niveau for opfyldelse af læringsmål","add_new_caption_or_subtitle_59d2d044":"Tilføj ny billedtekst eller undertekst","add_subtitle_9f660cc":"Tilføj undertekst","add_to_student_to_do_58e66b4b":"Tilføj til elever opgaveliste","added_caption_1895db92":"Tilføjet billedtekster","admin_4d3ba42f":"Administrator","admin_tools_logging_tab_680698f3":"Administratorværktøjer (fanen Logføring)","admins_3e1dce15":"Administratorer","after_4c71e718":"Efter","all_4321c3a1":"Alle","all_accounts_3bafc860":"Alle konti","all_changes_were_saved_f6f3ddcc":"Alle ændringer blev gemt","all_courses_a7dbb853":"Alle fag","all_dates_fields_must_be_present_and_formatted_cor_3a0fe925":"Alle datafelter skal være til stede og korrekt formateret","all_grading_periods_77974940":"Alle vurderingsperioder","all_grading_periods_must_have_a_title_a1a38d87":"Alle vurderingsperioder skal have en titel","all_groups_cea25817":"Alle grupper","all_roles_f3bba14d":"Alle roller","all_sections_daf11554":"Alle sektioner","all_start_dates_must_be_before_the_end_date_d949eca9":"Alle startdatoer skal ligge før slutdatoen","all_subjects_5a42cfdb":"Alle emner","all_terms_cd27b0fb":"Alle skoleår","allows_user_to_access_the_learning_mastery_gradebo_3c1fc35b":"Gør det muligt for en bruger at få adgang til vurderingsoversigten for opfyldelse af læringsmål (hvis aktiveret).","allows_user_to_add_assignment_groups_in_a_course_3054675c":"Gør det muligt for en bruger at tilføje opgavegrupper i et fag.","allows_user_to_add_discussions_in_the_discussions__1b3d9a53":"Gør det muligt for en bruger at tilføje diskussioner på siden Diskussioner.","allows_user_to_add_new_assignments_to_a_module_51ae198c":"Gør det muligt for en bruger at føje nye opgaver til et forløb.","allows_user_to_edit_configurations_for_manually_ad_7e0f496c":"Gør det muligt for en bruger at redigere konfigurationer for manuelt tilføjede eksterne apps.","allows_user_to_generate_login_logout_activity_repo_bba62f2":"Gør det muligt for en bruger at generere en rapport over login-/logoutaktivitet i Administratorværktøjer.","allows_user_to_manage_assignment_settings_35d94690":"Gør det muligt for en bruger at administrere opgaveindstillinger.","allows_user_to_share_a_quiz_to_commons_6746e0da":"Gør det muligt for en bruger at dele en quiz med Commons.","allows_user_to_view_student_specific_data_in_analy_4abbf6be":"Gør det muligt for en bruger at få vist data, der er specifikke for elever, i Analyse.","an_error_occurred_when_saving_the_group_536c8f66":"Der opstod en fejl under lagring af gruppen.","an_error_occurred_while_loading_account_outcomes_e_d79afc2d":"Der opstod en fejl under indlæsning af kontoens læringsudbytter: %{error}","an_error_occurred_while_loading_course_outcomes_er_accefe77":"Der opstod en fejl under indlæsning af fagets læringsudbytter: %{error}","analytics_c94ba601":"Analyse","announcement_fb4cb645":"Besked","announcements_a4b8ed4a":"Beskeder","anonymous_e1b8ad27":"Anonym","anonymous_grading_ccb5045c":"Anonym vurdering","app_b157c2b3":"App","applied_cc7be774":"Anvendt","apply_781a2546":"Tildel","appointments_dcb41d23":"Aftaler","archive_3f794d7e":"Arkiv","archived_de543437":"Arkiveret","are_you_sure_you_want_to_cancel_changes_you_made_m_c5210496":"Er du sikker på, du vil annullere? Ændringer, du har foretaget, kan ikke blive gemt.","are_you_sure_you_want_to_delete_this_assignment_88be6f5e":"Er du sikker på, du vil slette denne opgave?","are_you_sure_you_want_to_delete_this_comment_4ee386d":"Er du sikker på, at du ønsker at slette denne kommentar?","are_you_sure_you_want_to_delete_this_grading_perio_422359cd":"Er du sikker på, at du vil slette denne vurderingsperiode?","arrange_by_a121617c":"Organiser efter","assign_eedf72bb":"Tildel","assignment_976578a8":"Opgave","assignment_group_1a781505":"Opgavegruppe","assignment_name_b2d87383":"Opgavenavn","assignments_1e02582c":"Opgaver","assignments_2_student_error_page_3ca3e0df":"Opgaver 2 Fejlside for elever","assignments_2_student_initial_query_error_52aa5ebd":"Opgaver 2 Fejl ved elevs indledende forespørgsel","attempt_attempt_d3911720":"Forsøg %{attempt}","attempt_f2691284":"Forsøg","availability_dates_438d71e0":"Ledige datoer","available_8606e40c":"Tilgængelig","available_from_587ce92f":"Tilgængelig fra","available_to_b7350e02":"Tilgængelig indtil","available_until_f3b9c4ed":"Tilgængelig indtil","back_2900f52a":"Tilbage","base_type_e2840170":"Basistype","before_44c686b4":"Før","begin_typing_to_search_7daa7b1":"Begynd at indtaste for at søge","below_mastery_abd1dca5":"Under opfyldelse af læringsmål","blueprint_5cca2ef":"Blueprint","blueprint_courses_9dd321b8":"Blueprint-fag","blueprint_courses_must_be_enabled_for_an_account_b_c630f425":"En admin skal aktivere Blueprint-fag for en konto.","bounced_emails_83f293b5":"Afviste e-mails","build_78955b82":"Byg","calculation_method_fe281f9":"Beregningsmetode","calendar_d14cfc8f":"Kalender","calendar_event_89aadc1c":"Kalenderbegivenhed","calendars_a756c286":"Kalendere","cancel_caeb1e68":"Annuller","cancel_importing_name_a0b6f3e1":"Annuller import \"%{name}\"","cancel_migrating_name_cfc745c2":"Annuller overførsel af \"%{name}\"","captured_image_91838f78":"Optaget billede","cc_subtitles_a0d16ff6":"Undertekster","change_dcaa253a":"Skift","changes_you_made_may_not_be_saved_4e8db973":"Ændringer, du har foretaget, kan ikke blive gemt.","choose_file_8d89ccab":"Vælg fil","chosencolor_is_not_a_valid_color_5d542cc":"'%{chosenColor}' er ikke en gyldig farve.","clear_2084585f":"Ryd","clear_selected_file_82388e50":"Ryd valgt fil","clone_group_set_c2a40e15":"Klon gruppesæt","close_d634289d":"Luk","close_date_a2f617b3":"Afslutningsdato","collaborations_5c56c15f":"Samarbejde","collapse_subdiscussion_89af1f5c":"Skjul underdiskussion","collapsed_510aa02a":"Skjult","color_a363e1b0":"Farve","comments_e07bcbe3":"Kommentarer","commons_ed0252fb":"Commons","complete_4f4efbc":"fuldført","complete_fd828dea":"Fuldført","completed_19711ce7":"Fuldført","compose_message_8abd180a":"Skriv besked","computer_1d7dfa6f":"Computer","concluded_courses_94782e21":"Afsluttede fag","conferences_a0a8984b":"Konferencer","conferencing_b69e2537":"Konferencer:","configure_ecb97e30":"Konfigurer","confirm_6556b3a6":"Bekræft","confirm_delete_6febeafb":"Bekræft sletning","confirm_deletion_b2efe7d4":"Bekræft sletning","confirm_removal_a9bb889":"Bekræft fjernelse","continue_ac067716":"Fortsæt","conversations_69a8dc26":"Samtale","copy_9748f9f":"Kopi","copy_to_64f8456b":"Kopier til ...","copy_to_a5396a6f":"Kopier til ...","count_replies_a685c742":"%{count} svar","count_unread_cff5855":"%{count} ulæst.","count_unread_replies_86976ab":"%{count} ulæste svar","course_8a63b4a3":"Fag","course_name_63b973d1":"Fagets navn","course_navigation_dd035109":"Fagnavigation","course_pacing_40c14b61":"Fagtempo","course_roles_can_only_manage_content_in_blueprint__a37c5e0a":"Fagroller kan kun administrere fagindhold i Blueprint-fag, hvis de er føjet til Blueprint-faget som lærer-, undervisningsassistents- eller designerrolle.","course_settings_f6d0bbf8":"Fagindstillinger","courses_43204aae":"Fag","courses_account_72e4fca7":"Fag (konto)","create_132b3be1":"Opret","create_new_group_bf9561d4":"Opret ny gruppe","create_new_group_fca5cc73":"Opret ny gruppe","created_6ee36dff":"Oprettet:","criterion_long_description_e9a97247":"Kriterie lang beskrivelse","current_367624e9":"Aktuel","current_mastery_score_score_out_of_mastery_points_fedd343f":"Aktuelt resultat for opfyldelse af læringsmål: %{score} ud af %{mastery_points}","current_volume_level_c55ab825":"Nuværende lydstyrke","curving_assignments_e9479ee3":"Kurver til opgaver","custom_6979cd81":"Brugerdefineret","custom_fields_fc3e55af":"Brugerdefinerede felter","dashboard_7f1dbf71":"Oversigt","dashboard_options_b240ed5a":"Forsideindstillinger","dashboard_view_d7d85969":"Oversigt visning","date_at_time_25a04cd2":"%{date} ved %{time}","date_created_87e265bc":"Oprettelsesdato","date_created_b93b76fb":", oprettelsesdato: ","date_created_createdat_265a0dfa":"oprettelsesdato: %{createdAt}","date_ee500367":"Dato","date_error_7b38f8ff":"Datofejl","date_filter_is_in_effect_4363df73":"Datofilteret er aktivt","date_is_after_course_end_date_94a2f4e3":"Dato er efter fagets slutdato","date_is_after_the_course_end_date_95bf9b6a":"Dato er efter fagets slutdato","date_is_after_the_specified_end_date_ae34a72f":"Dato er efter den angivne slutdato","date_is_after_the_term_end_date_4ab01e5d":"Dato er efter slutdato","date_is_before_course_start_date_16c9d531":"Datoen er før fagets start","date_is_before_student_enrollment_date_a380a177":"Dato er før elevens tilmeldingsdato","date_is_before_the_course_start_date_431ba0ff":"Datoen er før fagets startdato","date_is_before_the_term_start_date_10104b92":"Dato er før skoleårets startdato","date_is_required_9c6f5e83":"Dato er påkrævet!","date_modified_4d065406":", dato modificeret: ","date_modified_e1c8ac8f":"Dato modificeret","date_modified_modifiedat_b839cc8b":"dato modificeret: %{modifiedAt}","date_of_most_recent_bounce_b23d0119":"Dato for seneste afvisning","date_required_a74e077c":"Dato påkrævet","date_time_options_7abcdea7":"Dato og tid - indstillinger","date_time_options_b501e73b":"Dato og tid - indstillinger","dates_6e416047":"Datoer","dates_shown_in_course_time_zone_da2f77d5":"Datoer vist i fagets tidszone","day_s_7cc1231f":"Dag(e)","default_9db103d":"Standard","delete_a6efa79d":"Slet","delete_assignment_group_7c3b01c4":"Slet opgavegruppe","delete_this_key_70f74aa1":"Slet denne nøgle","delete_title_6c18eba5":"Slet %{title}","deleted_1be5ed1":"Slettet","deleted_caption_b5c66807":"Slettet billedtekst","description_436c48d7":"Beskrivelse","description_for_mastery_level_position_description_cc17114b":"Beskrivelse for niveau for opfyldelse af læringsmål %{position}: %{description}","designer_c458392":"Designer","details_98a31b68":"Nærmere oplysninger","determines_visibility_and_management_of_the_questi_c57c5b31":"Bestemmer synlighed og administration af Spørgsmålsbanker-linket i kontonavigation.","developer_keys_d70ba44a":"Udvikler nøgler","disable_a5c05db3":"Deaktiver","disabled_3b1b332a":"Deaktiveret","discussion_6719c51d":"Diskussion","discussion_topic_dc85ad4c":"Diskussionsemne","discussions_a5f96392":"Diskussioner","display_as_e2a5c383":"Vis som","display_totals_for_all_grading_periods_option_4a72586":"Vis muligheden for samlet resultat for alle vurderingsperioder","domain_3b54c511":"Domæne","done_54e3d4b6":"Udført","download_c7ffdfb9":"Download","drag_a_file_here_39357b48":"Træk en fil her hen","drag_and_drop_or_click_to_browse_your_computer_60772d6d":"Træk og slip eller klik for at browse din computer","due_a73610f6":"Forfalder","due_date_2c6e4cfb":"Forfalder %{date}","due_date_822625d8":"Afleveringsdato","due_date_falls_in_a_closed_grading_period_e447ff2f":"Forfaldsdato falder i en lukket vurderingsperiode","due_dates_520a6c08":"Afleveringsdatoer","due_on_date_5ffb2182":"Afleveres d.","duplicate_31cec192":"Dupliker","edit_assignment_dates_6f8c72b":"Rediger opgavedatoer","edit_assignment_group_c04c4af0":"Rediger opgavegruppe","edit_c5fbea07":"Rediger","edit_group_c8679dba":"Rediger gruppe","edit_mastery_paths_for_title_3c0a15e1":"Rediger læringsstier for %{title}","edit_outcome_867a0381":"Rediger læringsudbytte","edit_title_20a9577":"Rediger %{title}","email_22a7d52d":"E-mail","email_address_a1b97a39":"E-mail-adresse","email_is_required_736ac26b":"E-mail er påkrævet","embed_828fac4a":"Indlejre","embed_video_code_703e10f2":"Indlejr videokode","enable_6f5d1328":"Aktivér","enabled_ba7cab66":"Aktiveret","end_date_cannot_be_before_start_date_eb62ed6d":"Slutdato kan ikke ligge før startdato","end_date_e0093ed7":"Slutdato","enter_at_least_count_characters_1c7a0b36":"Indtast mindst %{count} tegn","enter_new_group_name_b97d5819":"Indtast nyt gruppenavn","error_59293a2c":"fejl","error_98e81528":"Fejl","error_retrieving_content_c07ee76b":"Fejl ved hentning af indhold","error_retrieving_content_from_tool_e65ef3b7":"Fejl ved hentning af indhold fra værktøjet","error_updating_status_of_module_item_80336274":"Fejl ved opdatering af forløbelementets status","error_uploading_video_audio_recording_16d9730a":"Fejl ved upload af video- / lydoptagelse","event_end_time_ef830e66":"Begivenhedens sluttidspunkt","event_fe9ba3fe":"Begivenhed","event_start_time_441b491f":"Begivenhedens starttidspunkt","event_title_7f1051a6":"Begivenhedens titel","everyone_854554dd":"Alle","everyone_else_6c6dc7b6":"Alle andre","example_84698b7d":"Eksempel","example_final_score_355aff0f":"Eksempel på endeligt resultat","example_item_scores_6726c689":"Eksempel på elementresultater","exceeds_mastery_1f995dce":"Overstiger opfyldelse af læringsmål","excused_3aab77":"undskyldt","excused_cf8792eb":"Undskyldt","expanded_f4493860":"Udvidet","external_apps_f5490181":"Eksterne app'er","external_tool_c5a6410a":"Eksternt værktøj","failed_276786d":"Mislykkedes","favorite_courses_fbd356f0":"Favoritfag","feature_f5526584":"Funktion","feature_option_dbfa062f":"Funktionsindstilling","feature_options_account_settings_294a39f8":"Funktionsindstillinger (kontoindstillinger)","file_c851020d":"Fil","file_name_2fe68ec1":"Filnavn","file_name_8fd421ff":"Filnavn","file_selected_for_upload_filename_18ca9b8a":"Fil valgt til upload: %{filename}","filename_preview_71b2cde2":"%{filename} forhåndsvisning","files_c300e900":"Filer","filter_by_2f4368a8":"Filtrere efter","filter_e3398407":"Filter","final_grade_4d7f6545":"Endelig vurdering","final_grade_override_be8a21cd":"Tilsidesættelse af endelig vurdering","find_8d605019":"Find","finish_bc343002":"Færdig","folder_705fd2d7":"mappe","folder_browsing_tree_1f00a3ae":"Mappestruktur","for_974cbb84":"Til","friendly_description_57f7fdde":"Brugervenlig beskrivelse","from_fdd4956d":"Fra","future_5416ea92":"Fremtid","global_navigation_8bee3501":"Global navigation","go_to_name_s_profile_eaa1826b":"Gå til %{name}s profil","gpa_scale_6710e2ee":"GPA-skala","grade_9c6f076d":"Vurdering","grade_change_notifications_98461261":"Meddelelser om vurdering ændring","grade_saved_ab539b53":"Vurdering gemt.","gradebook_1620a0aa":"Vurderingsoversigts","gradebook_5fd8ef0":"Vurderingsoversigt ...","gradebook_history_a3e8e0b4":"Vurderingsoversigt-historik","gradebook_history_b03f8524":"Vurderingsoversigt-historik ...","graded_25cd3fcd":"Bedømt","grader_d1198a9c":"Bedømmer","grades_a61eba0a":"Vurderinger","grading_aa6de9":"Vurdering","grading_period_8b0a4a10":"Vurderingsperiode","grading_period_weight_99b66906":"Vægtning for vurderingsperiode","grading_periods_81941e66":"Vurderingsperioder","grading_periods_must_not_overlap_f45336fb":"Vurderingsperioder må ikke overlappe","grading_schemes_1c3c3252":"Vurderingsordninger","group_a8f5ed9c":"Gruppe","group_name_b69c144":"Gruppenavn","group_set_name_2aed2347":"Navn på gruppesæt","groups_6c90e26a":"Grupper","haven_t_been_graded_d7dee5bb":"Er ikke blevet bedømt","haven_t_submitted_yet_e63834db":"Er ikke afleveret endnu","help_4c4968b1":"Hjælp","hidden_14a032a7":"Skjult","hide_grades_585e63b4":"Skjul vurderinger","home_351838cd":"Startside","homeroom_view_a676e270":"Klasseværelsevisning","if_an_enrollment_is_created_via_sis_only_admins_ca_729493d3":"Hvis der oprettes en tilmelding via SIS, er det kun administratorer, der kan fjerne tilmeldingen fra et fag.","if_the_feature_option_is_enabled_and_this_permissi_3f9424e2":"Hvis funktionsindstillingen er aktiveret, og denne tilladelse er aktiveret, indeholder siden Læringsudbytter tre faner: Administrer, Opfyldelse af læringsmål og Beregning.","if_this_permission_is_enabled_the_learning_mastery_af45b0ca":"Hvis denne tilladelse er aktiveret, vises fanen Opfyldelse af læringsmål på siden Læringsudbytter i stedet for siden Vurderingskriterier.","image_8ad06":"Billede","import_1b31507":"Importer","import_outcomes_7dda186b":"Importer læringsudbytter","importing_name_8f2b131d":"Importerer \"%{name}\"","importing_the_same_course_content_more_than_once_w_8b28b2c6":"Import af det samme indhold mere end en gang overskriver det eksisterende indhold i faget.","in_progress_9d1ce8b9":"I gang","inactive_cd40317f":"Inaktiv","inbox_bb245a60":"Indbakke","include_this_assignment_s_grades_when_syncing_to_y_55bfa487":"Inkluder denne opgaves vurderinger, når du synkroniserer med elevernes informationssystem på din skole","incomplete_95612d72":"ufuldstændig","incomplete_da3c2ea2":"Ufuldstændig","institution_14179014":"Institution","integration_id_8a20b328":"Integrations-ID","invalid_file_type_881cc9b2":"Ugyldig filtype","invalid_points_8e929c3f":"Ugyldige point","joining_81f8b6c9":"Deltager","keyboard_shortcuts_ed1844bd":"Genvejstaster","language_6b3e2c7c":"Sprog","last_used_f9457313":"Sidst brugt:","late_2be42b88":"Sen","late_8bd684b6":"sen","late_penalty_9c312b22":"Straf for sen aflevering","learning_mastery_5fc34276":"Opfyldelse af læringsmål","learning_mastery_6ed4fd63":"Opfyldelse af læringsmål ...","letter_grade_f00fedc4":"bogstavvurdering","limited_322546c5":"Begrænset","link_url_a213671c":"Link URL","list_collapsed_5f19f5bb":"Liste skjult","list_collapsed_9ac35920":"Listen skjult.","list_expanded_4857ff4c":"Liste udvidet","list_expanded_efec2d0":"Liste udvidet.","load_more_a36f9cf9":"Indlæs mere","loading_25990131":"Indlæser ...","loading_announcements_b927a86c":"Henter beskeder","loading_bde52856":"Indlæser","loading_data_ecd89ba":"Indlæsning af data ...","loading_media_32847745":"Indlæser medier","loading_options_c823e98b":"Indstillinger indlæses ...","local_4ee321b1":"Lokal","location_e17bd402":"Placering","lock_c341af13":"Lås","locked_762f138b":"Låst","locked_click_to_unlock_50747e11":"Låst. Klik for at låse op.","login_id_12109693":"Login-id","manage_b88f7150":"Administrering","manage_options_for_name_83278ad0":"Administrer indstillinger for %{name}","manage_usage_rights_c5a8c216":"Administrering af brugsrettigheder","manual_entry_e4a4f99a":"Manuel indtastning","mark_as_important_date_533718de":"Marker som vigtig dato","mark_as_read_e7de2ce3":"Marker som læst","mark_as_unread_4a413c41":"Marker som ulæst","mastery_7ec348b5":"Beherskelse","mastery_paths_breakdown_6e0b5fce":"Opdeling af læringsstier","mastery_paths_cc4096c2":"Læringsstier","media_af190855":"Medier","media_record_not_available_f78c16dd":"Medieoptegnelse ikke tilgængelig","meets_mastery_754e1c06":"Opfylder mål","menu_39cb0e8e":"Menu","message_5c38209d":"Besked","message_sent_5e328899":"Besked sendt!","message_sent_9ff3a79d":"Besked sendt!","message_students_cecc3f83":"Send besked til elever","mic_a7f3d311":"Mikrofon","migrating_name_e05aa53e":"Overfører \"%{name}\"","missing_1a256b3b":"Mangler","missing_d59852a7":"mangler","missing_required_description_99a99ff":"Mangler påkrævet beskrivelse","moderated_grading_e6127f72":"Ændret vurdering","module_90d9fd32":"Forløb","modules_c4325335":"Forløb","more_cf9cc661":"Mere","more_courses_5ebbe998":"Flere fag","move_abf00365":"Flyt","move_contents_into_f3e4fd9d":"Flyt indhold til","move_to_25d7ef11":"Flyt til","must_be_a_number_e1dfe68a":"Skal være et tal","must_select_a_student_group_first_15c6a3cb":"Skal vælge en elevgruppe først","n_a_d6f6c42f":"N/A","n_points_possible_precision_2_st_points_bc3748df":"%{n_points_possible_precision_2_st} Points","name_1aed4a1b":"Navn","name_is_locked_click_to_unlock_7aad9928":"%{name} er låst. Klik for at låse op","name_is_too_long_must_be_under_length_characters_b8dad44c":"Navn er for lang, skal være under %{length} tegn","name_is_unlocked_click_to_lock_b8b9a2c8":"%{name} er låst op. Klik for at låse.","near_mastery_f25174a4":"Tæt på opfyldelse af læringsmål","negative_points_fda45730":"Negative point","never_df100b49":"Aldrig","new_13daf639":"Ny","new_bd30f253":"NYT","new_export_3ab758":"Ny eksport","new_quiz_34aacba6":"Ny quiz","new_user_s_name_909b6267":"Ny brugers navn","next_40e12421":"Næste","next_month_b55a387c":"Næste måned","next_page_d2a39853":"Næste side","next_student_b62869f4":"Næste elev","no_additional_details_were_added_for_this_assignme_547c0de7":"Ingen yderligere detaljer blev tilføjet til denne opgave.","no_due_date_44271c53":"Ingen afleveringsdato","no_e16d9132":"Nej","no_file_selected_92d2ac30":"Ingen fil valgt","no_results_3cda4e72":"Ingen resultater","no_results_f36777ee":"Ingen resultater","no_results_found_e4b686bd":"Ingen resultater fundet.","no_subject_970aad80":"Intet emne","no_video_1ed00b26":"Ingen video","no_violations_have_been_reported_977a08d1":"Der er ikke rapporteret om overtrædelser.","none_3b5e34d2":"Ingen","not_available_at_the_subaccount_level_3fc74ab":"Ikke tilgængelig på underkontoniveauet.","not_starred_subject_click_to_star_4ea6eb64":"Ikke givet stjerne \"%{subject}\", Klik for at give stjerne.","notes_c42e0fd5":"Noter","number_between_1_and_16_inclusive_31f5468d":"tal mellem 1 og 16 inklusive","number_each_event_d934cd65":"Antal hver begivenhed","number_is_too_large_4da4af0a":"nummer er for stort","number_is_too_small_618a6ca7":"nummer er for lille","number_more_a46966":"%{number} Mere...","number_of_allowed_attempts_3d10b740":"Antal tilladte forsøg","number_of_attempts_b0994c2f":"Antal forsøg","number_of_attempts_must_be_a_number_greater_than_0_a915568c":"Antal forsøg skal være større end 0.","number_of_graders_cde8dd54":"Antal bedømmere","number_of_respondents_e1e7e8b":"Antal respondenter","number_of_scores_to_ignore_for_each_student_fb94e818":"Antal resultater, der skal ignoreres for hver elev","number_to_grade_661b05dd":"%{number} skal have karakter","number_unsubmitted_145fefae":"%{number} ikke afleveret","observers_672971d":"Observatører","ok_c47544a2":"OK","ok_ff1b646a":"Ok","okay_1772bbeb":"Okay","one_per_line_format_name_value_79647700":"Én pr. linje. Format: navn=værdi","only_available_to_students_with_link_107e2468":"Kun tilgængeligt for elever med link","oops_something_went_wrong_importing_name_d382cac1":"Ups! Noget gik galt ved import af \"%{name}\"","oops_something_went_wrong_with_migrating_name_acdbc98b":"Ups! Noget gik galt med overførslen af \"%{name}\"","option_selected_49a37af2":"{option} valgt","option_selected_list_collapsed_70a356b4":"%{option} valgt. Listen skjult.","options_3ab0ea65":"Muligheder","or_choose_files_b795006d":"eller vælg filer","or_ef4e808":"eller","other_1c6d9c79":"Anden","other_ddacb37d":"andet","outcome_da397d20":"Læringsudbytte","outcome_group_39fae76f":"Læringsudbytte-gruppe","outcome_groups_3bc3b150":"Læringsudbytte-grupper","outcome_title_has_a_status_of_statustooltip_82d1e6d9":"Læringsudbytte: %{title} har en status for %{statusTooltip}","outcomes_d1b18d33":"Læringsudbytte","page_50c4823d":"Side","page_pagenum_20dbfeb8":"Side %{pageNum}","pages_e5414c2c":"Sider","pause_12af3bb4":"Pause","pdf_d8236d9a":"PDF","people_account_30bbffec":"Deltagere (konto)","people_b4ebb13c":"Deltagere","people_course_ddd9a66":"Deltagere (fag)","percent_448ea947":"procent","percent_af88d1b1":"%{percent}%","permissions_365c49e":"Tilladelser","placements_5b5e056b":"Placeringer","play_1a47eaa7":"Afspil","please_allow_canvas_to_access_your_microphone_and__dc2c3079":"Lad Canvas få adgang til din mikrofon og webcam.","points_bb475533":"Point","points_bceb5005":"point","points_for_mastery_level_position_points_9e72ac3f":"Point for niveau for opfyldelse af læringsmål %{position}: %{points}","points_must_be_unique_f1758a4f":"Point skal være unikke","points_pts_e5596bf7":"%{points} point","post_grades_39c52870":"Slå vurderinger op","preview_53003fd2":"Eksempel","preview_a3f8f854":"FORHÅNDSVISNING","previous_bd2ac015":"Forrige","previous_month_7adf1380":"Forrige måned","previous_page_928fc112":"Forrige side","previous_student_46275eae":"Tidligere elev","proceed_f3d33864":"Fortsæt","processing_2fcc9739":"Behandler","proficiency_rating_6346119f":"Færdighedsbedømmelse","public_a749f507":"Offentligt","publish_5211dca3":"Offentliggør","published_4bb5209e":"Offentliggjort","publishing_pace_a65e4152":"Offentliggørelsestempo ...","queued_d0e45c4b":"Sat i kø","quiz_e0dcce8f":"Quiz","quizzes_7e598f57":"Quizzer","reassigned_cedad6d9":"Tildelt igen","record_7c9448b":"Optag","record_media_6637ff19":"Optag medier","recording_98da6bda":"Optagelse","release_notes_12ca833c":"Frigivelsesnoter: ","released_by_mastery_path_cyoe_releasedlabel_14c67a92":"Udgivet af læringssti: %{cyoe.releasedLabel}","remove_attachment_ceae0973":"Slet vedhæftet fil","remove_f47dc62a":"Fjern","remove_file_cbf3f40f":"Fjern fil","remove_filename_dab5c02e":"Fjern %{filename}","reply_389d6fb9":"Svar","reply_to_comment_72d96728":"Svar på kommentar","reports_1b9ab7a7":"Rapporter","require_completion_by_specified_end_date_ed742ecb":"Kræv færdiggørelse inden for angivet slutdato","require_group_members_to_be_in_the_same_section_7f6c36af":"Gruppemedlemmer skal placeres i samme sektion","required_email_address_379b2392":"Påkrævet e-mailadresse","reserved_f247b60b":"Reserveret","resources_ccefab27":"Ressourcer","retry_ebd5f8ba":"Prøv igen","retry_migrating_name_bdc802ef":"Prøv at overføre \"%{name}\" igen\"","role_name_18a5943b":"Rollenavn","rubric_fc39da76":"Vurderingskriterium","rubrics_b5ef369b":"Vurderingskriterier","running_c5a4998d":"Kører","save_11a80ec3":"Gem","saving_2521e616":"Gemmer","saving_blackout_dates_be03e6ee":"Gemmer blackout-datoer ...","saving_d55dd90e":"Gemmer ...","saving_group_230707e6":"Gemmer gruppe","schedule_e5dd4c32":"Planlæg","score_change_notifications_6b94f27f":"Meddelelser om ændring i resultat","score_f7ac9e08":"Resultat","score_pts_adcb1af3":"%{score} point","scored_less_than_2427896c":"Scorede mindre end","scored_more_than_d1646bd5":"Scorede mere end","search_280d00bd":"Søg","search_assignments_8c3c21bb":"Søg opgaver","search_courses_7b5c4ab3":"Søg fag","search_term_must_be_at_least_num_characters_669098ed":"Søgeordet skal være på mindst %{num} tegn","secondary_info_835a07dd":"Sekundær info","section_c7f66a0d":"Sektion","section_filter_cde54d0a":"Sektionsfilter","sections_94731e51":"Sektioner","select_1e849959":"[ Vælg ]","select_a_grading_period_aab25483":"Vælg en vurderingsperiode","select_a_student_to_view_the_page_will_refresh_aut_eaa5d00c":"Vælg en elev at få vist. Siden opdateres automatisk.","select_audio_file_7d905cce":"Vælg lydfil","select_course_5cf89177":"Vælg fag","select_d70f31da":"Vælg","select_grader_782af48":"Vælg bedømmer","select_grading_period_4ce4cd3a":"Vælg vurderingsperiode","select_group_to_grade_6df28d80":"Vælg gruppe, der skal vurderes","select_language_7c93a900":"Vælg sprog","select_video_file_35b61d4e":"Vælg videofil","selected_274ce24f":"Valgt","selected_filename_7552a8c0":"valgt %{filename}","send_e3bd0ed0":"Send","send_message_6ccc90e8":"Send besked","send_to_7881bf0e":"Send til ...","send_to_b940900a":"Send til ...","sending_bf324366":"Sender ...","sending_message_8ac5bc90":"Sender besked ...","sending_message_failed_please_try_again_b53cc904":"Afsendelse af besked mislykkedes, prøv igen","sent_fe0a1eb4":"Sendt","set_name_d14182d7":"Indstil navn...","set_name_f83b658":"Indstil navn","set_usage_rights_a4e47ed9":"Indstil brugsrettigheder","settings_5aa0fd0c":"Indstillinger","settings_for_title_d3ca495":"Indstillinger for %{title}","short_name_42f454a1":"Kort navn","show_76c0ed1c":"Vis","show_course_sections_for_course_name_5f715702":"Vis fag-sektioner for fag %{name}","show_event_on_homeroom_sidebar_c618275d":"Vis begivenhed på sidebjælken Klasseværelse","sis_2164965":"SIS","sis_id_4495a887":"SIS-ID","sis_import_14517892":"SIS-import","size_b30e1077":"Størrelse","skip_weekends_13cbd889":"Spring weekender over","something_went_wrong_accessing_your_mic_or_webcam_6e3cad12":"Noget gik galt ved adgang til din mikrofon eller dit webcam.","something_went_wrong_please_try_refreshing_the_pag_3f651814":"Noget gik galt. Prøv at opdatere siden. Hvis problemet fortsætter, kan du prøve at indlæse en enkelt studiegruppe i SpeedGrader ved at bruge indstillingen *Stort fag*.","something_went_wrong_please_try_refreshing_the_pag_689be273":"Noget gik galt. Prøv at opdatere siden.","sort_by_72dbba9c":"Sorter efter","sort_by_e75f9e3e":"Sorter efter","speedgrader_de0affa6":"SpeedGrader","star_conversation_2e2ba614":"Marker diskussion med stjerne","starred_5a9efa8a":"Markeret med stjerne","starred_subject_click_to_unstar_6aafcddc":"Givet stjerne \"%{subject}\", Klik for ikke at give stjerne.","start_date_e937be8a":"Startdato","start_over_f7552aa9":"Start forfra","start_recording_9a65141a":"Start optagelse","state_66a67ba2":"Stat","status_e7fdbe06":"Status","student_5da6bfd1":"Elev","student_context_card_ad59967e":"Elevers kontekst-kort","student_context_cards_must_be_enabled_for_an_accou_f84169cb":"En admin skal aktivere Elevers kontekstkort for en konto.","student_details_49901ceb":"Elevens detaljer","students_1b8cd07b":"Elever","subaccounts_efd02bd4":"Underkonti","subject_114b2e98":"Emne","subjects_14c0c4de":"Emner","submission_comments_4fa03a17":"Kommentarer vdr. aflevering","submission_comments_b6d65841":"Afleveringskommentarer","submission_failed_to_submit_8de4efcd":"Afleveringen blev ikke afleveret","submit_a3cc6859":"Aflever","subtitle_ee60ca78":"Undertitel","support_favorite_lti_tools_in_the_rce_1680436d":"Understøt foretrukne LTI-værktøjer i RCE","support_latex_math_equations_almost_everywhere_6ce8ca24":"Understøt LaTex matematiske ligninger næsten overalt","support_uploading_closed_caption_files_in_all_the__418c06d4":"Understøttelse af upload af undertekst-filer på alle de\nsprog Canvas understøtter.","supported_file_types_vtt_srt_8cb75c13":"Understøttede filtyper: .vtt, .srt","syllabus_f191f65b":"Fagplan","sync_68e5c167":"Synkroniser","sync_completed_successfully_8f68b542":"Synkronisering afsluttet","sync_grades_a16622ca":"Synkroniser vurderinger","sync_grades_to_sis_4e7fbc08":"Synkroniser vurderinger til SIS","sync_to_posttosisname_9837a8bf":"Synkroniser til %{postToSISName}:","sync_to_posttosisname_dffd5c9":"Synkroniser til %{postToSISName}","ta_8d966626":"Undervisningsassistent","teacher_5a73b637":"Lærer","teacher_count_teachers_a92f7199":"%{teacher_count} lærere","teacher_s_fdefb2c":"Lærer(e)","teachers_52e2423f":"Lærere","term_e1c1d390":"Skoleår","text_7f4593da":"Tekst","the_following_content_is_partner_provided_ed1da756":"Følgende indhold er partnerleveret","the_grading_period_was_deleted_7814a349":"Vurderingsperioden blev slettet","the_preceding_content_is_partner_provided_d753928c":"Foregående indhold er partnerleveret","their_grade_for_the_assignment_c36a60ef":"Deres vurdering for opgaven","theme_editor_b7b00f6b":"Theme Editor","there_was_a_problem_loading_students_5bdb6cf2":"Der opstod et problem ved indlæsning af elever.","there_was_a_problem_saving_the_grade_8ea5d2ac":"Der opstod et problem ved lagring af vurderingen.","there_was_a_problem_saving_the_grading_period_243bed6c":"Der opstod et problem ved lagring af vurderingsperioden","there_was_an_error_loading_the_document_d80e57e0":"Der opstod en fejl under indlæsningen af dokumentet.","there_was_an_error_setting_usage_rights_53739e1d":"Der opstod en fejl ved indstilling af brugsrettigheder.","there_was_an_error_uploading_your_file_please_try__ce458566":"Der opstod en fejl under uploading af din fil. Prøv igen.","this_feature_affects_existing_data_for_all_courses_4fc75fe1":"Denne funktion påvirker eksisterende data for alle fag på kontoen.","this_feature_affects_existing_data_for_an_entire_a_2372dc52":"Denne funktion påvirker eksisterende data for en hel konto.","this_field_is_required_fa58c4a":"Dette felt er påkrævet","this_file_9443cda1":"Denne fil","this_folder_is_currently_locked_and_unavailable_to_f85c451":"Denne mappe er låst på nuværende tidspunkt og kan ikke vises.","this_permission_requires_the_account_and_course_le_618da734":"Denne tilladelse kræver funktionsindstillingen Skalaer for opfyldelse af læringsmål for læringsudbytter på konto- og fagniveau, som skal aktiveres af en Customer Success Manager.","this_permission_requires_the_account_and_course_le_bdeefd51":"Denne tilladelse kræver funktionsindstillingen Opfyldelse af læringsmål for læringsudbytter på konto- og fagniveau, som kun kan aktiveres på kontoniveau.","this_submission_is_in_a_closed_grading_period_cc9ecb8a":"Denne aflevering er i en lukket vurderingsperiode","this_submission_is_in_another_grading_period_36bc720b":"Denne aflevering er i en anden vurderingsperiode","this_submission_is_not_in_any_grading_period_cbbd2f8":"Denne aflevering er ikke i nogen vurderingsperiode","this_user_is_currently_not_able_to_access_the_cour_39cabed1":"Denne bruger kan ikke få adgang til faget på nuværende tidspunkt","time_2b5aac58":"Tidspunkt","time_block_5a7cda5c":"Tidsrum","time_left_in_your_instant_trial_5dd0392b":"%{time} tilbage i din øjeblikkelige prøveversion","time_left_in_your_instant_trial_extend_now_afb9bd2f":"%{time} tilbage i din øjeblikkelige prøveversion *(forlæng nu)*","time_limit_a6f1a51e":"Tidsbegrænsning","time_zone_f56f5183":"Tidszone","timeline_of_messages_between_the_student_and_instr_6dbd9ad3":"Tidslinje for beskeder mellem elev og instruktører","timeline_showing_when_assignments_were_turned_in_bb44c8a1":"Tidslinje, der viser, hvornår opgaver skal indsendes","timeout_when_searching_5c24ff9d":"Tiden løb ud ved søgning","times_participated_5296451b":"gange deltaget","times_viewed_40013c9b":"gange vist","timestamp_65f3a0a":"(%{timestamp})","timestamp_865fa6b7":"Tidsstempel","title_eb77c512":"%{title}","title_ee03d132":"Titel","title_is_locked_click_to_unlock_21548cfb":"%{title} er låst. Klik for at låse op","title_is_unlocked_click_to_lock_6a20cfcb":"%{title} er låst op. Klik for at låse.","to_51406be9":"Til","to_access_the_account_courses_page_courses_view_li_e1da6165":"For at få adgang til siden Fag på kontoen skal Fag - vis liste være aktiveret.","to_access_the_assignments_index_page_course_conten_49d884f2":"For at få adgang til indekssiden Opgaver skal Fagindhold - vis være aktiveret.","to_access_the_people_page_users_view_list_must_be__5dfdbe23":"For at få adgang til siden Deltagere skal Brugere - vis liste være aktiveret.","to_access_the_student_interactions_report_courses__e8432cd0":"For at få adgang til rapporten Elevinteraktioner skal Fag - vis brugsrapporter også være aktiveret.","to_add_a_user_via_sis_id_sis_data_manage_must_also_30b6624a":"For at tilføje en bruger via SIS-ID skal SIS-data - administrer også være aktiveret.","to_add_or_remove_users_to_a_course_the_appropriate_139d5f3f":"For at tilføje eller fjerne brugere fra et fag skal den relevante brugertilladelse være aktiveret (fx Brugere - lærere).","to_c4c44f4b":"til","to_do_1d554f36":"Opgaveliste","to_do_date_ddfb582c":"Opgaveliste dato:","to_do_time_a7e17623":"Opgaveliste tid","to_edit_a_user_s_section_users_allow_administrativ_966b3fcc":"For at redigere en brugers sektion skal Brugere - tillad administrative handlinger i fag og Brugere - vis liste også være aktiveret.","to_edit_assignment_details_on_individual_discussio_99f718a7":"For at redigere opgavedetaljer for individuelle diskussioner skal Diskussioner - administrer også være aktiveret.","to_edit_lock_settings_from_the_assignments_index_p_261082c7":"For at redigere låseindstillinger fra indekssiden for Opgaver skal Blueprint-fag - tilføj / rediger / tilknyt / slet og Fag - administrer også være aktiveret.","to_edit_lock_settings_on_an_individual_quiz_or_on__b31e1b60":"For at redigere låseindstillinger på en individuel quiz eller på Indekssiden for Quizzer skal Blueprint-fag - tilføj / rediger / tilknyt / slet og Fag - administrer også være aktiveret.","to_edit_user_details_modify_login_details_or_chang_63aa95a5":"For at redigere brugeroplysninger, ændre loginoplysninger eller ændre brugeradgangskoder skal Brugere - administrer loginoplysninger også være aktiveret.","to_import_assignments_and_quizzes_using_the_course_86c5bdbb":"For at importere opgaver og quizzer ved hjælp af Importer fagindhold skal Fagindhold - tilføj/redigér/slet være aktiveret.","to_manage_discussions_discussions_moderate_must_al_834a8b9":"For at administrere diskussioner skal Diskussioner - bedøm også være aktiveret.","to_moderate_grades_grades_select_final_grade_for_m_8c605763":"For at bedømme vurderinger skal Vurderinger - vælg endelig vurdering til bedømmelse også være aktiveret.","to_remove_a_user_via_sis_id_sis_data_manage_must_a_5d0f4839":"For at fjerne en bruger via SIS-ID skal SIS-data - administrer også være aktiveret.","to_search_grade_change_logs_grades_view_change_log_d4d40cf2":"For at søge i logge over vurderingsændringer skal ’Vurderinger - vis ændringslogge’ også være aktiveret.","to_view_discussions_in_a_course_discussions_view_m_6be8ec80":"For at få vist diskussioner i et fag skal Diskussioner - vis være aktiveret.","to_view_sis_ids_sis_data_read_must_be_enabled_12edce68":"For at få vist SIS-ID’er skal SIS-data - læs være aktiveret.","toggle_tooltip_d3b7cb86":"Skift værktøjstip","tool_content_2924d18f":"Værktøjsindhold","total_points_44d76792":"Samlede point","totals_are_calculated_based_only_on_graded_assignm_7d1bbf55":"Totaler beregnes udelukkende for vurderede opgaver.","try_again_6ca44338":"Prøv igen","type_c8106334":"Type","unable_to_curve_grades_because_this_assignment_is__17f78c27":"Kan ikke lægge vurderinger på en kurve, fordi denne opgave forfalder i en lukket vurderingsperiode for mindst én elev","unable_to_save_draft_message_db49a89d":"Udkast til besked kunne ikke gemmes.","unable_to_set_default_grade_because_this_assignmen_d19842a9":"Kan ikke indstille standardvurdering, fordi denne opgave forfalder i en lukket vurderingsperiode for mindst én elev","unable_to_switch_students_b901bc4b":"Kunne ikke skifte elev","unavailable_46d2c344":"Ikke tilgængelig","undo_a7be8fef":"Fortryd","unknown_47a3b725":"Ukendt","unlimited_ff19e96d":"Ubegrænset","unlock_f6196bf5":"Lås op","unlocked_beee43de":"Låst op","unlocked_click_to_lock_53262ce7":"Låst op. Klik for at låse.","unpublish_9f2d730b":"Annuller offentliggørelse","unpublished_8b6107d6":"Ikke offentliggjort","unread_c14cb06f":"ulæst,","unread_e9c1b19c":"Ulæst","unstar_conversation_45fc43d6":"Slet stjerne fra diskussion","unstarted_932f2990":"Ikke startet","until_4a1f8cda":"Indtil","untitled_16aa4f2b":"Uden titel","upload_8b403d05":"Upload","upload_file_fd2361b8":"Overfør fil","upload_media_ce31135a":"Upload medier","uploading_files_5ff8f4fd":"Uploader filer","uploading_media_progress_c23a953b":"Status for Upload af mediefil","uploading_submission_4c8d944b":"Uploader aflevering","uri_redirect_uri_d4aad2b9":"URI: %{redirect_uri}","usage_rights_f0960ad6":"Brugsrettigheder","use_arrow_keys_to_navigate_options_2021cc50":"Brug piletasterne til at navigere indstillinger.","use_arrows_a60b3330":"Brug pile","use_default_890939b7":"Brug standard","user_c95de254":"Bruger","user_selection_f6139840":"Brugerudvalg","users_d1b60cb0":"Brugere","video_player_b371005":"Videoafspiller","view_ba339f93":"Vis","view_gradebook_d6713dd1":"Vis vurderingsoversigt","waiting_for_request_to_complete_13cf037a":"Venter på, at anmodningen er afsluttet","warning_aacb8c24":"Advarsel","webcam_fe91b20f":"Webcam","weighted_grading_periods_ae4edd70":"Vægtede vurderingsperioder","well_below_mastery_37664bdc":"Langt under opfyldelse af læringsmål","yes_dde87d5":"Ja","you_have_reported_this_reply_4b21b6ce":"Du har rapporteret dette svar.","you_must_enter_a_date_f8eabfb1":"Du skal indtaste en dato","you_must_specify_a_usage_right_5eb57f87":"Du skal specificere en brugsrettighed.","your_webcam_may_already_be_in_use_6cd64c25":"Dit webcam kan allerede være i brug.","zoom_f3e54d69":"Zoom"} })
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "ajax_errors",
+  null,
+  function() { return {"error_heading":"Ajax-fejl: %{status_code}","errors":{"connection_lost":"Forbindelse til %{host} blev tabt.  Sørg for, at du er koblet til nettet og prøv igen.","logged_out":"Du er ikke logget på lige nu, muligvis grundet en længerevarende periode uden aktivitet","unhandled":"Hovsa! Den sidste anmodning mislykkedes."},"links":{"details":"nærmere oplysninger ...","login":"Login"},"no_text":"Ingen tekst"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "instructure",
+  null,
+  function() { return {"errors":{"field_is_required":"Dette felt er påkrævet","invalid_datetime":"Ugyldig værdi for dato/tidspunkt","invalid_entry_for_field":"Ugyldig indtastning: %{field}","invalid_number":"Dette skal være et tal.","required":"Påkrævet felt"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "time",
+  null,
+  function() { return {"am":"am","count_hours_ago":{"one":"For 1 time siden","other":"%{count} timer siden"},"count_minutes_ago":{"one":"For 1 minut siden","other":"For %{count} minutter siden"},"due_date":"%{date} før %{time}","event":"%{date} kl. %{time}","formats":{"default":"%a, %d %b %Y %H:%M:%S %z","long":"%B %d, %Y %H:%M","short":"%d %b %H:%M","tiny":"%k.%M","tiny_on_the_hour":"%k:%M"},"less_than_a_minute_ago":"for mindre en et minut siden","pm":"pm","ranges":{"different_days":"%{start_date_and_time} til %{end_date_and_time}","same_day":"%{date} fra %{start_time} til %{end_time}","times":"%{start_time} til %{end_time}"},"with_ago":"for %{time} siden"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "support",
+  null,
+  function() { return {"array":{"last_word_connector":", og ","or":{"last_word_connector":", eller ","two_words_connector":" eller "},"two_words_connector":" og ","words_connector":", "},"help_menu":{"cisco_netacad_facebook":"Support Community","cisco_netacad_facebook_description":"Gå ind på vores Networking Academy Facebookside for community-support eller kontakt din instruktør","community_support_description":"Interager med og få hjælp fra dine medelever.","community_support_forums":"Fora til Community Support","contact_support":"Kontakt support","contact_support_sub_text":"Få hjælp med tidskritiske problemer","curriculum_assessment_errata":"Curriculum/bedømmelse fejlliste","curriculum_assessment_errata_description":"Vis allerede indberettede fejl i bedømmelse og curricula. Søg efter \"fejlliste\".","global_support_desk":"NetAcad Support","global_support_desk_description":"Vores ASC'er (centre til akademisk succes) er det første led til din support og kan sætte dig i forbindelse med vores globale support for problemer, der kræver yderligere assistance.","networking_academy_description":"Vis Cisco-svar til de oftest stillede spørgsmål.","networking_academy_faqs":"Networking Academy FAQ","student_support":"NetAcad Support - elev","student_support_description":"Din instruktør bør være dit første kontaktpunkt. Instruktøren kan besvare dine Networking Academy-spørgsmål eller kontakte supportteamet for dig. Du kan kontakte din instruktør ved hjælp af Indbakke-funktionen.","support_desk_livechat":"Support Desk Live Chat"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "helpDialog",
+  null,
+  function() { return {"Back":"Tilbage","Help":"Hjælp"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "instructure_inline_media_comment",
+  null,
+  function() { return {"alerts":{"kaltura_disabled":"Kaltura er blevet deaktiveret for denne Canvas-side"},"links":{"minimize_embedded_kaltura_content":"Minimer integreret indhold"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "broken_images",
+  function() { return {"locked_image_24f37a16":"Låst billede"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "common_bundle",
+  function() { return {"content_on_this_page_violates_the_security_policy__25685d8a":"Indhold på denne side overtræder sikkerhedspolitikken, kontakt din administrator for at få hjælp."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "incompleteregistration",
+  null,
+  function() { return {"get_started":"Sådan kommer du i gang","welcome_to_canvas":"Velkommen til Canvas!"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_logging",
+  function() { return {"blueprint_sync_90d0dfd5":"Blueprint synkronisering"} },
+  function() { return {"blank_placeholder":"-","event_source":{"api":"Api","manual":"Manuel","sis":"SIS"},"event_type":{"concluded":"Afsluttet","copied_from":"Kopieret fra","copied_to":"Kopieret til","corrupted":"Detaljer ikke tilgængelige","created":"Oprettet","deleted":"Slettet","published":"Offentliggjort","reset_from":"Nulstil fra","reset_to":"Nulstil til","restored":"Gendannet","unconcluded":"Ikke afsluttet","updated":"Opdateret"},"field_label":{"abstract_course_id":"Abstrakt fag-id","account_id":"Konto-id","allow_student_discussion_editing":"Tillad elever at redigere diskussion","allow_student_discussion_topics":"Tillad elevdiskussionsemner","allow_student_forum_attachments":"Tillad eleverne at vedhæfte filer til forum","allow_student_organized_groups":"Tillad grupper, som organiseres af elever","allow_student_wiki_edits":"Tillad eleverne at redigere wiki","allow_wiki_comments":"Tillad wikikommentarer","conclude_at":"Afsluttet","course_code":"Fagets kode","created_at":"Oprettet","default_view":"Standardvisning","default_wiki_editing_roles":"Standard wiki redigeringsroller","enrollment_term_id":"Tilmeldingsskoleår id","grading_standard_id":"Vurderingsstandard-ID","group_weighting_scheme":"Gruppevægtningssystem","hide_distribution_graphs":"Skjul grafer over fordeling","hide_final_grade":"Skjul endelig vurdering","indexed":"Indekseret","integration_id":"Integrations-id","is_public":"Er offentlig","large_roster":"Stor liste","license":"Licens","locale":"Landestandard","lock_all_announcements":"Lås alle beskeder","name":"Navn","open_enrollment":"Åben tilmelding","public_description":"Offentlig beskrivelse","public_syllabus":"Offentlig fagplan","replacement_course_id":"Erstatningsfag id","restrict_enrollments_to_course_dates":"Begræns tilmeldinger til fagets datoer","root_account_id":"Rodkonto-id","self_enrollment":"Selvtilmelding","self_enrollment_code":"Selvtilmeldingskode","self_enrollment_limit":"Selvtilmeldingsgrænse","show_public_context_messages":"Vis offentlig kontekstbesked","sis_batch_id":"SIS batch-id","sis_source_id":"SIS kilde-id","start_at":"Starter","storage_quota":"Lagerkvote","syllabus_body":"syllabus_body","tab_configuration":"Fanekonfiguration","template_course_id":"Skabelon fag-id","turnitin_comments":"Turnitin-kommentarer","updated_at":"Opdateret","uuid":"UUID","wiki_id":"Wiki-id","workflow_state":"Status for arbejdsprocess"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_restore",
+  null,
+  function() { return {"restore_error":"Der opstod en fejl under forsøget på at gendanne fagset. Faget blev ikke gendannet."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "auth_logging",
+  null,
+  function() { return {"corrupted":"Detaljer ikke tilgængelige","login":"LOGIN","logout":"LOGOUT"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "comm_messages",
+  null,
+  function() { return {"from_beginning":"begyndelsen","to_now":"nu"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_search",
+  null,
+  function() { return {"cant_be_blank":"kan ikke være tom"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_search_results",
+  function() { return {"course_found_f5a40cd3":"Fag fundet","course_found_not_deleted_a20f72f0":"Fag fundet (ikke slettet)","course_not_found_c248a721":"Fag ikke fundet"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "user_date_range_search",
+  function() { return {"generate_activity_for_user_2b0af749":"Generer aktivitet for %{user}","length_notifications_found_25276610":"%{length} meddelelser fundet","length_results_found_3afd01e5":"%{length} resultater fundet","not_a_valid_date_d3ac20ba":"Ingen gyldig dato","to_date_cannot_come_before_from_date_3eeb2633":"Til dato må ikke være før Fra dato"} },
+  function() { return {"cant_come_before_from":"'Til dato' kan ikke komme før 'Fra dato'"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "bounced_emails",
+  function() { return {"address_use_as_wildcard_48f2cf60":"Adresse (brug * som jokertegn)","download_these_results_as_csv_9a890883":"Download disse resultater som CSV","failed_to_perform_search_c918100f":"Søgningen kunne ikke udføres","last_bounced_after_76f9ce30":"Sidst afvist efter","last_bounced_before_601c221a":"Sidste afvist før","mfoster_708c21fb":"mfoster@*"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "date",
+  null,
+  function() { return {"abbr_day_names":["søn","man","tirs","onsd","tors","fre","lør"],"abbr_month_names":[null,"Jan","Feb","Mar","Apr","Maj","Jun","Jul","Aug","Sep","Okt","Nov","Dec"],"datepicker":{"column_headings":["sø","ma","ti","on","to","fr","lø"]},"day_names":["søndag","mandag","tirsdag","onsdag","torsdag","fredag","lørdag"],"days":{"today":"I dag","today_lower":"I dag","tomorrow":"I morgen","yesterday":"I går"},"formats":{"date_at_time":"%b %-d kl. %k:%M","default":"%Y-%m-%d","full":"%-d. %b %Y %k.%M","full_with_weekday":"%a den %-d. %b %Y %k.%M","long":"%B %-d, %Y","long_with_weekday":"%A, %B %-d","medium":"%-d. %b %Y","medium_month":"%b %Y","medium_with_weekday":"%a den %-d. %b %Y","short":"%-d. %b","short_month":"%b","short_weekday":"%a","short_with_weekday":"%a, %b %-d","weekday":"%A"},"month_names":[null,"januar","februar","marts","april","maj","juni","juli","august","september","oktober","november","december"],"order":["year","month","day"]} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "mutationActivity",
+  function() { return {"asset_string_ddeaf719":"Aktivets streng","graphql_mutation_activity_5a47678b":"GraphQL mutationsaktivitet","hide_params_eadf0961":"Skjul parametre","mutation_f0ac253f":"Mutation","mutations_on_search_e5a62790":"mutationer på %{search}","no_more_results_17c4f108":"Ikke flere resultater","parameters_a13374ec":"Parametre","performed_by_70b3ce96":"Udført af","show_params_3401895b":"Vis parametre","something_went_wrong_89195131":"Noget gik galt.","user1_masquerading_as_user2_4fa5bb55":"%{user1} anvender anden brugeridentitet som %{user2}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "account_course_user_search",
+  function() { return {"active_terms_83df727e":"Aktive vilkår","add_a_new_course_4a041207":"Tilføj et nyt fag","add_a_new_user_c440d053":"Tilføj en ny bruger","add_course_406cb773":"Tilføj fag","add_people_7948b7da":"Tilføj deltagere","add_user_e73e8e50":"Tilføj bruger","add_users_to_name_b8109bbb":"Føj brugere til  %{name}","click_to_sort_by_email_ascending_cb789ec4":"Klik for at sortere i stigende rækkefølge efter mail","click_to_sort_by_email_descending_72801b54":"Klik for at sortere i faldende rækkefølge efter mail","click_to_sort_by_last_login_ascending_eafcbee4":"Klik for at sortere i stigende rækkefølge efter sidste login","click_to_sort_by_last_login_descending_61fdadc":"Klik for at sortere i faldende rækkefølge efter sidste login","click_to_sort_by_name_ascending_739c011e":"Klik for at sortere i stigende rækkefølge efter navn","click_to_sort_by_name_descending_b6262093":"Klik for at sortere i faldende rækkefølge efter navn","click_to_sort_by_sis_id_ascending_832c870":"Klik for at sortere i stigende rækkefølge efter SIS-id","click_to_sort_by_sis_id_descending_2d611236":"Klik for at sortere i faldende rækkefølge efter SIS-id","click_to_sort_by_sub_account_ascending_989b1ab":"Klik for at sortere efter underkonto stigende","click_to_sort_by_sub_account_descending_88c611db":"Klik for at sortere efter underkonto faldende","click_to_sort_by_teacher_ascending_cda7a18c":"Klik for at sortere i stigende rækkefølge efter lærer","click_to_sort_by_teacher_descending_45ef0d1e":"Klik for at sortere i faldende rækkefølge efter lærer","click_to_sort_by_term_ascending_c3ef1eb7":"Klik for at sortere efter skoleår stigende","click_to_sort_by_term_descending_199c48c0":"Klik for at sortere efter skoleår faldende","course_name_is_required_90919349":"Fagets navn er påkrævet","course_name_successfully_added_48116a50":"%{course_name} blev tilføjet!","course_option_links_a79d263d":"Links til fagets muligheder","course_results_updated_df9d1c95":"Fagets resultater opdateret.","create_new_course_e3ef9cd0":"Opret et nyt fag","default_email_9efb7fbd":"Standard e-mail","display_name_b80c243e":"Vis navn","edit_name_cbdef0c2":"Rediger %{name}","edit_user_details_4d7b63ff":"Rediger brugeroplysninger","email_the_user_about_this_account_creation_e63f8759":"Send en e-mail til brugeren om denne kontooprettelse","enrollment_term_7bfe840":"Tilmeldingsskoleår","filter_by_term_cfe778b2":"Filtrer efter skoleår","filter_by_user_type_dbbd3e3d":"Filtrer efter brugertype","full_name_23fdfb6d":"Fulde navn","full_name_is_required_8efbdc84":"Fuldt navn er påkrævet","future_terms_7fba2ae6":"Fremtidige skoleår","hide_courses_without_students_fc6fc7a0":"Skjul fag uden elever","last_login_54565109":"Sidste login","login_handle_is_required_90ab7fe0":"%{login_handle} er påkrævet","manage_profile_pictures_40c958ce":"Administrering af profilbilleder","more_people_options_730e9686":"Flere deltagere muligheder","no_74e9b590":"Nej","no_courses_found_12d68a74":"Der er ikke fundet fag","no_users_found_64a043ff":"Ikke fundet nogen brugere","past_terms_4b6ec40e":"Tidligere skoleår","people_will_see_this_name_in_discussions_messages__fca9ebb2":"Deltagere vil se dette navn i diskussioner, beskeder og kommentarer.","reference_code_3e8355dd":"Referencekode","reference_code_is_required_c32c757f":"Referencekode er påkrævet","search_by_99d1ba5f":"Søg efter","search_courses_591bc900":"Søger fag ...","search_courses_by_teacher_e9760a48":"Søg fag efter lærer ...","search_people_44f36cd2":"Søg deltagere ...","send_message_to_name_c8ac05fc":"Send besked til %{name}","settings_for_name_7731a33d":"Indstillinger for %{name}","show_courses_from_8a087f63":"Vis fag fra","show_more_af9cbc16":"Vis mere","show_only_blueprint_courses_9fb37b41":"Vis kun blueprint-fag","something_went_wrong_creating_the_course_please_tr_431adff5":"Der gik noget galt ved oprettelse af faget. Prøv igen.","sortable_name_73f707cf":"Sorterbart navn","statistics_for_name_f4b7b0fc":"Statistikker for %{name}","sub_account_daeadd0":"Underkonto","subaccount_91f4c279":"Underkonto","there_was_an_error_with_your_query_please_try_a_di_761dff12":"Der opstod en fejl med din forespørgsel. Prøv en anden søgning","this_is_a_blueprint_course_5e7b47fe":"Dette er et blueprint-fag","this_is_a_course_template_99bbe698":"Dette er en fagskabelon","this_name_appears_in_sorted_lists_dccbd84b":"Dette navn forekommer i sorterede lister.","this_name_will_be_used_by_teachers_for_grading_9b6aa8a0":"Dette navn bruges af lærerne til vurdering.","user_option_links_66090987":"Links til brugerindstillinger","user_results_updated_9ce38dce":"Brugerresultater opdateret.","username_saved_successfully_9303974f":"*%{userName}* blev gemt!","username_saved_successfully_they_should_receive_an_877e31e":"*%{userName}* blev gemt! Du bør straks modtage en e-mailbekræftelse.","view_user_groups_d2bfa855":"Vis brugergrupper","yes_3593c135":"Ja"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_people_successfully_enrolled_into_course_nam_db8eed18",
+  null,
+  function() { return {"one":"%{user_name} blev tilmeldt til *%{course_name}*.","other":"%{count} deltagere blev tilmeldt til *%{course_name}*."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "managed_course_selector",
+  function() { return {"list_collapsed_381ef1b6":"Listen skjult. ","no_matches_to_your_search_16d3d3b1":"Ingen match for din søgning","type_to_search_use_arrow_keys_to_navigate_options_5d538c0":"Indtast for at søge, brug piletasterne til at navigere mulighederne."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "edit_timezone",
+  function() { return {"all_timezones_5e8afa7b":"Alle tidszoner","common_timezones_2b00baba":"Fælles tidszoner"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "AccountGradingPeriod",
+  function() { return {"an_error_occured_while_deleting_the_grading_period_c8343484":"En fejl opstod under sletning af vurderingsperiode","closes_5c6b4367":"Lukker:","ends_4fcb632":"Slutter:","starts_ce584f1c":"Starter:","weight_ff579a8e":"Vægt:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "GradingPeriodSetForm",
+  function() { return {"all_grading_period_sets_must_have_a_title_799538f":"Alle vurderingsperiodesæt skal have en titel","grading_period_set_title_880a6ec4":"Tiltel for vurderingsperiodesæt","save_grading_period_set_e029fa88":"Gem vurderingsperiodesæt"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "EnrollmentTermInput",
+  function() { return {"attach_terms_2b8770a5":"Tilknyt skoleår","no_unassigned_terms_deb7b76b":"Ingen utildelte betingelser","past_14da759a":"Tidligere","undated_15c2e5fe":"Udateret"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradingPeriodForm",
+  function() { return {"grading_period_title_23b7f8ac":"Titel for vurderingsperiode","save_grading_period_daaaddea":"Gem vurderingsperiode"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "helpers",
+  null,
+  function() { return {"accessible_date_format":"ÅÅÅÅ-MM-DD tt:mm","accessible_date_only_format":"ÅÅÅÅ-MM-DD","accessible_date_prompt":"Formater som","accessible_time_only_format":"tt:mm","account_time":"Konto","course":"Fag","course_time":"Fag","local":"Lokal","local_time":"Lokal"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "GradingPeriodSet",
+  function() { return {"add_grading_period_6f774dc3":"Tilføj vurderingsperiode","all_close_dates_must_be_on_or_after_the_end_date_b898d85d":"Alle afslutningsdatoer skal være på eller efter slutdatoen","all_weights_must_be_greater_than_or_equal_to_0_cc2dcdf1":"Alle vægtninger skal være større end eller lig med 0","an_error_occured_while_deleting_the_grading_period_81bb16e5":"En fejl opstod under sletning af sæt af vurderingsperiodesæt","are_you_sure_you_want_to_delete_this_grading_perio_380b040d":"Er du sikker på, at du ønsker at slette dette vurderingsperiodesæt?","no_associated_terms_13bacefc":"Ingen associated skoleår","terms_35d91184":"Skoleår: ","the_grading_period_set_was_deleted_cce5d8f6":"Vurderingsperiodesættet blev slettet","toggle_title_grading_period_visibility_462b2136":"Slå %{title} vurderingsperiode-synlighed til eller fra"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "GradingPeriodSetCollection",
+  function() { return {"add_set_of_grading_periods_5b4d6e51":"Tilføj sæt med vurderingsperioder","an_error_occured_while_fetching_enrollment_terms_1b7b4ac":"En fejl opstod under hentning af tilmeldelsesbetingelser.","an_error_occured_while_fetching_grading_period_set_b4f12aa5":"En fejl opstod under hentning af vurderingsperiodesæt.","an_error_occured_while_updating_the_grading_period_9e024cd1":"En fejl opstod under opdatering af vurderingsperiodesæt.","set_of_grading_periods_545b37e9":"Vurderingsperiodesæt","showing_all_sets_of_grading_periods_6c160874":"Vis alle vurderingsperiodeseæt.","term_created_27d27c2b":"Skoleår oprettet ","term_starting_5bd5e070":"Skoleår starter ","the_grading_period_set_was_updated_successfully_d8dd5d0f":"Vurderingsperiodesættet blev opdateret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_sets_of_grading_periods_found_c8857ae9",
+  null,
+  function() { return {"one":"1 sæt vurderingsperioder fundet.","other":"%{count} sæt vurderingsperioder fundet.","zero":"Ingen matchende vurderingsperiodesæt fundet."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "NewGradingPeriodSetForm",
+  function() { return {"a_name_for_this_set_is_required_222bad23":"Der kræves et navn for dette sæt","successfully_created_a_set_38374719":"Sæt oprettet succesfuldt","there_was_a_problem_submitting_your_set_27ca2ed0":"Der opstod et problem med afleveringen af dit sæt"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "SearchGradingPeriodsField",
+  function() { return {"search_grading_periods_e947a3e9":"Søg vurderingsperioder ..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "courses",
+  function() { return {"account_notification_settings_error_page_66c0bc61":"Fejlside for indstillinger for kontomeddelelser","account_notification_settings_initial_query_error_f55e1cbf":"Indledende forespørgselsfejl ved indstillinger for kontomeddelelser","account_notification_settings_updated_dbabec35":"Indstillinger for kontomeddelelser opdateret","course_notification_settings_error_page_c0512c17":"Fejlside for fagmeddelelsesindstillinger","course_notification_settings_initial_query_error_6dfb24ef":"Indledende forespørgselsfejl for fagmeddelelsesindstillinger","course_notification_settings_updated_f6726d7e":"Indstillinger for fagmeddelelser opdateret","deactivate_user_86c09036":"Deaktiver bruger","due_by_c263dc10":"forfalder","edit_role_1e96ad20":"Rediger rolle","faculty_journal_5634938e":"Undervisernotater","failed_to_load_courses_refresh_the_page_to_try_aga_4248fa3f":"Kunne ikke indlæse fag. Opdater siden for at prøve igen.","failed_to_update_account_notification_settings_194c1cd4":"Kunne ikke opdatere indstillinger for kontomeddelelser","failed_to_update_course_notification_settings_cbf0eb18":"Kunne ikke opdatere fagmeddelelsesindstillinger","re_activate_user_f7d77c9a":"Genaktiver bruger","remove_user_from_section_5556f465":"Slet bruger fra sektion","role_7c0b7eaa":"Rolle:","this_user_has_multiple_roles_in_the_course_changin_8cbd82d4":"Denne bruger har flere roller i faget. Ændring af deres rolle her, overskriver alle deres aktuelle tilmeldinger.","to_do_6ac7b2dc":"opgaveliste:","to_link_the_course_observer_name_to_a_student_star_f993c826":"Begynd med at indtaste elevens navn nedenfor for at finde dem, og klik så på Opdater for at linke fag-observatøren *%{name}* til en elev.","you_cannot_remove_this_enrollment_c87be1cb":"Du kan ikke fjerne denne tilmelding."} },
+  function() { return {"confirm_reject_invitation":"Er du sikker på, at du vil afvise invitationen til at deltage i dette fag?","roster":{"edit_sections_view":{"edit_sections_desc":"Sektioner er endnu en måde til at organisere brugere. Det giver dig muligheden for at undervise flere klasser fra samme fag, så du kan opbevare hele fagindholdet på et enkelt sted. Nedenfor kan du flytte en bruger til en anden sektion, eller tilføje/slette sektionstilmeldinger. Brugerne skal til enhver tid være placeret i mindst en sektion."},"index":{"cannot_add_users":"Nye brugere kan ikke tilføjes, fordi faget er afsluttet","filter_field_description":"Søg efter deltagere. Når du indtaster i feltet, filtreres listen over deltagere automatisk til kun at inkludere dem, hvis navne matcher din indtastning.","group_set":"Gruppesæt","people":"Deltagere","role_to_search":"Begræns søgning til rolle","search_people":"Søg efter deltagere","title_add_people":"Tilføj deltagere"},"invitations_view":{"accepted_invitation":"%{name} har allerede modtaget og accepteret invitationen til at deltage i faget, men du kan stadig sende invitationen igen, hvis det er nødvendigt.","admin_invitation_unaccepted":"%{name} har endnu ikke accepteret invitationen til at deltage i faget. Invitationen blev sendt: %{time}","invitations_pending_publish":"Invitationer sendes ikke, før faget *offentliggøres*","student_invitation_unaccepted_available":"%{name} har endnu ikke accepteret invitationen til at deltage i faget. Invitationen blev sendt: %{time}","student_invitation_unaccepted_unavailable":"%{name} blev føjet til faget: %{time}"},"link_to_students_view":{"link_student_desc":"Når en observatør linkes til en elev, har de adgang til den pågældende elevs vurderinger og faginteraktioner."},"resend_invitations":{"pending_invitation":"1 invitation er ikke blevet accepteret.","pending_invitations":"%{pendingInvitationsCount} invitationer er ikke blevet accepteret.","re_send_invitations":"Send igen","re_sending_invitations":"Sender igen ..."},"role_select":{"all_roles":"Alle roller"},"roster_tabs":{"everyone_tab":"Alle","groups":"Grupper"},"roster_user":{"links":{"edit_sections":"Rediger sektioner","link_to_students":"Link til elever","remove_from_course":"Slet fra fag","resend_invitation":"Send invitation igen","user_details":"Brugeroplysninger"},"manage_user":"Administrering af %{name}","pending_acceptance_explanation":"Denne bruger har endnu ikke accepteret invitationen til faget","pending_acceptance_of_invitation":"Afventer"},"roster_users":{"canvas_user_id":"Canvas bruger-id","last_activity":"Sidste aktivitet","login_name":"Login-id","name":"Navn","no_people_found":"Der er ikke fundet nogen deltagere","role":"Rolle","section":"Sektion","total_activity":"Samlet aktivitet","you_can_search_by":"Du kan søge efter:"},"section":{"remove_user_from_course_section":"Slet bruger fra %{name}"}},"show":{"empty_body":"Intet indhold","re_sending":"Gensender ...","send_done":"Færdig! Beskeden tager muligvis få minutter.","send_failed":"Anmodningen mislykkedes. Prøv igen.","titles":{"drop_course":"Drop dette fag"}}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "accounts",
+  function() { return {"assignment_id_b040cee0":"Opgave-id","avatar_8a8aa935":"Avatar","course_activity_bfe11267":"Fag-aktivitet","course_id_8bd2a21c":"Fag-id","course_id_b0bc82d4":"Fag-id","data_point_over_time_8d0a54cc":"%{data_point} Over tid","ex_ba24edf6":"EX","grade_change_activity_75fb525":"Vurderingsændringer","limit_search_to_activity_after_c1ac2449":"Begræns søgning til aktivitet efter","limit_search_to_activity_before_e05aad05":"Begræns søgning til aktivitet inden","loading_6ac402e1":"indlæser ...","notifications_search_results_80a0b06f":"Meddelelsessøgeresultater","over_time_bee1a733":"over tid","restore_courses_182e162e":"Gendan fag","search_for_a_deleted_course_by_id_f553398d":"Søg efter et slettet fag med id","select_a_log_type_to_search_247fc6b4":"Vælg en logtype for at søge.","to_view_all_notifications_sent_to_a_canvas_user_se_6172daa":"Vælg bruger og datainterval til din søgning for at vise alle de meddelelser, der er sendt til en Canvas-bruger.","user_login_logout_activity_90fbbd9a":"Bruger-log ind / log ud aktivitet","value_d842f16d":"Værdi","view_notifications_6aea09a2":"Vis meddelelser"} },
+  function() { return {"admin_tools":{"admin_tools":{"tab_labels":{"admin_tools_logging":"Logføring","restore_course":"Gendan fag"},"view_messages":"Vis meddelelser"},"auth_logging_search_results":{"activity":"Aktivitet","date":"Dato","no_item_found":"Der er ikke fundet elementer","time":"Tidspunkt"},"comm_message_item":{"created_at":"Oprettet","from_name":"Fra","reply_to":"Svar til","sent_at":"Sendt","to":"Til"},"comm_messages_search_overview":{"messages_viewed":"Notifikationer sendt til *%{user}* fra *%{start_date}* til *%{end_date}*."},"comm_messages_search_results":{"no_messages_found":"Der er ikke fundet nogen beskeder"},"course_logging_details":{"Field":"Felt","From":"Fra","To":"Til","Value":"Værdi","blank_placeholder":"-","copied_from_label":"Kopieret fra","copied_to_label":"Kopieret til","date":"Dato","event_id":"Begivenheds-id","event_sis_batch":"SIS-batch","event_source_label":"Kilde","event_type_label":"Type","reset_from_label":"Nulstil fra","reset_to_label":"Nulstil til","time":"Tidspunkt","user":"Bruger"},"course_logging_item":{"blank_placeholder":"-","view_event_details":"Vis detaljer"},"course_logging_results":{"date":"Dato","event_details":"Begivenhedsdetaljer","event_source":"Kilde","event_type":"Type","no_item_found":"Der er ikke fundet elementer","time":"Tidspunkt","user":"Bruger"},"course_search_results":{"error_message":"Et slettet fag med det pågældende id kunne ikke findes for denne konto.","info_text":"Tilmeldinger til dette fag skal gendannes manuelt.","labels":{"account_id":"Konto-id:","account_id2":"Konto-id:","coures_id1":"Fag-id:","coures_id2":"Fag-id:","course_code1":"Fag-kode:","course_code2":"Fag-kode:","restore_btn":"Gendan"},"notdeleted_restore":{"add_enrollments":"Tilføj tilmeldinger","header_subtext":"(Ikke slettet)","view_course":"Vis fag"},"successful_restore":{"view_course":"Vis fag"},"successfull_restore":{"add_enrollments":"Tilføj tilmeldinger","subtext":"Hvad kunne du nu tænke dig at gøre?"}},"date_range_search":{"message_date_from":"Fra dato","message_date_to":"Til dato"},"grade_change_logging_item":{"blank_placeholder":"-","event_type":{"corrupted":"Detaljer ikke tilgængelige"},"no-abbreviation":"n","yes-abbreviation":"j"},"grade_change_logging_results":{"Anonymous":"Anonym","Assignment":"Opgave","Course":"Fag","Grader":"Bedømmer","Student":"Elev","To":"Til","date":"Dato","from":"Fra","no_item_found":"Der er ikke fundet elementer","time":"Tidspunkt"},"logging_content_pane":{"authentication":"Log ind / Log ud-aktivitet","course":"Fag-aktivitet","grade_change":"Vurderingsændringer","mutations":"GraphQL mutationsaktivitet","select_default":"Vælg en logtype"},"user_date_range_search_form":{"message_date_from":"Fra dato","message_date_to":"Til dato","search":"Søg efter deltagere efter ID eller navn","search_people":"Søg efter deltagere"}},"course_type":"Fag","default_account_quotas_not_updated":"Standardkontoens kvoter blev ikke opdateret","default_account_quotas_updated":"Standardkontoens kvoter opdateret","find_not_authorized":"Du har ikke tilladelse til at få adgang til det %{type}","find_not_found":"Kunne ikke finde en %{type} med det id","group_type":"Gruppe","integer_required":"Heltalsværdi påkrævet","quota_not_updated":"Kvoten blev ikke opdateret","quota_updated":"Kvote opdateret","retry_login":"Prøv at logge på igen","settings":{"manual_quotas":{"find_button":"Find","label_for_course_or_group_id":"ID:","manual_quotas_title":"Manuelt indstillelige kvoter","megabytes":"megabytes","megabytes_tooltip":"megabytes","select_type_courses":"Fag-id","select_type_groups":"Gruppe-id","select_type_label":"Find fag eller gruppe","update_button":"Opdater kvote"},"quotas":{"default_account_quota_title":"Kvoter til standardkonto","default_course_storage_quota":"Fag-kvote","default_group_storage_quota":"Gruppekvote","default_user_storage_quota":"Brugerkvote","megabytes":"megabytes","megabytes_tooltip":"megabytes","update_button":"Opdatering"}},"test_ldap_dialog_title":"Test LDAP-indstillinger","test_ldap_result_canceled":"Annulleret","test_ldap_result_failed":"Mislykkedes","test_ldap_result_ok":"OK","test_login":"Test login","testing":"Tester ...","users_list":{"login_name_or_sis_id":"Login / SIS-id","name":"Navn","no_people_found":"Der er ikke fundet nogen deltagere","you_can_search_by":"Du kan søge efter:"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "account_settings_jsx_bundle",
+  function() { return {"a_suffix_cannot_be_longer_than_255_characters_plea_2f2fefd5":"Et suffiks må ikke være længere end 255 tegn Brug et kortere suffiks, og prøv igen.","a_suffix_cannot_have_any_tabs_or_spaces_please_rem_47db763e":"Et suffiks må ikke indeholde tabulator eller mellemrum. Fjern dem, og prøv igen.","active_directory_lookup_attribute_d317cb60":"Attribut til opslag i Active Directory","active_directory_lookup_attribute_selector_d56a326f":"Attributvælger til opslag i Active Directory","after_completing_the_above_configuration_please_us_c6440d32":"Når du har gennemført ovenstående konfiguration, skal du bruge følgende link til at give Canvas adgang til din Microsoft-lejer:","allows_syncing_of_canvas_course_members_to_a_micro_785119b4":"Tillader synkronisering af Canvas-fagmedlemmer til et Microsoft Team","changing_the_tenant_will_delete_existing_groups_f86c48dc":"Ændring af lejer sletter eksisterende grupper.","email_alias_mailnickname_d92fa8bd":"E-mailalias (mailNickname)","example_edu_cc1a0744":"@example.edu","grant_tenant_access_9afafd":"Giv lejeradgang","loading_microsoft_teams_sync_settings_c2633e46":"Indlæser Microsoft Teams-synkroniseringsindstillinger","login_attribute_731a8181":"Login-attribut","login_attribute_selector_9a106f9c":"Valg af loginattribut","login_attribute_suffix_input_area_18f7c7f7":"Inputområde for suffiks på loginattribut","microsoft_teams_sync_ef749b9a":"Microsoft Teams-synkronisering","microsoft_teams_sync_settings_updated_ca31ca6":"Microsoft Teams-synkroniseringsindstillinger blev opdateret!","microsoft_tenant_name_domain_ba8ed4bb":"microsoft_tenant_name%{domain}","not_required_if_this_is_populated_the_entered_text_68a9b719":"Ikke påkrævet. Hvis dette er udfyldt, føjes den indtastede tekst til loginattributten","please_provide_a_valid_tenant_domain_check_your_az_7acb215b":"Angiv et gyldigt lejerdomæne. Tjek dine Azure Active Directory-indstillinger for at finde det.","primary_email_address_mail_9018f":"Primær e-mailadresse (mail)","sis_user_id_f631a010":"SIS-bruger-ID","suffix_294d5cc4":"Suffiks","tenant_name_e174f404":"Lejerens navn","tenant_name_input_area_283dfcde":"Lejerens navn - indtastningsområde","the_active_directory_attribute_that_will_be_used_t_96f5824e":"Active Directory-attributten, som bruges til at matche en Canvas-bruger til en Microsoft-bruger","the_attribute_to_use_when_associating_a_canvas_use_112f140d":"Attributten, der skal bruges, når en Canvas-bruger tilknyttes en Microsoft-bruger","to_toggle_microsoft_teams_sync_you_need_to_input_a_d32476b0":"For at skifte mellem Microsoft Teams-synkronisering skal du indtaste et lejerdomæne.","unable_to_fetch_current_microsoft_teams_sync_setti_3ad2f08b":"Kan ikke hente aktuelle Microsoft Teams-synkroniseringsindstillinger. Kontroller din internetforbindelse. Kontakt support, hvis problemet fortsætter.","unable_to_update_microsoft_teams_sync_settings_ple_64255854":"Kan ikke opdatere indstillingerne for Microsoft Teams-synkronisering. Prøv igen. Hvis problemet fortsætter, bedes du kontakte support.","unique_user_id_dfca1a7f":"Unikt bruger-ID","update_settings_9b422d0f":"Opdater indstillinger","user_principal_name_upn_fbf59a08":"Brugerens hovednavn (UPN)","your_azure_active_directory_tenant_name_d8bb31fa":"Dit Azure Active Directory-lejernavn"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "account_settings",
+  function() { return {"about_this_service_b10bc808":"Om denne service","security_tab_failed_to_load_2d2242a":"Fanen Sikkerhed kunne ikke indlæses","there_are_no_reports_for_you_to_view_b716717a":"Der er ingen rapporter, som du kan se.","title_is_too_long_b192a46a":"Titlen er for lang"} },
+  function() { return {"account_name_too_long":"Kontonavn er for langt","confirms":{"delete_announcement":"Er du sikker på, at du vil slette denne besked?","global_announcement":"Du skal bekræfte den overordnede besked","remove_account_admin":"Er du sikker på, at du vil slette denne kontoadministrator?"},"custom_text_blank":"[Brugertilpasset tekst]","help_menu_name_too_long":"Navnet på hjælpemenuen er for langt","links":{"turnitin":{"confirm_settings":"bekræft Turnitin-indstillinger"}},"notices":{"turnitin":{"checking_settings":"tjekker Turnitin-indstillinger ...","invalid_settings":"ugyldige Turnitin-indstillinger. Tjek dit konto-id og delt hemmelighed fra Turnitin","setings_confirmed":"Turnitin-indstillinger bekræftet!"}},"titles":{"configure_report":"Konfigurer rapport","open_registration_delegated_warning_dialog":"En ekstern identitetsudbyder er aktiveret","what_are_quiz_ip_filters":"Hvad er IP-filtre for quiz?"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "security_panel",
+  function() { return {"add_domain_f15bc6c1":"Tilføj domæne","allowed_domains_ee7868c8":"Tilladte domæner","associated_tool_domains_ba5767c5":"Tilknyttede værktøjsdomæner","canvas_content_security_policy_c3d7bf2b":"Sikkerhedspolitik for indhold på Canvas","domain_editing_is_disabled_when_security_settings__3feb6da0":"Redigering af domæner er deaktiveret, når sikkerhedsindstillinger nedarves fra en overordnet konto.","domain_name_6c783b0":"Domænenavn","domains_66feaf7f":"Domæner","domains_count_max_a52b7947":"Domæner (%{count}/%{max})","enable_content_security_policy_8bd0b492":"Aktiver sikkerhedspolitik for indhold","inherit_content_security_policy_94aff861":"Nedarv Content Security Policy","invalid_domain_e810c1d":"Ugyldigt domæne","no_allowed_domains_b6633d12":"Ingen tilladte domæner","note_associated_tools_are_only_listed_once_even_if_ebae2aba":"BEMÆRK: Tilknyttede værktøjer er kun angivet en gang, selvom de er\n                blevet installeret i flere underkonti.","remove_domain_as_an_allowed_domain_c510a69e":"Fjern %{domain} som et tilladt domæne","the_content_security_policy_allows_you_to_restrict_eaa7c0d6":"Content Security Policy giver dig mulighed for at begrænse brugerdefineret\n               JavaScript, der kører i din Canvas-forekomst. Du kan manuelt tilføje\n               op til %{max_domains} tilladte domæner. Wildcards anbefales\n               (fx *.instructure.com). Canvas- og Instructure-domæner inkluderes\n               automatisk og tæller ikke med i din domænegrænse på 50.","the_following_domains_have_automatically_been_allo_cea27372":"Følgende domæner er automatisk blevet tilladt fra værktøjer, der allerede findes på din konto.\n                 For at fjerne disse domæner, skal du fjern de tilknyttede værktøjer.","view_violation_log_e80ea322":"Se overtrædelseslog","violation_log_tray_d4eff9f4":"Overtrædelseslogbakke","you_have_reached_the_domain_limit_you_can_add_more_1143333a":"Du har nået domænegrænsen. Du kan tilføje flere domæner ved at slette eksisterende domæner på din liste over tilladte domæner."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "csp_violation_table",
+  function() { return {"add_as_allowed_e95540be":"Tilføj som Tilladt","add_hostname_as_an_allowed_domain_1f58c38d":"Tilføj %{hostname} som et tilladt domæne","blocked_domain_name_b5b93150":"Blokeret domænenavn","csp_violations_337f8529":"CSP-overtrædelser","last_attempt_7258ebd7":"Sidste forsøg","requested_bbdb5b26":"Anmodet","success_you_added_hostname_as_an_allowed_domain_4713bfe8":"Succes: Du tilføjede %{hostname} som et tilladt domæne."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "csp_violation_tray",
+  function() { return {"something_went_wrong_loading_the_violations_try_re_9461d057":"Noget gik galt under indlæsning af overtrædelser. Prøv at indlæse siden igen.","violation_log_491edd84":"Overtrædelseslog"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_creation_settings",
+  function() { return {"account_administrators_can_always_create_courses_926dc0cb":"Kontoadministratorer kan altid oprette fag","allow_creation_anywhere_the_user_has_active_enroll_13c84fc2":"Tillad oprettelse overalt, hvor brugeren har aktive tilmeldinger","allow_creation_only_in_the_manually_created_course_69f37f2e":"Tillad kun oprettelse i underkontoen for manuelt oprettede fag","select_users_who_can_create_new_courses_75f92743":"Vælg brugere, der kan oprette nye fag","users_with_no_enrollments_5dddce33":"Brugere uden tilmeldinger","where_can_students_create_courses_fd0c8a00":"Hvor kan eleverne oprette fag?","where_can_teachers_create_courses_d87eaff2":"Hvor kan lærere oprette fag?"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "i18n!custom_emoji_deny_list",
+  function() { return {"blocked_emojis_9fbaca3a":"Blokerede emojis","remove_emoji_emojiname_cb388de9":"Fjern emoji \"%{emojiName}\"","selected_emojis_will_not_be_available_in_the_emoji_412d8776":"Udvalgte emojis vil ikke være tilgængelige i \"Emoji-vælgeren\" for elever eller instruktører."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "custom_help_link",
+  function() { return {"add_custom_link_22059c0":"Tilføj brugertilpasset link","add_help_menu_links_de9fc34f":"Tilføj hjælp-menulinks","add_link_5c01c1e8":"Tilføj link","add_link_fc336ed6":"Tilføj link","cancel_custom_link_creation_39ec70bd":"Annuller brugertilpasset link oprettelse","cog_icon_69bdffd5":"Tandhjuls-ikon","custom_link_details_35fd38fc":"Brugertilpassede link-detaljer","e_g_http_university_edu_helpdesk_acab04d6":"f.eks., http://university.edu/helpdesk","edit_text_27d8aa3d":"Rediger %{text}","feature_headline_3f0daf4":"Fremhævelsens overskrift","featured_83f6041d":"Fremhævet","features_2581da":"Funktioner","folder_icon_29017021":"Mappe-ikon","help_menu_links_51184b65":"Hjælpemenulinks","help_menu_options_7ecf7031":"Hjælpemenu-muligheder","icon_215a1dc6":"Ikon","information_icon_8a514faa":"Informationsikon","life_preserver_icon_8660b6ce":"Redningsbætle-ikon","link_7262adec":"Link","link_description_4355ca82":"Link-beskrivelse","link_name_b76fdb38":"Link-navn","may_have_one_featured_link_and_one_new_link_at_a_t_21106efe":"(Må have et Fremhævet og et Nyt link ad gangen)","move_text_down_7176acd4":"Flyt %{text} ned","move_text_up_91fb4241":"Flyt %{text} op","please_enter_a_name_for_this_link_318f01a4":"Indtast et navn for dette link.","please_enter_a_valid_url_protocol_is_required_e_g__4bc49ab1":"Indtast en gyldig URL. Protokol er påkrævet (f.eks. http://, https://, ftp://, tel:, mailto:).","please_select_a_user_role_for_this_link_9fb4e655":"Vælg venligst en brugerrole for dette link.","question_mark_icon_d2bbd204":"Spørgsmålstegn-ikon","remove_text_8e485c41":"Fjern %{text}","the_featured_link_was_moved_to_the_top_of_list_6cabcda9":"Det fremhævede link blev flyttet til toppen af listen.","unenrolled_bc89d5e3":"Frameldt","update_link_b7cab181":"Opdater link","you_left_the_required_name_field_empty_8f9bce5c":"Du indtastede ikke noget i det obligatoriske navnefelt."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "act_as",
+  function() { return {"act_as_is_essentially_logging_in_as_this_user_with_6244031c":"\"Funger som\" betyder i bund og grund, at du logger ind som denne bruger uden adgangskode. Du kan foretage dig alt, som om du var denne bruger, og for andre brugere, er det lige som om, det var denne bruger, der gjorde det. Dog registrerer audit-logs, at det faktisk var dig, der udførte handlingerne på vegne af denne bruger.","category_b9a94408":"Kategori","default_email_5cb9fa04":"Standard-e-mail:","display_name_6c2cfc58":"Vis navn:","full_name_14c958f7":"Fulde navn:","integration_id_a6977535":"Integrations-ID:","login_id_bc943b97":"Login-ID:","login_info_d1d9f11e":"Login-info","sis_id_70eda157":"SIS-ID:","sortable_name_e25fe66c":"Navn, der kan sorteres","user_details_e9aef9e5":"Brugerdetaljer","user_information_6353d7e1":"Brugeroplysninger"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "admin_split",
+  function() { return {"failed_to_split_users_d9759007":"Det mislykkedes at opdele brugere.","note_this_will_attempt_to_undo_the_merge_as_fully__41c9c4e9":"BEMÆRK: Dette vil forsøge at fortryde fletningen så vidt muligt, men flettede brugere gendannes muligvis ikke perfekt til deres tidligere tilstand.","split_74c03348":"Opdel","the_following_users_will_be_split_into_separate_us_d67c54a4":"Følgende brugere opdeles i separate brugerkonti:","there_are_no_user_accounts_to_split_from_this_user_4e132eb1":"Der er ingen brugerkonti, der kan deles fra denne bruger.","user_split_complete_links_to_split_user_accounts_f_dab79796":"Opdeling af brugere afsluttet. Links til opdelte brugerkonti følger:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "alerts",
+  null,
+  function() { return {"errors":{"criteria_required":"Der kræves mindst en udløser","recipients_required":"Der kræves mindst en modtager","threshold_should_be_numeric":"Dette skal være et positivt tal"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "catalog",
+  function() { return {"course_catalog_4cc7c8ce":"Fag-katalog"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "announcements_on_home_page",
+  function() { return {"recent_announcements_8becc59c":"Seneste beskeder"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "announcements_v2",
+  function() { return {"add_announcement_165c3b05":"Tilføj besked","add_external_feed_6d437a28":"Tilføj eksternt feed","add_feed_49ed1cb2":"Tilføj feed","adding_rss_feed_f1202567":"Tilføjer RSS-feed","an_error_occurred_while_deleting_announcements_ab1ff3f6":"Der opstod en fejl under sletning af beskeder","an_error_occurred_while_locking_announcements_8115ccd7":"Der opstod en fejl under låsning af beskeder","an_error_occurred_while_updating_announcements_loc_5a1c5dcf":"Der opstod en fejl under opdatering af beskeder låst tilstand.","an_error_ocurred_while_loading_announcements_32af2ce4":"Der opstod en fejl under indlæsning af beskeder","announcement_filter_d35318a7":"Beskedfilter","announcements_deleted_successfully_7d77e9e1":"Beskeder blev slettet","announcements_list_c75fc413":"Beskedliste","announcements_locked_successfully_43d58107":"Beskeder blev låst","announcements_unlocked_successfully_1432da9d":"Beskeder blev låst op","check_back_later_c4234dbc":"Tjek igen senere","count_announcements_found_b7b055b3":"%{count} beskeder fundet.","create_announcements_above_1c36202b":"Opret beskeder ovenfor","delete_feedname_1ac9a4a4":"Slet %{feedName}","delete_selected_announcements_69e23710":"Slet valgte beskeder","dropdown_changed_state_to_expanded_517689c2":"dropdown ændret tilstand til %{expanded}.","enter_specific_phrase_9b686755":"Indtast specifik sætning","external_feed_deleted_successfully_33209dbc":"Eksternt feed blev slettet","external_feed_successfully_added_e0ce0784":"Eksternt feed blev tilføjet","external_feeds_b6345379":"Eksterne feeds","failed_to_add_new_feed_ee1c5ea":"Kunne ikke tilføje nyt feed","failed_to_delete_external_feed_36f19d70":"Kunne ikke slette eksternt feed","failed_to_load_external_feeds_7ac8411d":"Kunne ikke indlæse eksterne feeds","feed_url_8a433438":"Feed url","feeds_9f1c5c76":"Feeds","full_article_9296bb6f":"Fuld artikel","link_only_995966e":"Kun link","lock_selected_announcements_33740f80":"Lås valgte beskeder","next_announcements_page_3956eb11":"Næste besked-side","no_announcements_280df147":"Ingen beskeder","only_add_posts_with_a_specific_phrase_in_the_title_b8b7b04e":"Opret kun opslag med en specifik sætning i overskriften","previous_announcements_page_79c0ada1":"Forrige besked-side","rss_feed_cf6286b3":"RSS Feed","search_announcements_by_title_407a998e":"Søg beskeder efter titel","select_embedded_content_type_966f048a":"Vælg indlejret indholdstype","truncated_56b1a661":"Afbrudt","unlock_selected_announcements_37485f05":"Lås markerede meddelelser op"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "you_are_about_to_delete_count_announcements_are_yo_96a2b383",
+  null,
+  function() { return {"one":"Du er ved at slette 1 besked. Er du sikker?","other":"Du er ved at slette %{count} beskeder. Er du sikker?"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_posts_added_fa55ce4",
+  null,
+  function() { return {"one":"%{count} indlæg tilføjet","other":"%{count} indlæg tilføjet","zero":"%{count} indlæg tilføjet"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignment_editview",
+  function() { return {"anonymous_grading_cannot_be_enabled_for_group_assi_faa33494":"Anonym vurdering kan ikke aktiveres til gruppeopgaver","assignment_d8387b78":"opgave","assignment_details_updated_493f410b":"Opgavedetaljer opdateret","cannot_be_edited_for_assignments_in_closed_grading_792ef6c1":"Kan ikke redigeres for opgaver i lukkede vurderingsperioder","external_tool_url_cannot_be_left_blank_a34b6bb2":"URL til eksternt værktøj kan ikke efterlades tom","failed_to_load_student_annotation_file_data_256d99d2":"Kunne ikke indlæse data om elevens anmærknings-filer.","grader_count_cannot_be_0_9228afe4":"Bedømmerantal kan ikke være 0","grader_count_is_required_45b6c85b":"Bedømmerantal er påkrævet","grader_is_required_62c88f67":"Bedømmer er påkrævet","group_assignments_cannot_be_enabled_for_anonymousl_ed896b1c":"Gruppeopgaver kan ikke aktiveres for anonymt bedømte opgaver","group_assignments_cannot_be_enabled_for_moderated__6b2faeef":"Gruppeopgaver kan ikke aktiveres til bedømte opgaver","group_assignments_do_not_currently_support_student_3e9aa243":"Gruppeopgaver understøtter i øjeblikket ikke elevers opgaver med anmærkninger","loading_assignment_details_from_external_app_36013936":"Indlæser opgavedetaljer fra ekstern app","peer_reviews_cannot_be_enabled_for_moderated_assig_149d33c4":"Elev-elev vurderinger kan ikke aktiveres til bedømte opgaver","points_possible_must_be_0_or_more_for_selected_gra_f96a04e3":"Mulige point skal være 0 eller mere for valgt vurderingstype","removed_filename_a8634af3":"Fjernet %{filename}","student_annotation_assignments_are_not_currently_s_d840064b":"Elevers opgaver med anmærkninger understøttes i øjeblikket ikke for gruppeopgaver","you_must_attach_a_file_b6041092":"Du skal vedhæfte en fil","you_must_set_document_usage_rights_b4afa1e9":"Du skal angive dokumentets brugsrettigheder"} },
+  function() { return {"at_least_one_file_type":"Du skal specificere mindst en tilladt filtype","at_least_one_submission_type":"Vælg mindst en afleveringstype","buttons":{"select_url":"Vælg"},"name_is_required":"Navn påkrævet!","points_possible_number":"Mulige point skal være et tal","select_external_tool_dialog_title":"Konfigurer eksternt værktøj","vericite_submission_types_validation":"VeriCite understøtter kun filindsendelser og tekstindtastning"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_students_c9920376",
+  null,
+  function() { return {"one":"1 elev","other":"%{count} elever","zero":"0 elever"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "allowed_attempts",
+  function() { return {"allowed_attempts_4e229caa":"Tilladte forsøg"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "moderated_grading",
+  function() { return {"error_retrieving_assignment_external_tools_9102d343":"Fejl ved hentning af opgavens eksterne værktøjer","error_retrieving_similarity_detection_tools_d6d4f9e9":"Fejl ved hentning af ligheds-detektionsværktøjer","external_tool_tool_id_6028b3b1":"Eksternt værktøj %{tool_id}","plagiarism_review_7bccc7df":"Plagieringsgennemgang"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "DefaultToolForm",
+  function() { return {"add_content_58b4305a":"Tilføj indhold","click_the_button_above_to_add_content_4c7024a":"Klik på knappen ovenfor for at tilføje indhold","content_successfully_added_395c906f":"%{content} blev tilføjet","successfully_added_fb3e6008":"Blev tilføjet","the_tool_is_not_installed_in_the_course_or_account_1be7230b":"Værktøjet er ikke installeret i faget eller kontoen","tool_not_found_f6366382":"Værktøj ikke fundet"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignment",
+  function() { return {"remove_selected_attachment_61f81ee4":"Fjern valgte vedhæftede fil","select_one_8e0af564":"Vælg en","speedgrader_tm_44688790":"SpeedGrader"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "FinalGraderSelectMenu",
+  function() { return {"grader_that_determines_final_grade_cc55f20":"Bedømmer, der bestemmer endelig vurdering"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "GraderCommentVisibilityCheckbox",
+  function() { return {"graders_can_view_each_other_s_comments_d836b848":"Bedømmere kan se hinandens kommentarer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "GraderCountNumberInput",
+  function() { return {"must_have_at_least_1_grader_d4a54e85":"Skal have mindst 1 bedømmer","there_are_currently_availablegraderscount_availabl_58f85403":"Der er i øjeblikket %{availableGradersCount} tilgængelige bedømmere","there_is_currently_1_available_grader_758e4a21":"Der er i øjeblikket 1 tilgængelig bedømmer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "GraderNamesVisibleToFinalGraderCheckbox",
+  function() { return {"final_grader_can_view_other_grader_names_67736530":"Endelig bedømmer kan se andre bedømmeres navne"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "ModeratedGradingCheckbox",
+  function() { return {"allow_moderator_to_review_multiple_independent_gra_c59d64f6":"Giv moderatoren tilladelse til at evaluere flere uafhængige vurderinger for de valgte afleveringer","moderated_grading_cannot_be_enabled_for_group_assi_7e947ab7":"Samlede vurdering kan ikke aktiveres til gruppeopgaver","moderated_grading_cannot_be_enabled_for_peer_revie_6b7eedc1":"Samlede vurderinger kan ikke aktiveres til opgaver med elev-elev vurdering","moderated_grading_setting_cannot_be_changed_if_gra_ba939ce2":"Samlet vurdering-indstilling kan ikke aktiveres, hvis der eksisterer afleveringer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "OriginalityReportVisibilityPicker",
+  function() { return {"after_the_assignment_is_graded_53754607":"Efter opgaven er bedømt","after_the_due_date_eee89c9c":"Efter forfaldsdato","immediately_c128ede6":"Straks","show_report_to_students_a07888a6":"Vis de elev rapporten"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignment_grade_summary",
+  function() { return {"accept_grades_4d56a3dd":"Godkend vurderinger","accept_grades_by_gradername_7a98b969":"Godkend vurderinger %{graderName}","accepted_c9f8ab87":"Godkendt","accepting_40ba3b70":"Godkender","all_submissions_must_have_a_selected_grade_3a84e5a9":"Alle afleveringer skal have en valgt vurdering.","are_you_sure_you_want_to_do_this_it_cannot_be_undo_3379a544":"Er du sikker på, at du vil gøre dette. Det kan ikke fortrydes og vil tilsidesætte eksisterende vurderinger i vurderingsoversigten.","are_you_sure_you_want_to_post_grades_for_this_assi_bafe5753":"Er du sikker på, at du vil slå vurderinger op til de eleverne for denne opgave?","assignment_grades_have_already_been_released_4c8a91b":"Opgavevurderinger er allerede frigivet.","attention_aaca1f1d":"Bemærk!","grade_for_studentname_d124b199":"Vurdering for %{studentName}","grade_selection_table_dcf9d1ea":"Vurdering valgstabel","grade_summary_255289f6":"Vurderingssammendrag","grader_details_6406bea0":"Vurderinggiverdetaljer","grader_gradernumber_fef5d5cf":"Bedømmer %{graderNumber}","grades_cannot_be_modified_from_this_page_as_they_h_d0ebeb6":"Vurderinger kan ikke ændres fra denne side, da de allerede er blevet frigivet.","grades_for_this_assignment_are_now_visible_to_stud_623efda0":"Vurderinger for denne opgave er nu synlige for eleverne.","grades_posted_to_students_56b8cb2d":"Vurderinger sendt til elever","grades_released_488c2808":"Vurderinger frigivet","grades_saved_5954b0bb":"Vurderinger gemt.","grades_were_successfully_released_to_the_gradebook_4c3b07d6":"Vurderinger blev frigivet til vurderingsoversigten.","one_or_more_grade_selected_was_provided_by_a_grade_58d46830":"En eller flere valgte vurderinger blev leveret af en vurderingsgiver med inaktive tilmeldinger. Opdater dine valg til dem, der tilbydes af nuværende vurderingsgivere.","post_to_students_b02df196":"Send til elever","posting_to_students_eaa57964":"Sender til elever","release_grades_c68fbcc":"Frigiv vurderinger","releasing_grades_31a57dde":"Frigiver vurderinger","selected_grade_942f40ba":"Udvalgt vurdering","student_studentnumber_f398d9c2":"Elev %{studentNumber}","students_are_loading_206c5246":"Elever indlæses","there_was_a_problem_releasing_grades_fa0ae6":"Der opstod et problem under frigivelse af vurderinger.","there_was_a_problem_saving_the_grades_5e61f9e2":"Der opstod et problem ved lagring af vurderingerne.","there_was_a_problem_updating_the_assignment_61b9b98b":"Der opstod et problem ved opdatering af opgaven.","there_was_a_problem_updating_the_grade_1b6c8b4c":"Der opstod et problem ved opdatering af vurderingen."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "AssignmentKeyBindingsMixin",
+  null,
+  function() { return {"keyboard_add_item":"Føj en opgave til valgte gruppe","keyboard_close_menu":"Luk den aktive dialog","keyboard_del_item":"Slet den aktuelle opgave eller gruppe","keyboard_edit_item":"Rediger den aktuelle opgave eller gruppe","keyboard_next_item":"Fokuser på næste opgave eller gruppe","keyboard_prev_item":"Fokuser på den forrige opgave eller gruppe","keyboard_show_assign":"Vis fuld forhåndsvisning af den valgte opgave","keycodes":{"add_item":"a","close_menu":"esc","del_item":"d","edit_item":"e","next":"j","previous":"k","show_assign":"f"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "AssignmentGroupListItemView",
+  function() { return {"move_group_3dd7f76e":"Flyt gruppe"} },
+  function() { return {"drop_highest_rule":{"one":"Drop det højeste resultat","other":"Drop de højeste %{count} resultater"},"drop_lowest_rule":{"one":"Drop det laveste resultat","other":"Drop de laveste %{count} resultater"},"never_drop_rule":"Fjern aldrig %{assignment_name}","rules_text":{"one":"1 regel","other":"%{count} regler"},"toggle_message":"skift opgavens synlighed"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "AssignmentListItemView",
+  function() { return {"assignment_was_deleted_8320d26d":"Opgaven blev slettet","move_assignment_6f890f64":"Flyt opgave"} },
+  function() { return {"complete":"Fuldført","grade_gpa_scale_screenreader":"Vurdering: %{grade}","grade_letter_grade_screenreader":"Vurdering: %{grade}","grade_pass_fail_screenreader":"Vurdering: %{grade}","grade_percent":"%{grade}%","grade_percent_screenreader":"Vurdering: %{grade}%","incomplete":"Ufuldstændig"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "AssignmentSettingsView",
+  function() { return {"must_be_a_valid_number_59f0069":"Skal være et gyldigt tal"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "AssignmentSyncSettingsView",
+  function() { return {"disabling_sync_to_name_failed_e7521ebb":"Deaktivering af synkronisering til %{name} mislykkedes","sync_to_name_successfully_disabled_8045ad95":"Synkroniser til %{name} blev deaktiveret"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "CreateAssignmentView",
+  function() { return {"due_date_cannot_be_after_lock_date_675b30aa":"Afleveringsdato kan ikke ligge efter låsningsdato","due_date_cannot_be_before_unlock_date_f263aab0":"Afleveringsdato kan ikke ligge før oplåsningsdato","edit_assignment_ebf22a72":"Rediger opgave"} },
+  function() { return {"name_is_required":"Navn påkrævet!","points_possible_number":"Mulige point skal være et tal"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "CreateGroupView",
+  function() { return {"a_name_is_required_b5df38a9":"Et navn er påkrævet","assignment_group_was_saved_successfully_5caa27d3":"Opgavegruppe blev gemt","name_is_too_long_48daa8db":"Navn er for langt","you_cannot_use_a_number_greater_than_the_number_of_af33e220":"Du kan ikke bruge et tal, der er større end antallet af opgaver","you_must_use_a_number_912ce4bd":"Du skal bruge et tal","you_must_use_a_positive_number_203b86fe":"Du skal bruge et positivt tal"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "DeleteGroupView",
+  function() { return {"you_must_select_an_assignment_group_c16a2168":"Du skal vælge en opgavegruppe."} },
+  function() { return {"cannot_delete_group":"Du skal have mindst en opgavegruppe","confirm_delete_group":"Er du sikker på, at du vil slette denne opgavegruppe?"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_assignments_found_17520826",
+  null,
+  function() { return {"one":"1 opgave fundet","other":"%{count} opgaver fundet","zero":"Der er ikke fundet matchende opgaver."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignmentsNeverDrop",
+  null,
+  function() { return {"remove_never_drop_rule":"Fjern reglen 'fjern aldrig'","remove_unsaved_never_drop_rule":"Fjern den ikke gemte regel 'fjern aldrig'"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignmentsToggleShowByView",
+  function() { return {"show_by_709f525b":"Vis efter","show_by_date_e3967761":"Vis efter dato","show_by_type_c5d61732":"Vis efter type"} },
+  function() { return {"overdue_assignments":"Forfaldne opgaver","past_assignments":"Forrige opgaver","undated_assignments":"Udaterede opgaver","upcoming_assignments":"Kommende opgaver"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_bulk_edit",
+  function() { return {"apply_date_range_selection_cc4351ed":"Anvend valg af datointerval","assignment_dates_dccc98de":"Opgavedatoer","assignment_dates_saved_successfully_78e0f355":"Opgavedatoer blev gemt.","assignments_loaded_72ee472c":"Opgaver indlæst","batch_edit_6d41d0d7":"Redigering af flere","batch_edit_dates_f1ec3df2":"Redigering af flere datoer","default_dates_a0a2ae26":"standarddatoer","due_at_5d7d2fa":"Forfalden d.","error_saving_assignment_dates_2af5e800":"Fejl ved lagring af opgavedatoer: ","error_starting_save_operation_81bcb99":"Fejl ved forsøg på at gemme:","in_closed_grading_period_dc717846":"I lukket vurderingsperiode","invalid_dates_were_found_please_correct_them_and_t_4140b318":"Der blev fundet ugyldige datoer. Ret dem, og prøv igen.","loading_assignments_b3b248be":"Indlæser opgaver","only_the_moderator_can_edit_this_assignment_a162b20d":"Kun moderatoren kan redigere denne opgave","parent_assignment_is_not_selected_9efb4ac1":"overordnet opgave er ikke valgt","parent_assignment_is_selected_6a2fbca8":"overordnet opgave er valgt","remove_dates_9b9ba2f6":"Fjern datoer","remove_due_dates_and_assignment_availability_dates_608cd97b":"Fjern opgavens afleverings- og tilgængelighedsdatoer.","revert_date_changes_5105ce5":"Genindlæs datoændringer","saving_assignment_dates_progress_9856153d":"Status for lagring af opgavedatoer","saving_assignment_dates_progress_percent_a5ea89a1":"Status for lagring af opgavedatoer: %{percent}%","select_all_assignments_bd07b919":"Vælg alle opgaver","select_an_edit_operation_ec1467d":"Vælg en redigeringshandling","select_assignment_title_4571ffcb":"Vælg opgave: %{title}","select_by_date_range_c3af0101":"Vælg efter datointerval","select_dates_to_remove_be55b14c":"Vælg datoer at fjerne","selection_end_date_10fcc8c6":"Valgt slutdato","selection_start_date_2e4a4dca":"Valgt startdato","shift_dates_b5a7b7a1":"Skift datoer","shift_due_dates_and_assignment_availability_dates__c5ad272":"Skift opgavens afleverings- og tilgængelighedsdatoer fremad med et antal dage.","the_end_date_must_be_after_the_start_date_2a273107":"Slutdatoen skal være efter startdatoen","there_was_an_error_retrieving_assignment_dates_39320c15":"Der opstod en fejl under hentning af opgavedatoerne.","this_assignment_has_no_default_dates_ae314295":"Denne opgave har ingen standarddatoer.","this_assignment_has_too_many_dates_to_display_262f555f":"Denne opgave har for mange datoer til at blive vist.","you_do_not_have_permission_to_edit_this_assignment_59b53274":"Du har ikke tilladelse til at redigere denne opgave"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_assignments_selected_b03891ea",
+  null,
+  function() { return {"one":"%{count} opgave valgt","other":"%{count} opgaver valgt"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_bulk_edit_use_save_assignment",
+  function() { return {"there_was_an_error_retrieving_job_progress_266523f9":"Der opstod en fejl under hentning af jobstatus","there_was_an_error_starting_the_save_assignment_da_22ffb6a8":"Der opstod en fejl ved påbegyndelse af jobbet Gem opgavedatoerne"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignment_index_menu",
+  function() { return {"assignment_groups_weight_2f1a5a7c":"Vægtning af opgavegruppe","assignment_options_1e5b7074":"Opgaveindstillinger","assignments_settings_30613d0c":"Opgaveindstillinger","disable_sync_to_name_10c371dc":"Deaktiver synkronisering til %{name}","edit_dates_ed31061":"Rediger datoer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments",
+  function() { return {"add_an_assignment_fb73942e":"Tilføj en opgave","add_another_assignment_fc5c908f":"Tilføj en anden opgave","add_assignment_to_name_caf173b0":"Tilføj opgave til %{name}","allow_intra_group_peer_reviews_53f1e455":"Tillad interne elev-elev vurderinger","anonymize_all_annotations_made_by_instructors_on_s_5540bc09":"Gør alle anmærkninger foretaget af instruktører om afleveringer til denne opgave anonyme i DocViewer","anonymous_instructor_annotations_2b6c822":"Anonyme instruktøranmærkninger","are_you_sure_you_want_to_disable_sync_to_sisname_f_f24245c1":"Er du sikker på, at du vil deaktivere Synkroniser til %{sisName} for alle opgaver?","assign_reviews_on_date_7e48ec50":"Tildel evalueringer på dato","assignment_group_weights_and_drop_rules_can_t_be_e_7b5f305d":"Reglerne for vægtning af opgavegruppe og drop-regler kan ikke redigeres, fordi der er opgaver i en af ​​grupperne, hvis forfaldsdato er nået.","assignment_group_weights_can_t_be_edited_because_t_b6b591ae":"Vægtning af opgavegruppe kan ikke redigeres, fordi der er opgaver i en af ​​grupperne, hvis forfaldsdato er nået.","build_name_41ba9e7a":"Byg %{name}","cancel_duplicating_originalassignmentname_fd7ee1d8":"Annuller duplikering \"%{originalAssignmentName}\"","consider_selecting_multiple_submission_types_to_ac_f7e624d5":"Overvej at vælge flere afleveringsformer for at gøre det muligt for elever, der ikke nødvendigvis kan oprette kommentarer.","copy_assignment_name_to_another_course_b62d0a54":"Kopiér opgave %{name} til et andet fag","delete_assignment_name_deec56e3":"Slet opgave %{name}","disabling_f594bda":"Deaktiverer ...","do_not_count_this_assignment_towards_the_final_gra_4dd92e00":"Denne opgave skal ikke tælles med i den endelige vurdering","due_at_5e18eeac":"Afleveres d.:","duplicate_assignment_name_3ca7d753":"Duplikeret opgave %{name}","edit_assignment_name_a8f7fae1":"Rediger opgave %{name}","edit_assignment_name_mastery_paths_40b50541":"Rediger opgave %{name} læringsstier","edit_mastery_paths_for_name_c9fc59f9":"Rediger læringsstier for %{name}","enter_or_find_an_external_tool_url_6aebbd0d":"Indtast eller find URL til eksternt værktøj","graders_cannot_view_each_other_s_names_b1fa7899":"Bedømmere kan ikke se hinandens navne","graders_cannot_view_student_names_2e8d3ff9":"Bedømmere kan ikke se elevernes navne","group_weight_for_d46c5db4":"Vægtning af grupper for:","i_agree_to_the_tool_s_end_user_license_agreement_1ba71197":"Jeg er enig i værktøjets *Slutbrugeraftale.*","if_you_change_an_assignment_s_points_possible_you__dba531cb":"Hvis du ændrer en opgaves mulige point, skal du bedømme alle afleveringer igen.","imported_from_posttosisname_f7cc9258":"Importeret fra %{postToSISName}","making_a_copy_of_originalassignmentname_b7268992":"Lav en kopi af \"%{originalAssignmentName}\"","manage_assignment_31a132fb":"Administrering af opgave","manage_name_7f55f792":"Administrering af %{name}","move_assignment_contents_245c61bb":"Flyt opgaveindhold","move_assignment_group_46e09fc3":"Flyt opgavegruppe","move_assignment_name_aa253f26":"Flyt opgave %{name}","move_contents_29713356":"Flyt indhold ...","move_group_77ae285d":"Flyt gruppe ...","move_to_9b91c6e0":"Flyt til ...","multiple_modules_930713d4":"Flere forløb","n_groupweight_percentage_of_total_2ae4d996":"%{n_groupWeight_percentage} af total","n_pointspossible_points_possible_1d098245":"%{n_pointsPossible} Mulige point","n_pointspossible_pts_73274d36":"%{n_pointsPossible} point","new_assignment_2a984756":"Ny opgave","new_group_category_66be9cbd":"Ny gruppekategori","no_points_possible_368669d":"Ingen mulige point","not_published_73f7079":"Ikke offentliggjort","not_yet_graded_40475341":"Endnu ikke bedømt","online_submission_type_file_uploads_24910d74":"Online afleveringstype - Filuploads","online_submission_type_file_uploads_restrict_uploa_5ec7b263":"Online afleveringstype - Filuploads - Begræns upload af filtyper","online_submission_type_media_recordings_9424bf34":"Online afleveringstype - Medieoptagelser","online_submission_type_student_annotation_733641b5":"Online afleveringsform - elevs anmærkning","online_submission_type_text_entry_ac56d100":"Online afleveringstype - Tekstindtastning","online_submission_type_website_url_2c9df33d":"Online afleveringstype - Webadresse","oops_something_went_wrong_with_making_a_copy_of_or_7e9d6695":"Ups! Noget gik galt med at lave en kopi af \"%{originalAssignmentName}\"","retry_duplicating_originalassignmentname_884aee1":"Prøv duplikering af \"%{originalAssignmentName}\" igen","select_a_group_category_295f7a34":"Vælg en gruppekategori","send_assignment_name_to_another_user_e2ca494d":"Send opgave %{name} til en anden bruger","settings_for_assignment_name_c19565e1":"Indstillinger for opgave %{name}","some_settings_have_been_administratively_locked_9e3ee880":"Nogle indstillinger er blevet låst på administrationsniveau.","some_settings_have_been_disabled_because_the_assig_6b6cc3b4":"Nogle indstillinger er blevet deaktiveret, fordi opgaven er i en lukket vurderingsperiode.","students_have_already_submitted_homework_on_this_a_7eb5cb6e":"Eleverne har allerede afleveret arbejde til denne opgave, så indstillingerne på plagiatplatformen kan ikke ændres.","this_assignment_has_been_excused_87f1dc13":"Denne opgave er blevet fritaget.","warning_for_improved_accessibility_of_reordering_a_5d0206c7":"Advarsel: For at forbedre adgang til omorganisering af opgaver og grupper, skal du benytte muligheden Flyt til dialog i menuen.","weight_final_grade_based_on_assignment_groups_3124161":"Vægt på endelig vurdering baseret på opgavegrupper","you_do_not_have_permissions_to_build_this_moderate_bd5d350a":"Du har ikke tilladelser til at oprette denne bedømte opgave","you_do_not_have_permissions_to_edit_this_moderated_3195294f":"Du har ikke tilladelser til at redigere denne bedømte opgave"} },
+  function() { return {"assignment_group_create_dialog":{"assignment_group":{"labels":{"name":"Navn"}},"buttons":{"add_group":"Tilføj gruppe","cancel":"Annuller"},"links":{"add_assignment_group":"Tilføj Opgavegruppe\""}},"assignment_group_list":{"no_assignment_groups":"Der er ikke fundet opgavegrupper"},"assignment_group_selector":{"assignment_group":"Opgavegruppe","assignment_group_options":{"create_group":"Opret gruppe","new_group":"Ny gruppe"}},"assignment_list_item":{"delete":"Slet"},"assignment_list_item_score":{"assignment_grading_type_is_not_graded":"Denne opgave tildeles ikke en vurdering.","assignment_not_yet_graded_screenreader":"Opgave endnu ikke bedømt. %{pointsPossible} mulige point.","empty_points_possible":"-/%{pointsPossible} point","no_submission":"Ingen aflevering","no_submission_for_assignment_screenreader":"Inge aflevering for denne opgave. %{pointsPossible} mulige point.","score_with_points_possible":"*%{score}*/%{pointsPossible} point","score_with_points_possible_screenreader":"Resultat: %{score} ud af %{pointsPossible} point"},"available_date_description":{"available_until":"Tilgængelig indtil","closed":"Lukket","not_available_until":"Ikke tilgængelig før"},"create_assignment":{"assignment":"Opgave","assignment_due_at":"Forfalder:","assignment_name":"Navn:","assignment_points":"Point:","assignment_type":"Type:","buttons":{"save_and_publish":"Gem og offentliggør"},"cancel":"Annuller","differentiated_due_dates":"Differentierede afleveringsdato","discussion_type":"Diskussion","external_tool_type":"Eksternt værktøj","more":"Flere muligheder:","multiple_due_dates":"Flere afleveringsdatoer","not_graded_type":"Ikke bedømt","quiz_type":"Quiz","save":"Gem","saving":"Gemmer ..."},"create_group":{"cancel":"Annuller","drop_highest":"Højeste resultat:","drop_lowest":"Laveste resultat:","example_group_name":"f.eks. Afhandlingsgruppe 1","group_name":"Gruppenavn:","never_drop":"Fjern aldrig:","percent_of_total":"% af samlet vurdering","save":"Gem","saving":"Gemmer ..."},"date_available_column_view":{"available":"Tilgængelig","multiple_dates":"Flere datoer"},"date_due_column_view":{"due":"Forfalder","due_date":"Forfalder","multiple_dates":"Flere datoer","todo_date":"Opgaveliste"},"delete_group":{"cancel":"Annuller","delete":"Slet gruppe","deleting":"sletter ...","labels":{"delete_assignments_in_group":"Slet dets opgaver","move_assignments_to":"Flyt dets opgaver til"},"options":{"select_group":"Vælg en gruppe"},"tooltips":{"target_group":"Vælg en gruppe, som denne opgave skal flyttes til"},"warnings":{"delete_assignment_group":"Du er ved at slette *%{name}*, som indeholder **%{assignment_count}** opgaver."},"would_you_like":"Vil du gerne:"},"edit_view":{"assignment_name":"Opgavenavn","buttons":{"build":"Byg","save":"Gem","save_and_publish":"Gem og offentliggør"},"description":"Beskrivelse","freeze_properties":"Lås opgaveegenskaber, når den kopieres","notify_content_change":"Informer brugere om, at dette indhold er blevet ændret","points_possible":"Point","submission_attempts":"Afleveringsforsøg"},"external_content_homework_file_submission_view":{"additional_comments":"Yderligere kommentarer","buttons":{"submit_assignment":"Aflever opgave"},"group_assignment_header":"Kommentarer ..."},"external_content_homework_url_submission_view":{"additional_comments":"Yderligere kommentarer","buttons":{"submit_assignment":"Aflever opgave"},"group_assignment_header":"Kommentarer ..."},"grading_type_selector":{"display_grade_as":"Vis vurdering som","gpa_scale_explainer":"GPA scalaklassificering er designet til skoler, som bruger en 4.0 skala (eller 5.0/6.0) til alle opgaver. Denne vurderingsordning ligner visning af bogstavvurderinger, men omfatter enkelte vigtige forskellige:","gpa_scale_input_explainer":"Resultatet indtastes på 4.0-skalaen. Hvis for eksempel en opgave består af i alt 100 point, vil indtastning af 4.0 udgøre 100 %, 3.0 udgøre 87 % osv.","gpa_scale_letters_explainer":"Foruden vurderinger med tal kan man også bruge vurderinger med bogstaver.","gpa_scale_percentage_explainer":"Du kan ikke indtaste point direkte, men du kan indtaste procentdele. Hvis for eksempel en opgave består af i alt 50 point, vil indtastning af \"40\" ikke fungere, men \"80%\" vil.","gpa_scale_recommendation":"Med mindre din skole bruger en 4.0 skala (eller 5.0/6.0), anbefaler Canvas at vise vurderingerne som bogstaver.","gpa_scale_scores_explainer":"De eneste tilladte resultater er prædefineret i vurderingsordningen.","gpa_scale_title":"Vurderingsordning-omregningstabel","view_grading_scheme":"Vis vurderingsordning"},"group_category_selector":{"grade_group_students_individually":"Tildel vurderinger til hver individuel elev","group_assignment_header":"Gruppeopgave","group_category_locked_explanation":"Elever har allerede afleveret arbejde til denne opgave, så gruppeindstillingerne kan ikke ændres.","group_set":"Gruppesæt","is_group_assignment":"Dette er en gruppeopgave"},"index_view":{"add_assignment":"Opgave","add_group":"Gruppe","add_quiz_lti":"Quiz/prøve","assignments":"Opgaver","search_for_assignment":"Søg efter en opgave","title_add_assignment":"Tilføj opgave","title_add_group":"Tilføj opgavegruppe","title_add_quiz_lti":"Tilføj quiz/prøve"},"no_assignments_list_item":{"no_assignments_in_this_group":"Ingen opgaver i denne gruppe"},"no_assignments_search":{"aria_assignments":"Opgaver","assignments":"Opgaver","no_assignments_found":"Der er ikke fundet opgaver"},"peer_reviews":{"messages":{"cancel_peer_review":"Annuller denne elev-elev vurdering?"},"titles":{"remind":"Mind %{assessor} om bedømmelse, sidst informeret %{time}","reminder":"Mind %{assessor} om bedømmelse, sidst informeret %{time}"}},"peer_reviews_selector":{"anonymous_peer_reviews":"Anonymitet","how_to_peer_review":"Sådan tildeles elev-elev vurderinger","labels":{"anonymous_peer_reviews":"Elev-elev vurderinger vises som anonyme","automatically_assign_peer_reviews":"Tildel elev-elev vurderinger automatisk","manually_assign_peer_reviews":"Tildel elev-elev vurderinger manuelt","require_peer_reviews":"Kræv elev-elev vurderinger"},"locked_until":"Tildel bedømmelser","peer_reviews_assign_at_explanation":"Hvis blank, bruger afleveringsdato.","peer_reviews_header":"Elev-elev vurderinger","reviews_per_user":"Bedømmelse pr. bruger"},"submission_types_form":{"advanced_turnitin_settings":"Avancerede Turnitin-indstillinger","advanced_vericite_settings":"Avancerede VeriCite indstillinger","descriptions":{"allowed_extensions":"Indtast en liste over accepterede udvidelser, for eksempel: doc,xls,txt"},"external_tool_group_warning":"Gruppeopgaver kan ikke bruge eksterne værktøjer. Gruppeindstillingen fravælges, når du gemmer","external_tool_options":"Indstillinger til eksternt værktøj","label":{"external_tool_new_tab":"Indlæs dette værktøj i en ny fane","turnitin_enabled":"Aktivér Turnitin-afleveringer","vericite_enabled":"Aktiver VeriCite afleveringer"},"labels":{"allow_file_uploads":"Filuploads","allow_media_recordings":"Medieoptagelser","allow_text_entry":"Tekstindlæg","allow_url":"Webside URL","allowed_extensions":"Tilladte filudvidelser","allows_annotated_document":"Elevs anmærkning","restrict_file_extensions":"Begræns filtyper til upload"},"online_entry_options":"Indstillinger til online tilmelding","submission_type":"Afleveringstype","submission_types":{"external_tool":"Eksternt værktøj","no_submission":"Ingen aflevering","on_paper":"På papir","online":"Online"}},"turnitin_settings_dialog":{"assignments":{"turnitin_settings":{"labels":{"exclude_small_matches":"Små matcher"}}},"buttons":{"update_settings":"Opdater indstillinger"},"turnitin_settings":{"labels":{"compare_against":"Sammenlign mod","do_not_consider":"Tag ikke i betragtning","exclude_biblio":"Bibliografisk materiale","exclude_quoted":"Citeret materiale","internet_check":"Internetdatabase","journal_check":"Journaler, tidsskrifter og udgivelser","student_paper_check":"Andre studiepapirer","submit_papers_to":"Inkluder i lager","turnitin_repository":"Turnitin-lager"},"originality_report_never":"Aldrig","originality_report_visibility":"Elever kan se originalitetsrapporten","originality_report_visible_after_due_date":"Efter afleveringsdato","originality_report_visible_after_grading":"Efter opgaven er bedømt","originality_report_visible_immediately":"Straks","settings_exclude_fewer_than_count":"Færre end %{wordsInput} ord","settings_exclude_less_than_percent":"Mindre end %{percentInput} af dokumentet"}},"veri_cite_settings_dialog":{"buttons":{"update_settings":"Opdater indstillinger"},"vericite_settings":{"originality_report_never":"Aldrig","originality_report_visibility":"Elever kan se originalitetsrapporten","originality_report_visible_after_due_date":"Efter afleveringsdato","originality_report_visible_after_grading":"Efter opgaven er bedømt","originality_report_visible_immediately":"Straks"}}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_student_header_date_title",
+  function() { return {"due_5d7267be":"Forfalder:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2",
+  function() { return {"add_submission_type_8690db4b":"Tilføj afleveringsform","all_comments_are_sent_to_the_whole_group_778126f3":"Alle kommentarer sendes til hele gruppen.","all_image_types_allowed_9c65004d":"Alle billedtyper er tilladt","all_media_types_allowed_3c0cdce7":"Alle medietyper tilladt","all_submission_comments_have_been_marked_as_read_74c0683b":"Alle afleveringskommentarer er blevet markeret som læst","all_types_allowed_287eb6b0":"Alle typer tilladt","an_error_occured_saving_the_assignment_d71cb3d2":"Der opstod en fejl, da opgaven skulle gemmes","and_7fcc2911":"Og","arc_a935e585":"ARC","assign_to_6b806cd9":"Tildel til:","assign_to_95404a83":"Tildel til","assignment_locked_a6233228":"Opgave låst","assignment_locked_until_future_date_80cd0df2":"Opgaven låst indtil fremtidig dato","assignment_locked_with_prerequisite_5b8cb148":"Opgave låst med forudsætning","assignment_name_12eadcbd":"Opgavens navn","assignment_name_is_required_9d17311b":"Opgavens navn er påkrævet","assignment_type_60255aac":"Opgavetype","assignments_2_teacher_view_error_page_8e45dedc":"Opgaver 2 Lærervisning Fejlside","at_791460b3":"ved","attach_a_file_86a4fc00":"Vedhæft en fil","attached_d7423f41":"Vedhæftet","attempt_attempt_feedback_1b042ff5":"Forsøg %{attempt} Feedback","attempt_count_267a4fc5":"Forsøg %{count}","attempt_number_83dcd86a":"Forsøg %{number}","attempts_allowed_8441aadf":"Forsøg tilladt","audio_1c89b0c8":"lyd","available_2ed9f226":"Tilgængelig:","available_after_3416802b":"Tilgængelig efter","available_d3bb0b5c":"Tilgængelig ","available_date_must_be_before_the_due_date_cbab390b":"Tilgængelig-dato skal være før Afleveringsdato","available_date_must_be_before_the_until_date_9ccc52b":"Tilgængelig-dato skal være før Indtil-dato","available_until_3278ebe9":"Tilgængelig indtil","avi_2d8cc99f":"AVI","bmp_e297149c":"BMP","body_f48fe5cd":"Brødtekst:","click_to_hide_details_f7d353d9":"Klik for at skjule detaljer","click_to_show_details_310154eb":"Klik for at vise detaljer","close_17f50799":"luk","close_student_details_2f6900":"Luk elev detaljer","code_93e9abbb":"kode","coming_soon_79d46687":"KOMMER SNART","comment_input_box_b8c7e58b":"Kommentarfelt","confirm_delete_a5239715":"bekræft sletning","creating_a_group_is_not_yet_handled_by_the_new_ass_3360471d":"Oprettelse af en gruppe anvendes endnu ikke i det nye opgave-flow. Gå til den ældre Opgave-side?","csv_de77e441":"CSV","delete_assignment_5d3f3f15":"slet opgaven","delete_this_submission_type_37a0809c":"Slet denne afleveringsform","deleting_assignment_22d5851d":"sletter en opgave","disable_extra_filter_options_1d1cdc02":"deaktiver ekstra filterindstillinger","doc_50924b72":"DOC","doc_c63509f8":"doc","due_639f281d":"Forfalder: ","due_available_and_until_dates_f90713da":"Afleverings-, tilgængelig-, og indtil-datoer","due_date_must_be_after_the_available_date_94f03d92":"Afleveringsdato skal være efter Tilgængelig-dato","due_date_must_be_before_the_until_date_740484c5":"Afleveringsdato skal være før Indtil-dato","edit_assignment_name_8a7af80c":"Rediger opgavens navn","edit_points_3a339cd8":"Rediger point","edit_when_36c1c2c8":"Rediger %{when}","enable_extra_filter_options_b52c23e6":"aktiver ekstra filterindstillinger","eps_81bd3fbf":"EPS","error_sending_messages_13c874eb":"Fejl ved afsendelse af beskeder","error_sending_submission_comment_dc15d24f":"Fejl ved afsendelse af afleveringskommentar","everyone_else_cc5f6888":"Alle andre","extend_due_date_20651e76":"Forlæng afleveringsdato","file_6863ad33":"Fil","file_select_filename_folder_contents_9146bab7":"Vælg fil, %{filename} mappeindhold","file_size_exceeds_the_maximum_of_max_mb_edb41d85":"Filstørrelsen overstiger maks. størrelsen på %{max} MB","filter_students_2327fe79":"Filtrer elev","flash_ab3ad95e":"flash","flv_15e62834":"FLV","gif_74e4a622":"GIF","group_assignment_7060989f":"Gruppeopgave","html_fc8563c6":"html","image_c1c98202":"billede","in_class_23eeca38":"I klassen","invalid_date_and_time_1a42d206":"Ugyldig dato og klokkeslæt","invalid_date_or_time_333acd43":"Ugyldig dato eller klokkeslæt","invalid_date_time_3ae423f5":"Ugyldig dato-tid","item_count_3c7bae0d":"Element %{count}","jpg_903bacff":"JPG","label_3c9a991":"%{label}:","load_previous_comments_c3aaa07d":"Indlæs forrige kommentarer","message_student_f12b37a6":"Send besked til elev","message_students_who_369b8488":"Send besked til elever, der ...","message_students_who_778ce759":"Send besked til elev, som","messages_sent_b851d0dd":"Beskeder sendt","modified_by_c1584b3c":"Modificeret af","modified_by_user_e6c8ade3":"modificeret af: %{user}","modules_b8f6aa9":"forløb","more_modules_d9a9f003":"Flere forløb","mov_329e9416":"MOV","mp3_c21c0f5f":"MP3","mp4_5c789afc":"MP4","name_name_913c785b":"navn: %{name}","next_e0d38b1f":"næste","no_assignment_group_assigned_8f1cdb9b":"Ingen opgavegruppe tildelt","no_grade_for_assignmenttitle_83baad53":"Ingen vurdering for %{assignmentTitle}","no_label_date_ff3a372f":"Ingen %{label} dato","no_module_assigned_ca183bd7":"Intet forløb tildelt","no_submission_fb131a40":"Ingen aflevering","no_submission_for_assignmenttitle_243bd1f4":"Ingen indsendelse for %{assignmentTitle}","non_canvas_11f36d4a":"Ikke Canvas","now_viewing_attempt_current_attempt_918e616":"Viser nu forsøg %{current_attempt}","on_paper_46d0ba36":"På papir","open_student_context_tray_24c1b1d6":"Åben elevs kontekstbakke","or_9b70ccaa":"Eller","overview_of_student_status_a004bcf3":"Oversigt over elevs status","pdf_4e842f10":"pdf","peer_review_assignment_7d314c59":"Opgave med elev-elev vurdering","peer_reviewed_assignments_are_not_yet_handled_in_t_5eef60fb":"Opgaver med elev-elev vurdering anvendes endnu ikke i det nye opgave-flow. Gå til den ældre Opret opgave-side?","please_visit_your_modules_page_for_more_informatio_846c5e32":"Besøg din *siden Forløb* for mere information.","png_55cbb586":"PNG","points_is_required_9a9d05b2":"Point er påkrævet","points_must_0_3bff353":"Point skal være \u003e= 0","points_must_be_a_number_0_daa4f7dc":"Point skal være et tal \u003e= 0","ppt_534cb87":"PPT","preview_filename_f1b58572":"Forhåndsvisning %{filename}","preview_unavailable_aacd459a":"Forhåndsvisning ikke tilgængelig","previous_445ca243":"forrige","psd_33ae8820":"PSD","ptt_f7ff4c09":"ptt","quizzes_are_not_yet_handled_in_the_new_assignments_3898536a":"Quiz anvendes endnu ikke i det nye opgave-flow. Gå til den ældre Opret quiz-side?","record_audio_video_d9993f6c":"Optag audio / video","remove_studentname_16ba8c3a":"Fjern %{studentName}","return_to_parent_folder_4ece2184":"vend tilbage til overordnet mappe","rtf_9165aba5":"RTF","saving_assignment_fb958949":"Gemmer opgave","score_student_points_possible_points_78360e86":"Resultat {{student_points}}/{{possible_points}}","scored_less_than_score_on_assignmenttitle_5a011033":"Fik mindre end %{score} i %{assignmentTitle}","scored_more_than_score_on_assignmenttitle_2afa1d32":"Fik mere end %{score} i %{assignmentTitle}","search_by_student_name_26536097":"Søg efter elevs navn","send_a_message_4600821d":"Sende en besked","send_comment_4e05f2fb":"Send kommentar","sending_messages_effc7237":"Sender beskeder","sending_messages_f8f41998":"sender beskeder ...","size_size_a77bd760":"størrelse: %{size}","sorry_something_broke_91c15918":"Undskyld, noget gik i stykker","speedgrader_d9a6fa90":"SpeedGrader","state_published_e42697da":"status: offentliggjort","state_unpublished_e19c06e6":"status: ikke offentliggjort","student_points_possible_points_196c7108":"{{student_points}}/{{possible_points}}","subject_1bc03dea":"Emne:","submission_comment_sent_3f2af3d0":"Afleveringskommentar sendt","submission_date_8f659c0c":"Afleveringsdato","submission_items_b2db1b8d":"Afleveringselementer","submission_type_a925fc5f":"Afleveringstype","submit_a_comment_7edbf648":"Indsend en kommentar","submit_for_student_d90838e8":"Aflever for elev","svg_d5969386":"SVG","text_df773ce4":"tekst","text_entry_e1808b2f":"Tekstindlæg","the_date_is_not_valid_b6285fb5":"Datoen er ikke gyldig.","there_was_a_problem_marking_submission_comments_as_27c2f5c7":"Der opstod et problem med at markere afleveringskommentarer som læst","this_assignment_is_currently_unavailable_because_y_129792e0":"Denne opgave er i øjeblikket utilgængelig, fordi du endnu ikke har gennemført de forudsætninger, der er angivet af din instruktør.","this_assignment_is_part_of_an_unpublished_module_a_4e25b3c5":"Denne opgave er en del af et ikke offentliggjort forløb og er endnu ikke tilgængelig.","this_is_where_you_can_leave_a_comment_and_view_you_a2259ec8":"Det er her, du kan skrive en kommentar og se din instruktørs feedback.","tiff_c70066a3":"TIFF","to_1126ab55":" til","to_f0e90538":"Til:","txt_cae4e953":"TXT","type_file_14f017c9":"type: fil","type_folder_115f3b07":"type: mappe","unable_to_delete_assignment_abcf8d62":"Kunne ikke slette opgave","unlimited_attempts_81a37d4":"Ubegrænsede forsøg","until_6437a827":" indtil","until_date_must_be_after_the_available_date_8670dfcd":"Indtil-dato skal være efter Tilgængelig-dato","until_date_must_be_after_the_due_date_d961566c":"Indtil-dato skal være efter Afleveringsdato","url_22a5f3b8":"URL","video_78335c71":"video","view_rubric_d71cce10":"Vis vurderingskriterie","wmv_1119d032":"WMV","working_b1f63edf":"arbejder ...","xls_733452c1":"XLS","xls_e593104b":"xls","you_cannot_leave_comments_until_you_submit_the_ass_de0f2024":"Du kan ikke skrive kommentarer, før du har afleveret opgaven","you_cannot_publish_this_assignment_while_there_are_e3dee69a":"Du kan ikke offentliggøre denne opgave, mens der er fejl","you_cannot_save_while_there_are_errors_b86585e9":"Du kan ikke gemme, mens der er fejl","you_have_count_submissions_to_grade_6c5b511a":"Du har %{count} afleveringer, der skal bedømmes","you_may_not_see_all_comments_for_this_assignment_u_61817628":"Du kan muligvis ikke se alle kommentarer til denne opgave, før vurderinger er blevet slået op.","you_must_provide_a_date_with_a_time_ec369ff4":"Du skal angive en dato med et tidspunkt.","zip_26961da":"zip"} },
+  function() { return {"attempts":{"filter":"Forsøg"},"submission_attempts":"Forsøg"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "attempts_22baad",
+  null,
+  function() { return {"one":"Forsøg","other":"Forsøg"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_attempts_d23c69a0",
+  null,
+  function() { return {"one":"1 forsøg","other":"%{count} forsøg"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_attempt_tab",
+  function() { return {"available_submission_types_1c577ae5":"Tilgængelige afleveringsformer","choose_a_submission_type_8f45651a":"Vælg en indsendelsestype","keep_in_mind_this_submission_will_count_for_everyo_9b18472c":"Husk på, at denne aflevering gælder for alle i din %{groupName} gruppe.","more_submission_options_c8d50818":"Flere afleveringsmuligheder","select_submission_type_displayname_97e47bc2":"Vælg afleveringsform %{displayName}","submission_type_displayname_currently_selected_3f8aa9f8":"Afleveringsform %{displayName}, aktuelt valgt"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_external_tool",
+  function() { return {"website_url_url_bd07233d":"Webside-URL: %{url}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_file_upload",
+  function() { return {"back_to_attempt_attempt_ffb22bb8":"Tilbage til forsøg %{attempt}","cancel_attempt_attempt_aab8c2a9":"Annuller forsøg %{attempt}","canceling_this_attempt_will_permanently_delete_any_21ce850c":"Annullering af dette forsøg vil permanent slette alt arbejde, der er blevet udført i dette forsøg. Ønsker du at fortsætte og slette dit arbejde?","choose_a_file_to_upload_a63bac0f":"Vælg en fil, som skal uploades","confirm_submission_e3b43f1":"Bekræft aflevering","delete_work_e377128b":"Slet arbejde","delete_your_work_fe136221":"Slet dit arbejde?","draft_saved_eba9cfeb":"Kladde gemt","drag_a_file_here_or_1aaf19c1":"Træk en fil her hen, eller","drag_a_file_here_or_click_to_select_a_file_to_uplo_ad482dda":"Træk en fil her hen, eller klik for at vælge en fil, der skal uploades","error_adding_canvas_file_to_submission_draft_de258021":"Fejl ved tilføjelse af Canvas-fil til afleveringsudkast","error_adding_files_to_submission_draft_6acac337":"Fejl ved tilføjelse af filer til afleveringsudkast","error_canceling_draft_ec3dbdc9":"Fejl ved annullering af kladde","error_saving_draft_295be180":"Fejl ved forsøg på at gemme kladde","error_sending_submission_d32dc075":"Fejl ved indsendelse af aflevering","error_updating_submission_draft_1d40ade7":"Fejl ved opdatering af afleveringsudkast","file_permitted_filetypes_714e4e8d":"Fil tilladt: %{fileTypes}","i_agree_to_the_tool_s_end_user_license_agreement_c77fa44d":"Jeg er enig i værktøjets *Slutbrugeraftale*.","mark_as_done_6fa48d2f":"Marker som færdig","next_module_66f58e91":"Næste forløb","previous_module_8801a74b":"Forrige forløb","remove_displayname_a2f31aa3":"Fjern %{displayName}","saving_draft_c97afab3":"Gem som udkast","submission_draft_updated_e953166a":"Afleveringsudkast opdateret","submission_sent_3f0d2ee1":"Aflevering sendt","submit_assignment_5799b4e3":"Aflever opgave","there_was_a_problem_loading_module_information_e79926f4":"Der opstod et problem med at indlæse forløbinformation.","upload_progress_for_name_39f03acf":"Upload fremskridt for %{name}","uploaded_files_11f11564":"Uploadede filer","you_are_submitting_a_submissiontype_submission_onl_29c1cdc1":"Du indsender en %{submissionType}-aflevering. Kun en afleveringsform er tilladt. Alle andre afleveringsformer slettes."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_media_attempt",
+  function() { return {"panda_taking_photograph_8db13e0f":"panda tager billede","rocketship_on_launchpad_4011ea8c":"raket på affyringsrampen","there_was_an_error_submitting_your_attempt_fdbe9259":"Der opstod en fejl under indsendelse af dit forsøg."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_MoreOptions_CanvasFiles",
+  function() { return {"current_folder_path_e094d59":"nuværende mappesti","root_523acd46":"Rod"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_MoreOptions",
+  function() { return {"canvas_files_889a274f":"Canvas-filer","submit_file_using_label_9fa4bbb7":"Send fil vha. %{label}","take_a_photo_via_webcam_954f2433":"Tag et foto via webcam","user_groups_query_error_bba6a6b7":"Brugergrupper  - forespørgselsfejl","webcam_photo_ee55462c":"Webcam-billede"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "webcam_modal",
+  function() { return {"canvas_needs_acccess_to_your_camera_16db6502":"Canvas har brug for adgang til dit kamera.","canvas_needs_access_to_your_camera_b5418c0":"Canvas har brug for adgang til dit kamera.","enter_a_filename_for_the_photo_4f0fc10e":"Indtast et filnavn for billedet","take_photo_b06762f9":"Tag foto","use_this_photo_3a594830":"Brug dette billede","you_can_provide_this_access_in_your_browser_settin_2b81a586":"Du kan give denne adgang i dine browserindstillinger."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_student_annotation",
+  function() { return {"document_to_annotate_d37b93bc":"Dokument, der skal gives anmærkning"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_url_entry",
+  function() { return {"enter_web_url_483c2cbb":"Indtast webadresse","http_67e238b4":"http://","please_enter_a_valid_url_e_g_http_example_com_b97051b4":"Indtast venligst en gyldig URL (fx http://eksempel.dk)","preview_website_url_eb5b8a5f":"Forhåndsvisning af URL","website_url_input_1a3eab25":"Webstedets URL-input"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_student_points_display",
+  function() { return {"formattedgrade_points_576abfea":"%{formattedGrade} *Point*","ungraded_147a0dce":"ikke bedømt"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "formattedpoints_possible_points_b0473a26",
+  null,
+  function() { return {"one":"*1* muligt point","other":"*%{formattedPoints}* mulige point"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "ungraded_formattedpoints_possible_points_1a7666e5",
+  null,
+  function() { return {"one":"Ikke bedømt, 1 muligt punkt","other":"Ikke bedømt, %{formattedPoints} mulige point"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_student_header",
+  function() { return {"add_comment_3205529f":"Tilføj kommentar","after_the_first_attempt_you_cannot_leave_comments__3922325f":"Efter det første forsøg kan du ikke skrive kommentarer, før du har afleveret opgaven.","attempt_attempt_score_2a973edc":"Forsøg %{attempt} Resultat:","next_up_review_feedback_19a15e0e":"Næste op: Gennemgå feedback","next_up_submit_assignment_793a9d41":"Næste op: Aflever opgave","offline_score_8d7b4779":"Offline-resultat:","review_feedback_4b4abb38":"Gennemgå feedback","submission_progress_323f5e7b":"Aflevering i gang","submitted_on_a09f839e":"AFLEVERET d.","submitted_on_bb3b53fc":"Afleveret d.","this_assignment_is_complete_5e096a06":"Denne opgave er afsluttet!","view_feedback_f2feabca":"Vis feedback"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "a2_AccessibleTipContent",
+  function() { return {"attempt_attempt_grade_c01f45df":"Forsøg %{attempt} %{grade}","grade_grade_7e52dd1c":"Vurdering: %{grade}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "late_penalty_minus_count_points_810572fe",
+  null,
+  function() { return {"one":"Sen-straf: minus 1 point","other":"Sen-straf: minus %{count} point","zero":"Straf for sen aflevering: Ingen"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "a2LatePolicyStatusDisplay",
+  function() { return {"late_policy_d3f95a91":"Sen-politik:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "late_policy_minus_count_points_1a945541",
+  null,
+  function() { return {"one":"Sen-politik: minus 1 point","other":"Sen-politik: minus %{count} point"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "_count_points_23dc93e0",
+  null,
+  function() { return {"one":"-1 point","other":"-%{count} point"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_login_action_prompt",
+  function() { return {"accept_course_invitation_b4c04fbb":"Accepter faginvitation","accept_course_invitation_to_participate_in_this_as_b8342676":"Accepter faginvitation for at deltage i denne opgave","course_has_not_started_yet_ed525dcc":"Faget er endnu ikke startet","log_in_c9e240ef":"Login","log_in_to_submit_962106cf":"Log ind for at aflevere","submission_locked_a6074f8b":"Indsendelse Låst","submission_locked_image_93aced38":"Indsendelse Låst billede"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_student_content",
+  function() { return {"warning_for_improved_accessibility_with_annotated__43e3a5ea":"Advarsel: For bedre tilgængelighed for opgaver med anmærkninger skal du bruge Filoverførsel eller Tekstindtastning til at skrive kommentarer.","you_are_unable_to_submit_to_this_assignment_as_you_40491eb0":"Du kan ikke aflevere denne opgave, da din tilmelding til dette fag er afsluttet."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_attempts_allowed_d65a014c",
+  null,
+  function() { return {"one":"1 tilladt forsøg","other":"%{count} forsøg tilladt","zero":"Ubegrænsede forsøg tilladt"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_submission_histories_query",
+  function() { return {"failed_to_load_more_submissions_148ff11f":"Kunne ikke indlæse flere afleveringer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_elide_string",
+  function() { return {"_5a374287":"..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_submission_helpers",
+  function() { return {"annotation_89e402e0":"Anmærkning","web_url_d84feaf5":"Web-URL"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignments_2_shared_Steps",
+  function() { return {"button_a1577211":"knap","in_progress_13b9e26f":"i gang","not_graded_yet_82f63c67":"Ikke bedømt endnu","submitted_318fad53":"Afleveret","unavailable_c04e4c93":"ikke tilgængelig","uploaded_285a2bfb":"Uploadet"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "asignments_2",
+  function() { return {"add_override_da70f198":"Tilføj tilsidesættelse"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "authentication_providers",
+  function() { return {"add_an_identity_provider_to_this_account_c2644478":"Føj en identitetsleverandør til denne konto:","another_configuration_is_currently_selected_select_95b394e":"Der er valgt en anden konfiguration for øjeblikket. Valg af denne konfiguration vil fravælge den anden.","choose_an_authentication_service_47dc8875":"Vælg en autentifikationstjeneste"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "PronounsInput",
+  function() { return {"available_pronouns_b45330b1":"Tilgængelige pronomener","these_pronouns_will_be_available_to_canvas_users_i_e8f474e5":"Disse pronomener vil være tilgængelige for Canvas-brugere på din konto."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_coursesChildChangeLog",
+  function() { return {"change_applied_89d1aa5a":"Ændring anvendt","learning_object_1f9e5dd8":"Læringsobjekt","loading_change_log_94ac6073":"Indlæser ændringslog","object_type_e4f3bbeb":"Objekttype"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_coursesChildContent",
+  function() { return {"blueprint_course_information_term_course_10d5cf30":"Blueprint fag-information: %{term} - %{course}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_MasterChildStack",
+  function() { return {"your_course_db806851":"Dit fag"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_settingsAssociationsTable",
+  function() { return {"blueprint_course_associations_72c9609":"Blueprint fagassociationer","loading_associations_9da66c4e":"Indlæser associationer","loading_associations_complete_b93a9c6e":"Indlæsning af associationer afsluttet","loading_associations_started_1f65d8d":"Indlæsning af associationer påbegyndt","remove_association_1412eabf":"Fjern association","remove_course_association_name_b760c502":"Fjern fag-associationer %{name}","removed_course_association_course_a233342c":"Fjernet fag-associationer %{course}","restored_course_association_course_c9e16045":"Gendannet fagassociation %{course}","there_are_currently_no_associated_courses_fba1754f":"Der er i øjeblikket ikke nogen tilknyttede fag.","to_be_added_2959cc72":"Skal tilføjes","to_be_removed_d4b48586":"Skal fjernes","undo_remove_course_association_name_68eb4037":"Fortryd fjern fagassociation %{name}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "BlueprintAssociations",
+  function() { return {"associated_74756cc4":"Associeret","saving_associations_989bd4da":"Gemmer associationer","saving_associations_complete_e4b9634d":"Det lykkedes at gemme associationer","saving_associations_started_8ac85360":"Gemmer associationer","warning_d9ac42ef":"Advarsel:","you_have_unsynced_changes_that_will_sync_to_all_as_9028e711":"Du har usynkroniserede ændringer, der synkroniseres med alle tilknyttede fag, når en ny tilknytning gemmes."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "BlueprintCourseSidebar",
+  function() { return {"blueprint_settings_233e909a":"Blueprint-indstillinger","close_sidebar_10b0fbb4":"Luk sidepanel","open_sidebar_2852e8c8":"Åbn sidepanel"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_settingsCourseFilter",
+  function() { return {"any_sub_account_ec7069f2":"Enhver underkonto","any_term_d49af19f":"Ethvert skoleår","search_by_title_short_name_or_sis_id_fe84aa12":"Søg efter titel, kort navn, eller SIS-ID","select_sub_account_6704196a":"Vælg underkonto","select_term_f8083fb0":"Vælg skoleår"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_settingsCoursePicker",
+  function() { return {"loading_courses_409a3641":"Indlæser fag","loading_courses_started_6e6d742c":"Indlæsning af fag påbegyndt"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "loading_courses_complete_count_courses_found_6768d9e1",
+  null,
+  function() { return {"one":"Indlæsning af fag afsluttet: et fag fundet","other":"Indlæsning af fag afsluttet: %{count} fag fundet"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_settingsCoursePickerTable",
+  function() { return {"course_selection_245808bf":"Valg af fag","selected_all_courses_9cfef57f":"Vælg alle fag","selected_course_course_a581f834":"Valgt fag %{course}","toggle_select_course_name_310fdee4":"Skift vælg fag %{name}","unselected_all_courses_99a9d35c":"Fjernet markering for alle fag","unselected_course_course_89995a83":"Ikke valgt fag %{course}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "select_all_count_courses_4fc63811",
+  null,
+  function() { return {"one":"Vælg (%{count}) fag","other":"Vælg alle (%{count}) fag"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_course_sidebar",
+  function() { return {"associations_3fd4abe8":"Associationer","loading_associations_2b92bcf7":"Indlæser associationer ...","loading_sync_history_3eb11baf":"Indlæser synkroniseringshistorik ...","loading_unsynced_changes_1b52f725":"Indlæser usynkroniserede ændringer ...","loading_unsynced_changes_b5d7b202":"Indlæser usynkroniserede ændringer","not_available_during_sync_ae645e8c":"Ikke tilgængelig under synkronisering","sync_history_3d46eb19":"Synkroniser historik","unsynced_changes_4ddaec76":"Usynkroniserede ændringer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "there_are_count_unsynced_changes_25ed3bed",
+  null,
+  function() { return {"one":"Der er 1 usynkroniseret ændring","other":"Der er %{count} usynkroniserede ændringer"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "there_are_count_associations_906edb03",
+  null,
+  function() { return {"one":"Der er 1 association","other":"Der er %{count} associationer"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_settingsMigrationOptions",
+  function() { return {"add_a_message_4fee743f":"Tilføj en besked ","chars_written_max_character_length_len_fec9bd18":"%{chars} skrevet, maks. tegnlængde %{len}","count_of_max_maximum_characters_fcb6ddf8":"%{count} af %{max} maks. tegn","history_settings_c63dbaaf":"Historikindstillinger","include_course_settings_c4c08764":"Inkluder fag-indstillinger","len_maxlen_97f1c88d":"%{len}/%{maxLen}","message_text_5f692459":"Beskedtekst","send_notification_81773687":"Send meddelelse","you_have_reached_the_limit_of_len_characters_in_th_babea8fe":"Du har nået grænsen på %{len} tegn i meddelelsesbeskeden"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_settingsMigrationSync",
+  function() { return {"sync_in_progress_12ff1d3c":"Synkronisering i gang","syncing_3061cc8d":"Synkroniserer ...","this_may_take_a_bit_48fe4235":"Det kan tage lidt tid ...","you_can_leave_the_page_and_you_will_get_a_notifica_fefe11e8":"Du kan forlade siden, og så får du en meddelelse, når synkroniseringsprocessen er afsluttet."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_settingsSyncHistory",
+  function() { return {"loading_sync_history_9f342cbf":"Indlæser synkroniseringshistorik"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_settingsUnsyncedChanges",
+  function() { return {"changed_item_1d16a85f":"Ændret element","count_unsynced_changes_1fc147e5":"%{count} Usynkroniserede ændringer","there_are_no_unsynced_changes_4e8f0838":"Der er ingen usynkroniserede ændringer","type_of_change_1cb24a0e":"Ændringstype","type_of_item_8a37f69d":"Elementtype"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "theme_collection_view",
+  function() { return {"create_theme_based_on_40651ed3":"Opret tema baseret på","default_template_f2a759ed":"Standardskabelon","default_templates_are_used_as_starting_points_for__f06f9e33":"Standardskabeloner benyttes som udgangspunkter for nye temaer og kan ikke slettes.","my_themes_b72217b8":"Mine temaer","templates_4ca13d07":"Skabeloner","theme_52404e51":"Tema","themes_89bfe9c4":"Temaer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "theme_editor",
+  function() { return {"an_error_occurred_trying_to_apply_this_theme_pleas_253d0996":"Der opstod en fejl, da du forsøgte at anvende dette tema, prøv igen.","an_error_occurred_trying_to_generate_this_theme_pl_b493e2e9":"Der opstod en fejl under forsøget på at generere dette tema, prøv igen.","apply_theme_7af08387":"Benyt tema","applying_new_styles_to_subaccounts_e8aeeef2":"Anvender ny stil til underkonti","applying_please_be_patient_f7b5f244":"Anvender, vent venligst","before_implementing_custom_css_or_javascript_pleas_65423572":"Henvis til *vores dokumentation*, inden du implementerer tilpasset CSS eller Javascript.","changes_will_still_apply_if_you_leave_this_page_935cedc6":"Ændringerne gælder stadig, hvis du lukker denne side.","css_file_709e6a83":"CSS-fil","current_theme_62e5e8cf":"Nuværende tema","custom_css_and_javascript_may_cause_accessibility__93d2a823":"Tilpasset CSS og Javascript kan eventuelt forårsage tilgængelighedsproblemer med fremtidige Canvas-opdateringer!","delete_theme_918a7f24":"Slet tema?","delete_theme_bdb70d25":"Slet tema","delete_themename_8c4223a3":"Slet %{themeName}?","edit_this_theme_in_theme_editor_f8f07ac9":"Rediger dette tema i Theme Editor","exit_d0c7b013":"Afslut","file_s_will_be_included_on_all_pages_in_the_canvas_80569935":"Fil(er) inkluderes på alle sider i Canvas-skrivebordsprogram.","file_s_will_be_included_when_user_content_is_displ_5e1fa73d":"Fil(er) vil blive inkluderet, når brugerindhold er vist i Canvas iOS eller Android apps og tredjeparts apps bygget på dit API.","generating_preview_45b53be0":"Genererer forhåndsvisning ...","javascript_file_fc27c32b":"JavaScript-fil","mobile_app_css_file_abbf06bd":"Mobil app CSS-fil","mobile_app_javascript_file_faea55d5":"Mobilapp JavaScript-fil","multiple_are_marked_current_theme_because_the_same_3bdebbe1":"Flere er markeret \"Nuværende tema\", fordi de samme værdier er blevet gemt under flere navne. Dvs. hver er den samme som den, der aktuelt anvendes","open_in_theme_editor_156028e2":"Åbn i Theme Editor","percent_complete_3a7edc20":"%{percent} afsluttet","pick_a_name_to_save_this_theme_as_9773cb1a":"Vælg et navn for dette tema","preview_your_changes_373557d8":"Forhåndsvis ændringer","progress_for_account_name_ef203250":"Fremskridt for %{account_name}","reset_95a81614":"Nulstil","save_theme_36c73e6a":"Gem tema","save_theme_f706116e":"Gem tema","select_image_e1696a4d":"Vælg billede","theme_name_68f46e09":"Temanavn","there_are_no_unsaved_changes_9276e87c":"Der er ingen ændringer, der ikke er gemt","this_is_your_current_theme_4331709b":"Detter er dit nuværende tema","this_will_apply_this_theme_to_your_entire_account__4cfabbe5":"Dette vil anvende dette tema for hele din konto. Ønsker du at fortsætte?","to_preview_theme_editor_branding_you_will_need_to__462dda1a":"Du skal *slå High Contrast UI fra* for at vise branding for Theme Editor.","view_file_8a1c62e5":"Vis fil","you_are_about_to_lose_any_unsaved_changes_would_yo_e255f393":"Du er ved at miste ændringer, der ikke er gemt.\n\nØnsker du stadig at fortsætte?","you_need_to_preview_changes_before_saving_85e60232":"Du skal \"forhåndsvise ændringer\" før du gemmer","you_need_to_preview_changes_before_you_can_apply_t_212d1cca":"Du skal \"forhåndsvise ændringer\", før du kan anvende dem i din konto","you_need_to_save_before_applying_to_this_account_7436a5ae":"Du skal \"gemme\" før du anvender dette i denne konto","you_will_not_be_able_to_preview_your_changes_f7b868fb":"Du vil ikke være i stand til at vise dine ændringer på forhånd"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "community",
+  null,
+  function() { return {"admin_add_course":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-add-a-course-in-an-account-as-an-admin/ta-p/158","admin_add_users":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-add-users-to-an-account/ta-p/90","admin_app_center_allowlist":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-manage-a-whitelist-in-the-Edu-App-Center/ta-p/203","admin_custom_js_css":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-upload-custom-JavaScript-and-CSS-files-to-an-account/ta-p/253","admin_hangouts_meet_lti":"https://community.canvaslms.com/t5/Admin-Group/Google-Hangouts-Meet-LTI/ba-p/257649","admin_import_sis":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-import-SIS-data-to-a-Canvas-account/ta-p/98","admin_teams_meetings":"https://community.canvaslms.com/t5/Admin-Group/Microsoft-Teams-Meetings-in-Canvas/ba-p/256340","admin_training_services_portal":"https://community.canvaslms.com/t5/Admin-Guide/How-do-I-use-the-Training-Services-Portal-as-an-admin/ta-p/198","admin_zoom_meetings_faq":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826","admin_zoom_meetings_faq_add":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--1295024148","admin_zoom_meetings_faq_camera":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--1619578790","admin_zoom_meetings_faq_invite":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--361560439","admin_zoom_meetings_faq_mute":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--810232164","admin_zoom_meetings_faq_participants":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--237443356","admin_zoom_meetings_faq_record":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--1980253691","admin_zoom_meetings_faq_schedule":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId-447786187","admin_zoom_meetings_faq_screenshare":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId-123231545","admin_zoom_meetings_faq_share_record":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId-1866041880","admin_zoom_meetings_faq_start":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--1170907065","admin_zoom_meetings_faq_storage":"https://community.canvaslms.com/t5/Admin-Group/Using-Zoom-with-Canvas-FAQ/ba-p/261826#toc-hId--1387179659","basics_announcements":"https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-Announcements/ta-p/39","basics_collaborations":"https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-Collaborations/ta-p/61","basics_speedgrader":"https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13","contingency_30_minute_quickstart":"https://community.canvaslms.com/t5/Contingency-Planning/Set-Up-Your-Canvas-Course-in-30-minutes-or-Less/ba-p/258437","contingency_web_conferencing":"https://community.canvaslms.com/t5/Contingency-Planning/Web-Conferencing-Resources/ba-p/262674","guides_home":"https://community.canvaslms.com/t5/Canvas/ct-p/canvas","instructor_add_announcement":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-announcement-in-a-course/ta-p/1194","instructor_add_dashboard_image":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-image-to-a-course-card-in-the-Dashboard/ta-p/624","instructor_add_module":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-a-module/ta-p/1151","instructor_add_module_items":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-course-content-as-module-items/ta-p/1157","instructor_add_rubric_assignment":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-a-rubric-to-an-assignment/ta-p/1058","instructor_add_rubric_course":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-a-rubric-in-a-course/ta-p/842","instructor_add_users":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-users-to-a-course/ta-p/1119","instructor_adjust_dates_on_import":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-adjust-events-and-due-dates-in-a-course-import/ta-p/1090","instructor_align_outcome_rubric":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-align-an-outcome-with-a-rubric-in-a-course/ta-p/1130","instructor_assignment_details":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-or-edit-details-in-an-assignment/ta-p/971","instructor_assignment_types":"https://community.canvaslms.com/t5/Instructor-Guide/What-assignment-types-can-I-create-in-a-course/ta-p/627","instructor_bulk_upload":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-bulk-upload-files-to-a-course/ta-p/623","instructor_change_course_home":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-change-the-Course-Home-Page/ta-p/1035","instructor_change_name_code":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-change-a-course-name-and-course-code/ta-p/1234","instructor_conclude_conference":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-conclude-a-conference/ta-p/606","instructor_copy_course":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-copy-a-Canvas-course-into-a-new-course-shell/ta-p/712","instructor_create_assignment":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-an-assignment/ta-p/740","instructor_create_conference":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-conference-in-a-course/ta-p/1156","instructor_create_discussion":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-discussion-as-an-instructor/ta-p/1029","instructor_create_gdrive_collaboration":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-Google-Drive-collaboration-as-an-instructor/ta-p/632","instructor_create_new_quiz":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-an-assessment-using-New-Quizzes/ta-p/1173","instructor_create_o365_collaboration":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-Microsoft-Office-365-collaboration-as-an/ta-p/629","instructor_create_outcome":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-an-outcome-for-a-course/ta-p/862","instructor_create_outcome_group":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-outcome-groups-for-a-course/ta-p/1128","instructor_create_page":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-new-page-in-a-course/ta-p/1031","instructor_create_quiz_questions":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-create-a-quiz-with-individual-questions/ta-p/1248","instructor_edit_announcement":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-edit-an-announcement-in-a-course/ta-p/1190","instructor_edit_gradebook":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-enter-and-edit-grades-in-the-Gradebook/ta-p/724","instructor_edit_syllabus":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-edit-the-Syllabus-in-a-course/ta-p/1178","instructor_gradebook_individual_view":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-assignments-or-students-individually-in-the/ta-p/1247","instructor_guide":"https://community.canvaslms.com/t5/Instructor-Guide/tkb-p/Instructor","instructor_homepage_layout_options":"https://community.canvaslms.com/t5/Instructor-Guide/What-layout-options-are-available-in-the-Course-Home-Page-as-an/ta-p/1291","instructor_import_outcomes":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-import-outcomes-for-a-course/ta-p/702","instructor_import_package":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-import-a-Canvas-course-export-package/ta-p/795","instructor_individual_new_analytics":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-analytics-for-an-individual-student-in-New/ta-p/801","instructor_manage_new_quizzes_settings":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manage-settings-for-an-assessment-in-New-Quizzes/ta-p/581","instructor_manage_rubrics":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manage-rubrics-in-a-course/ta-p/1017","instructor_message_all_criteria_new_analytics":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-send-a-message-to-all-students-based-on-specific-course/ta-p/1162","instructor_message_individual_new_analytics":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-send-a-message-to-an-individual-student-in-New/ta-p/1187","instructor_notification_preferences":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-set-my-Canvas-notification-preferences-as-an-instructor/ta-p/1222","instructor_organize_files":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-move-and-organize-my-files-as-an-instructor/ta-p/622","instructor_post_grades":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-post-grades-for-an-assignment-in-the-Gradebook/ta-p/576","instructor_publish_assignment":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-an-assignment-as-an-instructor/ta-p/585","instructor_publish_discussion":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-a-discussion-as-an-instructor/ta-p/590","instructor_publish_module":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-a-module-as-an-instructor/ta-p/571","instructor_publish_page":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-a-page-as-an-instructor/ta-p/592","instructor_quiz_options":"https://community.canvaslms.com/t5/Instructor-Guide/What-options-can-I-set-in-a-quiz/ta-p/683","instructor_quiz_statistics":"https://community.canvaslms.com/t5/Instructor-Guide/Once-I-publish-a-quiz-what-kinds-of-quiz-statistics-are/ta-p/659","instructor_record_conference":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-record-a-conference/ta-p/840","instructor_reorder_module":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-move-or-reorder-a-module/ta-p/1150","instructor_reply_discussion":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-reply-to-a-discussion-as-an-instructor/ta-p/1110","instructor_select_import_content":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-select-specific-content-as-part-of-a-course-import/ta-p/1091","instructor_set_course_details":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-set-details-for-a-course/ta-p/1037","instructor_set_front_page":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-set-a-Front-Page-in-a-course/ta-p/797","instructor_speedgrader_submission_details":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-the-details-of-a-submission-for-a-student-in/ta-p/762","instructor_start_conference":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-start-a-conference/ta-p/1074","instructor_upload_course_file":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-upload-a-file-to-a-course/ta-p/618","instructor_use_announcements_index":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Announcements-Index-Page/ta-p/1113","instructor_use_collaborations_index":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Collaborations-Index-Page/ta-p/922","instructor_use_course_homepage":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Course-Home-Page-as-an-instructor/ta-p/1250","instructor_use_course_settings":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-course-settings/ta-p/1267","instructor_use_files":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-Files-as-an-instructor/ta-p/929","instructor_use_gradebook":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Gradebook/ta-p/701","instructor_use_mastery_gradebook":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Learning-Mastery-Gradebook-to-view-outcome/ta-p/775","instructor_use_outcomes":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-outcomes-page-in-a-course/ta-p/645","instructor_use_pages_index":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Pages-Index-Page/ta-p/1005","instructor_use_people_page":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-People-page-in-a-course-as-an-instructor/ta-p/667","instructor_use_quizzes_index":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Quizzes-Index-Page/ta-p/1104","instructor_use_syllabus":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-the-Syllabus-as-an-instructor/ta-p/638","instructor_view_discussion_replies":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-and-sort-discussion-replies-as-an-instructor/ta-p/908","instructor_view_enrollment_details":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-user-details-for-an-enrollment-in-a-course/ta-p/1216","instructor_view_student_context_card":"https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-a-context-card-for-a-student-in-a-course/ta-p/608","new_quizzes_feature_comparison":"https://community.canvaslms.com/t5/New-Quizzes-Users/New-Quizzes-Feature-Comparison/ta-p/243761","resource_course_content_distribution_comparison":"https://community.canvaslms.com/t5/Resource-Documents/Blueprint-Courses-and-Canvas-Commons-Comparison-PDF/ta-p/387051","resource_pairing_codes_faq":"https://community.canvaslms.com/t5/Resource-Documents/Pairing-Codes-FAQ-PDF/ta-p/388738"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "appointment_groups",
+  function() { return {"allow_students_to_see_who_was_signed_up_for_time_s_37f5cb01":"Giv eleverne mulighed for at se, hvem der har tilmeldt sig tidsrum, der stadig er tilgængelige","an_error_ocurred_while_deleting_the_appointment_gr_4948bbc5":"Der opstod en fejl under sletning af gruppen for denne aftale","an_error_ocurred_while_saving_the_appointment_grou_e19452cd":"Der opstod en fejl under lagring af gruppen for denne aftale","create_slots_71dbb2f8":"Opret tidsrum","delete_group_86c381ec":"Slet gruppe","divide_into_equal_slots_value_is_in_minutes_13fe14d2":"Opdel i lige tidsrum (værdi i minutter)","divide_into_equal_time_slots_in_minutes_234312fa":"Opdel i lige tidsvinduer (i minutter","edit_pagetitle_cd8abab9":"Rediger %{pageTitle}","end_time_250391e8":"Sluttidspunkt","limit_each_time_slot_to_input_value_user_s_47461538":"Begræns hvert tidsrum til %{input_value} bruger(e). ","limit_students_to_attend_input_value_slot_s_9a5bf576":"Begræns eleverne til at deltage i %{input_value} tidsrum. ","must_be_a_number_0_e6ec3e78":"Skal være et tal \u003e= 0","select_calendars_d5fa50b6":"Vælg kalendere","start_date_start_time_to_end_time_dc676ce1":"%{start_date}, %{start_time} til %{end_time}","start_time_2c3d11b5":"Starttidspunkt","you_are_here_54075d8c":"Du er her:","you_must_allow_at_least_one_appointment_per_partic_c142139c":"Du skal tillade mindst én aftale pr deltager.","you_must_allow_at_least_one_appointment_per_time_s_76e22300":"Du skal tillade mindst én aftale pr. tidsrum.","you_must_provide_a_value_or_unselect_the_option_3b28b754":"Du skal angive en værdi eller fravælge indstillingen."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "contextname_and_count_others_9dda769b",
+  null,
+  function() { return {"one":"%{contextName} og %{count} anden","other":"%{contextName} og %{count} andre"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "calendar",
+  function() { return {"additional_occurrence_s_7b5b0173":"yderligere forekomst(er)","all_day_fb42c4fc":"Hele dagen","allow_students_to_see_who_has_signed_up_for_time_s_7eb1d0ef":"Giv eleverne mulighed for at se tidsrum, der stadig er tilgængelige.","and_more_1c35b232":"og mere ...","appends_a_number_to_the_end_of_each_event_title_e__bca98abd":"Føjer et tal til afslutningen af hver begivenhedsoverstitel (f.eks. Begivenhed 1, Begivenhed 2 osv.)","are_you_sure_you_want_to_cancel_your_appointment_w_dbbd27eb":"Er du sikker på, du vil annullere din aftale med %{name}?","are_you_sure_you_want_to_delete_this_discussion_334554e0":"Er du sikker på, at du vil slette denne diskussion?","are_you_sure_you_want_to_delete_this_event_824b1e33":"Er du sikker på, du vil slette denne begivenhed?","are_you_sure_you_want_to_delete_this_page_2185844":"Er du sikker på, at du ønsker at slette denne side?","are_you_sure_you_want_to_delete_this_to_do_item_497016ea":"Er du sikker på, du vil slette denne Opgaveliste?","are_you_sure_you_want_to_delete_your_reservation_t_5ae87209":"Er du sikker på, at du vil slette din reservation til denne begivenhed?","assignment_has_a_locked_date_due_date_cannot_be_se_2e2e3389":"Opgaven har en låst dato. Afleveringsdato kan ikke indstilles uden for låst datointerval.","assignment_title_82b4422e":"Opgavetitel:","availableslots_available_87b8b69d":"%{availableSlots} tilgængelige","availableslots_more_available_be5193a8":"%{availableSlots} mere tilgængelig","calendar_a8563bb2":"Kalender:","calendar_contextinfo_name_a7d98525":"Kalender %{contextInfo.name}","completed_9b809e44":"fuldført","conferencing_6a6d9b55":"Konferencer","confirm_reservation_removal_e6350e7c":"Bekræft fjernelse af reservation","course_section_name_ea880ed1":"Fag-sektion %{name}","details_a6f427c3":"Detaljer:","divide_into_equal_slots_of_num_minutes_minutes_go_52caee81":"Del i ens rubrikker på %{num_minutes} minutter. *Gå til*","do_nothing_9672b478":"Gør intet","due_date_is_required_cdb75f25":"Afleveringsdato er påkrævet!","due_dueat_ef67f6f4":"Forfalder: %{dueAt}","ends_at_9a62b528":"Slutter kl.","event_creation_failed_71b75bea":"Oprettelse af begivenhed mislykkedes","event_date_c9459fe3":"Begivenhedsdato","event_date_f05219e7":"Begivenhedsdato:","event_title_57a50568":"Begivenhedstitel:","event_update_failed_b6116651":"Opdatering af begivenhed mislykkedes","every_665d821e":"Hver","failed_loading_course_sections_refresh_page_to_try_f97160bf":"Lastning af fag-sektioner mislykkedes. Opdater side for at prøve igen.","filled_5d8c39e":"Udfyldt","go_back_ed239e69":"Gå tilbage","group_details_e51122f1":"Gruppedetaljer","input_event_title_1d4c8b10":"Input begivenhedstitel","limit_each_time_slot_to_num_participants_groups_us_14ec4d65":"Begræns hver tidsrum til %{num_participants} *grupper.* **brugere.**","limit_participants_to_attend_num_appointments_appo_dd3fd62f":"Begræns deltagere til %{num_appointments} aftale(r).","limit_this_slot_to_input_type_number_name_max_part_1580add0":"Begræns dette tidsrum til %{input_type_number_name_max_parti} grupper.","limit_this_slot_to_input_type_number_name_max_part_8344547a":"Begræns dette tidsrum til %{input_type_number_name_max_parti} brugere.","month_s_5c17590e":"Måned(er)","n_contextscount_more_2f708db4":"+ %{n_contextsCount} mere","no_date_bfeb2df7":"Ingen dato","not_all_sections_will_be_assigned_this_item_4e2b8eaa":"Ikke alle sektioner tildeles dette element.","not_completed_55fb4c00":"Ikke afsluttet","open_event_menu_for_783510e3":"Åbn begivenhedsmenu for","open_name_color_picker_a2646a33":"Åbn %{name} farvevælger","publish_aa888e3c":"Offentliggør:","remove_attendee_name_55165070":"Fjern tilstedeværende %{name}","reschedule_9f780bb8":"Flyt","reserved_by_d563e7d2":"Reserveret af: ","reserved_by_you_cd03b62d":"Reserveret af dig","save_publish_36440725":"Gem og offentliggør","starts_at_29843f98":"Starter ved","the_event_was_successfully_created_31326d98":"Begivenheden blev oprettet","the_event_was_successfully_updated_45944cd7":"Begivenheden blev opdateret","the_next_available_appointment_in_this_course_is_o_da10316c":"Den næste tilgængelige aftale i dette fag er d. *%{date}*","there_are_no_available_signups_for_this_course_26b05c56":"Der er ingen ledige tilmeldinger til dette fag.","title_is_required_8bb13295":"Titel er påkrævet!","to_do_5526f10a":"Opgaveliste:","to_do_item_d76ecb78":"Opgaveliste-element","unreserved_e86b7425":"Ikke reserveret","week_s_cb1492ee":"Uge(r)","would_you_like_to_go_back_to_include_1d279044":"Vil du gerne gå tilbage for at inkludere:"} },
+  function() { return {"agenda_view":{"due":"Forfalder","loading":"Indlæser","no_events":"*Ingen begivenheder efter denne dato.*"},"agenda_view_displaying_start_end":"Viser nu %{start} til og med %{end}","buttons":{"cancel":"Annuller","send_message":"Send","sending_message":"Sender ..."},"calendar_header":{"create_event":"Opret ny begivenhed","done_go_back_to_list":"Færdig, gå tilbage til listen","links":{"calendar_agenda":"Dagsorden","calendar_month":"Måned","calendar_week":"Uge","improved_accessibility_recommend_agenda":"Advarsel: Brug kalenderen \"Dagsordenvisning\" for forbedret tilgængelighed."},"loading":"Indlæser","my_appointment_groups":"Mine aftalegrupper"},"calendar_navigator":{"enter_navigation_date":"Indtast den dato, du gerne vil navigere til","next":"Næste","previous":"Forrige","today":"I dag"},"calendar_title":"Kalender:","context_selector":{"done":"Udført"},"delete_item":{"deletion_reason":"Årsag til sletning:"},"edit":{"confirm_delete_calendar_event":"Er du sikker på, du vil slette denne kalenderbegivenhed?","event_deleted":"%{event_title} slettet","event_saved":"Begivenhed gemt","missingDueDate":{"one":"%{sections} har ikke fået tildelt afleveringsdato.","other":"%{sections} har ikke fået tildelt afleveringsdato."},"titles":{"warning":"Advarsel"}},"edit_appointment_group":{"affect_reservations":"Hvordan påvirke dette reservationer?","appt_group_options_help1":"Nogle eksisterende reservationer er over den grænse, som du har tilføjet. Disse påvirkes ikke. Denne ændring forhindrer blot, at der foretages nye reservationer.","appt_group_options_help2":"Du kan dog manuelt slette alle eksisterende reservationer.","calendar":"Kalender","date":"Dato","details":"Detaljer:","group_category":"Gruppekategori","group_signup":"Bed eleverne om at tilmelde sig i grupper.","location":"Placering","name":"Navn","time_range":"Tidsinterval"},"edit_appt_calendar_event":{"description":"Beskrivelse:"},"edit_assignment":{"calendar":"Kalender:","due":"Forfalder:","group":"Gruppe:","links":{"more_options":"Flere muligheder:"},"title":"Overskrift:"},"edit_assignment_override":{"calendar":"Kalender:","due":"Forfalder:","links":{"more_options":"Flere muligheder:"}},"edit_calendar_event":{"calendar":"Kalender:","date":"Dato:","from":"Fra:","links":{"more_options":"Flere muligheder:"},"location":"Sted:","timespan_separator":"til","title":"Overskrift:"},"edit_calendar_event_full":{"buttons":{"create":"Opret begivenhed","update":"Opdater begivenhed"},"date":"Dato","delete":"Slet","different_date_for_each_section":"Brug en ny dato til hver enkel sektion","edit_calendar_event_header":"Rediger kalenderbegivenhed","end_time":"Sluttidspunkt","event_description":"Begivenhedsbeskrivelse","location_address":"Adresse:","location_name":"Sted:","new_calendar_event_header":"Ny kalenderbegivenhed","repeat":"Dupliker","start_time":"Starttidspunkt"},"edit_event":{"tabs":{"appointment_group":"Aftalegruppe","assignment":"Opgave","event":"Begivenhed","todo":"Min opgaveliste"}},"edit_planner_note":{"calendar":"Kalender:","date":"Dato:","time":"Tidspunkt:","title":"Overskrift:"},"edit_to_do_item":{"date":"Dato:","links":{"more_options":"Flere muligheder:"},"time":"Tid:","title":"Overskrift:"},"end_before_start_error":"Starttidspunkt skal være før sluttidspunkt","ends_in_past_error":"Du kan ikke oprette et tidsrum til aftaler, som slutter i fortiden","errors":{"send_message_failed":"Der opstod en fejl ved afsendelse af din besked, prøv igen"},"event_details":{"attendees":"Tilstedeværende","calendar":"Kalender","close":"Luk","details":"Nærmere oplysninger","links":{"delete":"Slet","edit":"Rediger","reserve":"Reserver","unreserve":"Slet reservering"},"location":"Placering","location_address":"Adresse","message_students":"Send besked til eleverne","slots_available":"Tilgængelige tidsrum"},"event_on_this_day":"Der findes en begivenhed på den pågældende dag","loading_more_items":"Indlæser flere elementer.","loading_undated_events":"Indlæser udaterede begivenheder","message_participants":{"all_groups":"Alle grupper","all_users":"Alle brugere","message_groups":"Send besked til grupper","message_label":"Besked:","message_students":"Send besked til elever","registered_groups":"Grupper, som allerede har tilmeldt sig","registered_users":"Brugere, som allerede har tilmeldt sig","send_message_to":"Send en besked til ...","unregistered_groups":"Grupper, som endnu ikke har tilmeldt sig","unregistered_users":"Brugere, som endnu ikke har tilmeldt sig"},"messages_sent":"Beskeder sendt","name_is_required":"Navn påkrævet!","no_dates_error":"Du skal specificere mindst en dato og tidspunkt","no_groups":"Ikke fundet nogen grupper","no_users":"Ikke fundet nogen brugere","open_appointment_on_this_day":"Der findes en åben aftale på den dag","prompts":{"delete_assignment":"Er du sikker på, du vil slette denne opgave?","delete_override":"Er du sikker på, at du vil slette denne tilsidesættelse af opgaven?"},"reservation_over_limit_dialog":{"appointment_limit_reached":"Grænse for aftaler er nået","cancel_existing_reservation":"Annuller eksisterende reservation og meld dig til denne?","cancel_some_appointments_and_try_again":"Du bedes slette en af dine andre reservationer og prøve igen.","would_you_like_to_cancel_that_and_sign_up_for_this":"Vil du gerne annullere den og melde dig til denne?","you_are_already_signed_up_for":"Du er allerede tilmeldt:"},"time_block_errors":"Der findes fejl i dine markerede tidsblokke.","time_block_row":{"date_label":"Dato","delete_link":"Slet tidsinterval","end_time_label":"Sluttidspunkt","start_time_label":"Starttidspunkt"},"titles":{"edit_event":"Rediger begivenhed"},"today":"I dag","undated_events":{"loading_undated_events":"Indlæser udaterede elementer ...","no_undated_events":"Ingen udaterede elementer.","show_undated_events":"Vis udaterede elementer"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "context_sector",
+  function() { return {"hide_course_sections_for_course_name_bd1911af":"Skjul fag-sektioner for fag %{name}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "EditAppointmentGroupDetails",
+  function() { return {"max_users_groups_per_appointment_867c505b":"Maks. brugere/grupper pr. aftale","maximum_number_of_appointments_a_participant_can_a_70dfd6cd":"Maksimalt antal aftaler, som en deltager kan deltage i","minutes_per_slot_5b7169e5":"Minutter pr. tidsrum"} },
+  function() { return {"affect_reservations":"Hvordan påvirke dette reservationer?","and_n_contexts":"og %{n} andre","and_n_sectionCodes":"og %{n} andre","bad_max_appts":"Du skal tillade mindst en aftale pr. deltager","bad_per_slot":"Du skal tillade mindst et aftale pr. tidsrum","context_required":"Du skal vælge en kalender","select_calendars":"Vælg kalendere"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "appt_calendar_event_dialog",
+  function() { return {"you_must_allow_at_least_one_group_to_attend_68531eab":"Du skal tillade, at mindst en gruppe deltager"} },
+  function() { return {"invalid_participants":"Du skal tillade, at mindst en bruger deltager","title":"Rediger %{name}","update":"Opdatering"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "react_scheduler",
+  function() { return {"find_appointment_85d6922e":"Find aftale"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "choose_mastery_path",
+  function() { return {"assignment_path_selected_e80191d1":"Opgavesti valgt","choose_assignment_path_8ea55f3a":"Vælg opgavesti","option_index_6308524d":"Mulighed %{index}","select_one_of_the_options_c8b0c6e4":"Vælg en af ​​mulighederne:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "collaborations",
+  function() { return {"collaboration_creation_failed_95ff831f":"Oprettelse af samarbejde mislykkedes","collaboration_update_failed_eb6622f3":"Opdatering af samarbejde mislykkedes","collaboration_was_deleted_9cf9934b":"Samarbejdet blev slettet"} },
+  function() { return {"collaboration":{"delete":"Er du sikker på, at du vil slette dette samarbejde?"},"collaborator_picker":{"labels":{"available_groups":"Tilgængelige grupper","available_users":"Tilgængelige brugere","collaborate_with":"Samarbejd med:","collaboration_members":"Samarbejdsmedlemmer","groups":"Grupper","loading":"Indlæser","people":"Deltagere","remove_all":"Fjern alle"},"member_instructions":"Klik på en bruger eller gruppe i den venstre kolonne for at tilføje samarbejdspartnere."},"edit":{"buttons":{"cancel":"Annuller","update":"Opdater samarbejde"},"labels":{"description":"Beskrivelse:","title":"Samarbejdstitel"}},"errors":{"no_name":"Indtast et navn til dette samarbejde.","title_too_long":"Brug %{maxLength} tegn eller mindre til navnet. Brug beskrivelsen for yderligere indhold."},"titles":{"delete":"Slette samarbejde?"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "conferences",
+  function() { return {"add_conference_7bcc625b":"Tilføj konference","add_conferencing_9f4ccded":"Tilføj konferencer","add_name_db699e72":"Tilføj %{name}","add_toolname_4e17dc90":"Tilføj %{toolName}","are_you_sure_you_want_to_delete_this_recording_a4aab14b":"Er du sikker på, at du vil slette denne optagelse?","conference_36b50fda":"Konference","conference_has_been_removed_f771cb11":"Konference er blevet fjernet","conference_has_been_updated_title_2bacc5fa":"Konference er blevet opdateret: %{title}","conference_was_deleted_30869390":"Konferencen blev slettet","count_recording_5ba8a655":"%{count} Optager","count_recordings_9f8e4148":"%{count} optagelser","creating_conference_95b59116":"Opretter en konference","edit_conference_title_6e234815":"Rediger \"%{conference_title}\"","name_conference_8e042dd2":"%{name} konference","new_conference_8b483024":"Ny konference","no_conferencing_options_enabled_fc00e371":"Ingen konferenceindstillinger aktiveret","no_valid_lti_resource_was_returned_11f7f91f":"Ingen gyldig LTI-ressource blev returneret","pick_the_date_and_time_for_the_following_conferenc_e9f91edd":"Vælg en dato og tidspunkt for følgende konferenceindstilling:","recording_was_deleted_b989eaff":"Optagelsen blev slettet","remove_all_course_observer_members_4622c70d":"Fjern alle fagobservatørmedlemmer","remove_conference_title_207d32c0":"Fjern konference: %{title}","select_conference_provider_58c7f7fe":"Vælg konferenceudbyder","sorry_the_action_performed_on_this_recording_faile_2a1badda":"Beklager, den handling, der blev udført på denne optagelse, mislykkedes. Prøv igen senere","unknown_conference_c4f13ad0":"Ukendt konference","use_arrow_keys_to_select_a_conference_provider_c5b456a6":"Brug piletasterne til at vælge en konferenceudbyder"} },
+  function() { return {"concluded_conference":{"delete":"Slet","recording":"1 optagelse","recordings":"%{recordingCount} optagelser","settings":"Indstillinger","type":"%{type}"},"confirm":{"close":"Er du sikker på, at du vil afslutte denne konference?\n\nDu kan ikke åbne den igen.","delete":"Er du sikker på, at du vil slette denne konference?"},"edit_conference_form":{"advanced_settings":"Administrering af avancerede indstillinger ...","conference_type":"Type","description":"Beskrivelse","duration":"Varighed","duration_in_minutes":"minutter","invite_all":{"course":"Inviter alle deltagere af faget","group":"Inviter alle gruppemedlemmer"},"long_running":"Ingen tidsbegrænsning (for længerevarende konferencer)","members":"Medlemmer","name":"Navn","options":"Muligheder"},"loading_urls_message":"Indlæser, vent venligst ...","multiple_urls_message":"Der findes flere tilgængelige %{type}-sider til denne konference. Du skal vælge en:","new_conference":{"delete":"Slet","edit":"Rediger","end_it_now":"Slut","in_progress":"I gang","join":"Deltag","recording":"1 optagelse","recordings":"%{recordingCount} optagelser","settings":"Indstillinger","start":"Start","type":"%{type}"},"no_concluded_conferences":"Der findes ingen afsluttede konferencer","no_new_conferences":"Der findes ingen nye konferencer","no_urls_error":"Beklager, det ser ud som om, der endnu ikke findes %{type}-sider til denne konference.","notifications":{"inaccessible":"Advarsel: Denne side indeholder indhold fra tredjepart, som ikke er tilgængeligt for skærmlæsere."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "conferences_alternatives",
+  function() { return {"conferences_powered_by_bigbluebutton_is_unable_to__37ef28fe":"Konferencer, drevet af BigBlueButton, kan ikke håndtere den aktuelle efterspørgsel.  Overvej at opgradere til\n        Premium BigBlueButton, eller brug en af følgende videokonferenceudbydere.  Kontakt din lokale\n        admin for yderligere vejledning.","google_meet_f896b61c":"Google Meet","if_your_school_uses_microsoft_teams_you_can_use_th_992dff59":"Hvis din skole bruger Microsoft Teams, kan du bruge Enhanced Rich Content Editor (RCE) til let at tilføje et teamrum, mens du opretter kalenderbegivenheder, beskeder, diskussionsindlæg og mere.","learn_how_to_use_google_meet_in_canvas_3e7aadd9":"Lær, hvordan du bruger Google Meet på Canvas","learn_how_to_use_microsoft_teams_in_canvas_8b79dde":"Lær, hvordan du bruger Microsoft Teams på Canvas","microsoft_teams_99cb45c0":"Microsoft Teams","paste_google_meet_links_into_calendar_events_annou_2e363fc7":"Indsæt Google Meet-links i kalenderbegivenheder, beskeder, diskussioner og alle steder du bruger Rich Content Editor (RCE)","paste_zoom_into_calendar_events_announcements_disc_d873358e":"Indsæt Zoom i kalenderbegivenheder, beskeder, diskussioner og alle steder du bruger Rich Content Editor (RCE).","to_create_a_link_you_can_use_in_canvas_you_ll_need_5c6d93e4":"for at oprette et link, du kan bruge i Canvas. Du skal oprette en Zoom-konto, hvis du ikke allerede har en.","to_create_a_link_you_can_use_in_canvas_you_ll_need_7dd85497":"for at oprette et link, du kan bruge i Canvas. Du skal bruge en Google-konto for at bruge Google Meet.","visit_google_meet_ebdaf94f":"Besøg Google Meet","visit_zoom_14636084":"Besøg Zoom"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "content_exports",
+  function() { return {"your_content_has_been_exported_bbb57764":"Dit indhold er blevet eksporteret"} },
+  function() { return {"buttons":{"process":"Behandling af data"},"errors":{"error":"Der opstod en fejl under eksporten af dit indhold. Kontakt din systemadministrator og giv dem følgende eksport identifikator: \"%{code}\""},"messages":{"processing":"Behandler","this_may_take_a_bit":"det kan tage lidt tid ..."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "content_migrations",
+  function() { return {"beginning_date_2d2a29ac":"Begyndelsesdato","change_beginning_date_to_39dbd06e":"Ændr begyndelsesdato til","change_ending_date_to_d2cebd54":"Ændr slutdato til","content_import_files_cannot_be_downloaded_after_en_7e3a2099":"Indholdsimportfiler kan ikke downloades efter %{ENV.CONTENT_MIGRATIONS_EXPIRE_DA} dage.","content_migration_queued_46c27790":"Indholdsoverførsel sat i kø","download_attachment_filename_8cc17629":"Download %{attachment.filename}","ending_date_e1ea13a4":"Slutdato","file_not_available_1869c733":"fil ikke tilgængelig","importing_course_content_into_the_same_course_will_b09c69e":"Import af fagindhold i det samme fag kopierer indhold den første gang, og overskriver duplikater, hvis proceduren gentages.","pre_processing_92865c1d":"Forbehandling","select_content":"Vælg indhold","this_option_is_not_compatible_with_new_quizzes_ed489d7c":"Denne indstilling er ikke kompatibel med New Quizzes","uploading_progress_2f5dd4bf":"Upload-status","waiting_for_selection_ce0398c7":"Venter på valg","you_must_select_a_course_to_copy_content_from_e7bd9e09":"Du skal vælge et fag til at kopiere indhold fra","you_must_select_a_folder_to_upload_your_migration__ac7bc7c0":"Du skal vælge en mappe at uploade din overførsel til"} },
+  function() { return {"canvas_export":{"content":"Indhold","options":"Muligheder"},"common_cartridge":{"content":"Indhold","options":"Muligheder"},"content_migration":"Indholdsoverførsel","content_migration_issue":{"error_report":"Fejlrapport"},"copy_course":{"content":"Indhold","options":"Muligheder"},"external_tool_content":{"content":"Indhold"},"file_required":"Du skal vælge en fil til at importere indhold fra","file_too_large":"Din overførsel må ikke overskride %{file_size}","hide_issues":"Skjul problemer","issues":"problemer","loading":"Indlæser ...","migration_converter":{"cancel_migration":"Annuller","default_option":"Vælg en","header":"Importér indhold","import_from_label":"Indholdstype","import_migration":"Importer"},"moodle_zip":{"content":"Indhold","options":"Muligheder"},"no_content_selected":"Du har ikke valgt noget indhold, der skal importeres.","no_day_substitutions":"Der er ikke tilføjet erstatninger for dage","no_migrations_running":"Der findes ingen kørende overførsler på nuværende tidspunkt","progressing_content_migration":{"issues_text":"problemer","select_content":"Vælg indhold","show_issues":"Vis problemer"},"progressing_content_migration_collection":{"no_items":"Der er ikke sat jobs i kø","progress_label":"Aktuelle jobs"},"progressing_issues":{"loading":"Indlæser"},"qti_zip":{"options":"Muligheder"},"select_content":{"cancel_btn":"Annuller","select_content_btn":"Vælg indhold","select_content_label":"Vælg indhold, brug op- og ned-piletasterne til at navigere gennem træet. Tryk til højre for at udvide og venstre for at skjule"},"show_issues":"Vis problemer","subviews":{"choose_migration_file":{"migration_text":"Kilde"},"course_find_select":{"course_name":"Fagets titel","include_completed_courses":"Inkluder fuldførte fag","or":"eller","search_label":"Søg efter et fag","select_default":"Vælg et fag"},"date_shift":{"add_day_sub_title":"Opret erstatningsdag","beginning_change_to":"ændr til","beginning_date":"Begyndelsesdato","checkbox_label":"Tilpas begivenheder og afleveringsdatoer","date_adjustment":"Datotilpasning","ending_change_to":"ændr til","ending_date":"Slutdato","remove_dates":"Fjern datoer","shift_dates":"Skift datoer","substitution":"Erstatning"},"day_substitution":{"move_from":"Flyt fra","move_from_select_label":"Flyt fra dag i ugen","move_from_select_title":"Flyt fra dag i ugen","move_to_select_label":"Flyt til dag i ugen","move_to_select_title":"Flyt til dag i ugen","remove_day_substitution_link":"Fjern erstatningsdag","remove_day_substitution_link_label":"Fjern erstatningsdag","to_happen_on":"til"},"external_tool_launch":{"course":"Fag","find_a_course":"Find et fag"},"folder_picker":{"default_select_folder":"Vælg mappe","upload_to":"Upload til"},"import_quizzes_next_view":{"import_new_quizzes":"Importer eksisterende quizzer som *New Quizzes*","import_new_quizzes_help_text":"New Quizzes er den nye vurderingsfunktion i Canvas.%{p_p}For at lære mere skal du kontakte din systemadministrator eller besøge","import_quizzesNext_help_label":"Importér vurdering som New Quizzes-hjælpeikon","import_quizzesNext_help_title":"New Quizzes","import_quizzesNext_help_title_icon":"Importér vurdering som New Quizzes-hjælpeikon"},"overwrite_assessment_content":{"assessment_help_label":"Overskriv ikon for bedømmelseshjælp","assessment_help_text":"Nogle systemer genbruger deres id'er til hver ny eksport. Som følge vil de have samme id, hvis du eksporterer to separate spørgsmålsbanker. For at undgå at miste bedømmelsesdata, behandler vi disse objekter som forskellige til trods for id'erne. Valg af denne mulighed deaktiverer denne sikkerhedsfunktion og gør det muligt at overskrive eksisterende data med samme id'er.","assessment_help_title":"Overskriv bedømmelseshjælp","assessment_help_title_icon":"Overskriv ikon for bedømmelseshjælp","overwrite_assessment_content":"Overskriv bedømmelsesindhold med matchende id'er"},"question_bank":{"aria_new_label":"Opret ny spørgsmålsbank","create_new_question":"-- Opret ny spørgsmålsbank --","default_question_bank_label":"Standard spørgsmålsbank","question_bank_placeholder":"Navn på spørgsmålsbank","question_bank_placeholder_aria":"Indtast nyt navn på spørgsmålsbank","question_bank_title":"Nyt navn til spørgsmålsbank","question_banks_disabled":"Denne indstilling er blevet deaktiveret","select_question_bank":"Vælg spørgsmålsbank"},"select_content_checkbox":{"select_all_content":"Alt indhold","select_specific_content":"Vælg specifikt indhold"}},"upload_warning":"Uploadprocessen annulleres, hvis man navigerer væk fra denne side.","uploading":"Uploader ..."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_sub_modules_3373a1c4",
+  null,
+  function() { return {"one":"%{count} underforløb","other":"%{count} underforløb"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "progressbar_view",
+  function() { return {"content_migration_running_percent_complete_4b00c024":"Indholdsoverførsel kører, %{percent}% afsluttet"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "content_share",
+  function() { return {"are_you_sure_you_want_to_remove_this_item_7887ce31":"Er du sikker på, du vil fjerne dette element?","content_shared_by_others_to_you_5a40bb2c":"Indhold, som andre har delt med dig","content_shares_received_view_error_page_c7021a4a":"Modtaget indholdsdeling - vis fejlside","import_e929507b":"Importer ...","name_mark_as_read_cc9e5fd6":"%{name} marker som læst","name_mark_as_unread_abd650da":"%{name} marker som ulæst","no_content_has_been_shared_with_you_667fde6c":"Intet indhold er blevet delt med dig.","pending_3e506a5b":"Afventer","received_7689640e":"Modtaget","received_content_53049822":"Modtaget indhold","shared_content_803ac37b":"Delt indhold","the_list_below_is_content_that_has_been_shared_wit_2b2648bc":"Listen herunder er indhold, der er blevet delt med dig. Du kan få vist indholdet, importere det til dit fag eller fjerne det fra listen.","there_was_an_error_removing_the_item_f8324776":"Der opstod en fejl under fjernelsen af elementet"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_shared_items_loaded_ef94ef6a",
+  null,
+  function() { return {"one":"1 delt element indlæst.","other":"%{count} delte elementer indlæst."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "direct_share_course_import_panel",
+  function() { return {"import_started_successfully_a3467411":"Import påbegyndt","starting_import_operation_f25745f0":"Start import-handling","there_was_a_problem_starting_import_operation_4c42c5e":"Der opstod et problem med at påbegynde import-handlingen"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "content_share_preview_overlay",
+  function() { return {"content_share_preview_166f6562":"Forhåndsvisning af indholdsdeling"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "context_modules",
+  null,
+  function() { return {"module_complete":"Fuldført","module_locked":"Låst","module_started":"I gang","module_unlocked":"Låst op"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "modules_home_page",
+  function() { return {"an_error_ocurred_while_publishing_course_3760cf04":"Der opstod en fejl under offentliggørelse af faget","complete_registration_by_clicking_the_finish_the_r_fcd13ac8":"Afslut registreringen ved at klikke på linket \"Afslut registreringsprocessen\" sendt til din e-mail.","create_a_new_module_6f31b0fe":"Opret et nyt forløb"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "context",
+  null,
+  function() { return {"roster_user":{"confirm":{"conclude":"Er du sikker på, du vil afslutte denne tilmelding?","delete_enrollment":"Er du sikker på, at du ønsker at slette denne tilmelding?"},"enrollment_change_failed":"Ændring af tilmelding med fortrinsret mislykkedes, prøv igen."},"roster_user_usage":{"loading_more_results":"Indlæser flere resultater"},"undelete_index":{"are_you_sure":"Er du sikker på, at du vil gendanne %{item_name}?","restore_failed":"genoprettelse mislykkedes","restoring":"genopretter ..."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "last_attended",
+  function() { return {"failed_to_change_last_attended_date_1e340ba6":"Kunne ikke ændre dato for sidste tilstedeværelse","last_day_attended_b72d623c":"Sidste dag tilstedeværende","loading_last_attended_date_5a42463":"Indlæser dato for sidste tilstedeværelse","set_last_attended_date_8fb30092":"Indstil dato for sidste tilstedeværelse","value_is_not_a_valid_date_23c2d0a2":"%{value} er ikke en gyldig dato"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "conversations",
+  function() { return {"archive_selected_d64506ca":"Valgt arkiv","message_actions_for_conversation_d29b26cc":"Meddelelseshandlinger for diskussion","message_actions_for_conversation_subject_fdb54c88":"Meddelelseshandlinger for diskussion %{subject}","message_actions_for_text_27eead86":"Meddelelseshandlinger for %{text}","no_subject_58b7941c":"Intet emne","not_starred_no_subject_click_to_star_adfefe93":"'Ikke givet stjerne\"(Intet emne)\". Klik for at give stjerne.","not_starred_no_subject_click_to_star_dc91380":"'kke givet stjerne\"(Intet emne)\". Klik for at give stjerne.","open_message_d7b12975":"Åbn besked","remove_recipient_name_a6b83cef":"Fjern modtager %{name}","reply_to_conversation_f1aa0d4":"Besvar diskussionen","reply_to_conversation_subject_4b2e6fe7":"Besvar diskussionen %{subject}","reply_to_conversation_text_cd45c48f":"Besvar diskussionen %{text}","select_conversation_subject_3f36074a":"Vælg diskussion %{subject}","select_course_a_selection_is_required_before_recip_f622d9df":"Vælg fag: Der kræves et valg, inden modtagerfeltet er tilgængeligt","starred_no_subject_click_to_unstar_3191d64":"Givet stjerne \"(Intet emne)\", Klik for ikke at give stjerne.","starred_no_subject_click_to_unstar_bff04bce":"Givet stjerne \"(Intet emne)\", Klik for ikke at give stjerne.","this_attachment_has_been_unpublished_by_the_author_37bff9c3":"Denne vedhæftede fil er blevet fjernet af forfatteren.","total_messages_af025be6":"Beskeder i alt","unarchive_selected_e0c4bd3d":"Reaktiver valgte"} },
+  function() { return {"add_attachment":{"titles":{"attachment":"Fil som skal vedhæftes","remove_attachment":"Slet vedhæftet fil"}},"all_courses":"Alle fag","all_in_context":"Alle i %{context}","archive":"Arkiv","autocomplete_result":{"group_people":"Deltagere: %{people}","no_results":"Ingen resultater"},"back":"Tilbage","cannot_add_to_private":"Du kan ikke føje deltagere til en privat samtale.","compose_button_bar":{"titles":{"add_attachment":"Tilføj en vedhæftet fil","record_media_comment":"Optag en lyd- eller videokommentar"}},"compose_title_bar":{"buttons":{"close":"luk"}},"confirm":{"delete_message":"Er du sikker på, at du vil slette din kopi af denne besked? Denne handling kan ikke fortrydes."},"context_message":{"labels":{"less":"mindre ...","more":"mere ..."}},"course_options":{"course_options":{"concluded":"Afsluttet","favorite":"Favoritfag","groups":"Grupper","more_courses":"Flere fag"}},"hide":"Skjul","message_detail":{"delete":"Slet","forward":"Fremad","more_options":"Flere indstillinger:","no_subject":"Intet emne","reply":"Svar","reply_all":"Svar alle"},"message_form_dialog":{"body":"Brødtekst","comboboxInstructions":"Til: (Begynd at indtaste for at vælge modtagere. Tryk på ned-pilen for at navigere resultaterne. Hvis du ikke finder en acceptabel mulighed, kan du indtaste et alternativ).","headings":{"new_message":"Ny besked"},"inbox_actions":{"add_people":"Tilføj deltagere"},"labels":{"add_to_faculty_journal":"Opret som postering i undervisernotater","attachments":"Vedhæftede filer","course":"Fag","select_course":"Vælg et fag","subject":"Emne","to":"Til"},"links":{"media_comment":"Optag"},"media_comment":"Mediekommentar","no_course":"Intet fag","no_subject":"Intet emne","search_names_groups_courses":"Søg efter navne, grupper og fag","send_individual_messages":"Send en individuel besked til hver modtager","titles":{"media_comment":"Optaget mediekommentar","record_media_comment":"Optag en lyd- eller videokommentar","remove_media_comment":"Slet mediekommentar"}},"message_item":{"delete":"Slet","forward":"Fremad","more_options":"Flere indstillinger:","reply_all":"Svar alle"},"message_list":{"messages":"Beskeder"},"more_participants":"+%{total} mere","no_message":{"batch_selected":"Der er valgt flere diskussioner","no_conversations_selected":"Ingen valgte diskussioner"},"no_results_found":"Der blev ikke fundet resultater","result_status":"Autofuldførelsen indeholder %{results} indlæg. Brug op- og nedpiletasterne til at navigere til en liste og tryk så på Enter for at føje personen til Til-feltet.","star":"Giv stjerne","submission_comment_form_dialog":{"body":"Brødtekst"},"unarchive":"Fjern fra arkivet","unstar":"Slet stjerne"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "are_you_sure_you_want_to_archive_your_copies_of_th_7d219afe",
+  null,
+  function() { return {"one":"Er du sikker på, du vil arkivere din kopi af denne samtale?","other":"Er du sikker på, du vil arkivere dine kopier af disse samtaler?"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "are_you_sure_you_want_to_unarchive_these_conversat_ec7d7e8d",
+  null,
+  function() { return {"one":"Er du sikker på, du vil fjerne denne samtale fra arkivet?","other":"Er du sikker på, du vil fjerne disse samtaler fra arkivet?"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "are_you_sure_you_want_to_delete_your_copy_of_these_f04442ed",
+  null,
+  function() { return {"one":"Er du sikker på, du vil slette din kopi af denne samtale? Denne handling kan ikke fortrydes.","other":"Er du sikker på, du vil slette din kopi af disse samtaler? Denne handling kan ikke fortrydes."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "messages_deleted_8f781481",
+  null,
+  function() { return {"one":"Meddelelse slettet!","other":"Meddelelser slettet!"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "conversation_dialog",
+  function() { return {"file_count_attached_name_45d81fdf":"Fil %{count} vedhæftet: %{name}","invalid_recipient_name_56b22b86":"Ugyldigt modtagernavn."} },
+  function() { return {"message_sent":"Besked sendt!","no_course":"Intet fag","select_course":"Vælg fag"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "buttons",
+  null,
+  function() { return {"cancel":"Annullér","choose_a_file":"Vælg en fil","delete":"Slet","delete_file":"Slet fil %{name}","done":"Udført","import":"Importer","login":"Login","save":"Gem","send":"Send","submit":"Aflever","update":"Opdatering"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "SearchableSubmenuView",
+  function() { return {"below_this_search_field_is_a_list_of_content_type__58aaa03f":"Under dette søgefelt findes en liste over %{content_type}. Når du indtaster, filtreres listen for at matche din forespørgsel. Diskussionsbeskederne filtreres efter den mulighed, som du eventuelt vælger."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "there_are_count_results_in_the_list_e74f6e36",
+  null,
+  function() { return {"one":"Der findes 1 resultat i listen","other":"Der findes %{count} resultater i listen"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "ConversationStatusFilter",
+  function() { return {"filter_conversations_by_type_1ce8c064":"Filtrer diskussioner efter type"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradinggradingPeriodCollection",
+  function() { return {"there_was_a_problem_deleting_the_grading_period_50ce07c5":"Der opstod et problem ved sletning af vurderingsperioden","there_was_a_problem_fetching_periods_bdc09a8f":"Der opstod et problem ved hentning af perioder","updating_6edbab78":"Opdaterer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradingPeriodTemplate",
+  function() { return {"delete_grading_period_dba36e59":"Slet vurderingsperiode","grading_period_name_31ceb3e3":"Navn på vurderingsperiode","weight_9b308e5b":"Vægt"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "link_validator",
+  function() { return {"an_error_occured_please_try_again_e59b65b":"Der opstod en fejl. Prøv igen.","assessment_question_b523622f":"Vurderingsspørgsmål","deleted_content_referenced_in_this_resource_e42d1998":"Slettet indhold henvist til i denne ressource:","external_images_in_this_resource_were_unreachable_5d9cbad2":"Eksterne billeder i denne ressource kunne ikke nås:","external_links_in_this_resource_were_unreachable_ad00a7e3":"Eksterne links i denne ressource kunne ikke nås:","link_validation_is_running_caf08ced":"Link-validering kører","links_to_other_courses_in_this_resource_may_not_be_d9f2779":"Links til andre fag i denne ressource er muligvis ikke tilgængelige for eleverne i dette fag:","no_broken_links_found_38d951e3":"Ingen brudte links fundet","non_existent_content_referenced_in_this_resource_d86c6bcb":"Ikke-eksisterende indhold, der refereres til i denne ressource:","quiz_question_1da5198e":"Quizspørgsmål","restart_link_validation_b61286fc":"Genstart godkendelse af link","show_links_to_unpublished_content_30c0450d":"Vis links til ikke-offentliggjort indhold","start_link_validation_dc0ac99c":"Start godkendelse af link","unpublished_content_referenced_in_this_resource_865f8ef6":"Der refereres til ikke offentliggjort indhold i denne ressource:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "found_count_broken_links_9224b8dd",
+  null,
+  function() { return {"one":"Fundet 1 brudt link","other":"fundet %{count} brudte links"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_list",
+  function() { return {"this_course_cannot_be_added_to_the_courses_menu_un_c932b9c7":"Dette fag kan ikke føjes til fagmenuen, medmindre faget er aktivt."} },
+  function() { return {"favorited_tooltip":"Klik for at flytte fra fagmenuen.","nonfavorited_tooltip":"Klik for at føje til fagmenuen."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_paces_actions",
+  function() { return {"cannot_relink_unsaved_paces_3ed42012":"Kan ikke linke ikke-gemte tempoer igen","compressing_f4a35c08":"Komprimerer ...","failed_publishing_pace_40f87d0e":"Offentliggørelse af tempo mislykkedes","finished_publishing_pace_597ffc4f":"Færdiggjorde offentliggørelsestempo","relinking_paces_fb1a0047":"Forbinder tempoer igen ...","response_body_was_empty_c7034341":"Svarteksten var tom"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_paces_app",
+  function() { return {"title_required_3ff5969":"Titel påkrævet","unpublished_changes_tray_9e9b2ac2":"Bakke med ikke offentliggjorte ændringer","you_must_provide_required_fields_before_adding_6717073d":"Du skal angive obligatoriske felter, før du tilføjer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_pts_e9de6268",
+  null,
+  function() { return {"one":"1 point","other":"%{count} point"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_paces_module",
+  function() { return {"changing_course_pacing_days_may_modify_due_dates_9009aecd":"Ændring af fagets tempodage kan ændre afleveringsdatoer.","days_af2ac87b":"Dage","due_dates_are_being_compressed_based_on_your_start_c6db279e":"Afleveringsdatoer bliver komprimeret baseret på dine start- og slutdatoer.","info_2f75aa74":"info","warning_6576b5b8":"advarsel"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_paces_errors",
+  function() { return {"an_error_has_occurred_8f1f6649":"En fejl er opstået.","there_was_an_error_checking_pace_publishing_status_c391b6e0":"Der opstod en fejl under kontrol af tempoets offentliggørelsesstatus.","there_was_an_error_linking_pace_7d2bb508":"Der opstod en fejl under link af tempoet.","there_was_an_error_loading_the_pace_810e3a7e":"Der opstod en fejl ved indlæsning af tempoet.","there_was_an_error_publishing_your_course_pace_1aa5fdeb":"Der opstod en fejl ved offentliggørelse af dit fagtempo.","there_was_an_error_resetting_to_the_previous_pace_83153ec2":"Der opstod en fejl ved nulstilling til det tidligere tempo.","there_was_an_error_saving_your_blackout_dates_1efee334":"Der opstod en fejl, mens blackout-datoer blev gemt","there_was_an_error_saving_your_changes_bfaf3d79":"Der opstod en fejl, da du forsøgte at gemme dine ændringer."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_paces_footer",
+  function() { return {"there_are_no_pending_changes_to_cancel_244389fe":"Der er ingen afventende ændringer at annullere","there_are_no_pending_changes_to_publish_b4ffc6a7":"Der er ingen afventende ændringer at offentliggøre","you_cannot_cancel_while_loading_the_pace_c6ccf2cc":"Du kan ikke annullere, mens tempoet indlæses","you_cannot_cancel_while_publishing_5a920ae1":"Du kan ikke annullere, mens du offentliggør","you_cannot_publish_while_loading_the_pace_c5682dbc":"Du kan ikke offentliggøre, mens tempoet indlæses","you_cannot_publish_while_publishing_2f65264b":"Du kan ikke offentliggøre, mens du offentliggør"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_paces_projected_dates",
+  function() { return {"determined_by_course_end_date_5e3ffb4f":"Bestemt af fagets slutdato","determined_by_course_pace_45063fa8":"Bestemt af fagets tempo","determined_by_course_start_date_fc1a8ecf":"Bestemt af fagets startdato","determined_by_section_end_date_3cda3832":"Bestemt af sektionens slutdato","determined_by_section_stat_date_35dc5e7f":"Bestemt af sektionens startdato","determined_by_today_s_date_87330acf":"Bestemt af i dags dato","hypothetical_end_date_117d81cf":"Hypotetisk slutdato","hypothetical_student_enrollment_date_30a00685":"Hypotetisk tilmeldingsdato for elever","not_specified_24a60319":"Ikke specificeret","reqired_end_date_a7deac41":"Påkrævet slutdato","required_by_course_end_date_d87a4772":"Påkrævet inden fagets slutdato","required_by_specified_end_date_22dd6b49":"Påkrævet inden den angivne slutdato","required_by_term_end_date_403dff38":"Påkrævet inden skoleårets slutdato","student_enrollment_date_71424bea":"Tilmeldingsdato for elever"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_assignments_bce378d7",
+  null,
+  function() { return {"one":"1 opgave","other":"%{count} opgaver"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_weeks_11fbd2dc",
+  null,
+  function() { return {"one":"1 uge","other":"%{count} uger"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_days_de0c6a32",
+  null,
+  function() { return {"one":"1 dag","other":"%{count} dage"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_paces_settings",
+  function() { return {"manage_blackout_dates_1f67216a":"Styring af blackout-datoer","modify_settings_ed8b9ccf":"Rediger indstillinger"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_paces_show_projections_button",
+  function() { return {"hide_projections_9d4ed1e1":"Skjul projektion","show_projections_32a3756":"Vis projektioner"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "unpublished_warning_modal",
+  function() { return {"discard_changes_e04b15f9":"Annuller ændringer","keep_editing_11ff42e5":"Gå videre med redigeringen","you_have_unpublished_changes_to_your_course_pace_c_90d5a4b1":"Du har ikke-offentliggjorte ændringer i dit fagtempo. Hvis du fortsætter, kasseres disse ændringer."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "unpublished_changes_button_props",
+  function() { return {"all_changes_published_27a53ffd":"Alle ændringer offentliggjort","publishing_error_bdfb3390":"Offentliggørelsesfejl"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_unpublished_changes_a366ed45",
+  null,
+  function() { return {"one":"1 ikke offentliggjort ændring","other":"%{count} ikke offentliggjorte ændringer"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "unpublished_changes_tray_contents",
+  function() { return {"unpublished_changes_cb1cf6ff":"Ikke offentliggjorte ændringer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_paces_blackout_dates_modal",
+  function() { return {"blackout_dates_4a140a72":"Blackout-datoer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_paces_blackout_dates_table",
+  function() { return {"no_blackout_dates_1297ec22":"Ingen blackout-datoer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_pace_date_input",
+  function() { return {"the_date_entered_is_invalid_4503a477":"Den indtastede dato er ugyldig.","the_date_entered_was_invalid_7091cf9b":"Den indtastede dato var ugyldig.","the_selected_date_is_on_a_blackout_day_bedcc1b8":"Den valgte dato er på en blackout-dag.","the_selected_date_is_on_a_weekend_and_this_course__66d43756":"Den valgte dato er på en weekend, og dette fagtempo springer weekender over.","the_selected_date_is_too_early_6173fe43":"Den valgte dato er for tidligt.","the_selected_date_is_too_late_cbe184a1":"Den valgte dato er for sent."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_paces_change_tracking",
+  function() { return {"blackout_date_title_was_added_ec8bf15e":"Blackout-dato %{title} blev tilføjet.","blackout_date_title_was_deleted_e8cc238b":"Blackout-dato %{title} blev slettet.","blackout_date_title_was_edited_31752bc9":"Blackout-dato %{title} blev redigeret.","descriptivename_was_changed_from_formattedoldvalue_47623537":"%{descriptiveName} blev ændret fra %{formattedOldValue} til %{formattedNewValue}.","descriptivename_was_set_to_formattednewvalue_cd78b357":"%{descriptiveName} blev indstillet til %{formattedNewValue}.","descriptivename_was_turned_off_38771a19":"%{descriptiveName} blev slukket.","descriptivename_was_turned_on_132583bb":"%{descriptiveName} blev tændt.","require_completion_by_end_date_bd154e32":"Kræv færdiggørelse før slutdato","require_completion_by_end_date_was_turned_on_and_s_756fc89c":"Kræv færdiggørelse før slutdato blev slået til og indstillet til %{date}."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_navigation",
+  function() { return {"move_navigation_item_f034cd8a":"Flyt navigationselement"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_settings",
+  function() { return {"a_sync_is_currently_running_please_wait_for_curren_55ccf501":"Der kører i øjeblikket en synkronisering. Vent til den aktuelle synkronisering er afsluttet, før du starter en anden.","also_note_that_microsoft_teams_is_unable_to_suppor_5b3c65e1":"Bemærk også, at Microsoft Teams ikke er i stand til at understøtte fag med mere end %{max_enrollments} tilmeldinger eller mere end %{max_owners} ejere. Hvis dit fag overskrider disse grænser, vil synkroniseringen sandsynligvis blive afbrudt.","an_error_occurred_during_the_sync_process_error_62d98be7":"Der opstod en fejl under synkroninseringsprocessen %{error}","an_error_occurred_please_try_again_error_error_8800b506":"En fejl opstod, prøv venligst igen. Fejl: %{error}","are_you_sure_you_want_to_resync_these_grades_to_th_e509cb9e":"Er du sikker på, at du vil gensynkronisere disse vurderinger i elevernes informationssystem?","are_you_sure_you_want_to_sync_these_grades_to_the__ca3c28a4":"Er du sikker på, at du vil synkronisere disse vurderinger i elevernes informationssystem? Du bør kun gøre dette, hvis alle dine vurderinger er færdigbehandlede.","disable_content_security_policy_8660a787":"Deaktiver politik for indholdsikkerhed","edit_course_role_3b992fc2":"Rediger fagrolle","failed_to_load_csp_information_try_refreshing_the__4a056997":"Det lykkedes ikke at indlæse CSP-oplysninger, prøv at opdatere siden.","hide_name_details_23814c37":"Skjul %{name} detaljer","integration_error_44a52be4":"Integrationsfejl","integrations_cadb03f3":"Integrationer","invalid_sis_sync_status_b68db497":"Ugyldig SIS-synkroniseringsstatus","last_sync_5aac1ff1":"Sidste synkronisering:","last_synced_right_now_f6c2ab00":"Sidst synkroniseret: lige nu","loading_microsoft_sync_data_a5203d3b":"Indlæser Microsoft-synkroniseringsdata","loading_name_data_c66ea65f":"Indlæser %{name} data","manual_syncs_are_available_every_cooldown_minutes__e47de0a8":"Manuelle synkroniseringer er tilgængelige hvert %{coolDown} minut. Vent %{minutesRemaining} minutter for at synkronisere igen.","microsoft_sync_8bddc8a2":"Microsoft Sync","never_1ed1244d":"aldrig","no_errors_1ac47724":"Ingen fejl","no_integrations_available_6729d0ca":"Ingen integrationer tilgængelige","note_syncing_is_triggered_by_changes_to_course_enr_4fa83ef3":"Bemærk: Synkronisering udløses af ændringer i fagtilmeldinger. Første gang, du aktiverer Microsoft Sync, skal du muligvis udløse en synkronisering manuelt med knappen nedenfor.","only_account_administrators_can_change_this_settin_149f8fe3":"Kun kontoadministratorer kan ændre denne indstilling.","ready_for_sync_16eaf713":"Klar til synkronisering","remove_linked_student_name_52dc7fce":"Fjern linket elev %{name}","resync_grades_to_sis_d4dcfe12":"Gensynkroniser vurderinger til SIS","role_successfully_updated_4317e6a4":"Rolle opdateret","saving_the_csp_status_failed_please_try_again_8275aaa4":"Det lykkedes ikke at gemme CSP-status, prøv igen.","scheduling_sync_3f4a7cac":"Planlægger synkronisering","setting_failed_to_load_try_refreshing_c24bf008":"Det lykkedes ikke at indlæse indstillingen, prøv at opdatere.","show_name_details_186d86e6":"Vis %{name} detaljer","something_went_wrong_updating_the_user_s_role_plea_5de95400":"Noget gik galt under opdatering af brugerens rolle. Prøv igen senere.","something_went_wrong_when_trying_to_sync_grades_to_592c4c35":"Der gik noget galt ved synkronisering af vurderinger til elevernes informationssystem. Prøv venligst igen senere.","sync_and_provision_microsoft_teams_with_your_canva_a8018b6c":"Synkroniser og lever Microsoft Teams med dit Canvas-fag","sync_auto_scheduled_by_enrollment_changes_bd96ff7f":"Synkroniser automatisk planlagt efter tilmeldingsændringer","sync_currently_running_2cd5114a":"Synkronisering kører i øjeblikket","sync_manually_scheduled_138a8ad2":"Synkroniser manuelt planlagt","sync_not_enabled_88785878":"Synkronisering ikke aktiveret.","sync_now_9bb67e9f":"Synkroniser nu","sync_scheduled_successfully_you_may_safely_leave_t_492d42ee":"Synkronisering blev planlagt! Du kan forlade denne side sikkert.","syncing_grades_to_sis_d63112e0":"Synkroniser vurderinger til SIS ...","the_sync_encountered_an_error_and_did_not_complete_538790b9":"Synkroniseringen stødte på en fejl og blev ikke fuldført","this_integration_is_not_enabled_please_enable_it_t_b9e8a997":"Denne integration er ikke aktiveret. Aktiver den for at interagere med indstillingerne.","toggle_name_c0ab332b":"Skift %{name}","unable_to_load_this_control_543a8271":"Kunne ikke indlæse denne kontrol"} },
+  function() { return {"buttons":{"add_section":"Tilføj  sektion","adding_section":"Opret Sektion ...","re_sending_all":"Gensender ikke-accepterede invitationer ...","re_sent_all":"Gensendt alle ikke-accepterede invitationer!"},"cancel":"Annuller","confirm":{"delete_section":"Er du sikker på, at du vil slette denne sektion?"},"edit_sections_placeholder":"Indtast et sektionsnavn","edit_sections_title":"Sektionsnavn","errors":{"invitation":"Invitationen mislykkedes. Prøv igen.","re_send_all":"Afsendelse mislykkedes, prøv igen","section":"Tilføjelse af sektion mislykkedes, prøv igen"},"flash":{"invitation":"Invitation sendt.","linkError":"Noget gik galt under opdateringen af brugerens studielinks. Prøv igen senere.","links":null,"sectionError":"Noget gik galt under opdateringen af brugerens sektioner. Prøv igen senere.","sections":"Sektionstilmeldinger blev opdateret"},"invitation_sent":"Invitation sendt!","invitation_sent_now":"Lige nu","link_students_placeholder":"Indtast elevens navn","links":{"fewer_options":"færre muligheder","more_options":"flere muligheder","re_send_all":"Send alle ikke-accepterede invitationer igen","re_sending_invitation":"Sender invitationen igen ..."},"re_send_invitation":"Send invitation igen","remove_user_from_course_section":"Slet bruger fra %{course_section}","titles":{"link_to_students":"Link til elever","move_course":"Flyt fag","reset_course_content_dialog_help":"Gendan fagets indhold","section_enrollments":"Sektionstilmeldinger"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "actions",
+  function() { return {"there_was_an_error_removing_the_image_c83acffe":"Der opstod en fejl under fjernelsen af billedet","there_was_an_error_retrieving_the_course_image_d7ea094d":"Der var en fejl ved hentning af fagets billede","there_was_an_error_uploading_the_image_932fc4ce":"Der var en fejl under upload of billedet","type_is_not_a_valid_image_type_try_jpg_png_or_gif_1c109633":"'%{type}' er ikke en gyldig billedfiltype (prøv jpg, png  eller gif)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "BlueprintLockOptions",
+  function() { return {"define_general_settings_for_locked_objects_in_this_20da2981":"Definer generelle indstillinger for låste objekter i dette fag. ","define_settings_by_type_for_locked_objects_in_this_676197bf":"Definer indstillinger efter type for låste objekter i dette fag. ","enable_course_as_a_blueprint_course_8515ffd5":"Aktiver fag som et blueprint-fag","general_locked_objects_6a9adafb":"Generelle låste objekter","locked_objects_by_type_ff376c6c":"Låste objekter efter type","locked_objects_cannot_be_edited_in_associated_cour_1af858c8":"Låste objekter kan ikke redigeres i tilknyttede fag."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "CourseAvailabilityOptions",
+  function() { return {"changing_the_course_participation_will_republish_a_5715b0d5":"Ændring af fagdeltagelsen vil offentliggøre alle fagtempoer igen med eventuelle nye datoer.","course_end_date_4c797823":"Fagets slutdato","course_participation_and_access_settings_7a3d6297":"Fagdeltagelse og adgangsindstillinger","course_participation_is_limited_to_course_start_an_7315866d":"Fagdeltagelse er begrænset til *fagets* start- og slutdatoer. Alle sektionsdatoer oprettet i faget kan tilsidesætte fagdatoer.","course_participation_is_limited_to_term_start_and__c8974314":"Fagdeltagelse er begrænset til *skoleårets* start- og slutdatoer.","course_participation_is_set_to_expire_at_midnight__b05fb48e":"Fagdeltagelse er indstillet til at udløbe ved midnat, så den foregående dag er den sidste dag, dette fag er aktivt.","course_start_date_daae16ae":"Fagets startdato","end_78c581cd":"Slut","limit_course_participation_to_term_or_custom_cours_67797a86":"Begræns fagdeltagelse til skoleår eller tilpassede fagdatoer?","restrict_students_from_viewing_course_after_course_c6baf31":"Forhindr eleverne i at vise faget efter fagets slutdato","restrict_students_from_viewing_course_after_term_e_1f93ccb9":"Forhindr eleverne i at vise faget efter skoleårets slutdato","restrict_students_from_viewing_course_before_cours_cca659a4":"Forhindr eleverne i at vise faget før fagets startdato","restrict_students_from_viewing_course_before_term__3c4924f0":"Forhindr eleverne i at vise faget før skoleårets startdato","start_5a4cfcd6":"Start"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_color_selector",
+  function() { return {"set_course_color_to_a_custom_hexadecimal_code_c8a50918":"Indstil fagets farve til en brugerdefineret hex-kode","set_course_color_to_a_preset_hexadecimal_color_cod_97608d8":"Indstil fagets farve til en forudindstillet hex-farvekode. Brug venstre og højre piletaster til at navigere i forudindstillinger."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_images",
+  function() { return {"choose_image_242f727e":"Vælg billede","choose_image_e5ee5d7a":"Vælg billede","course_image_settings_eba3ec55":"Indstillinger for fagets billede","file_must_be_an_image_293567a8":"Filen skal være et billede","flickr_9bed633e":"Flickr","remove_image_341340b3":"Fjern billede","unsplash_ee049fbf":"Unsplash","upload_image_6120b609":"Upload billede"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_template_details",
+  function() { return {"associated_accounts_c4c0689d":"Tilknyttede konti","associated_with_10_accounts_dc29a105":"Tilknyttet til mere end 10 konti","enable_course_as_a_course_template_5299afb6":"Aktiver fag som en fagskabelon"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "associated_with_count_accounts_be191ced",
+  null,
+  function() { return {"one":"Tilknyttet til en konto","other":"Tilknyttet til %{count} konti","zero":"Ikke tilknyttet til nogen konti"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "flickr_search",
+  function() { return {"flickr_displays_safesearch_images_within_the_creat_48835f79":"Flickr viser SafeSearch billeder inden for Creative Commons Public Domain.\n              Dog er sikre søgeresultater ikke garanteret, da nogle billeder muligvis ikke inkluderer et\n              bestemt sikkerhedsniveau fra deres ejere.","search_flickr_6f28b02e":"Søg flickr"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "image_search",
+  function() { return {"artist_info_for_username_for_description_12d5d862":"Kunstnerinfo for %{userName} til %{description}","count_images_found_for_term_a93635ed":"%{count} billeder fundet for %{term}","no_results_found_for_searchterm_7ee9b03e":"Ingen resultater fundet for %{searchTerm}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "courses_show",
+  function() { return {"choose_home_page_80cef4ee":"Vælg startside","failed_to_load_the_to_do_sidebar_b6169202":"Kunne ikke indlæse sidelinjen med opgavelisten"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_statistics",
+  null,
+  function() { return {"unknown":"Ukendt"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_wizard",
+  function() { return {"add_course_assignments_628ed6d0":"Tilføj fagopgave","add_course_calendar_events_146154a5":"Tilføj begivenheder til fagkalender","add_files_to_the_course_da6ffd32":"Tilføj filer til faget","add_students_to_the_course_874be8fb":"Føj elever til faget","add_tas_to_the_course_2aac6e02":"Føj undervisningsassistenter til faget","add_your_assignments_you_can_just_make_a_long_list_8a7862dd":"Tilføj dine opgaver. Du kan blot lave en lang liste, eller opdele dem i grupper; du kan endda specificere vægtning for hver opgavegruppe.","all_finished_time_to_publish_your_course_click_the_b6f07217":"Helt færdig? Tiden er inde til at offentliggøre dit fag. Klik på nedenstående knap for at gøre det officielt! Offentliggørelse giver brugerne mulighed for at begynde deres deltagelse i faget.","by_default_all_links_are_enabled_for_a_course_stud_8e617dbc":"Som standard er alle links aktiveret til et fag. Eleverne kan ikke se links til sektioner uden indhold. Hvis du for eksempel ikke har oprettet nogen quizzer, kan de ikke se quizzernes link. Du kan sortere og udtrykkeligt deaktivere disse links, hvis der findes områder i faget, som eleverne ikke skal have adgang til.","choose_a_course_home_page_8059c7b":"Vælg en startside til faget","close_and_return_to_canvas_80544344":"Luk og vend tilbage til Canvas","course_setup_wizard_is_showing_a7c087c1":"Fagets installationsguide vises.","course_wizard_31c87552":"Fagguide","great_so_you_ve_got_a_course_now_what_well_before__38cfba67":"Fantastisk, så du har et fag. Hvad nu? Tja, inden du offentliggør det til omverdenen, anbefaler vi, at du tjekker det og sørger for, at du har styr på de grundlæggende ting. Gå igennem listen til venstre for at sikre, at dit fag er klar til brug.","here_s_a_great_chance_to_get_to_know_the_calendar__187ce49":"Her er alle tiders mulighed for at lære kalenderen at kende og tilføje begivenheder uden opgaver, som du eventuelt hat til faget. Ingen panik, vi hjælper dig igennem processen.","if_you_ve_been_using_another_course_management_sys_67edfab1":"Hvis du har brugt et andet system til fagadministration, har du sikkert ting og sager deri, som du gerne vil flytte over i Canvas. Vi kan sammen gennemgå processen for nemt at overføre dit indhold ind i Canvas.","import_content_b2fd6620":"Importér indhold","item_complete_d334fd43":"(Element fuldstændigt)","item_incomplete_d6a16040":"(Element ufuldstændigt)","loaded_more_collaborations_13f1d630":"Indlæst flere samarbejder.","my_dashboard_b724020":"Min oversigt","next_steps_ce0f0d0c":"Næste trin","now_that_your_course_is_set_up_and_available_you_p_c0c8635c":"Nu hvor dit fag er konfigureret og tilgængeligt, har du sikkert ikke længere brug for denne tjekliste. Men vi lader den stå i tilfælde af, at du senere vil prøve noget nyt, eller blot leder efter lidt ekstra hjælp, når du foretager ændringer i dit fags indhold.","publish_the_course_f2f6ef80":"Offentliggør faget","select_navigation_links_68e1e924":"Vælg navigationslinks","setup_checklist_eb8b00b8":"Indstillings-tjekliste","the_files_tab_is_the_place_to_share_lecture_slides_95a93bce":"Fanen Filer er stedet til at dele forelæsninger, prøvedokumenter, studiehjælp -- alt som dine elever kunne få brug for at downloade. Med Canvas er det nemt at uploade og organisere dine filer. Vi viser dig hvordan.","this_course_is_claimed_and_ready_but_you_ll_need_t_25b95a0a":"Dette fag er taget og klart, men du skal afslutte registreringsprocessen, inden du kan offentliggøre faget. Du burde have modtaget en e-mail fra Canvas med et link til at afslutte processen. Husk at tjekke din mappe med uønsket post.","this_course_is_visible_only_to_teachers_until_it_i_ce972f0":"Dette fag er kun synligt for lærere, indtil det offentliggøres.","when_people_visit_the_course_this_is_the_page_they_de94acc2":"Når deltagere besøger faget, er det denne side, som de ser. Du kan konfigurere den til at vise de seneste aktiviteter, listen over fagforløb, en fagplan eller en brugertilpasset side, som du selv skriver. Standard er fagets seneste aktiviteter.","you_do_not_have_permission_to_publish_this_course_ff361c82":"Du har ikke tilladelse til at offentliggøre dette fag.","you_ll_definitely_want_some_of_these_what_s_the_fu_f4f3578b":"Du vil helt sikkert gerne have nogle af disse. Der er ikke noget sjov i at undervise, hvis ingen hører efter?","you_may_want_to_assign_some_tas_to_help_you_with_t_702244aa":"Det kan være, at du vil udpege enkelte undervisningsassistenter til at hjælpe dig med faget. Undervisningsassistenter kan bedømme elevernes afleveringer og endda opdatere afleveringsdato og opgavedetaljer for dig."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "dashboard",
+  function() { return {"card_view_eaf73185":"Kortvisning","color_overlay_fb5ecce7":"Farve overlag","failed_initializing_dashboard_3d967143":"Kunne ikke initialisere oversigten","failed_to_load_recent_activity_d3e5adeb":"Kunne ikke indlæse nyere aktivitet","failed_to_save_dashboard_selection_32e71c72":"Kunne ikke gemme valg af oversigt","list_view_430aecce":"Listevisning","recent_activity_51239235":"Seneste aktivitet","toggle_course_card_color_overlays_b5b8137a":"Slå fagets korts farveoverlejringer til eller fra"} },
+  function() { return {"announcements_collapse":{"one":"Skjul %{count} besked","other":"Skjul %{count} beskeder"},"announcements_expand":{"one":"Udvid %{count} besked","other":"Skjul %{count} beskeder"},"assignments_collapse":{"one":"Skjul %{count} opgavemeddelelse","other":"Skjul %{count} opgavemeddelelser"},"assignments_expand":{"one":"Udvid %{count} opgavemeddelelse","other":"Udvid %{count} opgavemeddelelser"},"confirm":{"close":"Er du sikker på, at du vil afslutte denne konference?\n\nDu kan ikke åbne den igen."},"conversations_collapse":{"one":"Skjul %{count} diskussionsbesked","other":"Skjul %{count} diskussionsbeskeder"},"conversations_expand":{"one":"Udvid %{count} diskussionsbesked","other":"Udvid %{count} diskussionsbeskeder"},"discussions_collapse":{"one":"Skjul %{count} diskussion","other":"Skjul %{count} diskussioner"},"discussions_expand":{"one":"Udvid %{count} diskussion","other":"Udvid %{count} diskussioner"},"show_more_link":{"show_less":"Vis mindre","show_more":"Vis mere"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "external_content",
+  function() { return {"all_items_marked_processed_have_been_saved_by_canv_7045295a":"Alle elementer, der er markeret som \"behandlet\" er blevet gemt af Canvas.","content_item_title_96079d16":"Indholdselementets titel","content_items_with_errors_a9438fdb":"Indholdselementer med fejl","discarded_20a4e7e8":"Kasseret","field_9ec0ec01":"Felt","i_understand_continue_a8261425":"Jeg forstår, fortsæt","one_or_more_content_items_sent_by_this_external_ap_76a5ba2a":"Et eller flere indholdselementer sendt af denne eksterne app kunne ikke behandles korrekt. Disse er ikke blevet gemt af Canvas, og årsagerne til fejl er anført nedenfor.","processed_4725b02":"Forarbejdet","retrieving_content_ed0b9b33":"Henter indhold"} },
+  function() { return {"cancel":{"popup_failure":"Kan ikke finde det overordnede vindue. Du skal lukke denne pop-op manuelt.","popup_success":"Annulleret. Denne pop-op burde lukke af sig selv ..."},"success":{"content_failure":"Hentning af indhold mislykkedes. Prøv igen eller informer din systemadministrator om fejlen.","oembed_failure":"Hentning af indhold mislykkedes. Prøv igen eller informer din systemadministrator om fejlen.","popup_success":"Det lykkedes! Denne pop-op lukker sig selv ..."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "react_developer_keys",
+  function() { return {"a_json_url_is_required_please_supply_one_ed03101c":"Der påkræves en json url, angiv venligst en.","a_redirect_uri_is_required_please_supply_one_471908db":"En redirect_uri er påkrævet, vær venlig at levere en.","additional_settings_20362654":"Yderligere indstillinger","all_scopename_scopes_6c220783":"Alle %{scopeName} områder","allow_bb7ce9b1":"Tillad","allow_include_parameters_bf3d3230":"Tillad Inkluder parametre ","api_key_eeeb2167":"API-kode","are_you_sure_you_want_to_change_the_state_of_this__18c6a72":"Er du sikker på, at du vil ændre status for denne udvikler-nøgle?","are_you_sure_you_want_to_delete_this_developer_key_9937481a":"Er du sikker på, at du vil slette denne udvikler nøgle?","are_you_sure_you_want_to_delete_this_developer_key_ce246033":"Er du sikker på, at du vil slette denne udvikler nøgle? Denne handling sletter også alle værktøjer, der er knyttet til udvikler-nøglen i denne sammenhæng.","at_least_one_scope_must_be_selected_97d6fce9":"Der skal vælges mindst ét område.","canvas_3962b702":"Canvas","check_services_to_enable_8877c451":"Tjek tjenester for at aktivere","clicking_the_checkbox_will_cause_scopes_table_to_a_fba5886a":"Hvis du klikker på afkrydsningsfeltet, vises områdetabellen nedenfor","clicking_the_checkbox_will_cause_scopes_table_to_d_dbdbffd3":"Hvis du klikker på afkrydsningsfeltet, vil områdetabellen forsvinde nedenfor","client_credentials_audience_218f2d93":"Klientoplysninger - publikum","create_a_64f6f82":"Opret en/et","create_an_ba36d171":"Opret en","create_developer_key_78de8510":"Opret udvikler-nøgle","created_created_at_37c0ec3b":"Oprettet: %{created_at}","creating_key_8a026e61":"Opretter nøgle","delete_key_developername_be80e695":"Slet nøgle %{developerName}","description_61f4296":"* Beskrivelse","developer_key_921ddbae":"Udvikler nøgle","developer_key_developerkeyid_deleted_focus_moved_t_80fffb4d":"Udvikler-nøgle %{developerKeyId} slettet. Fokus flyttet for at tilføje knap til udvikler-nøgle.","developer_key_developerkeyid_deleted_focus_moved_t_9f5b5198":"Udvikler-nøgle %{developerKeyId} slettet. Fokus flyttet til sletteknappen for den tidligere udvikler-nøgle i listen.","developer_key_is_an_external_tool_27c6166b":"Udvikler-nøgle er et eksternt værktøj.","developer_key_settings_889721f1":"Udvikler-nøgle indstillinger","developers_keys_table_69ae6b7e":"Udvikler-nøgler tabel","disable_all_read_only_scopes_f9ffdd28":"Deaktiver alle skrivebeskyttede omfang.","disable_scope_6ba4e4d4":"Deaktiver omfang","display_values_f517c73c":"Vis værdier","edit_developer_key_d8fa33c4":"Rediger udvikler-nøgle","edit_key_developername_2980f240":"Rediger nøgle %{developerName}","edit_this_key_1ee53473":"Rediger denne nø","enable_all_read_only_scopes_3ddc2bb5":"Aktiver alle skrivebeskyttede omfang.","enable_scope_ac28b832":"Aktiver omfang","enforce_scopes_be28989c":"Håndhæv områder","enter_url_e8bb8a33":"Indtast URL","failed_to_save_changes_errors_6920f334":"Kunne ikke gemme ændringer: %{errors}%","field_cannot_be_blank_afb5b332":"Feltet må ikke være tomt.","hide_key_e8fe1e8c":"Skjul nøgle","icon_url_e3d56e89":"Ikon url","icon_url_ecce6557":"Ikon-URL:","identification_values_86d9ffda":"Identifikationsværdier","inherited_d4d0bc33":"Nedarvet","inherited_developer_keys_table_e4a65b67":"Tabel over nedarvede udvikler-nøgler","json_is_not_valid_please_submit_properly_formatted_e3b2f88f":"Json er ikke gyldig. Indsend venligst korrekt formateret json.","json_url_adbee260":"JSON URL","jwk_method_6d5d0c84":"* JWK-metode","key_f2a919d5":"Nøgle","key_name_7311d22":"Kodenavn:","key_settings_44df6a41":"Nøgleindstillinger","key_state_for_the_current_account_d16b1cd5":"Nøglestatus for den aktuelle konto","label_values_76f4b5fa":"Mærkeværdier","loaded_more_developer_keys_focus_moved_to_the_dele_f5b867f8":"Indlæste flere udvikler-nøgler. Fokus flyttet til sletteknappen for den sidst indlæste udvikler-nøgle i listen.","loaded_more_developer_keys_focus_moved_to_the_name_6e3c3b34":"Indlæste flere udvikler-nøgler. Fokus flyttet til navnet på den senest indlæste udvikler-nøgle i listen.","loading_available_scopes_bc29bf98":"Indlæser tilgængelige områder","lti_1_3_configuration_c3534f3b":"LTI 1.3 konfiguration","lti_advantage_services_c1746cb4":"LTI Advantage-tjenester","lti_key_14ad02b1":"LTI-nøgle","make_key_developername_invisible_212ecf72":"Gør nøglen %{developerName} usynlig","make_key_developername_visible_97c404bf":"Gør nøglen %{developerName} synlig","make_key_invisible_e66af89":"Gør nøglen usynlig","make_key_visible_5c03fa34":"Gør nøglen synlig","manual_configuration_b586fe54":"Manuel konfiguration","method_c2a4e17a":"Metode","missing_required_fields_please_fill_in_all_require_1e10b2e9":"Mangler påkrævede felter. Udfyld alle obligatoriske felter.","must_have_at_least_one_redirect_uri_defined_bb236d38":"Skal have mindst en redirect_uri defineret.","no_email_8585ad7e":"Ingen e-mail","notes_6cfc3988":"Bemærk:","off_5385ef3f":"Slået fra","on_8f7190e5":"Slået til","openid_connect_initiation_url_d9037d30":"* OpenID Connect initierings-url","owner_email_236d1b2":"E-mailens ejer","owner_email_4d02f795":"Ejerens e-mail:","paste_json_26ad8050":"Indsæt JSON","peer_service_6b4828b9":"Peer-service","permit_usage_of_all_includes_parameters_for_this_d_4f8318f4":"Tillad brug af alle parametrene “Inkluderer” for denne udvikler-nøgle. Parametrene ”Inkluderer” giver muligvis adgang til yderligere data, som ikke er inkluderet i de valgte områder nedenfor.","placement_values_c0a2cf56":"Placeringsværdier","privacy_level_f0ec09a3":"Fortrolighedsniveau","private_3883d133":"Privat","public_jwk_ee2d719d":"Offentlig JWK","public_jwk_json_is_not_valid_please_submit_properl_31ea2004":"Offentlig JWK json er ikke gyldig. Indsend venligst korrekt formateret json.","public_jwk_json_must_have_the_following_string_fie_5f1a42d6":"Offentlig JWK json skal have følgende strengfelter: kty, e, n, kid, alg, use","public_jwk_url_b5564c1d":"Offentlig JWK-URL","read_only_3d26d8fe":"Skrivebeskyttet","redirect_uri_legacy_b32323d3":"Omdiriger URI (Legacy):","redirect_uris_79534b60":"* Omdirigerings-URI'er:","redirect_uris_a54bd82f":"Omrediger URI'er:","request_values_89976f2c":"Anmod om værdier","required_values_1eb5841f":"Påkrævede værdier","save_successful_b2f64da4":"Blev gemt.","search_endpoints_d5abf37f":"Søg slutpunkter","select_message_type_806b2dea":"Vælg beskedtype","select_placements_type_or_use_arrow_keys_to_naviga_a6bfd561":"Vælg placeringer. Indtast eller brug piletasterne til at navigere. Flere valg er tilladt.","selection_height_9d57ec24":"Valg højde","selection_width_183acd79":"Valg bredde","services_must_be_supported_by_the_tool_in_order_to_1f194a36":"Tjenester skal understøttes af værktøjet for at kunne fungere. Tjek med din værktøjsleverandør for at sikre tjenestefunktioner.","show_all_keys_fa88c55c":"Vis alle nøgler","show_key_1fbf0c64":"Vis nøgle","stats_9272cef3":"Statistik","target_link_uri_bbed67d1":"* Mållink URI","target_link_uri_d166858":"Mål-link URI","test_cluster_only_70e61c19":"Test kun klynge","this_placement_requires_deep_link_support_by_the_v_702d554f":"Denne placering kræver Deep Link-support fra leverandøren. Kontakt din værktøjsleverandør for at sikre, at de understøtter denne funktionalitet","title_f8e03596":"* Titel","toggle_tooltip_1ed3b35e":"skift værktøjstip","toggle_tooltip_2447b4fa":"Skift ToolTip","tool_id_afd739e1":"Værktøjs-id","toolname_logo_6b639926":"%{toolName} Logo","unnamed_tool_961cb95b":"Værktøj uden navn","vendor_code_lti_2_ef36207b":"Leverandørkode (LTI 2):","when_scope_enforcement_is_disabled_tokens_have_acc_6939182f":"Når områdehåndhævelse er deaktiveret, har tokens adgang til alle slutpunkter, der er tilgængelige for den autoriserende bruger.","will_credentials_issued_by_this_key_be_presented_t_68faff8c":"Vil brugeroplysninger udstedt af denne nøgle blive præsenteret for Canvas eller til en peer-service (fx Canvas Data)?"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "developer_keys",
+  null,
+  function() { return {"button":{"saving":"Gemmer nøgle ...","saving_failed":"Lagring af nøgle mislykkedes"},"messages":{"confirm_delete":"Er du sikker på, at du vil slette denne udvikler nøgle?"},"no_user":"Ingen bruger","unnamed_tool":"Værktøj uden navn"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "discussion_topics",
+  function() { return {"a_message_is_required_129e1814":"En besked er påkrævet","add_attachment_93868828":"Tilføj vedhæftet fil","allow_users_to_comment_45b8f753":"Tillad brugere at kommentere","could_not_duplicate_discussion_953ed67f":"Kunne ikke duplikere diskussion","delay_posting_this_topic_until_aa483eec":"Forsink offentliggørelse af dette emne indtil","discussion_topic_a7bf935":"diskussionsemne","discussion_topic_will_be_available_starting_at_46aa7477":"Diskussionsemne vil være tilgængeligt fra","discussion_topic_will_be_available_until_f5e3abc8":"Diskussionsemne vil være tilgængeligt indtil","discussion_topic_will_show_on_student_to_do_list_f_1c9e6286":"Diskussionsemnet vises på elevens opgaveliste for dato","full_student_names_and_profile_pictures_will_be_hi_ddfba94e":"Hel: Elevernes navne og profilbilleder bliver skjult.","if_you_change_an_assignment_s_points_possible_you__25a0edad":"Hvis du ændrer en opgaves mulige point, skal du bedømme opgaven igen.","new_announcement_23af4598":"Ny besked","new_discussion_dae4fae3":"Ny diskussion","off_student_names_and_profile_pictures_will_be_vis_6891e2cf":"Fra: Elevernes navne og profilbilleder er synlige for andre fagdeltagere","partial_students_can_choose_to_reveal_their_name_a_baa936d4":"Delvis: Eleverne kan vælge at afsløre deres navn og profilbillede","title_is_too_long_must_be_under_length_characters_ab694ae4":"Titel er for lang, skal være under %{length} tegn","you_are_not_allowed_to_create_an_anonymous_graded__3eeb1382":"Du har ikke tilladelse til at oprette en anonym bedømt diskussion","you_must_input_a_section_b8d370fe":"Du skal indtaste en sektion","you_must_set_usage_rights_87fc1382":"Du skal angive brugsrettigheder"} },
+  function() { return {"cannot_unpublish_with_replies":"Kan ikke annullere offentliggørelsen, hvis der findes svar fra elever","default_discussion_title":"Ingen overskrift","edit_view":{"allow_liking":"Tillad 'synes godt om'","allow_threaded_replies":"Tillad trådede svar","attachment":"Vedhæftet fil","available_from":"Tilgængelig fra","buttons":{"save_and_publish":"Gem og offentliggør"},"delay_posting":"Udskyd opslag","enable_podcast_feed":"Aktivér podcast-feed","include_replies_in_podcast_feed":"Inkluder elevers svar i podcast-feed","only_graders_can_like":"Kun bedømmere kan 'synes godt om'","options":"Muligheder","points_possible":"Mulige point","post_at":"Læg ud kl.","save":"Gem","sort_by_likes":"Sorter efter 'synes godt om'","topic_title":"Emneoverskrift","until":"Indtil","use_for_grading":"Bedømt","users_must_post_before_seeing_replies":"Brugere skal lægge opslag ud, inden de ser svar"},"group_discussion_locked":"Elever har allerede afleveret til denne diskussion, så gruppeindstillingerne kan ikke ændres.","group_discussion_title":"Gruppediskussion","page_nav":{"Page":"Side","current_page":"Aktuel","first_page":"Første","last_page":"Sidste"},"points_possible_number":"Mulige point skal være et tal","published_button":{"buttons":{"not_published":"Ikke offentliggjort","published":"Offentliggjort"}},"reply_count_tooltip":{"one":"1 svar.","other":"%{count} svar.","zero":"Ingen svar."},"this_is_a_group_discussion":"Dette er en gruppediskussion","unread_count_tooltip":{"one":"1 ulæst svar.","other":"%{count} ulæste svar.","zero":"Ingen ulæste svar."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "discussions",
+  function() { return {"an_error_occurred_please_post_your_reply_again_lat_b0220ac6":"*Der opstod en fejl*, læg dit svar ud igen senere","delete_disabled_3196ce47":"Slet (deaktiveret)","edit_disabled_e6a5ea0a":"Rediger (deaktiveret)","expand_subdiscussion_cd226ed4":"Udvid underdiskussion","grading_and_groups_are_not_supported_in_anonymous__36b53a84":"Vurdering og grupper understøttes ikke i anonyme diskussioner.","like_this_entry_60da41a5":"Synes godt om dette indlæg","reply_to_title_f227303f":"Svar-til %{title}","unlike_this_entry_f22e8d45":"Fjern synes godt om for dette indlæg","you_must_log_in_to_view_replies_9ccd4da0":"Du skal logge på for at se svar"} },
+  function() { return {"are_your_sure_delete":"Er du sikker på, at du vil slette denne indtastning?","author_link":{"authors_name":"Forfatternavn","unknown_author":"\u003eUkendt forfatter"},"deleted_entry":{"deleted":"Slettet af *%{editor_name}* den %{edited_at}"},"discussion_participant":"Diskussionsdeltager","entry_collection_view":{"add_reply_to_topic":"Føj svar til emne"},"entry_content":{"edited_comment":"Redigeret af *%{editor.display_name}* d. %{edited_at}","go_to_parent":"Gå til overordnet","go_to_topic":"Gå til emne","like_entry":"'Synes godt om' indlægget","manage_discussion_entry":"Administrering af diskussionsindlæg","open_in_speedgrader":"Åbn i SpeedGrader","write_a_reply":"Svar"},"entry_stats":{"show_more":"Vis mere"},"hide_due_dates":"Skjul afleveringsdatoer","like_count":{"one":"(%{count} like)","other":"(%{count} likes)"},"mark_as_read":"Marker som læst","mark_as_unread":"Marker som ulæst","no_content":"Intet indhold","no_results":{"make_sure_all_search_terms_are_spelled_correctly":"Sørg for, at alle søgetermer er korrekt stavet.","suggestions":"Forslag:","try_different_more_general_or_fewer_keywords":"Prøv forskellige, mere generelle eller færre nøgleord.","try_disabling_the_unread_filter":"Prøv at deaktivere filteret \"Ulæst\".","your_search_did_not_match_any_entries":"Din søgning opnåede ikke nogen resultater."},"participant":{"anonymous_user":"Anonym"},"reply":{"saving_reply":"Gemmer svar ..."},"reply_attachment":{"attachment_label":"Vedhæftet fil","remove_attachment":"fjern"},"reply_form":{"attach_file":"Vedhæft","cancel":"Annuller","post_reply":"Læg svar ud","write_a_reply":"Svar"},"results_entry":{"edited_comment":"Redigeret af *%{editor.display_name}* d. %{edited_at}","view_in_discussion":"Vis i diskussion"},"show_all_n_replies":{"one":"Vis et svar","other":"Vis alle %{count} svar"},"show_due_dates":"Vis afleveringsdatoer","this_student":"Denne elev","uknown_author":"Ukendt forfatter","unknown":"Ukendt","unknown_author":"Ukendt forfatter"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "discussions_posts",
+  function() { return {"hide_from_everyone_9fc3e6d0":"Skjul for alle","hide_name_and_profile_picture_d18eed70":"Skjul navn og profilbillede","my_drafts_4e4ac1a6":"Mine kladder","newest_first_87672763":"Nyeste først","oldest_first_ab166f62":"Ældste først","replying_as_f8371a46":"Svarer som","search_entries_or_author_63fb0a86":"Søg efter indlæg eller forfatter","search_entries_or_author_8a737938":"Søg efter indlæg eller forfatter ...","show_name_and_profile_picture_9329d8f8":"Vis navn og profilbillede","show_to_everyone_94d66d01":"Vis til alle","sort_15eac63f":"Sorter","sorted_by_ascending_af61f8ca":"Sorteret efter stigende","sorted_by_descending_824c4300":"Sorteret efter faldende","this_is_your_anonymous_avatar_55211702":"Dette er din anonyme avatar"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "replycount_replies_unreadcount_unread_a85c0bc8",
+  null,
+  function() { return {"one":"%{replyCount} svar, %{unreadCount} ulæst","other":"%{replyCount} svar, %{unreadCount} ulæst"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "replycount_replies_2775aca1",
+  null,
+  function() { return {"one":"%{replyCount} svar","other":"%{replyCount} svar"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "replycount_replies_unreadcount_c79e6060",
+  null,
+  function() { return {"one":"%{replyCount} svar (%{unreadCount})","other":"%{replyCount} svar (%{unreadCount})"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "sections_autocomplete",
+  function() { return {"a_section_is_required_64103992":"En sektion er påkrævet","post_to_961f8937":"Opslå på","section_added_83879254":"%{section} tilføjet","section_removed_2ac72a79":"%{section} fjernet"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "EntryEditor",
+  function() { return {"failed_to_save_please_try_again_later_bb7070fb":"Kunne ikke gemmes, prøv igen senere"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignmentRubricDialog",
+  null,
+  function() { return {"loading":"Indlæser ...","titles":{"assignment_rubric_details":"Detaljer om vurderingskriterie til opgave"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "discussionTopicKeyboradShortcutModal",
+  function() { return {"delete_current_message_5da0221a":"Slet aktuelle besked","edit_current_message_da650d4c":"Rediger aktuel besked","next_message_780bcf24":"Næste besked","previous_message_8804f87e":"Forrige besked","reply_to_current_message_55391f5b":"Svar på aktuel besked","reply_to_topic_12412b0f":"Svar på emne"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "keyboardShortcutModal",
+  function() { return {"press_the_esc_key_to_close_this_modal_14d10601":"Tryk på tasten Esc for at lukke denne modal","users_of_screen_readers_may_need_to_turn_off_the_v_98811cd":"Brugere af skærmlæsere skal muligvis slå den virtuelle markør fra for at bruge disse genvejstaster"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "discussions_v2",
+  function() { return {"add_discussion_653dab4c":"Tilføj diskussion","click_here_to_add_a_discussion_f17c4260":"Klik her for at tilføje en diskussion","closed_for_comments_e395b42f":"Lukket for kommentarer","count_discussions_found_fc326362":"%{count} diskussioner fundet.","discussion_filter_5d68de61":"Diskussionsfilter","discussions_menu_f18eb4a2":"Diskussionsmenu","duplication_failed_3351ffb1":"Duplikering mislykkedes","duplication_of_title_succeeded_2e0bd645":"Duplikering af %{title} lykkedes","error_saving_discussion_settings_3360661d":"Fejl ved at gemme diskussionsindstillinger","failed_to_delete_discussion_title_986df717":"Kunne ikke slette diskussion %{title}","failed_to_update_discussion_23cc229a":"Kunne ikke opdatere diskussion","loading_discussions_8ed5fcd7":"Indlæser diskussioner","move_discussion_9ff5b2d1":"Flyt diskussion","ordered_by_recent_activity_112d33d5":"Organiseret efter nylig aktivitet","pinned_discussions_a55c0cea":"Fastgjorte diskussioner","saved_discussion_settings_successfully_ebd46a57":"Diskussionsindstillinger blev gemt","search_by_title_or_author_273a8f49":"Søg efter titel eller forfatter ...","search_discussion_by_title_30466604":"Søg diskussion efter titel","subscribe_failed_2eb62de0":"Abonnement mislykkedes","successfully_deleted_discussion_title_a685f345":"Diskussion blev slettet %{title}","there_are_no_discussions_to_show_in_this_section_e8f04ebd":"Der er ingen diskussioner at vise i denne sektion","to_close_comments_on_a_discussion_drag_a_discussio_85b27448":"Hvis du vil lukke kommentarer til en diskussion, skal du trække en diskussion her hen eller vælge Luk for kommentarer fra diskussionsindstillingsmenuen.","to_pin_a_discussion_to_the_top_of_the_page_drag_a__bfe476c3":"Træk en diskussion her eller vælg Fastgør fra indstillingsmenuen til diskussioner for at fastgøre en diskussion til toppen af siden.","unsubscribed_failed_2a176d2":"Afmelding mislykkedes","updating_discussion_failed_aadb2d35":"Opdatering af diskussion mislykkedes","you_currently_have_no_discussions_with_closed_comm_366a9dab":"Du har i øjeblikket ikke nogen diskussioner med lukkede kommentarer","you_currently_have_no_pinned_discussions_6f0078b8":"Du har ingen fastgjorte diskussioner i øjeblikket"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "you_are_about_to_delete_count_discussions_are_you__7ff455aa",
+  null,
+  function() { return {"one":"Du er ved at slette 1 diskussion. Er du sikker?","other":"Du er ved at slette %{count} diskussioner. Er du sikker?"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "shared_components",
+  function() { return {"allow_comments_a1f45d8":"Tillad kommentarer","allow_comments_for_title_7ac9e00":"Tillad kommentarer til %{title}","delayed_until_58b7af4b":"Forsinket indtil:","delete_announcement_title_756a9d1f":"Slet besked %{title}","disallow_comments_6d04b47a":"Tillad ikke kommentarer","disallow_comments_for_title_21f9c653":"Tillad kommentarer til %{title}","posted_on_e1010e1e":"Opslået d.:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "discussion_row",
+  function() { return {"anonymous_discussion_1e9b981":"Anonym diskussion | ","available_until_date_d2fe6cb1":"Tilgængelig til %{date}","close_discussion_title_for_comments_adde43bc":"Luk diskussion %{title} for kommentarer","close_for_comments_ce0e5d00":"Luk for kommentarer","copy_title_to_course_2a41a2f4":"Kopier %{title} til fag","delete_discussion_title_a28df8b6":"Slet diskussion %{title}","discussions_announcements_redesign_901c5528":"Diskussioner/beskeder gen-design","due_date_bf4eaf46":"Forfalder %{date} ","duplicate_discussion_title_6537ef4d":"Dupliker diskussion %{title}","enable_cbcd2eef":"Aktivér ","last_post_at_date_bf77652f":"Sidste opslag kl. %{date}","lock_discussion_title_failed_9d49f2d":"Låsning af diskussion %{title} mislykkedes","lock_discussion_title_succeeded_fb24ebfc":"Låsning af diskussion %{title} lykkedes","move_discussion_title_93ea7be1":"Flyt diskussion %{title}","not_available_until_date_3c1c73c2":"Ikke tilgængelig før %{date}","open_discussion_title_for_comments_6baa3fa":"Åbn diskussion %{title} for kommentarer","open_for_comments_1810648":"Åben for kommentarer","partially_anonymous_discussion_13ceb585":"Delvist anonym diskussion | ","pin_cdbc9f8f":"Fastgør","pin_discussion_title_67c84658":"Fastgør diskussion %{title}","pin_of_discussion_title_failed_6c2c32a5":"Fastgørelse af diskussion %{title} mislykkedes","pin_of_discussion_title_succeeded_c7d59580":"Fastgørelse af diskussion %{title} lykkedes","publish_title_102f2d90":"Offentliggør %{title}","send_title_to_user_d952e233":"Send %{title} til bruger","subscribe_to_title_c7d6bbd2":"Abonner på %{title}","to_do_date_d6b79bfd":"Opgaveliste %{date}","to_view_anonymous_discussion_c11482a3":" for at se anonym diskussion","unlock_discussion_title_failed_42a4252f":"Oplåsning af diskussion %{title} mislykkedes","unlock_discussion_title_succeeded_cd97847c":"Oplåsning af diskussion %{title} lykkedes","unpin_a318452a":"Frigør","unpin_discussion_title_8c2a0942":"Frigør diskussion %{title}","unpin_of_discussion_title_failed_852116d4":"Frigørelse af diskussion %{title} mislykkedes","unpin_of_discussion_title_succeeded_ce315adb":"Frigørelse af diskussion %{title} lykkedes","unpublish_title_26ae9667":"Annuller offentliggørelse %{title}","unsubscribe_from_title_c98461b3":"Afmeld fra %{title}","was_locked_at_date_acf1c576":"Blev låst kl. %{date}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "discussion_settings",
+  function() { return {"attach_files_to_discussions_bd16c245":"Vedhæfte filer til diskussioner","create_anonymous_discussion_topics_d573e88e":"Opret anonyme diskussionsemner","create_discussion_topics_8330d52b":"Opret diskussionsemner","discussion_settings_2fbf0b95":"Diskussionsindstillinger","edit_and_delete_their_own_replies_e5b9d793":"Rediger og slet deres egne svar","manually_mark_replies_as_read_580adc59":"Marker manuelt svar som læst","my_settings_2ff35329":"Mine indstillinger","report_replies_500cdcd3":"Rapporter svar","save_settings_cafe79a5":"Gem indstillinger","student_settings_354d9a7e":"Elevindstillinger"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "discussion_posts",
+  function() { return {"add_rubric_3636d9a6":"Tilføj vurderingskriterium","anonymous_discussion_54517e84":"Anonym diskussion","are_you_sure_you_want_to_delete_this_topic_c0466e91":"Er du sikker på, du vil slette dette emne","author_215203d2":"Forfatter","availability_8942cde6":"Tilgængelighed","available_from_availabledate_b8cb93ef":"Tilgængelig fra %{availableDate}","available_from_availabledate_until_untildate_f27b70aa":"Tilgængelig fra %{availableDate} til %{untilDate}","available_until_untildate_b926fe11":"Tilgængelig til %{untilDate}","close_for_comments_37783f56":"Luk for kommentarer","collapse_replies_ef4fc36b":"Skjul svar","continue_draft_6166ea79":"Fortsæt udkast","count_less_e65e028b":"%{count} mindre","count_more_beba6428":"%{count} mere","created_timingdisplay_82e15b1e":"Oprettet %{timingDisplay}","deeply_nested_replies_are_no_longer_supported_your_e84c6796":"Dybt indlejrede svar understøttes ikke længere. Dit svar vises på den første side i denne tråd.","deleted_by_deletername_f269211a":"Slettet af %{deleterName}","deleted_deletedtimingdisplay_f4c73003":"Slettet %{deletedTimingDisplay}","discussion_topic_title_95b1d6b6":"Diskussionsemne: %{title}","due_dates_duedatecount_bbc24d65":"Afleveringsdatoer (%{dueDateCount})","edited_by_editorname_editedtimingdisplay_ae2f4692":"Redigeret af %{editorName} %{editedTimingDisplay}","edited_editedtimingdisplay_85d8f1db":"Redigeret %{editedTimingDisplay}","enter_the_grade_41d5c97d":"Indtast vurderingen","go_to_parent_7fb312b4":"Gå til overordnet","go_to_quoted_reply_6f4661e":"Gå til Citeret svar","go_to_reply_36fe5f51":"Gå til Svar","go_to_topic_af6025fc":"Gå til emne","group_discussions_914b1577":"Gruppediskussioner","include_quoted_reply_in_message_d0c8af8a":"Medtag citeret svar i meddelelsen","last_reply_lastreplyatdisplay_7a4af30":"Sidste svar %{lastReplyAtDisplay}","last_reply_lastreplyatdisplaytext_f3d8ee3a":"Sidste svar %{lastReplyAtDisplayText}","like_count_count_9467dc82":"Antal Synes godt om: %{count}","like_post_from_author_79b874f1":"Synes godt om et indlæg fra %{author}","manage_discussion_c1dd8f4e":"Administrering af diskussion","mark_all_as_read_8f3bdf57":"Markér alle som læste","mark_all_as_unread_a435be3d":"Markér alle som ulæste","mark_as_read_47ec83dd":"Marker som læst","mark_as_unread_4ded3977":"Marker som ulæst","mark_thread_as_read_41c1bcb3":"Marker tråd som læst","mark_thread_as_unread_bc3d7a4":"Marker tråd som ulæst","no_end_date_2608075c":"Ingen slutdato","no_results_match_searchterm_f28e50e0":"Ingen resultater matcher \"%{searchTerm}\"","no_start_date_6e81c22b":"Ingen startdato","note_for_differentiated_group_topics_some_threads__90adbb21":"Bemærk: Nogle tråde har muligvis ikke tildelte elever for differentierede gruppeemner.","open_for_comments_f8f7641e":"Åben for kommentarer","open_in_speedgrader_506a4ad5":"Åbn i SpeedGrader","open_in_speedgrader_57c64fe3":"Åbn i SpeedGrader","partially_anonymous_discussion_e821cf85":"Delvist anonym diskussion","peer_review_due_dueattext_20987412":"Elev-elev vurdering forfalder %{dueAtText}","peer_review_due_eb63af38":"Elev-elev vurdering forfalder","peer_review_for_name_bcffa32f":"Elev-elev vurdering for %{name}","peer_review_for_name_due_dueattext_f5f6547d":"Elev-elev vurdering for %{name}, der skal afleveres: %{dueAtText}","peer_reviews_e3a55964":"Elev-elev-vurderinger","quote_ae4462ad":"Citat","replace_filename_png_button_cf5dc7c3":"Erstat filnavn.png-knap","reply_to_post_from_author_116cedd5":"Svar på indlæg fra %{author}","report_58d2ac9e":"Rapport","reported_3de7086a":"Indberettet","review_now_318a6a3e":"Gennemgå nu","saved_3cd67a7c":"Gemt","show_due_dates_duedatecount_5e0b056c":"Vis afleveringsdatoer (%{dueDateCount})","show_rubric_dca783f2":"Vis vurderingskriterium","students_have_the_option_to_reply_anonymously_some_503cdf6c":"Eleverne har mulighed for at svare anonymt. Nogle navne og profilbilleder kan være skjulte.","subscribe_4b301fb7":"Abonner","subscribed_fe74d22a":"Abonneret","the_discussion_topic_was_successfully_deleted_d8b93b70":"Diskussionsemnet blev slettet.","there_was_an_unexpected_error_deleting_the_discuss_fe1022cb":"Der opstod en uventet fejl under sletning af dette diskussionsemne.","there_was_an_unexpected_error_marking_all_as_read_117fe739":"Der opstod en uventet fejl, der markerede alle som læst.","there_was_an_unexpected_error_marking_all_as_unrea_e4658766":"Der opstod en uventet fejl, der markerede alle som ulæst.","there_was_an_unexpected_error_updating_the_discuss_6cd3489c":"Der opstod en uventet fejl under opdatering af dette diskussionsemne.","this_announcement_will_not_be_visible_until_delaye_88f7f5c":"Denne meddelelse er ikke synlig før %{delayedPostAt}.","this_is_an_anonymous_discussion_student_names_and__bc19b64d":"Dette er en anonym diskussion. Elevernes navne og profilbilleder er skjult.","this_is_an_anonymous_discussion_though_student_nam_f98abe71":"Dette er en anonym diskussion. Selvom elevens navne og profilbilleder vil være skjult, vil dit navn og profilbillede være synligt for alle fagets medlemmer.","this_is_an_anonymous_discussion_your_name_and_prof_72c49b77":"Dette er en anonym diskussion, dit navn og profilbillede vil blive skjult for andre fagdeltagere.","this_topic_will_be_available_delayedpostat_6b47c4c3":"Dette emne vil være tilgængelig på %{delayedPostAt}","topic_podcast_feed_9ab6f5ac":"Emne: Podcast-feed","unlike_post_from_author_5e2c13c5":"Fjern synes godt om for indlæg fra %{author}","unread_post_47a1a06b":"Ulæst indlæg","unsubscribe_8be438ff":"Opsig abonnement","unsubscribed_c93564a2":"Abonnement opsagt","view_availability_963f62ff":"Se tilgængelighed","when_creating_a_reply_students_will_have_the_optio_716eb2f4":"Når de opretter et svar, vil eleverne have mulighed for at vise deres navn og profilbillede eller forblive anonyme. Dit navn og profilbillede vil være synligt for alle fagets deltagere.","when_creating_a_reply_you_will_have_the_option_to__8607ac10":"Når du opretter et svar, vil du have mulighed for at vise dit navn og profilbillede til andre fagmedlemmer eller forblive anonym.","you_have_completed_a_peer_review_for_name_4dd2264b":"Du har gennemført en elev-elev vurdering for %{name}","you_have_successfully_marked_all_as_read_f246ef1a":"Du har markeret alle som læst.","you_have_successfully_marked_all_as_unread_cb019eb9":"Du har markeret alle som ulæst.","you_have_successfully_subscribed_to_the_discussion_a577c521":"Du har tilmeldt dig til diskussionsemnet.","you_have_successfully_unsubscribed_from_the_discus_883e8326":"Du har afmeldt dig fra diskussionsemnet.","you_have_successfully_updated_the_discussion_topic_b2910500":"Du har opdateret diskussionsemnet.","you_must_post_before_seeing_replies_24f8bcd4":"Du skal lægge opslag ud, inden du kan se svar."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_points_4735a2e8",
+  null,
+  function() { return {"one":"1 point","other":"%{count} point"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_points_possible_aa76302d",
+  null,
+  function() { return {"one":"mulige point","other":"%{count} mulige point"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_results_found_da21e05c",
+  null,
+  function() { return {"one":"1 resultat fundet","other":"%{count} resultater fundet"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "discussion_topics_post",
+  function() { return {"anonymous_id_2ef1c6d2":"Anonym %{id}","anonymous_id_you_cf43ab76":"Anonym %{id} (Dig)","anonymous_you_e708af99":"Anonym (Dig)","are_you_sure_you_want_to_delete_this_entry_9aecd6d3":"Er du sikker på, at du vil slette denne indtastning?","deleted_by_editor_d3fdc2ee":"Slettet af %{editor}","discussion_topic_initial_query_error_37c98b4":"Diskussionsemne - indledende forespørgselsfejl","discussion_topic_post_error_page_7f7edc49":"Slå diskussionsemne op - fejlside","inappropriate_1930c574":"Upassende","isolated_entry_post_error_page_2a447d08":"Side for isoleret fejl ved opslag af post","isolated_entry_query_error_f0bfae18":"Isoleret indtastning - forespørgselsfejl","offensive_abusive_c41dcb08":"Stødende, krænkende","please_select_a_reason_for_reporting_this_reply_51719e8d":"Vælg en årsag til at rapportere dette svar","read_less_ae7bd04f":"Læs mindre","read_more_f69fb6ec":"Læs mere","report_reply_5af43ed0":"Rapporter svar","report_reply_options_44e47591":"Indstillinger for Rapporter svar","reported_replies_will_be_sent_to_your_teacher_for__e7c814ec":"Rapporterede svar vil blive sendt til din lærer til gennemgang. Du vil ikke kunne fortryde denne handling.","show_newer_replies_9f73d06d":"Vis nyere svar","show_older_replies_e85891b3":"Vis ældre svar","the_discussion_entry_was_successfully_created_7cddf67b":"Diskussionsindlægget blev oprettet.","the_replies_were_successfully_updated_56430189":"Svarene blev opdateret","the_reply_was_successfully_deleted_84f3e46e":"Svaret blev slettet.","the_reply_was_successfully_updated_18d7421f":"Svaret blev opdateret.","there_was_an_unexpected_error_creating_the_discuss_8811a868":"Der opstod en uventet fejl under oprettelse af dette diskussionsindlæg.","there_was_an_unexpected_error_loading_the_replies_578d9738":"Der opstod en uventet fejl under indlæsning af svarene.","there_was_an_unexpected_error_updating_the_reply_a3eaf19f":"Der opstod en uventet fejl under opdatering af svaret.","there_was_an_unexpected_error_while_deleting_the_r_7df6ebe0":"Der opstod en uventet fejl under sletning af svaret.","there_was_an_unexpected_error_while_updating_the_r_412e6e54":"Der opstod en uventet fejl under opdatering af dette svar.","there_was_an_unexpected_error_while_updating_the_r_a7ab5183":"Der opstod en uventet fejl under opdatering af disse svar","view_replies_8565a729":"Se svar","we_experienced_an_issue_this_reply_was_not_reporte_7622abd1":"Der opstod et problem. Dette svar blev ikke rapporteret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "eportfolio",
+  function() { return {"_at_the_bottom__4360f2b4":"-- På bunden --","click_to_edit_drag_to_reorder_ab725681":"Klik for at redigere, træk for at omorganisere","move_page_e25b123d":"Flyt side","move_section_d3866941":"Flyt sektion","place_section_before_5b45714e":"Placer \"%{section}\" før:","submission_added_title_50ebdc85":"aflevering tilføjet: %{title}"} },
+  function() { return {"buttons":{"done_editing":"Redigering færdig","manage_sections":"Administrering af sektioner"},"confirm_delete_message":"Er du sikker på, at du vil slette denne besked?","confirm_delete_page":"Slette denne side og hele dens indhold?","confirm_delete_section":"Slette denne sektion og alle dens sider?","default_description":"Dette er min aflevering af %{assignment} til %{course}.","eportfolio_settings":"Indstillinger til ePortfolio","errors":{"compiling":"Det opstod en fejl under samlingen af din eportfolio. Prøv igen lidt senere.","missing_file":"Vælg en fil","name_required":"Navn er påkrævet","name_too_long":"Navn er for langt","section_name_invalid":"Sektionsnavn er ikke gyldigt","section_name_too_long":"Sektionsnavn er for langt","upload_failed":"Upload mislykkedes."},"titles":{"add_submission":"Føj side til afleveringen","download_eportfolio":"Download ePortfolio","section_list":"Træk for at omorganisere, klik for at redigere"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "eportfolios",
+  null,
+  function() { return {"_page_section":{"section_types":{"attachment":"Billede-/filoverførsel","html":"HTML/integreret indhold","rich_text":"RTF-indhold","submission":"Aflevering"}},"show":{"headers":{"export_progress":"Samler ressourcer til ePortfolio. Der kan gå lidt tid, inden du har mange filer i din ePortfolio."}}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "epub_exports",
+  function() { return {"download_associated_files_f35dcb5e":"Download tilknyttede filer","download_epub_757cf0af":"Download ePub","failed_307449e1":"Mislykkedes:","generate_epub_80e89ea4":"Generer ePub","generated_f26ee56b":"Genereret:","generating_5b5e20f8":"Genererer:","generating_c2aabc02":"Genererer ...","regenerate_epub_395c8e56":"Gendan ePub"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "shared",
+  null,
+  function() { return {"components":{"ic_submission_download_dialog":{"click_to_download":"Klik her for at downloade","download_message":"Afleveringerne bliver komprimeret i en zip-fil til download. Det kan tage lidt tid afhængigt af størrelsen og antallet af filer.","download_message_intro":"Elevernes afleveringer samles.","download_submissions":"Download alle afleveringer"}},"error_form":{"message_failed":"Rapporten blev ikke sendt. Prøv igen.","message_sent":"Tak for din hjælp! Vi går straks i gang."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "external_tools",
+  function() { return {"access_token_3be22221":"Adgangs-token","add_app_baf540f":"Tilføj app","add_to_rce_toolbar_e5b3e3b4":"Føj til RCE-værktøjslinje","allow_this_tool_to_access_the_ims_names_and_role_p_33e16d7f":"Giv dette værktøj adgang til IMS Name and Role Provisioning Service","an_error_occured_while_trying_to_find_the_lti_conf_90f50a4c":"Der opstod en fejl under forsøg på at finde LTI-konfigurationen","an_update_is_available_for_toolname_bba3fa2":"Der findes en opdatering for %{toolName}","app_placements_6d877225":"App-placeringer","app_reregistration_87cc8817":"Genregistrering af app","app_was_installed_by_admin_and_is_locked_3bee4d39":"%{app} blev installeret af admin og er låst","app_was_installed_by_the_master_course_and_is_lock_dbeb24a6":"%{app} blev installeret af hovedfaget og er låst","app_was_installed_by_the_master_course_e55ba1d7":"%{app} blev installeret af hovedfaget","apps_are_an_easy_way_to_add_new_features_to_canvas_2cbc2531":"App'er er en nem måde til at føje nye funktioner til Canvas. De kan føjes til individuelle fag, eller til fag i en konto. Når de er konfigureret, kan du linke til dem via fagforløb, og oprette opgaver til bedømmelsesværktøjer.","are_you_sure_you_want_to_remove_this_tool_7363f90b":"Er du sikker på, du vil slette dette værktøj?","assignment_and_link_selection_557faf38":"Opgave- og linkvalg","assignment_edit_6dced39f":"Rediger opgave","assignment_menu_91fe3716":"Opgavemenu","assignment_selection_6bff05c4":"Opgavevalg","assignment_view_1206a60b":"Opgavevisning","assignments_group_menu_c2522316":"Gruppemenu for opgaver","assignments_index_menu_4088a035":"Indeksmenu for opgaver","back_to_app_center_95420d83":"Tilbage til App Center","by_client_id_4f2fe02c":"Efter kunde-id","by_lti_2_registration_url_e421e523":"Fra LTI 2 Registration URL","by_url_a163275e":"Efter URL","client_id_cb2502af":"Kunde-id","client_id_is_required_1afd54d1":"Klient-id er påkrævet","collaboration_71c024f4":"Samarbejde","conference_selection_ea4050bb":"Konferencevalg","config_url_e96ceaf3":"Konfig URL","configuration_type_25a084a4":"Konfigurationstype","configure_tool_app_3b1bb50b":"Konfigurer %{tool} app?","configure_toolname_app_651371be":"Konfigurer %{toolName} app","consumer_key_6f94ba11":"Forbrugernøgle","could_not_find_an_lti_configuration_for_client_id__b7d07b3c":"Kunne ikke finde en LTI-konfiguration for klient-id %{clientId}","count_apps_found_f4d86860":"%{count} apps fundet","course_assignments_menu_fa6aeb23":"Fagets opgavemenu","course_home_sub_navigation_b1ee6b03":"Fagets startside undernavigation","course_settings_sub_navigation_b95deae":"Fagindstillinger subnavigation","delete_tool_app_9c9f6d35":"Slet %{tool} app?","delete_toolname_app_85f9d4ee":"Slet %{toolName} app","deployment_id_fc270280":"Installations-ID","deployment_id_for_tool_app_cb59335":"Installations-ID for %{tool}-app","deployment_id_for_toolname_app_e54a7364":"Installations-ID for %{toolName}-app","disabled_18c33a73":"(deaktiveret)","discussion_topic_menu_3d4684c6":"Diskussionsemnemenu","discussions_index_menu_42591bc9":"Indeksmenu for diskussioner","dismiss_dacdb625":"Afvis","e_mail_only_2cc5e513":"Kun e-mail","edit_app_b0cc1c17":"Rediger app","edit_toolname_app_23cfbb8":"Rediger %{toolName} app","editor_button_6647db9c":"Redigeringsknap","either_the_url_or_domain_should_be_set_c29cf8c1":"Webadressen (url) eller domænet skal indstilles.","enter_the_access_token_for_your_organization_from__7b67e135":"Indtast dit adgangs-token til din organisation fra \n                    *eduappcenter.com*. Når anvendt, er det kun apps, som din organisation har godkendt i \n                    EduAppCenter, der bliver opført på siden Eksterne apps. \n                    Lær at **generere et adgangs-token**.","example_https_example_com_config_xml_be5f36ac":"Eksempel: https://eksempel.com/config.xml","example_https_lti_tool_provider_example_herokuapp__e9802142":"Eksempel: https://lti-tool-provider-example.herokuapp.com/register","favorite_d720d310":"Favorit","file_menu_cc0ca54":"Filmenu","files_index_menu_c6961f14":"Indeksmenu for filer","filter_by_name_34cbe139":"Filtrer efter navn","homework_submission_172e8354":"Hjemmearbejde aflevering","inactive_34365329":"Inaktiv","install_c54fad9b":"Installer","installed_7b284a91":"Installeret","it_may_take_some_time_for_placement_availability_t_9ee07437":"Det kan tage lidt tid, før placeringstilgængelighed afspejler de ændringer, som foretages her. Du kan også rydde din cache og udføre en hård genindlæsning på sider, hvor du forventer, at placeringer ændres.","launch_registration_tool_38d4781":"Igangsæt registreringsværktøj","launch_url_e150bd41":"Igangsæt URL","link_selection_1486c5d0":"Linkvalg","link_to_lti_tools_608df3b0":"Link til lti-værktøjer.","manage_app_list_994cc26c":"Administrering af app-liste","manage_update_23de23a1":"Administrering af opdatering","manage_update_for_toolname_f8e3b2fb":"Administrering af opdatering for %{toolName}","migration_selection_5f1c5f55":"Overførselsvalg","module_menu_3201af4e":"Forløbmenu","module_menu_modal_6b20c03":"Forløbmenu (modal)","modules_group_menu_4aae0d5f":"Gruppemenu for forløb","modules_index_menu_modal_79123a19":"Indeksmenu for forløb (Modal)","modules_index_menu_tray_3f9975d9":"Indeksmenu for forløb (Tray)","na_3dbb9cfd":"NA","name_app_has_been_deleted_fb2d9426":"%{name} app er blevet slettet","name_has_been_successfully_installed_but_has_not_y_c3148b96":"*navn* er blevet installeret, men er endnu ikke blevet aktiveret.","name_is_currently_status_9065c996":"*navn* er aktuelt **status**.","name_only_5f56718e":"Kun navn","no_cancel_installation_db8d12d7":"Nej, annuller installation","no_placements_enabled_f705f28":"Der er ikke aktiveret placeringer","not_installed_37a21a76":"Ikke installeret","page_menu_2f8bee0":"Sidemenu","pages_index_menu_f391bf04":"Indeksmenu for sider","paste_xml_cda3a64e":"Indsæt XML","placement_active_click_to_deactivate_47f8cf45":"Placering aktiv; klik for at deaktivere","placement_inactive_click_to_activate_f7fe8c30":"Placering inaktiv; klik for at aktivere","privacy_290109ea":"Datapolitik","quiz_menu_4fcd5e61":"Quizmenu","quizzes_index_menu_1ce11b54":"Indeksmenu for quizzer","register_tool_84de3186":"Tilmeldingsværktøj","registration_url_60e0eaaa":"Registrerings-URL","reregister_9ab95a57":"Registrer","reregister_toolname_3dde0bfc":"Registrer igen %{toolName}","retrieving_tool_51709735":"Hentningsværktøj","see_some_lti_tools_that_work_great_with_canvas_53e92091":"Se nogle LTI-værktøjer, der fungerer godt med Canvas.","shared_secret_892c88f2":"Fælles hemmelighed","similarity_detection_dcada48":"Ligheds-opdagelse","submission_type_selection_72ce19f":"Valg af afleveringsform","the_app_was_activated_a84e055f":"App'en blev aktiveret","the_app_was_added_58e2836a":"Denne app blev tilføjet","the_app_was_added_successfully_3f785a23":"App'en blev tilføjet","the_app_was_deactivated_573520ab":"App'en blev deaktiveret","the_app_was_updated_successfully_3d71cd1b":"App'en blev opdateret","the_client_id_clientid_is_disabled_b4a02cb1":"Klient-id'et %{clientId} er deaktiveret","the_following_fields_are_invalid_fields_b3565800":"Følgende felter er ugyldige: %{fields}","there_is_a_2_app_limit_for_placement_within_the_rc_971821a8":"Der er en grænse på 2 apps, der kan placeres i RCE-værktøjslinjen.","there_was_an_error_in_processing_your_request_6513a49a":"Der opstod en fejl ved behandling af din anmodning","there_was_an_unknown_error_registering_the_tool_b9a29954":"Der opstod en ukendt fejl ved registrering af værktøjet","there_were_errors_with_the_form_errors_ab5b559a":"Der opstod fejl med formularen: %{errors}","this_field_name_is_required_988caebc":"Dette felt \"%{name}\" er påkrævet.","this_field_name_is_required_b9196401":"Dette felt \"navn\" er påkrævet.","this_tool_has_already_been_installed_in_this_conte_b73ea29c":"Dette værktøj er allerede blevet installeret i denne kontekst. Vil du gerne installere det alligevel?","to_obtain_a_client_id_an_account_admin_will_need_t_33f4063e":"For at få et klient-id skal en kontoadministrator generere en LTI-udvikler-nøgle.","toggling_placement_ee1ab8b5":"Slå placering til/fra","tool_configuration_63cd43b0":"Værktøjskonfiguration","tool_content_e699e813":"Værktøjsindhold","tool_placements_3f996c24":"Værktøjsplaceringer","tool_toolname_found_for_client_id_clientid_would_y_13f35b91":"Værktøj \"%{toolName}” fundet for klient-id %{clientId}. Vil du installere det?","unable_to_accept_update_fd53a7e2":"Kan ikke acceptere opdatering","unable_to_dismiss_update_df1e32eb":"Kan ikke annullere opdatering","unable_to_remove_app_4293cb53":"Kan ikke fjerne app","unable_to_toggle_placement_833db6ff":"Kunne ikke skifte placering","unchanged_aca18e02":"[Uændret]","update_tool_7d48ef2a":"Opdater %{tool}","user_navigation_a097be0f":"Brugernavigation","view_app_center_6c89a3fe":"Vis App Center","view_app_configurations_52b52441":"Vis app-konfigurationer","view_name_app_62a2ad8e":"Vis %{name} app","view_toolname_placements_4a5724d1":"Vis %{toolName} placeringer","we_were_unable_to_activate_the_app_578defe7":"Vi kunne ikke aktivere app'en.","we_were_unable_to_add_the_access_token_1f471fe6":"Vi kunne ikke tilføje adgangstoken.","we_were_unable_to_add_the_app_418877ef":"Vi kunne ikke tilføje app'en.","we_were_unable_to_deactivate_the_app_5e2632f3":"Vi kunne ikke deaktivere app'en.","we_were_unable_to_update_the_app_659f5bc6":"Vi kunne ikke opdatere app'en.","would_you_like_to_accept_or_dismiss_this_update_9009d696":"Vil du acceptere eller afvise denne opdatering?","would_you_like_to_enable_this_app_ccdf735d":"Vil du aktivere denne app?","xml_configuration_5ea1b942":"XML-konfiguration","yes_install_tool_f51b3278":"Ja, installer værktøj"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "file_not_found",
+  function() { return {"be_a_hero_and_ask_your_instructor_to_fix_this_link_4981930c":"Vær en helt, og bed din instruktør om at ordne dette link.","broken_file_link_found_in_your_course_7cc24395":"Der blev fundet et brudt fillink i dit fag","please_let_them_know_which_page_you_were_viewing_a_c9816406":"Fortæl dem, hvilken side du kiggede på og det link du klikkede på.","this_most_likely_happened_because_you_imported_cou_a78ea880":"Dette skete sandsynligvis, fordi du importerede fagindhold uden dets tilknyttede filer.","this_student_wrote_f1a3f22d":"Denne elev skrev:","your_message_has_been_sent_thank_you_e0284316":"Din besked er blevet sendt. Tak!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "MasterCourseLock",
+  function() { return {"an_error_occurred_changing_the_lock_state_for_file_77443f15":"Der opstod en fejl under ændring af låsestatus for \"%{fileName}\"","filename_is_locked_click_to_modify_bf711763":"%{fileName}  er låst, klik for at ændre","filename_is_unlocked_click_to_modify_99e847be":"%{fileName}  er låst op, klik for at ændre","this_file_16b24f02":"denne fil"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "react_files",
+  function() { return {"a_file_named_itemname_already_exists_in_this_folde_b0dc7185":"En fil med navnet %{itemName} findes allerede i denne mappe.","add_folder_ba50d107":"Tilføj mappe","all_my_files_a0213441":"Alle mine filer","an_error_occurred_trying_to_prepare_download_pleas_df6fa596":"Der opstod en fejl under forberedelse af download, prøv igen.","an_unknown_server_error_occurred_please_try_again_f517eaf3":"Der opstod en ukendt serverfejl. Prøv igen.","available_folders_694d0436":"Tilgængelige mapper","before_publishing_this_file_you_must_specify_usage_2229d20b":"Du skal specificere brugsrettigheder, inden denne fil offentliggøres.","copy_to_folder_32ecc3c3":"Kopiér til mappe","copying_628a9607":"Kopierer ...","course_files_a31f97fc":"Fagets filer","creative_commons_714a065f":"Creative Commons","download_as_zip_5dae7f19":"Download som zip","error_deleting_name_reason_11f9d399":"Fejl under sletning af %{name}: %{reason}","fair_use_bee47d77":"Fair brug","file_list_350d08df":"Filliste","file_upload_failed_af22dd91":"Filupload mislykkedes","file_uploading_56c9c0c8":"Fil overføres","files_menu_86dddbc0":"Filmenu","files_quota_percentused_of_bytesavailable_used_7f62792c":"Fil-kvote: %{percentUsed} af %{bytesAvailable} brugt","files_toolbar_2f2f0976":"Filer værktøjslinje","folder_tree_fbab0726":"Mappetræ","group_files_82e5dcdb":"Gruppefiler","if_you_leave_the_zip_file_download_currently_being_c47c1dfb":"Hvis du lukker, så annulleres den zip-fil, som forberedes i øjeblikket.","loading_folders_d8b5869e":"Indlæser mapper","loading_more_results_def6df65":"Indlæser flere resultater ...","manage_access_bd923d8d":"Administrering af adgang","manage_usage_rights_da351cd8":"Administrer brugsrettigheder","move_to_1c208ae5":"Flyt til ...","moving_a4d552df":"Flytter ...","my_files_2f621040":"Mine filer","own_copyright_cc59db55":"Ejer ophavsret","percentused_of_bytesavailable_used_a859a40d":"%{percentUsed} af %{bytesAvailable} brugt","please_enter_a_search_term_with_three_or_more_char_53fd5ed8":"Indtast et søgeord med tre eller flere tegn","public_domain_112ed397":"Offentligt domæne","rename_45608f54":"Omdøb","search_for_files_7541fb28":"Søger efter filer","select_itemname_f70db487":"Vælg %{itemName}","show_and_hide_courses_menu_9e09d1d0":"Vis og skjul fagets menu","something_went_wrong_d238c551":"Noget gik galt","sorted_direction_by_columnname_d049ac44":"Sorteret %{direction} efter %{columnName}","success_file_uploaded_8174e93f":"Succes: Fil overført","upload_not_available_for_this_folder_8f8623c6":"Upload ikke tilgængelig for denne mappe","used_by_permission_314a78dd":"Brugt i henhold til tilladelse","viewing_folders_is_not_available_798a15e1":"Visning af mapper er ikke tilgængelig","warning_for_improved_accessibility_in_moving_files_71e1028b":"Advarsel: Brug indstillingen Flyt til dialog, som findes i menuen for forbedret tilgængelighed, når der flyttes filer."} },
+  function() { return {"accept":"Acceptér","cancel":"Annuller","confirm_delete_with_contents":{"one":"Er du sikker på, at du vil slette %{name}? Hvis den ikke er tom, slettes alt indehold heri også.","other":"Er du sikker på, at du vil slette disse %{count} elementer og alt deres indhold?"},"created_at":"Oprettelsesdato","created_at_short":"Oprettet","errors":{"no_match":{"keywords":"Prøv forskellige nøgleord","spelled":"Sørg for, at alle ord er korrekt stavet.","suggestions":"Forslag:","three_chars":"Indtast mindst 3 bogstaver i søgefeltet.","your_search":"Din søgning - \"%{search_term}\" - matchede ikke nogen filer."}},"files":"Filer","folder_browsing_tree":"Mappestruktur","folder_name":"Mappenavn","modified_by":"Modificeret af","move_question":{"one":"Hvor kunne du tænke dig at flytte %{item} hen?","other":"Hvor kunne du tænke dig at flytte disse %{count} elementer hen?"},"move_success":{"one":"%{item} flyttet til %{destinationFolder}","other":"%{count} elementer flyttet til %{destinationFolder}"},"name":"Navn","progress_message":"Forbereder download: %{percent}% færdig","results_count":"Viser %{num_results} søgeresultater","search_results_for":"søg efter resultater for \"%{search_term}\"","select_all":"Vælg alle","size":"Størrelse","sorted_ascending":"Sorteret i stigende rækkefølge","sorted_desending":"Sorteret i faldende rækkefølge","this_folder_is_empty":"Denne mappe er tom","updated_at":"Dato modificeret","updated_at_short":"Modificeret"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "your_search_encountered_the_following_errors_fc3e5e7f",
+  null,
+  function() { return {"one":"Din søgning stødte på følgende fejl:","other":"Din søgning stødte på følgende fejl:"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "edit_permissions_for_count_items_d65e3855",
+  null,
+  function() { return {"one":"Rediger tilladelser for: %{itemName}","other":"Rediger tilladelser for %{count} elementer"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_items_selected_91814713",
+  null,
+  function() { return {"one":"%{count} element blev valgt","other":"%{count} elementer valgt"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "are_you_sure_you_want_to_delete_these_count_items_148e98ba",
+  null,
+  function() { return {"one":"Er du sikker på, at du vil slette %{name}?","other":"Er du sikker på, at du vil slette disse %{count} elementer?"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_items_deleted_successfully_a287aa53",
+  null,
+  function() { return {"one":"%{name} blev slettet.","other":"%{count} elementer blev slettet."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "upload_drop_zone",
+  function() { return {"drop_files_here_to_upload_ce0f50f9":"Slip filer her for at uploade"} },
+  function() { return {"drop_to_upload":"Slip elementer, som skal indlæses"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "folder_tree",
+  function() { return {"file_list_updated_38e2a5ad":"Filliste opdateret"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "rootFoldersFinder",
+  null,
+  function() { return {"course_files":"Fagets filer","group_files":"Gruppefiler","my_files":"Mine filer"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradingGradeSummary",
+  function() { return {"assignment_details_collapsed_55b67150":"opgavedetaljer skjult","assignment_details_expanded_20c6f0c7":"opgavedetaljer udvidet","based_on_what_if_scores_the_new_total_is_now_grade_d223be10":"Baseret på hvad-nu-hvis-resultater, bliver det nye samlede resultat %{grade}","click_to_test_a_different_score_2e0bb6f0":"Klik for at teste et andet resultat","enter_a_what_if_score_668c91a3":"Indtast et Hvad-nu-hvis-resultat.","grades_are_now_reverted_to_original_scores_e6deade1":"Vurderinger er nu vendt tilbage til originale resultater","grades_are_now_showing_what_if_scores_711a8be2":"Vurderinger viser nu hvad-nu-hvis-resultat","hide_all_details_61d7ebb":"Skjul alle detaljer","instructor_has_not_posted_this_grade_3b4c4124":"Instruktøren har ikke slået denne vurdering op","show_all_details_9879980c":"Vis alle detaljer","this_assignment_is_dropped_and_will_not_be_conside_35c3e198":"Opgaven blev droppet og tages ikke i betragtning i den samlede beregning","this_is_a_what_if_score_cbdc04f9":"Dette er et 'Hvad-nu-hvis-resultat\""} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "grade_summary",
+  function() { return {"an_error_occurred_please_try_again_95361e05":"En fejl opstod. Prøv igen.","apply_filters_note_clicking_this_button_will_cause_753f04":"Anvend filtre. Bemærk: Ved at klikke på denne knap bliver siden genindlæst.","click_for_more_details_on_this_outcome_8c018d2f":"klik for yderligere oplysninger om dette læringsudbytte","expand_collapse_title_outcome_group_student_meets__46ffef48":"Udvid/skjul %{title} resultatgruppe, elev opfylder mestring af %{mastery_count} af %{count} læringsudbytter","n_count_alignments_a45bebe7":"*%{n_count}* Tilpasninger"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebook_history",
+  function() { return {"anonymously_graded_59149570":"Vurderet anonymt","artifact_f7003de5":"Artefakt","error_loading_gradebook_history_try_again_19032437":"Fejl ved indlæsning af Vurderingsoversigt-historik. Prøv igen?","from_date_must_be_before_to_date_79f00046":"'Fra'-dato skal være før 'Til'-dato","grade_changes_cb5a57a8":"Vurderingsændringer","loading_more_gradebook_history_results_810f6d2e":"Indlæser flere Vurderingsoversigt-historikresultater.","loading_results_769c8819":"Resultater indlæses","more_results_were_added_at_the_bottom_of_the_page_dc323877":"Flere resultater blev tilføjet nederst på siden.","no_artifacts_with_that_name_found_b8679f53":"Ingen artefakter med dette navn fundet","no_graders_with_that_name_found_d8204d90":"Ingen bedømmere med dette navn blev fundet","no_more_results_to_load_6774fb1c":"Ikke flere resultater, der skal indlæses.","no_students_with_that_name_found_f6004da2":"Ingen elever med dette navn blev fundet","not_anonymously_graded_87574f91":"Ikke bedømt anonymt","not_available_487d3648":"Ikke tilgængelig","not_available_assignment_is_anonymous_94e77edf":"Ikke tilgængelig; opgaven er anonym","search_form_fcaa38f7":"Søgeformular","show_final_grade_overrides_only_c3017aaa":"Vis kun endelig tilsidesættelse af vurdering","type_a_few_letters_to_start_searching_3334657b":"Indtast et par bogstaver for at starte søgning"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebook_uploads",
+  function() { return {"an_unknown_error_has_occurred_verify_the_csv_file__96087ece":"En ukendt fejl er opstået. Bekræft CSV-filen, eller prøv igen senere.","override_score_5f3c1189":"Tilsidesæt resultat","override_score_gradingperiod_286ac51b":"Tilsidesæt resultat (%{gradingPeriod})","the_csv_header_row_is_invalid_a8ec1787":"CSV-overskriftsrækken er ugyldig."} },
+  function() { return {"errors":{"select_an_option":"Vælg en mulighed"},"student":"Elev"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebook_upload",
+  function() { return {"done_8af51c9b":"Færdig.","you_will_be_redirected_to_gradebook_while_your_fil_23fab7de":"Du vil blive omdirigeret til vurderingsoversigten mens din fil bliver uploadet. Hvis du har en stor CSV-fil, kan kan det tage et par minutter at opdatere ændringerne. For at undgå at overskrive data skal du bekræfte, at overførslen er afsluttet og at vurderingsoversigten er korrekt, før du foretager yderligere ændringer."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebookGradebookKeyboardNav",
+  function() { return {"open_the_grade_detail_tray_cea682a5":"Åbn vurderingsdetaljebakken"} },
+  function() { return {"keyboard_assignment_desc":"Gå til den aktuelle opgaves detaljeside","keyboard_close_menu":"Luk den aktuelt aktive menu","keyboard_menu_desc":"Åbn menuen for den aktive kolonne","keyboard_sort_desc":"Sorter gitteret på den aktuelt aktive kolonne","keycodes":{"close_menu":"esc","goto_assignment":"g","menu":"m","sort":"s"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebookGradeDisplayWarningDialog",
+  null,
+  function() { return {"grade_display_warning":{"cancel":"Annullér","continue":"Fortsæt","percent_text":"Elever vil også se deres endelige vurdering som en procentdel. Er du sikker på, at du vil fortsætte?","points_text":"Elever vil også se deres endelige vurdering som point Er du sikker på, at du vil fortsætte?"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "LongTextEditor",
+  null,
+  function() { return {"cancel":"Annuller","save":"Gem"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "post_grades_tray",
+  function() { return {"an_error_occurred_while_saving_the_assignment_post_94f1184e":"Der opstod en fejl, da opslagspolitikken for opgaver skulle gemmes","at_least_one_section_must_be_selected_to_post_grad_2c140f52":"Mindst en sektion skal vælges for at slå vurderinger op efter sektion.","grade_posting_policy_name_a6d6f178":"Politik for at slå vurdering op: %{name}","grade_posting_policy_tray_c929cfd":"Bakke for politik for at slå vurdering op","post_grades_tray_83f2fb2e":"Bakke med opslåede vurderinger","success_grades_have_been_posted_for_the_selected_s_54c73ef0":"Succes! Vurderinger er blevet slået op for de valgte sektioner i %{assignmentName}.","success_grades_have_been_posted_to_everyone_for_as_f37ea031":"Succes! Vurderinger er blevet slået op for alle for %{assignmentName}.","success_grades_have_been_posted_to_everyone_graded_70d15d1a":"Succes! Vurderinger er blevet sendt til alle, der får vurdering for %{assignmentName}.","success_the_post_policy_for_name_has_been_updated_ea92283f":"Succes! Opslagspolitikken for %{name} er blevet opdateret.","there_was_a_problem_posting_assignment_grades_958669e8":"Der opstod et problem med at slå opgavevurderinger op."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignment_posting_policy_tray",
+  function() { return {"assignment_grades_will_be_visible_to_students_as_s_bfbea571":"\n          Opgavevurderinger vil være synlige for eleverne, så snart de er indtastet.\n          Vurderinger, der allerede er blevet skjult, forbliver skjult.\n        ","automatically_dff02416":"Automatisk","grades_will_be_hidden_by_default_any_grades_that_h_53a7fb03":"\n          Vurderinger vil som standard være skjult. Alle vurderinger, der allerede er indsendt, forbliver synlige.\n          Vælg, hvornår du skal slå vurderinger op for denne opgave i vurderingsoversigten.\n        ","manually_9de23e1f":"Manuelt","once_a_grade_is_posted_manually_it_will_automatica_26aff290":"\n              Når en vurdering er indsendt manuelt, vil den automatisk sende nye meddelelser og være synlig for eleverne.\n              Fremtidige vurderingsændringer for opslåede vurderinger behøver ikke at blive indsendt manuelt.\n            ","while_the_grades_for_this_assignment_are_set_to_ma_cb716ede":"Mens vurderingerne for denne opgave er indstillet til manuel, vil eleverne ikke modtage nye meddelelser om eller kunne se:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebookActionMenu",
+  function() { return {"export_de71cd8e":"Eksporter","export_in_progress_70db262a":"Eksport i gang","gradebook_export_failed_reason_2b0f6c53":"Eksport af vurderingsoversigt mislykkedes: %{reason}","gradebook_export_started_723461b9":"Eksport af vurderingsoversigt begyndt:","previous_export_c6a997f7":"Forrige eksport","sync_to_name_6f04716d":"Synkroniser til %{name}","sync_to_sisname_f343e59":"Synkroniser til %{sisName}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebook",
+  function() { return {"a_z_243c3301":"A–Z","add_condition_2ac12ddd":"Tilføj betingelse","advanced_36b35b8":"Avanceret","all_grades_hidden_3092d5b5":"Alle vurderinger skjult","all_grades_posted_616a85ab":"Alle vurderinger indsendt","all_ungraded_artifacts_ec3ba09":"Alle ikke-bedømte artefakter","allow_final_grade_override_8cf4336b":"Tillad endelig tilsidesættelse af vurderingen","an_error_occurred_while_loading_late_policies_c415f676":"Der opstod en fejl under indlæsning af sentpolitikker","an_error_occurred_while_saving_the_course_post_pol_b48976dc":"Der opstod en fejl, da politikken for opslag for faget skulle gemmes","an_error_occurred_while_saving_your_settings_b503a31c":"Der opstod en fejl, da du forsøgte at gemme dine indstillinger","an_error_occurred_while_updating_late_policies_a95b707f":"Der opstod en fejl under opdatering af sentpolitikker","an_error_occurred_while_updating_view_options_c4807f37":"Der opstod en fejl under opdatering af visningsindstillingerne.","anonymous_assignments_are_hidden_by_default_and_wi_c8884e1e":"Anonyme opgaver er som standard skjult og skal opslås manuelt, selvom fagindstillingen er indstillet til Automatisk.","anonymous_mode_on_2dd9b94a":"Anonym tilstand tændt","anonymous_mode_on_feb53729":"Anonym tilstand tændt:","applied_filters_63a90ccd":"Anvend filtre:","apply_conditions_9e941010":"Anvend betingelser","apply_missing_status_cd98e1d3":"Tildel manglende status","apply_score_1edd7cda":"Tildel resultat","apply_score_to_ungraded_afd025d0":"Giv score til ikke bedømte","apply_settings_10409ad9":"Anvend indstillinger","apply_to_92f70c8c":"Tildel til:","applying_score_to_ungraded_7311df9a":"Giver resultat til ikke-bedømt","assignment_grades_will_be_visible_to_students_as_s_62975ef6":"\n            Opgavevurderinger vil være synlige for eleverne, så snart de er indtastet.\n            Vurderinger, der allerede er blevet skjult, forbliver skjult.\n          ","assignment_name_a_z_aeefaa36":"Opgavens navn: A-Z","assignment_name_z_a_34f92f4b":"Opgavens navn: Z-A","assignment_names_858b1880":"Opgavenavne","automatically_apply_deduction_to_late_submissions_2b68166e":"Anvend automatisk fratrækning til sene afleveringer","automatically_apply_grade_for_missing_submissions_2b5c1a72":"Anvend automatisk vurdering for manglende aflevering","automatically_post_grades_29a7eff5":"Slå automatisk vurderinger op","avatar_for_author_2eabbf55":"Avatar for %{author}","being_processed_by_plagiarism_service_2269be71":"Behandles af plagieringstjenesten","can_t_compute_score_until_an_assignment_has_points_f34dd600":"Kan ikke beregne resultat, før en opgave har mulige point","cancel_rename_aa60a881":"Annuller omdøb","cancel_submitting_comment_2666e98b":"Annuller indsendelse af kommentar","cancel_updating_comment_6816d855":"Annuller opdatering af kommentar","changing_the_late_policy_will_affect_previously_gr_49071db7":"Ændring af sent-politikken vil påvirke tidligere afleveringer med vurdering.","close_submission_tray_c4988fa8":"Luk afleveringsbakken","columns_464bd055":"Kolonner","concluded_63150003":"afsluttet","concluded_enrollments_9da8da6":"Afsluttede tilmeldinger","condition_9e5fc8ca":"Betingelse","condition_type_a04d30d3":"Betingelsestype","create_new_filter_c244aa92":"Opret nyt filter","curve_grades_b7a75443":"Kurvevurderinger","day_9d999bec":"Dag","deduction_interval_e18bd51":"Fradragsinterval","default_order_8c409051":"Standardopstilling","delete_comment_comment_d32ffc85":"Slet kommentar: %{comment}","delete_condition_622401ca":"Slet forhold","delete_filter_83ca1a6a":"Slet filter","did_you_know_you_can_now_create_detailed_filters_a_c6b8756c":"Vidste du, at du nu kan oprette detaljerede filtre og gemme dem til fremtidig brug?","display_as_percentage_3e755dc":"Vis som procent","display_as_points_63084235":"Vis som point","display_student_filter_options_ab034cfa":"Vis filterindstillinger for elever","download_submissions_7454665f":"Download afleveringer","dropped_38031953":"Droppet","due_date_newest_to_oldest_35cffef9":"Forfaldsdato: nyeste til ældste","due_date_oldest_to_newest_73e62815":"Forfaldsdato: ældste til nyeste","due_to_the_size_of_your_course_you_must_select_a_s_f834ba66":"\n                På grund af dig fags størrelse skal du vælge en elevgruppe, inden du starter\n                SpeedGrader.\n              ","edit_comment_comment_e74afa04":"Rediger kommentar: %{comment}","edited_date_b0455372":"(Redigeret) %{date}","end_date_value_3d3e8906":"Slutdato %{value}","enter_grades_as_e113e606":"Indtast vurderinger som","error_submitting_to_plagiarism_service_9b0748cb":"Fejl ved indsendelse til plagieringstjeneste","error_submitting_to_plagiarism_service_you_may_res_3c89e82d":"Fejl ved indsendelse til plagieringstjeneste. Du kan indsende fra SpeedGrader igen.","export_report_7c5899e":"Eksporter rapport","filters_92f2776f":"Filtre","final_grade_6e94d99e":"Endelig vurdering:","first_last_name_9820d256":"Fornavn, efternavn","friendly_panda_3a0df50e":"Venlig panda","give_this_filter_a_name_36b4b03a":"Giv dette filter et navn","grade_for_missing_submissions_56f91c83":"Vurdering for manglende afleveringer","grade_for_ungraded_artifacts_d0b6fb57":"Vurdering for ikke-bedømte artefakter","grade_high_to_low_1cea0381":"Vurdering - høj til lav","grade_low_to_high_1678b713":"Vurdering - lav til høj","grade_out_of_percentage_1972bf52":"Vurdering ud af %{percentage}","grade_out_of_points_d401b79d":"Vurdering ud af %{points}","grade_posting_policy_42c8a94b":"Politik for at slå vurdering op","gradebook_filters_fc25f772":"Filtre for vurderingsoversigt","gradebook_settings_b45c6df9":"Vurderingsoversigt-indstillinger","gradebook_settings_updated_fef63d60":"Vurderingsoversigt-indstillinger opdateret","grades_will_be_hidden_by_default_any_grades_that_h_b6fac5e5":"\n            Vurderinger vil som standard være skjult. Alle vurderinger, der allerede er blevet slået op, vil forblive synlige.\n            Vælg, hvornår du vil slå vurderinger op for hver opgave på hver kolonne i vurderingsoversigten.\n          ","grading_scheme_f151d195":"Vurderingsordning","has_submissions_6c12ef4c":"Har afleveringer","has_ungraded_submissions_2bff87df":"Har ikke-bedømte afleveringer","hide_assignment_group_totals_f4fb8660":"Skjul totaler for opgavegrupper","hide_grades_5ff26682":"Skjul vurderinger","hide_outcomes_with_no_results_7e4ce06f":"Skjul læringsudbytter uden resultater","hour_34d02553":"Time","inactive_enrollments_3b84be3d":"Inaktive tilmeldinger","individual_assignment_grade_posting_d8322b99":"Slå opgave vurdering op individuelt","individual_gradebook_c7de9821":"Individuel vurderingsoversigt …","last_first_name_95a078f5":"Efternavn, fornavn","late_penalty_78099d18":"Straf for sen aflevering:","late_policies_42bac80":"Sentpolitikker","late_policies_fd5dced6":"Sentpolitikker","late_submission_deduction_5d7fa3cb":"Fratrækning for sen aflevering","late_submission_deduction_must_be_numeric_5b3f468e":"Fratrækning for sen aflevering skal være numerisk","leave_a_comment_7991725b":"Skriv en kommentar","letter_grade_29ff1938":"Bogstavvurderinger","loading_comments_32366acf":"Indlæser kommentarer","loading_gradebook_b0b75cd3":"Indlæser vurderingsoversigt","lowest_possible_grade_ae5510be":"Lavest mulige vurdering","lowest_possible_grade_must_be_numeric_3d97659d":"Lavest mulige vurdering skal være numerisk","manual_8c2665de":"Manuel","manually_post_grades_18248306":"Slå vurderinger op manuelt","message_students_who_57f07a41":"Send besked til elev, der ...","missing_policies_4f195e0b":"Manglende politikker","missing_submission_grade_must_be_numeric_1a142ef2":"Vurdering for manglende aflevering skal være numerisk","module_first_to_last_6921f3ec":"Forløb - første til sidste","module_last_to_first_8cdb7a8e":"Forløb - sidste til første","move_to_end_c6bfbcf5":"Flyt til slutningen","move_to_front_bf6f0194":"Flyt foran","name_options_bc5c95ce":"%{name} Muligheder","needs_grading_9143d47c":"Mangler bedømmelse","next_assignment_8ec51175":"Næste opgave","no_first_name_4b772708":"\u003cIntet fornavn\u003e","no_grades_to_hide_6f51fc5b":"Ingen vurderinger at skjule","no_grades_to_post_91425bfd":"Ingen vurderinger at slå op","no_last_name_62c3e5e2":"\u003cIntet efternavn\u003e","not_calculated_in_final_grade_2b7d5bd1":"Ikke beregnet i slutvurdering","once_a_grade_is_posted_manually_it_will_automatica_bb90f67c":"Når en vurdering er blevet slået op manuelt, vil den automatisk sende nye meddelelser og være synlig for de elev.","only_ungraded_artifacts_that_are_past_due_eab9a83a":"Kun ikke-bedømte artefakter, der er forfaldne","open_complete_incomplete_menu_cfe2033b":"Åbn færdig/ufuldstændig menu","open_grading_scheme_menu_5f889203":"Åbn vurderingssystem-menu","open_speedgrader_11604608":"Åben SpeedGrader","open_submission_tray_4eb14e96":"Åbn afleveringsbakken","order_301c3ac1":"Rækkefølge","out_of_pointspossible_3fb5ee20":"Ud af %{pointsPossible}","override_3de65b2c":"Tilsidesæt","percentage_34ab7c2c":"Procentdel","points_highest_to_lowest_87f1b143":"Point: højeste til laveste","points_lowest_to_highest_45089e82":"Point: laveste til højeste","post_grades_3e692d46":"Slå vurderinger op","previous_assignment_83d1f423":"Tidligere opgave","re_upload_submissions_125e415d":"Upload afleveringer igen","remove_condition_9cf94f7f":"Fjern betingelse","rename_filter_c6cc8efc":"Omdøb filter","request_successfully_sent_note_that_applying_score_ee8665b6":"Anmodningen blev sendt. Bemærk, at det kan tage et stykke tid at indlæse resultater, og ændringer vises ikke, før du genindlæser siden.","resubmitted_2080646f":"Afleveret igen","save_label_6ed4a68e":"Gem mærke","save_these_conditions_as_a_filter_a31bbbf8":"Gem disse betingelser som et filter","score_similarity_score_2c25b94b":"%{score}% lighedsscore","score_to_ungraded_process_failed_e143fd1b":"Processen Resultat for ikke-bedømt mislykkedes","score_to_ungraded_process_finished_successfully_6689b418":"Processen Resultat for ikke-bedømt blev afsluttet","search_students_e1f506c":"Søg elever","select_condition_6e02d859":"Vælg betingelse","select_condition_type_aac7cf21":"Vælg type betingelse","select_student_group_c0be9f3e":"Vælg Elevgrupper","select_the_score_that_you_would_like_to_apply_to_u_5a281baa":"Vælg det resultat, du gerne vil tildele til ikke-bedømte artefakter i %{groupName}. Når denne handling er blevet udført, kan den ikke fortrydes.","select_the_score_that_you_would_like_to_apply_to_u_a445c726":"Vælg det resultat, du gerne vil tildele til ikke-bedømte artefakter. Når denne handling er blevet udført, kan den ikke fortrydes.","set_default_grade_a202ebc1":"Indstil standardvurderinger","similarityscore_similarity_score_52236e85":"%{similarityScore}% lighedsscore","split_student_names_df0ef806":"Opdel elevernes navne","start_date_value_817cab96":"Startdato %{value}","status_color_1c4ce650":"Statusfarve","status_color_picker_9ea0156b":"%{status} Farvevælger","statuses_497dfa15":"Statusser ...","statuses_f41543d8":"Statusser","student_first_name_aaa42cbc":"Elevens fornavn","student_group_75b86a9f":"Elevgruppe","student_last_name_9839801c":"Elevens efternavn","student_last_name_options_a07764dd":"Elevers efternavn - muligheder","student_name_c45b2a7":"Elevens navn","student_name_options_cb029725":"Elevenss navn - muligheder","student_names_ea4b671a":"Elevens navne","submission_is_being_processed_by_plagiarism_servic_df4aa603":"Indsendelsen behandles af plagieringstjenesten.","submission_tray_429ac3df":"Afleveringsbakke","submissions_11e96106":"Afleveringer","submit_comment_e5cc2718":"Indsend kommentar","successfully_deleted_the_comment_a8bbe561":"Kommentaren blev slettet","successfully_saved_the_comment_c87681fd":"Kommentaren blev gemt","successfully_updated_the_comment_946360d5":"Kommentaren blev opdateret","there_was_a_problem_creating_the_teacher_notes_col_dd73456f":"Der opstod et problem ved oprettelse af kolonnen til lærerens noter.","there_was_a_problem_deleting_the_comment_93053aa9":"Der opstod et problem ved sletning af kommentaren","there_was_a_problem_hiding_the_teacher_notes_colum_3f03014":"Der opstod et problem ved at gemme kolonnen til lærerens noter.","there_was_a_problem_loading_submissions_39855ff0":"Der opstod et problem ved indlæsning af afleveringer.","there_was_a_problem_saving_the_comment_d94cbac9":"Der opstod et problem, da kommentaren skulle gemmes","there_was_a_problem_showing_the_teacher_notes_colu_a6e4a2bc":"Der opstod et problem ved visning af kolonnen til lærerens noter.","there_was_a_problem_updating_the_comment_5f3595b9":"Der opstod et problem ved opdatering af kommentaren","there_was_a_problem_updating_the_submission_6e5280a1":"Der opstod et problem ved opdatering af afleveringen.","there_was_an_error_creating_a_new_filter_e93bb765":"Der opstod en fejl under oprettelsen af nyt filter.","there_was_an_error_deleting_name_aa3050e5":"Der opstod en fejl under sletning af \"%{name}\".","there_was_an_error_fetching_data_for_gradebook_174e82f9":"Der opstod en fejl under hentning af data til vurderingsoversigten","there_was_an_error_fetching_gradebook_filters_3b4607ac":"Der opstod en fejl under hentning af vurderingsoversigtsfiltre.","there_was_an_error_fetching_modules_8ee451bb":"Der opstod en fejl under hentning af forløb.","there_was_an_error_fetching_submission_comments_ce153077":"Der opstod en fejl under hentning af afleveringskommentarer","there_was_an_error_updating_a_filter_2a5ebc87":"Der opstod en fejl under opdatering af filter.","there_was_an_error_updating_view_options_d024a3ec":"Der opstod en fejl under opdatering af visningsindstillinger.","this_assignment_is_not_graded_576f1244":"Denne opgave er ikke blevet bedømt.","this_grade_differs_from_the_student_s_view_of_the__f78d0023":"Denne vurdering adskiller sig fra elevens visning af vurderingen, fordi nogle af opgavevurderingerne ikke er blevet slået op endnu","this_grade_has_negative_points_496400d4":"Denne vurdering har negative point","this_grade_is_invalid_8ab192c7":"Denne vurdering er ugyldig","this_grade_is_unusually_high_60533c20":"Denne vurdering er usædvanlig høj","this_is_not_a_valid_grade_9cc2cb8":"Dette er ikke en gyldig vurdering","this_setting_only_affects_your_view_of_student_gra_8f58eb33":"Denne indstilling påvirker kun din visning af elevernes vurderinger og viser vurderinger, som om alle ikke-bedømte opgaver fik et resultat på nul. Denne indstilling er kun en visuel ændring og påvirker ikke vurderinger for elever eller andre brugere af denne vurderingsoversigt. Når denne indstilling er aktiveret, udfylder Canvas ikke nuller i vurderingsoversigten over elevers afleveringer for individuelle opgaver. Kun opgavegrupper og samlede kolonner indregner automatisk resultater på nul i de samlede procenter for hver elev.","this_student_s_enrollment_has_been_concluded_f135b8e4":"Denne elevs tilmelding er afsluttet","this_submission_has_plagiarism_data_for_multiple_a_335c881d":"Denne indsendelse har plagieringsdata for flere vedhæftede filer. Åbn SpeedGrader for at se alle rapporter.","total_71a4807":"I alt","total_options_351e2682":"I alt muligheder","unable_to_access_specific_student_go_to_assignment_585e05e9":"Kunne ikke få adgang til en bestemt elev. Gå til opgave i SpeedGrader?","unassessed_students_3809ac5e":"Ikke-bedømte elever","ungraded_as_0_bb864f07":"Ikke bedømt som 0","ungraded_ed0c6f98":"Ikke bedømt","unposted_8d9932ec":"Opslag fjernet","unpublished_assignments_9cdbcc87":"Ikke-offentliggjorte opgaver","untitled_filter_c07b8ddc":"Unavngivet filter","update_comment_8cedb4f0":"Opdater kommentar","upload_successful_ca47465f":"Vellykket upload","view_options_f5503a84":"Vis muligheder","view_ungraded_as_0_1a9631a1":"Vis ikke bedømte som 0","view_ungraded_as_0_a9e87a54":"Vis ikke-bedømte som 0","view_ungraded_as_zero_e19da657":"Vis ikke-bedømte som nul","weight_of_grade_19d9ce0f":"%{weight} af vurdering/","weight_of_grade_dff535d9":"%{weight} af vurdering","while_the_grades_for_an_assignment_are_set_to_manu_457c38ff":"Når vurderinger for en opgave er indstillet til manuel, vil de elev ikke modtage nye meddelelser om eller kunne se:","you_have_entered_an_invalid_grade_for_this_student_7c41e9bc":"Du har indtastet en ugyldig vurdering for denne elev. Kontroller værdien og vurderingstypen, og prøv igen.","z_a_be2ab67c":"Z–A"} },
+  function() { return {"gradebook_header_menu":{"assignment_details":"Opgaveoplysninger","curve_grades":"Kurvevurderinger","download_submissions":"Download afleveringer","message_students_who":"Send besked til elever, der ...","re_upload_submissions":"Upload afleveringer igen","set_default_grade":"Indstil standardvurdering","speedgrader":"SpeedGrader"},"header_filter":{"course_average":"Faggennemsnit","course_median":"Fagmedian"},"outcome_gradebook":{"toggle_sidebar":"Skift sidepanel"},"section_to_show_menu":{"choose_a_section_to_show":"Vælg en sektion, der skal vises","showing_course":"Viser fag","showing_sections":"Viser *%{currentSection}*"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "score_does_not_include_groups_because_they_have_no_80d12f42",
+  null,
+  function() { return {"one":"Resultatet inkluderer ikke %{groups}, fordi den ikke har mulige point","other":"Resultatet inkluderer ikke %{groups}, fordi de ikke har mulige point"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebook_default_gradebook_components_content_filters_assignment_group_filter",
+  function() { return {"all_assignment_groups_a65e9e46":"Alle opgavegrupper","assignment_group_filter_c03f8a1d":"Opgave gruppefilter"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebook_default_gradebook_components_content_filters_grading_period_filter",
+  function() { return {"grading_period_filter_e1bf635a":"Vurderingsperiodefilter"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebook_default_gradebook_components_content_filters_module_filter",
+  function() { return {"all_modules_20c9a1c8":"Alle forløb","module_filter_63b17d11":"Forløbfilter"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebook_default_gradebook_components_content_filters_student_group_filter",
+  function() { return {"all_student_groups_f74cd6c3":"Alle Elevgrupper","student_group_filter_185fb085":"Elevgrupper-filter"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebook_constants",
+  function() { return {"assignment_groups_bc9cc3c9":"Opgavegrupper","student_groups_863201c1":"Elevgrupper"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebookSharedGradebookexportManager",
+  function() { return {"an_export_is_already_in_progress_54270f01":"Der er allerede en eksport i gang.","error_exporting_gradebook_msg_6ea31e2f":"Fejl ved eksport af vurderingsoversigt: %{msg}","no_way_to_export_gradebooks_provided_b4c2939d":"Der gives ingen måde at eksportere vurderingsoversigter på!","no_way_to_monitor_gradebook_exports_provided_b451236a":"Der gives ingen måde at overvåge vurderingsoversigt-eksporter på!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebookSharedScoreToUngradedManager",
+  function() { return {"a_process_is_already_in_progress_f4495f5e":"Der er allerede en proces i gang.","msg_680333e2":"%{msg}","no_way_to_monitor_score_to_ungraded_provided_9258253f":"Ingen måde at overvåge resultat for ikke-bedømt!","score_to_ungraded_process_failed_reason_788f9030":"Processen Resultat for ikke-bedømt mislykkedes: %{reason}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "modules",
+  function() { return {"a_file_named_name_already_exists_do_you_want_to_re_6536980":"En fil med navnet ”%{name}” findes allerede. Vil du udskifte den eksisterende fil?","a_locked_file_named_name_already_exists_please_ent_3b2e65a":"En låst fil med navnet ”%{name}” findes allerede. Indtast et nyt navn.","drop_files_here_to_add_to_module_236304f5":"Slip filer her for at tilføje til forløbet","duplicating_module_9727f5e4":"Duplikerer modul ...","duplicating_module_ae6670b0":"Duplikerer modul","ignore_assignment_738b3c99":"Ignorer opgave","ignore_name_55edc6fe":"Ignorer %{name}","ignore_these_3940f6f5":"Ignorer disse","name_error_fee4236":"Fejl i navn","no_assignment_name_adbb215b":"Intet opgavenavn","note_students_have_submitted_work_for_these_assign_7bc34e28":"BEMÆRK: Elver har afleveret arbejde for disse opgaver, som endnu ikke er blevet bedømt. Hvis du offentliggør disse vurderinger nu, så skal du lægge deres resultater ud igen, efter du har bedømt deres seneste afleveringer.","sync_grades_to_sis_fd01f7fd":"Synkroniser vurderinger til SIS","unable_to_set_up_drag_and_drop_for_modules_4d339f1d":"Kan ikke indstille træk og slip for forløb","ungraded_submissions_44efb0ec":"Ikke bedømte afleveringer","would_you_like_to_let_students_continue_in_the_cou_a4c36171":"Vil du lade eleverne fortsætte i faget, eller vil du låse disse forløb igen, indtil de nye krav opfyldes?","you_have_changed_the_progression_requirements_for__6772bc89":"Du har ændret udviklingskravet for et aktivt fag. Der findes muligvis elver, som allerede er nået frem til dette forløb og til andre, som afhænger heraf."} },
+  function() { return {"assignments_to_grade":{"one":"1 opgave har ikke bedømte afleveringer","other":"%{count} opgaver har ikke bedømte afleveringer"},"continue":"Fortsæt","progression_module_collection":{"module_progress_for":"Forløbprogression for *%{student.name}*","module_progress_for_student":"Forløbprogression for %{student.name}","no_modules_found":"Der blev ikke fundet nogen forløb"},"progression_module_view":{"items":"Elementer, der skal færdiggøres","items_below":"Elementer, der skal færdiggøres nedenfor"},"progression_student_view":{"show_progressions_for_student":"Vis progression for %{name}"},"progressions_index":{"back_to_modules":"Tilbage til side med forløb","no_students_found":"Der blev ikke fundet nogen elever","progression_header":"Forløbprogression","student_progress":"Elevfremskridt"},"relock_modules":"Lås forløb igen","requirements_changed":"Ændrede betingelser"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_assignments_with_errors_e8f3c18c",
+  null,
+  function() { return {"one":"1 opgave med fejl","other":"%{count} opgaver med fejl","zero":"Ingen opgaver med fejl, klik for at fortsætte"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "you_are_ready_to_sync_count_assignments_525eb8b1",
+  null,
+  function() { return {"one":"Du er klar til at synkronisere 1 opgave.","other":"Du er klar til at synkronisere %{count} opgaver."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "GroupSubmissionAlert",
+  function() { return {"keep_in_mind_this_submission_will_count_for_everyo_bb526d67":"Husk på, at denne aflevering gælder for alle i din %{groupType} gruppe."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "conversations_2",
+  function() { return {"add_an_attachment_b2e9092f":"Tilføj en vedhæftet fil","add_as_a_faculty_journal_entry_55a38a30":"Opret som postering i undervisernotater","address_book_dbecc4a3":"Adressebog","address_book_input_a0d8e76f":"Adressebog - input","address_book_menu_c986b615":"Adressebog - menu","all_in_e5ddaee0":"Alle i","archive_operation_failed_5504706":"Arkivering mislykkedes","are_you_sure_you_want_to_delete_your_copy_of_this__8490c9d4":"Er du sikker på, du vil slette din kopi af denne besked? Denne handling kan ikke fortrydes.","compose_a_new_message_db3a68ed":"Skriv en ny besked","contextname_selected_59de1002":"%{contextName} valgt","delete_operation_failed_3db8cd19":"Sletning mislykkedes","error_adding_files_97ba198e":"Fejl ved tilføjelse af filer.","error_adding_files_to_conversation_message_58e83876":"Fejl ved tilføjelse af filer til diskussionens besked","error_loading_course_data_f056172b":"Fejl ved indlæsning af fagdata","error_loading_past_messages_4f142523":"Fejl ved indlæsning af forrige beskeder","error_occurred_while_adding_message_to_conversatio_3dafd0e5":"Der opstod en fejl under tilføjelse af besked til diskussionen","error_occurred_while_creating_conversation_message_43751479":"Der opstod en fejl under oprettelsen af en diskussionsbesked","error_uploading_files_db354fa9":"Fejl under upload af filer.","error_uploading_files_f709361f":"Fejl under upload af filer","failed_to_load_conversation_messages_9b4546fc":"Kunne ikke indlæse diskussionsbeskeder.","file_upload_9cae6da5":"Filoverførsel","filter_messages_by_course_21a53fc4":"Filtrer beskeder efter fag","forward_d143f64":"Fremad","group_newoptiongroup_entered_newoptioncontextname_9eaf1b13":"Gruppe %{newOptionGroup} indtastet. %{newOptionContextName}","loading_compose_modal_f6da0e8b":"Indlæser modal til at komponere","loading_conversation_messages_71e9050e":"Indlæser diskussionsbeskeder","loading_message_list_226a131e":"Indlæser beskedliste","mailbox_selection_92d9cbf":"Valg af postkasse","mark_all_as_read_a995ffbe":"Marker alle som læste","mark_all_as_unread_10e7f0fe":"Marker alle som ulæste","message_body_1f782712":"Beskedtekst","message_body_is_required_105d5986":"Beskedens brødtekst er påkrævet","more_options_e89670cf":"Flere indstillinger: ","no_conversations_selected_ebcd9226":"Ingen valgte diskussioner","no_results_found_2ace1494":"Der blev ikke fundet resultater","not_selected_57866888":"ikke valgt","not_starred_98931190":"ikke markeret med stjerne","open_address_book_41ce8576":"Åbn adressebog","open_conversation_a6590865":"Åbn samtale","participantcount_less_8d258f6":"%{participantCount} mindre","participantcount_more_50363e55":"%{participantCount} mere","please_wait_while_we_upload_attachments_59544216":"Vent, mens vi uploader vedhæftede filer.","please_wait_while_we_upload_attachments_and_media_c7e7221c":"Vent, mens vi uploader vedhæftede filer og medier","read_dc99757a":"Læs","read_state_change_failed_859eeaa1":"Læsestatusændring mislykkedes","read_state_change_operation_failed_86710e1":"Læsestatusændringen mislykkedes","record_an_audio_or_video_comment_88425add":"Optag en lyd- eller videokommentar","record_upload_media_comment_4d01b943":"Optag/upload mediekommentar","remove_media_attachment_d2926f1e":"Fjern medievedhæftning","replace_attachmentdisplayname_button_94dd8ba1":"Erstat %{attachmentDisplayName} knap","reply_all_80298bee":"Svar alle","reply_all_b864cd0e":"Svar til alle","select_course_5b549441":"Vælg fag","selected_de3a8019":"valgt","send_an_individual_message_to_each_recipient_e9ddaeb8":"Send en individuel besked til hver modtager","sending_message_ba2f0f0e":"Sender besked","star_8d156e09":"Giv stjerne","starred_9523c316":"markeret med stjerne","successfully_deleted_the_conversation_message_2a546732":"Samtalebeskeden blev slettet","the_conversation_has_been_successfully_starred_ce079a12":"Diskussionen er blevet stjernemærket","the_conversation_has_been_successfully_unstarred_6514095d":"Stjernemarkeringen for diskussionen blev fjernet","there_was_an_error_uploading_the_media_6841a37b":"Der opstod en fejl under upload af mediet.","there_was_an_unexpected_error_deleting_the_convers_412fd621":"Der opstod en uventet fejl ved sletning af diskussionsbeskeden.","there_was_an_unexpected_error_updating_the_convers_a1a37400":"Der opstod en uventet fejl ved opdatering af diskussionsdeltagerne","there_was_an_unexpected_error_updating_the_convers_d44c9fde":"Der opstod en uventet fejl ved opdatering af diskussionsdeltagerne.","type_or_use_arrow_keys_to_navigate_options_7507d3d2":"Indtast eller brug piletasterne til at navigere indstillinger","unable_to_load_courses_menu_7074ea04":"Kunne ikke indlæse fagmenuen.","unable_to_load_messages_49a2942b":"Kan ikke indlæse beskeder.","unarchive_f245e2d6":"Fjern fra arkivet","unarchive_operation_failed_22c42032":"Fjernelse af arkiveringen mislykkedes","unstar_b84daaef":"Slet stjerne","uploading_files_9e39dbf9":"Uploader filer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "read_states_changed_45d9cba",
+  null,
+  function() { return {"one":"Læsestatus ændret!","other":"Læsestatusser ændret!"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "messages_archived_58eb202f",
+  null,
+  function() { return {"one":"Besked arkiveret!","other":"Beskeder arkiveret!"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "messages_unarchived_df1a4b97",
+  null,
+  function() { return {"one":"Besked fik fjernet arkivering!","other":"Beskeder fik fjernet arkivering!"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "the_conversations_has_been_successfully_unstarred_fb69c53d",
+  null,
+  function() { return {"one":"Stjernemarkeringen for diskussionen blev fjernet.","other":"Stjernemarkeringen for diskussionerne blev fjernet."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "the_conversations_has_been_successfully_starred_315da1a",
+  null,
+  function() { return {"one":"Diskussionen er blevet stjernemærket.","other":"Diskussionerne er blevet stjernemærket"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "are_you_sure_you_want_to_archive_your_copy_of_thes_92c9b8f1",
+  null,
+  function() { return {"one":"Er du sikker på, du vil arkivere din kopi af denne samtale?","other":"Er du sikker på, du vil arkivere din kopi af disse samtaler?"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "are_you_sure_you_want_to_unarchive_your_copy_of_th_c961b520",
+  null,
+  function() { return {"one":"Er du sikker på, du vil fjerne arkivering for din kopi af denne samtale?","other":"Er du sikker på, du vil fjerne arkivering af din kopi af disse samtaler?"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "jobs_v2",
+  function() { return {"clear_job_selection_6ad1ff95":"Ryd jobvalg","clear_search_900e9c97":"Ryd søgning","count_40eced3b":"Tæl","enter_an_id_or_an_original_job_id_d81ad1c7":"Indtast et I eller et original_job_id","failed_at_61f5fb71":"Mislykkedes kl.","failed_at_f471dfd3":"Mislykkedes ved","failed_jobs_b632bbf0":"Mislykkedes jobs","filter_bucket_jobs_by_group_9bd1668c":"Filtrer %{bucket} jobs efter %{group}","filter_jobs_by_date_202eb267":"Filtrer jobs efter dato","future_jobs_cf2964a1":"Fremtidige jobs","handler_7912052f":"Handler","id_290feb5":"Id","job_category_f8e4dfe7":"Jobkategori","job_details_b33137dc":"Jobdetaljer","job_grouping_f652413e":"Jobgruppering","job_lookup_1d980054":"Jobopslag","jobs_control_panel_cae05c3f":"Jobkontrolpanel","jobs_ec5d59d8":"Jobs","last_error_a3832668":"Sidste fejl","last_failed_at_b714ff2e":"Mislykkedes sidst kl.","loading_group_f1647ebb":"Indlæser %{group}","loading_jobs_12f0609d":"Indlæser jobs ...","locked_at_cda02889":"Låst","locked_by_983c07f7":"Låst af","max_attempts_ae7b90bc":"Maks. forsøg","max_concurrent_a6f135c":"Maks. samtidig","max_run_time_6022a5f1":"Maks. køretid","max_wait_time_dc158bf1":"Maks. ventetid","next_run_at_635de64a":"Næste process","no_job_selected_d6c5e6f4":"Der er ikke valgt noget job","num_days_1c5c91b6":"%{num} dage","original_job_id_d81afbb3":"Originalt job-id","pause_auto_refresh_9bd773ca":"Sæt automatisk opdatering på pause","priority_dd4381ee":"Prioritet","queued_jobs_9a7a923e":"Jobs i kø","refresh_8a04b019":"Opdater","run_at_759b47d":"Kør","run_at_92dd90df":"Kør","run_time_370dedb6":"Køretid","running_jobs_9861080e":"Igangværende opgaver","scope_9729c11e":"Anvendelsesområde:","scope_c59afc8a":"Parametre","shard_5d340495":"Shard","show_e0cb4667":"(vis)","singleton_46df7e3b":"Singleton","singletons_99a47787":"Singletons","start_auto_refresh_e2feafb2":"Start automatisk opdatering","strand_955969b1":"Streng","strand_singleton_2d7d7be7":"Streng / Singleton","strands_b086013b":"Strenge","tag_7bb005ff":"Tag","tags_2b72a03b":"Tags","utc_e44049af":"UTC","view_timestamps_in_time_zone_9b699a8b":"Se tidsstempler i tidszonen","wait_time_4c8f74a2":"Ventetid"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "jobs",
+  null,
+  function() { return {"columns":{"attempt":"forsøg","count":"antal","id":"id","priority":"prioritet","run_at":"kør","runtime":"driftstid","singleton":"singleton","strand":"streng","tag":"tag","worker":"arbejder"},"confirm":{"destroy_all":"Er du sikker på, at du vil slette *alle* opgaver af denne type, og som matcher denne forespørgsel?","hold_all":"Er du sikker på, at du vil tilbageholde *alle* opgaver  af denne type, og som matcher denne forespørgsel?","unhold_all":"Er du sikker på, at du vil frigive *alle* opgaver af denne type, og som matcher denne forespørgsel?"},"titles":{"job_handler":"Job-handler","last_error":"Sidste fejl"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "empty_course",
+  function() { return {"all_subject_navigation_has_been_disabled_f06b0154":"Al emnenavigation er blevet deaktiveret.","reestablish_your_world_b4bd6dff":"Genopret din verden","welcome_to_the_cold_dark_void_of_name_65fc9839":"Velkommen til det kolde, mørke tomrum %{name}."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "empty_home",
+  function() { return {"manage_home_4fc3480b":"Administrer hjem","manage_home_for_coursename_5e5c7661":"Administrer hjem for %{courseName}","relax_and_take_a_break_there_s_nothing_to_do_yet_fde1d2ef":"Slap af, og tag en pause. Der er ikke noget at tage fat i endnu.","this_is_where_you_ll_land_when_your_home_is_comple_8ab4d2b8":"Det er her, du lander, når startsiden er færdig."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "empty_modules",
+  function() { return {"your_modules_will_appear_here_after_they_re_assemb_bfd5abe8":"Dine forløb vises her, når de er samlet."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "grade_details",
+  function() { return {"coursename_total_grade_5b3f3564":"%{courseName} Total: %{grade}","failed_to_load_grade_details_for_coursename_2325cfd2":"Kunne ikke indlæse vurderingsdetaljer for %{courseName}","grades_for_coursename_f5c92045":"Vurderinger for %{courseName}","groupname_score_75afe27":"%{groupName}: %{score}","loading_assignment_group_totals_c5a6490d":"Indlæser totaler for opgavegrupper","loading_grades_for_coursename_26784c2d":"Indlæser vurderinger for %{courseName}","loading_total_grade_for_coursename_b6eff3b6":"Indlæser samlet vurdering for %{courseName}","total_grade_b0c33841":"Total: %{grade}","view_assignment_group_totals_c8db16b2":"Vis totaler for opgavegrupper","view_coursename_s_assignment_group_totals_bd4b707":"Vis %{courseName}s totaler for opgavegrupper"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "grade_row",
+  function() { return {"_e59b5cb1":"—","gpa_3931582b":"— GPA","gpa_gpa_4ade5b09":"%{gpa} GPA","late_date_178cba25":"Sen %{date}","new_grade_for_assignmentname_4f2e6b38":"Ny vurdering for %{assignmentName}","not_graded_e78bcd50":"Ikke bedømt","out_of_pointspossible_pts_b2b73373":"Ud af %{pointsPossible} point","pts_212a1b18":"— point","submitted_date_ba55b0ae":"Afleveret %{date}","ungraded_assignment_c33ad508":"Ubedømt opgave","view_feedback_b88c99c":"Vis feedback"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "grades_empty_page",
+  function() { return {"students_see_their_grades_here_ae80f808":"Eleverne ser deres vurderinger her.","view_coursename_gradebook_8b3a6240":"Vis %{courseName} vurderingsoversigt","you_don_t_have_any_grades_yet_373f731f":"Du har endnu ingen vurderinger."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_grades_page",
+  function() { return {"failed_to_load_grading_periods_for_coursename_87ac2b6":"Kunne ikke indlæse vurderingsperioder for %{courseName}","learning_outcome_gradebook_for_coursename_4634781b":"Læringsudbytte-vurderingsoversigt for %{courseName}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_grading_period_select",
+  function() { return {"loading_grading_periods_for_coursename_bbe46919":"Indlæser vurderingsperioder for %{courseName}","title_current_750a3c65":"%{title} (nuværende)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "k5_course",
+  function() { return {"are_you_sure_you_want_to_unenroll_in_this_subject__30f60c48":"Er du sikker på, at du vil framelde dig dette emne?  Du vil ikke længere kunne se emnelisten eller kommunikere direkte med lærerne, og du vil ikke længere se emnebegivenheder i din aktivitetsstrøm og som meddelelser.","confirm_unenrollment_64333263":"Bekræft afmelding","drop_coursename_813d3162":"Drop %{courseName}","drop_this_subject_ced1b10a":"Drop dette emne","dropping_subject_1d68ccf4":"Dropper emne","join_this_subject_ef4b8845":"Tilslut dig dette emne","manage_subject_coursecontext_2328e1ff":"Administrer emne: %{courseContext}","manage_subject_f9835769":"Administrer emne","student_view_ac9b672f":"Visning for elever","unable_to_drop_the_subject_d7d55ba1":"Emnet kunne ikke droppes"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "overview_page",
+  function() { return {"edit_home_page_ee907de9":"Rediger hjemmeside","subject_home_page_41226803":"Emnets startside"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "filter_calendars_modal",
+  function() { return {"failed_to_save_selected_calendars_210b5e8f":"Valg af kalendere kunne ikke gemmes","selected_calendars_cc7f325b":"Valgte kalendere"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "choose_up_to_count_subject_calendars_a7df06d7",
+  null,
+  function() { return {"one":"Vælg op til 1 emnekalender","other":"Vælg op til %{count} emnekalendere"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "you_have_count_calendars_left_f0cbcac4",
+  null,
+  function() { return {"one":"Du har 1 kalender tilbage","other":"Du har %{count} kalendere tilbage"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "dashboard_grades_page",
+  function() { return {"failed_to_load_grades_for_the_requested_grading_pe_52cefa9":"Kunne ikke indlæse vurderinger for den anmodede vurderingsperiode","failed_to_load_the_grades_tab_c6118c57":"Fanen med vurderinger kunne ikke indlæses","loading_grades_446fc226":"Indlæser vurderinger ...","loading_grading_periods_c635d96":"Indlæser vurderingsperioder ..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "grades_summary",
+  function() { return {"grade_for_course_ccc8513c":"Vurdering for %{course}","not_graded_e027c866":"Ikke bedømt","percent_of_points_possible_93cd8127":"%{percent} af mulige point","view_gradebook_for_course_10cbf171":"Vis vurderingsoversigt for %{course}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "dashboard_grading_period_select",
+  function() { return {"current_grading_period_b85226c2":"Nuværende vurderingsperiode"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "homeroom_page",
+  function() { return {"loading_card_4b812198":"Indlæser kort","my_subjects_61936afb":"Mine emner","open_new_subject_modal_c9049e1d":"Åbn nyt emnemodal","start_a_new_subject_7271b3ec":"Start et nyt emne"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "important_dates",
+  function() { return {"failed_to_load_assignments_in_important_dates_ce3b4227":"Kunne ikke indlæse opgaver på vigtige datoer.","failed_to_load_events_in_important_dates_2195b227":"Kunne ikke indlæse begivenheder på vigtige datoer.","hide_important_dates_c23d2102":"Skjul vigtige datoer","important_dates_304e306a":"Vigtige datoer","loading_important_date_2d3a29ce":"Indlæser vigtig dato","loading_important_date_details_1b2d2b85":"Indlæser oplysninger for vigtig dato","select_calendars_to_retrieve_important_dates_from_26dc92b7":"Vælg kalendere, du vil hente vigtige datoer fra"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "important_dates_empty",
+  function() { return {"waiting_for_important_things_to_happen_5d2e2f18":"Venter på, at der sker vigtige ting."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "k5_dashboard",
+  function() { return {"classic_view_33f29576":"Klassisk visning","failed_to_load_announcements_429c16fc":"Kunne ikke indlæse beskeder.","failed_to_opt_out_of_the_canvas_for_elementary_das_cf7210f0":"Kunne ikke fravælge oversigten for Canvas til folkeskolen","homeroom_12546f9c":"Klasselokale","important_dates_tray_fa41a025":"Bakke med vigtige datoer","view_important_dates_173c7e1b":"Se vigtige datoer","welcome_name_a16afa7f":"Velkommen %{name}!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "k5_dashboard_card",
+  function() { return {"due_due_today_4dfe420a":"%{due} forfalder i dag","loading_latest_announcement_link_f1746190":"Indlæser link til seneste beskeder","loading_missing_assignments_link_d9a0d320":"Indlæser link til manglende opgaver","missing_missing_c1010432":"%{missing} mangler","new_announcement_title_30ba7c1b":"Ny besked: %{title}","nothing_due_today_26217223":"Intet i dag","nothing_due_today_for_course_coursename_e6e7e012":"Intet i dag for fag %{courseName}","nothing_else_due_7f8436af":"Intet andet, der skal afleveres","nothing_else_due_today_for_course_coursename_1a75915e":"Intet andet forfalder i dag for faget %{courseName}","view_due_items_due_today_for_course_coursename_129e433":"Vis %{due} elementer i dag for fag %{courseName}","view_missing_missing_items_for_course_coursename_e7509012":"Vis %{missing} manglende elementer for fag %{courseName}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "todo",
+  function() { return {"failed_to_ignore_assignment_46565fa3":"Kunne ikke ignorere opgaven","grade_assignment_7c1abc11":"Vurder %{assignment}","ignore_assignment_until_new_submission_424f8f01":"Ignorer %{assignment} indtil ny aflevering","multiple_due_dates_47416f7a":"(Flere forfaldsdatoer)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_submissions_need_grading_d34bae25",
+  null,
+  function() { return {"one":"1 opgave kræver vurdering","other":"%{count} opgaver kræver vurdering"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "todos_page",
+  function() { return {"failed_to_load_todos_93cfc2d2":"Kunne ikke indlæse opgavelisten","loading_additional_todo_details_acba0cf2":"Indlæser yderligere detaljer på opgavelisten","loading_todo_course_name_b851e509":"Indlæser fagnavn for opgaveliste","loading_todo_title_5c73a869":"Indlæser titel på opgaveliste"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "OutcomeManagement",
+  function() { return {"account_standards_a657d5e2":"Kontostandarder","add_all_outcomes_6a12d08e":"Tilføj alle læringsudbytter","add_outcome_title_ce9dff87":"Tilføj læringsudbytte %{title}","add_outcomes_36272787":"Tilføj læringsudbytter","added_e8a39b2":"Tilføjet","added_outcome_title_3c258a9":"Tilføjet læringsudbytte %{title}","all_grouptitle_outcomes_dcc565d1":"Alle %{groupTitle} læringsudbytter","an_error_occurred_while_creating_this_outcome_plea_f1c69d92":"Der opstod en fejl under oprettelse af dette læringsudbytte. Prøv igen.","an_error_occurred_while_editing_this_outcome_pleas_f0e403a9":"Der opstod en fejl under redigering af dette læringsudbytte. Prøv igen.","an_error_occurred_while_loading_account_learning_o_29a11066":"Der opstod en fejl under indlæsning af kontoens læringsudbyttegrupper.","an_error_occurred_while_loading_course_learning_ou_c4053b06":"Der opstod en fejl under indlæsning af fagets læringsudbyttegrupper.","an_error_occurred_while_loading_selected_group_8b80d3d5":"Der opstod en fejl under indlæsning af den valgte gruppe.","an_error_occurred_while_removing_this_group_groupt_2c343304":"Der opstod en fejl under fjernelse af denne gruppe: \"%{groupTitle}\" indeholder et eller flere læringsudbytter, der aktuelt er tilpasset til indhold","an_error_occurred_while_removing_this_group_please_bd9407ff":"Der opstod en fejl under fjernelse af denne gruppe. Prøv igen.","are_you_sure_that_you_want_to_remove_this_group_an_2122c9ec":"Er du sikker på, at du vil fjerne denne gruppe og alt dens indhold fra dit fag?","are_you_sure_that_you_want_to_remove_this_group_an_ff69dcff":"Er du sikker på, at du vil fjerne denne gruppe og alt dens indhold fra din konto?","are_you_sure_you_want_to_proceed_changes_you_made__2f87f0e7":"Er du sikker på, at du vil fortsætte? Ændringer, du har foretaget, bliver ikke gemt.","calculation_d82f6181":"Beregning","cannot_be_blank_c4e30496":"Kan ikke være tom","cannot_remove_c0fd581d":"Kan ikke fjerne:","change_mastery_points_c4f68a36":"Ændr point for opfyldelse af læringsmål","clear_all_da755751":"Ryd alle","clear_search_field_75f595c7":"Ryd søgefelt","collapse_description_for_outcome_title_bcd9b8c9":"Skjul beskrivelse for læringsudbytte %{title}","create_a_friendly_display_name_c1036ed":"Opret et brugervenligt visningsnavn","create_outcome_4dac05a0":"Opret læringsudbytte","enter_name_or_code_b4c103f6":"Indtast navn eller kode","enter_your_friendly_description_here_b3c230d3":"Indtast din brugervenlige beskrivelse her","error_loading_rollups_87115bc":"Fejl ved indlæsning af opdateringer","expand_description_for_outcome_title_abc8f30":"Udvid beskrivelse for læringsudbytte %{title}","friendly_description_for_parent_student_display_e608ecf3":"Brugervenlig beskrivelse (til visning for forældre / elever)","friendly_name_601153fb":"Brugervenligt navn","from_grouptitle_860dff95":"Fra %{groupTitle}","load_more_35d33c7":"Indlæs flere","loading_grouptitle_dba362d2":"Indlæser %{groupTitle}.","mastery_at_cf0c477b":"Opfyldelse af læringsmål ved","mastery_at_e804b49":"Opfyldelse af læringsmål ved:","menu_for_group_title_fbf60567":"Menu for gruppe %{title}","menu_for_outcome_title_1d93378d":"Menu for læringsudbytte %{title}","must_be_255_characters_or_less_e8e7f25e":"Skal være 255 tegn eller mindre","outcomes_selected_e9f87772":"Valgte læringsudbytter","points_points_d70ced4f":"%{points} point","remove_d83a966c":"Fjern:","remove_group_5d2f2f2d":"Fjern gruppe","remove_group_981d6a02":"Fjern gruppe?","remove_removablecount_out_of_totalcount_outcomes_3270d9c0":"Fjern %{removableCount} ud af %{totalCount} læringsudbytter?","root_learning_outcome_groups_4eb5a030":"Rod-læringsudbytte-grupper","search_field_234156fc":"Søgefelt","search_results_for_62243f02":"søgeresultater for","search_within_grouptitle_4d38272f":"Søg indenfor %{groupTitle}","select_a_location_4eb17e4b":"Vælg en placering","select_another_group_24773e5f":"Vælg en anden gruppe","select_outcome_title_b99b3ca0":"Valgt læringsudbytte %{title}","some_of_the_outcomes_that_you_have_selected_cannot_4a42634a":"Nogle af de læringsudbytter, du har valgt, kan ikke fjernes, fordi de er tilpasset indholdet på denne konto. Vil du fortsætte med at fjerne læringsudbytterne uden justeringer?","some_of_the_outcomes_that_you_have_selected_cannot_c417625":"Nogle af de læringsudbytter, du har valgt, kan ikke fjernes, fordi de er tilpasset indholdet i dette fag. Vil du fortsætte med at fjerne læringsudbytterne uden justeringer?","state_standards_c9b1affd":"Regionale standarder","the_search_returned_no_results_c2e4d13c":"Søgningen gav ingen resultater.","there_are_no_outcomes_in_this_group_9a70fa8a":"Der er ingen læringsudbytter i denne gruppe.","this_group_was_successfully_removed_81178d51":"Denne gruppe blev fjernet.","title_outcomes_7adbd9cc":"%{title} Læringsudbytter","title_was_successfully_created_f2a07c56":"\"%{title}\" blev oprettet.","title_was_successfully_updated_14b78676":"\"%{title}\" blev opdateret.","view_description_b6d8e52b":"Vis beskrivelse"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_outcomes_3af5e3e",
+  null,
+  function() { return {"one":"%{count} læringsudbytte","other":"%{count} Læringsudbytter"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_outcomes_were_successfully_removed_ea0ca83e",
+  null,
+  function() { return {"one":"Dette læringsudbytte blev fjernet.","other":"%{count} læringsudbytter blev fjernet."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "an_error_occurred_while_removing_these_outcomes_pl_21f22da0",
+  null,
+  function() { return {"one":"Der opstod en fejl under fjernelse af dette læringsudbytte. Prøv igen.","other":"Der opstod en fejl under fjernelse af disse læringsudbytter. Prøv igen."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "remove_outcomes_5f8b601c",
+  null,
+  function() { return {"one":"Fjern læringsudbytte","other":"Fjern læringsudbytter"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "unable_to_remove_outcomes_f682e68f",
+  null,
+  function() { return {"one":"Læringsudbytte kunne ikke fjernes","other":"Læringsudbytter kunne ikke fjernes"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "the_outcomes_that_you_have_selected_cannot_be_remo_fc7244f2",
+  null,
+  function() { return {"one":"Det læringsudbytte, du har valgt, kan ikke fjernes, fordi det er tilpasset indholdet i dette fag.","other":"De læringsudbytter, du har valgt, kan ikke fjernes, fordi de er tilpasset indholdet i dette fag."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "the_outcomes_that_you_have_selected_cannot_be_remo_6d259ee0",
+  null,
+  function() { return {"one":"Det læringsudbytte, du har valgt, kan ikke fjernes, fordi det er tilpasset indholdet på denne konto.","other":"De læringsudbytter, du har valgt, kan ikke fjernes, fordi de er tilpasset indholdet på denne konto."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "remove_outcomes_9abcc8fd",
+  null,
+  function() { return {"one":"Fjern læringsudbytte?","other":"Fjern læringsudbytter?"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "are_you_sure_that_you_want_to_remove_these_count_o_8ad349c4",
+  null,
+  function() { return {"one":"Er du sikker på, at du vil slette dette læringsudbytte fra dette fag?","other":"Er du sikker på, at du vil slette disse %{count} læringsudbytter fra dette fag?"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "are_you_sure_that_you_want_to_remove_these_count_o_67ef2d6c",
+  null,
+  function() { return {"one":"Er du sikker på, at du vil fjerne dette læringsudbytte fra denne konto?","other":"Er du sikker på, at du vil fjerne disse %{count} læringsudbytter fra denne konto?"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_outcomes_selected_55902958",
+  null,
+  function() { return {"one":"1 læringsudbytte valgt","other":"%{count} læringsudbytter valgt"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "showing_count_outcomes_for_grouptitle_32d7988b",
+  null,
+  function() { return {"one":"Viser %{count} læringsudbytte for %{groupTitle}.","other":"Viser %{count} læringsudbytter for %{groupTitle}."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "LearningMasteryGradebook",
+  function() { return {"not_assessed_2b87bfd0":"Ikke vurderet","showing_1ac6ed70":"Viser:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "learning_mastery_gradebook",
+  function() { return {"ascending_b3c87427":"Stigende","concluded_enrollments_8f460271":"Afsluttede tilmeldinger","descending_b7828162":"Faldende","inactive_enrollments_bd1831ea":"Inaktive tilmeldinger","show_contributing_scores_7674c46f":"Vis bidragende resultater","sort_outcome_column_c53702ed":"Sorter kolonne med læringsudbytter","sort_students_1a561e98":"Sorter elever","students_without_assessments_eb100e60":"Elever uden vurderinger","unassessed_a0264e97":"Uvurderet"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebookOutcomeGradebookView",
+  function() { return {"there_was_an_error_fetching_outcome_results_45c57590":"Der opstod en fejl under hentning af læringsudbytteresultater"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebookSectionMenuView",
+  null,
+  function() { return {"all_sections":"Alle sektioner"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "license_help",
+  null,
+  function() { return {"content_license_help":"Hjælp til indholdslicensering"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "pseudonyms",
+  function() { return {"your_password_recovery_instructions_will_be_sent_t_1b7991f5":"Dine instruktioner til gendannelse af adgangskode sendes til *%{email_address}*. Dette kan tage op til 30 minutter. Sørg for at tjekke i din uønskede post."} },
+  function() { return {"login":{"invalid_login":"Ugyldigt login","invalid_password":"Ugyldig adgangskode","parent_signup":"Forældretilmelding"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "react_collaborations",
+  function() { return {"add_collaboration_da9665ac":"Tilføj samarbejde","collaboration_ce3e2bac":"+Samarbejde","collaborations_are_web_based_tools_to_work_collabo_6e9f7b3f":"Samarbejde er web-baserede værktøjer for at arbejde kollektivt på opgaver som f.eks. at tage notater eller gruppere dokumenter.","collaborations_are_web_based_tools_to_work_collabo_6fa285b6":"Samarbejder er web-baserede værktøjer for at arbejde kollektivt på opgaver som f.eks. at tage notater eller gruppere dokumenter. Tal med din lærer for at komme i gang.","collaborations_are_web_based_tools_to_work_collabo_8ae6dd38":"Samarbejder er web-baserede værktøjer for at arbejde kollektivt på opgaver som f.eks. at tage notater eller gruppere dokumenter. Start ved at tilføje en samarbejds-app.","delete_collaboration_23035eaf":"Slet samarbejde","edit_collaboration_b014c18b":"Rediger samarbejde","getting_started_with_collaborations_794240ba":"Start med samarbejde","learn_more_about_collaborations_2978f66d":"Lær mere om samarbejder","load_more_results_460f49a9":"Indlæs flere resultater","loading_collaborations_e6c5f262":"Indlæser samarbejder","no_collaboration_apps_3bbd30ce":"Ingen samarbejds-apps","remove_collaborationtitle_c3e81adb":"Fjern \"%{collaborationTitle}\"?","yes_remove_86a61759":"Ja, fjern","you_have_no_collaboration_apps_configured_talk_to__6733123a":"Du har ikke konfigureret nogen samarbejds-apps. Spørg din lærer om at sætte dem op."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "manage_avatars",
+  null,
+  function() { return {"errors":{"update_failed":"Opdatering mislykkedes, prøv igen"},"messages":{"updating":"Opdaterer ..."},"prompts":{"delete_avatar":"Er du sikker på, at du vil slette denne brugers profilbillede?","lock_avatar":"Låsning af billedet bekræfter det, og forhindrer brugeren i at opdatere det. Fortsæt?"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "groups",
+  function() { return {"an_error_occurred_when_cloning_the_group_set_8e80da6b":"Der opstod en fejl under kloning af gruppesættet.","cannot_restrict_by_section_unless_groups_are_empty_662d3144":"Kan ikke begrænse pr. sektion medmindre grupper er tomme og ikke begrænset i størrelse","change_existing_group_2c91a32b":"Skift eksisterende gruppe","clone_groupcategoryname_ef85ddb8":"(Klon) %{groupCategoryName}","cloning_group_set_813b06f5":"Kloner gruppesæt","create_new_group_set_13b1f62a":"Opret nyt gruppesæt","download_course_roster_csv_86b3d192":"Download faglistens CSV","drag_and_drop_or_click_to_browse_your_computer_2b46a2b6":"Træk og slip eller klik for at gennemse din computer","group_import_api_documentation_7d0d28ee":"Gruppeimport API-dokumentation","group_membership_limit_54e165b":"Grænse for gruppemedlemskab","group_membership_limit_must_be_equal_to_or_greater_c52e0d7b":"Gruppemedlemskabsgrænsen skal være lig med eller større end antallet af nuværende medlemmer.","group_saved_successfully_fcd5ca66":"Gruppe gemt","group_set_cloned_successfully_3e1a1497":"Gruppesæt blev klonet","import_groups_3a2ae14b":"Importer grupper","invitation_only_9a253f1d":"Kun invitation","members_are_free_to_join_defa5929":"Medlemmer kan frit tilmelde sig","message_students_for_groupcategoryname_cf245ca4":"Send besked til elever for %{groupCategoryName}","must_have_at_least_1_group_per_section_9809e708":"Skal have mindst 1 gruppe pr. sektion","percent_complete_a7f6d403":"Procent komplet","progress_percent_ae80cd55":"%{progress} procent","recipients_students_who_have_not_joined_a_group_a0c6a3c":"Modtagere: Elever som ikke har meldt sig til en gruppe","required_input_message_all_unassigned_students_1e721442":"Påkrævet input. Send besked til alle elever uden tildeling.","this_may_take_a_few_minutes_e2df06d6":"Det kan tage nogle minutter.","to_assign_students_to_a_group_enter_group_names_in_913d06fb":"For at tildele elever til en gruppe skal du indtaste gruppenavne i kolonnen \"group_name\".","type_message_here_e15e30a7":"Skriv besked her...","upload_csv_file_c2d287c9":"Upload CSV-filen","warning_you_are_about_to_adjust_this_group_s_membe_a04281b6":"Advarsel! Du er ved at tilpasse denne gruppes medlemskab. *Denne ændring påvirker eksisterende gruppeafleveringer, anmærkninger og kommentarer og resulterer i tab af data for både denne gruppe og den elevs tidligere gruppe.*** For at forhindre utilsigtede konsekvenser med eksisterende gruppeafleveringer, skal du oprette et nyt gruppesæt til fremtidige opgaver. **","your_groups_are_being_created_50156e34":"Dine grupper oprettes."} },
+  function() { return {"create_group_set":"Opret gruppesæt","delete_confirm":"Er du sikker på, at du vil slette dette gruppesæt?","edit_group_set":"Rediger gruppesæt","everyone":"Alle (%{count})","flash":{"removeError":"Kan ikke slette gruppesæt. Prøv igen.","removed":"Gruppesæt blev slettet."},"group_limit_number":"Gruppebegrænsningen skal være et tal","groups_count":"Grupper (%{count})","manage":{"add_unassigned_menu":{"add_unassigned_student":"Tilføj elev uden tildeling","add_unassigned_user":"Tilføj bruger uden tildeling","search_people":"Søg efter deltagere"},"add_unassigned_user":{"add_to_group":"Føj bruger til gruppe","add_user_to_group":"Føj bruger %{name} til denne gruppe"},"add_unassigned_users":{"no_users_found":"Ikke fundet nogen brugere","too_short":"Indtast et søgeord på 3 eller flere tegn"},"assign_to_group_menu":{"add_to_group":"Føj til gruppe","all_groups_full":"Alle grupper er fulde. %{br}","all_groups_full_suggestion":"Du skal enten ændre gruppebegrænsninger eller tilføje flere grupper.","assign_user_to_group":"Tildel bruger til denne gruppe","assign_user_to_group_name":"Tildel bruger til gruppe %{name}","no_groups_created":"Der skal oprettes grupper, inden der kan tilføjes brugere."},"auto_leadership_controls":{"auto_first_group_leader":"Indstil første elev til at deltage som gruppeleder","auto_group_leader":"Tildel automatisk en elev som gruppeleder","auto_random_group_leader":"Indstil en vilkårlig elev som gruppeleder","leadership":"Lederskab"},"group_categories":{"account_group_explanation":"Studiegrupper på kontoniveau er en god måde at gruppere elever uden at de behøver være tilmeldt samme fag. Hver studiegruppe råder over sin egen kalender, diskussionsforum og samarbejdsværktøjer, så de selv kan organisere deres samarbejde på en mere effektiv måde.","course_group_explanation":"Studiegrupper er en god måde at gruppere elever for ting såsom gruppeprojekter eller opgaver. Hver studiegruppe råder over sin egen kalender, diskussionsforum og samarbejdsværktøjer, så de selv kan organisere deres samarbejde på en mere effektiv måde.","group_assignment_instructions":"Du kan vælge vilkårlige elever til grupper af en specifik størrelse eller manuelt oprette og organisere grupperne. Når dine grupper er oprettet, kan du indstille opgaver til at være opgaver med \"Gruppeaflevering\", hvilket betyder, at hver gruppe har én aflevering, som gælder for alle medlemmerne i den pågældende gruppe.","group_set":"Gruppesæt","headings":{"account_groups":"Studiegrupper på kontoniveau","course_groups":"Studiegrupper","groups":"Grupper"},"tabs":{"everyone":"Alle"}},"group_category":{"search_groups":"Søg efter grupper","search_users":"Søg efter brugere"},"group_category_clone":{"cancel":"Annuller"},"group_category_create":{"allow_self_signup":"Tillad selvtilmelding","cancel":"Annuller","create_groups":"Opret %{num_groups} grupper nu","create_groups_later":"Jeg opretter grupper senere","group_set_name":"Navn på gruppesæt","group_structure":"Gruppestruktur","leave_group_limit_blank":"Efterlad tom for ingen grænse","limit_group_size":"Begræns grupper til %{group_limit} medlemmer","require_same_section":"Gruppemedlemmer skal placeres i samme sektion","save":"Gem","saving":"Gemmer ...","self_signup":"Selvtilmelding","split_into_groups":"Opdel elever i %{num_groups} grupper","split_into_sized_groups":"Opdel elever i grupper med %{num_members} elever pr. gruppe"},"group_category_detail":{"category_settings":"Indstillinger","delete_category_option":"Slet","edit_category_option":"Rediger","group":"Gruppe","group_limit_blurb":"Grupper begrænses til *%{group_limit}* medlemmer.","import":"Importer","message_all_unassigned_option":"Send besked til alle elever uden tildeling","randomly_assign_students_option":"Udpeg elever vilkårligt","restricted_self_signup_blurb":"Alle elever i en gruppe skal placeres i samme sektion.","self_organized_warning":"Eleverne organiserer selv disse grupper. I modsætning til andre gruppetyper kan eleverne høre til mere end en af disse grupper på samme tid, så grupperne kan ikke bruges til opgaver med vurderinger.","self_signup_blurb":"Selvtilmelding er aktiveret for disse grupper.","settings":"Indstillinger","uncategorized_groups":"Disse grupper er ikke knyttet til noget specifikt gruppesæt. Da de blev importeret via SIS, kan de kun opdateres eller slettes via SIS."},"group_category_edit":{"allow_self_signup":"Tillad selvtilmelding","cancel":"Annuller","group_limit_override":"Ændring af dette tilsidesætter enhver individuelt indstillet gruppebegrænsning","group_set_name":"Navn på gruppesæt","leave_group_limit_blank":"Efterlad tom for ingen grænse","limit_group_size":"Begræns grupper til %{group_limit} medlemmer","require_same_section":"Gruppemedlemmer skal placeres i samme sektion","save":"Gem","saving":"Gemmer ..."},"group_detail":{"add_user_to_group":"Tildel bruger til gruppe","group_delete":"Slet","group_edit":"Rediger","group_full":"Fuld","group_leader":"Gruppeleder","group_settings":"Indstillinger","show_group_details":"Vis detaljer for gruppe %{name}","visit_group_homepage":"Gå ind på gruppens startside"},"group_user":{"assign_user_to_group":"Tildel %{name} til en gruppe","edit_group_membership":"Rediger %{name}'s medlemskab","group_leader":"Gruppeleder","move":"Flyt til ...","move_to_new_group":"Flyt %{name} til en ny gruppe","remove":"Fjern","remove_as_leader":"Fjern som leder","remove_from_group":"Fjern %{name} fra gruppen","remove_user_as_leader":"Fjern %{name} som leder","set_as_leader":"Indstil som leder","set_user_as_leader":"Indstil %{name} som leder"},"group_users":{"add_student":"Tilføj en elev for at komme i gang.","add_user":"Tilføj en bruger for at komme i gang.","greater_than_three":"Indtast et søgeord med tre eller flere tegn","no_matching_students":"Ingen matchende elever.","no_matching_users":"Ingen matchende brugere.","no_students":"Der findes ingen elever i denne gruppe på nuværende tidspunkt.","no_users":"Der findes ingen brugere i denne gruppe på nuværende tidspunkt."},"groups":{"no_groups":"Der findes ingen grupper i dette gruppesæt. Tilføj en gruppe for at komme i gang.","no_matching_groups":"Der findes ingen grupper, som matcher dit aktuelle søgeord."},"randomly_assign_members":{"cancel":"Annuller","randomly_assign_students_dialog":"Dette tildeler automatisk alle ikke tildelte elever så jævnt som muligt blandt de eksisterende studiegrupper."},"self_signup_help":{"about_self_signup_groups":"Om grupper med selvtilmelding","self_signup_description":"Du kan oprette gruppesæt, hvor eleverne selv kan tilmelde sig. Eleverne er stadig begrænset til kun at være medlem af én gruppe, men på denne måde kan eleverne selv organisere sig i grupper i stedet for at være afhængige af, at læreren gør det for dem. Bemærk, at eleverne frit kan af-og tilmelde sig grupper, så længe denne mulighed er aktiveret."}},"positive_group_count":"Skal indtaste et positivt gruppeantal","randomly_assigning_members":"Vilkårlig tildeling af elever","unassigned_students":"Elever uden tildeling (%{count})","unassigned_users":"Brugere uden tildeling (%{count})"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "GroupDetailView",
+  function() { return {"count_max_students_2db76773":"%{count} / %{max} elever","count_max_users_bdebb537":"%{count} / %{max} brugere"} },
+  function() { return {"delete_confirm":"Er du sikker på, at du vil fjerne denne gruppe?","flash":{"removeError":"Gruppen kan ikke fjernes. Prøv igen senere.","removed":"Gruppen er fjernet."},"student_count":{"one":"1 elev","other":"%{count} elever"},"user_count":{"one":"1 bruger","other":"%{count} brugere"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "GroupUsersView",
+  function() { return {"move_student_49d6bc9d":"Flyt elev","removed_user_as_group_leader_bb69330f":"Fjern %{user} som gruppeleder","user_is_now_group_leader_60ec9b98":"%{user} er nu gruppeleder"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "CanvasMediaPlayer",
+  function() { return {"audio_player_for_label_dd9a6819":"Audioafspiller til %{label}","failed_retrieving_media_sources_32aed288":"Kunne ikke hente mediekilder.","giving_up_on_retrieving_media_sources_this_issue_w_ad49b0d3":"Giver op at hente mediekilder. Dette problem vil sandsynligvis løse sig selv i sidste ende.","video_player_for_label_6a5fdb03":"Videoafspiller til %{label}","your_media_has_been_uploaded_and_will_appear_here__8546af57":"Dit medie er blevet uploadet og vises her efter behandling."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "messages",
+  null,
+  function() { return {"dialog":{"title":"Send en svarbesked"},"messages":{"failure":"Der opstod en fejl under afsendelse af din e-mail. Genindlæs siden og prøv igen.","success":"Din e-mail er på vej."},"send_form":{"labels":{"message_body":"Besked","send_button":"Send"}}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "pseudonyms_mobile_login",
+  null,
+  function() { return {"parent_signup":"Parent-tilmelding"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "quizzes",
+  function() { return {"add_quiz_cebfa28b":"Tilføj quiz","an_error_occurred_while_migrating_405ac0b5":"Der opstod en fejl under overførsel.","answer_answerid_97fc4afc":"Svar %{answerId}","build_quiz_df7e734a":"Byg quiz","cancel_duplicating_original_assignment_name_e974c534":"Annuller duplikering af \"%{original_assignment_name}\"","copy_quiz_to_course_74f9c8c1":"Kopier quiz til fag","delete_quiz_142b8099":"Slet quiz","duplicate_quiz_name_79fdcb3e":"Duplikeret quiz %{name}","edit_mastery_paths_for_title_label_41d81451":"Rediger læringsstier for %{title_label}","edit_quiz_ededddd8":"Rediger quiz","making_a_copy_of_original_assignment_name_8f029a9b":"Laver en kopi af \"%{original_assignment_name}\"","migrate_67c9f753":"Overfør","migrate_quiz_5d0f777":"Overførsel af quiz","migration_in_progress_6f0ed4f9":"Overførsel i gang","oops_something_went_wrong_with_making_a_copy_of_or_22787360":"Ups! Noget gik galt med at lave en kopi af \"%{original_assignment_name}\"","options_for_title_label_17f821ff":"Valg til %{title_label}","quiz_settings_4e17f005":"Quizindstillinger","reset_quiz_engine_choice_323a40e6":"Nulstil valg af quizprogram","retry_duplicating_original_assignment_name_90b83bb8":"Prøv at duplikere \"%{original_assignment_name}\" igen\"","send_quiz_to_user_e8c47177":"Send quiz til bruger","student_extensions_d35a907":"Forlængelser for elever","view_question_banks_188a9e0f":"Vis spørgsmålsbanker","you_have_been_given_extra_time_on_this_attempt_9d8bff6c":"Du er blevet givet ekstra tid til dette forsøg","your_browser_connectivity_may_be_slow_or_unstable__97c1f4c5":"Din browserforbindelse kan være langsom eller ustabil. Selvom din browsers timer er afbrudt, registreres dine svar i yderligere 5 minutter ud over den oprindelige tidsgrænse for dette forsøg.","your_time_for_this_quiz_has_been_reduced_394652e9":"Din tid for denne quiz er blevet reduceret."} },
+  function() { return {"file_uploaded_or_removed":{"quizzes":{"file_successfully_uploaded":"Din fil er blevet uploadet","files_removed":"%{display_name} er blevet fjernet."}},"index":{"confirms":{"delete_quiz":"Er du sikker på, at du vil slette denne quiz?"},"flash":{"fail":"Sletning af quiz mislykkedes.","removed":"Quiz er slettet."},"multiple_due_dates":"Flere datoer"},"index_view":{"links":{"manage_question_banks":"Administrering af spørgsmålsbanker","publish_multiple_quizzes":"Offentliggør flere quizzer"},"quizzes_title":"Quizzer","search_for_quiz":"Søg efter quiz"},"ldb_login_popup":{"email":"E-mail","log_in":"Log på","logged_out_of_canvas":"*Du er blevet logget ud af Canvas.* Log på for at forsætte.","password":"Adgangskode","titles":{"log_in":"Log på"}},"moderate":{"buttons":{"extend_time":"Forlæng tid","extending_time":"Forlænger tid ...","save":"Gem","save_failed":"Lagring mislykkedes, prøv igen","save_failed_n_updates_lost":"Lagring mislykkedes, %{n} elever blev ikke opdateret","saving":"Gemmer ...","time_extension_failed":"Forlænget tid mislykkedes, prøv igen"},"confirms":{"taking_time_away":"Det ville være mindre tid, end hvad eleven har på nuværende tidspunkt. Fortsæt alligevel?"},"errors":{"quiz_submission_extra_attempts_not_a_number":"Ekstra forsøg skal være et tal.","quiz_submission_extra_attempts_too_long":"Ekstra forsøg skal være mindre end 1000.","quiz_submission_extra_attempts_too_short":"Ekstra forsøg skal være større end 0.","quiz_submission_extra_time_not_a_number":"Ekstra tid skal være et tal.","quiz_submission_extra_time_too_long":"Ekstra tid skal være mindre end 10080.","quiz_submission_extra_time_too_short":"Ekstra tid skal være større end 0.","server_communication_failed":"Der opstod et problem med at kommunikere med serveren. Systemet prøver igen om fem minutter, eller du kan genindlæse siden"},"extensions_for_student":"Forlængelser for %{student}","extensions_for_students":{"one":"Forlængelse for 1 elev","other":"Forlængelse for %{count} elever"},"finished_in_duration":"færdiggjort på %{duration}","time_up":"Tiden er udløbet!","titles":{"autosubmit_dialog":"Udestående quizafleveringer","extend_quiz_time":"Forlæng quiztid","student_extensions":"Forlængelser for elever"}},"no_quizzes_view":{"headers":{"course_quizzes":"Fagets quizzer"},"no_quizzes":"Ingen tilgængelige quizzer"},"quiz_item_group_view":{"no_quizzes":"Der er ikke fundet nogen quizzer","no_surveys":"Der er ikke fundet nogen spørgeundersøgelser"},"quiz_submission":{"titles":{"this_is_an_external_element":"Dette er et eksternt element, ikke tekst, og er eventuelt blevet ændret, siden eleven afleverede","this_is_an_external_frame":"Dette er en ekstern ramme, ikke tekst, og er eventuelt blevet ændret, siden eleven afleverede","this_is_an_image":"Dette er et billede, ikke tekst, og er eventuelt blevet ændret, siden eleven afleverede"}},"rubric":{"loading":"Indlæser ...","titles":{"details":"Detaljer om vurderingskriterium til opgave"}},"show":{"answers":{"correct":"Korrekt!","correct_answers":"Korrekte svar","incorrect":"Forkert","partial":"Delvis","right":"Korrekt svar","unanswered":"Ikke besvaret","you_answered":"Du svarede"},"buttons":{"already_published":"Offentliggjort!","publishing":"Offentliggør ..."},"confirms":{"delete_quiz":"Er du sikker på, at du vil slette denne quiz?","delete_quiz_submissions_warning":{"one":"Advarsel: 1 elev har allerede taget denne quiz. Hvis du sletter den, slettes alle afsluttede afleveringer og vises ikke længere i vurderingsoversigten.","other":"Advarsel: %{count} elever har allerede taget denne quiz. Hvis du sletter den, slettes alle afsluttede afleveringer og vises ikke længere i vurderingsoversigten."}},"links":{"hide_student_quiz_results":"Skjul elevernes quizresultater","hide_student_survey_results":"Skjul elevernes spørgeundersøgelsesresultater","show_student_quiz_results":"Vis studiequizzens resultater","show_student_survey_results":"Vis studieundersøgelsens resultater"},"students_who_have_not_taken_the_quiz":"Elever, som IKKE har taget quizzen","students_who_have_taken_the_quiz":"Elever, som har taget quizzen"},"take_quiz":{"confirms":{"cant_go_back_blank":"Du kan ikke vende tilbage til spørgsmål, efter du klikker på næste. Er du sikker på, at du vil lade det stå tomt?","file_upload_in_progress":"Filupload er i gang. Du kan miste dit svar, før det er færdigt.","navigate_away":"Du er ved at navigere væk fra denne side. Fortsæt alligevel?","unanswered_questions":{"one":"Du har 1 ubesvaret spørgsmål (se det højre sidepanel for nærmere oplysninger). Aflever alligevel?","other":"Du har %{count} ubesvarede spørgsmål (se det højre sidepanel for nærmere oplysninger). Aflever alligevel?"},"unfinished_quiz":"Du er ved at forlade denne quiz uafsluttet. Fortsæt alligevel?","unseen_questions":{"one":"Der findes stadig 1 spørgsmål, som du endnu ikke har set. Aflever alligevel?","other":"Der findes stadig %{count} spørgsmål, som du endnu ikke har set. Aflever alligevel?"}},"days_count":{"one":"1 dag","other":"%{count} dage"},"errors":{"connection_lost":"Forbindelse med %{host} gik tabt. Sørg for, at du er koblet til nettet, inden du fortsætter.","only_numerical_values":"der accepteres kun numeriske værdier"},"hide_time_link":"Skjul tid","hours_count":{"one":"1 time","other":"%{count} timer"},"labels":{"time_elapsed":"Tid forløbet"},"login_failed":"Login mislykkede.","login_successful":"Login vellykket.","minutes_count":{"one":"1 minut","other":"%{count} minutter"},"months_count":{"one":"1 måned","other":"%{count} måneder"},"notices":{"due_date_five_minutes_left":"Fem minutter tilbage, inden quizzen markeres som sen","due_date_one_minute_left":"Et minut tilbage, inden quizzen markeres som sen","due_date_thirty_minutes_left":"Tredive minutter tilbage, inden quizzen markeres som sen","submission_five_minutes_left":"Denne quiz afleveres om fem minutter","submission_one_minute_left":"Denne quiz afleveres om et minut","submission_thirty_minutes_left":"Denne quiz afleveres om tredive minutter"},"question_answered":"Besvaret","question_unanswered":"Har ikke svaret endnu","saved_at":"Quiz gemt %{t}","saving":"Gemmer ...","saving_not_needed":"Ingen nye data til lagring. Sidst tjekket kl. %{t}","seconds_count":{"one":"1 sekund","other":"%{count} sekunder"},"show_time_link":"Vis tid","titles":{"come_back_later":"Du afmærkede dette spørgsmål for at vende tilbage senere","times_up":"Tiden er udløbet!"},"years_count":{"one":"1 år","other":"%{count} år"}},"timing":{"labels":{"time_elapsed":"Tid forløbet","time_remaining":"Resterende tid"}}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "TourPoints",
+  function() { return {"access_canvas_training_videos_and_courses_ea43173a":"Få adgang til træningsvideoer og -fag på Canvas","access_your_courses_and_groups_using_any_ios_or_an_cdb6ad63":"Få adgang til dine fag og grupper ved hjælp af en hvilken som helst iOS- eller Android-mobilenhed, og find mere information i menuen Hjælp.","add_people_and_courses_to_canvas_5c4bfff9":"Tilføjer deltagere og fag til Canvas","admin_tour_36d89fbb":"Tour for admins","canvas_course_tutorial_video_5205c1c1":"Selvstudiumvideo om Canvas-fag","canvas_notifications_tutorial_video_79b8e768":"Selvstudiumvideo om Canvas-meddelelser","click_on_the_account_navigation_button_to_access_n_fbe82181":"Klik på konto-navigationsknappen for at få adgang til meddelelses-indstillinger.","click_on_the_courses_navigation_button_to_access_y_138d4dfb":"Klik på fag-navigationsknappen for at få adgang til dine fag.","click_the_admin_navigation_button_to_access_accoun_38d881bf":"Klik på admin-navigationsknappen for at få adgang til kontoindstillinger.","come_back_later_5eab7dba":"Kom tilbage senere!","current_of_totalsteps_19d7ee37":"%{current} af %{totalSteps}","don_t_miss_notifications_from_your_students_900e9e30":"Gå ikke glip af meddelelser fra dine elever.","download_canvas_android_app_60b5595f":"Download Canvas-Android-appen","download_canvas_ios_app_11c8651b":"Download Canvas-iOS-appen","find_training_resources_and_more_help_f148612c":"finder uddannelsesressourcer og mere hjælp","find_your_classes_or_subjects_in_the_dashboard_72e1ed47":"Find dine klasser eller fag i oversigten ...","get_your_content_online_9546ecff":"Få dit indhold online","get_your_content_online_quickly_41fd925b":"Få dit indhold hurtigt online","hello_name_cabdd4ce":"Hej%{name}!","here_s_some_quick_tips_to_get_you_started_in_canva_72425979":"Her er nogle hurtige tip, så du kan komme i gang i Canvas!","how_do_i_contact_my_instructor_184e35ed":"Hvordan finder jeg min instruktør?","how_do_i_download_the_student_app_4a4b8a63":"Hvordan downloader jeg elev-appen?","how_do_i_download_the_student_app_and_get_addition_3604c207":"Hvordan downloader jeg elev-appen og får yderligere hjælp?","how_do_i_find_my_courses_b826e4ce":"Hvordan finder jeg mine fag?","learn_more_about_using_commons_and_blueprints_3df953f6":"Få mere at vide om brug af Commons og Blueprints","learn_more_about_video_conferencing_5f0e76e4":"Lær mere om videokonferencer","more_video_conferencing_tools_f55088d5":"Flere videokonferenceværktøjer","not_now_afa29fa7":"Ikke nu","or_in_the_courses_list_6201030":"... eller i listen Fag.","quickly_share_course_content_and_templates_with_te_1cf3dc6f":"Del hurtigt fagindhold og skabeloner med lærerne","quickly_share_course_content_and_templates_with_te_c70a5eeb":"hurtigt deler fagindhold og skabeloner med lærerne","set_up_video_conferencing_and_other_tools_1a94a350":"konfigurerer videokonferencer og andre værktøjer","set_up_video_conferencing_c0049abe":"Konfigurer videokonferencer","set_up_your_canvas_course_in_30_minutes_or_less_94817b6d":"Opsæt dit Canvas-fag på 30 minutter eller mindre.","set_up_your_notifications_568ecf91":"Indstil dine meddelelser","set_up_your_notifications_9c005279":"Indstil dine meddelelser","star_2d27c137":"giver stjerner","start_a_conversation_with_your_instructor_in_the_c_50c9b8d5":"Start en diskussion med din instruktør i Canvas-indbakke.","start_tour_29787099":"Start tour","student_tour_38b735c8":"Tour for elever","teacher_tour_26282921":"Tour for lærere","to_add_bulk_users_courses_and_enrollments_click_si_4395c26":"For at tilføje flere brugere, fag og tilmeldinger på en gang skal du klikke på SIS-import.","to_add_individual_courses_click_courses_c5355180":"Klik på Fag for at tilføje individuelle fag.","to_add_individual_users_click_people_4d6de56a":"Klik på Deltagere for at tilføje individuelle brugere.","video_conferencing_tools_enable_face_to_face_conne_144420a5":"Videokonferenceværktøjer muliggør ansigt til ansigt-forbindelse mellem lærere og elever.","we_know_getting_your_courses_online_quickly_during_40424e8":"Vi ved, at det er en prioritet at få dine fag online hurtigt i løbet af denne periode. Denne hurtige tour viser dig, hvordan du:","we_know_it_s_a_priority_to_transition_your_institu_9a5bed0c":"Vi ved, at det er en prioritet at overføre din institution til online-læring i denne periode. Denne hurtige tour viser dig, hvordan du:","you_can_access_the_welcome_tour_here_any_time_as_w_95b44855":"Du kan få adgang til velkomst-touren samt andre nye ressourcer her, når du vil."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "common",
+  function() { return {"expand_global_navigation_2c28d5d4":"Udvid global navigation","minimize_global_navigation_2d839351":"Minimer global navigation"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "createTicketForm",
+  function() { return {"extreme_critical_emergency_80b3dbda":"EKSTREMT KRITISK NØDSTILFÆLDE!","file_a_ticket_for_a_personal_response_from_our_sup_1e1ffaff":"Indsend besked for et personligt svar fra vores supportteam","for_an_instant_answer_see_if_your_issue_is_address_48280e89":"For et øjeblikkeligt svar, se om dit problem er omtalt i *Canvas Guides*.","how_is_this_affecting_you_b3b6a639":"Hvordan påvirker det dig?","i_cannot_get_things_done_until_i_hear_back_from_yo_83ba46b7":"Jeg kan ikke gøre noget, før jeg hører fra dig","i_need_some_help_but_it_is_not_urgent_d967ea0a":"Jeg har brug for hjælp, men det haster ikke","include_a_link_to_a_screencast_screenshot_using_so_4b2fabcb":"Inkluder et link til et screencast/screenshot ved brug af f.eks. *Jing*","just_a_casual_question_comment_idea_or_suggestion_1579d069":"Blot et tilfældigt spørgsmål, kommentar, idé, forslag","please_select_one_f931e883":"Vælg venligst en","something_is_broken_but_i_can_work_around_it_for_n_7fcedb9d":"Der er noget galt, men jeg kan omgå det for øjeblikket","submit_ticket_5515ffd":"Opret supportsag","ticket_successfully_submitted_f6254460":"Supportsag indsendt.","your_email_address_f881e583":"Din e-mailadresse"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "HelpLinks",
+  function() { return {"customize_this_menu_efa72a9":"Tilpas denne menu","other_resources_fee3ddda":"ANDRE RESSOURCER","show_welcome_tour_a105aa2e":"Vis velkomst-touren"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "TeacherFeedbackForm",
+  function() { return {"ask_your_instructor_a_question_a61ca5e9":"Stil din instruktør et spørgsmål","loading_courses_bd1bffe":"Indlæser fag ...","message_sent_f4cba0c":"Besked sendt.","message_will_be_sent_to_all_the_teachers_and_teach_1b8d17c1":"Beskeden sendes til alle fagets lærere / undervisningsassistenter.","which_course_is_this_question_about_f819a158":"Hvilket fag drejer dette spørgsmål sig om?"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "new_nav",
+  function() { return {"recent_history_bcb0f4c0":"Seneste historik"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "LogoutButton",
+  function() { return {"logout_a9312e35":"Logout"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "MobileNavigation",
+  function() { return {"disabled_not_visible_to_students_2c9d693f":"Deaktiveret. Ikke synlig for eleverne.","loading_f99d93d4":"... indlæser","no_content_not_visible_to_students_905f8996":"Intet indhold. Ikke synlig for eleverne."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "MobileGlobalMenu",
+  function() { return {"history_cd3f60a9":"Historik","login_6f3d6249":"Login","my_dashboard_8983c283":"Min oversigt"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "Navigation",
+  function() { return {"admin_tray_3b680e7b":"Adminbakke","courses_tray_cec46d6e":"Fagbakke","global_navigation_tray_35612e2e":"Global navigationsbakke","groups_tray_ef3e2649":"Gruppebakke","loading_release_notes_7deaa2eb":"Indlæser frigivelsesnotater","profile_tray_bcec5044":"Profilbakke","recent_history_tray_241a384e":"Seneste historik-bakke","release_notes_could_not_be_loaded_b4246d49":"Frigivelsesnoter kunne ikke indlæses.","show_badges_for_new_release_notes_b2035bbb":"Vis badges for nye udgivelsesnotater","title_tray_ec9f7488":"%{title} bakke"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_unread_messages_e312aa7b",
+  null,
+  function() { return {"one":"En ulæst besked.","other":"%{count} ulæste beskeder."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_unread_shares_ff9e91a5",
+  null,
+  function() { return {"one":"En ulæst deling.","other":"%{count} ulæste delinger."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_release_notes_6f50a89f",
+  null,
+  function() { return {"one":"En ulæst udgivelsesnote.","other":"%{count} ulæste udgivelsesnoter."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "CoursesTray",
+  function() { return {"published_courses_294ef14c":"Offentliggjorte fag","published_subjects_d73a029d":"Offentliggjorte emner","unpublished_courses_4299148e":"Ikke offentliggjorte fag","unpublished_subjects_62a7d38":"Ikke-offentliggjorte emner","welcome_to_your_courses_to_customize_the_list_of_c_f95e4b2":"Velkommen til dine fag! For at tilpasse listen over fag skal du klikke på linket \"Alle fag\" og give stjerne til de fag, der skal vises.","welcome_to_your_subjects_to_customize_the_list_of__f6574116":"Velkommen til dine emner! For at tilpasse listen over emner skal du klikke på linket \"Alle emner\" og give stjerne til de emner, der skal vises."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "ProfileTray",
+  function() { return {"an_error_occurred_while_trying_to_change_the_ui_bca3b2d2":"Der opstod en fejl under forsøg på at ændre brugergrænsefladen","enhance_color_contrast_of_content_685ddd49":"Forbedr farvekontrasten på indholdet","enhances_the_color_contrast_of_text_buttons_etc_88e22e61":"Forbedrer farvekontrasten på tekst, knapper osv.","hi_contrast_373b614f":"Høj kontrast","reload_the_page_or_navigate_to_a_new_page_for_this_e6335972":"Genindlæs siden, eller naviger til en ny side, så denne ændring træder i kraft.","use_high_contrast_ui_a5917282":"Brug grænseflade med høj kontrast","user_profile_picture_46bffbc7":"Billede til brugerprofil","waiting_for_change_to_complete_b75b5e8b":"Venter på, at ændringen er afsluttet"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "new_user_tutorial",
+  function() { return {"assess_student_understanding_1e0b8d7f":"Vurder elevernes forståelse","assignments_include_quizzes_graded_discussions_and_182e5899":"Opgaver inkluderer quizzer, bedømte diskussioner og mange typer\n      online-afleveringer (filer, billeder, tekst, URL'er og medier). Tildel\n      dem til alle i et fag, eller tildel forskellige afleveringdatoer til specifikke\n      sektioner eller brugere. Opret opgavegrupper for at organisere dine opgaver\n      og for at vægte grupper i procent. Aktivér elev-elev vurdering, så eleverne kan\n      gennemgå hinandens arbejde.","bring_existing_content_into_your_course_c5fc7e1b":"Bring dit eksisterende indhold ind i dit fag","canvas_helps_you_leverage_collaborative_technology_a453f09f":"Canvas hjælper dig med at udnytte samarbejdsteknologier, så flere\n      brugere kan arbejde sammen om det samme dokument på samme tid. Opret\n      samarbejdsdokumenter, der gemmes i realtid - en ændring, som foretages af\n      en bruger, bliver synlig for alle de andre med det samme.","collapse_tutorial_tray_66ee7dc1":"Skjul selvstudiumområde","communicate_course_objectives_f457158c":"Kommuniker fagets mål","communicate_grading_expectations_484a1f01":"Kommuniker forventninger til bedømmelse","conduct_lectures_office_hours_and_student_group_me_13ec766c":"Hold forelæsninger, kontortid og elevgruppemøder - det hele\n      fra din computer. Broadcast realtids-audio og -video, del præsentationer,\n      giv demonstrationer af applikationer og online-ressourcer\n      og meget mere.","create_interactive_course_content_76665336":"Opret interaktivt fagindhold","customize_course_details_26fd4afe":"Tilpas fagoplysninger","discussions_allow_students_and_instructors_to_comm_ce03ca43":"Diskussioner giver elever og instruktører mulighed for at kommunikere om\n      fagemner til enhver tid. Opret diskussioner for en vurdering, eller gør\n      det lettere for eleverne at oprette diskussioner til at udveksle ideer og løse problemer. Trådede\n      diskussioner er perfekte til at organisere dybdegående eller langsigtede diskussioner,\n      mens fokuserede diskussioner er bedst egnede til kortvarig udveksling.","display_grades_as_points_percentages_complete_inco_fa848380":"Vis vurderinger som\n      point, procenter, fuldstændig / ufuldstændig eller enhver anden metode, der matcher\n      dit fags vurderingssystem, og filtrer og arranger vurderingsoversigt-poster\n      i henhold til dine præferencer. Anvend en automatisk vurdering for manglende eller\n      sene afleveringer, og skjul let vurderinger, indtil du er klar til, at eleverne\n      får dem at se. For forenklet vurdering kan du bruge SpeedGrader for at se og vurdere afleveringer.","don_t_show_again_8c7b7297":"Vis ikke igen","easily_import_or_copy_content_from_another_canvas__c6312f32":"Importer eller kopier nemt indhold fra et andet Canvas-fag til\n        dit fag, eller importer indhold fra andre formater, såsom Moodle eller QTI.","enable_face_to_face_connection_9df19b76":"Aktivér ansigt til ansigt-forbindelse","encourage_student_discourse_7836b9f7":"Opmuntr til debat mellem eleverne","end_course_set_up_tutorial_f358b85d":"Afslut selvstudium for opsætning af fag","enter_and_distribute_grades_c1216df":"Indtast og fordel vurderinger","expand_tutorial_tray_22630c49":"Udvid selvstudiumområde","host_virtual_lectures_in_real_time_150cef95":"Hold virtuelle foredrag i realtid","how_do_i_add_a_module_65f5bf13":"Hvordan tilføjer jeg et forløb?","how_do_i_add_a_rubric_in_a_course_a4c7a40":"Hvordan tilføjer jeg et vurderingskriterie i et fag?","how_do_i_add_a_rubric_to_an_assignment_46fd097e":"Hvordan tilføjer jeg et vurderingskriterie til en opgave?","how_do_i_add_an_announcement_in_a_course_63396bb7":"Hvordan tilføjer jeg en besked i et fag?","how_do_i_add_an_image_to_a_course_card_in_the_dash_c869a3d7":"Hvordan tilføjer jeg et billede til et fagkort i oversigten?","how_do_i_add_assignment_types_pages_and_files_as_m_c1a520a6":"Hvordan tilføjer jeg opgavetyper, sider og filer som forløbelementer?","how_do_i_add_or_edit_details_in_an_assignment_fa779906":"Hvordan tilføjer eller redigerer jeg detaljer i en opgave?","how_do_i_add_users_to_a_course_4a88efaf":"Hvordan tilføjer jeg brugere til et fag?","how_do_i_add_zoom_to_a_course_31300d74":"Hvordan tilføjer jeg Zoom til et fag?","how_do_i_adjust_events_and_due_dates_in_a_course_i_4647c50b":"Hvordan justerer jeg begivenheder og afleveringsdatoer i en fagimport?","how_do_i_align_an_outcome_with_a_rubric_in_a_cours_d9c8f009":"Hvordan justerer jeg et læringsudbytte med et vurderingskriterie i et fag?","how_do_i_bulk_upload_files_to_a_course_b145d8cc":"Hvordan uploader jeg flere filer til et fag?","how_do_i_change_a_course_name_and_course_code_23b41292":"Hvordan ændrer jeg et fags navn og kode?","how_do_i_change_the_course_home_page_326cee50":"Hvordan ændrer jeg fagets startside?","how_do_i_conclude_a_conference_689d60dc":"Hvordan afslutter jeg en konference?","how_do_i_copy_a_canvas_course_into_a_new_course_sh_1633c6c1":"Hvordan kopierer jeg et Canvas-fag ind i et nyt fag?","how_do_i_create_a_conference_in_a_course_69affbf4":"Hvordan opretter jeg en besked i et fag?","how_do_i_create_a_discussion_as_an_instructor_fa6c26d6":"Hvordan opretter jeg en diskussion som instruktør?","how_do_i_create_a_google_drive_collaboration_as_an_28274cf7":"Hvordan opretter jeg et Google Drev-samarbejde som instruktør?","how_do_i_create_a_microsoft_office_365_collaborati_52e46698":"Hvordan opretter jeg et Microsoft Office 365-samarbejde som instruktør?","how_do_i_create_a_new_page_in_a_course_37a87285":"Hvordan opretter jeg en ny side i et fag?","how_do_i_create_a_quiz_with_individual_questions_4a68ce0d":"Hvordan opretter jeg en quiz med individuelle spørgsmål?","how_do_i_create_an_assessment_using_new_quizzes_801b0146":"Hvordan opretter jeg en vurdering ved hjælp af New Quizzes?","how_do_i_create_an_assignment_35532b59":"Hvordan opretter jeg en opgave?","how_do_i_create_an_outcome_for_a_course_cf0ea2b3":"Hvordan opretter jeg et resultat for et fag?","how_do_i_create_outcome_groups_for_a_course_362429a0":"Hvordan opretter jeg læringsudbytte-grupper for et fag?","how_do_i_edit_an_announcement_in_a_course_815c3c60":"Hvordan redigerer jeg en besked i et fag?","how_do_i_edit_the_syllabus_description_in_a_course_57f25a87":"Hvordan redigerer jeg fagplanen i et fag?","how_do_i_enter_and_edit_grades_in_the_gradebook_5002616f":"Hvordan indtaster og redigerer jeg vurderinger i vurderingsoversigten?","how_do_i_import_a_canvas_course_export_package_ed3aafd4":"Hvordan importerer jeg en Canvas-eksportpakke?","how_do_i_import_outcomes_for_a_course_8eced1a":"Hvordan importerer jeg læringsudbytter for et fag?","how_do_i_invite_others_to_join_a_meeting_d09bfd6c":"Hvordan inviterer jeg andre til at deltage i et møde?","how_do_i_know_if_students_have_joined_the_meeting_bbfb1c36":"Hvordan ved jeg, om elever er tilsluttet mødet?","how_do_i_manage_and_share_the_recording_52fc2993":"Hvordan administrerer og deler jeg optagelsen?","how_do_i_manage_rubrics_in_a_course_a5441fb7":"Hvordan administrerer jeg vurderingskriterier i et fag?","how_do_i_manage_settings_for_an_assessment_in_new__b2688ec7":"Hvordan administrerer jeg indstillinger for en vurdering i New Quizzes?","how_do_i_move_and_organize_my_files_as_an_instruct_5ae4f9bd":"Hvordan flytter og organiserer jeg filer som instruktør?","how_do_i_move_or_reorder_a_module_e64a4baa":"Hvordan flytter eller omarrangerer jeg et forløb?","how_do_i_mute_and_unmute_all_participants_a7a2115b":"Hvordan kan jeg slå lyden fra/til for alle deltagere?","how_do_i_post_grades_for_an_assignment_in_the_grad_bc01018e":"Hvordan slår jeg vurderinger for en opgave op i vurderingsoversigten?","how_do_i_publish_or_unpublish_a_discussion_as_an_i_4055a43e":"Hvordan offentliggør eller fjerner jeg offentliggørelse for en diskussion som instruktør?","how_do_i_publish_or_unpublish_a_module_as_an_instr_6e1758d7":"Hvordan offentliggør eller fjerner jeg offentliggørelse for et forløb som instruktør?","how_do_i_publish_or_unpublish_a_page_as_an_instruc_5721ea3":"Hvordan offentliggør eller fjerner jeg offentliggørelse af en side som instruktør?","how_do_i_publish_or_unpublish_an_assignment_as_an__616f465":"Hvordan offentliggør eller fjerner jeg en offentliggørelse for en opgave som instruktør?","how_do_i_record_a_conference_e4845e7":"Hvordan optager jeg en konference?","how_do_i_record_a_meeting_ae3a0d4e":"Hvordan optager jeg et møde?","how_do_i_reply_to_a_discussion_as_an_instructor_399fdaff":"Hvordan svarer jeg på en diskussion som instruktør?","how_do_i_schedule_a_zoom_video_meeting_5986f068":"Hvordan planlægger jeg et Zoom-videomøde?","how_do_i_select_specific_content_as_part_of_a_cour_11fe2c8d":"Hvordan vælger jeg specifikt indhold som en del af en fagimport?","how_do_i_send_a_message_to_all_students_based_on_s_59d186d1":"Hvordan sender jeg en besked til alle elever baseret på specifikke fagkriterier i New Analytics?","how_do_i_send_a_message_to_an_individual_student_i_92c7fb":"Hvordan sender jeg en besked til en individuel elev i New Analytics?","how_do_i_set_a_front_page_in_a_course_a5f53cd5":"Hvordan indstiller jeg en ny forside i et fag?","how_do_i_set_details_for_a_course_52cfbeff":"Hvordan indstiller detaljer for et fag?","how_do_i_share_my_screen_c280e585":"Hvordan deler jeg min skærm?","how_do_i_start_a_conference_52792795":"Hvordan starter jeg en konference?","how_do_i_start_a_meeting_e8a9e67b":"Hvordan starter jeg et møde?","how_do_i_turn_my_camera_on_or_off_and_use_zoom_con_8a96538b":"Hvordan tænder/slukker jeg mit kamera og bruger Zoom-kontroller?","how_do_i_upload_a_file_to_a_course_e8332cfe":"Hvordan uploader jeg en fil i et fag?","how_do_i_use_course_settings_1e8467e6":"Hvordan bruger jeg fagindstillingerne?","how_do_i_use_files_as_an_instructor_70a996b":"Hvordan bruger jeg Filer som instruktør?","how_do_i_use_speedgrader_e18e4ca2":"Hvordan bruger jeg SpeedGrader?","how_do_i_use_the_announcements_index_page_94a14011":"Hvordan bruger jeg indekssiden for beskeder?","how_do_i_use_the_collaborations_index_page_68ee88b5":"Hvordan bruger jeg indekssiden for samarbejder?","how_do_i_use_the_course_home_page_as_an_instructor_af32848e":"Hvordan bruger jeg fagets startside som instruktør?","how_do_i_use_the_gradebook_622395dc":"Hvordan bruger jeg vurderingsoversigten?","how_do_i_use_the_learning_mastery_gradebook_to_vie_c555acf2":"Hvordan bruger jeg vurderingsoversigten for opfyldelse af læringsmål til at få vist resultater for et fag i vurderingsoversigten?","how_do_i_use_the_outcomes_page_in_a_course_a37e0231":"Hvordan bruger jeg siden Læringsudbytte i et fag?","how_do_i_use_the_pages_index_page_dafb986c":"Hvordan bruger jeg indekssiden for Sider?","how_do_i_use_the_people_page_in_a_course_as_an_ins_b1830b46":"Hvordan bruger jeg siden Deltagere i et fag som instruktør?","how_do_i_use_the_quizzes_index_page_cc2e15d3":"Hvordan bruger jeg indekssiden for Quizzer?","how_do_i_use_the_syllabus_as_an_instructor_82f00933":"Hvordan bruger jeg fagplanen som instruktør?","how_do_i_view_a_context_card_for_a_student_in_a_co_166c0e59":"Hvordan kan jeg se et kontekstkort for en elev i et fag?","how_do_i_view_analytics_for_an_individual_student_724134ed":"Hvordan kan jeg se analyser for en individuel elev?","how_do_i_view_and_sort_discussion_replies_as_an_in_a73217e3":"Hvordan ser og sorterer jeg diskussioner som instruktør?","how_do_i_view_assignments_or_students_individually_2b7211f8":"Hvordan kan jeg se opgaver eller elever individuelt i vurderingsoversigten?","how_do_i_view_the_details_of_a_submission_for_a_st_3ba83fb3":"Hvordan kan jeg se detaljerne i en aflevering for en elev i SpeedGrader?","how_do_i_view_user_details_for_an_enrollment_in_a__308e9ac0":"Hvordan kan jeg se brugeroplysninger for en tilmelding i et fag?","keep_students_informed_3f41a7e6":"Hold eleverne informeret","know_your_users_5c1323be":"Kend dine brugere","make_your_course_your_own_upload_an_image_to_repre_ec57713e":"Gør det til dit helt eget fag! Upload et billede til at repræsentere dit\n      fag, lad eleverne administrere fagindholdsområder, og skjul vurderingsdetaljer\n      fra eleverne. Du kan muligvis også justere fagets navn og kode.","new_analytics_f6147886":"New Analytics","new_analytics_is_an_interactive_tool_that_helps_yo_9bd32611":"New Analytics er et interaktivt værktøj, som hjælper dig og dine elever med at\n    spore præstation og aktivitet inden for faget. Find ud af, hvilke elever har set\n    sider og ressourcer og deltaget i opgaver — og hvilke elev der kan have brug for\n    lidt mere opmuntring.","observe_student_mastery_a1f01a":"Se elevernes opfyldelse af læringsmål","organize_course_content_11de8958":"Organiser fagindholdet","pages_let_you_create_interactive_content_directly__9933eb32":"Med Sider kan du oprette interaktivt indhold direkte på Canvas,\n      hvad enten det drejer sig om en ugentlig opdatering, et samarbejdende fag-wiki eller en\n      liste over uddannelsesressourcer. Sider kan indeholde tekst, multimedier\n      og links til filer og andet fagindhold eller sider. Du kan også\n      give eleverne mulighed for at bidrage til specifikke sider i faget.","reinforce_student_understanding_304d18a6":"Styrk elevernes forståelse","rubrics_can_show_students_your_expectations_for_as_3382da64":"Vurderingskriterier kan vise eleverne dine forventninger til opgavekvalitet\n    og hvordan de bliver bedømt i overensstemmelse hermed. Vurderingskriterier kan være forbundet med\n    opgaver, diskussioner og quizzer. Brug et vurderingskriterie udelukkende til bedømmelse,\n    eller opret et ikke-bedømt vurderingskriterie specifikt til vurderingsbaseret og\n    resultatbaseret bedømmelse uden point. Læringsudbytter kan tilføjes som kriterie-\n    elementer i vurderingskriterier.","see_more_in_canvas_guides_fc90a457":"Se mere i Canvas-vejledningerne","set_up_outcomes_in_your_course_as_measured_by_peda_78eb842e":"Indstil læringsudbytter i dit fag som målt gennem pædagogiske eller ønskede mål.\n      Hjælp eleverne med at lære færdigheder og aktiviteter i stedet for kun at fokusere på vurderinger til at måle deres succes.\n      Evaluer elevernes fremskridt gennem beregningsmetoder, og mål fremskridt direkte i vurderingsoversigten for opfyldelse af læringsmål.\n      Importer eksisterende læringsudbytter for konto og stat til dit fag. Du kan også justere læringsudbytter i fagets vurderingskriterier.","share_important_information_about_your_course_with_dceacbf9":"Del vigtige oplysninger om dit fag med alle brugere.\n      Brug beskeder til at minde eleverne om vigtige datoer og opgaver,\n      vise eleverne interne og eksterne ressourcer for at hjælpe dem med at nå\n      læringsudbytter i faget, fejre elevernes succes og fremhæve begivenheder af interesse.\n      Beskeder kan omfatte tekst, multimedier og filer.","store_and_share_course_assets_82a9967c":"Opbevar og del fagaktiver","the_course_home_page_is_the_first_page_students_se_4dbacd35":"Fagets startside er den første side, som eleverne ser, når de åbner\n      dit fag. Startsiden kan vise fagets deltagelsesaktivitet,\n      siden Fagforløb, listen over fagopgaver, fagplanen\n      eller en side, du selv designer som forside.","the_syllabus_lets_you_welcome_your_course_users_an_ba74c779":"Fagplanen giver dig mulighed for at byde dine brugere af faget velkommen og dele forventningerne\n      med eleverne. Brug fagplanens beskrivelse til at afklare fagets mål,\n      foretrukne kontaktmetoder og andre detaljer, eller upload en PDF af en eksisterende\n      fagplan. Siden Fagplan kan også vise alle opgaver og begivenheder\n      inden for faget.","track_student_performance_and_activity_a92a2a8b":"Spor elevernes præstation og aktivitet","turning_off_this_tutorial_will_remove_the_tutorial_dfd81b3a":"Hvis du slukker for dette selvstudium, fjerner du selvstudiumområdet fra din skærm for alle dine fag. Du kan tænde det igen under funktionsindstillinger i dine brugerindstillinger.","upload_and_store_course_files_or_any_other_files_y_b00cb954":"Upload og gem fagfiler eller andre filer, du har brug for.\n      Når du gemmer aktiver i Filer, er de nemme at indsætte direkte i\n      forløb, opgaver, diskussioner og sider! Fordel filer til eleverne\n      fra din fagmappe, eller lås filer, indtil du er klar til, at klassen\n      downloader dem.","use_modules_to_organize_your_content_and_create_a__1da4149":"Brug forløb til at organisere dit indhold og oprette en lineær strøm over det,\n      eleverne skal gøre i faget. Forløb kan bruges til at organisere\n      indhold efter uger, enheder eller en anden organisationsstruktur.\n      Tilføj filer, diskussioner, opgaver, quizzer og andet læringsmateriale.\n      Kræv, at forudsætninger skal udfyldes, før der gås videre til næste forløb eller\n      forløbelement, eller lås et helt forløb indtil en bestemt dato.","use_quizzes_to_challenge_student_understanding_and_a340ff1c":"Brug quizzer til at udfordre elevernes forståelse og vurdere deres forståelse\n      af fagets materiale. Det nye quizprogram i New Quizzes giver dig mulighed for at oprette op til\n      13 typer spørgsmål og indhold. Hvis New Quizzes ikke er aktiveret for din institution,\n      er Classic Quizzes stadig tilgængelig for at hjælpe dig med at nå dine mål.","welcome_your_students_e1d96088":"Byd dine elever velkommen","what_are_announcements_52175539":"Hvad er beskeder?","what_are_collaborations_27c20a98":"Hvad er samarbejder?","what_assignment_types_can_i_create_in_a_course_1ed4eed4":"Hvilke opgavetyper kan jeg oprette i et fag?","what_layout_options_are_available_in_the_course_ho_5d364ce3":"Hvilke layoutindstillinger er tilgængelige på fagets startside for instruktører?","what_options_can_i_set_in_a_quiz_53522d76":"Hvilke indstillinger kan jeg indstille i en quiz?","what_s_a_class_without_people_to_take_and_lead_it__4470b81a":"Hvad er en klasse uden nogen til at lede den? Siden Deltagere\n      viser listen over brugere i dit fag. Afhængig af dine tilladelser\n      kan du muligvis tilføje elever, lærerassistenter og observatører til\n      dit fag. Du kan også oprette elevgrupper til at indeholde gruppeopgaver,\n      diskussioner og filer.","what_storage_options_do_i_have_in_zoom_b79c738e":"Hvilke lagermuligheder har jeg i Zoom?","work_and_create_together_c65f358b":"Arbejd sammen om at skabe","zoom_is_a_real_time_video_conferencing_tool_that_b_97dd23ec":"Zoom er et videokonferenceværktøj i realtid, som bringer\n    lærere og elever sammen. Du kan planlægge og holde\n    videomøder direkte i Canvas ved at tilføje et Zoom-link\n    i et Canvas-fag, en fagbesked, et forløb eller via kalenderen."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "new_user_tutorials",
+  function() { return {"announcements_tutorial_tray_994287d6":"Beskeder selvstudiumområde","assignments_tutorial_tray_4cc844b":"Opgaver selvstudiumområde","collaborations_tutorial_tray_9219d9d":"Selvstudiumområde for samarbejder","conferences_tutorial_tray_6f071ce2":"Selvstudiumområde for konferencer","discussions_tutorial_tray_4ef79bcc":"Selvstudiumområde for diskussioner","files_tutorial_tray_3ad1eea6":"Filer selvstudiumområde","gradebook_tutorial_tray_d835c750":"Vurderingsoversigt selvstudiumområde","home_tutorial_tray_66826983":"Hjem selvstudiumområde","import_tutorial_tray_8b92e956":"Importer selvstudiumområde","modules_tutorial_tray_d58ac3cb":"Forløb selvstudiumområde","new_analytics_tutorial_tray_2511a34a":"Selvstudiumområde for New Analytics","outcomes_tutorial_tray_ebfce995":"Selvstudiumområde for læringsudbytter","pages_tutorial_tray_169464a9":"Sider selvstudiumområde","people_tutorial_tray_a87a6c48":"Deltagere selvstudiumområde","quizzes_tutorial_tray_6f87cdd3":"Selvstudiumområde til quizzer","rubrics_tutorial_tray_be65d10d":"Selvstudiumområde for vurderingskriterier","settings_tutorial_tray_6f37761b":"Indstillinger selvstudiumområde","syllabus_tutorial_tray_97e8ef82":"Selvstudiumområde for fagplan","zoom_tutorial_tray_5dcb7fc":"Selvstudiumområde for Zoom"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "not_found_index",
+  function() { return {"we_couldn_t_find_that_page_34068c1d":"Vi kunne ikke finde siden!","whoops_looks_like_nothing_is_here_f5c7dd44":"Ups ... Det ser ud til, at der ikke er noget her!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "not_found_page_space_invaders",
+  function() { return {"game_over_104baa":"GAME OVER","press_space_to_start_over_d4b8a2da":"Tryk på 'mellemrumstasten' for at starte forfra"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "OutcomeAlignmentDeleteLink",
+  function() { return {"can_t_delete_alignments_based_on_rubric_associatio_1a10fcce":"\n\n                    Det er ikke muligt at slette opgaver på basis af vurderingskriterietilknytninger.\n\n                    Du skal slette rækken fra aktivets vurderingskriterie for at slette disse tilknytninger.\"\n\n                    ","delete_alignment_f33c97d5":"Slet tilpasning"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "FindOutcomesModal",
+  function() { return {"add_outcomes_to_account_4647776f":"Føj læringsudbytter til konto","add_outcomes_to_course_88ba09be":"Føj læringsudbytter til fag","add_outcomes_to_groupname_8c33d118":"Tilføj læringsudbytter til \"%{groupName}\"","all_outcomes_from_grouptitle_have_been_successfull_38e3c33c":"Alle læringsudbytter fra %{groupTitle} er blevet tilføjet til dette fag.","all_outcomes_from_grouptitle_have_been_successfull_6267efe4":"Alle læringsudbytter fra %{groupTitle} er blevet tilføjet til %{targetGroupTitle}.","all_outcomes_from_grouptitle_have_been_successfull_cb6ad008":"Alle læringsudbytter fra %{groupTitle} er blevet tilføjet til denne konto.","an_error_occurred_while_creating_this_group_please_ec96f426":"Der opstod en fejl under oprettelse af denne gruppe. Prøv igen.","an_error_occurred_while_editing_this_group_please__8f4eeefe":"Der opstod en fejl under redigering af denne gruppe. Prøv igen.","an_error_occurred_while_importing_these_outcomes_d4e6f13e":"Der opstod en fejl under import af disse læringsudbytter.","an_error_occurred_while_importing_these_outcomes_m_6a8052d1":"Der opstod en fejl under import af disse læringsudbytter: %{message}.","an_error_occurred_while_importing_this_outcome_2ce488af":"Der opstod en fejl under import af dette læringsudbytte.","an_error_occurred_while_importing_this_outcome_mes_25106dea":"Der opstod en fejl under import af dette læringsudbytte: %{message}.","group_description_f142b1e5":"Gruppebeskrivelse","group_groupname_entered_2a0624a0":"Gruppe \"%{groupName}\" indtastet.","groupname_was_successfully_created_970dcc7d":"\"%{groupName}\" blev oprettet.","grouptitle_was_successfully_updated_658f725e":"\"%{groupTitle}\" blev opdateret.","loading_learning_outcome_groups_599d259c":"Indlæser læringsudbytte-grupper","pro_tip_30e41fa3":"PRO TIP!","save_yourself_a_lot_of_time_by_only_adding_the_out_33293248":"Spar masser af tid ved kun at tilføje de læringsudbytter, der er specifikke for dit fagindhold.","select_a_group_to_reveal_outcomes_here_91883028":"Vælg en gruppe for at afsløre læringsudbytter her.","select_an_outcome_group_6edb08a7":"Vælg en læringsudbytte-gruppe","use_arrow_keys_to_navigate_options_d45347e8":"Brug piletasterne til at navigere indstillinger"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "view_count_outcomes_9609792",
+  null,
+  function() { return {"one":"Vis 1 læringsudbytte","other":"Vis %{count} læringsudbytter"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "ImportConfirmBox",
+  function() { return {"import_anyway_8c996ef6":"Importer alligevel","to_make_outcome_alignment_easier_only_add_outcomes_aecf5e0e":"For at gøre justering af læringsudbytter lettere skal du kun tilføje læringsudbytter, der er relevante for dette fag."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "you_are_about_to_add_count_outcomes_to_this_course_de7e2b1d",
+  null,
+  function() { return {"one":"Du er ved at tilføje 1 læringsudbytte til dette fag.","other":"Du er ved at tilføje %{count} læringsudbytter til dette fag."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "MoveOutcomesModal",
+  function() { return {"an_error_occurred_while_moving_this_group_please_t_4f3baa9f":"Der opstod en fejl under flytning af denne gruppe. Prøv igen.","grouptitle_was_moved_to_newgrouptitle_efabcda2":"\"%{groupTitle}\" blev flyttet til \"%{newGroupTitle}\".","move_grouptitle_20927676":"Flyt \"%{groupTitle}\"","where_would_you_like_to_move_this_group_e4ddd778":"Hvor kunne du tænke dig at flytte denne gruppe hen?"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_outcomes_have_been_moved_to_newgrouptitle_3018f532",
+  null,
+  function() { return {"one":"\"%{outcomeTitle}\" er flyttet til \"%{newGroupTitle}\".","other":"%{count} læringsudbytter er flyttet til \"%{newGroupTitle}\"."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "an_error_occurred_while_moving_these_outcomes_plea_208f372",
+  null,
+  function() { return {"one":"Der opstod en fejl under flytning af dette læringsudbytte. Prøv igen.","other":"Der opstod en fejl under flytning af disse læringsudbytter. Prøv igen."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "move_count_outcomes_c0ca2b30",
+  null,
+  function() { return {"one":"Flyt \"%{outcomeTitle}\"?","other":"Flyt %{count} læringsudbytter?"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "where_would_you_like_to_move_these_outcomes_6f9a8cf9",
+  null,
+  function() { return {"one":"Hvor kunne du tænke dig at flytte dette læringsudbytte hen?","other":"Hvor kunne du tænke dig at flytte disse læringsudbytter hen?"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "MasteryScale",
+  function() { return {"an_error_occurred_updating_the_calculation_method_49384084":"Der opstod en fejl under opdatering af beregningsmetoden.","an_error_occurred_updating_the_mastery_scale_fc11e6e1":"Der opstod en fejl ved forsøg på at opdatere skalaen for opfyldelse af læringsmål","an_error_occurred_updating_the_mastery_scale_messa_d9910855":"Der opstod en fejl ved forsøg på at opdatere skalaen for opfyldelse af læringsmål: %{message}","an_error_occurred_while_loading_the_mastery_calcul_f8e3d884":"Der opstod en fejl under indlæsning af beregning af opfyldelse af læringsmål: %{error}","an_error_occurred_while_loading_the_mastery_scale__871f3531":"Der opstod en fejl ved forsøg på at indlæse skalaen for opfyldelse af læringsmål: %{error}","confirm_mastery_calculation_19ad19f9":"Bekræft beregning af opfyldelse af læringsmål","final_score_53278fd0":"Endeligt resultat:","http_response_code_832d6baa":"HTTP-svar: %{code}","item_scores_9fbfe956":"Element får:","mastery_calculation_5fd5f5fe":"Beregning af opfyldelse af læringsmål","mastery_calculation_parameters_f072c3":"Parametre til beregning af opfyldelse af læringsmål","mastery_calculation_saved_df378fdd":"Beregning for opfyldelse af læringsmål gemt","must_be_between_lower_and_upper_1f501b2a":"Skal være imellem %{lower} og %{upper}","parameter_91ed199":"Parameter","permission_to_change_this_mastery_calculation_at_t_9b1966c5":"Tilladelse til at ændre denne beregning af opfyldelse af læringsmål på fagniveau er aktiveret for:","permission_to_change_this_mastery_calculation_at_t_f292da7a":"Tilladelse til at ændre denne beregning af opfyldelse af læringsmål på kontoniveau er aktiveret for:","permission_to_change_this_mastery_scale_at_the_acc_ea75238f":"Tilladelse til at ændre denne skala for opfyldelse af læringsmål på kontoniveau er aktiveret for:","permission_to_change_this_mastery_scale_at_the_cou_58677e7f":"Tilladelse til at ændre denne skala for opfyldelse af læringsmål på fagniveau er aktiveret for:","proficiency_calculation_57f0bdf":"Beregning af færdigheder","proficiency_calculation_daa4fd57":"Beregning af færdigheder:","save_mastery_calculation_84fbeb0f":"Gem beregning af opfyldelse af læringsmål","see_example_below_to_see_how_different_calculation_618de98d":"Se eksemplet nedenfor for at se, hvordan forskellige beregningsparametre påvirker de elevernes beregning af opfyldelse af læringsmål.","this_mastery_scale_will_be_used_as_the_default_for_f784ee7d":"Denne skala for opfyldelse af læringsmål vil blive brugt som standard for alle fag på din konto.","this_will_update_all_student_mastery_results_tied__a52301e5":"Dette opdaterer alle elevernes resultater for opfyldelse af læringsmål, der er knyttet til beregningen på kontoniveau.","this_will_update_all_student_mastery_results_withi_934580d1":"Dette opdaterer alle elevernes resultater for opfyldelse af læringsmål inden for dette fag."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "ProficiencyRating",
+  function() { return {"change_color_for_mastery_level_position_daa51849":"Ændr farve for niveau for opfyldelse af læringsmål %{position}","change_description_34c49853":"Ændr beskrivelse","change_description_for_mastery_level_position_c3c41be9":"Ændr beskrivelse for niveau for opfyldelse af læringsmål %{position}","change_mastery_f4d43c07":"Ændr opfyldelse af læringsmål","change_points_9e5104ac":"Ændr point","change_points_for_mastery_level_position_90c1d7e6":"Ændr point for niveau for opfyldelse af læringsmål %{position}","color_color_for_mastery_level_position_35079de":"Farve %{color} for niveau for opfyldelse af læringsmål %{position}","delete_mastery_level_position_5cf0f8f7":"Slet niveau for opfyldelse af læringsmål %{position}","delete_proficiency_rating_5436ee08":"Slet færdighedsbedømmelse","mastery_mastery_for_mastery_level_position_5c9c3206":"Opfyldelse af læringsmål %{mastery} på niveau %{position}","remove_mastery_level_b1e8dcb0":"Fjern niveau for opfyldelse af læringsmål","this_will_remove_the_mastery_level_from_your_maste_1f4130ea":"Dette fjerner niveauet for opfyldelse af læringsmål fra din skala."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "ProficiencyTable",
+  function() { return {"account_proficiency_ratings_saved_292d9239":"Konto færdighedsbedømmelser gemt","add_proficiency_rating_d819f6b8":"Tilføj færdighedsbedømmelse","added_mastery_level_dd4792d1":"Niveau for opfyldelse af læringsmål tilføjet","added_new_proficiency_rating_e30cab8a":"Tilføjet ny færdighedsbedømmelse","an_error_occurred_while_loading_account_proficienc_c7d6568b":"Der opstod en fejl under indlæsning af kontoens færdighedsbedømmelser: %{m}","an_error_occurred_while_loading_account_proficienc_d38554c8":"Der opstod en fejl under indlæsning af kontoens færdighedsbedømmelser","an_error_occurred_while_saving_account_proficiency_43e7fb6a":"Der opstod en fejl ved lagring af kontoens færdighedsbedømmelser","an_error_occurred_while_saving_the_mastery_scale_m_30c15545":"Der opstod en fejl ved forsøg på at gemme skalaen for opfyldelse af læringsmål: %{message}","confirm_mastery_scale_9a779252":"Bekræft skala for opfyldelse af læringsmål","customize_learning_mastery_ratings_4ace142a":"Tilpas bedømmelse af opfyldelse af læringsmål","get_started_b9507525":"Sådan kommer du i gang","mastery_level_deleted_88838a33":"Niveau for opfyldelse af læringsmål slettet","mastery_levels_7d4ee512":"Niveauer for opfyldelse af læringsmål","mastery_scale_saved_34c64b6b":"Skala for opfyldelse af læringsmål gemt","points_must_be_less_than_previous_rating_bc627bec":"Point skal være mindre end tidligere bedømmelse","proficiency_rating_deleted_77827473":"Færdighedsvurdering slettet","proficiency_ratings_2bbabdcd":"Færdighedsbedømmelser","save_learning_mastery_82889d8b":"Gem opfyldelse af læringsmål","save_mastery_scale_2b4dc13a":"Gem skala for opfyldelse af læringsmål","set_up_how_your_proficiency_ratings_appear_inside__8139bb81":"\n            Konfigurer, hvordan dine færdighedsbedømmelser vises inden for vurderingsoversigten for opfyldelse af læringsmål.\n            Juster antallet af bedømmelser, opfyldelsesniveau, point og farver.\n          ","this_will_update_all_account_and_course_level_rubr_3438121e":"Dette vil opdatere alle vurderingskriterier på konto- og fagniveau, der er knyttet til niveauet for opfyldelse af læringsmål på kontoniveau og som endnu ikke er blevet vurderet.","this_will_update_all_rubrics_aligned_to_outcomes_w_59d8d04b":"Dette vil opdatere alle vurderingskriterier, som er tilpasset til læringsudbytter i dette fag, der endnu ikke er vurderet"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "modelsPageView",
+  null,
+  function() { return {"browsers":{"unrecognized":"Ukendt browser"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "PageViews",
+  function() { return {"download_page_views_csv_974f36e1":"Download sidevisninger CSV","filter_by_date_c076a845":"Filtrer efter dato"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "page_views",
+  null,
+  function() { return {"table":{"headers":{"date":"Dato","participated":"Deltaget","time":"Tidspunkt","url":"URL","user_agent":"Brugeragent"}}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "past_global_announcements",
+  function() { return {"active_announcements_6b67f33b":"Aktive beskeder","announcements_from_the_past_four_months_cefbc99c":"Beskeder fra de seneste fire måneder","no_announcements_to_display_fbf9ed1e":"Ingen beskeder at vise","recent_f19e8c64":"Nylige","you_can_view_dismissed_announcements_by_going_to_a_7f6f4f08":"Du kan se afviste beskeder ved at gå til Konto og vælge Globale\n            beskeder fra menuen."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions",
+  function() { return {"count_rows_added_dacc9daf":"%{count} rækker tilføjet","count_rows_removed_c6ff7bc":"%{count} rækker fjernet","delete_role_label_succeeded_1690aa28":"Rollen %{label} blev slettet","expand_permission_b45bf097":"Udvid %{permission}","failed_to_create_new_role_e336e461":"Kunne ikke oprette en ny rolle","failed_to_delete_role_label_27959de3":"Kunne ikke slette rolle %{label}","failed_to_update_permission_33c493f":"Kunne ikke opdatere tilladelse","failed_to_update_role_name_8c7b0119":"Kunne ikke opdatere rollenavnet","shrink_permission_74b01aed":"Formindsk %{permission}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_permissions_found_1a926f7d",
+  null,
+  function() { return {"one":"En tilladelse fundet","other":"%{count} tilladelser fundet"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_v2_add_tray",
+  function() { return {"a_role_name_is_required_47efd33":"En rolle er påkrævet","cannot_add_role_name_name_already_in_use_a523639c":"Kan ikke tilføje rollenavn %{name}: allerede i brug","new_account_role_6e5c4964":"Ny kontorolle","new_course_role_6a7bb75f":"Ny fag-rolle","saving_new_role_458f4ba8":"Gemmer ny rolle"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permission_button",
+  function() { return {"disabled_and_locked_d14dc6c2":"Deaktiveret og låst","enabled_and_locked_49ff3de4":"Aktiveret og låst","partially_enabled_and_locked_9a39d38a":"Delvist aktiveret og låst","partially_enabled_cd506819":"Delvist aktiveret"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_v2",
+  function() { return {"account_roles_10fea071":"Kontoroller","add_role_3dc4d273":"Tilføj rolle","course_roles_d2d5d666":"Fagets roller","filter_roles_type_or_use_arrow_keys_to_navigate_mu_13c9ffe5":"Filtrer roller. Indtast eller brug piletasterne til at navigere. Flere valg er tilladt.","search_permissions_915bbd09":"Søg tilladelser","value_added_1846cc30":"%{value} Tilføjet","value_removed_bba9430c":"%{value} Fjernet"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_role_tray",
+  function() { return {"assigned_permissions_6f6fecb6":"Tildelte tilladelser","assigned_roles_ace6c950":"Tildelte roller","based_on_basedon_d6e4f4d7":"Baseret på: %{basedOn}","cannot_change_role_name_to_label_already_in_use_c8126e4e":"Kan ikke ændre navn til %{label}: allerede i brug","click_ok_to_continue_deleting_this_role_baa9d9e2":"Klik på \"ok\" for at fortsætte med at slette denne rolle.","edit_label_769ed6c5":"Rediger %{label}","last_changed_b544504d":"Sidst ændret:","no_explainer_text_available_9d9a2f3c":"Ingen forklarende tekst tilgængelig","unassigned_permissions_6a38ca95":"Ikke-tildelte tilladelser","unassigned_roles_cb9e95ec":"Ikke-tildelte roller","warning_all_permissions_will_change_to_match_the_s_e3c9819f":"Advarsel: Alle tilladelser ændres for at matche den valgte basisrolle.","warning_if_there_are_any_users_with_this_role_they_1a7c1fef":"Advarsel: Hvis der findes brugere med denne rolle, beholder de deres aktuelle tilladelser, men du vil ikke være i stand til at oprette nye brugere med denne rolle."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_role_tray_table_row",
+  function() { return {"expand_permission_c61d5958":"Udvid tilladelse"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_detail_sections",
+  function() { return {"additional_considerations_f3801683":"Yderligere overvejelser","what_it_does_74ec1339":"Hvad det gør"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_1",
+  function() { return {"allows_user_to_edit_a_user_s_section_or_role_if_no_cf272262":"Gør det muligt for en bruger at redigere en brugers sektion eller rolle (hvis ikke tilføjet via SIS).","allows_user_to_view_login_id_information_for_users_895256fb":"Gør det muligt for en bruger at få vist oplysninger om login-id for brugere.","allows_user_to_view_user_details_for_course_users_ec1b6218":"Gør det muligt for en bruger at få vist oplysninger for fagbrugere.","observers_course_83850091":"Observatører (fag)","to_edit_a_user_s_section_conversations_send_to_ind_a54de83d":"For at redigere en brugers sektion skal Diskussioner - send til enkelte af fagets deltagere være aktiveret.","to_generate_a_pairing_code_on_behalf_of_a_student__3caa504b":"For at generere en parringskode på vegne af en elev, der skal deles med en observatør, skal Brugere - generer observatørparringskode for elever også være aktiveret.","to_link_an_observer_to_a_student_conversations_sen_37aad7b5":"For at forbinde en observatør til en elev skal Diskussioner - send til individuelle fagmedlemmer være aktiveret.","to_link_an_observer_to_a_student_users_manage_logi_cc370c29":"For at knytte en observatør til en elev skal Brugere - administrér loginoplysninger og Samtaler - send beskeder til enkelte af fagets deltagere være aktiveret.","to_view_the_people_page_courses_view_list_must_be__c1d54670":"For at få vist siden Deltagere skal Fag - vis liste være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_2",
+  function() { return {"allows_user_to_access_the_act_as_user_link_on_stud_c7391722":"Gør det muligt for en bruger at få adgang til linket Funger som bruger på elevers kontekstkort","allows_user_to_act_as_other_users_in_the_account_195628ae":"Gør det muligt for en bruger at optræde som andre brugere på kontoen.","allows_user_to_delete_a_submission_file_65f1dd7d":"Gør det muligt for brugeren at slette en afleveret fil.","allows_user_to_view_login_ids_in_a_course_people_p_b2cfd83e":"Gør det muligt for en bruger at få vist SIS-ID’er på siden Deltagere i et fag.","api_7bd66e19":"API","the_roles_api_refers_to_this_permission_as_become__bededd25":"Rollernes API henviser til denne tilladelse som become_user.","this_permission_should_only_be_assigned_to_users_t_231c182e":"Denne tilladelse bør kun tildeles brugere, som din institution har godkendt til at fungere som andre brugere på hele din Canvas-konto.","to_view_the_list_of_users_in_an_account_users_view_9db2061":"For at få vist listen over brugere på en konto skal Brugere - vis liste være aktiveret.","users_with_this_permission_may_be_able_to_use_the__84394072":"Brugere med denne tilladelse kan bruge funktionen Funger som til at administrere kontoindstillinger, se og justere vurderinger, få adgang til brugeroplysninger osv. Denne tilladelse tillader også, at administratorer, som er udpeget til en underkonto, tager adgang til indstillinger og information uden for deres underkonto."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_3",
+  function() { return {"allows_user_to_create_collaborations_b4f214bf":"Gør det muligt for en bruger at oprette samarbejder.","allows_user_to_view_edit_and_delete_collaborations_f2281cb0":"Gør det muligt for en bruger at få vist, redigere og slette samarbejder, som brugeren selv har oprettet.","allows_user_to_view_edit_and_delete_conferences_th_7c93c8e1":"Gør det muligt for en bruger at få vist, redigere og slette konferencer, som brugeren selv har oprettet.","if_course_content_add_edit_delete_is_enabled_and_s_e85a8208":"Hvis Fagindhold - tilføj / rediger / slet er aktiveret og Elevernes samarbejder - opret er deaktiveret, kan brugeren ikke oprette nye samarbejder, men vil være i stand til at se, redigere og slette alle samarbejder.","if_course_content_add_edit_delete_is_enabled_and_s_ef307329":"Hvis Fagindhold - tilføj / rediger / slet er aktiveret, og Elevernes samarbejder - opret er deaktiveret, kan brugeren ikke oprette nye samarbejder, men vil være i stand til at se, redigere og slette alle samarbejder.","to_add_a_course_group_to_a_collaboration_groups_ad_c26d8db0":"For at tilføje en faggruppe til et samarbejde skal Grupper - tilføj også være aktiveret.","to_add_students_to_a_collaboration_users_view_list_806a5935":"For at føje elever til et samarbejde skal Brugere - vis liste også være aktiveret.","to_allow_view_edit_and_delete_functionality_of_col_f948198e":"For at gøre det muligt at få vist, redigere og slette funktionalitet i samarbejder, der er oprettet af andre brugere, skal Fagindhold - tilføj/redigér/slet også være aktiveret.","to_allow_view_edit_delete_functionality_of_collabo_f46fade2":"For at gøre det muligt at få vist/redigere/slette funktionalitet i samarbejder, der er oprettet af andre brugere, skal Fagindhold - tilføj/rediger/slet også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_4",
+  function() { return {"allows_user_to_create_new_conferences_in_courses_a_80899f64":"Gør det muligt for en bruger at oprette nye konferencer i fag og grupper.","allows_user_to_start_conferences_they_created_281b03ea":"Gør det muligt for en bruger at starte konferencer, som brugeren selv har oprettet.","if_the_course_content_permission_enabled_and_web_c_85f91e32":"Hvis tilladelse til fagindhold er aktiveret og Webkonferencer - opret er deaktiveret, kan brugeren stadig administrere konferencer.","to_allow_full_management_of_conferences_created_by_bc7910e6":"For at tillade fuld styring af konferencer, der er oprettet af brugeren eller andre, skal tilladelsen til Fagindhold også være aktiveret.","to_end_a_long_running_conference_the_course_conten_63e3f993":"For at afslutte en langvarig konference skal tilladelsen Fagindhold være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_5",
+  function() { return {"both_discussions_create_and_discussions_moderate_a_482e4c7e":"Både Diskussioner - oprettelse og Diskussioner - bedøm giver brugeren mulighed for at oprette en diskussion på diskussionssiden.","to_create_announcements_discussions_moderate_must__8a8278f2":"For at oprette beskeder skal Diskussioner - bedøm også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_6",
+  function() { return {"allows_user_to_generate_a_pairing_code_on_behalf_o_9ea9bb0a":"Gør det muligt for en bruger at generere en parringskode på en elevs vegne for at dele med en observatør.","pairing_codes_are_only_supported_when_self_registr_1c8201cf":"Parringskoder understøttes kun, når selvregistrering er aktiveret for faget.","pairing_codes_are_only_supported_when_self_registr_af82b9bc":"Parringskoder understøttes kun, når selvregistrering er aktiveret for kontoen.","qr_codes_are_not_the_same_as_pairing_codes_and_are_19f506d4":"QR-koder er ikke det samme som parringskoder og bruges kun til at hjælpe brugerne med at logge ind på deres egne konti via Canvas-mobilapps.","qr_codes_are_not_the_same_as_pairing_codes_and_are_e9a16676":"QR-koder er ikke det samme som parringskoder og bruges kun til at hjælpe brugerne med at logge ind på deres egne konti via Canvas-mobilapps. For at deaktivere logins med QR-kode for alle brugere på din konto, bedes du kontakte din Customer Success Manager.","to_generate_a_pairing_code_from_a_student_s_user_d_b3256aa0":"For at generere en parringskode fra en elevs side med brugeroplysninger skal tilladelsen Brugere - tillad administrative handlinger i fag også være aktiveret.","to_generate_a_pairing_code_from_a_student_s_user_s_5dcba185":"For at generere en parringskode fra en elevs side med brugerindstillinger skal tilladelsen Bruger - funger som også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_8",
+  function() { return {"add_delete_edit_7dbc9c5b":"tilføj / slet / rediger","add_delete_manage_d65e235":"tilføj / slet / administrer","add_manage_conclude_delete_publish_reset_8a5aa902":"tilføj / administrer / afslut / slet / offentliggør / nulstil","add_remove_in_courses_d65aaee3":"tilføj / fjern i fag","conclude_delete_publish_reset_35b64f0f":"afslut / slet / offentliggør / nulstil","create_delete_edit_157bb1a3":"Opret / slet / rediger","create_delete_update_4ff115bf":"Opret / slet / opdater"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_9",
+  function() { return {"allows_user_to_import_account_learning_outcomes_f6f6d0b9":"Gør det muligt for en bruger at importere kontolæringsudbytter.","allows_user_to_import_course_learning_outcomes_2ca3f18f":"Gør det muligt for en bruger at importere faglæringsudbytter."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_10",
+  function() { return {"allows_user_to_import_sis_data_583b20a5":"Gør det muligt for en bruger at importere SIS-data.","determines_visibility_and_management_of_sis_import_bf386823":"Bestemmer synlighed og administration af SIS-import-linket i kontonavigation.","not_available_at_the_subaccount_level_6ee9b41f":"Ikke tilgængelig på underkontoniveauet","to_manage_sis_data_sis_data_manage_must_also_be_en_748806e8":"For at administrere SIS-data skal SIS-data - administrer også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_11",
+  function() { return {"additionally_if_this_permission_is_disabled_users__6acf5d08":"Derudover, hvis denne tilladelse er deaktiveret, kan brugere ikke slette tilføjede eksterne apps manuelt.","allows_user_to_manually_add_and_delete_an_app_in_a_402d3d91":"Gør det muligt for brugeren manuelt at tilføje og slette en app i Kontoindstillinger.","allows_user_to_manually_add_and_delete_an_app_in_c_18250cad":"Gør det muligt for en bruger at tilføje og slette en app manuelt i Fagindstillinger.","external_apps_account_course_settings_78de2b2f":"Eksterne apps (konto, fagindstillinger)","external_apps_course_settings_1f045644":"Eksterne apps (fagindstillinger)","if_this_permission_is_disabled_users_can_still_ins_e9c4269f":"Hvis denne tilladelse er deaktiveret, kan brugere stadig installere godkendte apps via Canvas App Center (hvis den er aktivere for din institution)."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_12",
+  function() { return {"allows_user_to_view_all_item_banks_in_a_course_3b603780":"Gør det muligt for en bruger at få vist alle elementer-banker i et fag.","allows_user_to_view_all_item_banks_in_the_account_36f5f214":"Gør det muligt for en bruger af få vist og administrere alle element-banker på kontoen.","if_this_permission_is_not_enabled_users_can_view_i_3d9f22da":"Hvis denne tilladelse ikke er aktiveret, kan brugerne se element-banker oprettet af dem selv, delt med dem af en anden bruger eller delt indirekte via det fag, hvor de er tilmeldt med en instruktørrolle.","item_banks_1db48044":"Element-banker"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_13",
+  function() { return {"allows_user_to_access_and_edit_the_admin_settings__e45da9d7":"Gør det muligt for en bruger at få adgang til og redigere admin-indstillinger i Commons.","allows_user_to_add_and_remove_other_account_admins_7834ea9a":"Gør det muligt for en bruger at tilføje og fjerne andre kontoadmins.","allows_user_to_create_and_manage_groups_allows_use_562e0013":"Gør det muligt for en bruger at oprette og administrere grupper. Gør det muligt for en bruger at administrere delte ressourcer på kontoen.","allows_user_to_manage_shared_resources_in_the_acco_edcd69a6":"Gør det muligt for en bruger at administrere delte ressourcer på kontoen."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_14",
+  function() { return {"allows_user_to_access_the_theme_editor_26691f9a":"Gør det muligt for en bruger at få adgang til Theme Editor.","allows_user_to_view_and_manage_authentication_opti_e1bb0ad3":"Gør det muligt for en bruger at få vist og administrere godkendelsesindstillinger for hele kontoen.","allows_user_to_view_and_manage_subaccounts_for_the_37d5120b":"Gør det muligt for en bruger at få vist og administrere underkonto for kontoen.","allows_user_to_view_and_manage_terms_for_the_accou_4547d971":"Gør det muligt for en bruger at få vist og administrere skoleår for kontoen.","allows_user_to_view_and_manage_the_settings_and_no_e223e6b8":"Gør det muligt for en bruger at få vist og administrere fanerne Indstillinger og Meddelelser i Kontoindstillinger.","authentication_1b518c38":"Godkendelse","not_all_settings_options_are_available_at_the_suba_20efaa98":"Ikke alle valgmuligheder for indstillinger er tilgængelige på underkontoniveauet, herunder fanen Meddelelser.","reports_account_settings_78f5336a":"Rapporter (kontoindstillinger)","subaccount_navigation_account_settings_add9eff9":"Underkonto-navigation (Kontoindstillinger)","terms_4d979628":"Skoleår","the_announcements_tab_is_always_visible_to_admins__58df854d":"Fanen Beskeder er altid synlig for admins. For at administrere beskeder skal Globale beskeder - tilføj/rediger/slet dog også være aktiveret.","to_manage_the_feature_options_tab_feature_options__fc32fca3":"For at administrere fanen Funktionsindstillinger skal Funktionsindstillinger - aktiver deaktiver - også være aktiveret.","to_view_the_reports_tab_courses_view_usage_reports_d371ec85":"For at få vist fanen Rapporter skal Fag - vis brugsrapporter også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_15",
+  function() { return {"allows_user_to_add_edit_and_delete_global_announce_8463e383":"Gør det muligt for en bruger at tilføje, redigere og slette globale beskeder.","announcements_account_4e9df626":"Beskeder (konto)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_17",
+  function() { return {"allows_user_to_add_assignments_in_a_course_4513bd22":"Lader brugeren tilføje opgaver i et fag.","allows_user_to_add_new_question_banks_to_a_course__9731f87d":"Lader brugeren tilføje nye spørgsmålsbanker til et fag eller en konto.","allows_user_to_add_new_question_banks_to_a_course_a18a410a":"Lader brugeren tilføje nye spørgsmålsbanker til et fag.","allows_user_to_add_new_questions_to_new_or_existin_995b8fee":"Lader brugeren tilføje nye spørgsmål til nye eller eksisterende spørgsmålsbanker i et fag eller en konto.","allows_user_to_add_new_questions_to_new_or_existin_fde9db3b":"Lader brugeren tilføje nye spørgsmål til nye eller eksisterende spørgsmålsbanker i et fag.","allows_user_to_add_quizzes_in_a_course_80916c02":"Lader brugeren tilføje quizzer i et fag.","allows_user_to_delete_assignment_groups_in_a_cours_88c89c76":"Lader brugeren slette opgavegrupper i et fag.","allows_user_to_delete_assignments_in_a_course_b0f220c4":"Lader brugeren slette opgaver i et fag.","allows_user_to_delete_question_banks_in_a_course_o_d9cd0b2f":"Lader brugeren slette spørgsmålsbanker i et fag eller en konto.","allows_user_to_delete_quizzes_in_a_course_acdbdfba":"Lader brugeren slette quizzer i et fag.","allows_user_to_duplicate_assignments_in_a_course_a3bf4f54":"Lader brugeren duplikere opgaver i et fag.","allows_user_to_duplicate_quizzes_in_a_course_1d3437f2":"Lader brugeren duplikere quizzer i et fag.","allows_user_to_edit_and_publish_unpublish_assignme_54d13630":"Lader brugeren redigere og offentliggøre/fjerne offentliggørelse for opgaver.","allows_user_to_edit_and_publish_unpublish_quizzes_bdc5b306":"Lader brugeren redigere og offentliggøre/fjerne offentliggørelse for quizzer.","allows_user_to_edit_lock_settings_on_the_assignmen_4c347262":"Lader brugeren redigere låseindstillinger på indekssiderne Opgaver og Quizzer.","allows_user_to_edit_question_banks_in_a_course_or__f72a39cf":"Lader brugeren redigere spørgsmålsbanker i et fag eller en konto.","allows_user_to_share_an_assignment_to_commons_5b0fd98b":"Lader brugeren dele en opgave på Commons.","allows_user_to_weight_assignment_groups_95cb11b2":"Lader brugeren vægte opgavegrupper.","assignments_and_quizzes_add_b1473591":"Opgaver og Quizzer - tilføj","assignments_and_quizzes_delete_84ecc680":"Opgaver og Quizzer - slet","assignments_and_quizzes_edit_1c23f658":"Opgaver og Quizzer - rediger","disabling_the_assignments_and_quizzes_add_permissi_e06f1379":"Deaktivering af tilladelsen Opgaver og Quizzer- tilføj tilsidesætter tilladelsen (hvis aktiveret) Vurderingskriterier - tilføj / rediger / slet, hvilket forhindrer brugeren i at oprette vurderingskriterier for en individuel opgave.","disabling_the_assignments_and_quizzes_delete_permi_ad890eb3":"Deaktivering af tilladelsen Opgaver og Quizzer - slet tilsidesætter tilladelsen (hvis aktiveret) Vurderingskriterier - tilføj / rediger / slet, hvilket forhindrer brugeren i at slette vurderingskriterier for en individuel opgave.","disabling_the_assignments_and_quizzes_edit_permiss_529f9360":"Deaktivering af tilladelsen Opgaver og Quizzer - rediger tilsidesætter tilladelsen (hvis aktiveret) Vurderingskriterier - tilføj / rediger / slet, hvilket forhindrer brugere i at redigere vurderingskriterier fra en individuel opgave.","if_blueprint_courses_add_edit_associate_delete_and_9ebd192d":"Hvis Blueprint-fag - tilføj / rediger / tilknyt / slet og Fag - administrer er aktiveret, men Opgaver og Quizzer - rediger ikke er aktiveret, kan indstillinger for blueprint-lås for en opgave administreres fra opgavens detaljeside.","these_permissions_do_not_manage_discussions_discus_79defb66":"Disse tilladelser administrerer ikke diskussioner. Diskussioner administreres via individuelle diskussionstilladelser.","to_access_item_banks_for_a_course_item_banks_manag_a60a144f":"For at få adgang til elementbanker til et fag skal Elementbanker - administrer konto også være aktiveret.","to_access_item_banks_for_a_course_or_account_item__f1f7b0af":"For at få adgang til elementbanker for et fag eller en konto, skal Elementbanker - administrer konto også være aktiveret.","to_access_the_quizzes_index_page_course_content_vi_d9607c01":"For at få adgang til indekssiden Quizzer skal Fagindhold - vis være aktiveret.","to_differentiate_assignments_to_individual_student_69373d88":"For at differentiere opgaver for enkelte elever skal Brugere - vis liste også være aktiveret.","to_edit_quizzes_assignments_and_quizzes_manage_edi_d57651dd":"For at redigere quizzer, skal Opgaver og Quizzer - administrer / rediger også være aktiveret.","to_manage_moderated_grading_grades_select_final_gr_d701c298":"For at administrere samlet vurdering skal Vurderinger - vælg endelig vurdering til bedømmelse også være aktiveret.","to_moderate_a_quiz_grades_edit_must_also_be_enable_eae38da2":"For at bedømme en quiz skal Vurderinger - rediger også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_16",
+  function() { return {"allows_user_to_add_edit_delete_and_publish_and_unp_5b1059b":"Gør det muligt for en bruger at tilføje, redigere, slette og offentliggøre og fjerne offentliggørelse af opgaver.","allows_user_to_add_edit_delete_and_publish_and_unp_5f5b97aa":"Gør det muligt for en bruger at tilføje, redigere, slette og offentliggøre og fjerne offentliggørelse af quizzer.","allows_user_to_edit_blueprint_lock_settings_on_the_43278a22":"Gør det muligt for en bruger at redigere Blueprint-låseindstillinger på indekssiden Opgaver og Quizzer i et Blueprint-hovedfag.","allows_user_to_enable_and_edit_assignment_group_we_87c09b9f":"Gør det muligt for en bruger at aktivere og redigere vægtning af opgavegruppe i et fag.","disabling_this_permission_will_override_if_enabled_59c2b5c9":"Hvis denne tilladelse deaktiveres, tilsidesætter det (hvis den er aktiveret) tilladelsen Vurderingskriterie - tilføj/rediger/slet, hvilket forhindrer brugeren i at oprette eller redigere vurderingskriterier fra en enkelt opgave.","if_these_additional_permissions_are_enabled_but_as_d264879d":"Hvis disse yderligere tilladelser ikke er aktiveret, men Opgaver og Quizzer - tilføj / rediger / slet ikke er aktiveret, kan Blueprint-låseindstillinger for en opgave administreres fra opgavens oplysningsside.","question_banks_account_navigation_9a7ab7c2":"Spørgsmålsbanker (kontonavigation)","to_differentiate_assignments_to_individual_student_6cc40fde":"For at differentiere opgaver for enkelte elever skal Brugere - vis liste også være aktiveret.","to_moderate_a_quiz_grades_edit_must_also_be_enable_72ca6ca1":"For at bedømme en quiz skal ’Vurderinger - redigér’ også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_18",
+  function() { return {"allows_user_to_add_edit_and_delete_events_in_the_c_14413268":"Gør det muligt for en bruger at tilføje, redigere og slette begivenheder i fagets kalender.","allows_user_to_create_and_manage_appointments_on_t_393e9e84":"Gør det muligt for en bruger at oprette og administrere aftaler på kalenderen ved hjælp af Planlægningsværktøj.","regardless_of_whether_this_permission_is_enabled_o_a16e31b5":"Uanset om denne tilladelse er aktiveret eller deaktiveret, kan brugere stadig administrere begivenheder på deres personlige kalender.","scheduler_65b5ac91":"Planlægningsværktøj","scheduler_must_be_enabled_by_your_canvas_admin_7508c8c2":"Din Canvas-admin skal aktivere Planlægningsværktøj.","scheduler_must_be_enabled_for_your_account_e6e53972":"Planlægningsværktøjet skal være aktiveret for din konto."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_19",
+  function() { return {"allows_user_to_access_the_attendance_tool_72ef0b68":"Lader brugeren få adgang til værktøjet Deltagelse.","allows_user_to_access_the_chat_tool_48d5f5c4":"Lader brugeren få adgang til Chat-værktøjet.","allows_user_to_add_events_to_list_view_dashboard_v_1339e29e":"Lader brugeren tilføje begivenheder til Listevisning-oversigten via afkrydsningsfeltet Tilføj til elevens opgaveliste. ","allows_user_to_add_events_to_list_view_dashboard_v_2ad5de25":"Lader brugeren tilføje begivenheder til Listevisning-oversigten via afkrydsningsfeltet Tilføj til elevens opgaveliste.","allows_user_to_add_non_graded_discussions_to_list__65e44efe":"Lader brugeren tilføje diskussioner uden vurdering til Listevisnings-oversigten via afkrydsningsfeltet Tilføj til elevens opgaveliste.","allows_user_to_add_pages_to_list_view_dashboard_vi_a661a203":"Lader brugeren tilføje sider til Listevisnings-oversigten via afkrydsningsfeltet Tilføj til elevens opgaveliste.","allows_user_to_copy_individual_course_items_to_ano_46ba40d6":"Lader brugeren kopiere individuelle fagelementer til et andet fag.","allows_user_to_edit_conferences_61eb62e0":"Lader brugeren redigere konferencer.","allows_user_to_edit_the_course_syllabus_a28ff262":"Gør det muligt for en bruger at redigere fagets læseplan.","allows_user_to_edit_title_description_or_remove_co_483daae5":"Gør det muligt for en bruger at redigere titel, beskrivelse eller fjerne samarbejdspartnere i alle samarbejder.","allows_user_to_import_content_using_the_course_imp_4a4ec4c7":"Gør det muligt for en bruger at importere indhold ved hjælp af Importer fagindhold.","allows_user_to_import_resources_from_commons_into__79e8255e":"Gør det muligt for en bruger at importere ressourcer fra Commons til et fag.","allows_user_to_manage_modules_create_add_items_edi_9459e815":"Gør det muligt for en bruger at administrere forløb (oprette, tilføje elementer, redigere forløbindstillinger, offentliggøre og fjerne offentliggørelse osv.).","allows_user_to_share_assignments_to_commons_or_edi_c70ddf7":"Gør det muligt for en bruger at dele opgaver med Commons eller redigere tidligere delt indhold.","allows_user_to_share_course_items_directly_with_ot_e5793d35":"Lader brugeren dele fagelementer direkte med andre brugere.","allows_user_to_view_course_status_choose_home_page_21bf32a8":"Gør det muligt for en bruger at få vist knapperne Fagstatus, Vælg hjemmeside og Tjekliste til oprettelse af fag på hjemmesiden.","allows_user_to_view_previously_created_collaborati_d3a37402":"Gør det muligt for en bruger at få vist tidligere oprettede samarbejder.","attendance_ca433183":"Tilstedeværelse","chat_2153c6b7":"Chat","course_home_page_5c61dba7":"Startside","module_items_cannot_be_unpublished_if_there_are_st_7a80507c":"Offentliggørelse af forløbelementer kan ikke fjernes, hvis der er elevafleveringer.","teachers_designers_and_tas_can_select_a_course_hom_30025956":"Lærere, designere og undervisningsassistenter kan vælge et fags startside uden tilladelsen Fagindhold - tilføj / rediger / slet.","the_attendance_tool_must_be_enabled_by_your_canvas_108e6dca":"Din Canvas-admin skal aktivere værktøjet Tilstedeværelse.","the_chat_tool_must_be_enabled_by_your_canvas_admin_e3b26123":"Din Canvas-admin skal aktivere værktøjet Chat.","the_course_status_buttons_unpublished_and_publishe_e2dca595":"Knappen Fagstatus (ikke-offentliggjort og offentliggjort) vises kun, indtil der er modtaget en elevs aflevering. Offentliggørelse af fag kan ikke fjernes med elevafleveringer.","to_publish_and_unpublish_module_content_courses_ma_4a203bea":"For at offentliggøre og fjerne offentliggørelse af forløbindhold skal Fag - administrer og Fagindhold - vis også være aktiveret. Offentliggørelse af forløbelementer kan ikke fjernes, hvis der er elevafleveringer.","to_share_a_discussion_to_commons_discussions_view__ef6c015a":"For at dele en diskussion med Commons skal Diskussioner - vis også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_20",
+  function() { return {"allows_user_to_add_designers_to_a_course_f81791e8":"Gør det muligt for en bruger at tilføje designere til et fag.","allows_user_to_add_designers_to_a_course_from_the__427db55b":"Gør det muligt for en bruger at føje designere til faget fra siden Fag på kontoen.","allows_user_to_deactivate_designers_in_a_course_e4ed0881":"Lader brugeren deaktivere designere i et fag.","allows_user_to_remove_designers_from_a_course_fa9e887e":"Gør det muligt for en bruger at fjerne designere fra et fag.","designers_add_c6335849":"Designere - tilføj","designers_remove_39f50ec9":"Designere - fjern","if_the_open_registration_account_setting_is_enable_10b1965c":"Hvis kontoindstillingen Åben tilmelding er aktiveret, kan brugere med denne tilladelse føje designere til et fag fra Fagsiden via e-mailadresse eller login-id, selvom en designer ikke allerede har en Canvas-konto.","if_the_open_registration_account_setting_is_enable_474c98c2":"Hvis kontoindstillingen Åben tilmelding er aktiveret, kan brugere med denne tilladelse føje designere til et fag fra siden Deltagere via e-mailadresse eller login-id, selvom en designer ikke allerede har en Canvas-konto."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_21",
+  function() { return {"allows_user_to_add_observers_to_a_course_ca1a678b":"Gør det muligt for en bruger at tilføje observatører til et fag.","allows_user_to_add_observers_to_a_course_from_the__9017365c":"Gør det muligt for en bruger at føje observatører til faget fra siden Fag på kontoen.","allows_user_to_deactivate_observers_in_a_course_d6e0fee2":"Lader brugeren deaktivere observatører i et fag.","allows_user_to_remove_observers_from_a_course_e090d53e":"Gør det muligt for en bruger at fjerne observatører fra et fag.","if_the_open_registration_account_setting_is_enable_87662428":"Hvis kontoindstillingen Åben tilmelding er aktiveret, kan brugere med denne tilladelse føje observatører til et fag fra Fagsiden via e-mailadresse eller login-id, selvom en observatør ikke allerede har en Canvas-konto.","if_the_open_registration_account_setting_is_enable_9e63fda6":"Hvis kontoindstillingen Åben tilmelding er aktiveret, kan brugere med denne tilladelse føje observatører til et fag fra siden Deltagere via e-mailadresse eller login-id, selvom en observatør ikke allerede har en Canvas-konto.","observers_add_93d8b063":"Observatører - tilføj","observers_remove_ad508fbe":"Observatører - fjern"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_22",
+  function() { return {"allows_user_to_add_students_to_a_course_aa642fa6":"Gør det muligt for en bruger at tilføje elever til et fag.","allows_user_to_add_students_to_a_course_from_the_a_3b752dd2":"Gør det muligt for en bruger at føje elever til et fag fra siden Fag på kontoen.","allows_user_to_deactivate_students_in_a_course_ffb1dddc":"Lader brugeren deaktivere elever i et fag.","allows_user_to_remove_a_student_s_section_enrollme_78d1916e":"Gør det muligt for en bruger at fjerne en elevs sektionstilmelding eller rolle.","allows_user_to_remove_students_from_a_course_70952ba6":"Gør det muligt for en bruger at fjerne elever fra et fag.","allows_user_to_update_a_student_s_section_enrollme_80420ac9":"Gør det muligt for en bruger at opdatere en elevs sektionstilmelding eller rolle.","if_the_open_registration_account_setting_is_enable_2f43fcc0":"Hvis kontoindstillingen Åben tilmelding er aktiveret, kan brugere med denne tilladelse føje elever til et fag fra siden Deltagere via e-mailadresse eller login-id, selvom en elev ikke allerede har en Canvas-konto.","if_the_open_registration_account_setting_is_enable_99a8a04a":"Hvis kontoindstillingen Åben tilmelding er aktiveret, kan brugere med denne tilladelse føje elever til et fag fra Fagsiden via e-mailadresse eller login-id, selvom eleven ikke allerede har en Canvas-konto.","students_add_4e988446":"Elever - tilføj","students_remove_4b27390b":"Elever - fjern"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_23",
+  function() { return {"allows_user_to_add_tas_in_the_course_f4de4c19":"Gør det muligt for en bruger at tilføje undervisningsassistenter til faget.","allows_user_to_add_tas_to_a_course_from_the_accoun_66e76aee":"Gør det muligt for en bruger at føje undervisningsassistenter til faget fra siden Fag på kontoen.","allows_user_to_deactivate_tas_in_a_course_a4e38cff":"Lader brugeren deaktivere undervisningsassistenter i et fag.","allows_user_to_remove_tas_from_a_course_c8002894":"Gør det muligt for en bruger at fjerne undervisningsassistenter fra et fag.","if_the_open_registration_account_setting_is_enable_1e679e07":"Hvis kontoindstillingen Åben tilmelding er aktiveret, kan brugere med denne tilladelse føje undervisningsassistenter til et fag fra Fagsiden via e-mailadresse eller login-id, selvom en undervisningsassistent ikke allerede har en Canvas-konto.","if_the_open_registration_account_setting_is_enable_b6fdaab4":"Hvis kontoindstillingen Åben tilmelding er aktiveret, kan brugere med denne tilladelse føje undervisningsassistenter til et fag fra siden Deltagere via e-mailadresse eller login-id, selvom en undervisningsassistent ikke allerede har en Canvas-konto.","tas_add_ccec2573":"Undervisningsassistenter  - tilføj","tas_remove_16a99b22":"Undervisningsassistenter - fjern"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_24",
+  function() { return {"allows_user_to_add_teachers_to_a_course_37b9594c":"Gør det muligt for en bruger at tilføje lærere til et fag.","allows_user_to_add_teachers_to_a_course_from_the_a_afbe4c3d":"Gør det muligt for en bruger at føje lærere til faget fra siden Fag på kontoen.","allows_user_to_deactivate_teachers_in_a_course_626cab36":"Lader brugeren deaktivere lærere i et fag.","allows_user_to_remove_teachers_from_a_course_6d627914":"Gør det muligt for en bruger at fjerne lærere fra et fag.","if_the_open_registration_account_setting_is_enable_9ca710e2":"Hvis kontoindstillingen Åben tilmelding er aktiveret, kan brugere med denne tilladelse føje lærere til et fag fra siden Deltagere via e-mailadresse eller login-id, selvom en lærer ikke allerede har en Canvas-konto.","if_the_open_registration_account_setting_is_enable_e7f97cf0":"Hvis kontoindstillingen Åben tilmelding er aktiveret, kan brugere med denne tilladelse føje lærere til et fag fra Fagsiden via e-mailadresse eller login-id, selvom en lærer ikke allerede har en Canvas-konto.","teachers_add_d5258e33":"Lærere - tilføj","teachers_remove_5622b490":"Lærere - fjern"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_25",
+  function() { return {"allows_user_to_change_the_template_being_used_by_a_eab509a3":"Lader brugeren ændre den skabelon, der bruges af en konto.","allows_user_to_remove_a_course_as_a_course_templat_15e653d3":"Lader brugeren fjerne fag som fagskabelon i Fagindstillinger.","allows_user_to_select_a_course_as_a_course_templat_547e203f":"Lader brugeren vælge fag som fagskabelon i Fagindstillinger.","allows_user_to_set_a_template_for_an_account_34fe3695":"Lader brugeren indstille en skabelon til en konto.","allows_user_to_set_an_account_to_not_use_a_templat_d34fe23c":"Lader brugeren indstille en konto til ikke at bruge en skabelon.","allows_user_to_view_names_of_course_templates_in_t_12b87e7e":"Lader brugeren se navne på fagskabeloner i rodkontoen.","course_templates_create_eb00e263":"Fagskabeloner - opret","course_templates_delete_5ec47e1f":"Fagskabeloner - slet","course_templates_edit_fd44b74c":"Fagskabeloner - rediger","to_access_the_account_settings_tab_account_level_s_9676d44b":"For at få adgang til fanen Kontoindstillinger skal Indstillinger på kontoniveau - administrer også være aktiveret.","to_create_a_new_course_to_use_as_a_course_template_aa0ff48e":"For at oprette et nyt fag, der skal bruges som fagskabelon, skal Fag - tilføj også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_26",
+  function() { return {"allows_user_to_manage_the_visibility_options_in_co_e781e4e4":"Gør det muligt for en bruger at administrere synlighedsindstillingerne i Fagindstillinger, eller når der oprettes et nyt fag."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_27",
+  function() { return {"allows_user_to_access_student_view_test_student_co_35fbd387":"Gør det muligt for en bruger at få adgang til knapperne Visning for elever (testelever), Kopier dette fag og Slet fag permanent.","allows_user_to_access_the_navigation_tab_68efd3f":"Gør det muligt for en bruger at få adgang til fanen Navigation.","allows_user_to_add_new_courses_to_an_account_bcb32ad2":"Lader brugeren tilføje nye fag til en konto.","allows_user_to_edit_course_image_name_course_code__8a4681c8":"Gør det muligt for en bruger at redigere fagbillede, navn, fagkode, tidszone, underkonto, skoleår og andre valgmuligheder på fanen Fagoplysninger.","allows_user_to_sync_blueprint_courses_db4fcc03":"Gør det muligt for en bruger at synkronisere Blueprint-fag.","allows_user_to_view_and_manage_courses_in_the_acco_12333da2":"Gør det muligt for en bruger at få vist og administrere fag på kontoen.","allows_user_to_view_blueprint_sync_history_d545cb7d":"Lader brugeren få vist den nye Blueprint-synkroniseringshistorik.","allows_user_to_view_student_context_cards_in_annou_dadef934":"Gør det muligt for en bruger at få vist elevers kontekstkort i besked- og diskussionssvar.","allows_user_to_view_the_conclude_course_button_e90a1175":"Lader brugeren se knappen Afslut fag.","allows_user_to_view_the_course_setup_checklist_but_4d7524f0":"Gør det muligt for en bruger at se knappen Tjekliste til oprettelse af fag.","allows_user_to_view_the_delete_this_course_button_92a4c832":"Lader brugeren se knappen Slet dette fag.","allows_user_to_view_the_publish_button_in_a_course_c18d0360":"Lader brugeren se knappen Offentliggør på et fagkort for et ikke-offentliggjort fag (Kortvisnings-oversigten).","allows_user_to_view_the_publish_course_and_unpubli_55fcd20":"Lader brugeren se knapperne Offentliggør fag og Fjern offentliggørelse af fag på fagets startside. Lader brugeren se knappen Offentliggør på et fagkort for et ikke-offentliggjort fag (Kortvisnings-oversigten).","allows_user_to_view_the_publish_course_and_unpubli_aac98465":"Lader brugeren se knapperne Offentliggør fag og Fjern offentliggørelse af fag på fagets startside.","allows_user_to_view_the_reset_course_content_butto_75c8c410":"Lader brugeren se knappen Nulstil fagindhold.","blueprint_courses_must_be_enabled_for_an_account_b_ffb3ac4b":"En admin skal aktivere Blueprint-fag for en konto. Fagroller kan kun administrere fagindhold i Blueprint-fag, hvis de er føjet til Blueprint-faget som lærer-, undervisningsassistents- eller designerrolle.","course_content_a92eca20":"Fagindhold","courses_account_navigations_a60c71db":"Fag - Kontonavigation","courses_account_settings_79e2f748":"Fag - Kontoindstillinger","courses_add_20891f99":"Fag - tilføj","courses_can_only_be_created_at_the_course_level_if_192bb838":"Fag kan kun oprettes på fagniveau, hvis en Canvas-administrator tillader det. Hvis tilladt, kan fag oprettes i oversigten.","courses_conclude_7bf4ce68":"Fag - afslut","courses_delete_20c9beb2":"Fag - slet","courses_manage_3ea9687f":"Fag - administrer","courses_publish_39df53f8":"Fag - offentliggør","courses_reset_211acdd":"Fag - nulstil","if_courses_manage_is_enabled_but_blueprint_courses_28a42664":"Hvis Fag - administrer er aktiveret, men Blueprint-fag - tilføj / rediger / tilknyt / slet ikke er aktiveret, kan brugerne stadig synkronisere Blueprint-fag og se synkroniseringshistorik.","if_this_permission_is_enabled_and_courses_view_lis_cdf22691":"Hvis denne tilladelse er aktiveret, og Fag - vis liste er deaktiveret, kan brugere tilføje et nyt fag med knappen Tilføj et nyt fag i Kontoindstillinger.","student_context_cards_376d2072":"Elevers kontekstkort","student_context_cards_must_be_enabled_for_an_accou_8e1dc261":"En admin skal aktivere Elevers kontekstkort for en konto. Hvis Fag - administrer ikke er aktiveret, kan brugere stadig se kontekstkort via vurderingoversigten.","the_courses_delete_permission_affects_viewing_the__b8744b4c":"Tilladelsen Fag - slet påvirker visningen af knappen Slet dette fag permanent, som kun vises for manuelt oprettede fag.","the_courses_publish_permission_allows_the_user_to__30694e34":"Tilladelsen Fag - offentliggør giver brugeren mulighed for at offentliggøre fag, der ikke indeholder forløb. For at offentliggøre / fjerne offentliggørelse af forløbindhold skal Fagindhold - tilføj / rediger / slet være aktiveret.","the_courses_reset_permission_resets_course_content_921321c3":"Indstillingen Fag - Nulstillingstilladelse nulstiller fagindhold for både manuelt oprettede og SIS-administrerede fag. (For SIS-administrerede fag gælder SIS-data - Administreringstilladelse ikke.)","to_access_the_courses_link_in_account_navigation_c_5aa3d76c":"For at få adgang Fag-linket i kontonavigation skal Fag - vis liste være aktiveret.","to_access_the_courses_link_in_account_navigation_c_a2c556e6":"For at få adgang til linket Fag i Kontonavigation skal Fag - administrer og Fag - vis liste være aktiveret.","to_add_a_course_courses_add_must_also_be_enabled_8c2231d9":"For at tilføje et fag skal Fag - tilføj også være aktiveret.","to_allow_other_users_to_create_courses_in_an_accou_1f2c70a4":"Hvis du vil tillade, at andre brugere opretter fag på en konto, skal du vælge den relevante brugerrolle på siden Kontoindstillinger: lærere, elever og/eller brugere uden tilmeldinger.","to_cross_list_a_section_courses_manage_and_manage__3af8bad7":"For at krydsliste en sektion skal Fag - administrer og Administrer fagsektioner - rediger også være aktiveret.","to_edit_the_course_sis_id_courses_manage_and_sis_d_dfe90e4e":"For at redigere fagets SIS-ID skal Fag - administrer og SIS-data - administrer også være aktiveret.","to_manage_course_content_courses_manage_and_course_c7a49f42":"For at administrere fagindhold skal Fag - administrer og Fagindhold - tilføj / rediger / slet være aktiveret.","to_restore_a_deleted_course_courses_delete_courses_83c7e64f":"For at gendanne et slettet fag skal Fag - slet, Fag - fortryd sletning og Fagindhold - vis også være aktiveret.","to_view_choose_home_page_and_course_setup_checklis_402b2311":"For at vise knapperne Vælg startside og Tjekliste til oprettelse af fag skal Fag - administrer og Fagindhold - vis også være aktiveret. (Lærere, designere og undervisningsassistenter kan indstille startsiden for et fag, uanset deres tilladelser.)","to_view_grades_in_a_course_courses_manage_and_grad_c1ab5515":"For at se vurderinger i et fag skal Fag - administrer og Vurderinger - vis alle vurderinger også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_30",
+  function() { return {"allows_user_to_create_developer_keys_for_accounts_76bedd2b":"Gør det muligt for en bruger at oprette udvikler-nøgler for konti.","required_fields_include_key_name_owner_email_tool__b8e42174":"Obligatoriske felter inkluderer nøglenavn, ejerens e-mailadresse, værktøjs-id, omdirigerings-URL og ikon-URL."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_31",
+  function() { return {"allows_user_to_manage_feature_options_in_account_s_c3c8ee03":"Gør det muligt for en bruger at administrere funktionsindstillinger i Kontoindstillinger.","to_view_feature_options_for_an_account_feature_opt_14b0cea0":"For at vise funktionsindstillinger for en konto skal Funktionsindstillinger - aktiver / deaktiver også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_32",
+  function() { return {"allows_user_to_add_course_files_and_folders_566e3447":"Lader brugeren tilføje fagfiler og -mapper.","allows_user_to_delete_course_files_and_folders_34a7793c":"Lader brugeren slette fagfiler og -mapper.","allows_user_to_edit_course_files_and_folders_7a3fc8c7":"Lader brugeren redigere fagfiler og -mapper.","allows_user_to_import_a_zip_file_97bd7db2":"Lader brugeren importere en zip-fil.","course_files_62deb8f8":"Fagets filer","course_files_add_2eede390":"Fagfiler - tilføj","course_files_delete_fae0effe":"Fagfiler - slet","course_files_edit_d05d4e8b":"Fagfiler - rediger","if_one_or_all_permissions_are_disabled_user_can_st_f83271b3":"Hvis en eller alle tilladelser er deaktiveret, kan brugeren stadig se og downloade filer til en zip-fil.","to_edit_lock_settings_for_course_files_course_file_92273739":"For at redigere låseindstillinger for fagfiler skal Fagfiler - rediger, Blueprint-fag - tilføj / rediger / tilknyt / slet og Fag - administrer også være aktiveret.","to_import_files_using_the_course_import_tool_cours_eb0ce4e1":"For at importere filer ved hjælp af fagimportværktøjet skal Fagfiler - tilføj og Fagindhold - tilføj / rediger / slet være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_33",
+  function() { return {"allows_user_to_access_gradebook_history_9d599681":"Gør det muligt for en bruger at få adgang til vurderingsoversigtens historik.","allows_user_to_access_gradebook_history_allows_use_79dfddd":"Gør det muligt for en bruger at få adgang til vurderingsoversigtens historik. Gør det muligt for en bruger at få adgang til vurderingsoversigten for opfyldelse af læringsmål (hvis aktiveret).","allows_user_to_add_edit_and_update_grades_in_the_g_e7707f35":"Gør det muligt for en bruger at tilføje, redigere og opdatere vurderinger i vurderingsoversigten.","allows_user_to_create_and_modify_grading_schemes_e4433a19":"Gør det muligt for en bruger at oprette og ændre vurderingssystemer.","allows_user_to_edit_grades_and_add_comments_in_spe_dc18e3c0":"Gør det muligt for en bruger at redigere vurderinger og tilføje kommentarer i SpeedGrader.","allows_user_to_edit_grades_in_the_gradebook_83fa5c4f":"Gør det muligt for en bruger at redigere vurderinger i vurderingsoversigten.","allows_user_to_edit_grading_schemes_98c35117":"Gør det muligt for en bruger at redigere vurderingssystemer.","allows_user_to_like_discussion_posts_when_the_only_7390d91c":"Gør det muligt for en bruger at synes godt om diskussionsposter, når der er sat kryds i afkrydsningsfeltet Kun bedømmere kan ”synes godt om”.","allows_user_to_moderate_a_quiz_and_view_the_quiz_s_59ce0eee":"Gør det muligt for en bruger at bedømme en quiz og se siden med quizstatistik.","allows_user_to_search_by_course_id_or_assignment_i_1f41eb6a":"Gør det muligt for en bruger at søge efter fag-id eller opgave-id i logfiler over vurderingsændringer i Administratorværktøjer (ikke tilgængelig på underkontoniveau).","allows_user_to_view_the_course_grading_scheme_32a6042":"Gør det muligt for en bruger at få vist fagets vurderingssystem.","course_grading_schemes_can_be_enabled_disabled_in__26b298b3":"Fagets vurderingssystemer kan aktiveres/deaktiveres i Fagindstillinger.","gradebook_and_speedgrader_will_be_inaccessible_if__eda88bc3":"Vurderingsoversigt og SpeedGrader bliver utilgængelige, hvis både Vurderinger - rediger og Vurderinger - vis alle vurderinger er deaktiveret.","gradebook_speedgrader_66cb7a6a":"Vurderingsoversigt, SpeedGrader","to_edit_course_grading_schemes_courses_manage_must_b6de9dbc":"For at redigere fags vurderingssystemer skal Fag - administrer også være aktiveret.","to_moderate_a_quiz_assignments_and_quizzes_manage__b96b1937":"For at bedømme en quiz skal Opgaver og Quizzer - administrer / rediger også være aktiveret.","to_view_student_analytics_in_course_analytics_anal_21ed5b9c":"For at få vist elevanalyse i faganalyse skal Analyse - vis også være aktiveret.","to_view_student_analytics_users_view_list_and_anal_41d32ecb":"For at få vist analyse af elever skal Brugere - vis liste og Analyse - vis også være aktiveret.","to_view_the_submission_log_quizzes_view_submission_b8353d6e":"Hvis du vil se afleveringsloggen, skal Quiz - vis afleveringslog også være aktiveret.","to_view_the_user_sis_id_column_in_the_quiz_item_an_2bf433fa":"For at få vist brugerens SIS ID-kolonne i CSV-filen for quizelementanalysen skal SIS Data - læs også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_34",
+  function() { return {"allows_user_to_add_a_group_for_a_group_assignment__b77a71cc":"Lader brugeren tilføje en gruppe til en gruppeopgave i et fag.","allows_user_to_add_group_members_to_account_or_cou_5b143ef":"Lader brugeren tilføje gruppemedlemmer til konto- eller faggrupper.","allows_user_to_add_students_to_course_groups_969f968":"Lader brugeren tilføje elever til faggrupper.","allows_user_to_add_users_to_a_course_group_aa0df439":"Lader brugeren tilføje brugere til en faggruppe.","allows_user_to_add_users_to_an_account_or_course_g_f2a3a2b8":"Lader brugeren tilføje brugere til en konto eller faggruppe.","allows_user_to_assign_a_student_group_leader_in_a__6851d646":"Lader brugeren tildele rollen elevgruppeleder i et fag.","allows_user_to_assign_a_student_group_leader_in_an_73e12cb6":"Lader brugeren tildele en elevgruppeleder i en konto eller et fag.","allows_user_to_create_account_or_course_groups_1d5c4aaf":"Lader brugeren oprette konto- eller faggrupper.","allows_user_to_create_course_groups_created_by_stu_2be56e8f":"Lader brugeren oprette faggrupper oprettet af elever.","allows_user_to_create_course_groups_e169f91b":"Lader brugeren oprette faggrupper.","allows_user_to_delete_account_or_course_groups_3078d0c5":"Lader brugeren slette konto- eller faggrupper.","allows_user_to_delete_course_groups_5ce7382e":"Lader brugeren slette faggrupper.","allows_user_to_edit_account_and_course_groups_259139c0":"Lader brugeren redigere konto- og faggrupper.","allows_user_to_edit_course_groups_d459145d":"Lader brugeren redigere faggrupper.","allows_user_to_move_group_members_to_another_group_697d8da9":"Lader brugeren flytte gruppemedlemmer til en anden gruppe i en konto eller et fag.","allows_user_to_move_group_members_to_another_group_fc9d8d92":"Lader brugeren flytte gruppemedlemmer til en anden gruppe i et fag.","allows_user_to_randomly_assign_users_to_a_course_g_e866fc4":"Lader brugeren tilfældigt tildele brugere til en faggruppe.","allows_user_to_randomly_assign_users_to_an_account_f6f24e8b":"Lader brugeren tilfældigt tildele brugere til en konto eller faggruppe.","allows_user_to_remove_group_members_from_course_gr_4f745b58":"Lader brugeren fjerne gruppemedlemmer fra faggrupper.","allows_user_to_remove_students_from_account_or_cou_845945f9":"Lader brugeren fjerne elever fra konto- eller faggrupper.","allows_user_to_view_the_clone_group_set_button_for_d68aab98":"Lader brugeren se knappen Klon gruppesæt for en konto eller faggruppe.","allows_user_to_view_the_clone_group_set_button_for_f975352":"Lader brugeren se knappen Klon gruppesæt for en faggruppe.","allows_users_to_import_groups_in_a_course_a8b5c73e":"Lader brugeren importere grupper i et fag.","by_default_students_can_always_create_groups_in_a__5727f4cf":"Elever kan som standard altid oprette grupper i et fag. For at begrænse elever i at oprette grupper skal Fag - administrer være aktiveret, og afkrydsningsfeltet Lad eleverne organisere deres egne grupper i Fagindstillinger skal ikke være markeret.","groups_add_4038ae8a":"Grupper - tilføj","groups_delete_bb79a2b4":"Grupper - slet","groups_manage_a5197479":"Grupper - administrer","if_this_permission_is_disabled_at_the_account_leve_1b0e403f":"Hvis denne tilladelse er deaktiveret på kontoniveau, så kan brugeren ikke se nogen eksisterende kontogrupper. På fagniveau kan brugeren se, men ikke få adgang til eksisterende grupper, herunder grupper oprettet af elever.","to_access_the_people_page_and_view_course_groups_u_e2dc13eb":"For at få adgang til siden Deltagere og få vist faggrupper skal Brugere - vis liste også være aktiveret.","to_add_account_level_groups_via_csv_sis_data_impor_b1a4ccf3":"For at tilføje grupper på kontoniveau via CSV skal SIS-data - importér også være aktiveret.","to_view_account_level_groups_users_view_list_must__3e933ddf":"For at få vist grupper på kontoniveau skal Brugere - vis liste også være aktiveret.","to_view_all_student_groups_in_a_course_groups_view_7a16b659":"For at se alle elevgrupper i et fag skal Grupper - vis alle elevgrupper også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_35",
+  function() { return {"alerts_must_be_configured_for_the_institution_aler_43bbacb1":"Varslinger skal konfigureres til institutionen. Varslinger er en sjældent brugt funktion, der er beregnet til at sende en varsling til elever, lærere eller admins om bestemte udløsere (fx ingen interaktion mellem elev-lærer i 7 dage). De tjekkes hver dag, og der sendes meddelelser til eleven og/eller læreren, indtil det udløsende problem udbedres.","allows_user_to_configure_alerts_in_course_settings_c6b938ab":"Gør det muligt for en bruger at konfigurere varslinger i Fagindstillinger.","this_is_an_account_setting_that_must_be_enabled_by_8ced660":"Det her er en kontoindstilling, som din kundesuccesmanager skal aktivere. Varslinger er en sjældent brugt funktion, der er beregnet til at sende en varsling til elever, lærere eller admins om bestemte udløsere (fx ingen interaktion mellem elev-lærer i 7 dage). De tjekkes hver dag, og der sendes meddelelser til eleven og/eller læreren, indtil det udløsende problem udbedres."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_28",
+  function() { return {"allows_user_to_add_external_app_icons_to_the_rich__27174e71":"Gør det muligt for en bruger tilføje eksterne app-ikoner til Rich Content Editor-værktøjslinjen.","allows_user_to_manually_add_an_app_in_account_sett_c5ce3789":"Gør det muligt for en bruger at tilføje en app manuelt i Kontoindstillinger.","allows_user_to_manually_add_an_app_in_course_setti_cf39f581":"Gør det muligt for en bruger at tilføje en app manuelt i Fagindstillinger.","allows_user_to_manually_delete_an_app_in_account_s_a4b872dd":"Gør det muligt for en bruger at slette en app manuelt i Kontoindstillinger.","allows_user_to_manually_delete_an_app_in_course_se_f6015d14":"Gør det muligt for en bruger at slette en app manuelt i Fagindstillinger.","if_lti_add_is_disabled_users_can_still_install_app_78aa7908":"Hvis LTI - tilføj er deaktiveret, kan brugere stadig installere godkendte apps via Canvas App Center (hvis den er aktiveret for din institution). Men hvis LTI - slet er deaktiveret, kan brugere ikke slette tilføjede eksterne apps manuelt.","lti_add_e3bc0049":"LTI - tilføj","lti_delete_ee5f1bef":"LTI - slet","lti_edit_83a27850":"LTI - rediger"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_36",
+  function() { return {"allows_user_to_add_and_remove_associated_courses_2ae6e4d6":"Gør det muligt for en bruger at tilføje og fjerne associerede fag.","allows_user_to_designate_a_course_as_a_blueprint_c_15109885":"Gør det muligt for en bruger at udpege et fag som et Blueprint-fag.","allows_user_to_edit_lock_settings_on_individual_as_80ed188a":"Lader brugeren redigere låseindstillinger i enkelte opgaver, sider eller diskussioner","allows_user_to_manage_blueprint_course_settings_in_697362c5":"Gør det muligt for en bruger at administrere indstillinger for Blueprint-fag i Fagindstillinger.","course_roles_can_only_manage_blueprint_courses_if__12964fbb":"Fagroller kan kun administrere Blueprint-fag, hvis de er føjet til Blueprint-faget som lærer-, undervisningsassistents- eller designerrolle.","to_edit_lock_settings_on_files_courses_manage_and__f4718695":"For at redigere låseindstillinger på filer skal Fag - administrer og Fagfiler - rediger også være aktiveret.","to_edit_lock_settings_on_quizzes_courses_manage_an_eb629aa9":"For at redigere låseindstillinger på quizzer skal Fag - administrer og Opgaver og Quizzer - administrer / rediger også være aktiveret.","to_manage_associated_courses_courses_view_list_and_26f4c15c":"For at administrere tilknyttede fag skal Fag - vis liste og Fag - tilføj også være aktiveret.","to_manage_lock_settings_for_object_types_courses_m_c3373154":"For at administrere låseindstillinger for objekttyper skal Fag - administrer også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_37",
+  function() { return {"access_to_these_tabs_requires_the_outcome_proficie_dd8ca732":"Adgang til disse faner kræver tilladelserne Beregninger af læringsudbyttekompetence - tilføj / rediger og Skalaer for opfyldelse af læringsmål for læringsudbytter - tilføj / rediger.","allows_user_to_create_edit_and_delete_outcomes_and_162c9ece":"Gør det muligt for en bruger at oprette, redigere og slette læringsudbytter og læringsudbytte-grupper på konto- og fagniveau.","allows_user_to_create_edit_and_delete_outcomes_and_1cf52c38":"Gør det muligt for en bruger at oprette, redigere og slette læringsudbytter og læringsudbyttegrupper på fagniveau.","allows_user_to_view_the_outcomes_manage_tab_at_the_a7d5ffce":"Lader brugeren se fanen Administrer læringsudbytter på konto- og fagniveau.","determines_visibility_and_management_of_the_outcom_aace9659":"Bestemmer synlighed og administration af linket Læringsudbytter i kontonavigation.","if_the_account_and_course_level_outcome_mastery_sc_95307d59":"Hvis funktionsindstillingen Opfyldelse af læringsmål for læringsudbytter på konto- og fagniveau er aktiveret, viser fanen Administrer en opdateret grænseflade. Derudover viser siden Læringsudbytter to yderligere faner, der afkobler skalaer for opfyldelse af læringsmål og kompetenceberegninger fra læringsudbyttestyring.","to_allow_the_outcomes_page_as_read_only_this_permi_ddb00693":"For at tillade siden Læringsudbytter som kun skrivebeskyttet skal denne tilladelse deaktiveres, men Fagindhold - vis skal være aktiveret.","to_import_learning_outcomes_learning_outcomes_impo_5abbd2fb":"Hvis du vil importere læringsudbytter, skal Læringsudbytter - importer også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_38",
+  function() { return {"allows_user_to_view_the_outcomes_calculation_tab_a_def5fecb":"Lader brugeren se fanen Beregninger af læringsudbyttekompetence og indstille beregninger af læringsudbyttekompetencer på fagniveau.","allows_user_to_view_the_outcomes_calculations_tab__d320b540":"Lader brugeren se fanen Beregninger af læringsudbyttekompetence og angive beregninger af læringsudbyttekompetencer på konto- og fagniveau.","to_access_the_mastery_tab_the_outcome_mastery_scal_46ae1c5b":"For at få adgang til fanen Opfyldelse af læringsmål skal tilladelsen Skalaer for opfyldelse af læringsmål for læringsudbytter - tilføj / rediger tilføj / rediger også være aktiveret. For at få adgang til fanen Administrer skal tilladelsen Læringsudbytter - tilføj / rediger / slet også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_39",
+  function() { return {"allows_user_to_view_the_outcomes_mastery_tab_and_s_a93a23d2":"Lader brugeren se fanen Opfyldelse af læringsmål for læringsudbytter og angive skalaer for opfyldelse af læringsmål for læringsudbytter på konto- og fagniveau.","allows_user_to_view_the_outcomes_mastery_tab_and_s_d9626906":"Lader brugeren se fanen Opfyldelse af læringsmål for læringsudbytter og angive skalaer for opfyldelse af læringsmål for læringsudbytter på fagniveau.","to_access_the_calculation_tab_the_outcome_proficie_cdd40cdf":"For at få adgang til fanen Beregning skal tilladelsen Beregninger af læringsudbyttekompetence - tilføj / rediger også være aktiveret. For at få adgang til fanen Administrer skal tilladelsen Læringsudbytter - tilføj / rediger / slet også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_40",
+  function() { return {"allows_user_to_view_and_manage_permissions_bdc80a1d":"Gør det muligt for en bruger at få vist og administrere tilladelser."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_41",
+  function() { return {"allows_user_to_create_edit_and_delete_course_rubri_493ac58f":"Gør det muligt for en bruger at oprette, redigere og slette et fags vurderingskriterier.","allows_user_to_create_edit_and_delete_rubrics_1c0acc08":"Gør det muligt for en bruger at oprette, redigere og slette vurderingskriterier.","allows_user_to_view_the_rubrics_link_in_course_nav_41052c80":"Gør det muligt for en bruger at få vist linket Vurderingskriterier i fagnavigation.","determines_visibility_and_management_of_rubrics_li_9b974d71":"Bestemmer synlighed og administration af linket Vurderingskriterier i kontonavigation.","determines_visibility_and_management_of_the_rubric_533da0b8":"Bestemmer synlighed og administration af linket Vurderingskriterier i kontonavigation.","users_can_access_and_create_but_not_edit_individua_59bcb8dd":"Brugere kan få adgang til og oprette (men ikke redigere) enkelte opgavevurderingskriterier via Opgaver, når Opgaver og Quizzer - tilføj er aktiveret.","users_can_access_and_create_but_not_edit_individua_a0b26adf":"Brugere kan få adgang til og oprette (men ikke redigere) enkelte opgavevurderingskriterier via Opgaver, når Fagindhold - vis og Opgaver og Quizzer - tilføj er aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_42",
+  function() { return {"allows_user_to_add_course_sections_in_course_setti_f8e4cabf":"Gør det muligt for en bruger at tilføj fagsektioner i Fagindstillinger.","allows_user_to_change_start_and_end_dates_for_cour_f437cee1":"Gør det muligt for en bruger at ændre start- og slutdatoer for fagsektioner.","allows_user_to_cross_list_sections_f6726df2":"Gør det muligt for en bruger at krydsliste sektioner.","allows_user_to_delete_a_user_from_a_course_section_4b99a5c4":"Gør det muligt for en bruger at slette en bruger fra en fagsektion.","allows_user_to_delete_course_sections_19193a35":"Gør det muligt for en bruger at slette fagsektioner.","allows_user_to_rename_course_sections_928982f0":"Gør det muligt for en bruger at give nye navne til fagsektioner.","allows_user_to_rename_course_sections_allows_user__8e9e7bac":"Gør det muligt for en bruger at give nye navne til fagsektioner. Gør det muligt for en bruger at ændre start- og slutdatoer for fagsektioner. Gør det muligt for en bruger at krydsliste sektioner.","course_sections_add_c6b5dc1":"Fagsektioner - tilføj","course_sections_delete_e75e3eeb":"Fagsektioner - slet","course_sections_edit_bd783e1":"Fagsektioner - rediger","cross_listing_3318526a":"Krydsliste","to_cross_list_sections_course_sections_edit_and_co_59598c07":"For at krydsliste sektioner skal Fagsektioner - rediger og Fag - administrer også være aktiveret.","to_cross_list_sections_course_sections_edit_must_b_4ffea833":"For at krydsliste sektioner skal Fagsektioner - redigér være aktiveret. Brugeren skal også være tilmeldt som instruktør i de fag, der krydslistes."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_43",
+  function() { return {"allows_user_to_edit_the_course_sis_id_e1eccee3":"Gør det muligt for en bruger at redigere fagets SIS-ID.","allows_user_to_view_and_edit_the_sis_id_and_integr_af6dc3f3":"Gør det muligt for en bruger at få vist og redigere SIS-ID’et og integrations-id’et i en brugers loginoplysninger","allows_user_to_view_and_insert_data_in_the_sis_id__921967c":"Gør det muligt for en bruger at få vist og indsætte data i feltet SIS-ID.","allows_user_to_view_the_previous_sis_import_dates__1716ddb5":"Gør det muligt for en bruger at få vist de tidligere datoer for SIS-import, fejl og importerede elementer.","determines_visibility_of_sis_import_link_in_accoun_53da8632":"Bestemmer synlighed af SIS-import-linket i kontonavigation.","if_this_permission_is_enabled_users_do_not_need_th_fb3f761e":"Hvis denne tilladelse er aktiveret, kræver brugere ikke, at tilladelsen SIS-data - læs er aktiveret. Kontotilladelsen tilsidesætter fagtilladelsen.","subaccount_settings_8549eff7":"Underkontoindstillinger","to_disallow_users_from_managing_sis_ids_at_the_cou_2058787b":"For at undgå, at brugere kan administrere SIS-ID’er på fagniveau, skal både SIS-data - administrer og SIS-data - læs være deaktiveret.","to_edit_course_settings_courses_manage_must_be_ena_813e1588":"For at redigere fagindstillinger skal Fag - administrer være aktiveret.","to_import_sis_data_sis_data_import_must_also_be_en_187c39b":"For at importere SIS-data skal SIS-data - importer også være aktiveret.","to_view_or_edit_a_user_s_sis_id_or_integration_id__76b8d055":"For at få vist eller redigere en brugers SIS-ID eller integrations-ID skal både Brugere - vis liste og Brugere - administrer loginoplysninger også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_44",
+  function() { return {"allows_user_to_view_and_manage_quotas_tab_in_accou_aa3fea8":"Gør det muligt for en bruger at få vist og administrere fanen Kvoter i kontoindstillinger. Brugeren kan indstille standardfag, bruger og kvoter for gruppens lagerplads.","quotas_account_settings_22c12b8d":"Kvoter (kontoindstillinger)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_45",
+  function() { return {"allows_user_to_access_a_user_s_settings_menu_and_u_235d8fd8":"Gør det muligt for en bruger at få adgang til en brugers indstillingsmenu og brugeroplysninger.","allows_user_to_resend_course_invitations_from_the__2822fe53":"Gør det muligt for en bruger at gensende faginvitationer fra siden Deltagere i faget.","allows_user_to_view_login_id_information_for_stude_70930399":"Gør det muligt for en bruger at få vist oplysninger om login-id for elever.","allows_user_to_view_prior_enrollments_df5286d":"Gør det muligt for en bruger at få vist tidligere tilmeldinger.","to_add_or_remove_a_student_to_or_from_a_course_the_a357b751":"For at tilføje eller fjerne en elev til eller fra et fag skal tilladelsen Brugere - elev være aktiveret.","to_add_or_remove_a_student_to_or_from_a_course_the_b6001e67":"For at tilføje eller fjerne en elev til eller fra et fag skal tilladelserne Brugere - elever være aktiveret.","to_edit_a_student_s_section_conversations_send_to__12a2623f":"For at redigere en elevs sektion skal Diskussioner - send til enkelte af fagets deltagere også være aktiveret.","to_view_the_list_of_users_in_the_course_users_view_20278cf":"For at få vist listen over brugere i faget skal Brugere - vis liste være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_46",
+  function() { return {"allows_user_to_create_accounts_for_new_users_e4ec27c3":"Gør det muligt for en bruger at oprette konti for nye brugere.","allows_user_to_modify_user_account_details_e16fb115":"Gør det muligt for en bruger at ændre brugerkontooplysninger.","allows_user_to_remove_and_merge_users_in_an_accoun_b7e1aec7":"Gør det muligt for en bruger at fjerne og flette brugere på en konto.","allows_user_to_view_and_modify_login_information_f_78f3a544":"Gør det muligt for en bruger at få vist og ændre loginoplysninger for en bruger.","if_users_manage_login_details_or_statistics_view_i_cff4155d":"Hvis brugere - administrer loginoplysninger eller Statistik - vis er aktiveret, kan brugeren generere login- / logout-aktivitet i Admin-værktøjer. For at skjule valgmuligheden login-/logoutaktivitet i Administratorværktøjer skal begge af disse tilladelser være deaktiveret.","to_change_user_passwords_users_view_must_also_be_e_6aeea86c":"For at ændre brugeradgangskoder skal Brugere - vis også være aktiveret.","to_merge_users_the_self_service_user_merge_feature_d07a9276":"For at flette brugere skal funktionsindstillingen Selvbetjening - brugerfletning også være aktiveret.","to_view_a_user_s_integration_id_sis_data_manage_mu_99438830":"For at få vist en brugers integrations-ID skal SIS-data - administrer også være aktiveret.","to_view_a_user_s_sis_id_sis_data_manage_or_sis_dat_1f603502":"For at få vist en brugers SIS-ID skal SIS-data - administrer eller SIS-data - læs også være aktiveret.","to_view_users_and_user_account_details_users_view__cc958682":"For at få vist brugere og oplysninger om brugerkonto skal Brugere - vis liste være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_47",
+  function() { return {"allows_user_to_create_new_entries_in_the_faculty_j_2a280fec":"Gør det muligt for brugeren at oprette nye poster i undervisernotaterne.","allows_user_to_view_a_link_to_the_faculty_journal__61d71a94":"Gør det muligt for brugeren at se et link til undervisernotaterne i sidebjælken Brugerdetaljer.","allows_user_to_view_faculty_journal_entries_in_the_3f58f09c":"Gør det muligt for brugeren at se undervisernotaterposter i interaktionsrapporten for eleverne.","allows_user_to_view_faculty_journal_information_fo_3c725307":"Gør det muligt for brugeren at se oplysninger om undervisernotaterne for enkelte elever.","allows_user_to_view_the_faculty_journal_link_in_gl_e3fd6889":"Gør det muligt for brugeren at se undervisernotat-linket i Global navigation.","student_interaction_report_3f3d2ff1":"Interaktionsrapport for elever","to_view_the_student_interactions_report_grades_vie_68f791b0":"For at se rapporten Elevinteraktioner skal Vurderinger - vis alle vurderinger og Fag - vis brugsrapporter også være aktiveret.","to_view_the_user_details_page_for_a_student_users__5d0ca2d5":"For at se siden Brugerdetaljer for en elev skal Brugere - tilføj/fjern elever i fag også være aktiveret.","user_details_2613c079":"Brugeroplysninger"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_48",
+  function() { return {"allows_user_to_manage_observers_associated_with_st_4b45f2be":"Gør det muligt for en bruger at administrere observatører, der er knyttet til elever på kontoen."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_49",
+  function() { return {"allows_user_to_add_page_to_student_to_do_list_7085a054":"Gør det muligt for en bruger at tilføje en side til elevens opgaveliste.","allows_user_to_create_course_pages_ec9c6647":"Gør det muligt for en bruger at oprette fagsider.","allows_user_to_define_users_allowed_to_edit_the_pa_39fddc1c":"Gør det muligt for en bruger at definere brugere, som har tilladelse til at redigere siden.","allows_user_to_delete_course_pages_dfaf4fb7":"Gør det muligt for en bruger at slette fagsider.","allows_user_to_edit_blueprint_course_lock_settings_c89e1787":"Gør det muligt for en bruger at redigere Blueprint-fags låseindstillinger på indeksiden og for en individuel side i et Blueprint-hovedfag.","allows_user_to_edit_blueprint_lock_settings_for_in_95db0d27":"Gør det muligt for en bruger at redigere Blueprint-låseindstillinger for individuelle sider i et Blueprint-hovedfag.","allows_user_to_edit_blueprint_lock_settings_in_the_a0a8d955":"Gør det muligt for en bruger at redigere Blueprint-låseindstillinger på indeksiden og for en individuel side i et Blueprint-hovedfag.","allows_user_to_edit_course_pages_30f188b4":"Gør det muligt for en bruger at redigere fagsider.","allows_user_to_publish_and_unpublish_pages_e9397f80":"Gør det muligt for en bruger at offentliggøre og fjerne offentliggørelse af sider.","allows_user_to_view_page_history_and_set_front_pag_c2321326":"Gør det muligt for en bruger at få vist sidehistorik og indstille forside.","however_if_these_additional_permissions_are_enable_35d3082c":"Men hvis disse yderligere tilladelser er aktiveret, men tilladelsen Sider - opdater ikke er aktiveret, kan brugeren stadig justere indstillinger for indholdslås på individuelle sider i et Blueprint-masterfag.","if_the_pages_update_permission_is_disabled_the_use_3df16c25":"Hvis tilladelsen Sider - opdater er deaktiveret, kan brugeren stadig justere låseindstillinger for indhold på enkelte sider i et Blueprint-hovedfag.","pages_create_7c48801a":"Sider - opret","pages_delete_c98c1c66":"Sider - slet","pages_update_6bbb5599":"Sider - opdater","student_page_history_ce86b3c2":"Elevers sidehistorik","students_can_edit_and_view_page_history_if_allowed_67f9b8da":"Elever kan redigere og se sidehistorik, hvis det er tilladt i indstillingerne for en individuel side.","to_edit_lock_settings_on_the_pages_index_page_page_5e65b3d6":"For at redigere låseindstillinger på indekssiden for Sider, Sider - opdater, Blueprint-fag - tilføj / rediger / tilknyt / slet og Fag - administrer."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_50",
+  function() { return {"allows_user_to_add_announcements_in_the_announceme_726541b5":"Gør det muligt for en bruger at tilføje beskeder på siden Beskeder.","allows_user_to_close_for_comments_move_pin_unpin_e_bf17f03c":"Gør det muligt for en bruger at lukke for kommentarer, flytte, fastgøre/frigøre, redigere og slette diskussionsemner på siden Diskussioner.","allows_user_to_edit_blueprint_lock_settings_on_the_5b5edb55":"Gør det muligt for en bruger at redigere Blueprint-låseindstillinger på indekssiden Diskussioner i et Blueprint-hovedfag.","allows_user_to_edit_discussion_topics_5576aeb1":"Gør det muligt for en bruger at redigere diskussionsemner.","allows_user_to_view_all_replies_within_a_discussio_fea861da":"Gør det muligt for en bruger at se alle svar inden for et diskussionsemne.","allows_user_to_view_the_new_announcement_button_in_4f1a0a2b":"Gør det muligt for en bruger at få vist knappen Ny besked på hjemmesiden.","both_discussions_create_and_discussions_moderate_a_ca6f38a2":"Både Diskussioner - oprettelse og Diskussioner - bedøm giver brugeren mulighed for at oprette en diskussion på diskussionssiden. Hvis denne tilladelse er aktiveret, er ’Diskussioner - opret’ ikke nødvendig.","if_the_additional_permissions_are_enabled_but_this_619c2a4a":"Hvis de ekstra tilladelser er aktiveret, men denne tilladelse ikke er aktiveret, kan låseindstillinger redigeres for individuelle diskussioner.","if_this_setting_is_disabled_and_discussions_view_i_8a068652":"Hvis denne indstilling er deaktiveret, og Diskussioner - vis er aktiveret, kan brugeren stadig justere indstillinger for indholdslås på individuelle diskussioner i et Blueprint-hovedfag.","to_edit_a_discussion_discussions_moderate_must_als_bd4c60f7":"For at redigere en diskussion skal Diskussioner - bedøm også være aktiveret.","to_edit_lock_settings_on_the_discussions_index_pag_9488110a":"For at redigere låseindstillinger på indekssiden for Diskussioner skal Fag - administrer og Diskussioner - vis også være aktiveret.","to_reply_to_a_discussion_discussions_post_must_be__a4cf502a":"For at svare i en diskussion skal Diskussioner - slå op være aktiveret.","to_view_announcements_announcements_view_must_also_75f652df":"For at få vist beskeder skal Beskeder - vis også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_51",
+  function() { return {"allows_user_to_view_the_eportfolio_moderation_page_5a6be051":"Lader brugeren se ePortfolio-bedømmelsessiden og administrere ePortfolio-spamindhold.","eportfolios_f6dc4579":"ePortfolier"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_52",
+  function() { return {"allows_user_to_reply_to_a_discussion_post_83f43e19":"Gør det muligt for en bruger at svare på en diskussionspost.","if_the_option_requiring_users_to_post_before_seein_a9274f5f":"Hvis indstillingen, der kræver, at brugere skal sende indlæg, før de ser svar, er valgt i en diskussion, skal brugerne sende et svar for at se alle indlæg, medmindre Diskussioner - bedøm også er aktiveret.","to_view_discussions_in_a_course_discussions_view_m_eb15b3f1":"For at få vist diskussioner i et fag skal Diskussioner - vis også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_53",
+  function() { return {"allows_user_to_access_the_announcements_link_in_co_f2e824e9":"Gør det muligt for en bruger at få adgang til linket Beskeder i Fagnavigation.","allows_user_to_view_course_announcements_e71afc2":"Gør det muligt for en bruger at få vist fagbeskeder.","allows_user_to_view_recent_announcements_on_the_co_e56c881e":"Gør det muligt for en bruger at få vist nylige beskeder på startsiden.","allows_user_to_view_the_announcements_link_in_cour_b3522273":"Gør det muligt for en bruger at få vist linket Beskeder i Fagnavigation.","global_announcements_a78912c8":"Generelle beskeder","this_permission_only_affects_course_announcements__6bc2b0a5":"Denne tilladelse påvirker kun fagbeskeder. For at administrere globale beskeder skal Globale beskeder - tilføj/redigér/slet være aktiveret.","to_add_announcements_discussions_moderate_must_als_a83fd681":"For at tilføje beskeder skal Diskussioner - bedøm også være aktiveret.","to_manage_course_announcements_discussions_moderat_5f02f46e":"For at administrere fagbeskeder skal Diskussioner - bedøm også være aktiveret.","to_view_recent_announcements_on_the_home_page_cour_5a91447e":"For at få vist nylige beskeder på hjemmesiden skal Fagindhold - vis være aktiveret, og der skal være kryds i afkrydsningsfeltet Vis nylige beskeder på startsiden i Fagindstillinger.","to_view_recent_announcements_on_the_home_page_the__fbd8d115":"For at få vist nylige beskeder på hjemmesiden skal der være kryds i afkrydsningsfeltet Vis nylige beskeder på startsiden i Fagindstillinger."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_54",
+  function() { return {"admin_tools_undelete_courses_d9bd8631":"Administratorværktøjer (fanen Fortryd sletning af fag)","allows_user_to_view_published_and_unpublished_cour_25a5dcc0":"Gør det muligt for en bruger at få vist offentliggjort og ikke offentliggjort indhold.","if_course_visibility_is_limited_to_users_enrolled__ab1b1517":"Hvis fagsynlighed er begrænset til brugere, der er tilmeldt faget, så giver denne tilladelse brugeren mulighed for at se fagindhold uden at være tilmeldt faget.","if_courses_manage_and_courses_undelete_are_also_en_9047d4b3":"Hvis Fag - administrer og Fag - fortryd sletning også er aktiveret, vil en bruger på kontoniveau kunne gendanne slettede fag i admin-værktøjer.","if_disabled_user_will_still_have_access_to_course__fbf32c87":"Hvis dette er deaktiveret, har brugeren stadig adgang til Fagindstillinger.","to_view_the_gradebook_grades_view_all_grades_must__7ead435":"For at få vist Vurderingsoversigten skal Vurderinger - vis alle vurderinger også være aktiveret.","user_cannot_manage_individual_course_content_witho_d7b65fd4":"Brugeren kan ikke administrere enkelt fagindhold uden den passende tilladelse for det pågældende indholdselement."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_55",
+  function() { return {"allows_user_to_filter_for_blueprint_courses_as_the_2b3d864e":"Gør det muligt for en bruger at filtrere for Blueprint-fag på kontoniveauet. Gør det muligt for en bruger at tilføje tilknyttede fag.","allows_user_to_see_the_list_of_courses_in_the_acco_5fa0142f":"Gør det muligt for en bruger at få vist listen over fag på kontoen.","allows_user_to_see_the_list_of_recently_started_an_f6d3fe6":"Gør det muligt for en bruger at få vist listen over nyligt startede og afsluttede fag i kontostatistik.","if_this_permission_is_disabled_and_courses_add_is__acccce1b":"Hvis denne tilladelse er deaktiveret, og Fag - tilføj er aktiveret, kan brugere tilføje et nyt fag med knappen Tilføj et nyt fag i Kontoindstillinger.","statistics_4573b730":"Statistik","to_add_associated_courses_blueprint_courses_add_ed_c1567d8a":"For at tilføje tilknyttede fag skal Blueprint-fag - tilføj / rediger / tilknyt / slet og Fag - tilføj også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_56",
+  function() { return {"allows_user_to_search_for_account_users_via_primar_db535df4":"Gør det muligt for en bruger at søge efter kontobrugere via primær e-mailadresse på siden Deltagere på kontoen.","allows_user_to_search_for_other_users_via_primary__c1da56c8":"Gør det muligt for en bruger at søge efter andre brugere via primær e-mailadresse på siden siden Deltagere i et fag.","allows_user_to_search_for_other_users_via_primary__c95888c8":"Gør det muligt for en bruger at søge efter andre brugere via primære e-mailadresser på siden Fagets deltagere.","if_this_permission_is_disabled_and_users_view_logi_9dbd9236":"Hvis denne tilladelse er deaktiveret, og Brugere - vis login-id’er er aktiveret, ser brugere stadig e-mailadresser, der er brugt som login-id’er.","to_view_the_account_people_page_users_view_list_mu_9d0bdb80":"For at få vist siden Deltagere på kontoen skal Brugere - vis liste være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_57",
+  function() { return {"allows_user_to_edit_blueprint_content_lock_setting_58a85315":"Gør det muligt for en bruger at redigere indstillinger for Blueprint-indholdslås i enkelte indstillinger, hvis brugeren er tilmeldt et Blueprint-hovedfag.","allows_user_to_edit_blueprint_content_lock_setting_cbbf55ee":"Gør det muligt for en bruger at redigere indstillinger for Blueprint-indholdslås i enkelte diskussioner.","allows_user_to_view_course_discussions_23346fa1":"Gør det muligt for en bruger at få vist fagdiskussioner.","allows_user_to_view_the_discussions_link_in_course_80ab2fca":"Gør det muligt for en bruger at få vist linket Diskussioner i Fagnavigation.","blueprint_courses_must_be_enabled_for_an_account_b_edd8f7d3":"En admin skal aktivere Blueprint-fag for en konto.","course_roles_can_only_manage_content_in_blueprint__c4b14b26":"Fagroller kan kun administrere fagindhold i Blueprint-fag, hvis de er føjet til Blueprint-faget med lærer-, undervisningsassistents- eller designerrolle.","to_edit_blueprint_lock_settings_from_the_discussio_66c1f4d3":"For at redigere Blueprint-låseindstillinger fra indekssiden Diskussioner skal Diskussioner - bedøm også være aktiveret.","to_edit_lock_settings_from_the_discussions_index_p_d6743898":"For at redigere låseindstillinger fra indekssiden for Diskussioner skal Blueprint-fag - tilføj / rediger / tilknyt / slet og Fag - administrer også være aktiveret.","to_reply_to_a_discussion_discussions_post_must_als_c9654a9b":"For at svare i en diskussion skal Diskussioner - slå op også være aktiveret.","to_share_a_discussion_to_commons_course_content_ad_962c5e53":"For at dele en diskussion med Commons skal Fagindhold - tilføj/redigér/slet også være aktiveret.","to_share_a_discussion_to_commons_courses_manage_mu_addad8ba":"For at dele en diskussion på Commons skal Fag - administrer også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_58",
+  function() { return {"allows_user_to_access_the_manage_question_banks_li_616d45c8":"Gør det muligt for en bruger at tilgå linket Administrer spørgsmålsbanker på Quiz-indekssiden","allows_user_to_view_and_link_questions_in_a_quiz_t_f6795580":"Gør det muligt for en bruger at få vist og knytte spørgsmål i en quiz til spørgsmålsbanker på kontoniveau.","allows_user_to_view_and_link_questions_in_a_quiz_t_f8c3d8de":"Gør det muligt for en bruger at få vist og knytte spørgsmål i en quiz til spørgsmålsbanker på fagniveau.","question_banks_45bdf347":"Spørgsmålsbanker","question_banks_courses_dd907ecf":"Spørgsmålsbank (fag)","quizzes_and_question_banks_9b7569e3":"Quizzer og spørgsmålsbanker","to_access_the_manage_question_banks_link_in_a_cour_cc26af7c":"For at få adgang til linket Administrer spørgsmålsbanker på et fags Indeksside for quizzer skal Fagindhold - vis og Opgaver og Quizzer - administrer / rediger også være aktiveret.","to_fully_manage_course_level_question_banks_assign_3e5eb580":"For fuldt ud at administrere spørgsmålsbanker på fagniveau skal tilladelsen Opgaver og Quizzer - administrer / rediger også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_59",
+  function() { return {"allows_user_to_view_access_reports_f7be7a84":"Gør det muligt for en bruger at se Adgangsrapporter.","allows_user_to_view_and_configure_reports_in_accou_d3cee49f":"Gør det muligt for en bruger at få vist og konfigurere rapporter i Kontoindstillinger.","allows_user_to_view_last_activity_and_total_activi_105b5bc3":"Gør det muligt for en bruger at få vist oplysninger om sidste aktivitet og samlet aktivitet på siden Deltagere.","allows_user_to_view_last_activity_and_total_activi_1455c521":"Gør det muligt for en bruger at få vist rapporter om Sidste aktivitet og Samlet aktivitet.","allows_user_to_view_last_activity_and_total_activi_786a7286":"Gør det muligt for en bruger at få vist oplysninger om sidste aktivitet og samlet aktivitet på siden Deltagere.","allows_user_to_view_the_course_statistics_button_i_f44b2c7a":"Gør det muligt for en bruger at få vist knappen fagstatistik i Fagindstillinger.","reports_course_f09b7d9e":"Rapporter (fag)","to_access_a_course_people_page_users_view_list_mus_5a4ee1a5":"For at få adgang til siden Deltagere i et fag skal Brugere - vis liste også være aktiveret.","to_access_the_people_page_users_view_list_must_be__6f42bf9e":"For at få adgang til siden Deltagere skal Brugere - vis liste være aktiveret.","to_access_the_student_interactions_report_grades_v_69105662":"For at få adgang til rapporten Elevinteraktioner skal Vurderinger - vis alle vurderinger også være aktiveret.","to_view_last_activity_and_total_activity_informati_473265d8":"For at få vist oplysninger om sidste aktivitet og samlet aktivitet på siden Deltagere i faget skal Brugere - vis liste også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_60",
+  function() { return {"account_groups_2f301732":"Kontogrupper","allows_user_to_access_the_people_link_in_account_n_d42a0fd4":"Gør det muligt for en bruger at få adgang til linket Deltagere i Kontonavigation.","allows_user_to_differentiate_assignments_to_indivi_37f701a5":"Gør det muligt for en bruger at differentiere opgaver for enkelte elever.","allows_user_to_search_grade_change_logs_by_grader__406d1976":"Gør det muligt for en bruger at søge i logfiler over vurderingsændringer efter bedømmer eller elev i Administratorværktøjer.","allows_user_to_send_a_message_in_conversations_wit_d48abf1a":"Gør det muligt for en bruger at sende en besked i Samtaler uden at vælge et fag.","allows_user_to_view_and_add_users_in_a_collaborati_9ec3c68b":"Gør det muligt for en bruger at få vist og tilføje brugere i et samarbejde.","allows_user_to_view_enrollments_on_the_sections_ta_6279a03e":"Gør det muligt for en bruger at få vist tilmeldinger på fanen Sektioner.","allows_user_to_view_groups_in_a_course_8a95805b":"Gør det muligt for en bruger at få vist grupper i et fag.","allows_user_to_view_list_of_users_in_the_account_1802ad42":"Gør det muligt for en bruger at få vist listen over brugere på kontoen.","allows_user_to_view_list_of_users_in_the_course_pe_9ab1309c":"Gør det muligt for en bruger at få vist listen over brugere på siden Deltagere i faget.","allows_user_to_view_login_logout_activity_of_users_e11dd2de":"Gør det muligt for en bruger at få vist login-/logoutaktivitet for brugere i Administratorværktøjer.","allows_user_to_view_the_people_link_in_course_navi_58b38f5d":"Gør det muligt for en bruger at få vist linket Deltagere i Fagnavigation.","allows_user_to_view_the_prior_enrollments_button_i_b04b8132":"Gør det muligt for en bruger at få vist knappen Tidligere tilmeldinger på siden Deltagere i faget.","groups_course_c73e4c2c":"Grupper (fag)","navigation_allows_user_to_view_the_people_link_in__dd533d29":"Navigation gør det muligt for en bruger at få vist linket Deltagere i Fagnavigation.","to_act_as_other_users_users_act_as_must_also_be_en_cc96faf1":"For at optræde som en anden bruger skal Brugere - optræd som også være aktiveret.","to_add_groups_groups_add_must_also_be_enabled_33680f91":"For at tilføje grupper skal Grupper - tilføj også være aktiveret.","to_delete_groups_groups_delete_must_also_be_enable_5157ff6e":"For at slette grupper skal Grupper - slet også være aktiveret.","to_edit_a_user_s_section_the_appropriate_users_per_31b7a90d":"For at redigere en brugers sektion skal den relevante brugertilladelse (fx Brugere - lærere), Brugere - tillad administrative handlinger i fag og Diskussioner - send til individuelle fagmedlemmer også være aktiveret.","to_edit_groups_groups_manage_must_also_be_enabled_64b30525":"For at redigere grupper skal Grupper - administrer også være aktiveret.","to_generate_grade_change_logs_in_admin_tools_grade_cbcab1c9":"For at generere vurderingsændringslogfiler i Administratorværktøjer skal Vurderinger - vis ændringslogfiler også være aktiveret.","to_generate_login_logout_activity_in_admin_tools_u_603c40a0":"For at generere login- / logout-aktivitet i Administratorværktøjer skal Brugere - administrer loginoplysninger eller Statistik - vis også være aktiveret.","to_send_a_message_to_an_individual_user_conversati_8d86a0da":"For at sende en besked til en enkelt bruger skal Samtaler - send beskeder til enkelte af fagets deltagere også være aktiveret.","to_view_account_level_groups_groups_manage_must_al_ca16b035":"For at se grupper på kontoniveau skal Grupper - administrer også være aktiveret.","to_view_user_page_views_statistics_view_must_also__e400875a":"For at få vist sidevisninger for bruger skal Statistik - vis også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_61",
+  function() { return {"account_and_subaccount_40c6430":"Konto og underkonto","allows_user_to_view_a_course_s_sis_id_5c4a4c50":"Gør det muligt for en bruger at få vist et fags SIS-ID.","allows_user_to_view_course_sis_id_3a1818a5":"Gør det muligt for en bruger at få vist et fags SIS-ID.","allows_user_to_view_the_sis_id_in_a_user_s_login_d_71e0922b":"Tillader brugeren at se SIS-ID'et i en brugers loginoplysninger.","allows_user_to_view_the_user_sis_id_column_in_the__265cb234":"Tillader brugeren at se brugerens SIS ID-kolonne i CSV-filen for quizelementanalyse.","allows_user_to_view_user_sis_ids_68a9d218":"Gør det muligt for en bruger at få vist SIS-ID’er.","allows_user_to_view_user_sis_ids_in_a_course_peopl_fc145ade":"Giver brugeren mulighed for at se bruger-SIS-ID'er på et fags Deltager-side.","governs_account_related_sis_ids_i_e_subaccount_sis_b7dd0954":"Styrer kontorelaterede SIS-ID’er (dvs. SIS-ID til underkonto).","if_sis_data_manage_is_disabled_and_sis_data_read_i_3db0be5":"Hvis SIS-data - administrer er deaktiveret, og SIS-data - læs er aktiveret, kan brugere kun få vist SIS-ID’er for fag, bruger og underkonto.","if_sis_data_manage_is_enabled_and_sis_data_read_is_155d15ef":"Hvis SIS-data - administrer ​er aktiveret, og SIS-data - læs er deaktiveret, tilsidesætter kontotilladelsen fagtilladelsen.","subaccount_admins_are_not_able_to_view_sis_informa_a9690589":"Underkontoadmins kan ikke få vist SIS-oplysninger, medmindre de også får tildelt instruktørrolle i et fag.","subaccount_admins_cannot_view_sis_information_with_15a41444":"Underkontoadmins kan ikke få vist SIS-oplysninger uden fagtilknytningen, da instruktørrollen har tilladelse til at læse SIS-data på kontoniveauet.","subaccounts_only_have_ownership_of_courses_and_sec_56385a91":"Underkonti har kun ejerskab af fag og sektioner. De ejer ikke brugerdata. Underkontoadmins kan ikke få vist SIS-oplysninger, medmindre de også får tildelt instruktørrolle i et fag.","to_add_or_remove_users_to_a_course_via_sis_the_app_a1eee199":"For at tilføje eller fjerne brugere til et fag via SIS skal den relevante brugertilladelse være aktiveret (fx Brugere - lærere).","to_disallow_users_from_viewing_any_sis_ids_at_the__7e0cac1b":"For at undgå at brugere kan få vist SIS-ID’er på fagniveau, skal både SIS-data - administrer og SIS-data - læs være deaktiveret.","to_manage_sis_data_sis_data_manage_must_be_enabled_cb33e77d":"For at administrere SIS-data skal SIS-data - administrer være aktiveret.","to_view_a_user_s_login_details_users_view_list_and_6d42118b":"For at få vist en brugers loginoplysninger skal både Brugere - vis liste og Redigér loginoplysninger for brugere også være aktiveret.","to_view_the_list_of_users_in_the_course_users_view_b7b9b4ef":"For at få vist listen over brugere i faget skal Brugere - vis liste også være aktiveret.","users_and_terms_are_located_at_the_account_so_the__8f3258e6":"Brugere og skoleår findes på kontoen, således at SIS-slutpunktet altid bekræfter brugerens tilladelser i henhold til kontoen."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_62",
+  function() { return {"allows_user_to_select_final_grade_for_moderated_as_c5e28a9c":"Gør det muligt for en bruger at vælge endelig vurdering for bedømte opgaver.","to_add_students_to_a_moderation_set_grades_view_al_40f2b8eb":"For at føje elever til et bedømmelsessæt skal Vurdering - vis alle også være aktiveret.","to_post_or_hide_grades_for_a_moderated_assignment__bf929e0c":"Hvis du vil indsætte eller skjule vurderinger for en bedømt opgave, skal Vurdering - rediger også være aktiveret.","to_publish_final_grades_for_a_moderated_assignment_713090cf":"For at offentliggøre endelige vurderinger for en bedømt opgave skal Vurdering - rediger også være aktiveret.","to_review_a_moderated_assignment_in_speedgrader_gr_33227412":"For at gennemgå en bedømt opgave i SpeedGrader skal Vurdering - rediger også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_64",
+  function() { return {"allows_user_to_send_a_message_to_all_in_course_nam_4f41b5a2":"Gør det muligt for en bruger at sende en besked til \"Alle i [fagets navn]\" eller \"Alle i [fagets kode]\".","allows_user_to_send_a_message_to_all_in_course_nam_992e425":"Gør det muligt for en bruger at sende en besked til ”Alle i [course name]” eller ”Alle i [course group]”."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_63",
+  function() { return {"allows_user_to_send_messages_to_individual_course__9347e1e2":"Gør det muligt for en bruger at sende beskeder til enkelte af fagets deltagere.","to_edit_a_user_s_section_users_allow_administrativ_69b3cdaa":"For at redigere en brugers sektion skal Brugere - tillad administrative handlinger i fag og Brugere - vis liste også være aktiveret. ","when_disabled_students_can_still_send_individual_m_3bf396f2":"Når deaktiveret, kan elever stadig sende individuelle beskeder til fagets lærere, undervisningsassistenter og elever, der hører til de samme grupper på kontoniveau.","when_disabled_students_can_still_send_individual_m_567a911c":"Når de er deaktiveret, kan elever stadig sende enkelte beskeder til fagets lærere, undervisningsassistenter og elever, der hører til de samme grupper på kontoniveau."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_65",
+  function() { return {"admin_tools_restore_courses_tab_b07bbfa7":"Administratorværktøjer (fanen Gendan fag)","allows_user_to_access_the_restore_courses_tab_in_a_397d9178":"Gør det muligt for en bruger at få adgang til fanen Gendan fag i Administratorværktøjer","to_restore_a_deleted_course_in_an_account_manage_c_3ad933ee":"For at gendanne et slettet fag på en konto skal Administrer fag - slet og Fagindhold - vis også være aktiveret.","to_search_for_a_course_in_the_restore_courses_tab__93dffdd5":"For at søge efter et fag på fanen Gendan fag skal Fagindhold - vis også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_66",
+  function() { return {"adds_analytics_link_on_the_user_settings_menu_3a048816":"Tilføjer analyselink i menuen Brugerindstillinger.","adds_analytics_to_a_student_s_context_card_d4c1e3a3":"Føjer analyse til en elevs kontekstkort.","admin_tools_grade_change_logs_d804833f":"Administratorværktøjer (logge over vurderingsændringer)","allows_user_to_access_speedgrader_from_an_assignme_3b908f7":"Gør det muligt for en bruger at få adgang til SpeedGrader fra en opgave.","allows_user_to_access_the_student_progress_page_aca95197":"Gør det muligt for en bruger at få adgang til siden Elevers fremskridt.","allows_user_to_export_the_gradebook_to_a_comma_sep_e52259a3":"Gør det muligt for en bruger at eksportere vurderingsoversigten til en CSV-fil (kommaseparerede værdier).","allows_user_to_search_by_assignment_id_in_grade_ch_ae195b94":"Gør det muligt for en bruger at søge efter opgave-id i logge over vurderingsændringer.","allows_user_to_view_a_link_to_speedgrader_from_ass_8ed9b342":"Gør det muligt for en bruger at få vist et link til SpeedGrader fra opgaver.","allows_user_to_view_analytics_link_in_the_user_set_56867782":"Tillader, at en bruger ser analyselinket i menuen Brugerindstillinger.","allows_user_to_view_gradebook_9720b3e2":"Gør det muligt for en bruger at få vist vurderingsoversigten.","allows_user_to_view_grader_comments_on_a_rubric_in_2ac9f890":"Gør det muligt for en bruger at få vist en bedømmers kommentarer til et vurderingskriterie i SpeedGrader.","allows_user_to_view_student_grades_pages_e0091b20":"Gør det muligt for en bruger at få vist elevers sider med vurderinger.","allows_user_to_view_student_results_view_quiz_stat_7d77640a":"Gør det muligt for en bruger at se elevernes resultater, se quizstatistikker og få adgang til en quiz i SpeedGrader.","assignments_speedgrader_2fbd6df4":"Opgaver, SpeedGrader","if_both_grades_edit_and_grades_view_all_grades_are_ed522d43":"Hvis både ’Vurderinger - redigér’ og ’Vurderinger - vis alle vurderinger’ er deaktiveret, bliver vurderingsoversigten skjult for Fagnavigation.","rubrics_speedgrader_a6ebec57":"Vurderingskriterier, SpeedGrader","to_post_or_hide_grades_grades_edit_must_also_be_en_c58f5efe":"Hvis du vil slå vurderinger op eller skjule dem, skal Vurdering - rediger også være aktiveret.","to_view_module_progression_grades_view_all_grades__1acc0880":"For at få vist forløbprogression skal Vurderinger - vis alle vurderinger også være aktiveret.","to_view_student_analytics_analytics_view_must_also_a735c0b4":"For at få vist elevanalyse skal Analyse - vis også være aktiveret.","to_view_the_gradebook_course_content_view_must_als_45c2e607":"For at få vist Vurderingsoversigten skal Fagindhold - vis også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_67",
+  function() { return {"allows_user_to_view_account_analytics_98fbc6ad":"Gør det muligt for en bruger at få vist kontoanalyse.","allows_user_to_view_course_analytics_through_the_c_192889dc":"Gør det muligt for en bruger at få vist faganalyse via fagets oversigt.","allows_user_to_view_course_and_student_analytics_f_5e3dca12":"Gør det muligt for en bruger at få vist analyse af fag og elever fra startside eller siden Deltagere.","allows_user_to_view_student_analytics_89bfd9e8":"Gør det muligt for en bruger at få vist analyse af elever.","analytics_account_c2bf8cf6":"Analyse (konto)","analytics_course_5d53aef7":"Analyse (fag)","the_analytics_feature_must_be_enabled_in_account_s_869b63a2":"Funktionen analyse skal være aktiveret i Kontoindstillinger for at få vist analysesider.","to_see_the_analytics_link_in_the_user_sidebar_from_6a8b20d9":"For at se linket Analyse på brugerens sidepanel fra siden Deltagere skal Profiler være deaktiveret på din konto.","to_view_student_analytics_in_course_analytics_grad_654a5c5a":"For at få vist analyse af elever i faganalyse skal Vurderinger - vis alle vurderinger også være aktiveret.","to_view_student_analytics_in_course_analytics_grad_91d58a8a":"For at få vist analyse af elever i faganalyse skal ’Vurderinger - vis alle vurderinger’ også være aktiveret","to_view_student_analytics_users_view_list_and_grad_59d0da3e":"For at få vist analyse af elever skal ’Brugere - vis liste’ og ’Vurderinger - vis alle vurderinger’ også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_68",
+  function() { return {"allows_user_to_review_an_audit_trail_in_assignment_9ca5d03d":"Gør det muligt for en bruger at gennemse et revisionsspor i både bedømte og anonyme opgaver.","to_post_or_hide_grades_for_an_assignment_grades_ed_974f6de4":"For at slå vurderinger op eller skjule dem for en opgave, skal Vurdering - rediger også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_69",
+  function() { return {"allows_user_to_view_course_activity_information_fo_e420113b":"Gør det muligt for en bruger at få vist oplysninger om fagaktivitet for kontoen.","determines_visibility_of_the_course_activity_optio_6dc5ceb9":"Bestemmer synligheden af valgmuligheden Fagaktivitet på fanen Logføring i Administratorværktøjer."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_70",
+  function() { return {"allows_user_to_view_feature_options_in_account_set_befc6b83":"Gør det muligt for en bruger at se funktionsindstillinger i Kontoindstillinger.","to_manage_feature_options_for_an_account_feature_o_6327c2da":"For at administrere funktionsindstillinger for en konto skal Funktionsindstillinger - aktiver / deaktiver også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_71",
+  function() { return {"determines_visibility_of_the_grade_change_activity_6c23036b":"Bestemmer synligheden af valgmuligheden Vurderingsændringer på fanen Logføring i Administratorværktøjer.","to_search_by_assignment_id_only_grades_view_all_gr_6c58d9bb":"For udelukkende at søge efter opgave-ID skal Vurderinger - vis alle vurderinger også være aktiveret.","to_search_by_course_id_or_assignment_id_grades_edi_ac2c7b94":"For at søge efter fag-id eller opgave-id skal ’Vurderinger - redigér’ også være aktiveret.","to_search_by_grader_or_student_id_users_view_must__4639a825":"For at søge efter bedømmer eller elev-ID skal Brugere - vis også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_72",
+  function() { return {"allows_students_to_access_other_student_groups_wit_43918810":"Gør det muligt for elever at få adgang til andre elevgrupper i et gruppesæt med et direkte link.","allows_user_to_view_the_group_home_pages_of_all_st_b463b0f9":"Gør det muligt for en bruger at få vist gruppehjemmesiderne for alle elevgrupperne.","by_default_students_are_able_to_create_groups_to_r_ac2a70bd":"Elever kan som standard oprette grupper. For at begrænse at elever opretter grupper, skal afkrydsningsfeltet Giv elever mulighed for at organisere deres egne grupper ikke markeres i Fagindstillinger."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_73",
+  function() { return {"admin_tools_notifications_tab_120d6cdf":"Administratorværktøjer (fanen Meddelelser)","allows_user_to_access_the_view_notifications_tab_i_71995596":"Gør det muligt for en bruger at få adgang til fanen Vis meddelelser i Administratorværktøjer.","to_search_and_view_notifications_for_a_user_users__fab7293a":"For at søge i og få vist meddelelser for en bruger skal Brugere - vis også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_74",
+  function() { return {"allows_user_to_view_student_quiz_logs_e1c4491":"Gør det muligt for en bruger at få vist elever quizlogge.","grades_edit_must_also_be_enabled_c025f45d":"Vurderinger - rediger skal også være aktiveret.","the_quiz_log_auditing_feature_option_must_be_enabl_77bf321e":"Funktionen revision af quiz-log skal være aktiveret i Fagindstillinger."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_75",
+  function() { return {"account_statistics_2b52a1c9":"Kontostatistik","allows_admin_user_to_view_account_statistics_341f00d9":"Gør det muligt for en admin-bruger at få vist kontostatistik.","if_statistics_view_or_users_manage_login_details_i_18b00d5c":"Hvis statistik - vis eller Brugere - administrer loginoplysninger er aktiveret, kan brugeren generere login- / logoutaktivitet i Admin-værktøjer. For at skjule valgmuligheden login-/logoutaktivitet i Administratorværktøjer skal begge af disse tilladelser være deaktiveret.","to_view_user_page_views_users_view_list_must_also__81cc34ed":"For at få vist sidevisninger for en bruger skal Brugere - vis liste også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "permissions_templates_76",
+  function() { return {"allows_user_to_search_for_other_users_by_login_id__2b0bd8c9":"Gør det muligt for en bruger at søge efter andre brugere efter login-id på fagets side for deltagere.","allows_user_to_search_for_other_users_by_login_id__3edb3702":"Gør det muligt for en bruger at søge efter andre brugere efter login-id på siden Deltagere på kontoen.","if_this_permission_is_enabled_and_if_users_view_pr_9ba99d6":"Hvis denne tilladelse er aktiveret, og Brugere - vis primær e-mailadresse er deaktiveret, ser brugere e-mailadresser, der er brugt som login-id’er.","people_account_course_97b2bbb6":"Deltagere (konto, fag)","to_view_login_ids_users_allow_administrative_actio_1b5789db":"For at se login-id'er skal Brugere - tillad administrative handlinger i fag også være aktiveret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "plugins",
+  null,
+  function() { return {"buttons":{"saving":"Gemmer ..."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "user_profile",
+  function() { return {"are_you_sure_you_want_to_remove_this_user_s_profil_6d703c4":"Er du sikker på, at du vil fjerne denne brugers profilbillede?","failed_to_remove_the_image_please_try_again_bd3ca65d":"Det lykkedes ikke at fjerne billedet, prøv igen.","failed_to_report_the_image_please_try_again_92398b47":"Det lykkedes ikke at indberette billedet, prøv igen.","report_profile_picture_8f1d7535":"Indberet profilbillede","reported_profile_pictures_will_be_sent_to_administ_50fd4d05":"Indberettede profilbilleder vil blive sendt til administratorer til gennemgang. Du vil ikke kunne fortryde denne handling.","the_profile_picture_has_been_removed_74d50047":"Profilbilledet er blevet fjernet.","the_profile_picture_has_been_reported_762e3755":"Profilbilledet er blevet indberettet."} },
+  function() { return {"invalid_url":"Ugyldig URL","profile_bio_too_long":"Bio’en er for lang","profile_title_too_long":"Titlen er for lang"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "profile",
+  function() { return {"bounce_count_reset_c4c2218f":"Afvisningsantal nulstillet!","cell_number_is_invalid_bd6faee0":"Mobilnummer er ugyldigt!","cell_number_is_required_2edcee60":"Mobilnummer er påkrævet","confirm_communication_channel_81c48d08":"Bekræft kommunikationskanal","confirmation_failed_please_try_again_ae566d37":"Bekræftelse mislykkedes. Prøv igen.","country_or_region_is_required_86917b39":"Land eller region er påkrævet","email_is_invalid_e0d982eb":"E-mailen er ugyldig!","profile_photo_save_failed_too_many_times_e1ebda5":"Profilbilledet kunne ikke gemmes for mange gange","this_is_the_default_email_address_f3c421fb":"Dette er standard e-mailadressen","your_profile_photo_could_not_be_uploaded_you_may_h_1c90540c":"Dit profilbillede kunne ikke uploades. Du har muligvis overskredet grænsen for upload."} },
+  function() { return {"buttons":{"generate_token":"Dan token","generating_token":"Danner token ...","regenerate_token":"Gendan token","regenerating_token":"Gendanner token ...","save":"Gem","select_profile_picture":"Vælg profilbillede","selecting_image":"Vælger billede ..."},"confirming_contact":"Bekræfter ...","confirms":{"delete_access_key":"Er du sikker på, at du vil slette denne hurtigtast?","delete_login":"Er du sikker på, at du vil slette dette login?","regenerate_token":"Er du sikker på, at du vil gendanne dette token? Alle ting som bruger dette token skal opdateres.","unregister_service":"Er du sikker på, at du vil slette tjenestens registrering?"},"done_resending":"Færdig! Levering af besked kan tage få minutter.","errors":{"generating_token_failed":"Dannelse af token mislykkedes","regenerating_token_failed":"Det mislykkedes at gendanne token","registration_failed":"Registrering mislykkedes: Tjek brugernavn og adgangskode og prøv igen."},"failed_resending":"Anmodningen mislykkedes. Prøv igen.","links":{"resend_confirmation":"Send bekræftelse igen","resend_confirmation_failed":"Anmodningen mislykkedes. Prøv igen.","resending_confirmation":"Gensender ...","resent_confirmation":"Færdig! Beskeden tager muligvis få minutter."},"notices":{"contact_confirmed":"Kontakten blev bekræftet!","mfa_disabled":"Multi-faktor-autentifikation deaktiveret"},"please_select_an_option":"Vælg en mulighed","purpose_required":"Formål er påkrævet","resending":"sender igen ...","titles":{"confirm_email_address":"Bekræft e-mailadresse","contact_not_confirmed":"Denne kontakt er ikke blevet bekræftet. Klik på adressen for nærmere oplysninger","email_not_confirmed":"Denne e-mail er ikke blevet bekræftet. Klik på adressen for nærmere oplysninger","register_communication":"Registrer kommunikation","unconfirmed_click_to_confirm":"Ubekræftet. Klik for at bekræfte"},"token_never_expires":"aldrig"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "fromNowFuzzy",
+  function() { return {"a_few_seconds_ago_e43118d":"for et par sekunder siden","in_a_few_seconds_538ddff3":"om et par sekunder","in_less_than_a_minute_c8595a28":"om mindre end et minut","less_than_a_minute_ago_9f45e2a5":"for mindre en et minut siden"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "QRMobileLogin",
+  function() { return {"an_error_occurred_while_retrieving_your_qr_code_5392e2da":"Der opstod en fejl, da du forsøgte at hente din QR-kode","click_cancel_if_you_don_t_want_the_code_displayed_ff7b1846":"Klik på \"Annuller\", hvis du ikke vil have koden vist.","click_proceed_to_continue_b6eeffc6":"Klik på \"Fortsæt\" for at fortsætte.","confirm_qr_code_display_49664fa3":"Bekræft visning af QR-kode","please_make_sure_no_one_is_able_to_capture_the_ima_3d6498e7":"Sørg for, at der ikke er nogen, der i stand til at fange billedet på din skærm fra dine omgivelser eller fra en skærmdelingsservice.","qr_code_display_was_canceled_96234bf2":"Visning af QR-kode blev annulleret","qr_code_image_2b3a89b5":"QR-kode-billede","qr_for_mobile_login_1b1560ce":"QR til mobil login","sharing_a_qr_code_can_give_others_immediate_access_79575158":"Deling af en QR-kode kan give andre øjeblikkelig adgang til din konto gennem de %{canvas} mobile applikationer.","this_code_expires_timefromnow_877a5225":"Denne kode udløber %{timeFromNow}.","this_code_has_expired_41f76642":"Denne kode er udløbet.","to_log_in_to_your_canvas_account_when_you_re_on_th_63ac63b1":"Hvis du vil logge ind på din Canvas-konto, når du er på farten, skal du scanne denne QR-kode fra enhver Canvas mobilapp.","waiting_for_confirmation_to_display_qr_code_6f904d63":"Venter på bekræftelse for at få vist QR-kode","waiting_for_your_qr_code_to_load_809299e5":"Venter på, at din QR-kode bliver indlæst"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "bundles_quesiton_bank",
+  null,
+  function() { return {"titles":{"find_outcomes":"Find læringsudbytter"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "add_bank",
+  null,
+  function() { return {"default_name":"Intet navn"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "question_bank",
+  null,
+  function() { return {"align_outcomes":"Tilpas læringsudbytter","already_bookmarked":"Allerede i bogmærker","bookmark_failed":"Bogmærket mislykkedes","bookmarking":"Forsyner med bogmærke ...","buttons":{"submit_copying":{"one":"Kopierer spørgsmål ...","other":"Kopierer spørgsmål ..."},"submit_copying_failed":{"one":"Kopiering af spørgsmål mislykkedes, prøv igen","other":"Kopiering af spørgsmål mislykkedes, prøv igen"},"submit_moving":{"one":"Flytter spørgsmål ...","other":"Flytter spørgsmål ..."},"submit_moving_failed":{"one":"Flytning af spørgsmål mislykkedes, prøv igen","other":"Flytning af spørgsmål mislykkedes, prøv igen"},"submit_retry_copying":"Kopiering af spørgsmålet mislykkedes, prøv igen ...","submit_retry_moving":"Flytning af spørgsmålet mislykkedes, prøv igen ..."},"delete_are_you_sure":"Er du sikker på, at du vil slette denne spørgsmålsbank?","links":{"more_questions":"flere spørgsmål"},"load_questions":"Indlæser spørgsmål ...","loading_more_fail":"indlæsning af flere spørgsmål mislykkedes, prøv igen","move_questions":"Flyt spørgsmål","multiple_questions":"Flere spørgsmål","question_bank":"Spørgsmålsbank","remove_outcome_from_bank":"Er du sikker på, at du vil slette dette læringsudbytte fra banken?","title":{"move_copy_questions":"Flyt/Kopiér spørgsmål"},"update_outcomes_fail":"Opdatering af læringsudbytte mislykkedes","updating_outcomes":"Opdaterer læringsudbytte ..."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "load_bank",
+  null,
+  function() { return {"error_loading_banks":"Fejl under indlæsning af banker","loading_banks":"Indlæser banker ..."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "question_banks",
+  null,
+  function() { return {"delete_question_bank_prompt":"Er du sikker på, at du vil slette denne spørgsmålsbank?"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "quiz_log_auditing",
+  function() { return {"answer_sequence_cfeda025":"Svarrækkefølge","question_9121487":"Spørgsmål"} },
+  function() { return {"buttons":{"reload_events":"Genindlæs","table_view":"Vis tabel"},"event_stream":{"headers":{"action_log":"Oversigt over handlinger"},"notices":{"no_events_available":"Der blev ikke logget nogen begivenheder under quizzens session."},"page_blurred":"Stoppede med at vise side til Canvas-quizzen ...","page_focused":"Genoptaget.","question_answered":{"one":"Besvarede spørgsmål:","other":"Besvarede følgende spørgsmål:"},"question_flagged":"Afmærket spørgsmål:","question_unflagged":"Ikke afmærket spørgsmål:","question_viewed":{"one":"Vist (og muligvis læst) spørgsmål","other":"Vist (og muligvis læst) de følgende spørgsmål:"},"session_started":"Session startet"},"links":{"log_accessibility_warning":"Advarsel: For forbedret tilgængelighed når du bruger Quiz Logs, skal du forblive i den nuværende strømvisning."},"navigation":{"links":{"back_to_session_information":"Tilbage til oversigt","question":"Spørgsmål %{position}"},"questions":"Spørgsmål"},"no_answer":"Intet svar","page_header":"Sessionsoplysninger","question_answers":{"essay":{"view_html_answer":"Vis HTML","view_plain_answer":"Vis almindelig tekst"}},"question_header":"Spørgsmål #%{position}","question_response_count":{"one":"Dette spørgsmål blev besvaret før.","other":"Dette spørgsmål blev besvaret %{count} gange.","zero":"Dette spørgsmål blev aldrig besvaret."},"question_type":"%{type}","session_table_headers":{"attempt":"Forsøg","started_at":"Startede"},"table_view":{"buttons":{"go_to_stream":"Vis aktivitetsstrøm"},"headers":{"question":"Spørgsmål %{position}","timestamp":"Tidsstempel"},"legend":{"dotted_circle":"Punkteret cirkel","dotted_circle_desc":"Et svar, uanset korrektheden.","empty_circle":"Tom cirkel","empty_circle_desc":"Et tomt svar.","filled_circle":"Udfyldt cirkel","filled_circle_desc":"Det endelige svar på dette spørgsmål er det, som tæller."},"options":{"expand_all":"Udvid alle svar","invert":"Omvend","truncate":"Afkort tekstsvar"}}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "quiz_migration_notifications",
+  function() { return {"there_was_an_error_removing_the_notification_20a9de65":"Der opstod en fejl under fjernelse af meddelelsen"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "quiz_reports",
+  function() { return {"download_item_analysis_report_statuslabel_8c9387ec":"Download rapport over elementanalyse %{statusLabel}","download_student_analysis_report_statuslabel_1471c8c2":"Download rapport over analyse af elev %{statusLabel}","generate_item_analysis_report_statuslabel_16e02c8":"Generer rapport over elementanalyse %{statusLabel}","generate_student_analysis_report_statuslabel_aecdc4dc":"Generer rapport over analyse af elev %{statusLabel}"} },
+  function() { return {"cancel_generation":"Annullér","generatable":"Rapporten er aldrig blevet genereret.","generated_at":"Genereret: %{date}","generating":"Rapporten genereres ...","generation_almost_done":"Næsten færdig.","generation_halfway":"Mindre end halvdelen tilbage.","generation_started":"Rapporten genereres.","item_analysis":"Elementanalyse","non_generatable_report_notice":"Rapporten kan ikke genereres til spørgeundersøgelsesquizzer.","student_analysis":"Analyse af elev"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "quiz_statistics",
+  function() { return {"a_table_of_answers_and_brief_statistics_regarding__f516e98f":"En tabel over svar og korte statistiske oplysninger vedrørende elevernes svarmuligheder.","answer_correct_answer_c2c4a20c":"%{answer}, (korrekt svar)","answer_description_6b353cfd":"Svarbeskrivelse","answer_distribution_2a956e3f":"Svarfordeling","answer_incorrect_answer_80efe585":"%{answer}, (forkert svar)","answer_text_909894d6":"Svarets tekst","answers_which_scored_in_the_bottom_27_74409483":"Svar som scorede i den nederste 27 %","answers_which_scored_in_the_middle_46_46466ffd":"Svar som scorede i de mellemste 46 %","answers_which_scored_in_the_top_27_a605232d":"Svar som scorede i de øverste 27 %","correct_answer_5a6a57d1":"Korrekt svar","correct_check_icon_617da6c3":"flueben-ikon","graph_bar_b5daa23d":"Graflinje","incorrect_answer_7c17e63b":"Forkert svar","it_divides_students_into_three_groups_based_on_the_1a107f5b":"\n        Den opdeler eleverne i tre grupper baseret på deres overordnede quizresultat\n        og viser disse grupper efter hvem der besvarede spørgsmålet korrekt.\n      ","learn_more_about_quiz_statistics_315a378":"Lær mere om quizstatistikker.","percent_of_respondents_selecting_this_answer_4c2ce4ee":"Procentdel af respondenter som vælger dette svar","ratio_answered_correctly_b0c1e7d":"%{ratio}% besvaret korrekt","ratio_responded_correctly_6d890107":"%{ratio}% svarede korrekt","this_metric_provides_a_measure_of_how_well_a_singl_a9aa334e":"\n        Denne måling måler, hvor godt et enkelt spørgsmål kan vise\n        forskellen mellem (eller se forskel på) elever, der klarer sig godt i en eksamen, og\n        dem der ikke gør.\n      ","ungraded_answers_31ef2df7":"Ikke bedømte svar","unknown_answers_9688a2bc":"Ukendte svar"} },
+  function() { return {"attempts":"Forsøg: %{count} ud af %{total}","discrimination_index":{"audible_discrimination_index":"Diskriminationsindeks: %{number}.","discrimination_index":"Diskriminationsindeks","discrimination_index_dialog_title":"Diagram for diskriminationsindeks","discrimination_index_dialog_trigger":"Læs mere om diskriminationsindekset"},"download_submissions":"Download alle filer","duration_in_hours":{"one":"1 time","other":"%{count} timer"},"duration_in_hours_and_minutes":"%{hours} og %{minutes}","duration_in_minutes":{"one":"1 minut","other":"%{count} minutter"},"duration_in_minutes_and_seconds":"%{minutes} og %{seconds}","duration_in_seconds":{"one":"1 sekund","other":"%{count} sekunder"},"empty_question_breakdown":"Der findes ingen tilgængelige spørgsmålsstatistik.","loading_questions":"Spørgsmålsstatistikker indlæses. Vent et øjeblik.","no_answer":"Intet svar","question_breakdown":"Nedbrydning af spørgsmål","question_header":"Spørgsmål %{position}","quiz-stats-noshow-warning":"Selv perfektionen har mangler. Vi kan ikke gengive statistik for denne quiz, men du kan downloade rapporterne.","sad-panda-alttext":"Triste ting i pandaland.","speedgrader":"Vis i SpeedGrader","summary":{"audible_chart_description":"%{above_average} elever klarede sig over eller på gennemsnittet, og %{below_average} under. ","avg_time":"Gennemsnitlig tid","chart_title":"Oversigt over procentvist resultat","high_score":"Højt resultat","low_score":"Lavt resultat","mean":"Gennemsnitligt resultat","not_available_abbrev":"N/A","quiz_summary":"Quizoversigt","stdev":"Standardafvigelse","table_description":"Oversigtsstatistik for alle afleverede opgaver"},"title":"Quizstatistik","unknown_answer":"Noget andet","user_names":"Brugernavne"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_respondents_fc4c2da4",
+  null,
+  function() { return {"one":"1 respondent","other":"%{count} respondenter"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_students_in_percentile_percentile_d0adecfe",
+  null,
+  function() { return {"one":"1 elev i percentil %{percentile}. ","other":"%{count} elever i percentilen %{percentile}. "} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "quizzesIndexView",
+  function() { return {"there_was_a_problem_resetting_your_quiz_engine_cho_ba4277c7":"Der opstod et problem med at nulstille dit valg af quizprogram","your_quiz_engine_choice_has_been_reset_68d268c1":"Dit valg af quizprogram er nulstillet!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_quizzes_found_e5e29bb4",
+  null,
+  function() { return {"one":"1 quiz fundet","other":"%{count} quizzer fundet","zero":"Der er ikke fundet matchende quizzer."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "quizzes_index",
+  null,
+  function() { return {"headers":{"assignment_quizzes":"Opgave-quiz","practice_quizzes":"Øvelsesquiz","surveys":"Spørgeundersøgelser"},"toggle_message":"skift quizzens synlighed"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "quiz_engine_modal",
+  function() { return {"canvas_now_has_two_quiz_engines_please_choose_whic_4aa9821":"Canvas har nu to quiz-programmer. Vælg venligst, hvilket\n        du gerne vil bruge.","choose_a_quiz_engine_8820d521":"Vælg et quiz-program","classic_quizzes_dee3c7b7":"Klassiske quizzer","for_the_time_being_if_you_need_security_from_3rd_p_95f5c0d4":"Hvis du har brug for sikkerhed fra\n        tredjepartsværktøjer, Speedgrader eller CSV'er til elevernes\n        svaranalyse, så er dette det bedste valg indtil videre.","learn_more_about_the_differences_a1217479":"Lær mere om forskellene.","new_quizzes_dbda7e0a":"New Quizzes","remember_my_choice_for_this_course_5a3b7206":"Husk mit valg for dette fag","this_has_more_question_types_like_hotspot_categori_620e9df6":"Denne har flere spørgsmålstyper som fx hotspot,\n        kategorisering, matching og sætte i rækkefølge. Den har også\n        flere bedømmelses- og tilpasningsfunktioner."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "calculator",
+  null,
+  function() { return {"buttons":{"save":"Gem"},"command":{"abs":{"description":"Returnerer absolut værdi for den fastsatte værdi"},"acos":{"description":"Returnerer arccos for den fastsatte værdi"},"asin":{"description":"Returnerer arcsin for den fastsatte værdi"},"at":{"description":"Returnerer den indekserede værdi i den fastsatte liste"},"atan":{"description":"Returnerer arctan for den fastsatte værdi"},"ceil":{"description":"Returnerer loftet for den fastsatte værdi"},"comb":{"description":"Returnerer det kombinerede resultat for de fastsatte værdier"},"cos":{"description":"Returnerer cosinus for den fastsatte værdi"},"cosec":{"description":"Returnerer cosecansen til den givne værdi"},"cotan":{"description":"Returnerer cotangensen til den givne værdi"},"count":{"description":"Returnerer antallet af elementer i listen"},"default_description":"Uden beskrivelse","deg_to_rad":{"description":"Returnerer den fastsatte værdi, konverteret fra grader til radianer"},"e":{"description":"Returnerer værdien for e"},"fact":{"description":"Returnerer fakultetsværdi for det fastsatte tal"},"first":{"description":"Returnerer den første værdi i listen"},"floor":{"description":"Returnerer minimum for den fastsatte værdi"},"if":{"description":"Evaluerer det første argument, returnerer det andet argument, hvis det ikke er en nul-værdi. I modsatte tilfælde returneres den tredje værdi."},"last":{"description":"Returnerer den sidste værdi i listen"},"length":{"description":"Returnerer antallet af argumenter i den fastsatte liste"},"ln":{"description":"Returnerer den naturlige logaritme for den fastsatte værdi"},"log":{"description":"Returnerer logaritmen for den fastsatte værdi med valgfri basis"},"max":{"description":"Returnerer den højeste værdi i listen"},"mean":{"description":"Returnerer gennemsnittet af værdierne i listen"},"median":{"description":"Returnerer medianen for listen over værdier"},"min":{"description":"Returnerer den laveste værdi i listen"},"no_description":"Der er ikke fundet beskrivelse for funktionen, %{functionName}","perm":{"description":"Returnerer resultatet af permutationer for de fastsatte værdier"},"pi":{"description":"Returnerer den beregnede værdi af pi"},"rad_to_deg":{"description":"Returnerer den fastsatte værdi, konverteret fra radianer til grader"},"rand":{"description":"Returnerer et vilkårligt tal mellem nul og det specificerede interval, eller en, hvis der ikke oplyses noget tal"},"range":{"description":"Returnerer intervallet for listen over værdier"},"reverse":{"description":"Bytter om på rækkefølgen i listen over værdier"},"round":{"description":"Returnerer den fastsatte værdi, afrundet til nærmeste hele tal"},"sec":{"description":"Returnerer sekansen til den givne værdi"},"sin":{"description":"Returnerer sinus for den fastsatte værdi"},"sort":{"description":"Returnerer listen over værdier, sorteret fra laveste til højeste"},"sqrt":{"description":"Returnerer kvadratroden for den fastsatte værdi"},"sum":{"description":"Returnerer summen for listen over værdier"},"tan":{"description":"Returnerer tangent for den fastsatte værdi"},"unrecognized":"%{functionName} er ikke en godkendt funktion"},"decimal_places":"Decimaler","delete_formula":"Slet formel","drag_to_reorder":"Træk for at omorganisere","headings":{"formula":"Formel","result":"Resultat"},"last_formula_row":"den sidste formelrække bruges til at beregne det endelige svar","sample_final_answer":"Denne værdi er et eksempel på det endelige svar på denne spørgsmålstype"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "quizzes_public",
+  function() { return {"ip_filter_is_not_valid_152a46d8":"IP-filter ikke gyldigt.","please_add_at_least_one_non_blank_answer_213c2c8e":"Opret mindst et ikke-tomt svar.","please_add_at_least_one_non_blank_answer_for_each__a05a55f9":"Opret mindst et ikke-tomt svar for hver variabel.","quiz_40ee61b1":"quiz","the_quiz_name_must_be_under_length_characters_68e7de3a":"Quiznavnet skal være under %{length} tegn"} },
+  function() { return {"alerts":{"no_valid_combinations":"Systemet kunne ikke generere nogen gyldige kombinationer til de fastsatte parametre","only_n_valid_combinations":{"one":"Systemet kunne kun generere 1 gyldig kombination for de fastsatte parametre","other":"Systemet kunne kun generere %{count} gyldige kombinationer for de fastsatte parametre"}},"answer_comments":"Besvar kommentarer","answer_text":"Besvar tekst","at_the_bottom":"-- i bunden --","before_quiz_item":"før %{name}","buttons":{"add_selected_questions":"Tilføj valgte spørgsmål","adding_questions":"Tilføjer spørgsmål ...","create_group":"Opret gruppe","create_question":"Opret spørgsmål","creating_group":"Opretter gruppe ...","generating":"Genererer ...","generating_combinations_progress":"Genererer ... (%{done}/%{total})","save":"Gem","save_and_publish":"Gem og offentliggør","saved":"Gemt!","saving":"Gemmer ...","update_group":"Opdater gruppe","update_question":"Opdater spørgsmål"},"choose_option":"[ Vælg ]","confirms":{"delete_answer":"Er du sikker? Sletning af svar fra et spørgsmål med afleveringer deaktiverer muligheden for at vurdere dette spørgsmål igen.","delete_question":"Er du sikker på, at du vil slette dette spørgsmål?","delete_quiz":"Er du sikker på, at du vil slette denne quiz?","scrap_and_restart":"Afbryd denne quiz og begynd forfra?"},"default_answer_comments":"Svar hvis eleven vælger dette svar","default_answer_comments_on_match":"Svar hvis eleven matcher dette svar","default_comments_on_wrong_match":"Svar hvis brugeren ikke opnår denne match","default_quesiton_name":"Spørgsmål","default_question_name":"Spørgsmål","default_quiz_title":"Quiz","default_response_to_essay":"Svar at vise eleven efter de afleverer et svar","default_response_to_file_upload":"Svar at vise eleven efter de afleverer et svar","enter_answer_variable_above":"[ Indtast svarvariabler ovenfor ]","errors":{"adding_questions_failed":"Tilføjelse af spørgsmål mislykkedes, prøv igen","creating_group_failed":"Oprettelse af gruppe mislykkedes, prøv igen","field_is_required":"Dette felt er påkrævet","invalid_show_correct_answers_range":"Skjul dato kan ikke ligge før vis dato","loading_banks_failed":"Det mislykkedes at indlæse spørgsmålsbanker, prøv igen","loading_more_questions_failed":"indlæsning af flere spørgsmål mislykkedes","loading_question_failed":"Indlæsning af spørgsmål mislykkedes ...","loading_questions_failed":"Spørgsmål blev ikke indlæst, prøv igen","missing_access_code":"Du skal indtaste en adgangskode","missing_ip_filter":"Du skal indtaste en gyldig IP-adresse","no_answer":"Tilføj mindst ét svar","no_correct_answer":"Vælg et korrekt svar","no_possible_solution":"Dan mindst én mulig løsning","quiz_score_not_a_number":"Resultat skal være et tal mellem 0 og 2.000.000.000.","quiz_score_too_long":"Resultat skal være mindre end 2.000.000.000.","quiz_score_too_short":"Resultat skal være større end 0.","retrieving_filters_failed":"Hentning af filtre mislykkedes"},"false":"Falsk","final_answer":"Endeligt svar","label":{"answer":{"text":"Svartekst, RTF-område"},"question":{"instructions":"Spørgsmålsinstruktioner, RTF-område"},"quiz":{"instructions":"Quizinstruktioner, RTF-område"}},"labels":{"answer_text":"Besvar tekst","comments_on_answer":"Kommentarer, hvis brugeren vælger dette svar","comments_on_question":"Kommentarer til dette spørgsmål","comments_on_wrong_match":"Kommentarer, hvis brugeren ikke opnår denne match","correct_answer":"Korrekt svar","message_text":"Beskedtekst","other_incorrect_matches":"Andre forkerte matchmuligheder","possible_answer":"Muligt svar"},"loading_more_questions":"indlæser flere spørgsmål ...","loading_question":"Indlæser spørgsmål ...","loading_question_banks":"Indlæser spørgsmålsrække ...","loading_questions":"Indlæser spørgsmål ...","more_questions":"flere spørgsmål","no_filters_found":"Der er ikke fundet nogen filtre","question":{"positive_points":"Skal være nul eller større"},"question_colon":"Spørgsmål:","question_limit_reached":"Du har nået det maksimale antal spørgsmål, der er tilladt for en quiz (%{count}/%{limit}).\n\nFor at løse dette kan du overveje at sprede materialet på tværs af flere quizzer.","quiz_attempts_length_error":"Quizforsøg begrænses til 3 cifre. Hvis du vil give dine elever ubegrænsede forsøg, skal du ikke sætte flueben i feltet Tillad flere forsøg til venstre.","quiz_attempts_nan_error":"Quizforsøg kan kun specificeres i tal","quiz_short_answer_length_error":"Svar til at udfylde de tomme spørgsmål skal være under 80 tegn i længde","retrieving_filters":"Henter filtre ...","titles":{"add_questions_as_group":"Tilføj spørgsmål som en gruppe","click_to_enter_comments_on_answer":"Klik for at indtaste kommentarer til eleven, hvis de vælger dette svar","click_to_enter_comments_on_wrong_match":"Klik for at indtaste kommentarer til eleven, hvis de svarede forkert","click_to_set_as_correct":"Klik for at indstille svaret som korrekt","click_to_unset_as_correct":"Klik for at fjerne indstillingen til dette svar som korrekt","find_question_bank":"Find spørgsmålsbank","find_quiz_question":"Find spørgsmål til quiz","help_with_formulas":"Hjælp til formler for quizspørgsmål","ip_address_filtering":"Filtrering af IP-adresse","set_as_correct":"Svaret er indstillet som korrekt"},"top_level":"-- Højeste niveau --","true":"Sand"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "registration",
+  function() { return {"canvas_introduction_video_2d81f3ad":"Canvas introduktionsvideo","child_s_username_dde3aa9":"Barnets brugernavn","start_participating_f0c75256":"Begynd at deltage","you_will_be_redirected_to_a_login_page_where_you_w_fc8df402":"Du omdirigeres til en loginside, hvor du skal logge på med dit barns brugeroplysninger.","your_email_b5364bee":"Din e-mail","your_name_7665e1d8":"Dit navn"} },
+  function() { return {"incomplete_registration_warning":{"set_up_account":"Din konto er næsten klar. Tjek din e-mail på *%{email}* for at indstille din adgangskode og afslutte processen.","start_participating":"Du kan begynde at deltage nu, men du skal indstille en adgangskode, inden du kan logge på igen."},"login":{"password":"Adgangskode","remember_me":"Husk mig","sign_in":"Log på"},"new_parent_dialog":{"anchor":{"pairing_code":"Hvad er en parringskode?"},"buttons":{"cancel":"Annullér","start_participating":"Begynd at deltage"},"labels":{"code":"Parringskode for elever","confirm_password":"Genindtast adgangskode","email":"Din e-mail","name":"Dit navn","password":"Adgangskode"}},"parent_dialog":{"buttons":{"start_participating":"Begynd at deltage"},"labels":{"email":"Din e-mail","name":"Dit navn","password":"Barnets adgangskode","username":"Barnets brugernavn"}},"student_dialog":{"buttons":{"start_learning":"Begynd at lære"},"labels":{"email":"E-mail","join_code":"Foren kode","name":"Fulde navn","password":"Adgangskode","password_confirmation":"Bekræft adgangskode","username":"Brugernavn"}},"teacher_dialog":{"agree_to_terms_and_pp":"Du indvilger i *Betingelserne for brug* og accepterer **datapolitikken**.","buttons":{"start_teaching":"Start undervisning"},"labels":{"email":"E-mail","name":"Navn"}}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "release_notes",
+  function() { return {"edit_release_note_84675efc":"Rediger frigivelsesnote","expand_collapse_lang_73edc33c":"Udvid / skjul %{lang}","languages_835813f0":"Sprog","new_note_5f05cb20":"Ny note","new_release_note_37ec0ea7":"Ny frigivelsesnote","release_date_for_e2de5547":"Frigivelsesdato for: ","save_and_publish_1b765e7":"Gem og offentliggør","select_target_groups_type_or_use_arrow_keys_to_nav_aa648826":"Vælg målgrupper. Indtast eller brug piletasterne til at navigere. Flere valg er tilladt."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "ResendInvitationsView",
+  null,
+  function() { return {"error_sending_invitations":"Fejl under afsendelse af invitation. Prøv igen.","invitations_re_sent":"Invitationer blev sendt"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "RosterDialogMixin",
+  null,
+  function() { return {"updating":"Opdaterer ..."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "RosterUserView",
+  function() { return {"are_you_sure_you_want_to_deactivate_this_user_they_3fdaab79":"Er du sikker på, at du vil deaktivere denne bruger? De vil ikke være i stand til at deltage i faget, mens de er inaktive.","are_you_sure_you_want_to_remove_this_user_8d1a8295":"Er du sikker på, at du vil fjerne denne bruger?","something_went_wrong_re_activating_the_user_please_82c3e7a":"Noget gik galt under genaktivering af brugeren. Prøv igen senere.","something_went_wrong_while_deactivating_the_user_p_8ff3e261":"Noget gik galt under deaktivering af bruger. Prøv igen senere.","user_successfully_deactivated_9d92d80d":"Brugeren blev deaktiveret","user_successfully_re_activated_b897e35b":"Bruger blev genaktiveret","user_successfully_removed_a366ca5f":"Bruger fjernet."} },
+  function() { return {"flash":{"removeError":"Kan ikke fjerne brugeren. Prøv igen senere."},"nobody":"ingen","observing_user":"Observerer: %{user_name}"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "RosterView",
+  function() { return {"search_people_402e622c":"Søg efter deltagere","search_people_as_you_type_in_this_field_the_list_o_5755e8ad":"Søg efter deltagere. Når du indtaster i feltet, filtreres listen over deltagere automatisk til kun at inkludere dem, hvis navne matcher din indtastning."} },
+  function() { return {"greater_than_three":"Indtast et søgeord med tre eller flere tegn","unknown_error":"Noget gik galt med din søgning, prøv igen."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "roster_publicjs",
+  null,
+  function() { return {"filter_multiple_users_found":"%{userCount} brugere fundet.","filter_no_users_found":"Der er ikke fundet nogen matchende brugere.","filter_one_user_found":"1 bruger fundet."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "recipient_input",
+  null,
+  function() { return {"context_search_placeholder":"Indtast et navn, fag eller gruppe","context_search_title":"Navn, fag eller gruppe","groups_count":{"one":"1 gruppe","other":"%{count} grupper"},"no_results":"Der blev ikke fundet resultater","people_count":{"one":"1 person","other":"%{count} deltagere"},"sections_count":{"one":"1 sektion","other":"%{count} sektioner"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "listWithOthers",
+  null,
+  function() { return {"other":{"one":"1 anden","other":"%{count} andre"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "sr_gradebook",
+  function() { return {"download_scores_generated_on_date_ff5b9cd2":"Download resultater genereret den %{date}"} },
+  function() { return {"all_grading_periods":"Alle vurderingsperioder","all_sections":"Alle sektioner","assignment_muted":"Klik for at offentliggøre","assignment_order_alpha":"Alfabetisk","assignment_order_assignment_groups":"Efter opgavegruppe og position","assignment_order_due_date":"Efter afleveringsdato","assignment_unmuted":"Klik for at tilbageholde.","discussion_topic":"Diskussionsemne","external_tool":"Eksternt værktøj","final_point_ratio":"%{pointRatio} point","invalid_group_warning":{"one":"Bemærk: Resultatet inkluderer ikke opgaver fra gruppen %{list_of_group_names}, fordi den ikke har mulige point.","other":"Bemærk: Resultatet inkluderer ikke opgaver fra grupperne %{list_of_group_names}, fordi de ikke har mulige point."},"media_recordin":"Medieoptagelse","next_object":"Næste %{type}","no_assignment":"Der er ikke valgt nogen opgave","no_outcome":"Der er ikke valgt læringsudbytte","no_student":"Der er ikke valgt nogen elev","none":"Ingen","notes":"Noter","on_paper":"På papir","online_quiz":"Onlinequiz","online_text_entry":"Online tekstindtastning","online_upload":"Online upload","online_url":"Online URL","previous_object":"Forrige %{type}","student_hidden_name":"Elev %{position}"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "grading_cell",
+  function() { return {"no_points_possible_72db3a55":"Ingen mulige point","out_of_points_37a749d7":"(ud af %{points})","score_out_of_points_84f44331":"(%{score} ud af %{points})"} },
+  function() { return {"grade_complete":"Fuldført","grade_incomplete":"Ufuldstændig","grade_ungraded":"Ikke bedømt"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "submissions",
+  function() { return {"click_here_to_download_size_of_file_74443988":"Klik her for at downloade %{size_of_file}","download_assignment_submissions_41e50ee7":"Download opgaveafleveringer","no_submissions_to_zip_please_try_again_after_stude_7e0f478":"Ingen afleveringer at komprimere til zip. Prøv igen efter elevernes afleveringer.","preview_your_submission_and_view_teacher_feedback__81a45279":"Gennemgå din aflevering og vis feedback fra læreren, hvis relevant","something_went_wrong_downloading_submissions_pleas_6d069a09":"Der gik noget galt med at downloade afleveringerne. Prøv igen senere."} },
+  function() { return {"creating_zip":"Opretter zip-fil ...","download_submissions_title":"Download opgaveafleveringer","finished_redirecting":"Færdig! Omdirigerer til fil ...","gathering_files":"Samler filer (%{progress})...","gathering_files_progress":"Samler filer (%{progress})...","see_attached_files":"Se vedhæftede filer","show_preview":{"preview_title":"Forhåndsvisning af %{title}"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebookHelpers",
+  function() { return {"note_length_cannot_exceed_maxlength_characters_82798b1":"Notens længde må ikke overskride %{maxLength} tegn."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignment_details",
+  function() { return {"no_graded_submissions_e40c957a":"Ingen bedømte afleveringer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignment_muter",
+  function() { return {"mute_assignment_bb505cd8":"Tilbagehold opgave","muting_assignment_a9aeb5c7":"Tilbagehold beskeder til eleverne om opgave ...","this_assignment_is_currently_muted_that_means_stud_94d63139":"Denne opgave er tilbageholdt på nuværende tidspunkt. Det betyder, at eleverne ikke kan se deres vurderinger og feedback. Vil du gerne offentliggøre nu?","unmute_assignment_29a49038":"Offentliggør opgave"} },
+  function() { return {"unmute_assignment":"Offentliggør opgave","unmute_button":"Offentliggør opgave","unmuting_assignment":"Sender besked til elever om opgaven ..."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebookHeaderMenu",
+  null,
+  function() { return {"errors":{"upload_as_zip":"Upload venligst filer som .zip"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "submission_details_dialog",
+  function() { return {"all_comments_are_sent_to_the_whole_group_284591e7":"Alle kommentarer sendes til hele gruppen","send_comment_to_this_student_only_e3d9ca1":"Send kun kommentar til denne elev"} },
+  function() { return {"add_a_comment":"Tilføj en kommentar","comments":"Kommentarer","grade_form_label":"Vurdering:","labels":{"group_comment":"Send kommentar til hele gruppen"},"late":"SEN","links":{"click_to_view":"klik her for at vise"},"loading_comments":"Indlæser kommentarer ...","more_details_in_the_speedgrader":"Yderligere oplysninger i SpeedGrader","post_comment":"Læg kommentar ud","submitted":"Afleveret:","this_was_submitted_multiple_times_choose_a_submission_to_view":"Afleveret flere gange, vælg den, der skal vises:","update_grade":"Opdater vurdering","view_rubric_assessment_in_the_speedgrader":"Vis bedømmelse med vurderingskriterier i SpeedGrader"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebook_individual_gradebook_gradebook_selector",
+  function() { return {"individual_view_81c2f124":"Individuel visning","individual_view_d60b9132":"Individuel visning ..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "section",
+  function() { return {"enrolled_as_enrollment_type_a784f82b":"tilmeldt som: %{enrollment_type}","enrolled_as_enrollment_type_with_section_only_acce_110d7929":"tilmeldt som: %{enrollment_type} med kun-sektionsadgang"} },
+  function() { return {"confirms":{"delete_enrollment":"Er du sikker på, at du vil slette denne tilmelding permanent?"},"default_course_name":"Fag-id \"%{course_id}\"","enrolled_as_designer":"tilmeldt som: Designer","enrolled_as_limited_designer":"tilmeldt som: Designer med kun-sektionsadgang","enrolled_as_limited_observer":"tilmeldt som: Observatør med kun-sektionsadgang","enrolled_as_limited_student":"tilmeldt som: Elev med kun-sektionsadgang","enrolled_as_limited_ta":"tilmeldt som: Undervisningsassistent med kun-sektionsadgang","enrolled_as_limited_teacher":"tilmeldt som: Lærer med kun-sektionsadgang","enrolled_as_observer":"tilmeldt som: Observatør","enrolled_as_student":"tilmeldt som: Elev","enrolled_as_ta":"tilmeldt som: Undervisningsassistent","enrolled_as_teacher":"tilmeldt som: Lærer","errors":{"confirmation_failed":"Bekræftelse mislykkedes","course_not_authorized_for_crosslist":"%{course_name} har ikke tilladelse til at blive krydslistet"},"status":{"confirming_course":"Bekræfter %{course_name}...","removing_crosslisting_of_section":"Fjern krydslisten for sektionen ..."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "paginated_list",
+  null,
+  function() { return {"no_results_found":"Ingen resultater","view_more_link":"Vis mere"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "sis_import",
+  null,
+  function() { return {"buttons":{"process_data":"Behandling af data"},"errors":{"import_failed_code":"Der var en fejl under import af dine SIS-data. Vær venlig at underrette systemadministratoren og give dem følgende kode: \"%{code}\"","import_failed_messages":"Importen mislykkedes med disse beskeder:"},"headers":{"import_errors":"Fejl som forhindrer importen","import_warnings":"Advarsler","imported_items":"Importerede elementer"},"import_counts":{"accounts":"Konti: %{account_count}","admins":"Admins: %{admin_count}","change_sis_ids":"Skift SIS-ID'er: %{change_sis_ids_count}","courses":"Fag: %{course_count}","crosslists":"Tvær-lister: %{crosslist_count}","enrollments":"Tilmeldinger: %{enrollment_count}","group_categories":"Gruppekategorier: %{group_categories_count}","group_enrollments":"Gruppetilmeldinger: %{group_enrollments_count}","groups":"Grupper: %{group_count}","logins":"Logins: %{login_count}","sections":"Sektioner: %{section_count}","terms":"Skoleår: %{term_count}","user_observers":"Bruger-observatører: %{user_observers_count}","users":"Brugere: %{user_count}"},"messages":{"import_complete_success":"Importen er færdig, og alle optegnelser blev importeret.","import_complete_warnings":"SIS-dataene blev importeret, men med disse beskeder:"},"notices":{"processing_takes_awhile":"det kan tage lidt tid ..."},"status":{"processing":"Behandler"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "speed_grader",
+  function() { return {"action_was_not_anonymous_b5262db1":"Handlingen var ikke anonym","add_a_comment_872470ac":"Tilføj en kommentar","administrator_f325c186":"Administrator","an_error_occurred_updating_this_assignment_21287c7e":"Der opstod en fejl under opdatering af denne opgave.","anonymous_off_7985fcaf":"Slå anonym fra","anonymous_on_c5fa120d":"Slå anonym til","anonymous_turned_off_8118a0b":"Anonym slået fra","anonymous_turned_on_fe56f997":"Anonym slået til","anonymous_was_never_turned_on_e5e8aeda":"Anonym blev aldrig slået til","anonymous_was_turned_off_300d25ec":"Anonym blev slået fra","are_you_sure_you_want_to_submit_this_comment_fbe76ba6":"Er du sikker på, at du ønsker at indsende denne kommentar?","as_of_a036fa2e":"Fra","assessment_audit_d4a76709":"Vurderingsrevision","assessment_audit_events_for_creatorname_56e84e8":"Vurdering af revisionsbegivenheder for %{creatorName}","assessment_audit_tray_5dd11721":"Vurderingsrevisionsbakke","assignment_created_b3ee04d7":"Opgave oprettet","assignment_is_reassigned_dd6b6ef2":"Opgaven tildeles igen.","assignment_muted_4cb590a4":"Tilbageholdt opgave","assignment_unmuted_2cffe4ca":"Opgaver med offentliggjort feedback","assignment_updated_c7482598":"Opgave opdateret","cannot_view_detailed_reports_for_anonymous_assignm_d6c42475":"Kan ikke se detaljerede rapporter for anonyme opgaver, før der slås vurderinger op.","change_section_to_sectionname_6e947e90":"Skift sektion til %{sectionName}","creatorname_performed_actions_while_anonymous_was__c2124eca":"%{creatorName} udførte handlinger, mens anonym var slukket","days_late_a3a721b0":"Dage for sent","delete_comment_commenttext_c8afe129":"Slet kommentar: %{commentText}","deleting_a_submission_file_is_typically_done_only__fb8b07e6":"Sletning af en afleveringsfil udføres typisk kun, når en elev slår upassende eller privat materiale op.\n\nDenne handling er irreversibel. Er du sikker på, at du vil slette %{file}?","do_not_show_again_for_this_assignment_d0abd4ae":"Vis ikke igen for denne opgave","docviewer_area_created_37502a31":"Docviewer-område oprettet","docviewer_area_deleted_6e56d3ba":"Docviewer-område slettet","docviewer_area_updated_43f60b7e":"Docviewer-område opdateret","docviewer_comment_created_1dc99da5":"Docviewer-kommentar oprettet","docviewer_comment_deleted_44cf642e":"Docviewer-kommentar slettet","docviewer_comment_updated_696fbcea":"Docviewer-kommentar opdateret","docviewer_free_draw_created_727f26aa":"Docviewer-fritegning oprettet","docviewer_free_draw_deleted_2b79df21":"Docviewer-fritegning slettet","docviewer_free_draw_updated_6d907e5":"Docviewer-fritegning opdateret","docviewer_free_text_created_1b9c8cf9":"Docviewer-fritekst oprettet","docviewer_free_text_deleted_429a7572":"Docviewer-fritekst slettet","docviewer_free_text_updated_6f3aadb6":"Docviewer-fritekst opdateret","docviewer_highlight_created_337a5ced":"Docviewer-fremhævning oprettet","docviewer_highlight_deleted_6a7ca566":"Docviewer-fremhævning slettet","docviewer_highlight_updated_47dc7da2":"Docviewer-fremhævning opdateret","docviewer_point_created_ade65993":"Docviewer-point oprettet","docviewer_point_deleted_f4e0a018":"Docviewer-point slettet","docviewer_point_updated_d94078dc":"Docviewer-point opdateret","docviewer_strikeout_created_84cccd3b":"Docviewer-overstrening oprettet","docviewer_strikeout_deleted_ddca34b0":"Docviewer-overstrening slettet","docviewer_strikeout_updated_f06aec74":"Docviewer-overstrening opdateret","download_submission_comments_2a6c0395":"Download afleveringens kommentarer","edit_status_612572db":"Rediger status","error_deleting_file_551dc16e":"Fejl under sletning af %{file}","failed_to_submit_draft_comment_1de83451":"Mislykkedes at aflevere kladde-kommentar","final_grader_1693103c":"Endelig vurderingsgiver","grader_comments_visible_to_graders_turned_off_d2af5e9d":"Vurderingsgiverkommentarer synlige for vurderingsgivere slået fra","grader_comments_visible_to_graders_turned_on_dca303c7":"Vurderingsgiverkommentarer synlige for vurderingsgivere slået til","grader_count_set_to_count_24f05b53":"Vurderingsgivertæller sat til %{count}","grader_names_visible_to_final_grader_turned_off_e2fb0c8b":"Vurderingsgivernavne synlige for endelig vurderingsgiver slået fra","grader_names_visible_to_final_grader_turned_on_7f768b67":"Vurderingsgivernavne synlige for endelig vurderingsgiver slået til","graders_anonymous_to_graders_turned_off_e017d355":"Vurderingsgivere anonyme for vurderingsgivere slået fra","graders_anonymous_to_graders_turned_on_6ccf213f":"Vurderingsgivere anonyme for vurderingsgivere slået til","grades_posted_c5d8dcce":"Vurderinger opført","hour_s_b6e8d238":"Time(r)","hours_late_989e9081":"Timer for sent","if_you_would_like_to_keep_your_unsubmitted_comment_b7e349ce":"Hvis du gerne vil beholde de kommentarer, du ikke har afleveret, skal du gemme dem, inden du navigerer bort fra siden.","late_bd436902":"SEN","loading_assessment_audit_trail_5cf4c10":"Indlæser vurdering af revisionssporet","menu_options_9b6b0b5c":"Menuindstillinger","missing_eaddacbd":"MANGLER","monthandday_starting_at_time_769b12c8":"%{monthAndDay} starter kl. %{time}","name_lti_tool_b61eb0af":"%{name} (LTI-værktøj)","name_quiz_15f55961":"%{name} (Quiz)","name_user_e44eebed":"%{name} Bruger","no_file_submitted_a879fa53":"Ingen fil afleveret","partially_anonymous_483a892d":"Delvis anonym","posted_to_student_861beec9":"Sendt til elev","provisional_grade_created_13f5c392":"Foreløbig vurdering oprettet","provisional_grade_deleted_4af33a19":"Foreløbig vurdering slettet","provisional_grade_selected_416db903":"Foreløbig vurdering valgt","provisional_grade_updated_6753e2dd":"Foreløbig vurdering opdateret","reassign_assignment_e3a70bcb":"Tildel opgaven igen","reassigning_682888a2":"Tildeler igen ...","rubric_created_64980593":"Vurderingskriterie oprettet","rubric_deleted_3d9efc18":"Vurderingskriterie slettet","rubric_updated_103e24dc":"Vurderingskriterie opdateret","score_pointspossible_bd57ea9e":"%{score}/%{pointsPossible}","show_all_sections_190203e8":"Vis alle sektioner","similarity_score_see_detailed_report_a113dac0":"Originalitetsscore - Se detaljeret rapport","student_feedback_required_in_comments_above_to_rea_2f5dafbf":"Der kræves elevfeedback i ovenstående kommentarer for at tildele igen.","student_has_met_maximum_allowed_attempts_fa9a71b5":"Elev har nået maksimalt tilladte forsøg.","student_number_db6f06c1":"Elev %{number}","student_viewed_document_9065adb8":"Dokument i visning for elever","submission_comment_created_f9375ca2":"Afleveringskommentar oprettet","submission_comment_deleted_a031a529":"Afleveringskommentar slettet","submission_comment_updated_8d917ded":"Afleveringskommentar opdateret","submission_index_e960f9bf":"Aflevering %{index}","submission_updated_8897f3b7":"Aflevering opdateret","submit_comment_commenttext_8e5638d7":"Tilføj kommentar: %{commentText}","the_following_students_have_unsaved_changes_to_the_7762def7":"Følgende elever har ikke-gemte ændringer i deres afleverede quiz: \n\n%{users}\nFortsæt alligevel?","the_grade_you_entered_has_been_selected_and_can_no_ca87612b":"Den vurdering, du indtastede, er blevet valgt og kan ikke længere ændres.","the_group_groupname_was_automatically_selected_bec_450689f":"Gruppen \"%{groupName}” blev automatisk valgt, fordi der ikke blev valgt nogen gruppe tidligere. Du kan ændre den valgte gruppe i vurderingsoversigten.","the_group_groupname_was_selected_because_the_previ_e080c168":"Gruppen \"%{groupName}” blev valgt, fordi den tidligere valgte gruppe ikke indeholder nogen elever. Du kan ændre den valgte gruppe i vurderingsoversigten.","the_group_groupname_was_selected_because_the_stude_bcf7ba7c":"Gruppen \"%{groupName}” blev valgt, fordi den elev, du anmodede om, ikke er i den tidligere valgte gruppe. Du kan ændre den valgte gruppe i vurderingsoversigten.","the_maximum_number_of_graders_has_been_reached_for_a9302ebb":"Det maksimale antal bedømmere er nået for denne opgave.","the_selected_group_was_cleared_because_the_student_656e4f1c":"Den valgte gruppe blev ryddet, fordi den elev, du anmodede om, ikke er en del af nogen grupper. Du kan vælge en gruppe i vurderingsoversigten.","this_assignment_is_locked_and_cannot_be_reassigned_9c1ed1ce":"Denne opgave er låst og kan ikke tildeles igen.","unknown_event_7a0bcda3":"Ukendt begivenhed","unknown_external_tool_c918e9b2":"Ukendt eksternt værktøj","unknown_quiz_3892d071":"Ukendt quiz","unknown_role_cbe9a089":"Ukendt rolle","unknown_user_1113fcaa":"Ukendt bruger","vericite_similarity_score_see_detailed_report_390ab687":"VeriCite originalitetsscore - Se detaljeret rapport","word_count_c77fe3a6":"Ordtælling","x_y_4a86b3ab":"%{x}/%{y}","you_do_not_have_permission_to_delete_file_please_c_3b0abf50":"Du har ikke tilladelse til at slette %{file}. Kontakt din kontoadministrator.","you_have_created_a_comment_that_has_not_been_poste_cd1d3a06":"Du har oprettet en kommentar, der ikke er blevet sendt. Vil du fortsætte og gemme denne kommentar som et udkast? (Du kan til enhver tid slå udkast til kommentarer op.)","your_comment_is_not_posted_12677035":"Din kommentar er ikke slået op"} },
+  function() { return {"alerts":{"no_active_students":"Beklager, der findes ingen aktive elever i faget, eller ingen kan bedømmes af dig.","no_students_in_groups_back":"Beklager, afleveringer af denne opgave kan ikke bedømmes i Speedgrader, fordi der ikke er nogen tildelte brugere. Tildel brugere til dette gruppesæt, og prøv igen. Klik på 'OK' for at gå tilbage.","no_students_in_groups_close":"Beklager, afleveringer af denne opgave kan ikke bedømmes i Speedgrader, fordi der ikke er nogen tildelte brugere. Tildel brugere til dette gruppesæt, og prøv igen. Klik på 'OK' for at lukke dette vindue.","no_students_in_section":"Kunne ikke finde nogen elever i den sektion. Vender tilbage til visning af alle sektioner."},"allow_message":"Klik på knappen \"Tillad\" for at begynde optagelsen.","begin_record_prompt":"Klik på knappen \"Optag\" for at begynde.","buttons":{"dialog_buttons":"Annullér","saving_settings":"Gemmer indstillinger ...","submitting":"Afleverer ..."},"canvadoc_expiring":"Din session med Canvas DocViewer udløber snart.  Genindlæs vinduet for at undgå, at evt. arbejde går tabt.","crocodoc_expiring":"Din Crocodoc-session udløber snart.  Genindlæs vinduet for at undgå, at evt. arbejde går tabt.","dialog_button":{"aria_record":"Klik på optag"},"edit_view_rubric":"Vis vurderingskriterie","group":"Gruppe","mic_blocked_message":"Tilladelse til at bruge mikrofon er blokeret. For at ændre skal du gå til chrome://settings/content/microphone","no_submission_time":"ingen afleveringstid","nodetect_message":"Der blev ikke fundet nogen tale. Det kan være nødvendigt at justere mikrofonindstillingerne.","portion_graded":"%{x}/%{y}","recording_expired_message":"Talegenkendelse er udløbet på grund af inaktivitet. Klik på knappen \"Stop\" for at bruge den nuværende tekst til kommentaren eller \"Annuller\" for at slette.","recording_message":"Optager ...","student":"Elev","submissions_dropdown":{"grade":"(vurdering: %{grade})","see_all_quiz_attempts":"Se alle quiz-forsøg","submission_to_view":"Aflevering, der skal vises:","submitted":"*Afleveret:* %{submittedAt}"},"submit":"Aflever","titles":{"click_to_record":"Tale til tekst"},"turnitin":{"info_message":"Denne fil behandles stadigvæk af værktøjet til detektering af plagiat, som er tilknyttet opgaven. Du kan prøve igen senere for at se resultatet.","tooltip":{"error":"Originalitetsscore - Se detaljerne for fejl ved indsendelse","pending":"Originalitetsscore - Indsendelse afventer"}},"vericite":{"error_message":"Der opstod en fejl ved indsendelse til VeriCite. Prøv at sende filen igen, før du kontakter support","info_message":"Denne fil behandles stadig af VeriCite. Vend tilbage senere for at se resultatet","resubmitting":"Sender igen ...","tooltip":{"error":"VeriCite Originalitetsscore - Se detaljerne for fejl ved aflevering","pending":"VeriCite Originalitetsscore - Aflvering afventer"}}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_words_e0b79b82",
+  null,
+  function() { return {"one":"1 ord","other":"%{count} ord"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "speed_grader_helpers",
+  function() { return {"there_was_an_error_submitting_to_the_similarity_de_eb6a261":"Der opstod en fejl ved aflevering til lighedsafsløringstjenesten. Prøv at genindsende filen, inden du kontakter support."} },
+  function() { return {"dialog_button":{"aria_record_reset":"Klik på optag","aria_stop":"Tryk på \"Stop\" for at afslutte optagelsen."},"graded":"bedømt","graded_then_resubmitted":"bedømt, og så afleveret igen (%{when})","not_graded":"ikke bedømt","not_submitted":"ikke afleveret","turnitin":{"resubmitting":"Sender igen ..."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "CommentLibrary",
+  function() { return {"add_comment_to_library_1e3d95db":"Tilføj kommentar til biblioteket","add_to_library_30514daa":"Føj til bibliotek","adding_to_library_b552868":"Tilføjer til bibliotek","close_comment_library_cdcc2dde":"Luk kommentarbiblioteket","close_suggestions_6fcb4985":"Luk forslag","comment_added_33ab70d9":"Kommentar tilføjet","comment_destroyed_5cfc922d":"Kommentar ødelagt","comment_library_84735835":"Kommentarbibliotek","comment_library_suggestions_disabled_ae04eb77":"Kommentarbibliotek (forslag deaktiveret)","comment_suggestions_554a0dc6":"Kommentarforslag","comment_updated_2cd56fe2":"Kommentar opdateret","delete_comment_comment_f5ab8a91":"Slet kommentar: %{comment}","edit_comment_comment_c1ce8c10":"Rediger kommentar: %{comment}","edit_comment_ed0f05b3":"Rediger kommentar","error_creating_comment_cbbfc0f0":"Fejl ved oprettelse af kommentar","error_deleting_comment_87ca3d06":"Fejl ved sletning af kommentar","error_loading_comment_library_db6c9045":"Fejl ved indlæsning af kommentarbibliotek","error_saving_suggestion_preference_c36ecceb":"Fejl ved lagring af forslagspræference","error_updating_comment_4b80c76d":"Fejl ved opdatering af kommentar","insert_comment_from_library_57cddc75":"Indsæt kommentar fra biblioteket","loading_comment_library_3131e5c6":"Indlæser kommentarbibliotek","manage_comment_library_48f2d123":"Administrer kommentarbibliotek","open_comment_library_9debe2":"Åbn kommentarbibliotek","show_less_d5bbf728":"vis mindre","show_more_8d5f918b":"vis mere","show_suggestions_when_typing_b72545de":"Vis forslag, når du indtaster","there_are_new_comment_suggestions_available_press__7b8d4195":"Der er nye kommentarforslag tilgængelige. Tryk på Tab for at få adgang til forslagsmenuen.","use_comment_comment_136b5cb3":"Brug kommentar %{comment}","write_something_430e346c":"Skriv noget ..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "SpeedGraderPostGradesMenu",
+  function() { return {"all_grades_hidden_84409b76":"Alle vurderinger skjult","all_grades_posted_d5b8cb68":"Alle vurderinger slået op","no_grades_to_hide_2072bbd":"Ingen vurderinger at skjule","no_grades_to_post_fc148c1b":"Ingen vurderinger at slå op","post_or_hide_grades_2d1d7815":"Slå vurderinger op eller skjul"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "SpeedGraderProvisionalGradeSelector",
+  function() { return {"hide_details_df9ef4a2":"Skjul detaljer","how_is_the_grade_determined_bb75bf53":"Hvordan bestemmes vurderingen?","out_of_pointspossible_c163105a":"ud af %{pointsPossible}","select_a_provisional_grade_7106e3d5":"Vælg en foreløbig vurdering","show_details_194cf390":"Vis detaljer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "SpeedGraderSettingsMenu",
+  function() { return {"moderation_page_4061aa2b":"Bedømmelsesside","speedgrader_settings_4195099b":"SpeedGrader Indstillinger"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "sub_accounts",
+  null,
+  function() { return {"alerts":{"subaccount_has_courses":"Du kan ikke slette en underkonto med fag","subaccount_has_subaccounts":"Du kan ikke slette en underkonto med underkonti"},"confirms":{"delete_subaccount":"Er du sikker på, at du vil slette denne underkonto?"},"courses_count":{"one":"1 fag","other":"%{count} fag"},"sub_accounts_count":{"one":"1 underkonto","other":"%{count} underkonti"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "external_toolsHomeworkSubmissionLtiContainer",
+  function() { return {"invalid_submission_file_type_cda6742a":"Ugyldig filtype for aflevering"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "ExternalContentFileSubmissionView",
+  null,
+  function() { return {"file_retrieval_error":"Hentning af fil mislykkedes","getting_file":"Henter fil ...","invalid_file_retrieval":"Der opstod et problem under hentning af den fil, der blev sendt fra dette værktøj.","processing_submission":"Canvas behandler din aflevering i øjeblikket. Du kan navigere sikkert væk fra denne side, så sender vi dig en e-mail, hvis afleveringen ikke behandles."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "titles",
+  null,
+  function() { return {"view_in_separate_window":"Vis i et separat vindue"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "submit_assignment_helper",
+  null,
+  function() { return {"messages":{"agree_to_pledge":"Du skal acceptere afleveringsløftet, inden du kan indsende denne opgave."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "submit_assignment",
+  function() { return {"attached_files_must_be_greater_than_0_bytes_7f57bee7":"Vedhæftede filer skal være større end 0 bytes","file_has_not_finished_uploading_cfba3b2f":"Filen er ikke færdig med at uploade","file_tree_collapsed_d4b0ae96":"Filtræ skjult","file_tree_expanded_a1d20c4a":"Filtræ vist","percent_complete_e46b6148":"%{percent}% afsluttet","remove_empty_attachment_b2aea632":"fjern tom vedhæftet fil","remove_filename_87f3781e":"fjern %{filename}","the_student_annotation_tab_includes_the_document_f_4cc5cac8":"Fanen til elevers anmærkninger inkluderer opgavens dokument. Faner med yderligere afleveringsformer kan også være tilgængelige.","uploading_progress_d62bb6e9":"Upload-status"} },
+  function() { return {"buttons":{"submit_assignment":"Aflever opgave"},"messages":{"not_submitted_yet":"Du er ikke færdig med at indsende din opgave.  Du skal stadig klikke på \"Send\" for at afslutte. Vil du forlade denne side alligevel?","now_overdue":"Denne opgave er forsinket.  Eventuelle nye afleveringer markeres som ’for sent’.  Fortsæt alligevel?","overdue":"Denne opgave er forsinket.  Vil du stadig sende den?","record_before_submitting":"Optag inden aflevering","submit_failed":"Aflevering mislykkedes, prøv igen","submitting":"Afleverer ..."},"titles":{"uploading":"Uploader aflevering"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "button",
+  null,
+  function() { return {"submit_assignment":"Aflever opgave"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "errors",
+  null,
+  function() { return {"blank":"Påkrævet","no_attached_file":"Du skal vedhæfte mindst en fil til denne opgave","required":"Påkrævet","unsaved_changes":"Du har ændringer, der ikke er gemt.","wrong_file_extension":"Filen du valgte med udvidelsen \"%{extension}\", har ikke tilladelse til aflevering"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "attachment",
+  function() { return {"remove_webcam_image_count_efee4a11":"Fjern webkameraets billede %{count}","upload_a_file_228b8cf9":"Upload a fil","use_webcam_1ed0bf6b":"Brug webcam"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "syllabus",
+  function() { return {"course_syllabus_5de1b0af":"Fagets fagplan"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "terms",
+  function() { return {"term_start_b8c2aad1":"skoleårets start","whenever_b943b119":"når som helst"} },
+  function() { return {"index":{"add_term":"Tilføj skoleår","date":{"term_end":"skoleårets afslutning","unspecified":"når som helst"},"messages":{"classes_in_term":"Du kan ikke slette et skoleår, som stadig indeholder klasser.","submitting":"Afleverer ..."},"prompts":{"delete":"Er du sikker på, at du vil slette dette skoleår?"},"update_term":"Opdater skoleåret"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "terms_of_service_modal",
+  function() { return {"acceptable_use_policy_29a28124":"Acceptabel brugspolitik"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "terms_of_use",
+  function() { return {"you_must_agree_to_the_terms_99723f97":"Du skal acceptere betingelserne"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "user_grades",
+  function() { return {"no_grade_3fa326c":"ingen vurdering"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "user_lists",
+  null,
+  function() { return {"add_n_users":{"one":"OK, det ser godt ud, tilføj denne bruger","other":"OK, det ser godt ud, tilføj disse %{count} brugere"},"adding_users":"Tilføjer brugere ...","buttons":{"continue":"Fortsæt ..."},"cant_unenroll":"Denne bruger blev tilmeldt automatisk ved brug af campus tilmeldingssystem, så de kan ikke slettes manuelt. Kontakt din systemadministrator, hvis du har spørgsmål.","delete_confirm":"Er du sikker på, at du vil fjerne denne bruger?","duplicate_users":{"one":"Der er fundet en kopieret bruger, duplikater er blevet fjernet.","other":"Der er fundet %{count} kopierede brugere, duplikater er blevet fjernet."},"invalid_users_notice":"Der er eventuelt nogle, som var ugyldige, og du skal muligvis gå tilbage og rette eventuelle fejl.","just_now":"Lige nu","messages":{"processing":"Behandler ..."},"titles":{"existing_user":"Eksisterende bruger"},"user_parsing_errors":{"one":"Der opstod 1 fejl under parsing af den pågældende liste over brugere.","other":"Der opstod %{count} fejl under parsing af den pågældende liste over brugere."},"users_added":{"one":"1 bruger tilføjet","other":"%{count} brugere tilføjet"},"users_adding_failed":"Det mislykkedes at tilmelde brugere","users_existed":{"one":"(1 bruger eksisterer allerede)","other":"(%{count} brugere eksisterer allerede)"},"users_to_add":{"one":"Hvis du fortsætter, tilføjes 1 bruger.","other":"Hvis du fortsætter, tilføjes %{count} brugere."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "user_logins",
+  null,
+  function() { return {"buttons":{"add_login":"Tilføj login","update_login":"Opdater gruppe"},"confirms":{"delete_login":"Er du sikker på, at du vil slette dette login, \"%{login}\"?"},"error":{"unauthorized":"Du har ikke tilstrækkelige privilegier til at udføre den nødvendige ændring"},"notices":{"cant_delete_last_login":"Du kan ikke slette sidste login for en bruger","mfa_reset":"Multi-faktor-autentifikation er nulstillet"},"save_succeeded":"Lagring vellykket","titles":{"add_login":"Tilføj login","update_login":"Opdater gruppe"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "user_name",
+  function() { return {"are_you_sure_you_want_to_permanently_remove_the_us_e6b84ce0":"Er du sikker på, at du ønsker at fjerne denne bruger permanent fra ALLE konti?","cache_cleared_successfully_9ab84d5a":"Cache blev ryddet","confirm_reactivation_ec0f30c6":"Bekræft genaktivering","confirm_suspension_18cc1fd2":"Bekræft suspension","could_not_reactivate_this_user_s_access_c5c6d232":"Kunne ikke genaktivere denne brugers adgang","could_not_suspend_this_user_s_access_13f2ac":"Kunne ikke suspendere denne brugers adgang","failed_to_clear_cache_7361ab":"Det lykkedes ikke at rydde cachen","failed_to_remove_user_7ce5e427":"Det mislykkedes at fjerne bruger","reactivate_user_e058db8b":"Genaktiver bruger","reactivation_will_allow_all_logins_for_name_to_log_455df70":"Genaktivering vil tillade, at alle logins til %{name} logger ind på Canvas og får adgang til tidligere godkendte API-integrationer igen.","suspend_db764978":"Suspender","suspend_user_e19fa489":"Suspender bruger","suspending_name_from_this_account_will_remove_all__a5aabff3":"Suspendering af %{name} fra denne konto vil fjerne al adgang til alle autoriserede systemer fra alle deres logins.","the_login_login_is_currently_suspended_and_will_no_472b19e9":"Login %{login} er i øjeblikket suspenderet og kan ikke få adgang til Canvas","user_removed_successfully_20a3889d":"Brugeren blev fjernet"} },
+  function() { return {"buttons":{"update_user":"Opdater bruger"},"confirms":{"remove_profile_picture":"Er du sikker på, at du vil fjerne denne brugers profilbillede?"},"errors":{"failed_to_remove_image":"Det mislykkedes at fjerne billedet, prøv igen","failed_to_report_image":"Det mislykkedes at indberette billedet, prøv igen","updating_user_details_failed":"Det mislykkedes at opdatere brugeroplysninger, prøv igen"},"messages":{"removing_image":"Sletter billede ...","reporting_image":"Indberetter billede ...","updating_user_details":"Opdaterer brugeroplysninger ..."},"notices":{"image_reported":"Dette billede er blevet indberettet"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "user_notes",
+  null,
+  function() { return {"confirms":{"delete_journal_entry":"Er du sikker på, at du vil slette denne journalpostering?"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "observees",
+  function() { return {"are_you_sure_you_want_to_stop_observing_name_b040e7ab":"Er du sikker på, at du vil stoppe med at observere %{name}?","in_order_to_complete_the_process_you_will_be_redir_83376e10":"For at fuldende processen omdirigeres du til en login-side, hvor du skal logge på med dit barns brugeroplysninger.","no_longer_observing_user_efa5298a":"Observerer ikke længere %{user}","no_students_being_observed_42e11732":"Ingen elever bliver observeret"} },
+  function() { return {"being_observed":"Elever, der observeres","new_observee_pairing_code":"Parringskode for elever","observee_added":"Observerer nu %{user}","observing":"Observerer"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "outcomes",
+  function() { return {"add_a_new_outcome_cbdbe96c":"Tilføj et nyt læringsudbytte","add_a_new_outcome_group_e3fab2fc":"Tilføj en ny læringsudbytte-gruppe","delete_outcome_cc6546f1":"Slet læringsudbytte","delete_outcome_group_6b399d34":"Slet gruppe for læringsudbytte","edit_outcome_group_f82e0210":"Rediger gruppe for læringsudbytte","find_an_outcome_919328e6":"Find et læringsudbytte","hide_all_artifacts_d654fbd5":"Skjul alle genstande","import_a_set_of_outcomes_6b782192":"Importer et sæt læringsudbytter","in_order_to_import_a_large_quantity_of_outcomes_at_c0d587e3":"For at importere et stort antal læringsudbytter på én gang, eller for at opdatere dine eksisterende læringsudbytter, bedes du *følge CSV-formatet*.","latest_assessment_a85280ef":"Seneste bedømmelse","mastery_n_mastery_points_precision_2_str_points_e0ed1b3b":"Opfyldelse af læringsmål: %{n_mastery_points_precision_2_str} point","more_importantly_canvas_allows_you_to_add_outcomes_78822cf":"Endnu vigtigere kan Canvas give dig mulighed for at tilføje læringsudbytter til dine vurderingskriterier, så du kan evaluere opfyldelse af læringsmål, mens du vurderer opgaver. Når du har oprettet læringsudbytter, skal du klikke på Administrer vurderingskriterier for at begynde at bruge dine læringsudbytter til vurdering.","move_outcome_ce497e6c":"Flyt læringsudbytte","move_outcome_group_cfa1a505":"Flyt læringsudbyttegruppe","n_points_precision_2_strip_insig_points_60ad6f21":"%{n_points_precision_2_strip_insig} Points","new_outcome_7fba8c7d":"Nyt læringsudbytte","new_outcome_group_af59f145":"Ny læringsudbytte-gruppe","no_score_yet_c94e919b":"Intet resultat endnu","not_available_until_next_submission_2175158":"Ikke tilgængelig før næste aflevering","outcomes_are_created_here_to_track_mastery_in_a_co_2f487549":"Læringsudbytter oprettes her for at spore opfyldelse af læringsmål i et fag. For at komme i gang skal du tjekke menulinjen for oven. Klik på knappen Nyt læringsudbytte for at oprette et nyt læringsudbytte eller på knappen Ny gruppe for at oprette en ny gruppe for at organisere dine læringsudbytter. Find-knappen giver dig mulighed for at bruge læringsudbytter, der er oprettet af din stat eller institution. Når du opretter og bruger læringsudbytter, kan du bruge panelet til venstre for at navigere gennem dem. Du kan trække og slippe læringsudbytter mellem de forskellige niveauer for at oprette struktur.","show_all_artifacts_34b91a83":"Vis alle genstande","the_most_recent_scores_for_user_current_user_name__ea82f0b6":"De seneste resultater for bruger %{current_user_name} og læringsudbytte %{outcome_name}.","this_outcome_has_been_used_to_assess_a_student_and_a3a48511":"Dette læringsudbytte er blevet brugt til at bedømme en elev og nogle redigeringer vil påvirke elevens resultater.","you_have_no_outcomes_click_here_to_create_one_ebf262a3":"Du har ingen læringsudbytter. *Klik her* for at oprette et."} },
+  function() { return {"criterion":{"close_rating":"Ok","criterion_rating_points":"Point til kriteriebedømmelse","delete_criterion":"Slet","edit_criterion_rating_title":"Rediger \"%{description}\" kriteriebedømmelse","points":"Point","pts":"point","rating_description":"Beskrivelse af kriteriebedømmelse"},"criterion_header":{"insert_criterion_rating":"Indfør kriteriebedømmelse","insert_rating":"Indsæt"},"find_instructions":{"instructions":{"find":{"description":"*Her kan du få adgang til læringsudbytte, oprettet af din institution eller region. Præcis som i dit fag giver panelet til venstre dig mulighed for at navigere mellem eksisterende læringsudbytter. Når du har fundet læringsudbyttet eller læringsudbyttegruppen, som du vil bruge, klikker du på importknappen nedenfor for at føje det eller den til dit fag.*","title":"Sådan finder du læringsudbytter"}}},"main_instructions":{"instructions":{"main":{"manage":{"title":"Konfiguration af læringsudbytte"}}}},"outcome":{"links":{"delete_outcome":"Slet","edit_outcome":"Rediger"},"mastery_at_label":"Indstil opfyldelse af læringsmål for ethvert resultat på eller over:","use_for_scoring":"Brug dette kriterie til resultatet"},"outcome_form":{"calculation_method":"Beregningsmetode","criterion":"Kriteriebedømmelse","description":"Beskriv dette læringsudbytte","display_name":"Venligt navn (valgfrit)","mastery":"Opfyldelse af læringsmål ved","title":"Navngiv dette læringsudbytte"},"outcome_group":{"links":{"delete_outcome_group":"Slet","edit_outcome_group":"Rediger"}},"outcome_group_form":{"group_description":"Beskriv denne gruppe","title":"Navngiv denne gruppe"},"outcome_popover":{"mastery_set_at":"Målopfyldelse sat til","no_results":"(ingen resultater)"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "users",
+  null,
+  function() { return {"confirms":{"unenroll_user":"Er du sikker på, at du vil framelde denne bruger?"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "webzip_exports",
+  function() { return {"an_error_occurred_please_try_again_later_84223241":"En fejl opstod. Prøv venligst igen senere.","export_failed_5d615d6d":"Eksport mislykkedes","exported_package_history_bfca44b9":"Eksporteret pakke-historie","most_recent_export_7282b756":"Seneste eksport","no_exports_to_display_7f1b630b":"Ingen eksporter at vise","package_export_from_d6e2b073":"Pakke-eksport fra","the_download_process_has_started_this_can_take_a_w_cef4bb75":"Download er begyndt. Det\n          kan tage et stykke tid for store fag. Du kan forlade\n          siden, og så får du en meddelelse, når overførslen\n          er færdig.","this_may_take_a_while_d07790f2":"Det kan tage lidt tid ...","you_may_not_reproduce_or_communicate_any_of_the_co_7636b552":"Du må ikke gengive eller kommunikere noget af indholdet fra\n            dette fag, herunder filer eksporteret fra dette fag, uden forudgående skriftlig\n            tilladelse fra din institution.  Kontakt din institution vdr. specifikke online\n            retningslinjer for brugeraftaler."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "pages",
+  function() { return {"failed_to_delete_selected_pages_26fa87db":"Kunne ikke slette valgte sider","name_is_locked_click_to_unlock_bbebf03e":"%{name} er låst. Klik for at låse op.","selected_pages_have_been_deleted_82a7f965":"De valgte sider er blevet slettet"} },
+  function() { return {"cancel_button":"Annuller","cannot_unpublish_front_page":"Kan ikke fjerne forsiden","delete_button":"Slet","delete_confirmation":"Er du sikker på, at du vil slette denne wikiside?","delete_dialog_title":"Slet side","deleting_button":"sletter ...","edit_dialog_title":"Rediger side","errors":{"require_title":"Du skal indtaste en titel"},"headers":{"sort_ascending":"%{title}, sorter i stigende rækkefølge","sort_descending":"%{title}, sorter i faldende rækkefølge"},"notices":{"delete_failed":"Siden \"%{title}\" kunne ikke slettes.","page_deleted":"Siden \"%{title}\" er blevet slettet."},"reload_editing_page":"Denne side er blevet ændret, siden du begyndte at redigere den. *Genindlæsning* mister alle dine ændringer.","reload_viewing_page":"Denne side er blevet ændret, siden du begyndte at vise den. *Genindlæs*","restore_failed":"Gendannelse af siderevision mislykkedes","save_button":"Gem","saving_button":"Gemmer ...","warnings":{"overwrite_changes":"Du er ved at overskrive ændringer, der er blevet foretaget, siden du begyndte at redigere.\n\nOverskriv disse ændringer?","unsaved_changes":"Du har ændringer, der ikke er gemt. Vil du fortsætte uden at gemme disse ændringer?"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "wiki_pages",
+  function() { return {"delete_in_progress_2d3f0e0d":"Sletning i gang"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_pages_selected_for_deletion_1ab0f684",
+  null,
+  function() { return {"one":"%{count} side valgt til sletning","other":"%{count} sider valgt til sletning"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "content_locks",
+  null,
+  function() { return {"buttons":{"ok_thanks":"Ok, tak."},"messages":{"assignment_locked_at":"Opgaven blev låst %{at}.","assignment_locked_module":"Opgaven er en del af forløbet *%{module}* og er endnu ikke blevet åbnet.","assignment_locked_no_reason":"Opgaven er låst. Der er ikke givet nogen anden årsag.","assignment_locked_until":"Opgaven er låst indtil %{date}.","content_locked_at":"Indholdet blev låst %{at}.","content_locked_module":"Indholdet er en del af forløbet *%{module}* og er endnu ikke blevet åbnet.","content_locked_no_reason":"Indholdet er låst. Der er ikke givet nogen anden årsag.","content_locked_until":"Indholdet er låst indtil %{date}.","file_locked_at":"Filen blev låst %{at}.","file_locked_module":"Filen er en del af forløbet *%{module}* og er endnu ikke blevet åbnet.","file_locked_no_reason":"Filen er låst. Der er ikke givet nogen anden årsag.","file_locked_until":"Filen er låst indtil %{date}.","page_locked_at":"Siden blev låst %{at}.","page_locked_module":"Siden er en del af forløbet *%{module}* og er endnu ikke blevet åbnet.","page_locked_no_reason":"Siden er låst. Der er ikke givet nogen anden årsag.","page_locked_until":"Siden er låst indtil %{date}.","quiz_locked_at":"Denne quiz blev låst %{at}.","quiz_locked_module":"Denne quiz er en del af forløbet *%{module}* og er endnu ikke blevet åbnet.","quiz_locked_no_reason":"Denne quiz er låst. Der er ikke givet nogen anden årsag.","quiz_locked_until":"Denne quiz er låst indtil %{date}.","topic_locked_at":"Emnet blev låst %{at}.","topic_locked_module":"Emnet er en del af forløbet *%{module}* og er endnu ikke blevet åbnet.","topic_locked_no_reason":"Emnet er låst. Der er ikke givet nogen anden årsag.","topic_locked_until":"Emnet er låst indtil %{date}.","visit_modules_page_for_details":"Gå ind på siden med forløb for oplysninger om, hvordan man åbner indholdet."},"titles":{"content_is_locked":"Indholdet er låst"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "add_people_api_client",
+  function() { return {"you_do_not_have_permission_to_invite_users_that_do_b7142404":"Du har ikke tilladelse til at invitere brugere, der ikke allerede eksisterer."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "add_people",
+  function() { return {"add_people_7ee4b2ec":"Tilføj deltagere","add_people_to_coursename_5ea234e1":"Tilføj deltagere til: %{courseName}","add_users_b10c7fb1":"Tilføj brugere","loading_725811ca":"indlæser","ready_to_enroll_panel_46f45abb":"Klar til at tilmelde panel","this_panel_lists_the_users_ready_to_be_added_to_th_79efad22":"Dette panel viser de brugere, der er klar til at blive tilføjet til dette fag.","use_this_panel_to_resolve_duplicate_results_or_peo_856d1c96":"Brug dette panel til at løse duplikerede resultater eller deltagere, der ikke findes med din søgning.","use_this_panel_to_search_for_people_you_wish_to_ad_a3d726a7":"Brug dette panel til at søge efter deltagere, du ønsker at tilføje til dette fag.","user_search_panel_18f80511":"Brugerens søgepanel","user_vaildation_issues_panel_66b66945":"Panel for brugervailderingsspørgsmål"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "add_peopleApiError",
+  function() { return {"the_following_users_could_not_be_created_2573360a":"Følgende brugere kunne ikke oprettes."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "add_people_duplicate_section",
+  function() { return {"click_to_create_a_new_user_for_address_325f6683":"Klik for at oprette en ny bruger til %{address}","click_to_create_a_new_user_for_login_56d2daf5":"Klik for at oprette en ny bruger til %{login}","click_to_select_user_name_41746803":"Klik for at vælge bruger %{name}","click_to_skip_address_8f874b32":"Klik for at springe over %{address}","create_a_new_user_for_address_7487e9c9":"Opret en ny bruger til \"%{address}\"","don_t_add_this_user_for_now_32912974":"Tilføj ikke denne bruger nu.","possible_matches_for_address_select_the_correct_on_e206f972":"Mulige match for \"%{address}\". Vælg den korrekte nedenfor eller opret en ny bruger."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "add_people_missing_people_section",
+  function() { return {"check_to_add_a_user_for_loginid_6cd25597":"Afkryds for at tilføje en bruger til %{loginid}","check_to_select_all_98e484f1":"Marker for at vælge alle","check_to_skip_adding_a_user_for_loginid_5fa643da":"Afkryds for at springe tilføjelse af en bruger over til %{loginid}","click_to_add_a_name_6cf551b0":"Klik for at tilføje et navn","unmatched_login_list_283ca77":"Login-liste uden match"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "PeopleReadyList",
+  function() { return {"no_users_were_selected_to_add_to_the_course_a51c6083":"Ingen brugere blev valgt til at tilføje til faget","the_following_users_are_ready_to_be_added_to_the_c_1ea01560":"Følgende brugere er klar til at blive tilføjet til faget.","user_list_66428346":"Brugerliste"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "PeopleSearch",
+  function() { return {"add_user_s_by_b2549f89":"Tilføj bruger(e) ved at","can_interact_with_users_in_their_section_only_48cb8c43":"Kan kun interagere med brugere i deres sektion","email_addresses_required_14483dc8":"E-mailadresser (påkrævet)","enter_the_email_addresses_of_the_users_you_would_l_f76448a6":"Indtast e-mail-adresserne på de brugere, du gerne vil tilføje, adskilt af kommaer eller linjeskift","enter_the_login_ids_of_the_users_you_would_like_to_502fcbc5":"Indtast login-ID'er på de brugere, du gerne vil tilføje, adskilt af kommaer eller linjeskift","enter_the_sis_ids_of_the_users_you_would_like_to_a_25e441f1":"Indtast SIS-ID'er på de brugere, du gerne vil tilføje, adskilt af kommaer eller linjeskift","it_looks_like_you_have_an_invalid_email_address_ad_67dec734":"Det ser ud til, du har en ugyldig email-adresse: \"%{addr}\"","login_ids_required_ff2273ab":"Login-ID'er (påkrævet)","role_13a7be77":"Rolle","sis_ids_required_125074d9":"SIS-ID'er (påkrævet)","when_adding_multiple_users_use_a_comma_or_line_bre_67f9c87d":"Når du tilføjer flere brugere, skal du bruge et komma eller linjeskift til at adskille brugere."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "PeopleValidationIssues",
+  function() { return {"there_were_several_possible_matches_with_the_impor_ad58bcd0":"Der var flere mulige match med importen. Løs dem nedenfor.","we_were_unable_to_find_matches_below_f1c6d1ed":"Vi kunne ikke finde nogen match nedenfor.","we_were_unable_to_find_matches_below_select_any_yo_87035b30":"Vi kunne ikke finde nogen match nedenfor. Vælg dem, du gerne vil oprette som nye brugere. Umarkerede springes over på dette tidspunkt."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "add_peopleapiState_reducer",
+  function() { return {"an_internal_error_occurred_83b8a685":"En intern fejl opstod","failed_creating_user_b706a1c5":"Kunne ikke oprette bruger"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "app_shared_components_expandable_error_alert",
+  function() { return {"error_details_31e81e4d":"Oplysninger om fejl"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "ajaxflashalert",
+  function() { return {"an_error_occurred_making_a_network_request_d1bda348":"Der opstod en fejl under oprettelse af en netværksanmodning"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignment_categories",
+  function() { return {"wiki_6603e81b":"Wiki"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "models_Assignment",
+  function() { return {"can_t_unpublish_name_if_there_are_student_submissi_8ab8086c":"Kan ikke annullere offentliggørelse af %{name}, hvis det indeholder afleveringer fra elever"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "AssignmentGroupCreateDialog",
+  null,
+  function() { return {"titles":{"add_assignment_group":"Tilføj opgavegruppe"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignment_group_selector",
+  null,
+  function() { return {"assignment_group_must_have_group":"Vælg en opgavegruppe til denne opgave"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignment_grading_type",
+  null,
+  function() { return {"gpa_scale_explainer":"Vurderingsordning-omregningstabel","grading_type_options":{"gpa_scale":"GPA-scala","letter_grade":"Bogstavvurderinger","not_graded":"Ikke bedømt","pass_fail":"Fuldstændig/ufuldstændig","percent":"Procentdel","points":"Point"},"titles":{"gpa_scale_explainer":"Vurderingsordning-omregningstabel","grading_scheme_info":"Vis/rediger vurderingsordning"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignment!reupload_submissions_helper",
+  function() { return {"please_upload_files_as_a_zip_5a2c799f":"Upload venligst filer som .zip","upload_error_please_try_again_c6587f48":"Uploadfejl. Prøv igen.","upload_files_a228f20f":"Upload filer","uploading_ee585874":"Uploader ..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "CollectionView",
+  null,
+  function() { return {"no_items":"Ingen elementer."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_settings_actions",
+  function() { return {"an_error_occurred_while_checking_the_migration_sta_d17035b1":"Der opstod en fejl under kontrol af overførselsstatus","an_error_occurred_while_loading_associations_9699b3ee":"Der opstod en fejl under indlæsning af associationer","an_error_occurred_while_loading_changes_9851b56f":"Der opstod en fejl under indlæsning af ændringer","an_error_occurred_while_loading_courses_11d4571e":"Der opstod en fejl under indlæsning af fag","an_error_occurred_while_saving_associations_bd66f3f4":"Der opstod en fejl under lagring af associationer","an_error_occurred_while_starting_migration_8e6015e2":"Der opstod en fejl under opstart af overførsel","an_error_ocurred_while_loading_sync_history_ad9dc6df":"Der opstod en fejl under læsning af synkroniseringshistorik","an_error_ocurred_while_loading_unsynced_changes_aed0d04d":"Der opstod en fejl under indlæsning af ikke-synkroniserede ændringer","associations_saved_successfully_48b9eae3":"Associationer gemt","there_was_an_unexpected_problem_with_the_sync_be079a67":"Der opstod et uventet problem med synkroniseringen"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "BlueprintModal",
+  function() { return {"publish_upon_association_53cb0450":"Offentliggør ved tilknytning"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_coursesLockManageer",
+  function() { return {"there_was_a_problem_toggling_the_content_lock_2a5d678b":"Der opstod et problem, da indholdslåsen blev slået til eller fra."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_coursesLockBanner",
+  function() { return {"attributes_locked_1a1a0f46":"%{attributes} låst","locked_796957c7":"Låst:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_settingsSyncChange",
+  function() { return {"show_exceptions_270ea1c5":"Vis undtagelser"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_exceptions_1176c596",
+  null,
+  function() { return {"one":"%{count} undtagelse","other":"%{count} undtagelser"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_settingsSyncHistoryItem",
+  function() { return {"count_changes_pushed_by_user_654aade2":"%{count} ændringer foretaget af %{user}","count_pushed_changes_6fe7fba":"%{count} Udskudte ændringer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_settings_labels",
+  function() { return {"availability_dates_changed_exceptions_465ba375":"Tilgængelighedsdatoer ændrede undtagelser:","content_1440204b":"Indhold","content_changed_exceptions_e8bff81e":"Indhold ændrede undtagelser:","created_58b8a75a":"Oprettet","deleted_content_exceptions_237e809d":"Slettet indhold undtagelser:","due_dates_changed_exceptions_ddb028":"Forfaldsdatoer ændrede undtagelser:","initial_sync_incomplete_ec74fe8e":"Indledende synkronisering ufuldstændig","points_changed_exceptions_b0c771f7":"Point ændrede undtagelser:","question_bank_f6c44d62":"Spørgsmålsbank","settings_changed_exceptions_e5247936":"Indstillinger ændrede undtagelser:","updated_2c1e8615":"Opdateret"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "blueprint_LockItemFormat",
+  function() { return {"no_attributes_locked_611c5cc":"ingen attributter låst"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_nickname_edit",
+  function() { return {"nickname_1e6da3ad":"Alias"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "calendar_color_picker",
+  function() { return {"blue_daf8fea9":"Blå","brick_f2656265":"Mursten","chosencolor_is_not_a_valid_color_enter_a_valid_hex_9e2c7c42":"'%{chosenColor}' er ikke en gyldig farve. Indtast en gyldig hexcode, før du gemmer.","could_not_save_chosencolor_741b74ce":"Kunne ikke gemme '%{chosenColor}'","cyan_c1d5f68a":"Cyan","deep_purple_bb3e2907":"Dyb lilla","enter_a_hexcode_here_to_use_a_custom_color_51ecccce":"Indtast en farvekode her for at bruge en brugerdefineret farve.","green_15af4778":"Grøn","indigo_2035fc55":"Indigo","invalid_hexcode_9124519f":"Ugyldig hexcode","invalid_hexcode_enter_a_valid_hexcode_here_to_use__fc0f2741":"Ugyldig hexcode. Indtast en gyldig hexcode her for at bruge en brugerdefineret farve.","light_blue_5374f600":"Lyseblå","magenta_4a65993c":"Magenta","olive_6a3e4d6b":"Oliven","orange_81386a62":"Orange","pink_68ad45cb":"Lyserød","pumpkin_904428d5":"Græskar","purple_7678a9fc":"Lilla","red_8258edf3":"Rød","select_a_predefined_color_c77ab2f5":"Vælg en foruddefineret farve.","select_course_color_cad8e62b":"Vælg fagets farve","teal_f729a294":"Grønblå"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "format_range",
+  function() { return {"multiple_ba5220cd":"Multiple","upper_lower_56cad16c":"%{upper} - %{lower}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "conditional_release",
+  function() { return {"add_items_44913315":"Tilføj elementer","add_items_into_scoring_range_title_be08104e":"Tiliføj elementer til %{scoring_range_title}","add_items_to_score_range_297d413b":"TIlføj elementer til resultatområde","all_items_a49b66c7":"Alle elementer","assignment_name_options_43b1795":"opgave %{name} muligheder","assignment_set_set_index_28b1f973":"Opgave indstillet %{set_index}","click_to_merge_sets_here_638fcac7":"Klik her for at flette sæt","click_to_split_set_here_9c35462a":"Klik her for at opdele sættet","division_cutoff_cutoff_value_e938bc9d":"Division cutoff %{cutoff_value}","error_in_mastery_paths_range_index_7d17ddac":"%{error} inden for læringssti-området %{index}","filter_assignment_category_63acaed4":"Filtrer opgavekategori","item_category_category_icon_for_item_name_item_nam_ff2b97f0":"%{item_category} kategoriikon for elementnavn %{item_name}","label_as_gradingtype_ae164bd9":"%{label}, som %{gradingType}","loading_1d2ad2d7":"Indlæser ...","lower_bound_ed528347":"Nedre grænse","move_to_lower_upper_94cb604f":"Flyt til %{lower} - %{upper}","moved_assignment_name_to_scoring_range_lower_upper_edd6fc4e":"Flyttet opgave %{name} til resultatområde %{lower} - %{upper}","must_be_a_number_f6e09df7":"skal være et tal","must_not_be_empty_80fd90b8":"kan ikke være tom","must_provide_valid_letter_grade_999219e3":"skal angive en gyldig bogstavvurdering","no_items_found_870b2d0d":"Der er ikke fundet elementer","removed_assignment_assignment_name_835cc776":"Fjern opgave %{assignment_name}","score_letter_grade_b3bb9e52":"%{score} bogstavvurdering","score_percent_11941c81":"%{score} procent","score_points_3c48e2a8":"%{score} point","scoring_range_upperbound_to_lowerbound_c017669b":"Resultatområde %{upperBound} til %{lowerBound}","sets_are_merged_click_to_split_fa741a5f":"Sæt er opdelt, klik for at flette","sets_are_split_click_to_merge_99552cdb":"Sæt er opdelt, klik for at flette","splitting_disabled_reached_maximum_of_three_assign_716acb13":"Opdeling deaktiveret: nået maksimalt tre opgavegrupper i et resultatområde","splitting_disabled_there_can_only_be_a_maximum_of__7070ec11":"Opdeling deaktiveret: der kan kun være maksimalt tre opgavegrupper i et resultatområde.","these_scores_are_out_of_order_4f0859ef":"disse resultater virker ikke","top_bound_282d045b":"Top grænse","upper_to_lower_168f5fe7":"%{upper} til %{lower}"} },
+  function() { return {"and":"\u0026"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_items_found_224f86d3",
+  null,
+  function() { return {"one":"Et element fundet","other":"%{count} elementer fundet","zero":"Der er ikke fundet elementer"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "cyoe_assignment_sidebar_breakdown_details",
+  function() { return {"close_details_sidebar_ff8f663d":"Luk sidepaneldetaljer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "cyoe_assignment_sidebar_breakdown_graph_bar",
+  function() { return {"lowerbound_to_upperbound_352a3c0b":"%{lowerBound}+ til %{upperBound}","rangestudents_out_of_totalstudents_students_e5ee60e1":"%{rangeStudents} ud af %{totalStudents} elever","view_range_student_details_8116d68a":"Se område i elevens detaljer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "cyoe_assignment_sidebar_student_details_view",
+  function() { return {"not_submitted_7d05fdb4":"Ikke indsendt","submitted_submitdate_bdd3bf09":"Afleveret: %{submitDate}","view_next_student_9fc72fef":"se næste elev","view_previous_student_90000459":"se tidligere elev","view_submission_ff3da5d":"Vis aflevering"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "cyoe_assignment_sidebar_student_range_itme",
+  function() { return {"select_student_name_caaff244":"Vælg elev %{name}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "confetti",
+  function() { return {"great_work_from_the_canvas_developers_8c23f1c3":"Godt klaret! Fra Canvas-udviklerne"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "select_content_checkbox",
+  null,
+  function() { return {"select_content_error":"Du skal vælge en indholdsmulighed"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "student_context_trayLastActivity",
+  function() { return {"last_login_b7bc0479":"Seneste login:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "student_context_trayRating",
+  function() { return {"high_b5cbd048":"Høj","low_eab1cadd":"Lav","moderate_d0c85e92":"Bedøm"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "student_context_traySectionInfo",
+  function() { return {"section_section_names_98f172e6":"Sektion: %{section_names}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "student_context_trayStudentContextTray",
+  function() { return {"activity_compared_to_class_8133cb0":"Aktivitet sammenlignet med klasse","page_views_eb64cf53":"Sidevisninger","participation_af2598":"Deltagelse","send_a_message_to_student_b2e72576":"Send en besked til %{student}","view_analytics_for_name_9b31594e":"Vis analyse for %{name}","view_grades_for_name_45aeb2f2":"Vis vurderinger for %{name}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "student_context_traySubmissionProgressBars",
+  function() { return {"grade_10d1e5a1":"%{grade}","last_length_graded_items_6db7374e":"Sidste %{length} elementer med vurdering"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "publishable",
+  null,
+  function() { return {"cant_unpublish":"Kan ikke annullere offentliggørelse"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "publishableModuleItem",
+  function() { return {"can_t_unpublish_if_there_are_student_submissions_2d7cd742":"Kan ikke annullere offentliggørelsen, hvis der findes afleveringer fra elever","can_t_unpublish_item_name_if_there_are_student_sub_b83c7a9f":"Kan ikke annullere offentliggørelse af %{item_name}, hvis det indeholder afleveringer fra elever","publishing_is_disabled_for_this_item_efa7803f":"Offentliggørelse er deaktiveret for dette element","publishing_item_name_is_disabled_8207a9e7":"Offentliggørelse af %{item_name} er deaktiveret"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "viewsContextModules",
+  null,
+  function() { return {"context_module":{"unpublish":"Annuller offentliggørelse"},"context_modules":{"publish":"Offentliggør"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "context_modulespublic",
+  function() { return {"collapse_all_50275533":"Skjul alle","collapse_all_modules_e092807c":"Skjul alle forløb","complete_all_items_e1779257":"Fuldfør alle elementer","complete_one_item_90e5fb03":"Fuldfør et element","delete_prerequisite_title_19741947":"Slet forudsætning %{title}","delete_requirement_item_type_d7453a69":"Slet krav %{item} (%{type})","duplicating_module_this_may_take_some_time_eef73720":"Duplikerer modul, dette kan tage lidt tid","error_duplicating_module_4b023042":"Fejl ved duplikering af forløb","error_rendering_duplicated_module_db821097":"Fejl ved gengivelse af duplikeret forløb","expand_all_bb64d2ea":"Udvid alle","expand_all_modules_a7d79134":"Udvid alle forløb","module_item_module_item_name_was_successfully_dele_8626d846":"Forløbelement %{module_item_name} blev slettet.","module_module_name_was_successfully_deleted_fc9e9d47":"Forløb %{module_name} blev slettet.","move_module_90e6927e":"Flyt forløb","move_module_item_f525d6c8":"Flyt forløbelement","multiple_due_dates_283dd861":"Flere forfaldsdatoer","must_contribute_to_the_page_fff632c":"Skal bidrage til siden","must_mark_as_done_91cff799":"Skal markeres som færdig","must_score_at_least_a_score_3b4f813d":"Skal opnå et resultat på mindst %{score}","must_submit_the_assignment_782d025":"Skal aflevere opgaven","must_view_the_page_67eec19e":"Skal vise siden","not_completed_d70acea3":"Ikke afsluttet","not_yet_completed_345a0bca":"Endnu ikke afsluttet","prerequisites_list_62d66d12":"Forudsætninger: %{list}","released_by_mastery_path_path_b562d741":"Udgivet af læringssti: %{path}","select_prerequisite_module_57894963":"Vælg forudsætningsforløb","some_module_items_could_not_be_published_e4be3c0":"Nogle forløbelementer kunne ikke offentliggøres","this_assignment_is_overdue_a44bea3b":"Denne opgave er forfalden","title_is_required_437f9993":"Titel er påkrævet","you_scored_a_score_a5dd5561":"Du opnåede %{score}.","your_submission_has_not_been_graded_yet_d6963e53":"Din aflevering er ikke blevet bedømt endnu"} },
+  function() { return {"buttons":{"add":"Tilføj forløb","add_item":"Tilføj element","update":"Opdater forløb"},"confirm":{"delete":"Er du sikker på, at du vil slette forløbet?","delete_item":"Er du sikker på, at du vil slette dette element fra forløbet?"},"errors":{"reorder":"Omorganisering mislykkedes, prøv igen."},"optgroup":{"assignments":"Opgaver","discussion_topics":"Diskussioner","external_tools":"Eksterne værktøjer","external_urls":"Eksterne URL'er","files":"Filer","quizzes":"Test"},"points_possible_short":"%{points} point","titles":{"add":"Tilføj forløb","add_item":"Føj element til %{module}","add_prerequisite":"Føj forudsætning til %{module}","edit":"Rediger forløbindstillinger","edit_item":"Rediger elementoplysninger"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "copy_to_clipboard",
+  function() { return {"copy_the_video_url_dd509606":"Kopier videoens URL"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_home_dialog",
+  function() { return {"assignments_list_fe3e54be":"Opgaveliste","before_publishing_your_course_you_must_either_publ_cf84cad9":"Før du offentliggør dit fag, skal du enten udgive et forløb på siden Forløb, eller vælge en anden hjemmeside.","choose_and_publish_980812cb":"Vælg og offentliggør","choose_course_home_page_d8642f9e":"Vælg en hjemmeside til faget","course_activity_stream_40091c17":"Fagets seneste aktiviteter","course_modules_795cb95e":"Fagforløb","front_page_must_be_set_first_c5246f7d":"Forsiden skal indstilles først","pages_front_page_9ce5188":"Sider forside","select_what_you_d_like_to_display_on_the_home_page_c1b53804":"Vælg, hvad du vil vise på hjemmesiden."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "home_page_prompt",
+  function() { return {"before_publishing_your_course_you_must_either_publ_cdfdc78c":"Før du offentliggør dit fag, skal du enten offentliggøre et forløb eller vælge en anden hjemmeside."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "subnav_menu_toggle",
+  function() { return {"hide_account_navigation_menu_ccdf9480":"Skjul kontonavigationsmenu","hide_admin_navigation_menu_5cab9c9e":"Skjul admin-navigationsmenu","hide_courses_navigation_menu_6f7c4cfd":"Skjul fag-navigationsmenu","hide_groups_navigation_menu_62e8b3d0":"Skjul gruppe-navigationsmenu","hide_navigation_menu_f0b3e90":"Skjul navigationsmenu","show_account_navigation_menu_d97270a9":"Vis kontonavigationsmenu","show_admin_navigation_menu_92fb579f":"Vis admin-navigationsmenu","show_courses_navigation_menu_7ad1a8d4":"Vis fag-navigationsmenu","show_groups_navigation_menu_1521d38d":"Vis gruppe-navigationsmenu","show_navigation_menu_34e7f441":"Vis navigationsmenu"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "create_course_modal",
+  function() { return {"course_details_25cdf103":"Fagoplysninger","create_course_9a69b32c":"Opret fag","create_subject_86de5618":"Opret emne","creating_new_course_62cd27bb":"Opretter nyt fag ...","creating_new_subject_35fe8d13":"Opretter nyt emne ...","error_creating_new_course_9d3903bc":"Fejl ved oprettelse af nyt fag","error_creating_new_subject_89f16abe":"Fejl ved oprettelse af nyt emne","loading_accounts_3364e7a0":"Indlæser konti ...","name_e790ff1f":"Navn ...","select_a_homeroom_bd9ec5d5":"Vælg et klasseværelse","subject_details_12405b1":"Emnedetaljer","subject_name_a1ac4da4":"Emnets navn","sync_enrollments_and_subject_start_end_dates_from__b36ecf3":"Synkroniser tilmeldingers og emners start/slutdatoer fra klasseværelset","unable_to_get_accounts_cb825c43":"Ikke i stand til at hente konti","unable_to_get_homerooms_959dfe67":"Kan ikke hente klasseværelser","which_account_will_this_course_be_associated_with_80f78fd2":"Hvilken konto vil dette fag være tilknyttet?","which_account_will_this_subject_be_associated_with_921d6bac":"Hvilken konto vil dette emne være tilknyttet?"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "load_card_dashboard",
+  function() { return {"failed_loading_course_cards_8fcdb36d":"Indlæsning af fagkort mislykkedes."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "dashcards",
+  function() { return {"actions_for_course_312ff446":"Handlinger for %{course}","all_courses_80701c6f":"Alle fag.","an_error_ocurred_while_fetching_course_details_ple_9cab7735":"Der opstod en fejl under hentning af fagoplysninger. Prøv igen.","choose_a_color_or_course_nickname_or_move_course_c_dd23f754":"Vælg et farve- eller fag-kaldenavn eller flyt fagkort for %{course}","confirm_unfavorite_course_fa01966d":"Bekræft, at faget fjernes fra favoritter","course_card_color_region_for_course_c356a69c":"Farvetema på fag-kortet for %{course}","course_image_for_course_cfbb08df":"Fag-billede til %{course}","dashboard_card_movement_menu_b65b98f5":"Oversigt-kortets bevægelsesmenu","move_down_4a9c9b18":"Flyt ned","move_to_bottom_d0f71bf0":"Flyt til bunden","move_to_top_e0d7d66e":"Flyt til toppen","move_up_2440f707":"Flyt op","no_courses_favorited_4e69fd63":"Ingen fag som favorit","no_courses_to_display_700f94c4":"Ingen fag at vise","observing_observee_d31d5fa2":"Observerer: %{observee}","published_courses_count_e7e82f3b":"Offentliggjorte fag (%{count})","unfavorite_cd0c113e":"Fjern fra favoritter","unfavorite_coursename_32f77231":"Fjern fra %{courseName}","unpublished_courses_count_d35672f0":"Ikke offentliggjorte fag (%{count})","we_were_unable_to_remove_this_course_from_your_fav_70fa598d":"Vi kunne ikke fjerne dette fag fra dine favoritter.","you_are_about_to_remove_this_course_from_your_dash_7e806db6":"Du er ved at fjerne dette fag fra din oversigt. Det vil stadig være tilgængeligt\n              ved at navigere til Fag \u003e Alle fag fra hovedmenuen.","you_have_no_courses_favorited_reloading_this_page__a2bae9de":"Du har ingen fag som favorit. Genindlæsning af denne side viser alle\n      dine aktive fag. For at tilføje favoritter skal du gå til "} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "models_DateGroup",
+  null,
+  function() { return {"everyone_else":"Alle andre"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "dateformat",
+  function() { return {"yyyy_mm_dd_hh_mm_a01b6081":"ÅÅÅÅ-MM-DD tt:mm"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "timeValue",
+  null,
+  function() { return {"event":"%{dateValue} %{timeValue}"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "DateValidator",
+  function() { return {"due_date_cannot_be_after_course_end_fd128a14":"Afleveringsdato kan ikke ligge efter fagets afslutning","due_date_cannot_be_after_section_end_b0f54388":"Afleveringsdato kan ikke ligge efter sektionens afslutning","due_date_cannot_be_after_term_end_5d504cb1":"Afleveringsdato kan ikke ligge efter skoleårets afslutning","due_date_cannot_be_before_course_start_ecc523ba":"Afleveringsdato kan ikke ligge før fagets start","due_date_cannot_be_before_section_start_f8950484":"Afleveringsdato kan ikke ligge før sektionens start","due_date_cannot_be_before_term_start_ea660b2c":"Afleveringsdato kan ikke ligge før skoleårets start","due_date_cannot_fall_in_a_closed_grading_period_e4336124":"Forfaldsdato kan ikke falde i en lukket vurderingsperiode","lock_date_cannot_be_after_course_end_a473158b":"Låsningsdato kan ikke ligge efter faget afslutning","lock_date_cannot_be_after_section_end_d37da70c":"Låsningsdato kan ikke ligge efter sektionens afslutning","lock_date_cannot_be_after_term_end_cf1a188f":"Låsningsdato kan ikke ligge efter skoleårets afslutning","lock_date_cannot_be_before_due_date_ac30f54":"Låsningsdato kan ikke ligge før afleveringsdatoer","please_add_a_due_date_1d433d2":"Tilføj venligst en forfaldsdato","please_enter_a_due_date_on_or_after_earliestdate_b3fe6d29":"Indtast en forfaldsdato på eller efter %{earliestDate}","unlock_date_cannot_be_after_due_date_8829d9ca":"Oplåsningsdatoen kan ikke ligge efter afleveringsdato","unlock_date_cannot_be_after_lock_date_591f7fda":"Oplåsningsdatoen kan ikke ligge efter låsningsdatoen","unlock_date_cannot_be_before_course_start_9c7b8524":"Oplåsningsdato kan ikke ligge før fagets start","unlock_date_cannot_be_before_section_start_793ddc66":"Oplåsningsdato kan ikke ligge før sektionens start","unlock_date_cannot_be_before_term_start_d3c01813":"Oplåsningsdato kan ikke ligge før skoleårets start"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "datepicker",
+  null,
+  function() { return {"errors":{"not_a_date":"Det er ikke en dato!"},"first_day_index":"1","nextText":"Næste","prevText":"Forrige"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "app_shared_components_canvas_date_time",
+  function() { return {"choose_a_date_cd0263fe":"Vælg en dato","invalid_date_2a10bb7b":"Ugyldig dato","type_a_date_or_use_arrow_keys_to_navigate_date_pic_61f7cc86":"Indtast en dato, eller brug piletasterne til at navigere datovælgeren."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "renderDatepickerTime",
+  null,
+  function() { return {"datepicker":{"titles":{"am_pm":"am/pm","hour":"t","minute":"min"}}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "dates",
+  null,
+  function() { return {"no_date":"Ingen dato"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "user_search_selector",
+  function() { return {"send_to_a879095e":"Send til:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "course_and_module_picker",
+  function() { return {"select_a_course_4710371f":"Vælg et fag","select_a_module_optional_7edb5cb0":"Vælg et forløb (valgfrit)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "direct_share_course_panel",
+  function() { return {"copy_operation_started_successfully_b2f236a1":"Kopiering blev påbegyndt","starting_copy_operation_cc46d911":"Start kopiering","there_was_a_problem_starting_the_copy_operation_dd599cdd":"Der opstod et problem med at påbegynde kopieringen"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "direct_share_user_modal",
+  function() { return {"content_share_started_successfully_2c37fb79":"Indholdsdelingen blev påbegyndt","error_starting_content_share_18fb1532":"Fejl ved påbegyndelse af indholdsdeling","starting_content_share_2d8c2999":"Starter indholdsdeling"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "direct_share_user_panel",
+  function() { return {"remove_name_624e06be":"Fjern %{name}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "module_position_picker",
+  function() { return {"loading_additional_items_ed5f672d":"Indlæser yderligere elementer ..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "jquery_doc_previews",
+  null,
+  function() { return {"errors":{"cannot_view_document_in_canvas":"Dette dokument kan ikke vises i Canvas.","document_preview_processing":"Dokumentets forhåndsvisning bliver behandlet i øjeblikket. Prøv igen senere."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "DueDateOverrideView",
+  function() { return {"you_cannot_assign_to_a_group_outside_of_the_assign_7869eb3b":"Du kan ikke tildele en gruppe uden for opgavens studiegruppe","you_must_have_a_student_or_section_selected_a99e45df":"Du skal have valgt en elev eller sektion"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignDueDateAddRowButtonments",
+  function() { return {"add_new_set_of_due_dates_e8e240f":"Tilføj nyt sæt med deadlines"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "DueDateCalendars",
+  function() { return {"available_from_f84e4611":"Tilgængelig fra"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "DueDateRemoveRowLink",
+  function() { return {"remove_these_dates_48453a81":"Fjern disse datoer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "DueDateRow",
+  function() { return {"due_date_set_1c6364db":"Afleveringsdato indstillet"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "due_datesDueDates",
+  function() { return {"mark_as_important_date_and_show_on_homeroom_sideba_1bc818ad":"Marker som vigtig dato, og vis den på sidebjælken Klasseværelse"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "DueDateTokenWrapper",
+  function() { return {"add_students_by_searching_by_name_course_section_o_abb9e2f2":"Tilføj elever ved at søge efter navn, fagsektion eller gruppe. Når du har indtastet tekst, kan du navigere resultater ved at bruge pil ned. Vælg et resultat ved at bruge Enter-tasten.","assign_to_c46e21":"Udpeg til","continue_typing_to_find_additional_sections_or_stu_49786085":"Fortsæt med at indtaste for at finde yderligere sektioner eller elever.","course_section_7a988066":"Fagsektion","currently_assigned_to_tokenname_click_to_remove_5a853a84":"I øjeblikket tildelt til %{tokenName}, klik for at fjerne","no_results_found_58717065":"Der blev ikke fundet resultater","searching_b0207e7f":"Søger","use_this_list_to_remove_assigned_students_add_new__ad6205ad":"Brug denne liste til at fjerne tildelte elever. Tilføj nye elever med kombinationsfelt efter listen."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "EditorToggle",
+  null,
+  function() { return {"done":{"title":"Klik for at afslutte redigering af RTF-område"},"done_as_in_finished":"Udført"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "SwitchEditorControl",
+  null,
+  function() { return {"switch_editor_html":"HTML-editor","switch_editor_rich_text":"Rich Content Editor"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "i18n!emoji",
+  function() { return {"activity_13915493":"Aktivitet","animals_nature_8bc03431":"Dyr og natur","choose_your_default_skin_tone_f09bf0bd":"Vælg din standard hudfarve","dark_skin_tone_6c9e7c7c":"Mørk hudfarve","default_skin_tone_f378d31c":"Standard hudfarve","emoji_categories_a08744ae":"Emoji-kategorier","emoji_picker_5bb954f9":"Emoji-vælger","flags_ce30e8e3":"Flag","food_drink_b0ea7e7b":"Mad og drikke","frequently_used_21a3eb8e":"Hyppigt brugt","light_skin_tone_28ab2db1":"Lys hudfarve","medium_dark_skin_tone_5134edbc":"Mellem-mørk hudfarve","medium_light_skin_tone_6c4a27fb":"Mellem-lys hudfarve","medium_skin_tone_8608d74e":"Mellem hudfarve","no_emoji_found_4db2f53c":"Ingen emoji fundet","objects_589fdc11":"Objekter","open_emoji_menu_1df0eb0b":"Åbn emoji-menu","people_body_3ce556e3":"Deltagere og krop","pick_an_emoji_942adfc4":"Vælg en emoji ...","search_results_4d5af4eb":"Søgeresultater","smileys_emotion_edc2beac":"Smileys og følelser","symbols_35065d67":"Symboler","travel_places_f461329c":"Rejser og steder"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "instructure_js",
+  function() { return {"download_filename_781704f5":"Download %{filename}","something_went_wrong_loading_the_file_previewer_3fb369e8":"Noget gik galt under indlæsning af forhåndsvisning af filer.","this_image_is_currently_unavailable_25c68857":"Dette billede er for øjeblikket ikke tilgængeligt"} },
+  function() { return {"errors":{"posting_message_failed":"Opslag mislykkedes, prøv igen"},"links":{"minimize_file_preview":"Minimer fil-forhåndsvisning","minimize_youtube_video":"Minimer video","view_equella_content_in_new_window":"vis indholdet i et nyt vindue"},"status":{"posting_message":"Lægger besked ud ..."},"switched_roles_message":{"designer":"Du har midlertidigt skiftet roller for dette fag og viser nu faget som designer.  Du kan gendanne din rolle og tilladelser fra fagets startside.","observer":"Du har midlertidigt skiftet roller for dette fag og viser nu faget som observatør.  Du kan gendanne din rolle og tilladelser fra fagets startside.","student":"Du har midlertidigt skiftet roller for dette fag og viser nu faget som elev.  Du kan gendanne din rolle og tilladelser fra fagets startside.","ta":"Du har midlertidigt skiftet roller for dette fag og viser nu faget som undervisningsassistent.  Du kan gendanne din rolle og tilladelser fra fagets startside.","teacher":"Du har midlertidigt skiftet roller for dette fag og viser nu faget som lærer.  Du kan gendanne din rolle og tilladelser fra fagets startside."},"titles":{"equella_content_preview":"EQUELLA forhåndsvisning af indhold","external_link":"Links til en ekstern webside."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "standalone_file_preview",
+  function() { return {"failed_getting_file_to_preview_89fe2bf4":"Kunne ikke hente filen til forhåndsvisning"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "external_toolsModalLauncher",
+  function() { return {"launch_external_tool_672c0409":"Start eksternt værktøj"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "feature_flags",
+  function() { return {"allowed_for_subaccounts_courses_default_off_da598c11":"Tilladt for underkonti / fag, standard deaktiveret","allowed_for_subaccounts_courses_default_on_e485ec7f":"Tilladt for underkonti / fag, standard aktiveret","an_error_occurred_updating_the_flag_b98edb3f":"Der opstod en fejl under opdatering af ​​flaget","beta_cb5f307e":"Beta","current_state_baac9c8":"nuværende tilstand:","disabled_for_all_subaccounts_courses_6c8938e0":"Deaktiveret for alle underkonti / fag","enabled_for_all_subaccounts_courses_e2ee4b2":"Aktiveret for alle underkonti / fag","feature_preview_5e1216a0":"Forhåndsvisning af funktion","feature_preview_opting_in_includes_ongoing_updates_111627f2":"Forhåndsvisninger af funktion – tilmelding inkluderer løbende opdateringer uden for den almindelige udgivelsesplan","loading_feature_options_82e07ee4":"Indlæser funktionsindstillinger","search_features_15b601cd":"Søgefunktioner","site_admin_d0417171":"Websideadministrator","this_feature_option_is_only_visible_to_users_with__d5e21cee":"Denne funktionsindstilling er kun synlig for brugere med webstedsadministratoradgang.\n                            Slutbrugere vil ikke se det, før det er aktiveret af en webstedsadministratorbruger.\n                            Før du aktiverer en institution, skal du være sikker på, at du fuldt ud forstår\n                            funktionaliteten og mulige påvirkninger for brugerne.","this_will_affect_every_customer_are_you_sure_a1e0cac6":"Dette vil påvirke alle kunder. Er du sikker?"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "file_preview",
+  function() { return {"file_not_found_9eec054c":"Fil ikke fundet","file_preview_eedb43f2":"Filvisning","file_preview_overlay_87f7e5f":"Forhåndsvisning af fil-overlay","info_8f47054a":"Info","info_panel_displayed_51d481cc":"Infopanel vist","info_panel_hidden_bf7c3b7b":"Infopanel skjult","kind_7f0a88c4":"Type","last_modified_by_ca4bb5e1":"Sidst modificeret af","view_next_file_a8a4a885":"Vis næste fil","view_previous_file_b846db4f":"Vis forrige fil"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "file_rename_form",
+  function() { return {"a_locked_item_named_name_already_exists_in_this_lo_ab03ee39":"Et låst element med navnet \"%{name}\" findes allerede på denne placering. Indtast et nyt navn.","an_item_named_name_already_exists_in_this_location_147b7312":"Et element ved navn \"%{name}\" eksisterer allerede på denne placering. Vil du erstatte den eksisterende fil?","change_name_c8cce76c":"Ændr navn","change_name_to_568374c8":"Ændr \"%{name}\" til","replace_e61834a7":"Erstat","skip_bcb86160":"Spring over"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "broccoli_cloud",
+  function() { return {"available_after_unlock_at_b5682224":"Tilgængelig efter %{unlock_at}","available_after_unlock_at_until_lock_at_499e8092":"Tilgængelig efter %{unlock_at} indtil %{lock_at}","available_until_lock_at_ab022445":"Tilgængelig til %{lock_at}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "restrict_student_access",
+  function() { return {"available_from_date_43b5e11d":"Tilgængelig fra dato","available_from_date_must_precede_available_until_c9f9e533":"Datoen \"Tilgængelig fra\" skal være før \"Tilgængelig til\"","available_until_date_cd125c62":"Tilgængelig indtil dato","before_publishing_you_must_set_usage_rights_on_you_dcd7b567":"Inden du offentliggør, skal du indstille brugsrettigheder for dine filer.","schedule_student_availability_332154a":"Planlæg elevernes tilgængelighed","update_4d8ee62":"Opdatering"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "usage_rights_modal",
+  function() { return {"and_count_more_43eae021":"og %{count} mere","items_items_selected_5b55e566":"%{items} elementer valgt","items_selected_have_different_usage_rights_52b325cc":"De valgte elementer har forskellige brugsrettigheder.","usage_rights_have_been_set_d1b433c7":"Brugsrettighederne er blevet indstillet.","usage_rights_will_be_set_for_all_of_the_files_cont_b192336a":"Brugsrettighederne indstilles for alle filerne i:","you_can_also_manage_access_at_this_time_105a2530":"Du kan også administrere adgang på dette tidspunkt:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "publish_cloud",
+  function() { return {"editing_permissions_for_name_3503e235":"Redigerer tilladelser til: %{name}","filename_is_only_available_to_students_with_the_li_97190506":"%{fileName} er kun tilgængelig for elever med linket - Klik for at ændre","filename_is_published_click_to_modify_38a4a269":"%{fileName} er offentliggjort, klik for at ændre","filename_is_restricted_9aaf9250":"%{fileName} er %{restricted}","filename_is_restricted_click_to_modify_c0bb77f8":"%{fileName} er %{restricted}, klik for at ændre","filename_is_unpublished_click_to_modify_7e731102":"%{fileName} er ikke offentliggjort, klik for at ændre"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "files_upload_progress",
+  function() { return {"error_message_2b9d12ee":"Fejl: %{message}","error_uploading_file_e2d31b56":"Fejl under upload af fil","filename_progress_percent_uploaded_1f465e66":"%{fileName} - %{progress} procent uploadet","filename_uploaded_successfully_edd8e825":"%{fileName} uploadet!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "usageRightsSelectBox",
+  function() { return {"c_2001_acme_inc_283f7f80":"(c) 2001 Acme Inc.","choose_usage_rights_33683854":"Vælg brugsrettigheder ...","copyright_holder_66ee111":"Rettighedshaver:","creative_commons_license_725584ae":"Creative Commons licens:","i_have_obtained_permission_to_use_this_file_6386f087":"Jeg har opnået tilladelse til at bruge denne fil.","i_hold_the_copyright_71ee91b1":"Jeg er rettighedshaveren","if_you_do_not_select_usage_rights_now_this_file_wi_40c42125":"Hvis du ikke vælger brugsrettigheder nu, annulleres filens offentliggørelse efter upload.","the_material_is_in_the_public_domain_279c39a3":"Materialer er på det offentlige domæne","the_material_is_licensed_under_creative_commons_3242cb5e":"Materialet licenseres under Creative Commons","the_material_is_subject_to_an_exception_e_g_fair_u_a39c8ca2":"Materialet er underlagt en undtagelse - fx fair brug, retten til at citere eller andre i henhold til gældende copyright-love","usage_right_ff96f3e2":"Brugsrettigheder:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "zip_file_options_form",
+  null,
+  function() { return {"expand":"Udvid den","message":"Kunne du tænke dig at udvide indholdet af \"%{fileName}\" i den aktuelle mappe eller uploade zip-filen, som den er?","upload":"Upload den","zip_options":"Indstillinger til zip-fil"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "file_status",
+  null,
+  function() { return {"hidden_status":"Skjult. Tilgængelig med et link","published_status":"Offentliggjort","restricted_status":"Tilgængelig fra %{from_date} til %{until_date}","unpublished_status":"Ikke offentliggjort"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "generate_pairing_code",
+  function() { return {"generating_pairing_code_251b7fc8":"Genererer parringskode ...","generating_pairing_code_d480ccf4":"Genererer parringskode","pair_with_observer_b1541895":"Par med observatør","share_the_following_pairing_code_with_an_observer__44f50f99":"Del følgende parringskode med en observatør,\n    så de kan oprette forbindelse til %{name}. Denne kode udløber om 7 dage,\n    eller efter en brug.","share_the_following_pairing_code_with_an_observer__9b7c3667":"Del følgende parringskode med en observatør,\n    så de kan oprette forbindelse til dig. Denne kode udløber om 7 dage,\n    eller efter en brug.","there_was_an_error_generating_the_pairing_code_9edd639b":"Der opstod en fejl, da parringskoden skulle genereres"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "generic_error_page",
+  function() { return {"comment_failed_to_post_please_try_again_later_e2d19a0a":"Kommentar blev ikke sendt! Prøv igen senere.","comment_submitted_d9934b":"Kommentar sendt!","email_example_com_99490d29":"email@example.com","help_us_improve_by_telling_us_what_happened_d6392f18":"Hjælp os med blive bedre ved at fortælle os, hvad der skete","report_issue_b5f1db0e":"Rapporter problem","what_happened_322d8259":"Hvad skete der?","your_email_address_844297ea":"Din e-mailadresse"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "CalculationMethodContent",
+  function() { return {"average_49c63f9b":"Gennemsnitlig","between_1_and_10_7118bf2d":"Mellem 1 og 10","between_1_and_99_d421a4c0":"Mellem 1 % og 99 %","decaying_average_8bf6a0dd":"Dæmpet gennemsnit","decaying_average_recentint_remainderint_ab0636cc":"Dæmpet gennemsnit - %{recentInt}%/%{remainderInt}%","highest_score_e080551e":"Højeste resultat","items_299a7626":"Elementer: ","last_item_79583712":"Sidste element: ","latest_score_905aa87b":"Seneste resultat","mastery_score_reflects_the_highest_score_of_a_grad_fd426d1e":"Resultat af opfyldelse af læringsmål afspejler det højeste resultat for en bedømt opgave eller quiz.","mastery_score_reflects_the_most_recent_graded_assi_921f138f":"Resultat af opfyldelse af læringsmål afspejler den nyligt bedømte opgave eller quiz.","most_recent_result_counts_as_calculation_int_of_ma_d2fc1d19":"Seneste resultat tæller som %{calculation_int} af vægtning af opfyldelse af læringsmål, gennemsnit af alle andre resultater tæller som %{remainder} af vægtning. Hvis der kun er ét resultat, bliver det enkle resultat returneret.","most_recent_score_13a87e8c":"Sidste nye resultat","must_be_between_1_and_10_e99eb0d1":"skal være imellem 1 og 10","must_be_between_1_and_99_589b827d":"skal være imellem 1 og 99","n_number_of_times_c2e78b72":"n Antal gange","of_times_1018baab":"# af gange","recentint_remainderint_decaying_average_79bc09fb":"%{recentInt}/%{remainderInt} dæmpet gennemsnit","weighting_for_last_item_ee22ae13":"% vægtning for sidste element"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "achieve_mastery_count_times_8c9bbcec",
+  null,
+  function() { return {"one":"Opnå opfyldelse af læringsmål en gang","other":"Opnå opfyldelse af læringsmål %{count} gange"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "must_achieve_mastery_at_least_count_times_scores_a_628db168",
+  null,
+  function() { return {"one":"Skal opnå opfyldelse af læringsmål mindst en gang. Der tages et gennemsnit af resultater for opfyldelse af læringsmål for at beregne det endelige resultat.","other":"Skal opnå opfyldelse af læringsmål mindst %{count} gange. Resultater for opfyldelse af læringsmål beregnes som gennemsnit for at nå frem til det endelige resultat."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "IndividiualStudentMasteryAssignmentResult",
+  function() { return {"your_score_a1fc2fcf":"Dit resultat","your_score_score_fb785381":"Dit resultat: %{score}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "IndividualStudentMasteryIndex",
+  function() { return {"an_error_occurred_loading_outcomes_data_cfd18b61":"Der opstod en fejl ved indlæsning læringsudbyttedata.","loading_outcome_results_96e21ce4":"Indlæser læringsudbytteresultater","there_are_no_outcomes_in_the_course_1d36d9c6":"Der findes ingen læringsudbytter i faget."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "IndividualStudentMasteryOutcome",
+  function() { return {"mastered_34d4c857":"Behersket","no_alignments_are_available_for_this_outcome_7f8346f9":"Der er ingen tilpasninger til dette læringsudbytte.","not_mastered_5c2f9968":"Ikke behersket","score_out_of_points_possible_points_bbaea991":"%{score} ud af %{points_possible} point","toggle_alignment_details_for_title_944f605":"Skift justeringsoplysninger for %{title}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_alignments_40fbc23c",
+  null,
+  function() { return {"one":"%{count} tilpasning","other":"%{count} tilpasninger","zero":"Ingen tilpasninger"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "IndividualStudentMasteryOutcomeGroup",
+  function() { return {"nummastered_of_numgroup_mastered_b8113c9c":"%{numMastered} af %{numGroup} behersket","toggle_outcomes_for_title_6994b198":"Skift læringsudbytte for %{title}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "IndividualStudentMasteryOutcomePopover",
+  function() { return {"1_item_scores_examplescores_9736236":"1- element får: %{exampleScores}","2_final_score_exampleresult_922edf9c":"2- endeligt resultat: %{exampleResult}","click_to_close_outcome_details_popover_d469d47d":"Klik for at lukke pop-op for detaljer om læringsudbytte","click_to_expand_outcome_details_74a2a967":"Klik for at udvide detaljer om læringsudbytte","last_assessment_cd5659b6":"Seneste vurdering: ","no_submissions_164cea23":"Ingen afleveringer","outcome_details_ce254e89":"Oplysninger om læringsudbytte"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "IndividualStudentMasteryUnassessedAssignment",
+  function() { return {"not_yet_assessed_9362f199":"Endnu ikke vurderet"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradingdataRow",
+  function() { return {"insert_row_below_name_a5b3bd41":"Indsæt række nedenfor %{name}","lower_limit_of_range_6ddd4983":"Lavere intervalgrænse","range_name_90614433":"Intervalnavn","remove_row_name_c053f5ae":"Fjern række %{name}","to_35c6baa2":"til ","to_minscore_43e5452e":"til %{minScore}%","upper_limit_of_range_c454a8f2":"Intervallets øvre grænse"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradinggradingStandard",
+  function() { return {"a_table_that_contains_the_grading_scheme_data_firs_90d2e30d":"En tabel, der indeholder data fra vurderingssystemet. Først gives navnet på vurderingssystemet og knapper til at redigere eller slette systemet. Hver række indeholder et navn, en maksimal procentdel og en minimal procentdel. Derudover indeholder hver række en knap til at tilføje en ny række nedenfor og en knap til at slette den aktuelle række.","context_contextname_24d82846":"(%{context}: %{contextName})","context_level_56d88f5b":"(%{context} niveau)","delete_grading_scheme_title_215f0a40":"Sletter vurdering system %{title}","edit_grading_scheme_title_ff41d916":"Rediger karaktersystem %{title}","grading_standard_title_58f540a3":"Titel på vurderingsstandard","insert_row_in_edit_mode_5976f269":"Indsæt række i redigeringstilstand","looks_great_e4d883ed":"Det ser godt ud!","manage_grading_schemes_in_context_name_e3678273":"Styring af vurderingsordninger i  %{context_name}","message_896d2ed0":"%{message}","range_56b2f310":"Interval","remove_row_in_edit_mode_49c4dc07":"Fjern række i redigeringstilstand"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "external_toolsgradingStandardCollection",
+  function() { return {"add_grading_scheme_81e23c05":"Tilføj vurderingsordning","are_you_sure_you_want_to_delete_this_grading_schem_df8b75f9":"Er du sikker på, at du vil slette denne vurderingsordning?","grading_scheme_deleted_7ae5a072":"Vurderingsordning slettet","grading_scheme_saved_85535151":"Vurderingsordning gemt","no_grading_schemes_to_display_8b0e92e7":"Der kan ikke vises vurderingsordninger","there_was_a_problem_deleting_the_grading_scheme_2a959c40":"Der opstod et problem ved sletning af vurderingsordningen","there_was_a_problem_saving_the_grading_scheme_5e6076e9":"Der opstod et problem ved lagring af vurderingsordning"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "grading_standards",
+  null,
+  function() { return {"buttons":{"save":"Gem"},"confirm":{"delete_grading_scheme":"Er du sikker på, at du vil slette denne vurderingsordning?","unlink_grading_scheme":"Er du sikker på, at du vil fjerne linket til denne vurderingsordning?"},"errors":{"cannot_delete_grading_scheme":"Der opstod et problem under sletning af denne vurderingsordning","cannot_load_grading_standards":"Det mislykkedes at overføre vurderingsstandarder. Prøv igen","cannot_remove_grading_scheme":"Der opstod et problem ved sletningen af denne vurderingsordning. Indlæs siden på ny og prøv igen.","save_failed":"Lagring mislykkedes"},"grading_scheme_currently_set":"Aktuelt indstillet","grading_scheme_not_set":"Ikke indstillet","no_grading_standards":"Der blev ikke fundet nogen vurderingsordninger","status":{"loading_grading_standards":"Indlæser vurderingsstandarder ...","saving":"Gemmer ..."},"titles":{"grading_scheme_info":"Vis/rediger vurderingsordning"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "finalGradeOverrideApi",
+  function() { return {"there_was_a_problem_loading_final_grade_overrides_e269e08":"Der opstod et problem ved overførsel af endelig vurdering.","there_was_a_problem_overriding_the_grade_f6d83c4d":"Der opstod et problem ved tilsidesættelse af vurderingen."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebooktranslations",
+  function() { return {"assignment_excused_eb6c08fa":"Opgave fritaget","assignment_muted_8d74bfa0":"Tilbageholdt opgave","blank_38df4238":"blank","discussion_submission_781d5d33":"Indsendelse af diskussion","dropped_for_grading_purposes_46256461":"Skal ikke bedømmes","fail_62dbb06a":"mislykket","file_upload_submission_740711f":"Indsendelse af filoverførsel","has_similarity_score_d5f332b4":"Har originalitetsscore","media_comment_submission_14e224dc":"Indsendelse af medieindhold","media_recording_submission_b7fd1491":"Indsendelse af medieoptagelse","missing_submission_ec204c33":"Manglende aflevering","moderated_assignment_12873e87":"Bedømt opgave","not_factored_into_grading_455dcf6a":"Indgår ikke i vurdering","pass_2a8c4f07":"bestået","quiz_submission_dca0c013":"Indsendelse af quiz","resubmitted_since_last_graded_8484d285":"Afleveret igen siden sidste bedømmelse","submitted_late_97730017":"Afleveret sent","text_entry_submission_7b0ae0c5":"Indsendelse af tekstindtastning","there_was_an_error_updating_this_assignment_please_59fc608d":"Der opstod en fejl under opdatering af denne opgave. Opdater din side, og prøv igen.","this_assignment_is_unpublished_64c0f46c":"Denne opgave er ikke offentliggjort","this_quiz_needs_review_50e014e":"Denne quiz kræver bedømmelse","this_student_was_just_awarded_an_unusually_high_gr_9ad835f3":"Denne elev blev lige tildelt in usædvanlig høj vurdering.","this_student_was_just_awarded_negative_points_55741a37":"Denne elev blev lige tildelt negative point.","url_submission_f76327e3":"URL aflevering"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "sharedGradeFormatHelper",
+  function() { return {"score_pointspossibletranslated_c1ac019e":"%{score}/%{pointsPossibleTranslated}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "sharedCurveGradesDialog",
+  function() { return {"of_students_5d1af0d2":"# elever"} },
+  function() { return {"errors":{"no_points_possible":"Kan ikke danne kurve uden mulige point","none_to_update":"Ingen, der skal opdateres"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "studentcount_student_scores_updated_232ad7b7",
+  null,
+  function() { return {"one":"1 elevs resultat opdateret","other":"%{studentCount} elevresultater opdateret"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "studentcount_students_will_get_num_points_fdd43b55",
+  null,
+  function() { return {"one":"1 elev får %{num} point","other":"%{studentCount} elev får %{num} point"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradingPeriodSetsApi",
+  function() { return {"set_created_createdat_895e2243":"Sæt oprettet %{createdAt}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "sharedSetDefaultGradeDialog",
+  function() { return {"default_grade_cannot_be_set_to_ex_723caa59":"Standardvurdering kan ikke indstilles til %{ex}"} },
+  function() { return {"alerts":{"scores_updated":{"one":"1 elevs resultat opdateret","other":"%{count} elevresultater opdateret"}}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebooksharedMessageStudentsWhoHelper",
+  function() { return {"no_grade_for_assignment_97c9bc75":"Ingen vurdering for %{assignment}","no_submission_for_assignment_a9cb6fe2":"Ingen indsendelse for %{assignment}","scored_less_than_cutoff_on_assignment_5f5c4303":"Fik mindre end %{cutoff} i %{assignment}","scored_more_than_cutoff_on_assignment_f422fec":"Fik mere end %{cutoff} i %{assignment}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "hide_assignment_grades_tray",
+  function() { return {"all_students_will_be_able_to_see_their_grade_and_o_66c1beab":"Alle elever vil kunne se deres vurdering og/eller afleveringskommentarer.","at_least_one_section_must_be_selected_to_hide_grad_f88c946f":"Der skal vælges mindst et afsnit for at skjule vurderinger efter sektion.","count_posted_b92a9562":"%{count} slået op","hide_e057ff36":"Skjul","hide_grades_tray_5ed267fe":"Skjul vurdering bakken","hiding_grades_82691e44":"Skjul vurderinger","hiding_grades_is_not_allowed_because_grades_have_n_55e83813":"Skjul vurderinger er ikke tilladt, fordi vurderinger ikke er blevet udgivet for denne opgave.","hiding_grades_will_refresh_your_browser_this_may_t_65085e24":"Skjul vurderinger vil opdatere din browser. Det kan tage et øjeblik.","post_types_93ff86d9":"Opslagstyper","posted_455862b9":"Slået op","select_whether_to_post_for_all_submissions_or_only_b18d681f":"Vælg, om du vil slå dem op for alle afleveringer, eller kun dem med vurdering.","specific_sections_a38d8b0d":"Specifikke afsnit","students_who_have_received_a_grade_or_a_submission_7ef046cc":"Elever, der har modtaget en vurdering eller en afleveringskommentar, vil kunne se deres vurdering og/eller afleveringskommentarer.","students_will_be_able_to_see_that_the_grades_for_t_5421a866":"Elever vil kunne se, at vurderingerne for denne opgave er skjult.","success_grades_have_been_hidden_for_assignmentname_4ed03c00":"Succes! Vurderinger er blevet skjult for %{assignmentName}.","success_grades_have_been_hidden_for_the_selected_s_3ad5692":"Succes! Vurderinger er gemt for de valgte sektioner i %{assignmentName}.","there_was_a_problem_hiding_assignment_grades_1d3fd0c7":"Der opstod et problem med at skjule opgavevurderinger.","when_hiding_grades_for_anonymous_assignments_grade_1b0ef682":"Når man skjuler vurderinger for anonyme opgaver, skjules vurderingerne for alle i faget. Anonymitet vil blive anvendt igen.","while_the_grades_for_this_assignment_are_hidden_st_c5d1992b":"Mens vurderingerne for denne opgave er skjulte, vil eleverne ikke modtage nye meddelelser om eller kunne se:","you_can_begin_sending_notifications_again_by_click_50d3f0cf":"Du kan begynde at sende meddelelser igen ved at klikke på linket Slå vurderinger op."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "turnitin",
+  null,
+  function() { return {"tooltip":{"score":"Originalitetsscore - Se detaljeret rapport"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "GroupUserCollection",
+  null,
+  function() { return {"flash":{"userAlreadyInGroup":"ADVARSEL: %{user} er allerede medlem af %{group}"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignment_group_category",
+  function() { return {"group_add_permission_is_needed_to_create_a_new_gro_3cd0d1b5":"Gruppeadgangstilladelse er nødvendig for at oprette en ny gruppekategori","please_create_a_group_set_8db6e8fe":"Opret et gruppesæt","please_select_a_group_set_for_this_assignment_e1da63d3":"Vælg en studiegruppe til denne opgave"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "student_groups",
+  function() { return {"add_new_group_7ac49f31":"Tilføj ny gruppe","as_you_type_in_this_field_the_list_of_groups_will__16688a5f":"Når du indtaster i dette felt, filtreres listen over grupper automatisk til kun at inkludere dem, hvis navne matcher din indtastning.","collapse_list_of_group_members_for_groupname_d6c66fa0":"Skjul listen over gruppemedlemmer for %{groupName}","course_members_are_free_to_join_9b2603d4":"Fagets deltagere kan deltage","created_group_group_name_224ce5f9":"Oprettet gruppe: %{group_name}","expand_list_of_group_members_for_groupname_9ce9d2f7":"Udvid listen over gruppemedlemmer for %{groupName}","group_group_name_is_full_297880d6":"Gruppen %{group_name} er fuld","group_group_name_is_joined_by_invitation_only_4ac2a9e5":"man kan kun melde sig til gruppen %{group_name} efter invitation","group_group_name_is_not_available_at_this_time_971001c1":"Gruppe %{group_name} er ikke tilgængelig på nuværende tidspunkt","group_is_full_56849d78":"Gruppen er fuld","group_is_joined_by_invitation_only_d00f5a63":"man kan kun melde sig til gruppen efter invitation","group_is_not_available_at_this_time_d99f0eab":"Gruppe er ikke tilgængelig på nuværende tidspunkt","group_leader_user_name_6f24bebb":"gruppeleder %{user_name}","group_members_ae5489ed":"gruppemedlemmer","group_name_in_group_category_name_group_category_29bf3254":"%{group_name} i %{group_category_name} gruppekategori","group_name_is_required_5547bc0b":"Gruppenavn er påkrævet","groups_are_a_good_place_to_collaborate_on_projects_92bb0c02":"Grupper er et godt sted til at samarbejde om projekter eller arrangere\n    studiesessioner og lignende.  Hver gruppe får en kalender, en wiki, diskussioner og lidt\n    plads til at gemme filer.  Grupper kan samarbejde om dokumenter eller endda planlægge webkonferencer.\n    Det er egentlig som et minifag, hvor man kan arbejde med et mindre antal elever på et\n    mere målrettet projekt.","invite_students_a4873a50":"Inviter eleverne","join_6cafecca":"Deltag","join_group_group_name_871a5e3f":"Meld dig til gruppen %{group_name}","joined_group_group_name_e3802c04":"Meldt til gruppen %{group_name}","leave_5e852989":"Forlad","leave_group_group_name_6847c632":"Forlad gruppen %{group_name}","left_group_group_name_aac4e813":"Forladt gruppen %{group_name}","manage_group_group_name_ac8578c6":"Administrering af gruppe %{group_name}","member_count_members_out_of_maximum_of_max_members_d3e9f575":"%{member_count} medlemmer ud af maksimum %{max_membership}","members_af25c21d":"Medlemmer","membership_by_invitation_only_9bc27199":"Medlemskab udelukkede efter invitation","new_student_group_description_bfeb76aa":"Ny elevgruppebeskrivelse","new_student_group_e31b7cb5":"Ny elevgruppe","search_groups_or_people_6c15d6ad":"Søg efter grupper eller deltagere","switch_to_3f310557":"Skift til","switch_to_group_group_name_786b913b":"Skift til %{group_name}","too_many_members_b8b15069":"For mange medlemmer","updated_group_group_name_727b1d98":"Opdateret gruppe %{group_name}","visit_864b4060":"Gå ind på","visit_group_group_name_7a816081":"Gå ind i gruppen %{group_name}","you_are_the_group_leader_for_this_group_b8629b70":"Du er gruppeleder for denne gruppe"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_students_30e46120",
+  null,
+  function() { return {"one":"1 elev","other":"%{count} elever"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "enrollmentNames",
+  null,
+  function() { return {"designer":"Designer","observer":"Observatør","student":"Elev","teacher":"Lærer","teacher_assistant":"Undervisningsassistent"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "handlebars_helpers",
+  function() { return {"duration_1_minute_29c7d5ab":"Varighed: 1 minut","duration_hours_hours_and_minutes_minutes_d5da8c3":"Varighed: %{hours} timer og %{minutes} minutter","duration_minutes_minutes_d7b9182b":"Varighed: %{minutes} minutter"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "ImmersiveReader",
+  function() { return {"immersive_reader_7b87538":"Immersive Reader","immersive_reader_failed_to_load_bc8d4dd4":"Immersive Reader kunne ikke indlæses"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "canvas_async_search_select",
+  function() { return {"count_options_loaded_cd59cc3b":"%{count} indstillinger indlæst.","option_selected_737b6f72":"Indstilling valgt:","type_to_search_de63ad38":"Indtast for at søge"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "paginator",
+  function() { return {"page_page_59070cd8":"Side %{page}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "app_shared_components",
+  function() { return {"label_removed_8793d8b4":"%{label} fjernet.","label_selected_list_collapsed_d93e77da":"%{label} valgt. Listen skjult.","list_collapsed_dde87718":"Listen skjult","remove_label_11d96b8f":"Fjern %{label}","type_or_use_arrow_keys_to_navigate_multiple_select_ec56e29c":"Indtast eller brug piletasterne til at navigere. Flere valg er tilladt."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_options_available_28794ede",
+  null,
+  function() { return {"one":"En mulighed er tilgængelig.","other":"%{count} tilgængelige muligheder."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "disableWhileLoading",
+  null,
+  function() { return {"loading":"Indlæser ..."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "instructure_misc_plugins",
+  null,
+  function() { return {"confirms":{"default_delete_thing":"Er du sikker på, at du vil slette dette?"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "apps_list",
+  function() { return {"loading_apps_f85740cb":"Indlæser apps ...","student_applications_5e58f44c":"Applikationer for elev"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "k5_empty_dashboard_state",
+  function() { return {"you_don_t_have_any_active_courses_yet_fb3c4418":"Du har endnu ingen aktive fag."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "empty_homeroom_announcement",
+  function() { return {"create_a_new_announcement_for_coursename_8dede2d0":"Opret en ny besked til %{courseName}","new_announcements_show_up_in_this_area_create_a_ne_83f476ba":"Nye beskeder vises i dette område. Opret en ny besked nu.","you_do_not_have_permission_to_view_announcements_i_6b2e31a2":"Du har ikke tilladelse til at se beskeder i dette fag."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "k5_use_planner",
+  function() { return {"failed_to_load_the_schedule_tab_fd7b0911":"Kunne ikke indlæse fanen med tidsplaner"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "important_info",
+  function() { return {"edit_important_info_for_coursename_bdb3eb6c":"Rediger vigtig info for %{courseName}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "important_info_announcement",
+  function() { return {"important_info_3bda6406":"Vigtig info","loading_important_info_217bf805":"Indlæser vigtig info","loading_section_header_616c8cdd":"Indlæser sektionsoverskrift"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "k5_announcement",
+  function() { return {"edit_announcement_title_cce0b4e":"Rediger besked %{title}","failed_getting_next_batch_of_announcements_1f1165a5":"Det lykkedes ikke at få næste batch af meddelelser.","loading_announcement_content_4405470f":"Indlæser beskedindhold","loading_announcement_title_b8fc3057":"Indlæser beskedtitel","loading_homeroom_course_name_9f63923d":"Indlæser Homeroom-fagets navn","next_announcement_6e6e0f17":"Næste besked","no_recent_announcements_abf950d5":"Ingen seneste beskeder","previous_announcement_7efc02d9":"Tidligere besked","your_homeroom_is_currently_unpublished_93c14f4f":"Dit klasseværelse er i øjeblikket ikke offentliggjort."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "k5_app_link",
+  function() { return {"choose_a_course_85ef72b9":"Vælg et fag"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "k5_tabs",
+  function() { return {"coursecontext_label_d563be4c":"%{courseContext} %{label}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "resources_page",
+  function() { return {"failed_to_load_apps_db37e651":"Kunne ikke indlæse apps.","failed_to_load_important_info_da5b24dc":"Kunne ikke indlæse vigtig info.","failed_to_load_staff_f866cf2e":"Kunne ikke indlæse personale."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "staff_contact_info_layout",
+  function() { return {"loading_staff_1ce7d803":"Indlæser personale ...","staff_contact_info_2f7a6603":"Kontaktoplysninger for personale"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "staff_info",
+  function() { return {"avatar_for_name_e3ba987c":"Avatar for %{name}","failed_sending_message_64001749":"Mislykket afsendelse af besked.","message_form_9658d1ef":"Beskedformular","message_name_3b100614":"Send besked til %{name}","message_to_name_sent_f67d0cc3":"Besked til %{name} sendt.","send_a_message_to_name_43eec865":"Send en besked til %{name}","sending_message_75923692":"Sender besked"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "teacher_groups_page",
+  function() { return {"manage_groups_4b962fa9":"Administrer grupper","this_is_where_students_can_see_their_groups_7dd2dae3":"Det er her, de eleverne kan se deres grupper.","view_groups_47b5f60c":"Vis grupper"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "k5_utils",
+  function() { return {"n_a_d5d5a207":"Gælder ikke","observer_248a192e":"Observatør","score_grade_8742b368":"%{score} (%{grade})","teaching_assistant_9635edaf":"Undervisningsassistent"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "KeyboardNavDialog",
+  null,
+  function() { return {"titles":{"keyboard_shortcuts":"Genvejstaster"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "link_enrollment",
+  null,
+  function() { return {"buttons":{"link":"Link til elev"},"errors":{"link_failed":"Linkningen mislykkedes, prøv igen","load_failed":"Indlæsning af elever mislykkedes, prøv igen"},"messages":{"linking_to_student":"Linker til elev ...","loading_students":"Indlæser elever ..."},"options":{"no_link":"[ Intet link ]"},"titles":{"link_to_student":"Link til elev"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "LockButton",
+  function() { return {"locking_91f476a5":"Låser ...","unlocking_a6b5c02d":"Låser op ..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "mathquill",
+  null,
+  function() { return {"tabs":{"arrows":"Pile","basic":"Grundlæggende","delimiters":"Begrænsere","greek":"Græsk","miscellaneous":"Bland","operators":"Operatører","relationships":"Forhold"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "media_comment_dialog_manager",
+  null,
+  function() { return {"messages":{"loading":"Indlæser ..."},"titles":{"record_upload_media_comment":"Optag/upload mediekommentar"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "media_comments_publicjs",
+  null,
+  function() { return {"buttons":{"submit":"Indsend mediefil"},"errors":{"file_too_large":"*Denne fil er for stor.* Maksimal størrelse er %{size}MB.","load_failed":"Indlæsning af applikationen til mediekommentar mislykkedes.  Prøv igen.","media_comment_installation_broken":"Mediekommentar-uploadet er ikke blevet konfigureret korrekt. Kontakt din administrator.","must_be_logged_in":"Du skal være logget på for at optage medier.","persistent_problem":"Hvis problemet opstår igen, skal du eventuelt prøve at optage dine medier lokalt og så uploade den lagrede fil i stedet.","save_failed":"Det lader til, at lagringen mislykkedes.  Luk denne pop-op for at prøve igen.","save_failed_try_again":"Det mislykkedes at gemme indtastning.  Prøv igen.","upload_failed":"Upload mislykkedes med fejl:"},"messages":{"flash_required_record_audio":"Der kræves Flash for at optage lyd.","flash_required_upload_audio":"Der kræves Flash for at uploade lyd.","flash_required_upload_video":"Der kræves Flash for at uploade video.","loading":"Indlæser ...","submitted":"Indsendt mediefil!","submitting":"Indsender mediefil ..."},"titles":{"media_contribution":"Mediebidrag","record_upload_media_comment":"Optag/upload mediekommentar"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "jquery_media_comments",
+  function() { return {"media_has_been_queued_for_conversion_please_try_ag_74343bbd":"Medierne er blevet sat i kø til konvertering, prøv igen lidt senere.","play_media_comment_8614d30f":"Afspil mediekommentar"} },
+  function() { return {"loading":"Indlæser medier ...","media_still_converting":"Medier bliver konverteret i øjeblikket, prøv igen lidt senere.","titles":{"play_comment":"Afspil mediekommentar"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "mediaCommentThumbnail",
+  function() { return {"play_media_comment_35257210":"Afspil medie kommentar.","play_media_comment_by_name_from_createdat_515b3b":"Afspil mediekommentar af %{name} fra %{createdAt}."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "media_comments_upload_view_manager",
+  null,
+  function() { return {"errors":{"media_comment_installation_broken":"Mediekommentar-uploadet er ikke blevet konfigureret korrekt. Kontakt din administrator."},"file_size_error":"Størrelsen på %{file} er større end maks. %{max} MB tilladte filstørrelse.","file_type_error":"%{file} er ikke en acceptabel %{type} fil.","messages":{"submitting":"Indsender mediefil ..."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "mepfeaturetracksinstructure",
+  function() { return {"are_you_sure_you_want_to_delete_this_track_f5a16357":"Er du sikker på, at du vil slette dette spor?","captions_subtitles_af2c47e":"Billedtekster / undertekster","delete_track_fc21128b":"Slet spor"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "UploadMediaTrackForm",
+  null,
+  function() { return {"cancel":"Annullér","track_uploaded_successfully":"Spor uploadet med succes. Opdater din browser.","upload":"Upload","uploading":"Uploader ..."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "models_conversations",
+  null,
+  function() { return {"cannot_be_empty":"Besked kan ikke være tom","no_recipients_choose_another_group":"Der er ingen modtagere i denne gruppe. Vælg venligst en anden gruppe."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "viewsMessageStudentsDialog",
+  function() { return {"message_students_37ba5dd5":"Send besked til elever","message_students_for_context_ee62ff92":"Send besked til elever for %{context}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "public_message_students",
+  function() { return {"message_students_for_course_name_e55f8077":"Send besked til elever for %{course_name}","remove_student_from_recipients_4b206e35":"Fjern %{student} fra modtagere"} },
+  function() { return {"send_message":"Send besked"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "public_message_students_who",
+  function() { return {"enter_score_cutoff_3ff8ad22":"Indtast resultatgrænse","for_students_who_d0fd45d0":"Til elever, som ...","have_not_been_graded_df2a5fd2":"Er ikke blevet bedømt","have_not_yet_submitted_57e6a58b":"Er ikke blevet indsendt","hide_all_recipients_1ca02da6":"Skjul alle modtagere","list_of_students_and_observers_f7f1a58a":"Liste over elever og observatører","marked_incomplete_1bfc7235":"Markeret som ikke fuldført","observercount_observers_69aef8e4":"%{observerCount} observatører","send_message_to_891eb84":"Send besked til:","show_all_recipients_9e4a3486":"Vis alle modtagere","studentcount_students_3cdade62":"%{studentCount} elever","type_something_79a0f02c":"Skriv noget ...","type_your_message_here_3551e252":"Skriv din besked her ..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "shared_message_students",
+  function() { return {"body_9f663faf":"Brødtekst","please_provide_a_field_e5a7d0b3":"Angiv en %{field}","subject_must_contain_fewer_than_255_characters_2e72cd02":"Emne skal indeholde færre end 255 tegn.","there_was_a_problem_sending_your_message_22b249a5":"Der opstod et problem med at sende din besked","we_re_sending_your_message_d586da":"Vi sender din besked ...","your_message_was_sent_977f6583":"Din besked blev sendt!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "mimeClass",
+  function() { return {"audio_dd489fcc":"Lyd","flash_6afbf65a":"Flash","plain_text_e3ab33aa":"Almindelig tekst","presentation_2d9387ca":"Præsentation","source_code_2395ca74":"Kildekode","spreadsheet_6d622119":"Regneark","text_document_eacbcdb7":"Tekstdokument","video_b9f27375":"Video","web_page_146f9102":"Webside"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "sequence_footer",
+  function() { return {"choose_the_next_mastery_path_b035b727":"Vælg den næste læringssti","next_item_2d1ddc96":"Næste: *Element*","next_mastery_path_is_currently_locked_a9253711":"Næste læringssti er i øjeblikket låst","next_mastery_path_is_still_processing_please_perio_bb0121af":"Næste læringssti behandles stadig, opdater siden med jævne mellemrum"} },
+  function() { return {"next_module":"Næste forløb:","next_module_desc":"Næste forløb: *forløb*","prev_module":"Forrige forløb:","prev_module_desc":"Forrige forløb: *forløb*","prev_module_item_desc":"Forrige: *element*"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "prerequisites_lookup",
+  null,
+  function() { return {"headers":{"completion_prerequisites":"Fuldførelsesforudsætninger"},"labels":{"requirements_must_be_completed":"Følgende betingelser skal opfyldes, inden siden oplåses"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "move_positions",
+  function() { return {"after_48b9d69":"Efter ...","at_the_bottom_a6a5f0fe":"Nederst","at_the_top_fa836591":"Øverst","before_cb32fc0":"Før ..."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "move_item_tray",
+  function() { return {"close_move_tray_8609e988":"luk flytte-bakken","move_item_failed_8e4c1db6":"Flytning af element ikke udført"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "move_select",
+  function() { return {"group_select_330df8bd":"Vælg gruppe"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "observer_pairing_code",
+  null,
+  function() { return {"errors":{"invalid":"Ugyldig parringskode"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "notification_preferences",
+  function() { return {"account_level_notifications_apply_to_all_courses_n_8b99c5b0":"Meddelelser på kontoniveau gælder for alle fag. Meddelelser for individuelle fag kan ændres inden for hvert fag og tilsidesætter disse meddelelser.","account_notification_settings_e96de9b6":"Meddelelses-indstillinger for konti","alerts_6b871b71":"Varslinger","categoryname_notification_preferences_cd64e4a0":"%{categoryName} meddelelsespræferencer","course_activities_21c83bd3":"Fagets aktiviteter","course_level_notifications_are_inherited_from_your_7ae3c0c2":"Meddelelser på fagniveau nedarves fra dine meddelelsesindstillinger på kontoniveau. Justering af meddelelser for dette fag tilsidesætter meddelelser på kontoniveau.","course_notification_settings_d9821d36":"Indstillinger for fagmeddelelser","daily_notifications_will_be_delivered_around_day_t_a2b49202":"Daglige meddelelser vil blive leveret omkring %{day_time}. Ugentlige meddelelser vil blive leveret %{weekday} mellem %{start_time} og %{end_time}.","daily_summary_cf43f37c":"Daglig oversigt","enable_notifications_for_contextname_b5b4440e":"Aktiver meddelelser for %{contextName}","for_all_devices_1f603968":"For alle enheder","notice_some_notifications_may_contain_confidential_5985f52a":"Bemærk: Nogle meddelelser kan indeholde fortrolige oplysninger. Hvis du vælger at modtage meddelelser til en anden e-mail end den, som din institution forsynede dig med, bliver der muligvis sendt følsomme oplysninger om Canvas-fag og -grupper uden for institutionens system.","notification_settings_652dc60b":"Meddelelses-indstillinger","notifications_off_80da021c":"Meddelelser slået fra","notifications_unsupported_65f6bf65":"Meddelelser understøttes ikke","notify_immediately_d1749c07":"Underret straks","push_notification_a6532ff3":"Push-meddelelse","scheduling_5a3327e7":"Planlægning","settings_for_e2322172":"Indstillinger for","show_name_of_observed_students_in_notifications_d38b53ca":"Vis navn på observerede elever i meddelelser","weekly_summary_56cd0c95":"Ugentlig oversigt","you_are_currently_receiving_notifications_for_this_9646b09d":"Du modtager i øjeblikket meddelelser for dette fag. For at deaktivere fagmeddelelser skal du bruge knappen ovenfor.","you_will_not_receive_any_course_notifications_at_t_7d9ce24f":"Du modtager ikke fagmeddelelser på nuværende tidspunkt. For at aktivere fagmeddelelser skal du bruge knappen ovenfor."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "add_student_modal",
+  function() { return {"enter_a_student_pairing_code_below_to_add_a_studen_15789251":"Indtast en parringskode for eleven herunder for at tilføje en elev, der skal observeres.","failed_pairing_student_c9f0863b":"Mislykket parring af elev.","invalid_pairing_code_dde8d40a":"Ugyldig parringskode.","pair_4d942a74":"Par","pair_with_student_6f76e69a":"Par med elev","pairing_code_1ddbd699":"Parringskode","please_provide_a_pairing_code_530d1e9d":"Angiv en parringskode.","student_paired_successfully_a88def61":"Eleven blev parret","visit_canvas_guides_to_learn_more_8c7361ad":"Besøg *Canvas-vejledningerne* for at lære mere."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "observer_options",
+  function() { return {"add_student_1152afc0":"Tilføj elever","select_a_student_to_view_281d17b9":"Vælg en elev at få vist","unable_to_get_observed_students_ff62d801":"Kunne ikke hente observerede elever","you_are_observing_observeduser_afd2f245":"Du observerer %{observedUser}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "contentview",
+  function() { return {"no_directory_is_selected_please_select_a_directory_46ded46":"Der er ikke valgt nogen mappe. Vælg en mappe, inden du klikker på 'flyt'","where_would_you_like_to_move_title_fabd6e8f":"Hvor kunne du tænke dig at flytte %{title} hen?","you_have_no_outcomes_click_here_to_go_to_the_outco_574bd0af":"Du har ikke nogen læringsudbytter. Klik her for at gå til læringsudbyttesiden."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "OutcomeContentBase",
+  null,
+  function() { return {"blank_error":"Kan ikke være tom","confirm":{"delete":"Er du sikker på, at du vil slette?"},"flash":{"addSuccess":"Vellykket oprettelse","deleteSuccess":"Vellykket sletning","error":"En fejl opstod. Opdater din side, og prøv igen.","unexpectedDeleteError":"Noget gik galt. Kan ikke slette på nuværende tidspunkt.","updateSuccess":"Vellykket opdatering","userDeleteError":"Læringsudbytte-gruppen indeholder et eller flere læringsudbytter, der i øjeblikket er tilpasset indholdet."},"length_error":"Skal være 255 tegn eller mindre"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "OutcomeView",
+  function() { return {"points_possible_points_fda3b111":"%{points_possible} Points"} },
+  function() { return {"length_error":"Skal være 255 tegn eller mindre","mastery_error":"Skal være større end eller lig med 0"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "confirmOutcomeEditModal",
+  function() { return {"confirm_edit_outcome_a9746c99":"Bekræft Rediger læringsudbytte","this_will_update_all_rubrics_using_this_outcome_th_6954ca45":"Dette vil opdatere alle vurderingskriterier, der bruger dette læringsudbytte, der endnu ikke er vurderet","you_ve_updated_the_scoring_criteria_this_will_affe_ec852671":"Du har opdateret resultatkriterierne. Dette vil påvirke alle elever, der tidligere blev vurderet med dette læringsudbytte"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "outcomesCriterionInfo",
+  function() { return {"criterion_ratings_3eed22e2":"Kriteriebedømmelse","learning_outcomes_can_be_included_in_assignment_ru_a48bb903":"\nLæringsudbytte kan indgå i opgavevurderingskriterier som en nem måde at vurdere\nopfyldelse af læringsmål tilpasset til specifikke opgaver.  Når du definerer et læringsudbytte,\nskal du også definere et kriterie, der kan bruges ved oprettelse af opgavevurderingskriterier.\nDefiner så mange vurderingskriteriekolonner, som du har brug for, og angiv en\npointtærskel, der vil blive brugt til at definere opfyldelse af dette læringsmål.","more_information_about_ratings_57cdd446":"Flere oplysninger om vurderinger"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebookHeaderFilterView",
+  null,
+  function() { return {"course_average":"Faggennemsnit","course_median":"Fagmedian"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebookOutcomeGradebookGrid",
+  function() { return {"there_was_an_error_fetching_course_statistics_96e9dbad":"Der opstod en fejl under hentning af fagstatistik"} },
+  function() { return {"learning_outcome":"Læringsudbytte"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "outcomesFindDirectoryVew",
+  null,
+  function() { return {"account_standards":"Kontostandarder","account_standards_description":"Til venstre kan du se de standarder, som din institution har oprettet for dig til brug i dine fag.","state_standards":"Regionale standarder","state_standards_description":"Til venstre ses en mappe for hver region med deres opdaterede regionale standarder. Dette giver dig mulighed for let at inkludere regionale standarder for vurdering i dit fag."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "outcomesSidebarView",
+  function() { return {"model_is_already_located_in_newgroup_e5cea361":"%{model} findes allerede i %{newGroup}","successfully_moved_model_to_newgroup_f7b7aa5a":"Flyttet %{model} til %{newGroup}"} },
+  function() { return {"titles":{"find_outcomes":"Find læringsudbytter"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "OutcomesDirectoryView",
+  function() { return {"loading_more_results_1d437202":"Indlæser flere resultater"} },
+  function() { return {"flash":{"error":"En fejl opstod. Opdater din side, og prøv igen.","updateSuccess":"Vellykket opdatering"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "modelsOutcome",
+  null,
+  function() { return {"criteria":{"does_not_meet_expectations":"Opfylder ikke forventningerne","exceeds_expectations":"Overstiger forventningerne","meets_expectations":"Opfylder forventningerne"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "outcomesFindDialog",
+  null,
+  function() { return {"confirm":{"import_group":"Importer gruppe \"%{group}\" til gruppe \"%{target}\"?","import_outcome":"Importer læringsudbytte \"%{outcome}\" til gruppe \"%{target}\"?"},"dont_import":"Denne gruppe kan ikke importeres.","flash":{"importError":"Der opstod en fejl under import. Prøv igen senere.","importSuccess":"Vellykket import"},"top_level":"%{context} højeste niveau"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "find_outcome",
+  null,
+  function() { return {"errors":{"outcome_retrieval_failed":"Hentning af læringsudbytter mislykkedes. Prøv igen."},"messages":{"loading_outcomes":"Indlæser læringsudbytte ...","no_outcomes_found":"Der er ikke fundet læringsudbytter","no_rubric_outcomes_found":"Der er ikke fundet vurderingskriteriekonfigurerede læringsudbytter"},"titles":{"find_outcome":"Find resultat"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "useRatings",
+  function() { return {"above_max_rating_64b29915":"Over maks. vurdering","below_min_rating_78a742c3":"Under min. vurdering","missing_required_points_39db69fa":"Mangler nødvendige point","no_evidence_75853352":"Ingen beviser"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "ImportOutcomesModal",
+  function() { return {"choose_a_file_to_upload_from_your_device_d1b50d4c":"Vælg en fil, der skal uploades fra din enhed","csv_or_json_formats_only_d8ba36d":"Kun CSV- eller JSON-formater","import_outcomes_to_groupname_d0a3264d":"Importer læringsudbytter til \"%{groupName}\"","outcomes_csv_format_9005acfb":"Læringsudbytter CSV-format","upload_your_outcomes_bceeadbe":"Upload dine læringsudbytter!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "OutcomesImporter",
+  function() { return {"an_outcome_import_is_currently_in_progress_11e6cb38":"Der foregår i øjeblikket en resultatimport.","importing_outcomes_e62a0375":"importerer læringsudbytter","it_s_ok_to_leave_this_page_we_ll_email_you_when_th_2dbed7fa":"Det er ok at forlade denne side, vi sender dig en e-mail, når importen er færdig.","please_wait_as_we_upload_and_process_your_file_73c4b5a8":"Vent venligst, mens vi uploader og behandler din fil.","there_was_a_problem_importing_some_of_the_outcomes_482bac10":"Der opstod et problem med at importere nogle af læringsudbytterne i den uploadede fil. Tjek din e-mail for flere detaljer.","there_was_an_error_with_your_import_please_examine_7b42f29d":"Der opstod en fejl med din import. Undersøg venligst din fil, og forsøg at uploade igen. Tjek din e-mail for flere detaljer.","your_outcomes_were_successfully_imported_c5de884":"Dine læringsudbytter blev importeret."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "Validators",
+  function() { return {"must_be_length_characters_or_less_8c24db67":"Skal være %{length} tegn eller mindre"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "post_assignment_grades_tray",
+  function() { return {"count_hidden_e8d2c57c":"%{count} skjult","post_1e445890":"Post","posting_grades_cd7cd758":"Slår vurderinger op","posting_grades_is_not_allowed_because_grades_have__229d9c9e":"At slå vurderinger op er ikke tilladt, fordi vurderinger ikke er blevet udgivet for denne opgave.","posting_grades_will_refresh_your_browser_this_may__97a9fe12":"At slå vurderinger op opdaterer din browser. Det kan tage et øjeblik.","when_posting_grades_for_anonymous_assignments_grad_b13f3ae6":"Når man slår vurderinger op for anonyme opgaver, slås vurderinger op for alle i faget. Anonymitet bliver fjernet."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "pseudonym",
+  null,
+  function() { return {"errors":{"bad_credentials":"Ugyldigt brugernavn eller adgangskode","common":"Kan ikke bruge almindelige adgangskoder (f.eks. \"adgangskode\")","invalid":"Må kun indeholde bogstaver, tal eller følgende: %{characters}","mismatch":"Matcher ikke","not_email":"Ikke en gyldig e-mailadresse","repeated":"Kan ikke have samme tegn mere end %{max} gange i træk","required":"Påkrævet","sequence":"Kan ikke inkludere mere end %{max} tegn i træk (f.eks. abcdef)","sis_taken":"SIS-ID er allerede i brug!","taken":"Allerede i brug","too_long":"Kan ikke overskride %{max} tegn","too_short":"Skal være mindst %{min} tegn"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "publish_btn_module",
+  function() { return {"published_click_to_unpublish_db016671":"Offentliggjort.  Klik for at fjerne offentliggørelse.","published_click_to_unpublish_title_358122a":"Offentliggjort.  Klik for at fjerne offentliggørelse %{title}.","unpublished_click_to_publish_6a6d12e1":"Offentliggørelse fjernet.  Klik for at offentliggøre.","unpublished_click_to_publish_title_7c57293f":"Offentliggørelse fjernet.  Klik for at offentliggøre %{title}."} },
+  function() { return {"buttons":{"publish":"Offentliggør","published":"Offentliggjort","publishing":"Offentliggør ...","unpublish":"Annuller offentliggørelse","unpublishing":"Annullerer offentliggørelse ..."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "modelsQuiz",
+  null,
+  function() { return {"assignment_points_possible":{"one":"1 point","other":"%{count} point"},"cant_unpublish_when_students_submit":"Kan ikke annullere offentliggørelsen, hvis der findes afleveringer fra elever","question_count":{"one":"1 spørgsmål","other":"%{count} spørgsmål"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "EquationEditorView",
+  null,
+  function() { return {"button":{"insert_equation":"Indsæt regnestykke"},"cannot_render_equation":"Dette regnestykke kan ikke gengives i Basisvisning.","equation_editor_title":"Brug værktøjslinjerne her, eller Skift visning til Avanceret for at indtaste/indsætte i LaTex"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "loadEventListeners",
+  function() { return {"something_went_wrong_loading_equella_f7e3907c":"Noget gik galt under indlæsning af Equella","something_went_wrong_loading_the_equation_editor_62bca61c":"Noget gik galt under indlæsning af redigeringsværktøjet for ligninger"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "mentions",
+  function() { return {"mentions_error_page_fd84c53c":"Nævner fejlside","select_name_to_mention_15d9674e":"Vælg %{name} at nævne"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "EditRubricPage",
+  null,
+  function() { return {"titles":{"find_outcomes":"Find læringsudbytter"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "edit_rubric",
+  function() { return {"add_criterion_eb9587ef":"Tilføj kriterie","create_criterion_6df4d4ad":"Opret kriterie","criterion_created_42669293":"Kriterie oprettet","criterion_updated_36c0b3dc":"Kriterie opdateret","edit_criterion_5e4dadca":"Rediger kriterie","max_dd02d615":"maks","new_criterion_canceled_d8c2a655":"Nyt kriterie annulleret","new_rating_canceled_eed3c4ff":"Ny bedømmelse annulleret","new_rating_created_54125331":"Ny bedømmelse oprettet","rating_title_3b60881e":"Bedømmelsestitel","rating_updated_7aff90ea":"Bedømmelse opdateret","update_criterion_edcbd330":"Opdateringskriterie","you_can_t_edit_this_rubric_either_because_you_don__5247d35d":"Du kan ikke redigere dette vurderingskriterium, enten fordi du ikke har tilladelse, eller fordi den bruges mere end et sted. Eventuelle ændringer, du foretager, resulterer i en nyt vurderingskriterium. Alle tilknyttede læringsudbyttekriterier vil bruge fagets skala for opfyldelse af læringsmål. Fortsæt alligevel?","you_can_t_edit_this_rubric_either_because_you_don__ab22f243":"Du kan ikke redigere dette vurderingskriterium, enten fordi du ikke har tilladelse, eller fordi den bruges mere end et sted. Eventuelle ændringer, du foretager, resulterer i en nyt vurderingskriterium. Alle tilknyttede læringsudbyttekriterier vil bruge kontoens skala for opfyldelse af læringsmål. Fortsæt alligevel?","you_can_t_edit_this_rubric_either_because_you_don__c2472826":"Du kan ikke redigere dette vurderingskriterium, enten fordi du ikke har tilladelse, eller fordi den bruges mere end et sted. Eventuelle ændringer, som du foretager, vil resultere i et nyt vurderingskriterium, som baseres på det forrige vurderingskriterium. Fortsæt alligevel?"} },
+  function() { return {"buttons":{"create_rubric":"Opret vurderingskriterium","update_rubric":"Opdater vurderingskriterium"},"change":"Skift","discussion_points_possible":{"one":"%{count} mulige point","other":"%{count} mulige point"},"errors":{"load_rubrics_failed":"Det mislykkedes at indlæse vurderingskriterier. Prøv igen"},"leave_different":"Efterlad anderledes","messages":{"loading_rubric_groups":"Indlæser vurderingskriteriegrupper ...","loading_rubrics":"Indlæser vurderingskriterier ..."},"prompts":{"confirm_delete":"Er du sikker på, at du vil slette dette vurderingskriterium?"},"rubric":{"import_outcome":{"duplicated_outcome":"Dette læringsudbytte er ikke blevet tilføjet, da det allerede findes i dette vurderingskriterium."}},"titles":{"edit_rubric_rating":"Rediger bedømmelse","find_existing_rubric":"Find eksisterende vurderingskriterium"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "rubric_assessment",
+  function() { return {"additional_comments_9aed10bb":"Yderligere kommentarer","extra_credit_not_permitted_on_outcomes_score_adjus_714dd746":"Ekstra kredit ikke tilladt for læringsudbytte, resultat justeret til maksimalt muligt for %{outcome}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "rubric_delete_confirmation",
+  function() { return {"are_you_sure_you_want_to_delete_this_rubric_any_co_29d7ac76":"Er du sikker på, at du vil slette dette vurderingskriterium? Ethvert fag, der i øjeblikket er forbundet med dette vurderingskriterium, har stadig adgang til det, men ingen nye fag vil kunne bruge det.","are_you_sure_you_want_to_delete_this_rubric_this_a_d4ff43c7":"Er du sikker på, at du vil slette dette vurderingskriterium? Denne handling fjerner denne vurderingskriterieassociering fra alle opgaver i det aktuelle fag og sletter eventuelle eksisterende associerede vurderinger."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "edit_rubricCommentButton",
+  function() { return {"add_additional_comments_ec34a62f":"Tilføj yderligere kommentarer"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "edit_rubricComments",
+  function() { return {"_2d4c0d31":"…","save_this_comment_for_reuse_5eda0b70":"Gem denne kommentar til genbrug","saved_comments_2f6ba95":"Gem kommentarer","select_from_saved_comments_dd398cd4":"Vælg fra gemte kommentarer","this_area_will_be_used_by_the_assessor_to_leave_co_98a5db8b":"Dette område bruges af bedømmeren til at efterlade kommentarer i forbindelse med dette kriterie."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "RubricAddCriterionPopover",
+  function() { return {"criterion_5f0b62f8":"Kriterie","find_outcome_746cc57e":"Find resultat","new_criterion_6054bc7f":"Nyt kriterie"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "RubricManagement",
+  function() { return {"account_rubrics_40c190a8":"Vurderingskriterier for konto"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "edit_rubricCriterion",
+  function() { return {"this_criterion_is_linked_to_a_learning_outcome_c8aa57bf":"Dette kriterie er linket til et læringsudbytte","threshold_pts_45f0e5d8":"tærskel: %{pts}","view_longer_description_6b762087":"vis længere beskrivelse"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "edit_rubricPoints",
+  function() { return {"cannot_give_outcomes_extra_credit_696208f0":"Kan ikke give læringsudbytte ekstra kredit","invalid_score_3d247da7":"Ugyldigt resultat","points_possible_720fc8fd":"%{points} / %{possible}","possible_pts_b63dff4c":"%{possible} point"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "edit_rubricRatings",
+  function() { return {"no_details_1ee29870":"Inge detaljer","points_to_endofrangepoints_pts_aad207f0":"%{points} til \u003e%{endOfRangePoints} point","rating_selected_85c31e4c":"Bedømmelse valgt","rating_unselected_7eb0ab52":"Bedømmelse fravalgt","this_rating_is_selected_ca68fce6":"Denne bedømmelse er valgt"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "edit_rubricRubric",
+  function() { return {"criteria_9fac648":"Kriterier","pts_51d69f4a":"Point","ratings_2433172b":"Bedømmelser","total_points_total_f41b2cff":"Samlede point: %{total}","total_points_total_out_of_possible_9056fdb4":"Samlede point: %{total} ud af %{possible}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "sections_tooltip",
+  function() { return {"count_students_227cbe2":"(%{count} elever)","name_count_students_d004ba32":"%{name} (%{count} elever)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "count_sections_466dcd5c",
+  null,
+  function() { return {"one":"1 sektion","other":"%{count} Sektioner"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "modelsSection",
+  null,
+  function() { return {"overrides":{"everyone":"Alle"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "select_content_dialog",
+  function() { return {"error_embedding_content_from_tool_49bb698e":"Fejl ved indlejring af indhold fra værktøjet","error_the_tool_did_not_return_a_url_to_canvas_a9afa641":"Fejl: Værktøjet returnerede ikke en URL til Canvas","error_the_tool_returned_an_invalid_content_type_co_10a11c07":"Fejl: Værktøjet returnerede en ugyldig indholdstype \"%{contentType}\"","page_name_is_required_d8c2736e":"Sidenavn er påkrævet","selected_content_contains_non_lti_links_f9dfd762":"Udvalgt indhold indeholder ikke-LTI-links.","selected_content_is_not_an_lti_link_11780d96":"Udvalgt indhold er ikke et LTI-link.","selected_external_tool_tool_bae095ba":"Valgt eksternt værktøj %{tool}","unselected_external_tool_tool_1bd68403":"Fravalgt eksternt værktøj %{tool}","url_is_required_4689ed84":"URL er påkrævet"} },
+  function() { return {"buttons":{"add_item":"Tilføj element"},"errors":{"assignment_name_blank":"Opgavenavn kan ikke være tomt.","external_tool_url":"Et eksternt værktøj kan ikke gemmes uden en URL.","failed_to_create_item":"Oprettelse af nyt element mislykkedes","loading_failed":"Indlæsning mislykkedes"},"link_from_external_tool":"Link ressource fra eksternt værktøj","titles":{"add_item_to_module":"Føj element til forløb","find_links_using_service":"Find links, som bruger %{service}"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "context_modulesFileSelectBox",
+  function() { return {"create_file_s_188549e6":"[ Opret fil(er) ]","new_file_s_8876bba1":"[ Ny(e) File(r) ]","select_the_files_you_want_to_associate_or_add_file_741ad4fa":"Vælg de filer, som du vil tilknytte, eller tilføj filerne ved at vælge \"Opret fil(er)\".","select_the_files_you_want_to_associate_or_add_file_9acd7878":"Vælg de filer, som du vil tilknytte, eller tilføj filerne ved at vælge \"Ny(e) fil(er)\"."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "selectPosition",
+  function() { return {"item_select_fe0f320a":"Vælg element","place_b128fa94":"Anbring","place_title_2c183274":"Anbring \"%{title}\"","position_select_c2dd3980":"Vælg position","select_one_b647b384":"Vælg en"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "findLinkForService",
+  null,
+  function() { return {"buttons":{"search":"Søg","search_by_tag":"Søg efter tag"},"errors":{"search_failed":"Søgning mislykkede, prøv igen."},"no_description":"Ingen beskrivelse","no_results_found":"Der blev ikke fundet resultater","status":{"diigo_search_throttling":"Diigo begrænser brugerne til en søgning hvert tiende sekund.  Vent venligst ...","searching":"Søger ..."},"titles":{"bookmark_search":"Bogmærkesøgning: %{service_name}"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "site",
+  null,
+  function() { return {"view_privacy_policy":"Vis datapolitik"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "validate",
+  null,
+  function() { return {"is_required":"Dette felt er påkrævet"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "SisButtonView",
+  function() { return {"base_message_please_make_sure_name_has_a_due_date_928ae7ab":"%{base_message} Sørg for, at %{name} har en afleveringsdato.","base_message_please_make_sure_name_has_a_due_date__9e9b0cfd":"%{base_message} Sørg for, at %{name} har en afleveringsdato og ikke er for langt.","base_message_please_make_sure_name_name_is_not_too_d0c9454f":"%{base_message} Sørg for, at navnet %{name} ikke er for langt.","sync_to_name_disabled_click_to_toggle_53a1396f":"Synkroniser til %{name} deaktiveret. Klik for at skifte.","sync_to_name_enabled_click_to_toggle_ddaef134":"Synkroniser til %{name} aktiveret. Klik for at skifte.","the_grade_for_this_assignment_will_not_sync_to_the_3bb4f6f5":"Vurderingen for denne opgave synkroniseres ikke i elevernes informationssystem.","the_grade_for_this_assignment_will_sync_to_the_stu_5d32cedb":"Vurderingen for denne opgave synkroniseres i elevernes informationssystem."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "ExternalToolsPlugin",
+  function() { return {"apps_54d24a47":"Apps","view_all_e13bf0a6":"Se alle"} },
+  function() { return {"more_external_tools":"Flere eksterne værktøjer"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "ExternalToolDialog",
+  function() { return {"loading_external_tool_d839042c":"Indlæser eksternt værktøj"} },
+  function() { return {"embed_from_external_tool":"Indlejr indhold fra eksternt værktøj"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "treeBrowser",
+  function() { return {"selected_subtree_a7693937":"Valgt %{subtree}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "unread_badge",
+  function() { return {"totalcount_total_replies_b6988c0a":"%{totalCount} samlede svar","unreadcount_unread_replies_509e167f":"%{unreadCount} ulæste svar"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "upload_file",
+  function() { return {"canvas_failed_to_complete_the_upload_864a4c0f":"Canvas kunne ikke fuldføre uploaden.","canvas_failed_to_initiate_the_upload_8e3824d5":"Canvas kunne ikke påbegynde uploaden.","unable_to_transmit_file_to_the_storage_service_the_2d80b29e":"Kunne ikke overføre filen til lagertjenesten. Tjenesten kan være nede, eller du skal måske logge ind på Canvas igen."} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "user",
+  function() { return {"this_course_has_concluded_7995a84c":"Dette fag er afsluttet"} },
+  function() { return {"errors":{"already_enrolled":"Du er allerede tilmeldt dette fag","course_full":"Dette fag er fyldt","invalid_code":"Ugyldig kode","required":"Påkrævet","terms":"Du skal acceptere betingelserne","too_long":"Kan ikke overskride %{max} tegn"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "closedCaptionLanguages",
+  function() { return {"afrikaans_da0fe6ee":"Afrikaans","albanian_21ed929e":"Albansk","arabic_c5c87acd":"Arabisk","armenian_12da6118":"Armensk","belarusian_b2f19c76":"Hviderussisk","bulgarian_feccab7e":"Bulgarsk","catalan_16f6b78f":"Katalansk","chinese_111d37f6":"Kinesisk","chinese_simplified_7f0bd370":"Kinesisk forenklet","chinese_traditional_8a7f759d":"Kinesisk traditionelt","croatian_d713d655":"Kroatisk","czech_9aa2cbe4":"Tjekkisk","danish_c18cdac8":"Dansk","dutch_6d05cee5":"Hollandsk","english_australia_dc405d82":"Engelsk (australsk)","english_c60612e2":"Engelsk","english_canada_12688ee4":"Engelsk (Canada)","english_united_kingdom_a613f831":"Engelsk (Storbrittanien)","estonian_5e8e2fa4":"Estisk","filipino_33339264":"Filippinsk","finnish_4df2923d":"Finsk","french_33881544":"Fransk","french_canada_c3d92fa6":"Fransk (Canada)","galician_7e4508b5":"Galicisk","german_3ec99bbb":"Tysk","greek_65c5b3f7":"Græsk","haitian_creole_7eb4195b":"Haitisk kreolsk","hebrew_88fbf778":"Hebraisk","hindi_9bcd4b34":"Hindi","hungarian_fc7d30c9":"Ungarsk","icelandic_9d6d35de":"Islandsk","indonesian_5f6accd6":"Indonesisk","irish_567e109f":"Irsk","italian_bd3c792d":"Italiensk","japanese_b5721ca7":"Japansk","korean_da812d9":"Koreansk","latvian_2bbb6aab":"Lettisk","lithuanian_5adcbe24":"Litauisk","macedonian_6ed541af":"Makedonsk","malay_f5dddce4":"Malaj","maltese_916925e8":"Maltesisk","maori_new_zealand_5380a95f":"Māori (New Zealand)","norwegian_53f391ec":"Norsk","norwegian_bokmal_ad5843fa":"Norsk bokmål","norwegian_nynorsk_c785f8a6":"Norsk nynorsk","persian_a8cadb95":"Persisk","polish_4cf2ecaf":"Polsk","portuguese_9c212cf4":"Portugisisk","romanian_13670c1e":"Rumænsk","russian_1e3e197":"Russisk","serbian_7187f1f2":"Serbisk","slovak_69f48e1b":"Slovakisk","slovenian_30ae5208":"Slovensk","spanish_de9de5d6":"Spansk","swahili_5caeb4ba":"Swahili","swedish_59a593ca":"Svensk","tagalog_74906db7":"Tagalog","thai_8f9bc548":"Thai","turkish_5b69578b":"Tyrkisk","ukrainian_945b00b7":"Ukrainsk","vietnamese_e7a76583":"Vietnamesisk","welsh_42ab94b1":"Walisisk","yiddish_f96986df":"Jiddisch"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "user_content",
+  function() { return {"user_content_aaf0fb5a":"Brugerindhold"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "lib",
+  null,
+  function() { return {"text_helper":{"ellipsis":"...","quoted_text_toggle":"vis tekst i gåseøjne","word_separator":" "}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "help_dialog",
+  null,
+  function() { return {"Submitting_Ticket":"Indsender supportsag ...","description":"Beskrivelse","extreme_critical_emergency":"EKSTREMT KRITISK NØDSTILFÆLDE!!","file_a_ticket_for_a_personal_response_from_our_support_team":"Indsend supportsag for et personligt svar fra vores supportteam","for_an_instant_answer":"For øjeblikkeligt svar:","how_is_this_affecting_you":"Hvordan påvirker det dig?","i_cant_get_things_done_until_i_hear_back_from_you":"Jeg kan ikke gøre noget, før jeg hører fra dig","i_need_some_help_but_its_not_urgent":"Jeg har brug for hjælp, men det haster ikke","include_a_link_to_a_screencast_or_screenshot_using_something_like_jing":"Inkluder et link til et screencast/screenshot ved brug af f.eks. *Jing*","just_a_casual_question_comment_idea_suggestion":"Blot et tilfældigt spørgsmål, kommentar, idé, forslag","message":"Besked","message_will_be_sent_to_all_the_teachers_tas_in_the_course":"Beskeden sendes til alle lærere / undervisningsassistenter i faget.","please_select_one":"Vælg en ...","see_if_your_issue_is_addressed_in_the_canvas_guides":"Se om der tages fat på dit problem i *Canvas-vejledningerne*.","send_message":"Send besked","sending":"Sender ...","somethings_broken_but_i_can_work_around_it_for_now":"Der er noget galt, men jeg kan omgå det lige nu","subject":"Emne","submit_this_support_request":"Opret supportsag","which_course_is_this_question_about":"Hvilket fag drejer dette spørgsmål sig om?","your_email_address":"Din e-mailadresse"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "recent_student",
+  null,
+  function() { return {"last_logged_in":"sidst logget på %{last_login}"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "developer_key_form",
+  null,
+  function() { return {"cancel":"Annuller","icon_url":"Ikon-URL:","key_name":"Kodenavn:","notes":"Bemærk:","owner_email":"Ejerens e-mail:","redirect_uri":"Omdiriger URI (Legacy):","redirect_uris":"Omrediger URI'er:","save_key":"Gem nøgle","vendor_code":"Leverandørkode (LTI 2):"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "developer_key",
+  function() { return {"activate_key_name_a99df672":"Aktiver denne nøgle %{name}","activate_this_key_6cd98f4b":"Aktiver denne kode","deactivate_this_key_3e79a2b5":"Deaktiver denne kode","edit_key_name_5c7d2f46":"Rediger nøgle %{name}","id_id_4e148481":"ID: %{id}","key_api_key_68bf80ae":"Nøgle: *%{api_key}*"} },
+  function() { return {"edit_key":"Rediger denne nø"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "grade_display_warning_dialog",
+  null,
+  function() { return {"grade_display_warning":{"checkbox":"Vis ikke for dette fag igen.","warning":"Advarsel"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "contexts",
+  function() { return {"checked_883b93fd":"afkrydset"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "profiles",
+  function() { return {"from_gravatar_58372d5a":"Fra Gravatar","link_title_189888b7":"Link titel","link_url_cf96376":"Link url","take_a_picture_d582acf1":"Tag et billede","upload_a_picture_9f5f6e3c":"Upload et billede"} },
+  function() { return {"gravatar_view":{"button":{"preview":"Eksempel"},"enter_gravatar_email_below":"indtast din *Gravatar* e-mailadresse nedenfor"},"take_picture_view":{"retry":"Prøv igen","take_picture":"Tag billede"},"upload_file_view":{"choose_a_picture":"vælg et billede","crop_instructions":"For at beskære billedet skal du trække markeringen med musen eller bruge piletasterne til at flytte markeringen og shift+piletasterne for at ændre størrelsen på markeringen. Klik derefter på \"Gem\"-knappen nedenfor."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "quiz",
+  null,
+  function() { return {"regrade":{"give_everyone_full_credit":"Giv alle topvurdering for dette spørgsmål","no_scores_reduced":"Tildel point til rettede og tidligere rettede korrekte svar (*ingen resultater reduceres*)","regrade_disabled":"Ombedømmelse tillades ikke for dette spørgsmål, fordi et svar blev flyttet eller spørgsmålstypen blev ændret, efter en elev afsluttede en aflevering.","regrade_options":"Vælg en ombedømmelsesmulighed for elever, som allerede har taget quizzen. Canvas ombedømmer alle dine afleveringer, efter du gemmer quizzen (elevers resultater påvirkes muligvis).","some_scores_reduced":"Tildel kun point for det korrekte svar (*visse af elevernes resultater reduceres muligvis*)","update_question_without_regrading":"Opdater spørgsmål uden ombedømmelse"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "submission_detail",
+  null,
+  function() { return {"go_to_submission_url":"Gå til afleverings-URL","no_submission":"Ingen aflevering","submitted_files":"Afleverede filer:"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "screenreader_gradebook",
+  function() { return {"allow_final_grade_override_a21a79ee":"Tillad tilsidesættelse af endelig vurdering","assignments_in_this_group_have_no_points_possible__ab0adb72":"Opgaver i denne gruppe har ingen mulige point og kan ikke inkluderes i vurderingen.","excuse_this_assignment_for_the_selected_student_af04e132":"Fritag denne opgave for den valgte elev","grade_for_name_b9df168a":"Vurdering for: %{name}","gradebook_individual_view_8846598e":"Vurderingsoversigt: individuel visning","message_students_who_b9f2bf20":"Send besked til elever, der ...","note_grades_and_notes_will_be_saved_automatically__e3270872":"Bemærk: Vurderinger og noter gemmes automatisk, når man går ud af feltet.","this_assignment_does_not_count_toward_the_final_gr_a5c238e2":"Denne opgave tæller ikke med i den endelige vurdering.","total_results_outcomedetails_cnt_30ff1f8d":"Samlede resultater: %{outcomeDetails.cnt}"} },
+  function() { return {"assignment_information":{"actions":{"assignment_is_muted":"Tilbageholdt?","curve_grades":"Kurvevurderinger","set_default_grade":"Indstil standardvurderinger"},"details":{"avg_score":"Gennemsnitligt resultat","graded_sub_count":"Bedømte opgaver:","high_score":"Højt resultat","low_score":"Lavt resultat","no_points":"Ingen mulige point","points_possible":"Mulige point","submission_types":"Afleveringstyper:"},"index":{"assignment_in_speedgrader":"Se denne opgave i SpeedGrader","assignment_info":"Opgaveoplysninger","empty_assignment_selection":"Vælg en opgave for at vise yderligere oplysninger her."}},"components":{"final_grade":{"final_grade":"Endelig vurdering:"}},"content_selection":{"assignment":{"select_assignment":"Vælg en opgave"},"header":{"content_selection":"Valg af indhold"},"outcome":{"select_outcome":"Vælg et læringsudbytte"},"student":{"select_student":"Vælg en elev"}},"grading":{"empty_submission_selection":"Vælg en elev og en opgave, som skal vises, og rediger vurderinger.","grading":"Vurdering","is_dropped":"Vurderingen er faldet på nuværende tidspunkt for denne elev.","submission_details":"Afleveringsdetaljer","submission_hidden":"Denne opgave er ikke længere tilgængelig for denne elev og inkluderes ikke i deres vurdering.","was_resubmitted":"Denne opgave er blevet afleveret igen, siden den sidste blev bedømt."},"learning_mastery":{"download_results":"Download resultater (.csv)","empty_student_selection":"Vælg en elev for at vise yderligere oplysninger her.","empty_submission_selection":"Vælg en elev og et læringsudbytte for at vise resultater.","hide_student_names_label":"Skjul elevers navne","result":"Resultat","result_for":"Resultater for:","results_loading":"Resultater for denne elev indlæses stadig ...","select_a_section":"Vælg en sektion","select_student":"Vælg en elev","student_info":"Elevoplysninger"},"outcome_information":{"avg_score":"Gennemsnitligt resultat","empty_outcome_selection":"Vælg et resultat for at vise yderligere oplysninger her.","high_score":"Højt resultat","low_score":"Lavt resultat","outcome_info":"Oplysninger om læringsudbytte"},"screenreader_gradebook":{"assignments":"Opgaver","learning_mastery":"Opfyldelse af læringsmål"},"settings":{"assignment_toggles_and_actions":{"download_current_scores":"Download aktuelle resultat (.csv)","grading_history":"Vis vurderingsoversigt-historik","hide_student_names_label":"Skjul elevers navne","include_ungraded_assignments":"Vis ikke bedømte som 0","show_concluded_enrollments_label":"Vis afsluttede tilmeldinger","show_notes":"Vis noter i elevoplysninger","show_total_as_points":"Vis totaler som point på siden med elevers vurderinger","upload_scores":"Upload resultater (.csv)"},"header":{"global_settings":"Overordnede indstillinger"},"mastery_toggles_and_actions":{"download_results":"Download resultater (.csv)","hide_student_names_label":"Skjul elevers navne"},"section_select":{"select_a_section":"Vælg en sektion"},"sort_select":{"sort_assignments":"Sorter opgaver"}},"student_information":{"assignment_subtotals":{"ag_group_grade":"Vurdering","ag_group_percent_grade":"% af vurdering","ag_letter_grade":"Bogstavvurderinger"},"details":{"hidden":"skjult","secondary_id":"Sekundært id:","sections":"Sektioner:"},"index":{"empty_student_selection":"Vælg en elev for at vise yderligere oplysninger her.","grades":"Vurderinger","student_info":"Elevoplysninger","submissions_loading":"Afleveringer for denne elev indlæses stadig ..."}}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "assignment_details_dialog",
+  null,
+  function() { return {"average_score":"Gennemsnitligt resultat","count_of_submissions":"%{cnt} afleveringer","grading_statistics_for_assignment":"Vurderingsstatistik for: %{assignment.name}","high_score":"Højt resultat:","low_score":"Lavt resultat:","no_one_scored_higher":"Ingen scorede højere end %{max}","no_one_scored_lower":"Ingen scorede lavere end %{min}","scores_higher_than_the_average":"Resultater højere end gennemsnittet på %{average}","scores_lower_than_the_average":"Resultater lavere end gennemsnittet på %{average}","total_graded_submissions":"Bedømte afleveringer i alt:"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "mute_dialog",
+  null,
+  function() { return {"curving_assignments":"Kurver til opgaver","grade_change_notifications":"Meddelelser om vurderingsændring","how_to_unmute":"Når du tilbageholder denne opgave, kan du begynde at sende beskeder igen ved at klikke på linket \"Offentliggør opgave\".","mute_assignment":"Tilbagehold opgave","score_change_notifications":"Meddelelser om ændring i resultat","see_grade":"Deres vurdering for opgaven","students_will_see":"Elever vil være i stand til at se, at denne opgave er tilbageholdt.","submission_comments":"Afleveringskommentarer","sure_you_want_to_mute":"Er du sikker på, at du vil tilbageholde denne opgave? Når opgaven er tilbageholdt, vil eleverne ikke modtage nye meddelelser om eller være i stand til at se:"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "turnitin_info",
+  null,
+  function() { return {"buttons":{"resubmit_to_turnitin":"Indsend igen"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "vericite_info",
+  null,
+  function() { return {"buttons":{"resubmit_to_vericite":"Aflever igen til VeriCite"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "user_observee",
+  function() { return {"remove_edf2b8a7":"(Fjern)"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "wiki",
+  function() { return {"allow_in_mastery_paths_5332c786":"Tillad i læringsstier","by_b90c6b6f":"Af","copy_page_to_another_course_405cc07c":"Kopiér side til et andet fag","created_ascending_cff48774":"Oprettet: Stigende","created_descending_e9a1b097":"Oprettet: Faldende","delete_selected_pages_7bc50580":"Slet valgte sider","edited_c4fcbdbf":"Redigeret:","last_edit_ascending_6a18dba4":"Sidste redigering: Stigende","last_edit_descending_6b7ee755":"Sidste redigering: Faldende","master_lock_590266b6":"Hovedlås","page_title_ascending_b5df950c":"Sidetitel: Stigende","page_title_descending_70c1483d":"Sidetitel: Faldende","pages_settings_968392a3":"Indstillinger for Sider","raw_html_editor_e3993e41":"Rå HTML-editor","remove_as_frontpagetext_133cdaee":"Fjern som %{frontPageText}","select_page_e93fc123":"Vælg side","select_title_for_deletion_45b08247":"Vælg %{title} til sletning","send_page_to_another_user_6ef5a7c1":"Send side til en anden bruger","to_do_date_2cb4bf7b":"Dato for opgaveliste:","to_do_date_ascending_c3a59abb":"Dato for opgaveliste: Stigende","to_do_date_descending_25b2141d":"Dato for opgaveliste: Faldende","use_as_frontpagetext_fa88bbb2":"Brug som %{frontPageText}","users_allowed_to_edit_this_page_d6d316d0":"Brugere har tilladelse til at redigere denne side"} },
+  function() { return {"wiki_page":{"buttons":{"edit":"Rediger","view_all_pages":"Se alle sider"},"delete_wiki":"Slet","labels":{"front_page":"%{frontPageText}"},"menu":{"use_front_page":"Brug som %{frontPageText}"},"published_indicator":"Offentliggjort","toolbar_menu":{"settings":"Indstillinger"},"unpublished_indicator":"Ikke offentliggjort","view_page_history_wiki":"Vis sideoversigt","wiki":{"todo_date":"Dato for opgaveliste:"}},"wiki_page_content":{"page_locked":"Denne side er låst","page_locked_by_modules":"Siden bliver tilgængelig, når du har afsluttet disse forløb:","page_locked_by_modules_until":"Denne side er tilgængelig på %{lock_info.unlock_at}, hvis du har afsluttet disse forløb:","page_locked_until":"Denne side vil være tilgængelig på %{lock_info.unlock_at}"},"wiki_page_edit":{"buttons":{"cancel":"Annuller","save":"Gem","save_and_publish":"Gem og offentliggør"},"course_editing_roles":{"anyone":"Alle","only_teachers":"Kun lærere","teachers_and_students":"Lærere og elever"},"editing_roles":{"anyone":"Alle","only_members":"Kun medlemmer"},"notify_users_text":"Informer brugere om, at dette indhold er blevet ændret","options_label":"Muligheder","title_label":"Sidetitel"},"wiki_page_index":{"add_page":"Tilføj en!","buttons":{"new_page":"Side","new_page_label":"Tilføj en side"},"headers":{"creation_date":"Oprettelsesdato","last_edit":"Sidste redigering","page_title":"Sideoverskrift","todo_date":"Dato for opgaveliste"},"loading":"Indlæser ...","loading_more":"Indlæser mere ...","no_pages":"Der er ikke oprettet sider endnu.","pages_title":"Sider"},"wiki_page_index_edit_dialog":{"page_title":"Titel"},"wiki_page_index_item":{"labels":{"front_page":"%{frontPageText}"},"menu":{"settings":"Indstillinger"}},"wiki_page_revision":{"latest_revision":"Sidste revision","restore_revision":"Gendan denne revision","revision_summary":"*%{updated_at}* af %{edited_by}","same_as_latest":"Samme som *sidste*"},"wiki_page_revisions":{"revision_history":"Revisionshistorik"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "dialog_form_wrapper",
+  null,
+  function() { return {"cancel":"Annuller","save_settings":"Gem indstillinger","saving":"Gemmer ..."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "grading_box",
+  function() { return {"out_of_n_assignment_points_possible_3b026ea9":"ud af %{n_assignment.points_possible}"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "gradebooks",
+  null,
+  function() { return {"grades":{"complete":"Fuldført","incomplete":"Ufuldstændig"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "curve_grades_dialog",
+  function() { return {"out_of_formattedoutof_e08e90d5":"ud af %{formattedOutOf}"} },
+  function() { return {"average_score":"Gennemsnitligt resultat","buttons":{"curve_grades":"Kurvevurderinger","curving_grades":"Danner kurvevurderinger ..."},"curve_average":"Indtast en gennemsnitsvurdering for kurven til *%{assignment.name}*. Diagrammet viser det bedste forsøg på at danne kurven til vurderinger ud fra elevernes aktuelle resultater.","curve_grade_for_assignment":"Dan kurve for %{assignment.name}","labels":{"assign_blanks":"Tildel nuller til ikke-afleverede opgaver"},"this_is_permanent":"Vurderingskurven kan ikke fortrydes. Vurderingsoversigter med kurver er tilgængelige, men kurvehandlingen kan ikke annulleres."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "re_upload_submissions_form",
+  null,
+  function() { return {"buttons":{"upload":"Upload filer"},"reupload_submission_files":"Upload afleveringsfiler igen","upload_info":"Hvis du har foretaget ændringer i elevernes afleveringsfiler, som du downloadede forinden, skal du blot pakke dem igen og uploade zip-filen med nedenstående formular. Eleverne vil se de modificerede filer i deres kommentarer til afleveringen.","upload_warning":"Sørg for, at du ikke ændrer afleveringsfilernes navne, så vi kan genkende dem."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "set_default_grade_dialog",
+  function() { return {"give_all_students_the_same_grade_for_assignment_na_e44fcc7e":"Giv alle eleverne samme vurdering for *%{assignment.name}* ved at indtaste og aflevere en vurderingsværdi nedenfor:","give_all_students_the_same_percent_grade_for_assig_6a008004":"Giv alle eleverne samme *procent-vurdering* for **%{assignment.name}** ved at indtaste og aflevere en vurderingsværdi nedenfor:"} },
+  function() { return {"dialog_title":"Standardvurdering for %{assignment.name}","overwrite":"Overskriv vurderinger, som allerede er indført","set_grades_button":"Indstil standardvurderinger","set_grades_button_loading":"Indstiller vurderinger ..."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "keyboard_nav_dialog",
+  null,
+  function() { return {"esc_key_notification":"Tryk på tasten Esc, inden du bruger genvejstaster, når du navigerer i vurderingsoversigtens gitter."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "media_comments",
+  function() { return {"record_with_microphone_only_e4ee07aa":"Optag med mikrofon alene","record_with_webcam_af21e07c":"Optag med webkamera","saving_recording_e111cb05":"Gemmer optagelse ...","submit_media_file_f334c1ba":"Indsend mediefil","this_recorder_uses_flash_as_a_result_you_may_find__427d2ddb":"Denne optager bruger Flash. Som følge er det muligvis nemmere at optage på din egen computer og så bruge fanen til medieoverførsel til at uploade den.","title_52b8638d":"Overskrift:"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "widget",
+  null,
+  function() { return {"upload_media_track_form":{"amara_instructions":"Når du bliver bedt om det, skal du indsætte den video-URL, der blev kopieret i trin 1.","amara_link_text":"Amara (værktøj til oprettelse af undertekster)","choose_a_language":"--Vælg et sprog--","error_message":"*Fejl:* Du skal vælge et sprog og en gyldig sporfil.","file":"Fil","language":"Sprog","upload_media_track_form_description":"Når du har et undertekstspor i formatet SRT eller *WebVTT*, kan du uploade det her.","upload_media_track_form_description_1":"Kopiér denne video-url:","upload_media_track_form_description_2":"Opret en undertekstfil ved at klikke på følgende link:","upload_media_track_form_description_3":"Upload et undertekstspor i formatet SRT eller *WebVTT*.","upload_media_track_form_step1_label":"Trin 1:","upload_media_track_form_step2_label":"Trin 2:","upload_media_track_form_step3_label":"Trin 3:","upload_media_track_info":"*Instruktioner:* Følg disse tre trin for at oprette en undertekstfil til din video og upload den her. Hvis du allerede har en SRT-undertekstfil, kan du springe til trin 3."}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "message_students_dialog",
+  function() { return {"recipients_a69b5e55":"Modtagere:","sent_f4ee89ec":"Sendt!"} },
+  null
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "jquery",
+  function() { return {"module_navigation_97043417":"Forløbnavigation","next_module_item_19e835f3":"Næste forløbelement","opens_in_new_window_b4b99243":"åbnes i et nyt vindue","previous_module_item_a9e57348":"Forrige forløbelement"} },
+  function() { return {"module_sequence_footer":{"next":"Næste","previous":"Forrige"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "paginated_collection",
+  null,
+  function() { return {"no_items":"Ingen elementer."} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "paginated_view",
+  null,
+  function() { return {"loading_more_results":"Indlæser flere resultater"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "editor",
+  null,
+  function() { return {"mathjax_text_entry_field_label":"Indtast regnestykket som LaTeX.","screen_reader_tip":"Brugere af skærmlæser: Den mest adgangsvenlige måde til at bruge dette redigeringsprogram, er ved at skifte til den avancerede visning, og så indtaste LaTeX direkte, eller bruge værktøjslinjen til at hjælpe dig med at gøre dette. Linket til at skifte til den avancerede visning kan findes ved afslutningen af denne dialog, lige inden redigeringsfeltet.","switch_to_mathjax":"Skift visning til Basis","switch_to_mathquill":"Skift visning til Avanceret","tabs":{"arrows":"Pile","basic":"Grundlæggende","delimiters":"Begrænsere","greek":"Græsk","misc":"Bland","operators":"Operatører","relationships":"Forhold"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "find_flickr_image_view",
+  null,
+  function() { return {"find_cc_on_flickr":"Find Creative Commons-billeder på Flickr","safesearch_warning_flickr":"Flickr viser SafeSearch billeder inden for Creative Commons Public Domain. Dog er sikre søgeresultater ikke garanteret, da nogle billeder muligvis ikke inkluderer et bestemt sikkerhedsniveau fra deres ejere.","search":"Søg"} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "change_points_possible_to_match_rubric_dialog",
+  null,
+  function() { return {"prompts":{"update_assignment_points":"Opgavens samlede antal point %{assignmentPoints} og vurderingskriteriets samlede antal point %{rubricPoints} resulterer i et maksimalt resultat på %{toPercentage_pointRatio} for afleveringer fra de elver, som blev bedømt med vurderingskriteriet."},"titles":{"update_assignment_points":"Ændre opgavepoint for at matche vurderingskriterium?"}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "number",
+  null,
+  function() { return {"currency":{"format":{"delimiter":".","format":"%u%n","precision":2,"separator":",","significant":false,"strip_insignificant_zeros":false,"unit":"$"}},"format":{"delimiter":".","precision":3,"separator":",","significant":false,"strip_insignificant_zeros":false},"human":{"decimal_units":{"format":"%n %u","units":{"billion":"Milliard","million":"Million","quadrillion":"Kvadrillion","thousand":"Tusind","trillion":"Billion","unit":""}},"format":{"delimiter":"","precision":3,"significant":true,"strip_insignificant_zeros":true},"storage_units":{"format":"%n %u","units":{"byte":{"one":"Byte","other":"Bytes"},"eb":"EB","gb":"GB","kb":"KB","mb":"MB","pb":"PB","tb":"TB"}}},"nth":{"ordinalized":{},"ordinals":{}},"percentage":{"format":{"delimiter":"","format":"%n%"}},"precision":{"format":{"delimiter":""}}} }
+)
+
+
+setLazyTranslations(
+  "da-x-k12",
+  "datetime",
+  null,
+  function() { return {"distance_in_words":{"about_x_hours":{"one":"cirka 1 time","other":"cirka %{count} timer"},"about_x_months":{"one":"cirka 1 måned","other":"cirka %{count} måneder"},"about_x_years":{"one":"cirka 1 år","other":"cirka %{count} år"},"almost_x_years":{"one":"næsten 1 år","other":"næsten %{count} år"},"half_a_minute":"et halvt minut","less_than_x_minutes":{"one":"mindre end et minut","other":"mindre end %{count} minutter"},"less_than_x_seconds":{"one":"mindre end 1 sekund","other":"mindre end %{count} sekunder"},"over_x_years":{"one":"over 1 år","other":"over %{count} år"},"x_days":{"one":"1 dag","other":"%{count} dage"},"x_minutes":{"one":"1 minut","other":"%{count} minutter"},"x_months":{"one":"1 måned","other":"%{count} måneder"},"x_seconds":{"one":"1 sekund","other":"%{count} sekunder"}},"prompts":{"day":"Dag","hour":"Time","minute":"Minut","month":"Måned","second":"Sekunder","year":"År"}} }
+)
+
+
+})(setRootTranslations, setLazyTranslations)
