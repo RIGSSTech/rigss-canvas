@@ -26,11 +26,14 @@
   end
 %>
 
-<div class="ic-Login">
+<div class="ic-Login"> 
   <div class="ic-Login__container">
     <div class="ic-Login__content">
       <div class="ic-Login__innerContent">
-
+       <h3 style="margin-bottom:30px; text-align:center">
+         <strong>Connect to</strong><small style="color:#faae2d"> RIGSS LMS</small>
+        </h3>
+	<p style="text-align:center; margin-bottom:30px;">Sign-in with account details provided by institute to access RIGSS LMS</p>
         <div class="ic-Login-header">
           <%= render :partial => 'login/shared/header_logo' %>
           <div class="ic-Login-header__links">
@@ -46,8 +49,10 @@
         <div class="ic-Login__body">
           <%= render "shared/login_fft_helper" %>
           <%= form_for :pseudonym_session, :url => url_for({ action: :create }.merge(params.slice(:id).to_unsafe_h)), :html => {:id => "login_form"} do |f| %>
-            <h1 class="ui-helper-hidden-accessible">
-              <%= t('log_in', 'Log In') %>
+            <h1 style="margin-bottom: 10px;">
+	      <center>
+                <%= t('log_in', 'Log In') %>
+	      </center>
             </h1>
             <% login_inner_dialog = yield :login_inner_dialog %>
             <%= login_inner_dialog if login_inner_dialog && !login_inner_dialog.strip.empty? %>
