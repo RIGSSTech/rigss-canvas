@@ -95,3 +95,5 @@ schema.graphql
 
 # for mac users
 .DS_Store
+
+log/
