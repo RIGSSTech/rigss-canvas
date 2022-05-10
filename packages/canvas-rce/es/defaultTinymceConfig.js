@@ -38,9 +38,9 @@ const defaultTinymceConfig = {
   // any menus here will be merged into the standard menubar menus
   menu: undefined,
   // any toolbar data here will be merged into the standard toolbars
-  toolbar: undefined,
+  toolbar: 'image media',
   // plugins included here will be added to the standard set
-  plugins: undefined,
+  plugins: 'image media',
   // ==================================================================================
   // values below this line define standard behavior and probably shouldn't be changed
   // but will be used if you do
