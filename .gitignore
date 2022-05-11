@@ -97,3 +97,5 @@ schema.graphql
 .DS_Store
 
 log/
+
+Gemfile
