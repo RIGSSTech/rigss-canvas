@@ -1,0 +1,2 @@
+delayed_job.log filter=lfs diff=lfs merge=lfs -text
+development.log filter=lfs diff=lfs merge=lfs -text
