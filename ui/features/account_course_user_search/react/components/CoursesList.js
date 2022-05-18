@@ -62,7 +62,7 @@ export default function CoursesList(props) {
             <CoursesListHeader
               {...props}
               id="term"
-              label={I18n.t('Term')}
+              label={I18n.t('Programme')}
               tipDesc={I18n.t('Click to sort by term ascending')}
               tipAsc={I18n.t('Click to sort by term descending')}
             />
