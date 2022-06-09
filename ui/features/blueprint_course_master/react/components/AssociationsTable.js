@@ -140,7 +140,7 @@ export default class AssociationsTable extends React.Component {
           {I18n.t('Short Name')}
         </Table.ColHeader>
         <Table.ColHeader id="colheader-term" width="15%">
-          {I18n.t('Term')}
+          {I18n.t(Programme)}
         </Table.ColHeader>
         <Table.ColHeader id="colheader-sisid" width="10%">
           {I18n.t('SIS ID')}
