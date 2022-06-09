@@ -159,7 +159,7 @@ export default class CoursePickerTable extends React.Component {
           {I18n.t('Short Name')}
         </Table.ColHeader>
         <Table.ColHeader id="picker-term" width="15%">
-          {I18n.t(Programme)}
+          {I18n.t('Programme')}
         </Table.ColHeader>
         <Table.ColHeader id="picker-sisid" width="10%">
           {I18n.t('SIS ID')}
