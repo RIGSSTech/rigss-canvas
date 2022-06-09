@@ -205,7 +205,7 @@ describe('CourseAvailabilityOptions', () => {
     const select = getByLabelText('Limit course participation to term or custom course dates?')
     expect(select.value).toBe('Course')
     fireEvent.click(select)
-    const termOption = getByText('Term')
+    const termOption = getByText(Programme)
     fireEvent.click(termOption)
 
     expect(document.getElementById('course_start_at').value).toBe('')

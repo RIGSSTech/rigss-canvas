@@ -137,7 +137,7 @@ export default function CourseAvailabilityOptions({canManage, viewPastLocked, vi
           }}
         >
           <SimpleSelect.Option id="term" value="term">
-            {I18n.t('Term')}
+            {I18n.t(Programme)}
           </SimpleSelect.Option>
           <SimpleSelect.Option id="course" value="course">
             {I18n.t('Course')}
