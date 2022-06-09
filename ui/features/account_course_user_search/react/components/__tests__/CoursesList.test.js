@@ -148,7 +148,7 @@ describe('Account Course User Search CoursesList Sorting', () => {
     {
       course_name: 'Course',
       sis_course_id: 'SIS ID',
-      term: Programme,
+      term: 'Programme',
       teacher: 'Teacher',
       subaccount: 'Sub-Account'
     },
