@@ -18,7 +18,7 @@
 # with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-# @API Enrollment Terms
+# @API Enrollment Programmes
 class TermsController < ApplicationController
   before_action :require_context, :require_root_account_management
   include Api::V1::EnrollmentTerm

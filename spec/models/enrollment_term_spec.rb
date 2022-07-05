@@ -66,7 +66,7 @@ describe EnrollmentTerm do
 
     it "does not recompute course scores if the grading period set is not changed" do
       expect(Enrollment).not_to receive(:recompute_final_score)
-      @term.update!(name: "The Best Term")
+      @term.update!(name: "The Best Programme")
     end
 
     it "runs recompute jobs in an n-strand stranded by the enrollment term global ID" do
@@ -83,7 +83,7 @@ describe EnrollmentTerm do
     end
   end
 
-  it "handles the translated Default Term names correctly" do
+  it "handles the translated Default Programme names correctly" do
     account_model
     term = @account.default_enrollment_term
 

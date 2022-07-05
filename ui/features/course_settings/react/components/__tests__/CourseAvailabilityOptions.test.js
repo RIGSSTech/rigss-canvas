@@ -135,7 +135,7 @@ describe('CourseAvailabilityOptions', () => {
     expect(endDate).toBeDisabled()
   })
 
-  it('shows the dates from Student enrollment if Term is selected in select', () => {
+  it('shows the dates from Student enrollment if Programme is selected in select', () => {
     const {getByLabelText} = renderComponent(wrapper, {
       course_restrict_enrollments_to_course_dates: 'false'
     })
@@ -197,7 +197,7 @@ describe('CourseAvailabilityOptions', () => {
     expect(getByLabelText('End').value).toContain('Oct 16, 2020')
   })
 
-  it('clears course dates when participation setting is changed to Term', () => {
+  it('clears course dates when participation setting is changed to Programme', () => {
     const {getByText, getByLabelText} = renderComponent(wrapper, {
       course_conclude_at: moment('2020-10-16').toISOString(),
       course_restrict_enrollments_to_course_dates: 'true'

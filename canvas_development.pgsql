@@ -16165,9 +16165,9 @@ COPY public.enrollment_states (enrollment_id, state, state_is_current, state_sta
 --
 
 COPY public.enrollment_terms (id, root_account_id, name, term_code, sis_source_id, sis_batch_id, start_at, end_at, accepting_enrollments, can_manually_enroll, created_at, updated_at, workflow_state, stuck_sis_fields, integration_id, grading_period_group_id) FROM stdin;
-0	0	Default Term	\N	\N	\N	\N	\N	\N	\N	2022-05-05 12:27:18.962407	2022-05-05 12:27:18.962407	active	name	\N	\N
-2	1	Default Term	\N	\N	\N	\N	\N	\N	\N	2022-05-05 12:27:33.336049	2022-05-05 12:27:33.336049	active	name	\N	\N
-3	2	Default Term	\N	\N	\N	\N	\N	\N	\N	2022-05-05 12:27:36.724505	2022-05-05 12:27:36.724505	active	name	\N	\N
+0	0	Default Programme	\N	\N	\N	\N	\N	\N	\N	2022-05-05 12:27:18.962407	2022-05-05 12:27:18.962407	active	name	\N	\N
+2	1	Default Programme	\N	\N	\N	\N	\N	\N	\N	2022-05-05 12:27:33.336049	2022-05-05 12:27:33.336049	active	name	\N	\N
+3	2	Default Programme	\N	\N	\N	\N	\N	\N	\N	2022-05-05 12:27:36.724505	2022-05-05 12:27:36.724505	active	name	\N	\N
 \.
 
 

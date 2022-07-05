@@ -57,8 +57,8 @@ describe "Filter" do
     before(:once) do
       course_with_teacher(active_all: true)
       course_with_student(course: @course)
-      create_grading_periods("Fall Term", Time.zone.now)
-      associate_course_to_term("Fall Term")
+      create_grading_periods("Fall Programme", Time.zone.now)
+      associate_course_to_term("Fall Programme")
     end
 
     before do

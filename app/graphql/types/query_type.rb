@@ -87,12 +87,12 @@ module Types
 
     field :term, Types::TermType, null: true do
       argument :id, ID, "a graphql or legacy id", required: false,
-                                                  prepare: GraphQLHelpers.relay_or_legacy_id_prepare_func("Term")
+                                                  prepare: GraphQLHelpers.relay_or_legacy_id_prepare_func("Programme")
       argument :sis_id, String, "an id from the original SIS system", required: false
     end
     def term(id: nil, sis_id: nil)
       raise GraphQL::ExecutionError, "Must specify exactly one of id or sisId" if (id && sis_id) || !(id || sis_id)
-      return GraphQLNodeLoader.load("Term", id, context) if id
+      return GraphQLNodeLoader.load("Programme", id, context) if id
       return GraphQLNodeLoader.load("TermBySis", sis_id, context) if sis_id
     end
 

@@ -231,7 +231,7 @@ describe.skip('UnsplashPanel', () => {
     const {getByLabelText} = render(
       <UnsplashPanel source={fakeSource} setUnsplashData={() => {}} />
     )
-    const selectBox = getByLabelText('Search Term')
+    const selectBox = getByLabelText('Search Programme')
     act(() => {
       userEvent.type(selectBox, 'kittens')
     })
@@ -246,7 +246,7 @@ describe.skip('UnsplashPanel', () => {
     const {getByLabelText, getByTestId} = render(
       <UnsplashPanel source={fakeSource} setUnsplashData={() => {}} />
     )
-    const selectBox = getByLabelText('Search Term')
+    const selectBox = getByLabelText('Search Programme')
     act(() => {
       userEvent.type(selectBox, 'kittens')
     })
@@ -264,7 +264,7 @@ describe.skip('UnsplashPanel', () => {
     const {getByLabelText, getAllByText} = render(
       <UnsplashPanel source={fakeSource} setUnsplashData={() => {}} />
     )
-    const selectBox = getByLabelText('Search Term')
+    const selectBox = getByLabelText('Search Programme')
     act(() => {
       userEvent.type(selectBox, 'kittens')
     })
@@ -282,7 +282,7 @@ describe.skip('UnsplashPanel', () => {
     const {getByLabelText, queryByText} = render(
       <UnsplashPanel source={fakeSource} setUnsplashData={() => {}} />
     )
-    const selectBox = getByLabelText('Search Term')
+    const selectBox = getByLabelText('Search Programme')
     act(() => {
       userEvent.type(selectBox, 'kittens')
     })
@@ -300,7 +300,7 @@ describe.skip('UnsplashPanel', () => {
     const {getByLabelText, getByAltText} = render(
       <UnsplashPanel source={fakeSource} setUnsplashData={fakeSetUnsplashData} />
     )
-    const selectBox = getByLabelText('Search Term')
+    const selectBox = getByLabelText('Search Programme')
     act(() => {
       userEvent.click(selectBox)
       userEvent.type(selectBox, 'kittens')
@@ -332,7 +332,7 @@ describe.skip('UnsplashPanel', () => {
     const {getByText, getByLabelText} = render(
       <UnsplashPanel source={fakeSource} setUnsplashData={fakeSetUnsplashData} />
     )
-    const selectBox = getByLabelText('Search Term')
+    const selectBox = getByLabelText('Search Programme')
     act(() => {
       userEvent.click(selectBox)
       userEvent.type(selectBox, 'kittens')
@@ -356,7 +356,7 @@ describe.skip('UnsplashPanel', () => {
         setUnsplashData={fakeSetUnsplashData}
       />
     )
-    const selectBox = getByLabelText('Search Term')
+    const selectBox = getByLabelText('Search Programme')
     act(() => {
       userEvent.click(selectBox)
       userEvent.type(selectBox, 'kittens')
@@ -374,7 +374,7 @@ describe.skip('UnsplashPanel', () => {
       const {getByLabelText, getByAltText, getByText} = render(
         <UnsplashPanel source={fakeSource} setUnsplashData={() => {}} />
       )
-      const selectBox = getByLabelText('Search Term')
+      const selectBox = getByLabelText('Search Programme')
       act(() => {
         userEvent.click(selectBox)
         userEvent.type(selectBox, 'kittens')

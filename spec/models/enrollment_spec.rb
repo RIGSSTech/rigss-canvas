@@ -2038,7 +2038,7 @@ describe Enrollment do
       expect(@student_enrollment.state).to eq :active
       expect(@student_enrollment.state_based_on_date).to eq :active
 
-      # Course dates completely before Term dates, now in course dates
+      # Course dates completely before Programme dates, now in course dates
       @course.start_at = 2.days.ago
       @course.conclude_at = 2.days.from_now
       @course.restrict_enrollments_to_course_dates = true
@@ -2050,7 +2050,7 @@ describe Enrollment do
       expect(@teacher_enrollment.state_based_on_date).to eq :active
       expect(@student_enrollment.state_based_on_date).to eq :active
 
-      # Term dates completely before Course dates, now in course dates
+      # Programme dates completely before Course dates, now in course dates
       @term.start_at = 6.days.ago
       @term.end_at = 4.days.ago
       @term.save!
@@ -2058,7 +2058,7 @@ describe Enrollment do
       expect(@teacher_enrollment.state_based_on_date).to eq :active
       expect(@student_enrollment.state_based_on_date).to eq :active
 
-      # Terms dates superset of course dates, now in both
+      # Programmes dates superset of course dates, now in both
       @term.start_at = 4.days.ago
       @term.end_at = 4.days.from_now
       @term.save!
@@ -2089,7 +2089,7 @@ describe Enrollment do
       expect(@teacher_enrollment.state_based_on_date).to eq :active
       expect(@student_enrollment.state_based_on_date).to eq :active
 
-      # Term dates superset of course dates, now in beginning non-overlap
+      # Programme dates superset of course dates, now in beginning non-overlap
       @term.start_at = 6.days.ago
       @term.end_at = 6.days.from_now
       @term.save!
@@ -2104,7 +2104,7 @@ describe Enrollment do
       @course.save!
       expect(@student_enrollment.reload.state_based_on_date).to eq :inactive
 
-      # Term dates superset of course dates, now in ending non-overlap
+      # Programme dates superset of course dates, now in ending non-overlap
       @course.start_at = 4.days.ago
       @course.conclude_at = 2.days.ago
       @course.save!

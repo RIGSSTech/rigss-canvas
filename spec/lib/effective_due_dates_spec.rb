@@ -1133,7 +1133,7 @@ describe Course do
         end
 
         it "ignores account grading periods for unrelated enrollment terms" do
-          gp_group = Factories::GradingPeriodGroupHelper.new.create_for_account_with_term(@test_course.account, "Term")
+          gp_group = Factories::GradingPeriodGroupHelper.new.create_for_account_with_term(@test_course.account, "Programme")
           Factories::GradingPeriodHelper.new.create_for_group(gp_group, {
                                                                 start_date: 20.days.ago(@now),
                                                                 end_date: 15.days.ago(@now),

@@ -26,8 +26,8 @@ describe TermsApiController, type: :request do
       @account = Account.create(name: "new")
       account_admin_user(account: @account)
       @account.enrollment_terms.scope.delete_all
-      @term1 = @account.enrollment_terms.create(name: "Term 1")
-      @term2 = @account.enrollment_terms.create(name: "Term 2")
+      @term1 = @account.enrollment_terms.create(name: "Programme 1")
+      @term2 = @account.enrollment_terms.create(name: "Programme 2")
     end
 
     def get_terms(body_params = {})
@@ -184,7 +184,7 @@ describe TermsApiController, type: :request do
                         {},
                         {},
                         { expected_status: 400 })
-        expect(json["message"]).to eq "Terms only belong to root_accounts."
+        expect(json["message"]).to eq "Programmes only belong to root_accounts."
       end
 
       it "allows account admins without manage_account_settings to view" do
@@ -201,7 +201,7 @@ describe TermsApiController, type: :request do
       @account = Account.create(name: "new")
       account_admin_user(account: @account)
       @account.enrollment_terms.scope.delete_all
-      @term = @account.enrollment_terms.create(name: "Term")
+      @term = @account.enrollment_terms.create(name: "Programme")
     end
 
     def get_term(body_params = {})
@@ -254,7 +254,7 @@ describe TermsApiController, type: :request do
                         {},
                         {},
                         { expected_status: 400 })
-        expect(json["message"]).to eq "Terms only belong to root_accounts."
+        expect(json["message"]).to eq "Programmes only belong to root_accounts."
       end
 
       it "allows account admins without manage_account_settings to view" do
@@ -272,7 +272,7 @@ describe TermsController, type: :request do
     @account = Account.create(name: "new")
     account_admin_user(account: @account)
     @account.enrollment_terms.scope.delete_all
-    @term1 = @account.enrollment_terms.create(name: "Term 1")
+    @term1 = @account.enrollment_terms.create(name: "Programme 1")
   end
 
   describe "create" do
@@ -281,15 +281,15 @@ describe TermsController, type: :request do
       end_at = 3.days.from_now
       json = api_call(:post, "/api/v1/accounts/#{@account.id}/terms",
                       { controller: "terms", action: "create", format: "json", account_id: @account.to_param },
-                      { enrollment_term: { name: "Term 2", start_at: start_at.iso8601, end_at: end_at.iso8601 } })
+                      { enrollment_term: { name: "Programme 2", start_at: start_at.iso8601, end_at: end_at.iso8601 } })
 
       expect(json["id"]).to be_present
-      expect(json["name"]).to eq "Term 2"
+      expect(json["name"]).to eq "Programme 2"
       expect(json["start_at"]).to eq start_at.iso8601
       expect(json["end_at"]).to eq end_at.iso8601
 
       new_term = @account.reload.enrollment_terms.find(json["id"])
-      expect(new_term.name).to eq "Term 2"
+      expect(new_term.name).to eq "Programme 2"
       expect(new_term.start_at.to_i).to eq start_at.to_i
       expect(new_term.end_at.to_i).to eq end_at.to_i
     end
@@ -299,24 +299,24 @@ describe TermsController, type: :request do
         expect(@account.grants_right?(@user, :manage_sis)).to be_truthy
         json = api_call(:post, "/api/v1/accounts/#{@account.id}/terms",
                         { controller: "terms", action: "create", format: "json", account_id: @account.to_param },
-                        { enrollment_term: { name: "Term 2", sis_term_id: "SIS Term 2" } })
+                        { enrollment_term: { name: "Programme 2", sis_term_id: "SIS Programme 2" } })
 
-        expect(json["sis_term_id"]).to eq "SIS Term 2"
+        expect(json["sis_term_id"]).to eq "SIS Programme 2"
         new_term = @account.reload.enrollment_terms.find(json["id"])
-        expect(new_term.sis_source_id).to eq "SIS Term 2"
+        expect(new_term.sis_source_id).to eq "SIS Programme 2"
       end
 
       it "rejects invalid sis ids" do
         api_call(:post, "/api/v1/accounts/#{@account.id}/terms",
                  { controller: "terms", action: "create", format: "json", account_id: @account.to_param },
-                 { enrollment_term: { name: "Term 2", sis_term_id: { fail: true } } }, {}, { expected_status: 400 })
+                 { enrollment_term: { name: "Programme 2", sis_term_id: { fail: true } } }, {}, { expected_status: 400 })
       end
 
       it "rejects non unique sis ids" do
         @account.enrollment_terms.create!(name: "term", sis_source_id: "sis1")
         json = api_call(:post, "/api/v1/accounts/#{@account.id}/terms",
                         { controller: "terms", action: "create", format: "json", account_id: @account.to_param },
-                        { enrollment_term: { name: "Term 2", sis_term_id: "sis1" } }, { expected_status: 400 })
+                        { enrollment_term: { name: "Programme 2", sis_term_id: "sis1" } }, { expected_status: 400 })
 
         expect(json["errors"]["sis_source_id"].first.values).to eq ["sis_source_id", "SIS ID \"sis1\" is already in use", "SIS ID \"sis1\" is already in use"]
       end
@@ -326,7 +326,7 @@ describe TermsController, type: :request do
         expect(@account.grants_right?(@user, :manage_sis)).to be_falsey
         json = api_call(:post, "/api/v1/accounts/#{@account.id}/terms",
                         { controller: "terms", action: "create", format: "json", account_id: @account.to_param },
-                        { enrollment_term: { name: "Term 2", sis_term_id: "SIS Term 2" } })
+                        { enrollment_term: { name: "Programme 2", sis_term_id: "SIS Programme 2" } })
 
         expect(json["sis_term_id"]).to be_nil
         new_term = @account.reload.enrollment_terms.find(json["id"])
@@ -338,7 +338,7 @@ describe TermsController, type: :request do
       def expect_terms_create_401
         api_call(:post, "/api/v1/accounts/#{@account.id}/terms",
                  { controller: "terms", action: "create", format: "json", account_id: @account.to_param },
-                 { enrollment_term: { name: "Term 2" } },
+                 { enrollment_term: { name: "Programme 2" } },
                  {},
                  { expected_status: 401 })
       end
@@ -363,15 +363,15 @@ describe TermsController, type: :request do
       end_at = 3.days.from_now
       json = api_call(:put, "/api/v1/accounts/#{@account.id}/terms/#{@term1.id}",
                       { controller: "terms", action: "update", format: "json", account_id: @account.to_param, id: @term1.to_param },
-                      { enrollment_term: { name: "Term 2", start_at: start_at.iso8601, end_at: end_at.iso8601 } })
+                      { enrollment_term: { name: "Programme 2", start_at: start_at.iso8601, end_at: end_at.iso8601 } })
 
       expect(json["id"]).to eq @term1.id
-      expect(json["name"]).to eq "Term 2"
+      expect(json["name"]).to eq "Programme 2"
       expect(json["start_at"]).to eq start_at.iso8601
       expect(json["end_at"]).to eq end_at.iso8601
 
       @term1.reload
-      expect(@term1.name).to eq "Term 2"
+      expect(@term1.name).to eq "Programme 2"
       expect(@term1.start_at.to_i).to eq start_at.to_i
       expect(@term1.end_at.to_i).to eq end_at.to_i
     end
@@ -380,7 +380,7 @@ describe TermsController, type: :request do
       term = @account.enrollment_terms.create!(name: "term", sis_source_id: "sis1")
       json = api_call(:put, "/api/v1/accounts/#{@account.id}/terms/#{term.id}",
                       { controller: "terms", action: "update", format: "json", account_id: @account.to_param, id: term.to_param },
-                      { enrollment_term: { name: "Term 2", sis_source_id: "" } })
+                      { enrollment_term: { name: "Programme 2", sis_source_id: "" } })
       expect(json["sis_term_id"]).to be_nil
       expect(term.reload.sis_source_id).to be_nil
     end
@@ -388,7 +388,7 @@ describe TermsController, type: :request do
     it "requires valid dates" do
       json = api_call(:put, "/api/v1/accounts/#{@account.id}/terms/#{@term1.id}",
                       { controller: "terms", action: "update", format: "json", account_id: @account.to_param, id: @term1.to_param },
-                      { enrollment_term: { name: "Term 2", start_at: 3.days.ago.iso8601, end_at: 5.days.ago.iso8601 } }, {}, { expected_status: 400 })
+                      { enrollment_term: { name: "Programme 2", start_at: 3.days.ago.iso8601, end_at: 5.days.ago.iso8601 } }, {}, { expected_status: 400 })
       expect(json["errors"]["base"].first["message"]).to eq "End dates cannot be before start dates"
     end
 
@@ -397,18 +397,18 @@ describe TermsController, type: :request do
         expect(@account.grants_right?(@user, :manage_sis)).to be_truthy
         json = api_call(:put, "/api/v1/accounts/#{@account.id}/terms/#{@term1.id}",
                         { controller: "terms", action: "update", format: "json", account_id: @account.to_param, id: @term1.to_param },
-                        { enrollment_term: { sis_term_id: "SIS Term 2" } })
+                        { enrollment_term: { sis_term_id: "SIS Programme 2" } })
 
-        expect(json["sis_term_id"]).to eq "SIS Term 2"
-        expect(@term1.reload.sis_source_id).to eq "SIS Term 2"
+        expect(json["sis_term_id"]).to eq "SIS Programme 2"
+        expect(@term1.reload.sis_source_id).to eq "SIS Programme 2"
       end
 
       it "allows removing sis_term_id with :manage_sis permission" do
-        @term1.update(sis_source_id: "SIS Term 2")
+        @term1.update(sis_source_id: "SIS Programme 2")
         expect(@account.grants_right?(@user, :manage_sis)).to be_truthy
         json = api_call(:put, "/api/v1/accounts/#{@account.id}/terms/#{@term1.id}",
                         { controller: "terms", action: "update", format: "json", account_id: @account.to_param, id: @term1.to_param },
-                        { enrollment_term: { name: "Term 2", sis_term_id: "" } })
+                        { enrollment_term: { name: "Programme 2", sis_term_id: "" } })
 
         expect(json.keys).to include "sis_term_id"
         expect(json["sis_term_id"]).to be_nil
@@ -420,7 +420,7 @@ describe TermsController, type: :request do
         expect(@account.grants_right?(@user, :manage_sis)).to be_falsey
         json = api_call(:put, "/api/v1/accounts/#{@account.id}/terms/#{@term1.id}",
                         { controller: "terms", action: "update", format: "json", account_id: @account.to_param, id: @term1.to_param },
-                        { enrollment_term: { name: "Term 2", sis_term_id: "SIS Term 2" } })
+                        { enrollment_term: { name: "Programme 2", sis_term_id: "SIS Programme 2" } })
 
         expect(json["sis_term_id"]).to be_nil
         expect(@term1.reload.sis_source_id).to be_nil
@@ -471,7 +471,7 @@ describe TermsController, type: :request do
       def expect_terms_update_401
         api_call(:put, "/api/v1/accounts/#{@account.id}/terms/#{@term1.id}",
                  { controller: "terms", action: "update", format: "json", account_id: @account.to_param, id: @term1.to_param },
-                 { enrollment_term: { name: "Term 2" } },
+                 { enrollment_term: { name: "Programme 2" } },
                  {},
                  { expected_status: 401 })
       end

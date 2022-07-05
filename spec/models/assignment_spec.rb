@@ -10149,7 +10149,7 @@ describe Assignment do
         end
 
         it "does not set post_to_sis to false for an assignment due within the newly-closed grading period, whose course is NOT using the grading period" do
-          second_term = account.enrollment_terms.create!(name: "Term 2")
+          second_term = account.enrollment_terms.create!(name: "Programme 2")
           second_course = Course.create!(account: account, enrollment_term: second_term)
           second_assignment = second_course.assignments.create!(
             post_to_sis: true,

@@ -112,7 +112,7 @@ $(document).ready(() => {
       const term = data.enrollment_term
       const $tr = $(this).parents('.term')
       $tr.find('button').attr('disabled', false)
-      $tr.find('.submit_button').text(I18n.t('update_term', 'Update Term'))
+      $tr.find('.submit_button').text(I18n.t('update_term', 'Update Programme'))
       const url = $.replaceTags($('.term_url').attr('href'), 'id', term.id)
       $(this).attr('action', url)
       $(this).attr('method', 'PUT')
@@ -161,9 +161,9 @@ $(document).ready(() => {
       $tr.find('button').attr('disabled', false)
       $(this).formErrors(data)
       if ($term.attr('id') === 'term_new') {
-        button_text = I18n.t('add_term', 'Add Term')
+        button_text = I18n.t('add_term', 'Add Programme')
       } else {
-        button_text = I18n.t('update_term', 'Update Term')
+        button_text = I18n.t('update_term', 'Update Programme')
       }
       $tr.find('.submit_button').text(button_text)
       $('.edit_term_link', $(this).closest('term')).focus()

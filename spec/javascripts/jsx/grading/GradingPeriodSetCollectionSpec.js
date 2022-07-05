@@ -90,7 +90,7 @@ const exampleTerms = [
     endAt: new Date('2014-03-03T02:58:42Z'),
     createdAt: new Date('2013-06-02T17:29:19Z'),
     gradingPeriodGroupId: '22',
-    displayName: 'Term starting Jan 3, 2014'
+    displayName: 'Programme starting Jan 3, 2014'
   },
   {
     id: '4',
@@ -99,7 +99,7 @@ const exampleTerms = [
     endAt: null,
     createdAt: new Date('2014-05-02T17:29:19Z'),
     gradingPeriodGroupId: '1',
-    displayName: 'Term created May 2, 2014'
+    displayName: 'Programme created May 2, 2014'
   }
 ]
 
@@ -195,7 +195,7 @@ QUnit.module('GradingPeriodSetCollection', {
 
 test('uses the name, start date (if no name), or creation date (if no start) for the display name', function() {
   const collection = renderComponent()
-  const expectedNames = ['Fall 2013 - Art', 'Term starting Jan 3, 2014', 'Term created May 2, 2014']
+  const expectedNames = ['Fall 2013 - Art', 'Programme starting Jan 3, 2014', 'Programme created May 2, 2014']
 
   return Promise.all([this.terms, this.sets]).then(() => {
     const actualNames = _.pluck(collection.state.enrollmentTerms, 'displayName')
@@ -452,7 +452,7 @@ test('uses the name, start date (if no name), or creation date (if no start) for
   })
 })
 
-test('filterSetsBySelectedTerm returns all the sets if "All Terms" is selected', function() {
+test('filterSetsBySelectedTerm returns all the sets if "All Programmes" is selected', function() {
   const ALL_TERMS_ID = '0'
   const selectedTermID = ALL_TERMS_ID
   const collection = renderComponent()

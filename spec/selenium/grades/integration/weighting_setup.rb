@@ -31,7 +31,7 @@ module WeightingSetup
     @course2.enroll_student(@student, allow_multiple_enrollments: true).accept(true)
     @course2.offer!
 
-    @term_name = "First Term"
+    @term_name = "First Programme"
 
     create_weighted_grading_periods
 

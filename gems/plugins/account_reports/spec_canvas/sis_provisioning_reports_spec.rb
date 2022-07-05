@@ -530,7 +530,7 @@ describe "Default Account Reports" do
       end
     end
 
-    describe "Terms" do
+    describe "Programmes" do
       before(:once) do
         create_some_terms
       end
@@ -555,7 +555,7 @@ describe "Default Account Reports" do
         parsed = read_report("provisioning_csv", { params: parameters, order: 2 })
 
         expect(parsed.length).to eq 3
-        expect(parsed).to match_array [[@default_term.id.to_s, nil, "Default Term", "active", nil, nil, "false"],
+        expect(parsed).to match_array [[@default_term.id.to_s, nil, "Default Programme", "active", nil, nil, "false"],
                                        [@term1.id.to_s, "fall12", "Fall", "active",
                                         @term1.start_at.iso8601, @term1.end_at.iso8601, "true"],
                                        [@term3.id.to_s, nil, "Spring", "active",
@@ -569,7 +569,7 @@ describe "Default Account Reports" do
         parsed = read_report("provisioning_csv", { params: parameters, order: 2 })
 
         expect(parsed.length).to eq 4
-        expect(parsed).to match_array [[@default_term.id.to_s, nil, "Default Term", "active", nil, nil, "false"],
+        expect(parsed).to match_array [[@default_term.id.to_s, nil, "Default Programme", "active", nil, nil, "false"],
                                        [@term1.id.to_s, "fall12", "Fall", "active",
                                         @term1.start_at.iso8601, @term1.end_at.iso8601, "true"],
                                        [@term3.id.to_s, nil, "Spring", "active",
@@ -1314,7 +1314,7 @@ describe "Default Account Reports" do
         parameters["xlist"] = true
         parameters["include_deleted"] = false
         report = run_report("sis_export_csv", { params: parameters })
-        expect(report.parameters["extra_text"]).to eq "Term: Default Term; Reports: xlist "
+        expect(report.parameters["extra_text"]).to eq "Programme: Default Programme; Reports: xlist "
         parsed = parse_report(report, { header: true })
         headers = parsed.shift
         expect(headers).to eq %w[xlist_course_id section_id status]
@@ -1342,7 +1342,7 @@ describe "Default Account Reports" do
         parameters["xlist"] = true
         parameters["include_deleted"] = true
         report = run_report("sis_export_csv", { params: parameters, account: @sub_account })
-        expect(report.parameters["extra_text"]).to eq "Term: All Terms; Include Deleted Objects; Reports: xlist "
+        expect(report.parameters["extra_text"]).to eq "Programme: All Programmes; Include Deleted Objects; Reports: xlist "
         parsed = parse_report(report)
         expect(parsed).to match_array [%w[SIS_COURSE_ID_1 english_section_3
                                           deleted]]

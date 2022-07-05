@@ -30,7 +30,7 @@ describe "dashboard" do
     end
 
     it "validates the functionality of soft concluded courses on courses page", priority: "1" do
-      term = EnrollmentTerm.new(name: "Super Term", start_at: 1.month.ago, end_at: 1.week.ago)
+      term = EnrollmentTerm.new(name: "Super Programme", start_at: 1.month.ago, end_at: 1.week.ago)
       term.root_account_id = @course.root_account_id
       term.save!
       c1 = @course

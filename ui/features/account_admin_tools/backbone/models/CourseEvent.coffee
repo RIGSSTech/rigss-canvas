@@ -142,7 +142,7 @@ export default class CourseEvent extends Backbone.Model
       when "root_account_id"
           I18n.t("field_label.root_account_id", "Root Account Id")
       when "enrollment_term_id"
-          I18n.t("field_label.enrollment_term_id", "Enrollment Term Id")
+          I18n.t("field_label.enrollment_term_id", "Enrollment Programme Id")
       when "sis_source_id"
           I18n.t("field_label.sis_source_id", "SIS Source Id")
       when "sis_batch_id"

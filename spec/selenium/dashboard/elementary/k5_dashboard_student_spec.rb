@@ -212,8 +212,8 @@ describe "student k5 dashboard" do
 
     it "shows the grades for a different grading period" do
       @course = @subject_course
-      create_grading_periods("Fall Term")
-      associate_course_to_term("Fall Term")
+      create_grading_periods("Fall Programme")
+      associate_course_to_term("Fall Programme")
       assignment.update!(due_at: 1.week.ago)
       assignment.grade_student(@student, grader: @homeroom_teacher, score: "90", points_deducted: 0)
 

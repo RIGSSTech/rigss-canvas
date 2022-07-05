@@ -41,15 +41,15 @@ function termGroup(term) {
 }
 
 const termGroups = {
-  active: I18n.t('Active Terms'),
-  future: I18n.t('Future Terms'),
-  past: I18n.t('Past Terms')
+  active: I18n.t('Active Programmes'),
+  future: I18n.t('Future Programmes'),
+  past: I18n.t('Past Programmes')
 }
 
 const allTermsGroup = (
   <SearchableSelect.Group key="allGroup" id="allGroup" label={I18n.t('Show courses from')}>
     <SearchableSelect.Option key="all" id="all" value="">
-      {I18n.t('All Terms')}
+      {I18n.t('All Programmes')}
     </SearchableSelect.Option>
   </SearchableSelect.Group>
 )

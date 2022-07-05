@@ -46,7 +46,7 @@ class Types::LegacyNodeType < Types::BaseEnum
   value "Rubric"
   value "Section"
   value "Submission"
-  value "Term"
+  value "Programme"
   value "User"
 
   #   # TODO: seems like we should be able to dynamically generate the types that

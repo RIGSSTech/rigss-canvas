@@ -145,7 +145,7 @@ QUnit.module('CourseFilter', hooks => {
       select = container.querySelectorAll('input[type="text"]')[0]
 
       clickToExpand()
-      selectOption('Term One')
+      selectOption('Programme One')
     })
 
     test('onChange fires with subaccount filter when a subaccount is selected', assert => {

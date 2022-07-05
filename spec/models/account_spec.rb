@@ -310,9 +310,9 @@ describe Account do
                                ])
       process_csv_data_cleanly([
                                  "term_id,name,status,start_date,end_date",
-                                 "T001,Term 1,active,,",
-                                 "T002,Term 2,active,,",
-                                 "T003,Term 3,active,,"
+                                 "T001,Programme 1,active,,",
+                                 "T002,Programme 2,active,,",
+                                 "T003,Programme 3,active,,"
                                ])
       process_csv_data_cleanly([
                                  "course_id,short_name,long_name,account_id,term_id,status",

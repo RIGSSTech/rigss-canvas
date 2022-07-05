@@ -502,7 +502,7 @@ class SisBatch < ActiveRecord::Base
       @terms ||= EnrollmentTerm.where(sis_batch_id: self)
       unless @terms.exists?
         abort_batch
-        batch_aborted(t("Terms not found. Terms must be included with multi_term_batch_mode"))
+        batch_aborted(t("Programmes not found. Programmes must be included with multi_term_batch_mode"))
       end
       @terms
     else

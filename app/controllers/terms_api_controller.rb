@@ -66,7 +66,7 @@
 #           "type": "string"
 #         },
 #         "overrides": {
-#           "description": "Term date overrides for specific enrollment types",
+#           "description": " date overrides for specific enrollment types",
 #           "example": {"StudentEnrollment": {"start_at": "2014-01-07T08:00:00-05:00", "end_at": "2014-05-14T05:00:00-04:0"}},
 #           "type": "object"
 #         }
@@ -166,7 +166,7 @@ class TermsApiController < ApplicationController
 
   def require_root_account
     unless @context.root_account?
-      render json: { message: "Terms only belong to root_accounts." }, status: :bad_request
+      render json: { message: "Programmes only belong to root_accounts." }, status: :bad_request
       false
     end
   end

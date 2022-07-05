@@ -438,7 +438,7 @@ const locale = {
     "message": "Eiconau’r Gwneuthurwr Eiconau a Gadwyd"
   },
   "search_280d00bd": { "message": "Chwilio" },
-  "search_term_b2d2235": { "message": "Term Chwilio" },
+  "search_term_b2d2235": { "message": "Programme Chwilio" },
   "select_crop_shape_d441feeb": { "message": "Dewis siâp tocio" },
   "select_language_7c93a900": { "message": "Dewis Iaith" },
   "selected_274ce24f": { "message": "Wedi dewis" },

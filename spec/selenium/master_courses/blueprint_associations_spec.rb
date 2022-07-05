@@ -77,7 +77,7 @@ describe "Blueprint association settings" do
       open_associations
       open_courses_list
 
-      expect(term_options).to include "Default Term"
+      expect(term_options).to include "Default Programme"
       expect(sub_account_options).to include "sub account 0"
     end
   end

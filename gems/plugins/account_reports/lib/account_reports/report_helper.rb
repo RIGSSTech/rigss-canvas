@@ -173,14 +173,14 @@ module AccountReports::ReportHelper
       term.name
     else
       I18n.t(
-        "account_reports.default.all_terms", "All Terms"
+        "account_reports.default.all_terms", "All Programmes"
       )
     end
   end
 
   def extra_text_term(account_report = @account_report)
     account_report.parameters ||= {}
-    add_extra_text(I18n.t("account_reports.default.extra_text_term", "Term: %{term_name};", term_name: term_name))
+    add_extra_text(I18n.t("account_reports.default.extra_text_term", "Programme: %{term_name};", term_name: term_name))
   end
 
   def check_report_key(key)
@@ -189,7 +189,7 @@ module AccountReports::ReportHelper
 
   def report_extra_text
     if check_report_key(:enrollment_term_id)
-      add_extra_text(I18n.t("account_reports.default.term_text", "Term: %{term_name};",
+      add_extra_text(I18n.t("account_reports.default.term_text", "Programme: %{term_name};",
                             term_name: term_name))
     end
 

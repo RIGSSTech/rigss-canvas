@@ -106,7 +106,7 @@ export default class CourseFilter extends React.Component {
   render() {
     const termOptions = [
       <CanvasSelect.Option key="all" id="all" value="">
-        {I18n.t('Any Term')}
+        {I18n.t('Any Programme')}
       </CanvasSelect.Option>,
       ...this.props.terms.map(term => (
         <CanvasSelect.Option key={term.id} id={term.id} value={term.id}>
@@ -153,7 +153,7 @@ export default class CourseFilter extends React.Component {
               key="terms"
               value={this.state.term}
               onChange={(e, value) => this.setState({term: value})}
-              label={<ScreenReaderContent>{I18n.t('Select Term')}</ScreenReaderContent>}
+              label={<ScreenReaderContent>{I18n.t('Select Programme')}</ScreenReaderContent>}
             >
               {termOptions}
             </CanvasSelect>

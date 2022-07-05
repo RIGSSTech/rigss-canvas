@@ -430,7 +430,7 @@ const locale = {
   "save_11a80ec3": { "message": "Save" },
   "saved_icon_maker_icons_df86e2a1": { "message": "Saved Icon Maker Icons" },
   "search_280d00bd": { "message": "Search" },
-  "search_term_b2d2235": { "message": "Search Term" },
+  "search_term_b2d2235": { "message": "Search Programme" },
   "select_crop_shape_d441feeb": { "message": "Select crop shape" },
   "select_language_7c93a900": { "message": "Select Language" },
   "selected_274ce24f": { "message": "Selected" },

@@ -306,7 +306,7 @@
         </div>
       <% end %>
       <div class="form-row">
-        <div class="form-label"><%= f.blabel :enrollment_term_id, :en => "Term" %></div>
+        <div class="form-label"><%= f.blabel :enrollment_term_id, :en => "Programme" %></div>
         <div>
           <% if can_manage && can_do(@context.account, @current_user, :manage_courses, :manage_courses_admin) %>
             <select name="course[enrollment_term_id]" id="course_enrollment_term_id">

@@ -49,7 +49,7 @@ QUnit.module('EnrollmentTermInput', {
           workflowState: 'active',
           gradingPeriodGroupId: '62',
           sisTermId: null,
-          displayName: 'Term created Oct 27, 2015'
+          displayName: 'Programme created Oct 27, 2015'
         },
         {
           id: '5',
@@ -60,7 +60,7 @@ QUnit.module('EnrollmentTermInput', {
           workflowState: 'active',
           gradingPeriodGroupId: '64',
           sisTermId: null,
-          displayName: 'Term starting Jun 6, 2016'
+          displayName: 'Programme starting Jun 6, 2016'
         }
       ],
       selectedIDs: ['2'],
@@ -86,12 +86,12 @@ test("displays 'No unassigned terms' if there are no selectable terms", function
 test('selectedEnrollmentTerms uses the enrollment term display name', function() {
   const enrollmentTermInput = this.renderComponent()
   const termNames = _.pluck(enrollmentTermInput.selectedEnrollmentTerms(), 'name')
-  propEqual(termNames, ['Term created Oct 27, 2015'])
+  propEqual(termNames, ['Programme created Oct 27, 2015'])
 })
 
 test('selectableOptions uses the enrollment term display name', function() {
   const enrollmentTermInput = this.renderComponent()
   const options = enrollmentTermInput.selectableOptions('active')
   const termNames = _.map(options, option => option.props.children)
-  propEqual(termNames, ['Term starting Jun 6, 2016'])
+  propEqual(termNames, ['Programme starting Jun 6, 2016'])
 })

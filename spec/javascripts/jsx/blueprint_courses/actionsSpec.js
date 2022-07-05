@@ -312,7 +312,7 @@ test('loadAssociations dispatches LOAD_ASSOCIATIONS_SUCCESS if API returns succe
   const getState = () => ({})
   const dispatchSpy = sinon.spy()
 
-  mockSuccess('getAssociations', {data: [{foo: 'bar', term_name: 'Foo Term'}]})
+  mockSuccess('getAssociations', {data: [{foo: 'bar', term_name: 'Foo Programme'}]})
   actions.loadAssociations()(dispatchSpy, getState)
 
   setTimeout(() => {
@@ -320,7 +320,7 @@ test('loadAssociations dispatches LOAD_ASSOCIATIONS_SUCCESS if API returns succe
     deepEqual(dispatchSpy.secondCall.args, [
       {
         type: 'LOAD_ASSOCIATIONS_SUCCESS',
-        payload: [{foo: 'bar', term: {id: '0', name: 'Foo Term'}}]
+        payload: [{foo: 'bar', term: {id: '0', name: 'Foo Programme'}}]
       }
     ])
     done()
@@ -361,7 +361,7 @@ test('saveAssociations dispatches SAVE_ASSOCIATIONS_SUCCESS if API returns succe
   const getState = () => ({addedAssociations: ['2'], removedAssociations: ['1']})
   const dispatchSpy = sinon.spy()
 
-  mockSuccess('saveAssociations', {data: [{foo: 'bar', term_name: 'Foo Term'}]})
+  mockSuccess('saveAssociations', {data: [{foo: 'bar', term_name: 'Foo Programme'}]})
   actions.saveAssociations()(dispatchSpy, getState)
 
   setTimeout(() => {
@@ -378,7 +378,7 @@ test('saveAssociations dispatches NOTIFY_INFO if API returns successfully', asse
   const getState = () => ({addedAssociations: ['2'], removedAssociations: ['1']})
   const dispatchSpy = sinon.spy()
 
-  mockSuccess('saveAssociations', {data: [{foo: 'bar', term_name: 'Foo Term'}]})
+  mockSuccess('saveAssociations', {data: [{foo: 'bar', term_name: 'Foo Programme'}]})
   actions.saveAssociations()(dispatchSpy, getState)
 
   setTimeout(() => {
@@ -394,7 +394,7 @@ test('saveAssociations calls beginMigration if API returns successfully and ther
   const dispatchSpy = sinon.spy()
   const beginMigrationSpy = sinon.spy(actions, 'beginMigration')
 
-  mockSuccess('saveAssociations', {data: [{foo: 'bar', term_name: 'Foo Term'}]})
+  mockSuccess('saveAssociations', {data: [{foo: 'bar', term_name: 'Foo Programme'}]})
   actions.saveAssociations()(dispatchSpy, getState)
 
   setTimeout(() => {
@@ -411,7 +411,7 @@ test('saveAssociations does not call beginMigration if API returns successfully 
   const dispatchSpy = sinon.spy()
   const beginMigrationSpy = sinon.spy(actions, 'beginMigration')
 
-  mockSuccess('saveAssociations', {data: [{foo: 'bar', term_name: 'Foo Term'}]})
+  mockSuccess('saveAssociations', {data: [{foo: 'bar', term_name: 'Foo Programme'}]})
   actions.saveAssociations()(dispatchSpy, getState)
 
   setTimeout(() => {

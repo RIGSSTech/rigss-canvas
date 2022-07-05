@@ -67,7 +67,7 @@ class TermsOfService < ActiveRecord::Base
     [
       [t("Default"), "default"],
       [t("Custom"), "custom"],
-      [t("No Terms"), "no_terms"]
+      [t("No Programmes"), "no_terms"]
     ]
   end
 

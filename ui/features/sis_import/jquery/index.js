@@ -95,7 +95,7 @@ $(document).ready(function(event) {
     output +=
       '<li>' +
       htmlEscape(
-        I18n.t('import_counts.terms', 'Terms: %{term_count}', {term_count: batch.data.counts.terms})
+        I18n.t('import_counts.terms', 'Programmes: %{term_count}', {term_count: batch.data.counts.terms})
       ) +
       '</li>'
     output +=

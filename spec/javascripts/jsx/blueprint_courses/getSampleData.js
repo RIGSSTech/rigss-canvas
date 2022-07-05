@@ -19,8 +19,8 @@
 export default function getSampleData() {
   return {
     terms: [
-      {id: '1', name: 'Term One'},
-      {id: '2', name: 'Term Two'}
+      {id: '1', name: 'Programme One'},
+      {id: '2', name: 'Programme Two'}
     ],
     subAccounts: [
       {id: '1', name: 'Account One'},
@@ -43,7 +43,7 @@ export default function getSampleData() {
         course_code: 'course_1',
         term: {
           id: '1',
-          name: 'Term One'
+          name: 'Programme One'
         },
         teachers: [
           {
@@ -58,7 +58,7 @@ export default function getSampleData() {
         course_code: 'course_2',
         term: {
           id: '2',
-          name: 'Term Two'
+          name: 'Programme Two'
         },
         teachers: [
           {
@@ -88,19 +88,19 @@ export default function getSampleData() {
                 course_id: '1',
                 conflicting_changes: ['points'],
                 name: 'Course 1',
-                term: {name: 'Default Term'}
+                term: {name: 'Default Programme'}
               },
               {
                 course_id: '5',
                 conflicting_changes: ['content'],
                 name: 'Course 5',
-                term: {name: 'Default Term'}
+                term: {name: 'Default Programme'}
               },
               {
                 course_id: '56',
                 conflicting_changes: ['deleted'],
                 name: 'Course 56',
-                term: {name: 'Default Term'}
+                term: {name: 'Default Programme'}
               }
             ]
           }

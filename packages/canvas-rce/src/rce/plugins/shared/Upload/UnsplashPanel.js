@@ -184,7 +184,7 @@ export default function UnsplashPanel({source, setUnsplashData, brandColor, live
       <UnsplashSVG width="10em" />
       <TextInput
         type="search"
-        renderLabel={formatMessage('Search Term')}
+        renderLabel={formatMessage('Search Programme')}
         value={term}
         onChange={(e, val) => {
           setFocusedImageIndex(0)

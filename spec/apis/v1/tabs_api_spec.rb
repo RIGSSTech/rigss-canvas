@@ -399,7 +399,7 @@ describe TabsController, type: :request do
           "id" => "terms",
           "html_url" => "/accounts/#{@account.id}/terms",
           "full_url" => "#{HostUrl.protocol}://#{HostUrl.context_host(@account)}/accounts/#{@account.id}/terms",
-          "label" => "Terms",
+          "label" => "Programmes",
           "position" => 10,
           "visibility" => "public",
           "type" => "internal"

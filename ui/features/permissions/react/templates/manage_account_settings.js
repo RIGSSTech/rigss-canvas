@@ -40,7 +40,7 @@ export const template = generateActionTemplates(
       description: I18n.t('Allows user to view and manage subaccounts for the account.')
     },
     {
-      title: I18n.t('Terms'),
+      title: I18n.t('Programmes'),
       description: I18n.t('Allows user to view and manage terms for the account.')
     },
     {

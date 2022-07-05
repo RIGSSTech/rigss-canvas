@@ -343,7 +343,7 @@ describe "dashboard" do
     end
 
     it "validates the functionality of soft concluded courses on courses page", priority: "1" do
-      term = EnrollmentTerm.new(name: "Super Term", start_at: 1.month.ago, end_at: 1.week.ago)
+      term = EnrollmentTerm.new(name: "Super Programme", start_at: 1.month.ago, end_at: 1.week.ago)
       term.root_account_id = @course.root_account_id
       term.save!
       c1 = @course
@@ -373,7 +373,7 @@ describe "dashboard" do
 
     context "restricted future courses" do
       before :once do
-        term = EnrollmentTerm.new(name: "Super Term", start_at: 1.week.from_now, end_at: 1.month.from_now)
+        term = EnrollmentTerm.new(name: "Super Programme", start_at: 1.week.from_now, end_at: 1.month.from_now)
         term.root_account_id = Account.default.id
         term.save!
         course_with_student(active_all: true)

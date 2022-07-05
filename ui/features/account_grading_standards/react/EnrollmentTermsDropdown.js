@@ -41,7 +41,7 @@ class EnrollmentTermsDropdown extends React.Component {
   termOptions = terms => {
     const allTermsOption = (
       <option key={0} value={0}>
-        {I18n.t('All Terms')}
+        {I18n.t('All Programmes')}
       </option>
     )
     const options = _.map(this.sortedTerms(terms), term => (
@@ -60,7 +60,7 @@ class EnrollmentTermsDropdown extends React.Component {
         className="EnrollmentTerms__dropdown ic-Input"
         name="enrollment_term"
         data-view="termSelect"
-        aria-label="Enrollment Term"
+        aria-label="Enrollment Programme"
         ref="termsDropdown"
         onChange={this.props.changeSelectedEnrollmentTerm}
       >

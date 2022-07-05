@@ -51,7 +51,7 @@ it('renders correct number of permission details when given list of permissions'
       description: 'Allows user to view and manage subaccounts for the root account.'
     },
     {
-      title: 'Terms:',
+      title: 'Programmes:',
       description: 'Allows user to view and manage terms for the root account.'
     },
     {

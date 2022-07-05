@@ -25783,11 +25783,11 @@ da:
   term_42976f1c: "Semester:"
   term_created_27d27c2b: "Semester oprettet "
   term_e1c1d390: Semester
-  term_id_2e802ed1: Term-id
+  term_id_2e802ed1: Programme-id
   term_id_74b933ef: semester-id
   term_name_30eb91a: semesternavn
   term_sis_7edb8ab7: semester-SIS
-  term_sis_bfe0ae01: "Term SIS"
+  term_sis_bfe0ae01: "Programme SIS"
   term_sis_id_4613e944: "semester SIS-ID"
   term_start_b8c2aad1: "semesterets start"
   term_starting_5bd5e070: "Semester starter "

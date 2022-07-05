@@ -29,7 +29,7 @@ QUnit.module('CourseFindSelectView: #setSourceCourseId', {
     this.courses = [
       {
         id: 5,
-        term: 'Default Term',
+        term: 'Default Programme',
         label: 'A',
         enrollment_start: null
       },

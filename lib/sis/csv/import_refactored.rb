@@ -30,7 +30,7 @@ module SIS
       IGNORE_FILES = /__macosx|desktop d[bf]|\A\..*/i.freeze
 
       # The order of this array is important:
-      #  * Account must be imported before Term and Course
+      #  * Account must be imported before Programme and Course
       #  * Course must be imported before Section
       #  * Course and Section must be imported before Xlist
       #  * Course, Section, and User must be imported before Enrollment
