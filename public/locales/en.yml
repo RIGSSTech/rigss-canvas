@@ -231,7 +231,7 @@ en:
   account:
     default_account_name: Default Account
     default_site_administrator_account_name: Site Admin
-    default_term_name: Default Term
+    default_term_name: Default Programme
     errors:
       invalid_discovery_url: The discovery URL is not valid
     feedback_coach: Ask the Community
@@ -259,7 +259,7 @@ en:
     tab_sis_import: SIS Import
     tab_statistics: Statistics
     tab_sub_accounts: Sub-Accounts
-    tab_terms: Terms
+    tab_terms: Programmes
   account_97b34646: Account
   account_account_b6b3746b: 'Account: %{account}'
   account_administrators_can_always_create_courses_926dc0cb: Account Administrators can always create courses
@@ -294,17 +294,17 @@ en:
   account_proficiency_ratings_saved_292d9239: Account proficiency ratings saved
   account_reports:
     default:
-      active_terms: Active Terms
-      all_terms: All Terms
+      active_terms: Active Programmes
+      all_terms: All Programmes
       course_text: 'For Course: %{course};'
       description:
         header: Example
       end_text: 'End At: %{end_at};'
-      extra_text_term: 'Term: %{term_name};'
+      extra_text_term: 'Programme: %{term_name};'
       message: "%{type} report successfully generated with the following settings. Account: %{account}; %{options}"
       section_text: 'For Section: %{section};'
       start_text: 'Start At: %{start_at};'
-      term_text: 'Term: %{term_name};'
+      term_text: 'Programme: %{term_name};'
     grades:
       limited: deleted objects limited by days specified;
     grading_standard_id: grading_standard_id
@@ -662,7 +662,7 @@ en:
       account_reports:
         default:
           parameters:
-            header: Term
+            header: Programme
     cannot_manage_account: You are not allowed to manage account settings
     cannot_manage_quotas: You are not allowed to manage quota settings
     ccp_zero_activity_csv_parameters:
@@ -775,7 +775,7 @@ en:
       account_reports:
         bryan_engagement:
           enrollment_term_ids:
-            field: Enrollment Term Ids
+            field: Enrollment Programme Ids
     eportfolio_moderation:
       eportfolio_moderation_crumb: Eportfolio Moderation
       page_title: Eportfolio Moderation
@@ -851,7 +851,7 @@ en:
       account_reports:
         default:
           parameters:
-            header: Term
+            header: Programme
     lti_report_csv_description:
       account_reports:
         default:
@@ -927,14 +927,14 @@ en:
               sections:
                 check_box: Sections CSV
               terms:
-                check_box: Terms CSV
+                check_box: Programmes CSV
               users:
                 check_box: Users CSV
               xlist:
                 check_box: X list CSV
             sis_default:
               parameters:
-                note: "*Term settings only impact Courses, Sections, Enrollments, and X list CSV files."
+                note: "*Programme settings only impact Courses, Sections, Enrollments, and X list CSV files."
     provisioning_csv_description:
       account_reports:
         sis_export:
@@ -960,14 +960,14 @@ en:
           sections:
             check_box: Sections CSV
           terms:
-            check_box: Terms CSV
+            check_box: Programmes CSV
           users:
             check_box: Users CSV
           xlist:
             check_box: X list CSV
         sis_default:
           parameters:
-            note: "*Term settings only impact Courses, Sections, Enrollments, and X list CSV files."
+            note: "*Programme settings only impact Courses, Sections, Enrollments, and X list CSV files."
     public_courses_csv_description:
       account_reports:
         default:
@@ -1218,7 +1218,7 @@ en:
       groups: Groups
       imported_items_title: Imported Items
       sections_label: Sections
-      terms_label: Terms
+      terms_label: Programmes
       users_label: Users
     sis_batch_messages:
       sis_batch_errors_title: Errors that prevent importing
@@ -1227,7 +1227,7 @@ en:
       account_reports:
         sis_export:
           description:
-            text: 'SIS Export report: This report will export all the needed files for Users, Accounts, Terms, Courses, Sections, Enrollments, Groups, Group Memberships, and Cross Listings for an SIS import in their respective categories. This will only return items created or modified through SIS.'
+            text: 'SIS Export report: This report will export all the needed files for Users, Accounts, Programmes, Courses, Sections, Enrollments, Groups, Group Memberships, and Cross Listings for an SIS import in their respective categories. This will only return items created or modified through SIS.'
     sis_export_csv_parameters:
       account_reports:
         default:
@@ -1245,14 +1245,14 @@ en:
           sections:
             check_box: Sections CSV
           terms:
-            check_box: Terms CSV
+            check_box: Programmes CSV
           users:
             check_box: Users CSV
           xlist:
             check_box: X list CSV
         sis_default:
           parameters:
-            note: "*Term settings only impact Courses, Sections, Enrollments, and X list CSV files."
+            note: "*Programme settings only impact Courses, Sections, Enrollments, and X list CSV files."
     sis_import:
       add_sis_stickiness_instructions: With this option selected, changes made through this SIS import will be processed as if they are UI changes, preventing subsequent non-overriding SIS imports from changing the fields changed here.
       add_sis_stickiness_label: Process as UI changes
@@ -1367,7 +1367,7 @@ en:
       account_reports:
         default:
           parameters:
-            header: Term
+            header: Programme
     test_ldap_dialog_title: Test LDAP Settings
     test_ldap_result_canceled: Canceled
     test_ldap_result_failed: Failed
@@ -1455,7 +1455,7 @@ en:
   active_directory_lookup_attribute_selector_d56a326f: Active Directory Lookup Attribute Selector
   active_enrollments_count_report_66bc3cae: Active Enrollments Count Report
   active_students_e4c48a06: Active Students
-  active_terms_83df727e: Active Terms
+  active_terms_83df727e: Active Programmes
   activerecord:
     errors:
       messages:
@@ -1552,7 +1552,7 @@ en:
   add_new_domain_e097d4a0: Add new domain
   add_new_group_7ac49f31: Add new group
   add_new_set_of_due_dates_e8e240f: Add new set of due dates
-  add_new_term_d2217c0d: Add New Term
+  add_new_term_d2217c0d: Add New Programme
   add_observers_to_courses_6f494a29: Add Observers to courses
   add_outcome_title_ce9dff87: Add outcome %{title}
   add_outcomes_36272787: Add Outcomes
@@ -1763,7 +1763,7 @@ en:
   all_subjects_5a42cfdb: All Subjects
   all_submission_comments_have_been_marked_as_read_74c0683b: All submission comments have been marked as read
   all_submissions_must_have_a_selected_grade_3a84e5a9: All submissions must have a selected grade.
-  all_terms_cd27b0fb: All Terms
+  all_terms_cd27b0fb: All Programmes
   all_timezones_5e8afa7b: All Timezones
   all_types_allowed_287eb6b0: All Types Allowed
   all_ungraded_artifacts_ec3ba09: All ungraded artifacts
@@ -2361,7 +2361,7 @@ en:
   answers_which_scored_in_the_top_27_a605232d: Answers which scored in the top 27%
   answers_will_be_shown_after_your_last_attempt_d9db6b1d: Answers will be shown after your last attempt
   any_sub_account_ec7069f2: Any Sub-Account
-  any_term_d49af19f: Any Term
+  any_term_d49af19f: Any Programme
   anyone_with_a_direct_link_private_b3bc9661: Anyone with a direct link (private)
   anyone_with_the_url_9d7e5e07: Anyone with the URL
   api_7bd66e19: API
@@ -5859,7 +5859,7 @@ en:
       created_at: Created At
       default_view: Default View
       default_wiki_editing_roles: Default Wiki Editing Roles
-      enrollment_term_id: Enrollment Term Id
+      enrollment_term_id: Enrollment Programme Id
       grading_standard_id: Grading Standard Id
       group_weighting_scheme: Group Weighting Scheme
       hide_distribution_graphs: Hide Distribution Graphs
@@ -6047,7 +6047,7 @@ en:
       content_label: Content
       course_code: Course Code
       details: Please enter the details for the new course.
-      enrollment_term_id: Term
+      enrollment_term_id: Programme
       headings:
         copy_course: Copy %{course}
       name: Name
@@ -6233,7 +6233,7 @@ en:
         custom_course_visibility: Customize
         default_due_time: Default due time
         enable_course_paces: Enable Course Pacing
-        enrollment_term_id: Term
+        enrollment_term_id: Programme
         enrollments_from_homeroom: Enrollments
         friendly_name: Friendly Name
         grading_scheme: Grading Scheme
@@ -6555,7 +6555,7 @@ en:
   current_score_74777363: current score
   current_slack_api_key_9eba6a5: 'Current Slack Api Key:'
   current_state_baac9c8: 'current state:'
-  current_terms_bcf31fb2: Current Terms
+  current_terms_bcf31fb2: Current Programmes
   current_theme_62e5e8cf: Current theme
   current_total_67bf5f72: 'Current Total:'
   current_volume_level_c55ab825: Current Volume Level
@@ -6882,7 +6882,7 @@ en:
   delete_selected_announcements_69e23710: Delete Selected Announcements
   delete_selected_pages_7bc50580: Delete selected pages
   delete_survey_56fddbbd: Delete Survey
-  delete_term_name_f707abc9: Delete Term %{name}
+  delete_term_name_f707abc9: Delete Programme %{name}
   delete_theme_918a7f24: Delete Theme?
   delete_theme_bdb70d25: Delete theme
   delete_themename_8c4223a3: Delete %{themeName}?
@@ -7562,7 +7562,7 @@ en:
   edit_status_612572db: Edit status
   edit_submission_status_from_speedgrader_5e1b1cd4: Edit Submission Status from Speedgrader
   edit_survey_b0d6890d: Edit Survey
-  edit_term_name_29a8a322: Edit Term %{name}
+  edit_term_name_29a8a322: Edit Programme %{name}
   edit_text_27d8aa3d: Edit %{text}
   edit_this_collaboration_393b1a9a: Edit this Collaboration
   edit_this_key_1ee53473: Edit this key
@@ -7732,8 +7732,8 @@ en:
       delete_default_term: Cannot delete the default term
       delete_term_with_courses: Cannot delete a term with active courses
       not_unique: SIS ID "%{sis_source_id}" is already in use
-  enrollment_term_7bfe840: Enrollment Term
-  enrollment_terms_8753ec11: Enrollment Terms
+  enrollment_term_7bfe840: Enrollment Programme
+  enrollment_terms_8753ec11: Enrollment Programmes
   enrollment_type_699c944: enrollment type
   enrollment_types_56c15a50: Enrollment Types
   enrollment_types_enrollment_types_742626ce: 'Enrollment types: %{enrollment_types}'
@@ -8625,7 +8625,7 @@ en:
   full_student_names_and_profile_pictures_will_be_hi_ddfba94e: 'Full: student names and profile pictures will be hidden'
   future_5416ea92: Future
   future_jobs_cf2964a1: Future jobs
-  future_terms_7fba2ae6: Future Terms
+  future_terms_7fba2ae6: Future Programmes
   galician_7e4508b5: Galician
   game_over_104baa: GAME OVER
   gathering_files_933551d9: Gathering Files...
@@ -13189,7 +13189,7 @@ en:
   no_artifacts_with_that_name_found_b8679f53: No artifacts with that name found
   no_assignment_group_assigned_8f1cdb9b: No Assignment Group Assigned
   no_assignment_name_adbb215b: No Assignment Name
-  no_associated_terms_13bacefc: No Associated Terms
+  no_associated_terms_13bacefc: No Associated Programmes
   no_attachments_found_for_the_following_ids_ids_49c9192f: 'No attachments found for the following ids: %{ids}'
   no_attributes_locked_611c5cc: no attributes locked
   no_blackout_dates_1297ec22: No blackout dates
@@ -13286,7 +13286,7 @@ en:
   no_such_target_context_21158b9: no such target context
   no_such_target_group_7e183d46: no such target group
   no_template_selected_f59e797: No Template Selected
-  no_terms_eab5ee7b: No Terms
+  no_terms_eab5ee7b: No Programmes
   no_tls_618add1a: No TLS
   no_unassigned_terms_deb7b76b: No unassigned terms
   no_usage_rights_object_supplied_304b8d40: No 'usage_rights' object supplied
@@ -14107,7 +14107,7 @@ en:
   pass_fail_3d9461b0: Pass/Fail
   password_8a271b1c: Password
   past_14da759a: Past
-  past_terms_4b6ec40e: Past Terms
+  past_terms_4b6ec40e: Past Programmes
   paste_google_meet_links_into_calendar_events_annou_2e363fc7: Paste Google Meet links into Calendar Events, Announcements, Discussions, and anywhere you use the Rich Content Editor (RCE)
   paste_json_26ad8050: Paste JSON
   paste_xml_cda3a64e: Paste XML
@@ -14444,8 +14444,8 @@ en:
         section_end_days_adjustment: Section end days adjustment
         section_name_selection: Section name selection
         section_start_days_adjustment: Section start days adjustment
-        term_end_days_adjustment: Term end days adjustment
-        term_start_days_adjustment: Term start days adjustment
+        term_end_days_adjustment: Programme end days adjustment
+        term_start_days_adjustment: Programme start days adjustment
     index:
       author: Author
       description: Description
@@ -17338,7 +17338,7 @@ en:
   select_sub_account_6704196a: Select Sub-Account
   select_submission_type_displayname_97e47bc2: Select submission type %{displayName}
   select_target_groups_type_or_use_arrow_keys_to_nav_aa648826: Select target groups. Type or use arrow keys to navigate. Multiple selections are allowed.
-  select_term_f8083fb0: Select Term
+  select_term_f8083fb0: Select Programme
   select_the_files_you_want_to_associate_or_add_file_741ad4fa: Select the files you want to associate, or add files by selecting "Create File(s)".
   select_the_files_you_want_to_associate_or_add_file_9acd7878: Select the files you want to associate, or add files by selecting "New File(s)".
   select_the_files_you_want_to_associate_with_this_m_82677c50: Select the files you want to associate with this *module*, or add files by selecting "New File(s)".
@@ -18096,7 +18096,7 @@ en:
       groups: 'Groups: %{group_count}'
       logins: 'Logins: %{login_count}'
       sections: 'Sections: %{section_count}'
-      terms: 'Terms: %{term_count}'
+      terms: 'Programmes: %{term_count}'
       user_observers: 'User Observers: %{user_observers_count}'
       users: 'Users: %{user_count}'
     messages:
@@ -18936,38 +18936,38 @@ en:
   tenant_name_e174f404: Tenant Name
   tenant_name_input_area_283dfcde: Tenant Name Input Area
   term_41f37cae: term
-  term_42976f1c: 'Term:'
-  term_created_27d27c2b: 'Term created '
-  term_e1c1d390: Term
-  term_id_2e802ed1: Term Id
+  term_42976f1c: 'Programme:'
+  term_created_27d27c2b: 'Programme created '
+  term_e1c1d390: Programme
+  term_id_2e802ed1: Programme Id
   term_id_74b933ef: term id
   term_name_30eb91a: term name
   term_sis_7edb8ab7: term sis
-  term_sis_bfe0ae01: Term Sis
+  term_sis_bfe0ae01: Programme Sis
   term_sis_id_4613e944: term sis id
   term_start_b8c2aad1: term start
-  term_starting_5bd5e070: 'Term starting '
+  term_starting_5bd5e070: 'Programme starting '
   terms:
     errors:
       not_unique: SIS ID "%{sis_source_id}" is already in use
     index:
-      add_term: Add Term
+      add_term: Add Programme
       date:
         term_end: term end
         unspecified: whenever
       messages:
         classes_in_term: You can't delete a term that still has classes in it.
         submitting: Submitting...
-      page_title: "%{account} Terms"
+      page_title: "%{account} Programmes"
       prompts:
         delete: Are you sure you want to delete this term?
       titles:
-        term_details: Term Details
-      update_term: Update Term
+        term_details: Programme Details
+      update_term: Update Programme
     term:
       buttons:
-        add: Add Term
-        update: Update Term
+        add: Add Programme
+        update: Update Programme
       course_count:
         one: 1 Course
         other: "%{count} Courses"
@@ -18978,12 +18978,12 @@ en:
         students_can_access_from: "**Students** can access from"
         tas_can_access_from: "**TAs** can access from"
         teachers_can_access_from: "**Teachers** can access from"
-      name: 'Term Name:'
+      name: 'Programme Name:'
       sis_source_id: 'SIS ID:'
-      term_runs_from: "**Term Runs** from"
+      term_runs_from: "**Programme Runs** from"
       titles:
-        term_ends: Term ends
-        term_starts: Term starts
+        term_ends: Programme ends
+        term_starts: Programme starts
       tooltips:
         term_ends_designers: For designers the term ends
         term_ends_students: For students the term ends
@@ -18999,9 +18999,9 @@ en:
         term_start: term start
         unspecified: whenever
       timespan: "%{start_at} *to* %{end_at}"
-  terms_35d91184: 'Terms: '
-  terms_4d979628: Terms
-  terms_not_found_terms_must_be_included_with_multi__ca2e5c25: Terms not found. Terms must be included with multi_term_batch_mode
+  terms_35d91184: 'Programmes: '
+  terms_4d979628: Programmes
+  terms_not_found_terms_must_be_included_with_multi__ca2e5c25: Programmes not found. Programmes must be included with multi_term_batch_mode
   terms_of_service_attributes_not_valid_f3f9fca9: Terms of Service attributes not valid
   test_cluster_only_70e61c19: Test Cluster Only
   testing_state_effd4a82: Testing state

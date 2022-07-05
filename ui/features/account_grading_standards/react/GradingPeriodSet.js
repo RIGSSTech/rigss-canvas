@@ -191,9 +191,9 @@ export default class GradingPeriodSet extends React.Component {
   termNames = () => {
     const names = _.map(this.setTerms(), 'displayName')
     if (names.length > 0) {
-      return I18n.t('Terms: ') + names.join(', ')
+      return I18n.t('Programmes: ') + names.join(', ')
     } else {
-      return I18n.t('No Associated Terms')
+      return I18n.t('No Associated Programmes')
     }
   }
 

@@ -39,7 +39,7 @@ describe('Account Course User Search CoursesList Sorting', () => {
           }
         ],
         term: {
-          name: 'A Term'
+          name: 'A Programme'
         }
       },
       {
@@ -56,7 +56,7 @@ describe('Account Course User Search CoursesList Sorting', () => {
           }
         ],
         term: {
-          name: 'Ba Term'
+          name: 'Ba Programme'
         }
       },
       {
@@ -73,7 +73,7 @@ describe('Account Course User Search CoursesList Sorting', () => {
           }
         ],
         term: {
-          name: 'Bb Term'
+          name: 'Bb Programme'
         }
       },
       {
@@ -90,7 +90,7 @@ describe('Account Course User Search CoursesList Sorting', () => {
           }
         ],
         term: {
-          name: 'C Term'
+          name: 'C Programme'
         }
       },
       {
@@ -107,7 +107,7 @@ describe('Account Course User Search CoursesList Sorting', () => {
           }
         ],
         term: {
-          name: 'De Term'
+          name: 'De Programme'
         }
       },
       {
@@ -124,7 +124,7 @@ describe('Account Course User Search CoursesList Sorting', () => {
           }
         ],
         term: {
-          name: 'Dz Term'
+          name: 'Dz Programme'
         }
       }
     ],
@@ -260,16 +260,16 @@ describe('Account Course User Search CoursesList Sorting', () => {
     expect(nodes[5].props.id).toBe('6')
   })
 
-  test('displays Terms in right order', () => {
+  test('displays Programmes in right order', () => {
     const nodes = shallow(<CoursesList {...coursesProps} />)
       .find(CoursesListRow)
       .getElements()
 
-    expect(nodes[0].props.term.name).toBe('A Term')
-    expect(nodes[1].props.term.name).toBe('Ba Term')
-    expect(nodes[2].props.term.name).toBe('Bb Term')
-    expect(nodes[3].props.term.name).toBe('C Term')
-    expect(nodes[4].props.term.name).toBe('De Term')
-    expect(nodes[5].props.term.name).toBe('Dz Term')
+    expect(nodes[0].props.term.name).toBe('A Programme')
+    expect(nodes[1].props.term.name).toBe('Ba Programme')
+    expect(nodes[2].props.term.name).toBe('Bb Programme')
+    expect(nodes[3].props.term.name).toBe('C Programme')
+    expect(nodes[4].props.term.name).toBe('De Programme')
+    expect(nodes[5].props.term.name).toBe('Dz Programme')
   })
 })

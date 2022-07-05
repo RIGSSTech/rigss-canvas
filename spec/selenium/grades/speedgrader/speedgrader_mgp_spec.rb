@@ -28,7 +28,7 @@ describe "speedgrader with grading periods" do
 
   context "with close and end dates" do
     before do
-      term_name = "First Term"
+      term_name = "First Programme"
       create_grading_periods(term_name)
       add_teacher_and_student
       associate_course_to_term(term_name)

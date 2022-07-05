@@ -165,7 +165,7 @@ module GraphQLNodeLoader
       end
     when "Rubric"
       Loaders::IDLoader.for(Rubric).load(id).then(check_read_permission)
-    when "Term"
+    when "Programme"
       Loaders::IDLoader.for(EnrollmentTerm).load(id).then do |enrollment_term|
         Loaders::AssociationLoader.for(EnrollmentTerm, :root_account).load(enrollment_term).then do
           next nil unless enrollment_term.root_account.grants_right?(ctx[:current_user], :read)

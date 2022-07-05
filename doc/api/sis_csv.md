@@ -48,7 +48,7 @@ The change_threshold can be set to any integer between 1 and 100.
 
 change_threshold also impacts diffing mode.
 
-Multi Term Batch Mode
+Multi Programme Batch Mode
 ---------------------
 
 Multi term batch mode is just like batch mode except against multiple terms.

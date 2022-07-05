@@ -31,7 +31,7 @@ describe "Gradebook with grading periods" do
     now = Time.zone.now
 
     before(:once) do
-      term_name = "First Term"
+      term_name = "First Programme"
       create_grading_periods(term_name, now)
       add_teacher_and_student
       associate_course_to_term(term_name)

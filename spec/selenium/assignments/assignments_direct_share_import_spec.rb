@@ -52,7 +52,7 @@ describe "assignments" do
     @item_after = @module1.add_item type: "assignment", id: @course1.assignments.create!(title: "assignment AFTER this one").id
     @module2 = @course2.context_modules.create!(name: "My Module2")
     # Third course has already concluded, but should still show up in Direct Share
-    @term = EnrollmentTerm.new(name: "Term Over", start_at: 1.month.ago, end_at: 1.week.ago)
+    @term = EnrollmentTerm.new(name: "Programme Over", start_at: 1.month.ago, end_at: 1.week.ago)
     @term.root_account_id = Account.default.id
     @term.save!
     @course3 = Course.create!(name: "Third Course3", start_at: 1.month.ago, conclude_at: 1.week.ago, enrollment_term: @term)

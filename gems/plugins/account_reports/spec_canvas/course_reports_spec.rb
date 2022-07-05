@@ -184,7 +184,7 @@ describe "Course Account Reports" do
         body: "wiki page content"
       )
       report = run_report(@type)
-      expect(report.parameters["extra_text"]).to eq "Term: All Terms;"
+      expect(report.parameters["extra_text"]).to eq "Programme: All Programmes;"
       parsed = parse_report(report)
       expect(parsed.length).to eq 0
     end

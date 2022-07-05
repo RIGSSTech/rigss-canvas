@@ -257,7 +257,7 @@ var Docs = {
             var buffer = "", stack1;
             buffer += "<div class=\"info_tos\"><a href=\""
                 + escapeExpression(((stack1 = ((stack1 = depth0.info),stack1 == null || stack1 === false ? stack1 : stack1.termsOfServiceUrl)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-                + "\">Terms of service</a></div>";
+                + "\">Programmes of service</a></div>";
             return buffer;
         }
 

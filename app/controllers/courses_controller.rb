@@ -25,9 +25,9 @@ require "securerandom"
 # @API Courses
 # API for accessing course information.
 #
-# @model Term
+# @model Programme
 #     {
-#       "id": "Term",
+#       "id": "",
 #       "description": "",
 #       "properties": {
 #         "id": {
@@ -35,7 +35,7 @@ require "securerandom"
 #           "type": "integer"
 #         },
 #         "name": {
-#           "example": "Default Term",
+#           "example": "Default Programme",
 #           "type": "string"
 #         },
 #         "start_at": {
@@ -222,7 +222,7 @@ require "securerandom"
 #         },
 #         "term": {
 #           "description": "optional: the enrollment term object for the course returned only if include[]=term",
-#           "$ref": "Term"
+#           "$ref": "Programme"
 #         },
 #         "course_progress": {
 #           "description": "optional: information on progress through the course returned only if include[]=course_progress",
@@ -851,7 +851,7 @@ class CoursesController < ApplicationController
                      :conclude_at
                    end
 
-      # If Term enrollment is specified, don't allow setting enrollment dates
+      # If Programme enrollment is specified, don't allow setting enrollment dates
       params_for_create = params_for_create.except(:start_at, :conclude_at) unless value_to_boolean(params_for_create[:restrict_enrollments_to_course_dates])
 
       unless @account.grants_right? @current_user, session, :manage_storage_quotas

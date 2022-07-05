@@ -104,7 +104,7 @@ end
 shared_context "no grading periods or assignment weighting" do
   before do
     # C3058162
-    associate_course_to_term("Default Term")
+    associate_course_to_term("Default Programme")
     # assignment weighting: 'percent' is on, 'points' is off
     @course.update(group_weighting_scheme: "points")
 
@@ -115,7 +115,7 @@ end
 shared_context "assignment weighting and no grading periods" do
   before do
     # C3058163
-    associate_course_to_term("Default Term")
+    associate_course_to_term("Default Programme")
     # assignment weighting: 'percent' is on, 'points' is off
     @course.update(group_weighting_scheme: "percent")
 

@@ -182,7 +182,7 @@ describe "new account course search" do
   end
 
   it "creates a new course from the 'Add a New Course' dialog", priority: 1 do
-    @account.enrollment_terms.create!(name: "Test Enrollment Term")
+    @account.enrollment_terms.create!(name: "Test Enrollment Programme")
     subaccount = @account.sub_accounts.create!(name: "Test Sub Account")
 
     visit_courses(@account)
@@ -193,7 +193,7 @@ describe "new account course search" do
     enter_course_name("Test Course Name")
     enter_reference_code("TCN 101")
     select_subaccount(subaccount)
-    select_enrollment_term("Test Enrollment Term")
+    select_enrollment_term("Test Enrollment Programme")
     submit_new_course
 
     # make sure it got saved to db correctly
@@ -202,7 +202,7 @@ describe "new account course search" do
     expect(new_course.name).to eq("Test Course Name")
     expect(new_course.course_code).to eq("TCN 101")
     expect(new_course.account.name).to eq("Test Sub Account")
-    expect(new_course.enrollment_term.name).to eq("Test Enrollment Term")
+    expect(new_course.enrollment_term.name).to eq("Test Enrollment Programme")
 
     # make sure it shows up on the page
     expect(rows.first).to include_text("Test Course Name")

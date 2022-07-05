@@ -31,7 +31,7 @@ module GradingStandards
     end
 
     def term_dropdown
-      f('select[aria-label="Enrollment Term"]')
+      f('select[aria-label="Enrollment Programme"]')
     end
 
     def search_box

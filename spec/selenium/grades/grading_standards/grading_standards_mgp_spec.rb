@@ -34,14 +34,14 @@ describe "grading periods account page" do
 
     it "adds grading period set", priority: "1" do
       grading_standards_page.visit(Account.default.id)
-      grading_standards_page.add_grading_period_set(name: "Set Name!", term: "Default Term")
+      grading_standards_page.add_grading_period_set(name: "Set Name!", term: "Default Programme")
       expect(grading_standards_page.grading_period_set_displayed?("Set Name!")).to eq(true)
       expect(grading_standards_page.add_grading_period_link_displayed?).to eq(true)
     end
 
     it "enable wieghted grading on grading period set", priority: "1" do
       grading_standards_page.visit(Account.default.id)
-      grading_standards_page.add_grading_period_set(name: "Set Name!", term: "Default Term", weighted: true)
+      grading_standards_page.add_grading_period_set(name: "Set Name!", term: "Default Programme", weighted: true)
       expect(grading_standards_page.weight_field_in_grading_period?).to eq(true)
     end
 
@@ -103,8 +103,8 @@ describe "grading periods account page" do
     context "with populated data" do
       group_name_1 = "Group 1"
       group_name_2 = "Group 2"
-      term_name_1 = "First Term"
-      term_name_2 = "Second Term"
+      term_name_1 = "First Programme"
+      term_name_2 = "Second Programme"
       period_name_1 = "A Grading Period"
       period_name_2 = "Another Grading Period"
 
@@ -126,7 +126,7 @@ describe "grading periods account page" do
         expect(grading_standards_page.grading_period_set_displayed?(group_name_2)).to eq(true)
         expect(grading_standards_page.grading_period_set_displayed?(group_name_1)).to eq(false)
 
-        grading_standards_page.select_term_filter("All Terms")
+        grading_standards_page.select_term_filter("All Programmes")
         expect(grading_standards_page.grading_period_set_displayed?(group_name_1)).to eq(true)
         expect(grading_standards_page.grading_period_set_displayed?(group_name_2)).to eq(true)
       end

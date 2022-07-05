@@ -26,7 +26,7 @@ describe "account admin terms" do
     term_div.find_element(:css, action_link_css).click
   end
 
-  def validate_term_display(term_div_index = 0, title = "Default Term", course_count = 1)
+  def validate_term_display(term_div_index = 0, title = "Default Programme", course_count = 1)
     term_header = ff(".term .header")[term_div_index]
     expect(term_header).to include_text(title)
     expect(term_header).to include_text("#{course_count} Course")
@@ -70,7 +70,7 @@ describe "account admin terms" do
 
   context "not default term" do
     it "adds a new term" do
-      new_term_name = "New Term"
+      new_term_name = "New Programme"
       get "/accounts/#{Account.default.id}/terms"
 
       expect do

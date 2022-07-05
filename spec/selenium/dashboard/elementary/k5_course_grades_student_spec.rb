@@ -126,8 +126,8 @@ describe "student k5 course grades tab" do
   context "grading periods" do
     before :once do
       @course = @subject_course
-      create_grading_periods("Fall Term")
-      associate_course_to_term("Fall Term")
+      create_grading_periods("Fall Programme")
+      associate_course_to_term("Fall Programme")
       @assignment = create_and_submit_assignment(@subject_course, "new assignment", "assignment submitted", 100)
       @assignment.grade_student(@student, grader: @homeroom_teacher, score: "90", points_deducted: 0)
     end

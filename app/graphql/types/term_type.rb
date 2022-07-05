@@ -22,7 +22,7 @@ module Types
   class TermType < ApplicationObjectType
     implements GraphQL::Types::Relay::Node
     implements Interfaces::LegacyIDInterface
-    graphql_name "Term"
+    graphql_name "Programme"
 
     alias_method :term, :object
 

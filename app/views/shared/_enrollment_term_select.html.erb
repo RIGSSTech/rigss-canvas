@@ -27,27 +27,27 @@
 <% id ||= 'enrollment_term_id' %>
 <select id="<%= id %>" name="<%= name %>">
   <% unless exclude_all_option %>
-    <option value="" <%= 'selected' unless selected_id %>><%= t("All Terms") %></option>
+    <option value="" <%= 'selected' unless selected_id %>><%= t("All Programmes") %></option>
   <% end %>
   <% if default_term %>
     <option value="<%= default_term.id %>" <%= 'selected' if default_term.id == selected_id %>><%= default_term.name %></option>
   <% end %>
   <% if active_terms.any? %>
-    <optgroup label="<%= t("Active Terms") %>">
+    <optgroup label="<%= t("Active Programmes") %>">
       <% active_terms.each do |term| %>
         <option value="<%= term.id %>" <%= 'selected' if term.id == selected_id %>><%= term.name %></option>
       <% end %>
     </optgroup>
   <% end %>
   <% if future_terms.any? %>
-    <optgroup label="<%= t("Future Terms") %>">
+    <optgroup label="<%= t("Future Programmes") %>">
       <% future_terms.each do |term| %>
         <option value="<%= term.id %>" <%= 'selected' if term.id == selected_id %>><%= term.name %></option>
       <% end %>
     </optgroup>
   <% end %>
   <% if past_terms.any? %>
-    <optgroup label="<%= t("Past Terms") %>">
+    <optgroup label="<%= t("Past Programmes") %>">
       <% past_terms.each do |term| %>
         <option value="<%= term.id %>" <%= 'selected' if term.id == selected_id %>><%= term.name %></option>
       <% end %>

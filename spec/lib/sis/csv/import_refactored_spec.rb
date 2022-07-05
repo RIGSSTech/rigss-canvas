@@ -123,9 +123,9 @@ describe SIS::CSV::ImportRefactored do
     )
     process_csv_data_cleanly(
       "term_id,name,status,start_date,end_date",
-      "T001,Term 1,active,,",
-      "T002,Term 2,active,,",
-      "T003,Term 3,active,,"
+      "T001,Programme 1,active,,",
+      "T002,Programme 2,active,,",
+      "T003,Programme 3,active,,"
     )
     process_csv_data_cleanly(
       "course_id,short_name,long_name,account_id,term_id,status",
@@ -467,7 +467,7 @@ describe SIS::CSV::ImportRefactored do
       opts = { batch: batch }
       sis_importer = SIS::CSV::ImportRefactored.new(root_account, opts)
       attachment = attachment_model
-      parallel_importer = ParallelImporter.new(sis_batch: batch, index: 0, batch_size: 25, importer_type: "Term", attachment_id: attachment)
+      parallel_importer = ParallelImporter.new(sis_batch: batch, index: 0, batch_size: 25, importer_type: "Programme", attachment_id: attachment)
       allow(parallel_importer).to receive(:attachment).and_return(fake_attachment)
       importer_object = SIS::CSV::TermImporter.new(sis_importer)
       sis_importer.try_importing_segment(nil, parallel_importer, importer_object, skip_progress: true)

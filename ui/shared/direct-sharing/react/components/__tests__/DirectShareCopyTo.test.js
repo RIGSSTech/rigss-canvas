@@ -30,7 +30,7 @@ const userManagedCoursesList = [
   {
     name: 'Course Math 101',
     id: '234',
-    term: 'Default Term',
+    term: 'Default Programme',
     enrollment_start: null,
     account_name: 'QA-LOCAL-QA',
     account_id: '1',
@@ -40,7 +40,7 @@ const userManagedCoursesList = [
   {
     name: 'Course Advanced Math 200',
     id: '123',
-    term: 'Default Term',
+    term: 'Default Programme',
     enrollment_start: null,
     account_name: 'QA-LOCAL-QA',
     account_id: '1',

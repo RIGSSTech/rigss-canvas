@@ -55,8 +55,8 @@ describe "Gradebook Controls" do
 
   context "using View dropdown" do
     it "shows Grading Period dropdown", priority: "1" do
-      create_grading_periods("Fall Term")
-      associate_course_to_term("Fall Term")
+      create_grading_periods("Fall Programme")
+      associate_course_to_term("Fall Programme")
 
       Gradebook.visit(@course)
       Gradebook.select_view_dropdown

@@ -62,7 +62,7 @@ QUnit.module('EnrollmentTermsDropdown', {
         endAt: new Date('2013-10-21T02:57:53.000Z'),
         createdAt: new Date('2013-08-22T16:51:41.000Z'),
         gradingPeriodGroupId: '2',
-        displayName: 'Term starting Sep 3, 2013'
+        displayName: 'Programme starting Sep 3, 2013'
       },
       {
         id: '7',
@@ -71,7 +71,7 @@ QUnit.module('EnrollmentTermsDropdown', {
         endAt: null,
         createdAt: new Date('2013-08-23T16:51:41.000Z'),
         gradingPeriodGroupId: '2',
-        displayName: 'Term created Aug 23, 2013'
+        displayName: 'Programme created Aug 23, 2013'
       }
     ]
   },

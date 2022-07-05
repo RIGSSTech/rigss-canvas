@@ -324,7 +324,7 @@ describe "Student reports" do
 
     it "runs the zero activity report with no params" do
       report = run_report
-      expect(report.parameters["extra_text"]).to eq "Term: All Terms;"
+      expect(report.parameters["extra_text"]).to eq "Programme: All Programmes;"
       parsed = parse_report(report, { order: 1 })
 
       expect(parsed).to eq_stringified_array [
@@ -475,7 +475,7 @@ describe "Student reports" do
       param["enrollment_term"] = term1.id
 
       report = run_report(@type, { params: param })
-      expect(report.parameters["extra_text"]).to eq "Term: Fall;"
+      expect(report.parameters["extra_text"]).to eq "Programme: Fall;"
       parsed = parse_report(report, { order: 1 })
       expect(parsed).to eq_stringified_array [
         [@user1.id, "secondSIS", "Clair, John St.", @last_login_time.iso8601, p1b.current_login_ip],

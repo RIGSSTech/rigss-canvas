@@ -39,7 +39,7 @@ module ConversationsCommon
   def conversation_setup
     course_with_teacher_logged_in
 
-    term = EnrollmentTerm.new name: "Super Term"
+    term = EnrollmentTerm.new name: "Super Programme"
     term.root_account_id = @course.root_account_id
     term.save!
 

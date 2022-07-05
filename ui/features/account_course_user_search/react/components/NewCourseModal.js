@@ -139,7 +139,7 @@ export default function NewCourseModal({terms, children}) {
 
             <SearchableSelect
               id="termSelector"
-              label={I18n.t('Enrollment Term')}
+              label={I18n.t('Enrollment Programme')}
               isLoading={terms.loading}
               onChange={onChange('enrollment_term_id')}
             >

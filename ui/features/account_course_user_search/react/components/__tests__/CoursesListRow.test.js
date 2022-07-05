@@ -35,7 +35,7 @@ const props = {
     }
   ],
   term: {
-    name: 'A Term'
+    name: 'A Programme'
   },
   workflow_state: 'alive',
   concluded: false

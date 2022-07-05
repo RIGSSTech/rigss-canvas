@@ -272,7 +272,7 @@ describe "Outcome Reports" do
 
       it "includes deleted enrollments when include_deleted is set" do
         report_record = run_report(report_type, account: @root_account, params: { "include_deleted" => true })
-        expect(report_record.parameters["extra_text"]).to eq "Term: All Terms; Include Deleted Objects;"
+        expect(report_record.parameters["extra_text"]).to eq "Programme: All Programmes; Include Deleted Objects;"
 
         report = parse_report(report_record, order: order, parse_header: true)
         verify_all(report, all_values)

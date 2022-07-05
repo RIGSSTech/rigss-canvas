@@ -19,7 +19,7 @@
 #
 
 class EnrollmentTerm < ActiveRecord::Base
-  DEFAULT_TERM_NAME = "Default Term"
+  DEFAULT_TERM_NAME = "Default Programme"
 
   include Workflow
 
@@ -90,7 +90,7 @@ class EnrollmentTerm < ActiveRecord::Base
   end
 
   def self.i18n_default_term_name
-    t "#account.default_term_name", "Default Term"
+    t "#account.default_term_name", "Default Programme"
   end
 
   def recompute_course_scores_later(update_all_grading_period_scores: true, strand_identifier: "EnrollmentTerm:#{global_id}")

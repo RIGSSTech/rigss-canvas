@@ -43,10 +43,10 @@ const presentEnrollmentTerms = function (enrollmentTerms) {
       newTerm.displayName = newTerm.name
     } else if (_.isDate(newTerm.startAt)) {
       const started = DateHelper.formatDateForDisplay(newTerm.startAt)
-      newTerm.displayName = I18n.t('Term starting ') + started
+      newTerm.displayName = I18n.t('Programme starting ') + started
     } else {
       const created = DateHelper.formatDateForDisplay(newTerm.createdAt)
-      newTerm.displayName = I18n.t('Term created ') + created
+      newTerm.displayName = I18n.t('Programme created ') + created
     }
 
     return newTerm

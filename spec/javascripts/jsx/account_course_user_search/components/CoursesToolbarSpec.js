@@ -36,28 +36,28 @@ const allTermsProps = {
     data: [
       {
         id: '1',
-        name: 'Future Term 1',
+        name: 'Future Programme 1',
         start_at: '2099-01-01',
         end_at: '3099-01-01'
       },
       {
         id: '2',
-        name: 'Future Term 2',
+        name: 'Future Programme 2',
         start_at: '2099-01-01'
       },
       {
         id: '3',
-        name: 'Active Term 1',
+        name: 'Active Programme 1',
         start_at: '1999-01-01',
         end_at: '3099-01-01'
       },
       {
         id: '4',
-        name: 'Term With No Start Or End 1'
+        name: 'Programme With No Start Or End 1'
       },
       {
         id: '5',
-        name: 'Past Term 1',
+        name: 'Past Programme 1',
         end_at: '1999-01-01'
       }
     ],
@@ -109,12 +109,12 @@ QUnit.module('CoursesToolbar', suiteHooks => {
     getOptionLabels()
 
     deepEqual(getOptionLabels(), [
-      'All Terms',
-      'Active Term 1',
-      'Term With No Start Or End 1',
-      'Future Term 1',
-      'Future Term 2',
-      'Past Term 1'
+      'All Programmes',
+      'Active Programme 1',
+      'Programme With No Start Or End 1',
+      'Future Programme 1',
+      'Future Programme 2',
+      'Past Programme 1'
     ])
   })
 

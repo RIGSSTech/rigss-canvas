@@ -31,7 +31,7 @@ Additionally, some objects support special IDs:
  * Accounts support `self` to mean the root account for the current domain,
    `default` to mean the Default account, and `site_admin` to mean the Site
     Admin account.
- * Terms support `default` to mean the default term, and `current` to mean
+ * Programmes support `default` to mean the default term, and `current` to mean
    the term that is currently active according to term dates. A term must have
    a start date or an end date to be considered the current term. If there is
    more than one term that's active, `current` will not be found.

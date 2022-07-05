@@ -138,7 +138,7 @@ describe('UploadFile', () => {
       act(() => {
         userEvent.click(unsplashTab)
       })
-      const searchInput = await waitFor(() => getByLabelText('Search Term'))
+      const searchInput = await waitFor(() => getByLabelText('Search Programme'))
       expect(searchInput).toBeVisible()
     })
 
@@ -204,7 +204,7 @@ describe('UploadFile', () => {
       act(() => {
         userEvent.click(unsplashTab)
       })
-      const searchBox = await waitFor(() => getByLabelText('Search Term'))
+      const searchBox = await waitFor(() => getByLabelText('Search Programme'))
       expect(searchBox).toBeVisible()
     })
   })

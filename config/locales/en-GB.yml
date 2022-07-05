@@ -316,7 +316,7 @@ en-GB:
     tab_sis_import: "SIS import"
     tab_statistics: Statistics
     tab_sub_accounts: Sub-accounts
-    tab_terms: Terms
+    tab_terms: Programmes
     tab_users: Users
     turnitin_pledge: "This assignment submission is my own, original work"
   account_97b34646: Account
@@ -471,18 +471,18 @@ en-GB:
   account_proficiency_ratings_saved_292d9239: "Account proficiency ratings saved"
   account_reports: 
     default: 
-      active_terms: "Active Terms"
+      active_terms: "Active Programmes"
       all_terms: "All terms"
       course_text: "For course: %{course};"
       description: 
         header: Example
       end_text: "End at: %{end_at};"
       error_text: "Failed, please report the following error code to your system administrator: ErrorReport:%{error};"
-      extra_text_term: "Term: %{term_name};"
+      extra_text_term: "Programme: %{term_name};"
       message: "%{type} report successfully generated with the following settings. Account: %{account}; %{options}"
       section_text: "For section: %{section};"
       start_text: "Start at: %{start_at};"
-      term_text: "Term: %{term_name};"
+      term_text: "Programme: %{term_name};"
     grades: 
       deleted: "Include deleted objects: true;"
       limited: "deleted objects limited by days specified;"
@@ -912,7 +912,7 @@ en-GB:
       account_reports: 
         default: 
           parameters: 
-            header: Term
+            header: Programme
     cannot_manage_account: "You are not allowed to manage account settings"
     cannot_manage_quotas: "You are not allowed to manage quota settings"
     ccp_zero_activity_csv_parameters: 
@@ -1166,7 +1166,7 @@ en-GB:
       account_reports: 
         default: 
           parameters: 
-            header: Term
+            header: Programme
     lti_report_csv_description: 
       account_reports: 
         default: 
@@ -1242,14 +1242,14 @@ en-GB:
               sections: 
                 check_box: "Sections CSV"
               terms: 
-                check_box: "Terms CSV"
+                check_box: "Programmes CSV"
               users: 
                 check_box: "Users CSV"
               xlist: 
                 check_box: "X list CSV"
             sis_default: 
               parameters: 
-                note: "*Term settings only impact Courses, Sections, Enrolments, and X list CSV files."
+                note: "*Programme settings only impact Courses, Sections, Enrolments, and X list CSV files."
     provisioning_csv_description: 
       account_reports: 
         sis_export: 
@@ -1275,14 +1275,14 @@ en-GB:
           sections: 
             check_box: "Sections CSV"
           terms: 
-            check_box: "Terms CSV"
+            check_box: "Programmes CSV"
           users: 
             check_box: "Users CSV"
           xlist: 
             check_box: "X list CSV"
         sis_default: 
           parameters: 
-            note: "*Term settings only impact courses, sections, enrolments, and X list CSV files."
+            note: "*Programme settings only impact courses, sections, enrolments, and X list CSV files."
     public_courses_csv_description: 
       account_reports: 
         default: 
@@ -1612,7 +1612,7 @@ en-GB:
       groups: Groups
       imported_items_title: "Imported items"
       sections_label: Sections
-      terms_label: Terms
+      terms_label: Programmes
       users_label: Users
     sis_batch_messages: 
       sis_batch_errors_title: "Errors that prevent importing"
@@ -1621,7 +1621,7 @@ en-GB:
       account_reports: 
         sis_export: 
           description: 
-            text: "SIS Export report: This report will export all needed files for Users, Accounts, Terms, Courses, Sections, Enrolments, Groups, Group Memberships and Cross Listings for an SIS import in their respective categories. This will only return items created or modified through SIS."
+            text: "SIS Export report: This report will export all needed files for Users, Accounts, Programmes, Courses, Sections, Enrolments, Groups, Group Memberships and Cross Listings for an SIS import in their respective categories. This will only return items created or modified through SIS."
     sis_export_csv_parameters: 
       account_reports: 
         default: 
@@ -1639,14 +1639,14 @@ en-GB:
           sections: 
             check_box: "Sections CSV"
           terms: 
-            check_box: "Terms CSV"
+            check_box: "Programmes CSV"
           users: 
             check_box: "Users CSV"
           xlist: 
             check_box: "X list CSV"
         sis_default: 
           parameters: 
-            note: "*Term settings only impact courses, sections, enrolments, and X list CSV files."
+            note: "*Programme settings only impact courses, sections, enrolments, and X list CSV files."
     sis_import: 
       add_sis_stickiness_instructions: "With this option selected, changes made through this SIS import will be processed as if they are UI changes, preventing subsequent non-overriding SIS imports from changing the fields changed here."
       add_sis_stickiness_label: "Process as UI changes"
@@ -1775,7 +1775,7 @@ en-GB:
       account_reports: 
         default: 
           parameters: 
-            header: Term
+            header: Programme
       all_terms: "All terms"
     test_ldap_dialog_title: "Test LDAP settings"
     test_ldap_result_canceled: Cancelled
@@ -1881,7 +1881,7 @@ en-GB:
   active_directory_lookup_attribute_selector_d56a326f: "Active Directory Lookup Attribute Selector"
   active_enrollments_count_report_66bc3cae: "Active Enrolments Count Report"
   active_students_e4c48a06: "Active students"
-  active_terms_83df727e: "Active Terms"
+  active_terms_83df727e: "Active Programmes"
   activerecord: 
     errors: 
       messages: 
@@ -7959,7 +7959,7 @@ en-GB:
       created_at: "Created at"
       default_view: "Default View"
       default_wiki_editing_roles: "Default Wiki Editing Roles"
-      enrollment_term_id: "Enrolment Term Id"
+      enrollment_term_id: "Enrolment Programme Id"
       grading_standard_id: "Grading standard Id"
       group_weighting_scheme: "Group Weighting Scheme"
       hide_distribution_graphs: "Hide Distribution Graphs"
@@ -8193,7 +8193,7 @@ en-GB:
       content_label: Content
       course_code: "Course code"
       details: "Please enter the details for the new course."
-      enrollment_term_id: Term
+      enrollment_term_id: Programme
       headings: 
         copy_course: "Copy %{course}"
       name: Name
@@ -8497,7 +8497,7 @@ en-GB:
         default_due_time: "Default due time"
         enable_course_paces: "Enable Course Pacing"
         enable_pace_plans: "Enable Pace Plans"
-        enrollment_term_id: Term
+        enrollment_term_id: Programme
         enrollments_from_homeroom: Enrolments
         friendly_name: "Friendly Name"
         grading_scheme: "Grading scheme"
@@ -8992,7 +8992,7 @@ en-GB:
   current_score_74777363: "current score"
   current_slack_api_key_9eba6a5: "Current Slack API Key:"
   current_state_baac9c8: "current state:"
-  current_terms_bcf31fb2: "Current Terms"
+  current_terms_bcf31fb2: "Current Programmes"
   current_theme_62e5e8cf: "Current theme"
   current_total_67bf5f72: "Current total:"
   current_volume_level_c55ab825: "Current volume level"
@@ -10656,7 +10656,7 @@ en-GB:
       delete_term_with_courses: "Cannot delete a term with active courses"
       not_unique: "SIS ID \"%{sis_source_id}\" is already in use"
   enrollment_term_7bfe840: "Enrolment term"
-  enrollment_terms_8753ec11: "Enrolment Terms"
+  enrollment_terms_8753ec11: "Enrolment Programmes"
   enrollment_type_699c944: "enrolment type"
   enrollment_types_56c15a50: "Enrolment Types"
   enrollment_types_enrollment_types_742626ce: "Enrolment types: %{enrollment_types}"
@@ -19512,7 +19512,7 @@ en-GB:
   password_8a271b1c: Password
   past_14da759a: Past
   past_collaborations_1241938f: "Past collaborations"
-  past_terms_4b6ec40e: "Past Terms"
+  past_terms_4b6ec40e: "Past Programmes"
   paste_google_meet_links_into_calendar_events_annou_2e363fc7: "Paste Google Meet links into Calendar Events, Announcements, Discussions, and anywhere you use the Rich Content Editor (RCE)"
   paste_json_26ad8050: "Paste JSON"
   paste_url_8213b83: "Paste URL"
@@ -19918,8 +19918,8 @@ en-GB:
         section_end_days_adjustment: "Section end days adjustment"
         section_name_selection: "Section name selection"
         section_start_days_adjustment: "Section start days adjustment"
-        term_end_days_adjustment: "Term end days adjustment"
-        term_start_days_adjustment: "Term start days adjustment"
+        term_end_days_adjustment: "Programme end days adjustment"
+        term_start_days_adjustment: "Programme start days adjustment"
     index: 
       author: Author
       description: Description
@@ -24807,7 +24807,7 @@ en-GB:
       groups: "Groups: %{group_count}"
       logins: "Logins: %{login_count}"
       sections: "Sections: %{section_count}"
-      terms: "Terms: %{term_count}"
+      terms: "Programmes: %{term_count}"
       user_observers: "User observers: %{user_observers_count}"
       users: "Users: %{user_count}"
     messages: 
@@ -25844,17 +25844,17 @@ en-GB:
   tenant_name_e174f404: "Tenant Name"
   tenant_name_input_area_283dfcde: "Tenant Name Input Area"
   term_41f37cae: term
-  term_42976f1c: "Term:"
-  term_created_27d27c2b: "Term created "
-  term_e1c1d390: Term
-  term_id_2e802ed1: "Term ID"
+  term_42976f1c: "Programme:"
+  term_created_27d27c2b: "Programme created "
+  term_e1c1d390: Programme
+  term_id_2e802ed1: "Programme ID"
   term_id_74b933ef: "term id"
   term_name_30eb91a: "term name"
   term_sis_7edb8ab7: "term sis"
-  term_sis_bfe0ae01: "Term SIS"
+  term_sis_bfe0ae01: "Programme SIS"
   term_sis_id_4613e944: "term sis id"
   term_start_b8c2aad1: "term start"
-  term_starting_5bd5e070: "Term starting "
+  term_starting_5bd5e070: "Programme starting "
   terms: 
     errors: 
       not_unique: "SIS ID \"%{sis_source_id}\" is already in use"
@@ -25867,15 +25867,15 @@ en-GB:
       errors: 
         submit: "Error submitting"
       links: 
-        add_new_term: "Add New Term"
+        add_new_term: "Add New Programme"
       messages: 
         classes_in_term: "You can't delete a term that still has classes in it."
         submitting: Submitting...
-      page_title: "%{account} Terms"
+      page_title: "%{account} Programmes"
       prompts: 
         delete: "Are you sure you want to delete this term?"
       titles: 
-        term_details: "Term details"
+        term_details: "Programme details"
       update_term: "Update term"
     term: 
       buttons: 
@@ -25891,12 +25891,12 @@ en-GB:
         students_can_access_from: "**Students** can access from"
         tas_can_access_from: "**TAs** can access from"
         teachers_can_access_from: "**Teachers** can access from"
-      name: "Term name:"
+      name: "Programme name:"
       sis_source_id: "SIS ID:"
-      term_runs_from: "**Term Runs** from"
+      term_runs_from: "**Programme Runs** from"
       titles: 
-        term_ends: "Term ends"
-        term_starts: "Term starts"
+        term_ends: "Programme ends"
+        term_starts: "Programme starts"
       tooltips: 
         term_ends_designers: "For designers the term ends"
         term_ends_students: "For students the term ends"
@@ -25915,9 +25915,9 @@ en-GB:
         term_start: "term start"
         unspecified: whenever
       timespan: "%{start_at} *to* %{end_at}"
-  terms_35d91184: "Terms: "
-  terms_4d979628: Terms
-  terms_not_found_terms_must_be_included_with_multi__ca2e5c25: "Terms not found. Terms must be included with multi_term_batch_mode"
+  terms_35d91184: "Programmes: "
+  terms_4d979628: Programmes
+  terms_not_found_terms_must_be_included_with_multi__ca2e5c25: "Programmes not found. Programmes must be included with multi_term_batch_mode"
   terms_of_service_attributes_not_valid_f3f9fca9: "Terms of Service attributes not valid"
   terms_of_service_f183ff7f: "Terms of Service"
   test_cluster_only_70e61c19: "Test cluster only"

@@ -37,7 +37,7 @@ module NewCourseAddCourseModal
   end
 
   def enrollment_term_select
-    fj('label:contains("Enrollment Term") input', add_course_modal)
+    fj('label:contains("Enrollment Programme") input', add_course_modal)
   end
 
   #---------------------- Actions ----------------------

@@ -118,7 +118,7 @@ describe('Notification Settings page', () => {
     const enrollmentMocks = await mockUserEnrollmentsQuery({Node: {__typename: 'User'}})
     enrollmentMocks[0].result.data.legacyNode.enrollments.forEach(e => {
       e.course.name = 'Course Name'
-      e.course.term.name = 'Term Name'
+      e.course.term.name = 'Programme Name'
       e.course.term.id = '1'
     })
 
@@ -131,7 +131,7 @@ describe('Notification Settings page', () => {
     const dropdown = await findByLabelText('Settings for')
     userEvent.click(dropdown)
 
-    const terms = await screen.findAllByText('Term Name')
+    const terms = await screen.findAllByText('Programme Name')
     expect(terms.length).toEqual(1)
 
     const termNameGroupQueries = within(terms[0].parentElement)

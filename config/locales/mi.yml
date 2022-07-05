@@ -25713,7 +25713,7 @@ mi:
     errors: 
       not_unique: "SIS ID \"%{sis_source_id}\"Kei te whakamahia i tēnei wā"
     index: 
-      add_term: "Tāpiri Term"
+      add_term: "Tāpiri Programme"
       date: 
         term_end: "mutunga wā"
         term_start: "tīmata te wā "
@@ -25721,7 +25721,7 @@ mi:
       errors: 
         submit: "Hapa e tuku "
       links: 
-        add_new_term: "Tāpiri Term hou "
+        add_new_term: "Tāpiri Programme hou "
       messages: 
         classes_in_term: "E kore e taea e koe te muku i te wā e whai akomanga tonu i roto i te reira."
         submitting: "E tuku ana...."
@@ -25733,7 +25733,7 @@ mi:
       update_term: "Whakahōu wā"
     term: 
       buttons: 
-        add: "Tāpiri Term"
+        add: "Tāpiri Programme"
         update: "Whakahōu wā"
       course_count: 
         one: "1 Akoranga"
