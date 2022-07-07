@@ -449,7 +449,7 @@ YYYY-MM-DDTHH:MM:SSZ</td>
 <td>date</td>
 <td></td>
 <td>✓</td>
-<td>The date the programme starts. The format should be in ISO 8601:
+<td>The date the programme ends. The format should be in ISO 8601:
 YYYY-MM-DDTHH:MM:SSZ</td>
 </tr>
 </table>
