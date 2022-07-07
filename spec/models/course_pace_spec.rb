@@ -407,7 +407,7 @@ describe CoursePace do
       expect(result[:start_date_context]).to eq("course")
     end
 
-    it "returns course's term start if available" do
+    it "returns course's programme start if available" do
       @course.enrollment_term.update start_at: Time.zone.parse("2022-01-27")
       expect(@course_pace.start_date.to_date).to eq(Date.parse("2022-01-27"))
 
@@ -471,7 +471,7 @@ describe CoursePace do
       expect(result[:end_date_context]).to eq("course")
     end
 
-    it "returns course's term end if available" do
+    it "returns course's programme start if available" do
       @course.enrollment_term.update end_at: Time.zone.parse("2022-01-27T13:00:00")
       result = @course_pace.effective_end_date(with_context: true)
       expect(result[:end_date].to_date).to eq(Date.parse("2022-01-27"))

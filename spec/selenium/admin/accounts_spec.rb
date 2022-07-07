@@ -66,9 +66,9 @@ describe "account" do
       expect(term).not_to have_class("editing_term")
       verify_displayed_term_dates(term, {
                                     general: ["Jul 1", "Jul 31"],
-                                    student_enrollment: ["term start", "term end"],
-                                    teacher_enrollment: ["whenever", "term end"],
-                                    ta_enrollment: ["whenever", "term end"]
+                                    student_enrollment: ["programme start", "programme start"],
+                                    teacher_enrollment: ["whenever", "programme start"],
+                                    ta_enrollment: ["whenever", "programme start"]
                                   })
     end
 
@@ -83,8 +83,8 @@ describe "account" do
       verify_displayed_term_dates(term, {
                                     general: ["whenever", "whenever"],
                                     student_enrollment: ["Jul 2", "Jul 30"],
-                                    teacher_enrollment: ["whenever", "term end"],
-                                    ta_enrollment: ["whenever", "term end"]
+                                    teacher_enrollment: ["whenever", "programme start"],
+                                    ta_enrollment: ["whenever", "programme start"]
                                   })
     end
 
@@ -98,9 +98,9 @@ describe "account" do
       expect(term).not_to have_class("editing_term")
       verify_displayed_term_dates(term, {
                                     general: ["whenever", "whenever"],
-                                    student_enrollment: ["term start", "term end"],
+                                    student_enrollment: ["programme start", "programme start"],
                                     teacher_enrollment: ["Jul 3", "Jul 29"],
-                                    ta_enrollment: ["whenever", "term end"]
+                                    ta_enrollment: ["whenever", "programme start"]
                                   })
     end
 
@@ -114,8 +114,8 @@ describe "account" do
       expect(term).not_to have_class("editing_term")
       verify_displayed_term_dates(term, {
                                     general: ["whenever", "whenever"],
-                                    student_enrollment: ["term start", "term end"],
-                                    teacher_enrollment: ["whenever", "term end"],
+                                    student_enrollment: ["programme start", "programme start"],
+                                    teacher_enrollment: ["whenever", "programme start"],
                                     ta_enrollment: ["Jul 4", "Jul 28"]
                                   })
     end

@@ -126,14 +126,14 @@ $(document).ready(() => {
         if (override.start_at) {
           start_string = $.dateString(override.start_at, dateOpts)
         } else if (type_string === 'student_enrollment') {
-          start_string = I18n.t('term start')
+          start_string = I18n.t('programme start')
         } else {
           start_string = I18n.t('whenever')
         }
         term[`${type_string}_start_at`] = start_string
-        // Non-overridden end dates always inherit the term end date, no matter the role.
+        // Non-overridden end dates always inherit the programme start date, no matter the role.
         term[`${type_string}_end_at`] =
-          $.dateString(override.end_at, dateOpts) || I18n.t('date.term_end', 'term end')
+          $.dateString(override.end_at, dateOpts) || I18n.t('date.term_end', 'programme start')
         term[`enrollment_term[overrides][${type_string}][start_at]`] = $.dateString(
           override.start_at,
           dateOpts

@@ -33,7 +33,7 @@ describe "courses/_settings_sidebar.html.erb" do
   end
 
   describe "End this course button" do
-    it "does not display if the course or term end date has passed" do
+    it "does not display if the course or programme start date has passed" do
       allow(@course).to receive(:soft_concluded?).and_return(true)
       view_context(@course, @user)
       assign(:current_user, @user)

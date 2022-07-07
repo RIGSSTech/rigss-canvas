@@ -34,7 +34,7 @@ const DATE_RANGE_ERRORS = {
         return I18n.t('Due date cannot be before course start')
       },
       get term() {
-        return I18n.t('Due date cannot be before term start')
+        return I18n.t('Due date cannot be before programme start')
       }
     },
     end_range: {
@@ -45,7 +45,7 @@ const DATE_RANGE_ERRORS = {
         return I18n.t('Due date cannot be after course end')
       },
       get term() {
-        return I18n.t('Due date cannot be after term end')
+        return I18n.t('Due date cannot be after programme start')
       }
     }
   },
@@ -58,7 +58,7 @@ const DATE_RANGE_ERRORS = {
         return I18n.t('Unlock date cannot be before course start')
       },
       get term() {
-        return I18n.t('Unlock date cannot be before term start')
+        return I18n.t('Unlock date cannot be before programme start')
       }
     },
     end_range: {
@@ -84,7 +84,7 @@ const DATE_RANGE_ERRORS = {
         return I18n.t('Lock date cannot be after course end')
       },
       get term() {
-        return I18n.t('Lock date cannot be after term end')
+        return I18n.t('Lock date cannot be after programme start')
       }
     }
   }

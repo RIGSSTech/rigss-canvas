@@ -244,7 +244,7 @@ export default function CourseAvailabilityOptions({canManage, viewPastLocked, vi
         <Checkbox
           label={
             selectedApplicabilityValue === 'term'
-              ? I18n.t('Restrict students from viewing course before term start date')
+              ? I18n.t('Restrict students from viewing course before programme start date')
               : I18n.t('Restrict students from viewing course before course start date')
           }
           size="small"
@@ -258,7 +258,7 @@ export default function CourseAvailabilityOptions({canManage, viewPastLocked, vi
         <Checkbox
           label={
             selectedApplicabilityValue === 'term'
-              ? I18n.t('Restrict students from viewing course after term end date')
+              ? I18n.t('Restrict students from viewing course after programme start date')
               : I18n.t('Restrict students from viewing course after course end date')
           }
           size="small"

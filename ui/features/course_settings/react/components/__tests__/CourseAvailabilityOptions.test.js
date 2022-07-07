@@ -97,10 +97,10 @@ describe('CourseAvailabilityOptions', () => {
     ).toBeInTheDocument()
     expect(getByText('Course participation is limited to', {exact: false})).toBeInTheDocument()
     expect(
-      getByLabelText('Restrict students from viewing course before term start date')
+      getByLabelText('Restrict students from viewing course before programme start date')
     ).toBeInTheDocument()
     expect(
-      getByLabelText('Restrict students from viewing course after term end date')
+      getByLabelText('Restrict students from viewing course after programme start date')
     ).toBeInTheDocument()
   })
 
@@ -151,10 +151,10 @@ describe('CourseAvailabilityOptions', () => {
       viewFutureLocked: true
     })
     expect(
-      getByLabelText('Restrict students from viewing course before term start date')
+      getByLabelText('Restrict students from viewing course before programme start date')
     ).toBeDisabled()
     expect(
-      getByLabelText('Restrict students from viewing course after term end date')
+      getByLabelText('Restrict students from viewing course after programme start date')
     ).toBeEnabled()
   })
 
@@ -163,10 +163,10 @@ describe('CourseAvailabilityOptions', () => {
       viewPastLocked: true
     })
     expect(
-      getByLabelText('Restrict students from viewing course after term end date')
+      getByLabelText('Restrict students from viewing course after programme start date')
     ).toBeDisabled()
     expect(
-      getByLabelText('Restrict students from viewing course before term start date')
+      getByLabelText('Restrict students from viewing course before programme start date')
     ).toBeEnabled()
   })
 
@@ -218,10 +218,10 @@ describe('CourseAvailabilityOptions', () => {
       course_restrict_student_past_view: 'true'
     })
     expect(
-      getByLabelText('Restrict students from viewing course before term start date').checked
+      getByLabelText('Restrict students from viewing course before programme start date').checked
     ).toBeFalsy()
     expect(
-      getByLabelText('Restrict students from viewing course after term end date').checked
+      getByLabelText('Restrict students from viewing course after programme start date').checked
     ).toBeTruthy()
   })
 

@@ -684,7 +684,7 @@ indicate an unpublished course.
 "active"
 ```
 ## Canvas.term.startAt
-returns the current course's term start date.
+returns the current course's programme start date.
 
 **Availability**: *when launched in a course that has a term with a start date*  
 

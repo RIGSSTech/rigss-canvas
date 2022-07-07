@@ -129,7 +129,7 @@ describe('ProjectedDates', () => {
   //     expect(getByTestId('coursepace-date-text').textContent).toStrictEqual('December 31, 2021')
   //   })
 
-  //   it('shows term end date text', () => {
+  //   it('shows programme start date text', () => {
   //     window.ENV.VALID_DATE_RANGE = {
   //       end_at: {date: COURSE.end_at, date_context: 'term'},
   //       start_at: {date: COURSE.start_at, date_context: 'term'}
@@ -143,8 +143,8 @@ describe('ProjectedDates', () => {
   //     const {getAllByText, getByTestId} = renderConnected(
   //       <ProjectedDates {...defaultProps} coursePace={pace} />
   //     )
-  //     expect(getAllByText('Required by term end date').length).toBeTruthy()
-  //     // expect the term end date
+  //     expect(getAllByText('Required by programme start date').length).toBeTruthy()
+  //     // expect the programme start date
   //     expect(getByTestId('coursepace-date-text').textContent).toStrictEqual('December 31, 2021')
   //   })
 

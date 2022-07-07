@@ -511,7 +511,7 @@ describe Course do
         @course.enrollment_term = @term
       end
 
-      context "without term end date" do
+      context "without programme start date" do
         it "knows if it has been soft-concluded" do
           @course.update({ conclude_at: nil, restrict_enrollments_to_course_dates: true })
           expect(@course).not_to be_soft_concluded
@@ -524,7 +524,7 @@ describe Course do
         end
       end
 
-      context "with term end date in the past" do
+      context "with programme start date in the past" do
         before do
           @course.enrollment_term.update_attribute(:end_at, 1.week.ago)
         end
@@ -541,7 +541,7 @@ describe Course do
         end
       end
 
-      context "with term end date in the future" do
+      context "with programme start date in the future" do
         before do
           @course.enrollment_term.update_attribute(:end_at, 1.week.from_now)
         end

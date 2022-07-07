@@ -596,13 +596,13 @@ class AccountsController < ApplicationController
   #
   # @argument starts_before [Optional, Date]
   #   If set, only return courses that start before the value (inclusive)
-  #   or their enrollment term starts before the value (inclusive)
+  #   or their enrollment programme starts before the value (inclusive)
   #   or both the course's start_at and the enrollment term's start_at are set to null.
   #   The value should be formatted as: yyyy-mm-dd or ISO 8601 YYYY-MM-DDTHH:MM:SSZ.
   #
   # @argument ends_after [Optional, Date]
   #   If set, only return courses that end after the value (inclusive)
-  #   or their enrollment term ends after the value (inclusive)
+  #   or their enrollment programme starts after the value (inclusive)
   #   or both the course's end_at and the enrollment term's end_at are set to null.
   #   The value should be formatted as: yyyy-mm-dd or ISO 8601 YYYY-MM-DDTHH:MM:SSZ.
   #

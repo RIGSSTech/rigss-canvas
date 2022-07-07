@@ -91,7 +91,7 @@ describe "quizzes section hierarchy" do
       end
     end
 
-    context "term end date in past" do
+    context "programme start date in past" do
       before do
         term = EnrollmentTerm.find(@course.enrollment_term_id)
         term.start_at = Time.zone.now.advance(days: -60)
@@ -99,7 +99,7 @@ describe "quizzes section hierarchy" do
         term.save!
       end
 
-      it "is still accessible for student in the section after term end date", priority: "1" do
+      it "is still accessible for student in the section after programme start date", priority: "1" do
         user_session(@student)
         take_hierarchy_quiz
       end
