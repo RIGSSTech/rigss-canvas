@@ -103,7 +103,7 @@ class TermsApiController < ApplicationController
   # @argument include[] [String, "overrides"]
   #   Array of additional information to include.
   #
-  #   "overrides":: term start/end dates overridden for different enrollment types
+  #   "overrides":: programme start/end dates overridden for different enrollment types
   #
   # @example_request
   #   curl -H 'Authorization: Bearer <token>' \

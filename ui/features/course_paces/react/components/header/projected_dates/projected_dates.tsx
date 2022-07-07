@@ -104,7 +104,7 @@ export const ProjectedDates: React.FC<ComponentProps> = ({
       ) {
         return ENV.VALID_DATE_RANGE.start_at.date_context === 'course'
           ? I18n.t('Date is before the course start date')
-          : I18n.t('Date is before the term start date')
+          : I18n.t('Date is before the programme start date')
       }
 
       if (
@@ -122,7 +122,7 @@ export const ProjectedDates: React.FC<ComponentProps> = ({
       ) {
         return ENV.VALID_DATE_RANGE.start_at.date_context === 'course'
           ? I18n.t('Date is after the course end date')
-          : I18n.t('Date is after the term end date')
+          : I18n.t('Date is after the programme start date')
       }
     },
     [coursePace.end_date, coursePace.hard_end_dates, coursePace.start_date]
@@ -176,7 +176,7 @@ export const ProjectedDates: React.FC<ComponentProps> = ({
     if (ENV.VALID_DATE_RANGE.end_at.date_context === 'course') {
       endHelpText = I18n.t('Required by course end date')
     } else {
-      endHelpText = I18n.t('Required by term end date')
+      endHelpText = I18n.t('Required by programme start date')
     }
     endDateInteraction = 'readonly'
   } else {

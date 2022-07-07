@@ -54,7 +54,7 @@ describe('ProjectedDates', () => {
     expect(getByText('Dates shown in course time zone')).toBeInTheDocument()
   })
 
-  it('shows term start and end date when given', () => {
+  it('shows programme start and end date when given', () => {
     const cpace = {...defaultProps.coursePace, start_date_context: 'term', end_date_context: 'term'}
     const {getByText} = renderConnected(<ProjectedDates {...defaultProps} coursePace={cpace} />)
 

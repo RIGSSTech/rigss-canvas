@@ -441,7 +441,7 @@ When set, all columns except term_id, status, start_date, and end_date will be i
 <td>date</td>
 <td></td>
 <td>✓</td>
-<td>The date the term starts. The format should be in ISO 8601:
+<td>The date the programme starts. The format should be in ISO 8601:
 YYYY-MM-DDTHH:MM:SSZ</td>
 </tr>
 <tr>
@@ -449,7 +449,7 @@ YYYY-MM-DDTHH:MM:SSZ</td>
 <td>date</td>
 <td></td>
 <td>✓</td>
-<td>The date the term ends. The format should be in ISO 8601:
+<td>The date the programme starts. The format should be in ISO 8601:
 YYYY-MM-DDTHH:MM:SSZ</td>
 </tr>
 </table>
@@ -585,8 +585,8 @@ To remove the Blueprint Course link you can pass 'dissociate' in place of the id
 </tr>
 </table>
 
-<p>If the start_date is set, it will override the term start date. If the end_date is set, it will
-override the term end date.</p>
+<p>If the start_date is set, it will override the programme start date. If the end_date is set, it will
+override the programme start date.</p>
 
 Sample:
 
@@ -660,8 +660,8 @@ interface, this is called the SIS ID.</td>
 </tr>
 </table>
 
-<p>If the start_date is set, it will override the course and term start dates. If the end_date is
-set, it will override the course and term end dates.</p>
+<p>If the start_date is set, it will override the course and programme start dates. If the end_date is
+set, it will override the course and programme start dates.</p>
 
 Sample:
 

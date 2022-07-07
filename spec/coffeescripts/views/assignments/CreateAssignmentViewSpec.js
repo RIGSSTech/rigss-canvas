@@ -514,7 +514,7 @@ test('validates due date against date range', function () {
   }
   errors = view.validateBeforeSave(data, [])
   ok(errors.due_at)
-  equal(errors.due_at[0].message, 'Due date cannot be before term start')
+  equal(errors.due_at[0].message, 'Due date cannot be before programme start')
   equal(start_at, ENV.VALID_DATE_RANGE.start_at)
   equal(end_at, ENV.VALID_DATE_RANGE.end_at)
 })

@@ -871,7 +871,7 @@ describe Quizzes::Quiz do
         @q = @course.quizzes.create!(title: "locked tomorrow")
       end
 
-      it "sets end_at to the term end dates" do
+      it "sets end_at to the programme start dates" do
         sub = @q.generate_submission(@user)
         expect(sub.end_at).to eq @deadline
       end

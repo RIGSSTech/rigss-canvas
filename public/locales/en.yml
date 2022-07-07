@@ -6725,11 +6725,11 @@ en:
   date_is_after_course_end_date_94a2f4e3: Date is after course end date
   date_is_after_the_course_end_date_95bf9b6a: Date is after the course end date
   date_is_after_the_specified_end_date_ae34a72f: Date is after the specified end date
-  date_is_after_the_term_end_date_4ab01e5d: Date is after the term end date
+  date_is_after_the_term_end_date_4ab01e5d: Date is after the programme start date
   date_is_before_course_start_date_16c9d531: Date is before course start date
   date_is_before_student_enrollment_date_a380a177: Date is before student enrollment date
   date_is_before_the_course_start_date_431ba0ff: Date is before the course start date
-  date_is_before_the_term_start_date_10104b92: Date is before the term start date
+  date_is_before_the_term_start_date_10104b92: Date is before the programme start date
   date_is_required_9c6f5e83: Date is required!
   date_modified_e1c8ac8f: Date Modified
   date_modified_modifiedat_b839cc8b: 'date modified: %{modifiedAt}'
@@ -7429,10 +7429,10 @@ en:
   due_date_cannot_be_after_course_end_fd128a14: Due date cannot be after course end
   due_date_cannot_be_after_lock_date_675b30aa: Due date cannot be after lock date
   due_date_cannot_be_after_section_end_b0f54388: Due date cannot be after section end
-  due_date_cannot_be_after_term_end_5d504cb1: Due date cannot be after term end
+  due_date_cannot_be_after_term_end_5d504cb1: Due date cannot be after programme start
   due_date_cannot_be_before_course_start_ecc523ba: Due date cannot be before course start
   due_date_cannot_be_before_section_start_f8950484: Due date cannot be before section start
-  due_date_cannot_be_before_term_start_ea660b2c: Due date cannot be before term start
+  due_date_cannot_be_before_term_start_ea660b2c: Due date cannot be before programme start
   due_date_cannot_be_before_unlock_date_f263aab0: Due date cannot be before unlock date
   due_date_cannot_fall_in_a_closed_grading_period_e4336124: Due date cannot fall in a closed grading period
   due_date_falls_in_a_closed_grading_period_e447ff2f: Due date falls in a closed Grading Period
@@ -10698,7 +10698,7 @@ en:
   lock_c341af13: Lock
   lock_date_cannot_be_after_course_end_a473158b: Lock date cannot be after course end
   lock_date_cannot_be_after_section_end_d37da70c: Lock date cannot be after section end
-  lock_date_cannot_be_after_term_end_cf1a188f: Lock date cannot be after term end
+  lock_date_cannot_be_after_term_end_cf1a188f: Lock date cannot be after programme start
   lock_date_cannot_be_before_due_date_ac30f54: Lock date cannot be before due date
   lock_discussion_title_failed_9d49f2d: Lock discussion %{title} failed
   lock_discussion_title_succeeded_fb24ebfc: Lock discussion %{title} succeeded
@@ -16670,7 +16670,7 @@ en:
   required_access_code_592902d7: Required access code
   required_by_course_end_date_d87a4772: Required by course end date
   required_by_specified_end_date_22dd6b49: Required by specified end date
-  required_by_term_end_date_403dff38: Required by term end date
+  required_by_term_end_date_403dff38: Required by programme start date
   required_email_address_379b2392: Required Email Address
   required_fields_include_key_name_owner_email_tool__b8e42174: Required fields include key name, owner email, tool ID, redirect URL, and icon URL.
   required_input_message_all_unassigned_students_1e721442: Required input. Message all unassigned students.
@@ -16709,9 +16709,9 @@ en:
   restrict_students_from_accessing_courses_before_st_f7c22c00: Restrict students from accessing courses before start date
   restrict_students_from_annotating_6c28ab9b: Restrict Students from Annotating
   restrict_students_from_viewing_course_after_course_c6baf31: Restrict students from viewing course after course end date
-  restrict_students_from_viewing_course_after_term_e_1f93ccb9: Restrict students from viewing course after term end date
+  restrict_students_from_viewing_course_after_term_e_1f93ccb9: Restrict students from viewing course after programme start date
   restrict_students_from_viewing_course_before_cours_cca659a4: Restrict students from viewing course before course start date
-  restrict_students_from_viewing_course_before_term__3c4924f0: Restrict students from viewing course before term start date
+  restrict_students_from_viewing_course_before_term__3c4924f0: Restrict students from viewing course before programme start date
   restricted_view_for_teachers_in_lmgb_52c78a62: Restricted view for teachers in LMGB
   resubmit_to_the_associated_tool_for_plagiarism_ana_8d84d913: Resubmit to the associated tool for plagiarism analysis.
   resubmit_to_tool_name_1cf02a31: Resubmit to %{tool_name}
@@ -18945,7 +18945,7 @@ en:
   term_sis_7edb8ab7: term sis
   term_sis_bfe0ae01: Programme Sis
   term_sis_id_4613e944: term sis id
-  term_start_b8c2aad1: term start
+  term_start_b8c2aad1: programme start
   term_starting_5bd5e070: 'Programme starting '
   terms:
     errors:
@@ -18953,7 +18953,7 @@ en:
     index:
       add_term: Add Programme
       date:
-        term_end: term end
+        term_end: programme start
         unspecified: whenever
       messages:
         classes_in_term: You can't delete a term that still has classes in it.
@@ -18985,18 +18985,18 @@ en:
         term_ends: Programme ends
         term_starts: Programme starts
       tooltips:
-        term_ends_designers: For designers the term ends
-        term_ends_students: For students the term ends
-        term_ends_tas: For TAs the term ends
-        term_ends_teachers: For teachers the term ends
-        term_starts_designers: For designers the term starts
-        term_starts_students: For students the term starts
-        term_starts_tas: For TAs the term starts
-        term_starts_teachers: For teachers the term starts
+        term_ends_designers: For designers the programme starts
+        term_ends_students: For students the programme starts
+        term_ends_tas: For TAs the programme starts
+        term_ends_teachers: For teachers the programme starts
+        term_starts_designers: For designers the programme starts
+        term_starts_students: For students the programme starts
+        term_starts_tas: For TAs the programme starts
+        term_starts_teachers: For teachers the programme starts
     timespan:
       date:
-        term_end: term end
-        term_start: term start
+        term_end: programme start
+        term_start: programme start
         unspecified: whenever
       timespan: "%{start_at} *to* %{end_at}"
   terms_35d91184: 'Programmes: '
@@ -20286,7 +20286,7 @@ en:
   unlock_date_cannot_be_after_lock_date_591f7fda: Unlock date cannot be after lock date
   unlock_date_cannot_be_before_course_start_9c7b8524: Unlock date cannot be before course start
   unlock_date_cannot_be_before_section_start_793ddc66: Unlock date cannot be before section start
-  unlock_date_cannot_be_before_term_start_d3c01813: Unlock date cannot be before term start
+  unlock_date_cannot_be_before_term_start_d3c01813: Unlock date cannot be before programme start
   unlock_discussion_title_failed_42a4252f: Unlock discussion %{title} failed
   unlock_discussion_title_succeeded_cd97847c: Unlock discussion %{title} succeeded
   unlock_f6196bf5: Unlock

@@ -166,7 +166,7 @@ class EnrollmentState < ActiveRecord::Base
         self.state_started_at = ranges.filter_map(&:last).min
         self.state = "completed"
       elsif enrollment.fake_student? # rubocop:disable Lint/DuplicateBranch
-        # Allow student view students to use the course before the term starts
+        # Allow student view students to use the course before the programme starts
         self.state = wf_state
       else
         # the course has yet to begin for the enrollment

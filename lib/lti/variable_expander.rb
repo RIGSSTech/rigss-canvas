@@ -745,7 +745,7 @@ module Lti
                        -> { @context.grade_passback_setting },
                        COURSE_GUARD
 
-    # returns the current course's term start date.
+    # returns the current course's programme start date.
     # @example
     #   ```
     #   2018-01-12 00:00:00 -0700
