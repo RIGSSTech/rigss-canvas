@@ -25902,10 +25902,10 @@ en-AU:
         term_ends: "Programme ends"
         term_starts: "Programme starts"
       tooltips: 
-        term_ends_designers: "For designers the programme starts"
-        term_ends_students: "For students the programme starts"
-        term_ends_tas: "For TAs the programme starts"
-        term_ends_teachers: "For teachers the programme starts"
+        term_ends_designers: "For designers the programme ends"
+        term_ends_students: "For students the programme ends"
+        term_ends_tas: "For TAs the programme ends"
+        term_ends_teachers: "For teachers the programme ends"
         term_starts_designers: "For designers the programme starts"
         term_starts_students: "For students the programme starts"
         term_starts_tas: "For TAs the programme starts"
@@ -25915,7 +25915,7 @@ en-AU:
         other: "%{count} Users"
     timespan: 
       date: 
-        term_end: "programme start"
+        term_end: "programme end"
         term_start: "programme start"
         unspecified: whenever
       timespan: "%{start_at} *to* %{end_at}"
