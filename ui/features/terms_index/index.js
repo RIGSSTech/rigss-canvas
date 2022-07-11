@@ -83,7 +83,7 @@ $(document).ready(() => {
     const url = $term.find('.enrollment_term_form').attr('action')
     return $term.confirmDelete({
       url,
-      message: I18n.t('prompts.delete', 'Are you sure you want to delete this term?'),
+      message: I18n.t('prompts.delete', 'Are you sure you want to delete this programme?'),
       success() {
         $(this).fadeOut(function() {
           $(this).remove()
