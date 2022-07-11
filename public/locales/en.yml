@@ -18960,7 +18960,7 @@ en:
         submitting: Submitting...
       page_title: "%{account} Programmes"
       prompts:
-        delete: Are you sure you want to delete this term?
+        delete: Are you sure you want to delete this programme?
       titles:
         term_details: Programme Details
       update_term: Update Programme
